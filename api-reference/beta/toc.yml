@@ -9075,18 +9075,6 @@
             items:
             - name: Overview
               href: resources/graph-create-content.md
-            - name: Set up environment
-              href: resources/graph-set-up.md
-            - name: Author content
-              href: resources/graph-author-content.md
-            - name: Update TOC
-              href: resources/graph-update-toc.md
-            - name: Update change log
-              href: resources/graph-update-changelog.md
-            - name: Perform technical review
-              href: resources/graph-tech-review.md
-            - name: Publish
-              href: resources/graph-publish.md
           - name: Working with GitHub
             href: resources/graph-manage-docs.md
           - name: Run stub generator
@@ -9099,32 +9087,10 @@
             items:
             - name: Overview
               href: resources/graph-update-content.md
-            - name: Set up environment
-              href: resources/graph-set-up.md
-            - name: Add/Update an API
-              href: resources/graph-update-api.md
-            - name: Add properties
-              href: resources/graph-add-properties.md
-            - name: Update TOC
-              href: resources/graph-update-toc.md
-            - name: Update change log
-              href: resources/graph-update-changelog.md
-            - name: Perform technical review
-              href: resources/graph-tech-review.md
-            - name: Publish
-              href: resources/graph-publish.md 
           - name: Migrate from beta to v1.0
             items:
             - name: Overview
               href: resources/graph-migrate-content.md
-            - name: Collect and update content
-              href: resources/graph-migrate-update.md
-            - name: Update TOC
-              href: resources/graph-update-toc.md
-            - name: Update change log
-              href: resources/graph-update-changelog.md
-            - name: Publish
-              href: resources/graph-publish.md
       - name: Trust Framework Keyset
         href: resources/trustframeworkkeyset.md
         items:
