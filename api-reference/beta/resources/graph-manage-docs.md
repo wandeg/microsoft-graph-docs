@@ -17,8 +17,6 @@ To contribute or edit content, you create a new branch from the Microsoft Graph 
 
 Most of the information in the sections of this article can be found in [**GitHub Help**](http://help.github.com/) articles.
 
-Before you can contribute to the Microsoft Graph repository, you must [set up your environment to use GitHub](graph-set-up.md).
-
 ## Create a new branch
 
 1. Open your git console.
