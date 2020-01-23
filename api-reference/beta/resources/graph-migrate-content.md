@@ -9,7 +9,7 @@ doc_type: resourcePageType
 
 # Migrate API documentation from beta to v1.0
 
-All of the following sets of steps are required if you are migrating APIs from beta to v1.0:
+The following sections provide optional and required documentation steps when migrating APIs from beta to v1.0:
 
 - [Set up environment](#set-up-environment)
 - [Collect and update content](#collect-and-update-content)
