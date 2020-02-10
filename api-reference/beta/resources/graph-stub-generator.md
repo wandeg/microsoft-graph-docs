@@ -9,18 +9,25 @@ doc_type: resourcePageType
 
 # Use the Microsoft Graph REST API docs stub generator
 
-Microsoft Graph uses CSDL (and XML format) for defining its API surface. This topic provides instructions to take that XML CSDL file and generate API and resource stub reference docs. This process does not account for the descriptions/information already available in the beta and v1.0 documentation, or any description annotations you might have in the CSDL for your types and properties. 
+Microsoft Graph uses CSDL (and XML format) for defining its API. This topic provides instructions to take a copy of the Microsoft Graph CSDL metadata file and generate stub reference topics for API methods and resources. The CSDL metadata should at minimum define the APIs that you intend to add to Microsoft Graph. 
+
+Stub reference topics are output in a local folder that you specify. They are skeletal topics with minimal, generic descriptions. They do not include content that has been manually inserted and published, nor any of the annotations in the CSDL metadata file.
 
 ## Scenario and usage
 
-If a new API/resource has been introduced to your workload **or** a large scale update needs to be made to existing API docs (where overwriting the existing docs is preferred over updating them), this is the tool for you. If you have a small change to be made (e.g., updating descriptions, adding scopes, adding examples, etc.), you don't need to use this tool.
+You should use the stub generator in the following scenarios:
+
+- If a new API or resource has been introduced to your workload.
+- If you're adding multiple properties to an existing resource, you can save time by copying the generated JSON representation of the new properties to the existing topic of the corresponding parent resource.
+- A large scale update needs to be made to existing API docs (where overwriting the existing docs is preferred over updating them). Extreme care should be taken when using this scenario.
+
+If you have a small change to be made (e.g., updating descriptions, adding scopes, adding examples, etc.), you don't need to use the stub generator scripts.
 
 ### Workflow
 
-1. Use the edmx2json script to translate the Microsoft Graph CSDL to intermediary JSON
-2. Use the json2md script to translate the intermediary JSON to Markdown
-3. Edit the files you are interested in (add descriptions, examples, etc.) and move those files into the appropriate places in your copy of the [Microsoft Graph Docs repository](https://github.com/microsoftgraph/microsoft-graph-docs). Note that depending on which CSDL you used in the first step, the tool may have generated stubs for docs that are already there and/or aren't relevant to the update you're making. These can be ignored.
-4. Send a pull request to the Microsoft Graph Docs repository.
+1. Use the edmx2json script to translate the Microsoft Graph CSDL to intermediary JSON.
+2. Use the json2md script to translate the intermediary JSON to Markdown.
+3. Copy the markdown files that you need to the appropriate folders in the GitHub branch that you created.
 
 ## Pre-requisites to run this tool
 
@@ -32,21 +39,19 @@ If a new API/resource has been introduced to your workload **or** a large scale 
 
 ### Install activesupport gem
 
-This is a set of libraries and extensions required to parse XML file. 
-To get to the site to install activesupport, type `gem install activesupport` on the command line.
+Activesupport a set of libraries and extensions required to parse an XML file. To get to the site to install activesupport, type `gem install activesupport` on the command line.
 
+## Script setup
 
-## Tool setup
-
-1. Download the [stub generator repository](https://microsoftgraph.visualstudio.com/Home/_git/microsoft-graph-docs-stubGenerator) using the **Download as Zip** button, or clone the repository using the **Clone** button. The ZIP option requires less setup, but the **Clone** option makes it easier to update if changes are made to the tool. If you already have a ZIP copy, please discard and fork fresh to get latest updates.
+1. Download the [stub generator repository](https://microsoftgraph.visualstudio.com/Home/_git/microsoft-graph-docs-stubGenerator) using the **Download as Zip** button, or clone the repository using the **Clone** button. The ZIP option requires less setup, but the **Clone** option makes it easier to update if changes are made to the scripts. If you already have a ZIP copy, please discard and fork fresh to get latest updates.
 2. Open a shell/command prompt to the root of this project, then change directory to the `./lib` folder.
 3. Run `ruby edmx2json.rb -h` to verify everything is setup properly.
 
-## Using the tool
+## Run the scripts
 
 1. Run `ruby edmx2json.rb` command to generate the intermediary JSON files. This takes between 1 to 15 minutes (depending on the size of the CSDL file) to complete.
 
-While the tool *could* be used on your service endpoint's CSDL definition, it's preferable and more reliable to run the tool against the Microsoft Graph exposed CSDL. You can run this against a Canary test version for example like https://canary.graph.microsoft.com/{yourTestVersion}/$metadata.
+    While the scripts *could* be used on your service endpoint's CSDL definition, it's preferable and more reliable to run the scripts against the Microsoft Graph exposed CSDL. You can run this against a Canary test version for example like https://canary.graph.microsoft.com/{yourTestVersion}/$metadata.
 
     ```Shell
     Usage: edmx2json [options]
@@ -65,17 +70,8 @@ While the tool *could* be used on your service endpoint's CSDL definition, it's 
         -h, --help                       Prints this help.
     ```
 
-1. Find your Markdown templates in the `./markdown/{version}` folder.
-1. If you need to re-run the tool, be aware that it overwrites output, so copy any files you want to save before re-running.
-
-## Edit stub files
-
-The output of this tool is not intended to be "publish-ready". These files should be considered stubs, and will require some editing before they are ready to publish. Some things to check:
-
-- **Descriptions**: generated descriptions are typically terse if they exist. In some cases, no description can be generated automatically, and instead a placeholder is inserted (`PROVIDE DESCRIPTION HERE`).
-- **Permissions**: Permissions are not currently in the metadata, so the permissions tables are not accurate. Be sure to add the appropriate permission scopes.
-- **Optional query parameters**: All list and get API topics get this section added with standard boilerplate. If your API doesn't support OData query parameters like `$select`, update the boilerplate text to state that the API does not support query parameters. If you support a subset, or there are other considerations (limited support, etc.), be sure to add information in this section to communicate what is and isn't supported.
-- **Examples**: Be sure to add relevant and useful examples.
+1. Find your Markdown stub files in the `./markdown/{version}` folder.
+1. If you need to run the scripts again, be aware that output is overwritten, so copy any files you want to save before running again.
 
 ### Things to avoid
 

@@ -9,13 +9,9 @@ doc_type: resourcePageType
 
 # Contribute content to the Microsoft Graph repository
 
-To contribute or edit content, you create a new branch from the Microsoft Graph repository. The following types of contribution are appropriate for a new branch:
+To contribute to or edit content, you create a new branch from the Microsoft Graph repository. Do not use a fork because it adds complexity in the content review stage.
 
-- New articles (and associated images)
-- Spelling and grammar edits on articles
-- Applying formatting changes across a large set of articles (e.g., applying a new copyright footer)
-
-Most of the information in the sections of this article can be found in [**GitHub Help**](http://help.github.com/) articles.
+Most of the information in the sections of this topic can be found in [**GitHub Help**](http://help.github.com/) articles.
 
 ## Create a new branch
 
