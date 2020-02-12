@@ -123,7 +123,7 @@ Content-type: application/json
 }
 ```
 
-### Example 2: Get a transitive list of groups with a specific display name
+### Example 2: Get a transitive list of groups with a specific display name including the count of returned objects 
 
 #### Request
 
@@ -131,7 +131,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_group_transitivemembers"
+  "name": "get_group_transitivemembers_count"
 }-->
 
 ```msgraph-interactive

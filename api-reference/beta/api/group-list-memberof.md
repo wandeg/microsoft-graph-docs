@@ -136,7 +136,8 @@ Content-type: application/json
 ConsistencyLevel: eventual
 
 {
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#directoryObjects","@odata.count":100,
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#directoryObjects",
+  "@odata.count":100,
   "value": [
     {
       "id": "id-value"

@@ -143,7 +143,8 @@ Content-type: application/json
 ConsistencyLevel: eventual
 
 {
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#directoryObjects","@odata.count":100,
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#directoryObjects",
+  "@odata.count":100,
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",

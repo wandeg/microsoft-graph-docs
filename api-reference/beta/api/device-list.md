@@ -141,7 +141,7 @@ Content-type: application/json
 ConsistencyLevel: eventual
 
 {
-  {"@odata.context":"https://graph.microsoft.com/beta/$metadata#devices",
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#devices",
   "@odata.count":100,
   "value": [
     {

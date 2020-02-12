@@ -255,7 +255,7 @@ The following is an example of the request.
   "name": "get_users_count"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/users
+GET https://graph.microsoft.com/beta/users?$count=true
 ```
 
 ##### Response

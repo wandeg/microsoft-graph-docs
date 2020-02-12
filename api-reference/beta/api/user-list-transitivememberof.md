@@ -112,7 +112,7 @@ Content-type: application/json
 }
 ```
 
-### Example 2: Get groups, directory roles and administrative units that the user is a member of including the count of objects
+### Example 2: Get groups, directory roles and administrative units that the user is a member of including the count of returned objects
 
 #### Request
 
