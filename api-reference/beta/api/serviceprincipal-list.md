@@ -3,8 +3,8 @@ title: "List servicePrincipals"
 description: "Retrieve a list of servicePrincipal objects."
 localization_priority: Normal
 doc_type: apiPageType
-ms.prod: ""
-author: ""
+ms.prod: "microsoft-identity-platform"
+author: "davidmu1"
 ---
 
 # List servicePrincipals
@@ -40,7 +40,7 @@ This method supports the [OData Query Parameters](https://developer.microsoft.co
 | Name | Description |
 |:---- |:----------- |
 | Authorization | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
 
