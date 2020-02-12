@@ -135,7 +135,7 @@ The following is an example of the request.
 }-->
 
 ```msgraph-interactive
-https://graph.microsoft.com/beta/groups/{id}/transitiveMembers/$/Microsoft.Graph.Group?$filter=startswith(displayName,'Contoso')&$count=true&$select=displayName, id 
+GET https://graph.microsoft.com/beta/groups/{id}/transitiveMembers/$/Microsoft.Graph.Group?$filter=startswith(displayName,'Contoso')&$count=true&$select=displayName, id 
 ```
 
 #### Response

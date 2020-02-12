@@ -168,7 +168,7 @@ Here is an example of the request.
   "name": "list_application"
 }-->
 ```msgraph-interactive
-https://graph.microsoft.com/beta/applications?$count=true
+GET https://graph.microsoft.com/beta/applications?$count=true
 ```
 
 #### Response
