@@ -17,38 +17,48 @@ Get a list of the group's direct members. A group can have users, contacts, devi
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadBasic.All, User.Read.All, Group.Read.All, Directory.Read.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.Read.All, Directory.Read.All |
+| Permission type | Permissions (from least to most privileged) |
+|:--------------- |:------------------------------------------- |
+| Delegated (work or school account) | User.ReadBasic.All, User.Read.All, Group.Read.All, Directory.Read.All |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | Group.Read.All, Directory.Read.All |
 
 > Note: To list the members of a hidden membership group, the Member.Read.Hidden permission is required.
 
 [!INCLUDE [limited-info](../../includes/limited-info.md)]
  
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /groups/{id}/members
 ```
 
 ## Optional query parameters
-This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response.
+
+This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
+
+| Name | Description |
+|:---- |:----------- |
+| Authorization | Bearer {token}. Required. |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
+
 If successful, this method returns a `200 OK` response code and collection of [directoryObject](../resources/directoryobject.md) objects in the response body.
 
-## Example
+## Examples
+
+### Example 1: Get a list of the group's direct members
+
 #### Request
+
 The following is an example of the request.
 
 # [HTTP](#tab/http)
@@ -73,8 +83,8 @@ GET https://graph.microsoft.com/beta/groups/{id}/members
 
 ---
 
-
 #### Response
+
 The following is an example of the response.
 >**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
 <!-- {
@@ -104,6 +114,57 @@ Content-type: application/json
       "surname": "surname-value",
       "userPrincipalName": "userPrincipalName-value",
       "id": "id-value"
+    }
+  ]
+}
+```
+
+### Example 2: Get a list of groups with a specific display name
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_group_transitivemembers"
+}-->
+
+```msgraph-interactive
+https://graph.microsoft.com/beta/groups/{id}/members/$/Microsoft.Graph.Group?$filter=startswith(displayName,'Contoso')&$count=true&$select=displayName, id 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.directoryObject",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#groups(displayName,id)",
+  "@odata.count":3,
+  "value":[
+    {
+      "displayName":"Contoso 1",
+      "id":"id-value"
+    },
+    {
+      "displayName":"Contoso 2",
+      "id":"id-value"
+    },
+    {
+      "displayName":"Contoso 3",
+      "id":"id-value"
     }
   ]
 }

@@ -33,12 +33,13 @@ GET /users
 
 ## Optional query parameters
 
-This method supports the [OData query parameters](/graph/query-parameters) to help customize the response.
+This method supports the [OData query parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
 | Header        | Value                      |
 |:--------------|:---------------------------|
 | Authorization | Bearer {token} (required)  |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search`or `$count` query parameter. |
 
 ## Request body
 
@@ -48,7 +49,7 @@ Do not supply a request body for this method.
 
 If successful, this method returns a `200 OK` response code and collection of [user](../resources/user.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Example 1: List all users
 

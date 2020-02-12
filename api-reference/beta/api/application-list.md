@@ -14,36 +14,47 @@ doc_type: apiPageType
 Get the list of [applications](../resources/application.md) in this organization.
 
 ## Permissions
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.ReadWrite.All, Directory.Read.All |
+| Permission type | Permissions (from least to most privileged) |
+|:--------------- |:------------------------------------------- |
+| Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | Application.ReadWrite.All, Directory.Read.All |
 
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /applications
 ```
 ## Optional query parameters
-This method supports the [OData query parameters](/graph/query-parameters) to help customize the response.
+
+This method supports the [OData query parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer {token}. Required.  |
+
+| Name | Description |
+|:---- |:----------- |
+| Authorization  | Bearer {token}. Required.  |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
 
 If successful, this method returns a `200 OK` response code and a collection of [application](../resources/application.md) objects in the response body.
+
 ## Examples
-### Request
+
+### Example 1: Get the list of applications
+
+#### Request
+
 Here is an example of the request.
 
 # [HTTP](#tab/http)
@@ -68,10 +79,11 @@ GET https://graph.microsoft.com/beta/applications
 
 ---
 
-### Response
-Here is an example of the response. 
+#### Response
 
+Here is an example of the response.
 > **Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -81,68 +93,161 @@ Here is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-Content-length: 1229
 
 {
-    "@odata.context": "https://graph.microsoft.com/beta/$metadata#applications",
-    "value": [
-        {
-            "id": "00af5dfb-85da-4b41-a677-0c6b86dd34f8",
-            "deletedDateTime": null,
-            "isFallbackPublicClient": false,
-            "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
-            "applicationTemplateId": null,
-            "identifierUris": [
-                "http://contoso/a7770d29-4321-41a6-b863-ca11d6639448"
-            ],
-            "createdDateTime": "2019-09-15T05:23:08Z",
-            "displayName": "My app",
-            "isDeviceOnlyAuthSupported": null,
-            "groupMembershipClaims": null,
-            "optionalClaims": null,
-            "orgRestrictions": [],
-            "publisherDomain": "contoso.onmicrosoft.com",
-            "signInAudience": "AzureADMyOrg",
-            "tags": [],
-            "tokenEncryptionKeyId": null,
-            "api": {
-                "requestedAccessTokenVersion": null,
-                "acceptMappedClaims": null,
-                "knownClientApplications": [],
-                "oauth2PermissionScopes": [],
-                "preAuthorizedApplications": []
-            },
-            "appRoles": [],
-            "publicClient": {
-                "redirectUris": []
-            },
-            "info": {
-                "termsOfServiceUrl": null,
-                "supportUrl": null,
-                "privacyStatementUrl": null,
-                "marketingUrl": null,
-                "logoUrl": null
-            },
-            "keyCredentials": [],
-            "parentalControlSettings": {
-                "countriesBlockedForMinors": [],
-                "legalAgeGroupRule": "Allow"
-            },
-            "passwordCredentials": [],
-            "requiredResourceAccess": [],
-            "web": {
-                "redirectUris": [
-                    "https://127.0.0.1:444/applications/default.aspx"
-                ],
-                "homePageUrl": "http://www.contoso.com/landingPage",
-                "logoutUrl": null,
-                "implicitGrantSettings": {
-                    "enableIdTokenIssuance": true,
-                    "enableAccessTokenIssuance": false
-                }
-            }
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#applications",
+  "value": [
+    {
+      "id": "00af5dfb-85da-4b41-a677-0c6b86dd34f8",
+      "deletedDateTime": null,
+      "isFallbackPublicClient": false,
+      "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
+      "applicationTemplateId": null,
+      "identifierUris": [
+        "http://contoso/a7770d29-4321-41a6-b863-ca11d6639448"
+      ],
+      "createdDateTime": "2019-09-15T05:23:08Z",
+      "displayName": "My app",
+      "isDeviceOnlyAuthSupported": null,
+      "groupMembershipClaims": null,
+      "optionalClaims": null,
+      "orgRestrictions": [],
+      "publisherDomain": "contoso.onmicrosoft.com",
+      "signInAudience": "AzureADMyOrg",
+      "tags": [],
+      "tokenEncryptionKeyId": null,
+      "api": {
+        "requestedAccessTokenVersion": null,
+        "acceptMappedClaims": null,
+        "knownClientApplications": [],
+        "oauth2PermissionScopes": [],
+        "preAuthorizedApplications": []
+      },
+      "appRoles": [],
+      "publicClient": {
+        "redirectUris": []
+      },
+      "info": {
+        "termsOfServiceUrl": null,
+        "supportUrl": null,
+        "privacyStatementUrl": null,
+        "marketingUrl": null,
+        "logoUrl": null
+      },
+      "keyCredentials": [],
+      "parentalControlSettings": {
+        "countriesBlockedForMinors": [],
+        "legalAgeGroupRule": "Allow"
+      },
+      "passwordCredentials": [],
+      "requiredResourceAccess": [],
+      "web": {
+        "redirectUris": [
+          "https://127.0.0.1:444/applications/default.aspx"
+        ],
+        "homePageUrl": "http://www.contoso.com/landingPage",
+        "logoutUrl": null,
+        "implicitGrantSettings": {
+          "enableIdTokenIssuance": true,
+          "enableAccessTokenIssuance": false
         }
-    ]
+      }
+    }
+  ]
+}
+```
+
+### Example 2: Get the list of applications including the count of returned objects
+
+#### Request
+
+Here is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "list_application"
+}-->
+```msgraph-interactive
+https://graph.microsoft.com/beta/applications?$count=true
+```
+
+#### Response
+
+Here is an example of the response. 
+> **Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.application",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#applications",
+  "@odata.count":100,
+  "value": [
+    {
+      "id": "00af5dfb-85da-4b41-a677-0c6b86dd34f8",
+      "deletedDateTime": null,
+      "isFallbackPublicClient": false,
+      "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
+      "applicationTemplateId": null,
+      "identifierUris": [
+        "http://contoso/a7770d29-4321-41a6-b863-ca11d6639448"
+      ],
+      "createdDateTime": "2019-09-15T05:23:08Z",
+      "displayName": "My app",
+      "isDeviceOnlyAuthSupported": null,
+      "groupMembershipClaims": null,
+      "optionalClaims": null,
+      "orgRestrictions": [],
+      "publisherDomain": "contoso.onmicrosoft.com",
+      "signInAudience": "AzureADMyOrg",
+      "tags": [],
+      "tokenEncryptionKeyId": null,
+      "api": {
+        "requestedAccessTokenVersion": null,
+        "acceptMappedClaims": null,
+        "knownClientApplications": [],
+        "oauth2PermissionScopes": [],
+        "preAuthorizedApplications": []
+      },
+      "appRoles": [],
+      "publicClient": {
+        "redirectUris": []
+      },
+      "info": {
+        "termsOfServiceUrl": null,
+        "supportUrl": null,
+        "privacyStatementUrl": null,
+        "marketingUrl": null,
+        "logoUrl": null
+      },
+      "keyCredentials": [],
+      "parentalControlSettings": {
+        "countriesBlockedForMinors": [],
+        "legalAgeGroupRule": "Allow"
+      },
+      "passwordCredentials": [],
+      "requiredResourceAccess": [],
+      "web": {
+        "redirectUris": [
+          "https://127.0.0.1:444/applications/default.aspx"
+        ],
+        "homePageUrl": "http://www.contoso.com/landingPage",
+        "logoutUrl": null,
+        "implicitGrantSettings": {
+          "enableIdTokenIssuance": true,
+          "enableAccessTokenIssuance": false
+        }
+      }
+    }
+  ]
 }
 ```
 

@@ -16,15 +16,17 @@ List all the groups in an organization, including but not limited to Office 365 
 This operation returns by default only a subset of the more commonly used properties for each group. These _default_ properties are noted in the [Properties](../resources/group.md#properties) section. To get properties that are _not_ returned by default, do a [GET operation](group-get.md) for the group and specify the properties in a `$select` OData query option. The **hasMembersWithLicenseErrors** property is an exception and is not returned in the `$select` query.
 
 ## Permissions
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All, Directory.AccessAsUser.All |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All |
+| Permission type | Permissions (from least to most privileged) |
+|:--------------- |:------------------------------------------- |
+| Delegated (work or school account) | Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All, Directory.AccessAsUser.All |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | Group.Read.All, Directory.Read.All, Group.ReadWrite.All, Directory.ReadWrite.All |
 
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /groups
@@ -44,21 +46,26 @@ values, as shown in the following example:
 ```
 GET https://graph.microsoft.com/beta/groups?$orderby=displayName
 ```
+You can also use the `$count` and `$search` query parameters to limit the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 For more information on OData query options, see [OData Query Parameters](/graph/query-parameters).
 
 ## Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
+
+| Name | Description |
+|:---- |:----------- |
+| Authorization  | Bearer {token}. Required. |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
+
 If successful, this method returns a `200 OK` response code and collection of [group](../resources/group.md) objects in the response body. The response includes only the default properties of each group.
 
-## Example
+## Examples
 
 ### Example 1: Return a list of group objects
 
@@ -88,7 +95,6 @@ GET https://graph.microsoft.com/beta/groups
 
 ---
 
-
 #### Response
 
 The following is an example of the response.
@@ -106,77 +112,75 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups",
-    "value": [
-         {
-            "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
-            "deletedDateTime": null,
-            "classification": null,
-            "createdDateTime": "2018-12-22T02:21:05Z",
-            "description": "Self help community for golf",
-            "displayName": "Golf Assist",
-            "expirationDateTime": null,
-            "groupTypes": [
-                "Unified"
-            ],
-            "mail": "golfassist@contoso.com",
-            "mailEnabled": true,
-            "mailNickname": "golfassist",
-            "membershipRule": null,
-            "membershipRuleProcessingState": null,
-            "onPremisesLastSyncDateTime": null,
-            "onPremisesSecurityIdentifier": null,
-            "onPremisesSyncEnabled": null,
-            "preferredDataLocation": "CAN",
-            "preferredLanguage": null,
-            "proxyAddresses": [
-                "smtp:golfassist@contoso.onmicrosoft.com",
-                "SMTP:golfassist@contoso.com"
-            ],
-            "renewedDateTime": "2018-12-22T02:21:05Z",
-            "resourceBehaviorOptions": [],
-            "resourceProvisioningOptions": [],
-            "securityEnabled": false,
-            "theme": null,
-            "visibility": "Public",
-            "onPremisesProvisioningErrors": []
-        },
-        {
-            "id": "d7797254-3084-44d0-99c9-a3b5ab149538",
-            "deletedDateTime": null,
-            "classification": null,
-            "createdDateTime": "2018-11-19T20:29:40Z",
-            "description": "Talk about golf",
-            "displayName": "Golf Discussion",
-            "expirationDateTime": null,
-            "groupTypes": [],
-            "mail": "golftalk@contoso.com",
-            "mailEnabled": true,
-            "mailNickname": "golftalk",
-            "membershipRule": null,
-            "membershipRuleProcessingState": null,
-            "onPremisesLastSyncDateTime": null,
-            "onPremisesSecurityIdentifier": null,
-            "onPremisesSyncEnabled": null,
-            "preferredDataLocation": "CAN",
-            "preferredLanguage": null,
-            "proxyAddresses": [
-                "smtp:golftalk@contoso.onmicrosoft.com",
-                "SMTP:golftalk@contoso.com"
-            ],
-            "renewedDateTime": "2018-11-19T20:29:40Z",
-            "resourceBehaviorOptions": [],
-            "resourceProvisioningOptions": [],
-            "securityEnabled": false,
-            "theme": null,
-            "visibility": null,
-            "onPremisesProvisioningErrors": []
-        }
-    ]
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups",
+  "value": [
+    {
+      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2018-12-22T02:21:05Z",
+      "description": "Self help community for golf",
+      "displayName": "Golf Assist",
+      "expirationDateTime": null,
+      "groupTypes": [
+        "Unified"
+      ],
+      "mail": "golfassist@contoso.com",
+      "mailEnabled": true,
+      "mailNickname": "golfassist",
+      "membershipRule": null,
+      "membershipRuleProcessingState": null,
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "preferredDataLocation": "CAN",
+      "preferredLanguage": null,
+      "proxyAddresses": [
+        "smtp:golfassist@contoso.onmicrosoft.com",
+        "SMTP:golfassist@contoso.com"
+      ],
+      "renewedDateTime": "2018-12-22T02:21:05Z",
+      "resourceBehaviorOptions": [],
+      "resourceProvisioningOptions": [],
+      "securityEnabled": false,
+      "theme": null,
+      "visibility": "Public",
+      "onPremisesProvisioningErrors": []
+    },
+    {
+      "id": "d7797254-3084-44d0-99c9-a3b5ab149538",
+      "deletedDateTime": null,
+      "classification": null,
+      "createdDateTime": "2018-11-19T20:29:40Z",
+      "description": "Talk about golf",
+      "displayName": "Golf Discussion",
+      "expirationDateTime": null,
+      "groupTypes": [],
+      "mail": "golftalk@contoso.com",
+      "mailEnabled": true,
+      "mailNickname": "golftalk",
+      "membershipRule": null,
+      "membershipRuleProcessingState": null,
+      "onPremisesLastSyncDateTime": null,
+      "onPremisesSecurityIdentifier": null,
+      "onPremisesSyncEnabled": null,
+      "preferredDataLocation": "CAN",
+      "preferredLanguage": null,
+      "proxyAddresses": [
+        "smtp:golftalk@contoso.onmicrosoft.com",
+        "SMTP:golftalk@contoso.com"
+      ],
+      "renewedDateTime": "2018-11-19T20:29:40Z",
+      "resourceBehaviorOptions": [],
+      "resourceProvisioningOptions": [],
+      "securityEnabled": false,
+      "theme": null,
+      "visibility": null,
+      "onPremisesProvisioningErrors": []
+    }
+  ]
 }
-
 ```
-
 
 ### Example 2: Return a filtered list of group objects 
 
@@ -206,7 +210,6 @@ GET https://graph.microsoft.com/beta/groups?$filter=hasMembersWithLicenseErrors+
 
 ---
 
-
 #### Response
 
 The following is an example of the response which includes only the requested properties.
@@ -223,21 +226,68 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups(id,displayName)",
-    "value": [
-        {
-            "id": "b320ee12-b1cd-4cca-b648-a437be61c5cd",
-            "displayName": "Library Assist"
-        },
-        {
-            "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
-            "displayName": "Golf Assist"
-        }
-    ]
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups(id,displayName)",
+  "value": [
+    {
+      "id": "b320ee12-b1cd-4cca-b648-a437be61c5cd",
+      "displayName": "Library Assist"
+    },
+    {
+      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
+      "displayName": "Golf Assist"
+    }
+  ]
 }
 ```
 
+### Example 3: Return a filtered list of group objects including the count of returned objects
 
+#### Request
+
+This example uses the following options
+- A `$filter` query option to get those groups that have members with license errors from their group-based license assignments.
+- A `$select` query option to get only the **id** and **displayName** properties of each group in the response, and not other default or non-default properties.
+- A `$count` query option to get the count of returned objects.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_groups_withlicenseerrors"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups?$count=true&$filter=hasMembersWithLicenseErrors+eq+true&$select=id,displayName
+```
+
+#### Response
+
+The following is an example of the response which includes only the requested properties.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.group",
+  "isCollection": true,
+  "name": "get_groups_withlicenseerrors"
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups(id,displayName)",
+  "@odata.count":2,
+  "value": [
+    {
+      "id": "b320ee12-b1cd-4cca-b648-a437be61c5cd",
+      "displayName": "Library Assist"
+    },
+    {
+      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
+      "displayName": "Golf Assist"
+    }
+  ]
+}
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--

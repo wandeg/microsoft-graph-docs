@@ -20,13 +20,14 @@ There are two scenarios where an app can get contacts in another user's contact 
 
 
 ## Permissions
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite    |
-|Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite    |
-|Application | Contacts.Read, Contacts.ReadWrite |
+|Permission type | Permissions (from least to most privileged) |
+|:-------------- |:------------------------------------------- |
+| Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite |
+| Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite |
+| Application | Contacts.Read, Contacts.ReadWrite |
 
 ## HTTP request
 
@@ -49,6 +50,7 @@ GET /me/contactFolder/{id}/childFolders/{id}/.../contacts
 GET /users/{id | userPrincipalName}/contactFolders/{id}/childFolders/{id}/contacts
 ```
 ## Optional query parameters
+
 You can use the `$filter` query parameter to filter contacts based on their email addresses:
 
 <!-- { "blockType": "ignored" } -->
@@ -58,21 +60,31 @@ GET https://graph.microsoft.com/beta/me/contacts?$filter=emailAddresses/any(a:a/
 
 Note that you can use `$filter`, `any`, and the `eq` operator on only the **address** sub-property of instances in an **emailAddresses** collection. That is, you cannot filter on the **name** or any other sub-property of an instance of **emailAddresses**, nor can you apply any other operator or function with `filter`, such as `ne`, `le`, and `startswith()`.
 
-For general information on the `$filter` query parameter, see [OData query parameters](/graph/query-parameters).
+You can also use the `$count` and `$search` query parameters to limit the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
+
+For general information on the `$filter`, `$count`, and `$search` query parameter, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
-| Header       | Value |
-|:---------------|:--------|
-| Authorization  | Bearer {token}. Required.  |
+
+| Header | Value |
+|:------ |:--------|
+| Authorization | Bearer {token}. Required. |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
 
 If successful, this method returns a `200 OK` response code and collection of [contact](../resources/contact.md) objects in the response body.
-## Example
-##### Request
+
+## Examples
+
+### Example 1: Get contacts in the user's mailbox
+
+#### Request
+
 The following example gets the **displayName** and **emailAddresses** properties of the signed-in user's contacts.
 
 # [HTTP](#tab/http)
@@ -97,10 +109,11 @@ GET https://graph.microsoft.com/beta/me/contacts?$select=displayName,emailAddres
 
 ---
 
+#### Response
 
+Here is an example of the response. 
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
 
-##### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -112,45 +125,119 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('c3e1fcd2-db78-42a8-aec5-1f2cd59abb5c')/contacts(displayName,emailAddresses)",
-    "value":[
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
+  "value":[
+    {
+      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
+      "id":"AAMkADh6v5AAAvgTCFAAA=",
+      "displayName":"Elvis Blank",
+      "emailAddresses":[
         {
-            "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
-            "id":"AAMkADh6v5AAAvgTCFAAA=",
-            "displayName":"Elvis Blank",
-            "emailAddresses":[
-                {
-                    "type":"personal",
-                    "name":"Elvis Blank",
-                    "address":"elvisb@relecloud.onmicrosoft.com"
-                },
-                {
-                    "type":"other",
-                    "otherLabel":"Volunteer work",
-                    "name":"Elvis Blank",
-                    "address":"elvisb@fabrikam.onmicrosoft.com"
-                }
-            ]
+          "type":"personal",
+          "name":"Elvis Blank",
+          "address":"elvisb@relecloud.onmicrosoft.com"
         },
         {
-            "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
-            "id":"AAMkADh6v5AAAvgTCEAAA=",
-            "displayName":"Pavel Bansky",
-            "emailAddresses":[
-                {
-                    "type":"personal",
-                    "name":"Pavel Bansky",
-                    "address":"pavelb@contoso.onmicrosoft.com"
-                },
-                {
-                    "type":"other",
-                    "otherLabel":"Volunteer work",
-                    "name":"Pavel Bansky",
-                    "address":"pavelb@fabrikam.onmicrosoft.com"
-                }
-            ]
+          "type":"other",
+          "otherLabel":"Volunteer work",
+          "name":"Elvis Blank",
+          "address":"elvisb@fabrikam.onmicrosoft.com"
         }
-    ]
+      ]
+    },
+    {
+      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
+      "id":"AAMkADh6v5AAAvgTCEAAA=",
+      "displayName":"Pavel Bansky",
+      "emailAddresses":[
+        {
+          "type":"personal",
+          "name":"Pavel Bansky",
+          "address":"pavelb@contoso.onmicrosoft.com"
+        },
+        {
+          "type":"other",
+          "otherLabel":"Volunteer work",
+          "name":"Pavel Bansky",
+          "address":"pavelb@fabrikam.onmicrosoft.com"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Example 2: Get contacts in the user's mailbox including the count of returned objects
+
+#### Request
+
+The following example gets the **displayName** and **emailAddresses** properties of the signed-in user's contacts and the nu,ber of objects returned.
+
+<!-- {
+  "blockType": "request",
+  "name": "user_get_contacts"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/me/contacts?$count=true$select=displayName,emailAddresses
+```
+
+#### Response
+
+Here is an example of the response. 
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.contact",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
+  "@odata.count":2,
+  "value":[
+    {
+      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
+      "id":"AAMkADh6v5AAAvgTCFAAA=",
+      "displayName":"Elvis Blank",
+      "emailAddresses":[
+        {
+          "type":"personal",
+          "name":"Elvis Blank",
+          "address":"elvisb@relecloud.onmicrosoft.com"
+        },
+        {
+          "type":"other",
+          "otherLabel":"Volunteer work",
+          "name":"Elvis Blank",
+          "address":"elvisb@fabrikam.onmicrosoft.com"
+        }
+      ]
+    },
+    {
+      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
+      "id":"AAMkADh6v5AAAvgTCEAAA=",
+      "displayName":"Pavel Bansky",
+      "emailAddresses":[
+        {
+          "type":"personal",
+          "name":"Pavel Bansky",
+          "address":"pavelb@contoso.onmicrosoft.com"
+        },
+        {
+          "type":"other",
+          "otherLabel":"Volunteer work",
+          "name":"Pavel Bansky",
+          "address":"pavelb@fabrikam.onmicrosoft.com"
+        }
+      ]
+    }
+  ]
 }
 ```
 

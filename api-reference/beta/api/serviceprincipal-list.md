@@ -18,11 +18,11 @@ Retrieve a list of servicePrincipal objects.
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
+| Permission type | Permissions (from least to most privileged) |
 |:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All, Application.ReadWrite.All, Directory.Read.All |
+| Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | Application.ReadWrite.All, Directory.Read.All |
 
 ## HTTP request
 
@@ -30,14 +30,17 @@ One of the following permissions is required to call this API. To learn more, in
 ```http
 GET /servicePrincipals
 ```
+
 ## Optional query parameters
 
-This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response.
+This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
+
 | Name | Description |
-|:----------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
+|:---- |:----------- |
+| Authorization | Bearer {token}. Required. |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
 
@@ -47,10 +50,11 @@ Do not supply a request body for this method.
 
 If successful, this method returns a `200 OK` response code and collection of [servicePrincipal](../resources/serviceprincipal.md) objects in the response body.
 
-## Example
+## Examples
 
-##### Request
+### Example 1: Get a list of service principal objects
 
+#### Request
 
 # [HTTP](#tab/http)
 <!-- {
@@ -74,9 +78,11 @@ GET https://graph.microsoft.com/beta/servicePrincipals
 
 ---
 
-##### Response
+#### Response
 
-Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -86,9 +92,63 @@ Note: The response object shown here may be truncated for brevity. All of the pr
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-Content-length: 488
 
 {
+  "value": [
+    {
+      "accountEnabled": true,
+      "addIns": [
+        {
+          "id": "id-value",
+          "type": "type-value",
+          "properties": [
+            {
+              "key": "key-value",
+              "value": "value-value"
+            }
+          ]
+        }
+      ],
+      "appDisplayName": "appDisplayName-value",
+      "appId": "appId-value",
+      "appOwnerOrganizationId": "appOwnerOrganizationId-value",
+      "appRoleAssignmentRequired": true
+    }
+  ]
+}
+```
+
+### Example 2: Get a list of service principal objects including the count of returned objects
+
+#### Request
+
+<!-- {
+  "blockType": "request",
+  "name": "get_serviceprincipals"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/servicePrincipals?$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.servicePrincipal",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#servicePrincipals",
+  "@odata.count":100,
   "value": [
     {
       "accountEnabled": true,

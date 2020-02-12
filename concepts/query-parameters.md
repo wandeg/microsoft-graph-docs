@@ -1,6 +1,6 @@
 ---
 title: "Use query parameters to customize responses"
-description: "Microsoft Graph provides optional query parameters that you can use to specify and control the amount of data returned in a response. The following query parameters are supported."
+description: "Microsoft Graph provides optional query parameters that you can use to specify and control the amount of data returned in a response."
 author: "baywet"
 localization_priority: Priority
 ms.custom: graphiamtop20, scenarios:getting-started
@@ -32,7 +32,7 @@ Click the examples to try them in [Graph Explorer][graph-explorer].
 | [$filter](#filter-parameter)       | Filters results (rows).|[`/users?$filter=startswith(givenName,'J')`][filter-example]
 | [$format](#format-parameter)       | Returns the results in the specified media format.|[`/users?$format=json`][format-example]
 | [$orderby](#orderby-parameter)     | Orders results.|[`/users?$orderby=displayName desc`][orderby-example]
-| [$search](#search-parameter)       | Returns results based on search criteria. Currently supported on **messages** and **person** collections.|[`/me/messages?$search=pizza`][search-example]
+| [$search](#search-parameter)       | Returns results based on search criteria. |[`/me/messages?$search=pizza`][search-example]
 | [$select](#select-parameter)       | Filters properties (columns).|[`/users?$select=givenName,surname`][select-example]
 | [$skip](#skip-parameter)           | Indexes into a result set. Also used by some APIs to implement paging and can be used together with `$top` to manually page results. | [`/me/messages?$skip=11`][skip-example]
 | [$top](#top-parameter)             | Sets the page size of results. |[`/users?$top=2`][top-example]
@@ -90,7 +90,7 @@ GET  https://graph.microsoft.com/v1.0/me/contacts?$count=true
 [Try in Graph Explorer](https://developer.microsoft.com/graph/graph-explorer?request=me/contacts?$count=true&method=GET&version=v1.0)
 
 
->**Note:** `$count` is not supported for collections of resources that derive from [directoryObject](/graph/api/resources/directoryobject?view=graph-rest-1.0) like collections of [users](/graph/api/resources/user?view=graph-rest-1.0) or [groups](/graph/api/resources/group?view=graph-rest-1.0).
+The `$count` query parameter is supported for collections of resources that derive from [directoryObject](/graph/api/resources/directoryobject?view=graph-rest-1.0), such as collections of [application](/graph/api/resources/application?view=graph-rest-1.0), [contact](/graph/api/resources/contact?view=graph-rest-1.0), [device](/graph/api/resources/device?view=graph-rest-1.0), [group](/graph/api/resources/group?view=graph-rest-1.0), [service principal](/graph/api/resources/serviceprincipal?view=graph-rest-1.0), or [users](/graph/api/resources/user?view=graph-rest-1.0).
 
 ## expand parameter
 
@@ -145,7 +145,7 @@ The `startswith` string operator is often supported. The `any` lambda operator i
 
 > **Note:** You must [specify properties in certain ways](/graph/api/user-list-messages?view=graph-rest-1.0#using-filter-and-orderby-in-the-same-query) when using both `$filter` and `$orderby` in the same query to get messages.
 
-For some  usage examples, see the following table. For more details about `$filter` syntax, see the [OData protocol][odata-filter].  
+For some usage examples, see the following table. For more details about `$filter` syntax, see the [OData protocol][odata-filter].  
 
 The following table shows some examples that use the `$filter` query parameter.
 
@@ -223,7 +223,7 @@ GET https://graph.microsoft.com/v1.0/me/messages?$filter=Subject eq 'welcome' an
 
 Use the `$search` query parameter to restrict the results of a request to match a search criterion.
 
-> **Note:** You can currently search **only** [message](/graph/api/resources/message?view=graph-rest-1.0) and [person](/graph/api/resources/person?view=graph-rest-1.0) collections. A `$search` request returns up to 250 results. You cannot use [`$filter`](#filter-parameter) or [`$orderby`](#orderby-parameter) in a search request.
+> **Note:** A `$search` request returns up to 250 results.
 
 ### Using $search on message collections
 
@@ -329,6 +329,41 @@ Content-type: application/json
 ```
 
 To learn more about the People API, see [Get information about relevant people](./people-example.md#search-people).  
+
+### Using $search on directory object collections
+
+You can use the `$search` query parameter to restrict results based on a search criterion such as looking for words in strings delimited by spaces, casing, and character types (numbers and special characters). For example: 
+ 
+`https://graph.microsoft.com/beta/groups/?$search="displayName:OneVideo"&ConsistencyLevel=eventual` 
+ 
+This looks for all groups with display names that look like "OneVideo". `$search` can be used together with `$filter` as well. For example: 
+ 
+`https://graph.microsoft.com/beta/groups/?$filter=mailEnabled eq true&$search="displayName:OneVideo"&ConsistencyLevel=eventual` 
+ 
+This looks for all mail-enabled groups with display names that look like "OneVideo". The results are restricted based on a logical conjunction (an "AND") of the `$filter` and the entire query in the `$search`. The search text is tokenized based on casing, but matches are performed in a case-insensitive manner. For example, "OneVideo" would be split into two input tokens "one" and "video", but matches properties in insensitive to case. 
+ 
+ 
+The syntax of search follows these rules: 
+ 
+- Generic format: $search="clause1" [AND | OR]  "[clauseX]". 
+- Any number of clauses is supported. Parentheses for precedence is also supported. 
+- The syntax for each clause is <property>:<text to search>. 
+- The property name must be specified in clause. Any property that can be used in `$filter` can also be used inside `$search`. Depending on the property, the search behavior is either "search" or "prefix match" if search is not supported on the property. 
+- The whole clause part must be put inside double quotes.  
+- Logical operator 'AND' 'OR' must be put outside double quotes. They must be in upper case. 
+- Given that the whole clause part needs to be put inside double quotes, if <text to search> contains double quote and backslash, it needs to be escaped by backslash. No other characters need to be escaped. 
+
+The table below shows some examples. 
+ 
+
+| Object class | Description | Example |
+| ------------ | ----------- | ------- |
+| User | Address book display name of the user. |  [https://graph.microsoft.com/beta/users?$search="displayName:Guthr"&ConsistencyLevel=eventual](search-displayname-example) |
+| User | Address book display name or mail of the user. | [https://graph.microsoft.com/beta/users?$search="displayName:Guthr" OR "mail:Guthr"&ConsistencyLevel=eventual](search-displaynamemail-example) |
+| Group | Address book display name or description of the group. | [https://graph.microsoft.com/beta/groups?$search="description:One" AND ("displayName:Video" OR "displayName:Drive")&ConsistencyLevel=eventual](search-displaynamedesc-example) |
+| Group | Address book display name on a mail enabled group. | [https://graph.microsoft.com/beta/groups?$filter=mailEnabled eq true&$search="displayName:OneVideo"&ConsistencyLevel=eventual](search-displaynamemail-example) |
+
+Both the string inputs you provide in `$search`, as well as the searchable properties indicated above, are split up into parts by spaces, different casing, and character types (numbers and special characters).
 
 ## select parameter
 

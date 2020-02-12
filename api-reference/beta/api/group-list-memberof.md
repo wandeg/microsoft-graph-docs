@@ -19,37 +19,43 @@ This operation is not transitive. Unlike getting a user's Office 365 Groups, thi
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | GroupMember.Read.All, Group.Read.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | GroupMember.Read.All, Group.Read.All, Directory.Read.All, Directory.ReadWrite.All |
-
-[!INCLUDE [limited-info](../../includes/limited-info.md)]
+| Permission type | Permissions (from least to most privileged) |
+|:--------------- |:------------------------------------------- |
+| Delegated (work or school account) | Group.Read.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | Group.Read.All, Directory.Read.All, Directory.ReadWrite.All |
 
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /groups/{id}/memberOf
 ```
 
 ## Optional query parameters
-This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response.
+
+This method supports the [OData Query Parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
+
+| Name | Description |
+|:---- |:----------- |
+| Authorization  | Bearer {token}. Required. |
+| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$count` and `$search` query parameters. |
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Response
+
 If successful, this method returns a `200 OK` response code and collection of [directoryObject](../resources/directoryobject.md) objects in the response body.
 
-## Example
+## Examples
 
-### Request
+### Example 1: Get groups and administrative units that the group is a direct member of
+
+#### Request
 
 The following is an example of the request.
 
@@ -75,11 +81,11 @@ GET https://graph.microsoft.com/beta/groups/{id}/memberOf
 
 ---
 
-
-### Response
+#### Response
 
 The following is an example of the response.
 >**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -89,9 +95,48 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-Content-length: 55
 
 {
+  "value": [
+    {
+      "id": "id-value"
+    }
+  ]
+}
+```
+
+### Example 2: Get groups and administrative units that the group is a direct member of including the count of objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "group_get_memberof"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups/{id}/memberOf?$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.directoryObject",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#directoryObjects","@odata.count":100,
   "value": [
     {
       "id": "id-value"
