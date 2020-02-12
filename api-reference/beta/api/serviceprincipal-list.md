@@ -124,7 +124,7 @@ Content-type: application/json
 
 <!-- {
   "blockType": "request",
-  "name": "get_serviceprincipals"
+  "name": "get_serviceprincipals_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/servicePrincipals?$count=true

@@ -41,7 +41,7 @@ This method supports the [OData Query Parameters](https://developer.microsoft.co
 | Header | Value |
 |:------ |:----- |
 | Authorization  | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
 
 ## Request body
 
@@ -120,7 +120,7 @@ Here is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_user_memberof"
+  "name": "get_user_memberof_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/memberOf?$count=true

@@ -69,7 +69,7 @@ For general information on the `$filter`, `$count`, and `$search` query paramete
 | Header | Value |
 |:------ |:--------|
 | Authorization | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
 
@@ -175,7 +175,7 @@ The following example gets the **displayName** and **emailAddresses** properties
 
 <!-- {
   "blockType": "request",
-  "name": "user_get_contacts"
+  "name": "user_get_contacts_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/me/contacts?$count=true$select=displayName,emailAddresses

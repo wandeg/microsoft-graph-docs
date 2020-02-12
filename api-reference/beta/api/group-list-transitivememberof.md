@@ -41,7 +41,7 @@ This method supports the [OData Query Parameters](/graph/query-parameters) to he
 | Name | Description |
 |:---- |:----------- |
 | Authorization  | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
 
 ## Request body
 
@@ -107,7 +107,7 @@ Content-type: application/json
       "displayName": "All Users",
       "groupTypes": [],
       "mailEnabled": false,
-      "securityEnabled": true,
+      "securityEnabled": true
     }
   ]
 }
@@ -121,7 +121,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_group_transitivememberof"
+  "name": "get_group_transitivememberof_count"
 }-->
 
 ```msgraph-interactive
@@ -155,7 +155,7 @@ ConsistencyLevel: eventual
       "displayName": "All Users",
       "groupTypes": [],
       "mailEnabled": false,
-      "securityEnabled": true,
+      "securityEnabled": true
     }
   ]
 }

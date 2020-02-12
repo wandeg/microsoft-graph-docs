@@ -19,13 +19,14 @@ This operation returns by default only a subset of the more commonly used proper
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.ReadBasic.All, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
+| Permission type | Permissions (from least to most privileged) |
+|:--------------- |:------------------------------------------- |
+| Delegated (work or school account) | User.ReadBasic.All, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All |
+| Delegated (personal Microsoft account) | Not supported. |
+| Application | User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All |
 
 ## HTTP request
+
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /users
@@ -36,10 +37,11 @@ GET /users
 This method supports the [OData query parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
 
 ## Request headers
-| Header        | Value                      |
-|:--------------|:---------------------------|
+
+| Header | Value |
+|:------ |:----- |
 | Authorization | Bearer {token} (required)  |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search`or `$count` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search`or `$count` query parameter. |
 
 ## Request body
 
@@ -78,7 +80,6 @@ GET https://graph.microsoft.com/beta/users
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ##### Response
 
@@ -150,7 +151,6 @@ GET https://graph.microsoft.com/beta/users?$select=displayName,id&$filter=identi
 
 ---
 
-
 #### Response
 
 The following is an example of the response. 
@@ -206,7 +206,6 @@ GET https://graph.microsoft.com/beta/users?$select=displayName,userPrincipalName
 
 ---
 
-
 #### Response
 
 The following is an example of the response. 
@@ -240,6 +239,59 @@ Content-type: application/json
         "lastSignInDateTime": "2017-07-29T02:16:18Z",
         "lastSignInRequestId": "90d8b3f8-712e-4f7b-aa1e-62e7ae6cbe96"
       }
+    }
+  ]
+}
+```
+
+### Example 4: List all users including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_users_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/users
+```
+
+##### Response
+
+The following is an example of the response. 
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.user",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+ConsistencyLevel: eventual
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users",
+  "@odata.count":100,
+  "value": [
+    {
+      "businessPhones": [
+        "businessPhones-value"
+      ],
+      "displayName": "displayName-value",
+      "givenName": "givenName-value",
+      "jobTitle": "jobTitle-value",
+      "mail": "mail-value",
+      "mobilePhone": "mobilePhone-value",
+      "officeLocation": "officeLocation-value",
+      "preferredLanguage": "preferredLanguage-value",
+      "surname": "surname-value",
+      "userPrincipalName": "userPrincipalName-value",
+      "id": "id-value"
     }
   ]
 }

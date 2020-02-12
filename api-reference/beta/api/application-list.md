@@ -39,7 +39,7 @@ This method supports the [OData query parameters](/graph/query-parameters) to he
 | Name | Description |
 |:---- |:----------- |
 | Authorization  | Bearer {token}. Required.  |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
 
@@ -165,7 +165,7 @@ Here is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "list_application"
+  "name": "list_application_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/applications?$count=true

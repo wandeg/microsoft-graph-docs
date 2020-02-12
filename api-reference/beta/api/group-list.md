@@ -55,7 +55,7 @@ For more information on OData query options, see [OData Query Parameters](/graph
 | Name | Description |
 |:---- |:----------- |
 | Authorization  | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
 
@@ -104,8 +104,7 @@ The following is an example of the response.
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.group",
-  "isCollection": true,
-  "name": "get_groups"
+  "isCollection": true
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -218,8 +217,7 @@ The following is an example of the response which includes only the requested pr
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.group",
-  "isCollection": true,
-  "name": "get_groups_withlicenseerrors"
+  "isCollection": true
 } -->
 ```http
 HTTP/1.1 200 OK
@@ -251,7 +249,7 @@ This example uses the following options
 
 <!-- {
   "blockType": "request",
-  "name": "get_groups_withlicenseerrors"
+  "name": "get_groups_withlicenseerrors_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/groups?$count=true&$filter=hasMembersWithLicenseErrors+eq+true&$select=id,displayName
@@ -265,8 +263,7 @@ The following is an example of the response which includes only the requested pr
   "blockType": "response",
   "truncated": true,
   "@odata.type": "microsoft.graph.group",
-  "isCollection": true,
-  "name": "get_groups_withlicenseerrors"
+  "isCollection": true
 } -->
 ```http
 HTTP/1.1 200 OK

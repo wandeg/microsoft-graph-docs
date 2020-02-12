@@ -43,7 +43,7 @@ This method supports the [OData Query Parameters](/graph/query-parameters) to he
 | Name | Description |
 |:---- |:----------- |
 | Authorization | Bearer {token}. Required. |
-| ConsistencyLevel | Value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
+| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$count` and `$search` query parameter. |
 
 ## Request body
 
@@ -119,7 +119,7 @@ Content-type: application/json
 }
 ```
 
-### Example 2: Get a list of groups with a specific display name
+### Example 2: Get a list of groups with a specific display name including the count of returned objects
 
 #### Request
 
@@ -127,7 +127,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_group_transitivemembers"
+  "name": "get_group_transitivemembers_count"
 }-->
 
 ```msgraph-interactive
