@@ -20,9 +20,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 | Permission type | Permissions (from least to most privileged) |
 |:--------------- |:------------------------------------------- |
-| Delegated (work or school account) | Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
+| Delegated (work or school account) | Application.Read.All, Application.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All, Directory.AccessAsUser.All    |
 | Delegated (personal Microsoft account) | Not supported. |
-| Application | Application.ReadWrite.All, Directory.Read.All |
+| Application | Application.Read.All, Application.ReadWrite.All, Directory.Read.All |
 
 ## HTTP request
 
@@ -32,7 +32,7 @@ GET /applications
 ```
 ## Optional query parameters
 
-This method supports the [OData query parameters](/graph/query-parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
+This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response including `$search`, `$count`, and `$filter`. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
 
 ## Request headers
 
@@ -98,66 +98,17 @@ Content-type: application/json
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#applications",
   "value": [
     {
-      "id": "00af5dfb-85da-4b41-a677-0c6b86dd34f8",
-      "deletedDateTime": null,
-      "isFallbackPublicClient": false,
-      "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
-      "applicationTemplateId": null,
-      "identifierUris": [
-        "http://contoso/a7770d29-4321-41a6-b863-ca11d6639448"
-      ],
-      "createdDateTime": "2019-09-15T05:23:08Z",
+      "appId": "00000000-0000-0000-0000-000000000000",
+      "identifierUris": [ "http://contoso/" ],
       "displayName": "My app",
-      "isDeviceOnlyAuthSupported": null,
-      "groupMembershipClaims": null,
-      "optionalClaims": null,
-      "orgRestrictions": [],
-      "publisherDomain": "contoso.onmicrosoft.com",
-      "signInAudience": "AzureADMyOrg",
-      "tags": [],
-      "tokenEncryptionKeyId": null,
-      "api": {
-        "requestedAccessTokenVersion": null,
-        "acceptMappedClaims": null,
-        "knownClientApplications": [],
-        "oauth2PermissionScopes": [],
-        "preAuthorizedApplications": []
-      },
-      "appRoles": [],
-      "publicClient": {
-        "redirectUris": []
-      },
-      "info": {
-        "termsOfServiceUrl": null,
-        "supportUrl": null,
-        "privacyStatementUrl": null,
-        "marketingUrl": null,
-        "logoUrl": null
-      },
-      "keyCredentials": [],
-      "parentalControlSettings": {
-        "countriesBlockedForMinors": [],
-        "legalAgeGroupRule": "Allow"
-      },
-      "passwordCredentials": [],
-      "requiredResourceAccess": [],
-      "web": {
-        "redirectUris": [
-          "https://127.0.0.1:444/applications/default.aspx"
-        ],
-        "homePageUrl": "http://www.contoso.com/landingPage",
-        "logoutUrl": null,
-        "implicitGrantSettings": {
-          "enableIdTokenIssuance": true,
-          "enableAccessTokenIssuance": false
-        }
-      }
+      "publisherDomain": "contoso.com",
+      "signInAudience": "AzureADMyOrg"
     }
   ]
 }
 ```
 
-### Example 2: Get the list of applications including the count of returned objects
+### Example 2: Get the list of applications including a count of returned objects
 
 #### Request
 
@@ -185,72 +136,142 @@ Here is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-ConsistencyLevel: eventual
 
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#applications",
-  "@odata.count":100,
+  "@odata.count":893,
   "value": [
     {
-      "id": "00af5dfb-85da-4b41-a677-0c6b86dd34f8",
-      "deletedDateTime": null,
-      "isFallbackPublicClient": false,
-      "appId": "65415bb1-9267-4313-bbf5-ae259732ee12",
-      "applicationTemplateId": null,
-      "identifierUris": [
-        "http://contoso/a7770d29-4321-41a6-b863-ca11d6639448"
-      ],
-      "createdDateTime": "2019-09-15T05:23:08Z",
+      "appId": "00000000-0000-0000-0000-000000000000",
+      "identifierUris": [ "http://contoso/" ],
       "displayName": "My app",
-      "isDeviceOnlyAuthSupported": null,
-      "groupMembershipClaims": null,
-      "optionalClaims": null,
-      "orgRestrictions": [],
-      "publisherDomain": "contoso.onmicrosoft.com",
-      "signInAudience": "AzureADMyOrg",
-      "tags": [],
-      "tokenEncryptionKeyId": null,
-      "api": {
-        "requestedAccessTokenVersion": null,
-        "acceptMappedClaims": null,
-        "knownClientApplications": [],
-        "oauth2PermissionScopes": [],
-        "preAuthorizedApplications": []
-      },
-      "appRoles": [],
-      "publicClient": {
-        "redirectUris": []
-      },
-      "info": {
-        "termsOfServiceUrl": null,
-        "supportUrl": null,
-        "privacyStatementUrl": null,
-        "marketingUrl": null,
-        "logoUrl": null
-      },
-      "keyCredentials": [],
-      "parentalControlSettings": {
-        "countriesBlockedForMinors": [],
-        "legalAgeGroupRule": "Allow"
-      },
-      "passwordCredentials": [],
-      "requiredResourceAccess": [],
-      "web": {
-        "redirectUris": [
-          "https://127.0.0.1:444/applications/default.aspx"
-        ],
-        "homePageUrl": "http://www.contoso.com/landingPage",
-        "logoutUrl": null,
-        "implicitGrantSettings": {
-          "enableIdTokenIssuance": true,
-          "enableAccessTokenIssuance": false
-        }
-      }
+      "publisherDomain": "contoso.com",
+      "signInAudience": "AzureADMyOrg"
     }
   ]
 }
 ```
 
+### Example 4: Get only a count of applications
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_count_only"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/applications/$count
+```
+
+#### Response
+
+The following is an example of the response.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.application",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+{
+   893
+}
+```
+
+### Example 4: Use $filter and $top to get one application with a display name that starts with 'a' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_a_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/applications?$filter=startswith(displayName, 'a')&$count=true&$top=1&$orderby=displayName 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.application",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#applications",
+  "@odata.count":1,
+  "value":[
+    {
+      "appId": "00000000-0000-0000-0000-000000000000",
+      "identifierUris": [ "http://contoso/" ],
+      "displayName":"a",
+      "publisherDomain": "contoso.com",
+      "signInAudience": "AzureADMyOrg"
+    }
+  ]
+}
+```
+
+### Example 5: Use $search to get applications with display names that contain the letters 'Web' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_web_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/applications?$search="displayName:Web"&$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.application",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#applications",
+  "@odata.count":1396,
+  "value":[
+    {
+      "appId": "00000000-0000-0000-0000-000000000000",
+      "identifierUris": [ "http://contoso/" ],
+      "displayName":"'WebApp-DotNet' ",
+      "publisherDomain": "contoso.com",
+      "signInAudience": "AzureADMyOrg"
+    }
+  ]
+}
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--

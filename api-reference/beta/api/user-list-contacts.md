@@ -60,9 +60,10 @@ GET https://graph.microsoft.com/beta/me/contacts?$filter=emailAddresses/any(a:a/
 
 Note that you can use `$filter`, `any`, and the `eq` operator on only the **address** sub-property of instances in an **emailAddresses** collection. That is, you cannot filter on the **name** or any other sub-property of an instance of **emailAddresses**, nor can you apply any other operator or function with `filter`, such as `ne`, `le`, and `startswith()`.
 
-You can also use the `$count` and `$search` query parameters to limit the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
+You can also use the `$count` and `$search` query parameters to limit the response. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
 
 For general information on the `$filter`, `$count`, and `$search` query parameter, see [OData query parameters](/graph/query-parameters).
+
 
 ## Request headers
 
@@ -128,8 +129,6 @@ Content-type: application/json
   "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
   "value":[
     {
-      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
-      "id":"AAMkADh6v5AAAvgTCFAAA=",
       "displayName":"Elvis Blank",
       "emailAddresses":[
         {
@@ -144,30 +143,12 @@ Content-type: application/json
           "address":"elvisb@fabrikam.onmicrosoft.com"
         }
       ]
-    },
-    {
-      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
-      "id":"AAMkADh6v5AAAvgTCEAAA=",
-      "displayName":"Pavel Bansky",
-      "emailAddresses":[
-        {
-          "type":"personal",
-          "name":"Pavel Bansky",
-          "address":"pavelb@contoso.onmicrosoft.com"
-        },
-        {
-          "type":"other",
-          "otherLabel":"Volunteer work",
-          "name":"Pavel Bansky",
-          "address":"pavelb@fabrikam.onmicrosoft.com"
-        }
-      ]
     }
   ]
 }
 ```
 
-### Example 2: Get contacts in the user's mailbox including the count of returned objects
+### Example 2: Get contacts in the user's mailbox including a count of returned objects
 
 #### Request
 
@@ -195,15 +176,12 @@ Here is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-ConsistencyLevel: eventual
 
 {
   "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
-  "@odata.count":2,
+  "@odata.count":893,
   "value":[
     {
-      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
-      "id":"AAMkADh6v5AAAvgTCFAAA=",
       "displayName":"Elvis Blank",
       "emailAddresses":[
         {
@@ -218,29 +196,129 @@ ConsistencyLevel: eventual
           "address":"elvisb@fabrikam.onmicrosoft.com"
         }
       ]
-    },
-    {
-      "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
-      "id":"AAMkADh6v5AAAvgTCEAAA=",
-      "displayName":"Pavel Bansky",
-      "emailAddresses":[
-        {
-          "type":"personal",
-          "name":"Pavel Bansky",
-          "address":"pavelb@contoso.onmicrosoft.com"
-        },
-        {
-          "type":"other",
-          "otherLabel":"Volunteer work",
-          "name":"Pavel Bansky",
-          "address":"pavelb@fabrikam.onmicrosoft.com"
-        }
-      ]
     }
   ]
 }
 ```
 
+### Example 3: Get only a count of contacts
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_count_only"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/contacts/$count
+```
+
+#### Response
+
+The following is an example of the response.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.contact",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+{
+   893
+}
+```
+
+### Example 4: Use $filter and $top to get one contact with a display name that starts with 'a' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_a_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/contacts?$filter=startswith(displayName, 'a')&$count=true&$top=1&$orderby=displayName 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.contact",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#contacts",
+  "@odata.count":1,
+  "value":[
+    {
+      "displayName":"a",
+      "mail":"a@contoso.com",
+      "mailNickname":"a_contoso.com#EXT#",
+      "otherMails":["a@contoso.com"],
+      "proxyAddresses":["SMTP:a@contoso.com"],
+      "userPrincipalName":"a_contoso.com#EXT#@microsoft.onmicrosoft.com",
+    }
+  ]
+}
+```
+
+### Example 5: Use $search to get contacts with display names that contain the letters 'Phone' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_phone_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/contacts?$search="displayName:Phone"&$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.contact",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#contacts",
+  "@odata.count":22,
+  "value":[
+    {
+      "displayName":"PhoneFactor - Pager",
+      "mail":"8166681968@contoso.com",
+      "mailNickname":"phonecon"
+  ]
+}
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--

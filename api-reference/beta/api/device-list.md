@@ -33,7 +33,7 @@ GET /devices
 
 ## Optional query parameters
 
-This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
+This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response including `$search`, `$count`, and `$filter`. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
 
 ## Request headers
 
@@ -52,7 +52,7 @@ If successful, this method returns a `200 OK` response code and collection of [d
 
 ## Examples
 
-### Example 1: Retrieve a list of devices
+### Example 1: Get a list of devices
 
 #### Request
 
@@ -98,19 +98,19 @@ Content-type: application/json
 {
   "value": [
     {
-      "accountEnabled": true,
-      "approximateLastSignInDateTime": "2016-10-19T10:37:00Z",
-      "deviceId": "deviceId-value",
-      "deviceMetadata": "deviceMetadata-value",
-      "displayName" : "displayName-value",
-      "id" : "id-value", 
-      "operatingSystem" : "operatingSystem-value"
+      "accountEnabled":true,
+      "deviceId":"00000000-0000-0000-0000-000000000000",
+      "deviceVersion":1,
+      "displayName":"contoso_Android",
+      "Manufacturer":"Google",
+      "Model":"Pixel 3a",
+      "operatingSystemVersion":"10.0"
     }
   ]
 }
 ```
 
-### Example 2: Retrieve a list of devices including a count of returned objects
+### Example 2: Get a list of devices including a count of returned objects
 
 #### Request
 
@@ -138,25 +138,148 @@ Here is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-ConsistencyLevel: eventual
 
 {
   "@odata.context":"https://graph.microsoft.com/beta/$metadata#devices",
-  "@odata.count":100,
+  "@odata.count":294,
   "value": [
     {
-      "accountEnabled": true,
-      "approximateLastSignInDateTime": "2016-10-19T10:37:00Z",
-      "deviceId": "deviceId-value",
-      "deviceMetadata": "deviceMetadata-value",
-      "displayName" : "displayName-value",
-      "id" : "id-value", 
-      "operatingSystem" : "operatingSystem-value"
+      "accountEnabled":true,
+      "deviceId":"00000000-0000-0000-0000-000000000000",
+      "deviceVersion":1,
+      "displayName":"contoso_Android",
+      "Manufacturer":"Google",
+      "Model":"Pixel 3a",
+      "operatingSystemVersion":"10.0"
     }
   ]
 }
 ```
 
+### Example 4: Get only a count of devices
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_count_only"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/devices/$count
+```
+
+#### Response
+
+The following is an example of the response.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.device",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+{
+   294
+}
+```
+
+### Example 4: Use $filter and $top to get one device with a display name that starts with 'a' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_a_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/devices?$filter=startswith(displayName, 'a')&$count=true&$top=1&$orderby=displayName 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.device",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#devices",
+  "@odata.count":1,
+  "value":[
+    {
+      "accountEnabled":true,
+      "deviceId":"00000000-0000-0000-0000-000000000000",
+      "deviceVersion":1,
+      "displayName":"a_device_1",
+      "Manufacturer":"Google",
+      "Model":"Pixel 3a",
+      "operatingSystemVersion":"10.0"
+    }
+  ]
+}
+```
+
+### Example 5: Use $search to get devices with display names that contain the letters 'Android' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_video_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/devices?$search="displayName:Android"&$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.device",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#devices",
+  "@odata.count":1396,
+  "value":[
+    {
+      "accountEnabled":true,
+      "deviceId":"00000000-0000-0000-0000-000000000000",
+      "deviceVersion":1,
+      "displayName":"contoso_Android",
+      "Manufacturer":"Google",
+      "Model":"Pixel 3a",
+      "operatingSystemVersion":"10.0"
+    }
+  ]
+}
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--

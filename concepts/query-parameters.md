@@ -81,7 +81,7 @@ GET https://graph.microsoft.com/v1.0/me/messages?$filter=subject eq 'let''s meet
 
 Use the `$count` query parameter to include a count of the total number of items in a collection alongside the page of data values returned from Microsoft Graph. 
 
-For example, the following request will return both the **contact** collection of the current user, and the number of items in the **contact** collection in the `@odata.count` property.
+For example, the following request returns both the **contact** collection of the current user, and the number of items in the **contact** collection in the `@odata.count` property.
 
 ```http
 GET  https://graph.microsoft.com/v1.0/me/contacts?$count=true
@@ -90,7 +90,13 @@ GET  https://graph.microsoft.com/v1.0/me/contacts?$count=true
 [Try in Graph Explorer](https://developer.microsoft.com/graph/graph-explorer?request=me/contacts?$count=true&method=GET&version=v1.0)
 
 
-The `$count` query parameter is supported for collections of resources that derive from [directoryObject](/graph/api/resources/directoryobject?view=graph-rest-1.0), such as collections of [application](/graph/api/resources/application?view=graph-rest-1.0), [contact](/graph/api/resources/contact?view=graph-rest-1.0), [device](/graph/api/resources/device?view=graph-rest-1.0), [group](/graph/api/resources/group?view=graph-rest-1.0), [service principal](/graph/api/resources/serviceprincipal?view=graph-rest-1.0), or [users](/graph/api/resources/user?view=graph-rest-1.0).
+The `$count` query parameter is supported for these collections of resources and their relationships that derive from [directoryObject](/graph/api/resources/directoryobject?view=graph-rest-1.0):
+- [application](/graph/api/resources/application?view=graph-rest-1.0)
+- [contact](/graph/api/resources/contact?view=graph-rest-1.0)
+- [device](/graph/api/resources/device?view=graph-rest-1.0)
+- [group](/graph/api/resources/group?view=graph-rest-1.0)
+- [service principal](/graph/api/resources/serviceprincipal?view=graph-rest-1.0)
+- [users](/graph/api/resources/user?view=graph-rest-1.0).
 
 ## expand parameter
 
@@ -332,13 +338,13 @@ To learn more about the People API, see [Get information about relevant people](
 
 ### Using $search on directory object collections
 
-You can use the `$search` query parameter to restrict results based on a search criterion such as looking for words in strings delimited by spaces, casing, and character types (numbers and special characters). For example: 
+You can use the `$search` query parameter to restrict results based on a search criterion such as looking for words in strings delimited by spaces, casing, and character types (numbers and special characters). The `$search` parameter is only available for **displayName** and **description** properties. For example: 
  
-`https://graph.microsoft.com/beta/groups/?$search="displayName:OneVideo"&ConsistencyLevel=eventual` 
+`https://graph.microsoft.com/beta/groups/?$search="displayName:OneVideo"`
  
 This looks for all groups with display names that look like "OneVideo". `$search` can be used together with `$filter` as well. For example: 
  
-`https://graph.microsoft.com/beta/groups/?$filter=mailEnabled eq true&$search="displayName:OneVideo"&ConsistencyLevel=eventual` 
+`https://graph.microsoft.com/beta/groups/?$filter=mailEnabled eq true&$search="displayName:OneVideo"` 
  
 This looks for all mail-enabled groups with display names that look like "OneVideo". The results are restricted based on a logical conjunction (an "AND") of the `$filter` and the entire query in the `$search`. The search text is tokenized based on casing, but matches are performed in a case-insensitive manner. For example, "OneVideo" would be split into two input tokens "one" and "video", but matches properties in insensitive to case. 
  

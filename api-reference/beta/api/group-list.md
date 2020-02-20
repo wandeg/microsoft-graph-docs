@@ -46,7 +46,7 @@ values, as shown in the following example:
 ```
 GET https://graph.microsoft.com/beta/groups?$orderby=displayName
 ```
-You can also use the `$count` and `$search` query parameters to limit the response. When resources are added using Microsoft Graph, they are indexed. This index is used for the `$count` and `$search` query parameters. There can be a slight delay between when a resource is added and when it is available in the index.
+You can also use the `$count` and `$search` query parameters to limit the response. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
 
 For more information on OData query options, see [OData Query Parameters](/graph/query-parameters).
 
@@ -67,7 +67,7 @@ If successful, this method returns a `200 OK` response code and collection of [g
 
 ## Examples
 
-### Example 1: Return a list of group objects
+### Example 1: Get a list of groups
 
 #### Request
 
@@ -114,138 +114,19 @@ Content-type: application/json
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups",
   "value": [
     {
-      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
-      "deletedDateTime": null,
-      "classification": null,
-      "createdDateTime": "2018-12-22T02:21:05Z",
-      "description": "Self help community for golf",
-      "displayName": "Golf Assist",
-      "expirationDateTime": null,
-      "groupTypes": [
-        "Unified"
-      ],
-      "mail": "golfassist@contoso.com",
+      "id": "11111111-2222-3333-4444-555555555555",
+      "mail": "group1@contoso.com",
       "mailEnabled": true,
-      "mailNickname": "golfassist",
-      "membershipRule": null,
-      "membershipRuleProcessingState": null,
-      "onPremisesLastSyncDateTime": null,
-      "onPremisesSecurityIdentifier": null,
-      "onPremisesSyncEnabled": null,
-      "preferredDataLocation": "CAN",
-      "preferredLanguage": null,
-      "proxyAddresses": [
-        "smtp:golfassist@contoso.onmicrosoft.com",
-        "SMTP:golfassist@contoso.com"
-      ],
-      "renewedDateTime": "2018-12-22T02:21:05Z",
-      "resourceBehaviorOptions": [],
-      "resourceProvisioningOptions": [],
-      "securityEnabled": false,
-      "theme": null,
-      "visibility": "Public",
-      "onPremisesProvisioningErrors": []
-    },
-    {
-      "id": "d7797254-3084-44d0-99c9-a3b5ab149538",
-      "deletedDateTime": null,
-      "classification": null,
-      "createdDateTime": "2018-11-19T20:29:40Z",
-      "description": "Talk about golf",
-      "displayName": "Golf Discussion",
-      "expirationDateTime": null,
-      "groupTypes": [],
-      "mail": "golftalk@contoso.com",
-      "mailEnabled": true,
-      "mailNickname": "golftalk",
-      "membershipRule": null,
-      "membershipRuleProcessingState": null,
-      "onPremisesLastSyncDateTime": null,
-      "onPremisesSecurityIdentifier": null,
-      "onPremisesSyncEnabled": null,
-      "preferredDataLocation": "CAN",
-      "preferredLanguage": null,
-      "proxyAddresses": [
-        "smtp:golftalk@contoso.onmicrosoft.com",
-        "SMTP:golftalk@contoso.com"
-      ],
-      "renewedDateTime": "2018-11-19T20:29:40Z",
-      "resourceBehaviorOptions": [],
-      "resourceProvisioningOptions": [],
-      "securityEnabled": false,
-      "theme": null,
-      "visibility": null,
-      "onPremisesProvisioningErrors": []
+      "mailNickname": "ContosoGroup1",
+      "securityEnabled": true
     }
   ]
 }
 ```
 
-### Example 2: Return a filtered list of group objects 
+### Example 2: Get a filtered list of groups including the count of returned objects
 
 #### Request
-
-This example uses a `$filter` query option to get those groups that have members with license errors from their group-based license assignments. It also uses a `$select` query option to get only the **id** and **displayName** properties of each group in the response, and not other default or non-default properties.
-
-# [HTTP](#tab/http)
-<!-- {
-  "blockType": "request",
-  "name": "get_groups_withlicenseerrors"
-}-->
-```msgraph-interactive
-GET https://graph.microsoft.com/beta/groups?$filter=hasMembersWithLicenseErrors+eq+true&$select=id,displayName
-```
-# [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/get-groups-withlicenseerrors-csharp-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/get-groups-withlicenseerrors-javascript-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
-# [Objective-C](#tab/objc)
-[!INCLUDE [sample-code](../includes/snippets/objc/get-groups-withlicenseerrors-objc-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
----
-
-#### Response
-
-The following is an example of the response which includes only the requested properties.
-
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.group",
-  "isCollection": true
-} -->
-```http
-HTTP/1.1 200 OK
-Content-type: application/json
-
-{
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups(id,displayName)",
-  "value": [
-    {
-      "id": "b320ee12-b1cd-4cca-b648-a437be61c5cd",
-      "displayName": "Library Assist"
-    },
-    {
-      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
-      "displayName": "Golf Assist"
-    }
-  ]
-}
-```
-
-### Example 3: Return a filtered list of group objects including the count of returned objects
-
-#### Request
-
-This example uses the following options
-- A `$filter` query option to get those groups that have members with license errors from their group-based license assignments.
-- A `$select` query option to get only the **id** and **displayName** properties of each group in the response, and not other default or non-default properties.
-- A `$count` query option to get the count of returned objects.
 
 <!-- {
   "blockType": "request",
@@ -268,19 +149,134 @@ The following is an example of the response which includes only the requested pr
 ```http
 HTTP/1.1 200 OK
 Content-type: application/json
-ConsistencyLevel: eventual
 
 {
   "@odata.context": "https://graph.microsoft.com/beta/$metadata#groups(id,displayName)",
   "@odata.count":2,
   "value": [
     {
-      "id": "b320ee12-b1cd-4cca-b648-a437be61c5cd",
-      "displayName": "Library Assist"
+      "id": "11111111-2222-3333-4444-555555555555",
+      "displayName": "Contoso Group 1"
     },
     {
-      "id": "45b7d2e7-b882-4a80-ba97-10b7a63b8fa4",
-      "displayName": "Golf Assist"
+      "id": "22222222-3333-4444-5555-666666666666",
+      "displayName": "Contoso Group 2"
+    }
+  ]
+}
+```
+
+### Example 3: Get only a count of groups
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_count_only"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups/$count
+```
+
+#### Response
+
+The following is an example of the response.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.group",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: text/plain
+
+{
+   893
+}
+```
+
+### Example 4: Use $filter and $top to get one group with a display name that starts with 'a' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_a_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups?$filter=startswith(displayName, 'a')&$count=true&$top=1&$orderby=displayName 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.group",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#groups",
+  "@odata.count":1,
+  "value":[
+    {
+      "displayName":"a",
+      "mailNickname":"a241"
+    }
+  ]
+}
+```
+
+### Example 5: Use $search to get groups with display names that contain the letters 'Video' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_video_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups?$search="displayName:Video"&$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.group",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#groups",
+  "@odata.count":1396,
+  "value":[
+    {
+      "displayName":"SFA Videos",
+      "mail":"SFAVideos@service.contoso.com",
+      "mailNickname":"SFAVideos"
     }
   ]
 }
