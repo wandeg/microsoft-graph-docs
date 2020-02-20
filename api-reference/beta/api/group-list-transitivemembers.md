@@ -245,9 +245,8 @@ The following is an example of the request.
   "name": "get_a_count"
 }-->
 
-https://graph.microsoft.com/beta/groups/{id}/transitiveMembers/$/Microsoft.Graph.User?$count=true&$orderby=displayName&$filter=startswith(displayName, ‘Video)
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/groups/{id}/transitiveMembers?$count=true&$orderby=displayName&$filter=startswith(displayName, 'a') 
+GET https://graph.microsoft.com/beta/groups/{id}/transitiveMemberOf?$count=true&$orderby=displayName&$filter=startswith(displayName, 'a') 
 ```
 
 #### Response
@@ -258,7 +257,7 @@ The following is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.users",
+  "@odata.type": "microsoft.graph.group",
   "isCollection": true
 } -->
 ```http
@@ -266,15 +265,15 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users",
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#groups",
   "@odata.count":76,
   "value":[
     {
-      "displayName":"Oscar Ward",
-      "givenName":"Oscar",
-      "mail":"oscarward@contoso.com",
-      "mailNickname":"oscward",
-      "userPrincipalName":"oscarward@contoso.com"
+      "displayName":"AAD Contoso Users",
+      "mail":"AADContoso_Users@contoso.com",
+      "mailEnabled":true,
+      "mailNickname":"AADContoso_Users",
+      "securityEnabled":true
     }
   ]
 }
