@@ -165,9 +165,9 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: text/plain
+```
 
 893
-```
 
 ### Example 4: Get only a count of group membership
 
@@ -196,9 +196,9 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: text/plain
+```
 
 294
-```
 
 ### Example 5: Use $search to get membership in groups with display names that contain the letters 'tier' including a count of returned objects
 

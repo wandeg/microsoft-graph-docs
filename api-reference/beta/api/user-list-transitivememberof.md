@@ -175,9 +175,10 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: text/plain
+```
 
 893
-```
+
 
 ### Example 4: Get only a count of transitive membership in groups
 
@@ -206,9 +207,10 @@ The following is an example of the response.
 ```http
 HTTP/1.1 200 OK
 Content-type: text/plain
+```
 
 588
-```
+
 
 ### Example 5: Use $search to get transitive membership in groups with display names that contain the letters 'tier' including a count of returned objects
 
