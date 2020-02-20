@@ -184,9 +184,7 @@ The following is an example of the response.
 HTTP/1.1 200 OK
 Content-type: text/plain
 
-{
-   294
-}
+294
 ```
 
 ### Example 4: Use $filter and $top to get one device with a display name that starts with 'a' including a count of returned objects

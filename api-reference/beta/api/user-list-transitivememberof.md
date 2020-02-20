@@ -222,7 +222,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_don_count"
+  "name": "get_tier_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users/{id}/transitiveMemberOf/$/Microsoft.Graph.Group?$count=true&$orderby=displayName&$search="displayName:tier"&$select=displayName,id

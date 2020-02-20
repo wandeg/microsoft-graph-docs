@@ -183,9 +183,7 @@ The following is an example of the response.
 HTTP/1.1 200 OK
 Content-type: text/plain
 
-{
-   23
-}
+294
 ```
 
 ### Example 4: Get only a count of transitive membership in groups
@@ -216,9 +214,7 @@ The following is an example of the response.
 HTTP/1.1 200 OK
 Content-type: text/plain
 
-{
-   8
-}
+294
 ```
 
 ### Example 5: Use $search to get membership in groups with display names that contain the letters 'tier' including a count of returned objects

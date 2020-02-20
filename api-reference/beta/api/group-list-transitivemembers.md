@@ -189,9 +189,7 @@ The following is an example of the response.
 HTTP/1.1 200 OK
 Content-type: text/plain
 
-{
-   893
-}
+893
 ```
 
 ### Example 4: Use $search to get membership in groups with display names that contain the letters 'tier' including a count of returned objects
