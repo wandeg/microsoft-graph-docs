@@ -314,6 +314,7 @@ Content-type: application/json
       "displayName":"PhoneFactor - Pager",
       "mail":"8166681968@contoso.com",
       "mailNickname":"phonecon"
+    }
   ]
 }
 ```
