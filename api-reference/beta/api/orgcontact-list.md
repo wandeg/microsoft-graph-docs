@@ -239,7 +239,7 @@ Content-type: application/json
 }
 ```
 
-### Example 5: Use $search to get organizational contacts with display names that contain the letters 'Phone' including a count of returned objects
+### Example 5: Use $search to get organizational contacts with display names that contain the letters 'wa' including a count of returned objects
 
 #### Request
 
