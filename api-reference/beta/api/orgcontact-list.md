@@ -93,10 +93,10 @@ Content-length: 222
   "value": [
     {
       "companyName":"Contoso",
-      "department":Accounting,
+      "department":"Accounting",
       "displayName":"Eric Solomon",
       "givenName":"Eric",
-      "jobTitle":Accountant,
+      "jobTitle":"Accountant",
       "mail":"erics@contoso.com",
       "mailNickname":"erics",
       "surname":"Solomon",
@@ -105,14 +105,14 @@ Content-length: 222
           "city":"MyCity",
           "countryOrRegion":"United States",
           "officeLocation":"MyCity",
-          "postalCode":98000,
-          "state":WA,
-          "street":Contoso Way
+          "postalCode":"98000",
+          "state":"WA",
+          "street":"Contoso Way"
         }
       ],
       "phones":[
         {
-          "number":111-1111,
+          "number":"111-1111",
           "type":"businessFax"
         }
       ]
@@ -154,10 +154,10 @@ Content-type: application/json
   "value":[
     {
       "companyName":"Contoso",
-      "department":Accounting,
+      "department":"Accounting",
       "displayName":"Eric Solomon"
       "givenName":"Eric",
-      "jobTitle":Accountant,
+      "jobTitle":"Accountant",
       "mail":"erics@contoso.com",
       "mailNickname":"erics",
       "surname":"Solomon"
@@ -231,7 +231,6 @@ Content-type: application/json
   "@odata.count":1,
   "value":[
     {
-      "displayName":"a",
       "displayName":"Abigail Jackson",
       "mail":"abigailJ@contoso.com",
       "mailNickname":"abigailJ"

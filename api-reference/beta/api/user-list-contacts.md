@@ -20,14 +20,13 @@ There are two scenarios where an app can get contacts in another user's contact 
 
 
 ## Permissions
-
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
-|Permission type | Permissions (from least to most privileged) |
-|:-------------- |:------------------------------------------- |
-| Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite |
-| Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite |
-| Application | Contacts.Read, Contacts.ReadWrite |
+|Permission type      | Permissions (from least to most privileged)              |
+|:--------------------|:---------------------------------------------------------|
+|Delegated (work or school account) | Contacts.Read, Contacts.ReadWrite    |
+|Delegated (personal Microsoft account) | Contacts.Read, Contacts.ReadWrite    |
+|Application | Contacts.Read, Contacts.ReadWrite |
 
 ## HTTP request
 
@@ -50,7 +49,6 @@ GET /me/contactFolder/{id}/childFolders/{id}/.../contacts
 GET /users/{id | userPrincipalName}/contactFolders/{id}/childFolders/{id}/contacts
 ```
 ## Optional query parameters
-
 You can use the `$filter` query parameter to filter contacts based on their email addresses:
 
 <!-- { "blockType": "ignored" } -->
@@ -60,32 +58,21 @@ GET https://graph.microsoft.com/beta/me/contacts?$filter=emailAddresses/any(a:a/
 
 Note that you can use `$filter`, `any`, and the `eq` operator on only the **address** sub-property of instances in an **emailAddresses** collection. That is, you cannot filter on the **name** or any other sub-property of an instance of **emailAddresses**, nor can you apply any other operator or function with `filter`, such as `ne`, `le`, and `startswith()`.
 
-You can also use the `$count` and `$search` query parameters to limit the response. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
-
-For general information on the `$filter`, `$count`, and `$search` query parameter, see [OData query parameters](/graph/query-parameters).
-
+For general information on the `$filter` query parameter, see [OData query parameters](/graph/query-parameters).
 
 ## Request headers
-
-| Header | Value |
-|:------ |:--------|
-| Authorization | Bearer {token}. Required. |
-| ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
+| Header       | Value |
+|:---------------|:--------|
+| Authorization  | Bearer {token}. Required.  |
 
 ## Request body
-
 Do not supply a request body for this method.
 
 ## Response
 
 If successful, this method returns a `200 OK` response code and collection of [contact](../resources/contact.md) objects in the response body.
-
-## Examples
-
-### Example 1: Get contacts in the user's mailbox
-
-#### Request
-
+## Example
+##### Request
 The following example gets the **displayName** and **emailAddresses** properties of the signed-in user's contacts.
 
 # [HTTP](#tab/http)
@@ -110,11 +97,10 @@ GET https://graph.microsoft.com/beta/me/contacts?$select=displayName,emailAddres
 
 ---
 
-#### Response
 
-Here is an example of the response. 
->**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
 
+##### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -126,198 +112,48 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
-  "value":[
-    {
-      "displayName":"Elvis Blank",
-      "emailAddresses":[
+    "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('c3e1fcd2-db78-42a8-aec5-1f2cd59abb5c')/contacts(displayName,emailAddresses)",
+    "value":[
         {
-          "type":"personal",
-          "name":"Elvis Blank",
-          "address":"elvisb@relecloud.onmicrosoft.com"
+            "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7f6\"",
+            "id":"AAMkADh6v5AAAvgTCFAAA=",
+            "displayName":"Elvis Blank",
+            "emailAddresses":[
+                {
+                    "type":"personal",
+                    "name":"Elvis Blank",
+                    "address":"elvisb@relecloud.onmicrosoft.com"
+                },
+                {
+                    "type":"other",
+                    "otherLabel":"Volunteer work",
+                    "name":"Elvis Blank",
+                    "address":"elvisb@fabrikam.onmicrosoft.com"
+                }
+            ]
         },
         {
-          "type":"other",
-          "otherLabel":"Volunteer work",
-          "name":"Elvis Blank",
-          "address":"elvisb@fabrikam.onmicrosoft.com"
+            "@odata.etag":"W/\"EQAAABYAAACv7At+UNVFRLhGciJGF6v5AAAve7fn\"",
+            "id":"AAMkADh6v5AAAvgTCEAAA=",
+            "displayName":"Pavel Bansky",
+            "emailAddresses":[
+                {
+                    "type":"personal",
+                    "name":"Pavel Bansky",
+                    "address":"pavelb@contoso.onmicrosoft.com"
+                },
+                {
+                    "type":"other",
+                    "otherLabel":"Volunteer work",
+                    "name":"Pavel Bansky",
+                    "address":"pavelb@fabrikam.onmicrosoft.com"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
 ```
 
-### Example 2: Get contacts in the user's mailbox including a count of returned objects
-
-#### Request
-
-The following example gets the **displayName** and **emailAddresses** properties of the signed-in user's contacts and the nu,ber of objects returned.
-
-<!-- {
-  "blockType": "request",
-  "name": "user_get_contacts_count"
-}-->
-```msgraph-interactive
-GET https://graph.microsoft.com/beta/me/contacts?$count=true$select=displayName,emailAddresses
-```
-
-#### Response
-
-Here is an example of the response. 
->**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
-
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
-  "isCollection": true
-} -->
-```http
-HTTP/1.1 200 OK
-Content-type: application/json
-
-{
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users('id-value')/contacts(displayName,emailAddresses)",
-  "@odata.count":893,
-  "value":[
-    {
-      "displayName":"Elvis Blank",
-      "emailAddresses":[
-        {
-          "type":"personal",
-          "name":"Elvis Blank",
-          "address":"elvisb@relecloud.onmicrosoft.com"
-        },
-        {
-          "type":"other",
-          "otherLabel":"Volunteer work",
-          "name":"Elvis Blank",
-          "address":"elvisb@fabrikam.onmicrosoft.com"
-        }
-      ]
-    }
-  ]
-}
-```
-
-### Example 3: Get only a count of contacts
-
-#### Request
-
-The following is an example of the request.
-
-<!-- {
-  "blockType": "request",
-  "name": "get_count_only"
-}-->
-```msgraph-interactive
-GET https://graph.microsoft.com/beta/contacts/$count
-```
-
-#### Response
-
-The following is an example of the response.
-
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
-  "isCollection": true
-} -->
-```http
-HTTP/1.1 200 OK
-Content-type: text/plain
-```
-
-893
-
-### Example 4: Use $filter and $top to get one contact with a display name that starts with 'a' including a count of returned objects
-
-#### Request
-
-The following is an example of the request.
-
-<!-- {
-  "blockType": "request",
-  "name": "get_a_count"
-}-->
-```msgraph-interactive
-GET https://graph.microsoft.com/beta/contacts?$filter=startswith(displayName, 'a')&$count=true&$top=1&$orderby=displayName 
-```
-
-#### Response
-
-The following is an example of the response.
->**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
-
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
-  "isCollection": true
-} -->
-```http
-HTTP/1.1 200 OK
-Content-type: application/json
-
-{
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#contacts",
-  "@odata.count":1,
-  "value":[
-    {
-      "displayName":"a",
-      "mail":"a@contoso.com",
-      "mailNickname":"a_contoso.com#EXT#",
-      "otherMails":["a@contoso.com"],
-      "proxyAddresses":["SMTP:a@contoso.com"],
-      "userPrincipalName":"a_contoso.com#EXT#@microsoft.onmicrosoft.com",
-    }
-  ]
-}
-```
-
-### Example 5: Use $search to get contacts with display names that contain the letters 'Phone' including a count of returned objects
-
-#### Request
-
-The following is an example of the request.
-
-<!-- {
-  "blockType": "request",
-  "name": "get_phone_count"
-}-->
-```msgraph-interactive
-GET https://graph.microsoft.com/beta/contacts?$search="displayName:Phone"&$count=true
-```
-
-#### Response
-
-The following is an example of the response.
->**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
-
-<!-- {
-  "blockType": "response",
-  "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
-  "isCollection": true
-} -->
-```http
-HTTP/1.1 200 OK
-Content-type: application/json
-
-{
-  "@odata.context":"https://graph.microsoft.com/beta/$metadata#contacts",
-  "@odata.count":22,
-  "value":[
-    {
-      "displayName":"PhoneFactor - Pager",
-      "mail":"8166681968@contoso.com",
-      "mailNickname":"phonecon"
-    }
-  ]
-}
-```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--
