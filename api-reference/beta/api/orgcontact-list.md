@@ -94,7 +94,7 @@ Content-length: 222
     {
       "companyName":"Contoso",
       "department":Accounting,
-      "displayName":"Eric Solomon"
+      "displayName":"Eric Solomon",
       "givenName":"Eric",
       "jobTitle":Accountant,
       "mail":"erics@contoso.com",
@@ -141,7 +141,7 @@ Here is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
+  "@odata.type": "microsoft.graph.orgcontact",
   "isCollection": true
 } -->
 ```http
@@ -187,7 +187,7 @@ The following is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
+  "@odata.type": "microsoft.graph.orgcontact",
   "isCollection": true
 } -->
 ```http
@@ -219,7 +219,7 @@ The following is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
+  "@odata.type": "microsoft.graph.orgcontact",
   "isCollection": true
 } -->
 ```http
@@ -232,7 +232,7 @@ Content-type: application/json
   "value":[
     {
       "displayName":"a",
-      "displayName":"Abigail Jackson"
+      "displayName":"Abigail Jackson",
       "mail":"abigailJ@contoso.com",
       "mailNickname":"abigailJ"
     }
@@ -262,7 +262,7 @@ The following is an example of the response.
 <!-- {
   "blockType": "response",
   "truncated": true,
-  "@odata.type": "microsoft.graph.contact",
+  "@odata.type": "microsoft.graph.orgcontact",
   "isCollection": true
 } -->
 ```http
