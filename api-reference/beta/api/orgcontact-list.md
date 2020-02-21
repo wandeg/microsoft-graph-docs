@@ -155,7 +155,7 @@ Content-type: application/json
     {
       "companyName":"Contoso",
       "department":"Accounting",
-      "displayName":"Eric Solomon"
+      "displayName":"Eric Solomon",
       "givenName":"Eric",
       "jobTitle":"Accountant",
       "mail":"erics@contoso.com",
