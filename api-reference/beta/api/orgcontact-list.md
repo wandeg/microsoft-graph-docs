@@ -31,9 +31,9 @@ GET /contacts
 This method supports the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters) to help customize the response including `$search`, `$count`, and `$filter`. You can use `$search` on **displayName** and **description** properties. When items are added or updated for this resource, they are specially indexed for use with the `$count` and `$search` query parameters. There can be a slight delay between when an item is added or updated and when it is available in the index.
 
 ## Request headers
-| Name       | Type | Description|
-|:-----------|:------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
+| Name       | Description|
+|:-----------|:----------|
+| Authorization  | Bearer {token}. Required. |
 | ConsistencyLevel | The value is always `eventual`. This header is required when using the `$search` or `$count` query parameter. |
 
 ## Request body
