@@ -264,7 +264,7 @@ Content-type: application/json
     {
       "appId": "00000000-0000-0000-0000-000000000000",
       "identifierUris": [ "http://contoso/" ],
-      "displayName":"'WebApp-DotNet' ",
+      "displayName":"'DotNetWeb-App' ",
       "publisherDomain": "contoso.com",
       "signInAudience": "AzureADMyOrg"
     }

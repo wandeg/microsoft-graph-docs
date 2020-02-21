@@ -366,7 +366,7 @@ The following is an example of the request.
   "name": "get_don_count"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/users?$search="displayName:Os"&$orderby=displayName&$count=true
+GET https://graph.microsoft.com/beta/users?$search="displayName:wa"&$orderby=displayName&$count=true
 ```
 
 #### Response
