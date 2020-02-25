@@ -164,7 +164,7 @@ The following is an example of the request.
   "name": "get_count_only"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/groups/{id}/members/$count
+GET https://graph.microsoft.com/beta/groups/{id}/memberOf/$count
 ```
 
 #### Response
@@ -196,7 +196,7 @@ The following is an example of the request.
   "name": "get_count_group_only"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/groups/{id}/members/$/Microsoft.Graph.Group/$count
+GET https://graph.microsoft.com/beta/groups/{id}/memberOf/$/Microsoft.Graph.Group/$count
 ```
 
 #### Response

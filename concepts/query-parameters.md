@@ -364,10 +364,10 @@ The table below shows some examples.
 
 | Object class | Description | Example |
 | ------------ | ----------- | ------- |
-| User | Address book display name of the user. |  `https://graph.microsoft.com/beta/users?$search="displayName:Guthr"&ConsistencyLevel=eventual` |
-| User | Address book display name or mail of the user. | `https://graph.microsoft.com/beta/users?$search="displayName:Guthr" OR "mail:Guthr"&ConsistencyLevel=eventual` |
-| Group | Address book display name or description of the group. | `https://graph.microsoft.com/beta/groups?$search="description:One" AND ("displayName:Video" OR "displayName:Drive")&ConsistencyLevel=eventual` |
-| Group | Address book display name on a mail enabled group. | `https://graph.microsoft.com/beta/groups?$filter=mailEnabled eq true&$search="displayName:OneVideo"&ConsistencyLevel=eventual` |
+| User | Address book display name of the user. |  `https://graph.microsoft.com/beta/users?$search="displayName:Guthr"` |
+| User | Address book display name or mail of the user. | `https://graph.microsoft.com/beta/users?$search="displayName:Guthr" OR "mail:Guthr"` |
+| Group | Address book display name or description of the group. | `https://graph.microsoft.com/beta/groups?$search="description:One" AND ("displayName:Video" OR "displayName:Drive")` |
+| Group | Address book display name on a mail enabled group. | `https://graph.microsoft.com/beta/groups?$filter=mailEnabled eq true&$search="displayName:OneVideo"` |
 
 Both the string inputs you provide in `$search`, as well as the searchable properties indicated above, are split up into parts by spaces, different casing, and character types (numbers and special characters).
 
