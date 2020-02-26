@@ -39,7 +39,6 @@ This method supports the [OData query parameters](/graph/query-parameters) to he
 | Header        | Value                      |
 |:--------------|:---------------------------|
 | Authorization | Bearer {token} (required)  |
-| Content-Type  | application/json           |
 
 ## Request body
 
@@ -190,7 +189,7 @@ The following is an example of the request.
   "name": "get_signin_last_time"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/users?$select=displayName,userPrincipalName, signInActivity
+GET https://graph.microsoft.com/beta/users?$select=displayName,userPrincipalName,signInActivity
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-signin-last-time-csharp-snippets.md)]
