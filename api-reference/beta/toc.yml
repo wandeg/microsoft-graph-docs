@@ -639,7 +639,7 @@
         - name: Get open extension
           href: api/opentypeextension-get.md
     - name: Applications
-        items:
+      items:
         - name: Application
           href: resources/application.md
           items:
