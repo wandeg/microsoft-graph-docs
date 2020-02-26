@@ -8513,7 +8513,7 @@
         - name: Delete vendor
           href: api/dynamics-vendor-delete.md
     - name: Identity and access
-      displayName: Azure AD, Microsoft identity platform
+      displayName: Azure AD, Microsoft Identity platform
       items:
       - name: Overview
         href: resources/azure-ad-overview.md
