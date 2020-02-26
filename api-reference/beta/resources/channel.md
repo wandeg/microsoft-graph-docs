@@ -23,6 +23,7 @@ where files are shared, and where tabs are added.
 |[Get channel](../api/channel-get.md) | [channel](channel.md) | Read properties and relationships of the channel.|
 |[Update channel](../api/channel-patch.md) | [channel](channel.md) | Update properties of the channel.|
 |[Delete channel](../api/channel-delete.md) | None | Delete a channel.|
+|[Get message delta](../api/chatmessage-delta.md)  | [chatMessage](../resources/chatmessage.md) | Get incremental messages in a channel. |
 |[List channel messages](../api/channel-list-messages.md)  | [chatMessage](../resources/chatmessage.md) | Get messages in a channel |
 |[List channel members](../api/conversationmember-list.md)| [conversationMember](conversationmember.md) collection| List the members of a channel. |
 |[Get channel member](../api/conversationmember-get.md)| [conversationMember](conversationmember.md)| Get a member of a channel. |
@@ -31,15 +32,11 @@ where files are shared, and where tabs are added.
 |[Delete channel member](../api/conversationmember-delete.md) | [conversationMember](conversationmember.md)| Delete a member of a channel. Only supported for `channelType` of `private`.|
 |[Create chatMessage in a channel](../api/channel-post-messages.md) | [chatMessage](../resources/chatmessage.md) | Send a message to a channel. |
 |[Create chatMessage reply in a channel](../api/channel-post-messagereply.md) | [chatMessage](../resources/chatmessage.md) | Reply to a message in a channel.|
-|[List tabs](../api/teamstab-list.md) | [teamsTab](teamstab.md) | Lists tabs pinned to a channel.|
-|[Get tab](../api/teamstab-get.md) | [teamsTab](teamstab.md) | Reads a tab pinned to a channel.|
-|[Add tab](../api/teamstab-add.md) | [teamsTab](teamstab.md) | Adds (pins) a tab to a channel.|
-|[Remove tab](../api/teamstab-delete.md) | None | Removes (unpins) a tab from a channel.|
-|[Update tab](../api/teamstab-update.md) | [teamsTab](teamstab.md) | Updates the tab properties.|
+|[Get files folder](../api/driveitem-get.md)| [driveItem](driveitem.md) | Retrieves the details of the SharePoint folder where the files for the channel are stored. |
 
 ## Properties
 
-| Property    | Type |Description|
+| Property   | Type |Description|
 |:---------------|:--------|:----------|
 |description|String|Optional textual description for the channel.|
 |displayName|String|Channel name as it will appear to the user in Microsoft Teams.|
@@ -51,11 +48,12 @@ where files are shared, and where tabs are added.
 
 ## Relationships
 
-| Relationship | Type	|Description|
+| Relationship | Type |Description|
 |:---------------|:--------|:----------|
 |messages|[chatMessage](chatmessage.md) collection|A collection of all the messages in the channel. A navigation property. Nullable. Currently this API only supports reading but will eventually support writing messages too.|
 |tabs|[teamsTab](../resources/teamstab.md) collection|A collection of all the tabs in the channel. A navigation property.|
 |members|[conversationMember](conversationmember.md) collection|A collection of membership records associated with the channel.|
+|filesFolder|[driveItem](driveitem.md)|Metadata for the location where the channel's files are stored.|
 
 ## JSON representation
 

@@ -33,6 +33,7 @@ highlightedContent:
       itemType: reference
       url: /graph/api/overview?toc=.%2Fref%2Ftoc.json&view=graph-rest-beta
 
+<<<<<<< HEAD
 conceptualContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
   items:
@@ -99,6 +100,100 @@ conceptualContent:
         - url: /graph/toolkit/overview
           itemType: overview
           text: Use the toolkit (preview)
+=======
+  - title: Supported platforms
+    items:
+    - type: paragraph
+      text: 'Find SDKs and follow platform-specific, step-by-step training exercises that guide you through basic Microsoft Graph concepts, including how to create a simple app that uses Azure AD authentication and accesses data via Microsoft Graph.'
+    - type: table
+      style: dataMatrix
+      columns:
+        - image:
+            src: ./images/index/logo_NETcore.svg
+          title: .NET
+        - image:
+            src: ./images/index/logo_NET.svg
+          title: .NET
+        - image:
+            src: ./images/index/logo_android.svg
+          title: Android
+        - image:
+            src: ./images/index/angular.svg
+          title: Angular
+        - image:
+            src: ./images/index/logo_ios.svg
+          title: iOS
+        - image:
+            src: ./images/index/logo_java.svg
+          title: Java
+        - image:
+            src: ./images/index/logo_js.svg
+          title: JavaScript
+        - image:
+            src: ./images/index/logo_nodejs.svg
+          title: Node.js
+        - image:
+            src: ./images/index/logo_php.svg
+          title: PHP
+        - image:
+            src: ./images/index/logo_python.svg
+          title: Python
+        - image:
+            src: ./images/index/logo_ruby.svg
+          title: Ruby
+        - image:
+            src: ./images/index/logo_windows.svg
+          title: UWP
+        - image:
+            src: ./images/index/logo_xamarin.svg
+          title: Xamarin
+      rows:
+        - title: Quickstart
+          values:
+          - href: 
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-dotnet
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-android
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-angular
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-ios-swift
+          - href:
+          - href:
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-node
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-php
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-Python
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-ruby
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-windowsuniversal
+          - href: https://developer.microsoft.com/graph/quick-start?platform=option-xamarin
+        - title: Tutorial
+          values:
+          - href: /graph/tutorials/aspnet
+          - href: /graph/tutorials/aspnet
+          - href: /graph/tutorials/android
+          - href: /graph/tutorials/angular
+          - href:
+          - href:
+          - href:
+          - href: /graph/tutorials/node
+          - href: /graph/tutorials/php
+          - href: /graph/tutorials/python
+          - href: /graph/tutorials/ruby
+          - href: /graph/tutorials/uwp
+          - href: /graph/tutorials/xamarin
+        - title: SDK
+          values:
+          - href: https://www.nuget.org/packages/Microsoft.Graph
+          - href: https://www.nuget.org/packages/Microsoft.Graph
+          - href: https://github.com/microsoftgraph/msgraph-sdk-android
+          - href: https://github.com/microsoftgraph/msgraph-sdk-javascript
+          - href: https://github.com/microsoftgraph/msgraph-sdk-objc
+          - href: https://github.com/microsoftgraph/msgraph-sdk-java
+          - href: https://github.com/microsoftgraph/msgraph-sdk-javascript
+          - href: https://github.com/microsoftgraph/msgraph-sdk-javascript
+          - href: https://github.com/microsoftgraph/msgraph-sdk-php
+          - href:
+          - href: https://github.com/microsoftgraph/msgraph-sdk-ruby
+          - href: https://www.nuget.org/packages/Microsoft.Graph
+          - href: https://www.nuget.org/packages/Microsoft.Graph
+>>>>>>> b593635f60d4b18965709a16baa39aa306d2733b
 
 tools: 
   title: Quickstarts
