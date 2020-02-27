@@ -12,9 +12,6 @@ doc_type: apiPageType
 Returns the directory objects specified in a list of IDs.
 
 >[!NOTE]
->The directory objects returned are the full objects containing all their properties. The `$select` query option is not available for this operation.
-
->[!NOTE]
 >This API has a [known issue](/graph/known-issues#incomplete-objects-when-using-getbyids-request). Not all directory objects returned are the full objects containing all their properties.
 
 Some common uses for this function are to:
@@ -43,12 +40,16 @@ One of the following permissions is required to call this API. To learn more, in
 POST /directoryObjects/getByIds
 ```
 
+## Optional query parameters
+
+This method supports the `$search` query parameter. For more information, see the [OData Query Parameters](https://developer.microsoft.com/graph/docs/concepts/query_parameters).
+
 ## Request headers
 
-| Name       | Type | Description|
-|:---------------|:--------|:----------|
-| Authorization  | string  | Bearer {token}. Required. |
-| Content-Type  | string | application/json  |
+| Name | Description |
+|:---- |:----------- |
+| Authorization | Bearer {token}. Required. |
+| Content-Type | application/json |
 
 ## Request body
 
@@ -63,10 +64,13 @@ In the request body, provide a JSON object with the following parameters.
 
 If successful, this method returns `200 OK` response code and String collection object in the response body.
 
-## Example
+## Examples
 
-##### Request
+### Example 1: Get the directory objects specified in a list of IDs
 
+#### Request
+
+The following is an example of the request.
 
 # [HTTP](#tab/http)
 <!-- {
@@ -101,10 +105,11 @@ Content-type: application/json
 
 ---
 
+#### Response
 
-##### Response
+The following is an example of the response.
+> Note: The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
 
-Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -127,8 +132,59 @@ Content-type: application/json
       },
       {
         "@odata.type": "#microsoft.graph.user",
-        "id": "84b80893-8749-40a3-97b7-68513b600544",
+        "id": "5d6059b6368d-45f8-91e18e07d485f1d0",
         "accountEnabled": true,
+        "displayName": "Billy Smith"
+      }
+    ]
+}
+```
+
+### Example 2: Get the display name of the directory objects specified in a list of IDs
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "directoryobject_getById_select"
+}-->
+
+```http
+POST https://graph.microsoft.com/v1.0/directoryObjects/getByIds?$select=displayName
+Content-type: application/json
+
+{
+    "ids":["84b80893874940a3-97b7-68513b600544","5d6059b6368d-45f8-91e18e07d485f1d0"],
+    "types":["user"]
+}
+```
+
+#### Response
+
+The following is an example of the response.
+> Note: The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.directoryObject",
+  "isCollection": true
+} -->
+
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#directoryObjects",
+    "value": [
+      {
+        "@odata.type": "#microsoft.graph.user",
+        "displayName": "Trevor Jones"
+      },
+      {
+        "@odata.type": "#microsoft.graph.user",
         "displayName": "Billy Smith"
       }
     ]
