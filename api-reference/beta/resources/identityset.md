@@ -15,6 +15,8 @@ The **identitySet** resource is a keyed collection of [identity](identity.md) re
 
 It is used to represent a set of identities associated with various events for an item, such as _created by_ or _last modified by_.
 
+**Namespace**: microsoft.graph
+
 ## JSON representation
 
 The following is a JSON representation of the resource.

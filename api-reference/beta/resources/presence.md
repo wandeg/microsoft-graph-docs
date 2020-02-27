@@ -13,6 +13,8 @@ Contains information about a user's presence, including their availability and u
 
 > **Note:** This resource is currently only supported for Microsoft Teams users.
 
+**Namespace**: microsoft.graph
+
 ## Methods
 
 | Method                                                            | Return Type                                       | Description                                  |
