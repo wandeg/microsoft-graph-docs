@@ -19,6 +19,8 @@ Contains properties used to assign an Win32 LOB mobile app to a group.
 Inherits from [mobileAppAssignmentSettings](../resources/intune-shared-mobileappassignmentsettings.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |notifications|[win32LobAppNotification](../resources/intune-shared-win32lobappnotification.md)|The notification status for this app assignment. Possible values are: `showAll`, `showReboot`, `hideAll`.|

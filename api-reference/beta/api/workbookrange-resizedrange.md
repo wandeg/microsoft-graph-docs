@@ -14,6 +14,8 @@ doc_type: apiPageType
 Gets a range object similar to the current range object, but with its bottom-right corner expanded (or contracted) by some number of rows and columns.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

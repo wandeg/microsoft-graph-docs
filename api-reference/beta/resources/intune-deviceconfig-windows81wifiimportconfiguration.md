@@ -19,6 +19,8 @@ Windows 8.1+ Wi-Fi import configuration. By configuring this profile you can ins
 Inherits from [deviceConfiguration](../resources/intune-shared-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows81WifiImportConfigurations](../api/intune-deviceconfig-windows81wifiimportconfiguration-list.md)|[windows81WifiImportConfiguration](../resources/intune-deviceconfig-windows81wifiimportconfiguration.md) collection|List properties and relationships of the [windows81WifiImportConfiguration](../resources/intune-deviceconfig-windows81wifiimportconfiguration.md) objects.|

@@ -21,6 +21,8 @@ If you want to obtain long-lived embeddable links, use the [createLink][] API in
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API.
 To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 

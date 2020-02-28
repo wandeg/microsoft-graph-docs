@@ -17,6 +17,8 @@ This topic provides descriptions of the declared methods, properties and relatio
 Inherits from [deviceConfiguration](../resources/intune-deviceconfig-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81GeneralConfigurations](../api/intune-deviceconfig-windowsphone81generalconfiguration-list.md)|[windowsPhone81GeneralConfiguration](../resources/intune-deviceconfig-windowsphone81generalconfiguration.md) collection|List properties and relationships of the [windowsPhone81GeneralConfiguration](../resources/intune-deviceconfig-windowsphone81generalconfiguration.md) objects.|

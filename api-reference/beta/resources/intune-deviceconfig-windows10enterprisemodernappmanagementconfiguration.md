@@ -19,6 +19,8 @@ Windows10 Enterprise Modern App Management Configuration.
 Inherits from [deviceConfiguration](../resources/intune-shared-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10EnterpriseModernAppManagementConfigurations](../api/intune-deviceconfig-windows10enterprisemodernappmanagementconfiguration-list.md)|[windows10EnterpriseModernAppManagementConfiguration](../resources/intune-deviceconfig-windows10enterprisemodernappmanagementconfiguration.md) collection|List properties and relationships of the [windows10EnterpriseModernAppManagementConfiguration](../resources/intune-deviceconfig-windows10enterprisemodernappmanagementconfiguration.md) objects.|

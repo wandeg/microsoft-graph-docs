@@ -19,6 +19,8 @@ Contains properties and inherited properties for Windows Phone 8.1 Store apps.
 Inherits from [mobileApp](../resources/intune-shared-mobileapp.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81StoreApps](../api/intune-apps-windowsphone81storeapp-list.md)|[windowsPhone81StoreApp](../resources/intune-apps-windowsphone81storeapp.md) collection|List properties and relationships of the [windowsPhone81StoreApp](../resources/intune-apps-windowsphone81storeapp.md) objects.|

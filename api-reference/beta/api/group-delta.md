@@ -15,6 +15,8 @@ Get newly created, updated, or deleted groups, including group membership change
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

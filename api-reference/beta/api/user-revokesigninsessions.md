@@ -20,6 +20,8 @@ If the application attempts to redeem a delegated access token for this user by 
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type                        | Permissions (from least to most privileged)              |

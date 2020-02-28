@@ -13,6 +13,8 @@ doc_type: apiPageType
 
 Sets the fill formatting of a chart element to a uniform color.
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

@@ -19,6 +19,8 @@ Device Configuration.
 Inherits from [windowsCertificateProfileBase](../resources/intune-deviceconfig-windowscertificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows81CertificateProfileBases](../api/intune-deviceconfig-windows81certificateprofilebase-list.md)|[windows81CertificateProfileBase](../resources/intune-deviceconfig-windows81certificateprofilebase.md) collection|List properties and relationships of the [windows81CertificateProfileBase](../resources/intune-deviceconfig-windows81certificateprofilebase.md) objects.|

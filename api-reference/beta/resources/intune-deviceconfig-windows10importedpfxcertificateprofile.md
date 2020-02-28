@@ -19,6 +19,8 @@ Windows 10 Desktop and Mobile PFX Import certificate profile
 Inherits from [windowsCertificateProfileBase](../resources/intune-deviceconfig-windowscertificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10ImportedPFXCertificateProfiles](../api/intune-deviceconfig-windows10importedpfxcertificateprofile-list.md)|[windows10ImportedPFXCertificateProfile](../resources/intune-deviceconfig-windows10importedpfxcertificateprofile.md) collection|List properties and relationships of the [windows10ImportedPFXCertificateProfile](../resources/intune-deviceconfig-windows10importedpfxcertificateprofile.md) objects.|

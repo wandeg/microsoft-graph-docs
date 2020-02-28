@@ -14,6 +14,8 @@ author: ""
 Get the list of groups and directory roles that this service principal is a member of.  This check is transitive.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

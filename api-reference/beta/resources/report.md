@@ -15,6 +15,8 @@ With Microsoft Graph, you can access Office 365 usage reports resources to get t
 
 ## Authorization
 
+Namespace: microsoft.graph
+
 Microsoft Graph controls access to resources via permissions. You must specify the permissions you need in order to access Reports resources. Typically, you specify permissions in the Azure Active Directory (Azure AD) portal. For more information, see [Microsoft Graph permissions reference](/graph/permissions-reference) and [Reports permissions](/graph/permissions-reference#reports-permissions).
 
 ## Changes to the Reports APIs

@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Windows 10 Associated Application definition.
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |appType|[windows10AppType](../resources/intune-deviceconfig-windows10apptype.md)|Application type. Possible values are: `desktop`, `universal`.|

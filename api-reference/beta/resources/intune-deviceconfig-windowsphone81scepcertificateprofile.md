@@ -19,6 +19,8 @@ Windows Phone 8.1+ SCEP certificate profile
 Inherits from [windowsPhone81CertificateProfileBase](../resources/intune-deviceconfig-windowsphone81certificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81SCEPCertificateProfiles](../api/intune-deviceconfig-windowsphone81scepcertificateprofile-list.md)|[windowsPhone81SCEPCertificateProfile](../resources/intune-deviceconfig-windowsphone81scepcertificateprofile.md) collection|List properties and relationships of the [windowsPhone81SCEPCertificateProfile](../resources/intune-deviceconfig-windowsphone81scepcertificateprofile.md) objects.|

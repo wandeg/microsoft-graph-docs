@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Contains installation experience properties for a Win32 App
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |runAsAccount|[runAsAccountType](../resources/intune-shared-runasaccounttype.md)|Indicates the type of execution context the app runs in. Possible values are: `system`, `user`.|

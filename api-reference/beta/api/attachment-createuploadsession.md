@@ -31,6 +31,8 @@ See [attach large files to Outlook messages](/graph/outlook-large-attachments) f
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 | Permission type                        | Permissions (from least to most privileged) |

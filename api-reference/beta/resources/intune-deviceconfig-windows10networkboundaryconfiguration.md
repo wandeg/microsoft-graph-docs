@@ -19,6 +19,8 @@ Windows10 Network Boundary Configuration
 Inherits from [deviceConfiguration](../resources/intune-shared-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10NetworkBoundaryConfigurations](../api/intune-deviceconfig-windows10networkboundaryconfiguration-list.md)|[windows10NetworkBoundaryConfiguration](../resources/intune-deviceconfig-windows10networkboundaryconfiguration.md) collection|List properties and relationships of the [windows10NetworkBoundaryConfiguration](../resources/intune-deviceconfig-windows10networkboundaryconfiguration.md) objects.|

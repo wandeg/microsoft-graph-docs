@@ -18,6 +18,8 @@ You can [get all the room lists](user-findroomlists.md) in the tenant, get all t
 up to the first 100 rooms in the tenant.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 

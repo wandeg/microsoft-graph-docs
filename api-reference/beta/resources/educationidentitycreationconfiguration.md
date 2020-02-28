@@ -9,6 +9,8 @@ doc_type: resourcePageType
 
 ## educationIdentityCreationConfiguration resource type
 
+Namespace: microsoft.graph
+
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
 Defines the settings on creation of school data profile identities. These identities include students and teachers. Based on these settings, the users will be created in the directory.

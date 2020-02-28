@@ -16,6 +16,8 @@ doc_type: enumPageType
 Windows 10 VPN profile target types.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |user|0|User targeted VPN profile.|

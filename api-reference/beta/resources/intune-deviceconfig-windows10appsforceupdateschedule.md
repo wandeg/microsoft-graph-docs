@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Windows 10 force update schedule for Apps
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |startDateTime|DateTimeOffset|The start time for the force restart.|

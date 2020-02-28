@@ -15,6 +15,8 @@ Register a [governanceResource](../resources/governanceresource.md) object in Pr
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 >**Note:** This API also requires that the requester have at least one active role assignment on the resource.

@@ -21,6 +21,8 @@ For more information about how to handle unmute operations, see [unmuteParticipa
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 | Permission type                        | Permissions (from least to most privileged) |
 |:---------------------------------------|:--------------------------------------------|
 | Delegated (work or school account)     | Not supported.                               |

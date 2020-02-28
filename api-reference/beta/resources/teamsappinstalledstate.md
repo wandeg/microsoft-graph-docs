@@ -15,6 +15,8 @@ Describes the current installation status of a [teamsApp](teamsapp.md).
 
 ## Members
 
+Namespace: microsoft.graph
+
 | Member | Value| Description |
 |:---------------|:--------|:----------|
 |notInstalled|0|App is not installed to team.|

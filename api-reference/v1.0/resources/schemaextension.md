@@ -26,6 +26,8 @@ See the [schema extension example](/graph/extensibility-schema-groups) to learn 
 
 ## Methods
 
+Namespace: microsoft.graph
+
 | Method		   | Return Type	|Description|
 |:---------------|:--------|:----------|
 |[Create](../api/schemaextension-post-schemaextensions.md) | schemaExtension |Create a schema extension definition.|

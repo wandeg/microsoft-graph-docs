@@ -17,6 +17,8 @@ You can gain insights into the activity of Office 365 Groups in your organizatio
 
 ## Reports
 
+Namespace: microsoft.graph
+
 | Function                                 | CSV return type | JSON return type                         | Description                              |
 | :--------------------------------------- | :-------------- | :--------------------------------------- | ---------------------------------------- |
 | [Get group detail](../api/reportroot-getoffice365groupsactivitydetail.md) | Stream          | [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) | Get details about Office 365 Groups activity by group. |

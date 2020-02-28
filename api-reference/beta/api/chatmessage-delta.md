@@ -30,6 +30,8 @@ For more information, see the [delta query](/graph/delta-query-overview.md) docu
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference.md).
 
 |Permission Type                        |Permissions (from least to most privileged)  |

@@ -16,6 +16,8 @@ doc_type: enumPageType
 VPN connection types.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |pulseSecure|0|Pulse Secure.|

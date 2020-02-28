@@ -11,6 +11,8 @@ doc_type: resourcePageType
 
 ## Properties
 
+Namespace: microsoft.graph
+
 | Property                          | Type    | Description                              |
 | :-------------------------------- | :------ | ---------------------------------------- |
 | groupId                           | String  | The group id.          |

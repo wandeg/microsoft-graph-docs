@@ -19,6 +19,8 @@ Contains product code and version properties to detect a Win32 App
 Inherits from [win32LobAppDetection](../resources/intune-apps-win32lobappdetection.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |productCode|String|The product code of Win32 Line of Business (LoB) app.|

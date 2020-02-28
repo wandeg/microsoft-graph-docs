@@ -19,6 +19,8 @@ you can query for incremental changes in the contact folders. This allows you to
 a local store of a user's contact folders without having to fetch all the contact folders of that mailbox from the server every time.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 

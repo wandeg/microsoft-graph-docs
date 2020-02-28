@@ -17,6 +17,8 @@ IPv4 Range definition.
 Inherits from [ipRange](../resources/intune-mam-iprange.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |lowerAddress|String|Lower address.|

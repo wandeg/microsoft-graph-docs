@@ -19,6 +19,8 @@ Contains file or folder path to detect a Win32 App
 Inherits from [win32LobAppDetection](../resources/intune-apps-win32lobappdetection.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |path|String|The file or folder path to detect Win32 Line of Business (LoB) app|

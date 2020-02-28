@@ -13,6 +13,8 @@ Get newly created, updated, or deleted directory roles without having to perform
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 

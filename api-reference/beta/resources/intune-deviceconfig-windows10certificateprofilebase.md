@@ -19,6 +19,8 @@ Base class for Windows 10 certificate profile.
 Inherits from [windowsCertificateProfileBase](../resources/intune-deviceconfig-windowscertificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10CertificateProfileBases](../api/intune-deviceconfig-windows10certificateprofilebase-list.md)|[windows10CertificateProfileBase](../resources/intune-deviceconfig-windows10certificateprofilebase.md) collection|List properties and relationships of the [windows10CertificateProfileBase](../resources/intune-deviceconfig-windows10certificateprofilebase.md) objects.|

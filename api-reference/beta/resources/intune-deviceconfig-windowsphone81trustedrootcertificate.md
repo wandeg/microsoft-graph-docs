@@ -19,6 +19,8 @@ Windows Phone 8.1+ Trusted Root Certificate configuration profile
 Inherits from [deviceConfiguration](../resources/intune-shared-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81TrustedRootCertificates](../api/intune-deviceconfig-windowsphone81trustedrootcertificate-list.md)|[windowsPhone81TrustedRootCertificate](../resources/intune-deviceconfig-windowsphone81trustedrootcertificate.md) collection|List properties and relationships of the [windowsPhone81TrustedRootCertificate](../resources/intune-deviceconfig-windowsphone81trustedrootcertificate.md) objects.|

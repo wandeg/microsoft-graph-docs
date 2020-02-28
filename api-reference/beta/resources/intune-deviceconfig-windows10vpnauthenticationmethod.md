@@ -16,6 +16,8 @@ doc_type: enumPageType
 Windows 10 VPN connection types.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |certificate|0|Authenticate with a certificate.|

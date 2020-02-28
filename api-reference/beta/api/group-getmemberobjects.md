@@ -14,6 +14,8 @@ doc_type: apiPageType
 Return all of the groups and administrative units that the group is a member of. The check is transitive. Note: Groups cannot be members of directory roles, so no directory roles will be returned.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

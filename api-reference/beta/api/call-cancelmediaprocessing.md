@@ -14,6 +14,8 @@ doc_type: apiPageType
 Cancels processing for any in-progress [play prompt](./call-playprompt.md) or [record response](./call-record.md) operations.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 | Permission type                        | Permissions (from least to most privileged) |

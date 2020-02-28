@@ -36,6 +36,8 @@ Open extensions are supported by the following resources in the corresponding ve
 
 ## Outlook-specific considerations
 
+Namespace: microsoft.graph
+
 Each open extension present on an Outlook resource (event, message, or personal contact) is stored in a [MAPI named property](https://msdn.microsoft.com/library/cc765864(v=office.15).aspx). When you create open extensions for Outlook, consider that MAPI named properties are a finite resource in a user's mailbox. When a user's named property quota is exhausted, you can't create any more named properties for that user. This can result in unexpected behavior from clients that rely on named properties to function.
 
 Apply the following guidelines when you create open extensions on Outlook resources:

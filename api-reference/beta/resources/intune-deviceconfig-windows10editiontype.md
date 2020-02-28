@@ -16,6 +16,8 @@ doc_type: enumPageType
 Windows 10 Edition type.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |windows10Enterprise|0|Windows 10 Enterprise|

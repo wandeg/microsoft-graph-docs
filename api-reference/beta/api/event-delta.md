@@ -22,6 +22,8 @@ a local store of a user's events in the primary calendar, without having to fetc
 from the server every time.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 

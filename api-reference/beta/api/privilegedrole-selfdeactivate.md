@@ -13,6 +13,8 @@ author: ""
 
 Deactivate the role that is assigned to the requestor.
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 The requestor can only call ```selfDeactivate``` for the role that is assigned to him. 

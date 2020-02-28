@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Base class to detect a Win32 App
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 

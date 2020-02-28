@@ -15,6 +15,8 @@ Describes the visibility of a [team](../resources/team.md).
 
 ## Members
 
+Namespace: microsoft.graph
+
 | Member | Value| Description |
 |:---------------|:--------|:----------|
 |private|0|Anyone can see the team but only the owner can add a user to the team.|

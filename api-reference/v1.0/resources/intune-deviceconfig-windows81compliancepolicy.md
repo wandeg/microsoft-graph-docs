@@ -17,6 +17,8 @@ This class contains compliance settings for Windows 8.1.
 Inherits from [deviceCompliancePolicy](../resources/intune-deviceconfig-devicecompliancepolicy.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows81CompliancePolicies](../api/intune-deviceconfig-windows81compliancepolicy-list.md)|[windows81CompliancePolicy](../resources/intune-deviceconfig-windows81compliancepolicy.md) collection|List properties and relationships of the [windows81CompliancePolicy](../resources/intune-deviceconfig-windows81compliancepolicy.md) objects.|

@@ -11,6 +11,8 @@ doc_type: resourcePageType
 
 ## Properties
 
+Namespace: microsoft.graph
+
 | Property          | Type   | Description                              |
 | :---------------- | :----- | ---------------------------------------- |
 | reportRefreshDate | Date   | The latest date of the content.          |

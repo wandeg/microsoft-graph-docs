@@ -16,6 +16,8 @@ doc_type: enumPageType
 Indicates the package type of an MSI Win32LobApp.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |perMachine|0|Indicates a per-machine app package.|

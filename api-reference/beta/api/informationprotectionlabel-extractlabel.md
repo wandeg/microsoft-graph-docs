@@ -18,6 +18,8 @@ Using the metadata that exists on an already-labeled piece of information, resol
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 | Permission type                        | Permissions (from least to most privileged) |

@@ -16,6 +16,8 @@ doc_type: enumPageType
 Contains all supported Powershell Script output detection type.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |notConfigured|0|Not configured.|

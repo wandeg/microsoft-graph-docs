@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Network Proxy Server Policy.
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |address|String|Address to the proxy server. Specify an address in the format <server>\[“:”<port>\]|

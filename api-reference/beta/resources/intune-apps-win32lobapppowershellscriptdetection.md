@@ -19,6 +19,8 @@ Contains PowerShell script properties to detect a Win32 App
 Inherits from [win32LobAppDetection](../resources/intune-apps-win32lobappdetection.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |enforceSignatureCheck|Boolean|A value indicating whether signature check is enforced|

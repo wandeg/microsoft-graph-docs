@@ -17,6 +17,8 @@ Derived from [educationSynchronizationConnectionSettings](educationsynchronizati
 
 ## Properties
 
+Namespace: microsoft.graph
+
 | Property | Type | Description |
 |:-|:-|:-|
 | **tokenUrl** | String | The URL to get access tokens for the data provider. |

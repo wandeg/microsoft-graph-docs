@@ -15,6 +15,8 @@ Adds rows to the end of the table. Note that the API can accept multiple rows da
 
 ## Error Handling
 
+Namespace: microsoft.graph
+
 This request might occasionally receive a 504 HTTP error. The appropriate response to this error is to repeat the request.
 
 ## Permissions

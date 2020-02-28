@@ -16,6 +16,8 @@ doc_type: enumPageType
 Contains properties for detection operator.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |notConfigured|0|Not configured.|

@@ -19,6 +19,8 @@ IPv6 Range definition.
 Inherits from [ipRange](../resources/intune-shared-iprange.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |lowerAddress|String|Lower address.|

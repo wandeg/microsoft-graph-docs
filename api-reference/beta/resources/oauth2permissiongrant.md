@@ -15,6 +15,8 @@ Represents the OAuth 2.0 scopes (delegated permissions) that have been granted t
 
 ## JSON representation
 
+Namespace: microsoft.graph
+
 Here is a JSON representation of the resource
 
 <!-- {

@@ -9,6 +9,8 @@ doc_type: enumPageType
 
 ### contactRelationship values
 
+Namespace: microsoft.graph
+
 |Member|Value|Description|
 |:---|:---|:---|
 |parent|0|The user's parent.|

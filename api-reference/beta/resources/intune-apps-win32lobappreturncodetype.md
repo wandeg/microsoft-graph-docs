@@ -16,6 +16,8 @@ doc_type: enumPageType
 Indicates the type of return code.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |failed|0|Failed.|

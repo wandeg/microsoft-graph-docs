@@ -17,6 +17,8 @@ Derived from [microsoft.graph.educationSynchronizationConnectionSettings](educat
 
 ## Properties
 
+Namespace: microsoft.graph
+
 No additional properties are exposed by this type.
 
 ## JSON representation

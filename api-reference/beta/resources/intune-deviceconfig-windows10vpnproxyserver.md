@@ -19,6 +19,8 @@ VPN Proxy Server.
 Inherits from [vpnProxyServer](../resources/intune-deviceconfig-vpnproxyserver.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |automaticConfigurationScriptUrl|String|Proxy's automatic configuration script url. Inherited from [vpnProxyServer](../resources/intune-deviceconfig-vpnproxyserver.md)|

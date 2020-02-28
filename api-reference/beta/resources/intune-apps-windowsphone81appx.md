@@ -19,6 +19,8 @@ Contains properties and inherited properties for Windows Phone 8.1 AppX Line Of 
 Inherits from [mobileLobApp](../resources/intune-apps-mobilelobapp.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81AppXs](../api/intune-apps-windowsphone81appx-list.md)|[windowsPhone81AppX](../resources/intune-apps-windowsphone81appx.md) collection|List properties and relationships of the [windowsPhone81AppX](../resources/intune-apps-windowsphone81appx.md) objects.|

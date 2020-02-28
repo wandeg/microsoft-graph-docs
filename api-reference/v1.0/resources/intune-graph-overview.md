@@ -17,6 +17,8 @@ For mobile device management (MDM) scenarios, the Microsoft Graph API for Intune
 
 ## Using the Microsoft Graph API for Intune
 
+Namespace: microsoft.graph
+
 Intune provides data into the Microsoft Graph API in the same way as other cloud services do, with rich entity information and relationship navigation. Use the Microsoft Graph API to combine information from other services and Intune to build rich cross-service applications for IT professionals or end users.     
 
 The following example shows how you can determine whether an application is installed on a user's device: 

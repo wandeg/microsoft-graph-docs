@@ -19,6 +19,8 @@ Contains properties and inherited properties for Win32 apps.
 Inherits from [mobileLobApp](../resources/intune-apps-mobilelobapp.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List win32LobApps](../api/intune-apps-win32lobapp-list.md)|[win32LobApp](../resources/intune-apps-win32lobapp.md) collection|List properties and relationships of the [win32LobApp](../resources/intune-apps-win32lobapp.md) objects.|

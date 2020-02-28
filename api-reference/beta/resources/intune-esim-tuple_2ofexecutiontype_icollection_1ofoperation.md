@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Not yet documented
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |item2|** Unknown Type `microsoft.management.services.genericWorkloadActivity.models.operation` ** collection|Not yet documented|

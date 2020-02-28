@@ -14,6 +14,8 @@ The Office 365 activation reports can give you a view of which users have activa
 > **Note:** For details about different report views and names, see [Office 365 Reports - Microsoft Office activations](https://support.office.com/client/Office-activations-87c24ae2-82e0-4d1e-be01-c3bcc3f18c60).
 
 ## Reports
+
+Namespace: microsoft.graph
 | Function                                 | Return Type | Description                              |
 | :--------------------------------------- | :---------- | :--------------------------------------- |
 | [Get user detail](../api/reportroot-getoffice365activationsuserdetail.md) | Stream      | Get details about users who have activated Office 365. |

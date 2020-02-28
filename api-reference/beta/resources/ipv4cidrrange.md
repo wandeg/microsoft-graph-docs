@@ -17,6 +17,8 @@ Inherits from [ipRange](../resources/iprange.md)
 
 ## Properties
 
+Namespace: microsoft.graph
+
 | Property     | Type        | Description |
 |:-------------|:------------|:------------|
 |cidrAddress|String|IPv4 address in CIDR notation|

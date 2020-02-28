@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Contains return code properties for a Win32 App
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |returnCode|Int32|Return code.|

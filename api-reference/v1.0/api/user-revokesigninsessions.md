@@ -18,6 +18,8 @@ Invalidates all the refresh tokens issued to applications for a user (as well as
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type                        | Permissions (from least to most privileged)              |

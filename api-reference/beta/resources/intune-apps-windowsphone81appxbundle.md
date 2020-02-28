@@ -19,6 +19,8 @@ Contains properties and inherited properties for Windows Phone 8.1 AppX Bundle L
 Inherits from [windowsPhone81AppX](../resources/intune-apps-windowsphone81appx.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81AppXBundles](../api/intune-apps-windowsphone81appxbundle-list.md)|[windowsPhone81AppXBundle](../resources/intune-apps-windowsphone81appxbundle.md) collection|List properties and relationships of the [windowsPhone81AppXBundle](../resources/intune-apps-windowsphone81appxbundle.md) objects.|

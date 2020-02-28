@@ -16,6 +16,8 @@ doc_type: enumPageType
 Windows 10 Application type.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |desktop|0|Desktop.|

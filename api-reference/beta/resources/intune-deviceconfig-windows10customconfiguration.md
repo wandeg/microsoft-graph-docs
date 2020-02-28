@@ -19,6 +19,8 @@ This topic provides descriptions of the declared methods, properties and relatio
 Inherits from [deviceConfiguration](../resources/intune-shared-deviceconfiguration.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10CustomConfigurations](../api/intune-deviceconfig-windows10customconfiguration-list.md)|[windows10CustomConfiguration](../resources/intune-deviceconfig-windows10customconfiguration.md) collection|List properties and relationships of the [windows10CustomConfiguration](../resources/intune-deviceconfig-windows10customconfiguration.md) objects.|

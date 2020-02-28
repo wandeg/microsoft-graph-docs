@@ -19,6 +19,8 @@ Windows 8.1 Phone and Mobile PFX Import certificate profile
 Inherits from [windowsCertificateProfileBase](../resources/intune-deviceconfig-windowscertificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windowsPhone81ImportedPFXCertificateProfiles](../api/intune-deviceconfig-windowsphone81importedpfxcertificateprofile-list.md)|[windowsPhone81ImportedPFXCertificateProfile](../resources/intune-deviceconfig-windowsphone81importedpfxcertificateprofile.md) collection|List properties and relationships of the [windowsPhone81ImportedPFXCertificateProfile](../resources/intune-deviceconfig-windowsphone81importedpfxcertificateprofile.md) objects.|

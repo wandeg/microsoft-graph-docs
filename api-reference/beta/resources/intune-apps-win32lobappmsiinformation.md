@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Contains MSI app properties for a Win32 App.
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |productCode|String|The MSI product code.|

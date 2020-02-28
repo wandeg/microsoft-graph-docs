@@ -19,6 +19,8 @@ Contains registry properties to detect a Win32 App
 Inherits from [win32LobAppDetection](../resources/intune-apps-win32lobappdetection.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |check32BitOn64System|Boolean|A value indicating whether this registry path is for checking 32-bit app on 64-bit system|

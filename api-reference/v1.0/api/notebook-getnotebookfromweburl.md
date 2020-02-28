@@ -13,6 +13,8 @@ Retrieve the properties and relationships of a [notebook](../resources/notebook.
 
 The location can be user notebooks on Office 365, group notebooks, or SharePoint site-hosted team notebooks on Office 365.
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

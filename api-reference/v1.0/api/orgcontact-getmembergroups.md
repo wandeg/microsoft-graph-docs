@@ -17,6 +17,8 @@ This function supports Office 365 and other types of groups provisioned in Azure
 >Office 365 groups cannot contain groups. Membership in an Office 365 group is always direct.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

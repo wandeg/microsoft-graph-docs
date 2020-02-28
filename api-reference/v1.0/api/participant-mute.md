@@ -19,6 +19,8 @@ For more information about how to handle mute operations, see [muteParticipantOp
 
 ## Permissions
 
+Namespace: microsoft.graph
+
 | Permission type | Permissions (from least to most privileged) |
 | :-------------- | :------------------------------------------ |
 | Delegated (work or school account)     | Not Supported        |

@@ -16,6 +16,8 @@ doc_type: resourcePageType
 Contains properties describing restart coordination following an app installation.
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |gracePeriodInMinutes|Int32|The number of minutes to wait before restarting the device after an app installation.|

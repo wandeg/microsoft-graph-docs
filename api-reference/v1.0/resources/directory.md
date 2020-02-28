@@ -15,6 +15,8 @@ Currently, deleted items functionality is only supported for the [application](a
 
 ## Methods
 
+Namespace: microsoft.graph
+
 | Method         | Return Type | Description |
 |:---------------|:------------|:------------|
 |[Get deleted item](../api/directory-deleteditems-get.md) | [directoryObject](directoryobject.md) | Gets the properties of a deleted item. |

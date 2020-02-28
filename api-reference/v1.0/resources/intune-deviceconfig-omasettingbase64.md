@@ -17,6 +17,8 @@ OMA Settings Base64 definition.
 Inherits from [omaSetting](../resources/intune-deviceconfig-omasetting.md)
 
 ## Properties
+
+Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Display Name. Inherited from [omaSetting](../resources/intune-deviceconfig-omasetting.md)|

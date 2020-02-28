@@ -14,6 +14,8 @@ doc_type: apiPageType
 Return a list of event reminders in a user calendar within the specified start and end times. 
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

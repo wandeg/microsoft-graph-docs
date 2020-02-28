@@ -16,6 +16,8 @@ doc_type: enumPageType
 Windows 10 Device Mode type.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |standardConfiguration|0|Standard Configuration|

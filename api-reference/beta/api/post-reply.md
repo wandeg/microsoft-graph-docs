@@ -16,6 +16,8 @@ Reply to a post and add a new post to the specified thread in a group conversati
 You can specify both the parent conversation and thread in the request, or, you can specify just the parent thread without the parent conversation.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

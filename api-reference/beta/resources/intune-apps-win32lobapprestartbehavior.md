@@ -16,6 +16,8 @@ doc_type: enumPageType
 Indicates the type of restart action.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |basedOnReturnCode|0|Intune will restart the device after running the app installation if the operation returns a reboot code.|

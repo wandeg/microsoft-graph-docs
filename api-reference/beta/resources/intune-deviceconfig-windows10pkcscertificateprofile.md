@@ -19,6 +19,8 @@ Windows 10 Desktop and Mobile PKCS certificate profile
 Inherits from [windows10CertificateProfileBase](../resources/intune-deviceconfig-windows10certificateprofilebase.md)
 
 ## Methods
+
+Namespace: microsoft.graph
 |Method|Return Type|Description|
 |:---|:---|:---|
 |[List windows10PkcsCertificateProfiles](../api/intune-deviceconfig-windows10pkcscertificateprofile-list.md)|[windows10PkcsCertificateProfile](../resources/intune-deviceconfig-windows10pkcscertificateprofile.md) collection|List properties and relationships of the [windows10PkcsCertificateProfile](../resources/intune-deviceconfig-windows10pkcscertificateprofile.md) objects.|

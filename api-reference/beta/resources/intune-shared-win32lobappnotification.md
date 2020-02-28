@@ -16,6 +16,8 @@ doc_type: enumPageType
 Contains value for notification status.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |showAll|0|Show all notifications.|

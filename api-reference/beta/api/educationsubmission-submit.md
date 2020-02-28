@@ -14,6 +14,8 @@ doc_type: apiPageType
 An action that indicates that a student is done with the work and is ready to hand in the assignment. This action can only be taken by the student. This will change the status of the submission from "working" to "submitted". During the submit process, all the resources will be copied to the submittedResources bucket. The teacher will be looking at the submitted resources list for grading.
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

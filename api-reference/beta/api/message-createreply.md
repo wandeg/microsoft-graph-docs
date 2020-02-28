@@ -22,6 +22,8 @@ all in one **createReply** call. You can then [update](../api/message-update.md)
 send the reply to the recipients in **replyTo**, and not the recipients in **from**. 
 
 ## Permissions
+
+Namespace: microsoft.graph
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
 
 |Permission type      | Permissions (from least to most privileged)              |

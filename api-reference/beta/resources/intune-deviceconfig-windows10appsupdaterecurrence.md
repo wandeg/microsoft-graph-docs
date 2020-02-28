@@ -16,6 +16,8 @@ doc_type: enumPageType
 Possible values for App update on Windows10 recurrence.
 
 ## Members
+
+Namespace: microsoft.graph
 |Member|Value|Description|
 |:---|:---|:---|
 |none|0|Default value, specifies a single occurence.|
