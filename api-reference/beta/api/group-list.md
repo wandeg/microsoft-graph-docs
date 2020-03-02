@@ -280,6 +280,54 @@ Content-type: application/json
   ]
 }
 ```
+
+### Example 6: Use $search to get groups with display names that contain the letters 'Video' or a description that contains the letters 'prod' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_video_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/groups?$search="displayName:Video" OR "description:prod"&$orderby=displayName&$count=true 
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.group",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#groups",
+  "@odata.count":1396,
+  "value":[
+    {
+      "displayName":"SFA Videos",
+      "mail":"SFAVideos@service.contoso.com",
+      "mailNickname":"SFAVideos"
+    },
+    {
+      "description":"Video Production",
+      "displayName":"Video Production",
+      "mail":"videoprod@service.contoso.com",
+      "mailNickname":"VideoProduction"
+    }
+  ]
+}
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--

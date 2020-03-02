@@ -355,7 +355,7 @@ Content-type: application/json
 }
 ```
 
-### Example 6: Use $search to get users with display names that contain the letters 'Os' including a count of returned objects
+### Example 6: Use $search to get users with display names that contain the letters 'wa' including a count of returned objects
 
 #### Request
 
@@ -363,7 +363,7 @@ The following is an example of the request.
 
 <!-- {
   "blockType": "request",
-  "name": "get_don_count"
+  "name": "get_wa_count"
 }-->
 ```msgraph-interactive
 GET https://graph.microsoft.com/beta/users?$search="displayName:wa"&$orderby=displayName&$count=true
@@ -400,6 +400,57 @@ Content-type: application/json
 
 ```
 
+### Example 7: Use $search to get users with display names that contain the letters 'wa' or the letters 'to' including a count of returned objects
+
+#### Request
+
+The following is an example of the request.
+
+<!-- {
+  "blockType": "request",
+  "name": "get_to_count"
+}-->
+```msgraph-interactive
+GET https://graph.microsoft.com/beta/users?$search="displayName:wa" OR "displayName:to"&$orderbydisplayName&$count=true
+```
+
+#### Response
+
+The following is an example of the response.
+>**Note:** The response object shown here might be shortened for readability. All the properties will be returned from an actual call.
+
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.user",
+  "isCollection": true
+} -->
+```http
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+  "@odata.context":"https://graph.microsoft.com/beta/$metadata#users",
+  "@odata.count":7,
+  "value":[
+    {
+      "displayName":"Oscar Ward",
+      "givenName":"Oscar",
+      "mail":"oscarward@contoso.com",
+      "mailNickname":"oscward",
+      "userPrincipalName":"oscarward@contoso.com"
+    },
+    {
+      "displayName":"contoso1",
+      "mail":"'contoso1@gmail.com",
+      "mailNickname":"contoso1_gmail.com#EXT#",
+      "proxyAddresses":["SMTP:contoso1@gmail.com"], 
+      "userPrincipalName":"contoso1_gmail.com#EXT#@microsoft.onmicrosoft.com"
+    }
+  ]
+}
+
+```
 <!-- uuid: 8fcb5dbc-d5aa-4681-8e31-b001d5168d79
 2015-10-25 14:57:30 UTC -->
 <!--
