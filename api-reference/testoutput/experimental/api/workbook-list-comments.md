@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List comments
 
+Namespace: microsoft.graph
+
 Get the workbookComments from the comments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 226
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookComment",
-      "id": "80104654-4654-8010-5446-108054461080",
+      "id": "9b7588ab-88ab-9b75-ab88-759bab88759b",
       "content": "Content value",
       "contentType": "Content Type value"
     }

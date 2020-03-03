@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # move
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -47,7 +49,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [mailFolder](../resources/mailFolder.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [mailFolder](../resources/mailfolder.md) in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailSearchFolder not found/move
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailSearchFolder not found/move
 
 Content-type: application/json
 Content-length: 47
@@ -85,7 +87,7 @@ Content-Length: 345
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailFolder",
-    "id": "791f9359-9359-791f-5993-1f7959931f79",
+    "id": "f1deb285-b285-f1de-85b2-def185b2def1",
     "displayName": "Display Name value",
     "parentFolderId": "Parent Folder Id value",
     "childFolderCount": 0,

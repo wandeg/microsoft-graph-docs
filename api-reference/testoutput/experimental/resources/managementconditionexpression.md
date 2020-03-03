@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managementConditionExpression resource type
+
+
+Namespace: microsoft.graph
 
 
 

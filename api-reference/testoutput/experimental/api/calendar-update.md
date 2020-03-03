@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update calendar
 
+Namespace: microsoft.graph
+
 Update the properties of a [calendar](../resources/calendar.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the [
 |isShared|Boolean||
 |isSharedWithMe|Boolean||
 |canEdit|Boolean||
-|owner|[emailAddress](../resources/emailAddress.md)||
+|owner|[emailAddress](../resources/emailaddress.md)||
 |allowedOnlineMeetingProviders|Enumeration collection|. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
 |defaultOnlineMeetingProvider|Enumeration|. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
 |isTallyingResponses|Boolean||
@@ -80,7 +82,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/calendar
+PATCH https://graph.microsoft.com/localtest/me/calendar
 Content-type: application/json
 Content-length: 581
 
@@ -123,7 +125,7 @@ Content-Length: 630
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "cfde7b0b-7b0b-cfde-0b7b-decf0b7bdecf",
+  "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
   "name": "Name value",
   "color": "String",
   "hexColor": "Hex Color value",

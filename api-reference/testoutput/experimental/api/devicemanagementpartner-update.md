@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementPartner
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementPartner](../resources/devicemanagementpartner.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementPartner](../resources/deviceManagementPartner.md) object.
+In the request body, supply a JSON representation for the [deviceManagementPartner](../resources/devicemanagementpartner.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementPartner](../resources/devicemanagementpartner.md).
 
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the [
 |whenPartnerDevicesWillBeMarkedAsNonCompliant|DateTimeOffset|DateTime in UTC when PartnerDevices will be marked as NonCompliant. This will become obselete soon.|
 |whenPartnerDevicesWillBeRemovedDateTime|DateTimeOffset|DateTime in UTC when PartnerDevices will be removed|
 |whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime|DateTimeOffset|DateTime in UTC when PartnerDevices will be marked as NonCompliant|
-|groupsRequiringPartnerEnrollment|[deviceManagementPartnerAssignment](../resources/deviceManagementPartnerAssignment.md) collection|User groups that specifies whether enrollment is through partner.|
+|groupsRequiringPartnerEnrollment|[deviceManagementPartnerAssignment](../resources/devicemanagementpartnerassignment.md) collection|User groups that specifies whether enrollment is through partner.|
 
 
 
@@ -69,22 +71,22 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
 Content-type: application/json
-Content-length: 889
+Content-length: 887
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemoved": "2016-12-31T23:56:43.9032851+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2017-01-01T00:01:59.3267121+03:00",
-  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:39.5422565+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:01:49.054571+03:00",
+  "whenPartnerDevicesWillBeRemoved": "2016-12-31T23:57:49.145587+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2016-12-31T23:58:15.2374955+03:00",
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:21.026263+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:05.507808+03:00",
   "groupsRequiringPartnerEnrollment": [
     {
       "@odata.type": "microsoft.graph.deviceManagementPartnerAssignment",
@@ -106,21 +108,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 938
+Content-Length: 936
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "id": "93b62689-2689-93b6-8926-b6938926b693",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "id": "37f9f4d6-f4d6-37f9-d6f4-f937d6f4f937",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemoved": "2016-12-31T23:56:43.9032851+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2017-01-01T00:01:59.3267121+03:00",
-  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:39.5422565+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:01:49.054571+03:00",
+  "whenPartnerDevicesWillBeRemoved": "2016-12-31T23:57:49.145587+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2016-12-31T23:58:15.2374955+03:00",
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:21.026263+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:05.507808+03:00",
   "groupsRequiringPartnerEnrollment": [
     {
       "@odata.type": "microsoft.graph.deviceManagementPartnerAssignment",

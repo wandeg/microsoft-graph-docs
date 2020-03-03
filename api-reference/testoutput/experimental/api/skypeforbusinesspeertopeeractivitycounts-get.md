@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get skypeForBusinessPeerToPeerActivityCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [skypeForBusinessPeerToPeerActivityCounts](../resources/skypeforbusinesspeertopeeractivitycounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessPeerToPeerActivityCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessPeerToPeerActivityCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 355
 {
   "value": {
     "@odata.type": "#microsoft.graph.skypeForBusinessPeerToPeerActivityCounts",
-    "id": "e1310a0c-0a0c-e131-0c0a-31e10c0a31e1",
+    "id": "66db09d4-09d4-66db-d409-db66d409db66",
     "im": 2,
     "audio": 5,
     "video": 5,

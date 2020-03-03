@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # enableAndroidDeviceAdministratorEnrollment
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/enableAndroidDeviceAdministratorEnrollment
+POST https://graph.microsoft.com/localtest/deviceManagement/enableAndroidDeviceAdministratorEnrollment
 ```
 
 ### Response

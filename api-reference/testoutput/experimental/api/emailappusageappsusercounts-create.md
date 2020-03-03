@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create emailAppUsageAppsUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.emailAppUsageAppsUserCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the emailAppUsageAppsUserCounts object.
+In the request body, supply a JSON representation for the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.
 
-The following table shows the properties that are required when you create the emailAppUsageAppsUserCounts.
+The following table shows the properties that are required when you create the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailAppUsageAppsUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailAppUsageAppsUserCounts not found
 Content-type: application/json
 Content-length: 342
 
@@ -105,7 +107,7 @@ Content-Length: 391
 
 {
   "@odata.type": "#microsoft.graph.emailAppUsageAppsUserCounts",
-  "id": "29843b93-3b93-2984-933b-8429933b8429",
+  "id": "7e4b278f-278f-7e4b-8f27-4b7e8f274b7e",
   "reportRefreshDate": "Date",
   "mailForMac": 10,
   "outlookForMac": 13,

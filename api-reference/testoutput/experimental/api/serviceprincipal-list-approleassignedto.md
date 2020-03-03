@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List appRoleAssignedTo
 
+Namespace: microsoft.graph
+
 Get the appRoleAssignments from the appRoleAssignedTo navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/appRoleAssignedTo
+GET https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/appRoleAssignedTo
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Content-Length: 569
   "value": [
     {
       "@odata.type": "#microsoft.graph.appRoleAssignment",
-      "id": "110e998a-998a-110e-8a99-0e118a990e11",
-      "appRoleId": "d105223c-223c-d105-3c22-05d13c2205d1",
-      "creationTimestamp": "2017-01-01T00:03:08.4498325+03:00",
+      "id": "1f1a57b9-57b9-1f1a-b957-1a1fb9571a1f",
+      "appRoleId": "69b07452-7452-69b0-5274-b0695274b069",
+      "creationTimestamp": "2016-12-31T23:58:26.7160995+03:00",
       "principalDisplayName": "Principal Display Name value",
-      "principalId": "ad7e366f-366f-ad7e-6f36-7ead6f367ead",
+      "principalId": "b505019e-019e-b505-9e01-05b59e0105b5",
       "principalType": "Principal Type value",
       "resourceDisplayName": "Resource Display Name value",
-      "resourceId": "05450f46-0f46-0545-460f-4505460f4505"
+      "resourceId": "2fe2697f-697f-2fe2-7f69-e22f7f69e22f"
     }
   ]
 }

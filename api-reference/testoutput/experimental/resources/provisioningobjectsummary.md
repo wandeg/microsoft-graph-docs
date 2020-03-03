@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # provisioningObjectSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List provisioningObjectSummaries](../api/provisioningobjectsummary-list.md)|[provisioningObjectSummary](../resources/provisioningObjectSummary.md) collection|List properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) objects.|
-|[Get provisioningObjectSummary](../api/provisioningobjectsummary-get.md)|[provisioningObjectSummary](../resources/provisioningObjectSummary.md)|Read properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
-|[Create provisioningObjectSummary](../api/provisioningobjectsummary-create.md)|[provisioningObjectSummary](../resources/provisioningObjectSummary.md)|Create a new [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
+|[List provisioningObjectSummaries](../api/provisioningobjectsummary-list.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md) collection|List properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) objects.|
+|[Get provisioningObjectSummary](../api/provisioningobjectsummary-get.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Read properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
+|[Create provisioningObjectSummary](../api/provisioningobjectsummary-create.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Create a new [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
 |[Delete provisioningObjectSummary](../api/provisioningobjectsummary-delete.md)|None|Deletes a [provisioningObjectSummary](../resources/provisioningobjectsummary.md).|
-|[Update provisioningObjectSummary](../api/provisioningobjectsummary-update.md)|[provisioningObjectSummary](../resources/provisioningObjectSummary.md)|Update the properties of a [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
+|[Update provisioningObjectSummary](../api/provisioningobjectsummary-update.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Update the properties of a [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,13 +37,13 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |initiatedBy|[initiator](../resources/initiator.md)||
 |jobId|String||
-|modifiedProperties|[modifiedProperty](../resources/modifiedProperty.md) collection||
-|provisioningSteps|[provisioningStep](../resources/provisioningStep.md) collection||
-|sourceIdentity|[provisionedIdentity](../resources/provisionedIdentity.md)||
-|sourceSystem|[provisioningSystemDetails](../resources/provisioningSystemDetails.md)||
-|statusInfo|[statusBase](../resources/statusBase.md)||
-|targetIdentity|[provisionedIdentity](../resources/provisionedIdentity.md)||
-|targetSystem|[provisioningSystemDetails](../resources/provisioningSystemDetails.md)||
+|modifiedProperties|[modifiedProperty](../resources/modifiedproperty.md) collection||
+|provisioningSteps|[provisioningStep](../resources/provisioningstep.md) collection||
+|sourceIdentity|[provisionedIdentity](../resources/provisionedidentity.md)||
+|sourceSystem|[provisioningSystemDetails](../resources/provisioningsystemdetails.md)||
+|statusInfo|[statusBase](../resources/statusbase.md)||
+|targetIdentity|[provisionedIdentity](../resources/provisionedidentity.md)||
+|targetSystem|[provisioningSystemDetails](../resources/provisioningsystemdetails.md)||
 |tenantId|String||
 
 ## Relationships

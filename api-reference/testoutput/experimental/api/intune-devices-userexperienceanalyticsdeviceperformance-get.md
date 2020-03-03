@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get userExperienceAnalyticsDevicePerformance
 
-Read properties and relationships of the [userExperienceAnalyticsDevicePerformance](../resources/userexperienceanalyticsdeviceperformance.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [userExperienceAnalyticsDevicePerformance](../resources/intune-devices-userexperienceanalyticsdeviceperformance.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsDevicePerformance](../resources/userexperienceanalyticsdeviceperformance.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsDevicePerformance](../resources/intune-devices-userexperienceanalyticsdeviceperformance.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsDevicePerformance/{userExperienceAnalyticsDevicePerformanceId}
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsDevicePerformance/{userExperienceAnalyticsDevicePerformanceId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 585
 {
   "value": {
     "@odata.type": "#microsoft.graph.userExperienceAnalyticsDevicePerformance",
-    "id": "2c79d37e-d37e-2c79-7ed3-792c7ed3792c",
+    "id": "bb8401b6-01b6-bb84-b601-84bbb60184bb",
     "deviceName": "Device Name value",
     "model": "Model value",
     "manufacturer": "Manufacturer value",

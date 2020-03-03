@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsCatalogApp resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get teamsCatalogApp](../api/teamscatalogapp-get.md)|[teamsCatalogApp](../resources/teamsCatalogApp.md)|Read properties and relationships of the [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
+|[List teamsCatalogApps](../api/teamscatalogapp-list.md)|[teamsCatalogApp](../resources/teamscatalogapp.md) collection|List properties and relationships of the [teamsCatalogApp](../resources/teamscatalogapp.md) objects.|
+|[Get teamsCatalogApp](../api/teamscatalogapp-get.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Read properties and relationships of the [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
+|[Create teamsCatalogApp](../api/teamscatalogapp-create.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Create a new [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
 |[Delete teamsCatalogApp](../api/teamscatalogapp-delete.md)|None|Deletes a [teamsCatalogApp](../resources/teamscatalogapp.md).|
-|[Update teamsCatalogApp](../api/teamscatalogapp-update.md)|[teamsCatalogApp](../resources/teamsCatalogApp.md)|Update the properties of a [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
+|[Update teamsCatalogApp](../api/teamscatalogapp-update.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Update the properties of a [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
 
 ## Properties
 |Property|Type|Description|

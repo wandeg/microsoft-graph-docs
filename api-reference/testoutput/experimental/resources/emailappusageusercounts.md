@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailAppUsageUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailAppUsageUserCountses](../api/emailappusageusercounts-list.md)|[emailAppUsageUserCounts](../resources/emailAppUsageUserCounts.md) collection|List properties and relationships of the [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) objects.|
-|[Get emailAppUsageUserCounts](../api/emailappusageusercounts-get.md)|[emailAppUsageUserCounts](../resources/emailAppUsageUserCounts.md)|Read properties and relationships of the [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
-|[Create emailAppUsageUserCounts](../api/emailappusageusercounts-create.md)|[emailAppUsageUserCounts](../resources/emailAppUsageUserCounts.md)|Create a new [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
+|[List emailAppUsageUserCountses](../api/emailappusageusercounts-list.md)|[emailAppUsageUserCounts](../resources/emailappusageusercounts.md) collection|List properties and relationships of the [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) objects.|
+|[Get emailAppUsageUserCounts](../api/emailappusageusercounts-get.md)|[emailAppUsageUserCounts](../resources/emailappusageusercounts.md)|Read properties and relationships of the [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
+|[Create emailAppUsageUserCounts](../api/emailappusageusercounts-create.md)|[emailAppUsageUserCounts](../resources/emailappusageusercounts.md)|Create a new [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
 |[Delete emailAppUsageUserCounts](../api/emailappusageusercounts-delete.md)|None|Deletes a [emailAppUsageUserCounts](../resources/emailappusageusercounts.md).|
-|[Update emailAppUsageUserCounts](../api/emailappusageusercounts-update.md)|[emailAppUsageUserCounts](../resources/emailAppUsageUserCounts.md)|Update the properties of a [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
+|[Update emailAppUsageUserCounts](../api/emailappusageusercounts-update.md)|[emailAppUsageUserCounts](../resources/emailappusageusercounts.md)|Update the properties of a [emailAppUsageUserCounts](../resources/emailappusageusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

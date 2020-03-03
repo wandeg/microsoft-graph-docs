@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete bookingBusiness
 
+Namespace: microsoft.graph
+
 Deletes a [bookingBusiness](../resources/bookingbusiness.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}
+DELETE https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}
 ```
 
 ### Response

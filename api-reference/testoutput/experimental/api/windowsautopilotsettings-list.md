@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsAutopilotSettingses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsAutopilotSettings not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsAutopilotSettings not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 327
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsAutopilotSettings",
-      "id": "06cf0f21-0f21-06cf-210f-cf06210fcf06",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
-      "lastManualSyncTriggerDateTime": "2017-01-01T00:03:25.7339534+03:00",
+      "id": "5150e45f-e45f-5150-5fe4-50515fe45051",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+      "lastManualSyncTriggerDateTime": "2017-01-01T00:00:23.731973+03:00",
       "syncStatus": "String"
     }
   ]

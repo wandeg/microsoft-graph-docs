@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mailFolder
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mailFolder](../resources/mailfolder.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}
+GET https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 345
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailFolder",
-    "id": "791f9359-9359-791f-5993-1f7959931f79",
+    "id": "f1deb285-b285-f1de-85b2-def185b2def1",
     "displayName": "Display Name value",
     "parentFolderId": "Parent Folder Id value",
     "childFolderCount": 0,

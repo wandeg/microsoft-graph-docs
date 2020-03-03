@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List privilegedRoles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [privilegedRole](../resources/privilegedrole.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedRoles
+GET https://graph.microsoft.com/localtest/privilegedRoles
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 175
   "value": [
     {
       "@odata.type": "#microsoft.graph.privilegedRole",
-      "id": "6f5192e5-92e5-6f51-e592-516fe592516f",
+      "id": "9146a674-a674-9146-74a6-469174a64691",
       "name": "Name value"
     }
   ]

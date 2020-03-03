@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete onenoteResource
 
+Namespace: microsoft.graph
+
 Deletes a [onenoteResource](../resources/onenoteresource.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
 ```
 
 ### Response

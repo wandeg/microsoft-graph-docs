@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update restrictedSignIn
 
+Namespace: microsoft.graph
+
 Update the properties of a [restrictedSignIn](../resources/restrictedsignin.md) object.
 
 ## Permissions
@@ -35,49 +37,49 @@ PATCH /auditLogs/restrictedSignIns/{restrictedSignInId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [restrictedSignIn](../resources/restrictedSignIn.md) object.
+In the request body, supply a JSON representation for the [restrictedSignIn](../resources/restrictedsignin.md) object.
 
 The following table shows the properties that are required when you create the [restrictedSignIn](../resources/restrictedsignin.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|alternateSignInName|String| Inherited from [signIn](../resources/signIn.md)|
-|appDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|appId|String| Inherited from [signIn](../resources/signIn.md)|
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationDetails|[authenticationDetail](../resources/authenticationDetail.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationMethodsUsed|String collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationProcessingDetails|[keyValue](../resources/keyValue.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationRequirementPolicy.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|clientAppUsed|String| Inherited from [signIn](../resources/signIn.md)|
-|conditionalAccessStatus|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
-|correlationId|String| Inherited from [signIn](../resources/signIn.md)|
-|createdDateTime|DateTimeOffset| Inherited from [signIn](../resources/signIn.md)|
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)| Inherited from [signIn](../resources/signIn.md)|
-|isInteractive|Boolean| Inherited from [signIn](../resources/signIn.md)|
-|ipAddress|String| Inherited from [signIn](../resources/signIn.md)|
-|location|[signInLocation](../resources/signInLocation.md)| Inherited from [signIn](../resources/signIn.md)|
-|mfaDetail|[mfaDetail](../resources/mfaDetail.md)| Inherited from [signIn](../resources/signIn.md)|
-|networkLocationDetails|[networkLocationDetail](../resources/networkLocationDetail.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|originalRequestId|String| Inherited from [signIn](../resources/signIn.md)|
-|processingTimeInMilliseconds|Int32| Inherited from [signIn](../resources/signIn.md)|
-|riskDetail|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
-|riskEventTypes|Enumeration collection| Inherited from [signIn](../resources/signIn.md). Possible values are: `unlikelyTravel`, `anonymizedIPAddress`, `maliciousIPAddress`, `unfamiliarFeatures`, `malwareInfectedIPAddress`, `suspiciousIPAddress`, `leakedCredentials`, `investigationsThreatIntelligence`, `generic`, `adminConfirmedUserCompromised`, `mcasImpossibleTravel`, `mcasSuspiciousInboxManipulationRules`, `investigationsThreatIntelligenceSigninLinked`, `maliciousIPAddressValidCredentialsBlockedIP`, `unknownFutureValue`.|
-|riskLevelAggregated|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|riskLevelDuringSignIn|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|riskState|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
-|resourceDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|resourceId|String| Inherited from [signIn](../resources/signIn.md)|
-|servicePrincipalId|String| Inherited from [signIn](../resources/signIn.md)|
-|servicePrincipalName|String| Inherited from [signIn](../resources/signIn.md)|
-|status|[signInStatus](../resources/signInStatus.md)| Inherited from [signIn](../resources/signIn.md)|
-|tokenIssuerName|String| Inherited from [signIn](../resources/signIn.md)|
-|tokenIssuerType|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
-|userAgent|String| Inherited from [signIn](../resources/signIn.md)|
-|userDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|userId|String| Inherited from [signIn](../resources/signIn.md)|
-|userPrincipalName|String| Inherited from [signIn](../resources/signIn.md)|
+|alternateSignInName|String| Inherited from [signIn](../resources/signin.md)|
+|appDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|appId|String| Inherited from [signIn](../resources/signin.md)|
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationDetails|[authenticationDetail](../resources/authenticationdetail.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationMethodsUsed|String collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationProcessingDetails|[keyValue](../resources/keyvalue.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationrequirementpolicy.md) collection| Inherited from [signIn](../resources/signin.md)|
+|clientAppUsed|String| Inherited from [signIn](../resources/signin.md)|
+|conditionalAccessStatus|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
+|correlationId|String| Inherited from [signIn](../resources/signin.md)|
+|createdDateTime|DateTimeOffset| Inherited from [signIn](../resources/signin.md)|
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)| Inherited from [signIn](../resources/signin.md)|
+|isInteractive|Boolean| Inherited from [signIn](../resources/signin.md)|
+|ipAddress|String| Inherited from [signIn](../resources/signin.md)|
+|location|[signInLocation](../resources/signinlocation.md)| Inherited from [signIn](../resources/signin.md)|
+|mfaDetail|[mfaDetail](../resources/mfadetail.md)| Inherited from [signIn](../resources/signin.md)|
+|networkLocationDetails|[networkLocationDetail](../resources/networklocationdetail.md) collection| Inherited from [signIn](../resources/signin.md)|
+|originalRequestId|String| Inherited from [signIn](../resources/signin.md)|
+|processingTimeInMilliseconds|Int32| Inherited from [signIn](../resources/signin.md)|
+|riskDetail|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
+|riskEventTypes|Enumeration collection| Inherited from [signIn](../resources/signin.md). Possible values are: `unlikelyTravel`, `anonymizedIPAddress`, `maliciousIPAddress`, `unfamiliarFeatures`, `malwareInfectedIPAddress`, `suspiciousIPAddress`, `leakedCredentials`, `investigationsThreatIntelligence`, `generic`, `adminConfirmedUserCompromised`, `mcasImpossibleTravel`, `mcasSuspiciousInboxManipulationRules`, `investigationsThreatIntelligenceSigninLinked`, `maliciousIPAddressValidCredentialsBlockedIP`, `unknownFutureValue`.|
+|riskLevelAggregated|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|riskLevelDuringSignIn|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|riskState|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
+|resourceDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|resourceId|String| Inherited from [signIn](../resources/signin.md)|
+|servicePrincipalId|String| Inherited from [signIn](../resources/signin.md)|
+|servicePrincipalName|String| Inherited from [signIn](../resources/signin.md)|
+|status|[signInStatus](../resources/signinstatus.md)| Inherited from [signIn](../resources/signin.md)|
+|tokenIssuerName|String| Inherited from [signIn](../resources/signin.md)|
+|tokenIssuerType|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
+|userAgent|String| Inherited from [signIn](../resources/signin.md)|
+|userDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|userId|String| Inherited from [signIn](../resources/signin.md)|
+|userPrincipalName|String| Inherited from [signIn](../resources/signin.md)|
 |targetTenantId|Guid||
 
 
@@ -95,7 +97,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/auditLogs/restrictedSignIns/{restrictedSignInId}
+PATCH https://graph.microsoft.com/localtest/auditLogs/restrictedSignIns/{restrictedSignInId}
 Content-type: application/json
 Content-length: 3854
 
@@ -123,7 +125,7 @@ Content-length: 3854
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -214,7 +216,7 @@ Content-length: 3854
   "userDisplayName": "User Display Name value",
   "userId": "User Id value",
   "userPrincipalName": "User Principal Name value",
-  "targetTenantId": "63fee22f-e22f-63fe-2fe2-fe632fe2fe63"
+  "targetTenantId": "3cfa4394-4394-3cfa-9443-fa3c9443fa3c"
 }
 ```
 
@@ -228,11 +230,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3962
+Content-Length: 3961
 
 {
   "@odata.type": "#microsoft.graph.restrictedSignIn",
-  "id": "84822f22-2f22-8482-222f-8284222f8284",
+  "id": "5262e234-e234-5262-34e2-625234e26252",
   "alternateSignInName": "Alternate Sign In Name value",
   "appDisplayName": "App Display Name value",
   "appId": "App Id value",
@@ -255,7 +257,7 @@ Content-Length: 3962
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -283,7 +285,7 @@ Content-Length: 3962
   "clientAppUsed": "Client App Used value",
   "conditionalAccessStatus": "String",
   "correlationId": "Correlation Id value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "deviceDetail": {
     "@odata.type": "microsoft.graph.deviceDetail",
     "deviceId": "Device Id value",
@@ -347,7 +349,7 @@ Content-Length: 3962
   "userDisplayName": "User Display Name value",
   "userId": "User Id value",
   "userPrincipalName": "User Principal Name value",
-  "targetTenantId": "63fee22f-e22f-63fe-2fe2-fe632fe2fe63"
+  "targetTenantId": "3cfa4394-4394-3cfa-9443-fa3c9443fa3c"
 }
 ```
 

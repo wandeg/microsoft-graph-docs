@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceHealthScriptRunSummary
 
-Read properties and relationships of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 586
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
-    "id": "015eddf6-ddf6-015e-f6dd-5e01f6dd5e01",
+    "id": "994a6ada-6ada-994a-da6a-4a99da6a4a99",
     "noIssueDetectedDeviceCount": 10,
     "issueDetectedDeviceCount": 8,
     "detectionScriptErrorDeviceCount": 15,
@@ -81,7 +83,7 @@ Content-Length: 586
     "remediationSkippedDeviceCount": 13,
     "issueReoccurredDeviceCount": 10,
     "remediationScriptErrorDeviceCount": 1,
-    "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+    "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
     "issueRemediatedCumulativeDeviceCount": 4
   }
 }

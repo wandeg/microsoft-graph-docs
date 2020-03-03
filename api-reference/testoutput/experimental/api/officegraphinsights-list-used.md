@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List used
 
+Namespace: microsoft.graph
+
 Get the usedInsights from the used navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/used
+GET https://graph.microsoft.com/localtest/me/insights/used
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 1057
   "value": [
     {
       "@odata.type": "#microsoft.graph.usedInsight",
-      "id": "325a0b84-0b84-325a-840b-5a32840b5a32",
+      "id": "44b98756-8756-44b9-5687-b9445687b944",
       "lastUsed": {
         "@odata.type": "microsoft.graph.usageDetails",
-        "lastAccessedDateTime": "2016-12-31T23:58:32.4321059+03:00",
-        "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00",
+        "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
       },
       "resourceVisualization": {
         "@odata.type": "microsoft.graph.resourceVisualization",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartLegendFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartLegendFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartLegendFormat object.
+In the request body, supply a JSON representation for the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartLegendFormat.
+The following table shows the properties that are required when you create the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartLegendFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartLegendFormat not found
 Content-type: application/json
 Content-length: 67
 
@@ -83,7 +85,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-  "id": "de2b9d74-9d74-de2b-749d-2bde749d2bde"
+  "id": "b41af2c4-f2c4-b41a-c4f2-1ab4c4f21ab4"
 }
 ```
 

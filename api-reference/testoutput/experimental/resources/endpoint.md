@@ -5,34 +5,37 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # endpoint resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List endpoints](../api/endpoint-list.md)|[endpoint](../resources/endpoint.md) collection|List properties and relationships of the [endpoint](../resources/endpoint.md) objects.|
 |[Get endpoint](../api/endpoint-get.md)|[endpoint](../resources/endpoint.md)|Read properties and relationships of the [endpoint](../resources/endpoint.md) object.|
+|[Create endpoint](../api/endpoint-create.md)|[endpoint](../resources/endpoint.md)|Create a new [endpoint](../resources/endpoint.md) object.|
 |[Delete endpoint](../api/endpoint-delete.md)|None|Deletes a [endpoint](../resources/endpoint.md).|
 |[Update endpoint](../api/endpoint-update.md)|[endpoint](../resources/endpoint.md)|Update the properties of a [endpoint](../resources/endpoint.md) object.|
 |[checkMemberGroups](../api/endpoint-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/endpoint-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/endpoint-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/endpoint-getmemberobjects.md)|String collection||
-|[restore](../api/endpoint-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/endpoint-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |capability|String||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |providerId|String||
 |providerName|String||

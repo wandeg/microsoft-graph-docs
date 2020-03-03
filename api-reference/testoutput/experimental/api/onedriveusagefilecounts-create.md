@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create oneDriveUsageFileCounts
 
+Namespace: microsoft.graph
+
 Create a new [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.oneDriveUsageFileCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the oneDriveUsageFileCounts object.
+In the request body, supply a JSON representation for the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.
 
-The following table shows the properties that are required when you create the oneDriveUsageFileCounts.
+The following table shows the properties that are required when you create the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.oneDriveUsageFileCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.oneDriveUsageFileCounts not found
 Content-type: application/json
 Content-length: 229
 
@@ -95,7 +97,7 @@ Content-Length: 278
 
 {
   "@odata.type": "#microsoft.graph.oneDriveUsageFileCounts",
-  "id": "c4c9f5c6-f5c6-c4c9-c6f5-c9c4c6f5c9c4",
+  "id": "72c50915-0915-72c5-1509-c5721509c572",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "total": 5,

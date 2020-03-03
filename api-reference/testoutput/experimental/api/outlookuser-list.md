@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List outlookUsers
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [outlookUser](../resources/outlookuser.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.outlookUser not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.outlookUser not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 143
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookUser",
-      "id": "bc5f75cc-75cc-bc5f-cc75-5fbccc755fbc"
+      "id": "e12e479e-479e-e12e-9e47-2ee19e472ee1"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create azureADUserFeatureUsage
 
+Namespace: microsoft.graph
+
 Create a new [azureADUserFeatureUsage](../resources/azureaduserfeatureusage.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.azureADUserFeatureUsage not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the azureADUserFeatureUsage object.
+In the request body, supply a JSON representation for the [azureADUserFeatureUsage](../resources/azureaduserfeatureusage.md) object.
 
-The following table shows the properties that are required when you create the azureADUserFeatureUsage.
+The following table shows the properties that are required when you create the [azureADUserFeatureUsage](../resources/azureaduserfeatureusage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the a
 |userPrincipalName|String||
 |licenseRecommended|Enumeration|. Possible values are: `none`, `free`, `basic`, `premiumP1`, `premiumP2`, `unknownFutureValue`.|
 |licenseAssigned|Enumeration|. Possible values are: `none`, `free`, `basic`, `premiumP1`, `premiumP2`, `unknownFutureValue`.|
-|featureUsageDetails|[featureUsageDetail](../resources/featureUsageDetail.md) collection||
+|featureUsageDetails|[featureUsageDetail](../resources/featureusagedetail.md) collection||
 
 
 
@@ -66,13 +68,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.azureADUserFeatureUsage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.azureADUserFeatureUsage not found
 Content-type: application/json
-Content-length: 648
+Content-length: 646
 
 {
   "@odata.type": "#microsoft.graph.azureADUserFeatureUsage",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
@@ -83,8 +85,8 @@ Content-length: 648
       "@odata.type": "microsoft.graph.featureUsageDetail",
       "featureName": "Feature Name value",
       "licenseRequired": "String",
-      "lastUsedDateTime": "2016-12-31T23:57:25.2787332+03:00",
-      "lastConfiguredDateTime": "2016-12-31T23:58:54.8342461+03:00"
+      "lastUsedDateTime": "2017-01-01T00:01:41.37493+03:00",
+      "lastConfiguredDateTime": "2016-12-31T23:56:42.2289769+03:00"
     }
   ]
 }
@@ -101,12 +103,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 697
+Content-Length: 695
 
 {
   "@odata.type": "#microsoft.graph.azureADUserFeatureUsage",
-  "id": "661c46de-46de-661c-de46-1c66de461c66",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "id": "e64b9cd9-9cd9-e64b-d99c-4be6d99c4be6",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
@@ -117,8 +119,8 @@ Content-Length: 697
       "@odata.type": "microsoft.graph.featureUsageDetail",
       "featureName": "Feature Name value",
       "licenseRequired": "String",
-      "lastUsedDateTime": "2016-12-31T23:57:25.2787332+03:00",
-      "lastConfiguredDateTime": "2016-12-31T23:58:54.8342461+03:00"
+      "lastUsedDateTime": "2017-01-01T00:01:41.37493+03:00",
+      "lastConfiguredDateTime": "2016-12-31T23:56:42.2289769+03:00"
     }
   ]
 }

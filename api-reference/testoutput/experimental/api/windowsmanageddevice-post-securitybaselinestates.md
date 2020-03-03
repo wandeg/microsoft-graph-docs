@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add securityBaselineStates
 
+Namespace: microsoft.graph
+
 Add securityBaselineStates by posting to the securityBaselineStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/managedDevices/{managedDeviceId}/securityBaselineStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the securityBaselineState object.
+In the request body, supply a JSON representation for the [securityBaselineState](../resources/securitybaselinestate.md) object.
 
-The following table shows the properties that are required when you create the securityBaselineState.
+The following table shows the properties that are required when you create the [securityBaselineState](../resources/securitybaselinestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates
 Content-type: application/json
 Content-length: 175
 
@@ -87,7 +89,7 @@ Content-Length: 224
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineState",
-  "id": "22d26ce1-6ce1-22d2-e16c-d222e16cd222",
+  "id": "50ee8edf-8edf-50ee-df8e-ee50df8eee50",
   "securityBaselineTemplateId": "Security Baseline Template Id value",
   "displayName": "Display Name value"
 }

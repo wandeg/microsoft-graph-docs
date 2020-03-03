@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerUser
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerUser](../resources/planneruser.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/planner
+GET https://graph.microsoft.com/localtest/me/planner
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 361
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerUser",
-    "id": "1d98aa9a-aa9a-1d98-9aaa-981d9aaa981d",
+    "id": "78f5d7d9-d7d9-78f5-d9d7-f578d9d7f578",
     "favoritePlanReferences": {
       "@odata.type": "microsoft.graph.plannerFavoritePlanReferenceCollection"
     },

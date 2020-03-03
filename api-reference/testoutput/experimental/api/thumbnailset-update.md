@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update thumbnailSet
 
+Namespace: microsoft.graph
+
 Update the properties of a [thumbnailSet](../resources/thumbnailset.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailSet.md) object.
+In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailset.md) object.
 
 The following table shows the properties that are required when you create the [thumbnailSet](../resources/thumbnailset.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
+PATCH https://graph.microsoft.com/localtest/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
 Content-type: application/json
 Content-length: 459
 
@@ -103,7 +105,7 @@ Content-Length: 508
 
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "2bfc91b4-91b4-2bfc-b491-fc2bb491fc2b",
+  "id": "0f9851fe-51fe-0f98-fe51-980ffe51980f",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

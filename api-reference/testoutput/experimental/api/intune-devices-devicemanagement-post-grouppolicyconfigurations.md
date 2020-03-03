@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add groupPolicyConfigurations
 
+Namespace: microsoft.graph
+
 Add groupPolicyConfigurations by posting to the groupPolicyConfigurations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/groupPolicyConfigurations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyConfiguration object.
+In the request body, supply a JSON representation for the [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyConfiguration.
+The following table shows the properties that are required when you create the [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations
 Content-type: application/json
 Content-length: 207
 
@@ -89,18 +91,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 379
+Content-Length: 378
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyConfiguration",
-  "id": "05838e22-8e22-0583-228e-8305228e8305",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "f745e7c6-e7c6-f745-c6e7-45f7c6e745f7",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

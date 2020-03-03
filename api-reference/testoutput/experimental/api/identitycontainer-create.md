@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create identityContainer
 
+Namespace: microsoft.graph
+
 Create a new [identityContainer](../resources/identitycontainer.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.identityContainer not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the identityContainer object.
+In the request body, supply a JSON representation for the [identityContainer](../resources/identitycontainer.md) object.
 
-The following table shows the properties that are required when you create the identityContainer.
+The following table shows the properties that are required when you create the [identityContainer](../resources/identitycontainer.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.identityContainer not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.identityContainer not found
 Content-type: application/json
 Content-length: 59
 
@@ -83,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.identityContainer",
-  "id": "bb1fed46-ed46-bb1f-46ed-1fbb46ed1fbb"
+  "id": "1e877267-7267-1e87-6772-871e6772871e"
 }
 ```
 

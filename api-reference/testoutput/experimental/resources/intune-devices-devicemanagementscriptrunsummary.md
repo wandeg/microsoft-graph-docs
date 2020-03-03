@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementScriptRunSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the run summary of a device management script.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementScriptRunSummaries](../api/intune-devices-devicemanagementscriptrunsummary-list.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md) collection|List properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) objects.|
-|[Get deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-get.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md)|Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.|
-|[Create deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-create.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md)|Create a new [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.|
-|[Delete deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-delete.md)|None|Deletes a [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md).|
-|[Update deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-update.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md)|Update the properties of a [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.|
+|[List deviceManagementScriptRunSummaries](../api/intune-devices-devicemanagementscriptrunsummary-list.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) collection|List properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) objects.|
+|[Get deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-get.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md)|Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.|
+|[Create deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-create.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md)|Create a new [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.|
+|[Delete deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-delete.md)|None|Deletes a [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md).|
+|[Update deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-update.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md)|Update the properties of a [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

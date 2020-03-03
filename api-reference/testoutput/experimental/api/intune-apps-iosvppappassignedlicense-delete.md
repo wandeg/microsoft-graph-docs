@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete iosVppAppAssignedLicense
 
-Deletes a [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md).
+Namespace: microsoft.graph
+
+Deletes a [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
 ```
 
 ### Response

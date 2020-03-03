@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenote
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenote](../resources/onenote.md) object.
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/onenote
+PATCH https://graph.microsoft.com/localtest/me/onenote
 Content-type: application/json
 Content-length: 49
 
@@ -86,7 +88,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.onenote",
-  "id": "4386dacc-dacc-4386-ccda-8643ccda8643"
+  "id": "6dbe4fb7-4fb7-6dbe-b74f-be6db74fbe6d"
 }
 ```
 

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessActivityUserDetails](../api/skypeforbusinessactivityuserdetail-list.md)|[skypeForBusinessActivityUserDetail](../resources/skypeForBusinessActivityUserDetail.md) collection|List properties and relationships of the [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) objects.|
-|[Get skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-get.md)|[skypeForBusinessActivityUserDetail](../resources/skypeForBusinessActivityUserDetail.md)|Read properties and relationships of the [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
-|[Create skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-create.md)|[skypeForBusinessActivityUserDetail](../resources/skypeForBusinessActivityUserDetail.md)|Create a new [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
+|[List skypeForBusinessActivityUserDetails](../api/skypeforbusinessactivityuserdetail-list.md)|[skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) collection|List properties and relationships of the [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) objects.|
+|[Get skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-get.md)|[skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md)|Read properties and relationships of the [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
+|[Create skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-create.md)|[skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md)|Create a new [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
 |[Delete skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-delete.md)|None|Deletes a [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md).|
-|[Update skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-update.md)|[skypeForBusinessActivityUserDetail](../resources/skypeForBusinessActivityUserDetail.md)|Update the properties of a [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
+|[Update skypeForBusinessActivityUserDetail](../api/skypeforbusinessactivityuserdetail-update.md)|[skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md)|Update the properties of a [skypeForBusinessActivityUserDetail](../resources/skypeforbusinessactivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

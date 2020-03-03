@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete exactMatchSession
 
+Namespace: microsoft.graph
+
 Deletes a [exactMatchSession](../resources/exactmatchsession.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions/{exactMatchSessionId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions/{exactMatchSessionId}
 ```
 
 ### Response

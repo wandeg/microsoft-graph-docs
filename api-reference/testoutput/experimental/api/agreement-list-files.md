@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List files
 
+Namespace: microsoft.graph
+
 Get the agreementFiles from the files navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/agreements/{agreementsId}/files
+GET https://graph.microsoft.com/localtest/agreements/{agreementsId}/files
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 366
   "value": [
     {
       "@odata.type": "#microsoft.graph.agreementFile",
-      "id": "1ad53af8-3af8-1ad5-f83a-d51af83ad51a",
+      "id": "5471cf3f-cf3f-5471-3fcf-71543fcf7154",
       "language": "Language value",
       "fileName": "File Name value",
       "fileData": {

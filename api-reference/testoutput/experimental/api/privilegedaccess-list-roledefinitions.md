@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleDefinitions
 
+Namespace: microsoft.graph
+
 Get the governanceRoleDefinitions from the roleDefinitions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/roleDefinitions
+GET https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/roleDefinitions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.governanceRoleDefinition",
-      "id": "060f2ae1-2ae1-060f-e12a-0f06e12a0f06",
+      "id": "844a2f55-2f55-844a-552f-4a84552f4a84",
       "resourceId": "Resource Id value",
       "externalId": "External Id value",
       "templateId": "Template Id value",

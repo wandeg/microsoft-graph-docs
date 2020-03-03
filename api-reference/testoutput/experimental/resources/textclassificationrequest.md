@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # textClassificationRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get textClassificationRequest](../api/textclassificationrequest-get.md)|[textClassificationRequest](../resources/textClassificationRequest.md)|Read properties and relationships of the [textClassificationRequest](../resources/textclassificationrequest.md) object.|
+|[List textClassificationRequests](../api/textclassificationrequest-list.md)|[textClassificationRequest](../resources/textclassificationrequest.md) collection|List properties and relationships of the [textClassificationRequest](../resources/textclassificationrequest.md) objects.|
+|[Get textClassificationRequest](../api/textclassificationrequest-get.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Read properties and relationships of the [textClassificationRequest](../resources/textclassificationrequest.md) object.|
+|[Create textClassificationRequest](../api/textclassificationrequest-create.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Create a new [textClassificationRequest](../resources/textclassificationrequest.md) object.|
 |[Delete textClassificationRequest](../api/textclassificationrequest-delete.md)|None|Deletes a [textClassificationRequest](../resources/textclassificationrequest.md).|
-|[Update textClassificationRequest](../api/textclassificationrequest-update.md)|[textClassificationRequest](../resources/textClassificationRequest.md)|Update the properties of a [textClassificationRequest](../resources/textclassificationrequest.md) object.|
-|[List classifyText](../api/dataclassificationservice-list-classifytext.md)|[textClassificationRequest](../resources/textClassificationRequest.md) collection|Get the textClassificationRequests from the classifyText navigation property.|
-|[Add classifyText](../api/dataclassificationservice-post-classifytext.md)|[textClassificationRequest](../resources/textClassificationRequest.md)|Add classifyText by posting to the classifyText collection.|
+|[Update textClassificationRequest](../api/textclassificationrequest-update.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Update the properties of a [textClassificationRequest](../resources/textclassificationrequest.md) object.|
+|[List classifyText](../api/dataclassificationservice-list-classifytext.md)|[textClassificationRequest](../resources/textclassificationrequest.md) collection|Get the textClassificationRequests from the classifyText navigation property.|
+|[Add classifyText](../api/dataclassificationservice-post-classifytext.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Add classifyText by posting to the classifyText collection.|
 
 ## Properties
 |Property|Type|Description|

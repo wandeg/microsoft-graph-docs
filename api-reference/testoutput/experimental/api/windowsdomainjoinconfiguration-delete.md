@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsDomainJoinConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [windowsDomainJoinConfiguration](../resources/windowsdomainjoinconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/microsoft.graph.activeDirectoryWindowsAutopilotDeploymentProfile/domainJoinConfiguration
+DELETE https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/microsoft.graph.activeDirectoryWindowsAutopilotDeploymentProfile/domainJoinConfiguration
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create yammerActivityUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.yammerActivityUserDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the yammerActivityUserDetail object.
+In the request body, supply a JSON representation for the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.
 
-The following table shows the properties that are required when you create the yammerActivityUserDetail.
+The following table shows the properties that are required when you create the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerActivityUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerActivityUserDetail not found
 Content-type: application/json
 Content-length: 454
 
@@ -107,7 +109,7 @@ Content-Length: 503
 
 {
   "@odata.type": "#microsoft.graph.yammerActivityUserDetail",
-  "id": "f3152655-2655-f315-5526-15f3552615f3",
+  "id": "fa1dc798-c798-fa1d-98c7-1dfa98c71dfa",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

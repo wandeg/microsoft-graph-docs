@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointSiteUsageFileCounts
 
+Namespace: microsoft.graph
+
 Create a new [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointSiteUsageFileCounts not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointSiteUsageFileCounts object.
+In the request body, supply a JSON representation for the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.
 
-The following table shows the properties that are required when you create the sharePointSiteUsageFileCounts.
+The following table shows the properties that are required when you create the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsageFileCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsageFileCounts not found
 Content-type: application/json
 Content-length: 235
 
@@ -95,7 +97,7 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageFileCounts",
-  "id": "b6bab2d8-b2d8-b6ba-d8b2-bab6d8b2bab6",
+  "id": "7a320b6a-0b6a-7a32-6a0b-327a6a0b327a",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "total": 5,

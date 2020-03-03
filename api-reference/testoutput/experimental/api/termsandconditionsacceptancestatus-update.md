@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update termsAndConditionsAcceptanceStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStat
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md) object.
+In the request body, supply a JSON representation for the [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object.
 
 The following table shows the properties that are required when you create the [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatuses/{termsAndConditionsAcceptanceStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatuses/{termsAndConditionsAcceptanceStatusId}
 Content-type: application/json
 Content-length: 211
 
@@ -69,7 +71,7 @@ Content-length: 211
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:03:09.3513998+03:00"
+  "acceptedDateTime": "2016-12-31T23:56:51.8170211+03:00"
 }
 ```
 
@@ -87,10 +89,10 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-  "id": "b9d2ae41-ae41-b9d2-41ae-d2b941aed2b9",
+  "id": "538b66b3-66b3-538b-b366-8b53b3668b53",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:03:09.3513998+03:00"
+  "acceptedDateTime": "2016-12-31T23:56:51.8170211+03:00"
 }
 ```
 

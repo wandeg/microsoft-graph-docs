@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # attributeDefinition resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,14 +18,14 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |anchor|Boolean||
-|apiExpressions|[stringKeyStringValuePair](../resources/stringKeyStringValuePair.md) collection||
+|apiExpressions|[stringKeyStringValuePair](../resources/stringkeystringvaluepair.md) collection||
 |caseExact|Boolean||
 |defaultValue|String||
-|metadata|[metadataEntry](../resources/metadataEntry.md) collection||
+|metadata|[metadataEntry](../resources/metadataentry.md) collection||
 |multivalued|Boolean||
 |mutability|Enumeration|. Possible values are: `ReadWrite`, `ReadOnly`, `Immutable`, `WriteOnly`.|
 |name|String||
-|referencedObjects|[referencedObject](../resources/referencedObject.md) collection||
+|referencedObjects|[referencedObject](../resources/referencedobject.md) collection||
 |required|Boolean||
 |type|Enumeration|. Possible values are: `DateTime`, `Boolean`, `Binary`, `Reference`, `Integer`, `String`.|
 

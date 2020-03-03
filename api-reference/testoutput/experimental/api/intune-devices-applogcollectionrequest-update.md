@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update appLogCollectionRequest
 
-Update the properties of a [appLogCollectionRequest](../resources/applogcollectionrequest.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [appLogCollectionRequest](../resources/appLogCollectionRequest.md) object.
+In the request body, supply a JSON representation for the [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object.
 
-The following table shows the properties that are required when you create the [appLogCollectionRequest](../resources/applogcollectionrequest.md).
+The following table shows the properties that are required when you create the [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [appLogCollectionRequest](../resources/applogcollectionrequest.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLogCollectionRequests/{appLogCollectionRequestId}
+PATCH https://graph.microsoft.com/localtest/me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLogCollectionRequests/{appLogCollectionRequestId}
 Content-type: application/json
 Content-length: 254
 
@@ -73,7 +75,7 @@ Content-length: 254
   "customLogFolders": [
     "Custom Log Folders value"
   ],
-  "completedDateTime": "2017-01-01T00:01:13.9669573+03:00"
+  "completedDateTime": "2017-01-01T00:01:22.3370207+03:00"
 }
 ```
 
@@ -91,13 +93,13 @@ Content-Length: 303
 
 {
   "@odata.type": "#microsoft.graph.appLogCollectionRequest",
-  "id": "fe0593ec-93ec-fe05-ec93-05feec9305fe",
+  "id": "1de4ac7e-ac7e-1de4-7eac-e41d7eace41d",
   "status": "String",
   "errorMessage": "Error Message value",
   "customLogFolders": [
     "Custom Log Folders value"
   ],
-  "completedDateTime": "2017-01-01T00:01:13.9669573+03:00"
+  "completedDateTime": "2017-01-01T00:01:22.3370207+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create entitlementManagement
 
+Namespace: microsoft.graph
+
 Create a new [entitlementManagement](../resources/entitlementmanagement.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.entitlementManagement not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the entitlementManagement object.
+In the request body, supply a JSON representation for the [entitlementManagement](../resources/entitlementmanagement.md) object.
 
-The following table shows the properties that are required when you create the entitlementManagement.
+The following table shows the properties that are required when you create the [entitlementManagement](../resources/entitlementmanagement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.entitlementManagement not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.entitlementManagement not found
 Content-type: application/json
 Content-length: 63
 
@@ -83,7 +85,7 @@ Content-Length: 112
 
 {
   "@odata.type": "#microsoft.graph.entitlementManagement",
-  "id": "7ba32793-2793-7ba3-9327-a37b9327a37b"
+  "id": "b9651e9f-1e9f-b965-9f1e-65b99f1e65b9"
 }
 ```
 

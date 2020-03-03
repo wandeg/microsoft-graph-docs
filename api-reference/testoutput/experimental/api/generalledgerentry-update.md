@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update generalLedgerEntry
 
+Namespace: microsoft.graph
+
 Update the properties of a [generalLedgerEntry](../resources/generalledgerentry.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/generalLedgerEntries/{generalLedgerEntry
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [generalLedgerEntry](../resources/generalLedgerEntry.md) object.
+In the request body, supply a JSON representation for the [generalLedgerEntry](../resources/generalledgerentry.md) object.
 
 The following table shows the properties that are required when you create the [generalLedgerEntry](../resources/generalledgerentry.md).
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/generalLedgerEntries/{generalLedgerEntryId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/generalLedgerEntries/{generalLedgerEntryId}
 Content-type: application/json
 Content-length: 364
 
@@ -76,7 +78,7 @@ Content-length: 364
   "postingDate": "Date",
   "documentNumber": "Document Number value",
   "documentType": "Document Type value",
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "accountNumber": "Account Number value",
   "description": "Description value",
   "debitAmount": "4.2",
@@ -98,16 +100,16 @@ Content-Length: 477
 
 {
   "@odata.type": "#microsoft.graph.generalLedgerEntry",
-  "id": "52941290-1290-5294-9012-945290129452",
+  "id": "aa869a60-9a60-aa86-609a-86aa609a86aa",
   "postingDate": "Date",
   "documentNumber": "Document Number value",
   "documentType": "Document Type value",
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "accountNumber": "Account Number value",
   "description": "Description value",
   "debitAmount": "4.2",
   "creditAmount": "4.2",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

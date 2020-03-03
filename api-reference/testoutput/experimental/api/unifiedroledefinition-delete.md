@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete unifiedRoleDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [unifiedRoleDefinition](../resources/unifiedroledefinition.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/roleManagement/directory/roleDefinitions/{unifiedRoleDefinitionId}
+DELETE https://graph.microsoft.com/localtest/roleManagement/directory/roleDefinitions/{unifiedRoleDefinitionId}
 ```
 
 ### Response

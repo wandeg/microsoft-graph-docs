@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get program
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [program](../resources/program.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/programs/{programsId}
+GET https://graph.microsoft.com/localtest/programs/{programsId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 204
 {
   "value": {
     "@odata.type": "#microsoft.graph.program",
-    "id": "44393de9-3de9-4439-e93d-3944e93d3944",
+    "id": "65bee448-e448-65be-48e4-be6548e4be65",
     "displayName": "Display Name value",
     "description": "Description value"
   }

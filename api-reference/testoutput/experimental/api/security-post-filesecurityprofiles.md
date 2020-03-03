@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add fileSecurityProfiles
 
+Namespace: microsoft.graph
+
 Add fileSecurityProfiles by posting to the fileSecurityProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /Security/fileSecurityProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the fileSecurityProfile object.
+In the request body, supply a JSON representation for the [fileSecurityProfile](../resources/filesecurityprofile.md) object.
 
-The following table shows the properties that are required when you create the fileSecurityProfile.
+The following table shows the properties that are required when you create the [fileSecurityProfile](../resources/filesecurityprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,15 +52,15 @@ The following table shows the properties that are required when you create the f
 |extensions|String collection||
 |fileType|String||
 |firstSeenDateTime|DateTimeOffset||
-|hashes|[fileHash](../resources/fileHash.md) collection||
+|hashes|[fileHash](../resources/filehash.md) collection||
 |lastSeenDateTime|DateTimeOffset||
-|malwareStates|[malwareState](../resources/malwareState.md) collection||
+|malwareStates|[malwareState](../resources/malwarestate.md) collection||
 |names|String collection||
 |riskScore|String||
 |size|Int64||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
-|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilityState.md) collection||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
+|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilitystate.md) collection||
 
 
 
@@ -75,9 +77,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/fileSecurityProfiles
+POST https://graph.microsoft.com/localtest/Security/fileSecurityProfiles
 Content-type: application/json
-Content-length: 1419
+Content-length: 1418
 
 {
   "@odata.type": "#microsoft.graph.fileSecurityProfile",
@@ -91,7 +93,7 @@ Content-length: 1419
     "Extensions value"
   ],
   "fileType": "File Type value",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "hashes": [
     {
       "@odata.type": "microsoft.graph.fileHash",
@@ -99,7 +101,7 @@ Content-length: 1419
       "hashValue": "Hash Value value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "malwareStates": [
     {
       "@odata.type": "microsoft.graph.malwareState",
@@ -145,11 +147,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1468
+Content-Length: 1467
 
 {
   "@odata.type": "#microsoft.graph.fileSecurityProfile",
-  "id": "e5844810-4810-e584-1048-84e5104884e5",
+  "id": "55b90364-0364-55b9-6403-b9556403b955",
   "activityGroupNames": [
     "Activity Group Names value"
   ],
@@ -160,7 +162,7 @@ Content-Length: 1468
     "Extensions value"
   ],
   "fileType": "File Type value",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "hashes": [
     {
       "@odata.type": "microsoft.graph.fileHash",
@@ -168,7 +170,7 @@ Content-Length: 1468
       "hashValue": "Hash Value value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "malwareStates": [
     {
       "@odata.type": "microsoft.graph.malwareState",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365ActivationCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365ActivationCountses](../api/office365activationcounts-list.md)|[office365ActivationCounts](../resources/office365ActivationCounts.md) collection|List properties and relationships of the [office365ActivationCounts](../resources/office365activationcounts.md) objects.|
-|[Get office365ActivationCounts](../api/office365activationcounts-get.md)|[office365ActivationCounts](../resources/office365ActivationCounts.md)|Read properties and relationships of the [office365ActivationCounts](../resources/office365activationcounts.md) object.|
-|[Create office365ActivationCounts](../api/office365activationcounts-create.md)|[office365ActivationCounts](../resources/office365ActivationCounts.md)|Create a new [office365ActivationCounts](../resources/office365activationcounts.md) object.|
+|[List office365ActivationCountses](../api/office365activationcounts-list.md)|[office365ActivationCounts](../resources/office365activationcounts.md) collection|List properties and relationships of the [office365ActivationCounts](../resources/office365activationcounts.md) objects.|
+|[Get office365ActivationCounts](../api/office365activationcounts-get.md)|[office365ActivationCounts](../resources/office365activationcounts.md)|Read properties and relationships of the [office365ActivationCounts](../resources/office365activationcounts.md) object.|
+|[Create office365ActivationCounts](../api/office365activationcounts-create.md)|[office365ActivationCounts](../resources/office365activationcounts.md)|Create a new [office365ActivationCounts](../resources/office365activationcounts.md) object.|
 |[Delete office365ActivationCounts](../api/office365activationcounts-delete.md)|None|Deletes a [office365ActivationCounts](../resources/office365activationcounts.md).|
-|[Update office365ActivationCounts](../api/office365activationcounts-update.md)|[office365ActivationCounts](../resources/office365ActivationCounts.md)|Update the properties of a [office365ActivationCounts](../resources/office365activationcounts.md) object.|
+|[Update office365ActivationCounts](../api/office365activationcounts-update.md)|[office365ActivationCounts](../resources/office365activationcounts.md)|Update the properties of a [office365ActivationCounts](../resources/office365activationcounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

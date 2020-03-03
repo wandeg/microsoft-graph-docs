@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsAutopilotDeviceIdentity
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDevice
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md) object.
+In the request body, supply a JSON representation for the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.
 
 The following table shows the properties that are required when you create the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md).
 
@@ -79,15 +81,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}
 Content-type: application/json
-Content-length: 1044
+Content-length: 1045
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
   "deploymentProfileAssignmentStatus": "String",
   "deploymentProfileAssignmentDetailedStatus": "String",
-  "deploymentProfileAssignedDateTime": "2017-01-01T00:03:23.335843+03:00",
+  "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
   "orderIdentifier": "Order Identifier value",
   "groupTag": "Group Tag value",
   "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -96,7 +98,7 @@ Content-length: 1044
   "manufacturer": "Manufacturer value",
   "model": "Model value",
   "enrollmentState": "String",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "addressableUserName": "Addressable User Name value",
   "userPrincipalName": "User Principal Name value",
   "resourceName": "Resource Name value",
@@ -118,14 +120,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1093
+Content-Length: 1094
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
-  "id": "3f6a5d68-5d68-3f6a-685d-6a3f685d6a3f",
+  "id": "8e4a7471-7471-8e4a-7174-4a8e71744a8e",
   "deploymentProfileAssignmentStatus": "String",
   "deploymentProfileAssignmentDetailedStatus": "String",
-  "deploymentProfileAssignedDateTime": "2017-01-01T00:03:23.335843+03:00",
+  "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
   "orderIdentifier": "Order Identifier value",
   "groupTag": "Group Tag value",
   "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -134,7 +136,7 @@ Content-Length: 1093
   "manufacturer": "Manufacturer value",
   "model": "Model value",
   "enrollmentState": "String",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "addressableUserName": "Addressable User Name value",
   "userPrincipalName": "User Principal Name value",
   "resourceName": "Resource Name value",

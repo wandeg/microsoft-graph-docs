@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedSIMActivationCodePoolAssignment.md) collection||
+|assignments|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [embeddedSIMActivationCodePoolAssignment](../resources/embeddedSIMActivationCodePoolAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assign
 
 Content-type: application/json
 Content-length: 287
@@ -68,7 +70,7 @@ Content-length: 287
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-      "id": "3334bc32-bc32-3334-32bc-343332bc3433",
+      "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -94,7 +96,7 @@ Content-Length: 281
   "value": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-      "id": "3334bc32-bc32-3334-32bc-343332bc3433",
+      "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsDefenderApplicationControlSupplementalPolicyDeploymentSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 264
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary",
-      "id": "0bdf6e6f-6e6f-0bdf-6f6e-df0b6f6edf0b",
+      "id": "446e7984-7984-446e-8479-6e4484796e44",
       "deployedDeviceCount": 3,
       "failedDeviceCount": 1
     }

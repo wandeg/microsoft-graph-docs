@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # makePermanent
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [privilegedRoleAssignment](../resources/privilegedRoleAssignment.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [privilegedRoleAssignment](../resources/privilegedroleassignment.md) in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedRoleAssignments/{privilegedRoleAssignmentsId}/makePermanent
+POST https://graph.microsoft.com/localtest/privilegedRoleAssignments/{privilegedRoleAssignmentsId}/makePermanent
 
 Content-type: application/json
 Content-length: 116
@@ -84,16 +86,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 336
+Content-Length: 337
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedRoleAssignment",
-    "id": "11fe4775-4775-11fe-7547-fe117547fe11",
+    "id": "59a88cae-8cae-59a8-ae8c-a859ae8ca859",
     "userId": "User Id value",
     "roleId": "Role Id value",
     "isElevated": true,
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
     "resultMessage": "Result Message value"
   }
 }

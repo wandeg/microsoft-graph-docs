@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenoteEntitySchemaObjectModel
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.onenoteEntitySchemaObjectModel not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.onenoteEntitySchemaObjectModel not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 232
+Content-Length: 231
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteEntitySchemaObjectModel",
-    "id": "0fe50844-0844-0fe5-4408-e50f4408e50f",
+    "id": "6124c789-c789-6124-89c7-246189c72461",
     "self": "Self value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
   }
 }
 ```

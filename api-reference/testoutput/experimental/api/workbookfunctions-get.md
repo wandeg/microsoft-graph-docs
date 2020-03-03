@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookFunctions
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookFunctions](../resources/workbookfunctions.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/functions
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/functions
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 131
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFunctions",
-    "id": "1cea6953-6953-1cea-5369-ea1c5369ea1c"
+    "id": "f6e76afe-6afe-f6e7-fe6a-e7f6fe6ae7f6"
   }
 }
 ```

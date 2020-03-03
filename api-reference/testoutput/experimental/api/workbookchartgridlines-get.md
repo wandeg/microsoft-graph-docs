@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartGridlines
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 158
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartGridlines",
-    "id": "7fda67fc-67fc-7fda-fc67-da7ffc67da7f",
+    "id": "4a5003ef-03ef-4a50-ef03-504aef03504a",
     "visible": true
   }
 }

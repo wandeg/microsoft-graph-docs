@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailboxUsageDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.mailboxUsageDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailboxUsageDetail](../resources/mailboxUsageDetail.md) object.
+In the request body, supply a JSON representation for the [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.
 
 The following table shows the properties that are required when you create the [mailboxUsageDetail](../resources/mailboxusagedetail.md).
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailboxUsageDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailboxUsageDetail not found
 Content-type: application/json
 Content-length: 547
 
@@ -111,7 +113,7 @@ Content-Length: 596
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageDetail",
-  "id": "77bac344-c344-77ba-44c3-ba7744c3ba77",
+  "id": "d76f3fbc-3fbc-d76f-bc3f-6fd7bc3f6fd7",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointSiteUsageSiteCounts
 
+Namespace: microsoft.graph
+
 Create a new [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointSiteUsageSiteCounts not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointSiteUsageSiteCounts object.
+In the request body, supply a JSON representation for the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.
 
-The following table shows the properties that are required when you create the sharePointSiteUsageSiteCounts.
+The following table shows the properties that are required when you create the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
 Content-type: application/json
 Content-length: 235
 
@@ -95,7 +97,7 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageSiteCounts",
-  "id": "5671a226-a226-5671-26a2-715626a27156",
+  "id": "7a59cf92-cf92-7a59-92cf-597a92cf597a",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "total": 5,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # cancel
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /privilegedRoleAssignmentRequests/{privilegedRoleAssignmentRequestsId}/canc
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedRoleAssignmentRequests/{privilegedRoleAssignmentRequestsId}/cancel
+POST https://graph.microsoft.com/localtest/privilegedRoleAssignmentRequests/{privilegedRoleAssignmentRequestsId}/cancel
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 620
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedRoleAssignmentRequest",
-    "id": "14fec90f-c90f-14fe-0fc9-fe140fc9fe14",
+    "id": "4eb017cd-17cd-4eb0-cd17-b04ecd17b04e",
     "schedule": {
       "@odata.type": "microsoft.graph.governanceSchedule"
     },
@@ -78,7 +80,7 @@ Content-Length: 620
     "roleId": "Role Id value",
     "type": "Type value",
     "assignmentState": "Assignment State value",
-    "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+    "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
     "status": "Status value",
     "duration": "Duration value",
     "reason": "Reason value",

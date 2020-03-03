@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update homeRealmDiscoveryPolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH /policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [homeRealmDiscoveryPolicy](../resources/homeRealmDiscoveryPolicy.md) object.
+In the request body, supply a JSON representation for the [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) object.
 
 The following table shows the properties that are required when you create the [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|description|String| Inherited from [policyBase](../resources/policyBase.md)|
-|displayName|String| Inherited from [policyBase](../resources/policyBase.md)|
-|definition|String collection| Inherited from [stsPolicy](../resources/stsPolicy.md)|
-|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stsPolicy.md)|
+|description|String| Inherited from [policyBase](../resources/policybase.md)|
+|displayName|String| Inherited from [policyBase](../resources/policybase.md)|
+|definition|String collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
+|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
+PATCH https://graph.microsoft.com/localtest/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
 Content-type: application/json
 Content-length: 228
 
@@ -91,7 +93,7 @@ Content-Length: 277
 
 {
   "@odata.type": "#microsoft.graph.homeRealmDiscoveryPolicy",
-  "id": "88fcb5bf-b5bf-88fc-bfb5-fc88bfb5fc88",
+  "id": "836063e2-63e2-8360-e263-6083e2636083",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # applicationServicePrincipal resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |application|[application](../resources/application.md)||
-|servicePrincipal|[servicePrincipal](../resources/servicePrincipal.md)||
+|servicePrincipal|[servicePrincipal](../resources/serviceprincipal.md)||
 
 ## Relationships
 None

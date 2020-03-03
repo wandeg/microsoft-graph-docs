@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update financials
 
+Namespace: microsoft.graph
+
 Update the properties of a [financials](../resources/financials.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials
+PATCH https://graph.microsoft.com/localtest/financials
 Content-type: application/json
 Content-length: 52
 
@@ -81,7 +83,7 @@ Content-Length: 101
 
 {
   "@odata.type": "#microsoft.graph.financials",
-  "id": "ffdea07f-a07f-ffde-7fa0-deff7fa0deff"
+  "id": "278b3623-3623-278b-2336-8b2723368b27"
 }
 ```
 

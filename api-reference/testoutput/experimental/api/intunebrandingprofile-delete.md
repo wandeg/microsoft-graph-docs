@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete intuneBrandingProfile
 
+Namespace: microsoft.graph
+
 Deletes a [intuneBrandingProfile](../resources/intunebrandingprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
 ```
 
 ### Response

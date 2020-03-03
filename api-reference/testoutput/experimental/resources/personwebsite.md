@@ -5,37 +5,40 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # personWebsite resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get personWebsite](../api/personwebsite-get.md)|[personWebsite](../resources/personWebsite.md)|Read properties and relationships of the [personWebsite](../resources/personwebsite.md) object.|
+|[List personWebsites](../api/personwebsite-list.md)|[personWebsite](../resources/personwebsite.md) collection|List properties and relationships of the [personWebsite](../resources/personwebsite.md) objects.|
+|[Get personWebsite](../api/personwebsite-get.md)|[personWebsite](../resources/personwebsite.md)|Read properties and relationships of the [personWebsite](../resources/personwebsite.md) object.|
+|[Create personWebsite](../api/personwebsite-create.md)|[personWebsite](../resources/personwebsite.md)|Create a new [personWebsite](../resources/personwebsite.md) object.|
 |[Delete personWebsite](../api/personwebsite-delete.md)|None|Deletes a [personWebsite](../resources/personwebsite.md).|
-|[Update personWebsite](../api/personwebsite-update.md)|[personWebsite](../resources/personWebsite.md)|Update the properties of a [personWebsite](../resources/personwebsite.md) object.|
+|[Update personWebsite](../api/personwebsite-update.md)|[personWebsite](../resources/personwebsite.md)|Update the properties of a [personWebsite](../resources/personwebsite.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
 |categories|String collection||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |description|String||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |webUrl|String||
 
 ## Relationships

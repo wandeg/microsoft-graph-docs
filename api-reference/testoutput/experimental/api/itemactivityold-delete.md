@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemActivityOLD
 
+Namespace: microsoft.graph
+
 Deletes a [itemActivityOLD](../resources/itemactivityold.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/drives/{drivesId}/activities/{itemActivityOLDId}
+DELETE https://graph.microsoft.com/localtest/drives/{drivesId}/activities/{itemActivityOLDId}
 ```
 
 ### Response

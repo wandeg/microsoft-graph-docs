@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationRubric
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationRubric](../resources/educationrubric.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /education/classes/{educationClassId}/members/{educationUserId}/rubrics/{e
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationRubric](../resources/educationRubric.md) object.
+In the request body, supply a JSON representation for the [educationRubric](../resources/educationrubric.md) object.
 
 The following table shows the properties that are required when you create the [educationRubric](../resources/educationrubric.md).
 
@@ -44,14 +46,14 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
-|description|[educationItemBody](../resources/educationItemBody.md)||
-|qualities|[rubricQuality](../resources/rubricQuality.md) collection||
-|levels|[rubricLevel](../resources/rubricLevel.md) collection||
-|grading|[educationAssignmentGradeType](../resources/educationAssignmentGradeType.md)||
+|description|[educationItemBody](../resources/educationitembody.md)||
+|qualities|[rubricQuality](../resources/rubricquality.md) collection||
+|levels|[rubricLevel](../resources/rubriclevel.md) collection||
+|grading|[educationAssignmentGradeType](../resources/educationassignmentgradetype.md)||
 |createdDateTime|DateTimeOffset||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/rubric
+PATCH https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/rubric
 Content-type: application/json
 Content-length: 1189
 
@@ -131,11 +133,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1440
+Content-Length: 1439
 
 {
   "@odata.type": "#microsoft.graph.educationRubric",
-  "id": "8c75019d-019d-8c75-9d01-758c9d01758c",
+  "id": "f0c2bb23-bb23-f0c2-23bb-c2f023bbc2f0",
   "displayName": "Display Name value",
   "description": {
     "@odata.type": "microsoft.graph.educationItemBody",
@@ -167,7 +169,7 @@ Content-Length: 1440
   "grading": {
     "@odata.type": "microsoft.graph.educationAssignmentGradeType"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -181,7 +183,7 @@ Content-Length: 1440
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   }

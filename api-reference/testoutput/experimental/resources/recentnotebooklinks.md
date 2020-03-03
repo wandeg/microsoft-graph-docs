@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # recentNotebookLinks resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|oneNoteClientUrl|[externalLink](../resources/externalLink.md)||
-|oneNoteWebUrl|[externalLink](../resources/externalLink.md)||
+|oneNoteClientUrl|[externalLink](../resources/externallink.md)||
+|oneNoteWebUrl|[externalLink](../resources/externallink.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementCollectionSettingInstance
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.deviceManagementCollectionSettingInstanc
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementCollectionSettingInstance](../resources/deviceManagementCollectionSettingInstance.md) object.
+In the request body, supply a JSON representation for the [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
 Content-type: application/json
 Content-length: 161
 
@@ -85,7 +87,7 @@ Content-Length: 210
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingInstance",
-  "id": "62ce8f8d-8f8d-62ce-8d8f-ce628d8fce62",
+  "id": "a4f857d7-57d7-a4f8-d757-f8a4d757f8a4",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value"
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementCollectionSettingDefinition
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementCollectionSettingDefinition](../resources/devicemanagementcollectionsettingdefinition.md) object.
 
 ## Permissions
@@ -36,21 +38,21 @@ POST ** Collection URI for microsoft.graph.deviceManagementCollectionSettingDefi
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementCollectionSettingDefinition object.
+In the request body, supply a JSON representation for the [deviceManagementCollectionSettingDefinition](../resources/devicemanagementcollectionsettingdefinition.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementCollectionSettingDefinition.
+The following table shows the properties that are required when you create the [deviceManagementCollectionSettingDefinition](../resources/devicemanagementcollectionsettingdefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|valueType|Enumeration|The data type of the value Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md). Possible values are: `integer`, `boolean`, `string`, `complex`, `collection`, `abstractComplex`.|
-|displayName|String|The setting's display name Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|isTopLevel|Boolean|If the setting is top level, it can be configured without the need to be wrapped in a collection or complex setting Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|description|String|The setting's description Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|documentationUrl|String|Url to setting documentation Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|keywords|String collection|Keywords associated with the setting Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|constraints|[deviceManagementConstraint](../resources/deviceManagementConstraint.md) collection|Collection of constraints for the setting value Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
-|dependencies|[deviceManagementSettingDependency](../resources/deviceManagementSettingDependency.md) collection|Collection of dependencies on other settings Inherited from [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|
+|valueType|Enumeration|The data type of the value Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md). Possible values are: `integer`, `boolean`, `string`, `complex`, `collection`, `abstractComplex`.|
+|displayName|String|The setting's display name Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|isTopLevel|Boolean|If the setting is top level, it can be configured without the need to be wrapped in a collection or complex setting Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|description|String|The setting's description Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|documentationUrl|String|Url to setting documentation Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|keywords|String collection|Keywords associated with the setting Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|constraints|[deviceManagementConstraint](../resources/devicemanagementconstraint.md) collection|Collection of constraints for the setting value Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
+|dependencies|[deviceManagementSettingDependency](../resources/devicemanagementsettingdependency.md) collection|Collection of dependencies on other settings Inherited from [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|
 |elementDefinitionId|String|The Setting Definition ID that describes what each element of the collection looks like|
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementCollectionSettingDefinition not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementCollectionSettingDefinition not found
 Content-type: application/json
 Content-length: 657
 
@@ -112,7 +114,7 @@ Content-Length: 706
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingDefinition",
-  "id": "66bf5bc6-5bc6-66bf-c65b-bf66c65bbf66",
+  "id": "076f9ec4-9ec4-076f-c49e-6f07c49e6f07",
   "valueType": "String",
   "displayName": "Display Name value",
   "isTopLevel": true,

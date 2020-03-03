@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # providerTenantSetting resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get providerTenantSetting](../api/providertenantsetting-get.md)|[providerTenantSetting](../resources/providerTenantSetting.md)|Read properties and relationships of the [providerTenantSetting](../resources/providertenantsetting.md) object.|
+|[List providerTenantSettings](../api/providertenantsetting-list.md)|[providerTenantSetting](../resources/providertenantsetting.md) collection|List properties and relationships of the [providerTenantSetting](../resources/providertenantsetting.md) objects.|
+|[Get providerTenantSetting](../api/providertenantsetting-get.md)|[providerTenantSetting](../resources/providertenantsetting.md)|Read properties and relationships of the [providerTenantSetting](../resources/providertenantsetting.md) object.|
+|[Create providerTenantSetting](../api/providertenantsetting-create.md)|[providerTenantSetting](../resources/providertenantsetting.md)|Create a new [providerTenantSetting](../resources/providertenantsetting.md) object.|
 |[Delete providerTenantSetting](../api/providertenantsetting-delete.md)|None|Deletes a [providerTenantSetting](../resources/providertenantsetting.md).|
-|[Update providerTenantSetting](../api/providertenantsetting-update.md)|[providerTenantSetting](../resources/providerTenantSetting.md)|Update the properties of a [providerTenantSetting](../resources/providertenantsetting.md) object.|
-|[List providerTenantSettings](../api/security-list-providertenantsettings.md)|[providerTenantSetting](../resources/providerTenantSetting.md) collection|Get the providerTenantSettings from the providerTenantSettings navigation property.|
-|[Add providerTenantSettings](../api/security-post-providertenantsettings.md)|[providerTenantSetting](../resources/providerTenantSetting.md)|Add providerTenantSettings by posting to the providerTenantSettings collection.|
+|[Update providerTenantSetting](../api/providertenantsetting-update.md)|[providerTenantSetting](../resources/providertenantsetting.md)|Update the properties of a [providerTenantSetting](../resources/providertenantsetting.md) object.|
+|[List providerTenantSettings](../api/security-list-providertenantsettings.md)|[providerTenantSetting](../resources/providertenantsetting.md) collection|Get the providerTenantSettings from the providerTenantSettings navigation property.|
+|[Add providerTenantSettings](../api/security-post-providertenantsettings.md)|[providerTenantSetting](../resources/providertenantsetting.md)|Add providerTenantSettings by posting to the providerTenantSettings collection.|
 
 ## Properties
 |Property|Type|Description|

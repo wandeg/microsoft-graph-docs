@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update iosVppEBookAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.iosVppEBookAssignment not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosVppEBookAssignment](../resources/iosVppEBookAssignment.md) object.
+In the request body, supply a JSON representation for the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.
 
 The following table shows the properties that are required when you create the [iosVppEBookAssignment](../resources/iosvppebookassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target for eBook. Inherited from [managedEBookAssignment](../resources/managedEBookAssignment.md)|
-|installIntent|Enumeration|The install intent for eBook. Inherited from [managedEBookAssignment](../resources/managedEBookAssignment.md). Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target for eBook. Inherited from [managedEBookAssignment](../resources/managedebookassignment.md)|
+|installIntent|Enumeration|The install intent for eBook. Inherited from [managedEBookAssignment](../resources/managedebookassignment.md). Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppEBookAssignment not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppEBookAssignment not found
 Content-type: application/json
 Content-length: 191
 
@@ -87,7 +89,7 @@ Content-Length: 240
 
 {
   "@odata.type": "#microsoft.graph.iosVppEBookAssignment",
-  "id": "8de3c1aa-c1aa-8de3-aac1-e38daac1e38d",
+  "id": "2af35fe9-5fe9-2af3-e95f-f32ae95ff32a",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

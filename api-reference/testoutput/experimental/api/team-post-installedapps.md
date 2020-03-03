@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add installedApps
 
+Namespace: microsoft.graph
+
 Add installedApps by posting to the installedApps collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedGroups/{groupId}/team/installedApps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsAppInstallation object.
+In the request body, supply a JSON representation for the [teamsAppInstallation](../resources/teamsappinstallation.md) object.
 
-The following table shows the properties that are required when you create the teamsAppInstallation.
+The following table shows the properties that are required when you create the [teamsAppInstallation](../resources/teamsappinstallation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/installedApps
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/installedApps
 Content-type: application/json
 Content-length: 62
 
@@ -84,7 +86,7 @@ Content-Length: 111
 
 {
   "@odata.type": "#microsoft.graph.teamsAppInstallation",
-  "id": "6473bf45-bf45-6473-45bf-736445bf7364"
+  "id": "c98be40a-e40a-c98b-0ae4-8bc90ae48bc9"
 }
 ```
 

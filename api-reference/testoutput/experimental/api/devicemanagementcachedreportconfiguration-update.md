@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementCachedReportConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/reports/cachedReportConfigurations/{deviceManagementCach
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementCachedReportConfiguration](../resources/deviceManagementCachedReportConfiguration.md) object.
+In the request body, supply a JSON representation for the [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md).
 
@@ -65,9 +67,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/reports/cachedReportConfigurations/{deviceManagementCachedReportConfigurationId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/reports/cachedReportConfigurations/{deviceManagementCachedReportConfigurationId}
 Content-type: application/json
-Content-length: 382
+Content-length: 383
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCachedReportConfiguration",
@@ -80,8 +82,8 @@ Content-length: 382
     "Order By value"
   ],
   "status": "String",
-  "lastRefreshDateTime": "2016-12-31T23:57:03.0056947+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+  "lastRefreshDateTime": "2016-12-31T23:56:55.5139448+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
 }
 ```
 
@@ -95,11 +97,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 431
+Content-Length: 432
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCachedReportConfiguration",
-  "id": "92160ddf-0ddf-9216-df0d-1692df0d1692",
+  "id": "02b34ddf-4ddf-02b3-df4d-b302df4db302",
   "reportName": "Report Name value",
   "filter": "Filter value",
   "select": [
@@ -109,8 +111,8 @@ Content-Length: 431
     "Order By value"
   ],
   "status": "String",
-  "lastRefreshDateTime": "2016-12-31T23:57:03.0056947+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+  "lastRefreshDateTime": "2016-12-31T23:56:55.5139448+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
 }
 ```
 

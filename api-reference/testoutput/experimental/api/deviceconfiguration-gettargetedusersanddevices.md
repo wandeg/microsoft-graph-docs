@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getTargetedUsersAndDevices
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -47,7 +49,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [deviceConfigurationTargetedUserAndDevice](../resources/deviceConfigurationTargetedUserAndDevice.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [deviceConfigurationTargetedUserAndDevice](../resources/deviceconfigurationtargeteduseranddevice.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/getTargetedUsersAndDevices
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/getTargetedUsersAndDevices
 
 Content-type: application/json
 Content-length: 78

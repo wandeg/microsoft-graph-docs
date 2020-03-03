@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookRangeSort
 
+Namespace: microsoft.graph
+
 Create a new [workbookRangeSort](../resources/workbookrangesort.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRangeSort not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRangeSort object.
+In the request body, supply a JSON representation for the [workbookRangeSort](../resources/workbookrangesort.md) object.
 
-The following table shows the properties that are required when you create the workbookRangeSort.
+The following table shows the properties that are required when you create the [workbookRangeSort](../resources/workbookrangesort.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeSort not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeSort not found
 Content-type: application/json
 Content-length: 59
 
@@ -83,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeSort",
-  "id": "345d6cf8-6cf8-345d-f86c-5d34f86c5d34"
+  "id": "e613ec6c-ec6c-e613-6cec-13e66cec13e6"
 }
 ```
 

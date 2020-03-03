@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessActivityUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessActivityUserCountses](../api/skypeforbusinessactivityusercounts-list.md)|[skypeForBusinessActivityUserCounts](../resources/skypeForBusinessActivityUserCounts.md) collection|List properties and relationships of the [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) objects.|
-|[Get skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-get.md)|[skypeForBusinessActivityUserCounts](../resources/skypeForBusinessActivityUserCounts.md)|Read properties and relationships of the [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
-|[Create skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-create.md)|[skypeForBusinessActivityUserCounts](../resources/skypeForBusinessActivityUserCounts.md)|Create a new [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
+|[List skypeForBusinessActivityUserCountses](../api/skypeforbusinessactivityusercounts-list.md)|[skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) collection|List properties and relationships of the [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) objects.|
+|[Get skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-get.md)|[skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md)|Read properties and relationships of the [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
+|[Create skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-create.md)|[skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md)|Create a new [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
 |[Delete skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-delete.md)|None|Deletes a [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md).|
-|[Update skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-update.md)|[skypeForBusinessActivityUserCounts](../resources/skypeForBusinessActivityUserCounts.md)|Update the properties of a [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
+|[Update skypeForBusinessActivityUserCounts](../api/skypeforbusinessactivityusercounts-update.md)|[skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md)|Update the properties of a [skypeForBusinessActivityUserCounts](../resources/skypeforbusinessactivityusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

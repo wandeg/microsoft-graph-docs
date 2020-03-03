@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookFilter
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookFilter](../resources/workbookfilter.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}/filter
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}/filter
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 666
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFilter",
-    "id": "98dbf94e-f94e-98db-4ef9-db984ef9db98",
+    "id": "931ce82a-e82a-931c-2ae8-1c932ae81c93",
     "criteria": {
       "@odata.type": "microsoft.graph.workbookFilterCriteria",
       "color": "Color value",

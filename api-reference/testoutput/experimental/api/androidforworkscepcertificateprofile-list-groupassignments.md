@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupAssignments
 
+Namespace: microsoft.graph
+
 Get the deviceConfigurationGroupAssignments from the groupAssignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/identityCertificate/groupAssignments
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/identityCertificate/groupAssignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 244
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-      "id": "346c266c-266c-346c-6c26-6c346c266c34",
+      "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
       "targetGroupId": "Target Group Id value",
       "excludeGroup": true
     }

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # exactMatchClassificationRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|contentClassifications|[contentClassification](../resources/contentClassification.md) collection||
+|contentClassifications|[contentClassification](../resources/contentclassification.md) collection||
 |sensitiveTypeIds|String collection||
 |text|String||
 |timeoutInMs|Int32||

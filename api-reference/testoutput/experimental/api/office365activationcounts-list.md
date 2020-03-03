@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List office365ActivationCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [office365ActivationCounts](../resources/office365activationcounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActivationCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActivationCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 343
   "value": [
     {
       "@odata.type": "#microsoft.graph.office365ActivationCounts",
-      "id": "fb5316b0-16b0-fb53-b016-53fbb01653fb",
+      "id": "fe8928b4-28b4-fe89-b428-89feb42889fe",
       "reportRefreshDate": "Date",
       "productType": "Product Type value",
       "windows": 7,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementIntegerSettingInstance
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementIntegerSettingInstance](../resources/devicemanagementintegersettinginstance.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementIntegerSettingInstance not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementIntegerSettingInstance not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 251
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
-    "id": "f0565186-5186-f056-8651-56f0865156f0",
+    "id": "10611d39-1d39-1061-391d-6110391d6110",
     "definitionId": "Definition Id value",
     "valueJson": "Value Json value",
     "value": 5

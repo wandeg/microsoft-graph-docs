@@ -5,38 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # emailActivityStatistics resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [activityStatistics](../resources/activityStatistics.md)
+
+
+Inherits from [activityStatistics](../resources/activitystatistics.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailActivityStatisticses](../api/emailactivitystatistics-list.md)|[emailActivityStatistics](../resources/emailActivityStatistics.md) collection|List properties and relationships of the [emailActivityStatistics](../resources/emailactivitystatistics.md) objects.|
-|[Get emailActivityStatistics](../api/emailactivitystatistics-get.md)|[emailActivityStatistics](../resources/emailActivityStatistics.md)|Read properties and relationships of the [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
-|[Create emailActivityStatistics](../api/emailactivitystatistics-create.md)|[emailActivityStatistics](../resources/emailActivityStatistics.md)|Create a new [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
+|[List emailActivityStatisticses](../api/emailactivitystatistics-list.md)|[emailActivityStatistics](../resources/emailactivitystatistics.md) collection|List properties and relationships of the [emailActivityStatistics](../resources/emailactivitystatistics.md) objects.|
+|[Get emailActivityStatistics](../api/emailactivitystatistics-get.md)|[emailActivityStatistics](../resources/emailactivitystatistics.md)|Read properties and relationships of the [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
+|[Create emailActivityStatistics](../api/emailactivitystatistics-create.md)|[emailActivityStatistics](../resources/emailactivitystatistics.md)|Create a new [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
 |[Delete emailActivityStatistics](../api/emailactivitystatistics-delete.md)|None|Deletes a [emailActivityStatistics](../resources/emailactivitystatistics.md).|
-|[Update emailActivityStatistics](../api/emailactivitystatistics-update.md)|[emailActivityStatistics](../resources/emailActivityStatistics.md)|Update the properties of a [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
+|[Update emailActivityStatistics](../api/emailactivitystatistics-update.md)|[emailActivityStatistics](../resources/emailactivitystatistics.md)|Update the properties of a [emailActivityStatistics](../resources/emailactivitystatistics.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
 |afterHours|Duration||
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |readEmail|Duration||
 |sentEmail|Duration||
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 
 ## Relationships
 None

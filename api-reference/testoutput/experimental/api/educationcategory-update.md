@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationCategory
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationCategory](../resources/educationcategory.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /education/classes/{educationClassId}/assignments/{educationAssignmentId}/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationCategory](../resources/educationCategory.md) object.
+In the request body, supply a JSON representation for the [educationCategory](../resources/educationcategory.md) object.
 
 The following table shows the properties that are required when you create the [educationCategory](../resources/educationcategory.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
+PATCH https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
 Content-type: application/json
 Content-length: 99
 
@@ -84,7 +86,7 @@ Content-Length: 148
 
 {
   "@odata.type": "#microsoft.graph.educationCategory",
-  "id": "4ada2ab2-2ab2-4ada-b22a-da4ab22ada4a",
+  "id": "be0967cb-67cb-be09-cb67-09becb6709be",
   "displayName": "Display Name value"
 }
 ```

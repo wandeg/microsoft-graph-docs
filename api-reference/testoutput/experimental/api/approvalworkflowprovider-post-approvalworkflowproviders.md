@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create approvalWorkflowProvider
 
+Namespace: microsoft.graph
+
 Create a new [approvalWorkflowProvider](../resources/approvalworkflowprovider.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /approvalWorkflowProviders
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the approvalWorkflowProvider object.
+In the request body, supply a JSON representation for the [approvalWorkflowProvider](../resources/approvalworkflowprovider.md) object.
 
-The following table shows the properties that are required when you create the approvalWorkflowProvider.
+The following table shows the properties that are required when you create the [approvalWorkflowProvider](../resources/approvalworkflowprovider.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/approvalWorkflowProviders
+POST https://graph.microsoft.com/localtest/approvalWorkflowProviders
 Content-type: application/json
 Content-length: 106
 
@@ -85,7 +87,7 @@ Content-Length: 155
 
 {
   "@odata.type": "#microsoft.graph.approvalWorkflowProvider",
-  "id": "27c89cb1-9cb1-27c8-b19c-c827b19cc827",
+  "id": "966bc148-c148-966b-48c1-6b9648c16b96",
   "displayName": "Display Name value"
 }
 ```

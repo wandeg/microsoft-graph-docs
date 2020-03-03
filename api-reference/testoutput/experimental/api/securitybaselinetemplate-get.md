@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get securityBaselineTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [securityBaselineTemplate](../resources/securitybaselinetemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.securityBaselineTemplate not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.securityBaselineTemplate not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 439
 {
   "value": {
     "@odata.type": "#microsoft.graph.securityBaselineTemplate",
-    "id": "5ffcd127-d127-5ffc-27d1-fc5f27d1fc5f",
+    "id": "c06e3ed2-3ed2-c06e-d23e-6ec0d23e6ec0",
     "displayName": "Display Name value",
     "description": "Description value",
     "versionInfo": "Version Info value",
@@ -80,7 +82,7 @@ Content-Length: 439
     "intentCount": 11,
     "templateType": "String",
     "platformType": "String",
-    "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+    "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
   }
 }
 ```

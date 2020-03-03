@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create oneDriveUsageAccountDetail
 
+Namespace: microsoft.graph
+
 Create a new [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.oneDriveUsageAccountDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the oneDriveUsageAccountDetail object.
+In the request body, supply a JSON representation for the [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md) object.
 
-The following table shows the properties that are required when you create the oneDriveUsageAccountDetail.
+The following table shows the properties that are required when you create the [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.oneDriveUsageAccountDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.oneDriveUsageAccountDetail not found
 Content-type: application/json
 Content-length: 453
 
@@ -105,7 +107,7 @@ Content-Length: 502
 
 {
   "@odata.type": "#microsoft.graph.oneDriveUsageAccountDetail",
-  "id": "1e2f62b5-62b5-1e2f-b562-2f1eb5622f1e",
+  "id": "c4267756-7756-c426-5677-26c4567726c4",
   "reportRefreshDate": "Date",
   "siteUrl": "https://example.com/siteUrl/",
   "ownerDisplayName": "Owner Display Name value",

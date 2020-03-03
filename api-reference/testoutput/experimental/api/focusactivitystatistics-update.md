@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update focusActivityStatistics
 
+Namespace: microsoft.graph
+
 Update the properties of a [focusActivityStatistics](../resources/focusactivitystatistics.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.focusActivityStatistics not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [focusActivityStatistics](../resources/focusActivityStatistics.md) object.
+In the request body, supply a JSON representation for the [focusActivityStatistics](../resources/focusactivitystatistics.md) object.
 
 The following table shows the properties that are required when you create the [focusActivityStatistics](../resources/focusactivitystatistics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 
 
 
@@ -63,9 +65,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.focusActivityStatistics not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.focusActivityStatistics not found
 Content-type: application/json
-Content-length: 213
+Content-length: 214
 
 {
   "@odata.type": "#microsoft.graph.focusActivityStatistics",
@@ -73,7 +75,7 @@ Content-length: 213
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S"
+  "duration": "-PT1M55.0810357S"
 }
 ```
 
@@ -87,16 +89,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 262
+Content-Length: 263
 
 {
   "@odata.type": "#microsoft.graph.focusActivityStatistics",
-  "id": "f835d8b2-d8b2-f835-b2d8-35f8b2d835f8",
+  "id": "6d401f1f-1f1f-6d40-1f1f-406d1f1f406d",
   "activity": "String",
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S"
+  "duration": "-PT1M55.0810357S"
 }
 ```
 

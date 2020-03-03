@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessDeviceUsageDistributionUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessDeviceUsageDistributionUserCountses](../api/skypeforbusinessdeviceusagedistributionusercounts-list.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeForBusinessDeviceUsageDistributionUserCounts.md) collection|List properties and relationships of the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) objects.|
-|[Get skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-get.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeForBusinessDeviceUsageDistributionUserCounts.md)|Read properties and relationships of the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
-|[Create skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-create.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeForBusinessDeviceUsageDistributionUserCounts.md)|Create a new [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
+|[List skypeForBusinessDeviceUsageDistributionUserCountses](../api/skypeforbusinessdeviceusagedistributionusercounts-list.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) collection|List properties and relationships of the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) objects.|
+|[Get skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-get.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md)|Read properties and relationships of the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
+|[Create skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-create.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md)|Create a new [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
 |[Delete skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-delete.md)|None|Deletes a [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md).|
-|[Update skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-update.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeForBusinessDeviceUsageDistributionUserCounts.md)|Update the properties of a [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
+|[Update skypeForBusinessDeviceUsageDistributionUserCounts](../api/skypeforbusinessdeviceusagedistributionusercounts-update.md)|[skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md)|Update the properties of a [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

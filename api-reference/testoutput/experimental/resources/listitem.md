@@ -5,60 +5,63 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # listItem resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [baseItem](../resources/baseItem.md)
+
+
+Inherits from [baseItem](../resources/baseitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listItem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
+|[List listItems](../api/listitem-list.md)|[listItem](../resources/listitem.md) collection|List properties and relationships of the [listItem](../resources/listitem.md) objects.|
+|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
+|[Create listItem](../api/listitem-create.md)|[listItem](../resources/listitem.md)|Create a new [listItem](../resources/listitem.md) object.|
 |[Delete listItem](../api/listitem-delete.md)|None|Deletes a [listItem](../resources/listitem.md).|
-|[Update listItem](../api/listitem-update.md)|[listItem](../resources/listItem.md)|Update the properties of a [listItem](../resources/listitem.md) object.|
-|[getActivitiesByInterval](../api/listitem-getactivitiesbyinterval.md)|[itemActivityStat](../resources/itemActivityStat.md) collection||
+|[Update listItem](../api/listitem-update.md)|[listItem](../resources/listitem.md)|Update the properties of a [listItem](../resources/listitem.md) object.|
+|[getActivitiesByInterval](../api/listitem-getactivitiesbyinterval.md)|[itemActivityStat](../resources/itemactivitystat.md) collection||
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
-|[List activities](../api/listitem-list-activities.md)|[itemActivityOLD](../resources/itemActivityOLD.md) collection|Get the itemActivityOLDs from the activities navigation property.|
-|[Add activities](../api/listitem-post-activities.md)|[itemActivityOLD](../resources/itemActivityOLD.md)|Add activities by posting to the activities collection.|
-|[Get itemAnalytics](../api/itemanalytics-get.md)|[itemAnalytics](../resources/itemAnalytics.md)|Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.|
-|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveItem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
-|[Get fieldValueSet](../api/fieldvalueset-get.md)|[fieldValueSet](../resources/fieldValueSet.md)|Read properties and relationships of the [fieldValueSet](../resources/fieldvalueset.md) object.|
-|[List versions](../api/listitem-list-versions.md)|[listItemVersion](../resources/listItemVersion.md) collection|Get the listItemVersions from the versions navigation property.|
-|[Add versions](../api/listitem-post-versions.md)|[listItemVersion](../resources/listItemVersion.md)|Add versions by posting to the versions collection.|
+|[List activities](../api/listitem-list-activities.md)|[itemActivityOLD](../resources/itemactivityold.md) collection|Get the itemActivityOLDs from the activities navigation property.|
+|[Add activities](../api/listitem-post-activities.md)|[itemActivityOLD](../resources/itemactivityold.md)|Add activities by posting to the activities collection.|
+|[Get itemAnalytics](../api/itemanalytics-get.md)|[itemAnalytics](../resources/itemanalytics.md)|Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.|
+|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
+|[Get fieldValueSet](../api/fieldvalueset-get.md)|[fieldValueSet](../resources/fieldvalueset.md)|Read properties and relationships of the [fieldValueSet](../resources/fieldvalueset.md) object.|
+|[List versions](../api/listitem-list-versions.md)|[listItemVersion](../resources/listitemversion.md) collection|Get the listItemVersions from the versions navigation property.|
+|[Add versions](../api/listitem-post-versions.md)|[listItemVersion](../resources/listitemversion.md)|Add versions by posting to the versions collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|contentType|[contentTypeInfo](../resources/contentTypeInfo.md)||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
+|contentType|[contentTypeInfo](../resources/contenttypeinfo.md)||
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|activities|[itemActivityOLD](../resources/itemActivityOLD.md) collection||
-|analytics|[itemAnalytics](../resources/itemAnalytics.md)||
-|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|driveItem|[driveItem](../resources/driveItem.md)||
-|fields|[fieldValueSet](../resources/fieldValueSet.md)||
-|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|versions|[listItemVersion](../resources/listItemVersion.md) collection||
+|activities|[itemActivityOLD](../resources/itemactivityold.md) collection||
+|analytics|[itemAnalytics](../resources/itemanalytics.md)||
+|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|driveItem|[driveItem](../resources/driveitem.md)||
+|fields|[fieldValueSet](../resources/fieldvalueset.md)||
+|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|versions|[listItemVersion](../resources/listitemversion.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

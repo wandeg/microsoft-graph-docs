@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get contactFolder
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [contactFolder](../resources/contactfolder.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/contactFolders/{contactFolderId}
+GET https://graph.microsoft.com/localtest/me/contactFolders/{contactFolderId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 265
 {
   "value": {
     "@odata.type": "#microsoft.graph.contactFolder",
-    "id": "3f9fd112-d112-3f9f-12d1-9f3f12d19f3f",
+    "id": "f4a2f5e4-f5e4-f4a2-e4f5-a2f4e4f5a2f4",
     "parentFolderId": "Parent Folder Id value",
     "displayName": "Display Name value",
     "wellKnownName": "Well Known Name value"

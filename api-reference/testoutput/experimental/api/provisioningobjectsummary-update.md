@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update provisioningObjectSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /auditLogs/directoryProvisioning/{provisioningObjectSummaryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [provisioningObjectSummary](../resources/provisioningObjectSummary.md) object.
+In the request body, supply a JSON representation for the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.
 
 The following table shows the properties that are required when you create the [provisioningObjectSummary](../resources/provisioningobjectsummary.md).
 
@@ -51,13 +53,13 @@ The following table shows the properties that are required when you create the [
 |action|String||
 |durationInMilliseconds|Int32||
 |initiatedBy|[initiator](../resources/initiator.md)||
-|sourceSystem|[provisioningSystemDetails](../resources/provisioningSystemDetails.md)||
-|targetSystem|[provisioningSystemDetails](../resources/provisioningSystemDetails.md)||
-|sourceIdentity|[provisionedIdentity](../resources/provisionedIdentity.md)||
-|targetIdentity|[provisionedIdentity](../resources/provisionedIdentity.md)||
-|statusInfo|[statusBase](../resources/statusBase.md)||
-|provisioningSteps|[provisioningStep](../resources/provisioningStep.md) collection||
-|modifiedProperties|[modifiedProperty](../resources/modifiedProperty.md) collection||
+|sourceSystem|[provisioningSystemDetails](../resources/provisioningsystemdetails.md)||
+|targetSystem|[provisioningSystemDetails](../resources/provisioningsystemdetails.md)||
+|sourceIdentity|[provisionedIdentity](../resources/provisionedidentity.md)||
+|targetIdentity|[provisionedIdentity](../resources/provisionedidentity.md)||
+|statusInfo|[statusBase](../resources/statusbase.md)||
+|provisioningSteps|[provisioningStep](../resources/provisioningstep.md) collection||
+|modifiedProperties|[modifiedProperty](../resources/modifiedproperty.md) collection||
 
 
 
@@ -74,13 +76,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/auditLogs/provisioning/{provisioningObjectSummaryId}
+PATCH https://graph.microsoft.com/localtest/auditLogs/provisioning/{provisioningObjectSummaryId}
 Content-type: application/json
 Content-length: 1460
 
 {
   "@odata.type": "#microsoft.graph.provisioningObjectSummary",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "tenantId": "Tenant Id value",
   "jobId": "Job Id value",
   "cycleId": "Cycle Id value",
@@ -145,8 +147,8 @@ Content-Length: 1509
 
 {
   "@odata.type": "#microsoft.graph.provisioningObjectSummary",
-  "id": "f4228028-8028-f422-2880-22f4288022f4",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "id": "36c378ea-78ea-36c3-ea78-c336ea78c336",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "tenantId": "Tenant Id value",
   "jobId": "Job Id value",
   "cycleId": "Cycle Id value",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # yammerGroupsActivityCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List yammerGroupsActivityCountses](../api/yammergroupsactivitycounts-list.md)|[yammerGroupsActivityCounts](../resources/yammerGroupsActivityCounts.md) collection|List properties and relationships of the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) objects.|
-|[Get yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-get.md)|[yammerGroupsActivityCounts](../resources/yammerGroupsActivityCounts.md)|Read properties and relationships of the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
-|[Create yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-create.md)|[yammerGroupsActivityCounts](../resources/yammerGroupsActivityCounts.md)|Create a new [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
+|[List yammerGroupsActivityCountses](../api/yammergroupsactivitycounts-list.md)|[yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) collection|List properties and relationships of the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) objects.|
+|[Get yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-get.md)|[yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md)|Read properties and relationships of the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
+|[Create yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-create.md)|[yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md)|Create a new [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
 |[Delete yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-delete.md)|None|Deletes a [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md).|
-|[Update yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-update.md)|[yammerGroupsActivityCounts](../resources/yammerGroupsActivityCounts.md)|Update the properties of a [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
+|[Update yammerGroupsActivityCounts](../api/yammergroupsactivitycounts-update.md)|[yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md)|Update the properties of a [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

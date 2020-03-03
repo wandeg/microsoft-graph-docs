@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update external
 
+Namespace: microsoft.graph
+
 Update the properties of a [external](../resources/external.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/external
+PATCH https://graph.microsoft.com/localtest/external
 Content-type: application/json
 Content-length: 50
 
@@ -81,7 +83,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.external",
-  "id": "90de3a61-3a61-90de-613a-de90613ade90"
+  "id": "08c37937-7937-08c3-3779-c3083779c308"
 }
 ```
 

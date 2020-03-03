@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update chatActivityStatistics
 
+Namespace: microsoft.graph
+
 Update the properties of a [chatActivityStatistics](../resources/chatactivitystatistics.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.chatActivityStatistics not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [chatActivityStatistics](../resources/chatActivityStatistics.md) object.
+In the request body, supply a JSON representation for the [chatActivityStatistics](../resources/chatactivitystatistics.md) object.
 
 The following table shows the properties that are required when you create the [chatActivityStatistics](../resources/chatactivitystatistics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |afterHours|Duration||
 
 
@@ -64,9 +66,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.chatActivityStatistics not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.chatActivityStatistics not found
 Content-type: application/json
-Content-length: 246
+Content-length: 250
 
 {
   "@odata.type": "#microsoft.graph.chatActivityStatistics",
@@ -74,8 +76,8 @@ Content-length: 246
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S"
 }
 ```
 
@@ -89,17 +91,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 295
+Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.chatActivityStatistics",
-  "id": "317b47fc-47fc-317b-fc47-7b31fc477b31",
+  "id": "bc35ab08-ab08-bc35-08ab-35bc08ab35bc",
   "activity": "String",
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S"
 }
 ```
 

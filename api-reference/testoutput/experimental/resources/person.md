@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # person resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List persons](../api/person-list.md)|[person](../resources/person.md) collection|List properties and relationships of the [person](../resources/person.md) objects.|
 |[Get person](../api/person-get.md)|[person](../resources/person.md)|Read properties and relationships of the [person](../resources/person.md) object.|
+|[Create person](../api/person-create.md)|[person](../resources/person.md)|Create a new [person](../resources/person.md) object.|
 |[Delete person](../api/person-delete.md)|None|Deletes a [person](../resources/person.md).|
 |[Update person](../api/person-update.md)|[person](../resources/person.md)|Update the properties of a [person](../resources/person.md) object.|
 
@@ -30,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 |companyName|String||
 |department|String||
 |displayName|String||
-|emailAddresses|[rankedEmailAddress](../resources/rankedEmailAddress.md) collection||
+|emailAddresses|[rankedEmailAddress](../resources/rankedemailaddress.md) collection||
 |givenName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isFavorite|Boolean||
@@ -41,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |phones|[phone](../resources/phone.md) collection||
 |postalAddresses|[location](../resources/location.md) collection||
 |profession|String||
-|sources|[personDataSource](../resources/personDataSource.md) collection||
+|sources|[personDataSource](../resources/persondatasource.md) collection||
 |surname|String||
 |title|String||
 |userPrincipalName|String||

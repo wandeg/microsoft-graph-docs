@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsProtectionState resource type
+
+
+Namespace: microsoft.graph
 
 Device protection status entity.
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get windowsProtectionState](../api/intune-devices-windowsprotectionstate-get.md)|[windowsProtectionState](../resources/intune-devices-windowsProtectionState.md)|Read properties and relationships of the [windowsProtectionState](../resources/windowsprotectionstate.md) object.|
-|[Delete windowsProtectionState](../api/intune-devices-windowsprotectionstate-delete.md)|None|Deletes a [windowsProtectionState](../resources/windowsprotectionstate.md).|
-|[Update windowsProtectionState](../api/intune-devices-windowsprotectionstate-update.md)|[windowsProtectionState](../resources/intune-devices-windowsProtectionState.md)|Update the properties of a [windowsProtectionState](../resources/windowsprotectionstate.md) object.|
-|[List detectedMalwareState](../api/intune-devices-windowsprotectionstate-list-detectedmalwarestate.md)|[windowsDeviceMalwareState](../resources/intune-devices-windowsDeviceMalwareState.md) collection|Get the windowsDeviceMalwareStates from the detectedMalwareState navigation property.|
-|[Add detectedMalwareState](../api/intune-devices-windowsprotectionstate-post-detectedmalwarestate.md)|[windowsDeviceMalwareState](../resources/intune-devices-windowsDeviceMalwareState.md)|Add detectedMalwareState by posting to the detectedMalwareState collection.|
+|[List windowsProtectionStates](../api/intune-devices-windowsprotectionstate-list.md)|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) collection|List properties and relationships of the [windowsProtectionState](../resources/windowsprotectionstate.md) objects.|
+|[Get windowsProtectionState](../api/intune-devices-windowsprotectionstate-get.md)|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md)|Read properties and relationships of the [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object.|
+|[Create windowsProtectionState](../api/intune-devices-windowsprotectionstate-create.md)|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md)|Create a new [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object.|
+|[Delete windowsProtectionState](../api/intune-devices-windowsprotectionstate-delete.md)|None|Deletes a [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md).|
+|[Update windowsProtectionState](../api/intune-devices-windowsprotectionstate-update.md)|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md)|Update the properties of a [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object.|
+|[List detectedMalwareState](../api/intune-devices-windowsprotectionstate-list-detectedmalwarestate.md)|[windowsDeviceMalwareState](../resources/intune-devices-windowsdevicemalwarestate.md) collection|Get the windowsDeviceMalwareStates from the detectedMalwareState navigation property.|
+|[Add detectedMalwareState](../api/intune-devices-windowsprotectionstate-post-detectedmalwarestate.md)|[windowsDeviceMalwareState](../resources/intune-devices-windowsdevicemalwarestate.md)|Add detectedMalwareState by posting to the detectedMalwareState collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -50,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|detectedMalwareState|[windowsDeviceMalwareState](../resources/intune-devices-windowsDeviceMalwareState.md) collection|Device malware list|
+|detectedMalwareState|[windowsDeviceMalwareState](../resources/intune-devices-windowsdevicemalwarestate.md) collection|Device malware list|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

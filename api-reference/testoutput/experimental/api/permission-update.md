@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update permission
 
+Namespace: microsoft.graph
+
 Update the properties of a [permission](../resources/permission.md) object.
 
 ## Permissions
@@ -46,12 +48,12 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |expirationDateTime|DateTimeOffset||
-|grantedTo|[identitySet](../resources/identitySet.md)||
-|grantedToIdentities|[identitySet](../resources/identitySet.md) collection||
+|grantedTo|[identitySet](../resources/identityset.md)||
+|grantedToIdentities|[identitySet](../resources/identityset.md) collection||
 |hasPassword|Boolean||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
-|invitation|[sharingInvitation](../resources/sharingInvitation.md)||
-|link|[sharingLink](../resources/sharingLink.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
+|invitation|[sharingInvitation](../resources/sharinginvitation.md)||
+|link|[sharingLink](../resources/sharinglink.md)||
 |roles|String collection||
 |shareId|String||
 
@@ -70,13 +72,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/shares/{sharesId}/permission
+PATCH https://graph.microsoft.com/localtest/shares/{sharesId}/permission
 Content-type: application/json
-Content-length: 1848
+Content-length: 1849
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -150,12 +152,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1897
+Content-Length: 1898
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "6e4632ec-32ec-6e46-ec32-466eec32466e",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "id": "32939072-9072-3293-7290-933272909332",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

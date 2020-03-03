@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createToken
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwnerEnrollmentProfileId}/createToken
+POST https://graph.microsoft.com/localtest/deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwnerEnrollmentProfileId}/createToken
 
 Content-type: application/json
 Content-length: 35

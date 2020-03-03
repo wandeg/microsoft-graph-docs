@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete shiftPreferences
 
+Namespace: microsoft.graph
+
 Deletes a [shiftPreferences](../resources/shiftpreferences.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/settings/shiftPreferences
+DELETE https://graph.microsoft.com/localtest/me/settings/shiftPreferences
 ```
 
 ### Response

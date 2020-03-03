@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List urlAssessmentRequests
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [urlAssessmentRequest](../resources/urlassessmentrequest.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.urlAssessmentRequest not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.urlAssessmentRequest not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 827
+Content-Length: 826
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.urlAssessmentRequest",
-      "id": "a8f01eb4-1eb4-a8f0-b41e-f0a8b41ef0a8",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "90cd7248-7248-90cd-4872-cd904872cd90",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "contentType": "String",
       "expectedAssessment": "String",
       "category": "String",

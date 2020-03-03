@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governanceRoleAssignmentRequest
 
+Namespace: microsoft.graph
+
 Update the properties of a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/ro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governanceRoleAssignmentRequest](../resources/governanceRoleAssignmentRequest.md) object.
+In the request body, supply a JSON representation for the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.
 
 The following table shows the properties that are required when you create the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md).
 
@@ -53,8 +55,8 @@ The following table shows the properties that are required when you create the [
 |assignmentState|String||
 |requestedDateTime|DateTimeOffset||
 |reason|String||
-|status|[governanceRoleAssignmentRequestStatus](../resources/governanceRoleAssignmentRequestStatus.md)||
-|schedule|[governanceSchedule](../resources/governanceSchedule.md)||
+|status|[governanceRoleAssignmentRequestStatus](../resources/governanceroleassignmentrequeststatus.md)||
+|schedule|[governanceSchedule](../resources/governanceschedule.md)||
 
 
 
@@ -71,9 +73,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequestsId}
+PATCH https://graph.microsoft.com/localtest/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequestsId}
 Content-type: application/json
-Content-length: 1003
+Content-length: 1004
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
@@ -83,7 +85,7 @@ Content-length: 1003
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
   "reason": "Reason value",
   "status": {
     "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus",
@@ -99,9 +101,9 @@ Content-length: 1003
   },
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-    "duration": "PT3M27.7161587S"
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```
@@ -116,18 +118,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1052
+Content-Length: 1053
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
-  "id": "8b5623bd-23bd-8b56-bd23-568bbd23568b",
+  "id": "296851b4-51b4-2968-b451-6829b4516829",
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "subjectId": "Subject Id value",
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
   "reason": "Reason value",
   "status": {
     "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus",
@@ -143,9 +145,9 @@ Content-Length: 1052
   },
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-    "duration": "PT3M27.7161587S"
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartAxes
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartAxes](../resources/workbookchartaxes.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartAxes](../resources/workbookChartAxes.md) object.
+In the request body, supply a JSON representation for the [workbookChartAxes](../resources/workbookchartaxes.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartAxes](../resources/workbookchartaxes.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes
 Content-type: application/json
 Content-length: 59
 
@@ -81,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxes",
-  "id": "550d9980-9980-550d-8099-0d5580990d55"
+  "id": "a617d0cd-d0cd-a617-cdd0-17a6cdd017a6"
 }
 ```
 

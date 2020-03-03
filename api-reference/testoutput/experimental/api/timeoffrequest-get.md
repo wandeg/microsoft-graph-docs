@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get timeOffRequest
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [timeOffRequest](../resources/timeoffrequest.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/timeOffRequests/{timeOffRequestId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/timeOffRequests/{timeOffRequestId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1203
+Content-Length: 1202
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.timeOffRequest",
-    "id": "2ecb49a3-49a3-2ecb-a349-cb2ea349cb2e",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "cfb17b22-7b22-cfb1-227b-b1cf227bb1cf",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -92,13 +94,13 @@ Content-Length: 1203
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "timeOffReasonId": "Time Off Reason Id value"
   }
 }

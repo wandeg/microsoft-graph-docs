@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get informationProtectionPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/informationProtection/policy
+GET https://graph.microsoft.com/localtest/informationProtection/policy
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 141
 {
   "value": {
     "@odata.type": "#microsoft.graph.informationProtectionPolicy",
-    "id": "88172d2c-2d2c-8817-2c2d-17882c2d1788"
+    "id": "738d216e-216e-738d-6e21-8d736e218d73"
   }
 }
 ```

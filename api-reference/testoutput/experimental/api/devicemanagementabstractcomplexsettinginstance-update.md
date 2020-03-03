@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementAbstractComplexSettingInstance
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementAbstractComplexSettingInstance](../resources/devicemanagementabstractcomplexsettinginstance.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.deviceManagementAbstractComplexSettingIn
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementAbstractComplexSettingInstance](../resources/deviceManagementAbstractComplexSettingInstance.md) object.
+In the request body, supply a JSON representation for the [deviceManagementAbstractComplexSettingInstance](../resources/devicemanagementabstractcomplexsettinginstance.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementAbstractComplexSettingInstance](../resources/devicemanagementabstractcomplexsettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |implementationId|String|The definition ID for the chosen implementation of this complex setting|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementAbstractComplexSettingInstance not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementAbstractComplexSettingInstance not found
 Content-type: application/json
 Content-length: 216
 
@@ -87,7 +89,7 @@ Content-Length: 265
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
-  "id": "faef4579-4579-faef-7945-effa7945effa",
+  "id": "5d290fbe-0fbe-5d29-be0f-295dbe0f295d",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value",
   "implementationId": "Implementation Id value"

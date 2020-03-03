@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create iosGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST ** Collection URI for microsoft.graph.iosGeneralDeviceConfiguration not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosGeneralDeviceConfiguration object.
+In the request body, supply a JSON representation for the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.
 
-The following table shows the properties that are required when you create the iosGeneralDeviceConfiguration.
+The following table shows the properties that are required when you create the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |accountBlockModification|Boolean|Indicates whether or not to allow account modification when the device is in supervised mode.|
 |activationLockAllowWhenSupervised|Boolean|Indicates whether or not to allow activation lock when the device is in the supervised mode.|
 |airDropBlocked|Boolean|Indicates whether or not to allow AirDrop when the device is in supervised mode.|
@@ -61,8 +63,8 @@ The following table shows the properties that are required when you create the i
 |appleWatchBlockPairing|Boolean|Indicates whether or not to allow Apple Watch pairing when the device is in supervised mode (iOS 9.0 and later).|
 |appleWatchForceWristDetection|Boolean|Indicates whether or not to force a paired Apple Watch to use Wrist Detection (iOS 8.2 and later).|
 |appleNewsBlocked|Boolean|Indicates whether or not to block the user from using News when the device is in supervised mode (iOS 9.0 and later).|
-|appsSingleAppModeList|[appListItem](../resources/appListItem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
-|appsVisibilityList|[appListItem](../resources/appListItem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
+|appsSingleAppModeList|[appListItem](../resources/applistitem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
+|appsVisibilityList|[appListItem](../resources/applistitem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
 |appsVisibilityListType|Enumeration|Type of list that is in the AppsVisibilityList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |appStoreBlockAutomaticDownloads|Boolean|Indicates whether or not to block the automatic downloading of apps purchased on other devices when the device is in supervised mode (iOS 9.0 and later).|
 |appStoreBlocked|Boolean|Indicates whether or not to block the user from using the App Store. Requires a supervised device for iOS 13 and later.|
@@ -83,7 +85,7 @@ The following table shows the properties that are required when you create the i
 |classroomAppForceUnpromptedScreenObservation|Boolean|Indicates whether or not to automatically give permission to the teacher of a managed course on the Classroom app to view a student's screen without prompting when the device is in supervised mode.|
 |classroomForceAutomaticallyJoinClasses|Boolean|Indicates whether or not to automatically give permission to the teacher's requests, without prompting the student, when the device is in supervised mode.|
 |classroomForceUnpromptedAppAndDeviceLock|Boolean|Indicates whether or not to allow the teacher to lock apps or the device without prompting the student. Supervised only.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |compliantAppListType|Enumeration|List that is in the AppComplianceList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |configurationProfileBlockChanges|Boolean|Indicates whether or not to block the user from installing configuration profiles and certificates interactively when the device is in supervised mode.|
 |definitionLookupBlocked|Boolean|Indicates whether or not to block definition lookup when the device is in supervised mode (iOS 8.1.3 and later ).|
@@ -153,16 +155,16 @@ The following table shows the properties that are required when you create the i
 |lockScreenBlockNotificationView|Boolean|Indicates whether or not to block the user from using the notification view on the lock screen.|
 |lockScreenBlockPassbook|Boolean|Indicates whether or not to block the user from using passbook when the device is locked.|
 |lockScreenBlockTodayView|Boolean|Indicates whether or not to block the user from using the Today View on the lock screen.|
-|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediaContentRatingAustralia.md)|Media content rating settings for Australia|
-|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediaContentRatingCanada.md)|Media content rating settings for Canada|
-|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediaContentRatingFrance.md)|Media content rating settings for France|
-|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediaContentRatingGermany.md)|Media content rating settings for Germany|
-|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediaContentRatingIreland.md)|Media content rating settings for Ireland|
-|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediaContentRatingJapan.md)|Media content rating settings for Japan|
-|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediaContentRatingNewZealand.md)|Media content rating settings for New Zealand|
-|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediaContentRatingUnitedKingdom.md)|Media content rating settings for United Kingdom|
-|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediaContentRatingUnitedStates.md)|Media content rating settings for United States|
-|networkUsageRules|[iosNetworkUsageRule](../resources/iosNetworkUsageRule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
+|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediacontentratingaustralia.md)|Media content rating settings for Australia|
+|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediacontentratingcanada.md)|Media content rating settings for Canada|
+|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediacontentratingfrance.md)|Media content rating settings for France|
+|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediacontentratinggermany.md)|Media content rating settings for Germany|
+|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediacontentratingireland.md)|Media content rating settings for Ireland|
+|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediacontentratingjapan.md)|Media content rating settings for Japan|
+|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediacontentratingnewzealand.md)|Media content rating settings for New Zealand|
+|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediacontentratingunitedkingdom.md)|Media content rating settings for United Kingdom|
+|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediacontentratingunitedstates.md)|Media content rating settings for United States|
+|networkUsageRules|[iosNetworkUsageRule](../resources/iosnetworkusagerule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
 |mediaContentRatingApps|Enumeration|Media content rating settings for Apps. Possible values are: `allAllowed`, `allBlocked`, `agesAbove4`, `agesAbove9`, `agesAbove12`, `agesAbove17`.|
 |messagesBlocked|Boolean|Indicates whether or not to block the user from using the Messages app on the supervised device.|
 |notificationsBlockSettingsModification|Boolean|Indicates whether or not to allow notifications settings modification (iOS 9.3 and later).|
@@ -244,7 +246,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosGeneralDeviceConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosGeneralDeviceConfiguration not found
 Content-type: application/json
 Content-length: 9711
 
@@ -531,12 +533,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 9883
+Content-Length: 9882
 
 {
   "@odata.type": "#microsoft.graph.iosGeneralDeviceConfiguration",
-  "id": "1ee040fa-40fa-1ee0-fa40-e01efa40e01e",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "e394286f-286f-e394-6f28-94e36f2894e3",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -558,7 +560,7 @@ Content-Length: 9883
     "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
     "deviceMode": "String"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

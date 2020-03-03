@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create emailFileAssessmentRequest
 
+Namespace: microsoft.graph
+
 Create a new [emailFileAssessmentRequest](../resources/emailfileassessmentrequest.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST ** Collection URI for microsoft.graph.emailFileAssessmentRequest not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the emailFileAssessmentRequest object.
+In the request body, supply a JSON representation for the [emailFileAssessmentRequest](../resources/emailfileassessmentrequest.md) object.
 
-The following table shows the properties that are required when you create the emailFileAssessmentRequest.
+The following table shows the properties that are required when you create the [emailFileAssessmentRequest](../resources/emailfileassessmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `mail`, `url`, `file`.|
-|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `block`, `unblock`.|
-|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
-|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `pending`, `completed`.|
-|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `user`, `administrator`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `mail`, `url`, `file`.|
+|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `block`, `unblock`.|
+|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
+|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `pending`, `completed`.|
+|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `user`, `administrator`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
 |recipientEmail|String||
 |destinationRoutingReason|Enumeration|. Possible values are: `none`, `mailFlowRule`, `safeSender`, `blockedSender`, `advancedSpamFiltering`, `domainAllowList`, `domainBlockList`, `notInAddressBook`, `firstTimeSender`, `autoPurgeToInbox`, `autoPurgeToJunk`, `autoPurgeToDeleted`, `outbound`, `notJunk`, `junk`, `unknownFutureValue`.|
 |contentData|String||
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailFileAssessmentRequest not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailFileAssessmentRequest not found
 Content-type: application/json
 Content-length: 704
 
@@ -111,12 +113,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 812
+Content-Length: 811
 
 {
   "@odata.type": "#microsoft.graph.emailFileAssessmentRequest",
-  "id": "0300cb4c-cb4c-0300-4ccb-00034ccb0003",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "1c365f27-5f27-1c36-275f-361c275f361c",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "contentType": "String",
   "expectedAssessment": "String",
   "category": "String",

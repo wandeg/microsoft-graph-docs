@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateSettings
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|settings|[deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md) collection||
+|settings|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/updateSettings
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/updateSettings
 
 Content-type: application/json
 Content-length: 252
@@ -68,7 +70,7 @@ Content-length: 252
   "settings": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-      "id": "74fed0f8-d0f8-74fe-f8d0-fe74f8d0fe74",
+      "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
       "definitionId": "Definition Id value",
       "valueJson": "Value Json value"
     }

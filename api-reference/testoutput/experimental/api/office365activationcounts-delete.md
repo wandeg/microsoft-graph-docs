@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete office365ActivationCounts
 
+Namespace: microsoft.graph
+
 Deletes a [office365ActivationCounts](../resources/office365activationcounts.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365ActivationCounts not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365ActivationCounts not found
 ```
 
 ### Response

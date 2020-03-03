@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get officeClientConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/{officeClientConfigurationId}
+GET https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/{officeClientConfigurationId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1079
 {
   "value": {
     "@odata.type": "#microsoft.graph.officeClientConfiguration",
-    "id": "c31ae50a-e50a-c31a-0ae5-1ac30ae51ac3",
+    "id": "78e63e7b-3e7b-78e6-7b3e-e6787b3ee678",
     "userPreferencePayload": "Stream",
     "policyPayload": "Stream",
     "description": "Description value",
@@ -92,7 +94,7 @@ Content-Length: 1079
         "devicePlatformVersion": "Device Platform Version value",
         "wasSuccessful": true,
         "userId": "User Id value",
-        "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+        "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
         "errorMessage": "Error Message value",
         "appliedPolicies": [
           "Applied Policies value"

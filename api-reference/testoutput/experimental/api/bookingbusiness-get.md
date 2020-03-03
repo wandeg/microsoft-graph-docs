@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get bookingBusiness
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [bookingBusiness](../resources/bookingbusiness.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}
+GET https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1459
+Content-Length: 1457
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.bookingBusiness",
-    "id": "0feddc40-dc40-0fed-40dc-ed0f40dced0f",
+    "id": "a4acbc94-bc94-a4ac-94bc-aca494bcaca4",
     "displayName": "Display Name value",
     "businessType": "Business Type value",
     "address": {
@@ -96,17 +98,17 @@ Content-Length: 1459
         "timeSlots": [
           {
             "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-            "start": "11:59:43.5410000",
-            "end": "12:01:36.3070000"
+            "start": "12:02:01.9800000",
+            "end": "12:02:50.7750000"
           }
         ]
       }
     ],
     "schedulingPolicy": {
       "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-      "timeSlotInterval": "PT16.2068969S",
-      "minimumLeadTime": "PT2M23.9129853S",
-      "maximumAdvance": "-PT20.4133449S",
+      "timeSlotInterval": "PT24.7084489S",
+      "minimumLeadTime": "PT46.1171008S",
+      "maximumAdvance": "-PT29.5884928S",
       "sendConfirmationsToOwner": true,
       "allowStaffSelection": true
     },

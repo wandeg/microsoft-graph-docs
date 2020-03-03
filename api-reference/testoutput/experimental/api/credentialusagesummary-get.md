@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get credentialUsageSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [credentialUsageSummary](../resources/credentialusagesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.credentialUsageSummary not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.credentialUsageSummary not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 258
 {
   "value": {
     "@odata.type": "#microsoft.graph.credentialUsageSummary",
-    "id": "03d92e79-2e79-03d9-792e-d903792ed903",
+    "id": "83519856-9856-8351-5698-518356985183",
     "feature": "String",
     "successfulActivityCount": 7,
     "failureActivityCount": 4,

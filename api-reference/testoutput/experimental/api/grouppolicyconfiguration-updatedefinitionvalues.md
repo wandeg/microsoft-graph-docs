@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateDefinitionValues
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,8 +44,8 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|added|[groupPolicyDefinitionValue](../resources/groupPolicyDefinitionValue.md) collection||
-|updated|[groupPolicyDefinitionValue](../resources/groupPolicyDefinitionValue.md) collection||
+|added|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) collection||
+|updated|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) collection||
 |deletedIds|String collection||
 
 
@@ -61,30 +63,30 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/updateDefinitionValues
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/updateDefinitionValues
 
 Content-type: application/json
-Content-length: 751
+Content-length: 749
 
 {
   "added": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyDefinitionValue",
-      "id": "b16ccc23-cc23-b16c-23cc-6cb123cc6cb1",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "8dd3b016-b016-8dd3-16b0-d38d16b0d38d",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "enabled": true,
       "configurationType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ],
   "updated": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyDefinitionValue",
-      "id": "b16ccc23-cc23-b16c-23cc-6cb123cc6cb1",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "8dd3b016-b016-8dd3-16b0-d38d16b0d38d",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "enabled": true,
       "configurationType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ],
   "deletedIds": [

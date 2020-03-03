@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete purchaseInvoice
 
+Namespace: microsoft.graph
+
 Deletes a [purchaseInvoice](../resources/purchaseinvoice.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/purchaseInvoices/{purchaseInvoiceId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/purchaseInvoices/{purchaseInvoiceId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateRelationships
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|relationships|[mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md) collection||
+|relationships|[mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidManagedStoreApp not found/updateRelationships
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidManagedStoreApp not found/updateRelationships
 
 Content-type: application/json
 Content-length: 256
@@ -68,7 +70,7 @@ Content-length: 256
   "relationships": [
     {
       "@odata.type": "#microsoft.graph.mobileAppRelationship",
-      "id": "7caaf138-f138-7caa-38f1-aa7c38f1aa7c",
+      "id": "680e718a-718a-680e-8a71-0e688a710e68",
       "targetId": "Target Id value",
       "targetDisplayName": "Target Display Name value"
     }

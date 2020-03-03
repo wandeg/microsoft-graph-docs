@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assignedAccessMultiModeProfiles
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignedAccessMultiModeProfiles|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md) collection||
+|assignedAccessMultiModeProfiles|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidDeviceOwnerWiFiConfiguration not found/assignedAccessMultiModeProfiles
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidDeviceOwnerWiFiConfiguration not found/assignedAccessMultiModeProfiles
 
 Content-type: application/json
 Content-length: 528
@@ -68,7 +70,7 @@ Content-length: 528
   "assignedAccessMultiModeProfiles": [
     {
       "@odata.type": "#microsoft.graph.windowsAssignedAccessProfile",
-      "id": "9dc569be-69be-9dc5-be69-c59dbe69c59d",
+      "id": "d03bfd97-fd97-d03b-97fd-3bd097fd3bd0",
       "profileName": "Profile Name value",
       "showTaskBar": true,
       "appUserModelIds": [

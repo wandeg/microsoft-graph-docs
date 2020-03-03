@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationAssignmentResource
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationAssignmentResource](../resources/educationassignmentresource.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /education/classes/{educationClassId}/assignments/{educationAssignmentId}/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationAssignmentResource](../resources/educationAssignmentResource.md) object.
+In the request body, supply a JSON representation for the [educationAssignmentResource](../resources/educationassignmentresource.md) object.
 
 The following table shows the properties that are required when you create the [educationAssignmentResource](../resources/educationassignmentresource.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |distributeForStudentWork|Boolean||
-|resource|[educationResource](../resources/educationResource.md)||
+|resource|[educationResource](../resources/educationresource.md)||
 
 
 
@@ -60,9 +62,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/resources/{educationAssignmentResourceId}
+PATCH https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/resources/{educationAssignmentResourceId}
 Content-type: application/json
-Content-length: 789
+Content-length: 788
 
 {
   "@odata.type": "#microsoft.graph.educationAssignmentResource",
@@ -70,7 +72,7 @@ Content-length: 789
   "resource": {
     "@odata.type": "microsoft.graph.educationResource",
     "displayName": "Display Name value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -84,7 +86,7 @@ Content-length: 789
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     }
@@ -102,16 +104,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 838
+Content-Length: 837
 
 {
   "@odata.type": "#microsoft.graph.educationAssignmentResource",
-  "id": "9a7b3620-3620-9a7b-2036-7b9a20367b9a",
+  "id": "0a4263b8-63b8-0a42-b863-420ab863420a",
   "distributeForStudentWork": true,
   "resource": {
     "@odata.type": "microsoft.graph.educationResource",
     "displayName": "Display Name value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -125,7 +127,7 @@ Content-Length: 838
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     }

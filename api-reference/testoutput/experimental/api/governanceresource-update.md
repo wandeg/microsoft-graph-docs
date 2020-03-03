@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governanceResource
 
+Namespace: microsoft.graph
+
 Update the properties of a [governanceResource](../resources/governanceresource.md) object.
 
 ## Permissions
@@ -46,7 +48,7 @@ PATCH /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/ro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governanceResource](../resources/governanceResource.md) object.
+In the request body, supply a JSON representation for the [governanceResource](../resources/governanceresource.md) object.
 
 The following table shows the properties that are required when you create the [governanceResource](../resources/governanceresource.md).
 
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/governanceResources/{governanceResourcesId}
+PATCH https://graph.microsoft.com/localtest/governanceResources/{governanceResourcesId}
 Content-type: application/json
 Content-length: 300
 
@@ -85,7 +87,7 @@ Content-length: 300
   "type": "Type value",
   "displayName": "Display Name value",
   "status": "Status value",
-  "registeredDateTime": "2017-01-01T00:00:03.0159289+03:00",
+  "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
   "registeredRoot": "Registered Root value"
 }
 ```
@@ -104,12 +106,12 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.governanceResource",
-  "id": "8fd0522d-522d-8fd0-2d52-d08f2d52d08f",
+  "id": "07783df7-3df7-0778-f73d-7807f73d7807",
   "externalId": "External Id value",
   "type": "Type value",
   "displayName": "Display Name value",
   "status": "Status value",
-  "registeredDateTime": "2017-01-01T00:00:03.0159289+03:00",
+  "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
   "registeredRoot": "Registered Root value"
 }
 ```

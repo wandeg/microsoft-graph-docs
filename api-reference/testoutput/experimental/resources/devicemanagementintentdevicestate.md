@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementIntentDeviceState resource type
+
+
+Namespace: microsoft.graph
 
 Entity that represents device state for an intent
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-get.md)|[deviceManagementIntentDeviceState](../resources/deviceManagementIntentDeviceState.md)|Read properties and relationships of the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
+|[List deviceManagementIntentDeviceStates](../api/devicemanagementintentdevicestate-list.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) collection|List properties and relationships of the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) objects.|
+|[Get deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-get.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Read properties and relationships of the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
+|[Create deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-create.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Create a new [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
 |[Delete deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-delete.md)|None|Deletes a [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md).|
-|[Update deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-update.md)|[deviceManagementIntentDeviceState](../resources/deviceManagementIntentDeviceState.md)|Update the properties of a [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
+|[Update deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-update.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Update the properties of a [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
 
 ## Properties
 |Property|Type|Description|

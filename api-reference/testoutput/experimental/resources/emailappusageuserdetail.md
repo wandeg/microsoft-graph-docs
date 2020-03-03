@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailAppUsageUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailAppUsageUserDetails](../api/emailappusageuserdetail-list.md)|[emailAppUsageUserDetail](../resources/emailAppUsageUserDetail.md) collection|List properties and relationships of the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) objects.|
-|[Get emailAppUsageUserDetail](../api/emailappusageuserdetail-get.md)|[emailAppUsageUserDetail](../resources/emailAppUsageUserDetail.md)|Read properties and relationships of the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
-|[Create emailAppUsageUserDetail](../api/emailappusageuserdetail-create.md)|[emailAppUsageUserDetail](../resources/emailAppUsageUserDetail.md)|Create a new [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
+|[List emailAppUsageUserDetails](../api/emailappusageuserdetail-list.md)|[emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) collection|List properties and relationships of the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) objects.|
+|[Get emailAppUsageUserDetail](../api/emailappusageuserdetail-get.md)|[emailAppUsageUserDetail](../resources/emailappusageuserdetail.md)|Read properties and relationships of the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
+|[Create emailAppUsageUserDetail](../api/emailappusageuserdetail-create.md)|[emailAppUsageUserDetail](../resources/emailappusageuserdetail.md)|Create a new [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
 |[Delete emailAppUsageUserDetail](../api/emailappusageuserdetail-delete.md)|None|Deletes a [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md).|
-|[Update emailAppUsageUserDetail](../api/emailappusageuserdetail-update.md)|[emailAppUsageUserDetail](../resources/emailAppUsageUserDetail.md)|Update the properties of a [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
+|[Update emailAppUsageUserDetail](../api/emailappusageuserdetail-update.md)|[emailAppUsageUserDetail](../resources/emailappusageuserdetail.md)|Update the properties of a [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

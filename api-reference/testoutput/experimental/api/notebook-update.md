@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update notebook
 
+Namespace: microsoft.graph
+
 Update the properties of a [notebook](../resources/notebook.md) object.
 
 ## Permissions
@@ -45,18 +47,18 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
-|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
+|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
 |isDefault|Boolean||
 |userRole|Enumeration|. Possible values are: `Owner`, `Contributor`, `Reader`, `None`.|
 |isShared|Boolean||
 |sectionsUrl|String||
 |sectionGroupsUrl|String||
-|links|[notebookLinks](../resources/notebookLinks.md)||
+|links|[notebookLinks](../resources/notebooklinks.md)||
 
 
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}
 Content-type: application/json
 Content-length: 899
 
@@ -122,13 +124,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1150
+Content-Length: 1149
 
 {
   "@odata.type": "#microsoft.graph.notebook",
-  "id": "a1c6ab37-ab37-a1c6-37ab-c6a137abc6a1",
+  "id": "41126303-6303-4112-0363-124103631241",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -146,7 +148,7 @@ Content-Length: 1150
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "isDefault": true,
   "userRole": "String",
   "isShared": true,

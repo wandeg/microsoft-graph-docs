@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementIntentUserStateSummary
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceManagementIntentUserStateSummar
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementIntentUserStateSummary object.
+In the request body, supply a JSON representation for the [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementIntentUserStateSummary.
+The following table shows the properties that are required when you create the [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementIntentUserStateSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementIntentUserStateSummary not found
 Content-type: application/json
 Content-length: 198
 
@@ -93,7 +95,7 @@ Content-Length: 247
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentUserStateSummary",
-  "id": "e0cd03e1-03e1-e0cd-e103-cde0e103cde0",
+  "id": "f36992ec-92ec-f369-ec92-69f3ec9269f3",
   "conflictCount": 13,
   "errorCount": 10,
   "failedCount": 11,

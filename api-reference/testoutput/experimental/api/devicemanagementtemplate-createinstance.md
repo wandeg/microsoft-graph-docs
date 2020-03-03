@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createInstance
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -45,13 +47,13 @@ The following table shows the parameters that can be used with this action.
 |:---|:---|:---|
 |displayName|String||
 |description|String||
-|settingsDelta|[deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md) collection||
+|settingsDelta|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) collection||
 |roleScopeTagIds|String collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [deviceManagementIntent](../resources/deviceManagementIntent.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [deviceManagementIntent](../resources/devicemanagementintent.md) in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/createInstance
+POST https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/createInstance
 
 Content-type: application/json
 Content-length: 398
@@ -74,7 +76,7 @@ Content-length: 398
   "settingsDelta": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-      "id": "74fed0f8-d0f8-74fe-f8d0-fe74f8d0fe74",
+      "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
       "definitionId": "Definition Id value",
       "valueJson": "Value Json value"
     }
@@ -101,11 +103,11 @@ Content-Length: 418
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementIntent",
-    "id": "4beeb2c3-b2c3-4bee-c3b2-ee4bc3b2ee4b",
+    "id": "9b84de9a-de9a-9b84-9ade-849b9ade849b",
     "displayName": "Display Name value",
     "description": "Description value",
     "isAssigned": true,
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "templateId": "Template Id value",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List chats
 
+Namespace: microsoft.graph
+
 Get the chats from the chats navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/chats
+GET https://graph.microsoft.com/localtest/me/chats
 ```
 
 ### Response
@@ -65,16 +67,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 297
+Content-Length: 296
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.chat",
-      "id": "82712700-2700-8271-0027-718200277182",
+      "id": "819136cf-36cf-8191-cf36-9181cf369181",
       "topic": "Topic value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
     }
   ]
 }

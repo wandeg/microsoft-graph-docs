@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesCreditMemo resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,19 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesCreditMemo](../api/salescreditmemo-get.md)|[salesCreditMemo](../resources/salesCreditMemo.md)|Read properties and relationships of the [salesCreditMemo](../resources/salescreditmemo.md) object.|
+|[List salesCreditMemos](../api/salescreditmemo-list.md)|[salesCreditMemo](../resources/salescreditmemo.md) collection|List properties and relationships of the [salesCreditMemo](../resources/salescreditmemo.md) objects.|
+|[Get salesCreditMemo](../api/salescreditmemo-get.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Read properties and relationships of the [salesCreditMemo](../resources/salescreditmemo.md) object.|
+|[Create salesCreditMemo](../api/salescreditmemo-create.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Create a new [salesCreditMemo](../resources/salescreditmemo.md) object.|
 |[Delete salesCreditMemo](../api/salescreditmemo-delete.md)|None|Deletes a [salesCreditMemo](../resources/salescreditmemo.md).|
-|[Update salesCreditMemo](../api/salescreditmemo-update.md)|[salesCreditMemo](../resources/salesCreditMemo.md)|Update the properties of a [salesCreditMemo](../resources/salescreditmemo.md) object.|
-|[List salesCreditMemoLines](../api/salescreditmemo-list-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salesCreditMemoLine.md) collection|Get the salesCreditMemoLines from the salesCreditMemoLines navigation property.|
-|[Add salesCreditMemoLines](../api/salescreditmemo-post-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salesCreditMemoLine.md)|Add salesCreditMemoLines by posting to the salesCreditMemoLines collection.|
+|[Update salesCreditMemo](../api/salescreditmemo-update.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Update the properties of a [salesCreditMemo](../resources/salescreditmemo.md) object.|
+|[List salesCreditMemoLines](../api/salescreditmemo-list-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection|Get the salesCreditMemoLines from the salesCreditMemoLines navigation property.|
+|[Add salesCreditMemoLines](../api/salescreditmemo-post-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Add salesCreditMemoLines by posting to the salesCreditMemoLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
-|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentTerm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |billToCustomerId|Guid||
 |billToCustomerNumber|String||
 |billToName|String||
@@ -55,7 +58,7 @@ Inherits from [entity](../resources/entity.md)
 |phoneNumber|String||
 |pricesIncludeTax|Boolean||
 |salesperson|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |status|String||
 |totalAmountExcludingTax|Decimal||
 |totalAmountIncludingTax|Decimal||
@@ -66,8 +69,8 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |currency|[currency](../resources/currency.md)||
 |customer|[customer](../resources/customer.md)||
-|paymentTerm|[paymentTerm](../resources/paymentTerm.md)||
-|salesCreditMemoLines|[salesCreditMemoLine](../resources/salesCreditMemoLine.md) collection||
+|paymentTerm|[paymentTerm](../resources/paymentterm.md)||
+|salesCreditMemoLines|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

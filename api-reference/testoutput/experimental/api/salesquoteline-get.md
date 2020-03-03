@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get salesQuoteLine
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesQuoteLines/{salesQuoteLineId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesQuoteLines/{salesQuoteLineId}
 ```
 
 ### Response
@@ -73,14 +75,14 @@ Content-Length: 858
 {
   "value": {
     "@odata.type": "#microsoft.graph.salesQuoteLine",
-    "id": "d5780f8e-0f8e-d578-8e0f-78d58e0f78d5",
-    "documentId": "419d5728-5728-419d-2857-9d4128579d41",
+    "id": "79aec911-c911-79ae-11c9-ae7911c9ae79",
+    "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
     "sequence": 8,
-    "itemId": "28a289c5-89c5-28a2-c589-a228c589a228",
-    "accountId": "7538836d-836d-7538-6d83-38756d833875",
+    "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
+    "accountId": "95554513-4513-9555-1345-559513455595",
     "lineType": "Line Type value",
     "description": "Description value",
-    "unitOfMeasureId": "9d7dd2ef-d2ef-9d7d-efd2-7d9defd27d9d",
+    "unitOfMeasureId": "c915dcf5-dcf5-c915-f5dc-15c9f5dc15c9",
     "unitPrice": "4.2",
     "quantity": "4.2",
     "discountAmount": "4.2",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sharePointSiteUsagePages
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointSiteUsagePages not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointSiteUsagePages not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 305
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharePointSiteUsagePages",
-    "id": "8db93fe7-3fe7-8db9-e73f-b98de73fb98d",
+    "id": "86a80786-0786-86a8-8607-a8868607a886",
     "reportRefreshDate": "Date",
     "siteType": "Site Type value",
     "pageViewCount": 13,

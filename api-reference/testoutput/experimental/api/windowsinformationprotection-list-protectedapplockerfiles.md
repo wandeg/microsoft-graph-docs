@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List protectedAppLockerFiles
 
+Namespace: microsoft.graph
+
 Get the windowsInformationProtectionAppLockerFiles from the protectedAppLockerFiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-      "id": "327b9363-9363-327b-6393-7b3263937b32",
+      "id": "c74935a6-35a6-c749-a635-49c7a63549c7",
       "displayName": "Display Name value",
       "fileHash": "File Hash value",
       "file": "ZmlsZQ==",

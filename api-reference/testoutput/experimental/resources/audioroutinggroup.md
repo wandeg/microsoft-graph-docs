@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # audioRoutingGroup resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get audioRoutingGroup](../api/audioroutinggroup-get.md)|[audioRoutingGroup](../resources/audioRoutingGroup.md)|Read properties and relationships of the [audioRoutingGroup](../resources/audioroutinggroup.md) object.|
+|[List audioRoutingGroups](../api/audioroutinggroup-list.md)|[audioRoutingGroup](../resources/audioroutinggroup.md) collection|List properties and relationships of the [audioRoutingGroup](../resources/audioroutinggroup.md) objects.|
+|[Get audioRoutingGroup](../api/audioroutinggroup-get.md)|[audioRoutingGroup](../resources/audioroutinggroup.md)|Read properties and relationships of the [audioRoutingGroup](../resources/audioroutinggroup.md) object.|
+|[Create audioRoutingGroup](../api/audioroutinggroup-create.md)|[audioRoutingGroup](../resources/audioroutinggroup.md)|Create a new [audioRoutingGroup](../resources/audioroutinggroup.md) object.|
 |[Delete audioRoutingGroup](../api/audioroutinggroup-delete.md)|None|Deletes a [audioRoutingGroup](../resources/audioroutinggroup.md).|
-|[Update audioRoutingGroup](../api/audioroutinggroup-update.md)|[audioRoutingGroup](../resources/audioRoutingGroup.md)|Update the properties of a [audioRoutingGroup](../resources/audioroutinggroup.md) object.|
+|[Update audioRoutingGroup](../api/audioroutinggroup-update.md)|[audioRoutingGroup](../resources/audioroutinggroup.md)|Update the properties of a [audioRoutingGroup](../resources/audioroutinggroup.md) object.|
 
 ## Properties
 |Property|Type|Description|

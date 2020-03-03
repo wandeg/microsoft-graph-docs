@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sideLoadingKey resource type
+
+
+Namespace: microsoft.graph
 
 SideLoadingKey entity is required for Windows 8 and 8.1 devices to intall Line Of Business Apps for a tenant.
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get sideLoadingKey](../api/sideloadingkey-get.md)|[sideLoadingKey](../resources/sideLoadingKey.md)|Read properties and relationships of the [sideLoadingKey](../resources/sideloadingkey.md) object.|
+|[List sideLoadingKeies](../api/sideloadingkey-list.md)|[sideLoadingKey](../resources/sideloadingkey.md) collection|List properties and relationships of the [sideLoadingKey](../resources/sideloadingkey.md) objects.|
+|[Get sideLoadingKey](../api/sideloadingkey-get.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Read properties and relationships of the [sideLoadingKey](../resources/sideloadingkey.md) object.|
+|[Create sideLoadingKey](../api/sideloadingkey-create.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Create a new [sideLoadingKey](../resources/sideloadingkey.md) object.|
 |[Delete sideLoadingKey](../api/sideloadingkey-delete.md)|None|Deletes a [sideLoadingKey](../resources/sideloadingkey.md).|
-|[Update sideLoadingKey](../api/sideloadingkey-update.md)|[sideLoadingKey](../resources/sideLoadingKey.md)|Update the properties of a [sideLoadingKey](../resources/sideloadingkey.md) object.|
-|[List sideLoadingKeys](../api/intune-apps-deviceappmanagement-list-sideloadingkeys.md)|[sideLoadingKey](../resources/sideLoadingKey.md) collection|Get the sideLoadingKeies from the sideLoadingKeys navigation property.|
-|[Add sideLoadingKeys](../api/intune-apps-deviceappmanagement-post-sideloadingkeys.md)|[sideLoadingKey](../resources/sideLoadingKey.md)|Add sideLoadingKeys by posting to the sideLoadingKeys collection.|
+|[Update sideLoadingKey](../api/sideloadingkey-update.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Update the properties of a [sideLoadingKey](../resources/sideloadingkey.md) object.|
+|[List sideLoadingKeys](../api/intune-apps-deviceappmanagement-list-sideloadingkeys.md)|[sideLoadingKey](../resources/sideloadingkey.md) collection|Get the sideLoadingKeies from the sideLoadingKeys navigation property.|
+|[Add sideLoadingKeys](../api/intune-apps-deviceappmanagement-post-sideloadingkeys.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Add sideLoadingKeys by posting to the sideLoadingKeys collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update securityBaselineCategoryStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH /deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.s
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [securityBaselineCategoryStateSummary](../resources/securityBaselineCategoryStateSummary.md) object.
+In the request body, supply a JSON representation for the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.
 
 The following table shows the properties that are required when you create the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|secureCount|Int32|Number of secure devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|notSecureCount|Int32|Number of not secure devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|unknownCount|Int32|Number of unknown devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|errorCount|Int32|Number of error devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|conflictCount|Int32|Number of conflict devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|notApplicableCount|Int32|Number of not applicable devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
+|secureCount|Int32|Number of secure devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|notSecureCount|Int32|Number of not secure devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|unknownCount|Int32|Number of unknown devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|errorCount|Int32|Number of error devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|conflictCount|Int32|Number of conflict devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|notApplicableCount|Int32|Number of not applicable devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
 |displayName|String|The category name|
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
 Content-type: application/json
 Content-length: 261
 
@@ -95,7 +97,7 @@ Content-Length: 310
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineCategoryStateSummary",
-  "id": "8cc7f5a9-f5a9-8cc7-a9f5-c78ca9f5c78c",
+  "id": "4a601bdb-1bdb-4a60-db1b-604adb1b604a",
   "secureCount": 11,
   "notSecureCount": 14,
   "unknownCount": 12,

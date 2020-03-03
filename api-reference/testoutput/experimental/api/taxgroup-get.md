@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get taxGroup
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [taxGroup](../resources/taxgroup.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/taxGroups/{taxGroupId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/taxGroups/{taxGroupId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 291
 {
   "value": {
     "@odata.type": "#microsoft.graph.taxGroup",
-    "id": "2c36df91-df91-2c36-91df-362c91df362c",
+    "id": "3e37b4b5-b4b5-3e37-b5b4-373eb5b4373e",
     "code": "Code value",
     "displayName": "Display Name value",
     "taxType": "Tax Type value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

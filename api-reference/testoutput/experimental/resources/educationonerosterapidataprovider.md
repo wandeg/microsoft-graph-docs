@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationOneRosterApiDataProvider resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationSynchronizationDataProvider](../resources/educationSynchronizationDataProvider.md)
+
+
+Inherits from [educationSynchronizationDataProvider](../resources/educationsynchronizationdataprovider.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|connectionSettings|[educationSynchronizationConnectionSettings](../resources/educationSynchronizationConnectionSettings.md)||
+|connectionSettings|[educationSynchronizationConnectionSettings](../resources/educationsynchronizationconnectionsettings.md)||
 |connectionUrl|String||
-|customizations|[educationSynchronizationCustomizations](../resources/educationSynchronizationCustomizations.md)||
+|customizations|[educationSynchronizationCustomizations](../resources/educationsynchronizationcustomizations.md)||
 |providerName|String||
 |schoolsIds|String collection||
 |termIds|String collection||

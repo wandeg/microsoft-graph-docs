@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add exchangeOnPremisesPolicies
 
+Namespace: microsoft.graph
+
 Add exchangeOnPremisesPolicies by posting to the exchangeOnPremisesPolicies collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /deviceManagement/exchangeOnPremisesPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementExchangeOnPremisesPolicy object.
+In the request body, supply a JSON representation for the [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementExchangeOnPremisesPolicy.
+The following table shows the properties that are required when you create the [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |notificationContent|Binary|Notification text that will be sent to users quarantined by this policy. This is UTF8 encoded byte array HTML.|
 |defaultAccessLevel|Enumeration|Default access state in Exchange. This rule applies globally to the entire Exchange organization. Possible values are: `none`, `allow`, `block`, `quarantine`.|
-|accessRules|[deviceManagementExchangeAccessRule](../resources/deviceManagementExchangeAccessRule.md) collection|The list of device access rules in Exchange. The access rules apply globally to the entire Exchange organization|
-|knownDeviceClasses|[deviceManagementExchangeDeviceClass](../resources/deviceManagementExchangeDeviceClass.md) collection|The list of device classes known to Exchange|
+|accessRules|[deviceManagementExchangeAccessRule](../resources/devicemanagementexchangeaccessrule.md) collection|The list of device access rules in Exchange. The access rules apply globally to the entire Exchange organization|
+|knownDeviceClasses|[deviceManagementExchangeDeviceClass](../resources/devicemanagementexchangedeviceclass.md) collection|The list of device classes known to Exchange|
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/exchangeOnPremisesPolicies
+POST https://graph.microsoft.com/localtest/deviceManagement/exchangeOnPremisesPolicies
 Content-type: application/json
 Content-length: 615
 
@@ -105,7 +107,7 @@ Content-Length: 664
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeOnPremisesPolicy",
-  "id": "5d1b1915-1915-5d1b-1519-1b5d15191b5d",
+  "id": "c46bb79a-b79a-c46b-9ab7-6bc49ab76bc4",
   "notificationContent": "bm90aWZpY2F0aW9uQ29udGVudA==",
   "defaultAccessLevel": "String",
   "accessRules": [

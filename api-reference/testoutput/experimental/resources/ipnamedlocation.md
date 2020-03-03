@@ -5,35 +5,36 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # ipNamedLocation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [namedLocation](../resources/namedLocation.md)
+
+
+Inherits from [namedLocation](../resources/namedlocation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List ipNamedLocations](../api/ipnamedlocation-list.md)|[ipNamedLocation](../resources/ipNamedLocation.md) collection|List properties and relationships of the [ipNamedLocation](../resources/ipnamedlocation.md) objects.|
-|[Get ipNamedLocation](../api/ipnamedlocation-get.md)|[ipNamedLocation](../resources/ipNamedLocation.md)|Read properties and relationships of the [ipNamedLocation](../resources/ipnamedlocation.md) object.|
-|[Create ipNamedLocation](../api/ipnamedlocation-create.md)|[ipNamedLocation](../resources/ipNamedLocation.md)|Create a new [ipNamedLocation](../resources/ipnamedlocation.md) object.|
+|[List ipNamedLocations](../api/ipnamedlocation-list.md)|[ipNamedLocation](../resources/ipnamedlocation.md) collection|List properties and relationships of the [ipNamedLocation](../resources/ipnamedlocation.md) objects.|
+|[Get ipNamedLocation](../api/ipnamedlocation-get.md)|[ipNamedLocation](../resources/ipnamedlocation.md)|Read properties and relationships of the [ipNamedLocation](../resources/ipnamedlocation.md) object.|
+|[Create ipNamedLocation](../api/ipnamedlocation-create.md)|[ipNamedLocation](../resources/ipnamedlocation.md)|Create a new [ipNamedLocation](../resources/ipnamedlocation.md) object.|
 |[Delete ipNamedLocation](../api/ipnamedlocation-delete.md)|None|Deletes a [ipNamedLocation](../resources/ipnamedlocation.md).|
-|[Update ipNamedLocation](../api/ipnamedlocation-update.md)|[ipNamedLocation](../resources/ipNamedLocation.md)|Update the properties of a [ipNamedLocation](../resources/ipnamedlocation.md) object.|
+|[Update ipNamedLocation](../api/ipnamedlocation-update.md)|[ipNamedLocation](../resources/ipnamedlocation.md)|Update the properties of a [ipNamedLocation](../resources/ipnamedlocation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
-|displayName|String| Inherited from [namedLocation](../resources/namedLocation.md)|
+|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
+|displayName|String| Inherited from [namedLocation](../resources/namedlocation.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|ipRanges|[ipRange](../resources/ipRange.md) collection||
+|ipRanges|[ipRange](../resources/iprange.md) collection||
 |isTrusted|Boolean||
-|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
+|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
 
 ## Relationships
 None

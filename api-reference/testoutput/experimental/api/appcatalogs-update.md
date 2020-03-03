@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update appCatalogs
 
+Namespace: microsoft.graph
+
 Update the properties of a [appCatalogs](../resources/appcatalogs.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /appCatalogs
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [appCatalogs](../resources/appCatalogs.md) object.
+In the request body, supply a JSON representation for the [appCatalogs](../resources/appcatalogs.md) object.
 
 The following table shows the properties that are required when you create the [appCatalogs](../resources/appcatalogs.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/appCatalogs
+PATCH https://graph.microsoft.com/localtest/appCatalogs
 Content-type: application/json
 Content-length: 53
 
@@ -81,7 +83,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.appCatalogs",
-  "id": "8b971321-1321-8b97-2113-978b2113978b"
+  "id": "4a761063-1063-4a76-6310-764a6310764a"
 }
 ```
 

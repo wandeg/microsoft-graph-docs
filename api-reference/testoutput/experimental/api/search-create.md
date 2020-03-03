@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create search
 
+Namespace: microsoft.graph
+
 Create a new [search](../resources/search.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.search not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the search object.
+In the request body, supply a JSON representation for the [search](../resources/search.md) object.
 
-The following table shows the properties that are required when you create the search.
+The following table shows the properties that are required when you create the [search](../resources/search.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.search not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.search not found
 Content-type: application/json
 Content-length: 48
 
@@ -83,7 +85,7 @@ Content-Length: 97
 
 {
   "@odata.type": "#microsoft.graph.search",
-  "id": "52db7545-7545-52db-4575-db524575db52"
+  "id": "e7f88227-8227-e7f8-2782-f8e72782f8e7"
 }
 ```
 

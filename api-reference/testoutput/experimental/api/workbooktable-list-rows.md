@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List rows
 
+Namespace: microsoft.graph
+
 Get the workbookTableRows from the rows navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 243
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTableRow",
-      "id": "63618d4d-8d4d-6361-4d8d-61634d8d6163",
+      "id": "b54b86d2-86d2-b54b-d286-4bb5d2864bb5",
       "index": 5,
       "values": {
         "@odata.type": "microsoft.graph.Json"

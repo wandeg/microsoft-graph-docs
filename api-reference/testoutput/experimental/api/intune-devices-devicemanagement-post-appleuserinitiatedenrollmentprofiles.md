@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add appleUserInitiatedEnrollmentProfiles
 
+Namespace: microsoft.graph
+
 Add appleUserInitiatedEnrollmentProfiles by posting to the appleUserInitiatedEnrollmentProfiles collection.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST /deviceManagement/appleUserInitiatedEnrollmentProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the appleUserInitiatedEnrollmentProfile object.
+In the request body, supply a JSON representation for the [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.
 
-The following table shows the properties that are required when you create the appleUserInitiatedEnrollmentProfile.
+The following table shows the properties that are required when you create the [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |defaultEnrollmentType|Enumeration|The default profile enrollment type. Possible values are: `unknown`, `device`, `user`.|
-|availableEnrollmentTypeOptions|[appleOwnerTypeEnrollmentType](../resources/appleOwnerTypeEnrollmentType.md) collection|List of available enrollment type options|
+|availableEnrollmentTypeOptions|[appleOwnerTypeEnrollmentType](../resources/appleownertypeenrollmenttype.md) collection|List of available enrollment type options|
 |displayName|String|Name of the profile|
 |description|String|Description of the profile|
 |priority|Int32|Priority, 0 is highest|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/appleUserInitiatedEnrollmentProfiles
+POST https://graph.microsoft.com/localtest/deviceManagement/appleUserInitiatedEnrollmentProfiles
 Content-type: application/json
 Content-length: 430
 
@@ -99,11 +101,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 602
+Content-Length: 601
 
 {
   "@odata.type": "#microsoft.graph.appleUserInitiatedEnrollmentProfile",
-  "id": "38f0fca4-fca4-38f0-a4fc-f038a4fcf038",
+  "id": "0a1f7a9f-7a9f-0a1f-9f7a-1f0a9f7a1f0a",
   "defaultEnrollmentType": "String",
   "availableEnrollmentTypeOptions": [
     {
@@ -116,8 +118,8 @@ Content-Length: 602
   "description": "Description value",
   "priority": 8,
   "platform": "String",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

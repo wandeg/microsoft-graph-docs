@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete applicationTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [applicationTemplate](../resources/applicationtemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/applicationTemplates/{applicationTemplatesId}
+DELETE https://graph.microsoft.com/localtest/applicationTemplates/{applicationTemplatesId}
 ```
 
 ### Response

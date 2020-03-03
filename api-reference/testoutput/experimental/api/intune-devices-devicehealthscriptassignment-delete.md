@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete deviceHealthScriptAssignment
 
-Deletes a [deviceHealthScriptAssignment](../resources/devicehealthscriptassignment.md).
+Namespace: microsoft.graph
+
+Deletes a [deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments/{deviceHealthScriptAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments/{deviceHealthScriptAssignmentId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsInformationProtectionDeviceRegistration
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{wind
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsInformationProtectionDeviceRegistration](../resources/windowsInformationProtectionDeviceRegistration.md) object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object.
 
 The following table shows the properties that are required when you create the [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md).
 
@@ -64,9 +66,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
 Content-type: application/json
-Content-length: 366
+Content-length: 367
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
@@ -75,7 +77,7 @@ Content-length: 366
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00"
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
 }
 ```
 
@@ -89,17 +91,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 415
+Content-Length: 416
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-  "id": "b5bcbccb-bccb-b5bc-cbbc-bcb5cbbcbcb5",
+  "id": "12f95eb0-5eb0-12f9-b05e-f912b05ef912",
   "userId": "User Id value",
   "deviceRegistrationId": "Device Registration Id value",
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00"
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get schedule
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [schedule](../resources/schedule.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/schedule
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/schedule
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 536
 {
   "value": {
     "@odata.type": "#microsoft.graph.schedule",
-    "id": "2bfb7474-7474-2bfb-7474-fb2b7474fb2b",
+    "id": "9206b179-b179-9206-79b1-069279b10692",
     "enabled": true,
     "timeZone": "Time Zone value",
     "provisionStatus": "String",

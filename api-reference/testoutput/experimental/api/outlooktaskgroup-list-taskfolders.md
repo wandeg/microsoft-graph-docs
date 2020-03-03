@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List taskFolders
 
+Namespace: microsoft.graph
+
 Get the outlookTaskFolders from the taskFolders navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders
+GET https://graph.microsoft.com/localtest/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 315
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskFolder",
-      "id": "a33aa597-a597-a33a-97a5-3aa397a53aa3",
+      "id": "e4c83b09-3b09-e4c8-093b-c8e4093bc8e4",
       "changeKey": "Change Key value",
       "name": "Name value",
       "isDefaultFolder": true,
-      "parentGroupKey": "b2d07fae-7fae-b2d0-ae7f-d0b2ae7fd0b2"
+      "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
     }
   ]
 }

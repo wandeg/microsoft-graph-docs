@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userActivity
 
+Namespace: microsoft.graph
+
 Deletes a [userActivity](../resources/useractivity.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/activities/{userActivityId}
+DELETE https://graph.microsoft.com/localtest/me/activities/{userActivityId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update externalItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [externalItem](../resources/externalitem.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /external/connections/{externalConnectionId}/items/{externalItemId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [externalItem](../resources/externalItem.md) object.
+In the request body, supply a JSON representation for the [externalItem](../resources/externalitem.md) object.
 
 The following table shows the properties that are required when you create the [externalItem](../resources/externalitem.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/connections/{connectionsId}/items/{externalItemId}
+PATCH https://graph.microsoft.com/localtest/connections/{connectionsId}/items/{externalItemId}
 Content-type: application/json
 Content-length: 372
 
@@ -98,7 +100,7 @@ Content-Length: 421
 
 {
   "@odata.type": "#microsoft.graph.externalItem",
-  "id": "e4ac5c1d-5c1d-e4ac-1d5c-ace41d5cace4",
+  "id": "614cc62f-c62f-614c-2fc6-4c612fc64c61",
   "properties": {
     "@odata.type": "microsoft.graph.properties"
   },

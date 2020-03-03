@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartLegend resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartLegends](../api/workbookchartlegend-list.md)|[workbookChartLegend](../resources/workbookChartLegend.md) collection|List properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) objects.|
-|[Get workbookChartLegend](../api/workbookchartlegend-get.md)|[workbookChartLegend](../resources/workbookChartLegend.md)|Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.|
-|[Create workbookChartLegend](../api/workbookchartlegend-create.md)|[workbookChartLegend](../resources/workbookChartLegend.md)|Create a new [workbookChartLegend](../resources/workbookchartlegend.md) object.|
+|[List workbookChartLegends](../api/workbookchartlegend-list.md)|[workbookChartLegend](../resources/workbookchartlegend.md) collection|List properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) objects.|
+|[Get workbookChartLegend](../api/workbookchartlegend-get.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.|
+|[Create workbookChartLegend](../api/workbookchartlegend-create.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Create a new [workbookChartLegend](../resources/workbookchartlegend.md) object.|
 |[Delete workbookChartLegend](../api/workbookchartlegend-delete.md)|None|Deletes a [workbookChartLegend](../resources/workbookchartlegend.md).|
-|[Update workbookChartLegend](../api/workbookchartlegend-update.md)|[workbookChartLegend](../resources/workbookChartLegend.md)|Update the properties of a [workbookChartLegend](../resources/workbookchartlegend.md) object.|
-|[Get workbookChartLegendFormat](../api/workbookchartlegendformat-get.md)|[workbookChartLegendFormat](../resources/workbookChartLegendFormat.md)|Read properties and relationships of the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.|
+|[Update workbookChartLegend](../api/workbookchartlegend-update.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Update the properties of a [workbookChartLegend](../resources/workbookchartlegend.md) object.|
+|[Get workbookChartLegendFormat](../api/workbookchartlegendformat-get.md)|[workbookChartLegendFormat](../resources/workbookchartlegendformat.md)|Read properties and relationships of the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|format|[workbookChartLegendFormat](../resources/workbookChartLegendFormat.md)||
+|format|[workbookChartLegendFormat](../resources/workbookchartlegendformat.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

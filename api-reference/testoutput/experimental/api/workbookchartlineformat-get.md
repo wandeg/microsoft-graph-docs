@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartLineFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 166
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-    "id": "7ff4f46c-f46c-7ff4-6cf4-f47f6cf4f47f",
+    "id": "82d59d1f-9d1f-82d5-1f9d-d5821f9dd582",
     "color": "Color value"
   }
 }

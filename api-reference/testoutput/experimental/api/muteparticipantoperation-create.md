@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create muteParticipantOperation
 
+Namespace: microsoft.graph
+
 Create a new [muteParticipantOperation](../resources/muteparticipantoperation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.muteParticipantOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the muteParticipantOperation object.
+In the request body, supply a JSON representation for the [muteParticipantOperation](../resources/muteparticipantoperation.md) object.
 
-The following table shows the properties that are required when you create the muteParticipantOperation.
+The following table shows the properties that are required when you create the [muteParticipantOperation](../resources/muteparticipantoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.muteParticipantOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.muteParticipantOperation not found
 Content-type: application/json
 Content-length: 275
 
@@ -94,7 +96,7 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.muteParticipantOperation",
-  "id": "536a8636-8636-536a-3686-6a5336866a53",
+  "id": "255dc19b-c19b-255d-9bc1-5d259bc15d25",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

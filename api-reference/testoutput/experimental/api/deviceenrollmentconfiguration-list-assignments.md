@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the enrollmentConfigurationAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 340
   "value": [
     {
       "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-      "id": "54428a31-8a31-5442-318a-4254318a4254",
+      "id": "79d19b8c-9b8c-79d1-8c9b-d1798c9bd179",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

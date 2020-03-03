@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessReviewReviewer
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessReviewReviewer](../resources/accessreviewreviewer.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessReviewReviewer](../resources/accessReviewReviewer.md) object.
+In the request body, supply a JSON representation for the [accessReviewReviewer](../resources/accessreviewreviewer.md) object.
 
 The following table shows the properties that are required when you create the [accessReviewReviewer](../resources/accessreviewreviewer.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
+PATCH https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
 Content-type: application/json
 Content-length: 155
 
@@ -85,7 +87,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.accessReviewReviewer",
-  "id": "de8b9e11-9e11-de8b-119e-8bde119e8bde",
+  "id": "e93278e8-78e8-e932-e878-32e9e87832e9",
   "displayName": "Display Name value",
   "userPrincipalName": "User Principal Name value"
 }

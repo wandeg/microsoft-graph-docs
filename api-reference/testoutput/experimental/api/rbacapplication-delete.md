@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete rbacApplication
 
+Namespace: microsoft.graph
+
 Deletes a [rbacApplication](../resources/rbacapplication.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/roleManagement/directory
+DELETE https://graph.microsoft.com/localtest/roleManagement/directory
 ```
 
 ### Response

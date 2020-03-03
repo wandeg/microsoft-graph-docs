@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deliveryOptimizationBandwidthPercentage resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deliveryOptimizationBandwidth](../resources/deliveryOptimizationBandwidth.md)
+
+
+Inherits from [deliveryOptimizationBandwidth](../resources/deliveryoptimizationbandwidth.md)
 
 ## Properties
 |Property|Type|Description|

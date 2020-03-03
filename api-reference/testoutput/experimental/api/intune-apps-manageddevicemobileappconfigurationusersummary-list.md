@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedDeviceMobileAppConfigurationUserSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationUserSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationUserSummary not found
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 442
+Content-Length: 443
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
-      "id": "06d11bd1-1bd1-06d1-d11b-d106d11bd106",
+      "id": "f678cd07-cd07-f678-07cd-78f607cd78f6",
       "pendingCount": 12,
       "notApplicableCount": 2,
       "successCount": 12,
       "errorCount": 10,
       "failedCount": 11,
       "conflictCount": 13,
-      "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+      "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
       "configurationVersion": 4
     }
   ]

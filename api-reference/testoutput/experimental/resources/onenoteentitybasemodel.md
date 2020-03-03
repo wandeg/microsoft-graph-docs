@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onenoteEntityBaseModel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenoteEntityBaseModels](../api/onenoteentitybasemodel-list.md)|[onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md) collection|List properties and relationships of the [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) objects.|
-|[Get onenoteEntityBaseModel](../api/onenoteentitybasemodel-get.md)|[onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|Read properties and relationships of the [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) object.|
+|[List onenoteEntityBaseModels](../api/onenoteentitybasemodel-list.md)|[onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) collection|List properties and relationships of the [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) objects.|
+|[Get onenoteEntityBaseModel](../api/onenoteentitybasemodel-get.md)|[onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|Read properties and relationships of the [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) object.|
 
 ## Properties
 |Property|Type|Description|

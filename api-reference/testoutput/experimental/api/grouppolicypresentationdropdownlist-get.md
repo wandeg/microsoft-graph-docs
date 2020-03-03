@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyPresentationDropdownList
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyPresentationDropdownList](../resources/grouppolicypresentationdropdownlist.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationDropdownList not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationDropdownList not found
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 576
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentationDropdownList",
-    "id": "66fc555c-555c-66fc-5c55-fc665c55fc66",
+    "id": "1666abc8-abc8-1666-c8ab-6616c8ab6616",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "defaultItem": {
       "@odata.type": "microsoft.graph.groupPolicyPresentationDropdownListItem",
       "displayName": "Display Name value",

@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # plannerProgressTaskBoardTaskFormat resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [plannerDelta](../resources/plannerDelta.md)
+
+
+Inherits from [plannerDelta](../resources/plannerdelta.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerProgressTaskBoardTaskFormats](../api/plannerprogresstaskboardtaskformat-list.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md) collection|List properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) objects.|
-|[Get plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-get.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md)|Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
-|[Create plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-create.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md)|Create a new [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
+|[List plannerProgressTaskBoardTaskFormats](../api/plannerprogresstaskboardtaskformat-list.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) collection|List properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) objects.|
+|[Get plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-get.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
+|[Create plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-create.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Create a new [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
 |[Delete plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-delete.md)|None|Deletes a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md).|
-|[Update plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-update.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md)|Update the properties of a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
+|[Update plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-update.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Update the properties of a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
 
 ## Properties
 |Property|Type|Description|

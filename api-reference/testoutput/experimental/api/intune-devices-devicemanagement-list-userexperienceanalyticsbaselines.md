@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userExperienceAnalyticsBaselines
 
+Namespace: microsoft.graph
+
 Get the userExperienceAnalyticsBaselines from the userExperienceAnalyticsBaselines navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsBaselines
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsBaselines
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 296
+Content-Length: 295
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsBaseline",
-      "id": "b1b6e91e-e91e-b1b6-1ee9-b6b11ee9b6b1",
+      "id": "404d41c1-41c1-404d-c141-4d40c1414d40",
       "displayName": "Display Name value",
       "isBuiltIn": true,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getDevicesScheduledToRetire
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /deviceManagement/deviceCompliancePolicies/getDevicesScheduledToRetire
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [retireScheduledManagedDevice](../resources/retireScheduledManagedDevice.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [retireScheduledManagedDevice](../resources/retirescheduledmanageddevice.md) collection in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/getDevicesScheduledToRetire
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/getDevicesScheduledToRetire
 ```
 
 ### Response

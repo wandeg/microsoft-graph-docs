@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerBucketTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/bucketTaskBoardFormat
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/bucketTaskBoardFormat
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 184
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerBucketTaskBoardTaskFormat",
-    "id": "556f8124-8124-556f-2481-6f5524816f55",
+    "id": "9ebe5fb8-5fb8-9ebe-b85f-be9eb85fbe9e",
     "orderHint": "Order Hint value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartLegend
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartLegend](../resources/workbookchartlegend.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartLegend](../resources/workbookChartLegend.md) object.
+In the request body, supply a JSON representation for the [workbookChartLegend](../resources/workbookchartlegend.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartLegend](../resources/workbookchartlegend.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend
 Content-type: application/json
 Content-length: 134
 
@@ -87,7 +89,7 @@ Content-Length: 183
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegend",
-  "id": "8b1dc44b-c44b-8b1d-4bc4-1d8b4bc41d8b",
+  "id": "516eaca0-aca0-516e-a0ac-6e51a0ac6e51",
   "overlay": true,
   "position": "Position value",
   "visible": true

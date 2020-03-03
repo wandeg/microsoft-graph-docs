@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getActivitiesByInterval
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/an
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [itemActivityStat](../resources/itemActivityStat.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [itemActivityStat](../resources/itemactivitystat.md) collection in the response body.
 
 ## Example
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/drives/{drivesId}/root/getActivitiesByInterval
+GET https://graph.microsoft.com/localtest/drives/{drivesId}/root/getActivitiesByInterval
 ```
 
 ### Response
@@ -92,9 +94,9 @@ Content-Length: 815
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivityStat",
-      "id": "192b2584-2584-192b-8425-2b1984252b19",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "id": "9661ef0f-ef0f-9661-0fef-61960fef6196",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "access": {
         "@odata.type": "microsoft.graph.itemActionStat"
       },

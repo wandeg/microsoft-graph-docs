@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # accept
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.eventMessageRequest not found/accept
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.eventMessageRequest not found/accept
 
 Content-type: application/json
 Content-length: 59

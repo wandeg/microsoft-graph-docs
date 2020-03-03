@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete featureRolloutPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [featureRolloutPolicy](../resources/featurerolloutpolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/directory/featureRolloutPolicies/{featureRolloutPolicyId}
+DELETE https://graph.microsoft.com/localtest/directory/featureRolloutPolicies/{featureRolloutPolicyId}
 ```
 
 ### Response

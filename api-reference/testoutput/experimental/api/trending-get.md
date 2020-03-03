@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get trending
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [trending](../resources/trending.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/trending/{trendingId}
+GET https://graph.microsoft.com/localtest/me/insights/trending/{trendingId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 869
 {
   "value": {
     "@odata.type": "#microsoft.graph.trending",
-    "id": "cdaa1dcd-1dcd-cdaa-cd1d-aacdcd1daacd",
+    "id": "3e89307c-307c-3e89-7c30-893e7c30893e",
     "weight": "Double",
     "resourceVisualization": {
       "@odata.type": "microsoft.graph.resourceVisualization",
@@ -90,7 +92,7 @@ Content-Length: 869
       "webUrl": "https://example.com/webUrl/",
       "id": "Id value"
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

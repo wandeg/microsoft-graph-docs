@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementIntentDeviceStateSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementIntentDeviceStateSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementIntentDeviceStateSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 351
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceStateSummary",
-      "id": "b6da0262-0262-b6da-6202-dab66202dab6",
+      "id": "fd6c6bd1-6bd1-fd6c-d16b-6cfdd16b6cfd",
       "conflictCount": 13,
       "errorCount": 10,
       "failedCount": 11,

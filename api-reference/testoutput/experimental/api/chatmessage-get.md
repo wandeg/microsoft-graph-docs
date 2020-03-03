@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get chatMessage
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [chatMessage](../resources/chatmessage.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/chats/{chatsId}/messages/{chatMessageId}
+GET https://graph.microsoft.com/localtest/chats/{chatsId}/messages/{chatMessageId}
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2503
+Content-Length: 2502
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.chatMessage",
-    "id": "55d0cb56-cb56-55d0-56cb-d05556cbd055",
+    "id": "d15a456d-456d-d15a-6d45-5ad16d455ad1",
     "replyToId": "Reply To Id value",
     "from": {
       "@odata.type": "microsoft.graph.identitySet",
@@ -93,9 +95,9 @@ Content-Length: 2503
     },
     "etag": "Etag value",
     "messageType": "String",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "subject": "Subject value",
     "body": {
       "@odata.type": "microsoft.graph.itemBody",

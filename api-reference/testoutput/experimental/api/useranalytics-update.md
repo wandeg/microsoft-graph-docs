@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userAnalytics
 
+Namespace: microsoft.graph
+
 Update the properties of a [userAnalytics](../resources/useranalytics.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/analytics
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userAnalytics](../resources/userAnalytics.md) object.
+In the request body, supply a JSON representation for the [userAnalytics](../resources/useranalytics.md) object.
 
 The following table shows the properties that are required when you create the [userAnalytics](../resources/useranalytics.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/analytics
+PATCH https://graph.microsoft.com/localtest/me/analytics
 Content-type: application/json
 Content-length: 206
 
@@ -89,7 +91,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.userAnalytics",
-  "id": "96913d95-3d95-9691-953d-9196953d9196",
+  "id": "a747485a-485a-a747-5a48-47a75a4847a7",
   "settings": {
     "@odata.type": "microsoft.graph.settings",
     "hasLicense": true,

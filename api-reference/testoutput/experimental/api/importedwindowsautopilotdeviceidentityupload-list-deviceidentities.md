@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceIdentities
 
+Namespace: microsoft.graph
+
 Get the importedWindowsAutopilotDeviceIdentities from the deviceIdentities navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.importedWindowsAutopilotDeviceIdentity not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.importedWindowsAutopilotDeviceIdentity not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 824
   "value": [
     {
       "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentity",
-      "id": "9e997c44-7c44-9e99-447c-999e447c999e",
+      "id": "def4d4cb-d4cb-def4-cbd4-f4decbd4f4de",
       "orderIdentifier": "Order Identifier value",
       "groupTag": "Group Tag value",
       "serialNumber": "Serial Number value",

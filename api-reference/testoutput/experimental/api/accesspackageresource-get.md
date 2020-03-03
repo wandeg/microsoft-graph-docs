@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get accessPackageResource
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [accessPackageResource](../resources/accesspackageresource.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageResources/{accessPackageResourcesId}
+GET https://graph.microsoft.com/localtest/accessPackageResources/{accessPackageResourcesId}
 ```
 
 ### Response
@@ -77,7 +79,7 @@ Content-Length: 488
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessPackageResource",
-    "id": "ca85a44b-a44b-ca85-4ba4-85ca4ba485ca",
+    "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
     "displayName": "Display Name value",
     "description": "Description value",
     "url": "Url value",
@@ -86,7 +88,7 @@ Content-Length: 488
     "originSystem": "Origin System value",
     "isPendingOnboarding": true,
     "addedBy": "Added By value",
-    "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+    "addedOn": "2017-01-01T00:02:28.6984236+03:00"
   }
 }
 ```

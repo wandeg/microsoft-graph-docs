@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add companyInformation
 
+Namespace: microsoft.graph
+
 Add companyInformation by posting to the companyInformation collection.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST /financials/companies/{companyId}/companyInformation/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the companyInformation object.
+In the request body, supply a JSON representation for the [companyInformation](../resources/companyinformation.md) object.
 
-The following table shows the properties that are required when you create the companyInformation.
+The following table shows the properties that are required when you create the [companyInformation](../resources/companyinformation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |phoneNumber|String||
 |faxNumber|String||
 |email|String||
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/companyInformation
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/companyInformation
 Content-type: application/json
 Content-length: 695
 
@@ -113,7 +115,7 @@ Content-Length: 808
 
 {
   "@odata.type": "#microsoft.graph.companyInformation",
-  "id": "dc9b0c07-0c07-dc9b-070c-9bdc070c9bdc",
+  "id": "d65a8cc1-8cc1-d65a-c18c-5ad6c18c5ad6",
   "displayName": "Display Name value",
   "address": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -132,7 +134,7 @@ Content-Length: 808
   "currentFiscalYearStartDate": "Date",
   "industry": "Industry value",
   "picture": "Stream",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

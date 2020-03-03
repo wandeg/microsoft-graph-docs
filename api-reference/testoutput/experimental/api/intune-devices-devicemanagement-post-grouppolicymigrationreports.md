@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add groupPolicyMigrationReports
 
+Namespace: microsoft.graph
+
 Add groupPolicyMigrationReports by posting to the groupPolicyMigrationReports collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/groupPolicyMigrationReports/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyMigrationReport object.
+In the request body, supply a JSON representation for the [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyMigrationReport.
+The following table shows the properties that are required when you create the [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,17 +73,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports
 Content-type: application/json
-Content-length: 542
+Content-length: 543
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyMigrationReport",
-  "groupPolicyObjectId": "4abc4e6e-4e6e-4abc-6e4e-bc4a6e4ebc4a",
+  "groupPolicyObjectId": "1713d55d-d55d-1713-5dd5-13175dd51317",
   "displayName": "Display Name value",
   "ouDistinguishedName": "Ou Distinguished Name value",
-  "groupPolicyCreatedDateTime": "2016-12-31T23:58:05.167295+03:00",
-  "groupPolicyLastModifiedDateTime": "2016-12-31T23:57:43.4867584+03:00",
+  "groupPolicyCreatedDateTime": "2017-01-01T00:01:08.1552648+03:00",
+  "groupPolicyLastModifiedDateTime": "2017-01-01T00:03:02.9368554+03:00",
   "migrationReadiness": "String",
   "targetedInActiveDirectory": true,
   "totalSettingsCount": 2,
@@ -105,14 +107,14 @@ Content-Length: 714
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyMigrationReport",
-  "id": "a64efeb8-feb8-a64e-b8fe-4ea6b8fe4ea6",
-  "groupPolicyObjectId": "4abc4e6e-4e6e-4abc-6e4e-bc4a6e4ebc4a",
+  "id": "f08ed319-d319-f08e-19d3-8ef019d38ef0",
+  "groupPolicyObjectId": "1713d55d-d55d-1713-5dd5-13175dd51317",
   "displayName": "Display Name value",
   "ouDistinguishedName": "Ou Distinguished Name value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "groupPolicyCreatedDateTime": "2016-12-31T23:58:05.167295+03:00",
-  "groupPolicyLastModifiedDateTime": "2016-12-31T23:57:43.4867584+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "groupPolicyCreatedDateTime": "2017-01-01T00:01:08.1552648+03:00",
+  "groupPolicyLastModifiedDateTime": "2017-01-01T00:03:02.9368554+03:00",
   "migrationReadiness": "String",
   "targetedInActiveDirectory": true,
   "totalSettingsCount": 2,

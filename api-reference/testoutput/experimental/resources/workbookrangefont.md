@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookRangeFont resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookRangeFonts](../api/workbookrangefont-list.md)|[workbookRangeFont](../resources/workbookRangeFont.md) collection|List properties and relationships of the [workbookRangeFont](../resources/workbookrangefont.md) objects.|
-|[Get workbookRangeFont](../api/workbookrangefont-get.md)|[workbookRangeFont](../resources/workbookRangeFont.md)|Read properties and relationships of the [workbookRangeFont](../resources/workbookrangefont.md) object.|
-|[Create workbookRangeFont](../api/workbookrangefont-create.md)|[workbookRangeFont](../resources/workbookRangeFont.md)|Create a new [workbookRangeFont](../resources/workbookrangefont.md) object.|
+|[List workbookRangeFonts](../api/workbookrangefont-list.md)|[workbookRangeFont](../resources/workbookrangefont.md) collection|List properties and relationships of the [workbookRangeFont](../resources/workbookrangefont.md) objects.|
+|[Get workbookRangeFont](../api/workbookrangefont-get.md)|[workbookRangeFont](../resources/workbookrangefont.md)|Read properties and relationships of the [workbookRangeFont](../resources/workbookrangefont.md) object.|
+|[Create workbookRangeFont](../api/workbookrangefont-create.md)|[workbookRangeFont](../resources/workbookrangefont.md)|Create a new [workbookRangeFont](../resources/workbookrangefont.md) object.|
 |[Delete workbookRangeFont](../api/workbookrangefont-delete.md)|None|Deletes a [workbookRangeFont](../resources/workbookrangefont.md).|
-|[Update workbookRangeFont](../api/workbookrangefont-update.md)|[workbookRangeFont](../resources/workbookRangeFont.md)|Update the properties of a [workbookRangeFont](../resources/workbookrangefont.md) object.|
+|[Update workbookRangeFont](../api/workbookrangefont-update.md)|[workbookRangeFont](../resources/workbookrangefont.md)|Update the properties of a [workbookRangeFont](../resources/workbookrangefont.md) object.|
 
 ## Properties
 |Property|Type|Description|

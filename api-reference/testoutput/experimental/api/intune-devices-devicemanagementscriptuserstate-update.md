@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceManagementScriptUserState
 
-Update the properties of a [deviceManagementScriptUserState](../resources/devicemanagementscriptuserstate.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ PATCH /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/userR
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementScriptUserState](../resources/deviceManagementScriptUserState.md) object.
+In the request body, supply a JSON representation for the [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) object.
 
-The following table shows the properties that are required when you create the [deviceManagementScriptUserState](../resources/devicemanagementscriptuserstate.md).
+The following table shows the properties that are required when you create the [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptUserState](../resources/devicemanagementscriptuserstate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates/{deviceManagementScriptUserStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates/{deviceManagementScriptUserStateId}
 Content-type: application/json
 Content-length: 180
 
@@ -88,7 +90,7 @@ Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptUserState",
-  "id": "fcddab30-ab30-fcdd-30ab-ddfc30abddfc",
+  "id": "b19e3078-3078-b19e-7830-9eb178309eb1",
   "successDeviceCount": 2,
   "errorDeviceCount": 0,
   "userPrincipalName": "User Principal Name value"

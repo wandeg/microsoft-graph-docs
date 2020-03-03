@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleManagements
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [roleManagement](../resources/rolemanagement.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.roleManagement not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.roleManagement not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 146
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleManagement",
-      "id": "72c1e8fe-e8fe-72c1-fee8-c172fee8c172"
+      "id": "93783d3c-3d3c-9378-3c3d-78933c3d7893"
     }
   ]
 }

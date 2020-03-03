@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedDeviceEncryptionStates
 
+Namespace: microsoft.graph
+
 Add managedDeviceEncryptionStates by posting to the managedDeviceEncryptionStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/managedDeviceEncryptionStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceEncryptionState object.
+In the request body, supply a JSON representation for the [managedDeviceEncryptionState](../resources/manageddeviceencryptionstate.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceEncryptionState.
+The following table shows the properties that are required when you create the [managedDeviceEncryptionState](../resources/manageddeviceencryptionstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the m
 |encryptionPolicySettingState|Enumeration|Encryption policy setting state. Possible values are: `unknown`, `notApplicable`, `compliant`, `remediated`, `nonCompliant`, `error`, `conflict`, `notAssigned`.|
 |advancedBitLockerStates|Enumeration|Advanced BitLocker State. Possible values are: `success`, `noUserConsent`, `osVolumeEncryptionMethodMismatch`, `osVolumeTpmRequired`, `osVolumeTpmOnlyRequired`, `osVolumeTpmPinRequired`, `osVolumeTpmStartupKeyRequired`, `osVolumeTpmPinStartupKeyRequired`, `osVolumeUnprotected`, `recoveryKeyBackupFailed`, `fixedDriveNotEncrypted`, `fixedDriveEncryptionMethodMismatch`, `loggedOnUserNonAdmin`, `windowsRecoveryEnvironmentNotConfigured`, `tpmNotAvailable`, `tpmNotReady`, `networkError`.|
 |fileVaultStates|Enumeration|FileVault State. Possible values are: `success`, `driveEncryptedByUser`, `userDeferredEncryption`, `escrowNotEnabled`.|
-|policyDetails|[encryptionReportPolicyDetails](../resources/encryptionReportPolicyDetails.md) collection|Policy Details|
+|policyDetails|[encryptionReportPolicyDetails](../resources/encryptionreportpolicydetails.md) collection|Policy Details|
 
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/managedDeviceEncryptionStates
+POST https://graph.microsoft.com/localtest/deviceManagement/managedDeviceEncryptionStates
 Content-type: application/json
 Content-length: 671
 
@@ -111,7 +113,7 @@ Content-Length: 720
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceEncryptionState",
-  "id": "1765db68-db68-1765-68db-651768db6517",
+  "id": "632426d4-26d4-6324-d426-2463d4262463",
   "userPrincipalName": "User Principal Name value",
   "deviceType": "String",
   "osVersion": "Os Version value",

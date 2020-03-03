@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getManagedDevicesWithAppFailures
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/getManagedDevicesWithAppFailures
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/getManagedDevicesWithAppFailures
 ```
 
 ### Response

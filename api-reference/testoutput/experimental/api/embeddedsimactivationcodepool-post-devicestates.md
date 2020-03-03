@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStates
 
+Namespace: microsoft.graph
+
 Add deviceStates by posting to the deviceStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCode
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the embeddedSIMDeviceState object.
+In the request body, supply a JSON representation for the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.
 
-The following table shows the properties that are required when you create the embeddedSIMDeviceState.
+The following table shows the properties that are required when you create the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,13 +69,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates
+POST https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates
 Content-type: application/json
-Content-length: 360
+Content-length: 361
 
 {
   "@odata.type": "#microsoft.graph.embeddedSIMDeviceState",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "universalIntegratedCircuitCardIdentifier": "Universal Integrated Circuit Card Identifier value",
   "deviceName": "Device Name value",
   "userName": "User Name value",
@@ -97,10 +99,10 @@ Content-Length: 528
 
 {
   "@odata.type": "#microsoft.graph.embeddedSIMDeviceState",
-  "id": "9ce1d4ba-d4ba-9ce1-bad4-e19cbad4e19c",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "id": "528037c6-37c6-5280-c637-8052c6378052",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "universalIntegratedCircuitCardIdentifier": "Universal Integrated Circuit Card Identifier value",
   "deviceName": "Device Name value",
   "userName": "User Name value",

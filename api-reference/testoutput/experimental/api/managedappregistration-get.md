@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppRegistration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppRegistration](../resources/managedappregistration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedAppRegistrations/{managedAppRegistrationId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedAppRegistrations/{managedAppRegistrationId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 949
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppRegistration",
-    "id": "2df57160-7160-2df5-6071-f52d6071f52d",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "id": "723369fd-69fd-7233-fd69-3372fd693372",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "applicationVersion": "Application Version value",
     "managementSdkVersion": "Management Sdk Version value",
     "platformVersion": "Platform Version value",

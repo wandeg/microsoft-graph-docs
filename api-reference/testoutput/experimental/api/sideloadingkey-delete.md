@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sideLoadingKey
 
+Namespace: microsoft.graph
+
 Deletes a [sideLoadingKey](../resources/sideloadingkey.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
 ```
 
 ### Response

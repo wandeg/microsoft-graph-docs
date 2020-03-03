@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create openTypeExtension
 
+Namespace: microsoft.graph
+
 Create a new [openTypeExtension](../resources/opentypeextension.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.openTypeExtension not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the openTypeExtension object.
+In the request body, supply a JSON representation for the [openTypeExtension](../resources/opentypeextension.md) object.
 
-The following table shows the properties that are required when you create the openTypeExtension.
+The following table shows the properties that are required when you create the [openTypeExtension](../resources/opentypeextension.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.openTypeExtension not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.openTypeExtension not found
 Content-type: application/json
 Content-length: 103
 
@@ -85,7 +87,7 @@ Content-Length: 152
 
 {
   "@odata.type": "#microsoft.graph.openTypeExtension",
-  "id": "428087e1-87e1-4280-e187-8042e1878042",
+  "id": "7f9bc609-c609-7f9b-09c6-9b7f09c69b7f",
   "extensionName": "Extension Name value"
 }
 ```

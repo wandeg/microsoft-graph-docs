@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceAppManagementTask resource type
+
+
+Namespace: microsoft.graph
 
 A device app management task.
 
@@ -19,12 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceAppManagementTask](../api/deviceappmanagementtask-get.md)|[deviceAppManagementTask](../resources/deviceAppManagementTask.md)|Read properties and relationships of the [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.|
+|[List deviceAppManagementTasks](../api/deviceappmanagementtask-list.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md) collection|List properties and relationships of the [deviceAppManagementTask](../resources/deviceappmanagementtask.md) objects.|
+|[Get deviceAppManagementTask](../api/deviceappmanagementtask-get.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md)|Read properties and relationships of the [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.|
+|[Create deviceAppManagementTask](../api/deviceappmanagementtask-create.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md)|Create a new [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.|
 |[Delete deviceAppManagementTask](../api/deviceappmanagementtask-delete.md)|None|Deletes a [deviceAppManagementTask](../resources/deviceappmanagementtask.md).|
-|[Update deviceAppManagementTask](../api/deviceappmanagementtask-update.md)|[deviceAppManagementTask](../resources/deviceAppManagementTask.md)|Update the properties of a [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.|
+|[Update deviceAppManagementTask](../api/deviceappmanagementtask-update.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md)|Update the properties of a [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.|
 |[updateStatus](../api/deviceappmanagementtask-updatestatus.md)|None||
-|[List deviceAppManagementTasks](../api/intune-apps-deviceappmanagement-list-deviceappmanagementtasks.md)|[deviceAppManagementTask](../resources/deviceAppManagementTask.md) collection|Get the deviceAppManagementTasks from the deviceAppManagementTasks navigation property.|
-|[Add deviceAppManagementTasks](../api/intune-apps-deviceappmanagement-post-deviceappmanagementtasks.md)|[deviceAppManagementTask](../resources/deviceAppManagementTask.md)|Add deviceAppManagementTasks by posting to the deviceAppManagementTasks collection.|
+|[List deviceAppManagementTasks](../api/intune-apps-deviceappmanagement-list-deviceappmanagementtasks.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md) collection|Get the deviceAppManagementTasks from the deviceAppManagementTasks navigation property.|
+|[Add deviceAppManagementTasks](../api/intune-apps-deviceappmanagement-post-deviceappmanagementtasks.md)|[deviceAppManagementTask](../resources/deviceappmanagementtask.md)|Add deviceAppManagementTasks by posting to the deviceAppManagementTasks collection.|
 
 ## Properties
 |Property|Type|Description|

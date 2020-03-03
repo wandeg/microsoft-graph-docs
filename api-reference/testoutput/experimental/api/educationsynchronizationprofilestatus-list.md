@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List educationSynchronizationProfileStatuses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationSynchronizationProfileStatus not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationSynchronizationProfileStatus not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 271
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSynchronizationProfileStatus",
-      "id": "3fff00fa-00fa-3fff-fa00-ff3ffa00ff3f",
+      "id": "982895ee-95ee-9828-ee95-2898ee952898",
       "status": "String",
-      "lastSynchronizationDateTime": "2016-12-31T23:58:26.3743195+03:00"
+      "lastSynchronizationDateTime": "2016-12-31T23:59:53.6736225+03:00"
     }
   ]
 }

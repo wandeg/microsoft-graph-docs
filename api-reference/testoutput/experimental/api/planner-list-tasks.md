@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List tasks
 
+Namespace: microsoft.graph
+
 Get the plannerTasks from the tasks navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/planner/tasks
+GET https://graph.microsoft.com/localtest/planner/tasks
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1579
+Content-Length: 1578
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerTask",
-      "id": "f2075911-5911-f207-1159-07f2115907f2",
+      "id": "36d22248-2248-36d2-4822-d2364822d236",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -92,12 +94,12 @@ Content-Length: 1579
       "assigneePriority": "Assignee Priority value",
       "percentComplete": 15,
       "priority": 8,
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
       "hasDescription": true,
       "previewType": "String",
-      "completedDateTime": "2017-01-01T00:01:13.9669573+03:00",
+      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
       "completedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },

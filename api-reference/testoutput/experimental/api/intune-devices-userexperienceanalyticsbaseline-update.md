@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userExperienceAnalyticsBaseline
 
-Update the properties of a [userExperienceAnalyticsBaseline](../resources/userexperienceanalyticsbaseline.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalytic
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userExperienceAnalyticsBaseline](../resources/userExperienceAnalyticsBaseline.md) object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md) object.
 
-The following table shows the properties that are required when you create the [userExperienceAnalyticsBaseline](../resources/userexperienceanalyticsbaseline.md).
+The following table shows the properties that are required when you create the [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsBaseline](../resources/userexperienceanalyticsbaseline.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md) object in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalyticsBaselineId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalyticsBaselineId}
 Content-type: application/json
 Content-length: 135
 
@@ -82,14 +84,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 243
+Content-Length: 242
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsBaseline",
-  "id": "b1b6e91e-e91e-b1b6-1ee9-b6b11ee9b6b1",
+  "id": "404d41c1-41c1-404d-c141-4d40c1414d40",
   "displayName": "Display Name value",
   "isBuiltIn": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
 }
 ```
 

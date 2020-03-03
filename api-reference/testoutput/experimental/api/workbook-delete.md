@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbook
 
+Namespace: microsoft.graph
+
 Deletes a [workbook](../resources/workbook.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/workbook
+DELETE https://graph.microsoft.com/localtest/workbooks/{workbooksId}/workbook
 ```
 
 ### Response

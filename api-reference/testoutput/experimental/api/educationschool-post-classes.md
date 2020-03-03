@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create classes
 
+Namespace: microsoft.graph
+
 Create classes by posting to the classes collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /education/classes/{educationClassId}/members/{educationUserId}/schools/{ed
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationClass object.
+In the request body, supply a JSON representation for the [educationClass](../resources/educationclass.md) object.
 
-The following table shows the properties that are required when you create the educationClass.
+The following table shows the properties that are required when you create the [educationClass](../resources/educationclass.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,14 +48,14 @@ The following table shows the properties that are required when you create the e
 |displayName|String||
 |mailNickname|String||
 |description|String||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |classCode|String||
 |externalName|String||
 |externalId|String||
 |externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
 |grade|String||
-|term|[educationTerm](../resources/educationTerm.md)||
-|course|[educationCourse](../resources/educationCourse.md)||
+|term|[educationTerm](../resources/educationterm.md)||
+|course|[educationCourse](../resources/educationcourse.md)||
 
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members/{educationUserId}/schools/{educationSchoolId}/classes
+POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members/{educationUserId}/schools/{educationSchoolId}/classes
 Content-type: application/json
 Content-length: 948
 
@@ -125,7 +127,7 @@ Content-Length: 997
 
 {
   "@odata.type": "#microsoft.graph.educationClass",
-  "id": "60496f21-6f21-6049-216f-4960216f4960",
+  "id": "00653963-3963-0065-6339-650063396500",
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
   "description": "Description value",

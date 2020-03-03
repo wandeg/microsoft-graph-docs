@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicySettingMapping
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportI
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicySettingMapping](../resources/groupPolicySettingMapping.md) object.
+In the request body, supply a JSON representation for the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md).
 
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings/{groupPolicySettingMappingId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings/{groupPolicySettingMappingId}
 Content-type: application/json
 Content-length: 884
 
@@ -121,7 +123,7 @@ Content-Length: 933
 
 {
   "@odata.type": "#microsoft.graph.groupPolicySettingMapping",
-  "id": "a4a11c74-1c74-a4a1-741c-a1a4741ca1a4",
+  "id": "20835d7c-5d7c-2083-7c5d-83207c5d8320",
   "parentId": "Parent Id value",
   "childIdList": [
     "Child Id List value"

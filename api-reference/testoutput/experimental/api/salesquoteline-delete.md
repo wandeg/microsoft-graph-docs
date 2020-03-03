@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete salesQuoteLine
 
+Namespace: microsoft.graph
+
 Deletes a [salesQuoteLine](../resources/salesquoteline.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesQuoteLines/{salesQuoteLineId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesQuoteLines/{salesQuoteLineId}
 ```
 
 ### Response

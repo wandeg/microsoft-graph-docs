@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sideLoadingKey
 
+Namespace: microsoft.graph
+
 Update the properties of a [sideLoadingKey](../resources/sideloadingkey.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sideLoadingKey](../resources/sideLoadingKey.md) object.
+In the request body, supply a JSON representation for the [sideLoadingKey](../resources/sideloadingkey.md) object.
 
 The following table shows the properties that are required when you create the [sideLoadingKey](../resources/sideloadingkey.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
 Content-type: application/json
 Content-length: 246
 
@@ -91,7 +93,7 @@ Content-Length: 295
 
 {
   "@odata.type": "#microsoft.graph.sideLoadingKey",
-  "id": "ac0fabc1-abc1-ac0f-c1ab-0facc1ab0fac",
+  "id": "fa969573-9573-fa96-7395-96fa739596fa",
   "value": "Value value",
   "displayName": "Display Name value",
   "description": "Description value",

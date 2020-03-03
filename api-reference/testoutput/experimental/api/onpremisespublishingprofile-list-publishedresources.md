@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List publishedResources
 
+Namespace: microsoft.graph
+
 Get the publishedResources from the publishedResources navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources
+GET https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.publishedResource",
-      "id": "eb2819e7-19e7-eb28-e719-28ebe71928eb",
+      "id": "7fa4a67d-a67d-7fa4-7da6-a47f7da6a47f",
       "displayName": "Display Name value",
       "resourceName": "Resource Name value",
       "publishingType": "String"

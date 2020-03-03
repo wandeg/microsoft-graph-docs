@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # paymentTerm resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentTerm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[List paymentTerms](../api/paymentterm-list.md)|[paymentTerm](../resources/paymentterm.md) collection|List properties and relationships of the [paymentTerm](../resources/paymentterm.md) objects.|
+|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[Create paymentTerm](../api/paymentterm-create.md)|[paymentTerm](../resources/paymentterm.md)|Create a new [paymentTerm](../resources/paymentterm.md) object.|
 |[Delete paymentTerm](../api/paymentterm-delete.md)|None|Deletes a [paymentTerm](../resources/paymentterm.md).|
-|[Update paymentTerm](../api/paymentterm-update.md)|[paymentTerm](../resources/paymentTerm.md)|Update the properties of a [paymentTerm](../resources/paymentterm.md) object.|
+|[Update paymentTerm](../api/paymentterm-update.md)|[paymentTerm](../resources/paymentterm.md)|Update the properties of a [paymentTerm](../resources/paymentterm.md) object.|
 
 ## Properties
 |Property|Type|Description|

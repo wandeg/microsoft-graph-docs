@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get microsoftStoreForBusinessContainedApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 201
 {
   "value": {
     "@odata.type": "#microsoft.graph.microsoftStoreForBusinessContainedApp",
-    "id": "d5ff2333-2333-d5ff-3323-ffd53323ffd5",
+    "id": "e2cae680-e680-e2ca-80e6-cae280e6cae2",
     "appUserModelId": "App User Model Id value"
   }
 }

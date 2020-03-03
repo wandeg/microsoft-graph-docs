@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemFacet
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemFacet](../resources/itemfacet.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.itemFacet not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.itemFacet not found
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 924
+Content-Length: 923
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemFacet",
-    "id": "ae869430-9430-ae86-3094-86ae309486ae",
+    "id": "0e5c7b77-7b77-0e5c-777b-5c0e777b5c0e",
     "allowedAudiences": "String",
     "inference": {
       "@odata.type": "microsoft.graph.inferenceData",
       "confidenceScore": "Double",
       "userHasVerifiedAccuracy": true
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,7 +96,7 @@ Content-Length: 924
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     }

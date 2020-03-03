@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete onPremisesConditionalAccessSettings
 
+Namespace: microsoft.graph
+
 Deletes a [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/conditionalAccessSettings
+DELETE https://graph.microsoft.com/localtest/deviceManagement/conditionalAccessSettings
 ```
 
 ### Response

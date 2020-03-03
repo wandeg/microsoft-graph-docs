@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # detectedSensitiveContent resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |confidence|Int32||
 |displayName|String||
 |id|Guid||
-|matches|[sensitiveContentLocation](../resources/sensitiveContentLocation.md) collection||
+|matches|[sensitiveContentLocation](../resources/sensitivecontentlocation.md) collection||
 |recommendedConfidence|Int32||
 |uniqueCount|Int32||
 

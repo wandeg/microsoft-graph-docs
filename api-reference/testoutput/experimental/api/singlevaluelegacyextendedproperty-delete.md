@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete singleValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Deletes a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md).
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
+DELETE https://graph.microsoft.com/localtest/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List provisioningObjectSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) objects.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/provisioning
+GET https://graph.microsoft.com/localtest/auditLogs/provisioning
 ```
 
 ### Response
@@ -71,8 +73,8 @@ Content-Length: 1742
   "value": [
     {
       "@odata.type": "#microsoft.graph.provisioningObjectSummary",
-      "id": "f4228028-8028-f422-2880-22f4288022f4",
-      "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+      "id": "36c378ea-78ea-36c3-ea78-c336ea78c336",
+      "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
       "tenantId": "Tenant Id value",
       "jobId": "Job Id value",
       "cycleId": "Cycle Id value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceAndAppManagementRoleDefinition
 
+Namespace: microsoft.graph
+
 Create a new [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST ** Collection URI for microsoft.graph.deviceAndAppManagementRoleDefinition 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceAndAppManagementRoleDefinition object.
+In the request body, supply a JSON representation for the [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md) object.
 
-The following table shows the properties that are required when you create the deviceAndAppManagementRoleDefinition.
+The following table shows the properties that are required when you create the [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Display Name of the Role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|description|String|Description of the Role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|permissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|rolePermissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|isBuiltInRoleDefinition|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [roleDefinition](../resources/roleDefinition.md)|
+|displayName|String|Display Name of the Role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|description|String|Description of the Role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|permissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|rolePermissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|isBuiltInRoleDefinition|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [roleDefinition](../resources/roledefinition.md)|
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
 Content-type: application/json
 Content-length: 850
 
@@ -121,7 +123,7 @@ Content-Length: 899
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleDefinition",
-  "id": "cadc0a6e-0a6e-cadc-6e0a-dcca6e0adcca",
+  "id": "25f9552e-552e-25f9-2e55-f9252e55f925",
   "displayName": "Display Name value",
   "description": "Description value",
   "permissions": [

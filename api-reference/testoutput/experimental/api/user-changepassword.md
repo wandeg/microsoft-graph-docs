@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # changePassword
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/changePassword
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/changePassword
 
 Content-type: application/json
 Content-length: 91

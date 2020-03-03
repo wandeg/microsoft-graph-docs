@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update organization
 
+Namespace: microsoft.graph
+
 Update the properties of a [organization](../resources/organization.md) object.
 
 ## Permissions
@@ -42,8 +44,8 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
 |city|String||
 |country|String||
@@ -56,16 +58,16 @@ The following table shows the properties that are required when you create the [
 |onPremisesSyncEnabled|Boolean||
 |postalCode|String||
 |preferredLanguage|String||
-|privacyProfile|[privacyProfile](../resources/privacyProfile.md)||
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|privacyProfile|[privacyProfile](../resources/privacyprofile.md)||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |securityComplianceNotificationMails|String collection||
 |securityComplianceNotificationPhones|String collection||
 |state|String||
 |street|String||
 |technicalNotificationMails|String collection||
-|verifiedDomains|[verifiedDomain](../resources/verifiedDomain.md) collection||
+|verifiedDomains|[verifiedDomain](../resources/verifieddomain.md) collection||
 |mobileDeviceManagementAuthority|Enumeration|Mobile device management authority. Possible values are: `unknown`, `intune`, `sccm`, `office365`.|
-|certificateConnectorSetting|[certificateConnectorSetting](../resources/certificateConnectorSetting.md)|Certificate connector setting.|
+|certificateConnectorSetting|[certificateConnectorSetting](../resources/certificateconnectorsetting.md)|Certificate connector setting.|
 
 
 
@@ -82,20 +84,20 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/organization/{organizationId}
+PATCH https://graph.microsoft.com/localtest/organization/{organizationId}
 Content-type: application/json
-Content-length: 2345
+Content-length: 2344
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
     }
   ],
   "businessPhones": [
@@ -109,7 +111,7 @@ Content-length: 2345
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -149,9 +151,9 @@ Content-length: 2345
   "certificateConnectorSetting": {
     "@odata.type": "microsoft.graph.certificateConnectorSetting",
     "status": 6,
-    "certExpiryTime": "2017-01-01T00:01:14.8173044+03:00",
+    "certExpiryTime": "2017-01-01T00:00:31.0487871+03:00",
     "enrollmentError": "Enrollment Error value",
-    "lastConnectorConnectionTime": "2016-12-31T23:59:43.2041816+03:00",
+    "lastConnectorConnectionTime": "2016-12-31T23:57:26.3349319+03:00",
     "connectorVersion": "Connector Version value",
     "lastUploadVersion": 1
   }
@@ -168,19 +170,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2453
+Content-Length: 2451
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "id": "3aa93766-3766-3aa9-6637-a93a6637a93a",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "59cf2fa2-2fa2-59cf-a22f-cf59a22fcf59",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
     }
   ],
   "businessPhones": [
@@ -189,13 +191,13 @@ Content-Length: 2453
   "city": "City value",
   "country": "Country value",
   "countryLetterCode": "Country Letter Code value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "displayName": "Display Name value",
   "isMultipleDataLocationsForServicesEnabled": true,
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -235,9 +237,9 @@ Content-Length: 2453
   "certificateConnectorSetting": {
     "@odata.type": "microsoft.graph.certificateConnectorSetting",
     "status": 6,
-    "certExpiryTime": "2017-01-01T00:01:14.8173044+03:00",
+    "certExpiryTime": "2017-01-01T00:00:31.0487871+03:00",
     "enrollmentError": "Enrollment Error value",
-    "lastConnectorConnectionTime": "2016-12-31T23:59:43.2041816+03:00",
+    "lastConnectorConnectionTime": "2016-12-31T23:57:26.3349319+03:00",
     "connectorVersion": "Connector Version value",
     "lastUploadVersion": 1
   }

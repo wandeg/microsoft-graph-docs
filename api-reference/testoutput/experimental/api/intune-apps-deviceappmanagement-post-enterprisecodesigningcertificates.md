@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add enterpriseCodeSigningCertificates
 
+Namespace: microsoft.graph
+
 Add enterpriseCodeSigningCertificates by posting to the enterpriseCodeSigningCertificates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/enterpriseCodeSigningCertificates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the enterpriseCodeSigningCertificate object.
+In the request body, supply a JSON representation for the [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object.
 
-The following table shows the properties that are required when you create the enterpriseCodeSigningCertificate.
+The following table shows the properties that are required when you create the [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the e
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object in the response body.
 
 ## Example
 
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/enterpriseCodeSigningCertificates
+POST https://graph.microsoft.com/localtest/deviceAppManagement/enterpriseCodeSigningCertificates
 Content-type: application/json
-Content-length: 384
+Content-length: 385
 
 {
   "@odata.type": "#microsoft.graph.enterpriseCodeSigningCertificate",
@@ -79,8 +81,8 @@ Content-length: 384
   "subject": "Subject value",
   "issuerName": "Issuer Name value",
   "issuer": "Issuer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
 }
 ```
 
@@ -95,19 +97,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 433
+Content-Length: 434
 
 {
   "@odata.type": "#microsoft.graph.enterpriseCodeSigningCertificate",
-  "id": "59885d3b-5d3b-5988-3b5d-88593b5d8859",
+  "id": "09359bff-9bff-0935-ff9b-3509ff9b3509",
   "content": "Y29udGVudA==",
   "status": "String",
   "subjectName": "Subject Name value",
   "subject": "Subject value",
   "issuerName": "Issuer Name value",
   "issuer": "Issuer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
 }
 ```
 

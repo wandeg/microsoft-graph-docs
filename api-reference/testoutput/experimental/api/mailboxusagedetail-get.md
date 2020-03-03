@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mailboxUsageDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailboxUsageDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailboxUsageDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 649
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailboxUsageDetail",
-    "id": "77bac344-c344-77ba-44c3-ba7744c3ba77",
+    "id": "d76f3fbc-3fbc-d76f-bc3f-6fd7bc3f6fd7",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "displayName": "Display Name value",

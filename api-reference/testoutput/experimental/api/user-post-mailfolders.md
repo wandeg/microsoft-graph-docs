@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mailFolders
 
+Namespace: microsoft.graph
+
 Add mailFolders by posting to the mailFolders collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/mailFolders/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mailFolder object.
+In the request body, supply a JSON representation for the [mailFolder](../resources/mailfolder.md) object.
 
-The following table shows the properties that are required when you create the mailFolder.
+The following table shows the properties that are required when you create the [mailFolder](../resources/mailfolder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/mailFolders
+POST https://graph.microsoft.com/localtest/me/mailFolders
 Content-type: application/json
 Content-length: 261
 
@@ -96,7 +98,7 @@ Content-Length: 310
 
 {
   "@odata.type": "#microsoft.graph.mailFolder",
-  "id": "791f9359-9359-791f-5993-1f7959931f79",
+  "id": "f1deb285-b285-f1de-85b2-def185b2def1",
   "displayName": "Display Name value",
   "parentFolderId": "Parent Folder Id value",
   "childFolderCount": 0,

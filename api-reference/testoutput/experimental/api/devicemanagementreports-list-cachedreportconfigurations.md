@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List cachedReportConfigurations
 
+Namespace: microsoft.graph
+
 Get the deviceManagementCachedReportConfigurations from the cachedReportConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/reports/cachedReportConfigurations
+GET https://graph.microsoft.com/localtest/deviceManagement/reports/cachedReportConfigurations
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 516
+Content-Length: 517
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementCachedReportConfiguration",
-      "id": "92160ddf-0ddf-9216-df0d-1692df0d1692",
+      "id": "02b34ddf-4ddf-02b3-df4d-b302df4db302",
       "reportName": "Report Name value",
       "filter": "Filter value",
       "select": [
@@ -80,8 +82,8 @@ Content-Length: 516
         "Order By value"
       ],
       "status": "String",
-      "lastRefreshDateTime": "2016-12-31T23:57:03.0056947+03:00",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+      "lastRefreshDateTime": "2016-12-31T23:56:55.5139448+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # decline
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|ProposedNewTime|[timeSlot](../resources/timeSlot.md)||
+|ProposedNewTime|[timeSlot](../resources/timeslot.md)||
 |SendResponse|Boolean||
 |Comment|String||
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.eventMessageRequest not found/decline
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.eventMessageRequest not found/decline
 
 Content-type: application/json
 Content-length: 296

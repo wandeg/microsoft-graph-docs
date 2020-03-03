@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get complianceManagementPartner
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [complianceManagementPartner](../resources/compliancemanagementpartner.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/complianceManagementPartners/{complianceManagementPartnerId}
+GET https://graph.microsoft.com/localtest/deviceManagement/complianceManagementPartners/{complianceManagementPartnerId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 1083
 {
   "value": {
     "@odata.type": "#microsoft.graph.complianceManagementPartner",
-    "id": "5ba5e8aa-e8aa-5ba5-aae8-a55baae8a55b",
-    "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+    "id": "5c7bae0f-ae0f-5c7b-0fae-7b5c0fae7b5c",
+    "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
     "partnerState": "String",
     "displayName": "Display Name value",
     "macOsOnboarded": true,

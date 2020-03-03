@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get yammerDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [yammerDeviceUsageUserDetail](../resources/yammerdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.yammerDeviceUsageUserDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.yammerDeviceUsageUserDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 576
 {
   "value": {
     "@odata.type": "#microsoft.graph.yammerDeviceUsageUserDetail",
-    "id": "1d1b826e-826e-1d1b-6e82-1b1d6e821b1d",
+    "id": "301e3a22-3a22-301e-223a-1e30223a1e30",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "displayName": "Display Name value",

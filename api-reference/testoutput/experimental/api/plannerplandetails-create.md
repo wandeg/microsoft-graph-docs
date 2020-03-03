@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerPlanDetails
 
+Namespace: microsoft.graph
+
 Create a new [plannerPlanDetails](../resources/plannerplandetails.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.plannerPlanDetails not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerPlanDetails object.
+In the request body, supply a JSON representation for the [plannerPlanDetails](../resources/plannerplandetails.md) object.
 
-The following table shows the properties that are required when you create the plannerPlanDetails.
+The following table shows the properties that are required when you create the [plannerPlanDetails](../resources/plannerplandetails.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|sharedWith|[plannerUserIds](../resources/plannerUserIds.md)||
-|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannerCategoryDescriptions.md)||
-|contextDetails|[plannerPlanContextDetailsCollection](../resources/plannerPlanContextDetailsCollection.md)||
+|sharedWith|[plannerUserIds](../resources/planneruserids.md)||
+|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannercategorydescriptions.md)||
+|contextDetails|[plannerPlanContextDetailsCollection](../resources/plannerplancontextdetailscollection.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerPlanDetails not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerPlanDetails not found
 Content-type: application/json
 Content-length: 564
 
@@ -101,7 +103,7 @@ Content-Length: 613
 
 {
   "@odata.type": "#microsoft.graph.plannerPlanDetails",
-  "id": "a4bfbf6f-bf6f-a4bf-6fbf-bfa46fbfbfa4",
+  "id": "9ef99a7b-9a7b-9ef9-7b9a-f99e7b9af99e",
   "sharedWith": {
     "@odata.type": "microsoft.graph.plannerUserIds"
   },

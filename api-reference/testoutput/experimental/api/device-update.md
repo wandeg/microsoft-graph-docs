@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update device
 
+Namespace: microsoft.graph
+
 Update the properties of a [device](../resources/device.md) object.
 
 ## Permissions
@@ -44,9 +46,9 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |accountEnabled|Boolean||
-|alternativeSecurityIds|[alternativeSecurityId](../resources/alternativeSecurityId.md) collection||
+|alternativeSecurityIds|[alternativeSecurityId](../resources/alternativesecurityid.md) collection||
 |approximateLastSignInDateTime|DateTimeOffset||
 |complianceExpirationDateTime|DateTimeOffset||
 |deviceId|String||
@@ -85,13 +87,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/devices/{devicesId}
+PATCH https://graph.microsoft.com/localtest/devices/{devicesId}
 Content-type: application/json
 Content-length: 1253
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -101,15 +103,15 @@ Content-length: 1253
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2017-01-01T00:03:29.8766805+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:01:52.4564357+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:59:02.5499427+03:00",
+  "complianceExpirationDateTime": "2017-01-01T00:03:17.1122794+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
   "displayName": "Display Name value",
   "isCompliant": true,
   "isManaged": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",
@@ -144,8 +146,8 @@ Content-Length: 1302
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "id": "bcfa2f42-2f42-bcfa-422f-fabc422ffabc",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "398d4484-4484-398d-8444-8d3984448d39",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -155,15 +157,15 @@ Content-Length: 1302
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2017-01-01T00:03:29.8766805+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:01:52.4564357+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:59:02.5499427+03:00",
+  "complianceExpirationDateTime": "2017-01-01T00:03:17.1122794+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
   "displayName": "Display Name value",
   "isCompliant": true,
   "isManaged": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",

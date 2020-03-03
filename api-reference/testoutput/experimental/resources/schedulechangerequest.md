@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # scheduleChangeRequest resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [changeTrackedEntity](../resources/changeTrackedEntity.md)
+
+
+Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List scheduleChangeRequests](../api/schedulechangerequest-list.md)|[scheduleChangeRequest](../resources/scheduleChangeRequest.md) collection|List properties and relationships of the [scheduleChangeRequest](../resources/schedulechangerequest.md) objects.|
-|[Get scheduleChangeRequest](../api/schedulechangerequest-get.md)|[scheduleChangeRequest](../resources/scheduleChangeRequest.md)|Read properties and relationships of the [scheduleChangeRequest](../resources/schedulechangerequest.md) object.|
+|[List scheduleChangeRequests](../api/schedulechangerequest-list.md)|[scheduleChangeRequest](../resources/schedulechangerequest.md) collection|List properties and relationships of the [scheduleChangeRequest](../resources/schedulechangerequest.md) objects.|
+|[Get scheduleChangeRequest](../api/schedulechangerequest-get.md)|[scheduleChangeRequest](../resources/schedulechangerequest.md)|Read properties and relationships of the [scheduleChangeRequest](../resources/schedulechangerequest.md) object.|
 |[approve](../api/schedulechangerequest-approve.md)|None||
 |[decline](../api/schedulechangerequest-decline.md)|None||
 
@@ -28,10 +29,10 @@ Inherits from [changeTrackedEntity](../resources/changeTrackedEntity.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |assignedTo|Enumeration|. Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |managerActionDateTime|DateTimeOffset||
 |managerActionMessage|String||
 |managerUserId|String||

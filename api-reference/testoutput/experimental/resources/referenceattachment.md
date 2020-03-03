@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # referenceAttachment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [attachment](../resources/attachment.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List referenceAttachments](../api/referenceattachment-list.md)|[referenceAttachment](../resources/referenceAttachment.md) collection|List properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) objects.|
-|[Get referenceAttachment](../api/referenceattachment-get.md)|[referenceAttachment](../resources/referenceAttachment.md)|Read properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) object.|
-|[Create referenceAttachment](../api/referenceattachment-create.md)|[referenceAttachment](../resources/referenceAttachment.md)|Create a new [referenceAttachment](../resources/referenceattachment.md) object.|
+|[List referenceAttachments](../api/referenceattachment-list.md)|[referenceAttachment](../resources/referenceattachment.md) collection|List properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) objects.|
+|[Get referenceAttachment](../api/referenceattachment-get.md)|[referenceAttachment](../resources/referenceattachment.md)|Read properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) object.|
+|[Create referenceAttachment](../api/referenceattachment-create.md)|[referenceAttachment](../resources/referenceattachment.md)|Create a new [referenceAttachment](../resources/referenceattachment.md) object.|
 |[Delete referenceAttachment](../api/referenceattachment-delete.md)|None|Deletes a [referenceAttachment](../resources/referenceattachment.md).|
-|[Update referenceAttachment](../api/referenceattachment-update.md)|[referenceAttachment](../resources/referenceAttachment.md)|Update the properties of a [referenceAttachment](../resources/referenceattachment.md) object.|
+|[Update referenceAttachment](../api/referenceattachment-update.md)|[referenceAttachment](../resources/referenceattachment.md)|Update the properties of a [referenceAttachment](../resources/referenceattachment.md) object.|
 
 ## Properties
 |Property|Type|Description|

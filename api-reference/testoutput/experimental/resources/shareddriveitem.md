@@ -5,62 +5,63 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # sharedDriveItem resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [baseItem](../resources/baseItem.md)
+
+
+Inherits from [baseItem](../resources/baseitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharedDriveItems](../api/shareddriveitem-list.md)|[sharedDriveItem](../resources/sharedDriveItem.md) collection|List properties and relationships of the [sharedDriveItem](../resources/shareddriveitem.md) objects.|
-|[Get sharedDriveItem](../api/shareddriveitem-get.md)|[sharedDriveItem](../resources/sharedDriveItem.md)|Read properties and relationships of the [sharedDriveItem](../resources/shareddriveitem.md) object.|
-|[Create sharedDriveItem](../api/shareddriveitem-post-shares.md)|[sharedDriveItem](../resources/sharedDriveItem.md)|Create a new [sharedDriveItem](../resources/shareddriveitem.md) object.|
+|[List sharedDriveItems](../api/shareddriveitem-list.md)|[sharedDriveItem](../resources/shareddriveitem.md) collection|List properties and relationships of the [sharedDriveItem](../resources/shareddriveitem.md) objects.|
+|[Get sharedDriveItem](../api/shareddriveitem-get.md)|[sharedDriveItem](../resources/shareddriveitem.md)|Read properties and relationships of the [sharedDriveItem](../resources/shareddriveitem.md) object.|
+|[Create sharedDriveItem](../api/shareddriveitem-post-shares.md)|[sharedDriveItem](../resources/shareddriveitem.md)|Create a new [sharedDriveItem](../resources/shareddriveitem.md) object.|
 |[Delete sharedDriveItem](../api/shareddriveitem-delete.md)|None|Deletes a [sharedDriveItem](../resources/shareddriveitem.md).|
-|[Update sharedDriveItem](../api/shareddriveitem-update.md)|[sharedDriveItem](../resources/sharedDriveItem.md)|Update the properties of a [sharedDriveItem](../resources/shareddriveitem.md) object.|
+|[Update sharedDriveItem](../api/shareddriveitem-update.md)|[sharedDriveItem](../resources/shareddriveitem.md)|Update the properties of a [sharedDriveItem](../resources/shareddriveitem.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
-|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveItem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
-|[List items](../api/shareddriveitem-list-items.md)|[driveItem](../resources/driveItem.md) collection|Get the driveItems from the items navigation property.|
-|[Add items](../api/shareddriveitem-post-items.md)|[driveItem](../resources/driveItem.md)|Add items by posting to the items collection.|
+|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
+|[List items](../api/shareddriveitem-list-items.md)|[driveItem](../resources/driveitem.md) collection|Get the driveItems from the items navigation property.|
+|[Add items](../api/shareddriveitem-post-items.md)|[driveItem](../resources/driveitem.md)|Add items by posting to the items collection.|
 |[Get list](../api/list-get.md)|[list](../resources/list.md)|Read properties and relationships of the [list](../resources/list.md) object.|
-|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listItem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
+|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
 |[Get permission](../api/permission-get.md)|[permission](../resources/permission.md)|Read properties and relationships of the [permission](../resources/permission.md) object.|
-|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveItem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
+|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
 |[Get site](../api/site-get.md)|[site](../resources/site.md)|Read properties and relationships of the [site](../resources/site.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|owner|[identitySet](../resources/identitySet.md)||
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|owner|[identitySet](../resources/identityset.md)||
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|driveItem|[driveItem](../resources/driveItem.md)||
-|items|[driveItem](../resources/driveItem.md) collection||
-|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|driveItem|[driveItem](../resources/driveitem.md)||
+|items|[driveItem](../resources/driveitem.md) collection||
+|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 |list|[list](../resources/list.md)||
-|listItem|[listItem](../resources/listItem.md)||
+|listItem|[listItem](../resources/listitem.md)||
 |permission|[permission](../resources/permission.md)||
-|root|[driveItem](../resources/driveItem.md)||
+|root|[driveItem](../resources/driveitem.md)||
 |site|[site](../resources/site.md)||
 
 ## JSON Representation

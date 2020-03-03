@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppProtection resource type
+
+
+Namespace: microsoft.graph
 
 Policy used to configure detailed management settings for a specified set of apps
 
 
-Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
+Inherits from [managedAppPolicy](../resources/managedapppolicy.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppProtections](../api/managedappprotection-list.md)|[managedAppProtection](../resources/managedAppProtection.md) collection|List properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) objects.|
-|[Get managedAppProtection](../api/managedappprotection-get.md)|[managedAppProtection](../resources/managedAppProtection.md)|Read properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) object.|
+|[List managedAppProtections](../api/managedappprotection-list.md)|[managedAppProtection](../resources/managedappprotection.md) collection|List properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) objects.|
+|[Get managedAppProtection](../api/managedappprotection-get.md)|[managedAppProtection](../resources/managedappprotection.md)|Read properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) object.|
 |[targetApps](../api/managedappprotection-targetapps.md)|None||
 |[targetApps](../api/managedappprotection-targetapps.md)|None||
 
@@ -37,15 +38,15 @@ Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
 |appActionIfMaximumPinRetriesExceeded|Enumeration|Defines a managed app behavior, either block or wipe, based on maximum number of incorrect pin retry attempts. Possible values are: `block`, `wipe`, `warn`.|
 |blockDataIngestionIntoOrganizationDocuments|Boolean|Indicates whether a user can bring data into org documents.|
 |contactSyncBlocked|Boolean|Indicates whether contacts can be synced to the user's device.|
-|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |dataBackupBlocked|Boolean|Indicates whether the backup of a managed app's data is blocked.|
-|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |deviceComplianceRequired|Boolean|Indicates whether device compliance is required.|
 |disableAppPinIfDevicePinIsSet|Boolean|Indicates whether use of the app pin is required if the device pin is set.|
-|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |fingerprintBlocked|Boolean|Indicates whether use of the fingerprint reader is allowed in place of a pin if PinRequired is set to True.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |managedBrowser|Enumeration|Indicates in which managed browser(s) that internet links should be opened. Possible values are: `notConfigured`, `microsoftEdge`.|
 |managedBrowserToOpenLinksRequired|Boolean|Indicates whether internet links should be opened in the managed browser app.|
 |maximumAllowedDeviceThreatLevel|Enumeration|Maximum allowed device threat level, as reported by the MTD app. Possible values are: `notConfigured`, `secured`, `low`, `medium`, `high`.|
@@ -69,10 +70,10 @@ Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
 |pinRequiredInsteadOfBiometricTimeout|Duration|Timeout in minutes for an app pin instead of non biometrics passcode|
 |previousPinBlockCount|Int32|Requires a pin to be unique from the number specified in this property.|
 |printBlocked|Boolean|Indicates whether printing is allowed from managed apps.|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |saveAsBlocked|Boolean|Indicates whether users may use the "Save As" menu item to save a copy of protected files.|
 |simplePinBlocked|Boolean|Indicates whether simplePin is blocked.|
-|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 
 ## Relationships
 None

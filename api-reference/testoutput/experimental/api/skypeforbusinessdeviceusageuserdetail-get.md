@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get skypeForBusinessDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 453
 {
   "value": {
     "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageUserDetail",
-    "id": "e6344f5c-4f5c-e634-5c4f-34e65c4f34e6",
+    "id": "9bcfcf09-cf09-9bcf-09cf-cf9b09cfcf9b",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "lastActivityDate": "Date",

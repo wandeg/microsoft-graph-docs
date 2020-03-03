@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # extension resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,6 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List extensions](../api/extension-list.md)|[extension](../resources/extension.md) collection|List properties and relationships of the [extension](../resources/extension.md) objects.|
 |[Get extension](../api/extension-get.md)|[extension](../resources/extension.md)|Read properties and relationships of the [extension](../resources/extension.md) object.|
 
 ## Properties

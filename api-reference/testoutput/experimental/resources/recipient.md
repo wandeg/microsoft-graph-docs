@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # recipient resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|emailAddress|[emailAddress](../resources/emailAddress.md)||
+|emailAddress|[emailAddress](../resources/emailaddress.md)||
 
 ## Relationships
 None

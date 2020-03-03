@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailboxUsageStorage
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailboxUsageStorage](../resources/mailboxusagestorage.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.mailboxUsageStorage not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailboxUsageStorage](../resources/mailboxUsageStorage.md) object.
+In the request body, supply a JSON representation for the [mailboxUsageStorage](../resources/mailboxusagestorage.md) object.
 
 The following table shows the properties that are required when you create the [mailboxUsageStorage](../resources/mailboxusagestorage.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailboxUsageStorage not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailboxUsageStorage not found
 Content-type: application/json
 Content-length: 188
 
@@ -89,7 +91,7 @@ Content-Length: 237
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageStorage",
-  "id": "d975738f-738f-d975-8f73-75d98f7375d9",
+  "id": "d93ed668-d668-d93e-68d6-3ed968d63ed9",
   "reportRefreshDate": "Date",
   "storageUsedInBytes": 2,
   "reportDate": "Date",

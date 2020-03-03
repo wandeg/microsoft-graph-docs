@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceAppManagement
 
-Update the properties of a [deviceAppManagement](../resources/deviceappmanagement.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceAppManagement](../resources/deviceAppManagement.md) object.
+In the request body, supply a JSON representation for the [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md) object.
 
-The following table shows the properties that are required when you create the [deviceAppManagement](../resources/deviceappmanagement.md).
+The following table shows the properties that are required when you create the [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceAppManagement](../resources/deviceappmanagement.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md) object in the response body.
 
 ## Example
 
@@ -63,16 +65,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement
 Content-type: application/json
 Content-length: 451
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:28.4643829+03:00",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:48.1203972+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:57:14.9790392+03:00",
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:51.8779493+03:00",
   "microsoftStoreForBusinessPortalSelection": "String"
 }
 ```
@@ -91,11 +93,11 @@ Content-Length: 500
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "id": "cd57745c-745c-cd57-5c74-57cd5c7457cd",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:28.4643829+03:00",
+  "id": "343b45a8-45a8-343b-a845-3b34a8453b34",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:48.1203972+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:57:14.9790392+03:00",
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:51.8779493+03:00",
   "microsoftStoreForBusinessPortalSelection": "String"
 }
 ```

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get userExperienceAnalyticsDeviceStartupHistory
 
-Read properties and relationships of the [userExperienceAnalyticsDeviceStartupHistory](../resources/userexperienceanalyticsdevicestartuphistory.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [userExperienceAnalyticsDeviceStartupHistory](../resources/intune-devices-userexperienceanalyticsdevicestartuphistory.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsDeviceStartupHistory](../resources/userexperienceanalyticsdevicestartuphistory.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsDeviceStartupHistory](../resources/intune-devices-userexperienceanalyticsdevicestartuphistory.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsDeviceStartupHistory/{userExperienceAnalyticsDeviceStartupHistoryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsDeviceStartupHistory/{userExperienceAnalyticsDeviceStartupHistoryId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 594
 {
   "value": {
     "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceStartupHistory",
-    "id": "a39d0365-0365-a39d-6503-9da365039da3",
+    "id": "3431c76a-c76a-3431-6ac7-31346ac73134",
     "deviceId": "Device Id value",
-    "startTime": "2016-12-31T23:59:41.6500596+03:00",
+    "startTime": "2017-01-01T00:02:49.6370207+03:00",
     "coreBootTimeInMs": 0,
     "groupPolicyBootTimeInMs": 7,
     "featureUpdateBootTimeInMs": 9,

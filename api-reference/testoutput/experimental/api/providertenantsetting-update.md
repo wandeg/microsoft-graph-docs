@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update providerTenantSetting
 
+Namespace: microsoft.graph
+
 Update the properties of a [providerTenantSetting](../resources/providertenantsetting.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /Security/providerTenantSettings/{providerTenantSettingId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [providerTenantSetting](../resources/providerTenantSetting.md) object.
+In the request body, supply a JSON representation for the [providerTenantSetting](../resources/providertenantsetting.md) object.
 
 The following table shows the properties that are required when you create the [providerTenantSetting](../resources/providertenantsetting.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/Security/providerTenantSettings/{providerTenantSettingId}
+PATCH https://graph.microsoft.com/localtest/Security/providerTenantSettings/{providerTenantSettingId}
 Content-type: application/json
 Content-length: 190
 
@@ -90,10 +92,10 @@ Content-Length: 303
 
 {
   "@odata.type": "#microsoft.graph.providerTenantSetting",
-  "id": "6f9dc5d4-c5d4-6f9d-d4c5-9d6fd4c59d6f",
+  "id": "74e785a2-85a2-74e7-a285-e774a285e774",
   "azureTenantId": "Azure Tenant Id value",
   "enabled": true,
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "provider": "Provider value",
   "vendor": "Vendor value"
 }

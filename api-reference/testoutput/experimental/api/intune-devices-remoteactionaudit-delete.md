@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete remoteActionAudit
 
-Deletes a [remoteActionAudit](../resources/remoteactionaudit.md).
+Namespace: microsoft.graph
+
+Deletes a [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/remoteActionAudits/{remoteActionAuditId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/remoteActionAudits/{remoteActionAuditId}
 ```
 
 ### Response

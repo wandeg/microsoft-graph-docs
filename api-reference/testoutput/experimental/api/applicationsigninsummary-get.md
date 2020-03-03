@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get applicationSignInSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [applicationSignInSummary](../resources/applicationsigninsummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.applicationSignInSummary not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.applicationSignInSummary not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 285
 {
   "value": {
     "@odata.type": "#microsoft.graph.applicationSignInSummary",
-    "id": "65f064cb-64cb-65f0-cb64-f065cb64f065",
+    "id": "6d0bb32e-b32e-6d0b-2eb3-0b6d2eb30b6d",
     "appDisplayName": "App Display Name value",
     "successfulSignInCount": 5,
     "failedSignInCount": 1,

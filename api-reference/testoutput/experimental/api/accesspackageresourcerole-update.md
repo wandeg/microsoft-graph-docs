@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessPackageResourceRole
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.
 
 ## Permissions
@@ -42,7 +44,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessPackageResourceRole](../resources/accessPackageResourceRole.md) object.
+In the request body, supply a JSON representation for the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.
 
 The following table shows the properties that are required when you create the [accessPackageResourceRole](../resources/accesspackageresourcerole.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceRole
+PATCH https://graph.microsoft.com/localtest/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceRole
 Content-type: application/json
 Content-length: 222
 
@@ -96,7 +98,7 @@ Content-Length: 271
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRole",
-  "id": "1efea8ca-a8ca-1efe-caa8-fe1ecaa8fe1e",
+  "id": "d54e2aed-2aed-d54e-ed2a-4ed5ed2a4ed5",
   "displayName": "Display Name value",
   "description": "Description value",
   "originId": "Origin Id value",

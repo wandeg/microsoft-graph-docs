@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add commands
 
+Namespace: microsoft.graph
+
 Add commands by posting to the commands collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/devices/{deviceId}/commands/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the command object.
+In the request body, supply a JSON representation for the [command](../resources/command.md) object.
 
-The following table shows the properties that are required when you create the command.
+The following table shows the properties that are required when you create the [command](../resources/command.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the c
 |AppServiceName|String||
 |PackageFamilyName|String||
 |Error|String||
-|Payload|[PayloadRequest](../resources/PayloadRequest.md)||
+|Payload|[PayloadRequest](../resources/payloadrequest.md)||
 |PermissionTicket|String||
 |PostBackUri|String||
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/devices/{devicesId}/commands
+POST https://graph.microsoft.com/localtest/devices/{devicesId}/commands
 Content-type: application/json
 Content-length: 396
 
@@ -102,7 +104,7 @@ Content-Length: 445
 
 {
   "@odata.type": "#microsoft.graph.command",
-  "id": "4b16bcad-bcad-4b16-adbc-164badbc164b",
+  "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
   "Status": "Status value",
   "Type": "Type value",
   "AppServiceName": "App Service Name value",

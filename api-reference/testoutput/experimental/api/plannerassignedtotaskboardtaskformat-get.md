@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerAssignedToTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/assignedToTaskBoardFormat
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/assignedToTaskBoardFormat
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 316
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-    "id": "8b7348c0-48c0-8b73-c048-738bc048738b",
+    "id": "c431c73f-c73f-c431-3fc7-31c43fc731c4",
     "unassignedOrderHint": "Unassigned Order Hint value",
     "orderHintsByAssignee": {
       "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

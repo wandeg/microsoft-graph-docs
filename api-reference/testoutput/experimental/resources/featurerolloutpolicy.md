@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # featureRolloutPolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,13 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get featureRolloutPolicy](../api/featurerolloutpolicy-get.md)|[featureRolloutPolicy](../resources/featureRolloutPolicy.md)|Read properties and relationships of the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
+|[List featureRolloutPolicies](../api/featurerolloutpolicy-list.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md) collection|List properties and relationships of the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) objects.|
+|[Get featureRolloutPolicy](../api/featurerolloutpolicy-get.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Read properties and relationships of the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
+|[Create featureRolloutPolicy](../api/featurerolloutpolicy-create.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Create a new [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
 |[Delete featureRolloutPolicy](../api/featurerolloutpolicy-delete.md)|None|Deletes a [featureRolloutPolicy](../resources/featurerolloutpolicy.md).|
-|[Update featureRolloutPolicy](../api/featurerolloutpolicy-update.md)|[featureRolloutPolicy](../resources/featureRolloutPolicy.md)|Update the properties of a [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
-|[List appliesTo](../api/featurerolloutpolicy-list-appliesto.md)|[directoryObject](../resources/directoryObject.md) collection|Get the directoryObjects from the appliesTo navigation property.|
-|[Add appliesTo](../api/featurerolloutpolicy-post-appliesto.md)|[directoryObject](../resources/directoryObject.md)|Add appliesTo by posting to the appliesTo collection.|
-|[List featureRolloutPolicies](../api/directory-list-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featureRolloutPolicy.md) collection|Get the featureRolloutPolicies from the featureRolloutPolicies navigation property.|
-|[Add featureRolloutPolicies](../api/directory-post-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featureRolloutPolicy.md)|Add featureRolloutPolicies by posting to the featureRolloutPolicies collection.|
+|[Update featureRolloutPolicy](../api/featurerolloutpolicy-update.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Update the properties of a [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
+|[List appliesTo](../api/featurerolloutpolicy-list-appliesto.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the appliesTo navigation property.|
+|[Add appliesTo](../api/featurerolloutpolicy-post-appliesto.md)|[directoryObject](../resources/directoryobject.md)|Add appliesTo by posting to the appliesTo collection.|
+|[List featureRolloutPolicies](../api/directory-list-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md) collection|Get the featureRolloutPolicies from the featureRolloutPolicies navigation property.|
+|[Add featureRolloutPolicies](../api/directory-post-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Add featureRolloutPolicies by posting to the featureRolloutPolicies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|appliesTo|[directoryObject](../resources/directoryObject.md) collection||
+|appliesTo|[directoryObject](../resources/directoryobject.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

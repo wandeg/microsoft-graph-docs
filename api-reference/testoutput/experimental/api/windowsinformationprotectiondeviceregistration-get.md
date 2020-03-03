@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsInformationProtectionDeviceRegistration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 450
+Content-Length: 451
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-    "id": "b5bcbccb-bccb-b5bc-cbbc-bcb5cbbcbcb5",
+    "id": "12f95eb0-5eb0-12f9-b05e-f912b05ef912",
     "userId": "User Id value",
     "deviceRegistrationId": "Device Registration Id value",
     "deviceName": "Device Name value",
     "deviceType": "Device Type value",
     "deviceMacAddress": "Device Mac Address value",
-    "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00"
+    "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
   }
 }
 ```

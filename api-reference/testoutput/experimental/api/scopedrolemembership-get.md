@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get scopedRoleMembership
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [scopedRoleMembership](../resources/scopedrolemembership.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/scopedRoleMemberOf/{scopedRoleMembershipId}
+GET https://graph.microsoft.com/localtest/me/scopedRoleMemberOf/{scopedRoleMembershipId}
 ```
 
 ### Response
@@ -77,7 +79,7 @@ Content-Length: 378
 {
   "value": {
     "@odata.type": "#microsoft.graph.scopedRoleMembership",
-    "id": "005e319c-319c-005e-9c31-5e009c315e00",
+    "id": "d79510a2-10a2-d795-a210-95d7a21095d7",
     "roleId": "Role Id value",
     "administrativeUnitId": "Administrative Unit Id value",
     "roleMemberInfo": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartSeriesFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartSeriesFormat](../resources/workbookChartSeriesFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/format
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/format
 Content-type: application/json
 Content-length: 67
 
@@ -81,7 +83,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartSeriesFormat",
-  "id": "ed86f310-f310-ed86-10f3-86ed10f386ed"
+  "id": "5aeac95e-c95e-5aea-5ec9-ea5a5ec9ea5a"
 }
 ```
 

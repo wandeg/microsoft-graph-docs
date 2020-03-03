@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete iosikEv2VpnConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [iosikEv2VpnConfiguration](../resources/iosikev2vpnconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosikEv2VpnConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosikEv2VpnConfiguration not found
 ```
 
 ### Response

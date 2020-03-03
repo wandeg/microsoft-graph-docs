@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationIdentityMatchingConfiguration resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationIdentitySynchronizationConfiguration](../resources/educationIdentitySynchronizationConfiguration.md)
+
+
+Inherits from [educationIdentitySynchronizationConfiguration](../resources/educationidentitysynchronizationconfiguration.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|matchingOptions|[educationIdentityMatchingOptions](../resources/educationIdentityMatchingOptions.md) collection||
+|matchingOptions|[educationIdentityMatchingOptions](../resources/educationidentitymatchingoptions.md) collection||
 
 ## Relationships
 None

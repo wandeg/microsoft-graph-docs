@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete securityBaselineCategoryStateSummary
 
+Namespace: microsoft.graph
+
 Deletes a [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
 ```
 
 ### Response

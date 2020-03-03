@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update microsoftStoreForBusinessContainedApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.microsoftStoreForBusinessContainedApp no
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [microsoftStoreForBusinessContainedApp](../resources/microsoftStoreForBusinessContainedApp.md) object.
+In the request body, supply a JSON representation for the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.
 
 The following table shows the properties that are required when you create the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
 Content-type: application/json
 Content-length: 127
 
@@ -83,7 +85,7 @@ Content-Length: 176
 
 {
   "@odata.type": "#microsoft.graph.microsoftStoreForBusinessContainedApp",
-  "id": "d5ff2333-2333-d5ff-3323-ffd53323ffd5",
+  "id": "e2cae680-e680-e2ca-80e6-cae280e6cae2",
   "appUserModelId": "App User Model Id value"
 }
 ```

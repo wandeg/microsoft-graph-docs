@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # privilegedRoleAssignmentRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,14 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedRoleAssignmentRequests](../api/privilegedroleassignmentrequest-list.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md) collection|List properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) objects.|
-|[Get privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-get.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)|Read properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
-|[Create privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-post-privilegedroleassignmentrequests.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)|Create a new [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
+|[List privilegedRoleAssignmentRequests](../api/privilegedroleassignmentrequest-list.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) collection|List properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) objects.|
+|[Get privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-get.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)|Read properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
+|[Create privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-post-privilegedroleassignmentrequests.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)|Create a new [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
 |[Delete privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-delete.md)|None|Deletes a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md).|
-|[Update privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-update.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)|Update the properties of a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
-|[my](../api/privilegedroleassignmentrequest-my.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md) collection||
-|[cancel](../api/privilegedroleassignmentrequest-cancel.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)||
-|[Get privilegedRole](../api/privilegedrole-get.md)|[privilegedRole](../resources/privilegedRole.md)|Read properties and relationships of the [privilegedRole](../resources/privilegedrole.md) object.|
+|[Update privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-update.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)|Update the properties of a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
+|[my](../api/privilegedroleassignmentrequest-my.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) collection||
+|[cancel](../api/privilegedroleassignmentrequest-cancel.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)||
+|[Get privilegedRole](../api/privilegedrole-get.md)|[privilegedRole](../resources/privilegedrole.md)|Read properties and relationships of the [privilegedRole](../resources/privilegedrole.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |reason|String||
 |requestedDateTime|DateTimeOffset||
 |roleId|String||
-|schedule|[governanceSchedule](../resources/governanceSchedule.md)||
+|schedule|[governanceSchedule](../resources/governanceschedule.md)||
 |status|String||
 |ticketNumber|String||
 |ticketSystem|String||
@@ -47,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|roleInfo|[privilegedRole](../resources/privilegedRole.md)||
+|roleInfo|[privilegedRole](../resources/privilegedrole.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

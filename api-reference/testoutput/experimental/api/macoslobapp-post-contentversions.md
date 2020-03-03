@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contentVersions
 
+Namespace: microsoft.graph
+
 Add contentVersions by posting to the contentVersions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppContent object.
+In the request body, supply a JSON representation for the [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object.
 
-The following table shows the properties that are required when you create the mobileAppContent.
+The following table shows the properties that are required when you create the [mobileAppContent](../resources/intune-apps-mobileappcontent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppContent](../resources/mobileappcontent.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions
 Content-type: application/json
 Content-length: 58
 
@@ -83,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContent",
-  "id": "41cfb398-b398-41cf-98b3-cf4198b3cf41"
+  "id": "9233c4e9-c4e9-9233-e9c4-3392e9c43392"
 }
 ```
 

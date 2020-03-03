@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # contentProperties resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |extensions|String collection||
 |lastModifiedBy|String||
 |lastModifiedDateTime|DateTimeOffset||
-|metadata|[contentMetadata](../resources/contentMetadata.md)||
+|metadata|[contentMetadata](../resources/contentmetadata.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update importedWindowsAutopilotDeviceIdentity
 
+Namespace: microsoft.graph
+
 Update the properties of a [importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/importedWindowsAutopilotDeviceIdentities/{importedWindow
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [importedWindowsAutopilotDeviceIdentity](../resources/importedWindowsAutopilotDeviceIdentity.md) object.
+In the request body, supply a JSON representation for the [importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md) object.
 
 The following table shows the properties that are required when you create the [importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md).
 
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 |productKey|String|Product Key of the Windows autopilot device.|
 |importId|String|The Import Id of the Windows autopilot device.|
 |hardwareIdentifier|Binary|Hardware Blob of the Windows autopilot device.|
-|state|[importedWindowsAutopilotDeviceIdentityState](../resources/importedWindowsAutopilotDeviceIdentityState.md)|Current state of the imported device.|
+|state|[importedWindowsAutopilotDeviceIdentityState](../resources/importedwindowsautopilotdeviceidentitystate.md)|Current state of the imported device.|
 |assignedUserPrincipalName|String|UPN of the user the device will be assigned|
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/importedWindowsAutopilotDeviceIdentities/{importedWindowsAutopilotDeviceIdentityId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/importedWindowsAutopilotDeviceIdentities/{importedWindowsAutopilotDeviceIdentityId}
 Content-type: application/json
 Content-length: 678
 
@@ -103,7 +105,7 @@ Content-Length: 727
 
 {
   "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentity",
-  "id": "9e997c44-7c44-9e99-447c-999e447c999e",
+  "id": "def4d4cb-d4cb-def4-cbd4-f4decbd4f4de",
   "orderIdentifier": "Order Identifier value",
   "groupTag": "Group Tag value",
   "serialNumber": "Serial Number value",

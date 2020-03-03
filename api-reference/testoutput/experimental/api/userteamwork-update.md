@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userTeamwork
 
+Namespace: microsoft.graph
+
 Update the properties of a [userTeamwork](../resources/userteamwork.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/teamwork
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userTeamwork](../resources/userTeamwork.md) object.
+In the request body, supply a JSON representation for the [userTeamwork](../resources/userteamwork.md) object.
 
 The following table shows the properties that are required when you create the [userTeamwork](../resources/userteamwork.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/teamwork
+PATCH https://graph.microsoft.com/localtest/me/teamwork
 Content-type: application/json
 Content-length: 54
 
@@ -82,7 +84,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.userTeamwork",
-  "id": "1bc7fa80-fa80-1bc7-80fa-c71b80fac71b"
+  "id": "47ac7302-7302-47ac-0273-ac470273ac47"
 }
 ```
 

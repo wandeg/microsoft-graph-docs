@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userStateSummary
 
+Namespace: microsoft.graph
+
 Add userStateSummary by posting to the userStateSummary collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userInstallStateSummary object.
+In the request body, supply a JSON representation for the [userInstallStateSummary](../resources/userinstallstatesummary.md) object.
 
-The following table shows the properties that are required when you create the userInstallStateSummary.
+The following table shows the properties that are required when you create the [userInstallStateSummary](../resources/userinstallstatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary
 Content-type: application/json
 Content-length: 189
 
@@ -91,7 +93,7 @@ Content-Length: 238
 
 {
   "@odata.type": "#microsoft.graph.userInstallStateSummary",
-  "id": "b66d8a26-8a26-b66d-268a-6db6268a6db6",
+  "id": "d5ffde06-de06-d5ff-06de-ffd506deffd5",
   "userName": "User Name value",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,

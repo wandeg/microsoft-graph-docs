@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List yammerDeviceUsageDistributionUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [yammerDeviceUsageDistributionUserCounts](../resources/yammerdeviceusagedistributionusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerDeviceUsageDistributionUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerDeviceUsageDistributionUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 381
   "value": [
     {
       "@odata.type": "#microsoft.graph.yammerDeviceUsageDistributionUserCounts",
-      "id": "864fedbf-edbf-864f-bfed-4f86bfed4f86",
+      "id": "3283f739-f739-3283-39f7-833239f78332",
       "reportRefreshDate": "Date",
       "web": 3,
       "windowsPhone": 12,

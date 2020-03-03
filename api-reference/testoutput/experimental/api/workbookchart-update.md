@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChart
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChart](../resources/workbookchart.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChart](../resources/workbookChart.md) object.
+In the request body, supply a JSON representation for the [workbookChart](../resources/workbookchart.md) object.
 
 The following table shows the properties that are required when you create the [workbookChart](../resources/workbookchart.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
 Content-type: application/json
 Content-length: 166
 
@@ -91,7 +93,7 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.workbookChart",
-  "id": "bd04971d-971d-bd04-1d97-04bd1d9704bd",
+  "id": "f60ef7b4-f7b4-f60e-b4f7-0ef6b4f70ef6",
   "height": "Double",
   "left": "Double",
   "name": "Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add journalLines
 
+Namespace: microsoft.graph
+
 Add journalLines by posting to the journalLines collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/journals/{journalId}/journalLines/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the journalLine object.
+In the request body, supply a JSON representation for the [journalLine](../resources/journalline.md) object.
 
-The following table shows the properties that are required when you create the journalLine.
+The following table shows the properties that are required when you create the [journalLine](../resources/journalline.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/journals/{journalId}/journalLines
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/journals/{journalId}/journalLines
 Content-type: application/json
 Content-length: 454
 
@@ -78,7 +80,7 @@ Content-length: 454
   "@odata.type": "#microsoft.graph.journalLine",
   "journalDisplayName": "Journal Display Name value",
   "lineNumber": 10,
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "accountNumber": "Account Number value",
   "postingDate": "Date",
   "documentNumber": "Document Number value",
@@ -104,10 +106,10 @@ Content-Length: 567
 
 {
   "@odata.type": "#microsoft.graph.journalLine",
-  "id": "0689cab7-cab7-0689-b7ca-8906b7ca8906",
+  "id": "55327cde-7cde-5532-de7c-3255de7c3255",
   "journalDisplayName": "Journal Display Name value",
   "lineNumber": 10,
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "accountNumber": "Account Number value",
   "postingDate": "Date",
   "documentNumber": "Document Number value",
@@ -115,7 +117,7 @@ Content-Length: 567
   "amount": "4.2",
   "description": "Description value",
   "comment": "Comment value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sensitivityPolicySettings
 
+Namespace: microsoft.graph
+
 Create a new [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sensitivityPolicySettings not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sensitivityPolicySettings object.
+In the request body, supply a JSON representation for the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.
 
-The following table shows the properties that are required when you create the sensitivityPolicySettings.
+The following table shows the properties that are required when you create the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sensitivityPolicySettings not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sensitivityPolicySettings not found
 Content-type: application/json
 Content-length: 197
 
@@ -89,7 +91,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.sensitivityPolicySettings",
-  "id": "82ccc22a-c22a-82cc-2ac2-cc822ac2cc82",
+  "id": "359acee7-cee7-359a-e7ce-9a35e7ce9a35",
   "isMandatory": true,
   "helpWebUrl": "https://example.com/helpWebUrl/",
   "downgradeSensitivityRequiresJustification": true

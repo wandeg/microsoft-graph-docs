@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete dimensionValue
 
+Namespace: microsoft.graph
+
 Deletes a [dimensionValue](../resources/dimensionvalue.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/dimensionValues/{dimensionValueId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/dimensionValues/{dimensionValueId}
 ```
 
 ### Response

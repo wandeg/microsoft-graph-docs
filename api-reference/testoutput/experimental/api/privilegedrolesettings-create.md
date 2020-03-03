@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create privilegedRoleSettings
 
+Namespace: microsoft.graph
+
 Create a new [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.privilegedRoleSettings not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the privilegedRoleSettings object.
+In the request body, supply a JSON representation for the [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.
 
-The following table shows the properties that are required when you create the privilegedRoleSettings.
+The following table shows the properties that are required when you create the [privilegedRoleSettings](../resources/privilegedrolesettings.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,18 +71,18 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.privilegedRoleSettings not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.privilegedRoleSettings not found
 Content-type: application/json
-Content-length: 456
+Content-length: 460
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "PT2M30.5291281S",
-  "maxElavationDuration": "PT18.2951584S",
-  "elevationDuration": "PT3M11.3606798S",
+  "minElevationDuration": "-PT2M51.2414314S",
+  "maxElavationDuration": "-PT1M27.9407158S",
+  "elevationDuration": "PT1M41.1840893S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,
@@ -101,17 +103,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 505
+Content-Length: 509
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
-  "id": "0f5a4dcc-4dcc-0f5a-cc4d-5a0fcc4d5a0f",
+  "id": "d3a3282d-282d-d3a3-2d28-a3d32d28a3d3",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "PT2M30.5291281S",
-  "maxElavationDuration": "PT18.2951584S",
-  "elevationDuration": "PT3M11.3606798S",
+  "minElevationDuration": "-PT2M51.2414314S",
+  "maxElavationDuration": "-PT1M27.9407158S",
+  "elevationDuration": "PT1M41.1840893S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update team
 
+Namespace: microsoft.graph
+
 Update the properties of a [team](../resources/team.md) object.
 
 ## Permissions
@@ -53,11 +55,11 @@ The following table shows the properties that are required when you create the [
 |specialization|Enumeration|. Possible values are: `none`, `educationStandard`, `educationClass`, `educationProfessionalLearningCommunity`, `educationStaff`, `healthcareStandard`, `healthcareCareCoordination`, `unknownFutureValue`.|
 |visibility|Enumeration|. Possible values are: `private`, `public`, `hiddenMembership`, `unknownFutureValue`.|
 |webUrl|String||
-|memberSettings|[teamMemberSettings](../resources/teamMemberSettings.md)||
-|guestSettings|[teamGuestSettings](../resources/teamGuestSettings.md)||
-|messagingSettings|[teamMessagingSettings](../resources/teamMessagingSettings.md)||
-|funSettings|[teamFunSettings](../resources/teamFunSettings.md)||
-|discoverySettings|[teamDiscoverySettings](../resources/teamDiscoverySettings.md)||
+|memberSettings|[teamMemberSettings](../resources/teammembersettings.md)||
+|guestSettings|[teamGuestSettings](../resources/teamguestsettings.md)||
+|messagingSettings|[teamMessagingSettings](../resources/teammessagingsettings.md)||
+|funSettings|[teamFunSettings](../resources/teamfunsettings.md)||
+|discoverySettings|[teamDiscoverySettings](../resources/teamdiscoverysettings.md)||
 |isArchived|Boolean||
 
 
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teams/{teamsId}
+PATCH https://graph.microsoft.com/localtest/teams/{teamsId}
 Content-type: application/json
 Content-length: 1360
 
@@ -137,7 +139,7 @@ Content-Length: 1409
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "7f28107d-107d-7f28-7d10-287f7d10287f",
+  "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
   "displayName": "Display Name value",
   "description": "Description value",
   "internalId": "Internal Id value",

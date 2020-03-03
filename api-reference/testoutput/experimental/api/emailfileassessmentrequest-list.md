@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List emailFileAssessmentRequests
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [emailFileAssessmentRequest](../resources/emailfileassessmentrequest.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailFileAssessmentRequest not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailFileAssessmentRequest not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 945
+Content-Length: 944
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.emailFileAssessmentRequest",
-      "id": "0300cb4c-cb4c-0300-4ccb-00034ccb0003",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "1c365f27-5f27-1c36-275f-361c275f361c",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "contentType": "String",
       "expectedAssessment": "String",
       "category": "String",

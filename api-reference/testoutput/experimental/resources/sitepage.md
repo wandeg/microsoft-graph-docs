@@ -5,23 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # sitePage resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [baseItem](../resources/baseItem.md)
+
+
+Inherits from [baseItem](../resources/baseitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get sitePage](../api/sitepage-get.md)|[sitePage](../resources/sitePage.md)|Read properties and relationships of the [sitePage](../resources/sitepage.md) object.|
+|[List sitePages](../api/sitepage-list.md)|[sitePage](../resources/sitepage.md) collection|List properties and relationships of the [sitePage](../resources/sitepage.md) objects.|
+|[Get sitePage](../api/sitepage-get.md)|[sitePage](../resources/sitepage.md)|Read properties and relationships of the [sitePage](../resources/sitepage.md) object.|
+|[Create sitePage](../api/sitepage-create.md)|[sitePage](../resources/sitepage.md)|Create a new [sitePage](../resources/sitepage.md) object.|
 |[Delete sitePage](../api/sitepage-delete.md)|None|Deletes a [sitePage](../resources/sitepage.md).|
-|[Update sitePage](../api/sitepage-update.md)|[sitePage](../resources/sitePage.md)|Update the properties of a [sitePage](../resources/sitepage.md) object.|
+|[Update sitePage](../api/sitepage-update.md)|[sitePage](../resources/sitepage.md)|Update the properties of a [sitePage](../resources/sitepage.md) object.|
 |[publish](../api/sitepage-publish.md)|None||
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
@@ -29,27 +32,27 @@ Inherits from [baseItem](../resources/baseItem.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|contentType|[contentTypeInfo](../resources/contentTypeInfo.md)||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
+|contentType|[contentTypeInfo](../resources/contenttypeinfo.md)||
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
 |pageLayoutType|String||
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|publishingState|[publicationFacet](../resources/publicationFacet.md)||
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|publishingState|[publicationFacet](../resources/publicationfacet.md)||
 |title|String||
-|webParts|[webPart](../resources/webPart.md) collection||
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|webParts|[webPart](../resources/webpart.md) collection||
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

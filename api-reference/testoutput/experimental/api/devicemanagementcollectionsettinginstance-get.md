@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementCollectionSettingInstance
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 237
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingInstance",
-    "id": "62ce8f8d-8f8d-62ce-8d8f-ce628d8fce62",
+    "id": "a4f857d7-57d7-a4f8-d757-f8a4d757f8a4",
     "definitionId": "Definition Id value",
     "valueJson": "Value Json value"
   }

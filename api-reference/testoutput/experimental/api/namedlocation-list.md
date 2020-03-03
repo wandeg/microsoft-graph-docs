@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List namedLocations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [namedLocation](../resources/namedlocation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/conditionalAccess/namedLocations
+GET https://graph.microsoft.com/localtest/conditionalAccess/namedLocations
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 316
+Content-Length: 315
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.namedLocation",
-      "id": "d4c9456f-456f-d4c9-6f45-c9d46f45c9d4",
+      "id": "c0583a35-3a35-c058-353a-58c0353a58c0",
       "displayName": "Display Name value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
     }
   ]
 }

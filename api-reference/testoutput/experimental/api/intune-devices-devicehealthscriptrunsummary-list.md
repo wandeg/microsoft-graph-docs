@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceHealthScriptRunSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceHealthScriptRunSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceHealthScriptRunSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 624
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
-      "id": "015eddf6-ddf6-015e-f6dd-5e01f6dd5e01",
+      "id": "994a6ada-6ada-994a-da6a-4a99da6a4a99",
       "noIssueDetectedDeviceCount": 10,
       "issueDetectedDeviceCount": 8,
       "detectionScriptErrorDeviceCount": 15,
@@ -79,7 +81,7 @@ Content-Length: 624
       "remediationSkippedDeviceCount": 13,
       "issueReoccurredDeviceCount": 10,
       "remediationScriptErrorDeviceCount": 1,
-      "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+      "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
       "issueRemediatedCumulativeDeviceCount": 4
     }
   ]

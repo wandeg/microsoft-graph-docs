@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List agents
 
+Namespace: microsoft.graph
+
 Get the onPremisesAgents from the agents navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents
+GET https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 325
   "value": [
     {
       "@odata.type": "#microsoft.graph.onPremisesAgent",
-      "id": "60031e2b-1e2b-6003-2b1e-03602b1e0360",
+      "id": "97e9ae49-ae49-97e9-49ae-e99749aee997",
       "machineName": "Machine Name value",
       "externalIp": "External Ip value",
       "status": "String",

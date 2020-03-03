@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # validateProperties
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/validateProperties
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/validateProperties
 
 Content-type: application/json
 Content-length: 148
@@ -71,7 +73,7 @@ Content-length: 148
 {
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
-  "onBehalfOfUserId": "5bbebaf0-baf0-5bbe-f0ba-be5bf0babe5b"
+  "onBehalfOfUserId": "87f26e73-6e73-87f2-736e-f287736ef287"
 }
 ```
 

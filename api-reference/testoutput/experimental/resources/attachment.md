@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # attachment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List attachments](../api/attachment-list.md)|[attachment](../resources/attachment.md) collection|List properties and relationships of the [attachment](../resources/attachment.md) objects.|
 |[Get attachment](../api/attachment-get.md)|[attachment](../resources/attachment.md)|Read properties and relationships of the [attachment](../resources/attachment.md) object.|
-|[createUploadSession](../api/attachment-createuploadsession.md)|[uploadSession](../resources/uploadSession.md)||
+|[createUploadSession](../api/attachment-createuploadsession.md)|[uploadSession](../resources/uploadsession.md)||
 
 ## Properties
 |Property|Type|Description|

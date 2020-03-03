@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List presences
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [presence](../resources/presence.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.presence not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.presence not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 222
   "value": [
     {
       "@odata.type": "#microsoft.graph.presence",
-      "id": "ba441c11-1c11-ba44-111c-44ba111c44ba",
+      "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
       "availability": "Availability value",
       "activity": "Activity value"
     }

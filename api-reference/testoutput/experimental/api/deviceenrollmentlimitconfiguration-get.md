@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceEnrollmentLimitConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceEnrollmentLimitConfiguration](../resources/deviceenrollmentlimitconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceEnrollmentLimitConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceEnrollmentLimitConfiguration not found
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 414
+Content-Length: 413
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
-    "id": "fb485e6b-5e6b-fb48-6b5e-48fb6b5e48fb",
+    "id": "cf639f33-9f33-cf63-339f-63cf339f63cf",
     "displayName": "Display Name value",
     "description": "Description value",
     "priority": 8,
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "version": 7,
     "limit": 5
   }

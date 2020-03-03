@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create advancedThreatProtectionOnboardingStateSummary
 
+Namespace: microsoft.graph
+
 Create a new [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.advancedThreatProtectionOnboardingSta
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the advancedThreatProtectionOnboardingStateSummary object.
+In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md) object.
 
-The following table shows the properties that are required when you create the advancedThreatProtectionOnboardingStateSummary.
+The following table shows the properties that are required when you create the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.advancedThreatProtectionOnboardingStateSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.advancedThreatProtectionOnboardingStateSummary not found
 Content-type: application/json
 Content-length: 331
 
@@ -99,7 +101,7 @@ Content-Length: 380
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingStateSummary",
-  "id": "1eadb7cc-b7cc-1ead-ccb7-ad1eccb7ad1e",
+  "id": "ccfffcd7-fcd7-ccff-d7fc-ffccd7fcffcc",
   "unknownDeviceCount": 2,
   "notApplicableDeviceCount": 8,
   "compliantDeviceCount": 4,

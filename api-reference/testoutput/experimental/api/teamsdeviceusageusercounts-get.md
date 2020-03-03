@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsDeviceUsageUserCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsDeviceUsageUserCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsDeviceUsageUserCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 359
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsDeviceUsageUserCounts",
-    "id": "c6d25337-5337-c6d2-3753-d2c63753d2c6",
+    "id": "fbaefaa7-faa7-fbae-a7fa-aefba7faaefb",
     "reportRefreshDate": "Date",
     "web": 3,
     "windowsPhone": 12,

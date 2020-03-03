@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete thumbnailSet
 
+Namespace: microsoft.graph
+
 Deletes a [thumbnailSet](../resources/thumbnailset.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
+DELETE https://graph.microsoft.com/localtest/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
 ```
 
 ### Response

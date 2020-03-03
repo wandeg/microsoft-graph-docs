@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # matchingDlpRule resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|actions|[dlpActionInfo](../resources/dlpActionInfo.md) collection||
+|actions|[dlpActionInfo](../resources/dlpactioninfo.md) collection||
 |isMostRestrictive|Boolean||
 |policyId|String||
 |policyName|String||

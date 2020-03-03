@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # migrateToTemplate
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/migrateToTemplate
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/migrateToTemplate
 
 Content-type: application/json
 Content-length: 81

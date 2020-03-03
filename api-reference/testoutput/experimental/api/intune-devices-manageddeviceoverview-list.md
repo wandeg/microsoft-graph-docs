@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedDeviceOverviews
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceOverview not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceOverview not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1372
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceOverview",
-      "id": "3b4c1902-1902-3b4c-0219-4c3b02194c3b",
+      "id": "ff9f96d5-96d5-ff9f-d596-9fffd5969fff",
       "enrolledDeviceCount": 3,
       "mdmEnrolledCount": 0,
       "dualEnrolledDeviceCount": 7,
@@ -104,7 +106,7 @@ Content-Length: 1372
           "Device Manufacturers value"
         ]
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

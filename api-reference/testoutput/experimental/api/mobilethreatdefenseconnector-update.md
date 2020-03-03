@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileThreatDefenseConnector
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnec
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobileThreatDefenseConnector.md) object.
+In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
 The following table shows the properties that are required when you create the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md).
 
@@ -73,13 +75,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
 Content-type: application/json
 Content-length: 723
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "androidMobileApplicationManagementEnabled": true,
   "iosMobileApplicationManagementEnabled": true,
@@ -111,8 +113,8 @@ Content-Length: 772
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "id": "4a33878d-878d-4a33-8d87-334a8d87334a",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "id": "d9de0841-0841-d9de-4108-ded94108ded9",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "androidMobileApplicationManagementEnabled": true,
   "iosMobileApplicationManagementEnabled": true,

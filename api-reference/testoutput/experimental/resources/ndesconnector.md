@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # ndesConnector resource type
+
+
+Namespace: microsoft.graph
 
 Entity which represents an OnPrem Ndes connector.
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get ndesConnector](../api/ndesconnector-get.md)|[ndesConnector](../resources/ndesConnector.md)|Read properties and relationships of the [ndesConnector](../resources/ndesconnector.md) object.|
+|[List ndesConnectors](../api/ndesconnector-list.md)|[ndesConnector](../resources/ndesconnector.md) collection|List properties and relationships of the [ndesConnector](../resources/ndesconnector.md) objects.|
+|[Get ndesConnector](../api/ndesconnector-get.md)|[ndesConnector](../resources/ndesconnector.md)|Read properties and relationships of the [ndesConnector](../resources/ndesconnector.md) object.|
+|[Create ndesConnector](../api/ndesconnector-create.md)|[ndesConnector](../resources/ndesconnector.md)|Create a new [ndesConnector](../resources/ndesconnector.md) object.|
 |[Delete ndesConnector](../api/ndesconnector-delete.md)|None|Deletes a [ndesConnector](../resources/ndesconnector.md).|
-|[Update ndesConnector](../api/ndesconnector-update.md)|[ndesConnector](../resources/ndesConnector.md)|Update the properties of a [ndesConnector](../resources/ndesconnector.md) object.|
-|[List ndesConnectors](../api/intune-devices-devicemanagement-list-ndesconnectors.md)|[ndesConnector](../resources/ndesConnector.md) collection|Get the ndesConnectors from the ndesConnectors navigation property.|
-|[Add ndesConnectors](../api/intune-devices-devicemanagement-post-ndesconnectors.md)|[ndesConnector](../resources/ndesConnector.md)|Add ndesConnectors by posting to the ndesConnectors collection.|
+|[Update ndesConnector](../api/ndesconnector-update.md)|[ndesConnector](../resources/ndesconnector.md)|Update the properties of a [ndesConnector](../resources/ndesconnector.md) object.|
+|[List ndesConnectors](../api/intune-devices-devicemanagement-list-ndesconnectors.md)|[ndesConnector](../resources/ndesconnector.md) collection|Get the ndesConnectors from the ndesConnectors navigation property.|
+|[Add ndesConnectors](../api/intune-devices-devicemanagement-post-ndesconnectors.md)|[ndesConnector](../resources/ndesconnector.md)|Add ndesConnectors by posting to the ndesConnectors collection.|
 
 ## Properties
 |Property|Type|Description|

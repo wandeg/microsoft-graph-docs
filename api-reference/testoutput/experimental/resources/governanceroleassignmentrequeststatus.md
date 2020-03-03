@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # governanceRoleAssignmentRequestStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |status|String||
-|statusDetails|[keyValue](../resources/keyValue.md) collection||
+|statusDetails|[keyValue](../resources/keyvalue.md) collection||
 |subStatus|String||
 
 ## Relationships

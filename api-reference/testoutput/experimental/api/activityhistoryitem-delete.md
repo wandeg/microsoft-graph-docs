@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete activityHistoryItem
 
+Namespace: microsoft.graph
+
 Deletes a [activityHistoryItem](../resources/activityhistoryitem.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/activities/{userActivityId}/historyItems/{activityHistoryItemId}
+DELETE https://graph.microsoft.com/localtest/me/activities/{userActivityId}/historyItems/{activityHistoryItemId}
 ```
 
 ### Response

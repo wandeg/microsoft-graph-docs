@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateRequest
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -47,13 +49,13 @@ The following table shows the parameters that can be used with this action.
 |:---|:---|:---|
 |decision|String||
 |assignmentState|String||
-|schedule|[governanceSchedule](../resources/governanceSchedule.md)||
+|schedule|[governanceSchedule](../resources/governanceschedule.md)||
 |reason|String||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [governanceRoleAssignmentRequest](../resources/governanceRoleAssignmentRequest.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) in the response body.
 
 ## Example
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequestsId}/updateRequest
+POST https://graph.microsoft.com/localtest/governanceRoleAssignmentRequests/{governanceRoleAssignmentRequestsId}/updateRequest
 
 Content-type: application/json
 Content-length: 193
@@ -96,14 +98,14 @@ Content-Length: 719
 {
   "value": {
     "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
-    "id": "8b5623bd-23bd-8b56-bd23-568bbd23568b",
+    "id": "296851b4-51b4-2968-b451-6829b4516829",
     "resourceId": "Resource Id value",
     "roleDefinitionId": "Role Definition Id value",
     "subjectId": "Subject Id value",
     "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
     "type": "Type value",
     "assignmentState": "Assignment State value",
-    "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+    "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
     "reason": "Reason value",
     "status": {
       "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus"

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessActivityCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessActivityCountses](../api/skypeforbusinessactivitycounts-list.md)|[skypeForBusinessActivityCounts](../resources/skypeForBusinessActivityCounts.md) collection|List properties and relationships of the [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) objects.|
-|[Get skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-get.md)|[skypeForBusinessActivityCounts](../resources/skypeForBusinessActivityCounts.md)|Read properties and relationships of the [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
-|[Create skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-create.md)|[skypeForBusinessActivityCounts](../resources/skypeForBusinessActivityCounts.md)|Create a new [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
+|[List skypeForBusinessActivityCountses](../api/skypeforbusinessactivitycounts-list.md)|[skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) collection|List properties and relationships of the [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) objects.|
+|[Get skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-get.md)|[skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md)|Read properties and relationships of the [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
+|[Create skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-create.md)|[skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md)|Create a new [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
 |[Delete skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-delete.md)|None|Deletes a [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md).|
-|[Update skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-update.md)|[skypeForBusinessActivityCounts](../resources/skypeForBusinessActivityCounts.md)|Update the properties of a [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
+|[Update skypeForBusinessActivityCounts](../api/skypeforbusinessactivitycounts-update.md)|[skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md)|Update the properties of a [skypeForBusinessActivityCounts](../resources/skypeforbusinessactivitycounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

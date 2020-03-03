@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365GroupsActivityCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365GroupsActivityCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365GroupsActivityCounts](../resources/office365GroupsActivityCounts.md) object.
+In the request body, supply a JSON representation for the [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md) object.
 
 The following table shows the properties that are required when you create the [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityCounts not found
 Content-type: application/json
 Content-length: 289
 
@@ -95,7 +97,7 @@ Content-Length: 338
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityCounts",
-  "id": "a282b8b1-b8b1-a282-b1b8-82a2b1b882a2",
+  "id": "75859bb3-9bb3-7585-b39b-8575b39b8575",
   "reportRefreshDate": "Date",
   "exchangeEmailsReceived": 6,
   "yammerMessagesPosted": 4,

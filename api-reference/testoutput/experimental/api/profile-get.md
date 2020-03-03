@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get profile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [profile](../resources/profile.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile
+GET https://graph.microsoft.com/localtest/me/profile
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 121
 {
   "value": {
     "@odata.type": "#microsoft.graph.profile",
-    "id": "b20033af-33af-b200-af33-00b2af3300b2"
+    "id": "e4dae4fb-e4fb-e4da-fbe4-dae4fbe4dae4"
   }
 }
 ```

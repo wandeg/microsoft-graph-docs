@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageAssignments
 
+Namespace: microsoft.graph
+
 Add accessPackageAssignments by posting to the accessPackageAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /identityGovernance/entitlementManagement/accessPackageAssignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageAssignment object.
+In the request body, supply a JSON representation for the [accessPackageAssignment](../resources/accesspackageassignment.md) object.
 
-The following table shows the properties that are required when you create the accessPackageAssignment.
+The following table shows the properties that are required when you create the [accessPackageAssignment](../resources/accesspackageassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageAssignments
+POST https://graph.microsoft.com/localtest/identityGovernance/entitlementManagement/accessPackageAssignments
 Content-type: application/json
 Content-length: 419
 
@@ -80,7 +82,7 @@ Content-length: 419
   "assignmentStatus": "Assignment Status value",
   "assignmentState": "Assignment State value",
   "isExtended": true,
-  "expiredDateTime": "2017-01-01T00:01:28.5537509+03:00"
+  "expiredDateTime": "2016-12-31T23:58:42.0287162+03:00"
 }
 ```
 
@@ -99,7 +101,7 @@ Content-Length: 468
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignment",
-  "id": "26ba4e1b-4e1b-26ba-1b4e-ba261b4eba26",
+  "id": "89902c03-2c03-8990-032c-9089032c9089",
   "catalogId": "Catalog Id value",
   "accessPackageId": "Access Package Id value",
   "assignmentPolicyId": "Assignment Policy Id value",
@@ -107,7 +109,7 @@ Content-Length: 468
   "assignmentStatus": "Assignment Status value",
   "assignmentState": "Assignment State value",
   "isExtended": true,
-  "expiredDateTime": "2017-01-01T00:01:28.5537509+03:00"
+  "expiredDateTime": "2016-12-31T23:58:42.0287162+03:00"
 }
 ```
 

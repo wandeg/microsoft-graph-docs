@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add connections
 
+Namespace: microsoft.graph
+
 Add connections by posting to the connections collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /external/connections/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the externalConnection object.
+In the request body, supply a JSON representation for the [externalConnection](../resources/externalconnection.md) object.
 
-The following table shows the properties that are required when you create the externalConnection.
+The following table shows the properties that are required when you create the [externalConnection](../resources/externalconnection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/external/connections
+POST https://graph.microsoft.com/localtest/external/connections
 Content-type: application/json
 Content-length: 268
 
@@ -94,7 +96,7 @@ Content-Length: 317
 
 {
   "@odata.type": "#microsoft.graph.externalConnection",
-  "id": "1cc90bb3-0bb3-1cc9-b30b-c91cb30bc91c",
+  "id": "1e85e39c-e39c-1e85-9ce3-851e9ce3851e",
   "name": "Name value",
   "description": "Description value",
   "configuration": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /education/users/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [educationUser](../resources/educationUser.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [educationUser](../resources/educationuser.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/users/delta
+GET https://graph.microsoft.com/localtest/education/users/delta
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2180
+Content-Length: 2179
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationUser",
-      "id": "727f345c-345c-727f-5c34-7f725c347f72",
+      "id": "c668dcfd-dcfd-c668-fddc-68c6fddc68c6",
       "relatedContacts": [
         {
           "@odata.type": "microsoft.graph.relatedContact"
@@ -125,7 +127,7 @@ Content-Length: 2180
           "@odata.type": "microsoft.graph.provisionedPlan"
         }
       ],
-      "refreshTokensValidFromDateTime": "2017-01-01T00:01:06.4301913+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
       "showInAddressList": true,
       "surname": "Surname value",
       "usageLocation": "Usage Location value",

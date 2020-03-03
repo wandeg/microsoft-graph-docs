@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidDeviceComplianceLocalActionBases
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionBase not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionBase not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 204
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionBase",
-      "id": "026b941b-941b-026b-1b94-6b021b946b02",
+      "id": "a934a557-a557-a934-57a5-34a957a534a9",
       "gracePeriodInMinutes": 4
     }
   ]

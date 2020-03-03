@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceManagementScriptGroupAssignment
 
-Update the properties of a [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ PATCH /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/group
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementScriptGroupAssignment](../resources/deviceManagementScriptGroupAssignment.md) object.
+In the request body, supply a JSON representation for the [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) object.
 
-The following table shows the properties that are required when you create the [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md).
+The following table shows the properties that are required when you create the [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/groupAssignments/{deviceManagementScriptGroupAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/groupAssignments/{deviceManagementScriptGroupAssignmentId}
 Content-type: application/json
 Content-length: 124
 
@@ -84,7 +86,7 @@ Content-Length: 173
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptGroupAssignment",
-  "id": "87582e40-2e40-8758-402e-5887402e5887",
+  "id": "64802449-2449-6480-4924-806449248064",
   "targetGroupId": "Target Group Id value"
 }
 ```

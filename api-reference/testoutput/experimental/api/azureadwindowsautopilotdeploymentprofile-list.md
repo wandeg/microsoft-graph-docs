@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List azureADWindowsAutopilotDeploymentProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [azureADWindowsAutopilotDeploymentProfile](../resources/azureadwindowsautopilotdeploymentprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.azureADWindowsAutopilotDeploymentProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.azureADWindowsAutopilotDeploymentProfile not found
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1489
+Content-Length: 1488
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
-      "id": "1704ffbc-ffbc-1704-bcff-0417bcff0417",
+      "id": "ac90906c-906c-ac90-6c90-90ac6c9090ac",
       "displayName": "Display Name value",
       "description": "Description value",
       "language": "Language value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "outOfBoxExperienceSettings": {
         "@odata.type": "microsoft.graph.outOfBoxExperienceSettings",
         "hidePrivacySettings": true,

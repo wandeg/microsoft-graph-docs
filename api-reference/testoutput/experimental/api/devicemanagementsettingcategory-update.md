@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementSettingCategory
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/categories/{deviceManagementSettingCategoryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementSettingCategory](../resources/deviceManagementSettingCategory.md) object.
+In the request body, supply a JSON representation for the [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/categories/{deviceManagementSettingCategoryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/categories/{deviceManagementSettingCategoryId}
 Content-type: application/json
 Content-length: 113
 
@@ -83,7 +85,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingCategory",
-  "id": "ef1cd7db-d7db-ef1c-dbd7-1cefdbd71cef",
+  "id": "fcc4bc02-bc02-fcc4-02bc-c4fc02bcc4fc",
   "displayName": "Display Name value"
 }
 ```

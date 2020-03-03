@@ -5,46 +5,49 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # exactMatchSession resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [exactMatchJobBase](../resources/exactMatchJobBase.md)
+
+
+Inherits from [exactMatchJobBase](../resources/exactmatchjobbase.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get exactMatchSession](../api/exactmatchsession-get.md)|[exactMatchSession](../resources/exactMatchSession.md)|Read properties and relationships of the [exactMatchSession](../resources/exactmatchsession.md) object.|
+|[List exactMatchSessions](../api/exactmatchsession-list.md)|[exactMatchSession](../resources/exactmatchsession.md) collection|List properties and relationships of the [exactMatchSession](../resources/exactmatchsession.md) objects.|
+|[Get exactMatchSession](../api/exactmatchsession-get.md)|[exactMatchSession](../resources/exactmatchsession.md)|Read properties and relationships of the [exactMatchSession](../resources/exactmatchsession.md) object.|
+|[Create exactMatchSession](../api/exactmatchsession-create.md)|[exactMatchSession](../resources/exactmatchsession.md)|Create a new [exactMatchSession](../resources/exactmatchsession.md) object.|
 |[Delete exactMatchSession](../api/exactmatchsession-delete.md)|None|Deletes a [exactMatchSession](../resources/exactmatchsession.md).|
-|[Update exactMatchSession](../api/exactmatchsession-update.md)|[exactMatchSession](../resources/exactMatchSession.md)|Update the properties of a [exactMatchSession](../resources/exactmatchsession.md) object.|
+|[Update exactMatchSession](../api/exactmatchsession-update.md)|[exactMatchSession](../resources/exactmatchsession.md)|Update the properties of a [exactMatchSession](../resources/exactmatchsession.md) object.|
 |[cancel](../api/exactmatchsession-cancel.md)|None||
 |[commit](../api/exactmatchsession-commit.md)|None||
-|[renew](../api/exactmatchsession-renew.md)|[exactMatchSession](../resources/exactMatchSession.md)||
-|[Get exactMatchUploadAgent](../api/exactmatchuploadagent-get.md)|[exactMatchUploadAgent](../resources/exactMatchUploadAgent.md)|Read properties and relationships of the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.|
+|[renew](../api/exactmatchsession-renew.md)|[exactMatchSession](../resources/exactmatchsession.md)||
+|[Get exactMatchUploadAgent](../api/exactmatchuploadagent-get.md)|[exactMatchUploadAgent](../resources/exactmatchuploadagent.md)|Read properties and relationships of the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |checksum|String||
-|completionDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
-|creationDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
+|completionDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
 |datastoreId|String||
 |dataUploadURI|String||
-|error|[classificationError](../resources/classificationError.md)| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
 |fields|String collection||
 |fileName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastUpdatedDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
+|lastUpdatedDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
 |processingCompletionDateTime|DateTimeOffset||
 |remainingBlockCount|Int32||
 |remainingJobCount|Int32||
 |rowsPerBlock|Int32||
-|startDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
+|startDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
 |state|String||
 |totalBlockCount|Int32||
 |totalJobCount|Int32||
@@ -54,7 +57,7 @@ Inherits from [exactMatchJobBase](../resources/exactMatchJobBase.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|uploadAgent|[exactMatchUploadAgent](../resources/exactMatchUploadAgent.md)||
+|uploadAgent|[exactMatchUploadAgent](../resources/exactmatchuploadagent.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

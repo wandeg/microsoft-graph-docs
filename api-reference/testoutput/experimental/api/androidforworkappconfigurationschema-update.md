@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidForWorkAppConfigurationSchema
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkApp
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidForWorkAppConfigurationSchema](../resources/androidForWorkAppConfigurationSchema.md) object.
+In the request body, supply a JSON representation for the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.
 
 The following table shows the properties that are required when you create the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |exampleJson|Binary|UTF8 encoded byte array containing example JSON string conforming to this schema that demonstrates how to set the configuration for this app|
-|schemaItems|[androidForWorkAppConfigurationSchemaItem](../resources/androidForWorkAppConfigurationSchemaItem.md) collection|Collection of items each representing a named configuration option in the schema|
+|schemaItems|[androidForWorkAppConfigurationSchemaItem](../resources/androidforworkappconfigurationschemaitem.md) collection|Collection of items each representing a named configuration option in the schema|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
 Content-type: application/json
 Content-length: 794
 
@@ -106,7 +108,7 @@ Content-Length: 843
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkAppConfigurationSchema",
-  "id": "c29eca59-ca59-c29e-59ca-9ec259ca9ec2",
+  "id": "6ceef0b9-f0b9-6cee-b9f0-ee6cb9f0ee6c",
   "exampleJson": "ZXhhbXBsZUpzb24=",
   "schemaItems": [
     {

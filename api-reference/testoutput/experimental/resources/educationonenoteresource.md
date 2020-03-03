@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationOneNoteResource resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationResource](../resources/educationResource.md)
+
+
+Inherits from [educationResource](../resources/educationresource.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [educationResource](../resources/educationResource.md)|
-|createdDateTime|DateTimeOffset| Inherited from [educationResource](../resources/educationResource.md)|
-|displayName|String| Inherited from [educationResource](../resources/educationResource.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [educationResource](../resources/educationResource.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [educationResource](../resources/educationResource.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [educationResource](../resources/educationresource.md)|
+|createdDateTime|DateTimeOffset| Inherited from [educationResource](../resources/educationresource.md)|
+|displayName|String| Inherited from [educationResource](../resources/educationresource.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [educationResource](../resources/educationresource.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [educationResource](../resources/educationresource.md)|
 |pageUrl|String||
 |sectionName|String||
 

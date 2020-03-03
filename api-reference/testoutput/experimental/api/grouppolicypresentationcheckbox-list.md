@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicyPresentationCheckBoxes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [groupPolicyPresentationCheckBox](../resources/grouppolicypresentationcheckbox.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationCheckBox not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationCheckBox not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 293
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyPresentationCheckBox",
-      "id": "7aadc0cc-c0cc-7aad-ccc0-ad7accc0ad7a",
+      "id": "7f1ce9d0-e9d0-7f1c-d0e9-1c7fd0e91c7f",
       "label": "Label value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "defaultChecked": true
     }
   ]

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppPolicyDeploymentSummaryPerApp resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |configurationAppliedUserCount|Int32|Number of users the policy is applied.|
-|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|Deployment of an app.|
+|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|Deployment of an app.|
 
 ## Relationships
 None

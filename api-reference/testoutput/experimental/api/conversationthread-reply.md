@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # reply
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,17 +63,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/threads/{conversationThreadId}/reply
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}/reply
 
 Content-type: application/json
-Content-length: 957
+Content-length: 956
 
 {
   "Post": {
     "@odata.type": "#microsoft.graph.post",
-    "id": "1ee906f1-06f1-1ee9-f106-e91ef106e91e",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "a60d9d57-9d57-a60d-579d-0da6579d0da6",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
@@ -81,7 +83,7 @@ Content-length: 957
       "contentType": "String",
       "content": "Content value"
     },
-    "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
+    "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
     "hasAttachments": true,
     "from": {
       "@odata.type": "microsoft.graph.recipient"

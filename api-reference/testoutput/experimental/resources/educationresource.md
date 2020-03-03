@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationResource resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |displayName|String||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 ## Relationships

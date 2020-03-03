@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create document
 
+Namespace: microsoft.graph
+
 Create a new [document](../resources/document.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.document not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the document object.
+In the request body, supply a JSON representation for the [document](../resources/document.md) object.
 
-The following table shows the properties that are required when you create the document.
+The following table shows the properties that are required when you create the [document](../resources/document.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.document not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.document not found
 Content-type: application/json
 Content-length: 50
 
@@ -83,7 +85,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.document",
-  "id": "3842d4a1-d4a1-3842-a1d4-4238a1d44238"
+  "id": "c4322df0-2df0-c432-f02d-32c4f02d32c4"
 }
 ```
 

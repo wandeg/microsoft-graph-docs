@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List matchingRows
 
+Namespace: microsoft.graph
+
 Get the lookupResultRows from the matchingRows navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.lookupResultRow not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.lookupResultRow not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 174
   "value": [
     {
       "@odata.type": "#microsoft.graph.lookupResultRow",
-      "id": "6cfc5585-5585-6cfc-8555-fc6c8555fc6c",
+      "id": "bacdab0b-ab0b-bacd-0bab-cdba0babcdba",
       "row": "Row value"
     }
   ]

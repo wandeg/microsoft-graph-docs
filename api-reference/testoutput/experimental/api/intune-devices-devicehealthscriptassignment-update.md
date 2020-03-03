@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceHealthScriptAssignment
 
-Update the properties of a [deviceHealthScriptAssignment](../resources/devicehealthscriptassignment.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,21 +37,21 @@ PATCH /deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments/{
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceHealthScriptAssignment](../resources/deviceHealthScriptAssignment.md) object.
+In the request body, supply a JSON representation for the [deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md) object.
 
-The following table shows the properties that are required when you create the [deviceHealthScriptAssignment](../resources/devicehealthscriptassignment.md).
+The following table shows the properties that are required when you create the [deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The Azure Active Directory group we are targeting the script to|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The Azure Active Directory group we are targeting the script to|
 |runRemediationScript|Boolean|Determine whether we want to run detection script only or run both detection script and remediation script|
-|runSchedule|[runSchedule](../resources/intune-devices-runSchedule.md)|Script run schedule for the target group|
+|runSchedule|[runSchedule](../resources/intune-devices-runschedule.md)|Script run schedule for the target group|
 
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceHealthScriptAssignment](../resources/devicehealthscriptassignment.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md) object in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments/{deviceHealthScriptAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments/{deviceHealthScriptAssignmentId}
 Content-type: application/json
 Content-length: 277
 
@@ -91,7 +93,7 @@ Content-Length: 326
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScriptAssignment",
-  "id": "ecc747d5-47d5-ecc7-d547-c7ecd547c7ec",
+  "id": "dfdfbf3b-bf3b-dfdf-3bbf-dfdf3bbfdfdf",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

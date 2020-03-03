@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailFolder resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,23 +20,25 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mailFolder](../api/mailfolder-get.md)|[mailFolder](../resources/mailFolder.md)|Read properties and relationships of the [mailFolder](../resources/mailfolder.md) object.|
+|[List mailFolders](../api/mailfolder-list.md)|[mailFolder](../resources/mailfolder.md) collection|List properties and relationships of the [mailFolder](../resources/mailfolder.md) objects.|
+|[Get mailFolder](../api/mailfolder-get.md)|[mailFolder](../resources/mailfolder.md)|Read properties and relationships of the [mailFolder](../resources/mailfolder.md) object.|
+|[Create mailFolder](../api/mailfolder-create.md)|[mailFolder](../resources/mailfolder.md)|Create a new [mailFolder](../resources/mailfolder.md) object.|
 |[Delete mailFolder](../api/mailfolder-delete.md)|None|Deletes a [mailFolder](../resources/mailfolder.md).|
-|[Update mailFolder](../api/mailfolder-update.md)|[mailFolder](../resources/mailFolder.md)|Update the properties of a [mailFolder](../resources/mailfolder.md) object.|
-|[copy](../api/mailfolder-copy.md)|[mailFolder](../resources/mailFolder.md)||
-|[move](../api/mailfolder-move.md)|[mailFolder](../resources/mailFolder.md)||
-|[List singleValueExtendedProperties](../api/mailfolder-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/mailfolder-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/mailfolder-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/mailfolder-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[Update mailFolder](../api/mailfolder-update.md)|[mailFolder](../resources/mailfolder.md)|Update the properties of a [mailFolder](../resources/mailfolder.md) object.|
+|[copy](../api/mailfolder-copy.md)|[mailFolder](../resources/mailfolder.md)||
+|[move](../api/mailfolder-move.md)|[mailFolder](../resources/mailfolder.md)||
+|[List singleValueExtendedProperties](../api/mailfolder-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/mailfolder-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/mailfolder-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/mailfolder-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
 |[List messages](../api/mailfolder-list-messages.md)|[message](../resources/message.md) collection|Get the messages from the messages navigation property.|
 |[Add messages](../api/mailfolder-post-messages.md)|[message](../resources/message.md)|Add messages by posting to the messages collection.|
-|[List messageRules](../api/mailfolder-list-messagerules.md)|[messageRule](../resources/messageRule.md) collection|Get the messageRules from the messageRules navigation property.|
-|[Add messageRules](../api/mailfolder-post-messagerules.md)|[messageRule](../resources/messageRule.md)|Add messageRules by posting to the messageRules collection.|
-|[List childFolders](../api/mailfolder-list-childfolders.md)|[mailFolder](../resources/mailFolder.md) collection|Get the mailFolders from the childFolders navigation property.|
-|[Add childFolders](../api/mailfolder-post-childfolders.md)|[mailFolder](../resources/mailFolder.md)|Add childFolders by posting to the childFolders collection.|
-|[List userConfigurations](../api/mailfolder-list-userconfigurations.md)|[userConfiguration](../resources/userConfiguration.md) collection|Get the userConfigurations from the userConfigurations navigation property.|
-|[Add userConfigurations](../api/mailfolder-post-userconfigurations.md)|[userConfiguration](../resources/userConfiguration.md)|Add userConfigurations by posting to the userConfigurations collection.|
+|[List messageRules](../api/mailfolder-list-messagerules.md)|[messageRule](../resources/messagerule.md) collection|Get the messageRules from the messageRules navigation property.|
+|[Add messageRules](../api/mailfolder-post-messagerules.md)|[messageRule](../resources/messagerule.md)|Add messageRules by posting to the messageRules collection.|
+|[List childFolders](../api/mailfolder-list-childfolders.md)|[mailFolder](../resources/mailfolder.md) collection|Get the mailFolders from the childFolders navigation property.|
+|[Add childFolders](../api/mailfolder-post-childfolders.md)|[mailFolder](../resources/mailfolder.md)|Add childFolders by posting to the childFolders collection.|
+|[List userConfigurations](../api/mailfolder-list-userconfigurations.md)|[userConfiguration](../resources/userconfiguration.md) collection|Get the userConfigurations from the userConfigurations navigation property.|
+|[Add userConfigurations](../api/mailfolder-post-userconfigurations.md)|[userConfiguration](../resources/userconfiguration.md)|Add userConfigurations by posting to the userConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -51,12 +54,12 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|childFolders|[mailFolder](../resources/mailFolder.md) collection||
-|messageRules|[messageRule](../resources/messageRule.md) collection||
+|childFolders|[mailFolder](../resources/mailfolder.md) collection||
+|messageRules|[messageRule](../resources/messagerule.md) collection||
 |messages|[message](../resources/message.md) collection||
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection||
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection||
-|userConfigurations|[userConfiguration](../resources/userConfiguration.md) collection||
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
+|userConfigurations|[userConfiguration](../resources/userconfiguration.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

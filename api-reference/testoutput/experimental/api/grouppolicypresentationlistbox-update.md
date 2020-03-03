@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyPresentationListBox
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyPresentationListBox](../resources/grouppolicypresentationlistbox.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.groupPolicyPresentationListBox not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyPresentationListBox](../resources/groupPolicyPresentationListBox.md) object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationListBox](../resources/grouppolicypresentationlistbox.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyPresentationListBox](../resources/grouppolicypresentationlistbox.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
 |explicitValue|Boolean|If this option is specified true the user must specify the registry subkey value and the registry subkey name. The list box shows two columns, one for the name and one for the data. The default value is false.|
 |valuePrefix|String||
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationListBox not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationListBox not found
 Content-type: application/json
 Content-length: 165
 
@@ -88,9 +90,9 @@ Content-Length: 278
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationListBox",
-  "id": "03447017-7017-0344-1770-440317704403",
+  "id": "bc4e845d-845d-bc4e-5d84-4ebc5d844ebc",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "explicitValue": true,
   "valuePrefix": "Value Prefix value"
 }

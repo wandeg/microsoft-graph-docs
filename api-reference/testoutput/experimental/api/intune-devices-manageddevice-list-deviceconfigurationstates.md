@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceConfigurationStates
 
+Namespace: microsoft.graph
+
 Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceConfigurationStates
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceConfigurationStates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1249
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationState",
-      "id": "5a7795f3-95f3-5a77-f395-775af395775a",
+      "id": "333149cd-49cd-3331-cd49-3133cd493133",
       "settingStates": [
         {
           "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

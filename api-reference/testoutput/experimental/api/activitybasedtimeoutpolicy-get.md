@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get activityBasedTimeoutPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
+GET https://graph.microsoft.com/localtest/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 314
 {
   "value": {
     "@odata.type": "#microsoft.graph.activityBasedTimeoutPolicy",
-    "id": "86d5d598-d598-86d5-98d5-d58698d5d586",
+    "id": "e1930949-0949-e193-4909-93e1490993e1",
     "description": "Description value",
     "displayName": "Display Name value",
     "definition": [

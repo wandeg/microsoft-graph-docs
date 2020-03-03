@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get unifiedRoleAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [unifiedRoleAssignment](../resources/unifiedroleassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/roleManagement/directory/roleAssignments/{unifiedRoleAssignmentId}
+GET https://graph.microsoft.com/localtest/roleManagement/directory/roleAssignments/{unifiedRoleAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 276
 {
   "value": {
     "@odata.type": "#microsoft.graph.unifiedRoleAssignment",
-    "id": "c5fe217e-217e-c5fe-7e21-fec57e21fec5",
+    "id": "dfc82d60-2d60-dfc8-602d-c8df602dc8df",
     "principalId": "Principal Id value",
     "resourceScope": "Resource Scope value",
     "roleDefinitionId": "Role Definition Id value"

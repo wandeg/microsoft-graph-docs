@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsInformationProtectionNetworkLearningSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/windowsInformationProtectionNetworkLearningSummaries/{wi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsInformationProtectionNetworkLearningSummary.md) object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md) object.
 
 The following table shows the properties that are required when you create the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/windowsInformationProtectionNetworkLearningSummaries/{windowsInformationProtectionNetworkLearningSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/windowsInformationProtectionNetworkLearningSummaries/{windowsInformationProtectionNetworkLearningSummaryId}
 Content-type: application/json
 Content-length: 137
 
@@ -85,7 +87,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionNetworkLearningSummary",
-  "id": "0faea54f-a54f-0fae-4fa5-ae0f4fa5ae0f",
+  "id": "4e7d5a7e-5a7e-4e7d-7e5a-7d4e7e5a7d4e",
   "url": "Url value",
   "deviceCount": 11
 }

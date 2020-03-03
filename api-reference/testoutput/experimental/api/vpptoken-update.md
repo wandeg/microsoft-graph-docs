@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update vppToken
 
+Namespace: microsoft.graph
+
 Update the properties of a [vppToken](../resources/vpptoken.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/vppTokens/{vppTokenId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [vppToken](../resources/vppToken.md) object.
+In the request body, supply a JSON representation for the [vppToken](../resources/vpptoken.md) object.
 
 The following table shows the properties that are required when you create the [vppToken](../resources/vpptoken.md).
 
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 |token|String|The Apple Volume Purchase Program Token string downloaded from the Apple Volume Purchase Program.|
 |lastModifiedDateTime|DateTimeOffset|Last modification date time associated with the Apple Volume Purchase Program Token.|
 |state|Enumeration|Current state of the Apple Volume Purchase Program Token. Possible values are: `unknown`, `valid`, `expired`, `invalid`, `assignedToExternalMDM`. Possible values are: `unknown`, `valid`, `expired`, `invalid`, `assignedToExternalMDM`.|
-|tokenActionResults|[vppTokenActionResult](../resources/vppTokenActionResult.md) collection|The collection of statuses of the actions performed on the Apple Volume Purchase Program Token.|
+|tokenActionResults|[vppTokenActionResult](../resources/vpptokenactionresult.md) collection|The collection of statuses of the actions performed on the Apple Volume Purchase Program Token.|
 |lastSyncStatus|Enumeration|Current sync status of the last application sync which was triggered using the Apple Volume Purchase Program Token. Possible values are: `none`, `inProgress`, `completed`, `failed`. Possible values are: `none`, `inProgress`, `completed`, `failed`.|
 |automaticallyUpdateApps|Boolean|Whether or not apps for the VPP token will be automatically updated.|
 |countryOrRegion|String|Whether or not apps for the VPP token will be automatically updated.|
@@ -75,17 +77,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/vppTokens/{vppTokenId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/vppTokens/{vppTokenId}
 Content-type: application/json
-Content-length: 993
+Content-length: 995
 
 {
   "@odata.type": "#microsoft.graph.vppToken",
   "organizationName": "Organization Name value",
   "vppTokenAccountType": "String",
   "appleId": "Apple Id value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "token": "Token value",
   "state": "String",
   "tokenActionResults": [
@@ -93,8 +95,8 @@ Content-length: 993
       "@odata.type": "microsoft.graph.vppTokenActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
     }
   ],
   "lastSyncStatus": "String",
@@ -120,26 +122,26 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1106
+Content-Length: 1108
 
 {
   "@odata.type": "#microsoft.graph.vppToken",
-  "id": "d9039a32-9a32-d903-329a-03d9329a03d9",
+  "id": "be7b7b55-7b55-be7b-557b-7bbe557b7bbe",
   "organizationName": "Organization Name value",
   "vppTokenAccountType": "String",
   "appleId": "Apple Id value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "token": "Token value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "state": "String",
   "tokenActionResults": [
     {
       "@odata.type": "microsoft.graph.vppTokenActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
     }
   ],
   "lastSyncStatus": "String",

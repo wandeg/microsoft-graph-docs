@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # depEnrollmentProfile resource type
+
+
+Namespace: microsoft.graph
 
 The depEnrollmentProfile resource represents an Apple Device Enrollment Program (DEP) enrollment profile. This type of profile must be assigned to Apple DEP serial numbers before the corresponding devices can enroll via DEP.
 
 
-Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
+Inherits from [enrollmentProfile](../resources/enrollmentprofile.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List depEnrollmentProfiles](../api/depenrollmentprofile-list.md)|[depEnrollmentProfile](../resources/depEnrollmentProfile.md) collection|List properties and relationships of the [depEnrollmentProfile](../resources/depenrollmentprofile.md) objects.|
-|[Get depEnrollmentProfile](../api/depenrollmentprofile-get.md)|[depEnrollmentProfile](../resources/depEnrollmentProfile.md)|Read properties and relationships of the [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
-|[Create depEnrollmentProfile](../api/depenrollmentprofile-create.md)|[depEnrollmentProfile](../resources/depEnrollmentProfile.md)|Create a new [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
+|[List depEnrollmentProfiles](../api/depenrollmentprofile-list.md)|[depEnrollmentProfile](../resources/depenrollmentprofile.md) collection|List properties and relationships of the [depEnrollmentProfile](../resources/depenrollmentprofile.md) objects.|
+|[Get depEnrollmentProfile](../api/depenrollmentprofile-get.md)|[depEnrollmentProfile](../resources/depenrollmentprofile.md)|Read properties and relationships of the [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
+|[Create depEnrollmentProfile](../api/depenrollmentprofile-create.md)|[depEnrollmentProfile](../resources/depenrollmentprofile.md)|Create a new [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
 |[Delete depEnrollmentProfile](../api/depenrollmentprofile-delete.md)|None|Deletes a [depEnrollmentProfile](../resources/depenrollmentprofile.md).|
-|[Update depEnrollmentProfile](../api/depenrollmentprofile-update.md)|[depEnrollmentProfile](../resources/depEnrollmentProfile.md)|Update the properties of a [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
+|[Update depEnrollmentProfile](../api/depenrollmentprofile-update.md)|[depEnrollmentProfile](../resources/depenrollmentprofile.md)|Update the properties of a [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.|
 |[setDefaultProfile](../api/depenrollmentprofile-setdefaultprofile.md)|None||
 |[exportMobileConfig](../api/depenrollmentprofile-exportmobileconfig.md)|String||
 |[updateDeviceProfileAssignment](../api/depenrollmentprofile-updatedeviceprofileassignment.md)|None||
@@ -34,11 +35,11 @@ Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
 |appleIdDisabled|Boolean|Indicates if Apple id setup pane is disabled|
 |applePayDisabled|Boolean|Indicates if Apple pay setup pane is disabled|
 |awaitDeviceConfiguredConfirmation|Boolean|Indicates if the device will need to wait for configured confirmation|
-|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |diagnosticsDisabled|Boolean|Indicates if diagnostics setup pane is disabled|
-|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |enableSharedIPad|Boolean|This indicates whether the device is to be enrolled in a mode which enables multi user scenarios. Only applicable in shared iPads.|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isDefault|Boolean|Indicates if this is the default profile|
@@ -47,11 +48,11 @@ Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
 |locationDisabled|Boolean|Indicates if Location service setup pane is disabled|
 |macOSFileVaultDisabled|Boolean|Indicates if Mac OS file vault is disabled|
 |macOSRegistrationDisabled|Boolean|Indicates if Mac OS registration is disabled|
-|managementCertificates|[managementCertificateWithThumbprint](../resources/managementCertificateWithThumbprint.md) collection|Management certificates for Apple Configurator|
+|managementCertificates|[managementCertificateWithThumbprint](../resources/managementcertificatewiththumbprint.md) collection|Management certificates for Apple Configurator|
 |passCodeDisabled|Boolean|Indicates if Passcode setup pane is disabled|
 |profileRemovalDisabled|Boolean|Indicates if the profile removal option is disabled|
-|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |restoreBlocked|Boolean|Indicates if Restore setup pane is blocked|
 |restoreFromAndroidDisabled|Boolean|Indicates if Restore from Android is disabled|
 |sharedIPadMaximumUserCount|Int32|This specifies the maximum number of users that can use a shared iPad. Only applicable in shared iPad mode.|

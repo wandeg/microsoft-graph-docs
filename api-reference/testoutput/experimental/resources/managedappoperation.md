@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppOperation resource type
+
+
+Namespace: microsoft.graph
 
 Represents an operation applied against an app registration.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedAppOperation](../api/managedappoperation-get.md)|[managedAppOperation](../resources/managedAppOperation.md)|Read properties and relationships of the [managedAppOperation](../resources/managedappoperation.md) object.|
+|[List managedAppOperations](../api/managedappoperation-list.md)|[managedAppOperation](../resources/managedappoperation.md) collection|List properties and relationships of the [managedAppOperation](../resources/managedappoperation.md) objects.|
+|[Get managedAppOperation](../api/managedappoperation-get.md)|[managedAppOperation](../resources/managedappoperation.md)|Read properties and relationships of the [managedAppOperation](../resources/managedappoperation.md) object.|
+|[Create managedAppOperation](../api/managedappoperation-create.md)|[managedAppOperation](../resources/managedappoperation.md)|Create a new [managedAppOperation](../resources/managedappoperation.md) object.|
 |[Delete managedAppOperation](../api/managedappoperation-delete.md)|None|Deletes a [managedAppOperation](../resources/managedappoperation.md).|
-|[Update managedAppOperation](../api/managedappoperation-update.md)|[managedAppOperation](../resources/managedAppOperation.md)|Update the properties of a [managedAppOperation](../resources/managedappoperation.md) object.|
+|[Update managedAppOperation](../api/managedappoperation-update.md)|[managedAppOperation](../resources/managedappoperation.md)|Update the properties of a [managedAppOperation](../resources/managedappoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|

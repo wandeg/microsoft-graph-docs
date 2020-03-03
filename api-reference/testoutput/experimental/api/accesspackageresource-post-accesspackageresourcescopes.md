@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageResourceScopes
 
+Namespace: microsoft.graph
+
 Add accessPackageResourceScopes by posting to the accessPackageResourceScopes collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPack
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageResourceScope object.
+In the request body, supply a JSON representation for the [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object.
 
-The following table shows the properties that are required when you create the accessPackageResourceScope.
+The following table shows the properties that are required when you create the [accessPackageResourceScope](../resources/accesspackageresourcescope.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageResources/{accessPackageResourcesId}/accessPackageResourceScopes
+POST https://graph.microsoft.com/localtest/accessPackageResources/{accessPackageResourcesId}/accessPackageResourceScopes
 Content-type: application/json
 Content-length: 313
 
@@ -98,7 +100,7 @@ Content-Length: 362
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceScope",
-  "id": "f2526dba-6dba-f252-ba6d-52f2ba6d52f2",
+  "id": "c1401591-1591-c140-9115-40c1911540c1",
   "displayName": "Display Name value",
   "description": "Description value",
   "originId": "Origin Id value",

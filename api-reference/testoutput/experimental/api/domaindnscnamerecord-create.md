@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create domainDnsCnameRecord
 
+Namespace: microsoft.graph
+
 Create a new [domainDnsCnameRecord](../resources/domaindnscnamerecord.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.domainDnsCnameRecord not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the domainDnsCnameRecord object.
+In the request body, supply a JSON representation for the [domainDnsCnameRecord](../resources/domaindnscnamerecord.md) object.
 
-The following table shows the properties that are required when you create the domainDnsCnameRecord.
+The following table shows the properties that are required when you create the [domainDnsCnameRecord](../resources/domaindnscnamerecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |canonicalName|String||
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsCnameRecord not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsCnameRecord not found
 Content-type: application/json
 Content-length: 257
 
@@ -95,7 +97,7 @@ Content-Length: 306
 
 {
   "@odata.type": "#microsoft.graph.domainDnsCnameRecord",
-  "id": "e5698887-8887-e569-8788-69e5878869e5",
+  "id": "2011ef2e-ef2e-2011-2eef-11202eef1120",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # oneDriveUsageAccountCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List oneDriveUsageAccountCountses](../api/onedriveusageaccountcounts-list.md)|[oneDriveUsageAccountCounts](../resources/oneDriveUsageAccountCounts.md) collection|List properties and relationships of the [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) objects.|
-|[Get oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-get.md)|[oneDriveUsageAccountCounts](../resources/oneDriveUsageAccountCounts.md)|Read properties and relationships of the [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
-|[Create oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-create.md)|[oneDriveUsageAccountCounts](../resources/oneDriveUsageAccountCounts.md)|Create a new [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
+|[List oneDriveUsageAccountCountses](../api/onedriveusageaccountcounts-list.md)|[oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) collection|List properties and relationships of the [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) objects.|
+|[Get oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-get.md)|[oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md)|Read properties and relationships of the [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
+|[Create oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-create.md)|[oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md)|Create a new [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
 |[Delete oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-delete.md)|None|Deletes a [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md).|
-|[Update oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-update.md)|[oneDriveUsageAccountCounts](../resources/oneDriveUsageAccountCounts.md)|Update the properties of a [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
+|[Update oneDriveUsageAccountCounts](../api/onedriveusageaccountcounts-update.md)|[oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md)|Update the properties of a [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

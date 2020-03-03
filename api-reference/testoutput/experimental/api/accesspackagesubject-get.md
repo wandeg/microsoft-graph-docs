@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get accessPackageSubject
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) object.
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageAssignments/{accessPackageAssignmentsId}/target
+GET https://graph.microsoft.com/localtest/accessPackageAssignments/{accessPackageAssignmentsId}/target
 ```
 
 ### Response
@@ -79,7 +81,7 @@ Content-Length: 429
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessPackageSubject",
-    "id": "c54c8df5-8df5-c54c-f58d-4cc5f58d4cc5",
+    "id": "a24dca23-ca23-a24d-23ca-4da223ca4da2",
     "objectId": "Object Id value",
     "altSecId": "Alt Sec Id value",
     "displayName": "Display Name value",

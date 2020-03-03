@@ -5,40 +5,41 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # domainDnsSrvRecord resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [domainDnsRecord](../resources/domainDnsRecord.md)
+
+
+Inherits from [domainDnsRecord](../resources/domaindnsrecord.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List domainDnsSrvRecords](../api/domaindnssrvrecord-list.md)|[domainDnsSrvRecord](../resources/domainDnsSrvRecord.md) collection|List properties and relationships of the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) objects.|
-|[Get domainDnsSrvRecord](../api/domaindnssrvrecord-get.md)|[domainDnsSrvRecord](../resources/domainDnsSrvRecord.md)|Read properties and relationships of the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
-|[Create domainDnsSrvRecord](../api/domaindnssrvrecord-create.md)|[domainDnsSrvRecord](../resources/domainDnsSrvRecord.md)|Create a new [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
+|[List domainDnsSrvRecords](../api/domaindnssrvrecord-list.md)|[domainDnsSrvRecord](../resources/domaindnssrvrecord.md) collection|List properties and relationships of the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) objects.|
+|[Get domainDnsSrvRecord](../api/domaindnssrvrecord-get.md)|[domainDnsSrvRecord](../resources/domaindnssrvrecord.md)|Read properties and relationships of the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
+|[Create domainDnsSrvRecord](../api/domaindnssrvrecord-create.md)|[domainDnsSrvRecord](../resources/domaindnssrvrecord.md)|Create a new [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
 |[Delete domainDnsSrvRecord](../api/domaindnssrvrecord-delete.md)|None|Deletes a [domainDnsSrvRecord](../resources/domaindnssrvrecord.md).|
-|[Update domainDnsSrvRecord](../api/domaindnssrvrecord-update.md)|[domainDnsSrvRecord](../resources/domainDnsSrvRecord.md)|Update the properties of a [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
+|[Update domainDnsSrvRecord](../api/domaindnssrvrecord-update.md)|[domainDnsSrvRecord](../resources/domaindnssrvrecord.md)|Update the properties of a [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |nameTarget|String||
 |port|Int32||
 |priority|Int32||
 |protocol|String||
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |service|String||
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |weight|Int32||
 
 ## Relationships

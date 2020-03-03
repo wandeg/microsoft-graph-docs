@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedAppStatusRaw
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedAppStatusRaw](../resources/managedappstatusraw.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH ** Entity URI for microsoft.graph.managedAppStatusRaw not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedAppStatusRaw](../resources/managedAppStatusRaw.md) object.
+In the request body, supply a JSON representation for the [managedAppStatusRaw](../resources/managedappstatusraw.md) object.
 
 The following table shows the properties that are required when you create the [managedAppStatusRaw](../resources/managedappstatusraw.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Friendly name of the status report. Inherited from [managedAppStatus](../resources/managedAppStatus.md)|
-|version|String|Version of the entity. Inherited from [managedAppStatus](../resources/managedAppStatus.md)|
-|content|[Json](../resources/Json.md)|Status report content.|
+|displayName|String|Friendly name of the status report. Inherited from [managedAppStatus](../resources/managedappstatus.md)|
+|version|String|Version of the entity. Inherited from [managedAppStatus](../resources/managedappstatus.md)|
+|content|[Json](../resources/json.md)|Status report content.|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.managedAppStatusRaw not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.managedAppStatusRaw not found
 Content-type: application/json
 Content-length: 197
 
@@ -89,7 +91,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.managedAppStatusRaw",
-  "id": "16795e66-5e66-1679-665e-7916665e7916",
+  "id": "81550748-0748-8155-4807-558148075581",
   "displayName": "Display Name value",
   "version": "Version value",
   "content": {

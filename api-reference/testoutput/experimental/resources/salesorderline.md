@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesOrderLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesOrderLine](../api/salesorderline-get.md)|[salesOrderLine](../resources/salesOrderLine.md)|Read properties and relationships of the [salesOrderLine](../resources/salesorderline.md) object.|
+|[List salesOrderLines](../api/salesorderline-list.md)|[salesOrderLine](../resources/salesorderline.md) collection|List properties and relationships of the [salesOrderLine](../resources/salesorderline.md) objects.|
+|[Get salesOrderLine](../api/salesorderline-get.md)|[salesOrderLine](../resources/salesorderline.md)|Read properties and relationships of the [salesOrderLine](../resources/salesorderline.md) object.|
+|[Create salesOrderLine](../api/salesorderline-create.md)|[salesOrderLine](../resources/salesorderline.md)|Create a new [salesOrderLine](../resources/salesorderline.md) object.|
 |[Delete salesOrderLine](../api/salesorderline-delete.md)|None|Deletes a [salesOrderLine](../resources/salesorderline.md).|
-|[Update salesOrderLine](../api/salesorderline-update.md)|[salesOrderLine](../resources/salesOrderLine.md)|Update the properties of a [salesOrderLine](../resources/salesorderline.md) object.|
+|[Update salesOrderLine](../api/salesorderline-update.md)|[salesOrderLine](../resources/salesorderline.md)|Update the properties of a [salesOrderLine](../resources/salesorderline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookNamedItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookNamedItem](../resources/workbooknameditem.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookNamedItem](../resources/workbookNamedItem.md) object.
+In the request body, supply a JSON representation for the [workbookNamedItem](../resources/workbooknameditem.md) object.
 
 The following table shows the properties that are required when you create the [workbookNamedItem](../resources/workbooknameditem.md).
 
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the [
 |name|String||
 |scope|String||
 |type|String||
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 |visible|Boolean||
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}
 Content-type: application/json
 Content-length: 250
 
@@ -96,7 +98,7 @@ Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.workbookNamedItem",
-  "id": "8e64bc7c-bc7c-8e64-7cbc-648e7cbc648e",
+  "id": "c74a65c6-65c6-c74a-c665-4ac7c6654ac7",
   "comment": "Comment value",
   "name": "Name value",
   "scope": "Scope value",

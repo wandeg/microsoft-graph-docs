@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List events
 
+Namespace: microsoft.graph
+
 Get the events from the events navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/events
+GET https://graph.microsoft.com/localtest/me/events
 ```
 
 ### Response
@@ -65,15 +67,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4812
+Content-Length: 4811
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "5e1d7c31-7c31-5e1d-317c-1d5e317c1d5e",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "5eb27d1d-7d1d-5eb2-1d7d-b25e1d7db25e",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -83,7 +85,7 @@ Content-Length: 4812
       "responseStatus": {
         "@odata.type": "microsoft.graph.responseStatus",
         "response": "String",
-        "time": "2017-01-01T00:01:32.2341712+03:00"
+        "time": "2017-01-01T00:02:03.2535944+03:00"
       },
       "uid": "Uid value",
       "reminderMinutesBeforeStart": 10,
@@ -103,7 +105,7 @@ Content-Length: 4812
         "dateTime": "Date Time value",
         "timeZone": "Time Zone value"
       },
-      "originalStart": "2017-01-01T00:01:10.0724857+03:00",
+      "originalStart": "2017-01-01T00:01:49.3724493+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

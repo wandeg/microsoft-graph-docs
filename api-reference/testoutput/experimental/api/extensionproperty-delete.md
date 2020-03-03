@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete extensionProperty
 
+Namespace: microsoft.graph
+
 Deletes a [extensionProperty](../resources/extensionproperty.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/applications/{applicationsId}/extensionProperties/{extensionPropertyId}
+DELETE https://graph.microsoft.com/localtest/applications/{applicationsId}/extensionProperties/{extensionPropertyId}
 ```
 
 ### Response

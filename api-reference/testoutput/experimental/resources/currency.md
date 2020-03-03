@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # currency resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List currencies](../api/currency-list.md)|[currency](../resources/currency.md) collection|List properties and relationships of the [currency](../resources/currency.md) objects.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
+|[Create currency](../api/currency-create.md)|[currency](../resources/currency.md)|Create a new [currency](../resources/currency.md) object.|
 |[Delete currency](../api/currency-delete.md)|None|Deletes a [currency](../resources/currency.md).|
 |[Update currency](../api/currency-update.md)|[currency](../resources/currency.md)|Update the properties of a [currency](../resources/currency.md) object.|
 

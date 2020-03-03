@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List secureScores
 
+Namespace: microsoft.graph
+
 Get the secureScores from the secureScores navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/secureScores
+GET https://graph.microsoft.com/localtest/Security/secureScores
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1237
+Content-Length: 1236
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.secureScore",
-      "id": "fef0bf17-bf17-fef0-17bf-f0fe17bff0fe",
+      "id": "dc585446-5446-dc58-4654-58dc465458dc",
       "activeUserCount": 15,
       "averageComparativeScores": [
         {
@@ -89,7 +91,7 @@ Content-Length: 1237
           "score": "Double"
         }
       ],
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "currentScore": "Double",
       "enabledServices": [
         "Enabled Services value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add domainJoinConnectors
 
+Namespace: microsoft.graph
+
 Add domainJoinConnectors by posting to the domainJoinConnectors collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/domainJoinConnectors/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementDomainJoinConnector object.
+In the request body, supply a JSON representation for the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementDomainJoinConnector.
+The following table shows the properties that are required when you create the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,14 +65,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/domainJoinConnectors
+POST https://graph.microsoft.com/localtest/deviceManagement/domainJoinConnectors
 Content-type: application/json
 Content-length: 236
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementDomainJoinConnector",
   "displayName": "Display Name value",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
   "state": "String",
   "version": "Version value"
 }
@@ -91,9 +93,9 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementDomainJoinConnector",
-  "id": "6684c925-c925-6684-25c9-846625c98466",
+  "id": "a924df48-df48-a924-48df-24a948df24a9",
   "displayName": "Display Name value",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
   "state": "String",
   "version": "Version value"
 }

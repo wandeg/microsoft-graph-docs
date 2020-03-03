@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete servicePrincipal
 
+Namespace: microsoft.graph
+
 Deletes a [servicePrincipal](../resources/serviceprincipal.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}
+DELETE https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}
 ```
 
 ### Response

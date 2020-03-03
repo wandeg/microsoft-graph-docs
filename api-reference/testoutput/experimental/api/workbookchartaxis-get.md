@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartAxis
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/valueAxis
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/valueAxis
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 419
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartAxis",
-    "id": "fdf1d167-d167-fdf1-67d1-f1fd67d1f1fd",
+    "id": "ef5d4531-4531-ef5d-3145-5def31455def",
     "majorUnit": {
       "@odata.type": "microsoft.graph.Json"
     },

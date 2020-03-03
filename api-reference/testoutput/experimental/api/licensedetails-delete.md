@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete licenseDetails
 
+Namespace: microsoft.graph
+
 Deletes a [licenseDetails](../resources/licensedetails.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/licenseDetails/{licenseDetailsId}
+DELETE https://graph.microsoft.com/localtest/me/licenseDetails/{licenseDetailsId}
 ```
 
 ### Response

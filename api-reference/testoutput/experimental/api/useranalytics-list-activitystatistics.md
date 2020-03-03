@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List activityStatistics
 
+Namespace: microsoft.graph
+
 Get the activityStatisticses from the activityStatistics navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/analytics/activityStatistics
+GET https://graph.microsoft.com/localtest/me/analytics/activityStatistics
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 318
+Content-Length: 319
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.activityStatistics",
-      "id": "c0dd8613-8613-c0dd-1386-ddc01386ddc0",
+      "id": "53e767f4-67f4-53e7-f467-e753f467e753",
       "activity": "String",
       "startDate": "Date",
       "endDate": "Date",
       "timeZoneUsed": "Time Zone Used value",
-      "duration": "PT3M27.7161587S"
+      "duration": "-PT1M55.0810357S"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add columns
 
+Namespace: microsoft.graph
+
 Add columns by posting to the columns collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/w
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookTableColumn object.
+In the request body, supply a JSON representation for the [workbookTableColumn](../resources/workbooktablecolumn.md) object.
 
-The following table shows the properties that are required when you create the workbookTableColumn.
+The following table shows the properties that are required when you create the [workbookTableColumn](../resources/workbooktablecolumn.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |index|Int32||
 |name|String||
-|values|[Json](../resources/Json.md)||
+|values|[Json](../resources/json.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns
 Content-type: application/json
 Content-length: 165
 
@@ -91,7 +93,7 @@ Content-Length: 214
 
 {
   "@odata.type": "#microsoft.graph.workbookTableColumn",
-  "id": "6c07269a-269a-6c07-9a26-076c9a26076c",
+  "id": "e0a80ff4-0ff4-e0a8-f40f-a8e0f40fa8e0",
   "index": 5,
   "name": "Name value",
   "values": {

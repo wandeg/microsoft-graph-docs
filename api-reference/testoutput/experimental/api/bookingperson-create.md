@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create bookingPerson
 
+Namespace: microsoft.graph
+
 Create a new [bookingPerson](../resources/bookingperson.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.bookingPerson not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the bookingPerson object.
+In the request body, supply a JSON representation for the [bookingPerson](../resources/bookingperson.md) object.
 
-The following table shows the properties that are required when you create the bookingPerson.
+The following table shows the properties that are required when you create the [bookingPerson](../resources/bookingperson.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
 |emailAddress|String|The e-mail address of this person.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.bookingPerson not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.bookingPerson not found
 Content-type: application/json
 Content-length: 137
 
@@ -88,7 +90,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.bookingPerson",
-  "id": "a66bf211-f211-a66b-11f2-6ba611f26ba6",
+  "id": "c464f74e-f74e-c464-4ef7-64c44ef764c4",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value"
 }

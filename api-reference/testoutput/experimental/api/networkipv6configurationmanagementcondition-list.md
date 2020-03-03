@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List networkIPv6ConfigurationManagementConditions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [networkIPv6ConfigurationManagementCondition](../resources/networkipv6configurationmanagementcondition.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.networkIPv6ConfigurationManagementCondition not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.networkIPv6ConfigurationManagementCondition not found
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 752
+Content-Length: 751
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.networkIPv6ConfigurationManagementCondition",
-      "id": "75387cc2-7cc2-7538-c27c-3875c27c3875",
+      "id": "904a3b62-3b62-904a-623b-4a90623b4a90",
       "uniqueName": "Unique Name value",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
       "eTag": "ETag value",
       "applicablePlatforms": [
         "String"

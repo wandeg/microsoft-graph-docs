@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get iosMobileAppConfiguration
 
-Read properties and relationships of the [iosMobileAppConfiguration](../resources/iosmobileappconfiguration.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [iosMobileAppConfiguration](../resources/intune-apps-iosmobileappconfiguration.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [iosMobileAppConfiguration](../resources/iosmobileappconfiguration.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [iosMobileAppConfiguration](../resources/intune-apps-iosmobileappconfiguration.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosMobileAppConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosMobileAppConfiguration not found
 ```
 
 ### Response
@@ -67,21 +69,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 826
+Content-Length: 825
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
-    "id": "a5fe3364-3364-a5fe-6433-fea56433fea5",
+    "id": "4bb72cc1-2cc1-4bb7-c12c-b74bc12cb74b",
     "targetedMobileApps": [
       "Targeted Mobile Apps value"
     ],
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "version": 7,
     "encodedSettingXml": "ZW5jb2RlZFNldHRpbmdYbWw=",

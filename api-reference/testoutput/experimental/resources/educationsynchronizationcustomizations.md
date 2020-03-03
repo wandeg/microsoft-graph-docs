@@ -5,26 +5,27 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationSynchronizationCustomizations resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationSynchronizationCustomizationsBase](../resources/educationSynchronizationCustomizationsBase.md)
+
+
+Inherits from [educationSynchronizationCustomizationsBase](../resources/educationsynchronizationcustomizationsbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|school|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
-|section|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
-|student|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
-|studentEnrollment|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
-|teacher|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
-|teacherRoster|[educationSynchronizationCustomization](../resources/educationSynchronizationCustomization.md)||
+|school|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
+|section|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
+|student|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
+|studentEnrollment|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
+|teacher|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
+|teacherRoster|[educationSynchronizationCustomization](../resources/educationsynchronizationcustomization.md)||
 
 ## Relationships
 None

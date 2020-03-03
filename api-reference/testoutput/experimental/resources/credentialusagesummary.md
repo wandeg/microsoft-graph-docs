@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # credentialUsageSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List credentialUsageSummaries](../api/credentialusagesummary-list.md)|[credentialUsageSummary](../resources/credentialUsageSummary.md) collection|List properties and relationships of the [credentialUsageSummary](../resources/credentialusagesummary.md) objects.|
-|[Get credentialUsageSummary](../api/credentialusagesummary-get.md)|[credentialUsageSummary](../resources/credentialUsageSummary.md)|Read properties and relationships of the [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
-|[Create credentialUsageSummary](../api/credentialusagesummary-create.md)|[credentialUsageSummary](../resources/credentialUsageSummary.md)|Create a new [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
+|[List credentialUsageSummaries](../api/credentialusagesummary-list.md)|[credentialUsageSummary](../resources/credentialusagesummary.md) collection|List properties and relationships of the [credentialUsageSummary](../resources/credentialusagesummary.md) objects.|
+|[Get credentialUsageSummary](../api/credentialusagesummary-get.md)|[credentialUsageSummary](../resources/credentialusagesummary.md)|Read properties and relationships of the [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
+|[Create credentialUsageSummary](../api/credentialusagesummary-create.md)|[credentialUsageSummary](../resources/credentialusagesummary.md)|Create a new [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
 |[Delete credentialUsageSummary](../api/credentialusagesummary-delete.md)|None|Deletes a [credentialUsageSummary](../resources/credentialusagesummary.md).|
-|[Update credentialUsageSummary](../api/credentialusagesummary-update.md)|[credentialUsageSummary](../resources/credentialUsageSummary.md)|Update the properties of a [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
+|[Update credentialUsageSummary](../api/credentialusagesummary-update.md)|[credentialUsageSummary](../resources/credentialusagesummary.md)|Update the properties of a [credentialUsageSummary](../resources/credentialusagesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

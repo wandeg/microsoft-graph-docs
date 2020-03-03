@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementCollectionSettingDefinitions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementCollectionSettingDefinition](../resources/devicemanagementcollectionsettingdefinition.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementCollectionSettingDefinition not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementCollectionSettingDefinition not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 827
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingDefinition",
-      "id": "66bf5bc6-5bc6-66bf-c65b-bf66c65bbf66",
+      "id": "076f9ec4-9ec4-076f-c49e-6f07c49e6f07",
       "valueType": "String",
       "displayName": "Display Name value",
       "isTopLevel": true,

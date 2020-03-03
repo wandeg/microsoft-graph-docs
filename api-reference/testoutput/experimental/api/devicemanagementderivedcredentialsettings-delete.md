@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementDerivedCredentialSettings
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementDerivedCredentialSettings](../resources/devicemanagementderivedcredentialsettings.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
 ```
 
 ### Response

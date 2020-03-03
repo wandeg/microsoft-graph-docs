@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementBooleanSettingInstance
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.deviceManagementBooleanSettingInstanc
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementBooleanSettingInstance object.
+In the request body, supply a JSON representation for the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementBooleanSettingInstance.
+The following table shows the properties that are required when you create the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |value|Boolean|The boolean value|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
 Content-type: application/json
 Content-length: 176
 
@@ -89,7 +91,7 @@ Content-Length: 225
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-  "id": "370584a9-84a9-3705-a984-0537a9840537",
+  "id": "6e381c2f-1c2f-6e38-2f1c-386e2f1c386e",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value",
   "value": true

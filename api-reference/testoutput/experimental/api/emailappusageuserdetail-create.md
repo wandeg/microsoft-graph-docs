@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create emailAppUsageUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.emailAppUsageUserDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the emailAppUsageUserDetail object.
+In the request body, supply a JSON representation for the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) object.
 
-The following table shows the properties that are required when you create the emailAppUsageUserDetail.
+The following table shows the properties that are required when you create the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailAppUsageUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailAppUsageUserDetail not found
 Content-type: application/json
 Content-length: 795
 
@@ -133,7 +135,7 @@ Content-Length: 844
 
 {
   "@odata.type": "#microsoft.graph.emailAppUsageUserDetail",
-  "id": "32a267ca-67ca-32a2-ca67-a232ca67a232",
+  "id": "aba24636-4636-aba2-3646-a2ab3646a2ab",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

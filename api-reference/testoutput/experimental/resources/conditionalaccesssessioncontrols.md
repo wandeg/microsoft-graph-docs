@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # conditionalAccessSessionControls resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|applicationEnforcedRestrictions|[applicationEnforcedRestrictionsSessionControl](../resources/applicationEnforcedRestrictionsSessionControl.md)||
-|cloudAppSecurity|[cloudAppSecuritySessionControl](../resources/cloudAppSecuritySessionControl.md)||
-|persistentBrowser|[persistentBrowserSessionControl](../resources/persistentBrowserSessionControl.md)||
-|signInFrequency|[signInFrequencySessionControl](../resources/signInFrequencySessionControl.md)||
+|applicationEnforcedRestrictions|[applicationEnforcedRestrictionsSessionControl](../resources/applicationenforcedrestrictionssessioncontrol.md)||
+|cloudAppSecurity|[cloudAppSecuritySessionControl](../resources/cloudappsecuritysessioncontrol.md)||
+|persistentBrowser|[persistentBrowserSessionControl](../resources/persistentbrowsersessioncontrol.md)||
+|signInFrequency|[signInFrequencySessionControl](../resources/signinfrequencysessioncontrol.md)||
 
 ## Relationships
 None

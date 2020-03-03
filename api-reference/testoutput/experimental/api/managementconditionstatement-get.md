@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managementConditionStatement
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managementConditionStatement](../resources/managementconditionstatement.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/managementConditionStatements/{managementConditionStatementId}
+GET https://graph.microsoft.com/localtest/deviceManagement/managementConditionStatements/{managementConditionStatementId}
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 528
+Content-Length: 527
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managementConditionStatement",
-    "id": "39262518-2518-3926-1825-263918252639",
+    "id": "443eae60-ae60-443e-60ae-3e4460ae3e44",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
     "expression": {
       "@odata.type": "microsoft.graph.managementConditionExpression"
     },

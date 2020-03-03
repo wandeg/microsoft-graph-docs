@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidForWorkAppConfigurationSchema
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
+GET https://graph.microsoft.com/localtest/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 912
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidForWorkAppConfigurationSchema",
-    "id": "c29eca59-ca59-c29e-59ca-9ec259ca9ec2",
+    "id": "6ceef0b9-f0b9-6cee-b9f0-ee6cb9f0ee6c",
     "exampleJson": "ZXhhbXBsZUpzb24=",
     "schemaItems": [
       {

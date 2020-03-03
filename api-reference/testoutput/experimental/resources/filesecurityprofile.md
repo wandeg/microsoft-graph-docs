@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # fileSecurityProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get fileSecurityProfile](../api/filesecurityprofile-get.md)|[fileSecurityProfile](../resources/fileSecurityProfile.md)|Read properties and relationships of the [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
+|[List fileSecurityProfiles](../api/filesecurityprofile-list.md)|[fileSecurityProfile](../resources/filesecurityprofile.md) collection|List properties and relationships of the [fileSecurityProfile](../resources/filesecurityprofile.md) objects.|
+|[Get fileSecurityProfile](../api/filesecurityprofile-get.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Read properties and relationships of the [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
+|[Create fileSecurityProfile](../api/filesecurityprofile-create.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Create a new [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
 |[Delete fileSecurityProfile](../api/filesecurityprofile-delete.md)|None|Deletes a [fileSecurityProfile](../resources/filesecurityprofile.md).|
-|[Update fileSecurityProfile](../api/filesecurityprofile-update.md)|[fileSecurityProfile](../resources/fileSecurityProfile.md)|Update the properties of a [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
-|[List fileSecurityProfiles](../api/security-list-filesecurityprofiles.md)|[fileSecurityProfile](../resources/fileSecurityProfile.md) collection|Get the fileSecurityProfiles from the fileSecurityProfiles navigation property.|
-|[Add fileSecurityProfiles](../api/security-post-filesecurityprofiles.md)|[fileSecurityProfile](../resources/fileSecurityProfile.md)|Add fileSecurityProfiles by posting to the fileSecurityProfiles collection.|
+|[Update fileSecurityProfile](../api/filesecurityprofile-update.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Update the properties of a [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
+|[List fileSecurityProfiles](../api/security-list-filesecurityprofiles.md)|[fileSecurityProfile](../resources/filesecurityprofile.md) collection|Get the fileSecurityProfiles from the fileSecurityProfiles navigation property.|
+|[Add fileSecurityProfiles](../api/security-post-filesecurityprofiles.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Add fileSecurityProfiles by posting to the fileSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,16 +38,16 @@ Inherits from [entity](../resources/entity.md)
 |extensions|String collection||
 |fileType|String||
 |firstSeenDateTime|DateTimeOffset||
-|hashes|[fileHash](../resources/fileHash.md) collection||
+|hashes|[fileHash](../resources/filehash.md) collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastSeenDateTime|DateTimeOffset||
-|malwareStates|[malwareState](../resources/malwareState.md) collection||
+|malwareStates|[malwareState](../resources/malwarestate.md) collection||
 |names|String collection||
 |riskScore|String||
 |size|Int64||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
-|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilityState.md) collection||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
+|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilitystate.md) collection||
 
 ## Relationships
 None

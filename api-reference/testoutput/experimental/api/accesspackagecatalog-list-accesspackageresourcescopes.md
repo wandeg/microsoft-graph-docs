@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageResourceScopes
 
+Namespace: microsoft.graph
+
 Get the accessPackageResourceScopes from the accessPackageResourceScopes navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResourceScopes
+GET https://graph.microsoft.com/localtest/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResourceScopes
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 431
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResourceScope",
-      "id": "f2526dba-6dba-f252-ba6d-52f2ba6d52f2",
+      "id": "c1401591-1591-c140-9115-40c1911540c1",
       "displayName": "Display Name value",
       "description": "Description value",
       "originId": "Origin Id value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get fieldValueSet
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [fieldValueSet](../resources/fieldvalueset.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/fields
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/fields
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.fieldValueSet",
-    "id": "88e19451-9451-88e1-5194-e1885194e188"
+    "id": "fa971fc5-1fc5-fa97-c51f-97fac51f97fa"
   }
 }
 ```

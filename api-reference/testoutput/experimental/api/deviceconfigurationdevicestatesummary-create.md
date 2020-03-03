@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceConfigurationDeviceStateSummary
 
+Namespace: microsoft.graph
+
 Create a new [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceConfigurationDeviceStateSummary
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceConfigurationDeviceStateSummary object.
+In the request body, supply a JSON representation for the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.
 
-The following table shows the properties that are required when you create the deviceConfigurationDeviceStateSummary.
+The following table shows the properties that are required when you create the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceConfigurationDeviceStateSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceConfigurationDeviceStateSummary not found
 Content-type: application/json
 Content-length: 290
 
@@ -97,7 +99,7 @@ Content-Length: 339
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStateSummary",
-  "id": "a4b507db-07db-a4b5-db07-b5a4db07b5a4",
+  "id": "9b45a112-a112-9b45-12a1-459b12a1459b",
   "unknownDeviceCount": 2,
   "notApplicableDeviceCount": 8,
   "compliantDeviceCount": 4,

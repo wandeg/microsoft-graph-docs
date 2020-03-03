@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getRoleScopeTagsById
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -47,7 +49,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [roleScopeTag](../resources/roleScopeTag.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [roleScopeTag](../resources/rolescopetag.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags/getRoleScopeTagsById
+POST https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags/getRoleScopeTagsById
 
 Content-type: application/json
 Content-length: 65
@@ -88,7 +90,7 @@ Content-Length: 257
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTag",
-      "id": "c51e7486-7486-c51e-8674-1ec586741ec5",
+      "id": "a8a91832-1832-a8a9-3218-a9a83218a9a8",
       "displayName": "Display Name value",
       "description": "Description value",
       "isBuiltIn": true

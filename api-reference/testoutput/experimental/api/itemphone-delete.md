@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemPhone
 
+Namespace: microsoft.graph
+
 Deletes a [itemPhone](../resources/itemphone.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/phones/{itemPhoneId}
+DELETE https://graph.microsoft.com/localtest/me/profile/phones/{itemPhoneId}
 ```
 
 ### Response

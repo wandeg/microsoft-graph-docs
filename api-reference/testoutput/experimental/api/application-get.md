@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get application
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [application](../resources/application.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4894
+Content-Length: 4893
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.application",
-    "id": "5210db29-db29-5210-29db-105229db1052",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "7a3399d6-99d6-7a33-d699-337ad699337a",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "api": {
       "@odata.type": "microsoft.graph.apiApplication",
       "acceptMappedClaims": true,
       "knownClientApplications": [
-        "0ca869a8-69a8-0ca8-a869-a80ca869a80c"
+        "93d8b5ef-b5ef-93d8-efb5-d893efb5d893"
       ],
       "preAuthorizedApplications": [
         {
@@ -95,7 +97,7 @@ Content-Length: 4894
           "@odata.type": "microsoft.graph.permissionScope",
           "adminConsentDescription": "Admin Consent Description value",
           "adminConsentDisplayName": "Admin Consent Display Name value",
-          "id": "7fa8665d-665d-7fa8-5d66-a87f5d66a87f",
+          "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
           "isEnabled": true,
           "origin": "Origin value",
           "type": "Type value",
@@ -116,7 +118,7 @@ Content-Length: 4894
         "displayName": "Display Name value"
       }
     ],
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "isFallbackPublicClient": true,
     "identifierUris": [
       "Identifier Uris value"
@@ -136,9 +138,9 @@ Content-Length: 4894
       {
         "@odata.type": "microsoft.graph.keyCredential",
         "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-        "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-        "keyId": "00d977d7-77d7-00d9-d777-d900d777d900",
-        "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
+        "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+        "keyId": "6b92b784-b784-6b92-84b7-926b84b7926b",
+        "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
         "usage": "Usage value",
         "key": "a2V5"
       }
@@ -204,7 +206,7 @@ Content-Length: 4894
     "tags": [
       "Tags value"
     ],
-    "tokenEncryptionKeyId": "c4f5499d-499d-c4f5-9d49-f5c49d49f5c4",
+    "tokenEncryptionKeyId": "b0d21fb8-1fb8-b0d2-b81f-d2b0b81fd2b0",
     "web": {
       "@odata.type": "microsoft.graph.webApplication",
       "homePageUrl": "https://example.com/homePageUrl/",

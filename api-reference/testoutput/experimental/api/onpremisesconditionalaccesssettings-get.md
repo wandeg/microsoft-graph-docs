@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onPremisesConditionalAccessSettings
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/conditionalAccessSettings
+GET https://graph.microsoft.com/localtest/deviceManagement/conditionalAccessSettings
 ```
 
 ### Response
@@ -73,13 +75,13 @@ Content-Length: 363
 {
   "value": {
     "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-    "id": "06106b72-6b72-0610-726b-1006726b1006",
+    "id": "ce6b7a76-7a76-ce6b-767a-6bce767a6bce",
     "enabled": true,
     "includedGroups": [
-      "29f06421-6421-29f0-2164-f0292164f029"
+      "812dbfa7-bfa7-812d-a7bf-2d81a7bf2d81"
     ],
     "excludedGroups": [
-      "56795f3d-5f3d-5679-3d5f-79563d5f7956"
+      "c03641ed-41ed-c036-ed41-36c0ed4136c0"
     ],
     "overrideDefaultRule": true
   }

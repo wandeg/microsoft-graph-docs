@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List salesInvoices
 
+Namespace: microsoft.graph
+
 Get the salesInvoices from the salesInvoices navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesInvoices
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesInvoices
 ```
 
 ### Response
@@ -70,17 +72,17 @@ Content-Length: 2099
   "value": [
     {
       "@odata.type": "#microsoft.graph.salesInvoice",
-      "id": "866736d6-36d6-8667-d636-6786d6366786",
+      "id": "d96040c5-40c5-d960-c540-60d9c54060d9",
       "number": "Number value",
       "externalDocumentNumber": "External Document Number value",
       "invoiceDate": "Date",
       "dueDate": "Date",
       "customerPurchaseOrderReference": "Customer Purchase Order Reference value",
-      "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+      "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
       "customerNumber": "Customer Number value",
       "customerName": "Customer Name value",
       "billToName": "Bill To Name value",
-      "billToCustomerId": "3f40489e-489e-3f40-9e48-403f9e48403f",
+      "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
       "billToCustomerNumber": "Bill To Customer Number value",
       "shipToName": "Ship To Name value",
       "shipToContact": "Ship To Contact value",
@@ -98,12 +100,12 @@ Content-Length: 2099
       "shippingPostalAddress": {
         "@odata.type": "microsoft.graph.postalAddressType"
       },
-      "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+      "currencyId": "5323df69-df69-5323-69df-235369df2353",
       "currencyCode": "Currency Code value",
-      "orderId": "ae6ff945-f945-ae6f-45f9-6fae45f96fae",
+      "orderId": "ebd7b55b-b55b-ebd7-5bb5-d7eb5bb5d7eb",
       "orderNumber": "Order Number value",
-      "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
-      "shipmentMethodId": "f7dfa441-a441-f7df-41a4-dff741a4dff7",
+      "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+      "shipmentMethodId": "29227862-7862-2922-6278-222962782229",
       "salesperson": "Salesperson value",
       "pricesIncludeTax": true,
       "discountAmount": "4.2",
@@ -112,7 +114,7 @@ Content-Length: 2099
       "totalTaxAmount": "4.2",
       "totalAmountIncludingTax": "4.2",
       "status": "Status value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "phoneNumber": "Phone Number value",
       "email": "Email value"
     }

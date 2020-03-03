@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementBooleanSettingInstance
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.deviceManagementBooleanSettingInstance n
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementBooleanSettingInstance](../resources/deviceManagementBooleanSettingInstance.md) object.
+In the request body, supply a JSON representation for the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |value|Boolean|The boolean value|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
 Content-type: application/json
 Content-length: 176
 
@@ -87,7 +89,7 @@ Content-Length: 225
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-  "id": "370584a9-84a9-3705-a984-0537a9840537",
+  "id": "6e381c2f-1c2f-6e38-2f1c-386e2f1c386e",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value",
   "value": true

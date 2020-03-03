@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userExperienceAnalyticsOverview
 
-Update the properties of a [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,19 +37,19 @@ PATCH /deviceManagement/userExperienceAnalyticsOverview
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userExperienceAnalyticsOverview](../resources/userExperienceAnalyticsOverview.md) object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object.
 
-The following table shows the properties that are required when you create the [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md).
+The following table shows the properties that are required when you create the [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userExperienceAnalyticsInsight.md) collection|The user experience analytics insights.|
+|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userexperienceanalyticsinsight.md) collection|The user experience analytics insights.|
 
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsOverview
+PATCH https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsOverview
 Content-type: application/json
 Content-length: 481
 
@@ -96,7 +98,7 @@ Content-Length: 530
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsOverview",
-  "id": "273bb623-b623-273b-23b6-3b2723b63b27",
+  "id": "cc461c04-1c04-cc46-041c-46cc041c46cc",
   "insights": [
     {
       "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

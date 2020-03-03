@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add dataSharingConsents
 
+Namespace: microsoft.graph
+
 Add dataSharingConsents by posting to the dataSharingConsents collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/dataSharingConsents/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the dataSharingConsent object.
+In the request body, supply a JSON representation for the [dataSharingConsent](../resources/intune-devices-datasharingconsent.md) object.
 
-The following table shows the properties that are required when you create the dataSharingConsent.
+The following table shows the properties that are required when you create the [dataSharingConsent](../resources/intune-devices-datasharingconsent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [dataSharingConsent](../resources/datasharingconsent.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [dataSharingConsent](../resources/intune-devices-datasharingconsent.md) object in the response body.
 
 ## Example
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/dataSharingConsents
+POST https://graph.microsoft.com/localtest/deviceManagement/dataSharingConsents
 Content-type: application/json
 Content-length: 333
 
@@ -74,7 +76,7 @@ Content-length: 333
   "serviceDisplayName": "Service Display Name value",
   "termsUrl": "https://example.com/termsUrl/",
   "granted": true,
-  "grantDateTime": "2017-01-01T00:01:21.0762461+03:00",
+  "grantDateTime": "2016-12-31T23:57:27.2612176+03:00",
   "grantedByUpn": "Granted By Upn value",
   "grantedByUserId": "Granted By User Id value"
 }
@@ -95,11 +97,11 @@ Content-Length: 382
 
 {
   "@odata.type": "#microsoft.graph.dataSharingConsent",
-  "id": "cd0c114d-114d-cd0c-4d11-0ccd4d110ccd",
+  "id": "e2e6c95a-c95a-e2e6-5ac9-e6e25ac9e6e2",
   "serviceDisplayName": "Service Display Name value",
   "termsUrl": "https://example.com/termsUrl/",
   "granted": true,
-  "grantDateTime": "2017-01-01T00:01:21.0762461+03:00",
+  "grantDateTime": "2016-12-31T23:57:27.2612176+03:00",
   "grantedByUpn": "Granted By Upn value",
   "grantedByUserId": "Granted By User Id value"
 }

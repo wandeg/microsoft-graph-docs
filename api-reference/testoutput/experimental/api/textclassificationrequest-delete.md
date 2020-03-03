@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete textClassificationRequest
 
+Namespace: microsoft.graph
+
 Deletes a [textClassificationRequest](../resources/textclassificationrequest.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/classifyText/{textClassificationRequestId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/classifyText/{textClassificationRequestId}
 ```
 
 ### Response

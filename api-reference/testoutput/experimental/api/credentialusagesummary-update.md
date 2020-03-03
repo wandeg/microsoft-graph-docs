@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update credentialUsageSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [credentialUsageSummary](../resources/credentialusagesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.credentialUsageSummary not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [credentialUsageSummary](../resources/credentialUsageSummary.md) object.
+In the request body, supply a JSON representation for the [credentialUsageSummary](../resources/credentialusagesummary.md) object.
 
 The following table shows the properties that are required when you create the [credentialUsageSummary](../resources/credentialusagesummary.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.credentialUsageSummary not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.credentialUsageSummary not found
 Content-type: application/json
 Content-length: 178
 
@@ -89,7 +91,7 @@ Content-Length: 227
 
 {
   "@odata.type": "#microsoft.graph.credentialUsageSummary",
-  "id": "03d92e79-2e79-03d9-792e-d903792ed903",
+  "id": "83519856-9856-8351-5698-518356985183",
   "feature": "String",
   "successfulActivityCount": 7,
   "failureActivityCount": 4,

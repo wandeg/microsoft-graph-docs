@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List directoryRoleTemplates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [directoryRoleTemplate](../resources/directoryroletemplate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directoryRoleTemplates
+GET https://graph.microsoft.com/localtest/directoryRoleTemplates
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 303
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-      "id": "ea75502f-502f-ea75-2f50-75ea2f5075ea",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "76faf175-f175-76fa-75f1-fa7675f1fa76",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "description": "Description value",
       "displayName": "Display Name value"
     }

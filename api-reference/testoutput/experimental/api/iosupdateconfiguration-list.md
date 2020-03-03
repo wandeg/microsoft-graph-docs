@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosUpdateConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosUpdateConfiguration](../resources/iosupdateconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosUpdateConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosUpdateConfiguration not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1522
+Content-Length: 1521
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
-      "id": "0b38ea8f-ea8f-0b38-8fea-380b8fea380b",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "7c5dd347-d347-7c5d-47d3-5d7c47d35d7c",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,13 +95,13 @@ Content-Length: 1522
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
       "isEnabled": true,
-      "activeHoursStart": "12:03:32.0550000",
-      "activeHoursEnd": "11:57:57.8710000",
+      "activeHoursStart": "12:03:25.6180000",
+      "activeHoursEnd": "11:57:37.4740000",
       "desiredOsVersion": "Desired Os Version value",
       "scheduledInstallDays": [
         "String"

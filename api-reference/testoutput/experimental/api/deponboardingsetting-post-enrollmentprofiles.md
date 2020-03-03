@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add enrollmentProfiles
 
+Namespace: microsoft.graph
+
 Add enrollmentProfiles by posting to the enrollmentProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollment
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the enrollmentProfile object.
+In the request body, supply a JSON representation for the [enrollmentProfile](../resources/enrollmentprofile.md) object.
 
-The following table shows the properties that are required when you create the enrollmentProfile.
+The following table shows the properties that are required when you create the [enrollmentProfile](../resources/enrollmentprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles
+POST https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles
 Content-type: application/json
 Content-length: 370
 
@@ -95,7 +97,7 @@ Content-Length: 419
 
 {
   "@odata.type": "#microsoft.graph.enrollmentProfile",
-  "id": "59741185-1185-5974-8511-745985117459",
+  "id": "7d84c92c-c92c-7d84-2cc9-847d2cc9847d",
   "displayName": "Display Name value",
   "description": "Description value",
   "requiresUserAuthentication": true,

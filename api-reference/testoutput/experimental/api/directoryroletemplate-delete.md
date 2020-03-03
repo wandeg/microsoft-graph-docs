@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directoryRoleTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [directoryRoleTemplate](../resources/directoryroletemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/directoryRoleTemplates/{directoryRoleTemplatesId}
+DELETE https://graph.microsoft.com/localtest/directoryRoleTemplates/{directoryRoleTemplatesId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete depIOSEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Deletes a [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md).
 
 ## Permissions

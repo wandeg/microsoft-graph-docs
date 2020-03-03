@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceShellScript
 
-Update the properties of a [deviceShellScript](../resources/deviceshellscript.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceManagement/deviceShellScripts/{deviceShellScriptId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceShellScript](../resources/deviceShellScript.md) object.
+In the request body, supply a JSON representation for the [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.
 
-The following table shows the properties that are required when you create the [deviceShellScript](../resources/deviceshellscript.md).
+The following table shows the properties that are required when you create the [deviceShellScript](../resources/intune-devices-deviceshellscript.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceShellScript](../resources/deviceshellscript.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}
 Content-type: application/json
 Content-length: 307
 
@@ -93,16 +95,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 479
+Content-Length: 478
 
 {
   "@odata.type": "#microsoft.graph.deviceShellScript",
-  "id": "c6b91a24-1a24-c6b9-241a-b9c6241ab9c6",
+  "id": "692bfe8a-fe8a-692b-8afe-2b698afe2b69",
   "displayName": "Display Name value",
   "description": "Description value",
   "scriptContent": "c2NyaXB0Q29udGVudA==",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "runAsAccount": "String",
   "fileName": "File Name value",
   "roleScopeTagIds": [

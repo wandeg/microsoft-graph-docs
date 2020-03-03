@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # organization resource type
+
+
+Namespace: microsoft.graph
 
 The organization resource represents an instance of global settings and resources which operate and are provisioned at the tenant-level.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
@@ -28,26 +29,26 @@ Inherits from [directoryObject](../resources/directoryObject.md)
 |[checkMemberObjects](../api/organization-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/organization-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/organization-getmemberobjects.md)|String collection||
-|[restore](../api/organization-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/organization-restore.md)|[directoryObject](../resources/directoryobject.md)||
 |[setMobileDeviceManagementAuthority](../api/organization-setmobiledevicemanagementauthority.md)|Int32||
-|[List brandings](../api/organization-list-brandings.md)|[organizationalBranding](../resources/organizationalBranding.md) collection|Get the organizationalBrandings from the brandings navigation property.|
-|[Add brandings](../api/organization-post-brandings.md)|[organizationalBranding](../resources/organizationalBranding.md)|Add brandings by posting to the brandings collection.|
-|[List certificateBasedAuthConfiguration](../api/organization-list-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md) collection|Get the certificateBasedAuthConfigurations from the certificateBasedAuthConfiguration navigation property.|
-|[Create certificateBasedAuthConfiguration](../api/organization-post-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md)|Create certificateBasedAuthConfiguration by posting to the certificateBasedAuthConfiguration collection.|
+|[List brandings](../api/organization-list-brandings.md)|[organizationalBranding](../resources/organizationalbranding.md) collection|Get the organizationalBrandings from the brandings navigation property.|
+|[Add brandings](../api/organization-post-brandings.md)|[organizationalBranding](../resources/organizationalbranding.md)|Add brandings by posting to the brandings collection.|
+|[List certificateBasedAuthConfiguration](../api/organization-list-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) collection|Get the certificateBasedAuthConfigurations from the certificateBasedAuthConfiguration navigation property.|
+|[Create certificateBasedAuthConfiguration](../api/organization-post-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md)|Create certificateBasedAuthConfiguration by posting to the certificateBasedAuthConfiguration collection.|
 |[List extensions](../api/organization-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
 |[Add extensions](../api/organization-post-extensions.md)|[extension](../resources/extension.md)|Add extensions by posting to the extensions collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
-|certificateConnectorSetting|[certificateConnectorSetting](../resources/certificateConnectorSetting.md)|Certificate connector setting.|
+|certificateConnectorSetting|[certificateConnectorSetting](../resources/certificateconnectorsetting.md)|Certificate connector setting.|
 |city|String||
 |country|String||
 |countryLetterCode|String||
 |createdDateTime|DateTimeOffset||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isMultipleDataLocationsForServicesEnabled|Boolean||
@@ -57,20 +58,20 @@ Inherits from [directoryObject](../resources/directoryObject.md)
 |onPremisesSyncEnabled|Boolean||
 |postalCode|String||
 |preferredLanguage|String||
-|privacyProfile|[privacyProfile](../resources/privacyProfile.md)||
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|privacyProfile|[privacyProfile](../resources/privacyprofile.md)||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |securityComplianceNotificationMails|String collection||
 |securityComplianceNotificationPhones|String collection||
 |state|String||
 |street|String||
 |technicalNotificationMails|String collection||
-|verifiedDomains|[verifiedDomain](../resources/verifiedDomain.md) collection||
+|verifiedDomains|[verifiedDomain](../resources/verifieddomain.md) collection||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|brandings|[organizationalBranding](../resources/organizationalBranding.md) collection||
-|certificateBasedAuthConfiguration|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md) collection||
+|brandings|[organizationalBranding](../resources/organizationalbranding.md) collection||
+|certificateBasedAuthConfiguration|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) collection||
 |extensions|[extension](../resources/extension.md) collection||
 
 ## JSON Representation

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceSetupConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 This is the base class for Setup Configuration. Setup configurations are platform specific and individual per-platform setup configurations inherit from here.
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceSetupConfigurations](../api/devicesetupconfiguration-list.md)|[deviceSetupConfiguration](../resources/deviceSetupConfiguration.md) collection|List properties and relationships of the [deviceSetupConfiguration](../resources/devicesetupconfiguration.md) objects.|
-|[Get deviceSetupConfiguration](../api/devicesetupconfiguration-get.md)|[deviceSetupConfiguration](../resources/deviceSetupConfiguration.md)|Read properties and relationships of the [deviceSetupConfiguration](../resources/devicesetupconfiguration.md) object.|
+|[List deviceSetupConfigurations](../api/devicesetupconfiguration-list.md)|[deviceSetupConfiguration](../resources/devicesetupconfiguration.md) collection|List properties and relationships of the [deviceSetupConfiguration](../resources/devicesetupconfiguration.md) objects.|
+|[Get deviceSetupConfiguration](../api/devicesetupconfiguration-get.md)|[deviceSetupConfiguration](../resources/devicesetupconfiguration.md)|Read properties and relationships of the [deviceSetupConfiguration](../resources/devicesetupconfiguration.md) object.|
 
 ## Properties
 |Property|Type|Description|

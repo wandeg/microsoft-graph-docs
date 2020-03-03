@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add columnLinks
 
+Namespace: microsoft.graph
+
 Add columnLinks by posting to the columnLinks collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/drive/list/contentTypes/{contentTypeId}/columnLi
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the columnLink object.
+In the request body, supply a JSON representation for the [columnLink](../resources/columnlink.md) object.
 
-The following table shows the properties that are required when you create the columnLink.
+The following table shows the properties that are required when you create the [columnLink](../resources/columnlink.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/list/contentTypes/{contentTypeId}/columnLinks
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/list/contentTypes/{contentTypeId}/columnLinks
 Content-type: application/json
 Content-length: 77
 
@@ -85,7 +87,7 @@ Content-Length: 126
 
 {
   "@odata.type": "#microsoft.graph.columnLink",
-  "id": "a13ecd1f-cd1f-a13e-1fcd-3ea11fcd3ea1",
+  "id": "f9ebbcf7-bcf7-f9eb-f7bc-ebf9f7bcebf9",
   "name": "Name value"
 }
 ```

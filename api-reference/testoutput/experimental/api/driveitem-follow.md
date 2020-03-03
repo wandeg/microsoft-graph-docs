@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # follow
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/a
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [driveItem](../resources/driveItem.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [driveItem](../resources/driveitem.md) in the response body.
 
 ## Example
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/drives/{drivesId}/root/follow
+POST https://graph.microsoft.com/localtest/drives/{drivesId}/root/follow
 ```
 
 ### Response
@@ -87,22 +89,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2232
+Content-Length: 2231
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.driveItem",
-    "id": "6a01ecb2-ecb2-6a01-b2ec-016ab2ec016a",
+    "id": "8464c8ba-c8ba-8464-bac8-6484bac86484",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference"

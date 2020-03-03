@@ -6,11 +6,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppRegistration resource type
+
+
+Namespace: microsoft.graph
 
 The ManagedAppEntity is the base entity type for all other entity types under app management workflow.
 The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization.
@@ -21,19 +22,20 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedAppRegistration](../api/managedappregistration-get.md)|[managedAppRegistration](../resources/managedAppRegistration.md)|Read properties and relationships of the [managedAppRegistration](../resources/managedappregistration.md) object.|
+|[List managedAppRegistrations](../api/managedappregistration-list.md)|[managedAppRegistration](../resources/managedappregistration.md) collection|List properties and relationships of the [managedAppRegistration](../resources/managedappregistration.md) objects.|
+|[Get managedAppRegistration](../api/managedappregistration-get.md)|[managedAppRegistration](../resources/managedappregistration.md)|Read properties and relationships of the [managedAppRegistration](../resources/managedappregistration.md) object.|
 |[getUserIdsWithFlaggedAppRegistration](../api/managedappregistration-getuseridswithflaggedappregistration.md)|String collection||
-|[List appliedPolicies](../api/managedappregistration-list-appliedpolicies.md)|[managedAppPolicy](../resources/managedAppPolicy.md) collection|Get the managedAppPolicies from the appliedPolicies navigation property.|
-|[Add appliedPolicies](../api/managedappregistration-post-appliedpolicies.md)|[managedAppPolicy](../resources/managedAppPolicy.md)|Add appliedPolicies by posting to the appliedPolicies collection.|
-|[List intendedPolicies](../api/managedappregistration-list-intendedpolicies.md)|[managedAppPolicy](../resources/managedAppPolicy.md) collection|Get the managedAppPolicies from the intendedPolicies navigation property.|
-|[Add intendedPolicies](../api/managedappregistration-post-intendedpolicies.md)|[managedAppPolicy](../resources/managedAppPolicy.md)|Add intendedPolicies by posting to the intendedPolicies collection.|
-|[List operations](../api/managedappregistration-list-operations.md)|[managedAppOperation](../resources/managedAppOperation.md) collection|Get the managedAppOperations from the operations navigation property.|
-|[Add operations](../api/managedappregistration-post-operations.md)|[managedAppOperation](../resources/managedAppOperation.md)|Add operations by posting to the operations collection.|
+|[List appliedPolicies](../api/managedappregistration-list-appliedpolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection|Get the managedAppPolicies from the appliedPolicies navigation property.|
+|[Add appliedPolicies](../api/managedappregistration-post-appliedpolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md)|Add appliedPolicies by posting to the appliedPolicies collection.|
+|[List intendedPolicies](../api/managedappregistration-list-intendedpolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection|Get the managedAppPolicies from the intendedPolicies navigation property.|
+|[Add intendedPolicies](../api/managedappregistration-post-intendedpolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md)|Add intendedPolicies by posting to the intendedPolicies collection.|
+|[List operations](../api/managedappregistration-list-operations.md)|[managedAppOperation](../resources/managedappoperation.md) collection|Get the managedAppOperations from the operations navigation property.|
+|[Add operations](../api/managedappregistration-post-operations.md)|[managedAppOperation](../resources/managedappoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|appIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The app package Identifier|
+|appIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The app package Identifier|
 |applicationVersion|String|App version|
 |azureADDeviceId|String|The Azure Active Directory Device identifier of the host device. Value could be empty even when the host device is Azure Active Directory registered.|
 |createdDateTime|DateTimeOffset|Date and time of creation|
@@ -54,9 +56,9 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|appliedPolicies|[managedAppPolicy](../resources/managedAppPolicy.md) collection|Zero or more policys already applied on the registered app when it last synchronized with managment service.|
-|intendedPolicies|[managedAppPolicy](../resources/managedAppPolicy.md) collection|Zero or more policies admin intended for the app as of now.|
-|operations|[managedAppOperation](../resources/managedAppOperation.md) collection|Zero or more long running operations triggered on the app registration.|
+|appliedPolicies|[managedAppPolicy](../resources/managedapppolicy.md) collection|Zero or more policys already applied on the registered app when it last synchronized with managment service.|
+|intendedPolicies|[managedAppPolicy](../resources/managedapppolicy.md) collection|Zero or more policies admin intended for the app as of now.|
+|operations|[managedAppOperation](../resources/managedappoperation.md) collection|Zero or more long running operations triggered on the app registration.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

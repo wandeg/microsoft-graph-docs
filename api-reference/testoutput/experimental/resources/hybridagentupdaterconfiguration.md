@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # hybridAgentUpdaterConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |allowUpdateConfigurationOverride|Boolean||
 |deferUpdateDateTime|DateTimeOffset||
-|updateWindow|[updateWindow](../resources/updateWindow.md)||
+|updateWindow|[updateWindow](../resources/updatewindow.md)||
 
 ## Relationships
 None

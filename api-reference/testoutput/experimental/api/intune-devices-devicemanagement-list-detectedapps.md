@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List detectedApps
 
+Namespace: microsoft.graph
+
 Get the detectedApps from the detectedApps navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/detectedApps
+GET https://graph.microsoft.com/localtest/deviceManagement/detectedApps
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 273
   "value": [
     {
       "@odata.type": "#microsoft.graph.detectedApp",
-      "id": "7b86facd-facd-7b86-cdfa-867bcdfa867b",
+      "id": "20b5a094-a094-20b5-94a0-b52094a0b520",
       "displayName": "Display Name value",
       "version": "Version value",
       "sizeInByte": 10,

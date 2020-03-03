@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupPolicyDefinitionValue
 
+Namespace: microsoft.graph
+
 Deletes a [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}
 ```
 
 ### Response

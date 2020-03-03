@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryDefinition](../resources/directorydefinition.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryDefinition](../resources/directoryDefinition.md) object.
+In the request body, supply a JSON representation for the [directoryDefinition](../resources/directorydefinition.md) object.
 
 The following table shows the properties that are required when you create the [directoryDefinition](../resources/directorydefinition.md).
 
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the [
 |discoveryDateTime|DateTimeOffset||
 |discoverabilities|Enumeration|. Possible values are: `None`, `AttributeNames`, `AttributeDataTypes`, `AttributeReadOnly`, `ReferenceAttributes`, `UnknownFutureValue`.|
 |name|String||
-|objects|[objectDefinition](../resources/objectDefinition.md) collection||
+|objects|[objectDefinition](../resources/objectdefinition.md) collection||
 |readOnly|Boolean||
 |version|String||
 
@@ -65,13 +67,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/directories/{directoriesId}
+PATCH https://graph.microsoft.com/localtest/directories/{directoriesId}
 Content-type: application/json
 Content-length: 1378
 
 {
   "@odata.type": "#microsoft.graph.directoryDefinition",
-  "discoveryDateTime": "2017-01-01T00:02:10.5924977+03:00",
+  "discoveryDateTime": "2017-01-01T00:00:15.3514116+03:00",
   "discoverabilities": "String",
   "name": "Name value",
   "objects": [
@@ -132,8 +134,8 @@ Content-Length: 1427
 
 {
   "@odata.type": "#microsoft.graph.directoryDefinition",
-  "id": "1be8bff6-bff6-1be8-f6bf-e81bf6bfe81b",
-  "discoveryDateTime": "2017-01-01T00:02:10.5924977+03:00",
+  "id": "d9b1804a-804a-d9b1-4a80-b1d94a80b1d9",
+  "discoveryDateTime": "2017-01-01T00:00:15.3514116+03:00",
   "discoverabilities": "String",
   "name": "Name value",
   "objects": [

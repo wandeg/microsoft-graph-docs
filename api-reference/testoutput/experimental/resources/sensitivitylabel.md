@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sensitivityLabel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,25 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get sensitivityLabel](../api/sensitivitylabel-get.md)|[sensitivityLabel](../resources/sensitivityLabel.md)|Read properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) object.|
+|[List sensitivityLabels](../api/sensitivitylabel-list.md)|[sensitivityLabel](../resources/sensitivitylabel.md) collection|List properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) objects.|
+|[Get sensitivityLabel](../api/sensitivitylabel-get.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Read properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) object.|
+|[Create sensitivityLabel](../api/sensitivitylabel-create.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Create a new [sensitivityLabel](../resources/sensitivitylabel.md) object.|
 |[Delete sensitivityLabel](../api/sensitivitylabel-delete.md)|None|Deletes a [sensitivityLabel](../resources/sensitivitylabel.md).|
-|[Update sensitivityLabel](../api/sensitivitylabel-update.md)|[sensitivityLabel](../resources/sensitivityLabel.md)|Update the properties of a [sensitivityLabel](../resources/sensitivitylabel.md) object.|
-|[evaluate](../api/sensitivitylabel-evaluate.md)|[evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md)||
-|[List sublabels](../api/sensitivitylabel-list-sublabels.md)|[sensitivityLabel](../resources/sensitivityLabel.md) collection|Get the sensitivityLabels from the sublabels navigation property.|
-|[Add sublabels](../api/sensitivitylabel-post-sublabels.md)|[sensitivityLabel](../resources/sensitivityLabel.md)|Add sublabels by posting to the sublabels collection.|
+|[Update sensitivityLabel](../api/sensitivitylabel-update.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Update the properties of a [sensitivityLabel](../resources/sensitivitylabel.md) object.|
+|[evaluate](../api/sensitivitylabel-evaluate.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md)||
+|[List sublabels](../api/sensitivitylabel-list-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md) collection|Get the sensitivityLabels from the sublabels navigation property.|
+|[Add sublabels](../api/sensitivitylabel-post-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Add sublabels by posting to the sublabels collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |applicationMode|Enumeration|. Possible values are: `manual`, `automatic`, `recommended`.|
-|assignedPolicies|[labelPolicy](../resources/labelPolicy.md) collection||
-|autoLabeling|[autoLabeling](../resources/autoLabeling.md)||
+|assignedPolicies|[labelPolicy](../resources/labelpolicy.md) collection||
+|autoLabeling|[autoLabeling](../resources/autolabeling.md)||
 |description|String||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isDefault|Boolean||
 |isEndpointProtectionEnabled|Boolean||
-|labelActions|[labelActionBase](../resources/labelActionBase.md) collection||
+|labelActions|[labelActionBase](../resources/labelactionbase.md) collection||
 |name|String||
 |priority|Int32||
 |toolTip|String||
@@ -45,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|sublabels|[sensitivityLabel](../resources/sensitivityLabel.md) collection||
+|sublabels|[sensitivityLabel](../resources/sensitivitylabel.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

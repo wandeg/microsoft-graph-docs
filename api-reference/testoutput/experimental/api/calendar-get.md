@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get calendar
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [calendar](../resources/calendar.md) object.
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/calendar
+GET https://graph.microsoft.com/localtest/me/calendar
 ```
 
 ### Response
@@ -79,7 +81,7 @@ Content-Length: 693
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendar",
-    "id": "cfde7b0b-7b0b-cfde-0b7b-decf0b7bdecf",
+    "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
     "name": "Name value",
     "color": "String",
     "hexColor": "Hex Color value",

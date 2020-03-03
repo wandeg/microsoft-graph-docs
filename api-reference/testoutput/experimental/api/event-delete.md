@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete event
 
+Namespace: microsoft.graph
+
 Deletes a [event](../resources/event.md).
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/events/{eventId}
+DELETE https://graph.microsoft.com/localtest/me/events/{eventId}
 ```
 
 ### Response

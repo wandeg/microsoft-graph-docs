@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /contacts/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [orgContact](../resources/orgContact.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [orgContact](../resources/orgcontact.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/contacts/delta
+GET https://graph.microsoft.com/localtest/contacts/delta
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 1070
   "value": [
     {
       "@odata.type": "#microsoft.graph.orgContact",
-      "id": "adc508a4-08a4-adc5-a408-c5ada408c5ad",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "e8b04e82-4e82-e8b0-824e-b0e8824eb0e8",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "addresses": [
         {
           "@odata.type": "microsoft.graph.physicalOfficeAddress"
@@ -85,7 +87,7 @@ Content-Length: 1070
       "mail": "Mail value",
       "mailNickname": "Mail Nickname value",
       "onPremisesSyncEnabled": true,
-      "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError"

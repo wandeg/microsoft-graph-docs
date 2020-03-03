@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidCertificateProfileBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidCertificateProfileBase](../resources/androidcertificateprofilebase.md) object.
 
 ## Permissions
@@ -66,13 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1523
+Content-Length: 1522
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidCertificateProfileBase",
-    "id": "2d94db49-db49-2d94-49db-942d49db942d",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "f56e6274-6274-f56e-7462-6ef574626ef5",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -94,7 +96,7 @@ Content-Length: 1523
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

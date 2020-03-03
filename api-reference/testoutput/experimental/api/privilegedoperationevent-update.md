@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedOperationEvent
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /privilegedOperationEvents/{privilegedOperationEventsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedOperationEvent](../resources/privilegedOperationEvent.md) object.
+In the request body, supply a JSON representation for the [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.
 
 The following table shows the properties that are required when you create the [privilegedOperationEvent](../resources/privilegedoperationevent.md).
 
@@ -72,9 +74,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedOperationEvents/{privilegedOperationEventsId}
+PATCH https://graph.microsoft.com/localtest/privilegedOperationEvents/{privilegedOperationEventsId}
 Content-type: application/json
-Content-length: 657
+Content-length: 658
 
 {
   "@odata.type": "#microsoft.graph.privilegedOperationEvent",
@@ -83,8 +85,8 @@ Content-length: 657
   "userMail": "User Mail value",
   "roleId": "Role Id value",
   "roleName": "Role Name value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
   "requestorId": "Requestor Id value",
   "requestorName": "Requestor Name value",
   "tenantId": "Tenant Id value",
@@ -105,18 +107,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 706
+Content-Length: 707
 
 {
   "@odata.type": "#microsoft.graph.privilegedOperationEvent",
-  "id": "9597f945-f945-9597-45f9-979545f99795",
+  "id": "1176076e-076e-1176-6e07-76116e077611",
   "userId": "User Id value",
   "userName": "User Name value",
   "userMail": "User Mail value",
   "roleId": "Role Id value",
   "roleName": "Role Name value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
   "requestorId": "Requestor Id value",
   "requestorName": "Requestor Name value",
   "tenantId": "Tenant Id value",

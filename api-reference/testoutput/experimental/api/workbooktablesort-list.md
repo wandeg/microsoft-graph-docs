@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookTableSorts
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookTableSort not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookTableSort not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 643
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTableSort",
-      "id": "19fa572b-572b-19fa-2b57-fa192b57fa19",
+      "id": "320c8dc2-8dc2-320c-c28d-0c32c28d0c32",
       "fields": [
         {
           "@odata.type": "microsoft.graph.workbookSortField",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementExchangeOnPremisesPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/exchangeOnPremisesPolicy
+GET https://graph.microsoft.com/localtest/deviceManagement/exchangeOnPremisesPolicy
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 723
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementExchangeOnPremisesPolicy",
-    "id": "5d1b1915-1915-5d1b-1519-1b5d15191b5d",
+    "id": "c46bb79a-b79a-c46b-9ab7-6bc49ab76bc4",
     "notificationContent": "bm90aWZpY2F0aW9uQ29udGVudA==",
     "defaultAccessLevel": "String",
     "accessRules": [

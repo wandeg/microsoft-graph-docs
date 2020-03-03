@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update iosVppAppAssignedDeviceLicense
 
+Namespace: microsoft.graph
+
 Update the properties of a [iosVppAppAssignedDeviceLicense](../resources/iosvppappassigneddevicelicense.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.iosVppAppAssignedDeviceLicense not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosVppAppAssignedDeviceLicense](../resources/iosVppAppAssignedDeviceLicense.md) object.
+In the request body, supply a JSON representation for the [iosVppAppAssignedDeviceLicense](../resources/iosvppappassigneddevicelicense.md) object.
 
 The following table shows the properties that are required when you create the [iosVppAppAssignedDeviceLicense](../resources/iosvppappassigneddevicelicense.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|userEmailAddress|String|The user email address. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosVppAppAssignedLicense.md)|
-|userId|String|The user ID. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosVppAppAssignedLicense.md)|
-|userName|String|The user name. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosVppAppAssignedLicense.md)|
-|userPrincipalName|String|The user principal name. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosVppAppAssignedLicense.md)|
+|userEmailAddress|String|The user email address. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md)|
+|userId|String|The user ID. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md)|
+|userName|String|The user name. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md)|
+|userPrincipalName|String|The user principal name. Inherited from [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md)|
 |managedDeviceId|String|The managed device ID.|
 |deviceName|String|The device name.|
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppAppAssignedDeviceLicense not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppAppAssignedDeviceLicense not found
 Content-type: application/json
 Content-length: 327
 
@@ -93,7 +95,7 @@ Content-Length: 376
 
 {
   "@odata.type": "#microsoft.graph.iosVppAppAssignedDeviceLicense",
-  "id": "5916cd8b-cd8b-5916-8bcd-16598bcd1659",
+  "id": "915dad46-ad46-915d-46ad-5d9146ad5d91",
   "userEmailAddress": "User Email Address value",
   "userId": "User Id value",
   "userName": "User Name value",

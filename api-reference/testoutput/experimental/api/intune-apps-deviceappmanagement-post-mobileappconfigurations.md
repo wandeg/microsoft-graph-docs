@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileAppConfigurations
 
+Namespace: microsoft.graph
+
 Add mobileAppConfigurations by posting to the mobileAppConfigurations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileAppConfigurations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfiguration object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfiguration.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [managedDeviceMobileAppConfiguration](../resources/manageddevicemobileappconfiguration.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md) object in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations
 Content-type: application/json
 Content-length: 302
 
@@ -95,20 +97,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 474
+Content-Length: 473
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfiguration",
-  "id": "04c52ae0-2ae0-04c5-e02a-c504e02ac504",
+  "id": "ad13588f-588f-ad13-8f58-13ad8f5813ad",
   "targetedMobileApps": [
     "Targeted Mobile Apps value"
   ],
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7
 }

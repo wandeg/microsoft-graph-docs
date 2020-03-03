@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List financialses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [financials](../resources/financials.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.financials not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.financials not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 142
   "value": [
     {
       "@odata.type": "#microsoft.graph.financials",
-      "id": "ffdea07f-a07f-ffde-7fa0-deff7fa0deff"
+      "id": "278b3623-3623-278b-2336-8b2723368b27"
     }
   ]
 }

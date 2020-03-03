@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add resources
 
+Namespace: microsoft.graph
+
 Add resources by posting to the resources collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedAccess/{privilegedAccessId}/resources/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the governanceResource object.
+In the request body, supply a JSON representation for the [governanceResource](../resources/governanceresource.md) object.
 
-The following table shows the properties that are required when you create the governanceResource.
+The following table shows the properties that are required when you create the [governanceResource](../resources/governanceresource.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/resources
+POST https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/resources
 Content-type: application/json
 Content-length: 300
 
@@ -75,7 +77,7 @@ Content-length: 300
   "type": "Type value",
   "displayName": "Display Name value",
   "status": "Status value",
-  "registeredDateTime": "2017-01-01T00:00:03.0159289+03:00",
+  "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
   "registeredRoot": "Registered Root value"
 }
 ```
@@ -95,12 +97,12 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.governanceResource",
-  "id": "8fd0522d-522d-8fd0-2d52-d08f2d52d08f",
+  "id": "07783df7-3df7-0778-f73d-7807f73d7807",
   "externalId": "External Id value",
   "type": "Type value",
   "displayName": "Display Name value",
   "status": "Status value",
-  "registeredDateTime": "2017-01-01T00:00:03.0159289+03:00",
+  "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
   "registeredRoot": "Registered Root value"
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List enterpriseCodeSigningCertificates
 
+Namespace: microsoft.graph
+
 Get the enterpriseCodeSigningCertificates from the enterpriseCodeSigningCertificates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/enterpriseCodeSigningCertificates
+GET https://graph.microsoft.com/localtest/deviceAppManagement/enterpriseCodeSigningCertificates
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 506
+Content-Length: 507
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.enterpriseCodeSigningCertificate",
-      "id": "59885d3b-5d3b-5988-3b5d-88593b5d8859",
+      "id": "09359bff-9bff-0935-ff9b-3509ff9b3509",
       "content": "Y29udGVudA==",
       "status": "String",
       "subjectName": "Subject Name value",
       "subject": "Subject value",
       "issuerName": "Issuer Name value",
       "issuer": "Issuer value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-      "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedRole
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedRole](../resources/privilegedrole.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /privilegedRoles/{privilegedRolesId}/assignments/{privilegedRoleAssignment
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedRole](../resources/privilegedRole.md) object.
+In the request body, supply a JSON representation for the [privilegedRole](../resources/privilegedrole.md) object.
 
 The following table shows the properties that are required when you create the [privilegedRole](../resources/privilegedrole.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedRoles/{privilegedRolesId}
+PATCH https://graph.microsoft.com/localtest/privilegedRoles/{privilegedRolesId}
 Content-type: application/json
 Content-length: 81
 
@@ -88,7 +90,7 @@ Content-Length: 130
 
 {
   "@odata.type": "#microsoft.graph.privilegedRole",
-  "id": "6f5192e5-92e5-6f51-e592-516fe592516f",
+  "id": "9146a674-a674-9146-74a6-469174a64691",
   "name": "Name value"
 }
 ```

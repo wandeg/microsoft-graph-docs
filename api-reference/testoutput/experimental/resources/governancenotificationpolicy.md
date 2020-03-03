@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # governanceNotificationPolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |enabledTemplateTypes|String collection||
-|notificationTemplates|[governanceNotificationTemplate](../resources/governanceNotificationTemplate.md) collection||
+|notificationTemplates|[governanceNotificationTemplate](../resources/governancenotificationtemplate.md) collection||
 
 ## Relationships
 None

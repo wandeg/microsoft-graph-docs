@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add activities
 
+Namespace: microsoft.graph
+
 Add activities by posting to the activities collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/l
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the itemActivityOLD object.
+In the request body, supply a JSON representation for the [itemActivityOLD](../resources/itemactivityold.md) object.
 
-The following table shows the properties that are required when you create the itemActivityOLD.
+The following table shows the properties that are required when you create the [itemActivityOLD](../resources/itemactivityold.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|action|[itemActionSet](../resources/itemActionSet.md)||
-|actor|[identitySet](../resources/identitySet.md)||
-|times|[itemActivityTimeSet](../resources/itemActivityTimeSet.md)||
+|action|[itemActionSet](../resources/itemactionset.md)||
+|actor|[identitySet](../resources/identityset.md)||
+|times|[itemActivityTimeSet](../resources/itemactivitytimeset.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/activities
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/activities
 Content-type: application/json
 Content-length: 2271
 
@@ -143,9 +145,9 @@ Content-length: 2271
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2016-12-31T23:59:09.9360805+03:00",
-    "observedDateTime": "2017-01-01T00:00:01.3539029+03:00",
-    "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00"
+    "lastRecordedDateTime": "2016-12-31T23:56:40.0587575+03:00",
+    "observedDateTime": "2016-12-31T23:59:03.3671559+03:00",
+    "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00"
   }
 }
 ```
@@ -165,7 +167,7 @@ Content-Length: 2320
 
 {
   "@odata.type": "#microsoft.graph.itemActivityOLD",
-  "id": "1683a7e7-a7e7-1683-e7a7-8316e7a78316",
+  "id": "8ee0269c-269c-8ee0-9c26-e08e9c26e08e",
   "action": {
     "@odata.type": "microsoft.graph.itemActionSet",
     "comment": {
@@ -241,9 +243,9 @@ Content-Length: 2320
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2016-12-31T23:59:09.9360805+03:00",
-    "observedDateTime": "2017-01-01T00:00:01.3539029+03:00",
-    "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00"
+    "lastRecordedDateTime": "2016-12-31T23:56:40.0587575+03:00",
+    "observedDateTime": "2016-12-31T23:59:03.3671559+03:00",
+    "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00"
   }
 }
 ```

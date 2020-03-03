@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get resourceSpecificPermissionGrant
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/permissionGrants/{permissionGrantsId}
+GET https://graph.microsoft.com/localtest/permissionGrants/{permissionGrantsId}
 ```
 
 ### Response
@@ -74,8 +76,8 @@ Content-Length: 419
 {
   "value": {
     "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-    "id": "002001a2-01a2-0020-a201-2000a2012000",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "35c79838-9838-35c7-3898-c7353898c735",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "clientId": "Client Id value",
     "clientAppId": "Client App Id value",
     "resourceAppId": "Resource App Id value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete driveItemVersion
 
+Namespace: microsoft.graph
+
 Deletes a [driveItemVersion](../resources/driveitemversion.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/versions/{driveItemVersionId}
+DELETE https://graph.microsoft.com/localtest/workbooks/{workbooksId}/versions/{driveItemVersionId}
 ```
 
 ### Response

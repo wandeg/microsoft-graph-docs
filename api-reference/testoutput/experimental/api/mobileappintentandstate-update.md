@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileAppIntentAndState
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppIntentAndState](../resources/mobileAppIntentAndState.md) object.
+In the request body, supply a JSON representation for the [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.
 
 The following table shows the properties that are required when you create the [mobileAppIntentAndState](../resources/mobileappintentandstate.md).
 
@@ -45,7 +47,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |managedDeviceIdentifier|String|Device identifier created or collected by Intune.|
 |userId|String|Identifier for the user that tried to enroll the device.|
-|mobileAppList|[mobileAppIntentAndStateDetail](../resources/mobileAppIntentAndStateDetail.md) collection|The list of payload intents and states for the tenant.|
+|mobileAppList|[mobileAppIntentAndStateDetail](../resources/mobileappintentandstatedetail.md) collection|The list of payload intents and states for the tenant.|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
+PATCH https://graph.microsoft.com/localtest/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
 Content-type: application/json
 Content-length: 822
 
@@ -105,7 +107,7 @@ Content-Length: 871
 
 {
   "@odata.type": "#microsoft.graph.mobileAppIntentAndState",
-  "id": "817670ab-70ab-8176-ab70-7681ab707681",
+  "id": "0e508b02-8b02-0e50-028b-500e028b500e",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "userId": "User Id value",
   "mobileAppList": [

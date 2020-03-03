@@ -5,36 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # workPosition resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workPosition](../api/workposition-get.md)|[workPosition](../resources/workPosition.md)|Read properties and relationships of the [workPosition](../resources/workposition.md) object.|
+|[List workPositions](../api/workposition-list.md)|[workPosition](../resources/workposition.md) collection|List properties and relationships of the [workPosition](../resources/workposition.md) objects.|
+|[Get workPosition](../api/workposition-get.md)|[workPosition](../resources/workposition.md)|Read properties and relationships of the [workPosition](../resources/workposition.md) object.|
+|[Create workPosition](../api/workposition-create.md)|[workPosition](../resources/workposition.md)|Create a new [workPosition](../resources/workposition.md) object.|
 |[Delete workPosition](../api/workposition-delete.md)|None|Deletes a [workPosition](../resources/workposition.md).|
-|[Update workPosition](../api/workposition-update.md)|[workPosition](../resources/workPosition.md)|Update the properties of a [workPosition](../resources/workposition.md) object.|
+|[Update workPosition](../api/workposition-update.md)|[workPosition](../resources/workposition.md)|Update the properties of a [workPosition](../resources/workposition.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
 |categories|String collection||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|detail|[positionDetail](../resources/positionDetail.md)||
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|detail|[positionDetail](../resources/positiondetail.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 
 ## Relationships
 None

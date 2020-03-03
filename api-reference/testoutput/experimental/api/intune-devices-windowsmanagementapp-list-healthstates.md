@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List healthStates
 
+Namespace: microsoft.graph
+
 Get the windowsManagementAppHealthStates from the healthStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/windowsManagementApp/healthStates
+GET https://graph.microsoft.com/localtest/deviceAppManagement/windowsManagementApp/healthStates
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 409
+Content-Length: 410
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsManagementAppHealthState",
-      "id": "a331f672-f672-a331-72f6-31a372f631a3",
+      "id": "5abfe192-e192-5abf-92e1-bf5a92e1bf5a",
       "healthState": "String",
       "installedVersion": "Installed Version value",
-      "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00",
+      "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00",
       "deviceName": "Device Name value",
       "deviceOSVersion": "Device OSVersion value"
     }

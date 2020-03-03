@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementScriptRunSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementScriptRunSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementScriptRunSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 285
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptRunSummary",
-      "id": "df948344-8344-df94-4483-94df448394df",
+      "id": "836ac9bb-c9bb-836a-bbc9-6a83bbc96a83",
       "successDeviceCount": 2,
       "errorDeviceCount": 0,
       "successUserCount": 0,

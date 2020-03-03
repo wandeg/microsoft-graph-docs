@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update command
 
+Namespace: microsoft.graph
+
 Update the properties of a [command](../resources/command.md) object.
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the [
 |AppServiceName|String||
 |PackageFamilyName|String||
 |Error|String||
-|Payload|[PayloadRequest](../resources/PayloadRequest.md)||
+|Payload|[PayloadRequest](../resources/payloadrequest.md)||
 |PermissionTicket|String||
 |PostBackUri|String||
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/commands/{commandsId}
+PATCH https://graph.microsoft.com/localtest/commands/{commandsId}
 Content-type: application/json
 Content-length: 396
 
@@ -101,7 +103,7 @@ Content-Length: 445
 
 {
   "@odata.type": "#microsoft.graph.command",
-  "id": "4b16bcad-bcad-4b16-adbc-164badbc164b",
+  "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
   "Status": "Status value",
   "Type": "Type value",
   "AppServiceName": "App Service Name value",

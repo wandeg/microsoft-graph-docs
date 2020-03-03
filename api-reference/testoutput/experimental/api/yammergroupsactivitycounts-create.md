@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create yammerGroupsActivityCounts
 
+Namespace: microsoft.graph
+
 Create a new [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.yammerGroupsActivityCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the yammerGroupsActivityCounts object.
+In the request body, supply a JSON representation for the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) object.
 
-The following table shows the properties that are required when you create the yammerGroupsActivityCounts.
+The following table shows the properties that are required when you create the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerGroupsActivityCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerGroupsActivityCounts not found
 Content-type: application/json
 Content-length: 212
 
@@ -95,7 +97,7 @@ Content-Length: 261
 
 {
   "@odata.type": "#microsoft.graph.yammerGroupsActivityCounts",
-  "id": "94145b03-5b03-9414-035b-1494035b1494",
+  "id": "64d35fa4-5fa4-64d3-a45f-d364a45fd364",
   "reportRefreshDate": "Date",
   "liked": 5,
   "posted": 6,

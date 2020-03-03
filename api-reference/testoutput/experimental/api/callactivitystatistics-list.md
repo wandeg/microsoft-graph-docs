@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List callActivityStatisticses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [callActivityStatistics](../resources/callactivitystatistics.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.callActivityStatistics not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.callActivityStatistics not found
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 360
+Content-Length: 364
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callActivityStatistics",
-      "id": "e4aca5c2-a5c2-e4ac-c2a5-ace4c2a5ace4",
+      "id": "945f7e0b-7e0b-945f-0b7e-5f940b7e5f94",
       "activity": "String",
       "startDate": "Date",
       "endDate": "Date",
       "timeZoneUsed": "Time Zone Used value",
-      "duration": "PT3M27.7161587S",
-      "afterHours": "PT21.1795365S"
+      "duration": "-PT1M55.0810357S",
+      "afterHours": "-PT1M34.3242013S"
     }
   ]
 }

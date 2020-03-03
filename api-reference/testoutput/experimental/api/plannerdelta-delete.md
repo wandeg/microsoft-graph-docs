@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete plannerDelta
 
+Namespace: microsoft.graph
+
 Deletes a [plannerDelta](../resources/plannerdelta.md).
 
 ## Permissions

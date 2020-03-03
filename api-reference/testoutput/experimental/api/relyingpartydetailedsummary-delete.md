@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete relyingPartyDetailedSummary
 
+Namespace: microsoft.graph
+
 Deletes a [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
 ```
 
 ### Response

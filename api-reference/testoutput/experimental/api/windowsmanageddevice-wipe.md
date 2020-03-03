@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # wipe
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsManagedDevice not found/wipe
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsManagedDevice not found/wipe
 
 Content-type: application/json
 Content-length: 138

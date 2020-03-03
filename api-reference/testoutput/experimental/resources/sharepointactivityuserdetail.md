@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointActivityUserDetails](../api/sharepointactivityuserdetail-list.md)|[sharePointActivityUserDetail](../resources/sharePointActivityUserDetail.md) collection|List properties and relationships of the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) objects.|
-|[Get sharePointActivityUserDetail](../api/sharepointactivityuserdetail-get.md)|[sharePointActivityUserDetail](../resources/sharePointActivityUserDetail.md)|Read properties and relationships of the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
-|[Create sharePointActivityUserDetail](../api/sharepointactivityuserdetail-create.md)|[sharePointActivityUserDetail](../resources/sharePointActivityUserDetail.md)|Create a new [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
+|[List sharePointActivityUserDetails](../api/sharepointactivityuserdetail-list.md)|[sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) collection|List properties and relationships of the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) objects.|
+|[Get sharePointActivityUserDetail](../api/sharepointactivityuserdetail-get.md)|[sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md)|Read properties and relationships of the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
+|[Create sharePointActivityUserDetail](../api/sharepointactivityuserdetail-create.md)|[sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md)|Create a new [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
 |[Delete sharePointActivityUserDetail](../api/sharepointactivityuserdetail-delete.md)|None|Deletes a [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md).|
-|[Update sharePointActivityUserDetail](../api/sharepointactivityuserdetail-update.md)|[sharePointActivityUserDetail](../resources/sharePointActivityUserDetail.md)|Update the properties of a [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
+|[Update sharePointActivityUserDetail](../api/sharepointactivityuserdetail-update.md)|[sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md)|Update the properties of a [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

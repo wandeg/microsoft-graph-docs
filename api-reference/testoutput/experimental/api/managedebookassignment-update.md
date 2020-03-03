@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedEBookAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedEBookAssignment](../resources/managedebookassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEB
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedEBookAssignment](../resources/managedEBookAssignment.md) object.
+In the request body, supply a JSON representation for the [managedEBookAssignment](../resources/managedebookassignment.md) object.
 
 The following table shows the properties that are required when you create the [managedEBookAssignment](../resources/managedebookassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target for eBook.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target for eBook.|
 |installIntent|Enumeration|The install intent for eBook. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
 Content-type: application/json
 Content-length: 192
 
@@ -87,7 +89,7 @@ Content-Length: 241
 
 {
   "@odata.type": "#microsoft.graph.managedEBookAssignment",
-  "id": "0eb4b46a-b46a-0eb4-6ab4-b40e6ab4b40e",
+  "id": "744d8040-8040-744d-4080-4d7440804d74",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

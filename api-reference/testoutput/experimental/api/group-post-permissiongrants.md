@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add permissionGrants
 
+Namespace: microsoft.graph
+
 Add permissionGrants by posting to the permissionGrants collection.
 
 ## Permissions
@@ -37,14 +39,14 @@ POST /me/joinedGroups/{groupId}/permissionGrants/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the resourceSpecificPermissionGrant object.
+In the request body, supply a JSON representation for the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.
 
-The following table shows the properties that are required when you create the resourceSpecificPermissionGrant.
+The following table shows the properties that are required when you create the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |clientId|String||
 |clientAppId|String||
 |resourceAppId|String||
@@ -66,13 +68,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/permissionGrants
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/permissionGrants
 Content-type: application/json
 Content-length: 335
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",
@@ -96,8 +98,8 @@ Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "id": "002001a2-01a2-0020-a201-2000a2012000",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "35c79838-9838-35c7-3898-c7353898c735",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",

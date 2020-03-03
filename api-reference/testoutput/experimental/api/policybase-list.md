@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List policyBases
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [policyBase](../resources/policybase.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.policyBase not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.policyBase not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 229
   "value": [
     {
       "@odata.type": "#microsoft.graph.policyBase",
-      "id": "debd2598-2598-debd-9825-bdde9825bdde",
+      "id": "e5c9f0a7-f0a7-e5c9-a7f0-c9e5a7f0c9e5",
       "description": "Description value",
       "displayName": "Display Name value"
     }

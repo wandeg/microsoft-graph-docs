@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domainSecurityProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [domainSecurityProfile](../resources/domainsecurityprofile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /Security/domainSecurityProfiles/{domainSecurityProfileId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [domainSecurityProfile](../resources/domainSecurityProfile.md) object.
+In the request body, supply a JSON representation for the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.
 
 The following table shows the properties that are required when you create the [domainSecurityProfile](../resources/domainsecurityprofile.md).
 
@@ -47,15 +49,15 @@ The following table shows the properties that are required when you create the [
 |azureTenantId|String||
 |countHits|Int32||
 |countInOrg|Int32||
-|domainCategories|[reputationCategory](../resources/reputationCategory.md) collection||
+|domainCategories|[reputationCategory](../resources/reputationcategory.md) collection||
 |domainRegisteredDateTime|DateTimeOffset||
 |firstSeenDateTime|DateTimeOffset||
 |lastSeenDateTime|DateTimeOffset||
 |name|String||
-|registrant|[domainRegistrant](../resources/domainRegistrant.md)||
+|registrant|[domainRegistrant](../resources/domainregistrant.md)||
 |riskScore|String||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -72,9 +74,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/Security/domainSecurityProfiles/{domainSecurityProfileId}
+PATCH https://graph.microsoft.com/localtest/Security/domainSecurityProfiles/{domainSecurityProfileId}
 Content-type: application/json
-Content-length: 1199
+Content-length: 1198
 
 {
   "@odata.type": "#microsoft.graph.domainSecurityProfile",
@@ -93,9 +95,9 @@ Content-length: 1199
       "vendor": "Vendor value"
     }
   ],
-  "domainRegisteredDateTime": "2017-01-01T00:00:09.6498567+03:00",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "name": "Name value",
   "registrant": {
     "@odata.type": "microsoft.graph.domainRegistrant",
@@ -126,11 +128,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1248
+Content-Length: 1247
 
 {
   "@odata.type": "#microsoft.graph.domainSecurityProfile",
-  "id": "0bac715a-715a-0bac-5a71-ac0b5a71ac0b",
+  "id": "2db8f0b7-f0b7-2db8-b7f0-b82db7f0b82d",
   "activityGroupNames": [
     "Activity Group Names value"
   ],
@@ -146,9 +148,9 @@ Content-Length: 1248
       "vendor": "Vendor value"
     }
   ],
-  "domainRegisteredDateTime": "2017-01-01T00:00:09.6498567+03:00",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "name": "Name value",
   "registrant": {
     "@odata.type": "microsoft.graph.domainRegistrant",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get azureADFeatureUsage
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.azureADFeatureUsage not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.azureADFeatureUsage not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 254
+Content-Length: 253
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.azureADFeatureUsage",
-    "id": "621fad09-ad09-621f-09ad-1f6209ad1f62",
-    "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+    "id": "dae653c6-53c6-dae6-c653-e6dac653e6da",
+    "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
     "featureName": "Feature Name value",
     "usage": 5
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get providerTenantSetting
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [providerTenantSetting](../resources/providertenantsetting.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/providerTenantSettings/{providerTenantSettingId}
+GET https://graph.microsoft.com/localtest/Security/providerTenantSettings/{providerTenantSettingId}
 ```
 
 ### Response
@@ -72,10 +74,10 @@ Content-Length: 336
 {
   "value": {
     "@odata.type": "#microsoft.graph.providerTenantSetting",
-    "id": "6f9dc5d4-c5d4-6f9d-d4c5-9d6fd4c59d6f",
+    "id": "74e785a2-85a2-74e7-a285-e774a285e774",
     "azureTenantId": "Azure Tenant Id value",
     "enabled": true,
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "provider": "Provider value",
     "vendor": "Vendor value"
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add items
 
+Namespace: microsoft.graph
+
 Add items by posting to the items collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /external/connections/{externalConnectionId}/items/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the externalItem object.
+In the request body, supply a JSON representation for the [externalItem](../resources/externalitem.md) object.
 
-The following table shows the properties that are required when you create the externalItem.
+The following table shows the properties that are required when you create the [externalItem](../resources/externalitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/connections/{connectionsId}/items
+POST https://graph.microsoft.com/localtest/connections/{connectionsId}/items
 Content-type: application/json
 Content-length: 372
 
@@ -100,7 +102,7 @@ Content-Length: 421
 
 {
   "@odata.type": "#microsoft.graph.externalItem",
-  "id": "e4ac5c1d-5c1d-e4ac-1d5c-ace41d5cace4",
+  "id": "614cc62f-c62f-614c-2fc6-4c612fc64c61",
   "properties": {
     "@odata.type": "microsoft.graph.properties"
   },

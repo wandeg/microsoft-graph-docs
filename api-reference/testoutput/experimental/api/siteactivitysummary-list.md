@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List siteActivitySummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [siteActivitySummary](../resources/siteactivitysummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.siteActivitySummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.siteActivitySummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 371
   "value": [
     {
       "@odata.type": "#microsoft.graph.siteActivitySummary",
-      "id": "13ca0c59-0c59-13ca-590c-ca13590cca13",
+      "id": "1795a129-a129-1795-29a1-951729a19517",
       "reportRefreshDate": "Date",
       "viewedOrEdited": 14,
       "synced": 6,

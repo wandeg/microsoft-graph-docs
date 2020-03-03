@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 ## Permissions
@@ -34,7 +36,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsAppDefinition.md) object.
+In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 The following table shows the properties that are required when you create the [teamsAppDefinition](../resources/teamsappdefinition.md).
 
@@ -77,7 +79,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "f9fa8e26-8e26-f9fa-268e-faf9268efaf9",
+  "id": "ad3d55b7-55b7-ad3d-b755-3dadb7553dad",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

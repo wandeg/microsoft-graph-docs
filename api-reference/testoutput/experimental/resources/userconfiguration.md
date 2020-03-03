@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get userConfiguration](../api/userconfiguration-get.md)|[userConfiguration](../resources/userConfiguration.md)|Read properties and relationships of the [userConfiguration](../resources/userconfiguration.md) object.|
+|[List userConfigurations](../api/userconfiguration-list.md)|[userConfiguration](../resources/userconfiguration.md) collection|List properties and relationships of the [userConfiguration](../resources/userconfiguration.md) objects.|
+|[Get userConfiguration](../api/userconfiguration-get.md)|[userConfiguration](../resources/userconfiguration.md)|Read properties and relationships of the [userConfiguration](../resources/userconfiguration.md) object.|
+|[Create userConfiguration](../api/userconfiguration-create.md)|[userConfiguration](../resources/userconfiguration.md)|Create a new [userConfiguration](../resources/userconfiguration.md) object.|
 |[Delete userConfiguration](../api/userconfiguration-delete.md)|None|Deletes a [userConfiguration](../resources/userconfiguration.md).|
-|[Update userConfiguration](../api/userconfiguration-update.md)|[userConfiguration](../resources/userConfiguration.md)|Update the properties of a [userConfiguration](../resources/userconfiguration.md) object.|
+|[Update userConfiguration](../api/userconfiguration-update.md)|[userConfiguration](../resources/userconfiguration.md)|Update the properties of a [userConfiguration](../resources/userconfiguration.md) object.|
 
 ## Properties
 |Property|Type|Description|

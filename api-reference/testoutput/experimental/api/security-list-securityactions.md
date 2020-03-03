@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List securityActions
 
+Namespace: microsoft.graph
+
 Get the securityActions from the securityActions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/securityActions
+GET https://graph.microsoft.com/localtest/Security/securityActions
 ```
 
 ### Response
@@ -64,26 +66,26 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1440
+Content-Length: 1439
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.securityAction",
-      "id": "eb659326-9326-eb65-2693-65eb269365eb",
+      "id": "88effc58-fc58-88ef-58fc-ef8858fcef88",
       "actionReason": "Action Reason value",
       "appId": "App Id value",
       "azureTenantId": "Azure Tenant Id value",
       "clientContext": "Client Context value",
-      "completedDateTime": "2017-01-01T00:01:13.9669573+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "errorInfo": {
         "@odata.type": "microsoft.graph.ResultInfo",
         "code": 4,
         "subcode": 7,
         "message": "Message value"
       },
-      "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+      "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
       "name": "Name value",
       "parameters": [
         {
@@ -95,7 +97,7 @@ Content-Length: 1440
         {
           "@odata.type": "microsoft.graph.securityActionState",
           "status": "String",
-          "updatedDateTime": "2017-01-01T00:02:44.8627183+03:00",
+          "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00",
           "user": "User value"
         }
       ],

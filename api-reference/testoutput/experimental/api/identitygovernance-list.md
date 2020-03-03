@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List identityGovernances
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [identityGovernance](../resources/identitygovernance.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.identityGovernance not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.identityGovernance not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 150
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityGovernance",
-      "id": "79882bdc-2bdc-7988-dc2b-8879dc2b8879"
+      "id": "c7e5545e-545e-c7e5-5e54-e5c75e54e5c7"
     }
   ]
 }

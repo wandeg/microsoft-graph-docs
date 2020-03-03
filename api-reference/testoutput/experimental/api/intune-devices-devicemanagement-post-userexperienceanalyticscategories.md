@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userExperienceAnalyticsCategories
 
+Namespace: microsoft.graph
+
 Add userExperienceAnalyticsCategories by posting to the userExperienceAnalyticsCategories collection.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST /deviceManagement/userExperienceAnalyticsCategories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsCategory object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsCategory.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userExperienceAnalyticsInsight.md) collection|The insights for the user experience analytics category.|
+|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userexperienceanalyticsinsight.md) collection|The insights for the user experience analytics category.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsCategory](../resources/userexperienceanalyticscategory.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsCategories
+POST https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsCategories
 Content-type: application/json
 Content-length: 481
 
@@ -98,7 +100,7 @@ Content-Length: 530
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsCategory",
-  "id": "432ceda3-eda3-432c-a3ed-2c43a3ed2c43",
+  "id": "808eba42-ba42-808e-42ba-8e8042ba8e80",
   "insights": [
     {
       "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsCatalogApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsCatalogApp](../resources/teamscatalogapp.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/joinedGroups/{groupId}/team/apps/{teamsCatalogAppId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsCatalogApp](../resources/teamsCatalogApp.md) object.
+In the request body, supply a JSON representation for the [teamsCatalogApp](../resources/teamscatalogapp.md) object.
 
 The following table shows the properties that are required when you create the [teamsCatalogApp](../resources/teamscatalogapp.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teams/{teamsId}/apps/{teamsCatalogAppId}
+PATCH https://graph.microsoft.com/localtest/teams/{teamsId}/apps/{teamsCatalogAppId}
 Content-type: application/json
 Content-length: 155
 
@@ -88,7 +90,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.teamsCatalogApp",
-  "id": "79d15acd-5acd-79d1-cd5a-d179cd5ad179",
+  "id": "11dd4ded-4ded-11dd-ed4d-dd11ed4ddd11",
   "externalId": "External Id value",
   "name": "Name value",
   "distributionMethod": "String"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List dataPolicyOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [dataPolicyOperation](../resources/datapolicyoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataPolicyOperations
+GET https://graph.microsoft.com/localtest/dataPolicyOperations
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 422
+Content-Length: 423
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.dataPolicyOperation",
-      "id": "60f1c238-c238-60f1-38c2-f16038c2f160",
-      "completedDateTime": "2017-01-01T00:01:13.9669573+03:00",
+      "id": "4d51907a-907a-4d51-7a90-514d7a90514d",
+      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
       "status": "String",
       "storageLocation": "Storage Location value",
       "userId": "User Id value",
-      "submittedDateTime": "2017-01-01T00:01:39.273323+03:00",
+      "submittedDateTime": "2016-12-31T23:57:10.5476387+03:00",
       "progress": "Double"
     }
   ]

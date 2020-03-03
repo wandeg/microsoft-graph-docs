@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update iosLobAppProvisioningConfiguration
 
-Update the properties of a [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosLobAppProvisioningConfiguration](../resources/iosLobAppProvisioningConfiguration.md) object.
+In the request body, supply a JSON representation for the [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object.
 
-The following table shows the properties that are required when you create the [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md).
+The following table shows the properties that are required when you create the [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object in the response body.
 
 ## Example
 
@@ -67,13 +69,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}
 Content-type: application/json
-Content-length: 374
+Content-length: 375
 
 {
   "@odata.type": "#microsoft.graph.iosLobAppProvisioningConfiguration",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "payloadFileName": "Payload File Name value",
   "payload": "cGF5bG9hZA==",
   "roleScopeTagIds": [
@@ -99,16 +101,16 @@ Content-Length: 546
 
 {
   "@odata.type": "#microsoft.graph.iosLobAppProvisioningConfiguration",
-  "id": "de0693a4-93a4-de06-a493-06dea49306de",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "id": "9594a62b-a62b-9594-2ba6-94952ba69495",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "payloadFileName": "Payload File Name value",
   "payload": "cGF5bG9hZA==",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7
 }

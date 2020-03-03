@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add borders
 
+Namespace: microsoft.graph
+
 Add borders by posting to the borders collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRangeBorder not found/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRangeBorder object.
+In the request body, supply a JSON representation for the [workbookRangeBorder](../resources/workbookrangeborder.md) object.
 
-The following table shows the properties that are required when you create the workbookRangeBorder.
+The following table shows the properties that are required when you create the [workbookRangeBorder](../resources/workbookrangeborder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeBorder not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeBorder not found
 Content-type: application/json
 Content-length: 180
 
@@ -91,7 +93,7 @@ Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeBorder",
-  "id": "f4be119f-119f-f4be-9f11-bef49f11bef4",
+  "id": "a5f5a210-a210-a5f5-10a2-f5a510a2f5a5",
   "color": "Color value",
   "sideIndex": "Side Index value",
   "style": "Style value",

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get managedDeviceMobileAppConfigurationDeviceStatus
 
-Read properties and relationships of the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
 ```
 
 ### Response
@@ -68,19 +70,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 545
+Content-Length: 544
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-    "id": "27e5db6e-db6e-27e5-6edb-e5276edbe527",
+    "id": "09b7a42a-a42a-09b7-2aa4-b7092aa4b709",
     "deviceDisplayName": "Device Display Name value",
     "userName": "User Name value",
     "deviceModel": "Device Model value",
     "platform": 8,
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
     "status": "String",
-    "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+    "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

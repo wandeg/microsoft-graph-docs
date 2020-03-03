@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsManagementApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsManagementApp](../resources/windowsmanagementapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsManagementApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsManagementApp not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 206
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsManagementApp",
-      "id": "3d1b151b-151b-3d1b-1b15-1b3d1b151b3d",
+      "id": "219c6239-6239-219c-3962-9c2139629c21",
       "availableVersion": "Available Version value"
     }
   ]

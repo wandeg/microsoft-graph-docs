@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidDeviceComplianceLocalActionLockDevice
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH ** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidDeviceComplianceLocalActionLockDevice](../resources/androidDeviceComplianceLocalActionLockDevice.md) object.
+In the request body, supply a JSON representation for the [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md) object.
 
 The following table shows the properties that are required when you create the [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androidDeviceComplianceLocalActionBase.md)|
+|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md)|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
 Content-type: application/json
 Content-length: 116
 
@@ -83,7 +85,7 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionLockDevice",
-  "id": "190e540a-540a-190e-0a54-0e190a540e19",
+  "id": "4466e6e0-e6e0-4466-e0e6-6644e0e66644",
   "gracePeriodInMinutes": 4
 }
 ```

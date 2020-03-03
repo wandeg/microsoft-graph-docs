@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update offerShiftRequest
 
+Namespace: microsoft.graph
+
 Update the properties of a [offerShiftRequest](../resources/offershiftrequest.md) object.
 
 ## Permissions
@@ -35,24 +37,24 @@ PATCH /me/joinedGroups/{groupId}/team/schedule/offerShiftRequests/{offerShiftReq
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [offerShiftRequest](../resources/offerShiftRequest.md) object.
+In the request body, supply a JSON representation for the [offerShiftRequest](../resources/offershiftrequest.md) object.
 
 The following table shows the properties that are required when you create the [offerShiftRequest](../resources/offershiftrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
-|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
-|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
+|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
+|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
 |recipientActionMessage|String||
 |recipientActionDateTime|DateTimeOffset||
 |senderShiftId|String||
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/offerShiftRequests/{offerShiftRequestId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/offerShiftRequests/{offerShiftRequestId}
 Content-type: application/json
 Content-length: 646
 
@@ -82,13 +84,13 @@ Content-length: 646
   "assignedTo": "String",
   "state": "String",
   "senderMessage": "Sender Message value",
-  "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+  "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
   "managerActionMessage": "Manager Action Message value",
-  "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+  "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
   "senderUserId": "Sender User Id value",
   "managerUserId": "Manager User Id value",
   "recipientActionMessage": "Recipient Action Message value",
-  "recipientActionDateTime": "2016-12-31T23:59:57.9878243+03:00",
+  "recipientActionDateTime": "2016-12-31T23:58:22.0066573+03:00",
   "senderShiftId": "Sender Shift Id value",
   "recipientUserId": "Recipient User Id value"
 }
@@ -104,13 +106,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1191
+Content-Length: 1190
 
 {
   "@odata.type": "#microsoft.graph.offerShiftRequest",
-  "id": "55744b00-4b00-5574-004b-7455004b7455",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "d195d2b2-d2b2-d195-b2d2-95d1b2d295d1",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -128,13 +130,13 @@ Content-Length: 1191
   "assignedTo": "String",
   "state": "String",
   "senderMessage": "Sender Message value",
-  "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+  "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
   "managerActionMessage": "Manager Action Message value",
-  "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+  "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
   "senderUserId": "Sender User Id value",
   "managerUserId": "Manager User Id value",
   "recipientActionMessage": "Recipient Action Message value",
-  "recipientActionDateTime": "2016-12-31T23:59:57.9878243+03:00",
+  "recipientActionDateTime": "2016-12-31T23:58:22.0066573+03:00",
   "senderShiftId": "Sender Shift Id value",
   "recipientUserId": "Recipient User Id value"
 }

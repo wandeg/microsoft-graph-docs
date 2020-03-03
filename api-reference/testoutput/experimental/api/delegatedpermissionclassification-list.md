@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List delegatedPermissionClassifications
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.delegatedPermissionClassification not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.delegatedPermissionClassification not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 296
   "value": [
     {
       "@odata.type": "#microsoft.graph.delegatedPermissionClassification",
-      "id": "947f692a-692a-947f-2a69-7f942a697f94",
+      "id": "68614311-4311-6861-1143-616811436168",
       "permissionId": "Permission Id value",
       "permissionName": "Permission Name value",
       "classification": "String"

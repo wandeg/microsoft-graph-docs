@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # revokeUserLicense
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppApp not found/revokeUserLicense
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppApp not found/revokeUserLicense
 
 Content-type: application/json
 Content-length: 66

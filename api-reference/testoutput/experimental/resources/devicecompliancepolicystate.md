@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceCompliancePolicyState resource type
+
+
+Namespace: microsoft.graph
 
 Device Compliance Policy State for a given device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceCompliancePolicyState](../api/devicecompliancepolicystate-get.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md)|Read properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
+|[List deviceCompliancePolicyStates](../api/devicecompliancepolicystate-list.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|List properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) objects.|
+|[Get deviceCompliancePolicyState](../api/devicecompliancepolicystate-get.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Read properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
+|[Create deviceCompliancePolicyState](../api/devicecompliancepolicystate-create.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Create a new [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
 |[Delete deviceCompliancePolicyState](../api/devicecompliancepolicystate-delete.md)|None|Deletes a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md).|
-|[Update deviceCompliancePolicyState](../api/devicecompliancepolicystate-update.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md)|Update the properties of a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
+|[Update deviceCompliancePolicyState](../api/devicecompliancepolicystate-update.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Update the properties of a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -30,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |platformType|Enumeration|Platform type that the policy applies to. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
 |settingCount|Int32|Count of how many setting a policy holds|
-|settingStates|[deviceCompliancePolicySettingState](../resources/deviceCompliancePolicySettingState.md) collection||
+|settingStates|[deviceCompliancePolicySettingState](../resources/devicecompliancepolicysettingstate.md) collection||
 |state|Enumeration|The compliance state of the policy. Possible values are: `unknown`, `notApplicable`, `compliant`, `remediated`, `nonCompliant`, `error`, `conflict`, `notAssigned`.|
 |userId|String|User unique identifier, must be Guid|
 |userPrincipalName|String|User Principal Name|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # addPassword
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|passwordCredential|[passwordCredential](../resources/passwordCredential.md)||
+|passwordCredential|[passwordCredential](../resources/passwordcredential.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [passwordCredential](../resources/passwordCredential.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [passwordCredential](../resources/passwordcredential.md) in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/addPassword
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/addPassword
 
 Content-type: application/json
 Content-length: 93

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get roleAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [roleAssignment](../resources/roleassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 363
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleAssignment",
-    "id": "85b8a0f7-a0f7-85b8-f7a0-b885f7a0b885",
+    "id": "bf523673-3673-bf52-7336-52bf733652bf",
     "displayName": "Display Name value",
     "description": "Description value",
     "scopeMembers": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # restoreVersion
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/versions/{driveItemVersionId}/restoreVersion
+POST https://graph.microsoft.com/localtest/workbooks/{workbooksId}/versions/{driveItemVersionId}/restoreVersion
 ```
 
 ### Response

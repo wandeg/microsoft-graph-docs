@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get oAuth2PermissionGrant
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/oauth2PermissionGrants/{oauth2PermissionGrantsId}
+GET https://graph.microsoft.com/localtest/oauth2PermissionGrants/{oauth2PermissionGrantsId}
 ```
 
 ### Response
@@ -72,14 +74,14 @@ Content-Length: 435
 {
   "value": {
     "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
-    "id": "b4971c0a-1c0a-b497-0a1c-97b40a1c97b4",
+    "id": "4dea3746-3746-4dea-4637-ea4d4637ea4d",
     "clientId": "Client Id value",
     "consentType": "Consent Type value",
-    "expiryTime": "2017-01-01T00:01:52.1150286+03:00",
+    "expiryTime": "2016-12-31T23:58:12.6684613+03:00",
     "principalId": "Principal Id value",
     "resourceId": "Resource Id value",
     "scope": "Scope value",
-    "startTime": "2016-12-31T23:59:41.6500596+03:00"
+    "startTime": "2017-01-01T00:02:49.6370207+03:00"
   }
 }
 ```

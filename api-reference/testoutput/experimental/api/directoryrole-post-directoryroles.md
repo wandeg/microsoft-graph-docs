@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create directoryRole
 
+Namespace: microsoft.graph
+
 Create a new [directoryRole](../resources/directoryrole.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /directoryRoles
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directoryRole object.
+In the request body, supply a JSON representation for the [directoryRole](../resources/directoryrole.md) object.
 
-The following table shows the properties that are required when you create the directoryRole.
+The following table shows the properties that are required when you create the [directoryRole](../resources/directoryrole.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 |roleTemplateId|String||
@@ -63,13 +65,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directoryRoles
+POST https://graph.microsoft.com/localtest/directoryRoles
 Content-type: application/json
 Content-length: 240
 
 {
   "@odata.type": "#microsoft.graph.directoryRole",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "roleTemplateId": "Role Template Id value"
@@ -91,8 +93,8 @@ Content-Length: 289
 
 {
   "@odata.type": "#microsoft.graph.directoryRole",
-  "id": "712127af-27af-7121-af27-2171af272171",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "be122923-2923-be12-2329-12be232912be",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "roleTemplateId": "Role Template Id value"

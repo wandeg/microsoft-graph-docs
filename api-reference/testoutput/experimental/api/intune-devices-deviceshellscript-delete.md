@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete deviceShellScript
 
-Deletes a [deviceShellScript](../resources/deviceshellscript.md).
+Namespace: microsoft.graph
+
+Deletes a [deviceShellScript](../resources/intune-devices-deviceshellscript.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}
 ```
 
 ### Response

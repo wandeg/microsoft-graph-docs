@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicyPresentationValueTexts
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [groupPolicyPresentationValueText](../resources/grouppolicypresentationvaluetext.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationValueText not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationValueText not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 326
+Content-Length: 325
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
-      "id": "29ab9d00-9d00-29ab-009d-ab29009dab29",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "dcd544bd-44bd-dcd5-bd44-d5dcbd44d5dc",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "value": "Value value"
     }
   ]

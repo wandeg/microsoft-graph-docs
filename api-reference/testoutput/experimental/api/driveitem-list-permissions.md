@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List permissions
 
+Namespace: microsoft.graph
+
 Get the permissions from the permissions navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/permissions
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/permissions
 ```
 
 ### Response
@@ -65,14 +67,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2182
+Content-Length: 2183
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "6e4632ec-32ec-6e46-ec32-466eec32466e",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "id": "32939072-9072-3293-7290-933272909332",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

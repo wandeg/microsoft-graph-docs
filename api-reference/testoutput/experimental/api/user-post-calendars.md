@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add calendars
 
+Namespace: microsoft.graph
+
 Add calendars by posting to the calendars collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/calendars/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the calendar object.
+In the request body, supply a JSON representation for the [calendar](../resources/calendar.md) object.
 
-The following table shows the properties that are required when you create the calendar.
+The following table shows the properties that are required when you create the [calendar](../resources/calendar.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the c
 |isShared|Boolean||
 |isSharedWithMe|Boolean||
 |canEdit|Boolean||
-|owner|[emailAddress](../resources/emailAddress.md)||
+|owner|[emailAddress](../resources/emailaddress.md)||
 |allowedOnlineMeetingProviders|Enumeration collection|. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
 |defaultOnlineMeetingProvider|Enumeration|. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
 |isTallyingResponses|Boolean||
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/calendars
+POST https://graph.microsoft.com/localtest/me/calendars
 Content-type: application/json
 Content-length: 581
 
@@ -119,7 +121,7 @@ Content-Length: 630
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "cfde7b0b-7b0b-cfde-0b7b-decf0b7bdecf",
+  "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
   "name": "Name value",
   "color": "String",
   "hexColor": "Hex Color value",

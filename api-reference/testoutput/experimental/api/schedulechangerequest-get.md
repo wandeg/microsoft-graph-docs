@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get scheduleChangeRequest
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [scheduleChangeRequest](../resources/schedulechangerequest.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.scheduleChangeRequest not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.scheduleChangeRequest not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1042
+Content-Length: 1041
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.scheduleChangeRequest",
-    "id": "fdf13cfd-3cfd-fdf1-fd3c-f1fdfd3cf1fd",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "1b4ee48a-e48a-1b4e-8ae4-4e1b8ae44e1b",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -92,9 +94,9 @@ Content-Length: 1042
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value"
   }

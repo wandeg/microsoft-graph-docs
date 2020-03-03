@@ -5,47 +5,50 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # offerShiftRequest resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)
+
+
+Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get offerShiftRequest](../api/offershiftrequest-get.md)|[offerShiftRequest](../resources/offerShiftRequest.md)|Read properties and relationships of the [offerShiftRequest](../resources/offershiftrequest.md) object.|
+|[List offerShiftRequests](../api/offershiftrequest-list.md)|[offerShiftRequest](../resources/offershiftrequest.md) collection|List properties and relationships of the [offerShiftRequest](../resources/offershiftrequest.md) objects.|
+|[Get offerShiftRequest](../api/offershiftrequest-get.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Read properties and relationships of the [offerShiftRequest](../resources/offershiftrequest.md) object.|
+|[Create offerShiftRequest](../api/offershiftrequest-create.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Create a new [offerShiftRequest](../resources/offershiftrequest.md) object.|
 |[Delete offerShiftRequest](../api/offershiftrequest-delete.md)|None|Deletes a [offerShiftRequest](../resources/offershiftrequest.md).|
-|[Update offerShiftRequest](../api/offershiftrequest-update.md)|[offerShiftRequest](../resources/offerShiftRequest.md)|Update the properties of a [offerShiftRequest](../resources/offershiftrequest.md) object.|
+|[Update offerShiftRequest](../api/offershiftrequest-update.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Update the properties of a [offerShiftRequest](../resources/offershiftrequest.md) object.|
 |[approve](../api/offershiftrequest-approve.md)|None||
 |[decline](../api/offershiftrequest-decline.md)|None||
-|[List offerShiftRequests](../api/schedule-list-offershiftrequests.md)|[offerShiftRequest](../resources/offerShiftRequest.md) collection|Get the offerShiftRequests from the offerShiftRequests navigation property.|
-|[Add offerShiftRequests](../api/schedule-post-offershiftrequests.md)|[offerShiftRequest](../resources/offerShiftRequest.md)|Add offerShiftRequests by posting to the offerShiftRequests collection.|
+|[List offerShiftRequests](../api/schedule-list-offershiftrequests.md)|[offerShiftRequest](../resources/offershiftrequest.md) collection|Get the offerShiftRequests from the offerShiftRequests navigation property.|
+|[Add offerShiftRequests](../api/schedule-post-offershiftrequests.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Add offerShiftRequests by posting to the offerShiftRequests collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
 |recipientActionDateTime|DateTimeOffset||
 |recipientActionMessage|String||
 |recipientUserId|String||
-|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
+|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
 |senderShiftId|String||
-|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
+|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
 
 ## Relationships
 None

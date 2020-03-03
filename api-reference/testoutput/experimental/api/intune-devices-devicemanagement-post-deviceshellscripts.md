@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceShellScripts
 
+Namespace: microsoft.graph
+
 Add deviceShellScripts by posting to the deviceShellScripts collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceShellScripts/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceShellScript object.
+In the request body, supply a JSON representation for the [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.
 
-The following table shows the properties that are required when you create the deviceShellScript.
+The following table shows the properties that are required when you create the [deviceShellScript](../resources/intune-devices-deviceshellscript.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceShellScript](../resources/deviceshellscript.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object in the response body.
 
 ## Example
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts
 Content-type: application/json
 Content-length: 307
 
@@ -95,16 +97,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 479
+Content-Length: 478
 
 {
   "@odata.type": "#microsoft.graph.deviceShellScript",
-  "id": "c6b91a24-1a24-c6b9-241a-b9c6241ab9c6",
+  "id": "692bfe8a-fe8a-692b-8afe-2b698afe2b69",
   "displayName": "Display Name value",
   "description": "Description value",
   "scriptContent": "c2NyaXB0Q29udGVudA==",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "runAsAccount": "String",
   "fileName": "File Name value",
   "roleScopeTagIds": [

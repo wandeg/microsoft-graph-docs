@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List synchronizationSchemas
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.synchronizationSchema not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.synchronizationSchema not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 3574
   "value": [
     {
       "@odata.type": "#microsoft.graph.synchronizationSchema",
-      "id": "384985da-85da-3849-da85-4938da854938",
+      "id": "c89cff04-ff04-c89c-04ff-9cc804ff9cc8",
       "provisioningTaskIdentifier": "Provisioning Task Identifier value",
       "synchronizationRules": [
         {

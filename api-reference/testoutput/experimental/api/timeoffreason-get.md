@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get timeOffReason
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [timeOffReason](../resources/timeoffreason.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/timeOffReasons/{timeOffReasonId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/timeOffReasons/{timeOffReasonId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 747
+Content-Length: 746
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.timeOffReason",
-    "id": "5da26a4c-6a4c-5da2-4c6a-a25d4c6aa25d",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "4cb4eadb-eadb-4cb4-dbea-b44cdbeab44c",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

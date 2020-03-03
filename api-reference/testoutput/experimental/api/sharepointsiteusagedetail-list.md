@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sharePointSiteUsageDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsageDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsageDetail not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 754
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharePointSiteUsageDetail",
-      "id": "cbf31882-1882-cbf3-8218-f3cb8218f3cb",
+      "id": "6e05d61e-d61e-6e05-1ed6-056e1ed6056e",
       "reportRefreshDate": "Date",
-      "siteId": "005424d7-24d7-0054-d724-5400d7245400",
+      "siteId": "e6fd33e3-33e3-e6fd-e333-fde6e333fde6",
       "siteUrl": "https://example.com/siteUrl/",
       "ownerDisplayName": "Owner Display Name value",
       "ownerPrincipalName": "Owner Principal Name value",

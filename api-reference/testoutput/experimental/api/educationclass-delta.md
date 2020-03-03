@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /education/classes/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [educationClass](../resources/educationClass.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [educationClass](../resources/educationclass.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/delta
+GET https://graph.microsoft.com/localtest/education/classes/delta
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 729
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationClass",
-      "id": "60496f21-6f21-6049-216f-4960216f4960",
+      "id": "00653963-3963-0065-6339-650063396500",
       "displayName": "Display Name value",
       "mailNickname": "Mail Nickname value",
       "description": "Description value",

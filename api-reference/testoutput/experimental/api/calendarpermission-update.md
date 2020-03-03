@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update calendarPermission
 
+Namespace: microsoft.graph
+
 Update the properties of a [calendarPermission](../resources/calendarpermission.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [calendarPermission](../resources/calendarPermission.md) object.
+In the request body, supply a JSON representation for the [calendarPermission](../resources/calendarpermission.md) object.
 
 The following table shows the properties that are required when you create the [calendarPermission](../resources/calendarpermission.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|emailAddress|[emailAddress](../resources/emailAddress.md)||
+|emailAddress|[emailAddress](../resources/emailaddress.md)||
 |isRemovable|Boolean||
 |isInsideOrganization|Boolean||
 |role|Enumeration|. Possible values are: `none`, `freeBusyRead`, `limitedRead`, `read`, `write`, `delegateWithoutPrivateEventAccess`, `delegateWithPrivateEventAccess`, `custom`.|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermissionId}
+PATCH https://graph.microsoft.com/localtest/me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermissionId}
 Content-type: application/json
 Content-length: 317
 
@@ -97,7 +99,7 @@ Content-Length: 366
 
 {
   "@odata.type": "#microsoft.graph.calendarPermission",
-  "id": "cb27b565-b565-cb27-65b5-27cb65b527cb",
+  "id": "0445712f-712f-0445-2f71-45042f714504",
   "emailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",
     "name": "Name value",

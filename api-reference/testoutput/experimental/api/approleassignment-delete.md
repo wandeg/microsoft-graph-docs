@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete appRoleAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [appRoleAssignment](../resources/approleassignment.md).
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/appRoleAssignments/{appRoleAssignmentsId}
+DELETE https://graph.microsoft.com/localtest/appRoleAssignments/{appRoleAssignmentsId}
 ```
 
 ### Response

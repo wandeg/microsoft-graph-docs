@@ -5,38 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # evaluateLabelJobResponse resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [jobResponseBase](../resources/jobResponseBase.md)
+
+
+Inherits from [jobResponseBase](../resources/jobresponsebase.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List evaluateLabelJobResponses](../api/evaluatelabeljobresponse-list.md)|[evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md) collection|List properties and relationships of the [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) objects.|
-|[Get evaluateLabelJobResponse](../api/evaluatelabeljobresponse-get.md)|[evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md)|Read properties and relationships of the [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
-|[Create evaluateLabelJobResponse](../api/evaluatelabeljobresponse-create.md)|[evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md)|Create a new [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
+|[List evaluateLabelJobResponses](../api/evaluatelabeljobresponse-list.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) collection|List properties and relationships of the [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) objects.|
+|[Get evaluateLabelJobResponse](../api/evaluatelabeljobresponse-get.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md)|Read properties and relationships of the [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
+|[Create evaluateLabelJobResponse](../api/evaluatelabeljobresponse-create.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md)|Create a new [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
 |[Delete evaluateLabelJobResponse](../api/evaluatelabeljobresponse-delete.md)|None|Deletes a [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md).|
-|[Update evaluateLabelJobResponse](../api/evaluatelabeljobresponse-update.md)|[evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md)|Update the properties of a [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
+|[Update evaluateLabelJobResponse](../api/evaluatelabeljobresponse-update.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md)|Update the properties of a [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|result|[evaluateLabelJobResultGroup](../resources/evaluateLabelJobResultGroup.md)||
-|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|status|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|tenantId|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|type|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|result|[evaluateLabelJobResultGroup](../resources/evaluatelabeljobresultgroup.md)||
+|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|status|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|tenantId|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|type|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 
 ## Relationships
 None

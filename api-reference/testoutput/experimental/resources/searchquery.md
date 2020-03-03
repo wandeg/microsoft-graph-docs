@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # searchQuery resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|query_string|[searchQueryString](../resources/searchQueryString.md)||
+|query_string|[searchQueryString](../resources/searchquerystring.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageResourceRoles
 
+Namespace: microsoft.graph
+
 Get the accessPackageResourceRoles from the accessPackageResourceRoles navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResourceRoles
+GET https://graph.microsoft.com/localtest/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResourceRoles
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 328
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResourceRole",
-      "id": "1efea8ca-a8ca-1efe-caa8-fe1ecaa8fe1e",
+      "id": "d54e2aed-2aed-d54e-ed2a-4ed5ed2a4ed5",
       "displayName": "Display Name value",
       "description": "Description value",
       "originId": "Origin Id value",

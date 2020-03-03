@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,27 +38,27 @@ POST /education/classes/{educationClassId}/members/{educationUserId}/assignments
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationAssignment object.
+In the request body, supply a JSON representation for the [educationAssignment](../resources/educationassignment.md) object.
 
-The following table shows the properties that are required when you create the educationAssignment.
+The following table shows the properties that are required when you create the [educationAssignment](../resources/educationassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |classId|String||
 |displayName|String||
-|instructions|[educationItemBody](../resources/educationItemBody.md)||
+|instructions|[educationItemBody](../resources/educationitembody.md)||
 |closeDateTime|DateTimeOffset||
 |dueDateTime|DateTimeOffset||
 |assignDateTime|DateTimeOffset||
 |assignedDateTime|DateTimeOffset||
-|grading|[educationAssignmentGradeType](../resources/educationAssignmentGradeType.md)||
-|assignTo|[educationAssignmentRecipient](../resources/educationAssignmentRecipient.md)||
+|grading|[educationAssignmentGradeType](../resources/educationassignmentgradetype.md)||
+|assignTo|[educationAssignmentRecipient](../resources/educationassignmentrecipient.md)||
 |allowLateSubmissions|Boolean||
 |createdDateTime|DateTimeOffset||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |allowStudentsToAddResourcesToSubmission|Boolean||
 |status|Enumeration|. Possible values are: `draft`, `published`, `assigned`, `unknownFutureValue`.|
 
@@ -75,9 +77,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members/{educationUserId}/assignments
+POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members/{educationUserId}/assignments
 Content-type: application/json
-Content-length: 1120
+Content-length: 1119
 
 {
   "@odata.type": "#microsoft.graph.educationAssignment",
@@ -88,10 +90,10 @@ Content-length: 1120
     "contentType": "String",
     "content": "Content value"
   },
-  "closeDateTime": "2016-12-31T23:56:24.9256365+03:00",
-  "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
-  "assignDateTime": "2017-01-01T00:01:55.1489412+03:00",
-  "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+  "closeDateTime": "2017-01-01T00:01:20.1298622+03:00",
+  "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
+  "assignDateTime": "2016-12-31T23:59:28.9197423+03:00",
+  "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
   "grading": {
     "@odata.type": "microsoft.graph.educationAssignmentGradeType"
   },
@@ -128,11 +130,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1371
+Content-Length: 1369
 
 {
   "@odata.type": "#microsoft.graph.educationAssignment",
-  "id": "7e577ae4-7ae4-7e57-e47a-577ee47a577e",
+  "id": "f3f25053-5053-f3f2-5350-f2f35350f2f3",
   "classId": "Class Id value",
   "displayName": "Display Name value",
   "instructions": {
@@ -140,10 +142,10 @@ Content-Length: 1371
     "contentType": "String",
     "content": "Content value"
   },
-  "closeDateTime": "2016-12-31T23:56:24.9256365+03:00",
-  "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
-  "assignDateTime": "2017-01-01T00:01:55.1489412+03:00",
-  "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+  "closeDateTime": "2017-01-01T00:01:20.1298622+03:00",
+  "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
+  "assignDateTime": "2016-12-31T23:59:28.9197423+03:00",
+  "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
   "grading": {
     "@odata.type": "microsoft.graph.educationAssignmentGradeType"
   },
@@ -151,7 +153,7 @@ Content-Length: 1371
     "@odata.type": "microsoft.graph.educationAssignmentRecipient"
   },
   "allowLateSubmissions": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -165,7 +167,7 @@ Content-Length: 1371
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

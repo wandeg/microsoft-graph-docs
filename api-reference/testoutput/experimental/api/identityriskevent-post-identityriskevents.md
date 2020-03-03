@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create identityRiskEvent
 
+Namespace: microsoft.graph
+
 Create a new [identityRiskEvent](../resources/identityriskevent.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /identityRiskEvents
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the identityRiskEvent object.
+In the request body, supply a JSON representation for the [identityRiskEvent](../resources/identityriskevent.md) object.
 
-The following table shows the properties that are required when you create the identityRiskEvent.
+The following table shows the properties that are required when you create the [identityRiskEvent](../resources/identityriskevent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/identityRiskEvents
+POST https://graph.microsoft.com/localtest/identityRiskEvents
 Content-type: application/json
 Content-length: 413
 
@@ -76,11 +78,11 @@ Content-length: 413
   "@odata.type": "#microsoft.graph.identityRiskEvent",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
+  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
   "userId": "User Id value"
 }
 ```
@@ -96,19 +98,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 521
+Content-Length: 520
 
 {
   "@odata.type": "#microsoft.graph.identityRiskEvent",
-  "id": "9953902a-902a-9953-2a90-53992a905399",
+  "id": "4fefdef1-def1-4fef-f1de-ef4ff1deef4f",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "userId": "User Id value"
 }
 ```

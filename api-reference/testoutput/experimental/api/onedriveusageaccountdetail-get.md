@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get oneDriveUsageAccountDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.oneDriveUsageAccountDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.oneDriveUsageAccountDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 547
 {
   "value": {
     "@odata.type": "#microsoft.graph.oneDriveUsageAccountDetail",
-    "id": "1e2f62b5-62b5-1e2f-b562-2f1eb5622f1e",
+    "id": "c4267756-7756-c426-5677-26c4567726c4",
     "reportRefreshDate": "Date",
     "siteUrl": "https://example.com/siteUrl/",
     "ownerDisplayName": "Owner Display Name value",

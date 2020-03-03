@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add endpoints
 
+Namespace: microsoft.graph
+
 Add endpoints by posting to the endpoints collection.
 
 ## Permissions
@@ -37,14 +39,14 @@ POST /me/joinedGroups/{groupId}/endpoints/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the endpoint object.
+In the request body, supply a JSON representation for the [endpoint](../resources/endpoint.md) object.
 
-The following table shows the properties that are required when you create the endpoint.
+The following table shows the properties that are required when you create the [endpoint](../resources/endpoint.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |capability|String||
 |providerId|String||
 |providerName|String||
@@ -66,13 +68,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/endpoints
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/endpoints
 Content-type: application/json
 Content-length: 304
 
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",
@@ -96,8 +98,8 @@ Content-Length: 353
 
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "id": "12485afa-5afa-1248-fa5a-4812fa5a4812",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "5089dbfa-dbfa-5089-fadb-8950fadb8950",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",

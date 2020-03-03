@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update audioRoutingGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [audioRoutingGroup](../resources/audioroutinggroup.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /communications/calls/{callId}/audioRoutingGroups/{audioRoutingGroupId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [audioRoutingGroup](../resources/audioRoutingGroup.md) object.
+In the request body, supply a JSON representation for the [audioRoutingGroup](../resources/audioroutinggroup.md) object.
 
 The following table shows the properties that are required when you create the [audioRoutingGroup](../resources/audioroutinggroup.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/communications/calls/{callId}/audioRoutingGroups/{audioRoutingGroupId}
+PATCH https://graph.microsoft.com/localtest/communications/calls/{callId}/audioRoutingGroups/{audioRoutingGroupId}
 Content-type: application/json
 Content-length: 177
 
@@ -91,7 +93,7 @@ Content-Length: 226
 
 {
   "@odata.type": "#microsoft.graph.audioRoutingGroup",
-  "id": "58765f33-5f33-5876-335f-7658335f7658",
+  "id": "af751337-1337-af75-3713-75af371375af",
   "routingMode": "String",
   "sources": [
     "Sources value"

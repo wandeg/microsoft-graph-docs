@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update symantecCodeSigningCertificate
 
-Update the properties of a [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/symantecCodeSigningCertificate
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [symantecCodeSigningCertificate](../resources/symantecCodeSigningCertificate.md) object.
+In the request body, supply a JSON representation for the [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md) object.
 
-The following table shows the properties that are required when you create the [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md).
+The following table shows the properties that are required when you create the [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md) object in the response body.
 
 ## Example
 
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/symantecCodeSigningCertificate
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/symantecCodeSigningCertificate
 Content-type: application/json
-Content-length: 415
+Content-length: 416
 
 {
   "@odata.type": "#microsoft.graph.symantecCodeSigningCertificate",
@@ -80,8 +82,8 @@ Content-length: 415
   "subject": "Subject value",
   "issuerName": "Issuer Name value",
   "issuer": "Issuer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
 }
 ```
 
@@ -95,11 +97,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 464
+Content-Length: 465
 
 {
   "@odata.type": "#microsoft.graph.symantecCodeSigningCertificate",
-  "id": "20cef7f4-f7f4-20ce-f4f7-ce20f4f7ce20",
+  "id": "686e5b1c-5b1c-686e-1c5b-6e681c5b6e68",
   "content": "Y29udGVudA==",
   "status": "String",
   "password": "Password value",
@@ -107,8 +109,8 @@ Content-Length: 464
   "subject": "Subject value",
   "issuerName": "Issuer Name value",
   "issuer": "Issuer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-  "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
 }
 ```
 

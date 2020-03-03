@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # auditResource resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Display name.|
-|modifiedProperties|[auditProperty](../resources/auditProperty.md) collection|List of modified properties.|
+|modifiedProperties|[auditProperty](../resources/auditproperty.md) collection|List of modified properties.|
 |resourceId|String|Audit resource's Id.|
 |type|String|Audit resource's type.|
 

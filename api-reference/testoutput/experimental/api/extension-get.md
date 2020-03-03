@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get extension
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [extension](../resources/extension.md) object.
 
 ## Permissions
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/extensions/{extensionId}
+GET https://graph.microsoft.com/localtest/me/extensions/{extensionId}
 ```
 
 ### Response
@@ -84,7 +86,7 @@ Content-Length: 123
 {
   "value": {
     "@odata.type": "#microsoft.graph.extension",
-    "id": "532ccf6b-cf6b-532c-6bcf-2c536bcf2c53"
+    "id": "0deb773a-773a-0deb-3a77-eb0d3a77eb0d"
   }
 }
 ```

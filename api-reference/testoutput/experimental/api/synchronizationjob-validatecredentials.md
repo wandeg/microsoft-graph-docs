@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # validateCredentials
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -45,7 +47,7 @@ The following table shows the parameters that can be used with this action.
 |applicationIdentifier|String||
 |templateId|String||
 |useSavedCredentials|Boolean||
-|credentials|[synchronizationSecretKeyStringValuePair](../resources/synchronizationSecretKeyStringValuePair.md) collection||
+|credentials|[synchronizationSecretKeyStringValuePair](../resources/synchronizationsecretkeystringvaluepair.md) collection||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/validateCredentials
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/validateCredentials
 
 Content-type: application/json
 Content-length: 253

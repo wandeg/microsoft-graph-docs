@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceManagementScripts
 
+Namespace: microsoft.graph
+
 Add deviceManagementScripts by posting to the deviceManagementScripts collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceManagementScripts/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScript object.
+In the request body, supply a JSON representation for the [deviceManagementScript](../resources/intune-devices-devicemanagementscript.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScript.
+The following table shows the properties that are required when you create the [deviceManagementScript](../resources/intune-devices-devicemanagementscript.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -57,7 +59,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagementScript](../resources/devicemanagementscript.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagementScript](../resources/intune-devices-devicemanagementscript.md) object in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts
 Content-type: application/json
 Content-length: 369
 
@@ -99,18 +101,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 541
+Content-Length: 540
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScript",
-  "id": "5b0c5411-5411-5b0c-1154-0c5b11540c5b",
+  "id": "4532d8b2-d8b2-4532-b2d8-3245b2d83245",
   "enforceSignatureCheck": true,
   "runAs32Bit": true,
   "displayName": "Display Name value",
   "description": "Description value",
   "scriptContent": "c2NyaXB0Q29udGVudA==",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "runAsAccount": "String",
   "fileName": "File Name value",
   "roleScopeTagIds": [

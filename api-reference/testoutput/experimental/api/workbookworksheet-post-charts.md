@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add charts
 
+Namespace: microsoft.graph
+
 Add charts by posting to the charts collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/w
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChart object.
+In the request body, supply a JSON representation for the [workbookChart](../resources/workbookchart.md) object.
 
-The following table shows the properties that are required when you create the workbookChart.
+The following table shows the properties that are required when you create the [workbookChart](../resources/workbookchart.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts
 Content-type: application/json
 Content-length: 166
 
@@ -93,7 +95,7 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.workbookChart",
-  "id": "bd04971d-971d-bd04-1d97-04bd1d9704bd",
+  "id": "f60ef7b4-f7b4-f60e-b4f7-0ef6b4f70ef6",
   "height": "Double",
   "left": "Double",
   "name": "Name value",

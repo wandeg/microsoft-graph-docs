@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete generalLedgerEntry
 
+Namespace: microsoft.graph
+
 Deletes a [generalLedgerEntry](../resources/generalledgerentry.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/generalLedgerEntries/{generalLedgerEntryId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/generalLedgerEntries/{generalLedgerEntryId}
 ```
 
 ### Response

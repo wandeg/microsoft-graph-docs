@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # appRoleAssignment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get appRoleAssignment](../api/approleassignment-get.md)|[appRoleAssignment](../resources/appRoleAssignment.md)|Read properties and relationships of the [appRoleAssignment](../resources/approleassignment.md) object.|
+|[List appRoleAssignments](../api/approleassignment-list.md)|[appRoleAssignment](../resources/approleassignment.md) collection|List properties and relationships of the [appRoleAssignment](../resources/approleassignment.md) objects.|
+|[Get appRoleAssignment](../api/approleassignment-get.md)|[appRoleAssignment](../resources/approleassignment.md)|Read properties and relationships of the [appRoleAssignment](../resources/approleassignment.md) object.|
+|[Create appRoleAssignment](../api/approleassignment-post-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md)|Create a new [appRoleAssignment](../resources/approleassignment.md) object.|
 |[Delete appRoleAssignment](../api/approleassignment-delete.md)|None|Deletes a [appRoleAssignment](../resources/approleassignment.md).|
-|[Update appRoleAssignment](../api/approleassignment-update.md)|[appRoleAssignment](../resources/appRoleAssignment.md)|Update the properties of a [appRoleAssignment](../resources/approleassignment.md) object.|
-|[List appRoleAssignments](../api/user-list-approleassignments.md)|[appRoleAssignment](../resources/appRoleAssignment.md) collection|Get the appRoleAssignments from the appRoleAssignments navigation property.|
-|[Add appRoleAssignments](../api/user-post-approleassignments.md)|[appRoleAssignment](../resources/appRoleAssignment.md)|Add appRoleAssignments by posting to the appRoleAssignments collection.|
+|[Update appRoleAssignment](../api/approleassignment-update.md)|[appRoleAssignment](../resources/approleassignment.md)|Update the properties of a [appRoleAssignment](../resources/approleassignment.md) object.|
+|[List appRoleAssignments](../api/user-list-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md) collection|Get the appRoleAssignments from the appRoleAssignments navigation property.|
+|[Add appRoleAssignments](../api/user-post-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md)|Add appRoleAssignments by posting to the appRoleAssignments collection.|
 
 ## Properties
 |Property|Type|Description|

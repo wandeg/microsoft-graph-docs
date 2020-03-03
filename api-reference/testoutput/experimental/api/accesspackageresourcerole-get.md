@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get accessPackageResourceRole
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceRole
+GET https://graph.microsoft.com/localtest/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceRole
 ```
 
 ### Response
@@ -79,7 +81,7 @@ Content-Length: 302
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessPackageResourceRole",
-    "id": "1efea8ca-a8ca-1efe-caa8-fe1ecaa8fe1e",
+    "id": "d54e2aed-2aed-d54e-ed2a-4ed5ed2a4ed5",
     "displayName": "Display Name value",
     "description": "Description value",
     "originId": "Origin Id value",

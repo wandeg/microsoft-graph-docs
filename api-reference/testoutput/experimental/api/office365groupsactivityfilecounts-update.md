@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365GroupsActivityFileCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365GroupsActivityFileCounts not fo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365GroupsActivityFileCounts](../resources/office365GroupsActivityFileCounts.md) object.
+In the request body, supply a JSON representation for the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.
 
 The following table shows the properties that are required when you create the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityFileCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityFileCounts not found
 Content-type: application/json
 Content-length: 205
 
@@ -91,7 +93,7 @@ Content-Length: 254
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityFileCounts",
-  "id": "3ef53839-3839-3ef5-3938-f53e3938f53e",
+  "id": "96df8bf4-8bf4-96df-f48b-df96f48bdf96",
   "reportRefreshDate": "Date",
   "total": 5,
   "active": 6,

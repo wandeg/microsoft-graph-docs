@@ -5,43 +5,46 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # personName resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get personName](../api/personname-get.md)|[personName](../resources/personName.md)|Read properties and relationships of the [personName](../resources/personname.md) object.|
+|[List personNames](../api/personname-list.md)|[personName](../resources/personname.md) collection|List properties and relationships of the [personName](../resources/personname.md) objects.|
+|[Get personName](../api/personname-get.md)|[personName](../resources/personname.md)|Read properties and relationships of the [personName](../resources/personname.md) object.|
+|[Create personName](../api/personname-create.md)|[personName](../resources/personname.md)|Create a new [personName](../resources/personname.md) object.|
 |[Delete personName](../api/personname-delete.md)|None|Deletes a [personName](../resources/personname.md).|
-|[Update personName](../api/personname-update.md)|[personName](../resources/personName.md)|Update the properties of a [personName](../resources/personname.md) object.|
+|[Update personName](../api/personname-update.md)|[personName](../resources/personname.md)|Update the properties of a [personName](../resources/personname.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |displayName|String||
 |first|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
 |initials|String||
 |languageTag|String||
 |last|String||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |maiden|String||
 |middle|String||
 |nickname|String||
-|pronunciation|[yomiPersonName](../resources/yomiPersonName.md)||
+|pronunciation|[yomiPersonName](../resources/yomipersonname.md)||
 |suffix|String||
 |title|String||
 

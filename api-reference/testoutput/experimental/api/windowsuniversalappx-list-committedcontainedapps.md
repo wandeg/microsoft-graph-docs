@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List committedContainedApps
 
+Namespace: microsoft.graph
+
 Get the mobileContainedApps from the committedContainedApps navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.windowsUniversalAppX/committedContainedApps
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.windowsUniversalAppX/committedContainedApps
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 150
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileContainedApp",
-      "id": "4ffef431-f431-4ffe-31f4-fe4f31f4fe4f"
+      "id": "d6455857-5857-d645-5758-45d6575845d6"
     }
   ]
 }

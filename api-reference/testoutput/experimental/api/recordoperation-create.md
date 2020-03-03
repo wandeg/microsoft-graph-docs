@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create recordOperation
 
+Namespace: microsoft.graph
+
 Create a new [recordOperation](../resources/recordoperation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.recordOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the recordOperation object.
+In the request body, supply a JSON representation for the [recordOperation](../resources/recordoperation.md) object.
 
-The following table shows the properties that are required when you create the recordOperation.
+The following table shows the properties that are required when you create the [recordOperation](../resources/recordoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 |recordingLocation|String||
 |recordingAccessToken|String||
 |completionReason|Enumeration|. Possible values are: `operationCanceled`, `stopToneDetected`, `maxRecordDurationReached`, `initialSilenceTimeout`, `maxSilenceTimeout`, `playPromptFailed`, `playBeepFailed`, `mediaReceiveTimeout`, `unspecifiedError`.|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.recordOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.recordOperation not found
 Content-type: application/json
 Content-length: 410
 
@@ -100,7 +102,7 @@ Content-Length: 459
 
 {
   "@odata.type": "#microsoft.graph.recordOperation",
-  "id": "72b0e085-e085-72b0-85e0-b07285e0b072",
+  "id": "88aeaedf-aedf-88ae-dfae-ae88dfaeae88",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

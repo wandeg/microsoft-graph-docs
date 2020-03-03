@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceComplianceDeviceStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/devi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceComplianceDeviceStatus](../resources/deviceComplianceDeviceStatus.md) object.
+In the request body, supply a JSON representation for the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.
 
 The following table shows the properties that are required when you create the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md).
 
@@ -66,9 +68,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/deviceStatuses/{deviceComplianceDeviceStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/deviceStatuses/{deviceComplianceDeviceStatusId}
 Content-type: application/json
-Content-length: 438
+Content-length: 437
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceStatus",
@@ -76,9 +78,9 @@ Content-length: 438
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -93,18 +95,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 487
+Content-Length: 486
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceStatus",
-  "id": "56ef2167-2167-56ef-6721-ef566721ef56",
+  "id": "6d1f32d5-32d5-6d1f-d532-1f6dd5321f6d",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

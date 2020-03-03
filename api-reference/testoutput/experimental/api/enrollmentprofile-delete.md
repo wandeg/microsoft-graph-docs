@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete enrollmentProfile
 
+Namespace: microsoft.graph
+
 Deletes a [enrollmentProfile](../resources/enrollmentprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles/{enrollmentProfileId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles/{enrollmentProfileId}
 ```
 
 ### Response

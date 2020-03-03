@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userActivity resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/userActivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
+|[List userActivities](../api/useractivity-list.md)|[userActivity](../resources/useractivity.md) collection|List properties and relationships of the [userActivity](../resources/useractivity.md) objects.|
+|[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/useractivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
+|[Create userActivity](../api/useractivity-create.md)|[userActivity](../resources/useractivity.md)|Create a new [userActivity](../resources/useractivity.md) object.|
 |[Delete userActivity](../api/useractivity-delete.md)|None|Deletes a [userActivity](../resources/useractivity.md).|
-|[Update userActivity](../api/useractivity-update.md)|[userActivity](../resources/userActivity.md)|Update the properties of a [userActivity](../resources/useractivity.md) object.|
-|[List historyItems](../api/useractivity-list-historyitems.md)|[activityHistoryItem](../resources/activityHistoryItem.md) collection|Get the activityHistoryItems from the historyItems navigation property.|
-|[Add historyItems](../api/useractivity-post-historyitems.md)|[activityHistoryItem](../resources/activityHistoryItem.md)|Add historyItems by posting to the historyItems collection.|
+|[Update userActivity](../api/useractivity-update.md)|[userActivity](../resources/useractivity.md)|Update the properties of a [userActivity](../resources/useractivity.md) object.|
+|[List historyItems](../api/useractivity-list-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md) collection|Get the activityHistoryItems from the historyItems navigation property.|
+|[Add historyItems](../api/useractivity-post-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Add historyItems by posting to the historyItems collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 |activitySourceHost|String||
 |appActivityId|String||
 |appDisplayName|String||
-|contentInfo|[Json](../resources/Json.md)||
+|contentInfo|[Json](../resources/json.md)||
 |contentUrl|String||
 |createdDateTime|DateTimeOffset||
 |expirationDateTime|DateTimeOffset||
@@ -41,12 +44,12 @@ Inherits from [entity](../resources/entity.md)
 |lastModifiedDateTime|DateTimeOffset||
 |status|Enumeration|. Possible values are: `active`, `updated`, `deleted`, `ignored`, `unknownFutureValue`.|
 |userTimezone|String||
-|visualElements|[visualInfo](../resources/visualInfo.md)||
+|visualElements|[visualInfo](../resources/visualinfo.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|historyItems|[activityHistoryItem](../resources/activityHistoryItem.md) collection||
+|historyItems|[activityHistoryItem](../resources/activityhistoryitem.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

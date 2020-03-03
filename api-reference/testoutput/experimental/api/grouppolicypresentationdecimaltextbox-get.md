@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyPresentationDecimalTextBox
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyPresentationDecimalTextBox](../resources/grouppolicypresentationdecimaltextbox.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationDecimalTextBox not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationDecimalTextBox not found
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 373
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentationDecimalTextBox",
-    "id": "8c071e25-1e25-8c07-251e-078c251e078c",
+    "id": "e04b2b43-2b43-e04b-432b-4be0432b4be0",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "defaultValue": 12,
     "spin": true,
     "spinStep": 8,

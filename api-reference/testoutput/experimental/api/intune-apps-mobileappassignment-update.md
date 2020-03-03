@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppAssignment
 
-Update the properties of a [mobileAppAssignment](../resources/mobileappassignment.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,23 +37,23 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssign
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/mobileAppAssignment.md) object.
+In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppAssignment](../resources/mobileappassignment.md).
+The following table shows the properties that are required when you create the [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |intent|Enumeration|The install intent defined by the admin. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The target group assignment defined by the admin.|
-|settings|[mobileAppAssignmentSettings](../resources/intune-apps-mobileAppAssignmentSettings.md)|The settings for target assignment defined by the admin.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group assignment defined by the admin.|
+|settings|[mobileAppAssignmentSettings](../resources/intune-apps-mobileappassignmentsettings.md)|The settings for target assignment defined by the admin.|
 |source|Enumeration|The resource type which is the source for the assignment. Possible values are: `direct`, `policySets`.|
 |sourceId|String|The identifier of the source of the assignment.|
 
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppAssignment](../resources/mobileappassignment.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
 Content-type: application/json
 Content-length: 328
 
@@ -95,7 +97,7 @@ Content-Length: 377
 
 {
   "@odata.type": "#microsoft.graph.mobileAppAssignment",
-  "id": "61a1efdc-efdc-61a1-dcef-a161dcefa161",
+  "id": "191a6a00-6a00-191a-006a-1a19006a1a19",
   "intent": "String",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

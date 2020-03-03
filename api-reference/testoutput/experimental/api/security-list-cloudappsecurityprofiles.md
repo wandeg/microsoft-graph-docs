@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List cloudAppSecurityProfiles
 
+Namespace: microsoft.graph
+
 Get the cloudAppSecurityProfiles from the cloudAppSecurityProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/cloudAppSecurityProfiles
+GET https://graph.microsoft.com/localtest/Security/cloudAppSecurityProfiles
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1188
+Content-Length: 1187
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.cloudAppSecurityProfile",
-      "id": "053c36a0-36a0-053c-a036-3c05a0363c05",
+      "id": "895eae94-ae94-895e-94ae-5e8994ae5e89",
       "azureSubscriptionId": "Azure Subscription Id value",
       "azureTenantId": "Azure Tenant Id value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "deploymentPackageUrl": "https://example.com/deploymentPackageUrl/",
       "destinationServiceName": "Destination Service Name value",
       "isSigned": true,
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "manifest": "Manifest value",
       "name": "Name value",
       "permissionsRequired": "String",

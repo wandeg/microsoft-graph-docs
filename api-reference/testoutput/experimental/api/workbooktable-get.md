@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookTable
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookTable](../resources/workbooktable.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/tables/{workbookTableId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/tables/{workbookTableId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 431
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTable",
-    "id": "7781e70e-e70e-7781-0ee7-81770ee78177",
+    "id": "8ba76a2f-6a2f-8ba7-2f6a-a78b2f6aa78b",
     "highlightFirstColumn": true,
     "highlightLastColumn": true,
     "legacyId": "Legacy Id value",

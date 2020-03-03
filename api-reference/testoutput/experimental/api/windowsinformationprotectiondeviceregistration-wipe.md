@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # wipe
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}/wipe
+POST https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}/wipe
 ```
 
 ### Response

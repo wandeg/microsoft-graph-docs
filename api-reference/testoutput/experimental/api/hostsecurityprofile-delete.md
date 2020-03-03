@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete hostSecurityProfile
 
+Namespace: microsoft.graph
+
 Deletes a [hostSecurityProfile](../resources/hostsecurityprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/hostSecurityProfiles/{hostSecurityProfileId}
+DELETE https://graph.microsoft.com/localtest/Security/hostSecurityProfiles/{hostSecurityProfileId}
 ```
 
 ### Response

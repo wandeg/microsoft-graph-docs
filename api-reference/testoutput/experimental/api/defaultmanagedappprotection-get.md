@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get defaultManagedAppProtection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}
 ```
 
 ### Response
@@ -67,22 +69,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4667
+Content-Length: 4671
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.defaultManagedAppProtection",
-    "id": "65456b6e-6b6e-6545-6e6b-45656e6b4565",
+    "id": "0e0c6e45-6e45-0e0c-456e-0c0e456e0c0e",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
     "version": "Version value",
-    "periodOfflineBeforeAccessCheck": "PT1M13.7070332S",
-    "periodOnlineBeforeAccessCheck": "PT2M31.5344442S",
+    "periodOfflineBeforeAccessCheck": "PT59.7366649S",
+    "periodOnlineBeforeAccessCheck": "-PT2M6.3325145S",
     "allowedInboundDataTransferSources": "String",
     "allowedOutboundDataTransferDestinations": "String",
     "organizationalCredentialsRequired": true,
@@ -91,13 +93,13 @@ Content-Length: 4667
     "deviceComplianceRequired": true,
     "managedBrowserToOpenLinksRequired": true,
     "saveAsBlocked": true,
-    "periodOfflineBeforeWipeIsEnforced": "PT24.543314S",
+    "periodOfflineBeforeWipeIsEnforced": "-PT2M45.7974735S",
     "pinRequired": true,
     "maximumPinRetries": 1,
     "simplePinBlocked": true,
     "minimumPinLength": 0,
     "pinCharacterSet": "String",
-    "periodBeforePinReset": "PT19.2172382S",
+    "periodBeforePinReset": "-PT2M30.0666141S",
     "allowedDataStorageLocations": [
       "String"
     ],
@@ -113,7 +115,7 @@ Content-Length: 4667
     "minimumWipeAppVersion": "Minimum Wipe App Version value",
     "appActionIfDeviceComplianceRequired": "String",
     "appActionIfMaximumPinRetriesExceeded": "String",
-    "pinRequiredInsteadOfBiometricTimeout": "PT1M15.606909S",
+    "pinRequiredInsteadOfBiometricTimeout": "PT2M23.822189S",
     "allowedOutboundClipboardSharingExceptionLength": 14,
     "notificationRestriction": "String",
     "previousPinBlockCount": 5,

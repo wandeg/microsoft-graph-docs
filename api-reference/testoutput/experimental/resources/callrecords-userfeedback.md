@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # userFeedback resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph.callRecords
 |:---|:---|:---|
 |rating|Enumeration|. Possible values are: `notRated`, `bad`, `poor`, `fair`, `good`, `excellent`, `unknownFutureValue`.|
 |text|String||
-|tokens|[feedbackTokenSet](../resources/callRecords-feedbackTokenSet.md)||
+|tokens|[feedbackTokenSet](../resources/callrecords-feedbacktokenset.md)||
 
 ## Relationships
 None

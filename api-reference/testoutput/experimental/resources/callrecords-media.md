@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # media resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|calleeDevice|[deviceInfo](../resources/callRecords-deviceInfo.md)||
-|calleeNetwork|[networkInfo](../resources/callRecords-networkInfo.md)||
-|callerDevice|[deviceInfo](../resources/callRecords-deviceInfo.md)||
-|callerNetwork|[networkInfo](../resources/callRecords-networkInfo.md)||
+|calleeDevice|[deviceInfo](../resources/callrecords-deviceinfo.md)||
+|calleeNetwork|[networkInfo](../resources/callrecords-networkinfo.md)||
+|callerDevice|[deviceInfo](../resources/callrecords-deviceinfo.md)||
+|callerNetwork|[networkInfo](../resources/callrecords-networkinfo.md)||
 |label|String||
-|streams|[mediaStream](../resources/callRecords-mediaStream.md) collection||
+|streams|[mediaStream](../resources/callrecords-mediastream.md) collection||
 
 ## Relationships
 None

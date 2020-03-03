@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationConflictSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/deviceConfigurationConflictSummary/{deviceConfigurationC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationConflictSummary](../resources/deviceConfigurationConflictSummary.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|conflictingDeviceConfigurations|[settingSource](../resources/settingSource.md) collection|The set of policies in conflict with the given setting|
+|conflictingDeviceConfigurations|[settingSource](../resources/settingsource.md) collection|The set of policies in conflict with the given setting|
 |contributingSettings|String collection|The set of settings in conflict with the given policies|
 |deviceCheckinsImpacted|Int32|The count of checkins impacted by the conflicting policies and settings|
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationConflictSummary/{deviceConfigurationConflictSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationConflictSummary/{deviceConfigurationConflictSummaryId}
 Content-type: application/json
 Content-length: 361
 
@@ -95,7 +97,7 @@ Content-Length: 410
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationConflictSummary",
-  "id": "6ed0f542-f542-6ed0-42f5-d06e42f5d06e",
+  "id": "ebc32227-2227-ebc3-2722-c3eb2722c3eb",
   "conflictingDeviceConfigurations": [
     {
       "@odata.type": "microsoft.graph.settingSource",

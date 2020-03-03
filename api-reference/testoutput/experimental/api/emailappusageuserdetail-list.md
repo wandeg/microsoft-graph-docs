@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List emailAppUsageUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [emailAppUsageUserDetail](../resources/emailappusageuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailAppUsageUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailAppUsageUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1021
   "value": [
     {
       "@odata.type": "#microsoft.graph.emailAppUsageUserDetail",
-      "id": "32a267ca-67ca-32a2-ca67-a232ca67a232",
+      "id": "aba24636-4636-aba2-3646-a2ab3646a2ab",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "displayName": "Display Name value",

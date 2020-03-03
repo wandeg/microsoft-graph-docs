@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # callRoute resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|final|[identitySet](../resources/identitySet.md)||
-|original|[identitySet](../resources/identitySet.md)||
+|final|[identitySet](../resources/identityset.md)||
+|original|[identitySet](../resources/identityset.md)||
 |routingType|Enumeration|. Possible values are: `forwarded`, `lookup`, `selfFork`.|
 
 ## Relationships

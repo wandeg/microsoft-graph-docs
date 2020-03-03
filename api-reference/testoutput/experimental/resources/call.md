@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # call resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,29 +20,31 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List calls](../api/call-list.md)|[call](../resources/call.md) collection|List properties and relationships of the [call](../resources/call.md) objects.|
 |[Get call](../api/call-get.md)|[call](../resources/call.md)|Read properties and relationships of the [call](../resources/call.md) object.|
+|[Create call](../api/call-create.md)|[call](../resources/call.md)|Create a new [call](../resources/call.md) object.|
 |[Delete call](../api/call-delete.md)|None|Deletes a [call](../resources/call.md).|
 |[Update call](../api/call-update.md)|[call](../resources/call.md)|Update the properties of a [call](../resources/call.md) object.|
 |[answer](../api/call-answer.md)|None||
-|[cancelMediaProcessing](../api/call-cancelmediaprocessing.md)|[cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md)||
+|[cancelMediaProcessing](../api/call-cancelmediaprocessing.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md)||
 |[changeScreenSharingRole](../api/call-changescreensharingrole.md)|None||
 |[keepAlive](../api/call-keepalive.md)|None||
-|[mute](../api/call-mute.md)|[muteParticipantOperation](../resources/muteParticipantOperation.md)||
-|[playPrompt](../api/call-playprompt.md)|[playPromptOperation](../resources/playPromptOperation.md)||
-|[record](../api/call-record.md)|[recordOperation](../resources/recordOperation.md)||
-|[recordResponse](../api/call-recordresponse.md)|[recordOperation](../resources/recordOperation.md)||
+|[mute](../api/call-mute.md)|[muteParticipantOperation](../resources/muteparticipantoperation.md)||
+|[playPrompt](../api/call-playprompt.md)|[playPromptOperation](../resources/playpromptoperation.md)||
+|[record](../api/call-record.md)|[recordOperation](../resources/recordoperation.md)||
+|[recordResponse](../api/call-recordresponse.md)|[recordOperation](../resources/recordoperation.md)||
 |[redirect](../api/call-redirect.md)|None||
 |[reject](../api/call-reject.md)|None||
-|[subscribeToTone](../api/call-subscribetotone.md)|[subscribeToToneOperation](../resources/subscribeToToneOperation.md)||
+|[subscribeToTone](../api/call-subscribetotone.md)|[subscribeToToneOperation](../resources/subscribetotoneoperation.md)||
 |[transfer](../api/call-transfer.md)|None||
-|[unmute](../api/call-unmute.md)|[unmuteParticipantOperation](../resources/unmuteParticipantOperation.md)||
-|[updateRecordingStatus](../api/call-updaterecordingstatus.md)|[updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md)||
+|[unmute](../api/call-unmute.md)|[unmuteParticipantOperation](../resources/unmuteparticipantoperation.md)||
+|[updateRecordingStatus](../api/call-updaterecordingstatus.md)|[updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md)||
 |[List participants](../api/call-list-participants.md)|[participant](../resources/participant.md) collection|Get the participants from the participants navigation property.|
 |[Add participants](../api/call-post-participants.md)|[participant](../resources/participant.md)|Add participants by posting to the participants collection.|
-|[List audioRoutingGroups](../api/call-list-audioroutinggroups.md)|[audioRoutingGroup](../resources/audioRoutingGroup.md) collection|Get the audioRoutingGroups from the audioRoutingGroups navigation property.|
-|[Add audioRoutingGroups](../api/call-post-audioroutinggroups.md)|[audioRoutingGroup](../resources/audioRoutingGroup.md)|Add audioRoutingGroups by posting to the audioRoutingGroups collection.|
-|[List operations](../api/call-list-operations.md)|[commsOperation](../resources/commsOperation.md) collection|Get the commsOperations from the operations navigation property.|
-|[Add operations](../api/call-post-operations.md)|[commsOperation](../resources/commsOperation.md)|Add operations by posting to the operations collection.|
+|[List audioRoutingGroups](../api/call-list-audioroutinggroups.md)|[audioRoutingGroup](../resources/audioroutinggroup.md) collection|Get the audioRoutingGroups from the audioRoutingGroups navigation property.|
+|[Add audioRoutingGroups](../api/call-post-audioroutinggroups.md)|[audioRoutingGroup](../resources/audioroutinggroup.md)|Add audioRoutingGroups by posting to the audioRoutingGroups collection.|
+|[List operations](../api/call-list-operations.md)|[commsOperation](../resources/commsoperation.md) collection|Get the commsOperations from the operations navigation property.|
+|[Add operations](../api/call-post-operations.md)|[commsOperation](../resources/commsoperation.md)|Add operations by posting to the operations collection.|
 |[List calls](../api/cloudcommunications-list-calls.md)|[call](../resources/call.md) collection|Get the calls from the calls navigation property.|
 |[Add calls](../api/cloudcommunications-post-calls.md)|[call](../resources/call.md)|Add calls by posting to the calls collection.|
 
@@ -49,36 +52,36 @@ Inherits from [entity](../resources/entity.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |activeModalities|Enumeration collection||
-|answeredBy|[participantInfo](../resources/participantInfo.md)||
+|answeredBy|[participantInfo](../resources/participantinfo.md)||
 |callbackUri|String||
-|callOptions|[callOptions](../resources/callOptions.md)||
-|callRoutes|[callRoute](../resources/callRoute.md) collection||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
+|callOptions|[callOptions](../resources/calloptions.md)||
+|callRoutes|[callRoute](../resources/callroute.md) collection||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
 |direction|Enumeration|. Possible values are: `incoming`, `outgoing`.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|incomingContext|[incomingContext](../resources/incomingContext.md)||
-|mediaConfig|[mediaConfig](../resources/mediaConfig.md)||
-|mediaState|[callMediaState](../resources/callMediaState.md)||
-|meetingCapability|[meetingCapability](../resources/meetingCapability.md)||
-|meetingInfo|[meetingInfo](../resources/meetingInfo.md)||
+|incomingContext|[incomingContext](../resources/incomingcontext.md)||
+|mediaConfig|[mediaConfig](../resources/mediaconfig.md)||
+|mediaState|[callMediaState](../resources/callmediastate.md)||
+|meetingCapability|[meetingCapability](../resources/meetingcapability.md)||
+|meetingInfo|[meetingInfo](../resources/meetinginfo.md)||
 |myParticipantId|String||
 |requestedModalities|Enumeration collection||
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)||
+|resultInfo|[ResultInfo](../resources/resultinfo.md)||
 |ringingTimeoutInSeconds|Int32||
 |routingPolicies|Enumeration collection||
-|source|[participantInfo](../resources/participantInfo.md)||
+|source|[participantInfo](../resources/participantinfo.md)||
 |state|Enumeration|. Possible values are: `incoming`, `establishing`, `ringing`, `established`, `hold`, `transferring`, `transferAccepted`, `redirecting`, `terminating`, `terminated`, `unknownFutureValue`.|
 |subject|String||
-|targets|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
+|targets|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
 |tenantId|String||
 |terminationReason|String||
-|toneInfo|[toneInfo](../resources/toneInfo.md)||
+|toneInfo|[toneInfo](../resources/toneinfo.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|audioRoutingGroups|[audioRoutingGroup](../resources/audioRoutingGroup.md) collection||
-|operations|[commsOperation](../resources/commsOperation.md) collection||
+|audioRoutingGroups|[audioRoutingGroup](../resources/audioroutinggroup.md) collection||
+|operations|[commsOperation](../resources/commsoperation.md) collection||
 |participants|[participant](../resources/participant.md) collection||
 
 ## JSON Representation

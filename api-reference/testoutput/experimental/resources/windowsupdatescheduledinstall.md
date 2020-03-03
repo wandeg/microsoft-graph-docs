@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsUpdateScheduledInstall resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsUpdateInstallScheduleType](../resources/windowsUpdateInstallScheduleType.md)
+
+
+Inherits from [windowsUpdateInstallScheduleType](../resources/windowsupdateinstallscheduletype.md)
 
 ## Properties
 |Property|Type|Description|

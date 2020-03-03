@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # parseExpressionResponse resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|error|[publicError](../resources/publicError.md)||
+|error|[publicError](../resources/publicerror.md)||
 |evaluationResult|String collection||
 |evaluationSucceeded|Boolean||
-|parsedExpression|[attributeMappingSource](../resources/attributeMappingSource.md)||
+|parsedExpression|[attributeMappingSource](../resources/attributemappingsource.md)||
 |parsingSucceeded|Boolean||
 
 ## Relationships

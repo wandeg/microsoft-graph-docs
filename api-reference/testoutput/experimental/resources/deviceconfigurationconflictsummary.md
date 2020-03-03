@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceConfigurationConflictSummary resource type
+
+
+Namespace: microsoft.graph
 
 Conflict summary for a set of device configuration policies.
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-get.md)|[deviceConfigurationConflictSummary](../resources/deviceConfigurationConflictSummary.md)|Read properties and relationships of the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.|
+|[List deviceConfigurationConflictSummaries](../api/deviceconfigurationconflictsummary-list.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) collection|List properties and relationships of the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) objects.|
+|[Get deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-get.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md)|Read properties and relationships of the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.|
+|[Create deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-create.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md)|Create a new [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.|
 |[Delete deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-delete.md)|None|Deletes a [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md).|
-|[Update deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-update.md)|[deviceConfigurationConflictSummary](../resources/deviceConfigurationConflictSummary.md)|Update the properties of a [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.|
-|[List deviceConfigurationConflictSummary](../api/intune-devices-devicemanagement-list-deviceconfigurationconflictsummary.md)|[deviceConfigurationConflictSummary](../resources/deviceConfigurationConflictSummary.md) collection|Get the deviceConfigurationConflictSummaries from the deviceConfigurationConflictSummary navigation property.|
-|[Add deviceConfigurationConflictSummary](../api/intune-devices-devicemanagement-post-deviceconfigurationconflictsummary.md)|[deviceConfigurationConflictSummary](../resources/deviceConfigurationConflictSummary.md)|Add deviceConfigurationConflictSummary by posting to the deviceConfigurationConflictSummary collection.|
+|[Update deviceConfigurationConflictSummary](../api/deviceconfigurationconflictsummary-update.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md)|Update the properties of a [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.|
+|[List deviceConfigurationConflictSummary](../api/intune-devices-devicemanagement-list-deviceconfigurationconflictsummary.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) collection|Get the deviceConfigurationConflictSummaries from the deviceConfigurationConflictSummary navigation property.|
+|[Add deviceConfigurationConflictSummary](../api/intune-devices-devicemanagement-post-deviceconfigurationconflictsummary.md)|[deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md)|Add deviceConfigurationConflictSummary by posting to the deviceConfigurationConflictSummary collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|conflictingDeviceConfigurations|[settingSource](../resources/settingSource.md) collection|The set of policies in conflict with the given setting|
+|conflictingDeviceConfigurations|[settingSource](../resources/settingsource.md) collection|The set of policies in conflict with the given setting|
 |contributingSettings|String collection|The set of settings in conflict with the given policies|
 |deviceCheckinsImpacted|Int32|The count of checkins impacted by the conflicting policies and settings|
 |id|String| Inherited from [entity](../resources/entity.md)|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the windowsAutopilotDeploymentProfileAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 350
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsAutopilotDeploymentProfileAssignment",
-      "id": "cf1c98f6-98f6-cf1c-f698-1ccff6981ccf",
+      "id": "cc38598c-598c-cc38-8c59-38cc8c5938cc",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

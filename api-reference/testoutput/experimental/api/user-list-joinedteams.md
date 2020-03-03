@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List joinedTeams
 
+Namespace: microsoft.graph
+
 Get the teams from the joinedTeams navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedTeams
+GET https://graph.microsoft.com/localtest/me/joinedTeams
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 1606
   "value": [
     {
       "@odata.type": "#microsoft.graph.team",
-      "id": "7f28107d-107d-7f28-7d10-287f7d10287f",
+      "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
       "displayName": "Display Name value",
       "description": "Description value",
       "internalId": "Internal Id value",

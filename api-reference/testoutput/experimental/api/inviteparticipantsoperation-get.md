@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get inviteParticipantsOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.inviteParticipantsOperation not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.inviteParticipantsOperation not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1022
 {
   "value": {
     "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-    "id": "ba082940-2940-ba08-4029-08ba402908ba",
+    "id": "be5a7d76-7d76-be5a-767d-5abe767d5abe",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

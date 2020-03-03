@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # managementConditionExpressionModel resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [managementConditionExpression](../resources/managementConditionExpression.md)
+
+
+Inherits from [managementConditionExpression](../resources/managementconditionexpression.md)
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageResources
 
+Namespace: microsoft.graph
+
 Add accessPackageResources by posting to the accessPackageResources collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPack
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageResource object.
+In the request body, supply a JSON representation for the [accessPackageResource](../resources/accesspackageresource.md) object.
 
-The following table shows the properties that are required when you create the accessPackageResource.
+The following table shows the properties that are required when you create the [accessPackageResource](../resources/accesspackageresource.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResources
+POST https://graph.microsoft.com/localtest/accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResources
 Content-type: application/json
 Content-length: 398
 
@@ -83,7 +85,7 @@ Content-length: 398
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
 }
 ```
 
@@ -102,7 +104,7 @@ Content-Length: 447
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResource",
-  "id": "ca85a44b-a44b-ca85-4ba4-85ca4ba485ca",
+  "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
   "displayName": "Display Name value",
   "description": "Description value",
   "url": "Url value",
@@ -111,7 +113,7 @@ Content-Length: 447
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
 }
 ```
 

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # synchronizationStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,14 +20,14 @@ Namespace: microsoft.graph
 |code|Enumeration|. Possible values are: `NotConfigured`, `NotRun`, `Active`, `Paused`, `Quarantine`.|
 |countSuccessiveCompleteFailures|Int64||
 |escrowsPruned|Boolean||
-|lastExecution|[synchronizationTaskExecution](../resources/synchronizationTaskExecution.md)||
-|lastSuccessfulExecution|[synchronizationTaskExecution](../resources/synchronizationTaskExecution.md)||
-|lastSuccessfulExecutionWithExports|[synchronizationTaskExecution](../resources/synchronizationTaskExecution.md)||
-|progress|[synchronizationProgress](../resources/synchronizationProgress.md) collection||
-|quarantine|[synchronizationQuarantine](../resources/synchronizationQuarantine.md)||
+|lastExecution|[synchronizationTaskExecution](../resources/synchronizationtaskexecution.md)||
+|lastSuccessfulExecution|[synchronizationTaskExecution](../resources/synchronizationtaskexecution.md)||
+|lastSuccessfulExecutionWithExports|[synchronizationTaskExecution](../resources/synchronizationtaskexecution.md)||
+|progress|[synchronizationProgress](../resources/synchronizationprogress.md) collection||
+|quarantine|[synchronizationQuarantine](../resources/synchronizationquarantine.md)||
 |steadyStateFirstAchievedTime|DateTimeOffset||
 |steadyStateLastAchievedTime|DateTimeOffset||
-|synchronizedEntryCountByType|[stringKeyLongValuePair](../resources/stringKeyLongValuePair.md) collection||
+|synchronizedEntryCountByType|[stringKeyLongValuePair](../resources/stringkeylongvaluepair.md) collection||
 |troubleshootingUrl|String||
 
 ## Relationships

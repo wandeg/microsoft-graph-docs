@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsAutopilotDeviceIdentity resource type
+
+
+Namespace: microsoft.graph
 
 The windowsAutopilotDeviceIdentity resource represents a Windows Autopilot Device.
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-get.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md)|Read properties and relationships of the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.|
+|[List windowsAutopilotDeviceIdentities](../api/windowsautopilotdeviceidentity-list.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) collection|List properties and relationships of the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) objects.|
+|[Get windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-get.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md)|Read properties and relationships of the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.|
+|[Create windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-create.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md)|Create a new [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.|
 |[Delete windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-delete.md)|None|Deletes a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md).|
-|[Update windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-update.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md)|Update the properties of a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.|
+|[Update windowsAutopilotDeviceIdentity](../api/windowsautopilotdeviceidentity-update.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md)|Update the properties of a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.|
 |[assignUserToDevice](../api/windowsautopilotdeviceidentity-assignusertodevice.md)|None||
 |[unassignUserFromDevice](../api/windowsautopilotdeviceidentity-unassignuserfromdevice.md)|None||
 |[updateDeviceProperties](../api/windowsautopilotdeviceidentity-updatedeviceproperties.md)|None||
 |[assignResourceAccountToDevice](../api/windowsautopilotdeviceidentity-assignresourceaccounttodevice.md)|None||
 |[unassignResourceAccountFromDevice](../api/windowsautopilotdeviceidentity-unassignresourceaccountfromdevice.md)|None||
-|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
-|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
+|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
+|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -58,8 +61,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|deploymentProfile|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Deployment profile currently assigned to the Windows autopilot device.|
-|intendedDeploymentProfile|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Deployment profile intended to be assigned to the Windows autopilot device.|
+|deploymentProfile|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Deployment profile currently assigned to the Windows autopilot device.|
+|intendedDeploymentProfile|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Deployment profile intended to be assigned to the Windows autopilot device.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

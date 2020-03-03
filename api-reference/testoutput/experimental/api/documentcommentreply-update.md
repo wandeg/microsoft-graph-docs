@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update documentCommentReply
 
+Namespace: microsoft.graph
+
 Update the properties of a [documentCommentReply](../resources/documentcommentreply.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [documentCommentReply](../resources/documentCommentReply.md) object.
+In the request body, supply a JSON representation for the [documentCommentReply](../resources/documentcommentreply.md) object.
 
 The following table shows the properties that are required when you create the [documentCommentReply](../resources/documentcommentreply.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies/{documentCommentReplyId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies/{documentCommentReplyId}
 Content-type: application/json
 Content-length: 93
 
@@ -83,7 +85,7 @@ Content-Length: 142
 
 {
   "@odata.type": "#microsoft.graph.documentCommentReply",
-  "id": "9163fc2b-fc2b-9163-2bfc-63912bfc6391",
+  "id": "9a2f5493-5493-9a2f-9354-2f9a93542f9a",
   "content": "Content value"
 }
 ```

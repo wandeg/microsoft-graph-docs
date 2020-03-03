@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # keyRealValuePair resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [keyTypedValuePair](../resources/keyTypedValuePair.md)
+
+
+Inherits from [keyTypedValuePair](../resources/keytypedvaluepair.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|key|String|The string key of the key-value pair. Inherited from [keyTypedValuePair](../resources/keyTypedValuePair.md)|
+|key|String|The string key of the key-value pair. Inherited from [keyTypedValuePair](../resources/keytypedvaluepair.md)|
 |value|Double|The real (floating-point) value of the key-value pair.|
 
 ## Relationships

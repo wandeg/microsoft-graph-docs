@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationSubmission
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationSubmission](../resources/educationsubmission.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1219
+Content-Length: 1221
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationSubmission",
-    "id": "f76dfaae-faae-f76d-aefa-6df7aefa6df7",
+    "id": "00b163fd-63fd-00b1-fd63-b100fd63b100",
     "recipient": {
       "@odata.type": "microsoft.graph.educationSubmissionRecipient"
     },
@@ -91,19 +93,19 @@ Content-Length: 1219
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "submittedDateTime": "2017-01-01T00:01:39.273323+03:00",
+    "submittedDateTime": "2016-12-31T23:57:10.5476387+03:00",
     "unsubmittedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "unsubmittedDateTime": "2016-12-31T23:59:22.7332157+03:00",
+    "unsubmittedDateTime": "2017-01-01T00:02:16.2566523+03:00",
     "releasedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "releasedDateTime": "2016-12-31T23:57:12.1158417+03:00",
+    "releasedDateTime": "2016-12-31T23:59:18.4243169+03:00",
     "returnedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "returnedDateTime": "2017-01-01T00:02:03.032537+03:00",
+    "returnedDateTime": "2017-01-01T00:00:10.2935801+03:00",
     "resourcesFolderUrl": "https://example.com/resourcesFolderUrl/"
   }
 }

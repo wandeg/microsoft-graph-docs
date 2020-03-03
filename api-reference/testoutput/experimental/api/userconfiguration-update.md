@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [userConfiguration](../resources/userconfiguration.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userConfiguration](../resources/userConfiguration.md) object.
+In the request body, supply a JSON representation for the [userConfiguration](../resources/userconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [userConfiguration](../resources/userconfiguration.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
+PATCH https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
 Content-type: application/json
 Content-length: 96
 
@@ -83,7 +85,7 @@ Content-Length: 145
 
 {
   "@odata.type": "#microsoft.graph.userConfiguration",
-  "id": "a9759248-9248-a975-4892-75a9489275a9",
+  "id": "0e1870cb-70cb-0e18-cb70-180ecb70180e",
   "binaryData": "YmluYXJ5RGF0YQ=="
 }
 ```

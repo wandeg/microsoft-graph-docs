@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # applePushNotificationCertificate resource type
+
+
+Namespace: microsoft.graph
 
 Apple push notification certificate.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List applePushNotificationCertificates](../api/intune-devices-applepushnotificationcertificate-list.md)|[applePushNotificationCertificate](../resources/intune-devices-applePushNotificationCertificate.md) collection|List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.|
-|[Get applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-get.md)|[applePushNotificationCertificate](../resources/intune-devices-applePushNotificationCertificate.md)|Read properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
-|[Create applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-create.md)|[applePushNotificationCertificate](../resources/intune-devices-applePushNotificationCertificate.md)|Create a new [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
-|[Delete applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-delete.md)|None|Deletes a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).|
-|[Update applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-update.md)|[applePushNotificationCertificate](../resources/intune-devices-applePushNotificationCertificate.md)|Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[List applePushNotificationCertificates](../api/intune-devices-applepushnotificationcertificate-list.md)|[applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) collection|List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.|
+|[Get applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-get.md)|[applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md)|Read properties and relationships of the [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object.|
+|[Create applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-create.md)|[applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md)|Create a new [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object.|
+|[Delete applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-delete.md)|None|Deletes a [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md).|
+|[Update applePushNotificationCertificate](../api/intune-devices-applepushnotificationcertificate-update.md)|[applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md)|Update the properties of a [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object.|
 |[downloadApplePushNotificationCertificateSigningRequest](../api/intune-devices-applepushnotificationcertificate-downloadapplepushnotificationcertificatesigningrequest.md)|String||
 
 ## Properties

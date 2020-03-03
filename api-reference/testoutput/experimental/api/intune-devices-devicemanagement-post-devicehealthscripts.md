@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceHealthScripts
 
+Namespace: microsoft.graph
+
 Add deviceHealthScripts by posting to the deviceHealthScripts collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceHealthScripts/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceHealthScript object.
+In the request body, supply a JSON representation for the [deviceHealthScript](../resources/intune-devices-devicehealthscript.md) object.
 
-The following table shows the properties that are required when you create the deviceHealthScript.
+The following table shows the properties that are required when you create the [deviceHealthScript](../resources/intune-devices-devicehealthscript.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceHealthScript](../resources/devicehealthscript.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceHealthScript](../resources/intune-devices-devicehealthscript.md) object in the response body.
 
 ## Example
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts
 Content-type: application/json
 Content-length: 485
 
@@ -103,19 +105,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 657
+Content-Length: 656
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScript",
-  "id": "0a9b2c46-2c46-0a9b-462c-9b0a462c9b0a",
+  "id": "aa148d30-8d30-aa14-308d-14aa308d14aa",
   "publisher": "Publisher value",
   "version": "Version value",
   "displayName": "Display Name value",
   "description": "Description value",
   "detectionScriptContent": "ZGV0ZWN0aW9uU2NyaXB0Q29udGVudA==",
   "remediationScriptContent": "cmVtZWRpYXRpb25TY3JpcHRDb250ZW50",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "runAsAccount": "String",
   "enforceSignatureCheck": true,
   "runAs32Bit": true,

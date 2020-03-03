@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete connectionOperation
 
+Namespace: microsoft.graph
+
 Deletes a [connectionOperation](../resources/connectionoperation.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/connections/{connectionsId}/operations/{connectionOperationId}
+DELETE https://graph.microsoft.com/localtest/connections/{connectionsId}/operations/{connectionOperationId}
 ```
 
 ### Response

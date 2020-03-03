@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add settings
 
+Namespace: microsoft.graph
+
 Add settings by posting to the settings collection.
 
 ## Permissions
@@ -37,16 +39,16 @@ POST /me/joinedGroups/{groupId}/settings/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directorySetting object.
+In the request body, supply a JSON representation for the [directorySetting](../resources/directorysetting.md) object.
 
-The following table shows the properties that are required when you create the directorySetting.
+The following table shows the properties that are required when you create the [directorySetting](../resources/directorysetting.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |templateId|String||
-|values|[settingValue](../resources/settingValue.md) collection||
+|values|[settingValue](../resources/settingvalue.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/settings
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/settings
 Content-type: application/json
 Content-length: 284
 
@@ -96,7 +98,7 @@ Content-Length: 333
 
 {
   "@odata.type": "#microsoft.graph.directorySetting",
-  "id": "045ccc1b-cc1b-045c-1bcc-5c041bcc5c04",
+  "id": "95cf0a68-0a68-95cf-680a-cf95680acf95",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

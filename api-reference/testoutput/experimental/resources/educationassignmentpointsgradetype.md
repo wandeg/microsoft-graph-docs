@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationAssignmentPointsGradeType resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationAssignmentGradeType](../resources/educationAssignmentGradeType.md)
+
+
+Inherits from [educationAssignmentGradeType](../resources/educationassignmentgradetype.md)
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get signIn
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [signIn](../resources/signin.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/signIns/{signInId}
+GET https://graph.microsoft.com/localtest/auditLogs/signIns/{signInId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4142
+Content-Length: 4141
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.signIn",
-    "id": "88ef00a4-00a4-88ef-a400-ef88a400ef88",
+    "id": "f53a2b7b-2b7b-f53a-7b2b-3af57b2b3af5",
     "alternateSignInName": "Alternate Sign In Name value",
     "appDisplayName": "App Display Name value",
     "appId": "App Id value",
@@ -95,7 +97,7 @@ Content-Length: 4142
     "authenticationDetails": [
       {
         "@odata.type": "microsoft.graph.authenticationDetail",
-        "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+        "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
         "authenticationMethod": "Authentication Method value",
         "authenticationMethodDetail": "Authentication Method Detail value",
         "succeeded": true,
@@ -123,7 +125,7 @@ Content-Length: 4142
     "clientAppUsed": "Client App Used value",
     "conditionalAccessStatus": "String",
     "correlationId": "Correlation Id value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "deviceDetail": {
       "@odata.type": "microsoft.graph.deviceDetail",
       "deviceId": "Device Id value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mention
 
+Namespace: microsoft.graph
+
 Update the properties of a [mention](../resources/mention.md) object.
 
 ## Permissions
@@ -43,10 +45,10 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|mentioned|[emailAddress](../resources/emailAddress.md)||
+|mentioned|[emailAddress](../resources/emailaddress.md)||
 |mentionText|String||
 |clientReference|String||
-|createdBy|[emailAddress](../resources/emailAddress.md)||
+|createdBy|[emailAddress](../resources/emailaddress.md)||
 |createdDateTime|DateTimeOffset||
 |serverCreatedDateTime|DateTimeOffset||
 |deepLink|String||
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/messages/{messageId}/mentions/{mentionId}
+PATCH https://graph.microsoft.com/localtest/me/messages/{messageId}/mentions/{mentionId}
 Content-type: application/json
 Content-length: 485
 
@@ -83,7 +85,7 @@ Content-length: 485
   "createdBy": {
     "@odata.type": "microsoft.graph.emailAddress"
   },
-  "serverCreatedDateTime": "2017-01-01T00:00:31.9976754+03:00",
+  "serverCreatedDateTime": "2016-12-31T23:57:52.2165536+03:00",
   "deepLink": "Deep Link value",
   "application": "Application value"
 }
@@ -99,11 +101,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 593
+Content-Length: 592
 
 {
   "@odata.type": "#microsoft.graph.mention",
-  "id": "8065beda-beda-8065-dabe-6580dabe6580",
+  "id": "97080269-0269-9708-6902-089769020897",
   "mentioned": {
     "@odata.type": "microsoft.graph.emailAddress",
     "name": "Name value",
@@ -114,8 +116,8 @@ Content-Length: 593
   "createdBy": {
     "@odata.type": "microsoft.graph.emailAddress"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "serverCreatedDateTime": "2017-01-01T00:00:31.9976754+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "serverCreatedDateTime": "2016-12-31T23:57:52.2165536+03:00",
   "deepLink": "Deep Link value",
   "application": "Application value"
 }

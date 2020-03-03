@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosSingleSignOnSettings resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAppsList|[appListItem](../resources/appListItem.md) collection|List of app identifiers that are allowed to use this login. If this field is omitted, the login applies to all applications on the device. This collection can contain a maximum of 500 elements.|
+|allowedAppsList|[appListItem](../resources/applistitem.md) collection|List of app identifiers that are allowed to use this login. If this field is omitted, the login applies to all applications on the device. This collection can contain a maximum of 500 elements.|
 |allowedUrls|String collection|List of HTTP URLs that must be matched in order to use this login. With iOS 9.0 or later, a wildcard characters may be used.|
 |displayName|String|The display name of login settings shown on the receiving device.|
 |kerberosPrincipalName|String|A Kerberos principal name. If not provided, the user is prompted for one during profile installation.|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsAutopilotDeviceIdentities
 
+Namespace: microsoft.graph
+
 Get the windowsAutopilotDeviceIdentities from the windowsAutopilotDeviceIdentities navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities
+GET https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1214
+Content-Length: 1215
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
-      "id": "3f6a5d68-5d68-3f6a-685d-6a3f685d6a3f",
+      "id": "8e4a7471-7471-8e4a-7174-4a8e71744a8e",
       "deploymentProfileAssignmentStatus": "String",
       "deploymentProfileAssignmentDetailedStatus": "String",
-      "deploymentProfileAssignedDateTime": "2017-01-01T00:03:23.335843+03:00",
+      "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
       "orderIdentifier": "Order Identifier value",
       "groupTag": "Group Tag value",
       "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -82,7 +84,7 @@ Content-Length: 1214
       "manufacturer": "Manufacturer value",
       "model": "Model value",
       "enrollmentState": "String",
-      "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
       "addressableUserName": "Addressable User Name value",
       "userPrincipalName": "User Principal Name value",
       "resourceName": "Resource Name value",

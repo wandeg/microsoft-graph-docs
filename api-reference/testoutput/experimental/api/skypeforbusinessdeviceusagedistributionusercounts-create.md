@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create skypeForBusinessDeviceUsageDistributionUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributi
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the skypeForBusinessDeviceUsageDistributionUserCounts object.
+In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.
 
-The following table shows the properties that are required when you create the skypeForBusinessDeviceUsageDistributionUserCounts.
+The following table shows the properties that are required when you create the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
 Content-type: application/json
 Content-length: 258
 
@@ -97,7 +99,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts",
-  "id": "683f9284-9284-683f-8492-3f6884923f68",
+  "id": "252e87b6-87b6-252e-b687-2e25b6872e25",
   "reportRefreshDate": "Date",
   "windows": 7,
   "windowsPhone": 12,

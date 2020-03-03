@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365ActivationsUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365ActivationsUserDetail not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365ActivationsUserDetail object.
+In the request body, supply a JSON representation for the [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md) object.
 
-The following table shows the properties that are required when you create the office365ActivationsUserDetail.
+The following table shows the properties that are required when you create the [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the o
 |reportRefreshDate|Date||
 |userPrincipalName|String||
 |displayName|String||
-|userActivationCounts|[userActivationCounts](../resources/userActivationCounts.md) collection||
+|userActivationCounts|[userActivationCounts](../resources/useractivationcounts.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActivationsUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActivationsUserDetail not found
 Content-type: application/json
 Content-length: 535
 
@@ -103,7 +105,7 @@ Content-Length: 584
 
 {
   "@odata.type": "#microsoft.graph.office365ActivationsUserDetail",
-  "id": "fe7dd89d-d89d-fe7d-9dd8-7dfe9dd87dfe",
+  "id": "6f7e8fa8-8fa8-6f7e-a88f-7e6fa88f7e6f",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

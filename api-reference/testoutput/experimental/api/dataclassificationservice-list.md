@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List dataClassificationServices
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [dataClassificationService](../resources/dataclassificationservice.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.dataClassificationService not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.dataClassificationService not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 157
   "value": [
     {
       "@odata.type": "#microsoft.graph.dataClassificationService",
-      "id": "5cbbe705-e705-5cbb-05e7-bb5c05e7bb5c"
+      "id": "1e29e745-e745-1e29-45e7-291e45e7291e"
     }
   ]
 }

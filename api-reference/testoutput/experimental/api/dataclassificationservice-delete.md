@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete dataClassificationService
 
+Namespace: microsoft.graph
+
 Deletes a [dataClassificationService](../resources/dataclassificationservice.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification
+DELETE https://graph.microsoft.com/localtest/dataClassification
 ```
 
 ### Response

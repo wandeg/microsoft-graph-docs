@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List participants
 
+Namespace: microsoft.graph
+
 Get the participants from the participants navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}/participants
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1444
   "value": [
     {
       "@odata.type": "#microsoft.graph.participant",
-      "id": "f57a5439-5439-f57a-3954-7af539547af5",
+      "id": "bcf70126-0126-bcf7-2601-f7bc2601f7bc",
       "info": {
         "@odata.type": "microsoft.graph.participantInfo",
         "identity": {

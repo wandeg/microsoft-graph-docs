@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsApp
 
+Namespace: microsoft.graph
+
 Deletes a [teamsApp](../resources/teamsapp.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/appCatalogs/teamsApps/{teamsAppId}
+DELETE https://graph.microsoft.com/localtest/appCatalogs/teamsApps/{teamsAppId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add participants
 
+Namespace: microsoft.graph
+
 Add participants by posting to the participants collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /communications/calls/{callId}/participants/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the participant object.
+In the request body, supply a JSON representation for the [participant](../resources/participant.md) object.
 
-The following table shows the properties that are required when you create the participant.
+The following table shows the properties that are required when you create the [participant](../resources/participant.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|info|[participantInfo](../resources/participantInfo.md)||
-|recordingInfo|[recordingInfo](../resources/recordingInfo.md)||
-|mediaStreams|[mediaStream](../resources/mediaStream.md) collection||
+|info|[participantInfo](../resources/participantinfo.md)||
+|recordingInfo|[recordingInfo](../resources/recordinginfo.md)||
+|mediaStreams|[mediaStream](../resources/mediastream.md) collection||
 |metadata|String||
 |isMuted|Boolean||
 |isInLobby|Boolean||
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/participants
 Content-type: application/json
 Content-length: 1190
 
@@ -130,7 +132,7 @@ Content-Length: 1239
 
 {
   "@odata.type": "#microsoft.graph.participant",
-  "id": "f57a5439-5439-f57a-3954-7af539547af5",
+  "id": "bcf70126-0126-bcf7-2601-f7bc2601f7bc",
   "info": {
     "@odata.type": "microsoft.graph.participantInfo",
     "identity": {

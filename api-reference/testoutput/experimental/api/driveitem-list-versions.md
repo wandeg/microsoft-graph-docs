@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List versions
 
+Namespace: microsoft.graph
+
 Get the driveItemVersions from the versions navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/versions
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/versions
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 859
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItemVersion",
-      "id": "9fdd61e5-61e5-9fdd-e561-dd9fe561dd9f",
+      "id": "3c154d62-4d62-3c15-624d-153c624d153c",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -86,7 +88,7 @@ Content-Length: 859
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

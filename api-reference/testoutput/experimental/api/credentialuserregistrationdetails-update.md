@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update credentialUserRegistrationDetails
 
+Namespace: microsoft.graph
+
 Update the properties of a [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /reports/credentialUserRegistrationDetails/{credentialUserRegistrationDeta
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [credentialUserRegistrationDetails](../resources/credentialUserRegistrationDetails.md) object.
+In the request body, supply a JSON representation for the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
 
 The following table shows the properties that are required when you create the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
+PATCH https://graph.microsoft.com/localtest/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
 Content-type: application/json
 Content-length: 314
 
@@ -97,7 +99,7 @@ Content-Length: 363
 
 {
   "@odata.type": "#microsoft.graph.credentialUserRegistrationDetails",
-  "id": "a1fb7134-7134-a1fb-3471-fba13471fba1",
+  "id": "0fd663e2-63e2-0fd6-e263-d60fe263d60f",
   "userPrincipalName": "User Principal Name value",
   "userDisplayName": "User Display Name value",
   "authMethods": [

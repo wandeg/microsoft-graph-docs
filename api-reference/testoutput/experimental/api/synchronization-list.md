@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List synchronizations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [synchronization](../resources/synchronization.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.synchronization not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.synchronization not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 346
   "value": [
     {
       "@odata.type": "#microsoft.graph.synchronization",
-      "id": "a7731f6c-1f6c-a773-6c1f-73a76c1f73a7",
+      "id": "a6beb882-b882-a6be-82b8-bea682b8bea6",
       "secrets": [
         {
           "@odata.type": "microsoft.graph.synchronizationSecretKeyStringValuePair",

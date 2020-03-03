@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updatePasswordSingleSignOnCredentials
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/updatePasswordSingleSignOnCredentials
+POST https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/updatePasswordSingleSignOnCredentials
 
 Content-type: application/json
 Content-length: 115

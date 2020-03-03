@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # typedEmailAddress resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [emailAddress](../resources/emailAddress.md)
+
+
+Inherits from [emailAddress](../resources/emailaddress.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|String| Inherited from [emailAddress](../resources/emailAddress.md)|
-|name|String| Inherited from [emailAddress](../resources/emailAddress.md)|
+|address|String| Inherited from [emailAddress](../resources/emailaddress.md)|
+|name|String| Inherited from [emailAddress](../resources/emailaddress.md)|
 |otherLabel|String||
 |type|Enumeration|. Possible values are: `unknown`, `work`, `personal`, `main`, `other`.|
 

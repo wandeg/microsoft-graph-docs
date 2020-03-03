@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create credentialUserRegistrationCount
 
+Namespace: microsoft.graph
+
 Create a new [credentialUserRegistrationCount](../resources/credentialuserregistrationcount.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.credentialUserRegistrationCount not f
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the credentialUserRegistrationCount object.
+In the request body, supply a JSON representation for the [credentialUserRegistrationCount](../resources/credentialuserregistrationcount.md) object.
 
-The following table shows the properties that are required when you create the credentialUserRegistrationCount.
+The following table shows the properties that are required when you create the [credentialUserRegistrationCount](../resources/credentialuserregistrationcount.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |totalUserCount|Int64||
-|userRegistrationCounts|[userRegistrationCount](../resources/userRegistrationCount.md) collection||
+|userRegistrationCounts|[userRegistrationCount](../resources/userregistrationcount.md) collection||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.credentialUserRegistrationCount not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.credentialUserRegistrationCount not found
 Content-type: application/json
 Content-length: 281
 
@@ -93,7 +95,7 @@ Content-Length: 330
 
 {
   "@odata.type": "#microsoft.graph.credentialUserRegistrationCount",
-  "id": "32a539a1-39a1-32a5-a139-a532a139a532",
+  "id": "1bc6be74-be74-1bc6-74be-c61b74bec61b",
   "totalUserCount": 14,
   "userRegistrationCounts": [
     {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List categories
 
+Namespace: microsoft.graph
+
 Get the deviceManagementSettingCategories from the categories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/categories
+GET https://graph.microsoft.com/localtest/deviceManagement/categories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 207
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementSettingCategory",
-      "id": "ef1cd7db-d7db-ef1c-dbd7-1cefdbd71cef",
+      "id": "fcc4bc02-bc02-fcc4-02bc-c4fc02bcc4fc",
       "displayName": "Display Name value"
     }
   ]

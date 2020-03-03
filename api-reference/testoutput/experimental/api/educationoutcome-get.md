@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationOutcome
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationOutcome](../resources/educationoutcome.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/outcomes/{educationOutcomeId}
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/outcomes/{educationOutcomeId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 597
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationOutcome",
-    "id": "0cca8ef0-8ef0-0cca-f08e-ca0cf08eca0c",
+    "id": "fc148376-8376-fc14-7683-14fc768314fc",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -87,7 +89,7 @@ Content-Length: 597
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

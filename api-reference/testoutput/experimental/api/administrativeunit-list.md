@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List administrativeUnits
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [administrativeUnit](../resources/administrativeunit.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/administrativeUnits
+GET https://graph.microsoft.com/localtest/administrativeUnits
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 341
   "value": [
     {
       "@odata.type": "#microsoft.graph.administrativeUnit",
-      "id": "6017d3f5-d3f5-6017-f5d3-1760f5d31760",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "27ed627f-627f-27ed-7f62-ed277f62ed27",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "displayName": "Display Name value",
       "description": "Description value",
       "visibility": "Visibility value"

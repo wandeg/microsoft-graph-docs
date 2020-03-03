@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsUserActivityUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List teamsUserActivityUserCountses](../api/teamsuseractivityusercounts-list.md)|[teamsUserActivityUserCounts](../resources/teamsUserActivityUserCounts.md) collection|List properties and relationships of the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) objects.|
-|[Get teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-get.md)|[teamsUserActivityUserCounts](../resources/teamsUserActivityUserCounts.md)|Read properties and relationships of the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
-|[Create teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-create.md)|[teamsUserActivityUserCounts](../resources/teamsUserActivityUserCounts.md)|Create a new [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
+|[List teamsUserActivityUserCountses](../api/teamsuseractivityusercounts-list.md)|[teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) collection|List properties and relationships of the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) objects.|
+|[Get teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-get.md)|[teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md)|Read properties and relationships of the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
+|[Create teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-create.md)|[teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md)|Create a new [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
 |[Delete teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-delete.md)|None|Deletes a [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md).|
-|[Update teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-update.md)|[teamsUserActivityUserCounts](../resources/teamsUserActivityUserCounts.md)|Update the properties of a [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
+|[Update teamsUserActivityUserCounts](../api/teamsuseractivityusercounts-update.md)|[teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md)|Update the properties of a [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

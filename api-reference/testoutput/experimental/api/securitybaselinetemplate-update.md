@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update securityBaselineTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [securityBaselineTemplate](../resources/securitybaselinetemplate.md) object.
 
 ## Permissions
@@ -35,21 +37,21 @@ PATCH ** Entity URI for microsoft.graph.securityBaselineTemplate not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [securityBaselineTemplate](../resources/securityBaselineTemplate.md) object.
+In the request body, supply a JSON representation for the [securityBaselineTemplate](../resources/securitybaselinetemplate.md) object.
 
 The following table shows the properties that are required when you create the [securityBaselineTemplate](../resources/securitybaselinetemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The template's display name Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
-|description|String|The template's description Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
-|versionInfo|String|The template's version information Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
-|isDeprecated|Boolean|The template is deprecated or not. Intents cannot be created from a deprecated template. Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
-|intentCount|Int32|Number of Intents created from this template. Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
-|templateType|Enumeration|The template's type. Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md). Possible values are: `securityBaseline`, `specializedDevices`, `advancedThreatProtectionSecurityBaseline`, `deviceConfiguration`, `custom`, `securityTemplate`, `microsoftEdgeSecurityBaseline`, `microsoftOffice365ProPlusSecurityBaseline`.|
-|platformType|Enumeration|The template's platform. Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
-|publishedDateTime|DateTimeOffset|When the template was published Inherited from [deviceManagementTemplate](../resources/deviceManagementTemplate.md)|
+|displayName|String|The template's display name Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
+|description|String|The template's description Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
+|versionInfo|String|The template's version information Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
+|isDeprecated|Boolean|The template is deprecated or not. Intents cannot be created from a deprecated template. Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
+|intentCount|Int32|Number of Intents created from this template. Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
+|templateType|Enumeration|The template's type. Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md). Possible values are: `securityBaseline`, `specializedDevices`, `advancedThreatProtectionSecurityBaseline`, `deviceConfiguration`, `custom`, `securityTemplate`, `microsoftEdgeSecurityBaseline`, `microsoftOffice365ProPlusSecurityBaseline`.|
+|platformType|Enumeration|The template's platform. Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
+|publishedDateTime|DateTimeOffset|When the template was published Inherited from [deviceManagementTemplate](../resources/devicemanagementtemplate.md)|
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.securityBaselineTemplate not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.securityBaselineTemplate not found
 Content-type: application/json
 Content-length: 351
 
@@ -79,7 +81,7 @@ Content-length: 351
   "intentCount": 11,
   "templateType": "String",
   "platformType": "String",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
 }
 ```
 
@@ -97,7 +99,7 @@ Content-Length: 400
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineTemplate",
-  "id": "5ffcd127-d127-5ffc-27d1-fc5f27d1fc5f",
+  "id": "c06e3ed2-3ed2-c06e-d23e-6ec0d23e6ec0",
   "displayName": "Display Name value",
   "description": "Description value",
   "versionInfo": "Version Info value",
@@ -105,7 +107,7 @@ Content-Length: 400
   "intentCount": 11,
   "templateType": "String",
   "platformType": "String",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
 }
 ```
 

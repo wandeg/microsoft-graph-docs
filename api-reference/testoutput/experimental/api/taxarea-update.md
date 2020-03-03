@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update taxArea
 
+Namespace: microsoft.graph
+
 Update the properties of a [taxArea](../resources/taxarea.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/taxAreas/{taxAreaId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [taxArea](../resources/taxArea.md) object.
+In the request body, supply a JSON representation for the [taxArea](../resources/taxarea.md) object.
 
 The following table shows the properties that are required when you create the [taxArea](../resources/taxarea.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/taxAreas/{taxAreaId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/taxAreas/{taxAreaId}
 Content-type: application/json
 Content-length: 146
 
@@ -88,11 +90,11 @@ Content-Length: 259
 
 {
   "@odata.type": "#microsoft.graph.taxArea",
-  "id": "7cf89646-9646-7cf8-4696-f87c4696f87c",
+  "id": "c7f76067-6067-c7f7-6760-f7c76760f7c7",
   "code": "Code value",
   "displayName": "Display Name value",
   "taxType": "Tax Type value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

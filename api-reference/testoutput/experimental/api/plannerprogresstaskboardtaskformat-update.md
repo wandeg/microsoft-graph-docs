@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerProgressTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTas
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md) object.
+In the request body, supply a JSON representation for the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
 
 The following table shows the properties that are required when you create the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/progressTaskBoardFormat
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/progressTaskBoardFormat
 Content-type: application/json
 Content-length: 112
 
@@ -83,7 +85,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-  "id": "d9ec4924-4924-d9ec-2449-ecd92449ecd9",
+  "id": "7559b0e5-b0e5-7559-e5b0-5975e5b05975",
   "orderHint": "Order Hint value"
 }
 ```

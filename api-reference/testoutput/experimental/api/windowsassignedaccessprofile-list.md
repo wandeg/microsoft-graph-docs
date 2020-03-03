@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsAssignedAccessProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsAssignedAccessProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsAssignedAccessProfile not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 502
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsAssignedAccessProfile",
-      "id": "9dc569be-69be-9dc5-be69-c59dbe69c59d",
+      "id": "d03bfd97-fd97-d03b-97fd-3bd097fd3bd0",
       "profileName": "Profile Name value",
       "showTaskBar": true,
       "appUserModelIds": [

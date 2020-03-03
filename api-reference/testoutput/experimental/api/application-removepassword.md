@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # removePassword
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,13 +61,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/removePassword
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/removePassword
 
 Content-type: application/json
 Content-length: 55
 
 {
-  "keyId": "00d977d7-77d7-00d9-d777-d900d777d900"
+  "keyId": "6b92b784-b784-6b92-84b7-926b84b7926b"
 }
 ```
 

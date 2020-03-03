@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workPosition
 
+Namespace: microsoft.graph
+
 Deletes a [workPosition](../resources/workposition.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/positions/{workPositionId}
+DELETE https://graph.microsoft.com/localtest/me/profile/positions/{workPositionId}
 ```
 
 ### Response

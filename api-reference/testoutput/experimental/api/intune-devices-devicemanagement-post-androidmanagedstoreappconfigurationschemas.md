@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add androidManagedStoreAppConfigurationSchemas
 
+Namespace: microsoft.graph
+
 Add androidManagedStoreAppConfigurationSchemas by posting to the androidManagedStoreAppConfigurationSchemas collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /deviceManagement/androidManagedStoreAppConfigurationSchemas/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidManagedStoreAppConfigurationSchema object.
+In the request body, supply a JSON representation for the [androidManagedStoreAppConfigurationSchema](../resources/androidmanagedstoreappconfigurationschema.md) object.
 
-The following table shows the properties that are required when you create the androidManagedStoreAppConfigurationSchema.
+The following table shows the properties that are required when you create the [androidManagedStoreAppConfigurationSchema](../resources/androidmanagedstoreappconfigurationschema.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |exampleJson|Binary|UTF8 encoded byte array containing example JSON string conforming to this schema that demonstrates how to set the configuration for this app|
-|schemaItems|[androidManagedStoreAppConfigurationSchemaItem](../resources/androidManagedStoreAppConfigurationSchemaItem.md) collection|Collection of items each representing a named configuration option in the schema. It only contains the root-level configuration.|
-|nestedSchemaItems|[androidManagedStoreAppConfigurationSchemaItem](../resources/androidManagedStoreAppConfigurationSchemaItem.md) collection|Collection of items each representing a named configuration option in the schema. It contains a flat list of all configuration.|
+|schemaItems|[androidManagedStoreAppConfigurationSchemaItem](../resources/androidmanagedstoreappconfigurationschemaitem.md) collection|Collection of items each representing a named configuration option in the schema. It only contains the root-level configuration.|
+|nestedSchemaItems|[androidManagedStoreAppConfigurationSchemaItem](../resources/androidmanagedstoreappconfigurationschemaitem.md) collection|Collection of items each representing a named configuration option in the schema. It contains a flat list of all configuration.|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAppConfigurationSchemas
+POST https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAppConfigurationSchemas
 Content-type: application/json
 Content-length: 981
 
@@ -116,7 +118,7 @@ Content-Length: 1030
 
 {
   "@odata.type": "#microsoft.graph.androidManagedStoreAppConfigurationSchema",
-  "id": "98f50cce-0cce-98f5-ce0c-f598ce0cf598",
+  "id": "17339224-9224-1733-2492-331724923317",
   "exampleJson": "ZXhhbXBsZUpzb24=",
   "schemaItems": [
     {

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get windowsManagementApp
 
-Read properties and relationships of the [windowsManagementApp](../resources/windowsmanagementapp.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -40,7 +42,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [windowsManagementApp](../resources/windowsmanagementapp.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object in the response body.
 
 ## Example
 
@@ -71,7 +73,7 @@ Content-Length: 186
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsManagementApp",
-    "id": "3d1b151b-151b-3d1b-1b15-1b3d1b151b3d",
+    "id": "219c6239-6239-219c-3962-9c2139629c21",
     "availableVersion": "Available Version value"
   }
 }

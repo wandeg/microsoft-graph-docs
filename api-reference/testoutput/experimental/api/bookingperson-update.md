@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingPerson
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingPerson](../resources/bookingperson.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.bookingPerson not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingPerson](../resources/bookingPerson.md) object.
+In the request body, supply a JSON representation for the [bookingPerson](../resources/bookingperson.md) object.
 
 The following table shows the properties that are required when you create the [bookingPerson](../resources/bookingperson.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
 |emailAddress|String|The e-mail address of this person.|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.bookingPerson not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.bookingPerson not found
 Content-type: application/json
 Content-length: 137
 
@@ -86,7 +88,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.bookingPerson",
-  "id": "a66bf211-f211-a66b-11f2-6ba611f26ba6",
+  "id": "c464f74e-f74e-c464-4ef7-64c44ef764c4",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value"
 }

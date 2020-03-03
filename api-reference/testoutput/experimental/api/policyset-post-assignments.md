@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST /deviceAppManagement/policySets/{policySetId}/assignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the policySetAssignment object.
+In the request body, supply a JSON representation for the [policySetAssignment](../resources/policysetassignment.md) object.
 
-The following table shows the properties that are required when you create the policySetAssignment.
+The following table shows the properties that are required when you create the [policySetAssignment](../resources/policysetassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetAssignment.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The target group of PolicySetAssignment|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/assignments
+POST https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/assignments
 Content-type: application/json
 Content-length: 159
 
@@ -88,8 +90,8 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.policySetAssignment",
-  "id": "2aef28d1-28d1-2aef-d128-ef2ad128ef2a",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

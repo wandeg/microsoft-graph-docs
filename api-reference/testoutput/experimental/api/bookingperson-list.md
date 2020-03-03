@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List bookingPersons
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [bookingPerson](../resources/bookingperson.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.bookingPerson not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.bookingPerson not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 235
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingPerson",
-      "id": "a66bf211-f211-a66b-11f2-6ba611f26ba6",
+      "id": "c464f74e-f74e-c464-4ef7-64c44ef764c4",
       "displayName": "Display Name value",
       "emailAddress": "Email Address value"
     }

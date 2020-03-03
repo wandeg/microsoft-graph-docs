@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365ActiveUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365ActiveUserDetails](../api/office365activeuserdetail-list.md)|[office365ActiveUserDetail](../resources/office365ActiveUserDetail.md) collection|List properties and relationships of the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) objects.|
-|[Get office365ActiveUserDetail](../api/office365activeuserdetail-get.md)|[office365ActiveUserDetail](../resources/office365ActiveUserDetail.md)|Read properties and relationships of the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
-|[Create office365ActiveUserDetail](../api/office365activeuserdetail-create.md)|[office365ActiveUserDetail](../resources/office365ActiveUserDetail.md)|Create a new [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
+|[List office365ActiveUserDetails](../api/office365activeuserdetail-list.md)|[office365ActiveUserDetail](../resources/office365activeuserdetail.md) collection|List properties and relationships of the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) objects.|
+|[Get office365ActiveUserDetail](../api/office365activeuserdetail-get.md)|[office365ActiveUserDetail](../resources/office365activeuserdetail.md)|Read properties and relationships of the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
+|[Create office365ActiveUserDetail](../api/office365activeuserdetail-create.md)|[office365ActiveUserDetail](../resources/office365activeuserdetail.md)|Create a new [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
 |[Delete office365ActiveUserDetail](../api/office365activeuserdetail-delete.md)|None|Deletes a [office365ActiveUserDetail](../resources/office365activeuserdetail.md).|
-|[Update office365ActiveUserDetail](../api/office365activeuserdetail-update.md)|[office365ActiveUserDetail](../resources/office365ActiveUserDetail.md)|Update the properties of a [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
+|[Update office365ActiveUserDetail](../api/office365activeuserdetail-update.md)|[office365ActiveUserDetail](../resources/office365activeuserdetail.md)|Update the properties of a [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

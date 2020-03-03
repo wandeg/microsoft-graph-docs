@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # keepAlive
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/keepAlive
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/keepAlive
 ```
 
 ### Response

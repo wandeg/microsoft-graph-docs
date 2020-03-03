@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create tokenLifetimePolicies
 
+Namespace: microsoft.graph
+
 Create tokenLifetimePolicies by posting to the tokenLifetimePolicies collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /applications/{applicationsId}/tokenLifetimePolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the tokenLifetimePolicy object.
+In the request body, supply a JSON representation for the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.
 
-The following table shows the properties that are required when you create the tokenLifetimePolicy.
+The following table shows the properties that are required when you create the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|description|String| Inherited from [policyBase](../resources/policyBase.md)|
-|displayName|String| Inherited from [policyBase](../resources/policyBase.md)|
-|definition|String collection| Inherited from [stsPolicy](../resources/stsPolicy.md)|
-|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stsPolicy.md)|
+|description|String| Inherited from [policyBase](../resources/policybase.md)|
+|displayName|String| Inherited from [policyBase](../resources/policybase.md)|
+|definition|String collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
+|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/tokenLifetimePolicies
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/tokenLifetimePolicies
 Content-type: application/json
 Content-length: 223
 
@@ -93,7 +95,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.tokenLifetimePolicy",
-  "id": "28f1da29-da29-28f1-29da-f12829daf128",
+  "id": "1b0eb783-b783-1b0e-83b7-0e1b83b70e1b",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

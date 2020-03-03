@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceHealthScriptRunSummary
 
-Update the properties of a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceHealthScriptRunSummary](../resources/deviceHealthScriptRunSummary.md) object.
+In the request body, supply a JSON representation for the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.
 
-The following table shows the properties that are required when you create the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md).
+The following table shows the properties that are required when you create the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -56,7 +58,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
 Content-type: application/json
 Content-length: 494
 
@@ -82,7 +84,7 @@ Content-length: 494
   "remediationSkippedDeviceCount": 13,
   "issueReoccurredDeviceCount": 10,
   "remediationScriptErrorDeviceCount": 1,
-  "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+  "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
   "issueRemediatedCumulativeDeviceCount": 4
 }
 ```
@@ -101,7 +103,7 @@ Content-Length: 543
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
-  "id": "015eddf6-ddf6-015e-f6dd-5e01f6dd5e01",
+  "id": "994a6ada-6ada-994a-da6a-4a99da6a4a99",
   "noIssueDetectedDeviceCount": 10,
   "issueDetectedDeviceCount": 8,
   "detectionScriptErrorDeviceCount": 15,
@@ -110,7 +112,7 @@ Content-Length: 543
   "remediationSkippedDeviceCount": 13,
   "issueReoccurredDeviceCount": 10,
   "remediationScriptErrorDeviceCount": 1,
-  "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+  "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
   "issueRemediatedCumulativeDeviceCount": 4
 }
 ```

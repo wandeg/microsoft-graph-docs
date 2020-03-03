@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update threatAssessmentResult
 
+Namespace: microsoft.graph
+
 Update the properties of a [threatAssessmentResult](../resources/threatassessmentresult.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /informationProtection/threatAssessmentRequests/{threatAssessmentRequestId
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [threatAssessmentResult](../resources/threatAssessmentResult.md) object.
+In the request body, supply a JSON representation for the [threatAssessmentResult](../resources/threatassessmentresult.md) object.
 
 The following table shows the properties that are required when you create the [threatAssessmentResult](../resources/threatassessmentresult.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results/{threatAssessmentResultId}
+PATCH https://graph.microsoft.com/localtest/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results/{threatAssessmentResultId}
 Content-type: application/json
 Content-length: 122
 
@@ -82,12 +84,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 230
+Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.threatAssessmentResult",
-  "id": "4a4c6bb3-6bb3-4a4c-b36b-4c4ab36b4c4a",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "547f34d2-34d2-547f-d234-7f54d2347f54",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "resultType": "String",
   "message": "Message value"
 }

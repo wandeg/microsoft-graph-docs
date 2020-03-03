@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365GroupsActivityDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365GroupsActivityDetails](../api/office365groupsactivitydetail-list.md)|[office365GroupsActivityDetail](../resources/office365GroupsActivityDetail.md) collection|List properties and relationships of the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) objects.|
-|[Get office365GroupsActivityDetail](../api/office365groupsactivitydetail-get.md)|[office365GroupsActivityDetail](../resources/office365GroupsActivityDetail.md)|Read properties and relationships of the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
-|[Create office365GroupsActivityDetail](../api/office365groupsactivitydetail-create.md)|[office365GroupsActivityDetail](../resources/office365GroupsActivityDetail.md)|Create a new [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
+|[List office365GroupsActivityDetails](../api/office365groupsactivitydetail-list.md)|[office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) collection|List properties and relationships of the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) objects.|
+|[Get office365GroupsActivityDetail](../api/office365groupsactivitydetail-get.md)|[office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md)|Read properties and relationships of the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
+|[Create office365GroupsActivityDetail](../api/office365groupsactivitydetail-create.md)|[office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md)|Create a new [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
 |[Delete office365GroupsActivityDetail](../api/office365groupsactivitydetail-delete.md)|None|Deletes a [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md).|
-|[Update office365GroupsActivityDetail](../api/office365groupsactivitydetail-update.md)|[office365GroupsActivityDetail](../resources/office365GroupsActivityDetail.md)|Update the properties of a [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
+|[Update office365GroupsActivityDetail](../api/office365groupsactivitydetail-update.md)|[office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md)|Update the properties of a [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

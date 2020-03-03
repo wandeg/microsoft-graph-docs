@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete outlookTask
 
+Namespace: microsoft.graph
+
 Deletes a [outlookTask](../resources/outlooktask.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/outlook/tasks/{outlookTaskId}
+DELETE https://graph.microsoft.com/localtest/me/outlook/tasks/{outlookTaskId}
 ```
 
 ### Response

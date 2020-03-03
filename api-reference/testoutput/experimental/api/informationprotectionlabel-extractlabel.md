@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # extractLabel
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|contentInfo|[contentInfo](../resources/contentInfo.md)||
+|contentInfo|[contentInfo](../resources/contentinfo.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [informationProtectionContentLabel](../resources/informationProtectionContentLabel.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [informationProtectionContentLabel](../resources/informationprotectioncontentlabel.md) in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/policy/labels/extractLabel
+POST https://graph.microsoft.com/localtest/informationProtection/policy/labels/extractLabel
 
 Content-type: application/json
 Content-length: 300

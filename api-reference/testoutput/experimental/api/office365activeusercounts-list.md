@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List office365ActiveUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [office365ActiveUserCounts](../resources/office365activeusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActiveUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActiveUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 429
   "value": [
     {
       "@odata.type": "#microsoft.graph.office365ActiveUserCounts",
-      "id": "da0e2eb0-2eb0-da0e-b02e-0edab02e0eda",
+      "id": "a346dbc0-dbc0-a346-c0db-46a3c0db46a3",
       "reportRefreshDate": "Date",
       "office365": 9,
       "exchange": 8,

@@ -5,33 +5,34 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # cancelMediaProcessingOperation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [commsOperation](../resources/commsOperation.md)
+
+
+Inherits from [commsOperation](../resources/commsoperation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List cancelMediaProcessingOperations](../api/cancelmediaprocessingoperation-list.md)|[cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md) collection|List properties and relationships of the [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) objects.|
-|[Get cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-get.md)|[cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md)|Read properties and relationships of the [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
-|[Create cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-create.md)|[cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md)|Create a new [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
+|[List cancelMediaProcessingOperations](../api/cancelmediaprocessingoperation-list.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) collection|List properties and relationships of the [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) objects.|
+|[Get cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-get.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md)|Read properties and relationships of the [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
+|[Create cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-create.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md)|Create a new [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
 |[Delete cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-delete.md)|None|Deletes a [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md).|
-|[Update cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-update.md)|[cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md)|Update the properties of a [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
+|[Update cancelMediaProcessingOperation](../api/cancelmediaprocessingoperation-update.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md)|Update the properties of a [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
 
 ## Relationships
 None

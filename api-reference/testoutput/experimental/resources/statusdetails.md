@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # statusDetails resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [statusBase](../resources/statusBase.md)
+
+
+Inherits from [statusBase](../resources/statusbase.md)
 
 ## Properties
 |Property|Type|Description|
@@ -24,7 +25,7 @@ Inherits from [statusBase](../resources/statusBase.md)
 |errorCode|String||
 |reason|String||
 |recommendedAction|String||
-|status|Enumeration| Inherited from [statusBase](../resources/statusBase.md). Possible values are: `success`, `failure`, `skipped`, `unknownFutureValue`.|
+|status|Enumeration| Inherited from [statusBase](../resources/statusbase.md). Possible values are: `success`, `failure`, `skipped`, `unknownFutureValue`.|
 
 ## Relationships
 None

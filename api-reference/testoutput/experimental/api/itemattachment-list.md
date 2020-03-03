@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List itemAttachments
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [itemAttachment](../resources/itemattachment.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.itemAttachment not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.itemAttachment not found
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 330
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemAttachment",
-      "id": "a878c0ea-c0ea-a878-eac0-78a8eac078a8",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "54731367-1367-5473-6713-735467137354",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "contentType": "Content Type value",
       "size": 4,

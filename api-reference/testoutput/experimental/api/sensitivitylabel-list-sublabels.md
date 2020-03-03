@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sublabels
 
+Namespace: microsoft.graph
+
 Get the sensitivityLabels from the sublabels navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels/{sensitivityLabelId}/sublabels
+GET https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels/{sensitivityLabelId}/sublabels
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1131
   "value": [
     {
       "@odata.type": "#microsoft.graph.sensitivityLabel",
-      "id": "0f094177-4177-0f09-7741-090f7741090f",
+      "id": "746d2913-2913-746d-1329-6d7413296d74",
       "name": "Name value",
       "displayName": "Display Name value",
       "description": "Description value",

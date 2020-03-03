@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update customer
 
+Namespace: microsoft.graph
+
 Update the properties of a [customer](../resources/customer.md) object.
 
 ## Permissions
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 |number|String||
 |displayName|String||
 |type|String||
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |phoneNumber|String||
 |email|String||
 |website|String||
@@ -81,7 +83,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customers/{customerId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/customers/{customerId}
 Content-type: application/json
 Content-length: 1013
 
@@ -102,14 +104,14 @@ Content-length: 1013
   "email": "Email value",
   "website": "Website value",
   "taxLiable": true,
-  "taxAreaId": "0aca46fa-46fa-0aca-fa46-ca0afa46ca0a",
+  "taxAreaId": "592ce91b-e91b-592c-1be9-2c591be92c59",
   "taxAreaDisplayName": "Tax Area Display Name value",
   "taxRegistrationNumber": "Tax Registration Number value",
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
-  "shipmentMethodId": "f7dfa441-a441-f7df-41a4-dff741a4dff7",
-  "paymentMethodId": "899ce3e1-e3e1-899c-e1e3-9c89e1e39c89",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "shipmentMethodId": "29227862-7862-2922-6278-222962782229",
+  "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
   "blocked": "Blocked value"
 }
 ```
@@ -128,7 +130,7 @@ Content-Length: 1126
 
 {
   "@odata.type": "#microsoft.graph.customer",
-  "id": "632a511c-511c-632a-1c51-2a631c512a63",
+  "id": "52a499d6-99d6-52a4-d699-a452d699a452",
   "number": "Number value",
   "displayName": "Display Name value",
   "type": "Type value",
@@ -144,16 +146,16 @@ Content-Length: 1126
   "email": "Email value",
   "website": "Website value",
   "taxLiable": true,
-  "taxAreaId": "0aca46fa-46fa-0aca-fa46-ca0afa46ca0a",
+  "taxAreaId": "592ce91b-e91b-592c-1be9-2c591be92c59",
   "taxAreaDisplayName": "Tax Area Display Name value",
   "taxRegistrationNumber": "Tax Registration Number value",
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
-  "shipmentMethodId": "f7dfa441-a441-f7df-41a4-dff741a4dff7",
-  "paymentMethodId": "899ce3e1-e3e1-899c-e1e3-9c89e1e39c89",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "shipmentMethodId": "29227862-7862-2922-6278-222962782229",
+  "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
   "blocked": "Blocked value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

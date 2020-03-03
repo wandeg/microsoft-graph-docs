@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # provisioningStep resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |description|String||
-|details|[detailsInfo](../resources/detailsInfo.md)||
+|details|[detailsInfo](../resources/detailsinfo.md)||
 |name|String||
 |provisioningStepType|Enumeration|. Possible values are: `import`, `scoping`, `matching`, `processing`, `referenceResolution`, `export`, `unknownFutureValue`.|
 |status|Enumeration|. Possible values are: `success`, `failure`, `skipped`, `unknownFutureValue`.|

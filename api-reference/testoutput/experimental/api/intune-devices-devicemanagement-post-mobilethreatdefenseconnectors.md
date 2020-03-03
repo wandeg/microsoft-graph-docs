@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileThreatDefenseConnectors
 
+Namespace: microsoft.graph
+
 Add mobileThreatDefenseConnectors by posting to the mobileThreatDefenseConnectors collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/mobileThreatDefenseConnectors/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileThreatDefenseConnector object.
+In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
-The following table shows the properties that are required when you create the mobileThreatDefenseConnector.
+The following table shows the properties that are required when you create the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -74,13 +76,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/mobileThreatDefenseConnectors
+POST https://graph.microsoft.com/localtest/deviceManagement/mobileThreatDefenseConnectors
 Content-type: application/json
 Content-length: 723
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "androidMobileApplicationManagementEnabled": true,
   "iosMobileApplicationManagementEnabled": true,
@@ -113,8 +115,8 @@ Content-Length: 772
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "id": "4a33878d-878d-4a33-8d87-334a8d87334a",
-  "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+  "id": "d9de0841-0841-d9de-4108-ded94108ded9",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
   "partnerState": "String",
   "androidMobileApplicationManagementEnabled": true,
   "iosMobileApplicationManagementEnabled": true,

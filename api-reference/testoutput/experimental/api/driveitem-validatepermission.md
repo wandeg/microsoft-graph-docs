@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # validatePermission
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -82,7 +84,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/drives/{drivesId}/root/validatePermission
+POST https://graph.microsoft.com/localtest/drives/{drivesId}/root/validatePermission
 
 Content-type: application/json
 Content-length: 82

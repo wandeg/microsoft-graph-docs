@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # subscribedSku resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List subscribedSkus](../api/subscribedsku-list.md)|[subscribedSku](../resources/subscribedSku.md) collection|List properties and relationships of the [subscribedSku](../resources/subscribedsku.md) objects.|
-|[Get subscribedSku](../api/subscribedsku-get.md)|[subscribedSku](../resources/subscribedSku.md)|Read properties and relationships of the [subscribedSku](../resources/subscribedsku.md) object.|
-|[Create subscribedSku](../api/subscribedsku-post-subscribedskus.md)|[subscribedSku](../resources/subscribedSku.md)|Create a new [subscribedSku](../resources/subscribedsku.md) object.|
+|[List subscribedSkus](../api/subscribedsku-list.md)|[subscribedSku](../resources/subscribedsku.md) collection|List properties and relationships of the [subscribedSku](../resources/subscribedsku.md) objects.|
+|[Get subscribedSku](../api/subscribedsku-get.md)|[subscribedSku](../resources/subscribedsku.md)|Read properties and relationships of the [subscribedSku](../resources/subscribedsku.md) object.|
+|[Create subscribedSku](../api/subscribedsku-post-subscribedskus.md)|[subscribedSku](../resources/subscribedsku.md)|Create a new [subscribedSku](../resources/subscribedsku.md) object.|
 |[Delete subscribedSku](../api/subscribedsku-delete.md)|None|Deletes a [subscribedSku](../resources/subscribedsku.md).|
-|[Update subscribedSku](../api/subscribedsku-update.md)|[subscribedSku](../resources/subscribedSku.md)|Update the properties of a [subscribedSku](../resources/subscribedsku.md) object.|
+|[Update subscribedSku](../api/subscribedsku-update.md)|[subscribedSku](../resources/subscribedsku.md)|Update the properties of a [subscribedSku](../resources/subscribedsku.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,8 +33,8 @@ Inherits from [entity](../resources/entity.md)
 |capabilityStatus|String||
 |consumedUnits|Int32||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|prepaidUnits|[licenseUnitsDetail](../resources/licenseUnitsDetail.md)||
-|servicePlans|[servicePlanInfo](../resources/servicePlanInfo.md) collection||
+|prepaidUnits|[licenseUnitsDetail](../resources/licenseunitsdetail.md)||
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
 |skuId|Guid||
 |skuPartNumber|String||
 

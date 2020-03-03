@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windows10EasEmailProfileConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [windows10EasEmailProfileConfiguration](../resources/windows10easemailprofileconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10EasEmailProfileConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10EasEmailProfileConfiguration not found
 ```
 
 ### Response

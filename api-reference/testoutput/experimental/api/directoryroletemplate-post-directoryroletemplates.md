@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create directoryRoleTemplate
 
+Namespace: microsoft.graph
+
 Create a new [directoryRoleTemplate](../resources/directoryroletemplate.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /directoryRoleTemplates
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directoryRoleTemplate object.
+In the request body, supply a JSON representation for the [directoryRoleTemplate](../resources/directoryroletemplate.md) object.
 
-The following table shows the properties that are required when you create the directoryRoleTemplate.
+The following table shows the properties that are required when you create the [directoryRoleTemplate](../resources/directoryroletemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 
@@ -62,13 +64,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directoryRoleTemplates
+POST https://graph.microsoft.com/localtest/directoryRoleTemplates
 Content-type: application/json
 Content-length: 201
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }
@@ -89,8 +91,8 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "id": "ea75502f-502f-ea75-2f50-75ea2f5075ea",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "76faf175-f175-76fa-75f1-fa7675f1fa76",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }

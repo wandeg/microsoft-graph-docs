@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update enrollmentConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assig
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md) object.
+In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
 The following table shows the properties that are required when you create the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Represents an assignment to managed devices in the tenant|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Represents an assignment to managed devices in the tenant|
 |source|Enumeration|Type of resource used for deployment to a group, direct or policySet. Possible values are: `direct`, `policySets`.|
 |sourceId|String|Identifier for resource used for deployment to a group|
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
+PATCH https://graph.microsoft.com/localtest/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
 Content-type: application/json
 Content-length: 230
 
@@ -89,7 +91,7 @@ Content-Length: 279
 
 {
   "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-  "id": "54428a31-8a31-5442-318a-4254318a4254",
+  "id": "79d19b8c-9b8c-79d1-8c9b-d1798c9bd179",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

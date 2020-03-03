@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceHealthScriptAssignments|[deviceHealthScriptAssignment](../resources/intune-devices-deviceHealthScriptAssignment.md) collection||
+|deviceHealthScriptAssignments|[deviceHealthScriptAssignment](../resources/intune-devices-devicehealthscriptassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assign
 
 Content-type: application/json
 Content-length: 419
@@ -68,7 +70,7 @@ Content-length: 419
   "deviceHealthScriptAssignments": [
     {
       "@odata.type": "#microsoft.graph.deviceHealthScriptAssignment",
-      "id": "ecc747d5-47d5-ecc7-d547-c7ecd547c7ec",
+      "id": "dfdfbf3b-bf3b-dfdf-3bbf-dfdf3bbfdfdf",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

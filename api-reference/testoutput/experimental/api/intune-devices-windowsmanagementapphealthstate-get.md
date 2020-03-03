@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get windowsManagementAppHealthState
 
-Read properties and relationships of the [windowsManagementAppHealthState](../resources/windowsmanagementapphealthstate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [windowsManagementAppHealthState](../resources/windowsmanagementapphealthstate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/windowsManagementApp/healthStates/{windowsManagementAppHealthStateId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/windowsManagementApp/healthStates/{windowsManagementAppHealthStateId}
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 381
+Content-Length: 382
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsManagementAppHealthState",
-    "id": "a331f672-f672-a331-72f6-31a372f631a3",
+    "id": "5abfe192-e192-5abf-92e1-bf5a92e1bf5a",
     "healthState": "String",
     "installedVersion": "Installed Version value",
-    "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00",
+    "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00",
     "deviceName": "Device Name value",
     "deviceOSVersion": "Device OSVersion value"
   }

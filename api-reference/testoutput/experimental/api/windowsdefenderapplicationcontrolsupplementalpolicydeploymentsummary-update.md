@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentsummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary](../resources/windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary.md) object.
+In the request body, supply a JSON representation for the [windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentsummary.md) object.
 
 The following table shows the properties that are required when you create the [windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentsummary.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deploySummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deploySummary
 Content-type: application/json
 Content-length: 166
 
@@ -85,7 +87,7 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentSummary",
-  "id": "0bdf6e6f-6e6f-0bdf-6f6e-df0b6f6edf0b",
+  "id": "446e7984-7984-446e-8479-6e4484796e44",
   "deployedDeviceCount": 3,
   "failedDeviceCount": 1
 }

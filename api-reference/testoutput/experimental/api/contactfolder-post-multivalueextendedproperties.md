@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add multiValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/contactFolders/{contactFolderId}/multiValueExtendedProperties/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the multiValueLegacyExtendedProperty object.
+In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
 
-The following table shows the properties that are required when you create the multiValueLegacyExtendedProperty.
+The following table shows the properties that are required when you create the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/contactFolders/{contactFolderId}/multiValueExtendedProperties
+POST https://graph.microsoft.com/localtest/me/contactFolders/{contactFolderId}/multiValueExtendedProperties
 Content-type: application/json
 Content-length: 113
 
@@ -87,7 +89,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "9dde930f-930f-9dde-0f93-de9d0f93de9d",
+  "id": "b7346fc8-6fc8-b734-c86f-34b7c86f34b7",
   "value": [
     "Value value"
   ]

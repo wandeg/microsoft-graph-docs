@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create roleManagement
 
+Namespace: microsoft.graph
+
 Create a new [roleManagement](../resources/rolemanagement.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.roleManagement not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the roleManagement object.
+In the request body, supply a JSON representation for the [roleManagement](../resources/rolemanagement.md) object.
 
-The following table shows the properties that are required when you create the roleManagement.
+The following table shows the properties that are required when you create the [roleManagement](../resources/rolemanagement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.roleManagement not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.roleManagement not found
 Content-type: application/json
 Content-length: 56
 
@@ -83,7 +85,7 @@ Content-Length: 105
 
 {
   "@odata.type": "#microsoft.graph.roleManagement",
-  "id": "72c1e8fe-e8fe-72c1-fee8-c172fee8c172"
+  "id": "93783d3c-3d3c-9378-3c3d-78933c3d7893"
 }
 ```
 

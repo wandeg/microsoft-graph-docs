@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # requestSignupUrl
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkSettings/requestSignupUrl
+POST https://graph.microsoft.com/localtest/deviceManagement/androidForWorkSettings/requestSignupUrl
 
 Content-type: application/json
 Content-length: 37

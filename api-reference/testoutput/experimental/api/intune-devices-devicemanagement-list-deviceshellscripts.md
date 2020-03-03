@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceShellScripts
 
+Namespace: microsoft.graph
+
 Get the deviceShellScripts from the deviceShellScripts navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 560
+Content-Length: 559
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceShellScript",
-      "id": "c6b91a24-1a24-c6b9-241a-b9c6241ab9c6",
+      "id": "692bfe8a-fe8a-692b-8afe-2b698afe2b69",
       "displayName": "Display Name value",
       "description": "Description value",
       "scriptContent": "c2NyaXB0Q29udGVudA==",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "runAsAccount": "String",
       "fileName": "File Name value",
       "roleScopeTagIds": [

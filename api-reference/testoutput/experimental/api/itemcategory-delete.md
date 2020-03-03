@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemCategory
 
+Namespace: microsoft.graph
+
 Deletes a [itemCategory](../resources/itemcategory.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/items/{itemId}/itemCategory
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/items/{itemId}/itemCategory
 ```
 
 ### Response

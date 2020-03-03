@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List staffMembers
 
+Namespace: microsoft.graph
+
 Get the bookingStaffMembers from the staffMembers navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/staffMembers
+GET https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/staffMembers
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 750
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingStaffMember",
-      "id": "b8869257-9257-b886-5792-86b8579286b8",
+      "id": "ff3e1fa8-1fa8-ff3e-a81f-3effa81f3eff",
       "displayName": "Display Name value",
       "emailAddress": "Email Address value",
       "availabilityIsAffectedByPersonalCalendar": true,
@@ -84,8 +86,8 @@ Content-Length: 750
           "timeSlots": [
             {
               "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-              "start": "11:59:43.5410000",
-              "end": "12:01:36.3070000"
+              "start": "12:02:01.9800000",
+              "end": "12:02:50.7750000"
             }
           ]
         }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update dataLossPreventionPolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolic
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [dataLossPreventionPolicy](../resources/dataLossPreventionPolicy.md) object.
+In the request body, supply a JSON representation for the [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md) object.
 
 The following table shows the properties that are required when you create the [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicyId}
+PATCH https://graph.microsoft.com/localtest/informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicyId}
 Content-type: application/json
 Content-length: 91
 
@@ -83,7 +85,7 @@ Content-Length: 140
 
 {
   "@odata.type": "#microsoft.graph.dataLossPreventionPolicy",
-  "id": "56cec865-c865-56ce-65c8-ce5665c8ce56",
+  "id": "aba94021-4021-aba9-2140-a9ab2140a9ab",
   "name": "Name value"
 }
 ```

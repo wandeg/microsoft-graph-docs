@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryObjectPartnerReference
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryObjectPartnerReference](../resources/directoryobjectpartnerreference.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH ** Entity URI for microsoft.graph.directoryObjectPartnerReference not foun
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryObjectPartnerReference](../resources/directoryObjectPartnerReference.md) object.
+In the request body, supply a JSON representation for the [directoryObjectPartnerReference](../resources/directoryobjectpartnerreference.md) object.
 
 The following table shows the properties that are required when you create the [directoryObjectPartnerReference](../resources/directoryobjectpartnerreference.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 |externalPartnerTenantId|Guid||
@@ -63,16 +65,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.directoryObjectPartnerReference not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.directoryObjectPartnerReference not found
 Content-type: application/json
 Content-length: 319
 
 {
   "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
-  "externalPartnerTenantId": "7b00ec38-ec38-7b00-38ec-007b38ec007b",
+  "externalPartnerTenantId": "4ff0e299-e299-4ff0-99e2-f04f99e2f04f",
   "objectType": "Object Type value"
 }
 ```
@@ -91,11 +93,11 @@ Content-Length: 368
 
 {
   "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-  "id": "8ecfcf20-cf20-8ecf-20cf-cf8e20cfcf8e",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "ace67cbb-7cbb-ace6-bb7c-e6acbb7ce6ac",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
-  "externalPartnerTenantId": "7b00ec38-ec38-7b00-38ec-007b38ec007b",
+  "externalPartnerTenantId": "4ff0e299-e299-4ff0-99e2-f04f99e2f04f",
   "objectType": "Object Type value"
 }
 ```

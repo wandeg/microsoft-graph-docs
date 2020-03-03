@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get notificationMessageTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}
+GET https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 397
 {
   "value": {
     "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-    "id": "e9ff51db-51db-e9ff-db51-ffe9db51ffe9",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "ad16cea9-cea9-ad16-a9ce-16ada9ce16ad",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "defaultLocale": "Default Locale value",
     "brandingOptions": "String",

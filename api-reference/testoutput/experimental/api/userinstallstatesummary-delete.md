@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userInstallStateSummary
 
+Namespace: microsoft.graph
+
 Deletes a [userInstallStateSummary](../resources/userinstallstatesummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}
 ```
 
 ### Response

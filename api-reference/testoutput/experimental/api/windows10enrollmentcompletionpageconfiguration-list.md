@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10EnrollmentCompletionPageConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10EnrollmentCompletionPageConfiguration](../resources/windows10enrollmentcompletionpageconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10EnrollmentCompletionPageConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10EnrollmentCompletionPageConfiguration not found
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 969
+Content-Length: 968
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-      "id": "ef73885b-885b-ef73-5b88-73ef5b8873ef",
+      "id": "963d4535-4535-963d-3545-3d9635453d96",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "version": 7,
       "showInstallationProgress": true,
       "blockDeviceSetupRetryByUser": true,

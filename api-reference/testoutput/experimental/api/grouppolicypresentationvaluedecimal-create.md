@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create groupPolicyPresentationValueDecimal
 
+Namespace: microsoft.graph
+
 Create a new [groupPolicyPresentationValueDecimal](../resources/grouppolicypresentationvaluedecimal.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.groupPolicyPresentationValueDecimal n
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyPresentationValueDecimal object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationValueDecimal](../resources/grouppolicypresentationvaluedecimal.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyPresentationValueDecimal.
+The following table shows the properties that are required when you create the [groupPolicyPresentationValueDecimal](../resources/grouppolicypresentationvaluedecimal.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the object was last modified. Inherited from [groupPolicyPresentationValue](../resources/groupPolicyPresentationValue.md)|
-|createdDateTime|DateTimeOffset|The date and time the object was created. Inherited from [groupPolicyPresentationValue](../resources/groupPolicyPresentationValue.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the object was last modified. Inherited from [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md)|
+|createdDateTime|DateTimeOffset|The date and time the object was created. Inherited from [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md)|
 |value|Int64|An unsigned integer value for the associated presentation.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationValueDecimal not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationValueDecimal not found
 Content-type: application/json
 Content-length: 92
 
@@ -83,13 +85,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 264
+Content-Length: 263
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
-  "id": "78de4d18-4d18-78de-184d-de78184dde78",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "0a0ecac7-cac7-0a0e-c7ca-0e0ac7ca0e0a",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "value": 5
 }
 ```

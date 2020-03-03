@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update delegatedPermissionClassification
 
+Namespace: microsoft.graph
+
 Update the properties of a [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.delegatedPermissionClassification not fo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [delegatedPermissionClassification](../resources/delegatedPermissionClassification.md) object.
+In the request body, supply a JSON representation for the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.
 
 The following table shows the properties that are required when you create the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.delegatedPermissionClassification not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.delegatedPermissionClassification not found
 Content-type: application/json
 Content-length: 194
 
@@ -87,7 +89,7 @@ Content-Length: 243
 
 {
   "@odata.type": "#microsoft.graph.delegatedPermissionClassification",
-  "id": "947f692a-692a-947f-2a69-7f942a697f94",
+  "id": "68614311-4311-6861-1143-616811436168",
   "permissionId": "Permission Id value",
   "permissionName": "Permission Name value",
   "classification": "String"

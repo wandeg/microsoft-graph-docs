@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsDeviceUsageDistributionUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsDeviceUsageDistributionUserCounts](../resources/teamsdeviceusagedistributionusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.teamsDeviceUsageDistributionUserCounts n
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsDeviceUsageDistributionUserCounts](../resources/teamsDeviceUsageDistributionUserCounts.md) object.
+In the request body, supply a JSON representation for the [teamsDeviceUsageDistributionUserCounts](../resources/teamsdeviceusagedistributionusercounts.md) object.
 
 The following table shows the properties that are required when you create the [teamsDeviceUsageDistributionUserCounts](../resources/teamsdeviceusagedistributionusercounts.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsDeviceUsageDistributionUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsDeviceUsageDistributionUserCounts not found
 Content-type: application/json
 Content-length: 256
 
@@ -97,7 +99,7 @@ Content-Length: 305
 
 {
   "@odata.type": "#microsoft.graph.teamsDeviceUsageDistributionUserCounts",
-  "id": "b3c4ab5b-ab5b-b3c4-5bab-c4b35babc4b3",
+  "id": "caf953a1-53a1-caf9-a153-f9caa153f9ca",
   "reportRefreshDate": "Date",
   "web": 3,
   "windowsPhone": 12,

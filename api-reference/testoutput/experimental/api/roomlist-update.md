@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roomList
 
+Namespace: microsoft.graph
+
 Update the properties of a [roomList](../resources/roomlist.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.roomList not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roomList](../resources/roomList.md) object.
+In the request body, supply a JSON representation for the [roomList](../resources/roomlist.md) object.
 
 The following table shows the properties that are required when you create the [roomList](../resources/roomlist.md).
 
@@ -43,9 +45,9 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String| Inherited from [place](../resources/place.md)|
-|geoCoordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)| Inherited from [place](../resources/place.md)|
+|geoCoordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)| Inherited from [place](../resources/place.md)|
 |phone|String| Inherited from [place](../resources/place.md)|
-|address|[physicalAddress](../resources/physicalAddress.md)| Inherited from [place](../resources/place.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)| Inherited from [place](../resources/place.md)|
 |emailAddress|String||
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.roomList not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.roomList not found
 Content-type: application/json
 Content-length: 716
 
@@ -107,7 +109,7 @@ Content-Length: 765
 
 {
   "@odata.type": "#microsoft.graph.roomList",
-  "id": "d51acab5-cab5-d51a-b5ca-1ad5b5ca1ad5",
+  "id": "e819daf2-daf2-e819-f2da-19e8f2da19e8",
   "displayName": "Display Name value",
   "geoCoordinates": {
     "@odata.type": "microsoft.graph.outlookGeoCoordinates",

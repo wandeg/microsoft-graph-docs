@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|mobileAppAssignments|[mobileAppAssignment](../resources/intune-apps-mobileAppAssignment.md) collection||
+|mobileAppAssignments|[mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macOSMicrosoftEdgeApp not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macOSMicrosoftEdgeApp not found/assign
 
 Content-type: application/json
 Content-length: 469
@@ -68,7 +70,7 @@ Content-length: 469
   "mobileAppAssignments": [
     {
       "@odata.type": "#microsoft.graph.mobileAppAssignment",
-      "id": "61a1efdc-efdc-61a1-dcef-a161dcefa161",
+      "id": "191a6a00-6a00-191a-006a-1a19006a1a19",
       "intent": "String",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

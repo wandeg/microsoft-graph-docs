@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # certificateBasedAuthConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List certificateBasedAuthConfigurations](../api/certificatebasedauthconfiguration-list.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md) collection|List properties and relationships of the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) objects.|
-|[Get certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-get.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md)|Read properties and relationships of the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
-|[Create certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md)|Create a new [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
+|[List certificateBasedAuthConfigurations](../api/certificatebasedauthconfiguration-list.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) collection|List properties and relationships of the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) objects.|
+|[Get certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-get.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md)|Read properties and relationships of the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
+|[Create certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-post-certificatebasedauthconfiguration.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md)|Create a new [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
 |[Delete certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-delete.md)|None|Deletes a [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md).|
-|[Update certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-update.md)|[certificateBasedAuthConfiguration](../resources/certificateBasedAuthConfiguration.md)|Update the properties of a [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
+|[Update certificateBasedAuthConfiguration](../api/certificatebasedauthconfiguration-update.md)|[certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md)|Update the properties of a [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|certificateAuthorities|[certificateAuthority](../resources/certificateAuthority.md) collection||
+|certificateAuthorities|[certificateAuthority](../resources/certificateauthority.md) collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 
 ## Relationships

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # eventMessage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [message](../resources/message.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List eventMessages](../api/eventmessage-list.md)|[eventMessage](../resources/eventMessage.md) collection|List properties and relationships of the [eventMessage](../resources/eventmessage.md) objects.|
-|[Get eventMessage](../api/eventmessage-get.md)|[eventMessage](../resources/eventMessage.md)|Read properties and relationships of the [eventMessage](../resources/eventmessage.md) object.|
-|[Create eventMessage](../api/eventmessage-create.md)|[eventMessage](../resources/eventMessage.md)|Create a new [eventMessage](../resources/eventmessage.md) object.|
+|[List eventMessages](../api/eventmessage-list.md)|[eventMessage](../resources/eventmessage.md) collection|List properties and relationships of the [eventMessage](../resources/eventmessage.md) objects.|
+|[Get eventMessage](../api/eventmessage-get.md)|[eventMessage](../resources/eventmessage.md)|Read properties and relationships of the [eventMessage](../resources/eventmessage.md) object.|
+|[Create eventMessage](../api/eventmessage-create.md)|[eventMessage](../resources/eventmessage.md)|Create a new [eventMessage](../resources/eventmessage.md) object.|
 |[Delete eventMessage](../api/eventmessage-delete.md)|None|Deletes a [eventMessage](../resources/eventmessage.md).|
-|[Update eventMessage](../api/eventmessage-update.md)|[eventMessage](../resources/eventMessage.md)|Update the properties of a [eventMessage](../resources/eventmessage.md) object.|
+|[Update eventMessage](../api/eventmessage-update.md)|[eventMessage](../resources/eventmessage.md)|Update the properties of a [eventMessage](../resources/eventmessage.md) object.|
 |[createReply](../api/eventmessage-createreply.md)|[message](../resources/message.md)||
 |[createReplyAll](../api/eventmessage-createreplyall.md)|[message](../resources/message.md)||
 |[createForward](../api/eventmessage-createforward.md)|[message](../resources/message.md)||
@@ -34,10 +35,10 @@ Inherits from [message](../resources/message.md)
 |[replyAll](../api/eventmessage-replyall.md)|None||
 |[forward](../api/eventmessage-forward.md)|None||
 |[unsubscribe](../api/eventmessage-unsubscribe.md)|None||
-|[List singleValueExtendedProperties](../api/eventmessage-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/eventmessage-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/eventmessage-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/eventmessage-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[List singleValueExtendedProperties](../api/eventmessage-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/eventmessage-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/eventmessage-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/eventmessage-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
 |[List attachments](../api/eventmessage-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
 |[Add attachments](../api/eventmessage-post-attachments.md)|[attachment](../resources/attachment.md)|Add attachments by posting to the attachments collection.|
 |[List extensions](../api/eventmessage-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
@@ -50,22 +51,22 @@ Inherits from [message](../resources/message.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |bccRecipients|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
-|body|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|body|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |bodyPreview|String| Inherited from [message](../resources/message.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |ccRecipients|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
 |conversationId|String| Inherited from [message](../resources/message.md)|
 |conversationIndex|Binary| Inherited from [message](../resources/message.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|endDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|flag|[followupFlag](../resources/followupFlag.md)| Inherited from [message](../resources/message.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|endDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|flag|[followupFlag](../resources/followupflag.md)| Inherited from [message](../resources/message.md)|
 |from|[recipient](../resources/recipient.md)| Inherited from [message](../resources/message.md)|
 |hasAttachments|Boolean| Inherited from [message](../resources/message.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |importance|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `low`, `normal`, `high`.|
 |inferenceClassification|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `focused`, `other`.|
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection| Inherited from [message](../resources/message.md)|
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection| Inherited from [message](../resources/message.md)|
 |internetMessageId|String| Inherited from [message](../resources/message.md)|
 |isAllDay|Boolean||
 |isDelegated|Boolean||
@@ -74,21 +75,21 @@ Inherits from [message](../resources/message.md)
 |isOutOfDate|Boolean||
 |isRead|Boolean| Inherited from [message](../resources/message.md)|
 |isReadReceiptRequested|Boolean| Inherited from [message](../resources/message.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |location|[location](../resources/location.md)||
 |meetingMessageType|Enumeration|. Possible values are: `none`, `meetingRequest`, `meetingCancelled`, `meetingAccepted`, `meetingTentativelyAccepted`, `meetingDeclined`.|
-|mentionsPreview|[mentionsPreview](../resources/mentionsPreview.md)| Inherited from [message](../resources/message.md)|
+|mentionsPreview|[mentionsPreview](../resources/mentionspreview.md)| Inherited from [message](../resources/message.md)|
 |parentFolderId|String| Inherited from [message](../resources/message.md)|
 |receivedDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
 |replyTo|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
 |sender|[recipient](../resources/recipient.md)| Inherited from [message](../resources/message.md)|
 |sentDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
-|startDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |subject|String| Inherited from [message](../resources/message.md)|
 |toRecipients|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
 |type|Enumeration|. Possible values are: `singleInstance`, `occurrence`, `exception`, `seriesMaster`.|
-|uniqueBody|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|uniqueBody|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |unsubscribeData|String collection| Inherited from [message](../resources/message.md)|
 |unsubscribeEnabled|Boolean| Inherited from [message](../resources/message.md)|
 |webLink|String| Inherited from [message](../resources/message.md)|
@@ -100,8 +101,8 @@ Inherits from [message](../resources/message.md)
 |event|[event](../resources/event.md)||
 |extensions|[extension](../resources/extension.md) collection| Inherited from [message](../resources/message.md)|
 |mentions|[mention](../resources/mention.md) collection| Inherited from [message](../resources/message.md)|
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection| Inherited from [message](../resources/message.md)|
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection| Inherited from [message](../resources/message.md)|
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection| Inherited from [message](../resources/message.md)|
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection| Inherited from [message](../resources/message.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

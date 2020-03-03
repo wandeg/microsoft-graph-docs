@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List points
 
+Namespace: microsoft.graph
+
 Get the workbookChartPoints from the points navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 225
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartPoint",
-      "id": "901df229-f229-901d-29f2-1d9029f21d90",
+      "id": "0c611f4a-1f4a-0c61-4a1f-610c4a1f610c",
       "value": {
         "@odata.type": "microsoft.graph.Json"
       }

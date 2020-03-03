@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List threatAssessmentRequests
 
+Namespace: microsoft.graph
+
 Get the threatAssessmentRequests from the threatAssessmentRequests navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/informationProtection/threatAssessmentRequests
+GET https://graph.microsoft.com/localtest/informationProtection/threatAssessmentRequests
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 803
+Content-Length: 802
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.threatAssessmentRequest",
-      "id": "6bad47f6-47f6-6bad-f647-ad6bf647ad6b",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "9f184502-4502-9f18-0245-189f0245189f",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "contentType": "String",
       "expectedAssessment": "String",
       "category": "String",

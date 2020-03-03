@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # informationProtectionContentLabel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |assignmentMethod|Enumeration|. Possible values are: `standard`, `privileged`, `auto`.|
 |creationDateTime|DateTimeOffset||
-|label|[labelDetails](../resources/labelDetails.md)||
+|label|[labelDetails](../resources/labeldetails.md)||
 
 ## Relationships
 None

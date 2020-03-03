@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update scopedRoleMembership
 
+Namespace: microsoft.graph
+
 Update the properties of a [scopedRoleMembership](../resources/scopedrolemembership.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /education/classes/{educationClassId}/members/{educationUserId}/schools/{e
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [scopedRoleMembership](../resources/scopedRoleMembership.md) object.
+In the request body, supply a JSON representation for the [scopedRoleMembership](../resources/scopedrolemembership.md) object.
 
 The following table shows the properties that are required when you create the [scopedRoleMembership](../resources/scopedrolemembership.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/scopedRoleMemberOf/{scopedRoleMembershipId}
+PATCH https://graph.microsoft.com/localtest/me/scopedRoleMemberOf/{scopedRoleMembershipId}
 Content-type: application/json
 Content-length: 292
 
@@ -96,7 +98,7 @@ Content-Length: 341
 
 {
   "@odata.type": "#microsoft.graph.scopedRoleMembership",
-  "id": "005e319c-319c-005e-9c31-5e009c315e00",
+  "id": "d79510a2-10a2-d795-a210-95d7a21095d7",
   "roleId": "Role Id value",
   "administrativeUnitId": "Administrative Unit Id value",
   "roleMemberInfo": {

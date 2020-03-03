@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesInvoiceLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesInvoiceLine](../api/salesinvoiceline-get.md)|[salesInvoiceLine](../resources/salesInvoiceLine.md)|Read properties and relationships of the [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
+|[List salesInvoiceLines](../api/salesinvoiceline-list.md)|[salesInvoiceLine](../resources/salesinvoiceline.md) collection|List properties and relationships of the [salesInvoiceLine](../resources/salesinvoiceline.md) objects.|
+|[Get salesInvoiceLine](../api/salesinvoiceline-get.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Read properties and relationships of the [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
+|[Create salesInvoiceLine](../api/salesinvoiceline-create.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Create a new [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
 |[Delete salesInvoiceLine](../api/salesinvoiceline-delete.md)|None|Deletes a [salesInvoiceLine](../resources/salesinvoiceline.md).|
-|[Update salesInvoiceLine](../api/salesinvoiceline-update.md)|[salesInvoiceLine](../resources/salesInvoiceLine.md)|Update the properties of a [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
+|[Update salesInvoiceLine](../api/salesinvoiceline-update.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Update the properties of a [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 

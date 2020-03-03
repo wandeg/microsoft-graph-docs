@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementReportSchedule
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/reports/reportSchedules/{deviceManagementReportScheduleId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/reports/reportSchedules/{deviceManagementReportScheduleId}
 ```
 
 ### Response

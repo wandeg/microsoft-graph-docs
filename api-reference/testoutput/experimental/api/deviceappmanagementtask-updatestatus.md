@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateStatus
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTaskId}/updateStatus
+POST https://graph.microsoft.com/localtest/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTaskId}/updateStatus
 
 Content-type: application/json
 Content-length: 51

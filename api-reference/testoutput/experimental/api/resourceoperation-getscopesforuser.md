@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getScopesForUser
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations/{resourceOperationId}/getScopesForUser(userid='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/resourceOperations/{resourceOperationId}/getScopesForUser(userid='parameterValue')
 ```
 
 ### Response

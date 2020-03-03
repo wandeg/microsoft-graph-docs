@@ -5,36 +5,37 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # domainDnsTxtRecord resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [domainDnsRecord](../resources/domainDnsRecord.md)
+
+
+Inherits from [domainDnsRecord](../resources/domaindnsrecord.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List domainDnsTxtRecords](../api/domaindnstxtrecord-list.md)|[domainDnsTxtRecord](../resources/domainDnsTxtRecord.md) collection|List properties and relationships of the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) objects.|
-|[Get domainDnsTxtRecord](../api/domaindnstxtrecord-get.md)|[domainDnsTxtRecord](../resources/domainDnsTxtRecord.md)|Read properties and relationships of the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
-|[Create domainDnsTxtRecord](../api/domaindnstxtrecord-create.md)|[domainDnsTxtRecord](../resources/domainDnsTxtRecord.md)|Create a new [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
+|[List domainDnsTxtRecords](../api/domaindnstxtrecord-list.md)|[domainDnsTxtRecord](../resources/domaindnstxtrecord.md) collection|List properties and relationships of the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) objects.|
+|[Get domainDnsTxtRecord](../api/domaindnstxtrecord-get.md)|[domainDnsTxtRecord](../resources/domaindnstxtrecord.md)|Read properties and relationships of the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
+|[Create domainDnsTxtRecord](../api/domaindnstxtrecord-create.md)|[domainDnsTxtRecord](../resources/domaindnstxtrecord.md)|Create a new [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
 |[Delete domainDnsTxtRecord](../api/domaindnstxtrecord-delete.md)|None|Deletes a [domainDnsTxtRecord](../resources/domaindnstxtrecord.md).|
-|[Update domainDnsTxtRecord](../api/domaindnstxtrecord-update.md)|[domainDnsTxtRecord](../resources/domainDnsTxtRecord.md)|Update the properties of a [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
+|[Update domainDnsTxtRecord](../api/domaindnstxtrecord-update.md)|[domainDnsTxtRecord](../resources/domaindnstxtrecord.md)|Update the properties of a [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |text|String||
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 
 ## Relationships
 None

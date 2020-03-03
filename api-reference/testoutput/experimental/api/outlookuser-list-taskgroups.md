@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List taskGroups
 
+Namespace: microsoft.graph
+
 Get the outlookTaskGroups from the taskGroups navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/taskGroups
+GET https://graph.microsoft.com/localtest/me/outlook/taskGroups
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 307
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskGroup",
-      "id": "255b3331-3331-255b-3133-5b2531335b25",
+      "id": "40c340e6-40e6-40c3-e640-c340e640c340",
       "changeKey": "Change Key value",
       "isDefaultGroup": true,
       "name": "Name value",
-      "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+      "groupKey": "27262869-2869-2726-6928-262769282627"
     }
   ]
 }

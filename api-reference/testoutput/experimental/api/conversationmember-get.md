@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get conversationMember
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [conversationMember](../resources/conversationmember.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/chats/{chatsId}/members/{conversationMemberId}
+GET https://graph.microsoft.com/localtest/chats/{chatsId}/members/{conversationMemberId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 219
 {
   "value": {
     "@odata.type": "#microsoft.graph.conversationMember",
-    "id": "15f74870-4870-15f7-7048-f7157048f715",
+    "id": "16eeb970-b970-16ee-70b9-ee1670b9ee16",
     "roles": [
       "Roles value"
     ],

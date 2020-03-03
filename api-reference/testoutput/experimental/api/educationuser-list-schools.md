@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List schools
 
+Namespace: microsoft.graph
+
 Get the educationSchools from the schools navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members/{educationUserId}/schools
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members/{educationUserId}/schools
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1404
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSchool",
-      "id": "41bd57cc-57cc-41bd-cc57-bd41cc57bd41",
+      "id": "f53bb4d9-b4d9-f53b-d9b4-3bf5d9b43bf5",
       "displayName": "Display Name value",
       "description": "Description value",
       "externalSource": "String",

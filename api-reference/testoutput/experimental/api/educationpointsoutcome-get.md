@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationPointsOutcome
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationPointsOutcome](../resources/educationpointsoutcome.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.educationPointsOutcome not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.educationPointsOutcome not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 978
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationPointsOutcome",
-    "id": "eb98b7f1-b7f1-eb98-f1b7-98ebf1b798eb",
+    "id": "46bc9787-9787-46bc-8797-bc468797bc46",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -87,13 +89,13 @@ Content-Length: 978
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "points": {
       "@odata.type": "microsoft.graph.educationAssignmentPointsGrade",
       "gradedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "gradedDateTime": "2017-01-01T00:02:25.6674094+03:00",
+      "gradedDateTime": "2017-01-01T00:01:22.6057694+03:00",
       "points": "Single"
     },
     "publishedPoints": {

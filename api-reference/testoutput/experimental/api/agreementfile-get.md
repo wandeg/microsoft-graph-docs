@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get agreementFile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [agreementFile](../resources/agreementfile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/agreements/{agreementsId}/files/{agreementFileId}
+GET https://graph.microsoft.com/localtest/agreements/{agreementsId}/files/{agreementFileId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 334
 {
   "value": {
     "@odata.type": "#microsoft.graph.agreementFile",
-    "id": "1ad53af8-3af8-1ad5-f83a-d51af83ad51a",
+    "id": "5471cf3f-cf3f-5471-3fcf-71543fcf7154",
     "language": "Language value",
     "fileName": "File Name value",
     "fileData": {

@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # dlpEvaluationWindowsDevicesInput resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [dlpEvaluationInput](../resources/dlpEvaluationInput.md)
+
+
+Inherits from [dlpEvaluationInput](../resources/dlpevaluationinput.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|accessScope|Enumeration| Inherited from [dlpEvaluationInput](../resources/dlpEvaluationInput.md). Possible values are: `inOrganization`, `notInOrganization`.|
-|contentProperties|[contentProperties](../resources/contentProperties.md)||
-|currentLabel|[currentLabel](../resources/currentLabel.md)| Inherited from [dlpEvaluationInput](../resources/dlpEvaluationInput.md)|
-|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredSensitiveType.md) collection| Inherited from [dlpEvaluationInput](../resources/dlpEvaluationInput.md)|
+|accessScope|Enumeration| Inherited from [dlpEvaluationInput](../resources/dlpevaluationinput.md). Possible values are: `inOrganization`, `notInOrganization`.|
+|contentProperties|[contentProperties](../resources/contentproperties.md)||
+|currentLabel|[currentLabel](../resources/currentlabel.md)| Inherited from [dlpEvaluationInput](../resources/dlpevaluationinput.md)|
+|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredsensitivetype.md) collection| Inherited from [dlpEvaluationInput](../resources/dlpevaluationinput.md)|
 |sharedBy|String||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleDefinition](../resources/roledefinition.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/roleDefinitions/{roleDefinitionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleDefinition](../resources/roleDefinition.md) object.
+In the request body, supply a JSON representation for the [roleDefinition](../resources/roledefinition.md) object.
 
 The following table shows the properties that are required when you create the [roleDefinition](../resources/roledefinition.md).
 
@@ -44,8 +46,8 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display Name of the Role definition.|
 |description|String|Description of the Role definition.|
-|permissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
-|rolePermissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
+|permissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
+|rolePermissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
 |isBuiltInRoleDefinition|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition.|
 |isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition.|
 |roleScopeTagIds|String collection|List of Scope Tags for this Entity instance.|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}
 Content-type: application/json
 Content-length: 828
 
@@ -119,7 +121,7 @@ Content-Length: 877
 
 {
   "@odata.type": "#microsoft.graph.roleDefinition",
-  "id": "a75e6eaa-6eaa-a75e-aa6e-5ea7aa6e5ea7",
+  "id": "dc69eaae-eaae-dc69-aeea-69dcaeea69dc",
   "displayName": "Display Name value",
   "description": "Description value",
   "permissions": [

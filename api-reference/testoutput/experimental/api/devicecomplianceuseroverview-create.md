@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceComplianceUserOverview
 
+Namespace: microsoft.graph
+
 Create a new [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceComplianceUserOverview not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceComplianceUserOverview object.
+In the request body, supply a JSON representation for the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.
 
-The following table shows the properties that are required when you create the deviceComplianceUserOverview.
+The following table shows the properties that are required when you create the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceComplianceUserOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceComplianceUserOverview not found
 Content-type: application/json
-Content-length: 302
+Content-length: 303
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceUserOverview",
@@ -79,7 +81,7 @@ Content-length: 302
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```
@@ -95,18 +97,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 351
+Content-Length: 352
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceUserOverview",
-  "id": "d982551b-551b-d982-1b55-82d91b5582d9",
+  "id": "784b98ac-98ac-784b-ac98-4b78ac984b78",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```

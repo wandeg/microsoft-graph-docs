@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userSecurityProfiles
 
+Namespace: microsoft.graph
+
 Add userSecurityProfiles by posting to the userSecurityProfiles collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /Security/userSecurityProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userSecurityProfile object.
+In the request body, supply a JSON representation for the [userSecurityProfile](../resources/usersecurityprofile.md) object.
 
-The following table shows the properties that are required when you create the userSecurityProfile.
+The following table shows the properties that are required when you create the [userSecurityProfile](../resources/usersecurityprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|accounts|[userAccount](../resources/userAccount.md) collection||
+|accounts|[userAccount](../resources/useraccount.md) collection||
 |azureSubscriptionId|String||
 |azureTenantId|String||
 |createdDateTime|DateTimeOffset||
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the u
 |riskScore|String||
 |tags|String collection||
 |userPrincipalName|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -69,9 +71,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/userSecurityProfiles
+POST https://graph.microsoft.com/localtest/Security/userSecurityProfiles
 Content-type: application/json
-Content-length: 924
+Content-length: 923
 
 {
   "@odata.type": "#microsoft.graph.userSecurityProfile",
@@ -79,7 +81,7 @@ Content-length: 924
     {
       "@odata.type": "microsoft.graph.userAccount",
       "displayName": "Display Name value",
-      "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
       "riskScore": "Risk Score value",
       "service": "Service value",
       "signinName": "Signin Name value",
@@ -115,16 +117,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1096
+Content-Length: 1094
 
 {
   "@odata.type": "#microsoft.graph.userSecurityProfile",
-  "id": "e9107a0b-7a0b-e910-0b7a-10e90b7a10e9",
+  "id": "c8b65270-5270-c8b6-7052-b6c87052b6c8",
   "accounts": [
     {
       "@odata.type": "microsoft.graph.userAccount",
       "displayName": "Display Name value",
-      "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
       "riskScore": "Risk Score value",
       "service": "Service value",
       "signinName": "Signin Name value",
@@ -133,9 +135,9 @@ Content-Length: 1096
   ],
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"

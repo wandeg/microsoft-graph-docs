@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List schemas
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [schema](../resources/schema.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.schema not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.schema not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 445
   "value": [
     {
       "@odata.type": "#microsoft.graph.schema",
-      "id": "cf2d9a22-9a22-cf2d-229a-2dcf229a2dcf",
+      "id": "22a09afe-9afe-22a0-fe9a-a022fe9aa022",
       "baseType": "Base Type value",
       "properties": [
         {

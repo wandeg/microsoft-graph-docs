@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deliveryOptimizationGroupIdSourceOptions resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deliveryOptimizationGroupIdSource](../resources/deliveryOptimizationGroupIdSource.md)
+
+
+Inherits from [deliveryOptimizationGroupIdSource](../resources/deliveryoptimizationgroupidsource.md)
 
 ## Properties
 |Property|Type|Description|

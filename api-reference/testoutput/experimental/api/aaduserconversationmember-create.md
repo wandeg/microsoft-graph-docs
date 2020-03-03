@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create aadUserConversationMember
 
+Namespace: microsoft.graph
+
 Create a new [aadUserConversationMember](../resources/aaduserconversationmember.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.aadUserConversationMember not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the aadUserConversationMember object.
+In the request body, supply a JSON representation for the [aadUserConversationMember](../resources/aaduserconversationmember.md) object.
 
-The following table shows the properties that are required when you create the aadUserConversationMember.
+The following table shows the properties that are required when you create the [aadUserConversationMember](../resources/aaduserconversationmember.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|roles|String collection| Inherited from [conversationMember](../resources/conversationMember.md)|
-|displayName|String| Inherited from [conversationMember](../resources/conversationMember.md)|
+|roles|String collection| Inherited from [conversationMember](../resources/conversationmember.md)|
+|displayName|String| Inherited from [conversationMember](../resources/conversationmember.md)|
 |userId|String||
 |email|String||
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.aadUserConversationMember not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.aadUserConversationMember not found
 Content-type: application/json
 Content-length: 203
 
@@ -93,7 +95,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.aadUserConversationMember",
-  "id": "928ebc1f-bc1f-928e-1fbc-8e921fbc8e92",
+  "id": "f2485e17-5e17-f248-175e-48f2175e48f2",
   "roles": [
     "Roles value"
   ],

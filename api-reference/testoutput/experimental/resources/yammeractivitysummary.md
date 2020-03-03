@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # yammerActivitySummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List yammerActivitySummaries](../api/yammeractivitysummary-list.md)|[yammerActivitySummary](../resources/yammerActivitySummary.md) collection|List properties and relationships of the [yammerActivitySummary](../resources/yammeractivitysummary.md) objects.|
-|[Get yammerActivitySummary](../api/yammeractivitysummary-get.md)|[yammerActivitySummary](../resources/yammerActivitySummary.md)|Read properties and relationships of the [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
-|[Create yammerActivitySummary](../api/yammeractivitysummary-create.md)|[yammerActivitySummary](../resources/yammerActivitySummary.md)|Create a new [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
+|[List yammerActivitySummaries](../api/yammeractivitysummary-list.md)|[yammerActivitySummary](../resources/yammeractivitysummary.md) collection|List properties and relationships of the [yammerActivitySummary](../resources/yammeractivitysummary.md) objects.|
+|[Get yammerActivitySummary](../api/yammeractivitysummary-get.md)|[yammerActivitySummary](../resources/yammeractivitysummary.md)|Read properties and relationships of the [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
+|[Create yammerActivitySummary](../api/yammeractivitysummary-create.md)|[yammerActivitySummary](../resources/yammeractivitysummary.md)|Create a new [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
 |[Delete yammerActivitySummary](../api/yammeractivitysummary-delete.md)|None|Deletes a [yammerActivitySummary](../resources/yammeractivitysummary.md).|
-|[Update yammerActivitySummary](../api/yammeractivitysummary-update.md)|[yammerActivitySummary](../resources/yammerActivitySummary.md)|Update the properties of a [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
+|[Update yammerActivitySummary](../api/yammeractivitysummary-update.md)|[yammerActivitySummary](../resources/yammeractivitysummary.md)|Update the properties of a [yammerActivitySummary](../resources/yammeractivitysummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

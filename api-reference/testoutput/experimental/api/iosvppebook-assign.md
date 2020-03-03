@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|managedEBookAssignments|[managedEBookAssignment](../resources/managedEBookAssignment.md) collection||
+|managedEBookAssignments|[managedEBookAssignment](../resources/managedebookassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppEBook not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppEBook not found/assign
 
 Content-type: application/json
 Content-length: 316
@@ -68,7 +70,7 @@ Content-length: 316
   "managedEBookAssignments": [
     {
       "@odata.type": "#microsoft.graph.managedEBookAssignment",
-      "id": "0eb4b46a-b46a-0eb4-6ab4-b40e6ab4b40e",
+      "id": "744d8040-8040-744d-4080-4d7440804d74",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartTitle resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartTitles](../api/workbookcharttitle-list.md)|[workbookChartTitle](../resources/workbookChartTitle.md) collection|List properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) objects.|
-|[Get workbookChartTitle](../api/workbookcharttitle-get.md)|[workbookChartTitle](../resources/workbookChartTitle.md)|Read properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) object.|
-|[Create workbookChartTitle](../api/workbookcharttitle-create.md)|[workbookChartTitle](../resources/workbookChartTitle.md)|Create a new [workbookChartTitle](../resources/workbookcharttitle.md) object.|
+|[List workbookChartTitles](../api/workbookcharttitle-list.md)|[workbookChartTitle](../resources/workbookcharttitle.md) collection|List properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) objects.|
+|[Get workbookChartTitle](../api/workbookcharttitle-get.md)|[workbookChartTitle](../resources/workbookcharttitle.md)|Read properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) object.|
+|[Create workbookChartTitle](../api/workbookcharttitle-create.md)|[workbookChartTitle](../resources/workbookcharttitle.md)|Create a new [workbookChartTitle](../resources/workbookcharttitle.md) object.|
 |[Delete workbookChartTitle](../api/workbookcharttitle-delete.md)|None|Deletes a [workbookChartTitle](../resources/workbookcharttitle.md).|
-|[Update workbookChartTitle](../api/workbookcharttitle-update.md)|[workbookChartTitle](../resources/workbookChartTitle.md)|Update the properties of a [workbookChartTitle](../resources/workbookcharttitle.md) object.|
-|[Get workbookChartTitleFormat](../api/workbookcharttitleformat-get.md)|[workbookChartTitleFormat](../resources/workbookChartTitleFormat.md)|Read properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.|
+|[Update workbookChartTitle](../api/workbookcharttitle-update.md)|[workbookChartTitle](../resources/workbookcharttitle.md)|Update the properties of a [workbookChartTitle](../resources/workbookcharttitle.md) object.|
+|[Get workbookChartTitleFormat](../api/workbookcharttitleformat-get.md)|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)|Read properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|format|[workbookChartTitleFormat](../resources/workbookChartTitleFormat.md)||
+|format|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

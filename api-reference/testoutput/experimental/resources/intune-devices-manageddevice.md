@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDevice resource type
+
+
+Namespace: microsoft.graph
 
 Devices that are managed or pre-enrolled through Intune
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedDevice](../api/intune-devices-manageddevice-get.md)|[managedDevice](../resources/intune-devices-managedDevice.md)|Read properties and relationships of the [managedDevice](../resources/manageddevice.md) object.|
-|[Delete managedDevice](../api/intune-devices-manageddevice-delete.md)|None|Deletes a [managedDevice](../resources/manageddevice.md).|
-|[Update managedDevice](../api/intune-devices-manageddevice-update.md)|[managedDevice](../resources/intune-devices-managedDevice.md)|Update the properties of a [managedDevice](../resources/manageddevice.md) object.|
+|[List managedDevices](../api/intune-devices-manageddevice-list.md)|[managedDevice](../resources/intune-devices-manageddevice.md) collection|List properties and relationships of the [managedDevice](../resources/manageddevice.md) objects.|
+|[Get managedDevice](../api/intune-devices-manageddevice-get.md)|[managedDevice](../resources/intune-devices-manageddevice.md)|Read properties and relationships of the [managedDevice](../resources/intune-devices-manageddevice.md) object.|
+|[Create managedDevice](../api/intune-devices-manageddevice-create.md)|[managedDevice](../resources/intune-devices-manageddevice.md)|Create a new [managedDevice](../resources/intune-devices-manageddevice.md) object.|
+|[Delete managedDevice](../api/intune-devices-manageddevice-delete.md)|None|Deletes a [managedDevice](../resources/intune-devices-manageddevice.md).|
+|[Update managedDevice](../api/intune-devices-manageddevice-update.md)|[managedDevice](../resources/intune-devices-manageddevice.md)|Update the properties of a [managedDevice](../resources/intune-devices-manageddevice.md) object.|
 |[overrideComplianceState](../api/intune-devices-manageddevice-overridecompliancestate.md)|None||
 |[enableLostMode](../api/intune-devices-manageddevice-enablelostmode.md)|None||
 |[playLostModeSound](../api/intune-devices-manageddevice-playlostmodesound.md)|None||
@@ -50,19 +53,19 @@ Inherits from [entity](../resources/entity.md)
 |[rotateBitLockerKeys](../api/intune-devices-manageddevice-rotatebitlockerkeys.md)|None||
 |[sendCustomNotificationToCompanyPortal](../api/intune-devices-manageddevice-sendcustomnotificationtocompanyportal.md)|None||
 |[triggerConfigurationManagerAction](../api/intune-devices-manageddevice-triggerconfigurationmanageraction.md)|None||
-|[executeAction](../api/intune-devices-manageddevice-executeaction.md)|[bulkManagedDeviceActionResult](../resources/intune-devices-bulkManagedDeviceActionResult.md)||
-|[List securityBaselineStates](../api/intune-devices-manageddevice-list-securitybaselinestates.md)|[securityBaselineState](../resources/securityBaselineState.md) collection|Get the securityBaselineStates from the securityBaselineStates navigation property.|
-|[Add securityBaselineStates](../api/intune-devices-manageddevice-post-securitybaselinestates.md)|[securityBaselineState](../resources/securityBaselineState.md)|Add securityBaselineStates by posting to the securityBaselineStates collection.|
-|[List deviceConfigurationStates](../api/intune-devices-manageddevice-list-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceConfigurationState.md) collection|Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.|
-|[Add deviceConfigurationStates](../api/intune-devices-manageddevice-post-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceConfigurationState.md)|Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.|
-|[List deviceCompliancePolicyStates](../api/intune-devices-manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
-|[Add deviceCompliancePolicyStates](../api/intune-devices-manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
-|[List managedDeviceMobileAppConfigurationStates](../api/intune-devices-manageddevice-list-manageddevicemobileappconfigurationstates.md)|[managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md) collection|Get the managedDeviceMobileAppConfigurationStates from the managedDeviceMobileAppConfigurationStates navigation property.|
-|[Add managedDeviceMobileAppConfigurationStates](../api/intune-devices-manageddevice-post-manageddevicemobileappconfigurationstates.md)|[managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md)|Add managedDeviceMobileAppConfigurationStates by posting to the managedDeviceMobileAppConfigurationStates collection.|
-|[List detectedApps](../api/intune-devices-manageddevice-list-detectedapps.md)|[detectedApp](../resources/intune-devices-detectedApp.md) collection|Get the detectedApps from the detectedApps navigation property.|
-|[Create detectedApps](../api/intune-devices-manageddevice-post-detectedapps.md)|[detectedApp](../resources/intune-devices-detectedApp.md)|Create detectedApps by posting to the detectedApps collection.|
-|[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/deviceCategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
-|[Get windowsProtectionState](../api/intune-devices-windowsprotectionstate-get.md)|[windowsProtectionState](../resources/intune-devices-windowsProtectionState.md)|Read properties and relationships of the [windowsProtectionState](../resources/windowsprotectionstate.md) object.|
+|[executeAction](../api/intune-devices-manageddevice-executeaction.md)|[bulkManagedDeviceActionResult](../resources/intune-devices-bulkmanageddeviceactionresult.md)||
+|[List securityBaselineStates](../api/intune-devices-manageddevice-list-securitybaselinestates.md)|[securityBaselineState](../resources/securitybaselinestate.md) collection|Get the securityBaselineStates from the securityBaselineStates navigation property.|
+|[Add securityBaselineStates](../api/intune-devices-manageddevice-post-securitybaselinestates.md)|[securityBaselineState](../resources/securitybaselinestate.md)|Add securityBaselineStates by posting to the securityBaselineStates collection.|
+|[List deviceConfigurationStates](../api/intune-devices-manageddevice-list-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.|
+|[Add deviceConfigurationStates](../api/intune-devices-manageddevice-post-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.|
+|[List deviceCompliancePolicyStates](../api/intune-devices-manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
+|[Add deviceCompliancePolicyStates](../api/intune-devices-manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
+|[List managedDeviceMobileAppConfigurationStates](../api/intune-devices-manageddevice-list-manageddevicemobileappconfigurationstates.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) collection|Get the managedDeviceMobileAppConfigurationStates from the managedDeviceMobileAppConfigurationStates navigation property.|
+|[Add managedDeviceMobileAppConfigurationStates](../api/intune-devices-manageddevice-post-manageddevicemobileappconfigurationstates.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md)|Add managedDeviceMobileAppConfigurationStates by posting to the managedDeviceMobileAppConfigurationStates collection.|
+|[List detectedApps](../api/intune-devices-manageddevice-list-detectedapps.md)|[detectedApp](../resources/intune-devices-detectedapp.md) collection|Get the detectedApps from the detectedApps navigation property.|
+|[Create detectedApps](../api/intune-devices-manageddevice-post-detectedapps.md)|[detectedApp](../resources/intune-devices-detectedapp.md)|Create detectedApps by posting to the detectedApps collection.|
+|[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/devicecategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
+|[Get windowsProtectionState](../api/intune-devices-windowsprotectionstate-get.md)|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md)|Read properties and relationships of the [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object.|
 |[List users](../api/intune-devices-manageddevice-list-users.md)|[user](../resources/user.md) collection|Get the users from the users navigation property.|
 |[Add users](../api/intune-devices-manageddevice-post-users.md)|[user](../resources/user.md)|Add users by posting to the users collection.|
 
@@ -79,13 +82,13 @@ Inherits from [entity](../resources/entity.md)
 |chassisType|Enumeration|Chassis type of the device. This property is read-only. Possible values are: `unknown`, `desktop`, `laptop`, `worksWorkstation`, `enterpriseServer`, `phone`, `tablet`, `mobileOther`, `mobileUnknown`.|
 |complianceGracePeriodExpirationDateTime|DateTimeOffset|The DateTime when device compliance grace period expires. This property is read-only.|
 |complianceState|Enumeration|Compliance state of the device. This property is read-only. Possible values are: `unknown`, `compliant`, `noncompliant`, `conflict`, `error`, `inGracePeriod`, `configManager`.|
-|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/intune-devices-configurationManagerClientEnabledFeatures.md)|ConfigrMgr client enabled features. This property is read-only.|
-|configurationManagerClientHealthState|[configurationManagerClientHealthState](../resources/intune-devices-configurationManagerClientHealthState.md)|Configuration manager client health state, valid only for devices managed by MDM/ConfigMgr Agent|
-|configurationManagerClientInformation|[configurationManagerClientInformation](../resources/intune-devices-configurationManagerClientInformation.md)|Configuration manager client information, valid only for devices managed, duel-managed or tri-managed by ConfigMgr Agent|
-|deviceActionResults|[deviceActionResult](../resources/intune-devices-deviceActionResult.md) collection|List of ComplexType deviceActionResult objects. This property is read-only.|
+|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/intune-devices-configurationmanagerclientenabledfeatures.md)|ConfigrMgr client enabled features. This property is read-only.|
+|configurationManagerClientHealthState|[configurationManagerClientHealthState](../resources/intune-devices-configurationmanagerclienthealthstate.md)|Configuration manager client health state, valid only for devices managed by MDM/ConfigMgr Agent|
+|configurationManagerClientInformation|[configurationManagerClientInformation](../resources/intune-devices-configurationmanagerclientinformation.md)|Configuration manager client information, valid only for devices managed, duel-managed or tri-managed by ConfigMgr Agent|
+|deviceActionResults|[deviceActionResult](../resources/intune-devices-deviceactionresult.md) collection|List of ComplexType deviceActionResult objects. This property is read-only.|
 |deviceCategoryDisplayName|String|Device category display name. This property is read-only.|
 |deviceEnrollmentType|Enumeration|Enrollment type of the device. This property is read-only. Possible values are: `unknown`, `userEnrollment`, `deviceEnrollmentManager`, `appleBulkWithUser`, `appleBulkWithoutUser`, `windowsAzureADJoin`, `windowsBulkUserless`, `windowsAutoEnrollment`, `windowsBulkAzureDomainJoin`, `windowsCoManagement`, `appleUserEnrollment`, `appleUserEnrollmentWithServiceAccount`.|
-|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/intune-devices-deviceHealthAttestationState.md)|The device health attestation state. This property is read-only.|
+|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/intune-devices-devicehealthattestationstate.md)|The device health attestation state. This property is read-only.|
 |deviceName|String|Name of the device. This property is read-only.|
 |deviceRegistrationState|Enumeration|Device registration state. This property is read-only. Possible values are: `notRegistered`, `registered`, `revoked`, `keyConflict`, `approvalPending`, `certificateReset`, `notRegisteredPendingEnrollment`, `unknown`.|
 |deviceType|Enumeration|Platform of the device. This property is read-only. Possible values are: `desktop`, `windowsRT`, `winMO6`, `nokia`, `windowsPhone`, `mac`, `winCE`, `winEmbedded`, `iPhone`, `iPad`, `iPod`, `android`, `iSocConsumer`, `unix`, `macMDM`, `holoLens`, `surfaceHub`, `androidForWork`, `androidEnterprise`, `blackberry`, `palm`, `unknown`.|
@@ -99,7 +102,7 @@ Inherits from [entity](../resources/entity.md)
 |exchangeAccessStateReason|Enumeration|The reason for the device's access state in Exchange. This property is read-only. Possible values are: `none`, `unknown`, `exchangeGlobalRule`, `exchangeIndividualRule`, `exchangeDeviceRule`, `exchangeUpgrade`, `exchangeMailboxPolicy`, `other`, `compliant`, `notCompliant`, `notEnrolled`, `unknownLocation`, `mfaRequired`, `azureADBlockDueToAccessPolicy`, `compromisedPassword`, `deviceNotKnownWithManagedApp`.|
 |exchangeLastSuccessfulSyncDateTime|DateTimeOffset|Last time the device contacted Exchange. This property is read-only.|
 |freeStorageSpaceInBytes|Int64|Free Storage in Bytes. This property is read-only.|
-|hardwareInformation|[hardwareInformation](../resources/intune-devices-hardwareInformation.md)|The hardward details for the device.  Includes information such as storage space, manufacturer, serial number, etc. This property is read-only.|
+|hardwareInformation|[hardwareInformation](../resources/intune-devices-hardwareinformation.md)|The hardward details for the device.  Includes information such as storage space, manufacturer, serial number, etc. This property is read-only.|
 |iccid|String|Integrated Circuit Card Identifier, it is A SIM card's unique identification number. This property is read-only.|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |imei|String|IMEI. This property is read-only.|
@@ -137,7 +140,7 @@ Inherits from [entity](../resources/entity.md)
 |userDisplayName|String|User display name. This property is read-only.|
 |userId|String|Unique Identifier for the user associated with the device. This property is read-only.|
 |userPrincipalName|String|Device user principal name. This property is read-only.|
-|usersLoggedOn|[loggedOnUser](../resources/intune-devices-loggedOnUser.md) collection|Indicates the last logged on users of a device. This property is read-only.|
+|usersLoggedOn|[loggedOnUser](../resources/intune-devices-loggedonuser.md) collection|Indicates the last logged on users of a device. This property is read-only.|
 |wiFiMacAddress|String|Wi-Fi MAC. This property is read-only.|
 |windowsActiveMalwareCount|Int32|Count of active malware for this windows device. This property is read-only.|
 |windowsRemediatedMalwareCount|Int32|Count of remediated malware for this windows device. This property is read-only.|
@@ -145,14 +148,14 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|detectedApps|[detectedApp](../resources/intune-devices-detectedApp.md) collection|All applications currently installed on the device|
-|deviceCategory|[deviceCategory](../resources/deviceCategory.md)|Device category|
-|deviceCompliancePolicyStates|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md) collection|Device compliance policy states for this device.|
-|deviceConfigurationStates|[deviceConfigurationState](../resources/deviceConfigurationState.md) collection|Device configuration states for this device.|
-|managedDeviceMobileAppConfigurationStates|[managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md) collection|Managed device mobile app configuration states for this device.|
-|securityBaselineStates|[securityBaselineState](../resources/securityBaselineState.md) collection|Security baseline states for this device.|
+|detectedApps|[detectedApp](../resources/intune-devices-detectedapp.md) collection|All applications currently installed on the device|
+|deviceCategory|[deviceCategory](../resources/devicecategory.md)|Device category|
+|deviceCompliancePolicyStates|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Device compliance policy states for this device.|
+|deviceConfigurationStates|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|Device configuration states for this device.|
+|managedDeviceMobileAppConfigurationStates|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) collection|Managed device mobile app configuration states for this device.|
+|securityBaselineStates|[securityBaselineState](../resources/securitybaselinestate.md) collection|Security baseline states for this device.|
 |users|[user](../resources/user.md) collection|The primary users associated with the managed device.|
-|windowsProtectionState|[windowsProtectionState](../resources/intune-devices-windowsProtectionState.md)|The device protection status.|
+|windowsProtectionState|[windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md)|The device protection status.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

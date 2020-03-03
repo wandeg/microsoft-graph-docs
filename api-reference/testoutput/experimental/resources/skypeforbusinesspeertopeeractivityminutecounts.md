@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessPeerToPeerActivityMinuteCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessPeerToPeerActivityMinuteCountses](../api/skypeforbusinesspeertopeeractivityminutecounts-list.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeForBusinessPeerToPeerActivityMinuteCounts.md) collection|List properties and relationships of the [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) objects.|
-|[Get skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-get.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeForBusinessPeerToPeerActivityMinuteCounts.md)|Read properties and relationships of the [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
-|[Create skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-create.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeForBusinessPeerToPeerActivityMinuteCounts.md)|Create a new [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
+|[List skypeForBusinessPeerToPeerActivityMinuteCountses](../api/skypeforbusinesspeertopeeractivityminutecounts-list.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) collection|List properties and relationships of the [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) objects.|
+|[Get skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-get.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md)|Read properties and relationships of the [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
+|[Create skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-create.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md)|Create a new [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
 |[Delete skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-delete.md)|None|Deletes a [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md).|
-|[Update skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-update.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeForBusinessPeerToPeerActivityMinuteCounts.md)|Update the properties of a [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
+|[Update skypeForBusinessPeerToPeerActivityMinuteCounts](../api/skypeforbusinesspeertopeeractivityminutecounts-update.md)|[skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md)|Update the properties of a [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

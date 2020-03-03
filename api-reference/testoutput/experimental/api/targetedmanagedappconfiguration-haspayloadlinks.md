@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # hasPayloadLinks
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -47,7 +49,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [hasPayloadLinkResultItem](../resources/hasPayloadLinkResultItem.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations/hasPayloadLinks
+POST https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations/hasPayloadLinks
 
 Content-type: application/json
 Content-length: 53

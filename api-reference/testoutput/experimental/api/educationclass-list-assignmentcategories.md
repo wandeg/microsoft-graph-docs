@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignmentCategories
 
+Namespace: microsoft.graph
+
 Get the educationCategories from the assignmentCategories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignmentCategories
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignmentCategories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 193
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationCategory",
-      "id": "4ada2ab2-2ab2-4ada-b22a-da4ab22ada4a",
+      "id": "be0967cb-67cb-be09-cb67-09becb6709be",
       "displayName": "Display Name value"
     }
   ]

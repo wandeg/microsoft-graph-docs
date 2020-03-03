@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create external
 
+Namespace: microsoft.graph
+
 Create a new [external](../resources/external.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.external not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the external object.
+In the request body, supply a JSON representation for the [external](../resources/external.md) object.
 
-The following table shows the properties that are required when you create the external.
+The following table shows the properties that are required when you create the [external](../resources/external.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.external not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.external not found
 Content-type: application/json
 Content-length: 50
 
@@ -83,7 +85,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.external",
-  "id": "90de3a61-3a61-90de-613a-de90613ade90"
+  "id": "08c37937-7937-08c3-3779-c3083779c308"
 }
 ```
 

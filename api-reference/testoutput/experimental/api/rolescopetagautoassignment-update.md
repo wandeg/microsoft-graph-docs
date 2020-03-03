@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleScopeTagAutoAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{role
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleScopeTagAutoAssignment](../resources/roleScopeTagAutoAssignment.md) object.
+In the request body, supply a JSON representation for the [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) object.
 
 The following table shows the properties that are required when you create the [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The auto-assignment target for the specific Role Scope Tag.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The auto-assignment target for the specific Role Scope Tag.|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}/microsoft.graph.deviceAndAppManagementRoleAssignment/roleScopeTags/{roleScopeTagId}/assignments/{roleScopeTagAutoAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}/microsoft.graph.deviceAndAppManagementRoleAssignment/roleScopeTags/{roleScopeTagId}/assignments/{roleScopeTagAutoAssignmentId}
 Content-type: application/json
 Content-length: 166
 
@@ -85,7 +87,7 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-  "id": "e8e7a45a-a45a-e8e7-5aa4-e7e85aa4e7e8",
+  "id": "64e23992-3992-64e2-9239-e2649239e264",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

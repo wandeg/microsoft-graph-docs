@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create privilegedRoleSummary
 
+Namespace: microsoft.graph
+
 Create a new [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.privilegedRoleSummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the privilegedRoleSummary object.
+In the request body, supply a JSON representation for the [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.
 
-The following table shows the properties that are required when you create the privilegedRoleSummary.
+The following table shows the properties that are required when you create the [privilegedRoleSummary](../resources/privilegedrolesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.privilegedRoleSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.privilegedRoleSummary not found
 Content-type: application/json
 Content-length: 177
 
@@ -93,7 +95,7 @@ Content-Length: 226
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSummary",
-  "id": "96528db3-8db3-9652-b38d-5296b38d5296",
+  "id": "819ba627-a627-819b-27a6-9b8127a69b81",
   "status": "String",
   "usersCount": 10,
   "managedCount": 12,

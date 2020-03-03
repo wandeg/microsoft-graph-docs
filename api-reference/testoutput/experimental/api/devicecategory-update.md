@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceCategory
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceCategory](../resources/devicecategory.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /deviceManagement/deviceCategories/{deviceCategoryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceCategory](../resources/deviceCategory.md) object.
+In the request body, supply a JSON representation for the [deviceCategory](../resources/devicecategory.md) object.
 
 The following table shows the properties that are required when you create the [deviceCategory](../resources/devicecategory.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceCategory
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceCategory
 Content-type: application/json
 Content-length: 197
 
@@ -90,7 +92,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.deviceCategory",
-  "id": "9fc9c7c2-c7c2-9fc9-c2c7-c99fc2c7c99f",
+  "id": "280e0325-0325-280e-2503-0e2825030e28",
   "displayName": "Display Name value",
   "description": "Description value",
   "roleScopeTagIds": [

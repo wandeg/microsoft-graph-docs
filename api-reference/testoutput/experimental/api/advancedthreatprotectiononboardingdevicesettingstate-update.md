@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update advancedThreatProtectionOnboardingDeviceSettingState
 
+Namespace: microsoft.graph
+
 Update the properties of a [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedthreatprotectiononboardingdevicesettingstate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedT
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedThreatProtectionOnboardingDeviceSettingState.md) object.
+In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedthreatprotectiononboardingdevicesettingstate.md) object.
 
 The following table shows the properties that are required when you create the [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedthreatprotectiononboardingdevicesettingstate.md).
 
@@ -70,9 +72,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedThreatProtectionOnboardingDeviceSettingStates/{advancedThreatProtectionOnboardingDeviceSettingStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedThreatProtectionOnboardingDeviceSettingStates/{advancedThreatProtectionOnboardingDeviceSettingStateId}
 Content-type: application/json
-Content-length: 564
+Content-length: 563
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingDeviceSettingState",
@@ -87,7 +89,7 @@ Content-length: 564
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
 }
 ```
 
@@ -101,11 +103,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 613
+Content-Length: 612
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingDeviceSettingState",
-  "id": "39fed4a3-d4a3-39fe-a3d4-fe39a3d4fe39",
+  "id": "0e26c1f1-c1f1-0e26-f1c1-260ef1c1260e",
   "platformType": "String",
   "setting": "Setting value",
   "settingName": "Setting Name value",
@@ -117,7 +119,7 @@ Content-Length: 613
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
 }
 ```
 

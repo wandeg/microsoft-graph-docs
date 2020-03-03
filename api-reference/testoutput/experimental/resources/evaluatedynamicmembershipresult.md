@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # evaluateDynamicMembershipResult resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |membershipRule|String||
-|membershipRuleEvaluationDetails|[expressionEvaluationDetails](../resources/expressionEvaluationDetails.md)||
+|membershipRuleEvaluationDetails|[expressionEvaluationDetails](../resources/expressionevaluationdetails.md)||
 |membershipRuleEvaluationResult|Boolean||
 
 ## Relationships

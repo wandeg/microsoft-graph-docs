@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sharePointSiteUsageSiteCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 349
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharePointSiteUsageSiteCounts",
-      "id": "5671a226-a226-5671-26a2-715626a27156",
+      "id": "7a59cf92-cf92-7a59-92cf-597a92cf597a",
       "reportRefreshDate": "Date",
       "siteType": "Site Type value",
       "total": 5,

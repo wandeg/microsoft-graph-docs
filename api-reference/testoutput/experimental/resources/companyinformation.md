@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # companyInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,14 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get companyInformation](../api/companyinformation-get.md)|[companyInformation](../resources/companyInformation.md)|Read properties and relationships of the [companyInformation](../resources/companyinformation.md) object.|
+|[List companyInformations](../api/companyinformation-list.md)|[companyInformation](../resources/companyinformation.md) collection|List properties and relationships of the [companyInformation](../resources/companyinformation.md) objects.|
+|[Get companyInformation](../api/companyinformation-get.md)|[companyInformation](../resources/companyinformation.md)|Read properties and relationships of the [companyInformation](../resources/companyinformation.md) object.|
+|[Create companyInformation](../api/companyinformation-create.md)|[companyInformation](../resources/companyinformation.md)|Create a new [companyInformation](../resources/companyinformation.md) object.|
 |[Delete companyInformation](../api/companyinformation-delete.md)|None|Deletes a [companyInformation](../resources/companyinformation.md).|
-|[Update companyInformation](../api/companyinformation-update.md)|[companyInformation](../resources/companyInformation.md)|Update the properties of a [companyInformation](../resources/companyinformation.md) object.|
+|[Update companyInformation](../api/companyinformation-update.md)|[companyInformation](../resources/companyinformation.md)|Update the properties of a [companyInformation](../resources/companyinformation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |currencyCode|String||
 |currentFiscalYearStartDate|Date||
 |displayName|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsPhone81CompliancePolicy
 
+Namespace: microsoft.graph
+
 Deletes a [windowsPhone81CompliancePolicy](../resources/windowsphone81compliancepolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsPhone81CompliancePolicy not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsPhone81CompliancePolicy not found
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidManagedStoreAccountEnterpriseSettings
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAccountEnterpriseSettings
+GET https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAccountEnterpriseSettings
 ```
 
 ### Response
@@ -72,13 +74,13 @@ Content-Length: 1072
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
-    "id": "c9740eee-0eee-c974-ee0e-74c9ee0e74c9",
+    "id": "d80b6672-6672-d80b-7266-0bd872660bd8",
     "bindStatus": "String",
-    "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+    "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
     "lastAppSyncStatus": "String",
     "ownerUserPrincipalName": "Owner User Principal Name value",
     "ownerOrganizationName": "Owner Organization Name value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "enrollmentTarget": "String",
     "targetGroupIds": [
       "Target Group Ids value"

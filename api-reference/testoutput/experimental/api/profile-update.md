@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update profile
 
+Namespace: microsoft.graph
+
 Update the properties of a [profile](../resources/profile.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/profile
+PATCH https://graph.microsoft.com/localtest/me/profile
 Content-type: application/json
 Content-length: 49
 
@@ -82,7 +84,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.profile",
-  "id": "b20033af-33af-b200-af33-00b2af3300b2"
+  "id": "e4dae4fb-e4fb-e4da-fbe4-dae4fbe4dae4"
 }
 ```
 

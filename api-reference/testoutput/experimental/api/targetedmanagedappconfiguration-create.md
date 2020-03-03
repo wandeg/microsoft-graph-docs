@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create targetedManagedAppConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST /deviceAppManagement/targetedManagedAppConfigurations
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the targetedManagedAppConfiguration object.
+In the request body, supply a JSON representation for the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.
 
-The following table shows the properties that are required when you create the targetedManagedAppConfiguration.
+The following table shows the properties that are required when you create the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|customSettings|[keyValuePair](../resources/keyValuePair.md) collection|A set of string key and string value pairs to be sent to apps for users to whom the configuration is scoped, unalterned by this service Inherited from [managedAppConfiguration](../resources/managedAppConfiguration.md)|
+|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|customSettings|[keyValuePair](../resources/keyvaluepair.md) collection|A set of string key and string value pairs to be sent to apps for users to whom the configuration is scoped, unalterned by this service Inherited from [managedAppConfiguration](../resources/managedappconfiguration.md)|
 |deployedAppCount|Int32|Count of apps to which the current policy is deployed.|
 |isAssigned|Boolean|Indicates if the policy is deployed to any inclusion groups or not.|
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations
+POST https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations
 Content-type: application/json
 Content-length: 450
 
@@ -103,15 +105,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 622
+Content-Length: 621
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppConfiguration",
-  "id": "3e4a161c-161c-3e4a-1c16-4a3e1c164a3e",
+  "id": "b33d23d2-23d2-b33d-d223-3db3d2233db3",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],

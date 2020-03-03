@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceSettingStateSummaries
 
+Namespace: microsoft.graph
+
 Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsPhone81VpnConfiguration/identityCertificate/deviceSettingStateSummaries
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsPhone81VpnConfiguration/identityCertificate/deviceSettingStateSummaries
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 486
   "value": [
     {
       "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-      "id": "f53d3212-3212-f53d-1232-3df512323df5",
+      "id": "2af409ef-09ef-2af4-ef09-f42aef09f42a",
       "settingName": "Setting Name value",
       "instancePath": "Instance Path value",
       "unknownDeviceCount": 2,

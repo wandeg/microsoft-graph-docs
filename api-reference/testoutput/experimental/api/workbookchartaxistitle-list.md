@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartAxisTitles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartAxisTitle](../resources/workbookchartaxistitle.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxisTitle not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxisTitle not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 207
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAxisTitle",
-      "id": "6bd31bac-1bac-6bd3-ac1b-d36bac1bd36b",
+      "id": "0dbacf44-cf44-0dba-44cf-ba0d44cfba0d",
       "text": "Text value",
       "visible": true
     }

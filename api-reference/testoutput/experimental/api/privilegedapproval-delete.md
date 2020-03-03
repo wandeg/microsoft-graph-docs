@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete privilegedApproval
 
+Namespace: microsoft.graph
+
 Deletes a [privilegedApproval](../resources/privilegedapproval.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/privilegedApproval/{privilegedApprovalId}
+DELETE https://graph.microsoft.com/localtest/privilegedApproval/{privilegedApprovalId}
 ```
 
 ### Response

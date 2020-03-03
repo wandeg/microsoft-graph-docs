@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get policySetAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [policySetAssignment](../resources/policysetassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 303
 {
   "value": {
     "@odata.type": "#microsoft.graph.policySetAssignment",
-    "id": "2aef28d1-28d1-2aef-d128-ef2ad128ef2a",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

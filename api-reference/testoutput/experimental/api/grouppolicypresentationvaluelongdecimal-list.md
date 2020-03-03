@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicyPresentationValueLongDecimals
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [groupPolicyPresentationValueLongDecimal](../resources/grouppolicypresentationvaluelongdecimal.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationValueLongDecimal not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationValueLongDecimal not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 321
+Content-Length: 320
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyPresentationValueLongDecimal",
-      "id": "30fcdc49-dc49-30fc-49dc-fc3049dcfc30",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "0eaf34a1-34a1-0eaf-a134-af0ea134af0e",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "value": 5
     }
   ]

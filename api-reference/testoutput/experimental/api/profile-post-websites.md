@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add websites
 
+Namespace: microsoft.graph
+
 Add websites by posting to the websites collection.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST /me/profile/websites/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the personWebsite object.
+In the request body, supply a JSON representation for the [personWebsite](../resources/personwebsite.md) object.
 
-The following table shows the properties that are required when you create the personWebsite.
+The following table shows the properties that are required when you create the [personWebsite](../resources/personwebsite.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
 |categories|String collection||
 |description|String||
 |displayName|String||
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/profile/websites
+POST https://graph.microsoft.com/localtest/me/profile/websites
 Content-type: application/json
 Content-length: 776
 
@@ -115,18 +117,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1027
+Content-Length: 1026
 
 {
   "@odata.type": "#microsoft.graph.personWebsite",
-  "id": "872dcede-cede-872d-dece-2d87dece2d87",
+  "id": "a97eabe7-abe7-a97e-e7ab-7ea9e7ab7ea9",
   "allowedAudiences": "String",
   "inference": {
     "@odata.type": "microsoft.graph.inferenceData",
     "confidenceScore": "Double",
     "userHasVerifiedAccuracy": true
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -141,7 +143,7 @@ Content-Length: 1027
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

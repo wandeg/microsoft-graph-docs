@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userInstallStateSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the installation state summary for a user.
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get userInstallStateSummary](../api/userinstallstatesummary-get.md)|[userInstallStateSummary](../resources/userInstallStateSummary.md)|Read properties and relationships of the [userInstallStateSummary](../resources/userinstallstatesummary.md) object.|
+|[List userInstallStateSummaries](../api/userinstallstatesummary-list.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|List properties and relationships of the [userInstallStateSummary](../resources/userinstallstatesummary.md) objects.|
+|[Get userInstallStateSummary](../api/userinstallstatesummary-get.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Read properties and relationships of the [userInstallStateSummary](../resources/userinstallstatesummary.md) object.|
+|[Create userInstallStateSummary](../api/userinstallstatesummary-create.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Create a new [userInstallStateSummary](../resources/userinstallstatesummary.md) object.|
 |[Delete userInstallStateSummary](../api/userinstallstatesummary-delete.md)|None|Deletes a [userInstallStateSummary](../resources/userinstallstatesummary.md).|
-|[Update userInstallStateSummary](../api/userinstallstatesummary-update.md)|[userInstallStateSummary](../resources/userInstallStateSummary.md)|Update the properties of a [userInstallStateSummary](../resources/userinstallstatesummary.md) object.|
-|[List deviceStates](../api/userinstallstatesummary-list-devicestates.md)|[deviceInstallState](../resources/deviceInstallState.md) collection|Get the deviceInstallStates from the deviceStates navigation property.|
-|[Add deviceStates](../api/userinstallstatesummary-post-devicestates.md)|[deviceInstallState](../resources/deviceInstallState.md)|Add deviceStates by posting to the deviceStates collection.|
+|[Update userInstallStateSummary](../api/userinstallstatesummary-update.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Update the properties of a [userInstallStateSummary](../resources/userinstallstatesummary.md) object.|
+|[List deviceStates](../api/userinstallstatesummary-list-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md) collection|Get the deviceInstallStates from the deviceStates navigation property.|
+|[Add deviceStates](../api/userinstallstatesummary-post-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Add deviceStates by posting to the deviceStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|deviceStates|[deviceInstallState](../resources/deviceInstallState.md) collection|The install state of the eBook.|
+|deviceStates|[deviceInstallState](../resources/deviceinstallstate.md) collection|The install state of the eBook.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

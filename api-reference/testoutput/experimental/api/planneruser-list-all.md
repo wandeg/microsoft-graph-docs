@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List all
 
+Namespace: microsoft.graph
+
 Get the plannerDeltas from the all navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/planner/all
+GET https://graph.microsoft.com/localtest/me/planner/all
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerDelta",
-      "id": "241acbc6-cbc6-241a-c6cb-1a24c6cb1a24"
+      "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
     }
   ]
 }

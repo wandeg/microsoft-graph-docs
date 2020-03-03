@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailboxUsageQuotaStatusMailboxCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mailboxUsageQuotaStatusMailboxCountses](../api/mailboxusagequotastatusmailboxcounts-list.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxUsageQuotaStatusMailboxCounts.md) collection|List properties and relationships of the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) objects.|
-|[Get mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-get.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxUsageQuotaStatusMailboxCounts.md)|Read properties and relationships of the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
-|[Create mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-create.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxUsageQuotaStatusMailboxCounts.md)|Create a new [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
+|[List mailboxUsageQuotaStatusMailboxCountses](../api/mailboxusagequotastatusmailboxcounts-list.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) collection|List properties and relationships of the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) objects.|
+|[Get mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-get.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md)|Read properties and relationships of the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
+|[Create mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-create.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md)|Create a new [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
 |[Delete mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-delete.md)|None|Deletes a [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md).|
-|[Update mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-update.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxUsageQuotaStatusMailboxCounts.md)|Update the properties of a [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
+|[Update mailboxUsageQuotaStatusMailboxCounts](../api/mailboxusagequotastatusmailboxcounts-update.md)|[mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md)|Update the properties of a [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

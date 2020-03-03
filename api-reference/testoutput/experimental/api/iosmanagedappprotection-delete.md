@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete iosManagedAppProtection
 
+Namespace: microsoft.graph
+
 Deletes a [iosManagedAppProtection](../resources/iosmanagedappprotection.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}
 ```
 
 ### Response

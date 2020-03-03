@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete intuneBrandingProfileAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [intuneBrandingProfileAssignment](../resources/intunebrandingprofileassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments/{intuneBrandingProfileAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments/{intuneBrandingProfileAssignmentId}
 ```
 
 ### Response

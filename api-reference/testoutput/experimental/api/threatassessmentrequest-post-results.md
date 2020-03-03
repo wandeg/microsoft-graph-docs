@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add results
 
+Namespace: microsoft.graph
+
 Add results by posting to the results collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the threatAssessmentResult object.
+In the request body, supply a JSON representation for the [threatAssessmentResult](../resources/threatassessmentresult.md) object.
 
-The following table shows the properties that are required when you create the threatAssessmentResult.
+The following table shows the properties that are required when you create the [threatAssessmentResult](../resources/threatassessmentresult.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results
+POST https://graph.microsoft.com/localtest/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results
 Content-type: application/json
 Content-length: 122
 
@@ -84,12 +86,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 230
+Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.threatAssessmentResult",
-  "id": "4a4c6bb3-6bb3-4a4c-b36b-4c4ab36b4c4a",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "547f34d2-34d2-547f-d234-7f54d2347f54",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "resultType": "String",
   "message": "Message value"
 }

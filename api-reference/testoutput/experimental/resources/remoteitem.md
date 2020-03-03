@@ -5,32 +5,33 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # remoteItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |file|[file](../resources/file.md)||
-|fileSystemInfo|[fileSystemInfo](../resources/fileSystemInfo.md)||
+|fileSystemInfo|[fileSystemInfo](../resources/filesysteminfo.md)||
 |folder|[folder](../resources/folder.md)||
 |id|String||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 |name|String||
 |package|[package](../resources/package.md)||
-|parentReference|[itemReference](../resources/itemReference.md)||
+|parentReference|[itemReference](../resources/itemreference.md)||
 |shared|[shared](../resources/shared.md)||
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
 |size|Int64||
-|specialFolder|[specialFolder](../resources/specialFolder.md)||
+|specialFolder|[specialFolder](../resources/specialfolder.md)||
 |webDavUrl|String||
 |webUrl|String||
 

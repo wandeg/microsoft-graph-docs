@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # accessPackageResourceRole resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get accessPackageResourceRole](../api/accesspackageresourcerole-get.md)|[accessPackageResourceRole](../resources/accessPackageResourceRole.md)|Read properties and relationships of the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.|
+|[List accessPackageResourceRoles](../api/accesspackageresourcerole-list.md)|[accessPackageResourceRole](../resources/accesspackageresourcerole.md) collection|List properties and relationships of the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) objects.|
+|[Get accessPackageResourceRole](../api/accesspackageresourcerole-get.md)|[accessPackageResourceRole](../resources/accesspackageresourcerole.md)|Read properties and relationships of the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.|
+|[Create accessPackageResourceRole](../api/accesspackageresourcerole-create.md)|[accessPackageResourceRole](../resources/accesspackageresourcerole.md)|Create a new [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.|
 |[Delete accessPackageResourceRole](../api/accesspackageresourcerole-delete.md)|None|Deletes a [accessPackageResourceRole](../resources/accesspackageresourcerole.md).|
-|[Update accessPackageResourceRole](../api/accesspackageresourcerole-update.md)|[accessPackageResourceRole](../resources/accessPackageResourceRole.md)|Update the properties of a [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.|
-|[Get accessPackageResource](../api/accesspackageresource-get.md)|[accessPackageResource](../resources/accessPackageResource.md)|Read properties and relationships of the [accessPackageResource](../resources/accesspackageresource.md) object.|
+|[Update accessPackageResourceRole](../api/accesspackageresourcerole-update.md)|[accessPackageResourceRole](../resources/accesspackageresourcerole.md)|Update the properties of a [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.|
+|[Get accessPackageResource](../api/accesspackageresource-get.md)|[accessPackageResource](../resources/accesspackageresource.md)|Read properties and relationships of the [accessPackageResource](../resources/accesspackageresource.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|accessPackageResource|[accessPackageResource](../resources/accessPackageResource.md)||
+|accessPackageResource|[accessPackageResource](../resources/accesspackageresource.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

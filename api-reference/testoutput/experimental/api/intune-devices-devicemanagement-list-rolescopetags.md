@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleScopeTags
 
+Namespace: microsoft.graph
+
 Get the roleScopeTags from the roleScopeTags navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags
+GET https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 257
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTag",
-      "id": "c51e7486-7486-c51e-8674-1ec586741ec5",
+      "id": "a8a91832-1832-a8a9-3218-a9a83218a9a8",
       "displayName": "Display Name value",
       "description": "Description value",
       "isBuiltIn": true

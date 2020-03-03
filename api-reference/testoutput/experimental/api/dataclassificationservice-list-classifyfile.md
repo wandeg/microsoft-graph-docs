@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List classifyFile
 
+Namespace: microsoft.graph
+
 Get the fileClassificationRequests from the classifyFile navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/classifyFile
+GET https://graph.microsoft.com/localtest/dataClassification/classifyFile
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 257
   "value": [
     {
       "@odata.type": "#microsoft.graph.fileClassificationRequest",
-      "id": "0547285e-285e-0547-5e28-47055e284705",
+      "id": "25fefee6-fee6-25fe-e6fe-fe25e6fefe25",
       "file": "Stream",
       "sensitiveTypeIds": [
         "Sensitive Type Ids value"

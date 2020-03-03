@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update approvalWorkflowProvider
 
+Namespace: microsoft.graph
+
 Update the properties of a [approvalWorkflowProvider](../resources/approvalworkflowprovider.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /approvalWorkflowProviders/{approvalWorkflowProvidersId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [approvalWorkflowProvider](../resources/approvalWorkflowProvider.md) object.
+In the request body, supply a JSON representation for the [approvalWorkflowProvider](../resources/approvalworkflowprovider.md) object.
 
 The following table shows the properties that are required when you create the [approvalWorkflowProvider](../resources/approvalworkflowprovider.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}
+PATCH https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}
 Content-type: application/json
 Content-length: 106
 
@@ -83,7 +85,7 @@ Content-Length: 155
 
 {
   "@odata.type": "#microsoft.graph.approvalWorkflowProvider",
-  "id": "27c89cb1-9cb1-27c8-b19c-c827b19cc827",
+  "id": "966bc148-c148-966b-48c1-6b9648c16b96",
   "displayName": "Display Name value"
 }
 ```

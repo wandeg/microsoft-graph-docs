@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update message
 
+Namespace: microsoft.graph
+
 Update the properties of a [message](../resources/message.md) object.
 
 ## Permissions
@@ -44,17 +46,17 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |receivedDateTime|DateTimeOffset||
 |sentDateTime|DateTimeOffset||
 |hasAttachments|Boolean||
 |internetMessageId|String||
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection||
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection||
 |subject|String||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |parentFolderId|String||
@@ -66,17 +68,17 @@ The following table shows the properties that are required when you create the [
 |replyTo|[recipient](../resources/recipient.md) collection||
 |conversationId|String||
 |conversationIndex|Binary||
-|uniqueBody|[itemBody](../resources/itemBody.md)||
+|uniqueBody|[itemBody](../resources/itembody.md)||
 |isDeliveryReceiptRequested|Boolean||
 |isReadReceiptRequested|Boolean||
 |isRead|Boolean||
 |isDraft|Boolean||
 |webLink|String||
-|mentionsPreview|[mentionsPreview](../resources/mentionsPreview.md)||
+|mentionsPreview|[mentionsPreview](../resources/mentionspreview.md)||
 |inferenceClassification|Enumeration|. Possible values are: `focused`, `other`.|
 |unsubscribeData|String collection||
 |unsubscribeEnabled|Boolean||
-|flag|[followupFlag](../resources/followupFlag.md)||
+|flag|[followupFlag](../resources/followupflag.md)||
 
 
 
@@ -93,7 +95,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/messages/{messageId}
+PATCH https://graph.microsoft.com/localtest/me/messages/{messageId}
 Content-type: application/json
 Content-length: 2392
 
@@ -103,8 +105,8 @@ Content-length: 2392
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-  "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -200,19 +202,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2564
+Content-Length: 2563
 
 {
   "@odata.type": "#microsoft.graph.message",
-  "id": "c9ccd34c-d34c-c9cc-4cd3-ccc94cd3ccc9",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "1bf013e5-13e5-1bf0-e513-f01be513f01b",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-  "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add agedAccountsReceivable
 
+Namespace: microsoft.graph
+
 Add agedAccountsReceivable by posting to the agedAccountsReceivable collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/agedAccountsReceivable/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the agedAccountsReceivable object.
+In the request body, supply a JSON representation for the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.
 
-The following table shows the properties that are required when you create the agedAccountsReceivable.
+The following table shows the properties that are required when you create the [agedAccountsReceivable](../resources/agedaccountsreceivable.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/agedAccountsReceivable
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/agedAccountsReceivable
 Content-type: application/json
 Content-length: 391
 
@@ -103,7 +105,7 @@ Content-Length: 440
 
 {
   "@odata.type": "#microsoft.graph.agedAccountsReceivable",
-  "id": "3d21a7c6-a7c6-3d21-c6a7-213dc6a7213d",
+  "id": "adc998ec-98ec-adc9-ec98-c9adec98c9ad",
   "customerNumber": "Customer Number value",
   "name": "Name value",
   "currencyCode": "Currency Code value",

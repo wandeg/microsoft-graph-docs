@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add points
 
+Namespace: microsoft.graph
+
 Add points by posting to the points collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/w
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartPoint object.
+In the request body, supply a JSON representation for the [workbookChartPoint](../resources/workbookchartpoint.md) object.
 
-The following table shows the properties that are required when you create the workbookChartPoint.
+The following table shows the properties that are required when you create the [workbookChartPoint](../resources/workbookchartpoint.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points
 Content-type: application/json
 Content-length: 123
 
@@ -87,7 +89,7 @@ Content-Length: 172
 
 {
   "@odata.type": "#microsoft.graph.workbookChartPoint",
-  "id": "901df229-f229-901d-29f2-1d9029f21d90",
+  "id": "0c611f4a-1f4a-0c61-4a1f-610c4a1f610c",
   "value": {
     "@odata.type": "microsoft.graph.Json"
   }

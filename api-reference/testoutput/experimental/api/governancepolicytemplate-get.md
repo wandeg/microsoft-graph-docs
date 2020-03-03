@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get governancePolicyTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [governancePolicyTemplate](../resources/governancepolicytemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
+GET https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1805
 {
   "value": {
     "@odata.type": "#microsoft.graph.governancePolicyTemplate",
-    "id": "9a9f6778-6778-9a9f-7867-9f9a78679f9a",
+    "id": "0a9b58f8-58f8-0a9b-f858-9b0af8589b0a",
     "displayName": "Display Name value",
     "policy": {
       "@odata.type": "microsoft.graph.governancePolicy",

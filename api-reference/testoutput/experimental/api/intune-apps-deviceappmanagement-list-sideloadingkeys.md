@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sideLoadingKeys
 
+Namespace: microsoft.graph
+
 Get the sideLoadingKeies from the sideLoadingKeys navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/sideLoadingKeys
+GET https://graph.microsoft.com/localtest/deviceAppManagement/sideLoadingKeys
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 356
   "value": [
     {
       "@odata.type": "#microsoft.graph.sideLoadingKey",
-      "id": "ac0fabc1-abc1-ac0f-c1ab-0facc1ab0fac",
+      "id": "fa969573-9573-fa96-7395-96fa739596fa",
       "value": "Value value",
       "displayName": "Display Name value",
       "description": "Description value",

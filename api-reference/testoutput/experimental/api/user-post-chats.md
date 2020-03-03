@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add chats
 
+Namespace: microsoft.graph
+
 Add chats by posting to the chats collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/chats/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the chat object.
+In the request body, supply a JSON representation for the [chat](../resources/chat.md) object.
 
-The following table shows the properties that are required when you create the chat.
+The following table shows the properties that are required when you create the [chat](../resources/chat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,14 +65,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/chats
+POST https://graph.microsoft.com/localtest/me/chats
 Content-type: application/json
 Content-length: 136
 
 {
   "@odata.type": "#microsoft.graph.chat",
   "topic": "Topic value",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
 }
 ```
 
@@ -85,14 +87,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 244
+Content-Length: 243
 
 {
   "@odata.type": "#microsoft.graph.chat",
-  "id": "82712700-2700-8271-0027-718200277182",
+  "id": "819136cf-36cf-8191-cf36-9181cf369181",
   "topic": "Topic value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
 }
 ```
 

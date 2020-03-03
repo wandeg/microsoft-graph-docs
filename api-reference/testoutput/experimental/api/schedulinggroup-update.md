@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update schedulingGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [schedulingGroup](../resources/schedulinggroup.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH /me/joinedGroups/{groupId}/team/schedule/schedulingGroups/{schedulingGroup
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [schedulingGroup](../resources/schedulingGroup.md) object.
+In the request body, supply a JSON representation for the [schedulingGroup](../resources/schedulinggroup.md) object.
 
 The following table shows the properties that are required when you create the [schedulingGroup](../resources/schedulinggroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |displayName|String||
 |isActive|Boolean||
 |userIds|String collection||
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/schedulingGroups/{schedulingGroupId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/schedulingGroups/{schedulingGroupId}
 Content-type: application/json
 Content-length: 162
 
@@ -88,13 +90,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 707
+Content-Length: 706
 
 {
   "@odata.type": "#microsoft.graph.schedulingGroup",
-  "id": "f44b20d7-20d7-f44b-d720-4bf4d7204bf4",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "cca81d62-1d62-cca8-621d-a8cc621da8cc",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

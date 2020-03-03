@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create deviceManagementScriptRunSummary
 
-Create a new [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Create a new [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceManagementScriptRunSummary not 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScriptRunSummary object.
+In the request body, supply a JSON representation for the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScriptRunSummary.
+The following table shows the properties that are required when you create the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementScriptRunSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementScriptRunSummary not found
 Content-type: application/json
 Content-length: 179
 
@@ -91,7 +93,7 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptRunSummary",
-  "id": "df948344-8344-df94-4483-94df448394df",
+  "id": "836ac9bb-c9bb-836a-bbc9-6a83bbc96a83",
   "successDeviceCount": 2,
   "errorDeviceCount": 0,
   "successUserCount": 0,

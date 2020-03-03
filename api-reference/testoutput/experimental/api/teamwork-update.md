@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamwork
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamwork](../resources/teamwork.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teamwork
+PATCH https://graph.microsoft.com/localtest/teamwork
 Content-type: application/json
 Content-length: 50
 
@@ -81,7 +83,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.teamwork",
-  "id": "f8251c81-1c81-f825-811c-25f8811c25f8"
+  "id": "e73a8a85-8a85-e73a-858a-3ae7858a3ae7"
 }
 ```
 

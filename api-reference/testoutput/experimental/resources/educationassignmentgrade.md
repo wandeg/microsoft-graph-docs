@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationAssignmentGrade resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|gradedBy|[identitySet](../resources/identitySet.md)||
+|gradedBy|[identitySet](../resources/identityset.md)||
 |gradedDateTime|DateTimeOffset||
 
 ## Relationships

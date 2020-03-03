@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # stop
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}/stop
+POST https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}/stop
 ```
 
 ### Response

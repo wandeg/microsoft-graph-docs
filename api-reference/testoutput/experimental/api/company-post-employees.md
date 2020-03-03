@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add employees
 
+Namespace: microsoft.graph
+
 Add employees by posting to the employees collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/employees/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the employee object.
+In the request body, supply a JSON representation for the [employee](../resources/employee.md) object.
 
-The following table shows the properties that are required when you create the employee.
+The following table shows the properties that are required when you create the [employee](../resources/employee.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the e
 |middleName|String||
 |surname|String||
 |jobTitle|String||
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |phoneNumber|String||
 |mobilePhone|String||
 |email|String||
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/employees
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/employees
 Content-type: application/json
 Content-length: 838
 
@@ -123,7 +125,7 @@ Content-Length: 951
 
 {
   "@odata.type": "#microsoft.graph.employee",
-  "id": "50fd06ee-06ee-50fd-ee06-fd50ee06fd50",
+  "id": "4afa59a1-59a1-4afa-a159-fa4aa159fa4a",
   "number": "Number value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
@@ -147,7 +149,7 @@ Content-Length: 951
   "status": "Status value",
   "birthDate": "Date",
   "statisticsGroupCode": "Statistics Group Code value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

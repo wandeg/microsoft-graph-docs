@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # shipmentMethod resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentMethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[List shipmentMethods](../api/shipmentmethod-list.md)|[shipmentMethod](../resources/shipmentmethod.md) collection|List properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) objects.|
+|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[Create shipmentMethod](../api/shipmentmethod-create.md)|[shipmentMethod](../resources/shipmentmethod.md)|Create a new [shipmentMethod](../resources/shipmentmethod.md) object.|
 |[Delete shipmentMethod](../api/shipmentmethod-delete.md)|None|Deletes a [shipmentMethod](../resources/shipmentmethod.md).|
-|[Update shipmentMethod](../api/shipmentmethod-update.md)|[shipmentMethod](../resources/shipmentMethod.md)|Update the properties of a [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[Update shipmentMethod](../api/shipmentmethod-update.md)|[shipmentMethod](../resources/shipmentmethod.md)|Update the properties of a [shipmentMethod](../resources/shipmentmethod.md) object.|
 
 ## Properties
 |Property|Type|Description|

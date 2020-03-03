@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete anonymousIpRiskEvent
 
+Namespace: microsoft.graph
+
 Deletes a [anonymousIpRiskEvent](../resources/anonymousipriskevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/anonymousIpRiskEvents/{anonymousIpRiskEventsId}
+DELETE https://graph.microsoft.com/localtest/anonymousIpRiskEvents/{anonymousIpRiskEventsId}
 ```
 
 ### Response

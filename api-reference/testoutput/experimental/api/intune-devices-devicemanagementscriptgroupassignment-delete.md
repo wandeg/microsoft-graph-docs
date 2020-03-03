@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete deviceManagementScriptGroupAssignment
 
-Deletes a [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md).
+Namespace: microsoft.graph
+
+Deletes a [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/groupAssignments/{deviceManagementScriptGroupAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/groupAssignments/{deviceManagementScriptGroupAssignmentId}
 ```
 
 ### Response

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagementScriptUserState
 
-Read properties and relationships of the [deviceManagementScriptUserState](../resources/devicemanagementscriptuserstate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagementScriptUserState](../resources/devicemanagementscriptuserstate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates/{deviceManagementScriptUserStateId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates/{deviceManagementScriptUserStateId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 258
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementScriptUserState",
-    "id": "fcddab30-ab30-fcdd-30ab-ddfc30abddfc",
+    "id": "b19e3078-3078-b19e-7830-9eb178309eb1",
     "successDeviceCount": 2,
     "errorDeviceCount": 0,
     "userPrincipalName": "User Principal Name value"

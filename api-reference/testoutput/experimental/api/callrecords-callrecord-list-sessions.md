@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sessions
 
+Namespace: microsoft.graph.callRecords
+
 Get the sessions from the sessions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/callRecords/{callRecordId}/sessions
+GET https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}/sessions
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 881
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.session",
-      "id": "77900896-0896-7790-9608-907796089077",
+      "id": "26004e0a-4e0a-2600-0a4e-00260a4e0026",
       "modalities": [
         "String"
       ],
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookFilter
 
+Namespace: microsoft.graph
+
 Create a new [workbookFilter](../resources/workbookfilter.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.workbookFilter not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookFilter object.
+In the request body, supply a JSON representation for the [workbookFilter](../resources/workbookfilter.md) object.
 
-The following table shows the properties that are required when you create the workbookFilter.
+The following table shows the properties that are required when you create the [workbookFilter](../resources/workbookfilter.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|criteria|[workbookFilterCriteria](../resources/workbookFilterCriteria.md)||
+|criteria|[workbookFilterCriteria](../resources/workbookfiltercriteria.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFilter not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFilter not found
 Content-type: application/json
 Content-length: 560
 
@@ -101,7 +103,7 @@ Content-Length: 609
 
 {
   "@odata.type": "#microsoft.graph.workbookFilter",
-  "id": "98dbf94e-f94e-98db-4ef9-db984ef9db98",
+  "id": "931ce82a-e82a-931c-2ae8-1c932ae81c93",
   "criteria": {
     "@odata.type": "microsoft.graph.workbookFilterCriteria",
     "color": "Color value",

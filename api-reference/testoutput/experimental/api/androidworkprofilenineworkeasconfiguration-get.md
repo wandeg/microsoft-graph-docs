@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidWorkProfileNineWorkEasConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidWorkProfileNineWorkEasConfiguration](../resources/androidworkprofilenineworkeasconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidWorkProfileNineWorkEasConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidWorkProfileNineWorkEasConfiguration not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1443
+Content-Length: 1442
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidWorkProfileNineWorkEasConfiguration",
-    "id": "61e732cd-32cd-61e7-cd32-e761cd32e761",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "801aedfa-edfa-801a-faed-1a80faed1a80",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,7 +97,7 @@ Content-Length: 1443
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

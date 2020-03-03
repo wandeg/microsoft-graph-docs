@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [userConfiguration](../resources/userconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
+DELETE https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
 ```
 
 ### Response

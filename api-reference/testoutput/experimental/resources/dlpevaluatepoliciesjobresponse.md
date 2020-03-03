@@ -5,38 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # dlpEvaluatePoliciesJobResponse resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [jobResponseBase](../resources/jobResponseBase.md)
+
+
+Inherits from [jobResponseBase](../resources/jobresponsebase.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List dlpEvaluatePoliciesJobResponses](../api/dlpevaluatepoliciesjobresponse-list.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpEvaluatePoliciesJobResponse.md) collection|List properties and relationships of the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) objects.|
-|[Get dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-get.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpEvaluatePoliciesJobResponse.md)|Read properties and relationships of the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
-|[Create dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-create.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpEvaluatePoliciesJobResponse.md)|Create a new [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
+|[List dlpEvaluatePoliciesJobResponses](../api/dlpevaluatepoliciesjobresponse-list.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) collection|List properties and relationships of the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) objects.|
+|[Get dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-get.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md)|Read properties and relationships of the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
+|[Create dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-create.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md)|Create a new [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
 |[Delete dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-delete.md)|None|Deletes a [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md).|
-|[Update dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-update.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpEvaluatePoliciesJobResponse.md)|Update the properties of a [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
+|[Update dlpEvaluatePoliciesJobResponse](../api/dlpevaluatepoliciesjobresponse-update.md)|[dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md)|Update the properties of a [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|result|[dlpPoliciesJobResult](../resources/dlpPoliciesJobResult.md)||
-|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|status|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|tenantId|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|type|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|result|[dlpPoliciesJobResult](../resources/dlppoliciesjobresult.md)||
+|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|status|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|tenantId|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|type|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 
 ## Relationships
 None

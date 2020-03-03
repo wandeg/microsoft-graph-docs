@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onPremisesAgentGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onPremisesAgentGroup](../resources/onPremisesAgentGroup.md) object.
+In the request body, supply a JSON representation for the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.
 
 The following table shows the properties that are required when you create the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups/{onPremisesAgentGroupId}
+PATCH https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups/{onPremisesAgentGroupId}
 Content-type: application/json
 Content-length: 155
 
@@ -87,7 +89,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.onPremisesAgentGroup",
-  "id": "7b1dc0c4-c0c4-7b1d-c4c0-1d7bc4c01d7b",
+  "id": "87d3d3e5-d3e5-87d3-e5d3-d387e5d3d387",
   "displayName": "Display Name value",
   "publishingType": "String",
   "isDefault": true

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create accessPackageResourceRequest
 
+Namespace: microsoft.graph
+
 Create a new [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md) object.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /identityGovernance/entitlementManagement/accessPackageResourceRequests
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageResourceRequest object.
+In the request body, supply a JSON representation for the [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md) object.
 
-The following table shows the properties that are required when you create the accessPackageResourceRequest.
+The following table shows the properties that are required when you create the [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageResourceRequests
+POST https://graph.microsoft.com/localtest/accessPackageResourceRequests
 Content-type: application/json
-Content-length: 396
+Content-length: 397
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRequest",
@@ -81,7 +83,7 @@ Content-length: 396
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "justification": "Justification value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
 }
 ```
 
@@ -96,11 +98,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 445
+Content-Length: 446
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRequest",
-  "id": "c4506f9d-6f9d-c450-9d6f-50c49d6f50c4",
+  "id": "9d1eccee-ccee-9d1e-eecc-1e9deecc1e9d",
   "catalogId": "Catalog Id value",
   "executeImmediately": true,
   "isValidationOnly": true,
@@ -108,7 +110,7 @@ Content-Length: 445
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "justification": "Justification value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
 }
 ```
 

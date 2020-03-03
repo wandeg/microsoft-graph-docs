@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get hostSecurityProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/hostSecurityProfiles/{hostSecurityProfileId}
+GET https://graph.microsoft.com/localtest/Security/hostSecurityProfiles/{hostSecurityProfileId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1728
+Content-Length: 1727
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.hostSecurityProfile",
-    "id": "61b7bc6c-bc6c-61b7-6cbc-b7616cbcb761",
+    "id": "ca4bc022-c022-ca4b-22c0-4bca22c04bca",
     "azureSubscriptionId": "Azure Subscription Id value",
     "azureTenantId": "Azure Tenant Id value",
-    "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+    "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
     "fqdn": "Fqdn value",
     "isAzureAdJoined": true,
     "isAzureAdRegistered": true,
     "isHybridAzureDomainJoined": true,
-    "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+    "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
     "logonUsers": [
       {
         "@odata.type": "microsoft.graph.logonUser",

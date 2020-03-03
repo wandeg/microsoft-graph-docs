@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List hostedContents
 
+Namespace: microsoft.graph
+
 Get the chatMessageHostedContents from the hostedContents navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 156
   "value": [
     {
       "@odata.type": "#microsoft.graph.chatMessageHostedContent",
-      "id": "78937006-7006-7893-0670-937806709378"
+      "id": "c92830a1-30a1-c928-a130-28c9a13028c9"
     }
   ]
 }

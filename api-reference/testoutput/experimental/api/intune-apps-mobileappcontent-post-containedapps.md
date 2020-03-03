@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add containedApps
 
+Namespace: microsoft.graph
+
 Add containedApps by posting to the containedApps collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppCon
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileContainedApp object.
+In the request body, supply a JSON representation for the [mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md) object.
 
-The following table shows the properties that are required when you create the mobileContainedApp.
+The following table shows the properties that are required when you create the [mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileContainedApp](../resources/mobilecontainedapp.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md) object in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/containedApps
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/containedApps
 Content-type: application/json
 Content-length: 60
 
@@ -83,7 +85,7 @@ Content-Length: 109
 
 {
   "@odata.type": "#microsoft.graph.mobileContainedApp",
-  "id": "4ffef431-f431-4ffe-31f4-fe4f31f4fe4f"
+  "id": "d6455857-5857-d645-5758-45d6575845d6"
 }
 ```
 

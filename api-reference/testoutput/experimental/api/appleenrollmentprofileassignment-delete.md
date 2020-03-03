@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete appleEnrollmentProfileAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
 ```
 
 ### Response

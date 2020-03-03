@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List reportSchedules
 
+Namespace: microsoft.graph
+
 Get the deviceManagementReportSchedules from the reportSchedules navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/reports/reportSchedules
+GET https://graph.microsoft.com/localtest/deviceManagement/reports/reportSchedules
 ```
 
 ### Response
@@ -70,15 +72,15 @@ Content-Length: 705
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementReportSchedule",
-      "id": "aac73a51-3a51-aac7-513a-c7aa513ac7aa",
+      "id": "29fb27d0-27d0-29fb-d027-fb29d027fb29",
       "reportScheduleName": "Report Schedule Name value",
       "subject": "Subject value",
       "emails": [
         "Emails value"
       ],
       "recurrence": "String",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "userId": "User Id value",
       "reportName": "Report Name value",
       "filter": "Filter value",

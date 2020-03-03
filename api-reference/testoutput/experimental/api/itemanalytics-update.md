@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update itemAnalytics
 
+Namespace: microsoft.graph
+
 Update the properties of a [itemAnalytics](../resources/itemanalytics.md) object.
 
 ## Permissions
@@ -34,7 +36,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [itemAnalytics](../resources/itemAnalytics.md) object.
+In the request body, supply a JSON representation for the [itemAnalytics](../resources/itemanalytics.md) object.
 
 The following table shows the properties that are required when you create the [itemAnalytics](../resources/itemanalytics.md).
 
@@ -74,7 +76,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.itemAnalytics",
-  "id": "9d03352e-352e-9d03-2e35-039d2e35039d"
+  "id": "15bec12a-c12a-15be-2ac1-be152ac1be15"
 }
 ```
 

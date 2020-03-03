@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # privilegedRoleSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedRoleSummaries](../api/privilegedrolesummary-list.md)|[privilegedRoleSummary](../resources/privilegedRoleSummary.md) collection|List properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) objects.|
-|[Get privilegedRoleSummary](../api/privilegedrolesummary-get.md)|[privilegedRoleSummary](../resources/privilegedRoleSummary.md)|Read properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
-|[Create privilegedRoleSummary](../api/privilegedrolesummary-create.md)|[privilegedRoleSummary](../resources/privilegedRoleSummary.md)|Create a new [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
+|[List privilegedRoleSummaries](../api/privilegedrolesummary-list.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md) collection|List properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) objects.|
+|[Get privilegedRoleSummary](../api/privilegedrolesummary-get.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Read properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
+|[Create privilegedRoleSummary](../api/privilegedrolesummary-create.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Create a new [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
 |[Delete privilegedRoleSummary](../api/privilegedrolesummary-delete.md)|None|Deletes a [privilegedRoleSummary](../resources/privilegedrolesummary.md).|
-|[Update privilegedRoleSummary](../api/privilegedrolesummary-update.md)|[privilegedRoleSummary](../resources/privilegedRoleSummary.md)|Update the properties of a [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
+|[Update privilegedRoleSummary](../api/privilegedrolesummary-update.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Update the properties of a [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

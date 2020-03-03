@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # timeOffItem resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [scheduleEntity](../resources/scheduleEntity.md)
+
+
+Inherits from [scheduleEntity](../resources/scheduleentity.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|endDateTime|DateTimeOffset| Inherited from [scheduleEntity](../resources/scheduleEntity.md)|
-|startDateTime|DateTimeOffset| Inherited from [scheduleEntity](../resources/scheduleEntity.md)|
-|theme|Enumeration| Inherited from [scheduleEntity](../resources/scheduleEntity.md). Possible values are: `white`, `blue`, `green`, `purple`, `pink`, `yellow`, `gray`, `darkBlue`, `darkGreen`, `darkPurple`, `darkPink`, `darkYellow`, `unknownFutureValue`.|
+|endDateTime|DateTimeOffset| Inherited from [scheduleEntity](../resources/scheduleentity.md)|
+|startDateTime|DateTimeOffset| Inherited from [scheduleEntity](../resources/scheduleentity.md)|
+|theme|Enumeration| Inherited from [scheduleEntity](../resources/scheduleentity.md). Possible values are: `white`, `blue`, `green`, `purple`, `pink`, `yellow`, `gray`, `darkBlue`, `darkGreen`, `darkPurple`, `darkPink`, `darkYellow`, `unknownFutureValue`.|
 |timeOffReasonId|String||
 
 ## Relationships

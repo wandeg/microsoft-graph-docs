@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add trending
 
+Namespace: microsoft.graph
+
 Add trending by posting to the trending collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/insights/trending/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the trending object.
+In the request body, supply a JSON representation for the [trending](../resources/trending.md) object.
 
-The following table shows the properties that are required when you create the trending.
+The following table shows the properties that are required when you create the [trending](../resources/trending.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |weight|Double||
-|resourceVisualization|[resourceVisualization](../resources/resourceVisualization.md)||
-|resourceReference|[resourceReference](../resources/resourceReference.md)||
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)||
+|resourceReference|[resourceReference](../resources/resourcereference.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/insights/trending
+POST https://graph.microsoft.com/localtest/me/insights/trending
 Content-type: application/json
 Content-length: 697
 
@@ -104,7 +106,7 @@ Content-Length: 810
 
 {
   "@odata.type": "#microsoft.graph.trending",
-  "id": "cdaa1dcd-1dcd-cdaa-cd1d-aacdcd1daacd",
+  "id": "3e89307c-307c-3e89-7c30-893e7c30893e",
   "weight": "Double",
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -122,7 +124,7 @@ Content-Length: 810
     "webUrl": "https://example.com/webUrl/",
     "id": "Id value"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -41,13 +43,13 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceConfigurationGroupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) collection||
-|assignments|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection||
+|deviceConfigurationGroupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) collection||
+|assignments|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection in the response body.
 
 ## Example
 
@@ -79,7 +81,7 @@ Content-Length: 336
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "270aa705-a705-270a-05a7-0a2705a70a27",
+      "id": "cecb4cfb-4cfb-cecb-fb4c-cbcefb4ccbce",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

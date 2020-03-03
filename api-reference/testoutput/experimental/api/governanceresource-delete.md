@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete governanceResource
 
+Namespace: microsoft.graph
+
 Deletes a [governanceResource](../resources/governanceresource.md).
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/governanceResources/{governanceResourcesId}
+DELETE https://graph.microsoft.com/localtest/governanceResources/{governanceResourcesId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsUpdateState
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsUpdateState](../resources/windowsupdatestate.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.g
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsUpdateState](../resources/windowsUpdateState.md) object.
+In the request body, supply a JSON representation for the [windowsUpdateState](../resources/windowsupdatestate.md) object.
 
 The following table shows the properties that are required when you create the [windowsUpdateState](../resources/windowsupdatestate.md).
 
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/deviceUpdateStates/{windowsUpdateStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/deviceUpdateStates/{windowsUpdateStateId}
 Content-type: application/json
-Content-length: 490
+Content-length: 491
 
 {
   "@odata.type": "#microsoft.graph.windowsUpdateState",
@@ -81,8 +83,8 @@ Content-length: 490
   "status": "String",
   "qualityUpdateVersion": "Quality Update Version value",
   "featureUpdateVersion": "Feature Update Version value",
-  "lastScanDateTime": "2016-12-31T23:57:18.1251984+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00"
+  "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
 }
 ```
 
@@ -96,11 +98,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 539
+Content-Length: 540
 
 {
   "@odata.type": "#microsoft.graph.windowsUpdateState",
-  "id": "43e96cf8-6cf8-43e9-f86c-e943f86ce943",
+  "id": "98c6922f-922f-98c6-2f92-c6982f92c698",
   "deviceId": "Device Id value",
   "userId": "User Id value",
   "deviceDisplayName": "Device Display Name value",
@@ -108,8 +110,8 @@ Content-Length: 539
   "status": "String",
   "qualityUpdateVersion": "Quality Update Version value",
   "featureUpdateVersion": "Feature Update Version value",
-  "lastScanDateTime": "2016-12-31T23:57:18.1251984+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00"
+  "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
 }
 ```
 

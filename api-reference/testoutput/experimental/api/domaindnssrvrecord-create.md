@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create domainDnsSrvRecord
 
+Namespace: microsoft.graph
+
 Create a new [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.domainDnsSrvRecord not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the domainDnsSrvRecord object.
+In the request body, supply a JSON representation for the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.
 
-The following table shows the properties that are required when you create the domainDnsSrvRecord.
+The following table shows the properties that are required when you create the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |nameTarget|String||
 |port|Int32||
 |priority|Int32||
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsSrvRecord not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsSrvRecord not found
 Content-type: application/json
 Content-length: 361
 
@@ -105,7 +107,7 @@ Content-Length: 410
 
 {
   "@odata.type": "#microsoft.graph.domainDnsSrvRecord",
-  "id": "706ebb34-bb34-706e-34bb-6e7034bb6e70",
+  "id": "72714f18-4f18-7271-184f-7172184f7172",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

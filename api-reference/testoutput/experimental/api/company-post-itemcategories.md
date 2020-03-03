@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add itemCategories
 
+Namespace: microsoft.graph
+
 Add itemCategories by posting to the itemCategories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/itemCategories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the itemCategory object.
+In the request body, supply a JSON representation for the [itemCategory](../resources/itemcategory.md) object.
 
-The following table shows the properties that are required when you create the itemCategory.
+The following table shows the properties that are required when you create the [itemCategory](../resources/itemcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/itemCategories
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/itemCategories
 Content-type: application/json
 Content-length: 119
 
@@ -88,10 +90,10 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.itemCategory",
-  "id": "a34856d5-56d5-a348-d556-48a3d55648a3",
+  "id": "62710455-0455-6271-5504-716255047162",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

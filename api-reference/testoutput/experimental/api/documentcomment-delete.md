@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete documentComment
 
+Namespace: microsoft.graph
+
 Deletes a [documentComment](../resources/documentcomment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
 ```
 
 ### Response

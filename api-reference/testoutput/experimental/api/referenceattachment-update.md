@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update referenceAttachment
 
+Namespace: microsoft.graph
+
 Update the properties of a [referenceAttachment](../resources/referenceattachment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.referenceAttachment not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [referenceAttachment](../resources/referenceAttachment.md) object.
+In the request body, supply a JSON representation for the [referenceAttachment](../resources/referenceattachment.md) object.
 
 The following table shows the properties that are required when you create the [referenceAttachment](../resources/referenceattachment.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.referenceAttachment not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.referenceAttachment not found
 Content-type: application/json
 Content-length: 396
 
@@ -102,8 +104,8 @@ Content-Length: 509
 
 {
   "@odata.type": "#microsoft.graph.referenceAttachment",
-  "id": "9895a6d5-a6d5-9895-d5a6-9598d5a69598",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "eb77e7aa-e7aa-eb77-aae7-77ebaae777eb",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

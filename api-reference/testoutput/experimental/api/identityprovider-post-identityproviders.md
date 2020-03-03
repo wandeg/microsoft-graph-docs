@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create identityProvider
 
+Namespace: microsoft.graph
+
 Create a new [identityProvider](../resources/identityprovider.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /identityProviders
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the identityProvider object.
+In the request body, supply a JSON representation for the [identityProvider](../resources/identityprovider.md) object.
 
-The following table shows the properties that are required when you create the identityProvider.
+The following table shows the properties that are required when you create the [identityProvider](../resources/identityprovider.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/identityProviders
+POST https://graph.microsoft.com/localtest/identityProviders
 Content-type: application/json
 Content-length: 184
 
@@ -91,7 +93,7 @@ Content-Length: 233
 
 {
   "@odata.type": "#microsoft.graph.identityProvider",
-  "id": "53572256-2256-5357-5622-575356225753",
+  "id": "00ad1362-1362-00ad-6213-ad006213ad00",
   "type": "Type value",
   "name": "Name value",
   "clientId": "Client Id value",

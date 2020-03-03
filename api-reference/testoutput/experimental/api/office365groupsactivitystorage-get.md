@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get office365GroupsActivityStorage
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityStorage not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityStorage not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 320
 {
   "value": {
     "@odata.type": "#microsoft.graph.office365GroupsActivityStorage",
-    "id": "a2ef4281-4281-a2ef-8142-efa28142efa2",
+    "id": "b54d6ca3-6ca3-b54d-a36c-4db5a36c4db5",
     "reportRefreshDate": "Date",
     "mailboxStorageUsedInBytes": 9,
     "siteStorageUsedInBytes": 6,

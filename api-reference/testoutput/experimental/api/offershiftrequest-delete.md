@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete offerShiftRequest
 
+Namespace: microsoft.graph
+
 Deletes a [offerShiftRequest](../resources/offershiftrequest.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/offerShiftRequests/{offerShiftRequestId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/offerShiftRequests/{offerShiftRequestId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete trustFrameworkPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [trustFrameworkPolicy](../resources/trustframeworkpolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/trustFramework/policies/{trustFrameworkPolicyId}
+DELETE https://graph.microsoft.com/localtest/trustFramework/policies/{trustFrameworkPolicyId}
 ```
 
 ### Response

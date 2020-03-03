@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # dimensionValue resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get dimensionValue](../api/dimensionvalue-get.md)|[dimensionValue](../resources/dimensionValue.md)|Read properties and relationships of the [dimensionValue](../resources/dimensionvalue.md) object.|
+|[List dimensionValues](../api/dimensionvalue-list.md)|[dimensionValue](../resources/dimensionvalue.md) collection|List properties and relationships of the [dimensionValue](../resources/dimensionvalue.md) objects.|
+|[Get dimensionValue](../api/dimensionvalue-get.md)|[dimensionValue](../resources/dimensionvalue.md)|Read properties and relationships of the [dimensionValue](../resources/dimensionvalue.md) object.|
+|[Create dimensionValue](../api/dimensionvalue-create.md)|[dimensionValue](../resources/dimensionvalue.md)|Create a new [dimensionValue](../resources/dimensionvalue.md) object.|
 |[Delete dimensionValue](../api/dimensionvalue-delete.md)|None|Deletes a [dimensionValue](../resources/dimensionvalue.md).|
-|[Update dimensionValue](../api/dimensionvalue-update.md)|[dimensionValue](../resources/dimensionValue.md)|Update the properties of a [dimensionValue](../resources/dimensionvalue.md) object.|
+|[Update dimensionValue](../api/dimensionvalue-update.md)|[dimensionValue](../resources/dimensionvalue.md)|Update the properties of a [dimensionValue](../resources/dimensionvalue.md) object.|
 
 ## Properties
 |Property|Type|Description|

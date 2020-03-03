@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # learnedLocationModel resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)||
-|coordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
+|coordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)||
 
 ## Relationships
 None

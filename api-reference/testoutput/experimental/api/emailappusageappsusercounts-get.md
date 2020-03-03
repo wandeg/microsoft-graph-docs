@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get emailAppUsageAppsUserCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailAppUsageAppsUserCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailAppUsageAppsUserCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 436
 {
   "value": {
     "@odata.type": "#microsoft.graph.emailAppUsageAppsUserCounts",
-    "id": "29843b93-3b93-2984-933b-8429933b8429",
+    "id": "7e4b278f-278f-7e4b-8f27-4b7e8f274b7e",
     "reportRefreshDate": "Date",
     "mailForMac": 10,
     "outlookForMac": 13,

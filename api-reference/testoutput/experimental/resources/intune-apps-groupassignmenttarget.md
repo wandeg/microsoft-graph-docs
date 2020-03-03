@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # groupAssignmentTarget resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)
+
+
+Inherits from [deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get paymentTerm
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/paymentTerms/{paymentTermId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/paymentTerms/{paymentTermId}
 ```
 
 ### Response
@@ -78,14 +80,14 @@ Content-Length: 460
 {
   "value": {
     "@odata.type": "#microsoft.graph.paymentTerm",
-    "id": "c6215f36-5f36-c621-365f-21c6365f21c6",
+    "id": "2c9c3f95-3f95-2c9c-953f-9c2c953f9c2c",
     "code": "Code value",
     "displayName": "Display Name value",
     "dueDateCalculation": "Due Date Calculation value",
     "discountDateCalculation": "Discount Date Calculation value",
     "discountPercent": "4.2",
     "calculateDiscountOnCreditMemos": true,
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # insightValueDouble resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [userExperienceAnalyticsInsightValue](../resources/userExperienceAnalyticsInsightValue.md)
+
+
+Inherits from [userExperienceAnalyticsInsightValue](../resources/userexperienceanalyticsinsightvalue.md)
 
 ## Properties
 |Property|Type|Description|

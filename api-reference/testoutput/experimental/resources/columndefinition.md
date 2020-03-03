@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # columnDefinition resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,34 +20,36 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get columnDefinition](../api/columndefinition-get.md)|[columnDefinition](../resources/columnDefinition.md)|Read properties and relationships of the [columnDefinition](../resources/columndefinition.md) object.|
+|[List columnDefinitions](../api/columndefinition-list.md)|[columnDefinition](../resources/columndefinition.md) collection|List properties and relationships of the [columnDefinition](../resources/columndefinition.md) objects.|
+|[Get columnDefinition](../api/columndefinition-get.md)|[columnDefinition](../resources/columndefinition.md)|Read properties and relationships of the [columnDefinition](../resources/columndefinition.md) object.|
+|[Create columnDefinition](../api/columndefinition-create.md)|[columnDefinition](../resources/columndefinition.md)|Create a new [columnDefinition](../resources/columndefinition.md) object.|
 |[Delete columnDefinition](../api/columndefinition-delete.md)|None|Deletes a [columnDefinition](../resources/columndefinition.md).|
-|[Update columnDefinition](../api/columndefinition-update.md)|[columnDefinition](../resources/columnDefinition.md)|Update the properties of a [columnDefinition](../resources/columndefinition.md) object.|
+|[Update columnDefinition](../api/columndefinition-update.md)|[columnDefinition](../resources/columndefinition.md)|Update the properties of a [columnDefinition](../resources/columndefinition.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|boolean|[booleanColumn](../resources/booleanColumn.md)||
-|calculated|[calculatedColumn](../resources/calculatedColumn.md)||
-|choice|[choiceColumn](../resources/choiceColumn.md)||
+|boolean|[booleanColumn](../resources/booleancolumn.md)||
+|calculated|[calculatedColumn](../resources/calculatedcolumn.md)||
+|choice|[choiceColumn](../resources/choicecolumn.md)||
 |columnGroup|String||
-|currency|[currencyColumn](../resources/currencyColumn.md)||
-|dateTime|[dateTimeColumn](../resources/dateTimeColumn.md)||
-|defaultValue|[defaultColumnValue](../resources/defaultColumnValue.md)||
+|currency|[currencyColumn](../resources/currencycolumn.md)||
+|dateTime|[dateTimeColumn](../resources/datetimecolumn.md)||
+|defaultValue|[defaultColumnValue](../resources/defaultcolumnvalue.md)||
 |description|String||
 |displayName|String||
 |enforceUniqueValues|Boolean||
-|geolocation|[geolocationColumn](../resources/geolocationColumn.md)||
+|geolocation|[geolocationColumn](../resources/geolocationcolumn.md)||
 |hidden|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |indexed|Boolean||
-|lookup|[lookupColumn](../resources/lookupColumn.md)||
+|lookup|[lookupColumn](../resources/lookupcolumn.md)||
 |name|String||
-|number|[numberColumn](../resources/numberColumn.md)||
-|personOrGroup|[personOrGroupColumn](../resources/personOrGroupColumn.md)||
+|number|[numberColumn](../resources/numbercolumn.md)||
+|personOrGroup|[personOrGroupColumn](../resources/personorgroupcolumn.md)||
 |readOnly|Boolean||
 |required|Boolean||
-|text|[textColumn](../resources/textColumn.md)||
+|text|[textColumn](../resources/textcolumn.md)||
 
 ## Relationships
 None

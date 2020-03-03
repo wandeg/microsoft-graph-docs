@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update planner
 
+Namespace: microsoft.graph
+
 Update the properties of a [planner](../resources/planner.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/planner
+PATCH https://graph.microsoft.com/localtest/planner
 Content-type: application/json
 Content-length: 49
 
@@ -81,7 +83,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.planner",
-  "id": "661709e7-09e7-6617-e709-1766e7091766"
+  "id": "b234802b-802b-b234-2b80-34b22b8034b2"
 }
 ```
 

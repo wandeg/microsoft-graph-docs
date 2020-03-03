@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerGroup
 
+Namespace: microsoft.graph
+
 Create a new [plannerGroup](../resources/plannergroup.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.plannerGroup not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerGroup object.
+In the request body, supply a JSON representation for the [plannerGroup](../resources/plannergroup.md) object.
 
-The following table shows the properties that are required when you create the plannerGroup.
+The following table shows the properties that are required when you create the [plannerGroup](../resources/plannergroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerGroup not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerGroup not found
 Content-type: application/json
 Content-length: 54
 
@@ -83,7 +85,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.plannerGroup",
-  "id": "1b90e575-e575-1b90-75e5-901b75e5901b"
+  "id": "96730afc-0afc-9673-fc0a-7396fc0a7396"
 }
 ```
 

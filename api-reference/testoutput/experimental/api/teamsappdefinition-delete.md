@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [teamsAppDefinition](../resources/teamsappdefinition.md).
 
 ## Permissions

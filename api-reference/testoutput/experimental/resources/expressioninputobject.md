@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # expressionInputObject resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|definition|[objectDefinition](../resources/objectDefinition.md)||
-|properties|[stringKeyObjectValuePair](../resources/stringKeyObjectValuePair.md) collection||
+|definition|[objectDefinition](../resources/objectdefinition.md)||
+|properties|[stringKeyObjectValuePair](../resources/stringkeyobjectvaluepair.md) collection||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosLobAppProvisioningConfigurations
 
+Namespace: microsoft.graph
+
 Get the iosLobAppProvisioningConfigurations from the iosLobAppProvisioningConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations
 ```
 
 ### Response
@@ -70,16 +72,16 @@ Content-Length: 631
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosLobAppProvisioningConfiguration",
-      "id": "de0693a4-93a4-de06-a493-06dea49306de",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "id": "9594a62b-a62b-9594-2ba6-94952ba69495",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "payloadFileName": "Payload File Name value",
       "payload": "cGF5bG9hZA==",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "displayName": "Display Name value",
       "version": 7
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete informationProtectionLabel
 
+Namespace: microsoft.graph
+
 Deletes a [informationProtectionLabel](../resources/informationprotectionlabel.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/informationProtection/policy/labels/{informationProtectionLabelId}
+DELETE https://graph.microsoft.com/localtest/informationProtection/policy/labels/{informationProtectionLabelId}
 ```
 
 ### Response

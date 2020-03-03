@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageResources
 
+Namespace: microsoft.graph
+
 Get the accessPackageResources from the accessPackageResources navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageResources
+GET https://graph.microsoft.com/localtest/identityGovernance/entitlementManagement/accessPackageResources
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 524
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResource",
-      "id": "ca85a44b-a44b-ca85-4ba4-85ca4ba485ca",
+      "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
       "displayName": "Display Name value",
       "description": "Description value",
       "url": "Url value",
@@ -79,7 +81,7 @@ Content-Length: 524
       "originSystem": "Origin System value",
       "isPendingOnboarding": true,
       "addedBy": "Added By value",
-      "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+      "addedOn": "2017-01-01T00:02:28.6984236+03:00"
     }
   ]
 }

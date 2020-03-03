@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # agreement resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -24,8 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create agreement](../api/agreement-post-agreements.md)|[agreement](../resources/agreement.md)|Create a new [agreement](../resources/agreement.md) object.|
 |[Delete agreement](../api/agreement-delete.md)|None|Deletes a [agreement](../resources/agreement.md).|
 |[Update agreement](../api/agreement-update.md)|[agreement](../resources/agreement.md)|Update the properties of a [agreement](../resources/agreement.md) object.|
-|[List files](../api/agreement-list-files.md)|[agreementFile](../resources/agreementFile.md) collection|Get the agreementFiles from the files navigation property.|
-|[Add files](../api/agreement-post-files.md)|[agreementFile](../resources/agreementFile.md)|Add files by posting to the files collection.|
+|[List files](../api/agreement-list-files.md)|[agreementFile](../resources/agreementfile.md) collection|Get the agreementFiles from the files navigation property.|
+|[Add files](../api/agreement-post-files.md)|[agreementFile](../resources/agreementfile.md)|Add files by posting to the files collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|files|[agreementFile](../resources/agreementFile.md) collection||
+|files|[agreementFile](../resources/agreementfile.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

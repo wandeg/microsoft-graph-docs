@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateWindowsDeviceAccount
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,7 +46,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|updateWindowsDeviceAccountActionParameter|[updateWindowsDeviceAccountActionParameter](../resources/intune-devices-updateWindowsDeviceAccountActionParameter.md)||
+|updateWindowsDeviceAccountActionParameter|[updateWindowsDeviceAccountActionParameter](../resources/intune-devices-updatewindowsdeviceaccountactionparameter.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/updateWindowsDeviceAccount
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/updateWindowsDeviceAccount
 
 Content-type: application/json
 Content-length: 532

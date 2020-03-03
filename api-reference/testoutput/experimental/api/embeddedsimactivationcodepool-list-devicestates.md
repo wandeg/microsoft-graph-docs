@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceStates
 
+Namespace: microsoft.graph
+
 Get the embeddedSIMDeviceStates from the deviceStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates
+GET https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 601
   "value": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMDeviceState",
-      "id": "9ce1d4ba-d4ba-9ce1-bad4-e19cbad4e19c",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "id": "528037c6-37c6-5280-c637-8052c6378052",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "universalIntegratedCircuitCardIdentifier": "Universal Integrated Circuit Card Identifier value",
       "deviceName": "Device Name value",
       "userName": "User Name value",

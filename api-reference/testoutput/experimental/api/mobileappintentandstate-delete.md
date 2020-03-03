@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mobileAppIntentAndState
 
+Namespace: microsoft.graph
+
 Deletes a [mobileAppIntentAndState](../resources/mobileappintentandstate.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
+DELETE https://graph.microsoft.com/localtest/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
 ```
 
 ### Response

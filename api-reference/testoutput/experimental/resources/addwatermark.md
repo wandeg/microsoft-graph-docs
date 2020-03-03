@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # addWatermark resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [markContent](../resources/markContent.md)
+
+
+Inherits from [markContent](../resources/markcontent.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|fontColor|String| Inherited from [markContent](../resources/markContent.md)|
-|fontSize|Int64| Inherited from [markContent](../resources/markContent.md)|
-|name|String| Inherited from [labelActionBase](../resources/labelActionBase.md)|
+|fontColor|String| Inherited from [markContent](../resources/markcontent.md)|
+|fontSize|Int64| Inherited from [markContent](../resources/markcontent.md)|
+|name|String| Inherited from [labelActionBase](../resources/labelactionbase.md)|
 |orientation|Enumeration|. Possible values are: `horizontal`, `diagonal`.|
-|text|String| Inherited from [markContent](../resources/markContent.md)|
+|text|String| Inherited from [markContent](../resources/markcontent.md)|
 
 ## Relationships
 None

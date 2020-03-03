@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # revokeLicenses
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/vppTokens/{vppTokenId}/revokeLicenses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/vppTokens/{vppTokenId}/revokeLicenses
 
 Content-type: application/json
 Content-length: 36

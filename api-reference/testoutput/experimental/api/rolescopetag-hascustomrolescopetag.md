@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # hasCustomRoleScopeTag
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags/hasCustomRoleScopeTag
+GET https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags/hasCustomRoleScopeTag
 ```
 
 ### Response

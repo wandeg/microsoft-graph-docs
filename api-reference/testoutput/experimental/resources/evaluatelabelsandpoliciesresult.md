@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # evaluateLabelsAndPoliciesResult resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|classificationResult|[detectedSensitiveContentWrapper](../resources/detectedSensitiveContentWrapper.md)||
-|dataLossPreventionPoliciesResult|[dlpPoliciesJobResult](../resources/dlpPoliciesJobResult.md)||
-|sensitivityLabelsResult|[evaluateLabelJobResultGroup](../resources/evaluateLabelJobResultGroup.md)||
+|classificationResult|[detectedSensitiveContentWrapper](../resources/detectedsensitivecontentwrapper.md)||
+|dataLossPreventionPoliciesResult|[dlpPoliciesJobResult](../resources/dlppoliciesjobresult.md)||
+|sensitivityLabelsResult|[evaluateLabelJobResultGroup](../resources/evaluatelabeljobresultgroup.md)||
 
 ## Relationships
 None

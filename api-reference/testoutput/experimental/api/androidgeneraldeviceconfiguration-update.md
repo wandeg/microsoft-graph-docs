@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -35,23 +37,23 @@ PATCH ** Entity URI for microsoft.graph.androidGeneralDeviceConfiguration not fo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidGeneralDeviceConfiguration](../resources/androidGeneralDeviceConfiguration.md) object.
+In the request body, supply a JSON representation for the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |appsBlockClipboardSharing|Boolean|Indicates whether or not to block clipboard sharing to copy and paste between applications.|
 |appsBlockCopyPaste|Boolean|Indicates whether or not to block copy and paste within applications.|
 |appsBlockYouTube|Boolean|Indicates whether or not to block the YouTube app.|
@@ -61,7 +63,7 @@ The following table shows the properties that are required when you create the [
 |cellularBlockMessaging|Boolean|Indicates whether or not to block SMS/MMS messaging.|
 |cellularBlockVoiceRoaming|Boolean|Indicates whether or not to block voice roaming.|
 |cellularBlockWiFiTethering|Boolean|Indicates whether or not to block syncing Wi-Fi tethering.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |compliantAppListType|Enumeration|Type of list that is in the CompliantAppsList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |diagnosticDataBlockSubmission|Boolean|Indicates whether or not to block diagnostic data submission.|
 |locationServicesBlocked|Boolean|Indicates whether or not to block location services.|
@@ -70,7 +72,7 @@ The following table shows the properties that are required when you create the [
 |kioskModeBlockSleepButton|Boolean|Indicates whether or not to block the screen sleep button while in Kiosk Mode.|
 |kioskModeBlockVolumeButtons|Boolean|Indicates whether or not to block the volume buttons while in Kiosk Mode.|
 |dateAndTimeBlockChanges|Boolean|Indicates whether or not to block changing date and time while in KNOX Mode.|
-|kioskModeApps|[appListItem](../resources/appListItem.md) collection|A list of apps that will be allowed to run when the device is in Kiosk Mode. This collection can contain a maximum of 500 elements.|
+|kioskModeApps|[appListItem](../resources/applistitem.md) collection|A list of apps that will be allowed to run when the device is in Kiosk Mode. This collection can contain a maximum of 500 elements.|
 |nfcBlocked|Boolean|Indicates whether or not to block Near-Field Communication.|
 |passwordBlockFingerprintUnlock|Boolean|Indicates whether or not to block fingerprint unlock.|
 |passwordBlockTrustAgents|Boolean|Indicates whether or not to block Smart Lock and other trust agents.|
@@ -97,9 +99,9 @@ The following table shows the properties that are required when you create the [
 |webBrowserBlocked|Boolean|Indicates whether or not to block the web browser.|
 |webBrowserCookieSettings|Enumeration|Cookie settings within the web browser. Possible values are: `browserDefault`, `blockAlways`, `allowCurrentWebSite`, `allowFromWebsitesVisited`, `allowAlways`.|
 |wiFiBlocked|Boolean|Indicates whether or not to block syncing Wi-Fi.|
-|appsInstallAllowList|[appListItem](../resources/appListItem.md) collection|List of apps which can be installed on the KNOX device. This collection can contain a maximum of 500 elements.|
-|appsLaunchBlockList|[appListItem](../resources/appListItem.md) collection|List of apps which are blocked from being launched on the KNOX device. This collection can contain a maximum of 500 elements.|
-|appsHideList|[appListItem](../resources/appListItem.md) collection|List of apps to be hidden on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsInstallAllowList|[appListItem](../resources/applistitem.md) collection|List of apps which can be installed on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsLaunchBlockList|[appListItem](../resources/applistitem.md) collection|List of apps which are blocked from being launched on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsHideList|[appListItem](../resources/applistitem.md) collection|List of apps to be hidden on the KNOX device. This collection can contain a maximum of 500 elements.|
 |securityRequireVerifyApps|Boolean|Require the Android Verify apps feature is turned on.|
 
 
@@ -117,7 +119,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidGeneralDeviceConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidGeneralDeviceConfiguration not found
 Content-type: application/json
 Content-length: 3114
 
@@ -232,12 +234,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3286
+Content-Length: 3285
 
 {
   "@odata.type": "#microsoft.graph.androidGeneralDeviceConfiguration",
-  "id": "c8129719-9719-c812-1997-12c8199712c8",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "07488c6c-8c6c-0748-6c8c-48076c8c4807",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -259,7 +261,7 @@ Content-Length: 3286
     "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
     "deviceMode": "String"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

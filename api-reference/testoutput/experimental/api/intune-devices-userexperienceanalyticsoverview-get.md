@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get userExperienceAnalyticsOverview
 
-Read properties and relationships of the [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsOverview
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsOverview
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 581
 {
   "value": {
     "@odata.type": "#microsoft.graph.userExperienceAnalyticsOverview",
-    "id": "273bb623-b623-273b-23b6-3b2723b63b27",
+    "id": "cc461c04-1c04-cc46-041c-46cc041c46cc",
     "insights": [
       {
         "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

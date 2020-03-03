@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsUniversalAppXContainedApp resource type
+
+
+Namespace: microsoft.graph
 
 A class that represents a contained app of a WindowsUniversalAppX app.
 
 
-Inherits from [mobileContainedApp](../resources/mobileContainedApp.md)
+Inherits from [mobileContainedApp](../resources/mobilecontainedapp.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsUniversalAppXContainedApps](../api/windowsuniversalappxcontainedapp-list.md)|[windowsUniversalAppXContainedApp](../resources/windowsUniversalAppXContainedApp.md) collection|List properties and relationships of the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) objects.|
-|[Get windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-get.md)|[windowsUniversalAppXContainedApp](../resources/windowsUniversalAppXContainedApp.md)|Read properties and relationships of the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
-|[Create windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-create.md)|[windowsUniversalAppXContainedApp](../resources/windowsUniversalAppXContainedApp.md)|Create a new [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
+|[List windowsUniversalAppXContainedApps](../api/windowsuniversalappxcontainedapp-list.md)|[windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) collection|List properties and relationships of the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) objects.|
+|[Get windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-get.md)|[windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md)|Read properties and relationships of the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
+|[Create windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-create.md)|[windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md)|Create a new [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
 |[Delete windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-delete.md)|None|Deletes a [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md).|
-|[Update windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-update.md)|[windowsUniversalAppXContainedApp](../resources/windowsUniversalAppXContainedApp.md)|Update the properties of a [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
+|[Update windowsUniversalAppXContainedApp](../api/windowsuniversalappxcontainedapp-update.md)|[windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md)|Update the properties of a [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.|
 
 ## Properties
 |Property|Type|Description|

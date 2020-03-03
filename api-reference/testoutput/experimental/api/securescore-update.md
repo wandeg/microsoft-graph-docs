@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update secureScore
 
+Namespace: microsoft.graph
+
 Update the properties of a [secureScore](../resources/securescore.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /Security/secureScores/{secureScoreId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [secureScore](../resources/secureScore.md) object.
+In the request body, supply a JSON representation for the [secureScore](../resources/securescore.md) object.
 
 The following table shows the properties that are required when you create the [secureScore](../resources/securescore.md).
 
@@ -43,15 +45,15 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |activeUserCount|Int32||
-|averageComparativeScores|[averageComparativeScore](../resources/averageComparativeScore.md) collection||
+|averageComparativeScores|[averageComparativeScore](../resources/averagecomparativescore.md) collection||
 |azureTenantId|String||
-|controlScores|[controlScore](../resources/controlScore.md) collection||
+|controlScores|[controlScore](../resources/controlscore.md) collection||
 |createdDateTime|DateTimeOffset||
 |currentScore|Double||
 |enabledServices|String collection||
 |licensedUserCount|Int32||
 |maxScore|Double||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/Security/secureScores/{secureScoreId}
+PATCH https://graph.microsoft.com/localtest/Security/secureScores/{secureScoreId}
 Content-type: application/json
 Content-length: 960
 
@@ -118,11 +120,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1068
+Content-Length: 1067
 
 {
   "@odata.type": "#microsoft.graph.secureScore",
-  "id": "fef0bf17-bf17-fef0-17bf-f0fe17bff0fe",
+  "id": "dc585446-5446-dc58-4654-58dc465458dc",
   "activeUserCount": 15,
   "averageComparativeScores": [
     {
@@ -141,7 +143,7 @@ Content-Length: 1068
       "score": "Double"
     }
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "currentScore": "Double",
   "enabledServices": [
     "Enabled Services value"

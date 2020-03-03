@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getManagementConditionStatementExpressionString
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /deviceManagement/managementConditionStatements/{managementConditionStatemen
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [managementConditionExpressionString](../resources/managementConditionExpressionString.md) in the response body.
+If successful, this function returns a `200 OK` response code and a [managementConditionExpressionString](../resources/managementconditionexpressionstring.md) in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/managementConditionStatements/{managementConditionStatementId}/getManagementConditionStatementExpressionString
+GET https://graph.microsoft.com/localtest/deviceManagement/managementConditionStatements/{managementConditionStatementId}/getManagementConditionStatementExpressionString
 ```
 
 ### Response

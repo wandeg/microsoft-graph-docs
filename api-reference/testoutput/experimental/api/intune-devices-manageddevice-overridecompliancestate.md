@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # overrideComplianceState
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/overrideComplianceState
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/overrideComplianceState
 
 Content-type: application/json
 Content-length: 95

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete roleScopeTag
 
+Namespace: microsoft.graph
+
 Deletes a [roleScopeTag](../resources/rolescopetag.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags/{roleScopeTagId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags/{roleScopeTagId}
 ```
 
 ### Response

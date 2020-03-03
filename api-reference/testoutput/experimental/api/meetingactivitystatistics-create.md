@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create meetingActivityStatistics
 
+Namespace: microsoft.graph
+
 Create a new [meetingActivityStatistics](../resources/meetingactivitystatistics.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.meetingActivityStatistics not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the meetingActivityStatistics object.
+In the request body, supply a JSON representation for the [meetingActivityStatistics](../resources/meetingactivitystatistics.md) object.
 
-The following table shows the properties that are required when you create the meetingActivityStatistics.
+The following table shows the properties that are required when you create the [meetingActivityStatistics](../resources/meetingactivitystatistics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |afterHours|Duration||
 |organized|Duration||
 |recurring|Duration||
@@ -70,9 +72,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.meetingActivityStatistics not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.meetingActivityStatistics not found
 Content-type: application/json
-Content-length: 422
+Content-length: 430
 
 {
   "@odata.type": "#microsoft.graph.meetingActivityStatistics",
@@ -80,13 +82,13 @@ Content-length: 422
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S",
-  "organized": "PT1M8.7021172S",
-  "recurring": "-PT1M11.9254811S",
-  "long": "PT38.7461735S",
-  "conflicting": "PT3M34.2235549S",
-  "multitasking": "PT2M11.8784902S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S",
+  "organized": "-PT2M39.109661S",
+  "recurring": "PT1M59.6924386S",
+  "long": "-PT3M22.609558S",
+  "conflicting": "-PT3M18.0945761S",
+  "multitasking": "-PT1M33.7370046S"
 }
 ```
 
@@ -101,22 +103,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 471
+Content-Length: 479
 
 {
   "@odata.type": "#microsoft.graph.meetingActivityStatistics",
-  "id": "8f4a6001-6001-8f4a-0160-4a8f01604a8f",
+  "id": "2b96e2c8-e2c8-2b96-c8e2-962bc8e2962b",
   "activity": "String",
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S",
-  "organized": "PT1M8.7021172S",
-  "recurring": "-PT1M11.9254811S",
-  "long": "PT38.7461735S",
-  "conflicting": "PT3M34.2235549S",
-  "multitasking": "PT2M11.8784902S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S",
+  "organized": "-PT2M39.109661S",
+  "recurring": "PT1M59.6924386S",
+  "long": "-PT3M22.609558S",
+  "conflicting": "-PT3M18.0945761S",
+  "multitasking": "-PT1M33.7370046S"
 }
 ```
 

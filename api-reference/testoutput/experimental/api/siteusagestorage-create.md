@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create siteUsageStorage
 
+Namespace: microsoft.graph
+
 Create a new [siteUsageStorage](../resources/siteusagestorage.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.siteUsageStorage not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the siteUsageStorage object.
+In the request body, supply a JSON representation for the [siteUsageStorage](../resources/siteusagestorage.md) object.
 
-The following table shows the properties that are required when you create the siteUsageStorage.
+The following table shows the properties that are required when you create the [siteUsageStorage](../resources/siteusagestorage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.siteUsageStorage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.siteUsageStorage not found
 Content-type: application/json
 Content-length: 219
 
@@ -93,7 +95,7 @@ Content-Length: 268
 
 {
   "@odata.type": "#microsoft.graph.siteUsageStorage",
-  "id": "5944a1b5-a1b5-5944-b5a1-4459b5a14459",
+  "id": "6c95ce11-ce11-6c95-11ce-956c11ce956c",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "storageUsedInBytes": 2,

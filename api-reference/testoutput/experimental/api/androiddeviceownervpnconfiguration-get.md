@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidDeviceOwnerVpnConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidDeviceOwnerVpnConfiguration](../resources/androiddeviceownervpnconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidDeviceOwnerVpnConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidDeviceOwnerVpnConfiguration not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1490
+Content-Length: 1489
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidDeviceOwnerVpnConfiguration",
-    "id": "85481e12-1e12-8548-121e-4885121e4885",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "efd7370d-370d-efd7-0d37-d7ef0d37d7ef",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,7 +97,7 @@ Content-Length: 1490
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

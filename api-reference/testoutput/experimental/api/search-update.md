@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update search
 
+Namespace: microsoft.graph
+
 Update the properties of a [search](../resources/search.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/search
+PATCH https://graph.microsoft.com/localtest/search
 Content-type: application/json
 Content-length: 48
 
@@ -81,7 +83,7 @@ Content-Length: 97
 
 {
   "@odata.type": "#microsoft.graph.search",
-  "id": "52db7545-7545-52db-4575-db524575db52"
+  "id": "e7f88227-8227-e7f8-2782-f8e72782f8e7"
 }
 ```
 

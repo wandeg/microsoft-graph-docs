@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete eBookInstallSummary
 
+Namespace: microsoft.graph
+
 Deletes a [eBookInstallSummary](../resources/ebookinstallsummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get directoryObject
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [directoryObject](../resources/directoryobject.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directoryObjects/{directoryObjectsId}
+GET https://graph.microsoft.com/localtest/directoryObjects/{directoryObjectsId}
 ```
 
 ### Response
@@ -78,8 +80,8 @@ Content-Length: 190
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryObject",
-    "id": "98b7e341-e341-98b7-41e3-b79841e3b798",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00"
+    "id": "3ee17962-7962-3ee1-6279-e13e6279e13e",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00"
   }
 }
 ```

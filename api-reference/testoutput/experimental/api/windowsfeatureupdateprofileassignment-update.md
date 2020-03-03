@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsFeatureUpdateProfileAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfil
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsFeatureUpdateProfileAssignment](../resources/windowsFeatureUpdateProfileAssignment.md) object.
+In the request body, supply a JSON representation for the [windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) object.
 
 The following table shows the properties that are required when you create the [windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target that the feature update profile is assigned to.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target that the feature update profile is assigned to.|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assignments/{windowsFeatureUpdateProfileAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assignments/{windowsFeatureUpdateProfileAssignmentId}
 Content-type: application/json
 Content-length: 177
 
@@ -85,7 +87,7 @@ Content-Length: 226
 
 {
   "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfileAssignment",
-  "id": "7a85fe0c-fe0c-7a85-0cfe-857a0cfe857a",
+  "id": "26a940fa-40fa-26a9-fa40-a926fa40a926",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

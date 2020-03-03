@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add replies
 
+Namespace: microsoft.graph
+
 Add replies by posting to the replies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/d
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the documentCommentReply object.
+In the request body, supply a JSON representation for the [documentCommentReply](../resources/documentcommentreply.md) object.
 
-The following table shows the properties that are required when you create the documentCommentReply.
+The following table shows the properties that are required when you create the [documentCommentReply](../resources/documentcommentreply.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies
 Content-type: application/json
 Content-length: 93
 
@@ -85,7 +87,7 @@ Content-Length: 142
 
 {
   "@odata.type": "#microsoft.graph.documentCommentReply",
-  "id": "9163fc2b-fc2b-9163-2bfc-63912bfc6391",
+  "id": "9a2f5493-5493-9a2f-9354-2f9a93542f9a",
   "content": "Content value"
 }
 ```

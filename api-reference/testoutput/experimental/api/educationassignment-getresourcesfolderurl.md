@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getResourcesFolderUrl
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/getResourcesFolderUrl
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/getResourcesFolderUrl
 ```
 
 ### Response

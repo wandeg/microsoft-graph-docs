@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update enrollmentProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [enrollmentProfile](../resources/enrollmentprofile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmen
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [enrollmentProfile](../resources/enrollmentProfile.md) object.
+In the request body, supply a JSON representation for the [enrollmentProfile](../resources/enrollmentprofile.md) object.
 
 The following table shows the properties that are required when you create the [enrollmentProfile](../resources/enrollmentprofile.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles/{enrollmentProfileId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles/{enrollmentProfileId}
 Content-type: application/json
 Content-length: 370
 
@@ -93,7 +95,7 @@ Content-Length: 419
 
 {
   "@odata.type": "#microsoft.graph.enrollmentProfile",
-  "id": "59741185-1185-5974-8511-745985117459",
+  "id": "7d84c92c-c92c-7d84-2cc9-847d2cc9847d",
   "displayName": "Display Name value",
   "description": "Description value",
   "requiresUserAuthentication": true,

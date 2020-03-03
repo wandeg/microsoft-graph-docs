@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidForWorkEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Deletes a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkEnrollmentProfiles/{androidForWorkEnrollmentProfileId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/androidForWorkEnrollmentProfiles/{androidForWorkEnrollmentProfileId}
 ```
 
 ### Response

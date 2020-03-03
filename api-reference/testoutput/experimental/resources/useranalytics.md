@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userAnalytics resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,13 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userAnalyticses](../api/useranalytics-list.md)|[userAnalytics](../resources/userAnalytics.md) collection|List properties and relationships of the [userAnalytics](../resources/useranalytics.md) objects.|
-|[Get userAnalytics](../api/useranalytics-get.md)|[userAnalytics](../resources/userAnalytics.md)|Read properties and relationships of the [userAnalytics](../resources/useranalytics.md) object.|
-|[Create userAnalytics](../api/useranalytics-create.md)|[userAnalytics](../resources/userAnalytics.md)|Create a new [userAnalytics](../resources/useranalytics.md) object.|
+|[List userAnalyticses](../api/useranalytics-list.md)|[userAnalytics](../resources/useranalytics.md) collection|List properties and relationships of the [userAnalytics](../resources/useranalytics.md) objects.|
+|[Get userAnalytics](../api/useranalytics-get.md)|[userAnalytics](../resources/useranalytics.md)|Read properties and relationships of the [userAnalytics](../resources/useranalytics.md) object.|
+|[Create userAnalytics](../api/useranalytics-create.md)|[userAnalytics](../resources/useranalytics.md)|Create a new [userAnalytics](../resources/useranalytics.md) object.|
 |[Delete userAnalytics](../api/useranalytics-delete.md)|None|Deletes a [userAnalytics](../resources/useranalytics.md).|
-|[Update userAnalytics](../api/useranalytics-update.md)|[userAnalytics](../resources/userAnalytics.md)|Update the properties of a [userAnalytics](../resources/useranalytics.md) object.|
-|[List activityStatistics](../api/useranalytics-list-activitystatistics.md)|[activityStatistics](../resources/activityStatistics.md) collection|Get the activityStatisticses from the activityStatistics navigation property.|
-|[Add activityStatistics](../api/useranalytics-post-activitystatistics.md)|[activityStatistics](../resources/activityStatistics.md)|Add activityStatistics by posting to the activityStatistics collection.|
+|[Update userAnalytics](../api/useranalytics-update.md)|[userAnalytics](../resources/useranalytics.md)|Update the properties of a [userAnalytics](../resources/useranalytics.md) object.|
+|[List activityStatistics](../api/useranalytics-list-activitystatistics.md)|[activityStatistics](../resources/activitystatistics.md) collection|Get the activityStatisticses from the activityStatistics navigation property.|
+|[Add activityStatistics](../api/useranalytics-post-activitystatistics.md)|[activityStatistics](../resources/activitystatistics.md)|Add activityStatistics by posting to the activityStatistics collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|activityStatistics|[activityStatistics](../resources/activityStatistics.md) collection||
+|activityStatistics|[activityStatistics](../resources/activitystatistics.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

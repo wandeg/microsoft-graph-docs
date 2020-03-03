@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete securityBaselineState
 
+Namespace: microsoft.graph
+
 Deletes a [securityBaselineState](../resources/securitybaselinestate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
+DELETE https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
 ```
 
 ### Response

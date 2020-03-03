@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # place resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -25,9 +26,9 @@ Inherits from [entity](../resources/entity.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
 |displayName|String||
-|geoCoordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)||
+|geoCoordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |phone|String||
 

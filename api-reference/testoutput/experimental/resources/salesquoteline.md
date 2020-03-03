@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesQuoteLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesQuoteLine](../api/salesquoteline-get.md)|[salesQuoteLine](../resources/salesQuoteLine.md)|Read properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) object.|
+|[List salesQuoteLines](../api/salesquoteline-list.md)|[salesQuoteLine](../resources/salesquoteline.md) collection|List properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) objects.|
+|[Get salesQuoteLine](../api/salesquoteline-get.md)|[salesQuoteLine](../resources/salesquoteline.md)|Read properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) object.|
+|[Create salesQuoteLine](../api/salesquoteline-create.md)|[salesQuoteLine](../resources/salesquoteline.md)|Create a new [salesQuoteLine](../resources/salesquoteline.md) object.|
 |[Delete salesQuoteLine](../api/salesquoteline-delete.md)|None|Deletes a [salesQuoteLine](../resources/salesquoteline.md).|
-|[Update salesQuoteLine](../api/salesquoteline-update.md)|[salesQuoteLine](../resources/salesQuoteLine.md)|Update the properties of a [salesQuoteLine](../resources/salesquoteline.md) object.|
+|[Update salesQuoteLine](../api/salesquoteline-update.md)|[salesQuoteLine](../resources/salesquoteline.md)|Update the properties of a [salesQuoteLine](../resources/salesquoteline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 

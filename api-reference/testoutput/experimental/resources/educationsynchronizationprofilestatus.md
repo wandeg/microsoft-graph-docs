@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationSynchronizationProfileStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSynchronizationProfileStatuses](../api/educationsynchronizationprofilestatus-list.md)|[educationSynchronizationProfileStatus](../resources/educationSynchronizationProfileStatus.md) collection|List properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) objects.|
-|[Get educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-get.md)|[educationSynchronizationProfileStatus](../resources/educationSynchronizationProfileStatus.md)|Read properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
-|[Create educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-create.md)|[educationSynchronizationProfileStatus](../resources/educationSynchronizationProfileStatus.md)|Create a new [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
+|[List educationSynchronizationProfileStatuses](../api/educationsynchronizationprofilestatus-list.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) collection|List properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) objects.|
+|[Get educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-get.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Read properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
+|[Create educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-create.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Create a new [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
 |[Delete educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-delete.md)|None|Deletes a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md).|
-|[Update educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-update.md)|[educationSynchronizationProfileStatus](../resources/educationSynchronizationProfileStatus.md)|Update the properties of a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
+|[Update educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-update.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Update the properties of a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
 
 ## Properties
 |Property|Type|Description|

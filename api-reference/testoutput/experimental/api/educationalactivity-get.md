@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationalActivity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationalActivity](../resources/educationalactivity.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/educationalActivities/{educationalActivityId}
+GET https://graph.microsoft.com/localtest/me/profile/educationalActivities/{educationalActivityId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1894
+Content-Length: 1893
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationalActivity",
-    "id": "3c75e1f4-e1f4-3c75-f4e1-753cf4e1753c",
+    "id": "e4f9f389-f389-e4f9-89f3-f9e489f3f9e4",
     "allowedAudiences": "String",
     "inference": {
       "@odata.type": "microsoft.graph.inferenceData",
       "confidenceScore": "Double",
       "userHasVerifiedAccuracy": true
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,7 +96,7 @@ Content-Length: 1894
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

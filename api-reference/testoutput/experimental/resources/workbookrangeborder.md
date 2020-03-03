@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookRangeBorder resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookRangeBorder](../api/workbookrangeborder-get.md)|[workbookRangeBorder](../resources/workbookRangeBorder.md)|Read properties and relationships of the [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
+|[List workbookRangeBorders](../api/workbookrangeborder-list.md)|[workbookRangeBorder](../resources/workbookrangeborder.md) collection|List properties and relationships of the [workbookRangeBorder](../resources/workbookrangeborder.md) objects.|
+|[Get workbookRangeBorder](../api/workbookrangeborder-get.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Read properties and relationships of the [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
+|[Create workbookRangeBorder](../api/workbookrangeborder-create.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Create a new [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
 |[Delete workbookRangeBorder](../api/workbookrangeborder-delete.md)|None|Deletes a [workbookRangeBorder](../resources/workbookrangeborder.md).|
-|[Update workbookRangeBorder](../api/workbookrangeborder-update.md)|[workbookRangeBorder](../resources/workbookRangeBorder.md)|Update the properties of a [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
+|[Update workbookRangeBorder](../api/workbookrangeborder-update.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Update the properties of a [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
 
 ## Properties
 |Property|Type|Description|

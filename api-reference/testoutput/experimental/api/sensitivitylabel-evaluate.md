@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # evaluate
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,13 +46,13 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredSensitiveType.md) collection||
-|currentLabel|[currentLabel](../resources/currentLabel.md)||
+|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredsensitivetype.md) collection||
+|currentLabel|[currentLabel](../resources/currentlabel.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [evaluateLabelJobResponse](../resources/evaluateLabelJobResponse.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md) in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels/evaluate
+POST https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels/evaluate
 
 Content-type: application/json
 Content-length: 295
@@ -71,7 +73,7 @@ Content-length: 295
   "discoveredSensitiveTypes": [
     {
       "@odata.type": "microsoft.graph.discoveredSensitiveType",
-      "id": "7fa8665d-665d-7fa8-5d66-a87f5d66a87f",
+      "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
       "count": 5,
       "confidence": 10
     }
@@ -98,13 +100,13 @@ Content-Length: 587
 {
   "value": {
     "@odata.type": "#microsoft.graph.evaluateLabelJobResponse",
-    "id": "810fe8b8-e8b8-810f-b8e8-0f81b8e80f81",
+    "id": "283c938f-938f-283c-8f93-3c288f933c28",
     "type": "Type value",
     "status": "Status value",
     "tenantId": "Tenant Id value",
-    "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "error": {
       "@odata.type": "microsoft.graph.classificationError"
     },

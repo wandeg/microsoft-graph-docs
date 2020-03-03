@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationRubric
 
+Namespace: microsoft.graph
+
 Deletes a [educationRubric](../resources/educationrubric.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/rubric
+DELETE https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/rubric
 ```
 
 ### Response

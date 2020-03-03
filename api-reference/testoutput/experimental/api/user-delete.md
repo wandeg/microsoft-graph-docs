@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete user
 
+Namespace: microsoft.graph
+
 Deletes a [user](../resources/user.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}
+DELETE https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}
 ```
 
 ### Response

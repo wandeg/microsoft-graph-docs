@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookCommentReply
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookCommentReply](../resources/workbookcommentreply.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookCommentReply](../resources/workbookCommentReply.md) object.
+In the request body, supply a JSON representation for the [workbookCommentReply](../resources/workbookcommentreply.md) object.
 
 The following table shows the properties that are required when you create the [workbookCommentReply](../resources/workbookcommentreply.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments/{workbookCommentId}/replies/{workbookCommentReplyId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments/{workbookCommentId}/replies/{workbookCommentReplyId}
 Content-type: application/json
 Content-length: 133
 
@@ -85,7 +87,7 @@ Content-Length: 182
 
 {
   "@odata.type": "#microsoft.graph.workbookCommentReply",
-  "id": "ea4def31-ef31-ea4d-31ef-4dea31ef4dea",
+  "id": "aaccd32f-d32f-aacc-2fd3-ccaa2fd3ccaa",
   "content": "Content value",
   "contentType": "Content Type value"
 }

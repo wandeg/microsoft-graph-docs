@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userCredentialUsageDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userCredentialUsageDetailses](../api/usercredentialusagedetails-list.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md) collection|List properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) objects.|
-|[Get userCredentialUsageDetails](../api/usercredentialusagedetails-get.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Read properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
-|[Create userCredentialUsageDetails](../api/usercredentialusagedetails-create.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Create a new [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+|[List userCredentialUsageDetailses](../api/usercredentialusagedetails-list.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md) collection|List properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) objects.|
+|[Get userCredentialUsageDetails](../api/usercredentialusagedetails-get.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Read properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+|[Create userCredentialUsageDetails](../api/usercredentialusagedetails-create.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Create a new [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
 |[Delete userCredentialUsageDetails](../api/usercredentialusagedetails-delete.md)|None|Deletes a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md).|
-|[Update userCredentialUsageDetails](../api/usercredentialusagedetails-update.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Update the properties of a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+|[Update userCredentialUsageDetails](../api/usercredentialusagedetails-update.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Update the properties of a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
 
 ## Properties
 |Property|Type|Description|

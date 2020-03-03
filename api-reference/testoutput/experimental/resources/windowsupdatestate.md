@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsUpdateState resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get windowsUpdateState](../api/windowsupdatestate-get.md)|[windowsUpdateState](../resources/windowsUpdateState.md)|Read properties and relationships of the [windowsUpdateState](../resources/windowsupdatestate.md) object.|
+|[List windowsUpdateStates](../api/windowsupdatestate-list.md)|[windowsUpdateState](../resources/windowsupdatestate.md) collection|List properties and relationships of the [windowsUpdateState](../resources/windowsupdatestate.md) objects.|
+|[Get windowsUpdateState](../api/windowsupdatestate-get.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Read properties and relationships of the [windowsUpdateState](../resources/windowsupdatestate.md) object.|
+|[Create windowsUpdateState](../api/windowsupdatestate-create.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Create a new [windowsUpdateState](../resources/windowsupdatestate.md) object.|
 |[Delete windowsUpdateState](../api/windowsupdatestate-delete.md)|None|Deletes a [windowsUpdateState](../resources/windowsupdatestate.md).|
-|[Update windowsUpdateState](../api/windowsupdatestate-update.md)|[windowsUpdateState](../resources/windowsUpdateState.md)|Update the properties of a [windowsUpdateState](../resources/windowsupdatestate.md) object.|
+|[Update windowsUpdateState](../api/windowsupdatestate-update.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Update the properties of a [windowsUpdateState](../resources/windowsupdatestate.md) object.|
 
 ## Properties
 |Property|Type|Description|

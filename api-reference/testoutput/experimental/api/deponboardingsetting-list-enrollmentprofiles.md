@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List enrollmentProfiles
 
+Namespace: microsoft.graph
+
 Get the enrollmentProfiles from the enrollmentProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles
+GET https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 484
   "value": [
     {
       "@odata.type": "#microsoft.graph.enrollmentProfile",
-      "id": "59741185-1185-5974-8511-745985117459",
+      "id": "7d84c92c-c92c-7d84-2cc9-847d2cc9847d",
       "displayName": "Display Name value",
       "description": "Description value",
       "requiresUserAuthentication": true,

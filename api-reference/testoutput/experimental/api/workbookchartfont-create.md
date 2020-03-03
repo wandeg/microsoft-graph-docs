@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartFont
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartFont](../resources/workbookchartfont.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartFont not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartFont object.
+In the request body, supply a JSON representation for the [workbookChartFont](../resources/workbookchartfont.md) object.
 
-The following table shows the properties that are required when you create the workbookChartFont.
+The following table shows the properties that are required when you create the [workbookChartFont](../resources/workbookchartfont.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartFont not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartFont not found
 Content-type: application/json
 Content-length: 203
 
@@ -95,7 +97,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFont",
-  "id": "75ed96bb-96bb-75ed-bb96-ed75bb96ed75",
+  "id": "c0b1e6c4-e6c4-c0b1-c4e6-b1c0c4e6b1c0",
   "bold": true,
   "color": "Color value",
   "italic": true,

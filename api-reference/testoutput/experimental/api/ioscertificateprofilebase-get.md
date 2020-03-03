@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get iosCertificateProfileBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [iosCertificateProfileBase](../resources/ioscertificateprofilebase.md) object.
 
 ## Permissions
@@ -66,13 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1350
+Content-Length: 1349
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosCertificateProfileBase",
-    "id": "928d9fd3-9fd3-928d-d39f-8d92d39f8d92",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "278954b9-54b9-2789-b954-8927b9548927",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -94,7 +96,7 @@ Content-Length: 1350
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

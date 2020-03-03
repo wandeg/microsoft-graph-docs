@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsAssignedAccessProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.windowsAssignedAccessProfile not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md) object.
+In the request body, supply a JSON representation for the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.
 
 The following table shows the properties that are required when you create the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsAssignedAccessProfile not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsAssignedAccessProfile not found
 Content-type: application/json
 Content-length: 364
 
@@ -99,7 +101,7 @@ Content-Length: 413
 
 {
   "@odata.type": "#microsoft.graph.windowsAssignedAccessProfile",
-  "id": "9dc569be-69be-9dc5-be69-c59dbe69c59d",
+  "id": "d03bfd97-fd97-d03b-97fd-3bd097fd3bd0",
   "profileName": "Profile Name value",
   "showTaskBar": true,
   "appUserModelIds": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceConfigurationRestrictedAppsViolations
 
+Namespace: microsoft.graph
+
 Add deviceConfigurationRestrictedAppsViolations by posting to the deviceConfigurationRestrictedAppsViolations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceConfigurationRestrictedAppsViolations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the restrictedAppsViolation object.
+In the request body, supply a JSON representation for the [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.
 
-The following table shows the properties that are required when you create the restrictedAppsViolation.
+The following table shows the properties that are required when you create the [restrictedAppsViolation](../resources/restrictedappsviolation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the r
 |deviceConfigurationName|String|Device configuration profile name|
 |platformType|Enumeration|Platform type. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
 |restrictedAppsState|Enumeration|Restricted apps state. Possible values are: `prohibitedApps`, `notApprovedApps`.|
-|restrictedApps|[managedDeviceReportedApp](../resources/managedDeviceReportedApp.md) collection|List of violated restricted apps|
+|restrictedApps|[managedDeviceReportedApp](../resources/manageddevicereportedapp.md) collection|List of violated restricted apps|
 
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationRestrictedAppsViolations
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationRestrictedAppsViolations
 Content-type: application/json
 Content-length: 547
 
@@ -106,7 +108,7 @@ Content-Length: 596
 
 {
   "@odata.type": "#microsoft.graph.restrictedAppsViolation",
-  "id": "ab900812-0812-ab90-1208-90ab120890ab",
+  "id": "ba4be45e-e45e-ba4b-5ee4-4bba5ee44bba",
   "userId": "User Id value",
   "userName": "User Name value",
   "managedDeviceId": "Managed Device Id value",

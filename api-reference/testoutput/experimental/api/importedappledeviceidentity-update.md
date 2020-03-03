@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update importedAppleDeviceIdentity
 
+Namespace: microsoft.graph
+
 Update the properties of a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedA
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md) object.
+In the request body, supply a JSON representation for the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.
 
 The following table shows the properties that are required when you create the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
 Content-type: application/json
 Content-length: 515
 
@@ -77,11 +79,11 @@ Content-length: 515
   "@odata.type": "#microsoft.graph.importedAppleDeviceIdentity",
   "serialNumber": "Serial Number value",
   "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:11.9968518+03:00",
+  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
   "isSupervised": true,
   "discoverySource": "String",
   "isDeleted": true,
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String"
@@ -98,19 +100,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 623
+Content-Length: 622
 
 {
   "@odata.type": "#microsoft.graph.importedAppleDeviceIdentity",
-  "id": "46ec539a-539a-46ec-9a53-ec469a53ec46",
+  "id": "84ec82a3-82a3-84ec-a382-ec84a382ec84",
   "serialNumber": "Serial Number value",
   "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:11.9968518+03:00",
+  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
   "isSupervised": true,
   "discoverySource": "String",
   "isDeleted": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String"

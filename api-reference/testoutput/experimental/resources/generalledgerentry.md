@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # generalLedgerEntry resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get generalLedgerEntry](../api/generalledgerentry-get.md)|[generalLedgerEntry](../resources/generalLedgerEntry.md)|Read properties and relationships of the [generalLedgerEntry](../resources/generalledgerentry.md) object.|
+|[List generalLedgerEntries](../api/generalledgerentry-list.md)|[generalLedgerEntry](../resources/generalledgerentry.md) collection|List properties and relationships of the [generalLedgerEntry](../resources/generalledgerentry.md) objects.|
+|[Get generalLedgerEntry](../api/generalledgerentry-get.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Read properties and relationships of the [generalLedgerEntry](../resources/generalledgerentry.md) object.|
+|[Create generalLedgerEntry](../api/generalledgerentry-create.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Create a new [generalLedgerEntry](../resources/generalledgerentry.md) object.|
 |[Delete generalLedgerEntry](../api/generalledgerentry-delete.md)|None|Deletes a [generalLedgerEntry](../resources/generalledgerentry.md).|
-|[Update generalLedgerEntry](../api/generalledgerentry-update.md)|[generalLedgerEntry](../resources/generalLedgerEntry.md)|Update the properties of a [generalLedgerEntry](../resources/generalledgerentry.md) object.|
+|[Update generalLedgerEntry](../api/generalledgerentry-update.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Update the properties of a [generalLedgerEntry](../resources/generalledgerentry.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 
 ## Properties

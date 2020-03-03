@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete governancePolicyTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [governancePolicyTemplate](../resources/governancepolicytemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
+DELETE https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemEmail
 
+Namespace: microsoft.graph
+
 Deletes a [itemEmail](../resources/itememail.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/emails/{itemEmailId}
+DELETE https://graph.microsoft.com/localtest/me/profile/emails/{itemEmailId}
 ```
 
 ### Response

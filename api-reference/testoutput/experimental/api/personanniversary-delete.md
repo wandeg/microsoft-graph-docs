@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete personAnniversary
 
+Namespace: microsoft.graph
+
 Deletes a [personAnniversary](../resources/personanniversary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/anniversaries/{personAnniversaryId}
+DELETE https://graph.microsoft.com/localtest/me/profile/anniversaries/{personAnniversaryId}
 ```
 
 ### Response

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppContent
 
-Update the properties of a [mobileAppContent](../resources/mobileappcontent.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -37,9 +39,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.managedMobil
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppContent](../resources/mobileAppContent.md) object.
+In the request body, supply a JSON representation for the [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppContent](../resources/mobileappcontent.md).
+The following table shows the properties that are required when you create the [mobileAppContent](../resources/intune-apps-mobileappcontent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppContent](../resources/mobileappcontent.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
 Content-type: application/json
 Content-length: 58
 
@@ -83,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContent",
-  "id": "41cfb398-b398-41cf-98b3-cf4198b3cf41"
+  "id": "9233c4e9-c4e9-9233-e9c4-3392e9c43392"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List claimsMappingPolicies
 
+Namespace: microsoft.graph
+
 Get the claimsMappingPolicies from the claimsMappingPolicies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/claimsMappingPolicies
+GET https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/claimsMappingPolicies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 337
   "value": [
     {
       "@odata.type": "#microsoft.graph.claimsMappingPolicy",
-      "id": "7f30d5a9-d5a9-7f30-a9d5-307fa9d5307f",
+      "id": "980267e2-67e2-9802-e267-0298e2670298",
       "description": "Description value",
       "displayName": "Display Name value",
       "definition": [

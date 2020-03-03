@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List licenseDetails
 
+Namespace: microsoft.graph
+
 Get the licenseDetailses from the licenseDetails navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/licenseDetails
+GET https://graph.microsoft.com/localtest/me/licenseDetails
 ```
 
 ### Response
@@ -71,17 +73,17 @@ Content-Length: 599
   "value": [
     {
       "@odata.type": "#microsoft.graph.licenseDetails",
-      "id": "42755f77-5f77-4275-775f-7542775f7542",
+      "id": "5dfe710e-710e-5dfe-0e71-fe5d0e71fe5d",
       "servicePlans": [
         {
           "@odata.type": "microsoft.graph.servicePlanInfo",
-          "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7",
+          "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
           "servicePlanName": "Service Plan Name value",
           "provisioningStatus": "Provisioning Status value",
           "appliesTo": "Applies To value"
         }
       ],
-      "skuId": "57435096-5096-5743-9650-435796504357",
+      "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
       "skuPartNumber": "Sku Part Number value"
     }
   ]

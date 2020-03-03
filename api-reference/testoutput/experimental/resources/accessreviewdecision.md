@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # accessReviewDecision resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,21 +20,23 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get accessReviewDecision](../api/accessreviewdecision-get.md)|[accessReviewDecision](../resources/accessReviewDecision.md)|Read properties and relationships of the [accessReviewDecision](../resources/accessreviewdecision.md) object.|
+|[List accessReviewDecisions](../api/accessreviewdecision-list.md)|[accessReviewDecision](../resources/accessreviewdecision.md) collection|List properties and relationships of the [accessReviewDecision](../resources/accessreviewdecision.md) objects.|
+|[Get accessReviewDecision](../api/accessreviewdecision-get.md)|[accessReviewDecision](../resources/accessreviewdecision.md)|Read properties and relationships of the [accessReviewDecision](../resources/accessreviewdecision.md) object.|
+|[Create accessReviewDecision](../api/accessreviewdecision-post-accessreviewdecisions.md)|[accessReviewDecision](../resources/accessreviewdecision.md)|Create a new [accessReviewDecision](../resources/accessreviewdecision.md) object.|
 |[Delete accessReviewDecision](../api/accessreviewdecision-delete.md)|None|Deletes a [accessReviewDecision](../resources/accessreviewdecision.md).|
-|[Update accessReviewDecision](../api/accessreviewdecision-update.md)|[accessReviewDecision](../resources/accessReviewDecision.md)|Update the properties of a [accessReviewDecision](../resources/accessreviewdecision.md) object.|
+|[Update accessReviewDecision](../api/accessreviewdecision-update.md)|[accessReviewDecision](../resources/accessreviewdecision.md)|Update the properties of a [accessReviewDecision](../resources/accessreviewdecision.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |accessRecommendation|String||
 |accessReviewId|String||
-|appliedBy|[userIdentity](../resources/userIdentity.md)||
+|appliedBy|[userIdentity](../resources/useridentity.md)||
 |appliedDateTime|DateTimeOffset||
 |applyResult|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |justification|String||
-|reviewedBy|[userIdentity](../resources/userIdentity.md)||
+|reviewedBy|[userIdentity](../resources/useridentity.md)||
 |reviewedDateTime|DateTimeOffset||
 |reviewResult|String||
 

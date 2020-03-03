@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create mailboxUsageMailboxCounts
 
+Namespace: microsoft.graph
+
 Create a new [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.mailboxUsageMailboxCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mailboxUsageMailboxCounts object.
+In the request body, supply a JSON representation for the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.
 
-The following table shows the properties that are required when you create the mailboxUsageMailboxCounts.
+The following table shows the properties that are required when you create the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageMailboxCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageMailboxCounts not found
 Content-type: application/json
 Content-length: 197
 
@@ -93,7 +95,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageMailboxCounts",
-  "id": "038e5c62-5c62-038e-625c-8e03625c8e03",
+  "id": "b2fe3ac9-3ac9-b2fe-c93a-feb2c93afeb2",
   "reportRefreshDate": "Date",
   "total": 5,
   "active": 6,

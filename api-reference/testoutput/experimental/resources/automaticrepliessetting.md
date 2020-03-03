@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # automaticRepliesSetting resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Namespace: microsoft.graph
 |externalAudience|Enumeration|. Possible values are: `none`, `contactsOnly`, `all`.|
 |externalReplyMessage|String||
 |internalReplyMessage|String||
-|scheduledEndDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|scheduledStartDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|scheduledEndDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|scheduledStartDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |status|Enumeration|. Possible values are: `disabled`, `alwaysEnabled`, `scheduled`.|
 
 ## Relationships

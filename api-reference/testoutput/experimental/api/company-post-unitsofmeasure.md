@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add unitsOfMeasure
 
+Namespace: microsoft.graph
+
 Add unitsOfMeasure by posting to the unitsOfMeasure collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/unitsOfMeasure/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the unitOfMeasure object.
+In the request body, supply a JSON representation for the [unitOfMeasure](../resources/unitofmeasure.md) object.
 
-The following table shows the properties that are required when you create the unitOfMeasure.
+The following table shows the properties that are required when you create the [unitOfMeasure](../resources/unitofmeasure.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/unitsOfMeasure
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/unitsOfMeasure
 Content-type: application/json
 Content-length: 189
 
@@ -90,11 +92,11 @@ Content-Length: 302
 
 {
   "@odata.type": "#microsoft.graph.unitOfMeasure",
-  "id": "3ed97dcf-7dcf-3ed9-cf7d-d93ecf7dd93e",
+  "id": "cdeed330-d330-cdee-30d3-eecd30d3eecd",
   "code": "Code value",
   "displayName": "Display Name value",
   "internationalStandardCode": "International Standard Code value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

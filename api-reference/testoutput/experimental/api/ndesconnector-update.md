@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update ndesConnector
 
+Namespace: microsoft.graph
+
 Update the properties of a [ndesConnector](../resources/ndesconnector.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/ndesConnectors/{ndesConnectorId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [ndesConnector](../resources/ndesConnector.md) object.
+In the request body, supply a JSON representation for the [ndesConnector](../resources/ndesconnector.md) object.
 
 The following table shows the properties that are required when you create the [ndesConnector](../resources/ndesconnector.md).
 
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/ndesConnectors/{ndesConnectorId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/ndesConnectors/{ndesConnectorId}
 Content-type: application/json
 Content-length: 183
 
 {
   "@odata.type": "#microsoft.graph.ndesConnector",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
   "state": "String",
   "displayName": "Display Name value"
 }
@@ -87,8 +89,8 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.ndesConnector",
-  "id": "8d428f99-8f99-8d42-998f-428d998f428d",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+  "id": "963deb66-eb66-963d-66eb-3d9666eb3d96",
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
   "state": "String",
   "displayName": "Display Name value"
 }

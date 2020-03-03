@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userFlows
 
+Namespace: microsoft.graph
+
 Get the identityUserFlows from the userFlows navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identity/userFlows
+GET https://graph.microsoft.com/localtest/identity/userFlows
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 221
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityUserFlow",
-      "id": "6cb5af95-af95-6cb5-95af-b56c95afb56c",
+      "id": "e6b36136-6136-e6b3-3661-b3e63661b3e6",
       "userFlowType": "String",
       "userFlowTypeVersion": "Single"
     }

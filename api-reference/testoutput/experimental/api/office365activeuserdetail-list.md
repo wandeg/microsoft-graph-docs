@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List office365ActiveUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActiveUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActiveUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1171
   "value": [
     {
       "@odata.type": "#microsoft.graph.office365ActiveUserDetail",
-      "id": "f706e6a6-e6a6-f706-a6e6-06f7a6e606f7",
+      "id": "188d3c66-3c66-188d-663c-8d18663c8d18",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "displayName": "Display Name value",

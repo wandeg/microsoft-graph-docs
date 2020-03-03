@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List profiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [profile](../resources/profile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.profile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.profile not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 139
   "value": [
     {
       "@odata.type": "#microsoft.graph.profile",
-      "id": "b20033af-33af-b200-af33-00b2af3300b2"
+      "id": "e4dae4fb-e4fb-e4da-fbe4-dae4fbe4dae4"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookRange
 
+Namespace: microsoft.graph
+
 Create a new [workbookRange](../resources/workbookrange.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRange not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRange object.
+In the request body, supply a JSON representation for the [workbookRange](../resources/workbookrange.md) object.
 
-The following table shows the properties that are required when you create the workbookRange.
+The following table shows the properties that are required when you create the [workbookRange](../resources/workbookrange.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,17 +51,17 @@ The following table shows the properties that are required when you create the w
 |columnCount|Int32||
 |columnHidden|Boolean||
 |columnIndex|Int32||
-|formulas|[Json](../resources/Json.md)||
-|formulasLocal|[Json](../resources/Json.md)||
-|formulasR1C1|[Json](../resources/Json.md)||
+|formulas|[Json](../resources/json.md)||
+|formulasLocal|[Json](../resources/json.md)||
+|formulasR1C1|[Json](../resources/json.md)||
 |hidden|Boolean||
-|numberFormat|[Json](../resources/Json.md)||
+|numberFormat|[Json](../resources/json.md)||
 |rowCount|Int32||
 |rowHidden|Boolean||
 |rowIndex|Int32||
-|text|[Json](../resources/Json.md)||
-|valueTypes|[Json](../resources/Json.md)||
-|values|[Json](../resources/Json.md)||
+|text|[Json](../resources/json.md)||
+|valueTypes|[Json](../resources/json.md)||
+|values|[Json](../resources/json.md)||
 
 
 
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRange not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRange not found
 Content-type: application/json
 Content-length: 764
 
@@ -131,7 +133,7 @@ Content-Length: 813
 
 {
   "@odata.type": "#microsoft.graph.workbookRange",
-  "id": "8b820912-0912-8b82-1209-828b1209828b",
+  "id": "f1cc45c2-45c2-f1cc-c245-ccf1c245ccf1",
   "address": "Address value",
   "addressLocal": "Address Local value",
   "cellCount": 9,

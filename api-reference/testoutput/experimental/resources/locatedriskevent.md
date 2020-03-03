@@ -5,44 +5,45 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # locatedRiskEvent resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [identityRiskEvent](../resources/identityRiskEvent.md)
+
+
+Inherits from [identityRiskEvent](../resources/identityriskevent.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List locatedRiskEvents](../api/locatedriskevent-list.md)|[locatedRiskEvent](../resources/locatedRiskEvent.md) collection|List properties and relationships of the [locatedRiskEvent](../resources/locatedriskevent.md) objects.|
-|[Get locatedRiskEvent](../api/locatedriskevent-get.md)|[locatedRiskEvent](../resources/locatedRiskEvent.md)|Read properties and relationships of the [locatedRiskEvent](../resources/locatedriskevent.md) object.|
+|[List locatedRiskEvents](../api/locatedriskevent-list.md)|[locatedRiskEvent](../resources/locatedriskevent.md) collection|List properties and relationships of the [locatedRiskEvent](../resources/locatedriskevent.md) objects.|
+|[Get locatedRiskEvent](../api/locatedriskevent-get.md)|[locatedRiskEvent](../resources/locatedriskevent.md)|Read properties and relationships of the [locatedRiskEvent](../resources/locatedriskevent.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|closedDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|createdDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|closedDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|createdDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |ipAddress|String||
-|location|[signInLocation](../resources/signInLocation.md)||
-|riskEventDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|riskEventStatus|Enumeration| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md). Possible values are: `active`, `remediated`, `dismissedAsFixed`, `dismissedAsFalsePositive`, `dismissedAsIgnore`, `loginBlocked`, `closedMfaAuto`, `closedMultipleReasons`.|
-|riskEventType|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|riskLevel|Enumeration| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|userDisplayName|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|userId|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|userPrincipalName|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|location|[signInLocation](../resources/signinlocation.md)||
+|riskEventDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|riskEventStatus|Enumeration| Inherited from [identityRiskEvent](../resources/identityriskevent.md). Possible values are: `active`, `remediated`, `dismissedAsFixed`, `dismissedAsFalsePositive`, `dismissedAsIgnore`, `loginBlocked`, `closedMfaAuto`, `closedMultipleReasons`.|
+|riskEventType|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|riskLevel|Enumeration| Inherited from [identityRiskEvent](../resources/identityriskevent.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|userDisplayName|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|userId|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|userPrincipalName|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|impactedUser|[user](../resources/user.md)| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|impactedUser|[user](../resources/user.md)| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

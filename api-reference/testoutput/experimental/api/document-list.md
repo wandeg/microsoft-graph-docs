@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List documents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [document](../resources/document.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.document not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.document not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 140
   "value": [
     {
       "@odata.type": "#microsoft.graph.document",
-      "id": "3842d4a1-d4a1-3842-a1d4-4238a1d44238"
+      "id": "c4322df0-2df0-c432-f02d-32c4f02d32c4"
     }
   ]
 }

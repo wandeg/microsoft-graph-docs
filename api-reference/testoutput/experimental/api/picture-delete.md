@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete picture
 
+Namespace: microsoft.graph
+
 Deletes a [picture](../resources/picture.md).
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/picture/{pictureId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/picture/{pictureId}
 ```
 
 ### Response

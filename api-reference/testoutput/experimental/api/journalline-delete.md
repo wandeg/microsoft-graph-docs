@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete journalLine
 
+Namespace: microsoft.graph
+
 Deletes a [journalLine](../resources/journalline.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/journalLines/{journalLineId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/journalLines/{journalLineId}
 ```
 
 ### Response

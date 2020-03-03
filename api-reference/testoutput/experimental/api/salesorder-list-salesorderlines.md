@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List salesOrderLines
 
+Namespace: microsoft.graph
+
 Get the salesOrderLines from the salesOrderLines navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesOrders/{salesOrderId}/salesOrderLines
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesOrders/{salesOrderId}/salesOrderLines
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Content-Length: 1120
   "value": [
     {
       "@odata.type": "#microsoft.graph.salesOrderLine",
-      "id": "44a90d72-0d72-44a9-720d-a944720da944",
-      "documentId": "419d5728-5728-419d-2857-9d4128579d41",
+      "id": "54b45e60-5e60-54b4-605e-b454605eb454",
+      "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
       "sequence": 8,
-      "itemId": "28a289c5-89c5-28a2-c589-a228c589a228",
-      "accountId": "7538836d-836d-7538-6d83-38756d833875",
+      "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
+      "accountId": "95554513-4513-9555-1345-559513455595",
       "lineType": "Line Type value",
       "description": "Description value",
-      "unitOfMeasureId": "9d7dd2ef-d2ef-9d7d-efd2-7d9defd27d9d",
+      "unitOfMeasureId": "c915dcf5-dcf5-c915-f5dc-15c9f5dc15c9",
       "quantity": "4.2",
       "unitPrice": "4.2",
       "discountAmount": "4.2",

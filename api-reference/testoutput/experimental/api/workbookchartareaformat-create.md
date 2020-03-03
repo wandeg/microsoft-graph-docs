@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartAreaFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartAreaFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartAreaFormat object.
+In the request body, supply a JSON representation for the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartAreaFormat.
+The following table shows the properties that are required when you create the [workbookChartAreaFormat](../resources/workbookchartareaformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAreaFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAreaFormat not found
 Content-type: application/json
 Content-length: 65
 
@@ -83,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-  "id": "f1b41255-1255-f1b4-5512-b4f15512b4f1"
+  "id": "86c39342-9342-86c3-4293-c3864293c386"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedIOSLobApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedIOSLobApp](../resources/managedioslobapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.managedIOSLobApp not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.managedIOSLobApp not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1765
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedIOSLobApp",
-    "id": "1b9d4644-4644-1b9d-4446-9d1b44469d1b",
+    "id": "ebff4fa5-4fa5-ebff-a54f-ffeba54fffeb",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -81,8 +83,8 @@ Content-Length: 1765
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",
@@ -116,7 +118,7 @@ Content-Length: 1765
       "v12_0": true,
       "v13_0": true
     },
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
     "versionNumber": "Version Number value",
     "buildNumber": "Build Number value",
     "identityVersion": "Identity Version value"

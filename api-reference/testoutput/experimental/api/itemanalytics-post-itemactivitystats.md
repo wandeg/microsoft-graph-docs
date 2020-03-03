@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add itemActivityStats
 
+Namespace: microsoft.graph
+
 Add itemActivityStats by posting to the itemActivityStats collection.
 
 ## Permissions
@@ -36,22 +38,22 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/a
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the itemActivityStat object.
+In the request body, supply a JSON representation for the [itemActivityStat](../resources/itemactivitystat.md) object.
 
-The following table shows the properties that are required when you create the itemActivityStat.
+The following table shows the properties that are required when you create the [itemActivityStat](../resources/itemactivitystat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |startDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
-|access|[itemActionStat](../resources/itemActionStat.md)||
-|create|[itemActionStat](../resources/itemActionStat.md)||
-|delete|[itemActionStat](../resources/itemActionStat.md)||
-|edit|[itemActionStat](../resources/itemActionStat.md)||
-|move|[itemActionStat](../resources/itemActionStat.md)||
+|access|[itemActionStat](../resources/itemactionstat.md)||
+|create|[itemActionStat](../resources/itemactionstat.md)||
+|delete|[itemActionStat](../resources/itemactionstat.md)||
+|edit|[itemActionStat](../resources/itemactionstat.md)||
+|move|[itemActionStat](../resources/itemactionstat.md)||
 |isTrending|Boolean||
-|incompleteData|[incompleteData](../resources/incompleteData.md)||
+|incompleteData|[incompleteData](../resources/incompletedata.md)||
 
 
 
@@ -68,14 +70,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats
 Content-type: application/json
 Content-length: 786
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -96,7 +98,7 @@ Content-length: 786
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:00:48.9466137+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:01:23.4815949+03:00",
     "wasThrottled": true
   }
 }
@@ -117,9 +119,9 @@ Content-Length: 835
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "id": "192b2584-2584-192b-8425-2b1984252b19",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "id": "9661ef0f-ef0f-9661-0fef-61960fef6196",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -140,7 +142,7 @@ Content-Length: 835
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:00:48.9466137+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:01:23.4815949+03:00",
     "wasThrottled": true
   }
 }

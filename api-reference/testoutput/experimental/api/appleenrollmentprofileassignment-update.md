@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update appleEnrollmentProfileAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiated
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [appleEnrollmentProfileAssignment](../resources/appleEnrollmentProfileAssignment.md) object.
+In the request body, supply a JSON representation for the [appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md) object.
 
 The following table shows the properties that are required when you create the [appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target for the Apple user initiated deployment profile.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target for the Apple user initiated deployment profile.|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
 Content-type: application/json
 Content-length: 172
 
@@ -85,7 +87,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.appleEnrollmentProfileAssignment",
-  "id": "50c95a49-5a49-50c9-495a-c950495ac950",
+  "id": "c52ec797-c797-c52e-97c7-2ec597c72ec5",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

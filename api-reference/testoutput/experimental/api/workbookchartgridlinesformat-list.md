@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartGridlinesFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartGridlinesFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartGridlinesFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 160
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartGridlinesFormat",
-      "id": "96bd926c-926c-96bd-6c92-bd966c92bd96"
+      "id": "e0765f8f-5f8f-e076-8f5f-76e08f5f76e0"
     }
   ]
 }

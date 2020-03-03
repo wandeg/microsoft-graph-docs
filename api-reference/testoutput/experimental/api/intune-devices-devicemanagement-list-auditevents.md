@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List auditEvents
 
+Namespace: microsoft.graph
+
 Get the auditEvents from the auditEvents navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/auditEvents
+GET https://graph.microsoft.com/localtest/deviceManagement/auditEvents
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1690
   "value": [
     {
       "@odata.type": "#microsoft.graph.auditEvent",
-      "id": "1d3314bb-14bb-1d33-bb14-331dbb14331d",
+      "id": "243c7b01-7b01-243c-017b-3c24017b3c24",
       "displayName": "Display Name value",
       "componentName": "Component Name value",
       "actor": {
@@ -93,11 +95,11 @@ Content-Length: 1690
         ]
       },
       "activity": "Activity value",
-      "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+      "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
       "activityType": "Activity Type value",
       "activityOperationType": "Activity Operation Type value",
       "activityResult": "Activity Result value",
-      "correlationId": "474bc32e-c32e-474b-2ec3-4b472ec34b47",
+      "correlationId": "1a3c08db-08db-1a3c-db08-3c1adb083c1a",
       "resources": [
         {
           "@odata.type": "microsoft.graph.auditResource",

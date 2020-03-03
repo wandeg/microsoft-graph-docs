@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get tenantSetupInfo
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [tenantSetupInfo](../resources/tenantsetupinfo.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.tenantSetupInfo not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.tenantSetupInfo not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 344
 {
   "value": {
     "@odata.type": "#microsoft.graph.tenantSetupInfo",
-    "id": "0594d45c-d45c-0594-5cd4-94055cd49405",
+    "id": "eb5fba04-ba04-eb5f-04ba-5feb04ba5feb",
     "userRolesActions": "User Roles Actions value",
     "firstTimeSetup": true,
     "relevantRolesSettings": [

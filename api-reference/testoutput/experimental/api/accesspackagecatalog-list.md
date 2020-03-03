@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageCatalogs
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [accessPackageCatalog](../resources/accesspackagecatalog.md) objects.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageCatalogs
+GET https://graph.microsoft.com/localtest/accessPackageCatalogs
 ```
 
 ### Response
@@ -65,22 +67,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 576
+Content-Length: 575
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageCatalog",
-      "id": "1dc97b7e-7b7e-1dc9-7e7b-c91d7e7bc91d",
+      "id": "200673a9-73a9-2006-a973-0620a9730620",
       "displayName": "Display Name value",
       "description": "Description value",
       "catalogType": "Catalog Type value",
       "catalogStatus": "Catalog Status value",
       "isExternallyVisible": true,
       "createdBy": "Created By value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "modifiedBy": "Modified By value",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
     }
   ]
 }

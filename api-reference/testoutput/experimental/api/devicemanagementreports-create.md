@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementReports
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementReports](../resources/devicemanagementreports.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceManagementReports not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementReports object.
+In the request body, supply a JSON representation for the [deviceManagementReports](../resources/devicemanagementreports.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementReports.
+The following table shows the properties that are required when you create the [deviceManagementReports](../resources/devicemanagementreports.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementReports not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementReports not found
 Content-type: application/json
 Content-length: 65
 
@@ -83,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementReports",
-  "id": "ecfcf482-f482-ecfc-82f4-fcec82f4fcec"
+  "id": "9848e393-e393-9848-93e3-489893e34898"
 }
 ```
 

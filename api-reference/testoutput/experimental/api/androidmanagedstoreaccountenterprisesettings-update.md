@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidManagedStoreAccountEnterpriseSettings
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/androidManagedStoreAccountEnterpriseSettings
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidManagedStoreAccountEnterpriseSettings](../resources/androidManagedStoreAccountEnterpriseSettings.md) object.
+In the request body, supply a JSON representation for the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.
 
 The following table shows the properties that are required when you create the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md).
 
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the [
 |enrollmentTarget|Enumeration|Indicates which users can enroll devices in Android Enterprise device management. Possible values are: `none`, `all`, `targeted`, `targetedAsEnrollmentRestrictions`.|
 |targetGroupIds|String collection|Specifies which AAD groups can enroll devices in Android for Work device management if enrollmentTarget is set to 'Targeted'|
 |deviceOwnerManagementEnabled|Boolean|Indicates if this account is flighting for Android Device Owner Management with CloudDPC.|
-|companyCodes|[androidEnrollmentCompanyCode](../resources/androidEnrollmentCompanyCode.md) collection|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
+|companyCodes|[androidEnrollmentCompanyCode](../resources/androidenrollmentcompanycode.md) collection|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
 |androidDeviceOwnerFullyManagedEnrollmentEnabled|Boolean|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
 
 
@@ -69,14 +71,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAccountEnterpriseSettings
+PATCH https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAccountEnterpriseSettings
 Content-type: application/json
 Content-length: 888
 
 {
   "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
@@ -115,13 +117,13 @@ Content-Length: 1001
 
 {
   "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
-  "id": "c9740eee-0eee-c974-ee0e-74c9ee0e74c9",
+  "id": "d80b6672-6672-d80b-7266-0bd872660bd8",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "enrollmentTarget": "String",
   "targetGroupIds": [
     "Target Group Ids value"

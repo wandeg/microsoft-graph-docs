@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete attributeMappingFunctionSchema
 
+Namespace: microsoft.graph
+
 Deletes a [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/functions/{functionsId}
+DELETE https://graph.microsoft.com/localtest/functions/{functionsId}
 ```
 
 ### Response

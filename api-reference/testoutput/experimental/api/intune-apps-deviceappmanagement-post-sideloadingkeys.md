@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add sideLoadingKeys
 
+Namespace: microsoft.graph
+
 Add sideLoadingKeys by posting to the sideLoadingKeys collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/sideLoadingKeys/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sideLoadingKey object.
+In the request body, supply a JSON representation for the [sideLoadingKey](../resources/sideloadingkey.md) object.
 
-The following table shows the properties that are required when you create the sideLoadingKey.
+The following table shows the properties that are required when you create the [sideLoadingKey](../resources/sideloadingkey.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/sideLoadingKeys
+POST https://graph.microsoft.com/localtest/deviceAppManagement/sideLoadingKeys
 Content-type: application/json
 Content-length: 246
 
@@ -93,7 +95,7 @@ Content-Length: 295
 
 {
   "@odata.type": "#microsoft.graph.sideLoadingKey",
-  "id": "ac0fabc1-abc1-ac0f-c1ab-0facc1ab0fac",
+  "id": "fa969573-9573-fa96-7395-96fa739596fa",
   "value": "Value value",
   "displayName": "Display Name value",
   "description": "Description value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedApproval
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedApproval](../resources/privilegedapproval.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /privilegedApproval/{privilegedApprovalId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedApproval](../resources/privilegedApproval.md) object.
+In the request body, supply a JSON representation for the [privilegedApproval](../resources/privilegedapproval.md) object.
 
 The following table shows the properties that are required when you create the [privilegedApproval](../resources/privilegedapproval.md).
 
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedApproval/{privilegedApprovalId}
+PATCH https://graph.microsoft.com/localtest/privilegedApproval/{privilegedApprovalId}
 Content-type: application/json
-Content-length: 438
+Content-length: 439
 
 {
   "@odata.type": "#microsoft.graph.privilegedApproval",
@@ -77,11 +79,11 @@ Content-length: 438
   "roleId": "Role Id value",
   "approvalType": "Approval Type value",
   "approvalState": "String",
-  "approvalDuration": "-PT26.664797S",
+  "approvalDuration": "-PT43.0884826S",
   "requestorReason": "Requestor Reason value",
   "approverReason": "Approver Reason value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00"
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
 }
 ```
 
@@ -95,20 +97,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 487
+Content-Length: 488
 
 {
   "@odata.type": "#microsoft.graph.privilegedApproval",
-  "id": "e6d77812-7812-e6d7-1278-d7e61278d7e6",
+  "id": "1f8359bc-59bc-1f83-bc59-831fbc59831f",
   "userId": "User Id value",
   "roleId": "Role Id value",
   "approvalType": "Approval Type value",
   "approvalState": "String",
-  "approvalDuration": "-PT26.664797S",
+  "approvalDuration": "-PT43.0884826S",
   "requestorReason": "Requestor Reason value",
   "approverReason": "Approver Reason value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00"
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
 }
 ```
 

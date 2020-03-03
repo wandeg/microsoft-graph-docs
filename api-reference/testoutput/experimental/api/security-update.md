@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update security
 
+Namespace: microsoft.graph
+
 Update the properties of a [security](../resources/security.md) object.
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|providerStatus|[securityProviderStatus](../resources/securityProviderStatus.md) collection||
+|providerStatus|[securityProviderStatus](../resources/securityproviderstatus.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/Security
+PATCH https://graph.microsoft.com/localtest/Security
 Content-type: application/json
 Content-length: 320
 
@@ -92,7 +94,7 @@ Content-Length: 369
 
 {
   "@odata.type": "#microsoft.graph.security",
-  "id": "16f98c2a-8c2a-16f9-2a8c-f9162a8cf916",
+  "id": "2026c75e-c75e-2026-5ec7-26205ec72620",
   "providerStatus": [
     {
       "@odata.type": "microsoft.graph.securityProviderStatus",

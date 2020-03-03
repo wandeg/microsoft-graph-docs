@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # account resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List accounts](../api/account-list.md)|[account](../resources/account.md) collection|List properties and relationships of the [account](../resources/account.md) objects.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[Create account](../api/account-create.md)|[account](../resources/account.md)|Create a new [account](../resources/account.md) object.|
 |[Delete account](../api/account-delete.md)|None|Deletes a [account](../resources/account.md).|
 |[Update account](../api/account-update.md)|[account](../resources/account.md)|Update the properties of a [account](../resources/account.md) object.|
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create teamsDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.teamsDeviceUsageUserDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsDeviceUsageUserDetail object.
+In the request body, supply a JSON representation for the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.
 
-The following table shows the properties that are required when you create the teamsDeviceUsageUserDetail.
+The following table shows the properties that are required when you create the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsDeviceUsageUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsDeviceUsageUserDetail not found
 Content-type: application/json
 Content-length: 416
 
@@ -107,7 +109,7 @@ Content-Length: 465
 
 {
   "@odata.type": "#microsoft.graph.teamsDeviceUsageUserDetail",
-  "id": "7b410dca-0dca-7b41-ca0d-417bca0d417b",
+  "id": "fa1e1d91-1d91-fa1e-911d-1efa911d1efa",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

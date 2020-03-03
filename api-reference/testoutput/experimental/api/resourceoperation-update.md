@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update resourceOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [resourceOperation](../resources/resourceoperation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/resourceOperations/{resourceOperationId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [resourceOperation](../resources/resourceOperation.md) object.
+In the request body, supply a JSON representation for the [resourceOperation](../resources/resourceoperation.md) object.
 
 The following table shows the properties that are required when you create the [resourceOperation](../resources/resourceoperation.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations/{resourceOperationId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/resourceOperations/{resourceOperationId}
 Content-type: application/json
 Content-length: 249
 
@@ -91,7 +93,7 @@ Content-Length: 298
 
 {
   "@odata.type": "#microsoft.graph.resourceOperation",
-  "id": "057e76e9-76e9-057e-e976-7e05e9767e05",
+  "id": "bc898d45-8d45-bc89-458d-89bc458d89bc",
   "resource": "Resource value",
   "resourceName": "Resource Name value",
   "actionName": "Action Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add exemptAppLockerFiles
 
+Namespace: microsoft.graph
+
 Add exemptAppLockerFiles by posting to the exemptAppLockerFiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformati
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsInformationProtectionAppLockerFile object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
 
-The following table shows the properties that are required when you create the windowsInformationProtectionAppLockerFile.
+The following table shows the properties that are required when you create the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles
+POST https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles
 Content-type: application/json
 Content-length: 211
 
@@ -91,7 +93,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-  "id": "327b9363-9363-327b-6393-7b3263937b32",
+  "id": "c74935a6-35a6-c749-a635-49c7a63549c7",
   "displayName": "Display Name value",
   "fileHash": "File Hash value",
   "file": "ZmlsZQ==",

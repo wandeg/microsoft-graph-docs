@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # purchaseInvoice resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,19 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get purchaseInvoice](../api/purchaseinvoice-get.md)|[purchaseInvoice](../resources/purchaseInvoice.md)|Read properties and relationships of the [purchaseInvoice](../resources/purchaseinvoice.md) object.|
+|[List purchaseInvoices](../api/purchaseinvoice-list.md)|[purchaseInvoice](../resources/purchaseinvoice.md) collection|List properties and relationships of the [purchaseInvoice](../resources/purchaseinvoice.md) objects.|
+|[Get purchaseInvoice](../api/purchaseinvoice-get.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Read properties and relationships of the [purchaseInvoice](../resources/purchaseinvoice.md) object.|
+|[Create purchaseInvoice](../api/purchaseinvoice-create.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Create a new [purchaseInvoice](../resources/purchaseinvoice.md) object.|
 |[Delete purchaseInvoice](../api/purchaseinvoice-delete.md)|None|Deletes a [purchaseInvoice](../resources/purchaseinvoice.md).|
-|[Update purchaseInvoice](../api/purchaseinvoice-update.md)|[purchaseInvoice](../resources/purchaseInvoice.md)|Update the properties of a [purchaseInvoice](../resources/purchaseinvoice.md) object.|
+|[Update purchaseInvoice](../api/purchaseinvoice-update.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Update the properties of a [purchaseInvoice](../resources/purchaseinvoice.md) object.|
 |[post](../api/purchaseinvoice-post.md)|None||
-|[List purchaseInvoiceLines](../api/purchaseinvoice-list-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseInvoiceLine.md) collection|Get the purchaseInvoiceLines from the purchaseInvoiceLines navigation property.|
-|[Add purchaseInvoiceLines](../api/purchaseinvoice-post-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseInvoiceLine.md)|Add purchaseInvoiceLines by posting to the purchaseInvoiceLines collection.|
+|[List purchaseInvoiceLines](../api/purchaseinvoice-list-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md) collection|Get the purchaseInvoiceLines from the purchaseInvoiceLines navigation property.|
+|[Add purchaseInvoiceLines](../api/purchaseinvoice-post-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Add purchaseInvoiceLines by posting to the purchaseInvoiceLines collection.|
 |[Get vendor](../api/vendor-get.md)|[vendor](../resources/vendor.md)|Read properties and relationships of the [vendor](../resources/vendor.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|buyFromAddress|[postalAddressType](../resources/postalAddressType.md)||
+|buyFromAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |currencyCode|String||
 |currencyId|Guid||
 |discountAmount|Decimal||
@@ -41,13 +44,13 @@ Inherits from [entity](../resources/entity.md)
 |invoiceDate|Date||
 |lastModifiedDateTime|DateTimeOffset||
 |number|String||
-|payToAddress|[postalAddressType](../resources/postalAddressType.md)||
+|payToAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |payToContact|String||
 |payToName|String||
 |payToVendorId|Guid||
 |payToVendorNumber|String||
 |pricesIncludeTax|Boolean||
-|shipToAddress|[postalAddressType](../resources/postalAddressType.md)||
+|shipToAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |shipToContact|String||
 |shipToName|String||
 |status|String||
@@ -63,7 +66,7 @@ Inherits from [entity](../resources/entity.md)
 |Relationship|Type|Description|
 |:---|:---|:---|
 |currency|[currency](../resources/currency.md)||
-|purchaseInvoiceLines|[purchaseInvoiceLine](../resources/purchaseInvoiceLine.md) collection||
+|purchaseInvoiceLines|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md) collection||
 |vendor|[vendor](../resources/vendor.md)||
 
 ## JSON Representation

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createReply
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,23 +62,23 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.calendarSharingMessage not found/createReply
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.calendarSharingMessage not found/createReply
 
 Content-type: application/json
-Content-length: 2116
+Content-length: 2115
 
 {
   "Message": {
     "@odata.type": "#microsoft.graph.message",
-    "id": "c9ccd34c-d34c-c9cc-4cd3-ccc94cd3ccc9",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "1bf013e5-13e5-1bf0-e513-f01be513f01b",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
-    "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-    "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+    "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+    "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
     "hasAttachments": true,
     "internetMessageId": "Internet Message Id value",
     "internetMessageHeaders": [
@@ -154,20 +156,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2083
+Content-Length: 2082
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.message",
-    "id": "c9ccd34c-d34c-c9cc-4cd3-ccc94cd3ccc9",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "1bf013e5-13e5-1bf0-e513-f01be513f01b",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
-    "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-    "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+    "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+    "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
     "hasAttachments": true,
     "internetMessageId": "Internet Message Id value",
     "internetMessageHeaders": [

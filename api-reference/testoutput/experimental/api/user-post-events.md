@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add events
 
+Namespace: microsoft.graph
+
 Add events by posting to the events collection.
 
 ## Permissions
@@ -37,38 +39,38 @@ POST /users/{usersId}/events/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the event object.
+In the request body, supply a JSON representation for the [event](../resources/event.md) object.
 
-The following table shows the properties that are required when you create the event.
+The following table shows the properties that are required when you create the [event](../resources/event.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |originalStartTimeZone|String||
 |originalEndTimeZone|String||
-|responseStatus|[responseStatus](../resources/responseStatus.md)||
+|responseStatus|[responseStatus](../resources/responsestatus.md)||
 |uid|String||
 |reminderMinutesBeforeStart|Int32||
 |isReminderOn|Boolean||
 |hasAttachments|Boolean||
 |subject|String||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |sensitivity|Enumeration|. Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |originalStart|DateTimeOffset||
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |location|[location](../resources/location.md)||
 |locations|[location](../resources/location.md) collection||
 |isAllDay|Boolean||
 |isCancelled|Boolean||
 |isOrganizer|Boolean||
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
 |responseRequested|Boolean||
 |seriesMasterId|String||
 |showAs|Enumeration|. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
@@ -79,7 +81,7 @@ The following table shows the properties that are required when you create the e
 |onlineMeetingUrl|String||
 |isOnlineMeeting|Boolean||
 |onlineMeetingProvider|Enumeration|. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
-|onlineMeeting|[onlineMeetingInfo](../resources/onlineMeetingInfo.md)||
+|onlineMeeting|[onlineMeetingInfo](../resources/onlinemeetinginfo.md)||
 |allowNewTimeProposals|Boolean||
 
 
@@ -97,7 +99,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events
+POST https://graph.microsoft.com/localtest/me/events
 Content-type: application/json
 Content-length: 4043
 
@@ -112,7 +114,7 @@ Content-length: 4043
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:01:32.2341712+03:00"
+    "time": "2017-01-01T00:02:03.2535944+03:00"
   },
   "uid": "Uid value",
   "reminderMinutesBeforeStart": 10,
@@ -132,7 +134,7 @@ Content-length: 4043
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:01:10.0724857+03:00",
+  "originalStart": "2017-01-01T00:01:49.3724493+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
@@ -254,13 +256,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 4215
+Content-Length: 4214
 
 {
   "@odata.type": "#microsoft.graph.event",
-  "id": "5e1d7c31-7c31-5e1d-317c-1d5e317c1d5e",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "5eb27d1d-7d1d-5eb2-1d7d-b25e1d7db25e",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -270,7 +272,7 @@ Content-Length: 4215
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:01:32.2341712+03:00"
+    "time": "2017-01-01T00:02:03.2535944+03:00"
   },
   "uid": "Uid value",
   "reminderMinutesBeforeStart": 10,
@@ -290,7 +292,7 @@ Content-Length: 4215
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:01:10.0724857+03:00",
+  "originalStart": "2017-01-01T00:01:49.3724493+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },

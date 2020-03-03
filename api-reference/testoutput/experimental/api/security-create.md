@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create security
 
+Namespace: microsoft.graph
+
 Create a new [security](../resources/security.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.security not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the security object.
+In the request body, supply a JSON representation for the [security](../resources/security.md) object.
 
-The following table shows the properties that are required when you create the security.
+The following table shows the properties that are required when you create the [security](../resources/security.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|providerStatus|[securityProviderStatus](../resources/securityProviderStatus.md) collection||
+|providerStatus|[securityProviderStatus](../resources/securityproviderstatus.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.security not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.security not found
 Content-type: application/json
 Content-length: 320
 
@@ -94,7 +96,7 @@ Content-Length: 369
 
 {
   "@odata.type": "#microsoft.graph.security",
-  "id": "16f98c2a-8c2a-16f9-2a8c-f9162a8cf916",
+  "id": "2026c75e-c75e-2026-5ec7-26205ec72620",
   "providerStatus": [
     {
       "@odata.type": "microsoft.graph.securityProviderStatus",

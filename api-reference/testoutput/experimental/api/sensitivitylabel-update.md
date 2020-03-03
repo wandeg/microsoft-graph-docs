@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sensitivityLabel
 
+Namespace: microsoft.graph
+
 Update the properties of a [sensitivityLabel](../resources/sensitivitylabel.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /dataClassification/sensitivityLabels/{sensitivityLabelId}/sublabels/{sens
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sensitivityLabel](../resources/sensitivityLabel.md) object.
+In the request body, supply a JSON representation for the [sensitivityLabel](../resources/sensitivitylabel.md) object.
 
 The following table shows the properties that are required when you create the [sensitivityLabel](../resources/sensitivitylabel.md).
 
@@ -51,10 +53,10 @@ The following table shows the properties that are required when you create the [
 |isEndpointProtectionEnabled|Boolean||
 |isDefault|Boolean||
 |applicationMode|Enumeration|. Possible values are: `manual`, `automatic`, `recommended`.|
-|labelActions|[labelActionBase](../resources/labelActionBase.md) collection||
-|assignedPolicies|[labelPolicy](../resources/labelPolicy.md) collection||
+|labelActions|[labelActionBase](../resources/labelactionbase.md) collection||
+|assignedPolicies|[labelPolicy](../resources/labelpolicy.md) collection||
 |priority|Int32||
-|autoLabeling|[autoLabeling](../resources/autoLabeling.md)||
+|autoLabeling|[autoLabeling](../resources/autolabeling.md)||
 
 
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels/{sensitivityLabelId}
+PATCH https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels/{sensitivityLabelId}
 Content-type: application/json
 Content-length: 921
 
@@ -124,7 +126,7 @@ Content-Length: 970
 
 {
   "@odata.type": "#microsoft.graph.sensitivityLabel",
-  "id": "0f094177-4177-0f09-7741-090f7741090f",
+  "id": "746d2913-2913-746d-1329-6d7413296d74",
   "name": "Name value",
   "displayName": "Display Name value",
   "description": "Description value",

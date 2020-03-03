@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementIntent
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementIntent](../resources/devicemanagementintent.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 418
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementIntent",
-    "id": "4beeb2c3-b2c3-4bee-c3b2-ee4bc3b2ee4b",
+    "id": "9b84de9a-de9a-9b84-9ade-849b9ade849b",
     "displayName": "Display Name value",
     "description": "Description value",
     "isAssigned": true,
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "templateId": "Template Id value",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"

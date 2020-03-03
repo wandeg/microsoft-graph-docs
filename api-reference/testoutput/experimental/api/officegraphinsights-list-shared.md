@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List shared
 
+Namespace: microsoft.graph
+
 Get the sharedInsights from the shared navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/shared
+GET https://graph.microsoft.com/localtest/me/insights/shared
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1494
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharedInsight",
-      "id": "f61710fa-10fa-f617-fa10-17f6fa1017f6",
+      "id": "6508b4d2-b4d2-6508-d2b4-0865d2b40865",
       "lastShared": {
         "@odata.type": "microsoft.graph.sharingDetail",
         "sharedBy": {
@@ -79,7 +81,7 @@ Content-Length: 1494
           "id": "Id value",
           "address": "Address value"
         },
-        "sharedDateTime": "2016-12-31T23:59:25.6718097+03:00",
+        "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00",
         "sharingSubject": "Sharing Subject value",
         "sharingType": "Sharing Type value",
         "sharingReference": {

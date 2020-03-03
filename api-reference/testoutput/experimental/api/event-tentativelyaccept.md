@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # tentativelyAccept
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|ProposedNewTime|[timeSlot](../resources/timeSlot.md)||
+|ProposedNewTime|[timeSlot](../resources/timeslot.md)||
 |SendResponse|Boolean||
 |Comment|String||
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events/{eventId}/tentativelyAccept
+POST https://graph.microsoft.com/localtest/me/events/{eventId}/tentativelyAccept
 
 Content-type: application/json
 Content-length: 136

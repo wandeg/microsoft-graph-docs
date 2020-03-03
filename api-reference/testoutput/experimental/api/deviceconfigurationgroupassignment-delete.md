@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceConfigurationGroupAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md).
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments/{deviceConfigurationGroupAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments/{deviceConfigurationGroupAssignmentId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get external
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [external](../resources/external.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/external
+GET https://graph.microsoft.com/localtest/external
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.external",
-    "id": "90de3a61-3a61-90de-613a-de90613ade90"
+    "id": "08c37937-7937-08c3-3779-c3083779c308"
   }
 }
 ```

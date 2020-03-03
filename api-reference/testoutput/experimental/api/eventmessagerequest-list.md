@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List eventMessageRequests
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [eventMessageRequest](../resources/eventmessagerequest.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.eventMessageRequest not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.eventMessageRequest not found
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5400
+Content-Length: 5399
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.eventMessageRequest",
-      "id": "083b94ba-94ba-083b-ba94-3b08ba943b08",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "6a8c2bf1-2bf1-6a8c-f12b-8c6af12b8c6a",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
       ],
-      "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-      "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+      "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+      "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
       "hasAttachments": true,
       "internetMessageId": "Internet Message Id value",
       "internetMessageHeaders": [

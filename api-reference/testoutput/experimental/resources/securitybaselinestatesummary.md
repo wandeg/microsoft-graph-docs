@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # securityBaselineStateSummary resource type
+
+
+Namespace: microsoft.graph
 
 The security baseline compliance state summary for the security baseline of the account.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List securityBaselineStateSummaries](../api/securitybaselinestatesummary-list.md)|[securityBaselineStateSummary](../resources/securityBaselineStateSummary.md) collection|List properties and relationships of the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) objects.|
-|[Get securityBaselineStateSummary](../api/securitybaselinestatesummary-get.md)|[securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|Read properties and relationships of the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
-|[Create securityBaselineStateSummary](../api/securitybaselinestatesummary-create.md)|[securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|Create a new [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
+|[List securityBaselineStateSummaries](../api/securitybaselinestatesummary-list.md)|[securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) collection|List properties and relationships of the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) objects.|
+|[Get securityBaselineStateSummary](../api/securitybaselinestatesummary-get.md)|[securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|Read properties and relationships of the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
+|[Create securityBaselineStateSummary](../api/securitybaselinestatesummary-create.md)|[securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|Create a new [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
 |[Delete securityBaselineStateSummary](../api/securitybaselinestatesummary-delete.md)|None|Deletes a [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md).|
-|[Update securityBaselineStateSummary](../api/securitybaselinestatesummary-update.md)|[securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|Update the properties of a [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
+|[Update securityBaselineStateSummary](../api/securitybaselinestatesummary-update.md)|[securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|Update the properties of a [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

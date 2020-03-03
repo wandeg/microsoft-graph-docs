@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # unsubscribe
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/messages/{messageId}/unsubscribe
+POST https://graph.microsoft.com/localtest/me/messages/{messageId}/unsubscribe
 ```
 
 ### Response

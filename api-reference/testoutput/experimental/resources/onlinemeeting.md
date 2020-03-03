@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onlineMeeting resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,18 +20,20 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get onlineMeeting](../api/onlinemeeting-get.md)|[onlineMeeting](../resources/onlineMeeting.md)|Read properties and relationships of the [onlineMeeting](../resources/onlinemeeting.md) object.|
+|[List onlineMeetings](../api/onlinemeeting-list.md)|[onlineMeeting](../resources/onlinemeeting.md) collection|List properties and relationships of the [onlineMeeting](../resources/onlinemeeting.md) objects.|
+|[Get onlineMeeting](../api/onlinemeeting-get.md)|[onlineMeeting](../resources/onlinemeeting.md)|Read properties and relationships of the [onlineMeeting](../resources/onlinemeeting.md) object.|
+|[Create onlineMeeting](../api/onlinemeeting-create.md)|[onlineMeeting](../resources/onlinemeeting.md)|Create a new [onlineMeeting](../resources/onlinemeeting.md) object.|
 |[Delete onlineMeeting](../api/onlinemeeting-delete.md)|None|Deletes a [onlineMeeting](../resources/onlinemeeting.md).|
-|[Update onlineMeeting](../api/onlinemeeting-update.md)|[onlineMeeting](../resources/onlineMeeting.md)|Update the properties of a [onlineMeeting](../resources/onlinemeeting.md) object.|
+|[Update onlineMeeting](../api/onlinemeeting-update.md)|[onlineMeeting](../resources/onlinemeeting.md)|Update the properties of a [onlineMeeting](../resources/onlinemeeting.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |accessLevel|Enumeration|. Possible values are: `everyone`, `invited`, `locked`, `sameEnterprise`, `sameEnterpriseAndFederated`.|
-|audioConferencing|[audioConferencing](../resources/audioConferencing.md)||
+|audioConferencing|[audioConferencing](../resources/audioconferencing.md)||
 |canceledDateTime|DateTimeOffset||
 |capabilities|Enumeration collection||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
 |creationDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
 |entryExitAnnouncement|Boolean||
@@ -39,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |isBroadcast|Boolean||
 |isCancelled|Boolean||
 |joinUrl|String||
-|participants|[meetingParticipants](../resources/meetingParticipants.md)||
+|participants|[meetingParticipants](../resources/meetingparticipants.md)||
 |startDateTime|DateTimeOffset||
 |subject|String||
 |videoTeleconferenceId|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookTableRow
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookTableRow](../resources/workbooktablerow.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookTableRow](../resources/workbookTableRow.md) object.
+In the request body, supply a JSON representation for the [workbookTableRow](../resources/workbooktablerow.md) object.
 
 The following table shows the properties that are required when you create the [workbookTableRow](../resources/workbooktablerow.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |index|Int32||
-|values|[Json](../resources/Json.md)||
+|values|[Json](../resources/json.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
 Content-type: application/json
 Content-length: 137
 
@@ -87,7 +89,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.workbookTableRow",
-  "id": "63618d4d-8d4d-6361-4d8d-61634d8d6163",
+  "id": "b54b86d2-86d2-b54b-d286-4bb5d2864bb5",
   "index": 5,
   "values": {
     "@odata.type": "microsoft.graph.Json"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update relyingPartyDetailedSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [relyingPartyDetailedSummary](../resources/relyingPartyDetailedSummary.md) object.
+In the request body, supply a JSON representation for the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.
 
 The following table shows the properties that are required when you create the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md).
 
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the [
 |signInSuccessRate|Double||
 |uniqueUserCount|Int64||
 |migrationStatus|Enumeration|. Possible values are: `ready`, `needsReview`, `additionalStepsRequired`, `unknownFutureValue`.|
-|migrationValidationDetails|[keyValuePair](../resources/keyValuePair.md) collection||
+|migrationValidationDetails|[keyValuePair](../resources/keyvaluepair.md) collection||
 |replyUrls|String collection||
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
 Content-type: application/json
 Content-length: 595
 
@@ -111,7 +113,7 @@ Content-Length: 644
 
 {
   "@odata.type": "#microsoft.graph.relyingPartyDetailedSummary",
-  "id": "b4388373-8373-b438-7383-38b4738338b4",
+  "id": "463e740e-740e-463e-0e74-3e460e743e46",
   "relyingPartyId": "Relying Party Id value",
   "serviceId": "Service Id value",
   "relyingPartyName": "Relying Party Name value",

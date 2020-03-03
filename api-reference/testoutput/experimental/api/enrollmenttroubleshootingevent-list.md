@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List enrollmentTroubleshootingEvents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [enrollmentTroubleshootingEvent](../resources/enrollmenttroubleshootingevent.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.enrollmentTroubleshootingEvent not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.enrollmentTroubleshootingEvent not found
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 1384
   "value": [
     {
       "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-      "id": "55790d6e-0d6e-5579-6e0d-79556e0d7955",
-      "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+      "id": "6c1958b3-58b3-6c19-b358-196cb358196c",
+      "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
       "correlationId": "Correlation Id value",
       "troubleshootingErrorDetails": {
         "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

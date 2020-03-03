@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidForWorkSettings resource type
+
+
+Namespace: microsoft.graph
 
 Settings for Android For Work.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidForWorkSettingses](../api/androidforworksettings-list.md)|[androidForWorkSettings](../resources/androidForWorkSettings.md) collection|List properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) objects.|
-|[Get androidForWorkSettings](../api/androidforworksettings-get.md)|[androidForWorkSettings](../resources/androidForWorkSettings.md)|Read properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) object.|
-|[Create androidForWorkSettings](../api/androidforworksettings-create.md)|[androidForWorkSettings](../resources/androidForWorkSettings.md)|Create a new [androidForWorkSettings](../resources/androidforworksettings.md) object.|
+|[List androidForWorkSettingses](../api/androidforworksettings-list.md)|[androidForWorkSettings](../resources/androidforworksettings.md) collection|List properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) objects.|
+|[Get androidForWorkSettings](../api/androidforworksettings-get.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Read properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) object.|
+|[Create androidForWorkSettings](../api/androidforworksettings-create.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Create a new [androidForWorkSettings](../resources/androidforworksettings.md) object.|
 |[Delete androidForWorkSettings](../api/androidforworksettings-delete.md)|None|Deletes a [androidForWorkSettings](../resources/androidforworksettings.md).|
-|[Update androidForWorkSettings](../api/androidforworksettings-update.md)|[androidForWorkSettings](../resources/androidForWorkSettings.md)|Update the properties of a [androidForWorkSettings](../resources/androidforworksettings.md) object.|
+|[Update androidForWorkSettings](../api/androidforworksettings-update.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Update the properties of a [androidForWorkSettings](../resources/androidforworksettings.md) object.|
 |[requestSignupUrl](../api/androidforworksettings-requestsignupurl.md)|String||
 |[completeSignup](../api/androidforworksettings-completesignup.md)|None||
 |[syncApps](../api/androidforworksettings-syncapps.md)|None||

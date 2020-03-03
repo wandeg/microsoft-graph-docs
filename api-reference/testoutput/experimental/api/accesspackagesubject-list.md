@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageSubjects
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.accessPackageSubject not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.accessPackageSubject not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 461
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageSubject",
-      "id": "c54c8df5-8df5-c54c-f58d-4cc5f58d4cc5",
+      "id": "a24dca23-ca23-a24d-23ca-4da223ca4da2",
       "objectId": "Object Id value",
       "altSecId": "Alt Sec Id value",
       "displayName": "Display Name value",

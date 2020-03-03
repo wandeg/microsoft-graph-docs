@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get policySet
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [policySet](../resources/policyset.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 526
+Content-Length: 525
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.policySet",
-    "id": "398fbcb0-bcb0-398f-b0bc-8f39b0bc8f39",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "69cb9a4c-9a4c-69cb-4c9a-cb694c9acb69",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "description": "Description value",
     "status": "String",

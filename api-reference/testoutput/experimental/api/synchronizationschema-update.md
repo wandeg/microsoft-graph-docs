@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update synchronizationSchema
 
+Namespace: microsoft.graph
+
 Update the properties of a [synchronizationSchema](../resources/synchronizationschema.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /applications/{applicationsId}/synchronization/templates/{synchronizationT
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [synchronizationSchema](../resources/synchronizationSchema.md) object.
+In the request body, supply a JSON representation for the [synchronizationSchema](../resources/synchronizationschema.md) object.
 
 The following table shows the properties that are required when you create the [synchronizationSchema](../resources/synchronizationschema.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |provisioningTaskIdentifier|String||
-|synchronizationRules|[synchronizationRule](../resources/synchronizationRule.md) collection||
+|synchronizationRules|[synchronizationRule](../resources/synchronizationrule.md) collection||
 |version|String||
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema
+PATCH https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema
 Content-type: application/json
 Content-length: 3128
 
@@ -174,7 +176,7 @@ Content-Length: 3177
 
 {
   "@odata.type": "#microsoft.graph.synchronizationSchema",
-  "id": "384985da-85da-3849-da85-4938da854938",
+  "id": "c89cff04-ff04-c89c-04ff-9cc804ff9cc8",
   "provisioningTaskIdentifier": "Provisioning Task Identifier value",
   "synchronizationRules": [
     {

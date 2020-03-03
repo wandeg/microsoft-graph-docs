@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # session resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
@@ -19,27 +20,29 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get session](../api/callrecords-session-get.md)|[session](../resources/callRecords-session.md)|Read properties and relationships of the [session](../resources/session.md) object.|
-|[Delete session](../api/callrecords-session-delete.md)|None|Deletes a [session](../resources/session.md).|
-|[Update session](../api/callrecords-session-update.md)|[session](../resources/callRecords-session.md)|Update the properties of a [session](../resources/session.md) object.|
-|[List segments](../api/callrecords-session-list-segments.md)|[segment](../resources/callRecords-segment.md) collection|Get the segments from the segments navigation property.|
-|[Add segments](../api/callrecords-session-post-segments.md)|[segment](../resources/callRecords-segment.md)|Add segments by posting to the segments collection.|
+|[List sessions](../api/callrecords-session-list.md)|[session](../resources/callrecords-session.md) collection|List properties and relationships of the [session](../resources/session.md) objects.|
+|[Get session](../api/callrecords-session-get.md)|[session](../resources/callrecords-session.md)|Read properties and relationships of the [session](../resources/callrecords-session.md) object.|
+|[Create session](../api/callrecords-session-create.md)|[session](../resources/callrecords-session.md)|Create a new [session](../resources/callrecords-session.md) object.|
+|[Delete session](../api/callrecords-session-delete.md)|None|Deletes a [session](../resources/callrecords-session.md).|
+|[Update session](../api/callrecords-session-update.md)|[session](../resources/callrecords-session.md)|Update the properties of a [session](../resources/callrecords-session.md) object.|
+|[List segments](../api/callrecords-session-list-segments.md)|[segment](../resources/callrecords-segment.md) collection|Get the segments from the segments navigation property.|
+|[Add segments](../api/callrecords-session-post-segments.md)|[segment](../resources/callrecords-segment.md)|Add segments by posting to the segments collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|callee|[endpoint](../resources/callRecords-endpoint.md)||
-|caller|[endpoint](../resources/callRecords-endpoint.md)||
+|callee|[endpoint](../resources/callrecords-endpoint.md)||
+|caller|[endpoint](../resources/callrecords-endpoint.md)||
 |endDateTime|DateTimeOffset||
-|failureInfo|[failureInfo](../resources/callRecords-failureInfo.md)||
-|id|String| Inherited from [entity](../resources/callRecords-entity.md)|
+|failureInfo|[failureInfo](../resources/callrecords-failureinfo.md)||
+|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
 |modalities|Enumeration collection||
 |startDateTime|DateTimeOffset||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|segments|[segment](../resources/callRecords-segment.md) collection||
+|segments|[segment](../resources/callrecords-segment.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

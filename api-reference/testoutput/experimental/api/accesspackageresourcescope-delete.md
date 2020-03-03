@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete accessPackageResourceScope
 
+Namespace: microsoft.graph
+
 Deletes a [accessPackageResourceScope](../resources/accesspackageresourcescope.md).
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceScope
+DELETE https://graph.microsoft.com/localtest/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}/accessPackageResourceScope
 ```
 
 ### Response

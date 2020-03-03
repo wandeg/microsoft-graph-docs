@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # directoryObject resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
@@ -19,17 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get directoryObject](../api/directoryobject-get.md)|[directoryObject](../resources/directoryObject.md)|Read properties and relationships of the [directoryObject](../resources/directoryobject.md) object.|
+|[List directoryObjects](../api/directoryobject-list.md)|[directoryObject](../resources/directoryobject.md) collection|List properties and relationships of the [directoryObject](../resources/directoryobject.md) objects.|
+|[Get directoryObject](../api/directoryobject-get.md)|[directoryObject](../resources/directoryobject.md)|Read properties and relationships of the [directoryObject](../resources/directoryobject.md) object.|
+|[Create directoryObject](../api/directoryobject-post-directoryobjects.md)|[directoryObject](../resources/directoryobject.md)|Create a new [directoryObject](../resources/directoryobject.md) object.|
 |[Delete directoryObject](../api/directoryobject-delete.md)|None|Deletes a [directoryObject](../resources/directoryobject.md).|
-|[Update directoryObject](../api/directoryobject-update.md)|[directoryObject](../resources/directoryObject.md)|Update the properties of a [directoryObject](../resources/directoryobject.md) object.|
-|[getByIds](../api/directoryobject-getbyids.md)|[directoryObject](../resources/directoryObject.md) collection||
+|[Update directoryObject](../api/directoryobject-update.md)|[directoryObject](../resources/directoryobject.md)|Update the properties of a [directoryObject](../resources/directoryobject.md) object.|
+|[getByIds](../api/directoryobject-getbyids.md)|[directoryObject](../resources/directoryobject.md) collection||
 |[validateProperties](../api/directoryobject-validateproperties.md)|None||
-|[getUserOwnedObjects](../api/directoryobject-getuserownedobjects.md)|[directoryObject](../resources/directoryObject.md)||
+|[getUserOwnedObjects](../api/directoryobject-getuserownedobjects.md)|[directoryObject](../resources/directoryobject.md)||
 |[checkMemberGroups](../api/directoryobject-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/directoryobject-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/directoryobject-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/directoryobject-getmemberobjects.md)|String collection||
-|[restore](../api/directoryobject-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/directoryobject-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|

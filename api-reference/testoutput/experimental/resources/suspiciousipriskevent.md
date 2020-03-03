@@ -5,47 +5,48 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # suspiciousIpRiskEvent resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [locatedRiskEvent](../resources/locatedRiskEvent.md)
+
+
+Inherits from [locatedRiskEvent](../resources/locatedriskevent.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List suspiciousIpRiskEvents](../api/suspiciousipriskevent-list.md)|[suspiciousIpRiskEvent](../resources/suspiciousIpRiskEvent.md) collection|List properties and relationships of the [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) objects.|
-|[Get suspiciousIpRiskEvent](../api/suspiciousipriskevent-get.md)|[suspiciousIpRiskEvent](../resources/suspiciousIpRiskEvent.md)|Read properties and relationships of the [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
-|[Create suspiciousIpRiskEvent](../api/suspiciousipriskevent-post-suspiciousipriskevents.md)|[suspiciousIpRiskEvent](../resources/suspiciousIpRiskEvent.md)|Create a new [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
+|[List suspiciousIpRiskEvents](../api/suspiciousipriskevent-list.md)|[suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) collection|List properties and relationships of the [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) objects.|
+|[Get suspiciousIpRiskEvent](../api/suspiciousipriskevent-get.md)|[suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md)|Read properties and relationships of the [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
+|[Create suspiciousIpRiskEvent](../api/suspiciousipriskevent-post-suspiciousipriskevents.md)|[suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md)|Create a new [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
 |[Delete suspiciousIpRiskEvent](../api/suspiciousipriskevent-delete.md)|None|Deletes a [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md).|
-|[Update suspiciousIpRiskEvent](../api/suspiciousipriskevent-update.md)|[suspiciousIpRiskEvent](../resources/suspiciousIpRiskEvent.md)|Update the properties of a [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
+|[Update suspiciousIpRiskEvent](../api/suspiciousipriskevent-update.md)|[suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md)|Update the properties of a [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|closedDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|createdDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|closedDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|createdDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|ipAddress|String| Inherited from [locatedRiskEvent](../resources/locatedRiskEvent.md)|
-|location|[signInLocation](../resources/signInLocation.md)| Inherited from [locatedRiskEvent](../resources/locatedRiskEvent.md)|
-|riskEventDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|riskEventStatus|Enumeration| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md). Possible values are: `active`, `remediated`, `dismissedAsFixed`, `dismissedAsFalsePositive`, `dismissedAsIgnore`, `loginBlocked`, `closedMfaAuto`, `closedMultipleReasons`.|
-|riskEventType|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|riskLevel|Enumeration| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|userDisplayName|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|userId|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
-|userPrincipalName|String| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|ipAddress|String| Inherited from [locatedRiskEvent](../resources/locatedriskevent.md)|
+|location|[signInLocation](../resources/signinlocation.md)| Inherited from [locatedRiskEvent](../resources/locatedriskevent.md)|
+|riskEventDateTime|DateTimeOffset| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|riskEventStatus|Enumeration| Inherited from [identityRiskEvent](../resources/identityriskevent.md). Possible values are: `active`, `remediated`, `dismissedAsFixed`, `dismissedAsFalsePositive`, `dismissedAsIgnore`, `loginBlocked`, `closedMfaAuto`, `closedMultipleReasons`.|
+|riskEventType|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|riskLevel|Enumeration| Inherited from [identityRiskEvent](../resources/identityriskevent.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|userDisplayName|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|userId|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
+|userPrincipalName|String| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|impactedUser|[user](../resources/user.md)| Inherited from [identityRiskEvent](../resources/identityRiskEvent.md)|
+|impactedUser|[user](../resources/user.md)| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

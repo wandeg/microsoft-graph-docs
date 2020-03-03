@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add categories
 
+Namespace: microsoft.graph
+
 Add categories by posting to the categories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/categories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementSettingCategory object.
+In the request body, supply a JSON representation for the [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementSettingCategory.
+The following table shows the properties that are required when you create the [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/categories
+POST https://graph.microsoft.com/localtest/deviceManagement/categories
 Content-type: application/json
 Content-length: 113
 
@@ -85,7 +87,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingCategory",
-  "id": "ef1cd7db-d7db-ef1c-dbd7-1cefdbd71cef",
+  "id": "fcc4bc02-bc02-fcc4-02bc-c4fc02bcc4fc",
   "displayName": "Display Name value"
 }
 ```

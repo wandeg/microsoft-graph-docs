@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List pivotTables
 
+Namespace: microsoft.graph
+
 Get the workbookPivotTables from the pivotTables navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/pivotTables
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/pivotTables
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 179
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookPivotTable",
-      "id": "20b9608d-608d-20b9-8d60-b9208d60b920",
+      "id": "74e85527-5527-74e8-2755-e8742755e874",
       "name": "Name value"
     }
   ]

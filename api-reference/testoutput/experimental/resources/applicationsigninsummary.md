@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # applicationSignInSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List applicationSignInSummaries](../api/applicationsigninsummary-list.md)|[applicationSignInSummary](../resources/applicationSignInSummary.md) collection|List properties and relationships of the [applicationSignInSummary](../resources/applicationsigninsummary.md) objects.|
-|[Get applicationSignInSummary](../api/applicationsigninsummary-get.md)|[applicationSignInSummary](../resources/applicationSignInSummary.md)|Read properties and relationships of the [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
-|[Create applicationSignInSummary](../api/applicationsigninsummary-create.md)|[applicationSignInSummary](../resources/applicationSignInSummary.md)|Create a new [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
+|[List applicationSignInSummaries](../api/applicationsigninsummary-list.md)|[applicationSignInSummary](../resources/applicationsigninsummary.md) collection|List properties and relationships of the [applicationSignInSummary](../resources/applicationsigninsummary.md) objects.|
+|[Get applicationSignInSummary](../api/applicationsigninsummary-get.md)|[applicationSignInSummary](../resources/applicationsigninsummary.md)|Read properties and relationships of the [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
+|[Create applicationSignInSummary](../api/applicationsigninsummary-create.md)|[applicationSignInSummary](../resources/applicationsigninsummary.md)|Create a new [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
 |[Delete applicationSignInSummary](../api/applicationsigninsummary-delete.md)|None|Deletes a [applicationSignInSummary](../resources/applicationsigninsummary.md).|
-|[Update applicationSignInSummary](../api/applicationsigninsummary-update.md)|[applicationSignInSummary](../resources/applicationSignInSummary.md)|Update the properties of a [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
+|[Update applicationSignInSummary](../api/applicationsigninsummary-update.md)|[applicationSignInSummary](../resources/applicationsigninsummary.md)|Update the properties of a [applicationSignInSummary](../resources/applicationsigninsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceComplianceSettingState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}/deviceComplianceSettingStates/{deviceComplianceSettingStateId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}/deviceComplianceSettingStates/{deviceComplianceSettingStateId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 636
+Content-Length: 635
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-    "id": "4585cf5c-cf5c-4585-5ccf-85455ccf8545",
+    "id": "d2cad14b-d14b-d2ca-4bd1-cad24bd1cad2",
     "platformType": "String",
     "setting": "Setting value",
     "settingName": "Setting Name value",
@@ -84,7 +86,7 @@ Content-Length: 636
     "userPrincipalName": "User Principal Name value",
     "deviceModel": "Device Model value",
     "state": "String",
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
   }
 }
 ```

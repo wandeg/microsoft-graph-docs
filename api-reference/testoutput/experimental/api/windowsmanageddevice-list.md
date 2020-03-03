@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsManagedDevices
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsManagedDevice](../resources/windowsmanageddevice.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsManagedDevice not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsManagedDevice not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 8257
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsManagedDevice",
-      "id": "5663e9d2-e9d2-5663-d2e9-6356d2e96356",
+      "id": "166f88fc-88fc-166f-fc88-6f16fc886f16",
       "userId": "User Id value",
       "deviceName": "Device Name value",
       "hardwareInformation": {
@@ -114,13 +116,13 @@ Content-Length: 8257
           "@odata.type": "microsoft.graph.deviceActionResult",
           "actionName": "Action Name value",
           "actionState": "String",
-          "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-          "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+          "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
         }
       ],
       "managementState": "String",
-      "enrolledDateTime": "2016-12-31T23:57:05.8195886+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "enrolledDateTime": "2016-12-31T23:57:33.2039505+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "chassisType": "String",
       "operatingSystem": "Operating System value",
       "deviceType": "String",
@@ -130,7 +132,7 @@ Content-Length: 8257
       "osVersion": "Os Version value",
       "easActivated": true,
       "easDeviceId": "Eas Device Id value",
-      "easActivationDateTime": "2017-01-01T00:00:46.2610831+03:00",
+      "easActivationDateTime": "2017-01-01T00:03:17.6859355+03:00",
       "aadRegistered": true,
       "azureADRegistered": true,
       "deviceEnrollmentType": "String",
@@ -142,7 +144,7 @@ Content-Length: 8257
       "deviceRegistrationState": "String",
       "deviceCategoryDisplayName": "Device Category Display Name value",
       "isSupervised": true,
-      "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:19.5323287+03:00",
+      "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:54.6036506+03:00",
       "exchangeAccessState": "String",
       "exchangeAccessStateReason": "String",
       "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -152,7 +154,7 @@ Content-Length: 8257
       "model": "Model value",
       "manufacturer": "Manufacturer value",
       "imei": "Imei value",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
       "serialNumber": "Serial Number value",
       "phoneNumber": "Phone Number value",
       "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -175,7 +177,7 @@ Content-Length: 8257
         "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
         "deviceHealthAttestationStatus": "Device Health Attestation Status value",
         "contentVersion": "Content Version value",
-        "issuedDateTime": "2016-12-31T23:59:15.1085943+03:00",
+        "issuedDateTime": "2017-01-01T00:03:06.2449897+03:00",
         "attestationIdentityKey": "Attestation Identity Key value",
         "resetCount": 10,
         "restartCount": 12,
@@ -210,17 +212,17 @@ Content-Length: 8257
       "freeStorageSpaceInBytes": 7,
       "managedDeviceName": "Managed Device Name value",
       "partnerReportedThreatState": "String",
-      "retireAfterDateTime": "2016-12-31T23:59:23.8529265+03:00",
+      "retireAfterDateTime": "2016-12-31T23:56:27.7226917+03:00",
       "usersLoggedOn": [
         {
           "@odata.type": "microsoft.graph.loggedOnUser",
-          "lastLogOnDateTime": "2016-12-31T23:56:35.7950357+03:00"
+          "lastLogOnDateTime": "2017-01-01T00:02:43.9016004+03:00"
         }
       ],
-      "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:00:19.4068156+03:00",
+      "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:57:37.9669567+03:00",
       "autopilotEnrolled": true,
       "requireUserEnrollmentApproval": true,
-      "managementCertificateExpirationDate": "2017-01-01T00:01:31.4930621+03:00",
+      "managementCertificateExpirationDate": "2017-01-01T00:01:58.7700963+03:00",
       "iccid": "Iccid value",
       "udid": "Udid value",
       "roleScopeTagIds": [

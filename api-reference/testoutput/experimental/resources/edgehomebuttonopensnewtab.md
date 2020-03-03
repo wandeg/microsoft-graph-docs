@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # edgeHomeButtonOpensNewTab resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [edgeHomeButtonConfiguration](../resources/edgeHomeButtonConfiguration.md)
+
+
+Inherits from [edgeHomeButtonConfiguration](../resources/edgehomebuttonconfiguration.md)
 
 ## Properties
 |Property|Type|Description|

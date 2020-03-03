@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # threatAssessmentRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get threatAssessmentRequest](../api/threatassessmentrequest-get.md)|[threatAssessmentRequest](../resources/threatAssessmentRequest.md)|Read properties and relationships of the [threatAssessmentRequest](../resources/threatassessmentrequest.md) object.|
-|[List results](../api/threatassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection|Get the threatAssessmentResults from the results navigation property.|
-|[Add results](../api/threatassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md)|Add results by posting to the results collection.|
+|[List threatAssessmentRequests](../api/threatassessmentrequest-list.md)|[threatAssessmentRequest](../resources/threatassessmentrequest.md) collection|List properties and relationships of the [threatAssessmentRequest](../resources/threatassessmentrequest.md) objects.|
+|[Get threatAssessmentRequest](../api/threatassessmentrequest-get.md)|[threatAssessmentRequest](../resources/threatassessmentrequest.md)|Read properties and relationships of the [threatAssessmentRequest](../resources/threatassessmentrequest.md) object.|
+|[List results](../api/threatassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|Get the threatAssessmentResults from the results navigation property.|
+|[Add results](../api/threatassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Add results by posting to the results collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |category|Enumeration|. Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
 |contentType|Enumeration|. Possible values are: `mail`, `url`, `file`.|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |expectedAssessment|Enumeration|. Possible values are: `block`, `unblock`.|
 |id|String| Inherited from [entity](../resources/entity.md)|
@@ -38,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|results|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection||
+|results|[threatAssessmentResult](../resources/threatassessmentresult.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # checkMemberObjects
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/extensionProperties/{extensionPropertyId}/checkMemberObjects
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/extensionProperties/{extensionPropertyId}/checkMemberObjects
 
 Content-type: application/json
 Content-length: 38

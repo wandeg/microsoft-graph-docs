@@ -5,30 +5,31 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # businessFlowSettings resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [accessReviewSettings](../resources/accessReviewSettings.md)
+
+
+Inherits from [accessReviewSettings](../resources/accessreviewsettings.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|accessRecommendationsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|activityDurationInDays|Int32| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|autoApplyReviewResultsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|autoReviewEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|autoReviewSettings|[autoReviewSettings](../resources/autoReviewSettings.md)| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
+|accessRecommendationsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|activityDurationInDays|Int32| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|autoApplyReviewResultsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|autoReviewEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|autoReviewSettings|[autoReviewSettings](../resources/autoreviewsettings.md)| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
 |durationInDays|Int32||
-|justificationRequiredOnApproval|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|mailNotificationsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|recurrenceSettings|[accessReviewRecurrenceSettings](../resources/accessReviewRecurrenceSettings.md)| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
-|remindersEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessReviewSettings.md)|
+|justificationRequiredOnApproval|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|mailNotificationsEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|recurrenceSettings|[accessReviewRecurrenceSettings](../resources/accessreviewrecurrencesettings.md)| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
+|remindersEnabled|Boolean| Inherited from [accessReviewSettings](../resources/accessreviewsettings.md)|
 
 ## Relationships
 None

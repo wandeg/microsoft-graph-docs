@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # riskyUser resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List riskyUsers](../api/riskyuser-list.md)|[riskyUser](../resources/riskyUser.md) collection|List properties and relationships of the [riskyUser](../resources/riskyuser.md) objects.|
-|[Get riskyUser](../api/riskyuser-get.md)|[riskyUser](../resources/riskyUser.md)|Read properties and relationships of the [riskyUser](../resources/riskyuser.md) object.|
-|[Create riskyUser](../api/riskyuser-post-riskyusers.md)|[riskyUser](../resources/riskyUser.md)|Create a new [riskyUser](../resources/riskyuser.md) object.|
+|[List riskyUsers](../api/riskyuser-list.md)|[riskyUser](../resources/riskyuser.md) collection|List properties and relationships of the [riskyUser](../resources/riskyuser.md) objects.|
+|[Get riskyUser](../api/riskyuser-get.md)|[riskyUser](../resources/riskyuser.md)|Read properties and relationships of the [riskyUser](../resources/riskyuser.md) object.|
+|[Create riskyUser](../api/riskyuser-post-riskyusers.md)|[riskyUser](../resources/riskyuser.md)|Create a new [riskyUser](../resources/riskyuser.md) object.|
 |[Delete riskyUser](../api/riskyuser-delete.md)|None|Deletes a [riskyUser](../resources/riskyuser.md).|
-|[Update riskyUser](../api/riskyuser-update.md)|[riskyUser](../resources/riskyUser.md)|Update the properties of a [riskyUser](../resources/riskyuser.md) object.|
+|[Update riskyUser](../api/riskyuser-update.md)|[riskyUser](../resources/riskyuser.md)|Update the properties of a [riskyUser](../resources/riskyuser.md) object.|
 |[dismiss](../api/riskyuser-dismiss.md)|None||
 |[confirmCompromised](../api/riskyuser-confirmcompromised.md)|None||
-|[List history](../api/riskyuser-list-history.md)|[riskyUserHistoryItem](../resources/riskyUserHistoryItem.md) collection|Get the riskyUserHistoryItems from the history navigation property.|
-|[Add history](../api/riskyuser-post-history.md)|[riskyUserHistoryItem](../resources/riskyUserHistoryItem.md)|Add history by posting to the history collection.|
+|[List history](../api/riskyuser-list-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection|Get the riskyUserHistoryItems from the history navigation property.|
+|[Add history](../api/riskyuser-post-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Add history by posting to the history collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|history|[riskyUserHistoryItem](../resources/riskyUserHistoryItem.md) collection||
+|history|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

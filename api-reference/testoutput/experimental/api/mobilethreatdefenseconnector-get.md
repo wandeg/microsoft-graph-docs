@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileThreatDefenseConnector
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
+GET https://graph.microsoft.com/localtest/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 825
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-    "id": "4a33878d-878d-4a33-8d87-334a8d87334a",
-    "lastHeartbeatDateTime": "2016-12-31T23:59:36.3179439+03:00",
+    "id": "d9de0841-0841-d9de-4108-ded94108ded9",
+    "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
     "partnerState": "String",
     "androidMobileApplicationManagementEnabled": true,
     "iosMobileApplicationManagementEnabled": true,

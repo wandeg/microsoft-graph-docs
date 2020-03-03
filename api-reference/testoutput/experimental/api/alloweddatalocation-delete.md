@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete allowedDataLocation
 
+Namespace: microsoft.graph
+
 Deletes a [allowedDataLocation](../resources/alloweddatalocation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/allowedDataLocations/{allowedDataLocationsId}
+DELETE https://graph.microsoft.com/localtest/allowedDataLocations/{allowedDataLocationsId}
 ```
 
 ### Response

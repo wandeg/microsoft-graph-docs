@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get currency
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [currency](../resources/currency.md) object.
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/currencies/{currencyId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/currencies/{currencyId}
 ```
 
 ### Response
@@ -79,13 +81,13 @@ Content-Length: 386
 {
   "value": {
     "@odata.type": "#microsoft.graph.currency",
-    "id": "d7d2ba6d-ba6d-d7d2-6dba-d2d76dbad2d7",
+    "id": "eb1de9a6-e9a6-eb1d-a6e9-1deba6e91deb",
     "code": "Code value",
     "displayName": "Display Name value",
     "symbol": "Symbol value",
     "amountDecimalPlaces": "Amount Decimal Places value",
     "amountRoundingPrecision": "4.2",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

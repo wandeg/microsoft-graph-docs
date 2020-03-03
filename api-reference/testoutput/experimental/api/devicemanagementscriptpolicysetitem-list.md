@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementScriptPolicySetItems
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementScriptPolicySetItem](../resources/devicemanagementscriptpolicysetitem.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementScriptPolicySetItem not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementScriptPolicySetItem not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 560
+Content-Length: 559
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptPolicySetItem",
-      "id": "d861c4c1-c4c1-d861-c1c4-61d8c1c461d8",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "71ec5a55-5a55-71ec-555a-ec71555aec71",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "payloadId": "Payload Id value",
       "itemType": "Item Type value",
       "displayName": "Display Name value",

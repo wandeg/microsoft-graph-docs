@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update customerPayment
 
+Namespace: microsoft.graph
+
 Update the properties of a [customerPayment](../resources/customerpayment.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /financials/companies/{companyId}/customerPaymentJournals/{customerPayment
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [customerPayment](../resources/customerPayment.md) object.
+In the request body, supply a JSON representation for the [customerPayment](../resources/customerpayment.md) object.
 
 The following table shows the properties that are required when you create the [customerPayment](../resources/customerpayment.md).
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customerPayments/{customerPaymentId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/customerPayments/{customerPaymentId}
 Content-type: application/json
 Content-length: 626
 
@@ -81,14 +83,14 @@ Content-length: 626
   "@odata.type": "#microsoft.graph.customerPayment",
   "journalDisplayName": "Journal Display Name value",
   "lineNumber": 10,
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "contactId": "Contact Id value",
   "postingDate": "Date",
   "documentNumber": "Document Number value",
   "externalDocumentNumber": "External Document Number value",
   "amount": "4.2",
-  "appliesToInvoiceId": "e4fd1be8-1be8-e4fd-e81b-fde4e81bfde4",
+  "appliesToInvoiceId": "ca957a91-7a91-ca95-917a-95ca917a95ca",
   "appliesToInvoiceNumber": "Applies To Invoice Number value",
   "description": "Description value",
   "comment": "Comment value"
@@ -109,21 +111,21 @@ Content-Length: 739
 
 {
   "@odata.type": "#microsoft.graph.customerPayment",
-  "id": "37effc85-fc85-37ef-85fc-ef3785fcef37",
+  "id": "898865e5-65e5-8988-e565-8889e5658889",
   "journalDisplayName": "Journal Display Name value",
   "lineNumber": 10,
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "contactId": "Contact Id value",
   "postingDate": "Date",
   "documentNumber": "Document Number value",
   "externalDocumentNumber": "External Document Number value",
   "amount": "4.2",
-  "appliesToInvoiceId": "e4fd1be8-1be8-e4fd-e81b-fde4e81bfde4",
+  "appliesToInvoiceId": "ca957a91-7a91-ca95-917a-95ca917a95ca",
   "appliesToInvoiceNumber": "Applies To Invoice Number value",
   "description": "Description value",
   "comment": "Comment value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

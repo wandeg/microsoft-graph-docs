@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementAutopilotEvent
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/autopilotEvents/{deviceManagementAutopilotEventId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/autopilotEvents/{deviceManagementAutopilotEventId}
 ```
 
 ### Response

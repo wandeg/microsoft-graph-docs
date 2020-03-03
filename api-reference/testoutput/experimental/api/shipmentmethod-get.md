@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get shipmentMethod
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/shipmentMethods/{shipmentMethodId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/shipmentMethods/{shipmentMethodId}
 ```
 
 ### Response
@@ -75,10 +77,10 @@ Content-Length: 263
 {
   "value": {
     "@odata.type": "#microsoft.graph.shipmentMethod",
-    "id": "c5a1ee50-ee50-c5a1-50ee-a1c550eea1c5",
+    "id": "3c2edb8d-db8d-3c2e-8ddb-2e3c8ddb2e3c",
     "code": "Code value",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

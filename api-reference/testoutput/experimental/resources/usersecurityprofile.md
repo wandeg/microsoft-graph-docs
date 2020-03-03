@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userSecurityProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get userSecurityProfile](../api/usersecurityprofile-get.md)|[userSecurityProfile](../resources/userSecurityProfile.md)|Read properties and relationships of the [userSecurityProfile](../resources/usersecurityprofile.md) object.|
+|[List userSecurityProfiles](../api/usersecurityprofile-list.md)|[userSecurityProfile](../resources/usersecurityprofile.md) collection|List properties and relationships of the [userSecurityProfile](../resources/usersecurityprofile.md) objects.|
+|[Get userSecurityProfile](../api/usersecurityprofile-get.md)|[userSecurityProfile](../resources/usersecurityprofile.md)|Read properties and relationships of the [userSecurityProfile](../resources/usersecurityprofile.md) object.|
+|[Create userSecurityProfile](../api/usersecurityprofile-create.md)|[userSecurityProfile](../resources/usersecurityprofile.md)|Create a new [userSecurityProfile](../resources/usersecurityprofile.md) object.|
 |[Delete userSecurityProfile](../api/usersecurityprofile-delete.md)|None|Deletes a [userSecurityProfile](../resources/usersecurityprofile.md).|
-|[Update userSecurityProfile](../api/usersecurityprofile-update.md)|[userSecurityProfile](../resources/userSecurityProfile.md)|Update the properties of a [userSecurityProfile](../resources/usersecurityprofile.md) object.|
-|[List userSecurityProfiles](../api/security-list-usersecurityprofiles.md)|[userSecurityProfile](../resources/userSecurityProfile.md) collection|Get the userSecurityProfiles from the userSecurityProfiles navigation property.|
-|[Add userSecurityProfiles](../api/security-post-usersecurityprofiles.md)|[userSecurityProfile](../resources/userSecurityProfile.md)|Add userSecurityProfiles by posting to the userSecurityProfiles collection.|
+|[Update userSecurityProfile](../api/usersecurityprofile-update.md)|[userSecurityProfile](../resources/usersecurityprofile.md)|Update the properties of a [userSecurityProfile](../resources/usersecurityprofile.md) object.|
+|[List userSecurityProfiles](../api/security-list-usersecurityprofiles.md)|[userSecurityProfile](../resources/usersecurityprofile.md) collection|Get the userSecurityProfiles from the userSecurityProfiles navigation property.|
+|[Add userSecurityProfiles](../api/security-post-usersecurityprofiles.md)|[userSecurityProfile](../resources/usersecurityprofile.md)|Add userSecurityProfiles by posting to the userSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|accounts|[userAccount](../resources/userAccount.md) collection||
+|accounts|[userAccount](../resources/useraccount.md) collection||
 |azureSubscriptionId|String||
 |azureTenantId|String||
 |createdDateTime|DateTimeOffset||
@@ -38,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |riskScore|String||
 |tags|String collection||
 |userPrincipalName|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

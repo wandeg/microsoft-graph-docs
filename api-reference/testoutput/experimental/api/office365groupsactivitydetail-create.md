@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365GroupsActivityDetail
 
+Namespace: microsoft.graph
+
 Create a new [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365GroupsActivityDetail not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365GroupsActivityDetail object.
+In the request body, supply a JSON representation for the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.
 
-The following table shows the properties that are required when you create the office365GroupsActivityDetail.
+The following table shows the properties that are required when you create the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -78,7 +80,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365GroupsActivityDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365GroupsActivityDetail not found
 Content-type: application/json
 Content-length: 753
 
@@ -121,7 +123,7 @@ Content-Length: 802
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityDetail",
-  "id": "9b0c0da2-0da2-9b0c-a20d-0c9ba20d0c9b",
+  "id": "eb807999-7999-eb80-9979-80eb997980eb",
   "reportRefreshDate": "Date",
   "groupId": "Group Id value",
   "groupDisplayName": "Group Display Name value",

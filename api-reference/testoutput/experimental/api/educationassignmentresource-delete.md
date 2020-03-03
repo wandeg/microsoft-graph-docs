@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationAssignmentResource
 
+Namespace: microsoft.graph
+
 Deletes a [educationAssignmentResource](../resources/educationassignmentresource.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/resources/{educationAssignmentResourceId}
+DELETE https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/resources/{educationAssignmentResourceId}
 ```
 
 ### Response

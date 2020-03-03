@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get embeddedSIMActivationCodePool
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}
+GET https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 675
+Content-Length: 674
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePool",
-    "id": "687767be-67be-6877-be67-7768be677768",
+    "id": "c32a6b75-6b75-c32a-756b-2ac3756b2ac3",
     "displayName": "Display Name value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
     "activationCodes": [
       {
         "@odata.type": "microsoft.graph.embeddedSIMActivationCode",

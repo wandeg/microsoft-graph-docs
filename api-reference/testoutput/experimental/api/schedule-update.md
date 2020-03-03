@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update schedule
 
+Namespace: microsoft.graph
+
 Update the properties of a [schedule](../resources/schedule.md) object.
 
 ## Permissions
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teams/{teamsId}/schedule
+PATCH https://graph.microsoft.com/localtest/teams/{teamsId}/schedule
 Content-type: application/json
 Content-length: 440
 
@@ -104,7 +106,7 @@ Content-Length: 489
 
 {
   "@odata.type": "#microsoft.graph.schedule",
-  "id": "2bfb7474-7474-2bfb-7474-fb2b7474fb2b",
+  "id": "9206b179-b179-9206-79b1-069279b10692",
   "enabled": true,
   "timeZone": "Time Zone value",
   "provisionStatus": "String",

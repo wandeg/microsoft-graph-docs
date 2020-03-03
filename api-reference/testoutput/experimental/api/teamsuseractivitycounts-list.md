@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teamsUserActivityCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [teamsUserActivityCounts](../resources/teamsuseractivitycounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsUserActivityCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsUserActivityCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 370
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsUserActivityCounts",
-      "id": "14ab2478-2478-14ab-7824-ab147824ab14",
+      "id": "3a56ec34-ec34-3a56-34ec-563a34ec563a",
       "reportRefreshDate": "Date",
       "reportDate": "Date",
       "teamChatMessages": 0,

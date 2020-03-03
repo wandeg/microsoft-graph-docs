@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deliveryOptimizationMaxCacheSizeAbsolute resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deliveryOptimizationMaxCacheSize](../resources/deliveryOptimizationMaxCacheSize.md)
+
+
+Inherits from [deliveryOptimizationMaxCacheSize](../resources/deliveryoptimizationmaxcachesize.md)
 
 ## Properties
 |Property|Type|Description|

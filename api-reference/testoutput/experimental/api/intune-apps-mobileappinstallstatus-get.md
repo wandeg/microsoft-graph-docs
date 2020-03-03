@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileAppInstallStatus
 
-Read properties and relationships of the [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses/{mobileAppInstallStatusId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses/{mobileAppInstallStatusId}
 ```
 
 ### Response
@@ -68,15 +70,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 631
+Content-Length: 632
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppInstallStatus",
-    "id": "fbdee6f1-e6f1-fbde-f1e6-defbf1e6defb",
+    "id": "f9b1035b-035b-f9b1-5b03-b1f95b03b1f9",
     "deviceName": "Device Name value",
     "deviceId": "Device Id value",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "mobileAppInstallStatusValue": "String",
     "installState": "String",
     "installStateDetail": "String",

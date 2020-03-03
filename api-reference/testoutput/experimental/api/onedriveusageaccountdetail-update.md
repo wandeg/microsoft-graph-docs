@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update oneDriveUsageAccountDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.oneDriveUsageAccountDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [oneDriveUsageAccountDetail](../resources/oneDriveUsageAccountDetail.md) object.
+In the request body, supply a JSON representation for the [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md) object.
 
 The following table shows the properties that are required when you create the [oneDriveUsageAccountDetail](../resources/onedriveusageaccountdetail.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.oneDriveUsageAccountDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.oneDriveUsageAccountDetail not found
 Content-type: application/json
 Content-length: 453
 
@@ -103,7 +105,7 @@ Content-Length: 502
 
 {
   "@odata.type": "#microsoft.graph.oneDriveUsageAccountDetail",
-  "id": "1e2f62b5-62b5-1e2f-b562-2f1eb5622f1e",
+  "id": "c4267756-7756-c426-5677-26c4567726c4",
   "reportRefreshDate": "Date",
   "siteUrl": "https://example.com/siteUrl/",
   "ownerDisplayName": "Owner Display Name value",

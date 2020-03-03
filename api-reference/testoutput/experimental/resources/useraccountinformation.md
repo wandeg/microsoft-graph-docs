@@ -5,37 +5,40 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # userAccountInformation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get userAccountInformation](../api/useraccountinformation-get.md)|[userAccountInformation](../resources/userAccountInformation.md)|Read properties and relationships of the [userAccountInformation](../resources/useraccountinformation.md) object.|
+|[List userAccountInformations](../api/useraccountinformation-list.md)|[userAccountInformation](../resources/useraccountinformation.md) collection|List properties and relationships of the [userAccountInformation](../resources/useraccountinformation.md) objects.|
+|[Get userAccountInformation](../api/useraccountinformation-get.md)|[userAccountInformation](../resources/useraccountinformation.md)|Read properties and relationships of the [userAccountInformation](../resources/useraccountinformation.md) object.|
+|[Create userAccountInformation](../api/useraccountinformation-create.md)|[userAccountInformation](../resources/useraccountinformation.md)|Create a new [userAccountInformation](../resources/useraccountinformation.md) object.|
 |[Delete userAccountInformation](../api/useraccountinformation-delete.md)|None|Deletes a [userAccountInformation](../resources/useraccountinformation.md).|
-|[Update userAccountInformation](../api/useraccountinformation-update.md)|[userAccountInformation](../resources/userAccountInformation.md)|Update the properties of a [userAccountInformation](../resources/useraccountinformation.md) object.|
+|[Update userAccountInformation](../api/useraccountinformation-update.md)|[userAccountInformation](../resources/useraccountinformation.md)|Update the properties of a [userAccountInformation](../resources/useraccountinformation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |ageGroup|String||
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
 |countryCode|String||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|preferredLanguageTag|[localeInfo](../resources/localeInfo.md)||
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|preferredLanguageTag|[localeInfo](../resources/localeinfo.md)||
 |userPrincipalName|String||
 
 ## Relationships

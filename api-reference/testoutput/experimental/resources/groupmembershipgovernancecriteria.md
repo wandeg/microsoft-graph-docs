@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # groupMembershipGovernanceCriteria resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [governanceCriteria](../resources/governanceCriteria.md)
+
+
+Inherits from [governanceCriteria](../resources/governancecriteria.md)
 
 ## Properties
 |Property|Type|Description|

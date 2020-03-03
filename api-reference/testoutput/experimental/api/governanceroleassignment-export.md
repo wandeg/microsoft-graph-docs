@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # export
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/governanceRoleAssignments/export
+GET https://graph.microsoft.com/localtest/governanceRoleAssignments/export
 ```
 
 ### Response

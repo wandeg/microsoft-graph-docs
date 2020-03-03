@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # executeAction
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -55,7 +57,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [bulkManagedDeviceActionResult](../resources/intune-devices-bulkManagedDeviceActionResult.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [bulkManagedDeviceActionResult](../resources/intune-devices-bulkmanageddeviceactionresult.md) in the response body.
 
 ## Example
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/executeAction
+POST https://graph.microsoft.com/localtest/me/managedDevices/executeAction
 
 Content-type: application/json
 Content-length: 274

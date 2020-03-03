@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create payloadResponse
 
+Namespace: microsoft.graph
+
 Create a new [payloadResponse](../resources/payloadresponse.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /payloadResponse
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the payloadResponse object.
+In the request body, supply a JSON representation for the [payloadResponse](../resources/payloadresponse.md) object.
 
-The following table shows the properties that are required when you create the payloadResponse.
+The following table shows the properties that are required when you create the [payloadResponse](../resources/payloadresponse.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/payloadResponse
+POST https://graph.microsoft.com/localtest/payloadResponse
 Content-type: application/json
 Content-length: 57
 
@@ -83,7 +85,7 @@ Content-Length: 106
 
 {
   "@odata.type": "#microsoft.graph.payloadResponse",
-  "id": "b60088d7-88d7-b600-d788-00b6d78800b6"
+  "id": "425e067d-067d-425e-7d06-5e427d065e42"
 }
 ```
 

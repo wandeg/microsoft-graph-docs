@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete accessReviewReviewer
 
+Namespace: microsoft.graph
+
 Deletes a [accessReviewReviewer](../resources/accessreviewreviewer.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
+DELETE https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
 ```
 
 ### Response

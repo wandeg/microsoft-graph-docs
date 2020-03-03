@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update riskDetection
 
+Namespace: microsoft.graph
+
 Update the properties of a [riskDetection](../resources/riskdetection.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /riskDetections/{riskDetectionsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [riskDetection](../resources/riskDetection.md) object.
+In the request body, supply a JSON representation for the [riskDetection](../resources/riskdetection.md) object.
 
 The following table shows the properties that are required when you create the [riskDetection](../resources/riskdetection.md).
 
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the [
 |activity|Enumeration|. Possible values are: `signin`, `user`, `unknownFutureValue`.|
 |tokenIssuerType|Enumeration|. Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
 |ipAddress|String||
-|location|[signInLocation](../resources/signInLocation.md)||
+|location|[signInLocation](../resources/signinlocation.md)||
 |activityDateTime|DateTimeOffset||
 |detectedDateTime|DateTimeOffset||
 |lastUpdatedDateTime|DateTimeOffset||
@@ -77,7 +79,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/riskDetections/{riskDetectionsId}
+PATCH https://graph.microsoft.com/localtest/riskDetections/{riskDetectionsId}
 Content-type: application/json
 Content-length: 1117
 
@@ -106,9 +108,9 @@ Content-length: 1117
       "longitude": "Double"
     }
   },
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
-  "detectedDateTime": "2017-01-01T00:02:40.2919861+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "detectedDateTime": "2016-12-31T23:58:19.8176883+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
@@ -130,7 +132,7 @@ Content-Length: 1166
 
 {
   "@odata.type": "#microsoft.graph.riskDetection",
-  "id": "14989f98-9f98-1498-989f-9814989f9814",
+  "id": "ee539b94-9b94-ee53-949b-53ee949b53ee",
   "requestId": "Request Id value",
   "correlationId": "Correlation Id value",
   "riskType": "String",
@@ -154,9 +156,9 @@ Content-Length: 1166
       "longitude": "Double"
     }
   },
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
-  "detectedDateTime": "2017-01-01T00:02:40.2919861+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "detectedDateTime": "2016-12-31T23:58:19.8176883+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update chatMessageHostedContent
 
+Namespace: microsoft.graph
+
 Update the properties of a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessage
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [chatMessageHostedContent](../resources/chatMessageHostedContent.md) object.
+In the request body, supply a JSON representation for the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.
 
 The following table shows the properties that are required when you create the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents/{chatMessageHostedContentId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents/{chatMessageHostedContentId}
 Content-type: application/json
 Content-length: 66
 
@@ -81,7 +83,7 @@ Content-Length: 115
 
 {
   "@odata.type": "#microsoft.graph.chatMessageHostedContent",
-  "id": "78937006-7006-7893-0670-937806709378"
+  "id": "c92830a1-30a1-c928-a130-28c9a13028c9"
 }
 ```
 

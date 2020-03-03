@@ -5,36 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # webAccount resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get webAccount](../api/webaccount-get.md)|[webAccount](../resources/webAccount.md)|Read properties and relationships of the [webAccount](../resources/webaccount.md) object.|
+|[List webAccounts](../api/webaccount-list.md)|[webAccount](../resources/webaccount.md) collection|List properties and relationships of the [webAccount](../resources/webaccount.md) objects.|
+|[Get webAccount](../api/webaccount-get.md)|[webAccount](../resources/webaccount.md)|Read properties and relationships of the [webAccount](../resources/webaccount.md) object.|
+|[Create webAccount](../api/webaccount-create.md)|[webAccount](../resources/webaccount.md)|Create a new [webAccount](../resources/webaccount.md) object.|
 |[Delete webAccount](../api/webaccount-delete.md)|None|Deletes a [webAccount](../resources/webaccount.md).|
-|[Update webAccount](../api/webaccount-update.md)|[webAccount](../resources/webAccount.md)|Update the properties of a [webAccount](../resources/webaccount.md) object.|
+|[Update webAccount](../api/webaccount-update.md)|[webAccount](../resources/webaccount.md)|Update the properties of a [webAccount](../resources/webaccount.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |description|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|service|[serviceInformation](../resources/serviceInformation.md)||
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|service|[serviceInformation](../resources/serviceinformation.md)||
 |statusMessage|String||
 |userId|String||
 |webUrl|String||

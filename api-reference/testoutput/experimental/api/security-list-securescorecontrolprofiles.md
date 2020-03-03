@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List secureScoreControlProfiles
 
+Namespace: microsoft.graph
+
 Get the secureScoreControlProfiles from the secureScoreControlProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/secureScoreControlProfiles
+GET https://graph.microsoft.com/localtest/Security/secureScoreControlProfiles
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1911
   "value": [
     {
       "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-      "id": "6da9e9e6-e9e6-6da9-e6e9-a96de6e9a96d",
+      "id": "19888c5a-8c5a-1988-5a8c-88195a8c8819",
       "actionType": "Action Type value",
       "actionUrl": "https://example.com/actionUrl/",
       "azureTenantId": "Azure Tenant Id value",
@@ -95,12 +97,12 @@ Content-Length: 1911
           "comment": "Comment value",
           "state": "State value",
           "updatedBy": "Updated By value",
-          "updatedDateTime": "2017-01-01T00:02:44.8627183+03:00"
+          "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00"
         }
       ],
       "deprecated": true,
       "implementationCost": "Implementation Cost value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "maxScore": "Double",
       "rank": 4,
       "remediation": "Remediation value",

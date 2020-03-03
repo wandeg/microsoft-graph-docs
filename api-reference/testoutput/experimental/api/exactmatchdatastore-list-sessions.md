@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sessions
 
+Namespace: microsoft.graph
+
 Get the exactMatchSessions from the sessions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions
+GET https://graph.microsoft.com/localtest/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions
 ```
 
 ### Response
@@ -64,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1598
+Content-Length: 1601
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.exactMatchSession",
-      "id": "3989975e-975e-3989-5e97-89395e978939",
-      "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
-      "completionDateTime": "2017-01-01T00:02:23.013137+03:00",
+      "id": "8a727218-7218-8a72-1872-728a1872728a",
+      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+      "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
       "error": {
         "@odata.type": "microsoft.graph.classificationError",
         "code": "Code value",
@@ -82,7 +84,7 @@ Content-Length: 1598
         "target": "Target value",
         "innerError": {
           "@odata.type": "microsoft.graph.classificationInnerError",
-          "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+          "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
           "clientRequestId": "Client Request Id value",
           "activityId": "Activity Id value"
         },
@@ -103,8 +105,8 @@ Content-Length: 1598
       "remainingBlockCount": 3,
       "totalBlockCount": 15,
       "state": "State value",
-      "uploadCompletionDateTime": "2017-01-01T00:00:01.5546037+03:00",
-      "processingCompletionDateTime": "2016-12-31T23:59:29.271832+03:00",
+      "uploadCompletionDateTime": "2016-12-31T23:59:20.8844305+03:00",
+      "processingCompletionDateTime": "2017-01-01T00:02:46.9156622+03:00",
       "rowsPerBlock": 12,
       "totalJobCount": 13,
       "remainingJobCount": 1

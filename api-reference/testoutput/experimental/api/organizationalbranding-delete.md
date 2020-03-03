@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete organizationalBranding
 
+Namespace: microsoft.graph
+
 Deletes a [organizationalBranding](../resources/organizationalbranding.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/organization/{organizationId}/brandings/{organizationalBrandingId}
+DELETE https://graph.microsoft.com/localtest/organization/{organizationId}/brandings/{organizationalBrandingId}
 ```
 
 ### Response

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementSettingInstance resource type
+
+
+Namespace: microsoft.graph
 
 Base type for a setting instance
 
@@ -19,7 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementSettingInstance](../api/devicemanagementsettinginstance-get.md)|[deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|Read properties and relationships of the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object.|
+|[List deviceManagementSettingInstances](../api/devicemanagementsettinginstance-list.md)|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) collection|List properties and relationships of the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) objects.|
+|[Get deviceManagementSettingInstance](../api/devicemanagementsettinginstance-get.md)|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|Read properties and relationships of the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object.|
 
 ## Properties
 |Property|Type|Description|

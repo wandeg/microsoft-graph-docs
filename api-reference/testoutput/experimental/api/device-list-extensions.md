@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List extensions
 
+Namespace: microsoft.graph
+
 Get the extensions from the extensions navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/devices/{devicesId}/extensions
+GET https://graph.microsoft.com/localtest/devices/{devicesId}/extensions
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 141
   "value": [
     {
       "@odata.type": "#microsoft.graph.extension",
-      "id": "532ccf6b-cf6b-532c-6bcf-2c536bcf2c53"
+      "id": "0deb773a-773a-0deb-3a77-eb0d3a77eb0d"
     }
   ]
 }

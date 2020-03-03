@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List externals
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [external](../resources/external.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.external not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.external not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 140
   "value": [
     {
       "@odata.type": "#microsoft.graph.external",
-      "id": "90de3a61-3a61-90de-613a-de90613ade90"
+      "id": "08c37937-7937-08c3-3779-c3083779c308"
     }
   ]
 }

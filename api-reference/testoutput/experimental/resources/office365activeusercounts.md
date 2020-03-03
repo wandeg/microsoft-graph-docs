@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365ActiveUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365ActiveUserCountses](../api/office365activeusercounts-list.md)|[office365ActiveUserCounts](../resources/office365ActiveUserCounts.md) collection|List properties and relationships of the [office365ActiveUserCounts](../resources/office365activeusercounts.md) objects.|
-|[Get office365ActiveUserCounts](../api/office365activeusercounts-get.md)|[office365ActiveUserCounts](../resources/office365ActiveUserCounts.md)|Read properties and relationships of the [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
-|[Create office365ActiveUserCounts](../api/office365activeusercounts-create.md)|[office365ActiveUserCounts](../resources/office365ActiveUserCounts.md)|Create a new [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
+|[List office365ActiveUserCountses](../api/office365activeusercounts-list.md)|[office365ActiveUserCounts](../resources/office365activeusercounts.md) collection|List properties and relationships of the [office365ActiveUserCounts](../resources/office365activeusercounts.md) objects.|
+|[Get office365ActiveUserCounts](../api/office365activeusercounts-get.md)|[office365ActiveUserCounts](../resources/office365activeusercounts.md)|Read properties and relationships of the [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
+|[Create office365ActiveUserCounts](../api/office365activeusercounts-create.md)|[office365ActiveUserCounts](../resources/office365activeusercounts.md)|Create a new [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
 |[Delete office365ActiveUserCounts](../api/office365activeusercounts-delete.md)|None|Deletes a [office365ActiveUserCounts](../resources/office365activeusercounts.md).|
-|[Update office365ActiveUserCounts](../api/office365activeusercounts-update.md)|[office365ActiveUserCounts](../resources/office365ActiveUserCounts.md)|Update the properties of a [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
+|[Update office365ActiveUserCounts](../api/office365activeusercounts-update.md)|[office365ActiveUserCounts](../resources/office365activeusercounts.md)|Update the properties of a [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

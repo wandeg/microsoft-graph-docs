@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete currency
 
+Namespace: microsoft.graph
+
 Deletes a [currency](../resources/currency.md).
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/currencies/{currencyId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/currencies/{currencyId}
 ```
 
 ### Response

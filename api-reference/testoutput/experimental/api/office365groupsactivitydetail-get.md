@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get office365GroupsActivityDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 863
 {
   "value": {
     "@odata.type": "#microsoft.graph.office365GroupsActivityDetail",
-    "id": "9b0c0da2-0da2-9b0c-a20d-0c9ba20d0c9b",
+    "id": "eb807999-7999-eb80-9979-80eb997980eb",
     "reportRefreshDate": "Date",
     "groupId": "Group Id value",
     "groupDisplayName": "Group Display Name value",

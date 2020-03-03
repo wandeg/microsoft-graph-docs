@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create accessPackageSubject
 
+Namespace: microsoft.graph
+
 Create a new [accessPackageSubject](../resources/accesspackagesubject.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.accessPackageSubject not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageSubject object.
+In the request body, supply a JSON representation for the [accessPackageSubject](../resources/accesspackagesubject.md) object.
 
-The following table shows the properties that are required when you create the accessPackageSubject.
+The following table shows the properties that are required when you create the [accessPackageSubject](../resources/accesspackagesubject.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.accessPackageSubject not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.accessPackageSubject not found
 Content-type: application/json
 Content-length: 343
 
@@ -97,7 +99,7 @@ Content-Length: 392
 
 {
   "@odata.type": "#microsoft.graph.accessPackageSubject",
-  "id": "c54c8df5-8df5-c54c-f58d-4cc5f58d4cc5",
+  "id": "a24dca23-ca23-a24d-23ca-4da223ca4da2",
   "objectId": "Object Id value",
   "altSecId": "Alt Sec Id value",
   "displayName": "Display Name value",

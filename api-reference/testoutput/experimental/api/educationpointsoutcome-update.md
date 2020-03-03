@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationPointsOutcome
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationPointsOutcome](../resources/educationpointsoutcome.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.educationPointsOutcome not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationPointsOutcome](../resources/educationPointsOutcome.md) object.
+In the request body, supply a JSON representation for the [educationPointsOutcome](../resources/educationpointsoutcome.md) object.
 
 The following table shows the properties that are required when you create the [educationPointsOutcome](../resources/educationpointsoutcome.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|points|[educationAssignmentPointsGrade](../resources/educationAssignmentPointsGrade.md)||
-|publishedPoints|[educationAssignmentPointsGrade](../resources/educationAssignmentPointsGrade.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|points|[educationAssignmentPointsGrade](../resources/educationassignmentpointsgrade.md)||
+|publishedPoints|[educationAssignmentPointsGrade](../resources/educationassignmentpointsgrade.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.educationPointsOutcome not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.educationPointsOutcome not found
 Content-type: application/json
 Content-length: 417
 
@@ -73,7 +75,7 @@ Content-length: 417
     "gradedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "gradedDateTime": "2017-01-01T00:02:25.6674094+03:00",
+    "gradedDateTime": "2017-01-01T00:01:22.6057694+03:00",
     "points": "Single"
   },
   "publishedPoints": {
@@ -96,7 +98,7 @@ Content-Length: 903
 
 {
   "@odata.type": "#microsoft.graph.educationPointsOutcome",
-  "id": "eb98b7f1-b7f1-eb98-f1b7-98ebf1b798eb",
+  "id": "46bc9787-9787-46bc-8797-bc468797bc46",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -111,13 +113,13 @@ Content-Length: 903
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "points": {
     "@odata.type": "microsoft.graph.educationAssignmentPointsGrade",
     "gradedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "gradedDateTime": "2017-01-01T00:02:25.6674094+03:00",
+    "gradedDateTime": "2017-01-01T00:01:22.6057694+03:00",
     "points": "Single"
   },
   "publishedPoints": {

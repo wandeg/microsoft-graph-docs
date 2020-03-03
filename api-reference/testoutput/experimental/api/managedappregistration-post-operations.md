@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add operations
 
+Namespace: microsoft.graph
+
 Add operations by posting to the operations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/managedAppRegistrations/{managedAppRegistrationId}/operations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppOperation object.
+In the request body, supply a JSON representation for the [managedAppOperation](../resources/managedappoperation.md) object.
 
-The following table shows the properties that are required when you create the managedAppOperation.
+The following table shows the properties that are required when you create the [managedAppOperation](../resources/managedappoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedAppRegistrations/{managedAppRegistrationId}/operations
+POST https://graph.microsoft.com/localtest/me/managedAppRegistrations/{managedAppRegistrationId}/operations
 Content-type: application/json
 Content-length: 159
 
@@ -90,9 +92,9 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.managedAppOperation",
-  "id": "1d6c63ac-63ac-1d6c-ac63-6c1dac636c1d",
+  "id": "463fe07a-e07a-463f-7ae0-3f467ae03f46",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "state": "State value",
   "version": "Version value"
 }

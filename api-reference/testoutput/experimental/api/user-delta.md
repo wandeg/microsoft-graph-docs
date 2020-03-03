@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/delta
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/delta
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4722
+Content-Length: 4720
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.user",
-      "id": "b3e21b10-1b10-b3e2-101b-e2b3101be2b3",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "a6723cb8-3cb8-a672-b83c-72a6b83c72a6",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "signInActivity": {
         "@odata.type": "microsoft.graph.signInActivity"
       },
@@ -94,7 +96,7 @@ Content-Length: 4722
       "companyName": "Company Name value",
       "consentProvidedForMinor": "Consent Provided For Minor value",
       "country": "Country value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "creationType": "Creation Type value",
       "department": "Department value",
       "deviceKeys": [
@@ -116,7 +118,7 @@ Content-Length: 4722
       ],
       "isResourceAccount": true,
       "jobTitle": "Job Title value",
-      "lastPasswordChangeDateTime": "2017-01-01T00:03:20.3786017+03:00",
+      "lastPasswordChangeDateTime": "2016-12-31T23:57:01.5811029+03:00",
       "legalAgeGroupClassification": "Legal Age Group Classification value",
       "licenseAssignmentStates": [
         {
@@ -131,7 +133,7 @@ Content-Length: 4722
         "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
       },
       "onPremisesImmutableId": "On Premises Immutable Id value",
-      "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -161,9 +163,9 @@ Content-Length: 4722
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "refreshTokensValidFromDateTime": "2017-01-01T00:01:06.4301913+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
       "showInAddressList": true,
-      "signInSessionsValidFromDateTime": "2017-01-01T00:03:09.9007887+03:00",
+      "signInSessionsValidFromDateTime": "2017-01-01T00:01:26.7367124+03:00",
       "state": "State value",
       "streetAddress": "Street Address value",
       "surname": "Surname value",
@@ -180,8 +182,8 @@ Content-Length: 4722
       },
       "deviceEnrollmentLimit": 5,
       "aboutMe": "About Me value",
-      "birthday": "2017-01-01T00:03:13.7306563+03:00",
-      "hireDate": "2017-01-01T00:00:29.1235179+03:00",
+      "birthday": "2017-01-01T00:01:02.2766982+03:00",
+      "hireDate": "2017-01-01T00:03:11.1185624+03:00",
       "interests": [
         "Interests value"
       ],

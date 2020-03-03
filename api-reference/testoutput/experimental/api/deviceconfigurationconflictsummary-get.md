@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceConfigurationConflictSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceConfigurationConflictSummary](../resources/deviceconfigurationconflictsummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationConflictSummary/{deviceConfigurationConflictSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationConflictSummary/{deviceConfigurationConflictSummaryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 455
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationConflictSummary",
-    "id": "6ed0f542-f542-6ed0-42f5-d06e42f5d06e",
+    "id": "ebc32227-2227-ebc3-2722-c3eb2722c3eb",
     "conflictingDeviceConfigurations": [
       {
         "@odata.type": "microsoft.graph.settingSource",

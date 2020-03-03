@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # depEnrollmentBaseProfile resource type
+
+
+Namespace: microsoft.graph
 
 The DepEnrollmentBaseProfile resource represents an Apple Device Enrollment Program (DEP) enrollment profile. This type of profile must be assigned to Apple DEP serial numbers before the corresponding devices can enroll via DEP.
 
 
-Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
+Inherits from [enrollmentProfile](../resources/enrollmentprofile.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List depEnrollmentBaseProfiles](../api/depenrollmentbaseprofile-list.md)|[depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md) collection|List properties and relationships of the [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) objects.|
-|[Get depEnrollmentBaseProfile](../api/depenrollmentbaseprofile-get.md)|[depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|Read properties and relationships of the [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) object.|
+|[List depEnrollmentBaseProfiles](../api/depenrollmentbaseprofile-list.md)|[depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) collection|List properties and relationships of the [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) objects.|
+|[Get depEnrollmentBaseProfile](../api/depenrollmentbaseprofile-get.md)|[depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md)|Read properties and relationships of the [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) object.|
 |[setDefaultProfile](../api/depenrollmentbaseprofile-setdefaultprofile.md)|None||
 |[exportMobileConfig](../api/depenrollmentbaseprofile-exportmobileconfig.md)|String||
 |[updateDeviceProfileAssignment](../api/depenrollmentbaseprofile-updatedeviceprofileassignment.md)|None||
@@ -30,14 +31,14 @@ Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
 |:---|:---|:---|
 |appleIdDisabled|Boolean|Indicates if Apple id setup pane is disabled|
 |applePayDisabled|Boolean|Indicates if Apple pay setup pane is disabled|
-|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |configurationWebUrl|Boolean|URL for setup assistant login|
-|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |deviceNameTemplate|String|Sets a literal or name pattern.|
 |diagnosticsDisabled|Boolean|Indicates if diagnostics setup pane is disabled|
-|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |displayToneSetupDisabled|Boolean|Indicates if displaytone setup screen is disabled|
-|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isDefault|Boolean|Indicates if this is the default profile|
 |isMandatory|Boolean|Indicates if the profile is mandatory|
@@ -45,8 +46,8 @@ Inherits from [enrollmentProfile](../resources/enrollmentProfile.md)
 |passCodeDisabled|Boolean|Indicates if Passcode setup pane is disabled|
 |privacyPaneDisabled|Boolean|Indicates if privacy screen is disabled|
 |profileRemovalDisabled|Boolean|Indicates if the profile removal option is disabled|
-|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |restoreBlocked|Boolean|Indicates if Restore setup pane is blocked|
 |screenTimeScreenDisabled|Boolean|Indicates if screen timeout setup is disabled|
 |siriDisabled|Boolean|Indicates if siri setup pane is disabled|

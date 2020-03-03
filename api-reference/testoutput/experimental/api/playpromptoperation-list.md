@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List playPromptOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.playPromptOperation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.playPromptOperation not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 429
   "value": [
     {
       "@odata.type": "#microsoft.graph.playPromptOperation",
-      "id": "2cb4b04a-b04a-2cb4-4ab0-b42c4ab0b42c",
+      "id": "39a80d04-0d04-39a8-040d-a839040da839",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

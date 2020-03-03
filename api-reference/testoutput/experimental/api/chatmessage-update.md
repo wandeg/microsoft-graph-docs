@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update chatMessage
 
+Namespace: microsoft.graph
+
 Update the properties of a [chatMessage](../resources/chatmessage.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessage
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [chatMessage](../resources/chatMessage.md) object.
+In the request body, supply a JSON representation for the [chatMessage](../resources/chatmessage.md) object.
 
 The following table shows the properties that are required when you create the [chatMessage](../resources/chatmessage.md).
 
@@ -46,20 +48,20 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |replyToId|String||
-|from|[identitySet](../resources/identitySet.md)||
+|from|[identitySet](../resources/identityset.md)||
 |etag|String||
 |messageType|Enumeration|. Possible values are: `message`, `chatEvent`, `typing`.|
 |createdDateTime|DateTimeOffset||
 |lastModifiedDateTime|DateTimeOffset||
 |deletedDateTime|DateTimeOffset||
 |subject|String||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |summary|String||
-|attachments|[chatMessageAttachment](../resources/chatMessageAttachment.md) collection||
-|mentions|[chatMessageMention](../resources/chatMessageMention.md) collection||
+|attachments|[chatMessageAttachment](../resources/chatmessageattachment.md) collection||
+|mentions|[chatMessageMention](../resources/chatmessagemention.md) collection||
 |importance|Enumeration|. Possible values are: `normal`, `high`, `urgent`.|
-|policyViolation|[chatMessagePolicyViolation](../resources/chatMessagePolicyViolation.md)||
-|reactions|[chatMessageReaction](../resources/chatMessageReaction.md) collection||
+|policyViolation|[chatMessagePolicyViolation](../resources/chatmessagepolicyviolation.md)||
+|reactions|[chatMessageReaction](../resources/chatmessagereaction.md) collection||
 |locale|String||
 |webUrl|String||
 
@@ -78,7 +80,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/chats/{chatsId}/messages/{chatMessageId}
+PATCH https://graph.microsoft.com/localtest/chats/{chatsId}/messages/{chatMessageId}
 Content-type: application/json
 Content-length: 2162
 
@@ -101,7 +103,7 @@ Content-length: 2162
   },
   "etag": "Etag value",
   "messageType": "String",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "subject": "Subject value",
   "body": {
     "@odata.type": "microsoft.graph.itemBody",
@@ -168,11 +170,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2334
+Content-Length: 2333
 
 {
   "@odata.type": "#microsoft.graph.chatMessage",
-  "id": "55d0cb56-cb56-55d0-56cb-d05556cbd055",
+  "id": "d15a456d-456d-d15a-6d45-5ad16d455ad1",
   "replyToId": "Reply To Id value",
   "from": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -190,9 +192,9 @@ Content-Length: 2334
   },
   "etag": "Etag value",
   "messageType": "String",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "subject": "Subject value",
   "body": {
     "@odata.type": "microsoft.graph.itemBody",

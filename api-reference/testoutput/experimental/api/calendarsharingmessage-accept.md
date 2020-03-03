@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # accept
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.calendarSharingMessage not found/accept
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.calendarSharingMessage not found/accept
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 658
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendar",
-    "id": "cfde7b0b-7b0b-cfde-0b7b-decf0b7bdecf",
+    "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
     "name": "Name value",
     "color": "String",
     "hexColor": "Hex Color value",

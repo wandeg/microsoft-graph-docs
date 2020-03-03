@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create deviceManagement
 
-Create a new [deviceManagement](../resources/devicemanagement.md) object.
+Namespace: microsoft.graph
+
+Create a new [deviceManagement](../resources/intune-devices-devicemanagement.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,33 +38,33 @@ POST ** Collection URI for microsoft.graph.deviceManagement not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagement object.
+In the request body, supply a JSON representation for the [deviceManagement](../resources/intune-devices-devicemanagement.md) object.
 
-The following table shows the properties that are required when you create the deviceManagement.
+The following table shows the properties that are required when you create the [deviceManagement](../resources/intune-devices-devicemanagement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settings|[deviceManagementSettings](../resources/deviceManagementSettings.md)|Account level settings.|
+|settings|[deviceManagementSettings](../resources/devicemanagementsettings.md)|Account level settings.|
 |maximumDepTokens|Int32|Maximum number of dep tokens allowed per-tenant.|
 |intuneAccountId|Guid|Intune Account Id for given tenant|
 |lastReportAggregationDateTime|DateTimeOffset|The last modified time of reporting for this account. This property is read-only.|
 |deviceComplianceReportSummarizationDateTime|DateTimeOffset|The last requested time of device compliance reporting for this account. This property is read-only.|
 |legacyPcManangementEnabled|Boolean|The property to enable Non-MDM managed legacy PC management for this account. This property is read-only.|
-|intuneBrand|[intuneBrand](../resources/intuneBrand.md)|intuneBrand contains data which is used in customizing the appearance of the Company Portal applications as well as the end user web portal.|
+|intuneBrand|[intuneBrand](../resources/intunebrand.md)|intuneBrand contains data which is used in customizing the appearance of the Company Portal applications as well as the end user web portal.|
 |subscriptionState|Enumeration|Tenant mobile device management subscription state. Possible values are: `pending`, `active`, `warning`, `disabled`, `deleted`, `blocked`, `lockedOut`.|
 |subscriptions|Enumeration|Tenant's Subscription. Possible values are: `none`, `intune`, `office365`, `intunePremium`, `intune_EDU`, `intune_SMB`.|
-|managedDeviceCleanupSettings|[managedDeviceCleanupSettings](../resources/intune-devices-managedDeviceCleanupSettings.md)|Device cleanup rule|
-|adminConsent|[adminConsent](../resources/intune-devices-adminConsent.md)|Admin consent information.|
-|deviceProtectionOverview|[deviceProtectionOverview](../resources/intune-devices-deviceProtectionOverview.md)|Device protection overview.|
-|windowsMalwareOverview|[windowsMalwareOverview](../resources/intune-devices-windowsMalwareOverview.md)|Malware overview for windows devices.|
+|managedDeviceCleanupSettings|[managedDeviceCleanupSettings](../resources/intune-devices-manageddevicecleanupsettings.md)|Device cleanup rule|
+|adminConsent|[adminConsent](../resources/intune-devices-adminconsent.md)|Admin consent information.|
+|deviceProtectionOverview|[deviceProtectionOverview](../resources/intune-devices-deviceprotectionoverview.md)|Device protection overview.|
+|windowsMalwareOverview|[windowsMalwareOverview](../resources/intune-devices-windowsmalwareoverview.md)|Malware overview for windows devices.|
 |accountMoveCompletionDateTime|DateTimeOffset|The date & time when tenant data moved between scaleunits.|
-|groupPolicyObjectFiles|[groupPolicyObjectFile](../resources/groupPolicyObjectFile.md) collection|A list of Group Policy Object files uploaded.|
+|groupPolicyObjectFiles|[groupPolicyObjectFile](../resources/grouppolicyobjectfile.md) collection|A list of Group Policy Object files uploaded.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagement](../resources/devicemanagement.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagement](../resources/intune-devices-devicemanagement.md) object in the response body.
 
 ## Example
 
@@ -74,9 +76,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagement not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagement not found
 Content-type: application/json
-Content-length: 4618
+Content-length: 4619
 
 {
   "@odata.type": "#microsoft.graph.deviceManagement",
@@ -92,9 +94,9 @@ Content-length: 4618
     "androidDeviceAdministratorEnrollmentEnabled": true
   },
   "maximumDepTokens": 0,
-  "intuneAccountId": "ba7966b6-66b6-ba79-b666-79bab66679ba",
-  "lastReportAggregationDateTime": "2017-01-01T00:01:28.3241737+03:00",
-  "deviceComplianceReportSummarizationDateTime": "2016-12-31T23:59:13.5698921+03:00",
+  "intuneAccountId": "593a6361-6361-593a-6163-3a5961633a59",
+  "lastReportAggregationDateTime": "2017-01-01T00:00:47.6468686+03:00",
+  "deviceComplianceReportSummarizationDateTime": "2017-01-01T00:02:15.9853611+03:00",
   "legacyPcManangementEnabled": true,
   "intuneBrand": {
     "@odata.type": "microsoft.graph.intuneBrand",
@@ -172,7 +174,7 @@ Content-length: 4618
         "@odata.type": "microsoft.graph.windowsMalwareStateCount",
         "state": "String",
         "deviceCount": 11,
-        "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00"
+        "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00"
       }
     ],
     "malwareExecutionStateSummary": [
@@ -201,7 +203,7 @@ Content-length: 4618
       }
     ]
   },
-  "accountMoveCompletionDateTime": "2016-12-31T23:57:34.0593966+03:00",
+  "accountMoveCompletionDateTime": "2017-01-01T00:02:02.1429561+03:00",
   "groupPolicyObjectFiles": [
     {
       "@odata.type": "microsoft.graph.groupPolicyObjectFile",
@@ -223,11 +225,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 4667
+Content-Length: 4668
 
 {
   "@odata.type": "#microsoft.graph.deviceManagement",
-  "id": "674b8417-8417-674b-1784-4b6717844b67",
+  "id": "024c7c9b-7c9b-024c-9b7c-4c029b7c4c02",
   "settings": {
     "@odata.type": "microsoft.graph.deviceManagementSettings",
     "deviceComplianceCheckinThresholdDays": 4,
@@ -240,9 +242,9 @@ Content-Length: 4667
     "androidDeviceAdministratorEnrollmentEnabled": true
   },
   "maximumDepTokens": 0,
-  "intuneAccountId": "ba7966b6-66b6-ba79-b666-79bab66679ba",
-  "lastReportAggregationDateTime": "2017-01-01T00:01:28.3241737+03:00",
-  "deviceComplianceReportSummarizationDateTime": "2016-12-31T23:59:13.5698921+03:00",
+  "intuneAccountId": "593a6361-6361-593a-6163-3a5961633a59",
+  "lastReportAggregationDateTime": "2017-01-01T00:00:47.6468686+03:00",
+  "deviceComplianceReportSummarizationDateTime": "2017-01-01T00:02:15.9853611+03:00",
   "legacyPcManangementEnabled": true,
   "intuneBrand": {
     "@odata.type": "microsoft.graph.intuneBrand",
@@ -320,7 +322,7 @@ Content-Length: 4667
         "@odata.type": "microsoft.graph.windowsMalwareStateCount",
         "state": "String",
         "deviceCount": 11,
-        "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00"
+        "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00"
       }
     ],
     "malwareExecutionStateSummary": [
@@ -349,7 +351,7 @@ Content-Length: 4667
       }
     ]
   },
-  "accountMoveCompletionDateTime": "2016-12-31T23:57:34.0593966+03:00",
+  "accountMoveCompletionDateTime": "2017-01-01T00:02:02.1429561+03:00",
   "groupPolicyObjectFiles": [
     {
       "@odata.type": "microsoft.graph.groupPolicyObjectFile",

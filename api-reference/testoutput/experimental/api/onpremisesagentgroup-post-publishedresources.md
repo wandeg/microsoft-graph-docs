@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create publishedResources
 
+Namespace: microsoft.graph
+
 Create publishedResources by posting to the publishedResources collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPr
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the publishedResource object.
+In the request body, supply a JSON representation for the [publishedResource](../resources/publishedresource.md) object.
 
-The following table shows the properties that are required when you create the publishedResource.
+The following table shows the properties that are required when you create the [publishedResource](../resources/publishedresource.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}/agentGroups/{onPremisesAgentGroupId}/publishedResources
+POST https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}/agentGroups/{onPremisesAgentGroupId}/publishedResources
 Content-type: application/json
 Content-length: 172
 
@@ -89,7 +91,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.publishedResource",
-  "id": "eb2819e7-19e7-eb28-e719-28ebe71928eb",
+  "id": "7fa4a67d-a67d-7fa4-7da6-a47f7da6a47f",
   "displayName": "Display Name value",
   "resourceName": "Resource Name value",
   "publishingType": "String"

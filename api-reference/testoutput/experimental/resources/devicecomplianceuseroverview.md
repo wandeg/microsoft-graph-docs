@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceComplianceUserOverview resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceUserOverviews](../api/devicecomplianceuseroverview-list.md)|[deviceComplianceUserOverview](../resources/deviceComplianceUserOverview.md) collection|List properties and relationships of the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) objects.|
-|[Get deviceComplianceUserOverview](../api/devicecomplianceuseroverview-get.md)|[deviceComplianceUserOverview](../resources/deviceComplianceUserOverview.md)|Read properties and relationships of the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
-|[Create deviceComplianceUserOverview](../api/devicecomplianceuseroverview-create.md)|[deviceComplianceUserOverview](../resources/deviceComplianceUserOverview.md)|Create a new [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
+|[List deviceComplianceUserOverviews](../api/devicecomplianceuseroverview-list.md)|[deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) collection|List properties and relationships of the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) objects.|
+|[Get deviceComplianceUserOverview](../api/devicecomplianceuseroverview-get.md)|[deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md)|Read properties and relationships of the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
+|[Create deviceComplianceUserOverview](../api/devicecomplianceuseroverview-create.md)|[deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md)|Create a new [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
 |[Delete deviceComplianceUserOverview](../api/devicecomplianceuseroverview-delete.md)|None|Deletes a [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md).|
-|[Update deviceComplianceUserOverview](../api/devicecomplianceuseroverview-update.md)|[deviceComplianceUserOverview](../resources/deviceComplianceUserOverview.md)|Update the properties of a [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
+|[Update deviceComplianceUserOverview](../api/devicecomplianceuseroverview-update.md)|[deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md)|Update the properties of a [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.|
 
 ## Properties
 |Property|Type|Description|

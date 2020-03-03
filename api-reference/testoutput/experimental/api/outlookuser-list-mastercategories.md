@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List masterCategories
 
+Namespace: microsoft.graph
+
 Get the outlookCategories from the masterCategories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/masterCategories
+GET https://graph.microsoft.com/localtest/me/outlook/masterCategories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 217
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookCategory",
-      "id": "c4ebd58a-d58a-c4eb-8ad5-ebc48ad5ebc4",
+      "id": "a1e7cb3b-cb3b-a1e7-3bcb-e7a13bcbe7a1",
       "displayName": "Display Name value",
       "color": "String"
     }

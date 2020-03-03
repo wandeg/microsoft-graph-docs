@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # chatMessageHostedContent resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get chatMessageHostedContent](../api/chatmessagehostedcontent-get.md)|[chatMessageHostedContent](../resources/chatMessageHostedContent.md)|Read properties and relationships of the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
+|[List chatMessageHostedContents](../api/chatmessagehostedcontent-list.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection|List properties and relationships of the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) objects.|
+|[Get chatMessageHostedContent](../api/chatmessagehostedcontent-get.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Read properties and relationships of the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
+|[Create chatMessageHostedContent](../api/chatmessagehostedcontent-create.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Create a new [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
 |[Delete chatMessageHostedContent](../api/chatmessagehostedcontent-delete.md)|None|Deletes a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md).|
-|[Update chatMessageHostedContent](../api/chatmessagehostedcontent-update.md)|[chatMessageHostedContent](../resources/chatMessageHostedContent.md)|Update the properties of a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
+|[Update chatMessageHostedContent](../api/chatmessagehostedcontent-update.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Update the properties of a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
 
 ## Properties
 |Property|Type|Description|

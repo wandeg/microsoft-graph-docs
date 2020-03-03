@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationSynchronizationOAuth2ClientCredentialsConnectionSettings resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationSynchronizationConnectionSettings](../resources/educationSynchronizationConnectionSettings.md)
+
+
+Inherits from [educationSynchronizationConnectionSettings](../resources/educationsynchronizationconnectionsettings.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|clientId|String| Inherited from [educationSynchronizationConnectionSettings](../resources/educationSynchronizationConnectionSettings.md)|
-|clientSecret|String| Inherited from [educationSynchronizationConnectionSettings](../resources/educationSynchronizationConnectionSettings.md)|
+|clientId|String| Inherited from [educationSynchronizationConnectionSettings](../resources/educationsynchronizationconnectionsettings.md)|
+|clientSecret|String| Inherited from [educationSynchronizationConnectionSettings](../resources/educationsynchronizationconnectionsettings.md)|
 |scope|String||
 |tokenUrl|String||
 

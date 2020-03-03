@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getLoggedOnManagedDevices
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getLoggedOnManagedDevice
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [managedDevice](../resources/intune-devices-managedDevice.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [managedDevice](../resources/intune-devices-manageddevice.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/getLoggedOnManagedDevices
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/getLoggedOnManagedDevices
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 4165
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDevice",
-      "id": "6fde5d11-5d11-6fde-115d-de6f115dde6f",
+      "id": "75612d27-2d27-7561-272d-6175272d6175",
       "userId": "User Id value",
       "deviceName": "Device Name value",
       "hardwareInformation": {
@@ -84,8 +86,8 @@ Content-Length: 4165
         }
       ],
       "managementState": "String",
-      "enrolledDateTime": "2016-12-31T23:57:05.8195886+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "enrolledDateTime": "2016-12-31T23:57:33.2039505+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "chassisType": "String",
       "operatingSystem": "Operating System value",
       "deviceType": "String",
@@ -95,7 +97,7 @@ Content-Length: 4165
       "osVersion": "Os Version value",
       "easActivated": true,
       "easDeviceId": "Eas Device Id value",
-      "easActivationDateTime": "2017-01-01T00:00:46.2610831+03:00",
+      "easActivationDateTime": "2017-01-01T00:03:17.6859355+03:00",
       "aadRegistered": true,
       "azureADRegistered": true,
       "deviceEnrollmentType": "String",
@@ -107,7 +109,7 @@ Content-Length: 4165
       "deviceRegistrationState": "String",
       "deviceCategoryDisplayName": "Device Category Display Name value",
       "isSupervised": true,
-      "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:19.5323287+03:00",
+      "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:54.6036506+03:00",
       "exchangeAccessState": "String",
       "exchangeAccessStateReason": "String",
       "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -117,7 +119,7 @@ Content-Length: 4165
       "model": "Model value",
       "manufacturer": "Manufacturer value",
       "imei": "Imei value",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
       "serialNumber": "Serial Number value",
       "phoneNumber": "Phone Number value",
       "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -135,16 +137,16 @@ Content-Length: 4165
       "freeStorageSpaceInBytes": 7,
       "managedDeviceName": "Managed Device Name value",
       "partnerReportedThreatState": "String",
-      "retireAfterDateTime": "2016-12-31T23:59:23.8529265+03:00",
+      "retireAfterDateTime": "2016-12-31T23:56:27.7226917+03:00",
       "usersLoggedOn": [
         {
           "@odata.type": "microsoft.graph.loggedOnUser"
         }
       ],
-      "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:00:19.4068156+03:00",
+      "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:57:37.9669567+03:00",
       "autopilotEnrolled": true,
       "requireUserEnrollmentApproval": true,
-      "managementCertificateExpirationDate": "2017-01-01T00:01:31.4930621+03:00",
+      "managementCertificateExpirationDate": "2017-01-01T00:01:58.7700963+03:00",
       "iccid": "Iccid value",
       "udid": "Udid value",
       "roleScopeTagIds": [

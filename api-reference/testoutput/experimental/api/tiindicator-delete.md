@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete tiIndicator
 
+Namespace: microsoft.graph
+
 Deletes a [tiIndicator](../resources/tiindicator.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/tiIndicators/{tiIndicatorId}
+DELETE https://graph.microsoft.com/localtest/Security/tiIndicators/{tiIndicatorId}
 ```
 
 ### Response

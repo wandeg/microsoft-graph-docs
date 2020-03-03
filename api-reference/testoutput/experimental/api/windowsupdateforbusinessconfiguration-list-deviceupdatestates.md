@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceUpdateStates
 
+Namespace: microsoft.graph
+
 Get the windowsUpdateStates from the deviceUpdateStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceUpdateStates
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsUpdateForBusinessConfiguration/deviceUpdateStates
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 616
+Content-Length: 617
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUpdateState",
-      "id": "43e96cf8-6cf8-43e9-f86c-e943f86ce943",
+      "id": "98c6922f-922f-98c6-2f92-c6982f92c698",
       "deviceId": "Device Id value",
       "userId": "User Id value",
       "deviceDisplayName": "Device Display Name value",
@@ -78,8 +80,8 @@ Content-Length: 616
       "status": "String",
       "qualityUpdateVersion": "Quality Update Version value",
       "featureUpdateVersion": "Feature Update Version value",
-      "lastScanDateTime": "2016-12-31T23:57:18.1251984+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00"
+      "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
     }
   ]
 }

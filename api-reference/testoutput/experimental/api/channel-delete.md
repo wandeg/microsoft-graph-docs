@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete channel
 
+Namespace: microsoft.graph
+
 Deletes a [channel](../resources/channel.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/teams/{teamsId}/primaryChannel
+DELETE https://graph.microsoft.com/localtest/teams/{teamsId}/primaryChannel
 ```
 
 ### Response

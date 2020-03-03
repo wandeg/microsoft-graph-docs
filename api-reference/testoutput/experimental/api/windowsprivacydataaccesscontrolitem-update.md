@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsPrivacyDataAccessControlItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.g
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md) object.
+In the request body, supply a JSON representation for the [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) object.
 
 The following table shows the properties that are required when you create the [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
 Content-type: application/json
 Content-length: 241
 
@@ -89,7 +91,7 @@ Content-Length: 290
 
 {
   "@odata.type": "#microsoft.graph.windowsPrivacyDataAccessControlItem",
-  "id": "c2534b6b-4b6b-c253-6b4b-53c26b4b53c2",
+  "id": "6126bcaf-bcaf-6126-afbc-2661afbc2661",
   "accessLevel": "String",
   "dataCategory": "String",
   "appPackageFamilyName": "App Package Family Name value",

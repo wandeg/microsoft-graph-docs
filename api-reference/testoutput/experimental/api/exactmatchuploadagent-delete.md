@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete exactMatchUploadAgent
 
+Namespace: microsoft.graph
+
 Deletes a [exactMatchUploadAgent](../resources/exactmatchuploadagent.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/exactMatchUploadAgents/{exactMatchUploadAgentId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/exactMatchUploadAgents/{exactMatchUploadAgentId}
 ```
 
 ### Response

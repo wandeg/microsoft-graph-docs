@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidDeviceComplianceLocalActionLockDeviceWithPasscodes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidDeviceComplianceLocalActionLockDeviceWithPasscode](../resources/androiddevicecompliancelocalactionlockdevicewithpasscode.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 309
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode",
-      "id": "0ae00c04-0c04-0ae0-040c-e00a040ce00a",
+      "id": "509822a7-22a7-5098-a722-9850a7229850",
       "gracePeriodInMinutes": 4,
       "passcode": "Passcode value",
       "passcodeSignInFailureCountBeforeWipe": 4

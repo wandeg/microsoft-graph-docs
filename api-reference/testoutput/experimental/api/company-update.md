@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update company
 
+Namespace: microsoft.graph
+
 Update the properties of a [company](../resources/company.md) object.
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}
 Content-type: application/json
 Content-length: 211
 
@@ -89,7 +91,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.company",
-  "id": "23c67a93-7a93-23c6-937a-c623937ac623",
+  "id": "deae77e1-77e1-deae-e177-aedee177aede",
   "systemVersion": "System Version value",
   "name": "Name value",
   "displayName": "Display Name value",

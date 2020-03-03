@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # mobileAppTroubleshootingAppUpdateHistory resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [mobileAppTroubleshootingHistoryItem](../resources/mobileAppTroubleshootingHistoryItem.md)
+
+
+Inherits from [mobileAppTroubleshootingHistoryItem](../resources/mobileapptroubleshootinghistoryitem.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|occurrenceDateTime|DateTimeOffset|Time when the history item occurred. Inherited from [mobileAppTroubleshootingHistoryItem](../resources/mobileAppTroubleshootingHistoryItem.md)|
+|occurrenceDateTime|DateTimeOffset|Time when the history item occurred. Inherited from [mobileAppTroubleshootingHistoryItem](../resources/mobileapptroubleshootinghistoryitem.md)|
 
 ## Relationships
 None

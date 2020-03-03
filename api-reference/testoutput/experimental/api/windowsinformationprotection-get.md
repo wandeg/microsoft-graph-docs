@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsInformationProtection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsInformationProtection](../resources/windowsinformationprotection.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsInformationProtection not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsInformationProtection not found
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 3302
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtection",
-    "id": "ecde7e17-7e17-ecde-177e-deec177edeec",
+    "id": "dd8aaa90-aa90-dd8a-90aa-8add90aa8add",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,11 +97,11 @@ Content-Length: 3302
     "dataRecoveryCertificate": {
       "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
       "subjectName": "Subject Name value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "certificate": "Y2VydGlmaWNhdGU="
     },
     "revokeOnUnenrollDisabled": true,
-    "rightsManagementServicesTemplateId": "9f287b58-7b58-9f28-587b-289f587b289f",
+    "rightsManagementServicesTemplateId": "d1668e9a-8e9a-d166-9a8e-66d19a8e66d1",
     "azureRightsManagementServicesAllowed": true,
     "iconsVisible": true,
     "protectedApps": [

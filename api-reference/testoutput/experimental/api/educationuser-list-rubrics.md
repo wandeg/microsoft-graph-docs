@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List rubrics
 
+Namespace: microsoft.graph
+
 Get the educationRubrics from the rubrics navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members/{educationUserId}/rubrics
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members/{educationUserId}/rubrics
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1677
+Content-Length: 1676
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationRubric",
-      "id": "8c75019d-019d-8c75-9d01-758c9d01758c",
+      "id": "f0c2bb23-bb23-f0c2-23bb-c2f023bbc2f0",
       "displayName": "Display Name value",
       "description": {
         "@odata.type": "microsoft.graph.educationItemBody",
@@ -102,7 +104,7 @@ Content-Length: 1677
       "grading": {
         "@odata.type": "microsoft.graph.educationAssignmentGradeType"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -116,7 +118,7 @@ Content-Length: 1677
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       }

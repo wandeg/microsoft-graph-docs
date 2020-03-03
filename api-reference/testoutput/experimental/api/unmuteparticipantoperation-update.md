@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update unmuteParticipantOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH ** Entity URI for microsoft.graph.unmuteParticipantOperation not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [unmuteParticipantOperation](../resources/unmuteParticipantOperation.md) object.
+In the request body, supply a JSON representation for the [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) object.
 
 The following table shows the properties that are required when you create the [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.unmuteParticipantOperation not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.unmuteParticipantOperation not found
 Content-type: application/json
 Content-length: 277
 
@@ -92,7 +94,7 @@ Content-Length: 326
 
 {
   "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-  "id": "2d433e00-3e00-2d43-003e-432d003e432d",
+  "id": "4a0cb051-b051-4a0c-51b0-0c4a51b00c4a",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

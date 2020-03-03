@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete policySetAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [policySetAssignment](../resources/policysetassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
 ```
 
 ### Response

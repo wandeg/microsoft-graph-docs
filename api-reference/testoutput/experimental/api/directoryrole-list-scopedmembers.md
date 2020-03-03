@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List scopedMembers
 
+Namespace: microsoft.graph
+
 Get the scopedRoleMemberships from the scopedMembers navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directoryRoles/{directoryRolesId}/scopedMembers
+GET https://graph.microsoft.com/localtest/directoryRoles/{directoryRolesId}/scopedMembers
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 410
   "value": [
     {
       "@odata.type": "#microsoft.graph.scopedRoleMembership",
-      "id": "005e319c-319c-005e-9c31-5e009c315e00",
+      "id": "d79510a2-10a2-d795-a210-95d7a21095d7",
       "roleId": "Role Id value",
       "administrativeUnitId": "Administrative Unit Id value",
       "roleMemberInfo": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userExperienceAnalyticsDeviceStartupHistory
 
+Namespace: microsoft.graph
+
 Get the userExperienceAnalyticsDeviceStartupHistories from the userExperienceAnalyticsDeviceStartupHistory navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsDeviceStartupHistory
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsDeviceStartupHistory
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 636
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceStartupHistory",
-      "id": "a39d0365-0365-a39d-6503-9da365039da3",
+      "id": "3431c76a-c76a-3431-6ac7-31346ac73134",
       "deviceId": "Device Id value",
-      "startTime": "2016-12-31T23:59:41.6500596+03:00",
+      "startTime": "2017-01-01T00:02:49.6370207+03:00",
       "coreBootTimeInMs": 0,
       "groupPolicyBootTimeInMs": 7,
       "featureUpdateBootTimeInMs": 9,

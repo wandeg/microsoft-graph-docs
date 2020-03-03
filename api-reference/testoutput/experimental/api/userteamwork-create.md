@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create userTeamwork
 
+Namespace: microsoft.graph
+
 Create a new [userTeamwork](../resources/userteamwork.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.userTeamwork not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userTeamwork object.
+In the request body, supply a JSON representation for the [userTeamwork](../resources/userteamwork.md) object.
 
-The following table shows the properties that are required when you create the userTeamwork.
+The following table shows the properties that are required when you create the [userTeamwork](../resources/userteamwork.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userTeamwork not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userTeamwork not found
 Content-type: application/json
 Content-length: 54
 
@@ -83,7 +85,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.userTeamwork",
-  "id": "1bc7fa80-fa80-1bc7-80fa-c71b80fac71b"
+  "id": "47ac7302-7302-47ac-0273-ac470273ac47"
 }
 ```
 

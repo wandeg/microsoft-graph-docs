@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create skypeForBusinessDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the skypeForBusinessDeviceUsageUserDetail object.
+In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.
 
-The following table shows the properties that are required when you create the skypeForBusinessDeviceUsageUserDetail.
+The following table shows the properties that are required when you create the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
 Content-type: application/json
 Content-length: 363
 
@@ -101,7 +103,7 @@ Content-Length: 412
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageUserDetail",
-  "id": "e6344f5c-4f5c-e634-5c4f-34e65c4f34e6",
+  "id": "9bcfcf09-cf09-9bcf-09cf-cf9b09cfcf9b",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

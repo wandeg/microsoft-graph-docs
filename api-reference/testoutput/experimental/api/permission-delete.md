@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete permission
 
+Namespace: microsoft.graph
+
 Deletes a [permission](../resources/permission.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/shares/{sharesId}/permission
+DELETE https://graph.microsoft.com/localtest/shares/{sharesId}/permission
 ```
 
 ### Response

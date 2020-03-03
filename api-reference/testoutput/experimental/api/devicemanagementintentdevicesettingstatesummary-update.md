@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementIntentDeviceSettingStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSum
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementIntentDeviceSettingStateSummary](../resources/deviceManagementIntentDeviceSettingStateSummary.md) object.
+In the request body, supply a JSON representation for the [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries/{deviceManagementIntentDeviceSettingStateSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries/{deviceManagementIntentDeviceSettingStateSummaryId}
 Content-type: application/json
 Content-length: 280
 
@@ -95,7 +97,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceSettingStateSummary",
-  "id": "9d24436b-436b-9d24-6b43-249d6b43249d",
+  "id": "19d40817-0817-19d4-1708-d4191708d419",
   "settingName": "Setting Name value",
   "compliantCount": 14,
   "conflictCount": 13,

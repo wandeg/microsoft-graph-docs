@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get circularGeofenceManagementCondition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [circularGeofenceManagementCondition](../resources/circulargeofencemanagementcondition.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.circularGeofenceManagementCondition not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.circularGeofenceManagementCondition not found
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 564
+Content-Length: 563
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.circularGeofenceManagementCondition",
-    "id": "85edb7d1-b7d1-85ed-d1b7-ed85d1b7ed85",
+    "id": "f85064be-64be-f850-be64-50f8be6450f8",
     "uniqueName": "Unique Name value",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
     "eTag": "ETag value",
     "applicablePlatforms": [
       "String"

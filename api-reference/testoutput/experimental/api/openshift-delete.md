@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete openShift
 
+Namespace: microsoft.graph
+
 Deletes a [openShift](../resources/openshift.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
 ```
 
 ### Response

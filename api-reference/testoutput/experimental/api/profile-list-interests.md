@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List interests
 
+Namespace: microsoft.graph
+
 Get the personInterests from the interests navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/interests
+GET https://graph.microsoft.com/localtest/me/profile/interests
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1193
+Content-Length: 1192
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.personInterest",
-      "id": "db489940-9940-db48-4099-48db409948db",
+      "id": "7a0c86a3-86a3-7a0c-a386-0c7aa3860c7a",
       "allowedAudiences": "String",
       "inference": {
         "@odata.type": "microsoft.graph.inferenceData",
         "confidenceScore": "Double",
         "userHasVerifiedAccuracy": true
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -92,7 +94,7 @@ Content-Length: 1193
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },

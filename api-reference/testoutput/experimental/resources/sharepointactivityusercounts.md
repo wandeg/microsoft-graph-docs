@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointActivityUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointActivityUserCountses](../api/sharepointactivityusercounts-list.md)|[sharePointActivityUserCounts](../resources/sharePointActivityUserCounts.md) collection|List properties and relationships of the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) objects.|
-|[Get sharePointActivityUserCounts](../api/sharepointactivityusercounts-get.md)|[sharePointActivityUserCounts](../resources/sharePointActivityUserCounts.md)|Read properties and relationships of the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
-|[Create sharePointActivityUserCounts](../api/sharepointactivityusercounts-create.md)|[sharePointActivityUserCounts](../resources/sharePointActivityUserCounts.md)|Create a new [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
+|[List sharePointActivityUserCountses](../api/sharepointactivityusercounts-list.md)|[sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) collection|List properties and relationships of the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) objects.|
+|[Get sharePointActivityUserCounts](../api/sharepointactivityusercounts-get.md)|[sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md)|Read properties and relationships of the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
+|[Create sharePointActivityUserCounts](../api/sharepointactivityusercounts-create.md)|[sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md)|Create a new [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
 |[Delete sharePointActivityUserCounts](../api/sharepointactivityusercounts-delete.md)|None|Deletes a [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md).|
-|[Update sharePointActivityUserCounts](../api/sharepointactivityusercounts-update.md)|[sharePointActivityUserCounts](../resources/sharePointActivityUserCounts.md)|Update the properties of a [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
+|[Update sharePointActivityUserCounts](../api/sharepointactivityusercounts-update.md)|[sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md)|Update the properties of a [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

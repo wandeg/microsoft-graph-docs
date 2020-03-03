@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemPhone
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemPhone](../resources/itemphone.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/phones/{itemPhoneId}
+GET https://graph.microsoft.com/localtest/me/profile/phones/{itemPhoneId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1020
+Content-Length: 1019
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemPhone",
-    "id": "f87b6b30-6b30-f87b-306b-7bf8306b7bf8",
+    "id": "645c2a36-2a36-645c-362a-5c64362a5c64",
     "allowedAudiences": "String",
     "inference": {
       "@odata.type": "microsoft.graph.inferenceData",
       "confidenceScore": "Double",
       "userHasVerifiedAccuracy": true
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,7 +96,7 @@ Content-Length: 1020
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

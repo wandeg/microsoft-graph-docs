@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List credentialUserRegistrationCounts
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [credentialUserRegistrationCount](../resources/credentialuserregistrationcount.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.credentialUserRegistrationCount not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.credentialUserRegistrationCount not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 403
   "value": [
     {
       "@odata.type": "#microsoft.graph.credentialUserRegistrationCount",
-      "id": "32a539a1-39a1-32a5-a139-a532a139a532",
+      "id": "1bc6be74-be74-1bc6-74be-c61b74bec61b",
       "totalUserCount": 14,
       "userRegistrationCounts": [
         {

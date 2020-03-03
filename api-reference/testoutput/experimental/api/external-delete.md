@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete external
 
+Namespace: microsoft.graph
+
 Deletes a [external](../resources/external.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/external
+DELETE https://graph.microsoft.com/localtest/external
 ```
 
 ### Response

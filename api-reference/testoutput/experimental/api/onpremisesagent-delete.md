@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete onPremisesAgent
 
+Namespace: microsoft.graph
+
 Deletes a [onPremisesAgent](../resources/onpremisesagent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}
+DELETE https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}
 ```
 
 ### Response

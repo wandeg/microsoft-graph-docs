@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidWorkProfileCompliancePolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidWorkProfileCompliancePolicy](../resources/androidworkprofilecompliancepolicy.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.androidWorkProfileCompliancePolicy not f
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidWorkProfileCompliancePolicy](../resources/androidWorkProfileCompliancePolicy.md) object.
+In the request body, supply a JSON representation for the [androidWorkProfileCompliancePolicy](../resources/androidworkprofilecompliancepolicy.md) object.
 
 The following table shows the properties that are required when you create the [androidWorkProfileCompliancePolicy](../resources/androidworkprofilecompliancepolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
 |passwordRequired|Boolean|Require a password to unlock device.|
 |passwordMinimumLength|Int32|Minimum password length. Valid values 4 to 16|
 |passwordRequiredType|Enumeration|Type of characters in password. Possible values are: `deviceDefault`, `alphabetic`, `alphanumeric`, `alphanumericWithSymbols`, `lowSecurityBiometric`, `numeric`, `numericComplex`, `any`.|
@@ -87,7 +89,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidWorkProfileCompliancePolicy not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidWorkProfileCompliancePolicy not found
 Content-type: application/json
 Content-length: 1344
 
@@ -135,17 +137,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1516
+Content-Length: 1515
 
 {
   "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
-  "id": "8c14980d-980d-8c14-0d98-148c0d98148c",
+  "id": "f8423c95-3c95-f842-953c-42f8953c42f8",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passwordRequired": true,

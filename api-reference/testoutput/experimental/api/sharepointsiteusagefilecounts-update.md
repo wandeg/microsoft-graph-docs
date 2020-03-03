@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharePointSiteUsageFileCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.sharePointSiteUsageFileCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharePointSiteUsageFileCounts](../resources/sharePointSiteUsageFileCounts.md) object.
+In the request body, supply a JSON representation for the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.
 
 The following table shows the properties that are required when you create the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointSiteUsageFileCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointSiteUsageFileCounts not found
 Content-type: application/json
 Content-length: 235
 
@@ -93,7 +95,7 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageFileCounts",
-  "id": "b6bab2d8-b2d8-b6ba-d8b2-bab6d8b2bab6",
+  "id": "7a320b6a-0b6a-7a32-6a0b-327a6a0b327a",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "total": 5,

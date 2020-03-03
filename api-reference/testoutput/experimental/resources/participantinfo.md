@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # participantInfo resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |countryCode|String||
 |endpointType|Enumeration|. Possible values are: `default`, `voicemail`, `skypeForBusiness`, `skypeForBusinessVoipPhone`, `unknownFutureValue`.|
-|identity|[identitySet](../resources/identitySet.md)||
+|identity|[identitySet](../resources/identityset.md)||
 |languageId|String||
 |region|String||
 

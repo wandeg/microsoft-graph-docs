@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List languages
 
+Namespace: microsoft.graph
+
 Get the languageProficiencies from the languages navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/languages
+GET https://graph.microsoft.com/localtest/me/profile/languages
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1105
+Content-Length: 1104
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.languageProficiency",
-      "id": "35e3303f-303f-35e3-3f30-e3353f30e335",
+      "id": "d3a88ab5-8ab5-d3a8-b58a-a8d3b58aa8d3",
       "allowedAudiences": "String",
       "inference": {
         "@odata.type": "microsoft.graph.inferenceData",
         "confidenceScore": "Double",
         "userHasVerifiedAccuracy": true
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -92,7 +94,7 @@ Content-Length: 1105
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },

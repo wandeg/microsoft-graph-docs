@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # searchExistingIdentities
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|importedDeviceIdentities|[importedDeviceIdentity](../resources/importedDeviceIdentity.md) collection||
+|importedDeviceIdentities|[importedDeviceIdentity](../resources/importeddeviceidentity.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [importedDeviceIdentity](../resources/importedDeviceIdentity.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [importedDeviceIdentity](../resources/importeddeviceidentity.md) collection in the response body.
 
 ## Example
 
@@ -59,21 +61,21 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/importedDeviceIdentities/searchExistingIdentities
+POST https://graph.microsoft.com/localtest/deviceManagement/importedDeviceIdentities/searchExistingIdentities
 
 Content-type: application/json
-Content-length: 599
+Content-length: 598
 
 {
   "importedDeviceIdentities": [
     {
       "@odata.type": "#microsoft.graph.importedDeviceIdentity",
-      "id": "e1c1166c-166c-e1c1-6c16-c1e16c16c1e1",
+      "id": "381a5bef-5bef-381a-ef5b-1a38ef5b1a38",
       "importedDeviceIdentifier": "Imported Device Identifier value",
       "importedDeviceIdentityType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String"
@@ -93,18 +95,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 580
+Content-Length: 579
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.importedDeviceIdentity",
-      "id": "e1c1166c-166c-e1c1-6c16-c1e16c16c1e1",
+      "id": "381a5bef-5bef-381a-ef5b-1a38ef5b1a38",
       "importedDeviceIdentifier": "Imported Device Identifier value",
       "importedDeviceIdentityType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String"

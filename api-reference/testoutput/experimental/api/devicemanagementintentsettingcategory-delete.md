@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementIntentSettingCategory
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}
 ```
 
 ### Response

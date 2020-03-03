@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) object.
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/assignments/{deviceConfigurationAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/assignments/{deviceConfigurationAssignmentId}
 ```
 
 ### Response
@@ -81,7 +83,7 @@ Content-Length: 308
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-    "id": "270aa705-a705-270a-05a7-0a2705a70a27",
+    "id": "cecb4cfb-4cfb-cecb-fb4c-cbcefb4ccbce",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     },

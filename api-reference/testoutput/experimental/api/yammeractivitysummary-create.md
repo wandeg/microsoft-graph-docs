@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create yammerActivitySummary
 
+Namespace: microsoft.graph
+
 Create a new [yammerActivitySummary](../resources/yammeractivitysummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.yammerActivitySummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the yammerActivitySummary object.
+In the request body, supply a JSON representation for the [yammerActivitySummary](../resources/yammeractivitysummary.md) object.
 
-The following table shows the properties that are required when you create the yammerActivitySummary.
+The following table shows the properties that are required when you create the [yammerActivitySummary](../resources/yammeractivitysummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerActivitySummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerActivitySummary not found
 Content-type: application/json
 Content-length: 207
 
@@ -95,7 +97,7 @@ Content-Length: 256
 
 {
   "@odata.type": "#microsoft.graph.yammerActivitySummary",
-  "id": "1d1f1b64-1b64-1d1f-641b-1f1d641b1f1d",
+  "id": "21c741d7-41d7-21c7-d741-c721d741c721",
   "reportRefreshDate": "Date",
   "liked": 5,
   "posted": 6,

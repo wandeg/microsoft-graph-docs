@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add privacyAccessControls
 
+Namespace: microsoft.graph
+
 Add privacyAccessControls by posting to the privacyAccessControls collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.gr
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsPrivacyDataAccessControlItem object.
+In the request body, supply a JSON representation for the [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) object.
 
-The following table shows the properties that are required when you create the windowsPrivacyDataAccessControlItem.
+The following table shows the properties that are required when you create the [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls
 Content-type: application/json
 Content-length: 241
 
@@ -91,7 +93,7 @@ Content-Length: 290
 
 {
   "@odata.type": "#microsoft.graph.windowsPrivacyDataAccessControlItem",
-  "id": "c2534b6b-4b6b-c253-6b4b-53c26b4b53c2",
+  "id": "6126bcaf-bcaf-6126-afbc-2661afbc2661",
   "accessLevel": "String",
   "dataCategory": "String",
   "appPackageFamilyName": "App Package Family Name value",

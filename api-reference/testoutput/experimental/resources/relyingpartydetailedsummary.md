@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # relyingPartyDetailedSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List relyingPartyDetailedSummaries](../api/relyingpartydetailedsummary-list.md)|[relyingPartyDetailedSummary](../resources/relyingPartyDetailedSummary.md) collection|List properties and relationships of the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) objects.|
-|[Get relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-get.md)|[relyingPartyDetailedSummary](../resources/relyingPartyDetailedSummary.md)|Read properties and relationships of the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
-|[Create relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-create.md)|[relyingPartyDetailedSummary](../resources/relyingPartyDetailedSummary.md)|Create a new [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
+|[List relyingPartyDetailedSummaries](../api/relyingpartydetailedsummary-list.md)|[relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) collection|List properties and relationships of the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) objects.|
+|[Get relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-get.md)|[relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md)|Read properties and relationships of the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
+|[Create relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-create.md)|[relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md)|Create a new [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
 |[Delete relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-delete.md)|None|Deletes a [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md).|
-|[Update relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-update.md)|[relyingPartyDetailedSummary](../resources/relyingPartyDetailedSummary.md)|Update the properties of a [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
+|[Update relyingPartyDetailedSummary](../api/relyingpartydetailedsummary-update.md)|[relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md)|Update the properties of a [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 |failedSignInCount|Int64||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |migrationStatus|Enumeration|. Possible values are: `ready`, `needsReview`, `additionalStepsRequired`, `unknownFutureValue`.|
-|migrationValidationDetails|[keyValuePair](../resources/keyValuePair.md) collection||
+|migrationValidationDetails|[keyValuePair](../resources/keyvaluepair.md) collection||
 |relyingPartyId|String||
 |relyingPartyName|String||
 |replyUrls|String collection||

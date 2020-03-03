@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete skillProficiency
 
+Namespace: microsoft.graph
+
 Deletes a [skillProficiency](../resources/skillproficiency.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/skills/{skillProficiencyId}
+DELETE https://graph.microsoft.com/localtest/me/profile/skills/{skillProficiencyId}
 ```
 
 ### Response

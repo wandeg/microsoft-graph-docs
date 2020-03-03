@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingAppointment
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingAppointment](../resources/bookingappointment.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}/calendarView/{bookingAppointmentI
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingAppointment](../resources/bookingAppointment.md) object.
+In the request body, supply a JSON representation for the [bookingAppointment](../resources/bookingappointment.md) object.
 
 The following table shows the properties that are required when you create the [bookingAppointment](../resources/bookingappointment.md).
 
@@ -55,8 +57,8 @@ The value of this property is only available when reading an individual booking 
 |serviceId|String|The id of the booking service associated with this appointment.|
 |serviceName|String|The name of the booking service associated with this appointment.
 This property is optional when creating a new appointment. If not specified, it is computed from the service associated with the appointment by the service id.|
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |duration|Duration||
 |preBuffer|Duration||
 |postBuffer|Duration||
@@ -64,11 +66,11 @@ This property is optional when creating a new appointment. If not specified, it 
 |priceType|Enumeration|. Possible values are: `undefined`, `fixedPrice`, `startingAt`, `hourly`, `free`, `priceVaries`, `callUs`, `notSet`.|
 |price|Double||
 |serviceNotes|String|The value of this property is only available when reading an individual booking appointment by id.|
-|reminders|[bookingReminder](../resources/bookingReminder.md) collection|The value of this property is only available when reading an individual booking appointment by id.|
+|reminders|[bookingReminder](../resources/bookingreminder.md) collection|The value of this property is only available when reading an individual booking appointment by id.|
 |optOutOfCustomerEmail|Boolean||
 |staffMemberIds|String collection||
 |invoiceAmount|Double||
-|invoiceDate|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|invoiceDate|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |invoiceId|String||
 |invoiceStatus|Enumeration|. Possible values are: `draft`, `reviewing`, `open`, `canceled`, `paid`, `corrective`.|
 |invoiceUrl|String||
@@ -88,9 +90,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/appointments/{bookingAppointmentId}
+PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/appointments/{bookingAppointmentId}
 Content-type: application/json
-Content-length: 2349
+Content-length: 2351
 
 {
   "@odata.type": "#microsoft.graph.bookingAppointment",
@@ -137,9 +139,9 @@ Content-length: 2349
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
-  "duration": "PT3M27.7161587S",
-  "preBuffer": "PT3M13.876457S",
-  "postBuffer": "-PT3M7.6941789S",
+  "duration": "-PT1M55.0810357S",
+  "preBuffer": "-PT27.6468082S",
+  "postBuffer": "-PT49.745402S",
   "serviceLocation": {
     "@odata.type": "microsoft.graph.location"
   },
@@ -149,7 +151,7 @@ Content-length: 2349
   "reminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "PT29.4091216S",
+      "offset": "-PT2M15.3589096S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -178,11 +180,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2398
+Content-Length: 2400
 
 {
   "@odata.type": "#microsoft.graph.bookingAppointment",
-  "id": "bcb5ac85-ac85-bcb5-85ac-b5bc85acb5bc",
+  "id": "494bb340-b340-494b-40b3-4b4940b34b49",
   "selfServiceAppointmentId": "Self Service Appointment Id value",
   "customerId": "Customer Id value",
   "customerName": "Customer Name value",
@@ -226,9 +228,9 @@ Content-Length: 2398
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
-  "duration": "PT3M27.7161587S",
-  "preBuffer": "PT3M13.876457S",
-  "postBuffer": "-PT3M7.6941789S",
+  "duration": "-PT1M55.0810357S",
+  "preBuffer": "-PT27.6468082S",
+  "postBuffer": "-PT49.745402S",
   "serviceLocation": {
     "@odata.type": "microsoft.graph.location"
   },
@@ -238,7 +240,7 @@ Content-Length: 2398
   "reminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "PT29.4091216S",
+      "offset": "-PT2M15.3589096S",
       "recipients": "String",
       "message": "Message value"
     }

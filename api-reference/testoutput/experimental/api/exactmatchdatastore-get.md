@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get exactMatchDataStore
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [exactMatchDataStore](../resources/exactmatchdatastore.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}
+GET https://graph.microsoft.com/localtest/dataClassification/exactMatchDataStores/{exactMatchDataStoreId}
 ```
 
 ### Response
@@ -72,10 +74,10 @@ Content-Length: 285
 {
   "value": {
     "@odata.type": "#microsoft.graph.exactMatchDataStore",
-    "id": "5100038f-038f-5100-8f03-00518f030051",
+    "id": "0ecaed55-ed55-0eca-55ed-ca0e55edca0e",
     "displayName": "Display Name value",
     "description": "Description value",
-    "dataLastUpdatedDateTime": "2017-01-01T00:02:56.7657585+03:00"
+    "dataLastUpdatedDateTime": "2016-12-31T23:57:12.7722306+03:00"
   }
 }
 ```

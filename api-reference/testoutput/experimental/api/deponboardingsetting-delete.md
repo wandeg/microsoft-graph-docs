@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete depOnboardingSetting
 
+Namespace: microsoft.graph
+
 Deletes a [depOnboardingSetting](../resources/deponboardingsetting.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
 ```
 
 ### Response

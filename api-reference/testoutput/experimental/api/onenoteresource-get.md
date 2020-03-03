@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenoteResource
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenoteResource](../resources/onenoteresource.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 236
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteResource",
-    "id": "bf33c182-c182-bf33-82c1-33bf82c133bf",
+    "id": "07bc711f-711f-07bc-1f71-bc071f71bc07",
     "self": "Self value",
     "content": "Stream",
     "contentUrl": "https://example.com/contentUrl/"

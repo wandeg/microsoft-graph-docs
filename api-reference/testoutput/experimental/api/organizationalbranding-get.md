@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get organizationalBranding
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [organizationalBranding](../resources/organizationalbranding.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/organization/{organizationId}/brandings/{organizationalBrandingId}
+GET https://graph.microsoft.com/localtest/organization/{organizationId}/brandings/{organizationalBrandingId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 412
 {
   "value": {
     "@odata.type": "#microsoft.graph.organizationalBranding",
-    "id": "74e73f7b-3f7b-74e7-7b3f-e7747b3fe774",
+    "id": "78efe820-e820-78ef-20e8-ef7820e8ef78",
     "backgroundColor": "Background Color value",
     "backgroundImage": "Stream",
     "bannerLogo": "Stream",

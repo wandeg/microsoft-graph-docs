@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List contentVersions
 
+Namespace: microsoft.graph
+
 Get the mobileAppContents from the contentVersions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.managedMobileLobApp/contentVersions
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.managedMobileLobApp/contentVersions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 148
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppContent",
-      "id": "41cfb398-b398-41cf-98b3-cf4198b3cf41"
+      "id": "9233c4e9-c4e9-9233-e9c4-3392e9c43392"
     }
   ]
 }

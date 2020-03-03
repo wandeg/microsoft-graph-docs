@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileAppCategory
 
-Read properties and relationships of the [mobileAppCategory](../resources/mobileappcategory.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileAppCategory](../resources/mobileappcategory.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 239
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppCategory",
-    "id": "c32c2193-2193-c32c-9321-2cc393212cc3",
+    "id": "e87814ef-14ef-e878-ef14-78e8ef1478e8",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

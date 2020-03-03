@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mention resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List mentions](../api/mention-list.md)|[mention](../resources/mention.md) collection|List properties and relationships of the [mention](../resources/mention.md) objects.|
 |[Get mention](../api/mention-get.md)|[mention](../resources/mention.md)|Read properties and relationships of the [mention](../resources/mention.md) object.|
+|[Create mention](../api/mention-create.md)|[mention](../resources/mention.md)|Create a new [mention](../resources/mention.md) object.|
 |[Delete mention](../api/mention-delete.md)|None|Deletes a [mention](../resources/mention.md).|
 |[Update mention](../api/mention-update.md)|[mention](../resources/mention.md)|Update the properties of a [mention](../resources/mention.md) object.|
 
@@ -28,11 +31,11 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |application|String||
 |clientReference|String||
-|createdBy|[emailAddress](../resources/emailAddress.md)||
+|createdBy|[emailAddress](../resources/emailaddress.md)||
 |createdDateTime|DateTimeOffset||
 |deepLink|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|mentioned|[emailAddress](../resources/emailAddress.md)||
+|mentioned|[emailAddress](../resources/emailaddress.md)||
 |mentionText|String||
 |serverCreatedDateTime|DateTimeOffset||
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update urlAssessmentRequest
 
+Namespace: microsoft.graph
+
 Update the properties of a [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.
 
 ## Permissions
@@ -35,20 +37,20 @@ PATCH ** Entity URI for microsoft.graph.urlAssessmentRequest not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [urlAssessmentRequest](../resources/urlAssessmentRequest.md) object.
+In the request body, supply a JSON representation for the [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.
 
 The following table shows the properties that are required when you create the [urlAssessmentRequest](../resources/urlassessmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `mail`, `url`, `file`.|
-|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `block`, `unblock`.|
-|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
-|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `pending`, `completed`.|
-|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `user`, `administrator`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `mail`, `url`, `file`.|
+|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `block`, `unblock`.|
+|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
+|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `pending`, `completed`.|
+|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `user`, `administrator`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
 |url|String||
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.urlAssessmentRequest not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.urlAssessmentRequest not found
 Content-type: application/json
 Content-length: 594
 
@@ -105,12 +107,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 702
+Content-Length: 701
 
 {
   "@odata.type": "#microsoft.graph.urlAssessmentRequest",
-  "id": "a8f01eb4-1eb4-a8f0-b41e-f0a8b41ef0a8",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "90cd7248-7248-90cd-4872-cd904872cd90",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "contentType": "String",
   "expectedAssessment": "String",
   "category": "String",

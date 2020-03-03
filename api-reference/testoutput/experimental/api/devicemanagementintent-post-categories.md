@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add categories
 
+Namespace: microsoft.graph
+
 Add categories by posting to the categories collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/categories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementIntentSettingCategory object.
+In the request body, supply a JSON representation for the [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementIntentSettingCategory.
+The following table shows the properties that are required when you create the [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The category name Inherited from [deviceManagementSettingCategory](../resources/deviceManagementSettingCategory.md)|
+|displayName|String|The category name Inherited from [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md)|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/categories
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/categories
 Content-type: application/json
 Content-length: 119
 
@@ -85,7 +87,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentSettingCategory",
-  "id": "fa7c453b-453b-fa7c-3b45-7cfa3b457cfa",
+  "id": "846bd537-d537-846b-37d5-6b8437d56b84",
   "displayName": "Display Name value"
 }
 ```

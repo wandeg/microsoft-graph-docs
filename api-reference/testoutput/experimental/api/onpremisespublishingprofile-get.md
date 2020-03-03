@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onPremisesPublishingProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onPremisesPublishingProfile](../resources/onpremisespublishingprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}
+GET https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 575
+Content-Length: 574
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onPremisesPublishingProfile",
-    "id": "ad1876c2-76c2-ad18-c276-18adc27618ad",
+    "id": "6e2a39a7-39a7-6e2a-a739-2a6ea7392a6e",
     "hybridAgentUpdaterConfiguration": {
       "@odata.type": "microsoft.graph.hybridAgentUpdaterConfiguration",
-      "deferUpdateDateTime": "2017-01-01T00:02:44.2681456+03:00",
+      "deferUpdateDateTime": "2017-01-01T00:01:51.697502+03:00",
       "updateWindow": {
         "@odata.type": "microsoft.graph.updateWindow",
-        "updateWindowStartTime": "11:56:41.9540000",
-        "updateWindowEndTime": "11:56:40.5520000"
+        "updateWindowStartTime": "11:56:40.8130000",
+        "updateWindowEndTime": "11:59:11.8990000"
       },
       "allowUpdateConfigurationOverride": true
     }

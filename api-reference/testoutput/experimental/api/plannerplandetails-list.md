@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerPlanDetailses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerPlanDetails not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerPlanDetails not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 714
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerPlanDetails",
-      "id": "a4bfbf6f-bf6f-a4bf-6fbf-bfa46fbfbfa4",
+      "id": "9ef99a7b-9a7b-9ef9-7b9a-f99e7b9af99e",
       "sharedWith": {
         "@odata.type": "microsoft.graph.plannerUserIds"
       },

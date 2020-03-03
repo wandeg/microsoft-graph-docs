@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppPolicy resource type
+
+
+Namespace: microsoft.graph
 
 The ManagedAppPolicy resource represents a base type for platform specific policies.
 
@@ -19,7 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedAppPolicy](../api/managedapppolicy-get.md)|[managedAppPolicy](../resources/managedAppPolicy.md)|Read properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) object.|
+|[List managedAppPolicies](../api/managedapppolicy-list.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection|List properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) objects.|
+|[Get managedAppPolicy](../api/managedapppolicy-get.md)|[managedAppPolicy](../resources/managedapppolicy.md)|Read properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) object.|
 |[targetApps](../api/managedapppolicy-targetapps.md)|None||
 
 ## Properties

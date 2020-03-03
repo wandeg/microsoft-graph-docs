@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update identityUserFlow
 
+Namespace: microsoft.graph
+
 Update the properties of a [identityUserFlow](../resources/identityuserflow.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /identity/userFlows/{identityUserFlowId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [identityUserFlow](../resources/identityUserFlow.md) object.
+In the request body, supply a JSON representation for the [identityUserFlow](../resources/identityuserflow.md) object.
 
 The following table shows the properties that are required when you create the [identityUserFlow](../resources/identityuserflow.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/identity/userFlows/{identityUserFlowId}
+PATCH https://graph.microsoft.com/localtest/identity/userFlows/{identityUserFlowId}
 Content-type: application/json
 Content-length: 123
 
@@ -85,7 +87,7 @@ Content-Length: 172
 
 {
   "@odata.type": "#microsoft.graph.identityUserFlow",
-  "id": "6cb5af95-af95-6cb5-95af-b56c95afb56c",
+  "id": "e6b36136-6136-e6b3-3661-b3e63661b3e6",
   "userFlowType": "String",
   "userFlowTypeVersion": "Single"
 }

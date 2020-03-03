@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get networkIPv4ConfigurationManagementCondition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [networkIPv4ConfigurationManagementCondition](../resources/networkipv4configurationmanagementcondition.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 748
+Content-Length: 747
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.networkIPv4ConfigurationManagementCondition",
-    "id": "be6ebca1-bca1-be6e-a1bc-6ebea1bc6ebe",
+    "id": "2057d813-d813-2057-13d8-572013d85720",
     "uniqueName": "Unique Name value",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
     "eTag": "ETag value",
     "applicablePlatforms": [
       "String"

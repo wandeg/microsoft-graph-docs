@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # searchResponse resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|hitsContainers|[searchHitsContainer](../resources/searchHitsContainer.md) collection||
+|hitsContainers|[searchHitsContainer](../resources/searchhitscontainer.md) collection||
 |searchTerms|String collection||
 
 ## Relationships

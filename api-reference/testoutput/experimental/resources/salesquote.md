@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesQuote resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,23 +20,25 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesQuote](../api/salesquote-get.md)|[salesQuote](../resources/salesQuote.md)|Read properties and relationships of the [salesQuote](../resources/salesquote.md) object.|
+|[List salesQuotes](../api/salesquote-list.md)|[salesQuote](../resources/salesquote.md) collection|List properties and relationships of the [salesQuote](../resources/salesquote.md) objects.|
+|[Get salesQuote](../api/salesquote-get.md)|[salesQuote](../resources/salesquote.md)|Read properties and relationships of the [salesQuote](../resources/salesquote.md) object.|
+|[Create salesQuote](../api/salesquote-create.md)|[salesQuote](../resources/salesquote.md)|Create a new [salesQuote](../resources/salesquote.md) object.|
 |[Delete salesQuote](../api/salesquote-delete.md)|None|Deletes a [salesQuote](../resources/salesquote.md).|
-|[Update salesQuote](../api/salesquote-update.md)|[salesQuote](../resources/salesQuote.md)|Update the properties of a [salesQuote](../resources/salesquote.md) object.|
+|[Update salesQuote](../api/salesquote-update.md)|[salesQuote](../resources/salesquote.md)|Update the properties of a [salesQuote](../resources/salesquote.md) object.|
 |[makeInvoice](../api/salesquote-makeinvoice.md)|None||
 |[send](../api/salesquote-send.md)|None||
-|[List salesQuoteLines](../api/salesquote-list-salesquotelines.md)|[salesQuoteLine](../resources/salesQuoteLine.md) collection|Get the salesQuoteLines from the salesQuoteLines navigation property.|
-|[Add salesQuoteLines](../api/salesquote-post-salesquotelines.md)|[salesQuoteLine](../resources/salesQuoteLine.md)|Add salesQuoteLines by posting to the salesQuoteLines collection.|
+|[List salesQuoteLines](../api/salesquote-list-salesquotelines.md)|[salesQuoteLine](../resources/salesquoteline.md) collection|Get the salesQuoteLines from the salesQuoteLines navigation property.|
+|[Add salesQuoteLines](../api/salesquote-post-salesquotelines.md)|[salesQuoteLine](../resources/salesquoteline.md)|Add salesQuoteLines by posting to the salesQuoteLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
-|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentTerm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
-|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentMethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |acceptedDate|Date||
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |billToCustomerId|Guid||
 |billToCustomerNumber|String||
 |billToName|String||
@@ -55,10 +58,10 @@ Inherits from [entity](../resources/entity.md)
 |paymentTermsId|Guid||
 |phoneNumber|String||
 |salesperson|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |sentDate|DateTimeOffset||
 |shipmentMethodId|Guid||
-|shippingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|shippingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |shipToContact|String||
 |shipToName|String||
 |status|String||
@@ -72,9 +75,9 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |currency|[currency](../resources/currency.md)||
 |customer|[customer](../resources/customer.md)||
-|paymentTerm|[paymentTerm](../resources/paymentTerm.md)||
-|salesQuoteLines|[salesQuoteLine](../resources/salesQuoteLine.md) collection||
-|shipmentMethod|[shipmentMethod](../resources/shipmentMethod.md)||
+|paymentTerm|[paymentTerm](../resources/paymentterm.md)||
+|salesQuoteLines|[salesQuoteLine](../resources/salesquoteline.md) collection||
+|shipmentMethod|[shipmentMethod](../resources/shipmentmethod.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

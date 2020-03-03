@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedDeviceMobileAppConfigurationState
 
+Namespace: microsoft.graph
+
 Deletes a [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates/{managedDeviceMobileAppConfigurationStateId}
+DELETE https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates/{managedDeviceMobileAppConfigurationStateId}
 ```
 
 ### Response

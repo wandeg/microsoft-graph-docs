@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileAppRelationship
 
-Read properties and relationships of the [mobileAppRelationship](../resources/mobileapprelationship.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileAppRelationship](../resources/mobileapprelationship.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/relationships/{mobileAppRelationshipId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/relationships/{mobileAppRelationshipId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 226
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppRelationship",
-    "id": "7caaf138-f138-7caa-38f1-aa7c38f1aa7c",
+    "id": "680e718a-718a-680e-8a71-0e688a710e68",
     "targetId": "Target Id value",
     "targetDisplayName": "Target Display Name value"
   }

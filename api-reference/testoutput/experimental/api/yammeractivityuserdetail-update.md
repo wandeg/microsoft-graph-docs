@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update yammerActivityUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.yammerActivityUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [yammerActivityUserDetail](../resources/yammerActivityUserDetail.md) object.
+In the request body, supply a JSON representation for the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.yammerActivityUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.yammerActivityUserDetail not found
 Content-type: application/json
 Content-length: 454
 
@@ -105,7 +107,7 @@ Content-Length: 503
 
 {
   "@odata.type": "#microsoft.graph.yammerActivityUserDetail",
-  "id": "f3152655-2655-f315-5526-15f3552615f3",
+  "id": "fa1dc798-c798-fa1d-98c7-1dfa98c71dfa",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

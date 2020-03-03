@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete domain
 
+Namespace: microsoft.graph
+
 Deletes a [domain](../resources/domain.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/domains/{domainsId}
+DELETE https://graph.microsoft.com/localtest/domains/{domainsId}
 ```
 
 ### Response

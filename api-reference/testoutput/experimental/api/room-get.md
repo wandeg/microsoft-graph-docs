@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get room
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [room](../resources/room.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.room not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.room not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1276
 {
   "value": {
     "@odata.type": "#microsoft.graph.room",
-    "id": "7331559c-559c-7331-9c55-31739c553173",
+    "id": "51d745b3-45b3-51d7-b345-d751b345d751",
     "displayName": "Display Name value",
     "geoCoordinates": {
       "@odata.type": "microsoft.graph.outlookGeoCoordinates",

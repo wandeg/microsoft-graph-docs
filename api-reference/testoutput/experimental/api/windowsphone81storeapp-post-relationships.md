@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add relationships
 
+Namespace: microsoft.graph
+
 Add relationships by posting to the relationships collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/relationships/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppRelationship object.
+In the request body, supply a JSON representation for the [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) object.
 
-The following table shows the properties that are required when you create the mobileAppRelationship.
+The following table shows the properties that are required when you create the [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppRelationship](../resources/mobileapprelationship.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) object in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/relationships
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/relationships
 Content-type: application/json
 Content-length: 150
 
@@ -87,7 +89,7 @@ Content-Length: 199
 
 {
   "@odata.type": "#microsoft.graph.mobileAppRelationship",
-  "id": "7caaf138-f138-7caa-38f1-aa7c38f1aa7c",
+  "id": "680e718a-718a-680e-8a71-0e688a710e68",
   "targetId": "Target Id value",
   "targetDisplayName": "Target Display Name value"
 }

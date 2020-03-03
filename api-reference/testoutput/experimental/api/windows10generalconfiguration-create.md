@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windows10GeneralConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST ** Collection URI for microsoft.graph.windows10GeneralConfiguration not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windows10GeneralConfiguration object.
+In the request body, supply a JSON representation for the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windows10GeneralConfiguration.
+The following table shows the properties that are required when you create the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |taskManagerBlockEndTask|Boolean|Specify whether non-administrators can use Task Manager to end tasks.|
 |energySaverOnBatteryThresholdPercentage|Int32|This setting allows you to specify battery charge level at which Energy Saver is turned on. While on battery, Energy Saver is automatically turned on at (and below) the specified battery charge level. Valid input range (0-100). Valid values 0 to 100|
 |energySaverPluggedInThresholdPercentage|Int32|This setting allows you to specify battery charge level at which Energy Saver is turned on. While plugged in, Energy Saver is automatically turned on at (and below) the specified battery charge level. Valid input range (0-100). Valid values 0 to 100|
@@ -64,7 +66,7 @@ The following table shows the properties that are required when you create the w
 |powerSleepButtonActionPluggedIn|Enumeration|This setting specifies the action that Windows takes when a user presses the Sleep button while plugged in. Possible values are: `notConfigured`, `noAction`, `sleep`, `hibernate`, `shutdown`.|
 |powerHybridSleepOnBattery|Enumeration|This setting allows you to turn off hybrid sleep while on battery. If you set this setting to disable, a hiberfile is not generated when the system transitions to sleep (Stand By). If you set this setting to enable or do not configure this policy setting, users control this setting. Possible values are: `notConfigured`, `enabled`, `disabled`.|
 |powerHybridSleepPluggedIn|Enumeration|This setting allows you to turn off hybrid sleep while plugged in. If you set this setting to disable, a hiberfile is not generated when the system transitions to sleep (Stand By). If you set this setting to enable or do not configure this policy setting, users control this setting. Possible values are: `notConfigured`, `enabled`, `disabled`.|
-|windows10AppsForceUpdateSchedule|[windows10AppsForceUpdateSchedule](../resources/windows10AppsForceUpdateSchedule.md)|Windows 10 force update schedule for Apps.|
+|windows10AppsForceUpdateSchedule|[windows10AppsForceUpdateSchedule](../resources/windows10appsforceupdateschedule.md)|Windows 10 force update schedule for Apps.|
 |enableAutomaticRedeployment|Boolean|Allow users with administrative rights to delete all user data and settings using CTRL + Win + R at the device lock screen so that the device can be automatically re-configured and re-enrolled into management.|
 |microsoftAccountSignInAssistantSettings|Enumeration|Controls the Microsoft Account Sign-In Assistant (wlidsvc) NT service. Possible values are: `notConfigured`, `disabled`.|
 |authenticationAllowSecondaryDevice|Boolean|Allows secondary authentication devices to work with Windows.|
@@ -132,7 +134,7 @@ The following table shows the properties that are required when you create the w
 |edgeFavoritesListLocation|String|The location of the favorites list to provision. Could be a local file, local network or http location.|
 |edgeBlockEditFavorites|Boolean|Indicates whether or not to Block the user from making changes to Favorites.|
 |edgeNewTabPageURL|String|Specify the page opened when new tabs are created.|
-|edgeHomeButtonConfiguration|[edgeHomeButtonConfiguration](../resources/edgeHomeButtonConfiguration.md)|Causes the Home button to either hide, load the default Start page, load a New tab page, or a custom URL|
+|edgeHomeButtonConfiguration|[edgeHomeButtonConfiguration](../resources/edgehomebuttonconfiguration.md)|Causes the Home button to either hide, load the default Start page, load a New tab page, or a custom URL|
 |edgeHomeButtonConfigurationEnabled|Boolean|Enable the Home button configuration.|
 |edgeOpensWith|Enumeration|Specify what kind of pages are open at start. Possible values are: `notConfigured`, `startPage`, `newTabPage`, `previousPages`, `specificPages`.|
 |edgeBlockSideloadingExtensions|Boolean|Indicates whether the user can sideload extensions.|
@@ -154,7 +156,7 @@ The following table shows the properties that are required when you create the w
 |cellularData|Enumeration|Whether or not to allow the cellular data channel on the device. If not configured, the cellular data channel is allowed and the user can turn it off. Possible values are: `blocked`, `required`, `allowed`.|
 |defenderBlockEndUserAccess|Boolean|Whether or not to block end user access to Defender.|
 |defenderDaysBeforeDeletingQuarantinedMalware|Int32|Number of days before deleting quarantined malware. Valid values 0 to 90|
-|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderDetectedMalwareActions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
+|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderdetectedmalwareactions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
 |defenderSystemScanSchedule|Enumeration|Defender day of the week for the system scan. Possible values are: `userDefined`, `everyday`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `noScheduledScan`.|
 |defenderFilesAndFoldersToExclude|String collection|Files and folder to exclude from scans and real time protection.|
 |defenderFileExtensionsToExclude|String collection|File extensions to exclude from scans and real time protection.|
@@ -261,7 +263,7 @@ The following table shows the properties that are required when you create the w
 |networkProxyApplySettingsDeviceWide|Boolean|If set, proxy settings will be applied to all processes and accounts in the device. Otherwise, it will be applied to the user account that’s enrolled into MDM.|
 |networkProxyDisableAutoDetect|Boolean|Disable automatic detection of settings. If enabled, the system will try to find the path to a proxy auto-config (PAC) script.|
 |networkProxyAutomaticConfigurationUrl|String|Address to the proxy auto-config (PAC) script you want to use.|
-|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10NetworkProxyServer.md)|Specifies manual proxy server settings.|
+|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10networkproxyserver.md)|Specifies manual proxy server settings.|
 |accountsBlockAddingNonMicrosoftAccountEmail|Boolean|Indicates whether or not to Block the user from adding email accounts to the device that are not associated with a Microsoft account.|
 |antiTheftModeBlocked|Boolean|Indicates whether or not to block the user from selecting an AntiTheft mode preference (Windows 10 Mobile only).|
 |bluetoothBlocked|Boolean|Whether or not to Block the user from using bluetooth.|
@@ -281,7 +283,7 @@ The following table shows the properties that are required when you create the w
 |edgeRequireSmartScreen|Boolean|Indicates whether or not to Require the user to use the smart screen filter.|
 |edgeEnterpriseModeSiteListLocation|String|Indicates the enterprise mode site list location. Could be a local file, local network or http location.|
 |edgeFirstRunUrl|String|The first run URL for when Edge browser is opened for the first time.|
-|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgeSearchEngineBase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
+|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgesearchenginebase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
 |edgeHomepageUrls|String collection|The list of URLs for homepages shodwn on MDM-enrolled devices on Edge browser.|
 |edgeBlockAccessToAboutFlags|Boolean|Indicates whether or not to prevent access to about flags on Edge browser.|
 |smartScreenBlockPromptOverride|Boolean|Indicates whether or not users can override SmartScreen Filter warnings about potentially malicious websites.|
@@ -348,7 +350,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10GeneralConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10GeneralConfiguration not found
 Content-type: application/json
 Content-length: 14694
 
@@ -391,7 +393,7 @@ Content-length: 14694
   "powerHybridSleepPluggedIn": "String",
   "windows10AppsForceUpdateSchedule": {
     "@odata.type": "microsoft.graph.windows10AppsForceUpdateSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
     "recurrence": "String",
     "runImmediatelyIfAfterStartDateTime": true
   },
@@ -534,8 +536,8 @@ Content-length: 14694
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "12:02:28.3360000",
-  "defenderScheduledQuickScanTime": "11:59:25.1810000",
+  "defenderScheduledScanTime": "12:01:04.6330000",
+  "defenderScheduledQuickScanTime": "12:02:45.2150000",
   "defenderCloudBlockLevel": "String",
   "defenderCloudExtendedTimeout": 12,
   "defenderCloudExtendedTimeoutInSeconds": 5,
@@ -713,12 +715,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 14866
+Content-Length: 14865
 
 {
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-  "id": "9719236b-236b-9719-6b23-19976b231997",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "63df1017-1017-63df-1710-df631710df63",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -740,7 +742,7 @@ Content-Length: 14866
     "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
     "deviceMode": "String"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -757,7 +759,7 @@ Content-Length: 14866
   "powerHybridSleepPluggedIn": "String",
   "windows10AppsForceUpdateSchedule": {
     "@odata.type": "microsoft.graph.windows10AppsForceUpdateSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
     "recurrence": "String",
     "runImmediatelyIfAfterStartDateTime": true
   },
@@ -900,8 +902,8 @@ Content-Length: 14866
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "12:02:28.3360000",
-  "defenderScheduledQuickScanTime": "11:59:25.1810000",
+  "defenderScheduledScanTime": "12:01:04.6330000",
+  "defenderScheduledQuickScanTime": "12:02:45.2150000",
   "defenderCloudBlockLevel": "String",
   "defenderCloudExtendedTimeout": 12,
   "defenderCloudExtendedTimeoutInSeconds": 5,

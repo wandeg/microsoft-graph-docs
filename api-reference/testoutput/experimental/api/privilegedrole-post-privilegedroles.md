@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create privilegedRole
 
+Namespace: microsoft.graph
+
 Create a new [privilegedRole](../resources/privilegedrole.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedRoles
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the privilegedRole object.
+In the request body, supply a JSON representation for the [privilegedRole](../resources/privilegedrole.md) object.
 
-The following table shows the properties that are required when you create the privilegedRole.
+The following table shows the properties that are required when you create the [privilegedRole](../resources/privilegedrole.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedRoles
+POST https://graph.microsoft.com/localtest/privilegedRoles
 Content-type: application/json
 Content-length: 81
 
@@ -85,7 +87,7 @@ Content-Length: 130
 
 {
   "@odata.type": "#microsoft.graph.privilegedRole",
-  "id": "6f5192e5-92e5-6f51-e592-516fe592516f",
+  "id": "9146a674-a674-9146-74a6-469174a64691",
   "name": "Name value"
 }
 ```

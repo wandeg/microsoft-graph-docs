@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete plannerBucket
 
+Namespace: microsoft.graph
+
 Deletes a [plannerBucket](../resources/plannerbucket.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/planner/buckets/{plannerBucketId}
+DELETE https://graph.microsoft.com/localtest/planner/buckets/{plannerBucketId}
 ```
 
 ### Response

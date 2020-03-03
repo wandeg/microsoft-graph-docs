@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create androidForWorkSettings
 
+Namespace: microsoft.graph
+
 Create a new [androidForWorkSettings](../resources/androidforworksettings.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.androidForWorkSettings not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidForWorkSettings object.
+In the request body, supply a JSON representation for the [androidForWorkSettings](../resources/androidforworksettings.md) object.
 
-The following table shows the properties that are required when you create the androidForWorkSettings.
+The following table shows the properties that are required when you create the [androidForWorkSettings](../resources/androidforworksettings.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,14 +70,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidForWorkSettings not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidForWorkSettings not found
 Content-type: application/json
 Content-length: 446
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkSettings",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
@@ -102,13 +104,13 @@ Content-Length: 559
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkSettings",
-  "id": "442d411a-411a-442d-1a41-2d441a412d44",
+  "id": "3efe57d1-57d1-3efe-d157-fe3ed157fe3e",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "enrollmentTarget": "String",
   "targetGroupIds": [
     "Target Group Ids value"

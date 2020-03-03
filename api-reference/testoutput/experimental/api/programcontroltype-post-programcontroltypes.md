@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create programControlType
 
+Namespace: microsoft.graph
+
 Create a new [programControlType](../resources/programcontroltype.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /programControlTypes
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the programControlType object.
+In the request body, supply a JSON representation for the [programControlType](../resources/programcontroltype.md) object.
 
-The following table shows the properties that are required when you create the programControlType.
+The following table shows the properties that are required when you create the [programControlType](../resources/programcontroltype.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/programControlTypes
+POST https://graph.microsoft.com/localtest/programControlTypes
 Content-type: application/json
 Content-length: 156
 
@@ -87,7 +89,7 @@ Content-Length: 205
 
 {
   "@odata.type": "#microsoft.graph.programControlType",
-  "id": "826cdde9-dde9-826c-e9dd-6c82e9dd6c82",
+  "id": "7a38ef3d-ef3d-7a38-3def-387a3def387a",
   "controlTypeGroupId": "Control Type Group Id value",
   "displayName": "Display Name value"
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get conversationThread
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [conversationThread](../resources/conversationthread.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/threads/{conversationThreadId}
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}
 ```
 
 ### Response
@@ -69,12 +71,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 744
+Content-Length: 742
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.conversationThread",
-    "id": "ea7e7a27-7a27-ea7e-277a-7eea277a7eea",
+    "id": "3083ed6b-ed6b-3083-6bed-83306bed8330",
     "toRecipients": [
       {
         "@odata.type": "microsoft.graph.recipient",
@@ -87,7 +89,7 @@ Content-Length: 744
     ],
     "topic": "Topic value",
     "hasAttachments": true,
-    "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+    "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
     "uniqueSenders": [
       "Unique Senders value"
     ],

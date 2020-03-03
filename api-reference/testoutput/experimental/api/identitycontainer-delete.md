@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete identityContainer
 
+Namespace: microsoft.graph
+
 Deletes a [identityContainer](../resources/identitycontainer.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/identity
+DELETE https://graph.microsoft.com/localtest/identity
 ```
 
 ### Response

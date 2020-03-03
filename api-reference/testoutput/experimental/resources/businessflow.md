@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # businessFlow resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get businessFlow](../api/businessflow-get.md)|[businessFlow](../resources/businessFlow.md)|Read properties and relationships of the [businessFlow](../resources/businessflow.md) object.|
+|[List businessFlows](../api/businessflow-list.md)|[businessFlow](../resources/businessflow.md) collection|List properties and relationships of the [businessFlow](../resources/businessflow.md) objects.|
+|[Get businessFlow](../api/businessflow-get.md)|[businessFlow](../resources/businessflow.md)|Read properties and relationships of the [businessFlow](../resources/businessflow.md) object.|
+|[Create businessFlow](../api/businessflow-create.md)|[businessFlow](../resources/businessflow.md)|Create a new [businessFlow](../resources/businessflow.md) object.|
 |[Delete businessFlow](../api/businessflow-delete.md)|None|Deletes a [businessFlow](../resources/businessflow.md).|
-|[Update businessFlow](../api/businessflow-update.md)|[businessFlow](../resources/businessFlow.md)|Update the properties of a [businessFlow](../resources/businessflow.md) object.|
+|[Update businessFlow](../api/businessflow-update.md)|[businessFlow](../resources/businessflow.md)|Update the properties of a [businessFlow](../resources/businessflow.md) object.|
 |[recordDecisions](../api/businessflow-recorddecisions.md)|None||
 
 ## Properties
@@ -32,11 +35,11 @@ Inherits from [entity](../resources/entity.md)
 |description|String||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|policy|[governancePolicy](../resources/governancePolicy.md)||
+|policy|[governancePolicy](../resources/governancepolicy.md)||
 |policyTemplateId|String||
 |recordVersion|String||
 |schemaId|String||
-|settings|[businessFlowSettings](../resources/businessFlowSettings.md)||
+|settings|[businessFlowSettings](../resources/businessflowsettings.md)||
 
 ## Relationships
 None

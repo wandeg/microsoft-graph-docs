@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|wdacPolicyAssignments|[windowsDefenderApplicationControlSupplementalPolicyAssignment](../resources/windowsDefenderApplicationControlSupplementalPolicyAssignment.md) collection||
+|wdacPolicyAssignments|[windowsDefenderApplicationControlSupplementalPolicyAssignment](../resources/windowsdefenderapplicationcontrolsupplementalpolicyassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/assign
+POST https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/assign
 
 Content-type: application/json
 Content-length: 319
@@ -68,7 +70,7 @@ Content-length: 319
   "wdacPolicyAssignments": [
     {
       "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyAssignment",
-      "id": "d922b7d5-b7d5-d922-d5b7-22d9d5b722d9",
+      "id": "da5adc7d-dc7d-da5a-7ddc-5ada7ddc5ada",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

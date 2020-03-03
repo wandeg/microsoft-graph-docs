@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # iosWebContentFilterAutoFilter resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [iosWebContentFilterBase](../resources/iosWebContentFilterBase.md)
+
+
+Inherits from [iosWebContentFilterBase](../resources/ioswebcontentfilterbase.md)
 
 ## Properties
 |Property|Type|Description|

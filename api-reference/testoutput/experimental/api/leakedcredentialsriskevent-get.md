@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get leakedCredentialsRiskEvent
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [leakedCredentialsRiskEvent](../resources/leakedcredentialsriskevent.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/leakedCredentialsRiskEvents/{leakedCredentialsRiskEventsId}
+GET https://graph.microsoft.com/localtest/leakedCredentialsRiskEvents/{leakedCredentialsRiskEventsId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 571
+Content-Length: 570
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.leakedCredentialsRiskEvent",
-    "id": "75963200-3200-7596-0032-967500329675",
+    "id": "74ea02e9-02e9-74ea-e902-ea74e902ea74",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
-    "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+    "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
     "riskEventType": "Risk Event Type value",
     "riskLevel": "String",
     "riskEventStatus": "String",
-    "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "userId": "User Id value"
   }
 }

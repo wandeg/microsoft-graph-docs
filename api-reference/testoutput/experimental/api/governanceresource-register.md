@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # register
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/governanceResources/register
+POST https://graph.microsoft.com/localtest/governanceResources/register
 
 Content-type: application/json
 Content-length: 41

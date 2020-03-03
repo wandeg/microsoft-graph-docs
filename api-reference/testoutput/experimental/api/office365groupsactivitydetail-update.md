@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365GroupsActivityDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365GroupsActivityDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365GroupsActivityDetail](../resources/office365GroupsActivityDetail.md) object.
+In the request body, supply a JSON representation for the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md) object.
 
 The following table shows the properties that are required when you create the [office365GroupsActivityDetail](../resources/office365groupsactivitydetail.md).
 
@@ -77,7 +79,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityDetail not found
 Content-type: application/json
 Content-length: 753
 
@@ -119,7 +121,7 @@ Content-Length: 802
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityDetail",
-  "id": "9b0c0da2-0da2-9b0c-a20d-0c9ba20d0c9b",
+  "id": "eb807999-7999-eb80-9979-80eb997980eb",
   "reportRefreshDate": "Date",
   "groupId": "Group Id value",
   "groupDisplayName": "Group Display Name value",

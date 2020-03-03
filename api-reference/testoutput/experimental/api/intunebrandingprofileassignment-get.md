@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get intuneBrandingProfileAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [intuneBrandingProfileAssignment](../resources/intunebrandingprofileassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments/{intuneBrandingProfileAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments/{intuneBrandingProfileAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 249
 {
   "value": {
     "@odata.type": "#microsoft.graph.intuneBrandingProfileAssignment",
-    "id": "fe8c40d6-40d6-fe8c-d640-8cfed6408cfe",
+    "id": "c3f71358-1358-c3f7-5813-f7c35813f7c3",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List swapShiftsChangeRequests
 
+Namespace: microsoft.graph
+
 Get the swapShiftsChangeRequests from the swapShiftsChangeRequests navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/swapShiftsChangeRequests
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/swapShiftsChangeRequests
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1405
+Content-Length: 1404
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.swapShiftsChangeRequest",
-      "id": "ebc81efb-1efb-ebc8-fb1e-c8ebfb1ec8eb",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "4e13d3d1-d3d1-4e13-d1d3-134ed1d3134e",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -90,13 +92,13 @@ Content-Length: 1405
       "assignedTo": "String",
       "state": "String",
       "senderMessage": "Sender Message value",
-      "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+      "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
       "managerActionMessage": "Manager Action Message value",
-      "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+      "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
       "senderUserId": "Sender User Id value",
       "managerUserId": "Manager User Id value",
       "recipientActionMessage": "Recipient Action Message value",
-      "recipientActionDateTime": "2016-12-31T23:59:57.9878243+03:00",
+      "recipientActionDateTime": "2016-12-31T23:58:22.0066573+03:00",
       "senderShiftId": "Sender Shift Id value",
       "recipientUserId": "Recipient User Id value",
       "recipientShiftId": "Recipient Shift Id value"

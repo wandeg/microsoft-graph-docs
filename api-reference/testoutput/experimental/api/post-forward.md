@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # forward
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/forward
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/forward
 
 Content-type: application/json
 Content-length: 125

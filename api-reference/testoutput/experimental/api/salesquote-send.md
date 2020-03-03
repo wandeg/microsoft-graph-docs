@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # send
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesQuotes/{salesQuoteId}/send
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesQuotes/{salesQuoteId}/send
 ```
 
 ### Response

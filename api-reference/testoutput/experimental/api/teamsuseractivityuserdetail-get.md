@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsUserActivityUserDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsUserActivityUserDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsUserActivityUserDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 569
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsUserActivityUserDetail",
-    "id": "5432c9ef-c9ef-5432-efc9-3254efc93254",
+    "id": "67546f5e-6f5e-6754-5e6f-54675e6f5467",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "lastActivityDate": "Date",

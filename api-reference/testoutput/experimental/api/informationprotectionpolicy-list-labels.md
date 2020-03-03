@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List labels
 
+Namespace: microsoft.graph
+
 Get the informationProtectionLabels from the labels navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/informationProtection/policy/labels
+GET https://graph.microsoft.com/localtest/informationProtection/policy/labels
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 347
   "value": [
     {
       "@odata.type": "#microsoft.graph.informationProtectionLabel",
-      "id": "c84fff52-ff52-c84f-52ff-4fc852ff4fc8",
+      "id": "ee736e28-6e28-ee73-286e-73ee286e73ee",
       "name": "Name value",
       "description": "Description value",
       "color": "Color value",

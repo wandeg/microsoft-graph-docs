@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete scopedRoleMembership
 
+Namespace: microsoft.graph
+
 Deletes a [scopedRoleMembership](../resources/scopedrolemembership.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/scopedRoleMemberOf/{scopedRoleMembershipId}
+DELETE https://graph.microsoft.com/localtest/me/scopedRoleMemberOf/{scopedRoleMembershipId}
 ```
 
 ### Response

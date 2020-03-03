@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userExperienceAnalyticsOverviews
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userExperienceAnalyticsOverview not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userExperienceAnalyticsOverview not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 627
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsOverview",
-      "id": "273bb623-b623-273b-23b6-3b2723b63b27",
+      "id": "cc461c04-1c04-cc46-041c-46cc041c46cc",
       "insights": [
         {
           "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

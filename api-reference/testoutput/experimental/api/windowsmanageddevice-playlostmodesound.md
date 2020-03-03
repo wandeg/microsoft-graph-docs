@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # playLostModeSound
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsManagedDevice not found/playLostModeSound
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsManagedDevice not found/playLostModeSound
 ```
 
 ### Response

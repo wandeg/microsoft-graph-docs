@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List calendarView
 
+Namespace: microsoft.graph
+
 Get the bookingAppointments from the calendarView navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/calendarView
+GET https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/calendarView
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2723
+Content-Length: 2725
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingAppointment",
-      "id": "bcb5ac85-ac85-bcb5-85ac-b5bc85acb5bc",
+      "id": "494bb340-b340-494b-40b3-4b4940b34b49",
       "selfServiceAppointmentId": "Self Service Appointment Id value",
       "customerId": "Customer Id value",
       "customerName": "Customer Name value",
@@ -114,9 +116,9 @@ Content-Length: 2723
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },
-      "duration": "PT3M27.7161587S",
-      "preBuffer": "PT3M13.876457S",
-      "postBuffer": "-PT3M7.6941789S",
+      "duration": "-PT1M55.0810357S",
+      "preBuffer": "-PT27.6468082S",
+      "postBuffer": "-PT49.745402S",
       "serviceLocation": {
         "@odata.type": "microsoft.graph.location"
       },
@@ -126,7 +128,7 @@ Content-Length: 2723
       "reminders": [
         {
           "@odata.type": "microsoft.graph.bookingReminder",
-          "offset": "PT29.4091216S",
+          "offset": "-PT2M15.3589096S",
           "recipients": "String",
           "message": "Message value"
         }

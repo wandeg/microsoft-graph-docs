@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List unitsOfMeasure
 
+Namespace: microsoft.graph
+
 Get the unitOfMeasures from the unitsOfMeasure navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/unitsOfMeasure
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/unitsOfMeasure
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 359
   "value": [
     {
       "@odata.type": "#microsoft.graph.unitOfMeasure",
-      "id": "3ed97dcf-7dcf-3ed9-cf7d-d93ecf7dd93e",
+      "id": "cdeed330-d330-cdee-30d3-eecd30d3eecd",
       "code": "Code value",
       "displayName": "Display Name value",
       "internationalStandardCode": "International Standard Code value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

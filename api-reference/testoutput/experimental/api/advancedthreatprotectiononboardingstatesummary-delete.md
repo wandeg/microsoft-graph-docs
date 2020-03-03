@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete advancedThreatProtectionOnboardingStateSummary
 
+Namespace: microsoft.graph
+
 Deletes a [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/advancedThreatProtectionOnboardingStateSummary
+DELETE https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary
 ```
 
 ### Response

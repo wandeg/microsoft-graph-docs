@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update outlookTaskGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/outlook/taskGroups/{outlookTaskGroupId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [outlookTaskGroup](../resources/outlookTaskGroup.md) object.
+In the request body, supply a JSON representation for the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
 
 The following table shows the properties that are required when you create the [outlookTaskGroup](../resources/outlooktaskgroup.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/outlook/taskGroups/{outlookTaskGroupId}
+PATCH https://graph.microsoft.com/localtest/me/outlook/taskGroups/{outlookTaskGroupId}
 Content-type: application/json
 Content-length: 201
 
@@ -71,7 +73,7 @@ Content-length: 201
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+  "groupKey": "27262869-2869-2726-6928-262769282627"
 }
 ```
 
@@ -89,11 +91,11 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.outlookTaskGroup",
-  "id": "255b3331-3331-255b-3133-5b2531335b25",
+  "id": "40c340e6-40e6-40c3-e640-c340e640c340",
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+  "groupKey": "27262869-2869-2726-6928-262769282627"
 }
 ```
 

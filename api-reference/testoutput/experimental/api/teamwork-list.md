@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teamworks
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [teamwork](../resources/teamwork.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamwork not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamwork not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 140
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamwork",
-      "id": "f8251c81-1c81-f825-811c-25f8811c25f8"
+      "id": "e73a8a85-8a85-e73a-858a-3ae7858a3ae7"
     }
   ]
 }

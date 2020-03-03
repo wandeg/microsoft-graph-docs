@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get termsAndConditions
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}
+GET https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 614
+Content-Length: 613
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.termsAndConditions",
-    "id": "7b96b38b-b38b-7b96-8bb3-967b8bb3967b",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "a45ef439-f439-a45e-39f4-5ea439f45ea4",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "description": "Description value",
     "title": "Title value",

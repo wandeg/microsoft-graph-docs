@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update profilePhoto
 
+Namespace: microsoft.graph
+
 Update the properties of a [profilePhoto](../resources/profilephoto.md) object.
 
 ## Permissions
@@ -45,7 +47,7 @@ PATCH /me/joinedGroups/{groupId}/photos/{profilePhotoId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [profilePhoto](../resources/profilePhoto.md) object.
+In the request body, supply a JSON representation for the [profilePhoto](../resources/profilephoto.md) object.
 
 The following table shows the properties that are required when you create the [profilePhoto](../resources/profilephoto.md).
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/photo
+PATCH https://graph.microsoft.com/localtest/me/photo
 Content-type: application/json
 Content-length: 85
 
@@ -95,7 +97,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.profilePhoto",
-  "id": "296e2261-2261-296e-6122-6e2961226e29",
+  "id": "38921062-1062-3892-6210-923862109238",
   "height": 6,
   "width": 5
 }

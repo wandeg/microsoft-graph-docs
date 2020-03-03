@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get subscribedSku
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [subscribedSku](../resources/subscribedsku.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/subscribedSkus/{subscribedSkusId}
+GET https://graph.microsoft.com/localtest/subscribedSkus/{subscribedSkusId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 829
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribedSku",
-    "id": "beed23ec-23ec-beed-ec23-edbeec23edbe",
+    "id": "d7eb8ca3-8ca3-d7eb-a38c-ebd7a38cebd7",
     "capabilityStatus": "Capability Status value",
     "consumedUnits": 13,
     "prepaidUnits": {
@@ -84,13 +86,13 @@ Content-Length: 829
     "servicePlans": [
       {
         "@odata.type": "microsoft.graph.servicePlanInfo",
-        "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7",
+        "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
         "servicePlanName": "Service Plan Name value",
         "provisioningStatus": "Provisioning Status value",
         "appliesTo": "Applies To value"
       }
     ],
-    "skuId": "57435096-5096-5743-9650-435796504357",
+    "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
     "skuPartNumber": "Sku Part Number value",
     "appliesTo": "Applies To value"
   }

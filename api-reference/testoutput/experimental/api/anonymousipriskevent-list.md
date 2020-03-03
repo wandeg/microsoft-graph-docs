@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List anonymousIpRiskEvents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [anonymousIpRiskEvent](../resources/anonymousipriskevent.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/anonymousIpRiskEvents
+GET https://graph.microsoft.com/localtest/anonymousIpRiskEvents
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1048
+Content-Length: 1047
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.anonymousIpRiskEvent",
-      "id": "c4d06eb0-6eb0-c4d0-b06e-d0c4b06ed0c4",
+      "id": "47959adb-9adb-4795-db9a-9547db9a9547",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
-      "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+      "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
       "riskEventType": "Risk Event Type value",
       "riskLevel": "String",
       "riskEventStatus": "String",
-      "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "userId": "User Id value",
       "location": {
         "@odata.type": "microsoft.graph.signInLocation",

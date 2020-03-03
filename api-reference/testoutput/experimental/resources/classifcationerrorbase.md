@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # classifcationErrorBase resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |code|String||
-|innerError|[classificationInnerError](../resources/classificationInnerError.md)||
+|innerError|[classificationInnerError](../resources/classificationinnererror.md)||
 |message|String||
 |target|String||
 

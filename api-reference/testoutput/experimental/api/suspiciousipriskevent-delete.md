@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete suspiciousIpRiskEvent
 
+Namespace: microsoft.graph
+
 Deletes a [suspiciousIpRiskEvent](../resources/suspiciousipriskevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/suspiciousIpRiskEvents/{suspiciousIpRiskEventsId}
+DELETE https://graph.microsoft.com/localtest/suspiciousIpRiskEvents/{suspiciousIpRiskEventsId}
 ```
 
 ### Response

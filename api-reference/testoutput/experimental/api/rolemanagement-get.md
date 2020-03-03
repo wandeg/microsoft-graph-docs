@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get roleManagement
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [roleManagement](../resources/rolemanagement.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/roleManagement
+GET https://graph.microsoft.com/localtest/roleManagement
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 128
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleManagement",
-    "id": "72c1e8fe-e8fe-72c1-fee8-c172fee8c172"
+    "id": "93783d3c-3d3c-9378-3c3d-78933c3d7893"
   }
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update macManagedAppProtection
 
+Namespace: microsoft.graph
+
 Update the properties of a [macManagedAppProtection](../resources/macmanagedappprotection.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.macManagedAppProtection not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [macManagedAppProtection](../resources/macManagedAppProtection.md) object.
+In the request body, supply a JSON representation for the [macManagedAppProtection](../resources/macmanagedappprotection.md) object.
 
 The following table shows the properties that are required when you create the [macManagedAppProtection](../resources/macmanagedappprotection.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macManagedAppProtection not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macManagedAppProtection not found
 Content-type: application/json
 Content-length: 65
 
@@ -81,7 +83,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.macManagedAppProtection",
-  "id": "7a614793-4793-7a61-9347-617a9347617a"
+  "id": "bac05fed-5fed-bac0-ed5f-c0baed5fc0ba"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartFont
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
 ```
 
 ### Response
@@ -77,7 +79,7 @@ Content-Length: 287
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartFont",
-    "id": "75ed96bb-96bb-75ed-bb96-ed75bb96ed75",
+    "id": "c0b1e6c4-e6c4-c0b1-c4e6-b1c0c4e6b1c0",
     "bold": true,
     "color": "Color value",
     "italic": true,

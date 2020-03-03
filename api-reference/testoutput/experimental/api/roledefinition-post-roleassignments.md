@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add roleAssignments
 
+Namespace: microsoft.graph
+
 Add roleAssignments by posting to the roleAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the roleAssignment object.
+In the request body, supply a JSON representation for the [roleAssignment](../resources/roleassignment.md) object.
 
-The following table shows the properties that are required when you create the roleAssignment.
+The following table shows the properties that are required when you create the [roleAssignment](../resources/roleassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments
+POST https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments
 Content-type: application/json
 Content-length: 273
 
@@ -97,7 +99,7 @@ Content-Length: 322
 
 {
   "@odata.type": "#microsoft.graph.roleAssignment",
-  "id": "85b8a0f7-a0f7-85b8-f7a0-b885f7a0b885",
+  "id": "bf523673-3673-bf52-7336-52bf733652bf",
   "displayName": "Display Name value",
   "description": "Description value",
   "scopeMembers": [

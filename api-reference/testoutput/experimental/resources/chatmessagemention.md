@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # chatMessageMention resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |id|Int32||
-|mentioned|[identitySet](../resources/identitySet.md)||
+|mentioned|[identitySet](../resources/identityset.md)||
 |mentionText|String||
 
 ## Relationships

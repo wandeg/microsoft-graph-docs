@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create profile
 
+Namespace: microsoft.graph
+
 Create a new [profile](../resources/profile.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.profile not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the profile object.
+In the request body, supply a JSON representation for the [profile](../resources/profile.md) object.
 
-The following table shows the properties that are required when you create the profile.
+The following table shows the properties that are required when you create the [profile](../resources/profile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.profile not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.profile not found
 Content-type: application/json
 Content-length: 49
 
@@ -83,7 +85,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.profile",
-  "id": "b20033af-33af-b200-af33-00b2af3300b2"
+  "id": "e4dae4fb-e4fb-e4da-fbe4-dae4fbe4dae4"
 }
 ```
 

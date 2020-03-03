@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStatuses
 
+Namespace: microsoft.graph
+
 Add deviceStatuses by posting to the deviceStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppInstallStatus object.
+In the request body, supply a JSON representation for the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.
 
-The following table shows the properties that are required when you create the mobileAppInstallStatus.
+The following table shows the properties that are required when you create the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object in the response body.
 
 ## Example
 
@@ -71,15 +73,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses
 Content-type: application/json
-Content-length: 535
+Content-length: 536
 
 {
   "@odata.type": "#microsoft.graph.mobileAppInstallStatus",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "mobileAppInstallStatusValue": "String",
   "installState": "String",
   "installStateDetail": "String",
@@ -103,14 +105,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 584
+Content-Length: 585
 
 {
   "@odata.type": "#microsoft.graph.mobileAppInstallStatus",
-  "id": "fbdee6f1-e6f1-fbde-f1e6-defbf1e6defb",
+  "id": "f9b1035b-035b-f9b1-5b03-b1f95b03b1f9",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "mobileAppInstallStatusValue": "String",
   "installState": "String",
   "installStateDetail": "String",

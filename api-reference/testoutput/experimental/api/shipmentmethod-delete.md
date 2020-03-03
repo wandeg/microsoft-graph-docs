@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete shipmentMethod
 
+Namespace: microsoft.graph
+
 Deletes a [shipmentMethod](../resources/shipmentmethod.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/shipmentMethods/{shipmentMethodId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/shipmentMethods/{shipmentMethodId}
 ```
 
 ### Response

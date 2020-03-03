@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # cartToClassAssociation resource type
+
+
+Namespace: microsoft.graph
 
 CartToClassAssociation for associating device carts with classrooms.
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get cartToClassAssociation](../api/carttoclassassociation-get.md)|[cartToClassAssociation](../resources/cartToClassAssociation.md)|Read properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
+|[List cartToClassAssociations](../api/carttoclassassociation-list.md)|[cartToClassAssociation](../resources/carttoclassassociation.md) collection|List properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) objects.|
+|[Get cartToClassAssociation](../api/carttoclassassociation-get.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Read properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
+|[Create cartToClassAssociation](../api/carttoclassassociation-create.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Create a new [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
 |[Delete cartToClassAssociation](../api/carttoclassassociation-delete.md)|None|Deletes a [cartToClassAssociation](../resources/carttoclassassociation.md).|
-|[Update cartToClassAssociation](../api/carttoclassassociation-update.md)|[cartToClassAssociation](../resources/cartToClassAssociation.md)|Update the properties of a [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
-|[List cartToClassAssociations](../api/intune-devices-devicemanagement-list-carttoclassassociations.md)|[cartToClassAssociation](../resources/cartToClassAssociation.md) collection|Get the cartToClassAssociations from the cartToClassAssociations navigation property.|
-|[Add cartToClassAssociations](../api/intune-devices-devicemanagement-post-carttoclassassociations.md)|[cartToClassAssociation](../resources/cartToClassAssociation.md)|Add cartToClassAssociations by posting to the cartToClassAssociations collection.|
+|[Update cartToClassAssociation](../api/carttoclassassociation-update.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Update the properties of a [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
+|[List cartToClassAssociations](../api/intune-devices-devicemanagement-list-carttoclassassociations.md)|[cartToClassAssociation](../resources/carttoclassassociation.md) collection|Get the cartToClassAssociations from the cartToClassAssociations navigation property.|
+|[Add cartToClassAssociations](../api/intune-devices-devicemanagement-post-carttoclassassociations.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Add cartToClassAssociations by posting to the cartToClassAssociations collection.|
 
 ## Properties
 |Property|Type|Description|

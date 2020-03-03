@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List templates
 
+Namespace: microsoft.graph
+
 Get the deviceManagementTemplates from the templates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates
+GET https://graph.microsoft.com/localtest/deviceManagement/templates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 473
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementTemplate",
-      "id": "a8e043a7-43a7-a8e0-a743-e0a8a743e0a8",
+      "id": "3139fa01-fa01-3139-01fa-393101fa3931",
       "displayName": "Display Name value",
       "description": "Description value",
       "versionInfo": "Version Info value",
@@ -78,7 +80,7 @@ Content-Length: 473
       "intentCount": 11,
       "templateType": "String",
       "platformType": "String",
-      "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+      "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
     }
   ]
 }

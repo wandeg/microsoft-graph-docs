@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List subscriptions
 
+Namespace: microsoft.graph
+
 Get the subscriptions from the subscriptions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/list/subscriptions
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/list/subscriptions
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 773
+Content-Length: 774
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscription",
-      "id": "aedfa54d-a54d-aedf-4da5-dfae4da5dfae",
+      "id": "ccd590a4-90a4-ccd5-a490-d5cca490d5cc",
       "resource": "Resource value",
       "changeType": "Change Type value",
       "clientState": "Client State value",
       "notificationUrl": "https://example.com/notificationUrl/",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "applicationId": "Application Id value",
       "creatorId": "Creator Id value",
       "includeProperties": true,

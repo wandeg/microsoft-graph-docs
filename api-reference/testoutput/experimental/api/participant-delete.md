@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete participant
 
+Namespace: microsoft.graph
+
 Deletes a [participant](../resources/participant.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants/{participantId}
+DELETE https://graph.microsoft.com/localtest/communications/calls/{callId}/participants/{participantId}
 ```
 
 ### Response

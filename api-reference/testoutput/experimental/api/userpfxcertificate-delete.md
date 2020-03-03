@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userPFXCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [userPFXCertificate](../resources/userpfxcertificate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/userPfxCertificates/{userPFXCertificateId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/userPfxCertificates/{userPFXCertificateId}
 ```
 
 ### Response

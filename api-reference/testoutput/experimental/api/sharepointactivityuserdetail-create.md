@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointActivityUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointActivityUserDetail not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointActivityUserDetail object.
+In the request body, supply a JSON representation for the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.
 
-The following table shows the properties that are required when you create the sharePointActivityUserDetail.
+The following table shows the properties that are required when you create the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointActivityUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointActivityUserDetail not found
 Content-type: application/json
 Content-length: 493
 
@@ -109,7 +111,7 @@ Content-Length: 542
 
 {
   "@odata.type": "#microsoft.graph.sharePointActivityUserDetail",
-  "id": "35616396-6396-3561-9663-613596636135",
+  "id": "fe712b8e-2b8e-fe71-8e2b-71fe8e2b71fe",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "isDeleted": true,

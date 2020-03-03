@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sectionGroup
 
+Namespace: microsoft.graph
+
 Deletes a [sectionGroup](../resources/sectiongroup.md).
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sectionGroups/{sectionGroupId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sectionGroups/{sectionGroupId}
 ```
 
 ### Response

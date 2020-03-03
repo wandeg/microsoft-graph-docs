@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementIntentUserState
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceMan
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementIntentUserState](../resources/deviceManagementIntentUserState.md) object.
+In the request body, supply a JSON representation for the [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceManagementIntentUserStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceManagementIntentUserStateId}
 Content-type: application/json
 Content-length: 268
 
@@ -72,7 +74,7 @@ Content-length: 268
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceCount": 11,
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "state": "String"
 }
 ```
@@ -91,11 +93,11 @@ Content-Length: 317
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentUserState",
-  "id": "e80dfd39-fd39-e80d-39fd-0de839fd0de8",
+  "id": "499dd460-d460-499d-60d4-9d4960d49d49",
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceCount": 11,
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "state": "String"
 }
 ```

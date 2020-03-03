@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List dataSharingConsents
 
+Namespace: microsoft.graph
+
 Get the dataSharingConsents from the dataSharingConsents navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/dataSharingConsents
+GET https://graph.microsoft.com/localtest/deviceManagement/dataSharingConsents
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 447
   "value": [
     {
       "@odata.type": "#microsoft.graph.dataSharingConsent",
-      "id": "cd0c114d-114d-cd0c-4d11-0ccd4d110ccd",
+      "id": "e2e6c95a-c95a-e2e6-5ac9-e6e25ac9e6e2",
       "serviceDisplayName": "Service Display Name value",
       "termsUrl": "https://example.com/termsUrl/",
       "granted": true,
-      "grantDateTime": "2017-01-01T00:01:21.0762461+03:00",
+      "grantDateTime": "2016-12-31T23:57:27.2612176+03:00",
       "grantedByUpn": "Granted By Upn value",
       "grantedByUserId": "Granted By User Id value"
     }

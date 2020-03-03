@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidDeviceOwnerCompliancePolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidDeviceOwnerCompliancePolicy](../resources/androiddeviceownercompliancepolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidDeviceOwnerCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidDeviceOwnerCompliancePolicy not found
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1472
+Content-Length: 1471
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidDeviceOwnerCompliancePolicy",
-    "id": "c21f70eb-70eb-c21f-eb70-1fc2eb701fc2",
+    "id": "da70863d-863d-da70-3d86-70da3d8670da",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "version": 7,
     "deviceThreatProtectionEnabled": true,

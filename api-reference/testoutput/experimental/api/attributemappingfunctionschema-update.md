@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update attributeMappingFunctionSchema
 
+Namespace: microsoft.graph
+
 Update the properties of a [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /functions/{functionsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [attributeMappingFunctionSchema](../resources/attributeMappingFunctionSchema.md) object.
+In the request body, supply a JSON representation for the [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) object.
 
 The following table shows the properties that are required when you create the [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|parameters|[attributeMappingParameterSchema](../resources/attributeMappingParameterSchema.md) collection||
+|parameters|[attributeMappingParameterSchema](../resources/attributemappingparameterschema.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/functions/{functionsId}
+PATCH https://graph.microsoft.com/localtest/functions/{functionsId}
 Content-type: application/json
 Content-length: 303
 
@@ -91,7 +93,7 @@ Content-Length: 352
 
 {
   "@odata.type": "#microsoft.graph.attributeMappingFunctionSchema",
-  "id": "718b8b96-8b96-718b-968b-8b71968b8b71",
+  "id": "0d1d87b6-87b6-0d1d-b687-1d0db6871d0d",
   "parameters": [
     {
       "@odata.type": "microsoft.graph.attributeMappingParameterSchema",

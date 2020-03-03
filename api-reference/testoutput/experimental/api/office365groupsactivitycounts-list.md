@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List office365GroupsActivityCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365GroupsActivityCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365GroupsActivityCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 407
   "value": [
     {
       "@odata.type": "#microsoft.graph.office365GroupsActivityCounts",
-      "id": "a282b8b1-b8b1-a282-b1b8-82a2b1b882a2",
+      "id": "75859bb3-9bb3-7585-b39b-8575b39b8575",
       "reportRefreshDate": "Date",
       "exchangeEmailsReceived": 6,
       "yammerMessagesPosted": 4,

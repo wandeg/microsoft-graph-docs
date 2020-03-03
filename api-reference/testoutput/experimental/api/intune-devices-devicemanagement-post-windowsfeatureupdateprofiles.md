@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add windowsFeatureUpdateProfiles
 
+Namespace: microsoft.graph
+
 Add windowsFeatureUpdateProfiles by posting to the windowsFeatureUpdateProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/windowsFeatureUpdateProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsFeatureUpdateProfile object.
+In the request body, supply a JSON representation for the [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) object.
 
-The following table shows the properties that are required when you create the windowsFeatureUpdateProfile.
+The following table shows the properties that are required when you create the [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles
+POST https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles
 Content-type: application/json
 Content-length: 207
 
@@ -87,16 +89,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 379
+Content-Length: 378
 
 {
   "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfile",
-  "id": "9c154f7a-4f7a-9c15-7a4f-159c7a4f159c",
+  "id": "df3be66e-e66e-df3b-6ee6-3bdf6ee63bdf",
   "displayName": "Display Name value",
   "description": "Description value",
   "featureUpdateVersion": "Feature Update Version value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceComplianceDeviceStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-get.md)|[deviceComplianceDeviceStatus](../resources/deviceComplianceDeviceStatus.md)|Read properties and relationships of the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
+|[List deviceComplianceDeviceStatuses](../api/devicecompliancedevicestatus-list.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) collection|List properties and relationships of the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) objects.|
+|[Get deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-get.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Read properties and relationships of the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
+|[Create deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-create.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Create a new [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
 |[Delete deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-delete.md)|None|Deletes a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md).|
-|[Update deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-update.md)|[deviceComplianceDeviceStatus](../resources/deviceComplianceDeviceStatus.md)|Update the properties of a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
+|[Update deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-update.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Update the properties of a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
 
 ## Properties
 |Property|Type|Description|

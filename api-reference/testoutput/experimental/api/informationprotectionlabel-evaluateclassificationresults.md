@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # evaluateClassificationResults
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,13 +44,13 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|contentInfo|[contentInfo](../resources/contentInfo.md)||
-|classificationResults|[classificationResult](../resources/classificationResult.md) collection||
+|contentInfo|[contentInfo](../resources/contentinfo.md)||
+|classificationResults|[classificationResult](../resources/classificationresult.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationProtectionAction.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationprotectionaction.md) collection in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/policy/labels/evaluateClassificationResults
+POST https://graph.microsoft.com/localtest/informationProtection/policy/labels/evaluateClassificationResults
 
 Content-type: application/json
 Content-length: 305
@@ -72,7 +74,7 @@ Content-length: 305
   "classificationResults": [
     {
       "@odata.type": "microsoft.graph.classificationResult",
-      "sensitiveTypeId": "01f68005-8005-01f6-0580-f6010580f601",
+      "sensitiveTypeId": "a43eff64-ff64-a43e-64ff-3ea464ff3ea4",
       "count": 5,
       "confidenceLevel": 15
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get roleScopeTagAutoAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}/microsoft.graph.deviceAndAppManagementRoleAssignment/roleScopeTags/{roleScopeTagId}/assignments/{roleScopeTagAutoAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}/microsoft.graph.deviceAndAppManagementRoleAssignment/roleScopeTags/{roleScopeTagId}/assignments/{roleScopeTagAutoAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 244
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-    "id": "e8e7a45a-a45a-e8e7-5aa4-e7e85aa4e7e8",
+    "id": "64e23992-3992-64e2-9239-e2649239e264",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

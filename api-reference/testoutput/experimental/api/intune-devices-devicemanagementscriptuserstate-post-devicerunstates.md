@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceRunStates
 
+Namespace: microsoft.graph
+
 Add deviceRunStates by posting to the deviceRunStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/userRu
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScriptDeviceState object.
+In the request body, supply a JSON representation for the [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScriptDeviceState.
+The following table shows the properties that are required when you create the [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object in the response body.
 
 ## Example
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/userRunStates/{deviceManagementScriptUserStateId}/deviceRunStates
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/userRunStates/{deviceManagementScriptUserStateId}/deviceRunStates
 Content-type: application/json
 Content-length: 280
 
@@ -72,7 +74,7 @@ Content-length: 280
   "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
   "runState": "String",
   "resultMessage": "Result Message value",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
   "errorCode": 9,
   "errorDescription": "Error Description value"
 }
@@ -93,10 +95,10 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
-  "id": "34ee1794-1794-34ee-9417-ee349417ee34",
+  "id": "1bbd95b4-95b4-1bbd-b495-bd1bb495bd1b",
   "runState": "String",
   "resultMessage": "Result Message value",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
   "errorCode": 9,
   "errorDescription": "Error Description value"
 }

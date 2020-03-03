@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsTemplate](../resources/teamstemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teamsTemplates/{teamsTemplatesId}
+GET https://graph.microsoft.com/localtest/teamsTemplates/{teamsTemplatesId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsTemplate",
-    "id": "4c6abe39-be39-4c6a-39be-6a4c39be6a4c"
+    "id": "2e8d35fc-35fc-2e8d-fc35-8d2efc358d2e"
   }
 }
 ```

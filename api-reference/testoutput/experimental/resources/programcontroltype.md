@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # programControlType resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List programControlTypes](../api/programcontroltype-list.md)|[programControlType](../resources/programControlType.md) collection|List properties and relationships of the [programControlType](../resources/programcontroltype.md) objects.|
-|[Get programControlType](../api/programcontroltype-get.md)|[programControlType](../resources/programControlType.md)|Read properties and relationships of the [programControlType](../resources/programcontroltype.md) object.|
-|[Create programControlType](../api/programcontroltype-post-programcontroltypes.md)|[programControlType](../resources/programControlType.md)|Create a new [programControlType](../resources/programcontroltype.md) object.|
+|[List programControlTypes](../api/programcontroltype-list.md)|[programControlType](../resources/programcontroltype.md) collection|List properties and relationships of the [programControlType](../resources/programcontroltype.md) objects.|
+|[Get programControlType](../api/programcontroltype-get.md)|[programControlType](../resources/programcontroltype.md)|Read properties and relationships of the [programControlType](../resources/programcontroltype.md) object.|
+|[Create programControlType](../api/programcontroltype-post-programcontroltypes.md)|[programControlType](../resources/programcontroltype.md)|Create a new [programControlType](../resources/programcontroltype.md) object.|
 |[Delete programControlType](../api/programcontroltype-delete.md)|None|Deletes a [programControlType](../resources/programcontroltype.md).|
-|[Update programControlType](../api/programcontroltype-update.md)|[programControlType](../resources/programControlType.md)|Update the properties of a [programControlType](../resources/programcontroltype.md) object.|
+|[Update programControlType](../api/programcontroltype-update.md)|[programControlType](../resources/programcontroltype.md)|Update the properties of a [programControlType](../resources/programcontroltype.md) object.|
 
 ## Properties
 |Property|Type|Description|

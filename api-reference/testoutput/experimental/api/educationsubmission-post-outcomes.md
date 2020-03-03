@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add outcomes
 
+Namespace: microsoft.graph
+
 Add outcomes by posting to the outcomes collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /education/classes/{educationClassId}/assignments/{educationAssignmentId}/s
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationOutcome object.
+In the request body, supply a JSON representation for the [educationOutcome](../resources/educationoutcome.md) object.
 
-The following table shows the properties that are required when you create the educationOutcome.
+The following table shows the properties that are required when you create the [educationOutcome](../resources/educationoutcome.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/outcomes
+POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/outcomes
 Content-type: application/json
 Content-length: 58
 
@@ -85,7 +87,7 @@ Content-Length: 544
 
 {
   "@odata.type": "#microsoft.graph.educationOutcome",
-  "id": "0cca8ef0-8ef0-0cca-f08e-ca0cf08eca0c",
+  "id": "fc148376-8376-fc14-7683-14fc768314fc",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -100,7 +102,7 @@ Content-Length: 544
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

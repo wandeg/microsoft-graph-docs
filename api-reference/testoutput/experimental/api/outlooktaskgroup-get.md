@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get outlookTaskGroup
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/taskGroups/{outlookTaskGroupId}
+GET https://graph.microsoft.com/localtest/me/outlook/taskGroups/{outlookTaskGroupId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 281
 {
   "value": {
     "@odata.type": "#microsoft.graph.outlookTaskGroup",
-    "id": "255b3331-3331-255b-3133-5b2531335b25",
+    "id": "40c340e6-40e6-40c3-e640-c340e640c340",
     "changeKey": "Change Key value",
     "isDefaultGroup": true,
     "name": "Name value",
-    "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+    "groupKey": "27262869-2869-2726-6928-262769282627"
   }
 }
 ```

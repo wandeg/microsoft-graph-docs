@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get managedDeviceMobileAppConfigurationUserStatus
 
-Read properties and relationships of the [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-manageddevicemobileappconfigurationuserstatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-manageddevicemobileappconfigurationuserstatus.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses/{managedDeviceMobileAppConfigurationUserStatusId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses/{managedDeviceMobileAppConfigurationUserStatusId}
 ```
 
 ### Response
@@ -73,11 +75,11 @@ Content-Length: 381
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-    "id": "ecbf12d0-12d0-ecbf-d012-bfecd012bfec",
+    "id": "e8e1b05f-b05f-e8e1-5fb0-e1e85fb0e1e8",
     "userDisplayName": "User Display Name value",
     "devicesCount": 12,
     "status": "String",
-    "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+    "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

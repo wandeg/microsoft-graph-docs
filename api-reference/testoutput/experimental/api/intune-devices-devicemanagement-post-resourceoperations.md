@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add resourceOperations
 
+Namespace: microsoft.graph
+
 Add resourceOperations by posting to the resourceOperations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/resourceOperations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the resourceOperation object.
+In the request body, supply a JSON representation for the [resourceOperation](../resources/resourceoperation.md) object.
 
-The following table shows the properties that are required when you create the resourceOperation.
+The following table shows the properties that are required when you create the [resourceOperation](../resources/resourceoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations
+POST https://graph.microsoft.com/localtest/deviceManagement/resourceOperations
 Content-type: application/json
 Content-length: 249
 
@@ -93,7 +95,7 @@ Content-Length: 298
 
 {
   "@odata.type": "#microsoft.graph.resourceOperation",
-  "id": "057e76e9-76e9-057e-e976-7e05e9767e05",
+  "id": "bc898d45-8d45-bc89-458d-89bc458d89bc",
   "resource": "Resource value",
   "resourceName": "Resource Name value",
   "actionName": "Action Name value",

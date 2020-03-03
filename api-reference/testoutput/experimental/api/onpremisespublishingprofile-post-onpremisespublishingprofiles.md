@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create onPremisesPublishingProfile
 
+Namespace: microsoft.graph
+
 Create a new [onPremisesPublishingProfile](../resources/onpremisespublishingprofile.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /onPremisesPublishingProfiles
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onPremisesPublishingProfile object.
+In the request body, supply a JSON representation for the [onPremisesPublishingProfile](../resources/onpremisespublishingprofile.md) object.
 
-The following table shows the properties that are required when you create the onPremisesPublishingProfile.
+The following table shows the properties that are required when you create the [onPremisesPublishingProfile](../resources/onpremisespublishingprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|hybridAgentUpdaterConfiguration|[hybridAgentUpdaterConfiguration](../resources/hybridAgentUpdaterConfiguration.md)||
+|hybridAgentUpdaterConfiguration|[hybridAgentUpdaterConfiguration](../resources/hybridagentupdaterconfiguration.md)||
 
 
 
@@ -60,19 +62,19 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles
+POST https://graph.microsoft.com/localtest/onPremisesPublishingProfiles
 Content-type: application/json
-Content-length: 483
+Content-length: 482
 
 {
   "@odata.type": "#microsoft.graph.onPremisesPublishingProfile",
   "hybridAgentUpdaterConfiguration": {
     "@odata.type": "microsoft.graph.hybridAgentUpdaterConfiguration",
-    "deferUpdateDateTime": "2017-01-01T00:02:44.2681456+03:00",
+    "deferUpdateDateTime": "2017-01-01T00:01:51.697502+03:00",
     "updateWindow": {
       "@odata.type": "microsoft.graph.updateWindow",
-      "updateWindowStartTime": "11:56:41.9540000",
-      "updateWindowEndTime": "11:56:40.5520000"
+      "updateWindowStartTime": "11:56:40.8130000",
+      "updateWindowEndTime": "11:59:11.8990000"
     },
     "allowUpdateConfigurationOverride": true
   }
@@ -90,18 +92,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 532
+Content-Length: 531
 
 {
   "@odata.type": "#microsoft.graph.onPremisesPublishingProfile",
-  "id": "ad1876c2-76c2-ad18-c276-18adc27618ad",
+  "id": "6e2a39a7-39a7-6e2a-a739-2a6ea7392a6e",
   "hybridAgentUpdaterConfiguration": {
     "@odata.type": "microsoft.graph.hybridAgentUpdaterConfiguration",
-    "deferUpdateDateTime": "2017-01-01T00:02:44.2681456+03:00",
+    "deferUpdateDateTime": "2017-01-01T00:01:51.697502+03:00",
     "updateWindow": {
       "@odata.type": "microsoft.graph.updateWindow",
-      "updateWindowStartTime": "11:56:41.9540000",
-      "updateWindowEndTime": "11:56:40.5520000"
+      "updateWindowStartTime": "11:56:40.8130000",
+      "updateWindowEndTime": "11:59:11.8990000"
     },
     "allowUpdateConfigurationOverride": true
   }

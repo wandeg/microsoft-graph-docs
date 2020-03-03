@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get macOSCertificateProfileBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [macOSCertificateProfileBase](../resources/macoscertificateprofilebase.md) object.
 
 ## Permissions
@@ -66,13 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1352
+Content-Length: 1351
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.macOSCertificateProfileBase",
-    "id": "3ed70c3f-0c3f-3ed7-3f0c-d73e3f0cd73e",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "6d08b9f7-b9f7-6d08-f7b9-086df7b9086d",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -94,7 +96,7 @@ Content-Length: 1352
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

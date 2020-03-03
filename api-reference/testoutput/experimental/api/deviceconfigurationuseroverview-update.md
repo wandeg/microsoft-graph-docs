@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationUserOverview
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.
 
 ## Permissions
@@ -44,7 +46,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.g
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md).
 
@@ -75,9 +77,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatusOverview
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatusOverview
 Content-type: application/json
-Content-length: 305
+Content-length: 306
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
@@ -87,7 +89,7 @@ Content-length: 305
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```
@@ -102,18 +104,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 354
+Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
-  "id": "d10d47a1-47a1-d10d-a147-0dd1a1470dd1",
+  "id": "6df16ef3-6ef3-6df1-f36e-f16df36ef16d",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```

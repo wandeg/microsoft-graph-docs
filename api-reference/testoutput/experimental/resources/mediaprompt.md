@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mediaPrompt resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -20,7 +21,7 @@ Inherits from [prompt](../resources/prompt.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |loop|Int32||
-|mediaInfo|[mediaInfo](../resources/mediaInfo.md)||
+|mediaInfo|[mediaInfo](../resources/mediainfo.md)||
 
 ## Relationships
 None

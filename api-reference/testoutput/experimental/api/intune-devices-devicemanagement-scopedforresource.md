@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # scopedForResource
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/scopedForResource(resource='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/scopedForResource(resource='parameterValue')
 ```
 
 ### Response

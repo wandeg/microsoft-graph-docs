@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get privilegedAccess
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [privilegedAccess](../resources/privilegedaccess.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}
+GET https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 172
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedAccess",
-    "id": "f51e3f15-3f15-f51e-153f-1ef5153f1ef5",
+    "id": "0d80c281-c281-0d80-81c2-800d81c2800d",
     "displayName": "Display Name value"
   }
 }

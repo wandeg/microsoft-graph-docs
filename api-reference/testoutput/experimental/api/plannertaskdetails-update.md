@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerTaskDetails
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerTaskDetails](../resources/plannertaskdetails.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTas
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerTaskDetails](../resources/plannerTaskDetails.md) object.
+In the request body, supply a JSON representation for the [plannerTaskDetails](../resources/plannertaskdetails.md) object.
 
 The following table shows the properties that are required when you create the [plannerTaskDetails](../resources/plannertaskdetails.md).
 
@@ -44,8 +46,8 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |description|String||
 |previewType|Enumeration|. Possible values are: `automatic`, `noPreview`, `checklist`, `description`, `reference`.|
-|references|[plannerExternalReferences](../resources/plannerExternalReferences.md)||
-|checklist|[plannerChecklistItems](../resources/plannerChecklistItems.md)||
+|references|[plannerExternalReferences](../resources/plannerexternalreferences.md)||
+|checklist|[plannerChecklistItems](../resources/plannerchecklistitems.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/details
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/details
 Content-type: application/json
 Content-length: 300
 
@@ -93,7 +95,7 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.plannerTaskDetails",
-  "id": "e324502b-502b-e324-2b50-24e32b5024e3",
+  "id": "b27fecb6-ecb6-b27f-b6ec-7fb2b6ec7fb2",
   "description": "Description value",
   "previewType": "String",
   "references": {

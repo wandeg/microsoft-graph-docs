@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # recordDecisions
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}/recordDecisions
+POST https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}/recordDecisions
 
 Content-type: application/json
 Content-length: 88

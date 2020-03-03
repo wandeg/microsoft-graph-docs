@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update subscription
 
+Namespace: microsoft.graph
+
 Update the properties of a [subscription](../resources/subscription.md) object.
 
 ## Permissions
@@ -73,9 +75,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/subscriptions/{subscriptionsId}
+PATCH https://graph.microsoft.com/localtest/subscriptions/{subscriptionsId}
 Content-type: application/json
-Content-length: 635
+Content-length: 636
 
 {
   "@odata.type": "#microsoft.graph.subscription",
@@ -83,7 +85,7 @@ Content-length: 635
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,
@@ -104,16 +106,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 684
+Content-Length: 685
 
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "aedfa54d-a54d-aedf-4da5-dfae4da5dfae",
+  "id": "ccd590a4-90a4-ccd5-a490-d5cca490d5cc",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,

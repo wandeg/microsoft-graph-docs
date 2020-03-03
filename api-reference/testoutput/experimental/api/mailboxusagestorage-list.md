@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mailboxUsageStorages
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [mailboxUsageStorage](../resources/mailboxusagestorage.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageStorage not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageStorage not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 294
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailboxUsageStorage",
-      "id": "d975738f-738f-d975-8f73-75d98f7375d9",
+      "id": "d93ed668-d668-d93e-68d6-3ed968d63ed9",
       "reportRefreshDate": "Date",
       "storageUsedInBytes": 2,
       "reportDate": "Date",

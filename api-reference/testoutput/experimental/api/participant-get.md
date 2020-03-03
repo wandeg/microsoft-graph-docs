@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get participant
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [participant](../resources/participant.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants/{participantId}
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}/participants/{participantId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1344
 {
   "value": {
     "@odata.type": "#microsoft.graph.participant",
-    "id": "f57a5439-5439-f57a-3954-7af539547af5",
+    "id": "bcf70126-0126-bcf7-2601-f7bc2601f7bc",
     "info": {
       "@odata.type": "microsoft.graph.participantInfo",
       "identity": {

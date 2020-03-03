@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailFolder
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailFolder](../resources/mailfolder.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/mailFolders/{mailFolderId}/childFolders/{mailFolderId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailFolder](../resources/mailFolder.md) object.
+In the request body, supply a JSON representation for the [mailFolder](../resources/mailfolder.md) object.
 
 The following table shows the properties that are required when you create the [mailFolder](../resources/mailfolder.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}
+PATCH https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}
 Content-type: application/json
 Content-length: 261
 
@@ -95,7 +97,7 @@ Content-Length: 310
 
 {
   "@odata.type": "#microsoft.graph.mailFolder",
-  "id": "791f9359-9359-791f-5993-1f7959931f79",
+  "id": "f1deb285-b285-f1de-85b2-def185b2def1",
   "displayName": "Display Name value",
   "parentFolderId": "Parent Folder Id value",
   "childFolderCount": 0,

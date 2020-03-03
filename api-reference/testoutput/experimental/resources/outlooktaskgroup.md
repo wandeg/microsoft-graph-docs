@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # outlookTaskGroup resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get outlookTaskGroup](../api/outlooktaskgroup-get.md)|[outlookTaskGroup](../resources/outlookTaskGroup.md)|Read properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
+|[List outlookTaskGroups](../api/outlooktaskgroup-list.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md) collection|List properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) objects.|
+|[Get outlookTaskGroup](../api/outlooktaskgroup-get.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Read properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
+|[Create outlookTaskGroup](../api/outlooktaskgroup-create.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Create a new [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
 |[Delete outlookTaskGroup](../api/outlooktaskgroup-delete.md)|None|Deletes a [outlookTaskGroup](../resources/outlooktaskgroup.md).|
-|[Update outlookTaskGroup](../api/outlooktaskgroup-update.md)|[outlookTaskGroup](../resources/outlookTaskGroup.md)|Update the properties of a [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
-|[List taskFolders](../api/outlooktaskgroup-list-taskfolders.md)|[outlookTaskFolder](../resources/outlookTaskFolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
-|[Add taskFolders](../api/outlooktaskgroup-post-taskfolders.md)|[outlookTaskFolder](../resources/outlookTaskFolder.md)|Add taskFolders by posting to the taskFolders collection.|
+|[Update outlookTaskGroup](../api/outlooktaskgroup-update.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Update the properties of a [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
+|[List taskFolders](../api/outlooktaskgroup-list-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
+|[Add taskFolders](../api/outlooktaskgroup-post-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Add taskFolders by posting to the taskFolders collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|taskFolders|[outlookTaskFolder](../resources/outlookTaskFolder.md) collection||
+|taskFolders|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add policies
 
+Namespace: microsoft.graph
+
 Add policies by posting to the policies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /conditionalAccess/policies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the conditionalAccessPolicy object.
+In the request body, supply a JSON representation for the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.
 
-The following table shows the properties that are required when you create the conditionalAccessPolicy.
+The following table shows the properties that are required when you create the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,9 +50,9 @@ The following table shows the properties that are required when you create the c
 |displayName|String||
 |description|String||
 |state|Enumeration|. Possible values are: `enabled`, `disabled`, `enabledForReportingButNotEnforced`.|
-|conditions|[conditionalAccessConditionSet](../resources/conditionalAccessConditionSet.md)||
-|grantControls|[conditionalAccessGrantControls](../resources/conditionalAccessGrantControls.md)||
-|sessionControls|[conditionalAccessSessionControls](../resources/conditionalAccessSessionControls.md)||
+|conditions|[conditionalAccessConditionSet](../resources/conditionalaccessconditionset.md)||
+|grantControls|[conditionalAccessGrantControls](../resources/conditionalaccessgrantcontrols.md)||
+|sessionControls|[conditionalAccessSessionControls](../resources/conditionalaccesssessioncontrols.md)||
 
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/conditionalAccess/policies
+POST https://graph.microsoft.com/localtest/conditionalAccess/policies
 Content-type: application/json
 Content-length: 2896
 
@@ -192,13 +194,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3064
+Content-Length: 3063
 
 {
   "@odata.type": "#microsoft.graph.conditionalAccessPolicy",
-  "id": "d6faa47b-a47b-d6fa-7ba4-fad67ba4fad6",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "id": "a0b8838a-838a-a0b8-8a83-b8a08a83b8a0",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "state": "String",

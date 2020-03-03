@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete taxGroup
 
+Namespace: microsoft.graph
+
 Deletes a [taxGroup](../resources/taxgroup.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/taxGroups/{taxGroupId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/taxGroups/{taxGroupId}
 ```
 
 ### Response

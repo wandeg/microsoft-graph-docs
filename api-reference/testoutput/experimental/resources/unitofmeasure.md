@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # unitOfMeasure resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get unitOfMeasure](../api/unitofmeasure-get.md)|[unitOfMeasure](../resources/unitOfMeasure.md)|Read properties and relationships of the [unitOfMeasure](../resources/unitofmeasure.md) object.|
+|[List unitOfMeasures](../api/unitofmeasure-list.md)|[unitOfMeasure](../resources/unitofmeasure.md) collection|List properties and relationships of the [unitOfMeasure](../resources/unitofmeasure.md) objects.|
+|[Get unitOfMeasure](../api/unitofmeasure-get.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Read properties and relationships of the [unitOfMeasure](../resources/unitofmeasure.md) object.|
+|[Create unitOfMeasure](../api/unitofmeasure-create.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Create a new [unitOfMeasure](../resources/unitofmeasure.md) object.|
 |[Delete unitOfMeasure](../api/unitofmeasure-delete.md)|None|Deletes a [unitOfMeasure](../resources/unitofmeasure.md).|
-|[Update unitOfMeasure](../api/unitofmeasure-update.md)|[unitOfMeasure](../resources/unitOfMeasure.md)|Update the properties of a [unitOfMeasure](../resources/unitofmeasure.md) object.|
+|[Update unitOfMeasure](../api/unitofmeasure-update.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Update the properties of a [unitOfMeasure](../resources/unitofmeasure.md) object.|
 
 ## Properties
 |Property|Type|Description|

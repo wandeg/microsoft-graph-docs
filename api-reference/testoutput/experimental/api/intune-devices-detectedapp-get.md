@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get detectedApp
 
-Read properties and relationships of the [detectedApp](../resources/detectedapp.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [detectedApp](../resources/intune-devices-detectedapp.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [detectedApp](../resources/detectedapp.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [detectedApp](../resources/intune-devices-detectedapp.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/detectedApps/{detectedAppId}
+GET https://graph.microsoft.com/localtest/deviceManagement/detectedApps/{detectedAppId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 247
 {
   "value": {
     "@odata.type": "#microsoft.graph.detectedApp",
-    "id": "7b86facd-facd-7b86-cdfa-867bcdfa867b",
+    "id": "20b5a094-a094-20b5-94a0-b52094a0b520",
     "displayName": "Display Name value",
     "version": "Version value",
     "sizeInByte": 10,

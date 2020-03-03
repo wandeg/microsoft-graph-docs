@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domainDnsMxRecord
 
+Namespace: microsoft.graph
+
 Update the properties of a [domainDnsMxRecord](../resources/domaindnsmxrecord.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.domainDnsMxRecord not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [domainDnsMxRecord](../resources/domainDnsMxRecord.md) object.
+In the request body, supply a JSON representation for the [domainDnsMxRecord](../resources/domaindnsmxrecord.md) object.
 
 The following table shows the properties that are required when you create the [domainDnsMxRecord](../resources/domaindnsmxrecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |mailExchange|String||
 |preference|Int32||
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.domainDnsMxRecord not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.domainDnsMxRecord not found
 Content-type: application/json
 Content-length: 273
 
@@ -95,7 +97,7 @@ Content-Length: 322
 
 {
   "@odata.type": "#microsoft.graph.domainDnsMxRecord",
-  "id": "f2d4152e-152e-f2d4-2e15-d4f22e15d4f2",
+  "id": "635e0349-0349-635e-4903-5e6349035e63",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

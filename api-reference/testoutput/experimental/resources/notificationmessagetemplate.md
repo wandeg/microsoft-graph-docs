@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # notificationMessageTemplate resource type
+
+
+Namespace: microsoft.graph
 
 Notification messages are messages that are sent to end users who are determined to be not-compliant with the compliance policies defined by the administrator. Administrators choose notifications and configure them in the Intune Admin Console using the compliance policy creation page under the “Actions for non-compliance” section. Use the notificationMessageTemplate object to create your own custom notifications for administrators to choose while configuring actions for non-compliance.
 
@@ -19,14 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get notificationMessageTemplate](../api/notificationmessagetemplate-get.md)|[notificationMessageTemplate](../resources/notificationMessageTemplate.md)|Read properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
+|[List notificationMessageTemplates](../api/notificationmessagetemplate-list.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md) collection|List properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) objects.|
+|[Get notificationMessageTemplate](../api/notificationmessagetemplate-get.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Read properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
+|[Create notificationMessageTemplate](../api/notificationmessagetemplate-create.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Create a new [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
 |[Delete notificationMessageTemplate](../api/notificationmessagetemplate-delete.md)|None|Deletes a [notificationMessageTemplate](../resources/notificationmessagetemplate.md).|
-|[Update notificationMessageTemplate](../api/notificationmessagetemplate-update.md)|[notificationMessageTemplate](../resources/notificationMessageTemplate.md)|Update the properties of a [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
+|[Update notificationMessageTemplate](../api/notificationmessagetemplate-update.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Update the properties of a [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
 |[sendTestMessage](../api/notificationmessagetemplate-sendtestmessage.md)|None||
-|[List localizedNotificationMessages](../api/notificationmessagetemplate-list-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizedNotificationMessage.md) collection|Get the localizedNotificationMessages from the localizedNotificationMessages navigation property.|
-|[Add localizedNotificationMessages](../api/notificationmessagetemplate-post-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizedNotificationMessage.md)|Add localizedNotificationMessages by posting to the localizedNotificationMessages collection.|
-|[List notificationMessageTemplates](../api/intune-devices-devicemanagement-list-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationMessageTemplate.md) collection|Get the notificationMessageTemplates from the notificationMessageTemplates navigation property.|
-|[Add notificationMessageTemplates](../api/intune-devices-devicemanagement-post-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationMessageTemplate.md)|Add notificationMessageTemplates by posting to the notificationMessageTemplates collection.|
+|[List localizedNotificationMessages](../api/notificationmessagetemplate-list-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md) collection|Get the localizedNotificationMessages from the localizedNotificationMessages navigation property.|
+|[Add localizedNotificationMessages](../api/notificationmessagetemplate-post-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md)|Add localizedNotificationMessages by posting to the localizedNotificationMessages collection.|
+|[List notificationMessageTemplates](../api/intune-devices-devicemanagement-list-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md) collection|Get the notificationMessageTemplates from the notificationMessageTemplates navigation property.|
+|[Add notificationMessageTemplates](../api/intune-devices-devicemanagement-post-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Add notificationMessageTemplates by posting to the notificationMessageTemplates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|localizedNotificationMessages|[localizedNotificationMessage](../resources/localizedNotificationMessage.md) collection|The list of localized messages for this Notification Message Template.|
+|localizedNotificationMessages|[localizedNotificationMessage](../resources/localizednotificationmessage.md) collection|The list of localized messages for this Notification Message Template.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

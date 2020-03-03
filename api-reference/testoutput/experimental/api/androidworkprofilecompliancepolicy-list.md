@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidWorkProfileCompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidWorkProfileCompliancePolicy](../resources/androidworkprofilecompliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidWorkProfileCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidWorkProfileCompliancePolicy not found
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1681
+Content-Length: 1680
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
-      "id": "8c14980d-980d-8c14-0d98-148c0d98148c",
+      "id": "f8423c95-3c95-f842-953c-42f8953c42f8",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

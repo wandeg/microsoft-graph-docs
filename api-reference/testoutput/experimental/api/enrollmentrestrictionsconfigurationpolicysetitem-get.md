@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get enrollmentRestrictionsConfigurationPolicySetItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [enrollmentRestrictionsConfigurationPolicySetItem](../resources/enrollmentrestrictionsconfigurationpolicysetitem.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 572
+Content-Length: 571
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem",
-    "id": "d821488f-488f-d821-8f48-21d88f4821d8",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "403afc61-fc61-403a-61fc-3a4061fc3a40",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "payloadId": "Payload Id value",
     "itemType": "Item Type value",
     "displayName": "Display Name value",

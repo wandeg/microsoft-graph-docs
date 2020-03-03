@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mailboxUsageQuotaStatusMailboxCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 424
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailboxUsageQuotaStatusMailboxCounts",
-      "id": "1d2716ae-16ae-1d27-ae16-271dae16271d",
+      "id": "cec16fca-6fca-cec1-ca6f-c1ceca6fc1ce",
       "reportRefreshDate": "Date",
       "underLimit": 10,
       "warningIssued": 13,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidDeviceOwnerTrustedRootCertificates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidDeviceOwnerTrustedRootCertificate](../resources/androiddeviceownertrustedrootcertificate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidDeviceOwnerTrustedRootCertificate not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidDeviceOwnerTrustedRootCertificate not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1339
+Content-Length: 1338
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidDeviceOwnerTrustedRootCertificate",
-      "id": "1de9c40d-c40d-1de9-0dc4-e91d0dc4e91d",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "79319a5b-9a5b-7931-5b9a-31795b9a3179",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 1339
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

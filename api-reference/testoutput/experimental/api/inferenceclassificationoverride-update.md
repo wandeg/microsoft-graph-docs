@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update inferenceClassificationOverride
 
+Namespace: microsoft.graph
+
 Update the properties of a [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [inferenceClassificationOverride](../resources/inferenceClassificationOverride.md) object.
+In the request body, supply a JSON representation for the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.
 
 The following table shows the properties that are required when you create the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |classifyAs|Enumeration|. Possible values are: `focused`, `other`.|
-|senderEmailAddress|[emailAddress](../resources/emailAddress.md)||
+|senderEmailAddress|[emailAddress](../resources/emailaddress.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
+PATCH https://graph.microsoft.com/localtest/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
 Content-type: application/json
 Content-length: 244
 
@@ -89,7 +91,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-  "id": "92d6a0be-a0be-92d6-bea0-d692bea0d692",
+  "id": "31d3d2ff-d2ff-31d3-ffd2-d331ffd2d331",
   "classifyAs": "String",
   "senderEmailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",

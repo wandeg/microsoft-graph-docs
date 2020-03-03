@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List servicePrincipals
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [servicePrincipal](../resources/serviceprincipal.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/servicePrincipals
+GET https://graph.microsoft.com/localtest/servicePrincipals
 ```
 
 ### Response
@@ -70,13 +72,13 @@ Content-Length: 3351
   "value": [
     {
       "@odata.type": "#microsoft.graph.servicePrincipal",
-      "id": "3c101314-1314-3c10-1413-103c1413103c",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "da5b47bc-47bc-da5b-bc47-5bdabc475bda",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "accountEnabled": true,
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn",
-          "id": "7fa8665d-665d-7fa8-5d66-a87f5d66a87f",
+          "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
           "type": "Type value",
           "properties": [
             {
@@ -90,7 +92,7 @@ Content-Length: 3351
       "appDisplayName": "App Display Name value",
       "appId": "App Id value",
       "applicationTemplateId": "Application Template Id value",
-      "appOwnerOrganizationId": "9a93e3d1-e3d1-9a93-d1e3-939ad1e3939a",
+      "appOwnerOrganizationId": "9f15957f-957f-9f15-7f95-159f7f95159f",
       "appRoleAssignmentRequired": true,
       "appRoles": [
         {
@@ -110,9 +112,9 @@ Content-Length: 3351
         {
           "@odata.type": "microsoft.graph.keyCredential",
           "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-          "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-          "keyId": "00d977d7-77d7-00d9-d777-d900d777d900",
-          "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
+          "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+          "keyId": "6b92b784-b784-6b92-84b7-926b84b7926b",
+          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
           "usage": "Usage value",
           "key": "a2V5"
         }

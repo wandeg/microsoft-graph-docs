@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List identityContainers
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [identityContainer](../resources/identitycontainer.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.identityContainer not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.identityContainer not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 149
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityContainer",
-      "id": "bb1fed46-ed46-bb1f-46ed-1fbb46ed1fbb"
+      "id": "1e877267-7267-1e87-6772-871e6772871e"
     }
   ]
 }

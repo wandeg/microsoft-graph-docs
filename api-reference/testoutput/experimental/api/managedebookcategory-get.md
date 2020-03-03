@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedEBookCategory
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedEBookCategory](../resources/managedebookcategory.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBookCategories/{managedEBookCategoryId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBookCategories/{managedEBookCategoryId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 242
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedEBookCategory",
-    "id": "140b431f-431f-140b-1f43-0b141f430b14",
+    "id": "75c9c15e-c15e-75c9-5ec1-c9755ec1c975",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

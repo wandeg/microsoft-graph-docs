@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete alert
 
+Namespace: microsoft.graph
+
 Deletes a [alert](../resources/alert.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/alerts/{alertId}
+DELETE https://graph.microsoft.com/localtest/Security/alerts/{alertId}
 ```
 
 ### Response

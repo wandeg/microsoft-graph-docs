@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # permission resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List permissions](../api/permission-list.md)|[permission](../resources/permission.md) collection|List properties and relationships of the [permission](../resources/permission.md) objects.|
 |[Get permission](../api/permission-get.md)|[permission](../resources/permission.md)|Read properties and relationships of the [permission](../resources/permission.md) object.|
+|[Create permission](../api/permission-create.md)|[permission](../resources/permission.md)|Create a new [permission](../resources/permission.md) object.|
 |[Delete permission](../api/permission-delete.md)|None|Deletes a [permission](../resources/permission.md).|
 |[Update permission](../api/permission-update.md)|[permission](../resources/permission.md)|Update the properties of a [permission](../resources/permission.md) object.|
 |[grant](../api/permission-grant.md)|[permission](../resources/permission.md) collection||
@@ -28,13 +31,13 @@ Inherits from [entity](../resources/entity.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |expirationDateTime|DateTimeOffset||
-|grantedTo|[identitySet](../resources/identitySet.md)||
-|grantedToIdentities|[identitySet](../resources/identitySet.md) collection||
+|grantedTo|[identitySet](../resources/identityset.md)||
+|grantedToIdentities|[identitySet](../resources/identityset.md) collection||
 |hasPassword|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
-|invitation|[sharingInvitation](../resources/sharingInvitation.md)||
-|link|[sharingLink](../resources/sharingLink.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
+|invitation|[sharingInvitation](../resources/sharinginvitation.md)||
+|link|[sharingLink](../resources/sharinglink.md)||
 |roles|String collection||
 |shareId|String||
 

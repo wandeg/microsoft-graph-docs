@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidForWorkAppConfigurationSchema
 
+Namespace: microsoft.graph
+
 Deletes a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkAppConfigurationSchemaId}
 ```
 
 ### Response

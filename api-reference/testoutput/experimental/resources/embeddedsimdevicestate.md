@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # embeddedSIMDeviceState resource type
+
+
+Namespace: microsoft.graph
 
 Describes the embedded SIM activation code deployment state in relation to a device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get embeddedSIMDeviceState](../api/embeddedsimdevicestate-get.md)|[embeddedSIMDeviceState](../resources/embeddedSIMDeviceState.md)|Read properties and relationships of the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
+|[List embeddedSIMDeviceStates](../api/embeddedsimdevicestate-list.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) collection|List properties and relationships of the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) objects.|
+|[Get embeddedSIMDeviceState](../api/embeddedsimdevicestate-get.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Read properties and relationships of the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
+|[Create embeddedSIMDeviceState](../api/embeddedsimdevicestate-create.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Create a new [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
 |[Delete embeddedSIMDeviceState](../api/embeddedsimdevicestate-delete.md)|None|Deletes a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md).|
-|[Update embeddedSIMDeviceState](../api/embeddedsimdevicestate-update.md)|[embeddedSIMDeviceState](../resources/embeddedSIMDeviceState.md)|Update the properties of a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
+|[Update embeddedSIMDeviceState](../api/embeddedsimdevicestate-update.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Update the properties of a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
 
 ## Properties
 |Property|Type|Description|

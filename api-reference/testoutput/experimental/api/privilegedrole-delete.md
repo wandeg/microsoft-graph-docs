@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete privilegedRole
 
+Namespace: microsoft.graph
+
 Deletes a [privilegedRole](../resources/privilegedrole.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/privilegedRoles/{privilegedRolesId}
+DELETE https://graph.microsoft.com/localtest/privilegedRoles/{privilegedRolesId}
 ```
 
 ### Response

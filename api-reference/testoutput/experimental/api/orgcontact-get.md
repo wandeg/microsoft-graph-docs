@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get orgContact
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [orgContact](../resources/orgcontact.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/contacts/{contactsId}
+GET https://graph.microsoft.com/localtest/contacts/{contactsId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 1509
 {
   "value": {
     "@odata.type": "#microsoft.graph.orgContact",
-    "id": "adc508a4-08a4-adc5-a408-c5ada408c5ad",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "e8b04e82-4e82-e8b0-824e-b0e8824eb0e8",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "addresses": [
       {
         "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -93,14 +95,14 @@ Content-Length: 1509
     "mail": "Mail value",
     "mailNickname": "Mail Nickname value",
     "onPremisesSyncEnabled": true,
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError",
         "value": "Value value",
         "category": "Category value",
         "propertyCausingError": "Property Causing Error value",
-        "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+        "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
       }
     ],
     "phones": [

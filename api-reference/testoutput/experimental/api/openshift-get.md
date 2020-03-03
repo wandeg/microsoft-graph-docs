@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get openShift
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [openShift](../resources/openshift.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1259
+Content-Length: 1258
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.openShift",
-    "id": "cf3df069-f069-cf3d-69f0-3dcf69f03dcf",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "91d9b661-b661-91d9-61b6-d99161b6d991",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -91,8 +93,8 @@ Content-Length: 1259
     },
     "sharedOpenShift": {
       "@odata.type": "microsoft.graph.openShiftItem",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "theme": "String",
       "notes": "Notes value",
       "activities": [

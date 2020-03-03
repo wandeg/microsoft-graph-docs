@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete governanceRoleDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [governanceRoleDefinition](../resources/governanceroledefinition.md).
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/governanceRoleDefinitions/{governanceRoleDefinitionsId}
+DELETE https://graph.microsoft.com/localtest/governanceRoleDefinitions/{governanceRoleDefinitionsId}
 ```
 
 ### Response

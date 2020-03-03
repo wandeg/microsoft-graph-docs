@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governancePolicyTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [governancePolicyTemplate](../resources/governancepolicytemplate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governancePolicyTemplate](../resources/governancePolicyTemplate.md) object.
+In the request body, supply a JSON representation for the [governancePolicyTemplate](../resources/governancepolicytemplate.md) object.
 
 The following table shows the properties that are required when you create the [governancePolicyTemplate](../resources/governancepolicytemplate.md).
 
@@ -43,8 +45,8 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
-|policy|[governancePolicy](../resources/governancePolicy.md)||
-|settings|[businessFlowSettings](../resources/businessFlowSettings.md)||
+|policy|[governancePolicy](../resources/governancepolicy.md)||
+|settings|[businessFlowSettings](../resources/businessflowsettings.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
+PATCH https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/policyTemplates/{governancePolicyTemplateId}
 Content-type: application/json
 Content-length: 1639
 
@@ -131,7 +133,7 @@ Content-Length: 1688
 
 {
   "@odata.type": "#microsoft.graph.governancePolicyTemplate",
-  "id": "9a9f6778-6778-9a9f-7867-9f9a78679f9a",
+  "id": "0a9b58f8-58f8-0a9b-f858-9b0af8589b0a",
   "displayName": "Display Name value",
   "policy": {
     "@odata.type": "microsoft.graph.governancePolicy",

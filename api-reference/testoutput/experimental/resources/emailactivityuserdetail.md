@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailActivityUserDetails](../api/emailactivityuserdetail-list.md)|[emailActivityUserDetail](../resources/emailActivityUserDetail.md) collection|List properties and relationships of the [emailActivityUserDetail](../resources/emailactivityuserdetail.md) objects.|
-|[Get emailActivityUserDetail](../api/emailactivityuserdetail-get.md)|[emailActivityUserDetail](../resources/emailActivityUserDetail.md)|Read properties and relationships of the [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
-|[Create emailActivityUserDetail](../api/emailactivityuserdetail-create.md)|[emailActivityUserDetail](../resources/emailActivityUserDetail.md)|Create a new [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
+|[List emailActivityUserDetails](../api/emailactivityuserdetail-list.md)|[emailActivityUserDetail](../resources/emailactivityuserdetail.md) collection|List properties and relationships of the [emailActivityUserDetail](../resources/emailactivityuserdetail.md) objects.|
+|[Get emailActivityUserDetail](../api/emailactivityuserdetail-get.md)|[emailActivityUserDetail](../resources/emailactivityuserdetail.md)|Read properties and relationships of the [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
+|[Create emailActivityUserDetail](../api/emailactivityuserdetail-create.md)|[emailActivityUserDetail](../resources/emailactivityuserdetail.md)|Create a new [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
 |[Delete emailActivityUserDetail](../api/emailactivityuserdetail-delete.md)|None|Deletes a [emailActivityUserDetail](../resources/emailactivityuserdetail.md).|
-|[Update emailActivityUserDetail](../api/emailactivityuserdetail-update.md)|[emailActivityUserDetail](../resources/emailActivityUserDetail.md)|Update the properties of a [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
+|[Update emailActivityUserDetail](../api/emailactivityuserdetail-update.md)|[emailActivityUserDetail](../resources/emailactivityuserdetail.md)|Update the properties of a [emailActivityUserDetail](../resources/emailactivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

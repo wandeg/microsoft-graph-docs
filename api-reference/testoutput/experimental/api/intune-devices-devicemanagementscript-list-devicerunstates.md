@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceRunStates
 
+Namespace: microsoft.graph
+
 Get the deviceManagementScriptDeviceStates from the deviceRunStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/deviceRunStates
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/deviceRunStates
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 390
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
-      "id": "34ee1794-1794-34ee-9417-ee349417ee34",
+      "id": "1bbd95b4-95b4-1bbd-b495-bd1bb495bd1b",
       "runState": "String",
       "resultMessage": "Result Message value",
-      "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+      "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
       "errorCode": 9,
       "errorDescription": "Error Description value"
     }

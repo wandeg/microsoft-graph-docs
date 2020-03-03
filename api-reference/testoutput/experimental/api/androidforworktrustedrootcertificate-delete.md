@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidForWorkTrustedRootCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [androidForWorkTrustedRootCertificate](../resources/androidforworktrustedrootcertificate.md).
 
 ## Permissions

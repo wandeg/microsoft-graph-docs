@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updatePriorities
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/updatePriorities
+POST https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/updatePriorities
 
 Content-type: application/json
 Content-length: 143

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # driveItemUploadableProperties resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |description|String||
 |fileSize|Int64||
-|fileSystemInfo|[fileSystemInfo](../resources/fileSystemInfo.md)||
+|fileSystemInfo|[fileSystemInfo](../resources/filesysteminfo.md)||
 |name|String||
 
 ## Relationships

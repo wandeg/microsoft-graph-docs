@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppContentFile resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for a single installer file that is associated with a given mobileAppContent version.
 
@@ -19,13 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileAppContentFile](../api/intune-apps-mobileappcontentfile-get.md)|[mobileAppContentFile](../resources/intune-apps-mobileAppContentFile.md)|Read properties and relationships of the [mobileAppContentFile](../resources/mobileappcontentfile.md) object.|
-|[Delete mobileAppContentFile](../api/intune-apps-mobileappcontentfile-delete.md)|None|Deletes a [mobileAppContentFile](../resources/mobileappcontentfile.md).|
-|[Update mobileAppContentFile](../api/intune-apps-mobileappcontentfile-update.md)|[mobileAppContentFile](../resources/intune-apps-mobileAppContentFile.md)|Update the properties of a [mobileAppContentFile](../resources/mobileappcontentfile.md) object.|
+|[List mobileAppContentFiles](../api/intune-apps-mobileappcontentfile-list.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) collection|List properties and relationships of the [mobileAppContentFile](../resources/mobileappcontentfile.md) objects.|
+|[Get mobileAppContentFile](../api/intune-apps-mobileappcontentfile-get.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md)|Read properties and relationships of the [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.|
+|[Create mobileAppContentFile](../api/intune-apps-mobileappcontentfile-create.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md)|Create a new [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.|
+|[Delete mobileAppContentFile](../api/intune-apps-mobileappcontentfile-delete.md)|None|Deletes a [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md).|
+|[Update mobileAppContentFile](../api/intune-apps-mobileappcontentfile-update.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md)|Update the properties of a [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.|
 |[commit](../api/intune-apps-mobileappcontentfile-commit.md)|None||
 |[renewUpload](../api/intune-apps-mobileappcontentfile-renewupload.md)|None||
-|[List files](../api/intune-apps-mobileappcontent-list-files.md)|[mobileAppContentFile](../resources/intune-apps-mobileAppContentFile.md) collection|Get the mobileAppContentFiles from the files navigation property.|
-|[Add files](../api/intune-apps-mobileappcontent-post-files.md)|[mobileAppContentFile](../resources/intune-apps-mobileAppContentFile.md)|Add files by posting to the files collection.|
+|[List files](../api/intune-apps-mobileappcontent-list-files.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) collection|Get the mobileAppContentFiles from the files navigation property.|
+|[Add files](../api/intune-apps-mobileappcontent-post-files.md)|[mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md)|Add files by posting to the files collection.|
 
 ## Properties
 |Property|Type|Description|

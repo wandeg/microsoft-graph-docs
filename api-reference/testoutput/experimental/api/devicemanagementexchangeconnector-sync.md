@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # sync
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}/sync
+POST https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}/sync
 
 Content-type: application/json
 Content-length: 28

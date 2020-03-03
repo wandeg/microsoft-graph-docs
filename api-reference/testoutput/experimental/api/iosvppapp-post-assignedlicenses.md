@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignedLicenses
 
+Namespace: microsoft.graph
+
 Add assignedLicenses by posting to the assignedLicenses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/ass
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosVppAppAssignedLicense object.
+In the request body, supply a JSON representation for the [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object.
 
-The following table shows the properties that are required when you create the iosVppAppAssignedLicense.
+The following table shows the properties that are required when you create the [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the i
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses
 Content-type: application/json
 Content-length: 234
 
@@ -91,7 +93,7 @@ Content-Length: 283
 
 {
   "@odata.type": "#microsoft.graph.iosVppAppAssignedLicense",
-  "id": "15081030-1030-1508-3010-081530100815",
+  "id": "b5d559e7-59e7-b5d5-e759-d5b5e759d5b5",
   "userEmailAddress": "User Email Address value",
   "userId": "User Id value",
   "userName": "User Name value",

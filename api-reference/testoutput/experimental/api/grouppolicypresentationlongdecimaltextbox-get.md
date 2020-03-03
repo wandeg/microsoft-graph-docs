@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyPresentationLongDecimalTextBox
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyPresentationLongDecimalTextBox](../resources/grouppolicypresentationlongdecimaltextbox.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationLongDecimalTextBox not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationLongDecimalTextBox not found
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 377
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentationLongDecimalTextBox",
-    "id": "b04b7808-7808-b04b-0878-4bb008784bb0",
+    "id": "aedc8304-8304-aedc-0483-dcae0483dcae",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "defaultValue": 12,
     "spin": true,
     "spinStep": 8,

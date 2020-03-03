@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # signIn resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List signIns](../api/signin-list.md)|[signIn](../resources/signIn.md) collection|List properties and relationships of the [signIn](../resources/signin.md) objects.|
-|[Get signIn](../api/signin-get.md)|[signIn](../resources/signIn.md)|Read properties and relationships of the [signIn](../resources/signin.md) object.|
-|[Create signIn](../api/signin-create.md)|[signIn](../resources/signIn.md)|Create a new [signIn](../resources/signin.md) object.|
+|[List signIns](../api/signin-list.md)|[signIn](../resources/signin.md) collection|List properties and relationships of the [signIn](../resources/signin.md) objects.|
+|[Get signIn](../api/signin-get.md)|[signIn](../resources/signin.md)|Read properties and relationships of the [signIn](../resources/signin.md) object.|
+|[Create signIn](../api/signin-create.md)|[signIn](../resources/signin.md)|Create a new [signIn](../resources/signin.md) object.|
 |[Delete signIn](../api/signin-delete.md)|None|Deletes a [signIn](../resources/signin.md).|
-|[Update signIn](../api/signin-update.md)|[signIn](../resources/signIn.md)|Update the properties of a [signIn](../resources/signin.md) object.|
+|[Update signIn](../api/signin-update.md)|[signIn](../resources/signin.md)|Update the properties of a [signIn](../resources/signin.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,22 +32,22 @@ Inherits from [entity](../resources/entity.md)
 |alternateSignInName|String||
 |appDisplayName|String||
 |appId|String||
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection||
-|authenticationDetails|[authenticationDetail](../resources/authenticationDetail.md) collection||
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection||
+|authenticationDetails|[authenticationDetail](../resources/authenticationdetail.md) collection||
 |authenticationMethodsUsed|String collection||
-|authenticationProcessingDetails|[keyValue](../resources/keyValue.md) collection||
-|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationRequirementPolicy.md) collection||
+|authenticationProcessingDetails|[keyValue](../resources/keyvalue.md) collection||
+|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationrequirementpolicy.md) collection||
 |clientAppUsed|String||
 |conditionalAccessStatus|Enumeration|. Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
 |correlationId|String||
 |createdDateTime|DateTimeOffset||
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)||
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |ipAddress|String||
 |isInteractive|Boolean||
-|location|[signInLocation](../resources/signInLocation.md)||
-|mfaDetail|[mfaDetail](../resources/mfaDetail.md)||
-|networkLocationDetails|[networkLocationDetail](../resources/networkLocationDetail.md) collection||
+|location|[signInLocation](../resources/signinlocation.md)||
+|mfaDetail|[mfaDetail](../resources/mfadetail.md)||
+|networkLocationDetails|[networkLocationDetail](../resources/networklocationdetail.md) collection||
 |originalRequestId|String||
 |processingTimeInMilliseconds|Int32||
 |resourceDisplayName|String||
@@ -58,7 +59,7 @@ Inherits from [entity](../resources/entity.md)
 |riskState|Enumeration|. Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
 |servicePrincipalId|String||
 |servicePrincipalName|String||
-|status|[signInStatus](../resources/signInStatus.md)||
+|status|[signInStatus](../resources/signinstatus.md)||
 |tokenIssuerName|String||
 |tokenIssuerType|Enumeration|. Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
 |userAgent|String||

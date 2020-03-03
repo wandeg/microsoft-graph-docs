@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidManagedAppRegistration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidManagedAppRegistration](../resources/androidmanagedappregistration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidManagedAppRegistration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidManagedAppRegistration not found
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 1000
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidManagedAppRegistration",
-    "id": "0aef3813-3813-0aef-1338-ef0a1338ef0a",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "id": "4bcbb058-b058-4bcb-58b0-cb4b58b0cb4b",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "applicationVersion": "Application Version value",
     "managementSdkVersion": "Management Sdk Version value",
     "platformVersion": "Platform Version value",

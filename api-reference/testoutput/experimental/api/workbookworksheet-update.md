@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookWorksheet
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookWorksheet](../resources/workbookworksheet.md) object.
 
 ## Permissions
@@ -39,7 +41,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookWorksheet](../resources/workbookWorksheet.md) object.
+In the request body, supply a JSON representation for the [workbookWorksheet](../resources/workbookworksheet.md) object.
 
 The following table shows the properties that are required when you create the [workbookWorksheet](../resources/workbookworksheet.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/worksheets/{workbookWorksheetId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/worksheets/{workbookWorksheetId}
 Content-type: application/json
 Content-length: 139
 
@@ -91,7 +93,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheet",
-  "id": "3703d708-d708-3703-08d7-033708d70337",
+  "id": "1cdbc61c-c61c-1cdb-1cc6-db1c1cc6db1c",
   "name": "Name value",
   "position": 8,
   "visibility": "Visibility value"

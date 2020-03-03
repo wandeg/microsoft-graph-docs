@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List people
 
+Namespace: microsoft.graph
+
 Get the persons from the people navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/people
+GET https://graph.microsoft.com/localtest/me/people
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 2438
   "value": [
     {
       "@odata.type": "#microsoft.graph.person",
-      "id": "76e89a88-9a88-76e8-889a-e876889ae876",
+      "id": "28bbef2d-ef2d-28bb-2def-bb282defbb28",
       "displayName": "Display Name value",
       "givenName": "Given Name value",
       "surname": "Surname value",

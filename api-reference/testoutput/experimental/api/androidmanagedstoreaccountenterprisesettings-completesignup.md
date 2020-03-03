@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # completeSignup
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAccountEnterpriseSettings/completeSignup
+POST https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAccountEnterpriseSettings/completeSignup
 
 Content-type: application/json
 Content-length: 51

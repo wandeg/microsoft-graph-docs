@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create ipNamedLocation
 
+Namespace: microsoft.graph
+
 Create a new [ipNamedLocation](../resources/ipnamedlocation.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST ** Collection URI for microsoft.graph.ipNamedLocation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the ipNamedLocation object.
+In the request body, supply a JSON representation for the [ipNamedLocation](../resources/ipnamedlocation.md) object.
 
-The following table shows the properties that are required when you create the ipNamedLocation.
+The following table shows the properties that are required when you create the [ipNamedLocation](../resources/ipnamedlocation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [namedLocation](../resources/namedLocation.md)|
-|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
-|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
-|ipRanges|[ipRange](../resources/ipRange.md) collection||
+|displayName|String| Inherited from [namedLocation](../resources/namedlocation.md)|
+|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
+|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
+|ipRanges|[ipRange](../resources/iprange.md) collection||
 |isTrusted|Boolean||
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.ipNamedLocation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.ipNamedLocation not found
 Content-type: application/json
 Content-length: 254
 
@@ -92,14 +94,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 422
+Content-Length: 421
 
 {
   "@odata.type": "#microsoft.graph.ipNamedLocation",
-  "id": "9cf593ef-93ef-9cf5-ef93-f59cef93f59c",
+  "id": "43c5943f-943f-43c5-3f94-c5433f94c543",
   "displayName": "Display Name value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "ipRanges": [
     {
       "@odata.type": "microsoft.graph.iPv4CidrRange",

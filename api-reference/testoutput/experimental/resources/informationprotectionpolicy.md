@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # informationProtectionPolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,13 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List informationProtectionPolicies](../api/informationprotectionpolicy-list.md)|[informationProtectionPolicy](../resources/informationProtectionPolicy.md) collection|List properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) objects.|
-|[Get informationProtectionPolicy](../api/informationprotectionpolicy-get.md)|[informationProtectionPolicy](../resources/informationProtectionPolicy.md)|Read properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
-|[Create informationProtectionPolicy](../api/informationprotectionpolicy-create.md)|[informationProtectionPolicy](../resources/informationProtectionPolicy.md)|Create a new [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
+|[List informationProtectionPolicies](../api/informationprotectionpolicy-list.md)|[informationProtectionPolicy](../resources/informationprotectionpolicy.md) collection|List properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) objects.|
+|[Get informationProtectionPolicy](../api/informationprotectionpolicy-get.md)|[informationProtectionPolicy](../resources/informationprotectionpolicy.md)|Read properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
+|[Create informationProtectionPolicy](../api/informationprotectionpolicy-create.md)|[informationProtectionPolicy](../resources/informationprotectionpolicy.md)|Create a new [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
 |[Delete informationProtectionPolicy](../api/informationprotectionpolicy-delete.md)|None|Deletes a [informationProtectionPolicy](../resources/informationprotectionpolicy.md).|
-|[Update informationProtectionPolicy](../api/informationprotectionpolicy-update.md)|[informationProtectionPolicy](../resources/informationProtectionPolicy.md)|Update the properties of a [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
-|[List labels](../api/informationprotectionpolicy-list-labels.md)|[informationProtectionLabel](../resources/informationProtectionLabel.md) collection|Get the informationProtectionLabels from the labels navigation property.|
-|[Add labels](../api/informationprotectionpolicy-post-labels.md)|[informationProtectionLabel](../resources/informationProtectionLabel.md)|Add labels by posting to the labels collection.|
+|[Update informationProtectionPolicy](../api/informationprotectionpolicy-update.md)|[informationProtectionPolicy](../resources/informationprotectionpolicy.md)|Update the properties of a [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
+|[List labels](../api/informationprotectionpolicy-list-labels.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md) collection|Get the informationProtectionLabels from the labels navigation property.|
+|[Add labels](../api/informationprotectionpolicy-post-labels.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Add labels by posting to the labels collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|labels|[informationProtectionLabel](../resources/informationProtectionLabel.md) collection||
+|labels|[informationProtectionLabel](../resources/informationprotectionlabel.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedAndroidLobApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [managedAndroidLobApp](../resources/managedandroidlobapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedAndroidLobApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedAndroidLobApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1892
+Content-Length: 1891
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAndroidLobApp",
-      "id": "ccd3302a-302a-ccd3-2a30-d3cc2a30d3cc",
+      "id": "42407630-7630-4240-3076-404230764042",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1892
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

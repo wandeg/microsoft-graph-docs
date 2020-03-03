@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List versions
 
+Namespace: microsoft.graph
+
 Get the listItemVersions from the versions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/versions
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/versions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 812
   "value": [
     {
       "@odata.type": "#microsoft.graph.listItemVersion",
-      "id": "c6704a8b-4a8b-c670-8b4a-70c68b4a70c6",
+      "id": "f96239a8-39a8-f962-a839-62f9a83962f9",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -85,7 +87,7 @@ Content-Length: 812
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

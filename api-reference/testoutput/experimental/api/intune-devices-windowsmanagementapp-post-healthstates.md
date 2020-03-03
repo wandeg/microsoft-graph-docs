@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add healthStates
 
+Namespace: microsoft.graph
+
 Add healthStates by posting to the healthStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/windowsManagementApp/healthStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsManagementAppHealthState object.
+In the request body, supply a JSON representation for the [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md) object.
 
-The following table shows the properties that are required when you create the windowsManagementAppHealthState.
+The following table shows the properties that are required when you create the [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the w
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [windowsManagementAppHealthState](../resources/windowsmanagementapphealthstate.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md) object in the response body.
 
 ## Example
 
@@ -64,15 +66,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/windowsManagementApp/healthStates
+POST https://graph.microsoft.com/localtest/deviceAppManagement/windowsManagementApp/healthStates
 Content-type: application/json
-Content-length: 299
+Content-length: 300
 
 {
   "@odata.type": "#microsoft.graph.windowsManagementAppHealthState",
   "healthState": "String",
   "installedVersion": "Installed Version value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00",
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00",
   "deviceName": "Device Name value",
   "deviceOSVersion": "Device OSVersion value"
 }
@@ -89,14 +91,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 348
+Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.windowsManagementAppHealthState",
-  "id": "a331f672-f672-a331-72f6-31a372f631a3",
+  "id": "5abfe192-e192-5abf-92e1-bf5a92e1bf5a",
   "healthState": "String",
   "installedVersion": "Installed Version value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00",
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00",
   "deviceName": "Device Name value",
   "deviceOSVersion": "Device OSVersion value"
 }

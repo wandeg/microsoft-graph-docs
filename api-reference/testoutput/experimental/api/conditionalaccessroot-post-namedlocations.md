@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add namedLocations
 
+Namespace: microsoft.graph
+
 Add namedLocations by posting to the namedLocations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /conditionalAccess/namedLocations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the namedLocation object.
+In the request body, supply a JSON representation for the [namedLocation](../resources/namedlocation.md) object.
 
-The following table shows the properties that are required when you create the namedLocation.
+The following table shows the properties that are required when you create the [namedLocation](../resources/namedlocation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/conditionalAccess/namedLocations
+POST https://graph.microsoft.com/localtest/conditionalAccess/namedLocations
 Content-type: application/json
 Content-length: 95
 
@@ -83,14 +85,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 263
+Content-Length: 262
 
 {
   "@odata.type": "#microsoft.graph.namedLocation",
-  "id": "d4c9456f-456f-d4c9-6f45-c9d46f45c9d4",
+  "id": "c0583a35-3a35-c058-353a-58c0353a58c0",
   "displayName": "Display Name value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
 }
 ```
 

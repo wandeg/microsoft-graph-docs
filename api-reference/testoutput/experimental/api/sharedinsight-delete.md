@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sharedInsight
 
+Namespace: microsoft.graph
+
 Deletes a [sharedInsight](../resources/sharedinsight.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/insights/shared/{sharedInsightId}
+DELETE https://graph.microsoft.com/localtest/me/insights/shared/{sharedInsightId}
 ```
 
 ### Response

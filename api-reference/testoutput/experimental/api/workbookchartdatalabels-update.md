@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartDataLabels
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookChartDataLabels.md) object.
+In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartDataLabels](../resources/workbookchartdatalabels.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
 Content-type: application/json
 Content-length: 291
 
@@ -97,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "0bfa49e0-49e0-0bfa-e049-fa0be049fa0b",
+  "id": "edb1801b-801b-edb1-1b80-b1ed1b80b1ed",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

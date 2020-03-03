@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get oneDriveActivityUserDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.oneDriveActivityUserDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.oneDriveActivityUserDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 563
 {
   "value": {
     "@odata.type": "#microsoft.graph.oneDriveActivityUserDetail",
-    "id": "7173f9d4-f9d4-7173-d4f9-7371d4f97371",
+    "id": "d3898a1a-8a1a-d389-1a8a-89d31a8a89d3",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "isDeleted": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceAppManagementTask
 
+Namespace: microsoft.graph
+
 Deletes a [deviceAppManagementTask](../resources/deviceappmanagementtask.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTaskId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/deviceAppManagementTasks/{deviceAppManagementTaskId}
 ```
 
 ### Response

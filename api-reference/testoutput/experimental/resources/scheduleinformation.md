@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # scheduleInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,10 +18,10 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |availabilityView|String||
-|error|[freeBusyError](../resources/freeBusyError.md)||
+|error|[freeBusyError](../resources/freebusyerror.md)||
 |scheduleId|String||
-|scheduleItems|[scheduleItem](../resources/scheduleItem.md) collection||
-|workingHours|[workingHours](../resources/workingHours.md)||
+|scheduleItems|[scheduleItem](../resources/scheduleitem.md) collection||
+|workingHours|[workingHours](../resources/workinghours.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List depEnrollmentBaseProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.depEnrollmentBaseProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.depEnrollmentBaseProfile not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1281
   "value": [
     {
       "@odata.type": "#microsoft.graph.depEnrollmentBaseProfile",
-      "id": "3f1d82a4-82a4-3f1d-a482-1d3fa4821d3f",
+      "id": "6463cf85-cf85-6463-85cf-636485cf6364",
       "displayName": "Display Name value",
       "description": "Description value",
       "requiresUserAuthentication": true,

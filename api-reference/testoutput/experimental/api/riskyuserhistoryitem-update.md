@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update riskyUserHistoryItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.
 
 ## Permissions
@@ -36,25 +38,25 @@ PATCH /riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}/history/{risky
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [riskyUserHistoryItem](../resources/riskyUserHistoryItem.md) object.
+In the request body, supply a JSON representation for the [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.
 
 The following table shows the properties that are required when you create the [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isDeleted|Boolean| Inherited from [riskyUser](../resources/riskyUser.md)|
-|isGuest|Boolean| Inherited from [riskyUser](../resources/riskyUser.md)|
-|isProcessing|Boolean| Inherited from [riskyUser](../resources/riskyUser.md)|
-|riskLastUpdatedDateTime|DateTimeOffset| Inherited from [riskyUser](../resources/riskyUser.md)|
-|riskLevel|Enumeration| Inherited from [riskyUser](../resources/riskyUser.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|riskState|Enumeration| Inherited from [riskyUser](../resources/riskyUser.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
-|riskDetail|Enumeration| Inherited from [riskyUser](../resources/riskyUser.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
-|userDisplayName|String| Inherited from [riskyUser](../resources/riskyUser.md)|
-|userPrincipalName|String| Inherited from [riskyUser](../resources/riskyUser.md)|
+|isDeleted|Boolean| Inherited from [riskyUser](../resources/riskyuser.md)|
+|isGuest|Boolean| Inherited from [riskyUser](../resources/riskyuser.md)|
+|isProcessing|Boolean| Inherited from [riskyUser](../resources/riskyuser.md)|
+|riskLastUpdatedDateTime|DateTimeOffset| Inherited from [riskyUser](../resources/riskyuser.md)|
+|riskLevel|Enumeration| Inherited from [riskyUser](../resources/riskyuser.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|riskState|Enumeration| Inherited from [riskyUser](../resources/riskyuser.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
+|riskDetail|Enumeration| Inherited from [riskyUser](../resources/riskyuser.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
+|userDisplayName|String| Inherited from [riskyUser](../resources/riskyuser.md)|
+|userPrincipalName|String| Inherited from [riskyUser](../resources/riskyuser.md)|
 |userId|String||
 |initiatedBy|String||
-|activity|[riskUserActivity](../resources/riskUserActivity.md)||
+|activity|[riskUserActivity](../resources/riskuseractivity.md)||
 
 
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}
+PATCH https://graph.microsoft.com/localtest/riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}
 Content-type: application/json
 Content-length: 595
 
@@ -80,7 +82,7 @@ Content-length: 595
   "isDeleted": true,
   "isGuest": true,
   "isProcessing": true,
-  "riskLastUpdatedDateTime": "2016-12-31T23:56:32.9362095+03:00",
+  "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
   "riskLevel": "String",
   "riskState": "String",
   "riskDetail": "String",
@@ -112,11 +114,11 @@ Content-Length: 644
 
 {
   "@odata.type": "#microsoft.graph.riskyUserHistoryItem",
-  "id": "7e9fd1ac-d1ac-7e9f-acd1-9f7eacd19f7e",
+  "id": "680fff26-ff26-680f-26ff-0f6826ff0f68",
   "isDeleted": true,
   "isGuest": true,
   "isProcessing": true,
-  "riskLastUpdatedDateTime": "2016-12-31T23:56:32.9362095+03:00",
+  "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
   "riskLevel": "String",
   "riskState": "String",
   "riskDetail": "String",

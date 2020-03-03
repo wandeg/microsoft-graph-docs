@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add directoryAudits
 
+Namespace: microsoft.graph
+
 Add directoryAudits by posting to the directoryAudits collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /auditLogs/directoryAudits/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directoryAudit object.
+In the request body, supply a JSON representation for the [directoryAudit](../resources/directoryaudit.md) object.
 
-The following table shows the properties that are required when you create the directoryAudit.
+The following table shows the properties that are required when you create the [directoryAudit](../resources/directoryaudit.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,9 +53,9 @@ The following table shows the properties that are required when you create the d
 |activityDateTime|DateTimeOffset||
 |loggedByService|String||
 |operationType|String||
-|initiatedBy|[auditActivityInitiator](../resources/auditActivityInitiator.md)||
-|targetResources|[targetResource](../resources/targetResource.md) collection||
-|additionalDetails|[keyValue](../resources/keyValue.md) collection||
+|initiatedBy|[auditActivityInitiator](../resources/auditactivityinitiator.md)||
+|targetResources|[targetResource](../resources/targetresource.md) collection||
+|additionalDetails|[keyValue](../resources/keyvalue.md) collection||
 
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/auditLogs/directoryAudits
+POST https://graph.microsoft.com/localtest/auditLogs/directoryAudits
 Content-type: application/json
 Content-length: 1484
 
@@ -81,7 +83,7 @@ Content-length: 1484
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {
@@ -139,13 +141,13 @@ Content-Length: 1533
 
 {
   "@odata.type": "#microsoft.graph.directoryAudit",
-  "id": "8fa7f1a0-f1a0-8fa7-a0f1-a78fa0f1a78f",
+  "id": "c8d329d5-29d5-c8d3-d529-d3c8d529d3c8",
   "category": "Category value",
   "correlationId": "Correlation Id value",
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create subscribedSku
 
+Namespace: microsoft.graph
+
 Create a new [subscribedSku](../resources/subscribedsku.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /subscribedSkus
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the subscribedSku object.
+In the request body, supply a JSON representation for the [subscribedSku](../resources/subscribedsku.md) object.
 
-The following table shows the properties that are required when you create the subscribedSku.
+The following table shows the properties that are required when you create the [subscribedSku](../resources/subscribedsku.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |capabilityStatus|String||
 |consumedUnits|Int32||
-|prepaidUnits|[licenseUnitsDetail](../resources/licenseUnitsDetail.md)||
-|servicePlans|[servicePlanInfo](../resources/servicePlanInfo.md) collection||
+|prepaidUnits|[licenseUnitsDetail](../resources/licenseunitsdetail.md)||
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
 |skuId|Guid||
 |skuPartNumber|String||
 |appliesTo|String||
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/subscribedSkus
+POST https://graph.microsoft.com/localtest/subscribedSkus
 Content-type: application/json
 Content-length: 717
 
@@ -83,13 +85,13 @@ Content-length: 717
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7",
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "57435096-5096-5743-9650-435796504357",
+  "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }
@@ -110,7 +112,7 @@ Content-Length: 766
 
 {
   "@odata.type": "#microsoft.graph.subscribedSku",
-  "id": "beed23ec-23ec-beed-ec23-edbeec23edbe",
+  "id": "d7eb8ca3-8ca3-d7eb-a38c-ebd7a38cebd7",
   "capabilityStatus": "Capability Status value",
   "consumedUnits": 13,
   "prepaidUnits": {
@@ -122,13 +124,13 @@ Content-Length: 766
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7",
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "57435096-5096-5743-9650-435796504357",
+  "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }

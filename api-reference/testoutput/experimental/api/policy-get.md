@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get policy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [policy](../resources/policy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/policies
+GET https://graph.microsoft.com/localtest/policies
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 120
 {
   "value": {
     "@odata.type": "#microsoft.graph.policy",
-    "id": "88e8f630-f630-88e8-30f6-e88830f6e888"
+    "id": "2c6b00bb-00bb-2c6b-bb00-6b2cbb006b2c"
   }
 }
 ```

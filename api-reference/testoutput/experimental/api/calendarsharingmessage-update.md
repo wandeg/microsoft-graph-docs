@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update calendarSharingMessage
 
+Namespace: microsoft.graph
+
 Update the properties of a [calendarSharingMessage](../resources/calendarsharingmessage.md) object.
 
 ## Permissions
@@ -35,24 +37,24 @@ PATCH ** Entity URI for microsoft.graph.calendarSharingMessage not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [calendarSharingMessage](../resources/calendarSharingMessage.md) object.
+In the request body, supply a JSON representation for the [calendarSharingMessage](../resources/calendarsharingmessage.md) object.
 
 The following table shows the properties that are required when you create the [calendarSharingMessage](../resources/calendarsharingmessage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |receivedDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
 |sentDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
 |hasAttachments|Boolean| Inherited from [message](../resources/message.md)|
 |internetMessageId|String| Inherited from [message](../resources/message.md)|
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection| Inherited from [message](../resources/message.md)|
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection| Inherited from [message](../resources/message.md)|
 |subject|String| Inherited from [message](../resources/message.md)|
-|body|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|body|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |bodyPreview|String| Inherited from [message](../resources/message.md)|
 |importance|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `low`, `normal`, `high`.|
 |parentFolderId|String| Inherited from [message](../resources/message.md)|
@@ -64,21 +66,21 @@ The following table shows the properties that are required when you create the [
 |replyTo|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
 |conversationId|String| Inherited from [message](../resources/message.md)|
 |conversationIndex|Binary| Inherited from [message](../resources/message.md)|
-|uniqueBody|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|uniqueBody|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |isDeliveryReceiptRequested|Boolean| Inherited from [message](../resources/message.md)|
 |isReadReceiptRequested|Boolean| Inherited from [message](../resources/message.md)|
 |isRead|Boolean| Inherited from [message](../resources/message.md)|
 |isDraft|Boolean| Inherited from [message](../resources/message.md)|
 |webLink|String| Inherited from [message](../resources/message.md)|
-|mentionsPreview|[mentionsPreview](../resources/mentionsPreview.md)| Inherited from [message](../resources/message.md)|
+|mentionsPreview|[mentionsPreview](../resources/mentionspreview.md)| Inherited from [message](../resources/message.md)|
 |inferenceClassification|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `focused`, `other`.|
 |unsubscribeData|String collection| Inherited from [message](../resources/message.md)|
 |unsubscribeEnabled|Boolean| Inherited from [message](../resources/message.md)|
-|flag|[followupFlag](../resources/followupFlag.md)| Inherited from [message](../resources/message.md)|
+|flag|[followupFlag](../resources/followupflag.md)| Inherited from [message](../resources/message.md)|
 |canAccept|Boolean||
 |suggestedCalendarName|String||
-|sharingMessageAction|[calendarSharingMessageAction](../resources/calendarSharingMessageAction.md)||
-|sharingMessageActions|[calendarSharingMessageAction](../resources/calendarSharingMessageAction.md) collection||
+|sharingMessageAction|[calendarSharingMessageAction](../resources/calendarsharingmessageaction.md)||
+|sharingMessageActions|[calendarSharingMessageAction](../resources/calendarsharingmessageaction.md) collection||
 
 
 
@@ -95,7 +97,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.calendarSharingMessage not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.calendarSharingMessage not found
 Content-type: application/json
 Content-length: 2794
 
@@ -105,8 +107,8 @@ Content-length: 2794
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-  "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -215,19 +217,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2966
+Content-Length: 2965
 
 {
   "@odata.type": "#microsoft.graph.calendarSharingMessage",
-  "id": "5af4198b-198b-5af4-8b19-f45a8b19f45a",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "6b866ace-6ace-6b86-ce6a-866bce6a866b",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
-  "sentDateTime": "2016-12-31T23:58:59.7348131+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

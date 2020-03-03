@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update contentType
 
+Namespace: microsoft.graph
+
 Update the properties of a [contentType](../resources/contenttype.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/contentTypes/{contentTypeId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [contentType](../resources/contentType.md) object.
+In the request body, supply a JSON representation for the [contentType](../resources/contenttype.md) object.
 
 The following table shows the properties that are required when you create the [contentType](../resources/contenttype.md).
 
@@ -47,9 +49,9 @@ The following table shows the properties that are required when you create the [
 |description|String||
 |group|String||
 |hidden|Boolean||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
 |name|String||
-|order|[contentTypeOrder](../resources/contentTypeOrder.md)||
+|order|[contentTypeOrder](../resources/contenttypeorder.md)||
 |parentId|String||
 |readOnly|Boolean||
 |sealed|Boolean||
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/sites/{sitesId}/contentTypes/{contentTypeId}
+PATCH https://graph.microsoft.com/localtest/sites/{sitesId}/contentTypes/{contentTypeId}
 Content-type: application/json
 Content-length: 990
 
@@ -123,7 +125,7 @@ Content-Length: 1039
 
 {
   "@odata.type": "#microsoft.graph.contentType",
-  "id": "ab2724a2-24a2-ab27-a224-27aba22427ab",
+  "id": "55d286d9-86d9-55d2-d986-d255d986d255",
   "description": "Description value",
   "group": "Group value",
   "hidden": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List locationManagementConditions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [locationManagementCondition](../resources/locationmanagementcondition.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.locationManagementCondition not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.locationManagementCondition not found
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 504
+Content-Length: 503
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.locationManagementCondition",
-      "id": "15101fc8-1fc8-1510-c81f-1015c81f1015",
+      "id": "ccec6d9f-6d9f-ccec-9f6d-eccc9f6deccc",
       "uniqueName": "Unique Name value",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
       "eTag": "ETag value",
       "applicablePlatforms": [
         "String"

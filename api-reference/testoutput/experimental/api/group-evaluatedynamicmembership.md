@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # evaluateDynamicMembership
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [evaluateDynamicMembershipResult](../resources/evaluateDynamicMembershipResult.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [evaluateDynamicMembershipResult](../resources/evaluatedynamicmembershipresult.md) in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/evaluateDynamicMembership
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/evaluateDynamicMembership
 
 Content-type: application/json
 Content-length: 37

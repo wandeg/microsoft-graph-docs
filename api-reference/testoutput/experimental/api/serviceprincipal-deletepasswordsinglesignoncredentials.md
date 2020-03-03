@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # deletePasswordSingleSignOnCredentials
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/deletePasswordSingleSignOnCredentials
+POST https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/deletePasswordSingleSignOnCredentials
 
 Content-type: application/json
 Content-length: 24

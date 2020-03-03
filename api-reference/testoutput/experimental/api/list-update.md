@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update list
 
+Namespace: microsoft.graph
+
 Update the properties of a [list](../resources/list.md) object.
 
 ## Permissions
@@ -47,19 +49,19 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 |displayName|String||
-|list|[listInfo](../resources/listInfo.md)||
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
-|system|[systemFacet](../resources/systemFacet.md)||
+|list|[listInfo](../resources/listinfo.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
+|system|[systemFacet](../resources/systemfacet.md)||
 
 
 
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/drives/{drivesId}/list
+PATCH https://graph.microsoft.com/localtest/drives/{drivesId}/list
 Content-type: application/json
 Content-length: 1482
 
@@ -143,11 +145,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1733
+Content-Length: 1732
 
 {
   "@odata.type": "#microsoft.graph.list",
-  "id": "ac4040ad-40ad-ac40-ad40-40acad4040ac",
+  "id": "f9783c0d-3c0d-f978-0d3c-78f90d3c78f9",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -162,13 +164,13 @@ Content-Length: 1733
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

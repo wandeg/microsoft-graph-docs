@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete managedDeviceOverview
 
-Deletes a [managedDeviceOverview](../resources/manageddeviceoverview.md).
+Namespace: microsoft.graph
+
+Deletes a [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).

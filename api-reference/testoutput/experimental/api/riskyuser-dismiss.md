@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # dismiss
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/riskyUsers/dismiss
+POST https://graph.microsoft.com/localtest/riskyUsers/dismiss
 
 Content-type: application/json
 Content-length: 47

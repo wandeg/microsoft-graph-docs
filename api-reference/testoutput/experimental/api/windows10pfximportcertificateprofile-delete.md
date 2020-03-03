@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windows10PFXImportCertificateProfile
 
+Namespace: microsoft.graph
+
 Deletes a [windows10PFXImportCertificateProfile](../resources/windows10pfximportcertificateprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10PFXImportCertificateProfile not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10PFXImportCertificateProfile not found
 ```
 
 ### Response

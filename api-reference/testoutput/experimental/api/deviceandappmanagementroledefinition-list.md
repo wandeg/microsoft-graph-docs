@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceAndAppManagementRoleDefinitions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1064
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleDefinition",
-      "id": "cadc0a6e-0a6e-cadc-6e0a-dcca6e0adcca",
+      "id": "25f9552e-552e-25f9-2e55-f9252e55f925",
       "displayName": "Display Name value",
       "description": "Description value",
       "permissions": [

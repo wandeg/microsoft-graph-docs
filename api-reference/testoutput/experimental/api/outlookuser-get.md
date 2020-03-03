@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get outlookUser
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [outlookUser](../resources/outlookuser.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook
+GET https://graph.microsoft.com/localtest/me/outlook
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 125
 {
   "value": {
     "@odata.type": "#microsoft.graph.outlookUser",
-    "id": "bc5f75cc-75cc-bc5f-cc75-5fbccc755fbc"
+    "id": "e12e479e-479e-e12e-9e47-2ee19e472ee1"
   }
 }
 ```

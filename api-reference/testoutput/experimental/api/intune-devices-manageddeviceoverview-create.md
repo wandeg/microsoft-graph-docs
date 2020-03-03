@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create managedDeviceOverview
 
-Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
+Namespace: microsoft.graph
+
+Create a new [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.managedDeviceOverview not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceOverview object.
+In the request body, supply a JSON representation for the [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceOverview.
+The following table shows the properties that are required when you create the [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,15 +48,15 @@ The following table shows the properties that are required when you create the m
 |enrolledDeviceCount|Int32|Total enrolled device count. Does not include PC devices managed via Intune PC Agent|
 |mdmEnrolledCount|Int32|The number of devices enrolled in MDM|
 |dualEnrolledDeviceCount|Int32|The number of devices enrolled in both MDM and EAS|
-|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/intune-devices-deviceOperatingSystemSummary.md)|Device operating system summary.|
-|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/intune-devices-deviceExchangeAccessStateSummary.md)|Distribution of Exchange Access State in Intune|
-|managedDeviceModelsAndManufacturers|[managedDeviceModelsAndManufacturers](../resources/intune-devices-managedDeviceModelsAndManufacturers.md)|Models and Manufactures meatadata for managed devices in the account|
+|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/intune-devices-deviceoperatingsystemsummary.md)|Device operating system summary.|
+|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/intune-devices-deviceexchangeaccessstatesummary.md)|Distribution of Exchange Access State in Intune|
+|managedDeviceModelsAndManufacturers|[managedDeviceModelsAndManufacturers](../resources/intune-devices-manageddevicemodelsandmanufacturers.md)|Models and Manufactures meatadata for managed devices in the account|
 |lastModifiedDateTime|DateTimeOffset|Last modified date time of device overview|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [managedDeviceOverview](../resources/manageddeviceoverview.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceOverview not found
 Content-type: application/json
 Content-length: 1082
 
@@ -123,7 +125,7 @@ Content-Length: 1195
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceOverview",
-  "id": "3b4c1902-1902-3b4c-0219-4c3b02194c3b",
+  "id": "ff9f96d5-96d5-ff9f-d596-9fffd5969fff",
   "enrolledDeviceCount": 3,
   "mdmEnrolledCount": 0,
   "dualEnrolledDeviceCount": 7,
@@ -157,7 +159,7 @@ Content-Length: 1195
       "Device Manufacturers value"
     ]
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

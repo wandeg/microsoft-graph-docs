@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update filterOperatorSchema
 
+Namespace: microsoft.graph
+
 Update the properties of a [filterOperatorSchema](../resources/filteroperatorschema.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /filterOperators/{filterOperatorsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [filterOperatorSchema](../resources/filterOperatorSchema.md) object.
+In the request body, supply a JSON representation for the [filterOperatorSchema](../resources/filteroperatorschema.md) object.
 
 The following table shows the properties that are required when you create the [filterOperatorSchema](../resources/filteroperatorschema.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/filterOperators/{filterOperatorsId}
+PATCH https://graph.microsoft.com/localtest/filterOperators/{filterOperatorsId}
 Content-type: application/json
 Content-length: 178
 
@@ -89,7 +91,7 @@ Content-Length: 227
 
 {
   "@odata.type": "#microsoft.graph.filterOperatorSchema",
-  "id": "58b8aa39-aa39-58b8-39aa-b85839aab858",
+  "id": "885b8a7a-8a7a-885b-7a8a-5b887a8a5b88",
   "arity": "String",
   "multivaluedComparisonType": "String",
   "supportedAttributeTypes": [

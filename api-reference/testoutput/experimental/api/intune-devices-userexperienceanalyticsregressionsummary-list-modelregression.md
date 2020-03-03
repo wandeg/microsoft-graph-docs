@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List modelRegression
 
+Namespace: microsoft.graph
+
 Get the userExperienceAnalyticsMetrics from the modelRegression navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 216
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsMetric",
-      "id": "0c0ca341-a341-0c0c-41a3-0c0c41a30c0c",
+      "id": "b8a03256-3256-b8a0-5632-a0b85632a0b8",
       "value": "Double",
       "unit": "Unit value"
     }

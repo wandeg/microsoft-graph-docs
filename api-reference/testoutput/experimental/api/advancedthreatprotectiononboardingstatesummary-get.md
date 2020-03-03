@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get advancedThreatProtectionOnboardingStateSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/advancedThreatProtectionOnboardingStateSummary
+GET https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 419
 {
   "value": {
     "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingStateSummary",
-    "id": "1eadb7cc-b7cc-1ead-ccb7-ad1eccb7ad1e",
+    "id": "ccfffcd7-fcd7-ccff-d7fc-ffccd7fcffcc",
     "unknownDeviceCount": 2,
     "notApplicableDeviceCount": 8,
     "compliantDeviceCount": 4,

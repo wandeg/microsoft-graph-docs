@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Cancel
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageAssignmentRequests/{accessPackageAssignmentRequestsId}/Cancel
+POST https://graph.microsoft.com/localtest/accessPackageAssignmentRequests/{accessPackageAssignmentRequestsId}/Cancel
 ```
 
 ### Response

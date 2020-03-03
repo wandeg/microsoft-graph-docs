@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsAutopilotDeploymentProfileAssignment resource type
+
+
+Namespace: microsoft.graph
 
 An assignment of a Windows Autopilot deployment profile to an AAD group.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-get.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) object.|
+|[List windowsAutopilotDeploymentProfileAssignments](../api/windowsautopilotdeploymentprofileassignment-list.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) collection|List properties and relationships of the [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) objects.|
+|[Get windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-get.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) object.|
+|[Create windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-create.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md)|Create a new [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) object.|
 |[Delete windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-delete.md)|None|Deletes a [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md).|
-|[Update windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-update.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md)|Update the properties of a [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) object.|
+|[Update windowsAutopilotDeploymentProfileAssignment](../api/windowsautopilotdeploymentprofileassignment-update.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md)|Update the properties of a [windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -29,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |source|Enumeration|Type of resource used for deployment to a group, direct or parcel/policySet. Possible values are: `direct`, `policySets`.|
 |sourceId|String|Identifier for resource used for deployment to a group|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target for the Windows Autopilot deployment profile.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target for the Windows Autopilot deployment profile.|
 
 ## Relationships
 None

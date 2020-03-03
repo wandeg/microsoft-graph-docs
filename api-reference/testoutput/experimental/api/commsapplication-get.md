@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get commsApplication
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [commsApplication](../resources/commsapplication.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/app
+GET https://graph.microsoft.com/localtest/app
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 130
 {
   "value": {
     "@odata.type": "#microsoft.graph.commsApplication",
-    "id": "a27c58da-58da-a27c-da58-7ca2da587ca2"
+    "id": "7eb0e620-e620-7eb0-20e6-b07e20e6b07e"
   }
 }
 ```

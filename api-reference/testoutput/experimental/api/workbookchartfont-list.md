@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartFonts
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartFont not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartFont not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartFont",
-      "id": "75ed96bb-96bb-75ed-bb96-ed75bb96ed75",
+      "id": "c0b1e6c4-e6c4-c0b1-c4e6-b1c0c4e6b1c0",
       "bold": true,
       "color": "Color value",
       "italic": true,

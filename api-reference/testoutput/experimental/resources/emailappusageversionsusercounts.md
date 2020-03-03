@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailAppUsageVersionsUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailAppUsageVersionsUserCountses](../api/emailappusageversionsusercounts-list.md)|[emailAppUsageVersionsUserCounts](../resources/emailAppUsageVersionsUserCounts.md) collection|List properties and relationships of the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) objects.|
-|[Get emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-get.md)|[emailAppUsageVersionsUserCounts](../resources/emailAppUsageVersionsUserCounts.md)|Read properties and relationships of the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
-|[Create emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-create.md)|[emailAppUsageVersionsUserCounts](../resources/emailAppUsageVersionsUserCounts.md)|Create a new [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
+|[List emailAppUsageVersionsUserCountses](../api/emailappusageversionsusercounts-list.md)|[emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) collection|List properties and relationships of the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) objects.|
+|[Get emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-get.md)|[emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md)|Read properties and relationships of the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
+|[Create emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-create.md)|[emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md)|Create a new [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
 |[Delete emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-delete.md)|None|Deletes a [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md).|
-|[Update emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-update.md)|[emailAppUsageVersionsUserCounts](../resources/emailAppUsageVersionsUserCounts.md)|Update the properties of a [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
+|[Update emailAppUsageVersionsUserCounts](../api/emailappusageversionsusercounts-update.md)|[emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md)|Update the properties of a [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

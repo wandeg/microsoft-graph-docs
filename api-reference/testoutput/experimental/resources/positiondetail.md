@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # positionDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|company|[companyDetail](../resources/companyDetail.md)||
+|company|[companyDetail](../resources/companydetail.md)||
 |description|String||
 |endMonthYear|Date||
 |jobTitle|String||

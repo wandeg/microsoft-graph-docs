@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemActivity
 
+Namespace: microsoft.graph
+
 Deletes a [itemActivity](../resources/itemactivity.md).
 
 ## Permissions

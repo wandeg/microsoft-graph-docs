@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # commentAction resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,8 +18,8 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |isReply|Boolean||
-|parentAuthor|[identitySet](../resources/identitySet.md)||
-|participants|[identitySet](../resources/identitySet.md) collection||
+|parentAuthor|[identitySet](../resources/identityset.md)||
+|participants|[identitySet](../resources/identityset.md) collection||
 
 ## Relationships
 None

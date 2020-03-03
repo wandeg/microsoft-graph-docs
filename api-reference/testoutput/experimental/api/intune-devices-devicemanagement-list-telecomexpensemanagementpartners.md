@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List telecomExpenseManagementPartners
 
+Namespace: microsoft.graph
+
 Get the telecomExpenseManagementPartners from the telecomExpenseManagementPartners navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/telecomExpenseManagementPartners
+GET https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 358
   "value": [
     {
       "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-      "id": "3132a601-a601-3132-01a6-323101a63231",
+      "id": "6d019acb-9acb-6d01-cb9a-016dcb9a016d",
       "displayName": "Display Name value",
       "url": "Url value",
       "appAuthorized": true,
       "enabled": true,
-      "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00"
+      "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create mailboxUsageDetail
 
+Namespace: microsoft.graph
+
 Create a new [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.mailboxUsageDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mailboxUsageDetail object.
+In the request body, supply a JSON representation for the [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.
 
-The following table shows the properties that are required when you create the mailboxUsageDetail.
+The following table shows the properties that are required when you create the [mailboxUsageDetail](../resources/mailboxusagedetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -74,7 +76,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageDetail not found
 Content-type: application/json
 Content-length: 547
 
@@ -113,7 +115,7 @@ Content-Length: 596
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageDetail",
-  "id": "77bac344-c344-77ba-44c3-ba7744c3ba77",
+  "id": "d76f3fbc-3fbc-d76f-bc3f-6fd7bc3f6fd7",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getUserOwnedObjects
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [directoryObject](../resources/directoryObject.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [directoryObject](../resources/directoryobject.md) in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directoryObjects/getUserOwnedObjects
+POST https://graph.microsoft.com/localtest/directoryObjects/getUserOwnedObjects
 
 Content-type: application/json
 Content-length: 58
@@ -93,8 +95,8 @@ Content-Length: 190
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryObject",
-    "id": "98b7e341-e341-98b7-41e3-b79841e3b798",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00"
+    "id": "3ee17962-7962-3ee1-6279-e13e6279e13e",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00"
   }
 }
 ```

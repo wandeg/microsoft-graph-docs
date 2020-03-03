@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # publicInnerError resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |code|String||
-|details|[publicErrorDetail](../resources/publicErrorDetail.md) collection||
+|details|[publicErrorDetail](../resources/publicerrordetail.md) collection||
 |message|String||
 |target|String||
 

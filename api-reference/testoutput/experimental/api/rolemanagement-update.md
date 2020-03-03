@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleManagement
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleManagement](../resources/rolemanagement.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /roleManagement
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleManagement](../resources/roleManagement.md) object.
+In the request body, supply a JSON representation for the [roleManagement](../resources/rolemanagement.md) object.
 
 The following table shows the properties that are required when you create the [roleManagement](../resources/rolemanagement.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/roleManagement
+PATCH https://graph.microsoft.com/localtest/roleManagement
 Content-type: application/json
 Content-length: 56
 
@@ -81,7 +83,7 @@ Content-Length: 105
 
 {
   "@odata.type": "#microsoft.graph.roleManagement",
-  "id": "72c1e8fe-e8fe-72c1-fee8-c172fee8c172"
+  "id": "93783d3c-3d3c-9378-3c3d-78933c3d7893"
 }
 ```
 

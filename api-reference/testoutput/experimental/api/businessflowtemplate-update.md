@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update businessFlowTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [businessFlowTemplate](../resources/businessflowtemplate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /businessFlowTemplates/{businessFlowTemplatesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [businessFlowTemplate](../resources/businessFlowTemplate.md) object.
+In the request body, supply a JSON representation for the [businessFlowTemplate](../resources/businessflowtemplate.md) object.
 
 The following table shows the properties that are required when you create the [businessFlowTemplate](../resources/businessflowtemplate.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/businessFlowTemplates/{businessFlowTemplatesId}
+PATCH https://graph.microsoft.com/localtest/businessFlowTemplates/{businessFlowTemplatesId}
 Content-type: application/json
 Content-length: 102
 
@@ -83,7 +85,7 @@ Content-Length: 151
 
 {
   "@odata.type": "#microsoft.graph.businessFlowTemplate",
-  "id": "c3fe3813-3813-c3fe-1338-fec31338fec3",
+  "id": "22703e6d-3e6d-2270-6d3e-70226d3e7022",
   "displayName": "Display Name value"
 }
 ```

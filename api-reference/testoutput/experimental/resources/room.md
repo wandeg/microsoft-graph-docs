@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # room resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [place](../resources/place.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List rooms](../api/room-list.md)|[room](../resources/room.md) collection|List properties and relationships of the [room](../resources/room.md) objects.|
 |[Get room](../api/room-get.md)|[room](../resources/room.md)|Read properties and relationships of the [room](../resources/room.md) object.|
+|[Create room](../api/room-create.md)|[room](../resources/room.md)|Create a new [room](../resources/room.md) object.|
 |[Delete room](../api/room-delete.md)|None|Deletes a [room](../resources/room.md).|
 |[Update room](../api/room-update.md)|[room](../resources/room.md)|Update the properties of a [room](../resources/room.md) object.|
 |[List rooms](../api/roomlist-list-rooms.md)|[room](../resources/room.md) collection|Get the rooms from the rooms navigation property.|
@@ -28,7 +31,7 @@ Inherits from [place](../resources/place.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)| Inherited from [place](../resources/place.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)| Inherited from [place](../resources/place.md)|
 |audioDeviceName|String||
 |bookingType|Enumeration|. Possible values are: `unknown`, `standard`, `reserved`.|
 |building|String||
@@ -38,7 +41,7 @@ Inherits from [place](../resources/place.md)
 |emailAddress|String||
 |floorLabel|String||
 |floorNumber|Int32||
-|geoCoordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)| Inherited from [place](../resources/place.md)|
+|geoCoordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)| Inherited from [place](../resources/place.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isWheelChairAccessible|Boolean||
 |label|String||

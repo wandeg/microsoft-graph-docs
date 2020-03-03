@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get accessReviewReviewer
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [accessReviewReviewer](../resources/accessreviewreviewer.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
+GET https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}/reviewers/{accessReviewReviewerId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 231
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessReviewReviewer",
-    "id": "de8b9e11-9e11-de8b-119e-8bde119e8bde",
+    "id": "e93278e8-78e8-e932-e878-32e9e87832e9",
     "displayName": "Display Name value",
     "userPrincipalName": "User Principal Name value"
   }

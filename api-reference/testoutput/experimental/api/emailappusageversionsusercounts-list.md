@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List emailAppUsageVersionsUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailAppUsageVersionsUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailAppUsageVersionsUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 376
   "value": [
     {
       "@odata.type": "#microsoft.graph.emailAppUsageVersionsUserCounts",
-      "id": "e1c6e440-e440-e1c6-40e4-c6e140e4c6e1",
+      "id": "908104c9-04c9-9081-c904-8190c9048190",
       "reportRefreshDate": "Date",
       "outlook2016": 11,
       "outlook2013": 11,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update programControl
 
+Namespace: microsoft.graph
+
 Update the properties of a [programControl](../resources/programcontrol.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /programs/{programsId}/controls/{programControlId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [programControl](../resources/programControl.md) object.
+In the request body, supply a JSON representation for the [programControl](../resources/programcontrol.md) object.
 
 The following table shows the properties that are required when you create the [programControl](../resources/programcontrol.md).
 
@@ -48,8 +50,8 @@ The following table shows the properties that are required when you create the [
 |controlTypeId|String||
 |displayName|String||
 |status|String||
-|owner|[userIdentity](../resources/userIdentity.md)||
-|resource|[programResource](../resources/programResource.md)||
+|owner|[userIdentity](../resources/useridentity.md)||
+|resource|[programResource](../resources/programresource.md)||
 |createdDateTime|DateTimeOffset||
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/programControls/{programControlsId}
+PATCH https://graph.microsoft.com/localtest/programControls/{programControlsId}
 Content-type: application/json
 Content-length: 533
 
@@ -101,11 +103,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 641
+Content-Length: 640
 
 {
   "@odata.type": "#microsoft.graph.programControl",
-  "id": "130b2c88-2c88-130b-882c-0b13882c0b13",
+  "id": "59973866-3866-5997-6638-975966389759",
   "controlId": "Control Id value",
   "programId": "Program Id value",
   "controlTypeId": "Control Type Id value",
@@ -121,7 +123,7 @@ Content-Length: 641
     "@odata.type": "microsoft.graph.programResource",
     "type": "Type value"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
 }
 ```
 

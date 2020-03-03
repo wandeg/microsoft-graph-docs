@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add singleValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/contactFolders/{contactFolderId}/singleValueExtendedProperties/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the singleValueLegacyExtendedProperty object.
+In the request body, supply a JSON representation for the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.
 
-The following table shows the properties that are required when you create the singleValueLegacyExtendedProperty.
+The following table shows the properties that are required when you create the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/contactFolders/{contactFolderId}/singleValueExtendedProperties
+POST https://graph.microsoft.com/localtest/me/contactFolders/{contactFolderId}/singleValueExtendedProperties
 Content-type: application/json
 Content-length: 102
 
@@ -85,7 +87,7 @@ Content-Length: 151
 
 {
   "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-  "id": "411203cb-03cb-4112-cb03-1241cb031241",
+  "id": "a82b8113-8113-a82b-1381-2ba813812ba8",
   "value": "Value value"
 }
 ```

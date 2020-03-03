@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create itemAnalytics
 
+Namespace: microsoft.graph
+
 Create a new [itemAnalytics](../resources/itemanalytics.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.itemAnalytics not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the itemAnalytics object.
+In the request body, supply a JSON representation for the [itemAnalytics](../resources/itemanalytics.md) object.
 
-The following table shows the properties that are required when you create the itemAnalytics.
+The following table shows the properties that are required when you create the [itemAnalytics](../resources/itemanalytics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.itemAnalytics not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.itemAnalytics not found
 Content-type: application/json
 Content-length: 55
 
@@ -83,7 +85,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.itemAnalytics",
-  "id": "9d03352e-352e-9d03-2e35-039d2e35039d"
+  "id": "15bec12a-c12a-15be-2ac1-be152ac1be15"
 }
 ```
 

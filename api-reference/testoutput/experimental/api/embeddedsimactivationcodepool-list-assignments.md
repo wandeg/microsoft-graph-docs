@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the embeddedSIMActivationCodePoolAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 281
   "value": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-      "id": "3334bc32-bc32-3334-32bc-343332bc3433",
+      "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

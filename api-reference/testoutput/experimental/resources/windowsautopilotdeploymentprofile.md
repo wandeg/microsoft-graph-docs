@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsAutopilotDeploymentProfile resource type
+
+
+Namespace: microsoft.graph
 
 Windows Autopilot Deployment Profile
 
@@ -19,15 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
-|[hasPayloadLinks](../api/windowsautopilotdeploymentprofile-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/hasPayloadLinkResultItem.md) collection||
+|[List windowsAutopilotDeploymentProfiles](../api/windowsautopilotdeploymentprofile-list.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) collection|List properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) objects.|
+|[Get windowsAutopilotDeploymentProfile](../api/windowsautopilotdeploymentprofile-get.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Read properties and relationships of the [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) object.|
+|[hasPayloadLinks](../api/windowsautopilotdeploymentprofile-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[assign](../api/windowsautopilotdeploymentprofile-assign.md)|None||
-|[List assignedDevices](../api/windowsautopilotdeploymentprofile-list-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md) collection|Get the windowsAutopilotDeviceIdentities from the assignedDevices navigation property.|
-|[Add assignedDevices](../api/windowsautopilotdeploymentprofile-post-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md)|Add assignedDevices by posting to the assignedDevices collection.|
-|[List assignments](../api/windowsautopilotdeploymentprofile-list-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md) collection|Get the windowsAutopilotDeploymentProfileAssignments from the assignments navigation property.|
-|[Add assignments](../api/windowsautopilotdeploymentprofile-post-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List windowsAutopilotDeploymentProfiles](../api/intune-devices-devicemanagement-list-windowsautopilotdeploymentprofiles.md)|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md) collection|Get the windowsAutopilotDeploymentProfiles from the windowsAutopilotDeploymentProfiles navigation property.|
-|[Add windowsAutopilotDeploymentProfiles](../api/intune-devices-devicemanagement-post-windowsautopilotdeploymentprofiles.md)|[windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|Add windowsAutopilotDeploymentProfiles by posting to the windowsAutopilotDeploymentProfiles collection.|
+|[List assignedDevices](../api/windowsautopilotdeploymentprofile-list-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) collection|Get the windowsAutopilotDeviceIdentities from the assignedDevices navigation property.|
+|[Add assignedDevices](../api/windowsautopilotdeploymentprofile-post-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md)|Add assignedDevices by posting to the assignedDevices collection.|
+|[List assignments](../api/windowsautopilotdeploymentprofile-list-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) collection|Get the windowsAutopilotDeploymentProfileAssignments from the assignments navigation property.|
+|[Add assignments](../api/windowsautopilotdeploymentprofile-post-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md)|Add assignments by posting to the assignments collection.|
+|[List windowsAutopilotDeploymentProfiles](../api/intune-devices-devicemanagement-list-windowsautopilotdeploymentprofiles.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md) collection|Get the windowsAutopilotDeploymentProfiles from the windowsAutopilotDeploymentProfiles navigation property.|
+|[Add windowsAutopilotDeploymentProfiles](../api/intune-devices-devicemanagement-post-windowsautopilotdeploymentprofiles.md)|[windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|Add windowsAutopilotDeploymentProfiles by posting to the windowsAutopilotDeploymentProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,19 +40,19 @@ Inherits from [entity](../resources/entity.md)
 |deviceType|Enumeration|The AutoPilot device type that this profile is applicable to. Possible values are: `windowsPc`, `surfaceHub2`.|
 |displayName|String|Name of the profile|
 |enableWhiteGlove|Boolean|Enable Autopilot White Glove for the profile.|
-|enrollmentStatusScreenSettings|[windowsEnrollmentStatusScreenSettings](../resources/windowsEnrollmentStatusScreenSettings.md)|Enrollment status screen setting|
+|enrollmentStatusScreenSettings|[windowsEnrollmentStatusScreenSettings](../resources/windowsenrollmentstatusscreensettings.md)|Enrollment status screen setting|
 |extractHardwareHash|Boolean|HardwareHash Extraction for the profile|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |language|String|Language configured on the device|
 |lastModifiedDateTime|DateTimeOffset|Profile last modified time|
-|outOfBoxExperienceSettings|[outOfBoxExperienceSettings](../resources/outOfBoxExperienceSettings.md)|Out of box experience setting|
+|outOfBoxExperienceSettings|[outOfBoxExperienceSettings](../resources/outofboxexperiencesettings.md)|Out of box experience setting|
 |roleScopeTagIds|String collection|Scope tags for the profile.|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignedDevices|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md) collection|The list of assigned devices for the profile.|
-|assignments|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md) collection|The list of group assignments for the profile.|
+|assignedDevices|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) collection|The list of assigned devices for the profile.|
+|assignments|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) collection|The list of group assignments for the profile.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

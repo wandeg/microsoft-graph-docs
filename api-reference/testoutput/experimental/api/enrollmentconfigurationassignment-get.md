@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get enrollmentConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
+GET https://graph.microsoft.com/localtest/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 312
 {
   "value": {
     "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-    "id": "54428a31-8a31-5442-318a-4254318a4254",
+    "id": "79d19b8c-9b8c-79d1-8c9b-d1798c9bd179",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     },

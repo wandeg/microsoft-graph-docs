@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List audioRoutingGroups
 
+Namespace: microsoft.graph
+
 Get the audioRoutingGroups from the audioRoutingGroups navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}/audioRoutingGroups
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}/audioRoutingGroups
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 295
   "value": [
     {
       "@odata.type": "#microsoft.graph.audioRoutingGroup",
-      "id": "58765f33-5f33-5876-335f-7658335f7658",
+      "id": "af751337-1337-af75-3713-75af371375af",
       "routingMode": "String",
       "sources": [
         "Sources value"

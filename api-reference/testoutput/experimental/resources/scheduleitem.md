@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # scheduleItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |isPrivate|Boolean||
 |location|String||
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |status|Enumeration|. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
 |subject|String||
 

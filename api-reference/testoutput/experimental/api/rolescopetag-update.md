@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleScopeTag
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleScopeTag](../resources/rolescopetag.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/roleScopeTags/{roleScopeTagId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleScopeTag](../resources/roleScopeTag.md) object.
+In the request body, supply a JSON representation for the [roleScopeTag](../resources/rolescopetag.md) object.
 
 The following table shows the properties that are required when you create the [roleScopeTag](../resources/rolescopetag.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags/{roleScopeTagId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags/{roleScopeTagId}
 Content-type: application/json
 Content-length: 155
 
@@ -87,7 +89,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.roleScopeTag",
-  "id": "c51e7486-7486-c51e-8674-1ec586741ec5",
+  "id": "a8a91832-1832-a8a9-3218-a9a83218a9a8",
   "displayName": "Display Name value",
   "description": "Description value",
   "isBuiltIn": true

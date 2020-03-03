@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the termsAndConditionsAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 270
   "value": [
     {
       "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-      "id": "1a599199-9199-1a59-9991-591a9991591a",
+      "id": "3b273123-3123-3b27-2331-273b2331273b",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

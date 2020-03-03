@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List items
 
+Namespace: microsoft.graph
+
 Get the externalItems from the items navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/connections/{connectionsId}/items
+GET https://graph.microsoft.com/localtest/connections/{connectionsId}/items
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 514
   "value": [
     {
       "@odata.type": "#microsoft.graph.externalItem",
-      "id": "e4ac5c1d-5c1d-e4ac-1d5c-ace41d5cace4",
+      "id": "614cc62f-c62f-614c-2fc6-4c612fc64c61",
       "properties": {
         "@odata.type": "microsoft.graph.properties"
       },

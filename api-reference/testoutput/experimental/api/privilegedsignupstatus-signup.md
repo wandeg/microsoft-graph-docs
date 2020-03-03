@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # signUp
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /privilegedSignupStatus/signUp
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [privilegedSignupStatus](../resources/privilegedSignupStatus.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [privilegedSignupStatus](../resources/privilegedsignupstatus.md) in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedSignupStatus/signUp
+POST https://graph.microsoft.com/localtest/privilegedSignupStatus/signUp
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 188
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedSignupStatus",
-    "id": "77064065-4065-7706-6540-067765400677",
+    "id": "8162e90b-e90b-8162-0be9-62810be96281",
     "isRegistered": true,
     "status": "String"
   }

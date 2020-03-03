@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update targetedManagedAppPolicyAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
 ## Permissions
@@ -39,14 +41,14 @@ PATCH /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsIn
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedManagedAppPolicyAssignment.md) object.
+In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
 The following table shows the properties that are required when you create the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Identifier for deployment to a group or app|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Identifier for deployment to a group or app|
 |source|Enumeration|Type of resource used for deployment to a group, direct or parcel/policySet. Possible values are: `direct`, `policySets`.|
 |sourceId|String|Identifier for resource used for deployment to a group|
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
 Content-type: application/json
 Content-length: 231
 
@@ -93,7 +95,7 @@ Content-Length: 280
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-  "id": "3c5fbbd6-bbd6-3c5f-d6bb-5f3cd6bb5f3c",
+  "id": "03577a8a-7a8a-0357-8a7a-57038a7a5703",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

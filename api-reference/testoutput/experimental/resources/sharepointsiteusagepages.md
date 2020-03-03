@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointSiteUsagePages resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointSiteUsagePageses](../api/sharepointsiteusagepages-list.md)|[sharePointSiteUsagePages](../resources/sharePointSiteUsagePages.md) collection|List properties and relationships of the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) objects.|
-|[Get sharePointSiteUsagePages](../api/sharepointsiteusagepages-get.md)|[sharePointSiteUsagePages](../resources/sharePointSiteUsagePages.md)|Read properties and relationships of the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
-|[Create sharePointSiteUsagePages](../api/sharepointsiteusagepages-create.md)|[sharePointSiteUsagePages](../resources/sharePointSiteUsagePages.md)|Create a new [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
+|[List sharePointSiteUsagePageses](../api/sharepointsiteusagepages-list.md)|[sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) collection|List properties and relationships of the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) objects.|
+|[Get sharePointSiteUsagePages](../api/sharepointsiteusagepages-get.md)|[sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md)|Read properties and relationships of the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
+|[Create sharePointSiteUsagePages](../api/sharepointsiteusagepages-create.md)|[sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md)|Create a new [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
 |[Delete sharePointSiteUsagePages](../api/sharepointsiteusagepages-delete.md)|None|Deletes a [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md).|
-|[Update sharePointSiteUsagePages](../api/sharepointsiteusagepages-update.md)|[sharePointSiteUsagePages](../resources/sharePointSiteUsagePages.md)|Update the properties of a [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
+|[Update sharePointSiteUsagePages](../api/sharepointsiteusagepages-update.md)|[sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md)|Update the properties of a [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.|
 
 ## Properties
 |Property|Type|Description|

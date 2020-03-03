@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windows10VpnConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windows10VpnConfiguration](../resources/windows10vpnconfiguration.md) object.
 
 ## Permissions
@@ -36,26 +38,26 @@ POST ** Collection URI for microsoft.graph.windows10VpnConfiguration not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windows10VpnConfiguration object.
+In the request body, supply a JSON representation for the [windows10VpnConfiguration](../resources/windows10vpnconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windows10VpnConfiguration.
+The following table shows the properties that are required when you create the [windows10VpnConfiguration](../resources/windows10vpnconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|connectionName|String|Connection name displayed to the user. Inherited from [windowsVpnConfiguration](../resources/windowsVpnConfiguration.md)|
-|servers|[vpnServer](../resources/vpnServer.md) collection|List of VPN Servers on the network. Make sure end users can access these network locations. This collection can contain a maximum of 500 elements. Inherited from [windowsVpnConfiguration](../resources/windowsVpnConfiguration.md)|
-|customXml|Binary|Custom XML commands that configures the VPN connection. (UTF8 encoded byte array) Inherited from [windowsVpnConfiguration](../resources/windowsVpnConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|connectionName|String|Connection name displayed to the user. Inherited from [windowsVpnConfiguration](../resources/windowsvpnconfiguration.md)|
+|servers|[vpnServer](../resources/vpnserver.md) collection|List of VPN Servers on the network. Make sure end users can access these network locations. This collection can contain a maximum of 500 elements. Inherited from [windowsVpnConfiguration](../resources/windowsvpnconfiguration.md)|
+|customXml|Binary|Custom XML commands that configures the VPN connection. (UTF8 encoded byte array) Inherited from [windowsVpnConfiguration](../resources/windowsvpnconfiguration.md)|
 |profileTarget|Enumeration|Profile target type. Possible values are: `user`, `device`, `autoPilotDevice`.|
 |connectionType|Enumeration|Connection type. Possible values are: `pulseSecure`, `f5EdgeClient`, `dellSonicWallMobileConnect`, `checkPointCapsuleVpn`, `automatic`, `ikEv2`, `l2tp`, `pptp`, `citrix`, `paloAltoGlobalProtect`.|
 |enableSplitTunneling|Boolean|Enable split tunneling.|
@@ -67,16 +69,16 @@ The following table shows the properties that are required when you create the w
 |rememberUserCredentials|Boolean|Remember user credentials.|
 |enableConditionalAccess|Boolean|Enable conditional access.|
 |enableSingleSignOnWithAlternateCertificate|Boolean|Enable single sign-on (SSO) with alternate certificate.|
-|singleSignOnEku|[extendedKeyUsage](../resources/extendedKeyUsage.md)|Single sign-on Extended Key Usage (EKU).|
+|singleSignOnEku|[extendedKeyUsage](../resources/extendedkeyusage.md)|Single sign-on Extended Key Usage (EKU).|
 |singleSignOnIssuerHash|String|Single sign-on issuer hash.|
 |eapXml|Binary|Extensible Authentication Protocol (EAP) XML. (UTF8 encoded byte array)|
-|proxyServer|[windows10VpnProxyServer](../resources/windows10VpnProxyServer.md)|Proxy Server.|
-|associatedApps|[windows10AssociatedApps](../resources/windows10AssociatedApps.md) collection|Associated Apps. This collection can contain a maximum of 10000 elements.|
+|proxyServer|[windows10VpnProxyServer](../resources/windows10vpnproxyserver.md)|Proxy Server.|
+|associatedApps|[windows10AssociatedApps](../resources/windows10associatedapps.md) collection|Associated Apps. This collection can contain a maximum of 10000 elements.|
 |onlyAssociatedAppsCanUseConnection|Boolean|Only associated Apps can use connection (per-app VPN).|
 |windowsInformationProtectionDomain|String|Windows Information Protection (WIP) domain to associate with this connection.|
-|trafficRules|[vpnTrafficRule](../resources/vpnTrafficRule.md) collection|Traffic rules. This collection can contain a maximum of 1000 elements.|
-|routes|[vpnRoute](../resources/vpnRoute.md) collection|Routes (optional for third-party providers). This collection can contain a maximum of 1000 elements.|
-|dnsRules|[vpnDnsRule](../resources/vpnDnsRule.md) collection|DNS rules. This collection can contain a maximum of 1000 elements.|
+|trafficRules|[vpnTrafficRule](../resources/vpntrafficrule.md) collection|Traffic rules. This collection can contain a maximum of 1000 elements.|
+|routes|[vpnRoute](../resources/vpnroute.md) collection|Routes (optional for third-party providers). This collection can contain a maximum of 1000 elements.|
+|dnsRules|[vpnDnsRule](../resources/vpndnsrule.md) collection|DNS rules. This collection can contain a maximum of 1000 elements.|
 |trustedNetworkDomains|String collection|Trusted Network Domains|
 
 
@@ -94,7 +96,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10VpnConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10VpnConfiguration not found
 Content-type: application/json
 Content-length: 3674
 
@@ -236,12 +238,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3846
+Content-Length: 3845
 
 {
   "@odata.type": "#microsoft.graph.windows10VpnConfiguration",
-  "id": "3db11c57-1c57-3db1-571c-b13d571cb13d",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "5db4980b-980b-5db4-0b98-b45d0b98b45d",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -263,7 +265,7 @@ Content-Length: 3846
     "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
     "deviceMode": "String"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

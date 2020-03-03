@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windowsAssignedAccessProfile
 
+Namespace: microsoft.graph
+
 Create a new [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.windowsAssignedAccessProfile not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsAssignedAccessProfile object.
+In the request body, supply a JSON representation for the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.
 
-The following table shows the properties that are required when you create the windowsAssignedAccessProfile.
+The following table shows the properties that are required when you create the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsAssignedAccessProfile not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsAssignedAccessProfile not found
 Content-type: application/json
 Content-length: 364
 
@@ -101,7 +103,7 @@ Content-Length: 413
 
 {
   "@odata.type": "#microsoft.graph.windowsAssignedAccessProfile",
-  "id": "9dc569be-69be-9dc5-be69-c59dbe69c59d",
+  "id": "d03bfd97-fd97-d03b-97fd-3bd097fd3bd0",
   "profileName": "Profile Name value",
   "showTaskBar": true,
   "appUserModelIds": [

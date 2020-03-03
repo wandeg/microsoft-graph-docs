@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # dlpEvaluatePoliciesRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|evaluationInput|[dlpEvaluationInput](../resources/dlpEvaluationInput.md)||
-|notificationInfo|[dlpNotification](../resources/dlpNotification.md)||
+|evaluationInput|[dlpEvaluationInput](../resources/dlpevaluationinput.md)||
+|notificationInfo|[dlpNotification](../resources/dlpnotification.md)||
 |target|String||
 
 ## Relationships

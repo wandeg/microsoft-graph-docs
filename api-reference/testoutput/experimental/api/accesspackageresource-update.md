@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessPackageResource
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessPackageResource](../resources/accesspackageresource.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessPackageResource](../resources/accessPackageResource.md) object.
+In the request body, supply a JSON representation for the [accessPackageResource](../resources/accesspackageresource.md) object.
 
 The following table shows the properties that are required when you create the [accessPackageResource](../resources/accesspackageresource.md).
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessPackageResources/{accessPackageResourcesId}
+PATCH https://graph.microsoft.com/localtest/accessPackageResources/{accessPackageResourcesId}
 Content-type: application/json
 Content-length: 398
 
@@ -86,7 +88,7 @@ Content-length: 398
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
 }
 ```
 
@@ -104,7 +106,7 @@ Content-Length: 447
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResource",
-  "id": "ca85a44b-a44b-ca85-4ba4-85ca4ba485ca",
+  "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
   "displayName": "Display Name value",
   "description": "Description value",
   "url": "Url value",
@@ -113,7 +115,7 @@ Content-Length: 447
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:00:37.6427993+03:00"
+  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
 }
 ```
 

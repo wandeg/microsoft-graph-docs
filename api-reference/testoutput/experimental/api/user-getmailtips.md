@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getMailTips
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [mailTips](../resources/mailTips.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [mailTips](../resources/mailtips.md) collection in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/getMailTips
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/getMailTips
 
 Content-type: application/json
 Content-length: 93

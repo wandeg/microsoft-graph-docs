@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getManagementConditionStatementsForPlatform
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -45,7 +47,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [managementConditionStatement](../resources/managementConditionStatement.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [managementConditionStatement](../resources/managementconditionstatement.md) collection in the response body.
 
 ## Example
 
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/managementConditionStatements/getManagementConditionStatementsForPlatform(platform='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/managementConditionStatements/getManagementConditionStatementsForPlatform(platform='parameterValue')
 ```
 
 ### Response
@@ -71,17 +73,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 568
+Content-Length: 567
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managementConditionStatement",
-      "id": "39262518-2518-3926-1825-263918252639",
+      "id": "443eae60-ae60-443e-60ae-3e4460ae3e44",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
       "expression": {
         "@odata.type": "microsoft.graph.managementConditionExpression"
       },

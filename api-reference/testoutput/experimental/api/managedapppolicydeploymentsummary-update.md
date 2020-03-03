@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedAppPolicyDeploymentSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedAppPolicyDeploymentSummary](../resources/managedAppPolicyDeploymentSummary.md) object.
+In the request body, supply a JSON representation for the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.
 
 The following table shows the properties that are required when you create the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md).
 
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 |displayName|String||
 |configurationDeployedUserCount|Int32||
 |lastRefreshTime|DateTimeOffset||
-|configurationDeploymentSummaryPerApp|[managedAppPolicyDeploymentSummaryPerApp](../resources/managedAppPolicyDeploymentSummaryPerApp.md) collection||
+|configurationDeploymentSummaryPerApp|[managedAppPolicyDeploymentSummaryPerApp](../resources/managedapppolicydeploymentsummaryperapp.md) collection||
 |version|String|Version of the entity.|
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
 Content-type: application/json
 Content-length: 588
 
@@ -74,7 +76,7 @@ Content-length: 588
   "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
   "displayName": "Display Name value",
   "configurationDeployedUserCount": 14,
-  "lastRefreshTime": "2016-12-31T23:56:38.2225028+03:00",
+  "lastRefreshTime": "2017-01-01T00:02:25.6403768+03:00",
   "configurationDeploymentSummaryPerApp": [
     {
       "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",
@@ -103,10 +105,10 @@ Content-Length: 637
 
 {
   "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-  "id": "f90b9025-9025-f90b-2590-0bf925900bf9",
+  "id": "3696ccf0-ccf0-3696-f0cc-9636f0cc9636",
   "displayName": "Display Name value",
   "configurationDeployedUserCount": 14,
-  "lastRefreshTime": "2016-12-31T23:56:38.2225028+03:00",
+  "lastRefreshTime": "2017-01-01T00:02:25.6403768+03:00",
   "configurationDeploymentSummaryPerApp": [
     {
       "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

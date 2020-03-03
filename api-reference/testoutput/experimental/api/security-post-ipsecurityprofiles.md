@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add ipSecurityProfiles
 
+Namespace: microsoft.graph
+
 Add ipSecurityProfiles by posting to the ipSecurityProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /Security/ipSecurityProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the ipSecurityProfile object.
+In the request body, supply a JSON representation for the [ipSecurityProfile](../resources/ipsecurityprofile.md) object.
 
-The following table shows the properties that are required when you create the ipSecurityProfile.
+The following table shows the properties that are required when you create the [ipSecurityProfile](../resources/ipsecurityprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,12 +52,12 @@ The following table shows the properties that are required when you create the i
 |countHits|Int32||
 |countHosts|Int32||
 |firstSeenDateTime|DateTimeOffset||
-|ipCategories|[ipCategory](../resources/ipCategory.md) collection||
-|ipReferenceData|[ipReferenceData](../resources/ipReferenceData.md) collection||
+|ipCategories|[ipCategory](../resources/ipcategory.md) collection||
+|ipReferenceData|[ipReferenceData](../resources/ipreferencedata.md) collection||
 |lastSeenDateTime|DateTimeOffset||
 |riskScore|String||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -72,9 +74,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/ipSecurityProfiles
+POST https://graph.microsoft.com/localtest/Security/ipSecurityProfiles
 Content-type: application/json
-Content-length: 1197
+Content-length: 1196
 
 {
   "@odata.type": "#microsoft.graph.ipSecurityProfile",
@@ -86,7 +88,7 @@ Content-length: 1197
   "azureTenantId": "Azure Tenant Id value",
   "countHits": 9,
   "countHosts": 10,
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "ipCategories": [
     {
       "@odata.type": "microsoft.graph.ipCategory",
@@ -105,7 +107,7 @@ Content-length: 1197
       "state": "State value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"
@@ -130,11 +132,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1246
+Content-Length: 1245
 
 {
   "@odata.type": "#microsoft.graph.ipSecurityProfile",
-  "id": "a5c97fce-7fce-a5c9-ce7f-c9a5ce7fc9a5",
+  "id": "0bfa692b-692b-0bfa-2b69-fa0b2b69fa0b",
   "activityGroupNames": [
     "Activity Group Names value"
   ],
@@ -143,7 +145,7 @@ Content-Length: 1246
   "azureTenantId": "Azure Tenant Id value",
   "countHits": 9,
   "countHosts": 10,
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "ipCategories": [
     {
       "@odata.type": "microsoft.graph.ipCategory",
@@ -162,7 +164,7 @@ Content-Length: 1246
       "state": "State value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"

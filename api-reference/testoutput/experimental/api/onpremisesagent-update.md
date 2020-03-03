@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onPremisesAgent
 
+Namespace: microsoft.graph
+
 Update the properties of a [onPremisesAgent](../resources/onpremisesagent.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onP
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onPremisesAgent](../resources/onPremisesAgent.md) object.
+In the request body, supply a JSON representation for the [onPremisesAgent](../resources/onpremisesagent.md) object.
 
 The following table shows the properties that are required when you create the [onPremisesAgent](../resources/onpremisesagent.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}
+PATCH https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPremisesAgentId}
 Content-type: application/json
 Content-length: 211
 
@@ -91,7 +93,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.onPremisesAgent",
-  "id": "60031e2b-1e2b-6003-2b1e-03602b1e0360",
+  "id": "97e9ae49-ae49-97e9-49ae-e99749aee997",
   "machineName": "Machine Name value",
   "externalIp": "External Ip value",
   "status": "String",

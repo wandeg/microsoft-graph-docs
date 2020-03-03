@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete trending
 
+Namespace: microsoft.graph
+
 Deletes a [trending](../resources/trending.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/insights/trending/{trendingId}
+DELETE https://graph.microsoft.com/localtest/me/insights/trending/{trendingId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add groupAssignments
 
+Namespace: microsoft.graph
+
 Add groupAssignments by posting to the groupAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/groupA
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScriptGroupAssignment object.
+In the request body, supply a JSON representation for the [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScriptGroupAssignment.
+The following table shows the properties that are required when you create the [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/groupAssignments
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/groupAssignments
 Content-type: application/json
 Content-length: 124
 
@@ -85,7 +87,7 @@ Content-Length: 173
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptGroupAssignment",
-  "id": "87582e40-2e40-8758-402e-5887402e5887",
+  "id": "64802449-2449-6480-4924-806449248064",
   "targetGroupId": "Target Group Id value"
 }
 ```

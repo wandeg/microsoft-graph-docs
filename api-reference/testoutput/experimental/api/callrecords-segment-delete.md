@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete segment
 
-Deletes a [segment](../resources/segment.md).
+Namespace: microsoft.graph.callRecords
+
+Deletes a [segment](../resources/callrecords-segment.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications/callRecords/{callRecordId}/sessions/{sessionId}/segments/{segmentId}
+DELETE https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}/sessions/{sessionId}/segments/{segmentId}
 ```
 
 ### Response

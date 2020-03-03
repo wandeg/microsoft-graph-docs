@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userExperienceAnalyticsCategories
 
+Namespace: microsoft.graph
+
 Get the userExperienceAnalyticsCategories from the userExperienceAnalyticsCategories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsCategories
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsCategories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 627
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsCategory",
-      "id": "432ceda3-eda3-432c-a3ed-2c43a3ed2c43",
+      "id": "808eba42-ba42-808e-42ba-8e8042ba8e80",
       "insights": [
         {
           "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

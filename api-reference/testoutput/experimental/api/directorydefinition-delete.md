@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directoryDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [directoryDefinition](../resources/directorydefinition.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/directories/{directoriesId}
+DELETE https://graph.microsoft.com/localtest/directories/{directoriesId}
 ```
 
 ### Response

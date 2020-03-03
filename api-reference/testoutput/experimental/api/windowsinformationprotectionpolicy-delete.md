@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsInformationProtectionPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}
 ```
 
 ### Response

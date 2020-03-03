@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List symantecCodeSigningCertificates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.symantecCodeSigningCertificate not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.symantecCodeSigningCertificate not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 541
+Content-Length: 542
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.symantecCodeSigningCertificate",
-      "id": "20cef7f4-f7f4-20ce-f4f7-ce20f4f7ce20",
+      "id": "686e5b1c-5b1c-686e-1c5b-6e681c5b6e68",
       "content": "Y29udGVudA==",
       "status": "String",
       "password": "Password value",
@@ -78,8 +80,8 @@ Content-Length: 541
       "subject": "Subject value",
       "issuerName": "Issuer Name value",
       "issuer": "Issuer value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-      "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
     }
   ]
 }

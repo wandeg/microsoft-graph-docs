@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # rubricCriterion resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|[educationItemBody](../resources/educationItemBody.md)||
+|description|[educationItemBody](../resources/educationitembody.md)||
 
 ## Relationships
 None

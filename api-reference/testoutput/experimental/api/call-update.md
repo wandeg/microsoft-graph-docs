@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update call
 
+Namespace: microsoft.graph
+
 Update the properties of a [call](../resources/call.md) object.
 
 ## Permissions
@@ -44,29 +46,29 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |state|Enumeration|. Possible values are: `incoming`, `establishing`, `ringing`, `established`, `hold`, `transferring`, `transferAccepted`, `redirecting`, `terminating`, `terminated`, `unknownFutureValue`.|
-|mediaState|[callMediaState](../resources/callMediaState.md)||
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)||
+|mediaState|[callMediaState](../resources/callmediastate.md)||
+|resultInfo|[ResultInfo](../resources/resultinfo.md)||
 |terminationReason|String||
 |direction|Enumeration|. Possible values are: `incoming`, `outgoing`.|
 |ringingTimeoutInSeconds|Int32||
 |subject|String||
 |callbackUri|String||
-|callRoutes|[callRoute](../resources/callRoute.md) collection||
-|source|[participantInfo](../resources/participantInfo.md)||
-|targets|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
-|answeredBy|[participantInfo](../resources/participantInfo.md)||
+|callRoutes|[callRoute](../resources/callroute.md) collection||
+|source|[participantInfo](../resources/participantinfo.md)||
+|targets|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
+|answeredBy|[participantInfo](../resources/participantinfo.md)||
 |requestedModalities|Enumeration collection|. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
 |activeModalities|Enumeration collection|. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
-|mediaConfig|[mediaConfig](../resources/mediaConfig.md)||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
-|callOptions|[callOptions](../resources/callOptions.md)||
-|meetingInfo|[meetingInfo](../resources/meetingInfo.md)||
-|meetingCapability|[meetingCapability](../resources/meetingCapability.md)||
+|mediaConfig|[mediaConfig](../resources/mediaconfig.md)||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
+|callOptions|[callOptions](../resources/calloptions.md)||
+|meetingInfo|[meetingInfo](../resources/meetinginfo.md)||
+|meetingCapability|[meetingCapability](../resources/meetingcapability.md)||
 |routingPolicies|Enumeration collection|. Possible values are: `none`, `noMissedCall`, `disableForwardingExceptPhone`, `disableForwarding`, `preferSkypeForBusiness`, `unknownFutureValue`.|
 |tenantId|String||
 |myParticipantId|String||
-|toneInfo|[toneInfo](../resources/toneInfo.md)||
-|incomingContext|[incomingContext](../resources/incomingContext.md)||
+|toneInfo|[toneInfo](../resources/toneinfo.md)||
+|incomingContext|[incomingContext](../resources/incomingcontext.md)||
 
 
 
@@ -83,7 +85,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/app/calls/{callId}
+PATCH https://graph.microsoft.com/localtest/app/calls/{callId}
 Content-type: application/json
 Content-length: 3086
 
@@ -214,7 +216,7 @@ Content-Length: 3135
 
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "122cf051-f051-122c-51f0-2c1251f02c12",
+  "id": "c4fdf733-f733-c4fd-33f7-fdc433f7fdc4",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

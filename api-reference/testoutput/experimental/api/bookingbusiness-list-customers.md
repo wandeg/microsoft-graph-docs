@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List customers
 
+Namespace: microsoft.graph
+
 Get the bookingCustomers from the customers navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/customers
+GET https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/customers
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 237
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingCustomer",
-      "id": "f6984ead-4ead-f698-ad4e-98f6ad4e98f6",
+      "id": "626ab662-b662-626a-62b6-6a6262b66a62",
       "displayName": "Display Name value",
       "emailAddress": "Email Address value"
     }

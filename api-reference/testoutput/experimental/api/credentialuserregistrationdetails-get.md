@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get credentialUserRegistrationDetails
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
+GET https://graph.microsoft.com/localtest/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 404
 {
   "value": {
     "@odata.type": "#microsoft.graph.credentialUserRegistrationDetails",
-    "id": "a1fb7134-7134-a1fb-3471-fba13471fba1",
+    "id": "0fd663e2-63e2-0fd6-e263-d60fe263d60f",
     "userPrincipalName": "User Principal Name value",
     "userDisplayName": "User Display Name value",
     "authMethods": [

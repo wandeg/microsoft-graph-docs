@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get agedAccountsPayable
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/agedAccountsPayable/{agedAccountsPayableId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/agedAccountsPayable/{agedAccountsPayableId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 476
 {
   "value": {
     "@odata.type": "#microsoft.graph.agedAccountsPayable",
-    "id": "301d12ba-12ba-301d-ba12-1d30ba121d30",
+    "id": "ed338a54-8a54-ed33-548a-33ed548a33ed",
     "vendorNumber": "Vendor Number value",
     "name": "Name value",
     "currencyCode": "Currency Code value",

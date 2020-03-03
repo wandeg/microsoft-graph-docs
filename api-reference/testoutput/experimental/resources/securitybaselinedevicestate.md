@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # securityBaselineDeviceState resource type
+
+
+Namespace: microsoft.graph
 
 The security baseline compliance state summary of the security baseline for a device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get securityBaselineDeviceState](../api/securitybaselinedevicestate-get.md)|[securityBaselineDeviceState](../resources/securityBaselineDeviceState.md)|Read properties and relationships of the [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.|
+|[List securityBaselineDeviceStates](../api/securitybaselinedevicestate-list.md)|[securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) collection|List properties and relationships of the [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) objects.|
+|[Get securityBaselineDeviceState](../api/securitybaselinedevicestate-get.md)|[securityBaselineDeviceState](../resources/securitybaselinedevicestate.md)|Read properties and relationships of the [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.|
+|[Create securityBaselineDeviceState](../api/securitybaselinedevicestate-create.md)|[securityBaselineDeviceState](../resources/securitybaselinedevicestate.md)|Create a new [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.|
 |[Delete securityBaselineDeviceState](../api/securitybaselinedevicestate-delete.md)|None|Deletes a [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md).|
-|[Update securityBaselineDeviceState](../api/securitybaselinedevicestate-update.md)|[securityBaselineDeviceState](../resources/securityBaselineDeviceState.md)|Update the properties of a [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.|
+|[Update securityBaselineDeviceState](../api/securitybaselinedevicestate-update.md)|[securityBaselineDeviceState](../resources/securitybaselinedevicestate.md)|Update the properties of a [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.|
 
 ## Properties
 |Property|Type|Description|

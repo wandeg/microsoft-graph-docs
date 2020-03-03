@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppConfiguration](../resources/managedappconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.managedAppConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.managedAppConfiguration not found
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 618
+Content-Length: 617
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppConfiguration",
-    "id": "12eab565-b565-12ea-65b5-ea1265b5ea12",
+    "id": "ce952ef9-2ef9-ce95-f92e-95cef92e95ce",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],

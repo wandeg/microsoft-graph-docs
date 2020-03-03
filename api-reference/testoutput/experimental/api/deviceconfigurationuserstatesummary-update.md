@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationUserStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceConfigurationUserStateSummaries
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationUserStateSummary](../resources/deviceConfigurationUserStateSummary.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationUserStateSummaries
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationUserStateSummaries
 Content-type: application/json
 Content-length: 275
 
@@ -95,7 +97,7 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserStateSummary",
-  "id": "faf0faea-faea-faf0-eafa-f0faeafaf0fa",
+  "id": "5b2ea204-a204-5b2e-04a2-2e5b04a22e5b",
   "unknownUserCount": 0,
   "notApplicableUserCount": 6,
   "compliantUserCount": 2,

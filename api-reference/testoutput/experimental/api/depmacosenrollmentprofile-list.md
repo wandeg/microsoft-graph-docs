@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List depMacOSEnrollmentProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.depMacOSEnrollmentProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.depMacOSEnrollmentProfile not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1478
   "value": [
     {
       "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
-      "id": "4bea4c9f-4c9f-4bea-9f4c-ea4b9f4cea4b",
+      "id": "5fb77ee5-7ee5-5fb7-e57e-b75fe57eb75f",
       "displayName": "Display Name value",
       "description": "Description value",
       "requiresUserAuthentication": true,

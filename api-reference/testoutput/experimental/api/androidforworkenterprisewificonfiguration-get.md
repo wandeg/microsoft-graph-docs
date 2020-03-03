@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidForWorkEnterpriseWiFiConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidForWorkEnterpriseWiFiConfiguration](../resources/androidforworkenterprisewificonfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidForWorkEnterpriseWiFiConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidForWorkEnterpriseWiFiConfiguration not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1603
+Content-Length: 1602
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidForWorkEnterpriseWiFiConfiguration",
-    "id": "4e2e657c-657c-4e2e-7c65-2e4e7c652e4e",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "d050c79c-c79c-d050-9cc7-50d09cc750d0",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,7 +97,7 @@ Content-Length: 1603
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create windowsManagementApp
 
-Create a new [windowsManagementApp](../resources/windowsmanagementapp.md) object.
+Namespace: microsoft.graph
+
+Create a new [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.windowsManagementApp not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsManagementApp object.
+In the request body, supply a JSON representation for the [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object.
 
-The following table shows the properties that are required when you create the windowsManagementApp.
+The following table shows the properties that are required when you create the [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the w
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [windowsManagementApp](../resources/windowsmanagementapp.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsManagementApp not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsManagementApp not found
 Content-type: application/json
 Content-length: 112
 
@@ -85,7 +87,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.windowsManagementApp",
-  "id": "3d1b151b-151b-3d1b-1b15-1b3d1b151b3d",
+  "id": "219c6239-6239-219c-3962-9c2139629c21",
   "availableVersion": "Available Version value"
 }
 ```

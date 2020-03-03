@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create teamsDeviceUsageUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.teamsDeviceUsageUserCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsDeviceUsageUserCounts object.
+In the request body, supply a JSON representation for the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.
 
-The following table shows the properties that are required when you create the teamsDeviceUsageUserCounts.
+The following table shows the properties that are required when you create the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsDeviceUsageUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsDeviceUsageUserCounts not found
 Content-type: application/json
 Content-length: 269
 
@@ -101,7 +103,7 @@ Content-Length: 318
 
 {
   "@odata.type": "#microsoft.graph.teamsDeviceUsageUserCounts",
-  "id": "c6d25337-5337-c6d2-3753-d2c63753d2c6",
+  "id": "fbaefaa7-faa7-fbae-a7fa-aefba7faaefb",
   "reportRefreshDate": "Date",
   "web": 3,
   "windowsPhone": 12,

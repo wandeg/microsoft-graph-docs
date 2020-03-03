@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidForWorkAppConfigurationSchemaItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -24,7 +25,7 @@ Namespace: microsoft.graph
 |description|String|Description of what the item controls within the application|
 |displayName|String|Human readable name|
 |schemaItemKey|String|Unique key the application uses to identify the item|
-|selections|[keyValuePair](../resources/keyValuePair.md) collection|List of human readable name/value pairs for the valid values that can be set for this item (Choice and Multiselect items only)|
+|selections|[keyValuePair](../resources/keyvaluepair.md) collection|List of human readable name/value pairs for the valid values that can be set for this item (Choice and Multiselect items only)|
 
 ## Relationships
 None

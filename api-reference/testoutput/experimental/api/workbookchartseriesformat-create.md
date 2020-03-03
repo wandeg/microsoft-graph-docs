@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartSeriesFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartSeriesFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartSeriesFormat object.
+In the request body, supply a JSON representation for the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartSeriesFormat.
+The following table shows the properties that are required when you create the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartSeriesFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartSeriesFormat not found
 Content-type: application/json
 Content-length: 67
 
@@ -83,7 +85,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartSeriesFormat",
-  "id": "ed86f310-f310-ed86-10f3-86ed10f386ed"
+  "id": "5aeac95e-c95e-5aea-5ec9-ea5a5ec9ea5a"
 }
 ```
 

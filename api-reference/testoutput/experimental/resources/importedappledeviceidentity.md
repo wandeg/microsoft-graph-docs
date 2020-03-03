@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # importedAppleDeviceIdentity resource type
+
+
+Namespace: microsoft.graph
 
 The importedAppleDeviceIdentity resource represents the imported device identity of an Apple device .
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get importedAppleDeviceIdentity](../api/importedappledeviceidentity-get.md)|[importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|Read properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
+|[List importedAppleDeviceIdentities](../api/importedappledeviceidentity-list.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) collection|List properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) objects.|
+|[Get importedAppleDeviceIdentity](../api/importedappledeviceidentity-get.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Read properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
+|[Create importedAppleDeviceIdentity](../api/importedappledeviceidentity-create.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Create a new [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
 |[Delete importedAppleDeviceIdentity](../api/importedappledeviceidentity-delete.md)|None|Deletes a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md).|
-|[Update importedAppleDeviceIdentity](../api/importedappledeviceidentity-update.md)|[importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|Update the properties of a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
-|[importAppleDeviceIdentityList](../api/importedappledeviceidentity-importappledeviceidentitylist.md)|[importedAppleDeviceIdentityResult](../resources/importedAppleDeviceIdentityResult.md) collection||
+|[Update importedAppleDeviceIdentity](../api/importedappledeviceidentity-update.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Update the properties of a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
+|[importAppleDeviceIdentityList](../api/importedappledeviceidentity-importappledeviceidentitylist.md)|[importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md) collection||
 
 ## Properties
 |Property|Type|Description|

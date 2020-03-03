@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagementScript
 
-Read properties and relationships of the [deviceManagementScript](../resources/devicemanagementscript.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagementScript](../resources/intune-devices-devicemanagementscript.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagementScript](../resources/devicemanagementscript.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagementScript](../resources/intune-devices-devicemanagementscript.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 588
+Content-Length: 587
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementScript",
-    "id": "5b0c5411-5411-5b0c-1154-0c5b11540c5b",
+    "id": "4532d8b2-d8b2-4532-b2d8-3245b2d83245",
     "enforceSignatureCheck": true,
     "runAs32Bit": true,
     "displayName": "Display Name value",
     "description": "Description value",
     "scriptContent": "c2NyaXB0Q29udGVudA==",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "runAsAccount": "String",
     "fileName": "File Name value",
     "roleScopeTagIds": [

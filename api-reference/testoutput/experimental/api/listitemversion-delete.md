@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete listItemVersion
 
+Namespace: microsoft.graph
+
 Deletes a [listItemVersion](../resources/listitemversion.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/versions/{listItemVersionId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/versions/{listItemVersionId}
 ```
 
 ### Response

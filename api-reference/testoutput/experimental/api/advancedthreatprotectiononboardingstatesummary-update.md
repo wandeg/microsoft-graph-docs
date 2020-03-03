@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update advancedThreatProtectionOnboardingStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/advancedThreatProtectionOnboardingStateSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedThreatProtectionOnboardingStateSummary.md) object.
+In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md) object.
 
 The following table shows the properties that are required when you create the [advancedThreatProtectionOnboardingStateSummary](../resources/advancedthreatprotectiononboardingstatesummary.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/advancedThreatProtectionOnboardingStateSummary
+PATCH https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary
 Content-type: application/json
 Content-length: 331
 
@@ -97,7 +99,7 @@ Content-Length: 380
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingStateSummary",
-  "id": "1eadb7cc-b7cc-1ead-ccb7-ad1eccb7ad1e",
+  "id": "ccfffcd7-fcd7-ccff-d7fc-ffccd7fcffcc",
   "unknownDeviceCount": 2,
   "notApplicableDeviceCount": 8,
   "compliantDeviceCount": 4,

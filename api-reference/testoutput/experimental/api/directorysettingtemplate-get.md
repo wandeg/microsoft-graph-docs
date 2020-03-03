@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get directorySettingTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [directorySettingTemplate](../resources/directorysettingtemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directorySettingTemplates/{directorySettingTemplatesId}
+GET https://graph.microsoft.com/localtest/directorySettingTemplates/{directorySettingTemplatesId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 498
 {
   "value": {
     "@odata.type": "#microsoft.graph.directorySettingTemplate",
-    "id": "c77f7bf1-7bf1-c77f-f17b-7fc7f17b7fc7",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "d576b242-b242-d576-42b2-76d542b276d5",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "displayName": "Display Name value",
     "description": "Description value",
     "values": [

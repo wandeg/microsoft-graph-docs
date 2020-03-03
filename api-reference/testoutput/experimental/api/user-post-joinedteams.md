@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add joinedTeams
 
+Namespace: microsoft.graph
+
 Add joinedTeams by posting to the joinedTeams collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/joinedTeams/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the team object.
+In the request body, supply a JSON representation for the [team](../resources/team.md) object.
 
-The following table shows the properties that are required when you create the team.
+The following table shows the properties that are required when you create the [team](../resources/team.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,11 +53,11 @@ The following table shows the properties that are required when you create the t
 |specialization|Enumeration|. Possible values are: `none`, `educationStandard`, `educationClass`, `educationProfessionalLearningCommunity`, `educationStaff`, `healthcareStandard`, `healthcareCareCoordination`, `unknownFutureValue`.|
 |visibility|Enumeration|. Possible values are: `private`, `public`, `hiddenMembership`, `unknownFutureValue`.|
 |webUrl|String||
-|memberSettings|[teamMemberSettings](../resources/teamMemberSettings.md)||
-|guestSettings|[teamGuestSettings](../resources/teamGuestSettings.md)||
-|messagingSettings|[teamMessagingSettings](../resources/teamMessagingSettings.md)||
-|funSettings|[teamFunSettings](../resources/teamFunSettings.md)||
-|discoverySettings|[teamDiscoverySettings](../resources/teamDiscoverySettings.md)||
+|memberSettings|[teamMemberSettings](../resources/teammembersettings.md)||
+|guestSettings|[teamGuestSettings](../resources/teamguestsettings.md)||
+|messagingSettings|[teamMessagingSettings](../resources/teammessagingsettings.md)||
+|funSettings|[teamFunSettings](../resources/teamfunsettings.md)||
+|discoverySettings|[teamDiscoverySettings](../resources/teamdiscoverysettings.md)||
 |isArchived|Boolean||
 
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams
+POST https://graph.microsoft.com/localtest/me/joinedTeams
 Content-type: application/json
 Content-length: 1360
 
@@ -136,7 +138,7 @@ Content-Length: 1409
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "7f28107d-107d-7f28-7d10-287f7d10287f",
+  "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
   "displayName": "Display Name value",
   "description": "Description value",
   "internalId": "Internal Id value",

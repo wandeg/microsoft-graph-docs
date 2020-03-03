@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create applicationTemplate
 
+Namespace: microsoft.graph
+
 Create a new [applicationTemplate](../resources/applicationtemplate.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /applicationTemplates
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the applicationTemplate object.
+In the request body, supply a JSON representation for the [applicationTemplate](../resources/applicationtemplate.md) object.
 
-The following table shows the properties that are required when you create the applicationTemplate.
+The following table shows the properties that are required when you create the [applicationTemplate](../resources/applicationtemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applicationTemplates
+POST https://graph.microsoft.com/localtest/applicationTemplates
 Content-type: application/json
 Content-length: 492
 
@@ -105,7 +107,7 @@ Content-Length: 541
 
 {
   "@odata.type": "#microsoft.graph.applicationTemplate",
-  "id": "42b167cd-67cd-42b1-cd67-b142cd67b142",
+  "id": "57eb8c8b-8c8b-57eb-8b8c-eb578b8ceb57",
   "displayName": "Display Name value",
   "homePageUrl": "https://example.com/homePageUrl/",
   "supportedSingleSignOnModes": [

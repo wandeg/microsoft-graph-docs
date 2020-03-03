@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsAutopilotDeviceIdentity
 
+Namespace: microsoft.graph
+
 Deletes a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}
 ```
 
 ### Response

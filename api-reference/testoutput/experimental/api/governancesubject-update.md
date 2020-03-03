@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governanceSubject
 
+Namespace: microsoft.graph
+
 Update the properties of a [governanceSubject](../resources/governancesubject.md) object.
 
 ## Permissions
@@ -39,7 +41,7 @@ PATCH /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/ro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governanceSubject](../resources/governanceSubject.md) object.
+In the request body, supply a JSON representation for the [governanceSubject](../resources/governancesubject.md) object.
 
 The following table shows the properties that are required when you create the [governanceSubject](../resources/governancesubject.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/governanceSubjects/{governanceSubjectsId}
+PATCH https://graph.microsoft.com/localtest/governanceSubjects/{governanceSubjectsId}
 Content-type: application/json
 Content-length: 195
 
@@ -93,7 +95,7 @@ Content-Length: 244
 
 {
   "@odata.type": "#microsoft.graph.governanceSubject",
-  "id": "9760f942-f942-9760-42f9-609742f96097",
+  "id": "7fe7d72d-d72d-7fe7-2dd7-e77f2dd7e77f",
   "type": "Type value",
   "displayName": "Display Name value",
   "principalName": "Principal Name value",

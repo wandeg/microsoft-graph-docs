@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get importedAppleDeviceIdentity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
+GET https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 668
+Content-Length: 667
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.importedAppleDeviceIdentity",
-    "id": "46ec539a-539a-46ec-9a53-ec469a53ec46",
+    "id": "84ec82a3-82a3-84ec-a382-ec84a382ec84",
     "serialNumber": "Serial Number value",
     "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-    "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:11.9968518+03:00",
+    "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
     "isSupervised": true,
     "discoverySource": "String",
     "isDeleted": true,
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
     "description": "Description value",
     "enrollmentState": "String",
     "platform": "String"

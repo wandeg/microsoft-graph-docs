@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # outgoingCallOptions resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [callOptions](../resources/callOptions.md)
+
+
+Inherits from [callOptions](../resources/calloptions.md)
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get shift
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [shift](../resources/shift.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1243
+Content-Length: 1242
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.shift",
-    "id": "323eab49-ab49-323e-49ab-3e3249ab3e32",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "cf97ecfa-ecfa-cf97-faec-97cffaec97cf",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -91,8 +93,8 @@ Content-Length: 1243
     },
     "sharedShift": {
       "@odata.type": "microsoft.graph.shiftItem",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "theme": "String",
       "notes": "Notes value",
       "activities": [

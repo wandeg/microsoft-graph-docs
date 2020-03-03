@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # securityBaselineSettingState resource type
+
+
+Namespace: microsoft.graph
 
 The security baseline compliance state of a setting for a device
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get securityBaselineSettingState](../api/securitybaselinesettingstate-get.md)|[securityBaselineSettingState](../resources/securityBaselineSettingState.md)|Read properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
+|[List securityBaselineSettingStates](../api/securitybaselinesettingstate-list.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md) collection|List properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) objects.|
+|[Get securityBaselineSettingState](../api/securitybaselinesettingstate-get.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Read properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
+|[Create securityBaselineSettingState](../api/securitybaselinesettingstate-create.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Create a new [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
 |[Delete securityBaselineSettingState](../api/securitybaselinesettingstate-delete.md)|None|Deletes a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md).|
-|[Update securityBaselineSettingState](../api/securitybaselinesettingstate-update.md)|[securityBaselineSettingState](../resources/securityBaselineSettingState.md)|Update the properties of a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
+|[Update securityBaselineSettingState](../api/securitybaselinesettingstate-update.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Update the properties of a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
 
 ## Properties
 |Property|Type|Description|

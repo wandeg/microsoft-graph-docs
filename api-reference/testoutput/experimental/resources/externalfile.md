@@ -5,31 +5,32 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # externalFile resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [externalItem](../resources/externalItem.md)
+
+
+Inherits from [externalItem](../resources/externalitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List externalFiles](../api/externalfile-list.md)|[externalFile](../resources/externalFile.md) collection|List properties and relationships of the [externalFile](../resources/externalfile.md) objects.|
-|[Get externalFile](../api/externalfile-get.md)|[externalFile](../resources/externalFile.md)|Read properties and relationships of the [externalFile](../resources/externalfile.md) object.|
-|[Create externalFile](../api/externalfile-create.md)|[externalFile](../resources/externalFile.md)|Create a new [externalFile](../resources/externalfile.md) object.|
+|[List externalFiles](../api/externalfile-list.md)|[externalFile](../resources/externalfile.md) collection|List properties and relationships of the [externalFile](../resources/externalfile.md) objects.|
+|[Get externalFile](../api/externalfile-get.md)|[externalFile](../resources/externalfile.md)|Read properties and relationships of the [externalFile](../resources/externalfile.md) object.|
+|[Create externalFile](../api/externalfile-create.md)|[externalFile](../resources/externalfile.md)|Create a new [externalFile](../resources/externalfile.md) object.|
 |[Delete externalFile](../api/externalfile-delete.md)|None|Deletes a [externalFile](../resources/externalfile.md).|
-|[Update externalFile](../api/externalfile-update.md)|[externalFile](../resources/externalFile.md)|Update the properties of a [externalFile](../resources/externalfile.md) object.|
+|[Update externalFile](../api/externalfile-update.md)|[externalFile](../resources/externalfile.md)|Update the properties of a [externalFile](../resources/externalfile.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|acl|[acl](../resources/acl.md) collection| Inherited from [externalItem](../resources/externalItem.md)|
-|content|String| Inherited from [externalItem](../resources/externalItem.md)|
+|acl|[acl](../resources/acl.md) collection| Inherited from [externalItem](../resources/externalitem.md)|
+|content|String| Inherited from [externalItem](../resources/externalitem.md)|
 |createdBy|String||
 |createdDateTime|DateTimeOffset||
 |extension|String||
@@ -37,7 +38,7 @@ Inherits from [externalItem](../resources/externalItem.md)
 |lastModifiedBy|String||
 |modifiedDateTime|DateTimeOffset||
 |name|String||
-|properties|[properties](../resources/properties.md)| Inherited from [externalItem](../resources/externalItem.md)|
+|properties|[properties](../resources/properties.md)| Inherited from [externalItem](../resources/externalitem.md)|
 |size|Int64||
 |title|String||
 |url|String||

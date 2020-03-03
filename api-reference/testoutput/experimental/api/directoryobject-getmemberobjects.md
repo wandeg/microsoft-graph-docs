@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getMemberObjects
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directoryObjects/{directoryObjectsId}/getMemberObjects
+POST https://graph.microsoft.com/localtest/directoryObjects/{directoryObjectsId}/getMemberObjects
 
 Content-type: application/json
 Content-length: 35

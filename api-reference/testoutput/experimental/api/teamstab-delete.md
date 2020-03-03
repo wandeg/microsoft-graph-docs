@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsTab
 
+Namespace: microsoft.graph
+
 Deletes a [teamsTab](../resources/teamstab.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
 ```
 
 ### Response

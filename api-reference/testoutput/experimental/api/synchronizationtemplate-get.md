@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get synchronizationTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/templates/{synchronizationTemplateId}
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/templates/{synchronizationTemplateId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 492
 {
   "value": {
     "@odata.type": "#microsoft.graph.synchronizationTemplate",
-    "id": "58b8ac24-ac24-58b8-24ac-b85824acb858",
-    "applicationId": "d7fbb6cb-b6cb-d7fb-cbb6-fbd7cbb6fbd7",
+    "id": "ef935b80-5b80-ef93-805b-93ef805b93ef",
+    "applicationId": "c409845e-845e-c409-5e84-09c45e8409c4",
     "default": true,
     "description": "Description value",
     "discoverable": true,

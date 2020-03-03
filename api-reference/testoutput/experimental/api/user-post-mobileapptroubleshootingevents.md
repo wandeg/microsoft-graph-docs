@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileAppTroubleshootingEvents
 
+Namespace: microsoft.graph
+
 Add mobileAppTroubleshootingEvents by posting to the mobileAppTroubleshootingEvents collection.
 
 ## Permissions
@@ -37,22 +39,22 @@ POST /users/{usersId}/mobileAppTroubleshootingEvents/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppTroubleshootingEvent object.
+In the request body, supply a JSON representation for the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.
 
-The following table shows the properties that are required when you create the mobileAppTroubleshootingEvent.
+The following table shows the properties that are required when you create the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|eventDateTime|DateTimeOffset|Time when the event occurred . Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
-|correlationId|String|Id used for tracing the failure in the service. Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
-|troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/deviceManagementTroubleshootingErrorDetails.md)|Object containing detailed information about the error and its remediation. Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
-|eventName|String|Event Name corresponding to the Troubleshooting Event. It is an Optional field Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
-|additionalInformation|[keyValuePair](../resources/keyValuePair.md) collection|A set of string key and string value pairs which provides additional information on the Troubleshooting event Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
+|eventDateTime|DateTimeOffset|Time when the event occurred . Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
+|correlationId|String|Id used for tracing the failure in the service. Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
+|troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/devicemanagementtroubleshootingerrordetails.md)|Object containing detailed information about the error and its remediation. Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
+|eventName|String|Event Name corresponding to the Troubleshooting Event. It is an Optional field Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
+|additionalInformation|[keyValuePair](../resources/keyvaluepair.md) collection|A set of string key and string value pairs which provides additional information on the Troubleshooting event Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
 |managedDeviceIdentifier|String|Device identifier created or collected by Intune.|
 |userId|String|Identifier for the user that tried to enroll the device.|
 |applicationId|String|Intune application identifier.|
-|history|[mobileAppTroubleshootingHistoryItem](../resources/mobileAppTroubleshootingHistoryItem.md) collection|Intune Mobile Application Troubleshooting History Item|
+|history|[mobileAppTroubleshootingHistoryItem](../resources/mobileapptroubleshootinghistoryitem.md) collection|Intune Mobile Application Troubleshooting History Item|
 
 
 
@@ -69,13 +71,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/mobileAppTroubleshootingEvents
+POST https://graph.microsoft.com/localtest/me/mobileAppTroubleshootingEvents
 Content-type: application/json
 Content-length: 1162
 
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -105,7 +107,7 @@ Content-length: 1162
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:00:20.0612233+03:00"
+      "occurrenceDateTime": "2017-01-01T00:00:25.0683756+03:00"
     }
   ]
 }
@@ -126,8 +128,8 @@ Content-Length: 1211
 
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "id": "86798857-8857-8679-5788-798657887986",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "id": "4b1b7b68-7b68-4b1b-687b-1b4b687b1b4b",
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -157,7 +159,7 @@ Content-Length: 1211
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:00:20.0612233+03:00"
+      "occurrenceDateTime": "2017-01-01T00:00:25.0683756+03:00"
     }
   ]
 }

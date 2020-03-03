@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStatuses
 
+Namespace: microsoft.graph
+
 Get the deviceConfigurationUserStatuses from the userStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.macOSWiredNetworkConfiguration/identityCertificateForClientAuthentication/userStatuses
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.macOSWiredNetworkConfiguration/identityCertificateForClientAuthentication/userStatuses
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 393
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationUserStatus",
-      "id": "4ad5c1fb-c1fb-4ad5-fbc1-d54afbc1d54a",
+      "id": "37497306-7306-3749-0673-493706734937",
       "userDisplayName": "User Display Name value",
       "devicesCount": 12,
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

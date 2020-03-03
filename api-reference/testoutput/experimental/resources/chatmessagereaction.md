@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # chatMessageReaction resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |createdDateTime|DateTimeOffset||
 |reactionType|String||
-|user|[identitySet](../resources/identitySet.md)||
+|user|[identitySet](../resources/identityset.md)||
 
 ## Relationships
 None

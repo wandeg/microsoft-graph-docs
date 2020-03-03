@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List members
 
+Namespace: microsoft.graph
+
 Get the educationUsers from the members navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3890
+Content-Length: 3888
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationUser",
-      "id": "727f345c-345c-727f-5c34-7f725c347f72",
+      "id": "c668dcfd-dcfd-c668-fddc-68c6fddc68c6",
       "relatedContacts": [
         {
           "@odata.type": "microsoft.graph.relatedContact",
@@ -128,18 +130,18 @@ Content-Length: 3890
         {
           "@odata.type": "microsoft.graph.assignedLicense",
           "disabledPlans": [
-            "018663cc-63cc-0186-cc63-8601cc638601"
+            "d28f3feb-3feb-d28f-eb3f-8fd2eb3f8fd2"
           ],
-          "skuId": "57435096-5096-5743-9650-435796504357"
+          "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76"
         }
       ],
       "assignedPlans": [
         {
           "@odata.type": "microsoft.graph.assignedPlan",
-          "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+          "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
           "capabilityStatus": "Capability Status value",
           "service": "Service value",
-          "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+          "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
         }
       ],
       "businessPhones": [
@@ -166,7 +168,7 @@ Content-Length: 3890
           "provisioningStatus": "Provisioning Status value"
         }
       ],
-      "refreshTokensValidFromDateTime": "2017-01-01T00:01:06.4301913+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
       "showInAddressList": true,
       "surname": "Surname value",
       "usageLocation": "Usage Location value",

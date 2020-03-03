@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add purchaseInvoices
 
+Namespace: microsoft.graph
+
 Add purchaseInvoices by posting to the purchaseInvoices collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/purchaseInvoices/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the purchaseInvoice object.
+In the request body, supply a JSON representation for the [purchaseInvoice](../resources/purchaseinvoice.md) object.
 
-The following table shows the properties that are required when you create the purchaseInvoice.
+The following table shows the properties that are required when you create the [purchaseInvoice](../resources/purchaseinvoice.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -56,9 +58,9 @@ The following table shows the properties that are required when you create the p
 |payToVendorNumber|String||
 |shipToName|String||
 |shipToContact|String||
-|buyFromAddress|[postalAddressType](../resources/postalAddressType.md)||
-|payToAddress|[postalAddressType](../resources/postalAddressType.md)||
-|shipToAddress|[postalAddressType](../resources/postalAddressType.md)||
+|buyFromAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|payToAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|shipToAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |currencyId|Guid||
 |currencyCode|String||
 |pricesIncludeTax|Boolean||
@@ -85,7 +87,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/purchaseInvoices
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/purchaseInvoices
 Content-type: application/json
 Content-length: 1362
 
@@ -95,12 +97,12 @@ Content-length: 1362
   "invoiceDate": "Date",
   "dueDate": "Date",
   "vendorInvoiceNumber": "Vendor Invoice Number value",
-  "vendorId": "1e46ebdc-ebdc-1e46-dceb-461edceb461e",
+  "vendorId": "23c34f9a-4f9a-23c3-9a4f-c3239a4fc323",
   "vendorNumber": "Vendor Number value",
   "vendorName": "Vendor Name value",
   "payToName": "Pay To Name value",
   "payToContact": "Pay To Contact value",
-  "payToVendorId": "6e6d7366-7366-6e6d-6673-6d6e66736d6e",
+  "payToVendorId": "efa80502-0502-efa8-0205-a8ef0205a8ef",
   "payToVendorNumber": "Pay To Vendor Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -118,7 +120,7 @@ Content-length: 1362
   "shipToAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -145,17 +147,17 @@ Content-Length: 1475
 
 {
   "@odata.type": "#microsoft.graph.purchaseInvoice",
-  "id": "6afd685a-685a-6afd-5a68-fd6a5a68fd6a",
+  "id": "ef36db6e-db6e-ef36-6edb-36ef6edb36ef",
   "number": "Number value",
   "invoiceDate": "Date",
   "dueDate": "Date",
   "vendorInvoiceNumber": "Vendor Invoice Number value",
-  "vendorId": "1e46ebdc-ebdc-1e46-dceb-461edceb461e",
+  "vendorId": "23c34f9a-4f9a-23c3-9a4f-c3239a4fc323",
   "vendorNumber": "Vendor Number value",
   "vendorName": "Vendor Name value",
   "payToName": "Pay To Name value",
   "payToContact": "Pay To Contact value",
-  "payToVendorId": "6e6d7366-7366-6e6d-6673-6d6e66736d6e",
+  "payToVendorId": "efa80502-0502-efa8-0205-a8ef0205a8ef",
   "payToVendorNumber": "Pay To Vendor Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -173,7 +175,7 @@ Content-Length: 1475
   "shipToAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -182,7 +184,7 @@ Content-Length: 1475
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

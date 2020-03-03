@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows81SCEPCertificateProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows81SCEPCertificateProfile](../resources/windows81scepcertificateprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows81SCEPCertificateProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows81SCEPCertificateProfile not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2197
+Content-Length: 2196
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows81SCEPCertificateProfile",
-      "id": "17a7e81a-e81a-17a7-1ae8-a7171ae8a717",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "a0b7c871-c871-a0b7-71c8-b7a071c8b7a0",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 2197
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

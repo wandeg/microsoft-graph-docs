@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # privilegedApproval resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,14 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedApprovals](../api/privilegedapproval-list.md)|[privilegedApproval](../resources/privilegedApproval.md) collection|List properties and relationships of the [privilegedApproval](../resources/privilegedapproval.md) objects.|
-|[Get privilegedApproval](../api/privilegedapproval-get.md)|[privilegedApproval](../resources/privilegedApproval.md)|Read properties and relationships of the [privilegedApproval](../resources/privilegedapproval.md) object.|
-|[Create privilegedApproval](../api/privilegedapproval-post-privilegedapproval.md)|[privilegedApproval](../resources/privilegedApproval.md)|Create a new [privilegedApproval](../resources/privilegedapproval.md) object.|
+|[List privilegedApprovals](../api/privilegedapproval-list.md)|[privilegedApproval](../resources/privilegedapproval.md) collection|List properties and relationships of the [privilegedApproval](../resources/privilegedapproval.md) objects.|
+|[Get privilegedApproval](../api/privilegedapproval-get.md)|[privilegedApproval](../resources/privilegedapproval.md)|Read properties and relationships of the [privilegedApproval](../resources/privilegedapproval.md) object.|
+|[Create privilegedApproval](../api/privilegedapproval-post-privilegedapproval.md)|[privilegedApproval](../resources/privilegedapproval.md)|Create a new [privilegedApproval](../resources/privilegedapproval.md) object.|
 |[Delete privilegedApproval](../api/privilegedapproval-delete.md)|None|Deletes a [privilegedApproval](../resources/privilegedapproval.md).|
-|[Update privilegedApproval](../api/privilegedapproval-update.md)|[privilegedApproval](../resources/privilegedApproval.md)|Update the properties of a [privilegedApproval](../resources/privilegedapproval.md) object.|
-|[myRequests](../api/privilegedapproval-myrequests.md)|[privilegedApproval](../resources/privilegedApproval.md) collection||
-|[Get privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-get.md)|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)|Read properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
-|[Get privilegedRole](../api/privilegedrole-get.md)|[privilegedRole](../resources/privilegedRole.md)|Read properties and relationships of the [privilegedRole](../resources/privilegedrole.md) object.|
+|[Update privilegedApproval](../api/privilegedapproval-update.md)|[privilegedApproval](../resources/privilegedapproval.md)|Update the properties of a [privilegedApproval](../resources/privilegedapproval.md) object.|
+|[myRequests](../api/privilegedapproval-myrequests.md)|[privilegedApproval](../resources/privilegedapproval.md) collection||
+|[Get privilegedRoleAssignmentRequest](../api/privilegedroleassignmentrequest-get.md)|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)|Read properties and relationships of the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.|
+|[Get privilegedRole](../api/privilegedrole-get.md)|[privilegedRole](../resources/privilegedrole.md)|Read properties and relationships of the [privilegedRole](../resources/privilegedrole.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,8 +46,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|request|[privilegedRoleAssignmentRequest](../resources/privilegedRoleAssignmentRequest.md)||
-|roleInfo|[privilegedRole](../resources/privilegedRole.md)||
+|request|[privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md)||
+|roleInfo|[privilegedRole](../resources/privilegedrole.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

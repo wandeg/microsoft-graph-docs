@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete businessFlow
 
+Namespace: microsoft.graph
+
 Deletes a [businessFlow](../resources/businessflow.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlows/{businessFlowId}
+DELETE https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlows/{businessFlowId}
 ```
 
 ### Response

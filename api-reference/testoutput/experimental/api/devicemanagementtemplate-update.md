@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementTemplate](../resources/devicemanagementtemplate.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /deviceManagement/templates/{deviceManagementTemplateId}/migratableTo/{dev
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementTemplate](../resources/deviceManagementTemplate.md) object.
+In the request body, supply a JSON representation for the [deviceManagementTemplate](../resources/devicemanagementtemplate.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementTemplate](../resources/devicemanagementtemplate.md).
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}
 Content-type: application/json
 Content-length: 351
 
@@ -80,7 +82,7 @@ Content-length: 351
   "intentCount": 11,
   "templateType": "String",
   "platformType": "String",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
 }
 ```
 
@@ -98,7 +100,7 @@ Content-Length: 400
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTemplate",
-  "id": "a8e043a7-43a7-a8e0-a743-e0a8a743e0a8",
+  "id": "3139fa01-fa01-3139-01fa-393101fa3931",
   "displayName": "Display Name value",
   "description": "Description value",
   "versionInfo": "Version Info value",
@@ -106,7 +108,7 @@ Content-Length: 400
   "intentCount": 11,
   "templateType": "String",
   "platformType": "String",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00"
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
 }
 ```
 

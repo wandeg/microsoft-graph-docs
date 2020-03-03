@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # reject
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/reject
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/reject
 
 Content-type: application/json
 Content-length: 66

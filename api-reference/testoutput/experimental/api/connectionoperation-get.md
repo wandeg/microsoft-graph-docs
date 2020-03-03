@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get connectionOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [connectionOperation](../resources/connectionoperation.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/connections/{connectionsId}/operations/{connectionOperationId}
+GET https://graph.microsoft.com/localtest/connections/{connectionsId}/operations/{connectionOperationId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 459
 {
   "value": {
     "@odata.type": "#microsoft.graph.connectionOperation",
-    "id": "730868f2-68f2-7308-f268-0873f2680873",
+    "id": "21156cef-6cef-2115-ef6c-1521ef6c1521",
     "status": "String",
     "error": {
       "@odata.type": "microsoft.graph.errorDetail",

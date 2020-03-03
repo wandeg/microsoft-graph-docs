@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsKioskLocalUser resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsKioskUser](../resources/windowsKioskUser.md)
+
+
+Inherits from [windowsKioskUser](../resources/windowskioskuser.md)
 
 ## Properties
 |Property|Type|Description|

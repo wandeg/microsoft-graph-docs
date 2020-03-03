@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # command resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List commands](../api/command-list.md)|[command](../resources/command.md) collection|List properties and relationships of the [command](../resources/command.md) objects.|
 |[Get command](../api/command-get.md)|[command](../resources/command.md)|Read properties and relationships of the [command](../resources/command.md) object.|
+|[Create command](../api/command-post-commands.md)|[command](../resources/command.md)|Create a new [command](../resources/command.md) object.|
 |[Delete command](../api/command-delete.md)|None|Deletes a [command](../resources/command.md).|
 |[Update command](../api/command-update.md)|[command](../resources/command.md)|Update the properties of a [command](../resources/command.md) object.|
-|[Get payloadResponse](../api/payloadresponse-get.md)|[payloadResponse](../resources/payloadResponse.md)|Read properties and relationships of the [payloadResponse](../resources/payloadresponse.md) object.|
+|[Get payloadResponse](../api/payloadresponse-get.md)|[payloadResponse](../resources/payloadresponse.md)|Read properties and relationships of the [payloadResponse](../resources/payloadresponse.md) object.|
 |[List commands](../api/device-list-commands.md)|[command](../resources/command.md) collection|Get the commands from the commands navigation property.|
 |[Add commands](../api/device-post-commands.md)|[command](../resources/command.md)|Add commands by posting to the commands collection.|
 
@@ -33,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 |Error|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |PackageFamilyName|String||
-|Payload|[PayloadRequest](../resources/PayloadRequest.md)||
+|Payload|[PayloadRequest](../resources/payloadrequest.md)||
 |PermissionTicket|String||
 |PostBackUri|String||
 |Status|String||
@@ -42,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|responsepayload|[payloadResponse](../resources/payloadResponse.md)||
+|responsepayload|[payloadResponse](../resources/payloadresponse.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

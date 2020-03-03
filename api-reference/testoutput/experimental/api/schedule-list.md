@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List schedules
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [schedule](../resources/schedule.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.schedule not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.schedule not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 578
   "value": [
     {
       "@odata.type": "#microsoft.graph.schedule",
-      "id": "2bfb7474-7474-2bfb-7474-fb2b7474fb2b",
+      "id": "9206b179-b179-9206-79b1-069279b10692",
       "enabled": true,
       "timeZone": "Time Zone value",
       "provisionStatus": "String",

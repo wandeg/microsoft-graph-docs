@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # detectedSensitiveContentWrapper resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|classification|[detectedSensitiveContent](../resources/detectedSensitiveContent.md) collection||
+|classification|[detectedSensitiveContent](../resources/detectedsensitivecontent.md) collection||
 
 ## Relationships
 None

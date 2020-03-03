@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # policySetItem resource type
+
+
+Namespace: microsoft.graph
 
 A class containing the properties used for PolicySet Item.
 
@@ -19,7 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get policySetItem](../api/policysetitem-get.md)|[policySetItem](../resources/policySetItem.md)|Read properties and relationships of the [policySetItem](../resources/policysetitem.md) object.|
+|[List policySetItems](../api/policysetitem-list.md)|[policySetItem](../resources/policysetitem.md) collection|List properties and relationships of the [policySetItem](../resources/policysetitem.md) objects.|
+|[Get policySetItem](../api/policysetitem-get.md)|[policySetItem](../resources/policysetitem.md)|Read properties and relationships of the [policySetItem](../resources/policysetitem.md) object.|
 
 ## Properties
 |Property|Type|Description|

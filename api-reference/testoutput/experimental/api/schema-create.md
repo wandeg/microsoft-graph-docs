@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create schema
 
+Namespace: microsoft.graph
+
 Create a new [schema](../resources/schema.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.schema not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the schema object.
+In the request body, supply a JSON representation for the [schema](../resources/schema.md) object.
 
-The following table shows the properties that are required when you create the schema.
+The following table shows the properties that are required when you create the [schema](../resources/schema.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.schema not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.schema not found
 Content-type: application/json
 Content-length: 311
 
@@ -96,7 +98,7 @@ Content-Length: 360
 
 {
   "@odata.type": "#microsoft.graph.schema",
-  "id": "cf2d9a22-9a22-cf2d-229a-2dcf229a2dcf",
+  "id": "22a09afe-9afe-22a0-fe9a-a022fe9aa022",
   "baseType": "Base Type value",
   "properties": [
     {

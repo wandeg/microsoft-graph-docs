@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List companies
 
+Namespace: microsoft.graph
+
 Get the companies from the companies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies
+GET https://graph.microsoft.com/localtest/financials/companies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.company",
-      "id": "23c67a93-7a93-23c6-937a-c623937ac623",
+      "id": "deae77e1-77e1-deae-e177-aedee177aede",
       "systemVersion": "System Version value",
       "name": "Name value",
       "displayName": "Display Name value",

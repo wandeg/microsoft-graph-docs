@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add messageRules
 
+Namespace: microsoft.graph
+
 Add messageRules by posting to the messageRules collection.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST /me/mailFolders/{mailFolderId}/messageRules/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the messageRule object.
+In the request body, supply a JSON representation for the [messageRule](../resources/messagerule.md) object.
 
-The following table shows the properties that are required when you create the messageRule.
+The following table shows the properties that are required when you create the [messageRule](../resources/messagerule.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |sequence|Int32||
-|conditions|[messageRulePredicates](../resources/messageRulePredicates.md)||
-|actions|[messageRuleActions](../resources/messageRuleActions.md)||
-|exceptions|[messageRulePredicates](../resources/messageRulePredicates.md)||
+|conditions|[messageRulePredicates](../resources/messagerulepredicates.md)||
+|actions|[messageRuleActions](../resources/messageruleactions.md)||
+|exceptions|[messageRulePredicates](../resources/messagerulepredicates.md)||
 |isEnabled|Boolean||
 |hasError|Boolean||
 |isReadOnly|Boolean||
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/messageRules
+POST https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/messageRules
 Content-type: application/json
 Content-length: 2586
 
@@ -191,7 +193,7 @@ Content-Length: 2635
 
 {
   "@odata.type": "#microsoft.graph.messageRule",
-  "id": "6f611641-1641-6f61-4116-616f4116616f",
+  "id": "b250e382-e382-b250-82e3-50b282e350b2",
   "displayName": "Display Name value",
   "sequence": 8,
   "conditions": {

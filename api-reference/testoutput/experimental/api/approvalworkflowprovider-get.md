@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get approvalWorkflowProvider
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [approvalWorkflowProvider](../resources/approvalworkflowprovider.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}
+GET https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 180
 {
   "value": {
     "@odata.type": "#microsoft.graph.approvalWorkflowProvider",
-    "id": "27c89cb1-9cb1-27c8-b19c-c827b19cc827",
+    "id": "966bc148-c148-966b-48c1-6b9648c16b96",
     "displayName": "Display Name value"
   }
 }

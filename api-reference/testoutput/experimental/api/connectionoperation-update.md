@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update connectionOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [connectionOperation](../resources/connectionoperation.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /external/connections/{externalConnectionId}/operations/{connectionOperati
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [connectionOperation](../resources/connectionOperation.md) object.
+In the request body, supply a JSON representation for the [connectionOperation](../resources/connectionoperation.md) object.
 
 The following table shows the properties that are required when you create the [connectionOperation](../resources/connectionoperation.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |status|Enumeration|. Possible values are: `unspecified`, `inprogress`, `completed`, `failed`.|
-|error|[errorDetail](../resources/errorDetail.md)||
+|error|[errorDetail](../resources/errordetail.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/connections/{connectionsId}/operations/{connectionOperationId}
+PATCH https://graph.microsoft.com/localtest/connections/{connectionsId}/operations/{connectionOperationId}
 Content-type: application/json
 Content-length: 363
 
@@ -96,7 +98,7 @@ Content-Length: 412
 
 {
   "@odata.type": "#microsoft.graph.connectionOperation",
-  "id": "730868f2-68f2-7308-f268-0873f2680873",
+  "id": "21156cef-6cef-2115-ef6c-1521ef6c1521",
   "status": "String",
   "error": {
     "@odata.type": "microsoft.graph.errorDetail",

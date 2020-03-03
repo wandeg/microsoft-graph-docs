@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get columnDefinition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [columnDefinition](../resources/columndefinition.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}/columns/{columnDefinitionId}
+GET https://graph.microsoft.com/localtest/sites/{sitesId}/columns/{columnDefinitionId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 2192
 {
   "value": {
     "@odata.type": "#microsoft.graph.columnDefinition",
-    "id": "263a4ff4-4ff4-263a-f44f-3a26f44f3a26",
+    "id": "93f728eb-28eb-93f7-eb28-f793eb28f793",
     "boolean": {
       "@odata.type": "microsoft.graph.booleanColumn"
     },

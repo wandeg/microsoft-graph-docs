@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # iPv6CidrRange resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [ipRange](../resources/ipRange.md)
+
+
+Inherits from [ipRange](../resources/iprange.md)
 
 ## Properties
 |Property|Type|Description|

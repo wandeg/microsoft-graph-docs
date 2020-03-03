@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementTemplateSettingCategory
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementTemplateSettingCategory](../resources/devicemanagementtemplatesettingcategory.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/categories/{deviceManagementTemplateSettingCategoryId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/categories/{deviceManagementTemplateSettingCategoryId}
 ```
 
 ### Response

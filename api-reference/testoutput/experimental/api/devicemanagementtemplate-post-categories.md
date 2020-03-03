@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add categories
 
+Namespace: microsoft.graph
+
 Add categories by posting to the categories collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceManagement/templates/{deviceManagementTemplateId}/categories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementTemplateSettingCategory object.
+In the request body, supply a JSON representation for the [deviceManagementTemplateSettingCategory](../resources/devicemanagementtemplatesettingcategory.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementTemplateSettingCategory.
+The following table shows the properties that are required when you create the [deviceManagementTemplateSettingCategory](../resources/devicemanagementtemplatesettingcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The category name Inherited from [deviceManagementSettingCategory](../resources/deviceManagementSettingCategory.md)|
+|displayName|String|The category name Inherited from [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md)|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/categories
+POST https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/categories
 Content-type: application/json
 Content-length: 121
 
@@ -85,7 +87,7 @@ Content-Length: 170
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTemplateSettingCategory",
-  "id": "ff7e4b11-4b11-ff7e-114b-7eff114b7eff",
+  "id": "85aff74b-f74b-85af-4bf7-af854bf7af85",
   "displayName": "Display Name value"
 }
 ```

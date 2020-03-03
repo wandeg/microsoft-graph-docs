@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create categories
 
+Namespace: microsoft.graph
+
 Create categories by posting to the categories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedEBooks/{managedEBookId}/categories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedEBookCategory object.
+In the request body, supply a JSON representation for the [managedEBookCategory](../resources/managedebookcategory.md) object.
 
-The following table shows the properties that are required when you create the managedEBookCategory.
+The following table shows the properties that are required when you create the [managedEBookCategory](../resources/managedebookcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/categories
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/categories
 Content-type: application/json
 Content-length: 102
 
@@ -86,9 +88,9 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.managedEBookCategory",
-  "id": "140b431f-431f-140b-1f43-0b141f430b14",
+  "id": "75c9c15e-c15e-75c9-5ec1-c9755ec1c975",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

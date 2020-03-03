@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onenotePagePreview resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|links|[onenotePagePreviewLinks](../resources/onenotePagePreviewLinks.md)||
+|links|[onenotePagePreviewLinks](../resources/onenotepagepreviewlinks.md)||
 |previewText|String||
 
 ## Relationships

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementUserRightsSetting resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|localUsersOrGroups|[deviceManagementUserRightsLocalUserOrGroup](../resources/deviceManagementUserRightsLocalUserOrGroup.md) collection|Representing a collection of local users or groups which will be set on device if the state of this setting is Allowed. This collection can contain a maximum of 500 elements.|
+|localUsersOrGroups|[deviceManagementUserRightsLocalUserOrGroup](../resources/devicemanagementuserrightslocaluserorgroup.md) collection|Representing a collection of local users or groups which will be set on device if the state of this setting is Allowed. This collection can contain a maximum of 500 elements.|
 |state|Enumeration|Representing the current state of this user rights setting. Possible values are: `notConfigured`, `blocked`, `allowed`.|
 
 ## Relationships

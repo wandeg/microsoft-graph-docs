@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update customerPaymentJournal
 
+Namespace: microsoft.graph
+
 Update the properties of a [customerPaymentJournal](../resources/customerpaymentjournal.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/customerPaymentJournals/{customerPayment
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [customerPaymentJournal](../resources/customerPaymentJournal.md) object.
+In the request body, supply a JSON representation for the [customerPaymentJournal](../resources/customerpaymentjournal.md) object.
 
 The following table shows the properties that are required when you create the [customerPaymentJournal](../resources/customerpaymentjournal.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
 Content-type: application/json
 Content-length: 257
 
@@ -71,7 +73,7 @@ Content-length: 257
   "@odata.type": "#microsoft.graph.customerPaymentJournal",
   "code": "Code value",
   "displayName": "Display Name value",
-  "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```
@@ -90,11 +92,11 @@ Content-Length: 370
 
 {
   "@odata.type": "#microsoft.graph.customerPaymentJournal",
-  "id": "0757ea13-ea13-0757-13ea-570713ea5707",
+  "id": "eb324685-4685-eb32-8546-32eb854632eb",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```

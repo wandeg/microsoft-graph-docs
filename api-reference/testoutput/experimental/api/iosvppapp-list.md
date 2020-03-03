@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosVppApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosVppApp](../resources/iosvppapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosVppApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosVppApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2430
+Content-Length: 2429
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosVppApp",
-      "id": "091bce6b-ce6b-091b-6bce-1b096bce1b09",
+      "id": "75e41546-1546-75e4-4615-e4754615e475",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 2430
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",
@@ -96,7 +98,7 @@ Content-Length: 2430
       "dependentAppCount": 1,
       "usedLicenseCount": 0,
       "totalLicenseCount": 1,
-      "releaseDateTime": "2017-01-01T00:02:16.7325545+03:00",
+      "releaseDateTime": "2017-01-01T00:01:36.1612104+03:00",
       "appStoreUrl": "https://example.com/appStoreUrl/",
       "licensingType": {
         "@odata.type": "microsoft.graph.vppLicensingType",
@@ -125,8 +127,8 @@ Content-Length: 2430
           "actionFailureReason": "String",
           "actionName": "Action Name value",
           "actionState": "String",
-          "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-          "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+          "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
         }
       ]
     }

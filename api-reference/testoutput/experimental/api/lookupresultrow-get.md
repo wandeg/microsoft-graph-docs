@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get lookupResultRow
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [lookupResultRow](../resources/lookupresultrow.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.lookupResultRow not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.lookupResultRow not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 154
 {
   "value": {
     "@odata.type": "#microsoft.graph.lookupResultRow",
-    "id": "6cfc5585-5585-6cfc-8555-fc6c8555fc6c",
+    "id": "bacdab0b-ab0b-bacd-0bab-cdba0babcdba",
     "row": "Row value"
   }
 }

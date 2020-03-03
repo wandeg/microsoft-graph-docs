@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update signIn
 
+Namespace: microsoft.graph
+
 Update the properties of a [signIn](../resources/signin.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /auditLogs/signIns/{signInId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [signIn](../resources/signIn.md) object.
+In the request body, supply a JSON representation for the [signIn](../resources/signin.md) object.
 
 The following table shows the properties that are required when you create the [signIn](../resources/signin.md).
 
@@ -45,21 +47,21 @@ The following table shows the properties that are required when you create the [
 |alternateSignInName|String||
 |appDisplayName|String||
 |appId|String||
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection||
-|authenticationDetails|[authenticationDetail](../resources/authenticationDetail.md) collection||
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection||
+|authenticationDetails|[authenticationDetail](../resources/authenticationdetail.md) collection||
 |authenticationMethodsUsed|String collection||
-|authenticationProcessingDetails|[keyValue](../resources/keyValue.md) collection||
-|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationRequirementPolicy.md) collection||
+|authenticationProcessingDetails|[keyValue](../resources/keyvalue.md) collection||
+|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationrequirementpolicy.md) collection||
 |clientAppUsed|String||
 |conditionalAccessStatus|Enumeration|. Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
 |correlationId|String||
 |createdDateTime|DateTimeOffset||
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)||
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)||
 |isInteractive|Boolean||
 |ipAddress|String||
-|location|[signInLocation](../resources/signInLocation.md)||
-|mfaDetail|[mfaDetail](../resources/mfaDetail.md)||
-|networkLocationDetails|[networkLocationDetail](../resources/networkLocationDetail.md) collection||
+|location|[signInLocation](../resources/signinlocation.md)||
+|mfaDetail|[mfaDetail](../resources/mfadetail.md)||
+|networkLocationDetails|[networkLocationDetail](../resources/networklocationdetail.md) collection||
 |originalRequestId|String||
 |processingTimeInMilliseconds|Int32||
 |riskDetail|Enumeration|. Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
@@ -71,7 +73,7 @@ The following table shows the properties that are required when you create the [
 |resourceId|String||
 |servicePrincipalId|String||
 |servicePrincipalName|String||
-|status|[signInStatus](../resources/signInStatus.md)||
+|status|[signInStatus](../resources/signinstatus.md)||
 |tokenIssuerName|String||
 |tokenIssuerType|Enumeration|. Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
 |userAgent|String||
@@ -94,7 +96,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/auditLogs/signIns/{signInId}
+PATCH https://graph.microsoft.com/localtest/auditLogs/signIns/{signInId}
 Content-type: application/json
 Content-length: 3783
 
@@ -122,7 +124,7 @@ Content-length: 3783
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -226,11 +228,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3891
+Content-Length: 3890
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "88ef00a4-00a4-88ef-a400-ef88a400ef88",
+  "id": "f53a2b7b-2b7b-f53a-7b2b-3af57b2b3af5",
   "alternateSignInName": "Alternate Sign In Name value",
   "appDisplayName": "App Display Name value",
   "appId": "App Id value",
@@ -253,7 +255,7 @@ Content-Length: 3891
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -281,7 +283,7 @@ Content-Length: 3891
   "clientAppUsed": "Client App Used value",
   "conditionalAccessStatus": "String",
   "correlationId": "Correlation Id value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "deviceDetail": {
     "@odata.type": "microsoft.graph.deviceDetail",
     "deviceId": "Device Id value",

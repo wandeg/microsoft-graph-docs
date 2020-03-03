@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsManagementAppHealthSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the health summary of the Windows management app.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsManagementAppHealthSummaries](../api/intune-devices-windowsmanagementapphealthsummary-list.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsManagementAppHealthSummary.md) collection|List properties and relationships of the [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) objects.|
-|[Get windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-get.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsManagementAppHealthSummary.md)|Read properties and relationships of the [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) object.|
-|[Create windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-create.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsManagementAppHealthSummary.md)|Create a new [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) object.|
-|[Delete windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-delete.md)|None|Deletes a [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md).|
-|[Update windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-update.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsManagementAppHealthSummary.md)|Update the properties of a [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) object.|
+|[List windowsManagementAppHealthSummaries](../api/intune-devices-windowsmanagementapphealthsummary-list.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) collection|List properties and relationships of the [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) objects.|
+|[Get windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-get.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md)|Read properties and relationships of the [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object.|
+|[Create windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-create.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md)|Create a new [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object.|
+|[Delete windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-delete.md)|None|Deletes a [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md).|
+|[Update windowsManagementAppHealthSummary](../api/intune-devices-windowsmanagementapphealthsummary-update.md)|[windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md)|Update the properties of a [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

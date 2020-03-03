@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # yammerActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List yammerActivityUserDetails](../api/yammeractivityuserdetail-list.md)|[yammerActivityUserDetail](../resources/yammerActivityUserDetail.md) collection|List properties and relationships of the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) objects.|
-|[Get yammerActivityUserDetail](../api/yammeractivityuserdetail-get.md)|[yammerActivityUserDetail](../resources/yammerActivityUserDetail.md)|Read properties and relationships of the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
-|[Create yammerActivityUserDetail](../api/yammeractivityuserdetail-create.md)|[yammerActivityUserDetail](../resources/yammerActivityUserDetail.md)|Create a new [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
+|[List yammerActivityUserDetails](../api/yammeractivityuserdetail-list.md)|[yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) collection|List properties and relationships of the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) objects.|
+|[Get yammerActivityUserDetail](../api/yammeractivityuserdetail-get.md)|[yammerActivityUserDetail](../resources/yammeractivityuserdetail.md)|Read properties and relationships of the [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
+|[Create yammerActivityUserDetail](../api/yammeractivityuserdetail-create.md)|[yammerActivityUserDetail](../resources/yammeractivityuserdetail.md)|Create a new [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
 |[Delete yammerActivityUserDetail](../api/yammeractivityuserdetail-delete.md)|None|Deletes a [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md).|
-|[Update yammerActivityUserDetail](../api/yammeractivityuserdetail-update.md)|[yammerActivityUserDetail](../resources/yammerActivityUserDetail.md)|Update the properties of a [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
+|[Update yammerActivityUserDetail](../api/yammeractivityuserdetail-update.md)|[yammerActivityUserDetail](../resources/yammeractivityuserdetail.md)|Update the properties of a [yammerActivityUserDetail](../resources/yammeractivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

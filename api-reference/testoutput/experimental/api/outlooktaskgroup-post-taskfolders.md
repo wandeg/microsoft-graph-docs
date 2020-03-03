@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add taskFolders
 
+Namespace: microsoft.graph
+
 Add taskFolders by posting to the taskFolders collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the outlookTaskFolder object.
+In the request body, supply a JSON representation for the [outlookTaskFolder](../resources/outlooktaskfolder.md) object.
 
-The following table shows the properties that are required when you create the outlookTaskFolder.
+The following table shows the properties that are required when you create the [outlookTaskFolder](../resources/outlooktaskfolder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders
+POST https://graph.microsoft.com/localtest/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders
 Content-type: application/json
 Content-length: 209
 
@@ -72,7 +74,7 @@ Content-length: 209
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "b2d07fae-7fae-b2d0-ae7f-d0b2ae7fd0b2"
+  "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
 }
 ```
 
@@ -91,11 +93,11 @@ Content-Length: 258
 
 {
   "@odata.type": "#microsoft.graph.outlookTaskFolder",
-  "id": "a33aa597-a597-a33a-97a5-3aa397a53aa3",
+  "id": "e4c83b09-3b09-e4c8-093b-c8e4093bc8e4",
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "b2d07fae-7fae-b2d0-ae7f-d0b2ae7fd0b2"
+  "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
 }
 ```
 

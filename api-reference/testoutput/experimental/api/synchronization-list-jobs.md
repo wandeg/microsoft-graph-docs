@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List jobs
 
+Namespace: microsoft.graph
+
 Get the synchronizationJobs from the jobs navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3047
+Content-Length: 3046
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.synchronizationJob",
-      "id": "a2c358f2-58f2-a2c3-f258-c3a2f258c3a2",
+      "id": "b8997069-7069-b899-6970-99b8697099b8",
       "templateId": "Template Id value",
       "schedule": {
         "@odata.type": "microsoft.graph.synchronizationSchedule",
-        "expiration": "2016-12-31T23:56:39.5472388+03:00",
-        "interval": "PT2M25.093322S",
+        "expiration": "2016-12-31T23:57:48.0321632+03:00",
+        "interval": "-PT2M35.6823926S",
         "state": "String"
       },
       "status": {
@@ -102,8 +104,8 @@ Content-Length: 3047
             "message": "Message value",
             "tenantActionable": true
           },
-          "timeBegan": "2016-12-31T23:58:53.4947735+03:00",
-          "timeEnded": "2016-12-31T23:58:13.1246605+03:00"
+          "timeBegan": "2016-12-31T23:56:38.758188+03:00",
+          "timeEnded": "2017-01-01T00:00:59.4792075+03:00"
         },
         "lastSuccessfulExecution": {
           "@odata.type": "microsoft.graph.synchronizationTaskExecution"
@@ -115,21 +117,21 @@ Content-Length: 3047
           {
             "@odata.type": "microsoft.graph.synchronizationProgress",
             "completedUnits": 14,
-            "progressObservationDateTime": "2017-01-01T00:03:15.9876946+03:00",
+            "progressObservationDateTime": "2016-12-31T23:58:06.548007+03:00",
             "totalUnits": 10,
             "units": "Units value"
           }
         ],
         "quarantine": {
           "@odata.type": "microsoft.graph.synchronizationQuarantine",
-          "currentBegan": "2017-01-01T00:01:03.4090256+03:00",
-          "nextAttempt": "2017-01-01T00:01:38.5156912+03:00",
+          "currentBegan": "2016-12-31T23:57:24.2893083+03:00",
+          "nextAttempt": "2016-12-31T23:59:51.872306+03:00",
           "reason": "String",
-          "seriesBegan": "2016-12-31T23:57:22.9254581+03:00",
+          "seriesBegan": "2017-01-01T00:00:37.242502+03:00",
           "seriesCount": 11
         },
-        "steadyStateFirstAchievedTime": "2017-01-01T00:00:09.893615+03:00",
-        "steadyStateLastAchievedTime": "2016-12-31T23:58:03.7785912+03:00",
+        "steadyStateFirstAchievedTime": "2016-12-31T23:57:16.2528743+03:00",
+        "steadyStateLastAchievedTime": "2016-12-31T23:59:10.0513884+03:00",
         "synchronizedEntryCountByType": [
           {
             "@odata.type": "microsoft.graph.stringKeyLongValuePair",

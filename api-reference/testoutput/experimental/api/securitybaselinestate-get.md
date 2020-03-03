@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get securityBaselineState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [securityBaselineState](../resources/securitybaselinestate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 251
 {
   "value": {
     "@odata.type": "#microsoft.graph.securityBaselineState",
-    "id": "22d26ce1-6ce1-22d2-e16c-d222e16cd222",
+    "id": "50ee8edf-8edf-50ee-df8e-ee50df8eee50",
     "securityBaselineTemplateId": "Security Baseline Template Id value",
     "displayName": "Display Name value"
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete identityUserFlow
 
+Namespace: microsoft.graph
+
 Deletes a [identityUserFlow](../resources/identityuserflow.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/identity/userFlows/{identityUserFlowId}
+DELETE https://graph.microsoft.com/localtest/identity/userFlows/{identityUserFlowId}
 ```
 
 ### Response

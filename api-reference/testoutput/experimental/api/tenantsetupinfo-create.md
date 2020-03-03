@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create tenantSetupInfo
 
+Namespace: microsoft.graph
+
 Create a new [tenantSetupInfo](../resources/tenantsetupinfo.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.tenantSetupInfo not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the tenantSetupInfo object.
+In the request body, supply a JSON representation for the [tenantSetupInfo](../resources/tenantsetupinfo.md) object.
 
-The following table shows the properties that are required when you create the tenantSetupInfo.
+The following table shows the properties that are required when you create the [tenantSetupInfo](../resources/tenantsetupinfo.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.tenantSetupInfo not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.tenantSetupInfo not found
 Content-type: application/json
 Content-length: 258
 
@@ -95,7 +97,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.tenantSetupInfo",
-  "id": "0594d45c-d45c-0594-5cd4-94055cd49405",
+  "id": "eb5fba04-ba04-eb5f-04ba-5feb04ba5feb",
   "userRolesActions": "User Roles Actions value",
   "firstTimeSetup": true,
   "relevantRolesSettings": [

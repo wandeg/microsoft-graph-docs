@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get depEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.depEnrollmentProfile not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.depEnrollmentProfile not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1499
 {
   "value": {
     "@odata.type": "#microsoft.graph.depEnrollmentProfile",
-    "id": "a0fcd748-d748-a0fc-48d7-fca048d7fca0",
+    "id": "69fb20d3-20d3-69fb-d320-fb69d320fb69",
     "displayName": "Display Name value",
     "description": "Description value",
     "requiresUserAuthentication": true,

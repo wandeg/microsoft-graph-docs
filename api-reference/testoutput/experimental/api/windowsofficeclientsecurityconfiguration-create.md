@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windowsOfficeClientSecurityConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windowsOfficeClientSecurityConfiguration](../resources/windowsofficeclientsecurityconfiguration.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST ** Collection URI for microsoft.graph.windowsOfficeClientSecurityConfigurat
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsOfficeClientSecurityConfiguration object.
+In the request body, supply a JSON representation for the [windowsOfficeClientSecurityConfiguration](../resources/windowsofficeclientsecurityconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windowsOfficeClientSecurityConfiguration.
+The following table shows the properties that are required when you create the [windowsOfficeClientSecurityConfiguration](../resources/windowsofficeclientsecurityconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|userPreferencePayload|Stream| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|policyPayload|Stream| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|description|String| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|displayName|String| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|priority|Int32| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|userCheckinSummary|[officeUserCheckinSummary](../resources/officeUserCheckinSummary.md)| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|checkinStatuses|[officeClientCheckinStatus](../resources/officeClientCheckinStatus.md) collection| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
+|userPreferencePayload|Stream| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|policyPayload|Stream| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|description|String| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|displayName|String| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|priority|Int32| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|userCheckinSummary|[officeUserCheckinSummary](../resources/officeusercheckinsummary.md)| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|checkinStatuses|[officeClientCheckinStatus](../resources/officeclientcheckinstatus.md) collection| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsOfficeClientSecurityConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsOfficeClientSecurityConfiguration not found
 Content-type: application/json
 Content-length: 970
 
@@ -91,7 +93,7 @@ Content-length: 970
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"
@@ -116,7 +118,7 @@ Content-Length: 1019
 
 {
   "@odata.type": "#microsoft.graph.windowsOfficeClientSecurityConfiguration",
-  "id": "1a5bb521-b521-1a5b-21b5-5b1a21b55b1a",
+  "id": "99f3de62-de62-99f3-62de-f39962def399",
   "userPreferencePayload": "Stream",
   "policyPayload": "Stream",
   "description": "Description value",
@@ -136,7 +138,7 @@ Content-Length: 1019
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementExportJob resource type
+
+
+Namespace: microsoft.graph
 
 Entity representing a job to export a report
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementExportJob](../api/devicemanagementexportjob-get.md)|[deviceManagementExportJob](../resources/deviceManagementExportJob.md)|Read properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
+|[List deviceManagementExportJobs](../api/devicemanagementexportjob-list.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md) collection|List properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) objects.|
+|[Get deviceManagementExportJob](../api/devicemanagementexportjob-get.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Read properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
+|[Create deviceManagementExportJob](../api/devicemanagementexportjob-create.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Create a new [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
 |[Delete deviceManagementExportJob](../api/devicemanagementexportjob-delete.md)|None|Deletes a [deviceManagementExportJob](../resources/devicemanagementexportjob.md).|
-|[Update deviceManagementExportJob](../api/devicemanagementexportjob-update.md)|[deviceManagementExportJob](../resources/deviceManagementExportJob.md)|Update the properties of a [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
+|[Update deviceManagementExportJob](../api/devicemanagementexportjob-update.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Update the properties of a [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
 
 ## Properties
 |Property|Type|Description|

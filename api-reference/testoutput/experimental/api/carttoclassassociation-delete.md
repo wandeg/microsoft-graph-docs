@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete cartToClassAssociation
 
+Namespace: microsoft.graph
+
 Deletes a [cartToClassAssociation](../resources/carttoclassassociation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/cartToClassAssociations/{cartToClassAssociationId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/cartToClassAssociations/{cartToClassAssociationId}
 ```
 
 ### Response

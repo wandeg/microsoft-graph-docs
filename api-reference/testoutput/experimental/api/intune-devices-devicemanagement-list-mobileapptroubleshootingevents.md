@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mobileAppTroubleshootingEvents
 
+Namespace: microsoft.graph
+
 Get the mobileAppTroubleshootingEvents from the mobileAppTroubleshootingEvents navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/mobileAppTroubleshootingEvents
+GET https://graph.microsoft.com/localtest/deviceManagement/mobileAppTroubleshootingEvents
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 1384
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-      "id": "86798857-8857-8679-5788-798657887986",
-      "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+      "id": "4b1b7b68-7b68-4b1b-687b-1b4b687b1b4b",
+      "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
       "correlationId": "Correlation Id value",
       "troubleshootingErrorDetails": {
         "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -101,7 +103,7 @@ Content-Length: 1384
       "history": [
         {
           "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-          "occurrenceDateTime": "2017-01-01T00:00:20.0612233+03:00"
+          "occurrenceDateTime": "2017-01-01T00:00:25.0683756+03:00"
         }
       ]
     }

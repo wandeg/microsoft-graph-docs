@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List names
 
+Namespace: microsoft.graph
+
 Get the workbookNamedItems from the names navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 372
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookNamedItem",
-      "id": "8e64bc7c-bc7c-8e64-7cbc-648e7cbc648e",
+      "id": "c74a65c6-65c6-c74a-c665-4ac7c6654ac7",
       "comment": "Comment value",
       "name": "Name value",
       "scope": "Scope value",

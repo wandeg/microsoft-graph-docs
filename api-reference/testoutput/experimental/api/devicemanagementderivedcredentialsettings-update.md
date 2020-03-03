@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementDerivedCredentialSettings
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementDerivedCredentialSettings](../resources/devicemanagementderivedcredentialsettings.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSet
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementDerivedCredentialSettings](../resources/deviceManagementDerivedCredentialSettings.md) object.
+In the request body, supply a JSON representation for the [deviceManagementDerivedCredentialSettings](../resources/devicemanagementderivedcredentialsettings.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementDerivedCredentialSettings](../resources/devicemanagementderivedcredentialsettings.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
 Content-type: application/json
 Content-length: 225
 
@@ -89,7 +91,7 @@ Content-Length: 274
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementDerivedCredentialSettings",
-  "id": "e613e12d-e12d-e613-2de1-13e62de113e6",
+  "id": "91cc585e-585e-91cc-5e58-cc915e58cc91",
   "helpUrl": "https://example.com/helpUrl/",
   "displayName": "Display Name value",
   "issuer": "String",

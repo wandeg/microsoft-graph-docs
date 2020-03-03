@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookApplication resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookApplications](../api/workbookapplication-list.md)|[workbookApplication](../resources/workbookApplication.md) collection|List properties and relationships of the [workbookApplication](../resources/workbookapplication.md) objects.|
-|[Get workbookApplication](../api/workbookapplication-get.md)|[workbookApplication](../resources/workbookApplication.md)|Read properties and relationships of the [workbookApplication](../resources/workbookapplication.md) object.|
-|[Create workbookApplication](../api/workbookapplication-create.md)|[workbookApplication](../resources/workbookApplication.md)|Create a new [workbookApplication](../resources/workbookapplication.md) object.|
+|[List workbookApplications](../api/workbookapplication-list.md)|[workbookApplication](../resources/workbookapplication.md) collection|List properties and relationships of the [workbookApplication](../resources/workbookapplication.md) objects.|
+|[Get workbookApplication](../api/workbookapplication-get.md)|[workbookApplication](../resources/workbookapplication.md)|Read properties and relationships of the [workbookApplication](../resources/workbookapplication.md) object.|
+|[Create workbookApplication](../api/workbookapplication-create.md)|[workbookApplication](../resources/workbookapplication.md)|Create a new [workbookApplication](../resources/workbookapplication.md) object.|
 |[Delete workbookApplication](../api/workbookapplication-delete.md)|None|Deletes a [workbookApplication](../resources/workbookapplication.md).|
-|[Update workbookApplication](../api/workbookapplication-update.md)|[workbookApplication](../resources/workbookApplication.md)|Update the properties of a [workbookApplication](../resources/workbookapplication.md) object.|
+|[Update workbookApplication](../api/workbookapplication-update.md)|[workbookApplication](../resources/workbookapplication.md)|Update the properties of a [workbookApplication](../resources/workbookapplication.md) object.|
 
 ## Properties
 |Property|Type|Description|

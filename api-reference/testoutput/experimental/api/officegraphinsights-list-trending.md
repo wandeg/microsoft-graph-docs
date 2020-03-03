@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List trending
 
+Namespace: microsoft.graph
+
 Get the trendings from the trending navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/trending
+GET https://graph.microsoft.com/localtest/me/insights/trending
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 923
   "value": [
     {
       "@odata.type": "#microsoft.graph.trending",
-      "id": "cdaa1dcd-1dcd-cdaa-cd1d-aacdcd1daacd",
+      "id": "3e89307c-307c-3e89-7c30-893e7c30893e",
       "weight": "Double",
       "resourceVisualization": {
         "@odata.type": "microsoft.graph.resourceVisualization",
@@ -88,7 +90,7 @@ Content-Length: 923
         "webUrl": "https://example.com/webUrl/",
         "id": "Id value"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # attributeMapping resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,7 +22,7 @@ Namespace: microsoft.graph
 |flowBehavior|Enumeration|. Possible values are: `FlowWhenChanged`, `FlowAlways`.|
 |flowType|Enumeration|. Possible values are: `Always`, `ObjectAddOnly`, `MultiValueAddOnly`.|
 |matchingPriority|Int32||
-|source|[attributeMappingSource](../resources/attributeMappingSource.md)||
+|source|[attributeMappingSource](../resources/attributemappingsource.md)||
 |targetAttributeName|String||
 
 ## Relationships

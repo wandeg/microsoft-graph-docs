@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # contentClassification resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |confidence|Int32||
-|matches|[matchLocation](../resources/matchLocation.md) collection||
+|matches|[matchLocation](../resources/matchlocation.md) collection||
 |sensitiveTypeId|String||
 |uniqueCount|Int32||
 

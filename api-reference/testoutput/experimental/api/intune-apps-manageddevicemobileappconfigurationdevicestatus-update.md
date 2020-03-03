@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update managedDeviceMobileAppConfigurationDeviceStatus
 
-Update the properties of a [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ PATCH /deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/managedDeviceMobileAppConfigurationDeviceStatus.md) object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) object.
 
-The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md).
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) object in the response body.
 
 ## Example
 
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
 Content-type: application/json
-Content-length: 457
+Content-length: 456
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
@@ -77,9 +79,9 @@ Content-length: 457
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -94,18 +96,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 506
+Content-Length: 505
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-  "id": "27e5db6e-db6e-27e5-6edb-e5276edbe527",
+  "id": "09b7a42a-a42a-09b7-2aa4-b7092aa4b709",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

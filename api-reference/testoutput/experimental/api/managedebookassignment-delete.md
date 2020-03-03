@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedEBookAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [managedEBookAssignment](../resources/managedebookassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
 ```
 
 ### Response

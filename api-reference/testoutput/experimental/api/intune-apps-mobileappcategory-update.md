@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppCategory
 
-Update the properties of a [mobileAppCategory](../resources/mobileappcategory.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppCategory](../resources/mobileAppCategory.md) object.
+In the request body, supply a JSON representation for the [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppCategory](../resources/mobileappcategory.md).
+The following table shows the properties that are required when you create the [mobileAppCategory](../resources/intune-apps-mobileappcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppCategory](../resources/mobileappcategory.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
 Content-type: application/json
 Content-length: 99
 
@@ -84,9 +86,9 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.mobileAppCategory",
-  "id": "c32c2193-2193-c32c-9321-2cc393212cc3",
+  "id": "e87814ef-14ef-e878-ef14-78e8ef1478e8",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

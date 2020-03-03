@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedDeviceMobileAppConfigurationStates
 
+Namespace: microsoft.graph
+
 Get the managedDeviceMobileAppConfigurationStates from the managedDeviceMobileAppConfigurationStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 414
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationState",
-      "id": "892e9a0f-9a0f-892e-0f9a-2e890f9a2e89",
+      "id": "e6abe752-e752-e6ab-52e7-abe652e7abe6",
       "displayName": "Display Name value",
       "version": 7,
       "platformType": "String",

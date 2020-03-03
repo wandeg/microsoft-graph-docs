@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # markContent resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [labelActionBase](../resources/labelActionBase.md)
+
+
+Inherits from [labelActionBase](../resources/labelactionbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |fontColor|String||
 |fontSize|Int64||
-|name|String| Inherited from [labelActionBase](../resources/labelActionBase.md)|
+|name|String| Inherited from [labelActionBase](../resources/labelactionbase.md)|
 |text|String||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedMobileApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps/{managedMobileAppId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps/{managedMobileAppId}
 ```
 
 ### Response
@@ -75,7 +77,7 @@ Content-Length: 261
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedMobileApp",
-    "id": "3d45223c-223c-3d45-3c22-453d3c22453d",
+    "id": "01daf82b-f82b-01da-2bf8-da012bf8da01",
     "mobileAppIdentifier": {
       "@odata.type": "microsoft.graph.mobileAppIdentifier"
     },

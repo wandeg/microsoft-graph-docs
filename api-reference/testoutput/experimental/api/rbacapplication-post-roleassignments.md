@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add roleAssignments
 
+Namespace: microsoft.graph
+
 Add roleAssignments by posting to the roleAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /roleManagement/directory/roleAssignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the unifiedRoleAssignment object.
+In the request body, supply a JSON representation for the [unifiedRoleAssignment](../resources/unifiedroleassignment.md) object.
 
-The following table shows the properties that are required when you create the unifiedRoleAssignment.
+The following table shows the properties that are required when you create the [unifiedRoleAssignment](../resources/unifiedroleassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/roleManagement/directory/roleAssignments
+POST https://graph.microsoft.com/localtest/roleManagement/directory/roleAssignments
 Content-type: application/json
 Content-length: 198
 
@@ -89,7 +91,7 @@ Content-Length: 247
 
 {
   "@odata.type": "#microsoft.graph.unifiedRoleAssignment",
-  "id": "c5fe217e-217e-c5fe-7e21-fec57e21fec5",
+  "id": "dfc82d60-2d60-dfc8-602d-c8df602dc8df",
   "principalId": "Principal Id value",
   "resourceScope": "Resource Scope value",
   "roleDefinitionId": "Role Definition Id value"

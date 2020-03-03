@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update win32LobApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [win32LobApp](../resources/win32lobapp.md) object.
 
 ## Permissions
@@ -35,46 +37,46 @@ PATCH ** Entity URI for microsoft.graph.win32LobApp not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [win32LobApp](../resources/win32LobApp.md) object.
+In the request body, supply a JSON representation for the [win32LobApp](../resources/win32lobapp.md) object.
 
 The following table shows the properties that are required when you create the [win32LobApp](../resources/win32lobapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|description|String|The description of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|largeIcon|[mimeContent](../resources/intune-apps-mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|owner|String|The owner of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|developer|String|The developer of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|notes|String|Notes for the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|uploadState|Int32|The upload state. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md). Possible values are: `notPublished`, `processing`, `published`.|
-|isAssigned|Boolean|The value indicating whether the app is assigned to at least one group. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|roleScopeTagIds|String collection|List of scope tag ids for this mobile app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|dependentAppCount|Int32|The total number of dependencies the child app has. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|committedContentVersion|String|The internal committed content version. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
-|fileName|String|The name of the main Lob application file. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
-|size|Int64|The total size, including all uploaded files. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
+|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|description|String|The description of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|largeIcon|[mimeContent](../resources/intune-apps-mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|owner|String|The owner of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|developer|String|The developer of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|notes|String|Notes for the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|uploadState|Int32|The upload state. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md). Possible values are: `notPublished`, `processing`, `published`.|
+|isAssigned|Boolean|The value indicating whether the app is assigned to at least one group. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|roleScopeTagIds|String collection|List of scope tag ids for this mobile app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|dependentAppCount|Int32|The total number of dependencies the child app has. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|committedContentVersion|String|The internal committed content version. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
+|fileName|String|The name of the main Lob application file. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
+|size|Int64|The total size, including all uploaded files. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
 |installCommandLine|String|The command line to install this app|
 |uninstallCommandLine|String|The command line to uninstall this app|
 |applicableArchitectures|Enumeration|The Windows architecture(s) for which this app can run on. Possible values are: `none`, `x86`, `x64`, `arm`, `neutral`, `arm64`.|
-|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsMinimumOperatingSystem.md)|The value for the minimum applicable operating system.|
+|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsminimumoperatingsystem.md)|The value for the minimum applicable operating system.|
 |minimumFreeDiskSpaceInMB|Int32|The value for the minimum free disk space which is required to install this app.|
 |minimumMemoryInMB|Int32|The value for the minimum physical memory which is required to install this app.|
 |minimumNumberOfProcessors|Int32|The value for the minimum number of processors which is required to install this app.|
 |minimumCpuSpeedInMHz|Int32|The value for the minimum CPU speed which is required to install this app.|
-|detectionRules|[win32LobAppDetection](../resources/intune-apps-win32LobAppDetection.md) collection|The detection rules to detect Win32 Line of Business (LoB) app.|
-|requirementRules|[win32LobAppRequirement](../resources/intune-apps-win32LobAppRequirement.md) collection|The requirement rules to detect Win32 Line of Business (LoB) app.|
-|installExperience|[win32LobAppInstallExperience](../resources/intune-apps-win32LobAppInstallExperience.md)|The install experience for this app.|
-|returnCodes|[win32LobAppReturnCode](../resources/intune-apps-win32LobAppReturnCode.md) collection|The return codes for post installation behavior.|
-|msiInformation|[win32LobAppMsiInformation](../resources/intune-apps-win32LobAppMsiInformation.md)|The MSI details if this Win32 app is an MSI app.|
+|detectionRules|[win32LobAppDetection](../resources/intune-apps-win32lobappdetection.md) collection|The detection rules to detect Win32 Line of Business (LoB) app.|
+|requirementRules|[win32LobAppRequirement](../resources/intune-apps-win32lobapprequirement.md) collection|The requirement rules to detect Win32 Line of Business (LoB) app.|
+|installExperience|[win32LobAppInstallExperience](../resources/intune-apps-win32lobappinstallexperience.md)|The install experience for this app.|
+|returnCodes|[win32LobAppReturnCode](../resources/intune-apps-win32lobappreturncode.md) collection|The return codes for post installation behavior.|
+|msiInformation|[win32LobAppMsiInformation](../resources/intune-apps-win32lobappmsiinformation.md)|The MSI details if this Win32 app is an MSI app.|
 |setupFilePath|String|The relative path of the setup file in the encrypted Win32LobApp package.|
 
 
@@ -92,7 +94,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.win32LobApp not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.win32LobApp not found
 Content-type: application/json
 Content-length: 2556
 
@@ -192,11 +194,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2728
+Content-Length: 2727
 
 {
   "@odata.type": "#microsoft.graph.win32LobApp",
-  "id": "b26e5d57-5d57-b26e-575d-6eb2575d6eb2",
+  "id": "7da05df6-5df6-7da0-f65d-a07df65da07d",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -205,8 +207,8 @@ Content-Length: 2728
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",

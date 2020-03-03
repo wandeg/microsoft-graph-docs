@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[roleScopeTagAutoAssignment](../resources/roleScopeTagAutoAssignment.md) collection||
+|assignments|[roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [roleScopeTagAutoAssignment](../resources/roleScopeTagAutoAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/roleScopeTags/{roleScopeTagId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/roleScopeTags/{roleScopeTagId}/assign
 
 Content-type: application/json
 Content-length: 274
@@ -68,7 +70,7 @@ Content-length: 274
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-      "id": "e8e7a45a-a45a-e8e7-5aa4-e7e85aa4e7e8",
+      "id": "64e23992-3992-64e2-9239-e2649239e264",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -94,7 +96,7 @@ Content-Length: 268
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-      "id": "e8e7a45a-a45a-e8e7-5aa4-e7e85aa4e7e8",
+      "id": "64e23992-3992-64e2-9239-e2649239e264",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

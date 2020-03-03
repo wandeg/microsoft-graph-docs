@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get termsAndConditionsGroupAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/groupAssignments/{termsAndConditionsGroupAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/groupAssignments/{termsAndConditionsGroupAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 194
 {
   "value": {
     "@odata.type": "#microsoft.graph.termsAndConditionsGroupAssignment",
-    "id": "56e9b858-b858-56e9-58b8-e95658b8e956",
+    "id": "51085c9a-5c9a-5108-9a5c-08519a5c0851",
     "targetGroupId": "Target Group Id value"
   }
 }

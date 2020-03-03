@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update outlookTask
 
+Namespace: microsoft.graph
+
 Update the properties of a [outlookTask](../resources/outlooktask.md) object.
 
 ## Permissions
@@ -36,30 +38,30 @@ PATCH /me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/{outlookTaskFolder
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [outlookTask](../resources/outlookTask.md) object.
+In the request body, supply a JSON representation for the [outlookTask](../resources/outlooktask.md) object.
 
 The following table shows the properties that are required when you create the [outlookTask](../resources/outlooktask.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |assignedTo|String||
-|body|[itemBody](../resources/itemBody.md)||
-|completedDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|dueDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|body|[itemBody](../resources/itembody.md)||
+|completedDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|dueDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |hasAttachments|Boolean||
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |isReminderOn|Boolean||
 |owner|String||
 |parentFolderId|String||
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
-|reminderDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
+|reminderDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |sensitivity|Enumeration|. Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|startDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |status|Enumeration|. Possible values are: `notStarted`, `inProgress`, `completed`, `waitingOnOthers`, `deferred`.|
 |subject|String||
 
@@ -78,7 +80,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/outlook/tasks/{outlookTaskId}
+PATCH https://graph.microsoft.com/localtest/me/outlook/tasks/{outlookTaskId}
 Content-type: application/json
 Content-length: 1570
 
@@ -152,13 +154,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1742
+Content-Length: 1741
 
 {
   "@odata.type": "#microsoft.graph.outlookTask",
-  "id": "e6886141-6141-e688-4161-88e6416188e6",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "3d4e93c0-93c0-3d4e-c093-4e3dc0934e3d",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"

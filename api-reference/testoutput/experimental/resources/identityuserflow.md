@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # identityUserFlow resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get identityUserFlow](../api/identityuserflow-get.md)|[identityUserFlow](../resources/identityUserFlow.md)|Read properties and relationships of the [identityUserFlow](../resources/identityuserflow.md) object.|
+|[List identityUserFlows](../api/identityuserflow-list.md)|[identityUserFlow](../resources/identityuserflow.md) collection|List properties and relationships of the [identityUserFlow](../resources/identityuserflow.md) objects.|
+|[Get identityUserFlow](../api/identityuserflow-get.md)|[identityUserFlow](../resources/identityuserflow.md)|Read properties and relationships of the [identityUserFlow](../resources/identityuserflow.md) object.|
+|[Create identityUserFlow](../api/identityuserflow-create.md)|[identityUserFlow](../resources/identityuserflow.md)|Create a new [identityUserFlow](../resources/identityuserflow.md) object.|
 |[Delete identityUserFlow](../api/identityuserflow-delete.md)|None|Deletes a [identityUserFlow](../resources/identityuserflow.md).|
-|[Update identityUserFlow](../api/identityuserflow-update.md)|[identityUserFlow](../resources/identityUserFlow.md)|Update the properties of a [identityUserFlow](../resources/identityuserflow.md) object.|
-|[List userFlows](../api/identitycontainer-list-userflows.md)|[identityUserFlow](../resources/identityUserFlow.md) collection|Get the identityUserFlows from the userFlows navigation property.|
-|[Add userFlows](../api/identitycontainer-post-userflows.md)|[identityUserFlow](../resources/identityUserFlow.md)|Add userFlows by posting to the userFlows collection.|
+|[Update identityUserFlow](../api/identityuserflow-update.md)|[identityUserFlow](../resources/identityuserflow.md)|Update the properties of a [identityUserFlow](../resources/identityuserflow.md) object.|
+|[List userFlows](../api/identitycontainer-list-userflows.md)|[identityUserFlow](../resources/identityuserflow.md) collection|Get the identityUserFlows from the userFlows navigation property.|
+|[Add userFlows](../api/identitycontainer-post-userflows.md)|[identityUserFlow](../resources/identityuserflow.md)|Add userFlows by posting to the userFlows collection.|
 
 ## Properties
 |Property|Type|Description|

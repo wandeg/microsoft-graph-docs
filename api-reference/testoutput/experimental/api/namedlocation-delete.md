@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete namedLocation
 
+Namespace: microsoft.graph
+
 Deletes a [namedLocation](../resources/namedlocation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/conditionalAccess/namedLocations/{namedLocationId}
+DELETE https://graph.microsoft.com/localtest/conditionalAccess/namedLocations/{namedLocationId}
 ```
 
 ### Response

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete windowsManagementAppHealthState
 
-Deletes a [windowsManagementAppHealthState](../resources/windowsmanagementapphealthstate.md).
+Namespace: microsoft.graph
+
+Deletes a [windowsManagementAppHealthState](../resources/intune-devices-windowsmanagementapphealthstate.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/windowsManagementApp/healthStates/{windowsManagementAppHealthStateId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/windowsManagementApp/healthStates/{windowsManagementAppHealthStateId}
 ```
 
 ### Response

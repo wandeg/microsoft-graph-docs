@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add auditEvents
 
+Namespace: microsoft.graph
+
 Add auditEvents by posting to the auditEvents collection.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST /deviceManagement/auditEvents/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the auditEvent object.
+In the request body, supply a JSON representation for the [auditEvent](../resources/auditevent.md) object.
 
-The following table shows the properties that are required when you create the auditEvent.
+The following table shows the properties that are required when you create the [auditEvent](../resources/auditevent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Event display name.|
 |componentName|String|Component name.|
-|actor|[auditActor](../resources/auditActor.md)|AAD user and application that are associated with the audit event.|
+|actor|[auditActor](../resources/auditactor.md)|AAD user and application that are associated with the audit event.|
 |activity|String|Friendly name of the activity.|
 |activityDateTime|DateTimeOffset|The date time in UTC when the activity was performed.|
 |activityType|String|The type of activity that was being performed.|
 |activityOperationType|String|The HTTP operation type of the activity.|
 |activityResult|String|The result of the activity.|
 |correlationId|Guid|The client request Id that is used to correlate activity within the system.|
-|resources|[auditResource](../resources/auditResource.md) collection|Resources being modified.|
+|resources|[auditResource](../resources/auditresource.md) collection|Resources being modified.|
 |category|String|Audit category.|
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/auditEvents
+POST https://graph.microsoft.com/localtest/deviceManagement/auditEvents
 Content-type: application/json
 Content-length: 1436
 
@@ -98,11 +100,11 @@ Content-length: 1436
     ]
   },
   "activity": "Activity value",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "activityType": "Activity Type value",
   "activityOperationType": "Activity Operation Type value",
   "activityResult": "Activity Result value",
-  "correlationId": "474bc32e-c32e-474b-2ec3-4b472ec34b47",
+  "correlationId": "1a3c08db-08db-1a3c-db08-3c1adb083c1a",
   "resources": [
     {
       "@odata.type": "microsoft.graph.auditResource",
@@ -135,7 +137,7 @@ Content-Length: 1485
 
 {
   "@odata.type": "#microsoft.graph.auditEvent",
-  "id": "1d3314bb-14bb-1d33-bb14-331dbb14331d",
+  "id": "243c7b01-7b01-243c-017b-3c24017b3c24",
   "displayName": "Display Name value",
   "componentName": "Component Name value",
   "actor": {
@@ -158,11 +160,11 @@ Content-Length: 1485
     ]
   },
   "activity": "Activity value",
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "activityType": "Activity Type value",
   "activityOperationType": "Activity Operation Type value",
   "activityResult": "Activity Result value",
-  "correlationId": "474bc32e-c32e-474b-2ec3-4b472ec34b47",
+  "correlationId": "1a3c08db-08db-1a3c-db08-3c1adb083c1a",
   "resources": [
     {
       "@odata.type": "microsoft.graph.auditResource",

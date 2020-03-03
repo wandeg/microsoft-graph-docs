@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update policySetAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [policySetAssignment](../resources/policysetassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssign
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [policySetAssignment](../resources/policySetAssignment.md) object.
+In the request body, supply a JSON representation for the [policySetAssignment](../resources/policysetassignment.md) object.
 
 The following table shows the properties that are required when you create the [policySetAssignment](../resources/policysetassignment.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetAssignment.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The target group of PolicySetAssignment|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssignmentId}
 Content-type: application/json
 Content-length: 159
 
@@ -86,8 +88,8 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.policySetAssignment",
-  "id": "2aef28d1-28d1-2aef-d128-ef2ad128ef2a",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

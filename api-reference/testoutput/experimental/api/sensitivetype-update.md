@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sensitiveType
 
+Namespace: microsoft.graph
+
 Update the properties of a [sensitiveType](../resources/sensitivetype.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /dataClassification/sensitiveTypes/{sensitiveTypeId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sensitiveType](../resources/sensitiveType.md) object.
+In the request body, supply a JSON representation for the [sensitiveType](../resources/sensitivetype.md) object.
 
 The following table shows the properties that are required when you create the [sensitiveType](../resources/sensitivetype.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/dataClassification/sensitiveTypes/{sensitiveTypeId}
+PATCH https://graph.microsoft.com/localtest/dataClassification/sensitiveTypes/{sensitiveTypeId}
 Content-type: application/json
 Content-length: 306
 
@@ -95,7 +97,7 @@ Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.sensitiveType",
-  "id": "3c8ed259-d259-3c8e-59d2-8e3c59d28e3c",
+  "id": "c2d268be-68be-c2d2-be68-d2c2be68d2c2",
   "name": "Name value",
   "description": "Description value",
   "rulePackageId": "Rule Package Id value",

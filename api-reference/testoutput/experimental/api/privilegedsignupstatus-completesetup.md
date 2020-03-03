@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # completeSetup
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|tenantSetupInfo|[tenantSetupInfo](../resources/tenantSetupInfo.md)||
+|tenantSetupInfo|[tenantSetupInfo](../resources/tenantsetupinfo.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [roleSuccessStatistics](../resources/roleSuccessStatistics.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [roleSuccessStatistics](../resources/rolesuccessstatistics.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedSignupStatus/completeSetup
+POST https://graph.microsoft.com/localtest/privilegedSignupStatus/completeSetup
 
 Content-type: application/json
 Content-length: 354
@@ -67,7 +69,7 @@ Content-length: 354
 {
   "tenantSetupInfo": {
     "@odata.type": "#microsoft.graph.tenantSetupInfo",
-    "id": "0594d45c-d45c-0594-5cd4-94055cd49405",
+    "id": "eb5fba04-ba04-eb5f-04ba-5feb04ba5feb",
     "userRolesActions": "User Roles Actions value",
     "firstTimeSetup": true,
     "relevantRolesSettings": [

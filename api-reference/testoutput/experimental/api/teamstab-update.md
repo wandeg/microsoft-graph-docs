@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsTab
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsTab](../resources/teamstab.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsTab](../resources/teamsTab.md) object.
+In the request body, supply a JSON representation for the [teamsTab](../resources/teamstab.md) object.
 
 The following table shows the properties that are required when you create the [teamsTab](../resources/teamstab.md).
 
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the [
 |sortOrderIndex|String||
 |messageId|String||
 |webUrl|String||
-|configuration|[teamsTabConfiguration](../resources/teamsTabConfiguration.md)||
+|configuration|[teamsTabConfiguration](../resources/teamstabconfiguration.md)||
 
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
 Content-type: application/json
 Content-length: 565
 
@@ -101,7 +103,7 @@ Content-Length: 614
 
 {
   "@odata.type": "#microsoft.graph.teamsTab",
-  "id": "edd69ca1-9ca1-edd6-a19c-d6eda19cd6ed",
+  "id": "bcab996c-996c-bcab-6c99-abbc6c99abbc",
   "name": "Name value",
   "displayName": "Display Name value",
   "teamsAppId": "Teams App Id value",

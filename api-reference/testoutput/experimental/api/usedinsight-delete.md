@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete usedInsight
 
+Namespace: microsoft.graph
+
 Deletes a [usedInsight](../resources/usedinsight.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/insights/used/{usedInsightId}
+DELETE https://graph.microsoft.com/localtest/me/insights/used/{usedInsightId}
 ```
 
 ### Response

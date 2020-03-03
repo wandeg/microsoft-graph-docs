@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add exactMatchUploadAgents
 
+Namespace: microsoft.graph
+
 Add exactMatchUploadAgents by posting to the exactMatchUploadAgents collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/exactMatchUploadAgents/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the exactMatchUploadAgent object.
+In the request body, supply a JSON representation for the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.
 
-The following table shows the properties that are required when you create the exactMatchUploadAgent.
+The following table shows the properties that are required when you create the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,14 +63,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/exactMatchUploadAgents
+POST https://graph.microsoft.com/localtest/dataClassification/exactMatchUploadAgents
 Content-type: application/json
 Content-length: 162
 
 {
   "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
   "description": "Description value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00"
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
 }
 ```
 
@@ -87,9 +89,9 @@ Content-Length: 211
 
 {
   "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
-  "id": "2b200352-0352-2b20-5203-202b5203202b",
+  "id": "1721cbcf-cbcf-1721-cfcb-2117cfcb2117",
   "description": "Description value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00"
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
 }
 ```
 

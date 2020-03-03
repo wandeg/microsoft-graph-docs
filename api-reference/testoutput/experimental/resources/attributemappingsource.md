@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # attributeMappingSource resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |expression|String||
 |name|String||
-|parameters|[stringKeyAttributeMappingSourceValuePair](../resources/stringKeyAttributeMappingSourceValuePair.md) collection||
+|parameters|[stringKeyAttributeMappingSourceValuePair](../resources/stringkeyattributemappingsourcevaluepair.md) collection||
 |type|Enumeration|. Possible values are: `Attribute`, `Constant`, `Function`.|
 
 ## Relationships

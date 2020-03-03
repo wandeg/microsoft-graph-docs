@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List identityProviders
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [identityProvider](../resources/identityprovider.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identityProviders
+GET https://graph.microsoft.com/localtest/identityProviders
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 290
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityProvider",
-      "id": "53572256-2256-5357-5622-575356225753",
+      "id": "00ad1362-1362-00ad-6213-ad006213ad00",
       "type": "Type value",
       "name": "Name value",
       "clientId": "Client Id value",

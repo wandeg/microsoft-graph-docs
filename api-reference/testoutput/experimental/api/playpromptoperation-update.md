@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update playPromptOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [playPromptOperation](../resources/playpromptoperation.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH ** Entity URI for microsoft.graph.playPromptOperation not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [playPromptOperation](../resources/playPromptOperation.md) object.
+In the request body, supply a JSON representation for the [playPromptOperation](../resources/playpromptoperation.md) object.
 
 The following table shows the properties that are required when you create the [playPromptOperation](../resources/playpromptoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 |completionReason|Enumeration|. Possible values are: `unknown`, `completedSuccessfully`, `mediaOperationCanceled`, `unknownFutureValue`.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.playPromptOperation not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.playPromptOperation not found
 Content-type: application/json
 Content-length: 303
 
@@ -94,7 +96,7 @@ Content-Length: 352
 
 {
   "@odata.type": "#microsoft.graph.playPromptOperation",
-  "id": "2cb4b04a-b04a-2cb4-4ab0-b42c4ab0b42c",
+  "id": "39a80d04-0d04-39a8-040d-a839040da839",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

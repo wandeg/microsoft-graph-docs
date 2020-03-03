@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get domainDnsMxRecord
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [domainDnsMxRecord](../resources/domaindnsmxrecord.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.domainDnsMxRecord not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.domainDnsMxRecord not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 359
 {
   "value": {
     "@odata.type": "#microsoft.graph.domainDnsMxRecord",
-    "id": "f2d4152e-152e-f2d4-2e15-d4f22e15d4f2",
+    "id": "635e0349-0349-635e-4903-5e6349035e63",
     "isOptional": true,
     "label": "Label value",
     "recordType": "Record Type value",

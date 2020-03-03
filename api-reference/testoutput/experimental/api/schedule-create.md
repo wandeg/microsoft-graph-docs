@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create schedule
 
+Namespace: microsoft.graph
+
 Create a new [schedule](../resources/schedule.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.schedule not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the schedule object.
+In the request body, supply a JSON representation for the [schedule](../resources/schedule.md) object.
 
-The following table shows the properties that are required when you create the schedule.
+The following table shows the properties that are required when you create the [schedule](../resources/schedule.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.schedule not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.schedule not found
 Content-type: application/json
 Content-length: 440
 
@@ -105,7 +107,7 @@ Content-Length: 489
 
 {
   "@odata.type": "#microsoft.graph.schedule",
-  "id": "2bfb7474-7474-2bfb-7474-fb2b7474fb2b",
+  "id": "9206b179-b179-9206-79b1-069279b10692",
   "enabled": true,
   "timeZone": "Time Zone value",
   "provisionStatus": "String",

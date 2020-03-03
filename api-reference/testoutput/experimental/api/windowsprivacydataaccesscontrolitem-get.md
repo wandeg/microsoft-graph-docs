@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsPrivacyDataAccessControlItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 321
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsPrivacyDataAccessControlItem",
-    "id": "c2534b6b-4b6b-c253-6b4b-53c26b4b53c2",
+    "id": "6126bcaf-bcaf-6126-afbc-2661afbc2661",
     "accessLevel": "String",
     "dataCategory": "String",
     "appPackageFamilyName": "App Package Family Name value",

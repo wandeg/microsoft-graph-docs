@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsPackageInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -22,7 +23,7 @@ Namespace: microsoft.graph
 |identityPublisher|String|The Identity Publisher.|
 |identityResourceIdentifier|String|The Identity Resource Identifier.|
 |identityVersion|String|The Identity Version.|
-|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsMinimumOperatingSystem.md)|The value for the minimum applicable operating system.|
+|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsminimumoperatingsystem.md)|The value for the minimum applicable operating system.|
 
 ## Relationships
 None

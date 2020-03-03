@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsKioskSingleUWPApp resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsKioskAppConfiguration](../resources/windowsKioskAppConfiguration.md)
+
+
+Inherits from [windowsKioskAppConfiguration](../resources/windowskioskappconfiguration.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|uwpApp|[windowsKioskUWPApp](../resources/windowsKioskUWPApp.md)|This is the only Application User Model ID (AUMID) that will be available to launch use while in Kiosk Mode|
+|uwpApp|[windowsKioskUWPApp](../resources/windowskioskuwpapp.md)|This is the only Application User Model ID (AUMID) that will be available to launch use while in Kiosk Mode|
 
 ## Relationships
 None

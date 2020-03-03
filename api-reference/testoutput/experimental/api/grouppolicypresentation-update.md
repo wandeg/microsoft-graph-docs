@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyPresentation
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyPresentation](../resources/grouppolicypresentation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/d
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyPresentation](../resources/groupPolicyPresentation.md) object.
+In the request body, supply a JSON representation for the [groupPolicyPresentation](../resources/grouppolicypresentation.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyPresentation](../resources/grouppolicypresentation.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/presentations/{groupPolicyPresentationId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/presentations/{groupPolicyPresentationId}
 Content-type: application/json
 Content-length: 92
 
@@ -84,9 +86,9 @@ Content-Length: 205
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentation",
-  "id": "421ac457-c457-421a-57c4-1a4257c41a42",
+  "id": "3d562b56-2b56-3d56-562b-563d562b563d",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

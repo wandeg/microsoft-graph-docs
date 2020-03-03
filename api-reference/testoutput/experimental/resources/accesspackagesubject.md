@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # accessPackageSubject resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List accessPackageSubjects](../api/accesspackagesubject-list.md)|[accessPackageSubject](../resources/accessPackageSubject.md) collection|List properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) objects.|
-|[Get accessPackageSubject](../api/accesspackagesubject-get.md)|[accessPackageSubject](../resources/accessPackageSubject.md)|Read properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) object.|
-|[Create accessPackageSubject](../api/accesspackagesubject-create.md)|[accessPackageSubject](../resources/accessPackageSubject.md)|Create a new [accessPackageSubject](../resources/accesspackagesubject.md) object.|
+|[List accessPackageSubjects](../api/accesspackagesubject-list.md)|[accessPackageSubject](../resources/accesspackagesubject.md) collection|List properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) objects.|
+|[Get accessPackageSubject](../api/accesspackagesubject-get.md)|[accessPackageSubject](../resources/accesspackagesubject.md)|Read properties and relationships of the [accessPackageSubject](../resources/accesspackagesubject.md) object.|
+|[Create accessPackageSubject](../api/accesspackagesubject-create.md)|[accessPackageSubject](../resources/accesspackagesubject.md)|Create a new [accessPackageSubject](../resources/accesspackagesubject.md) object.|
 |[Delete accessPackageSubject](../api/accesspackagesubject-delete.md)|None|Deletes a [accessPackageSubject](../resources/accesspackagesubject.md).|
-|[Update accessPackageSubject](../api/accesspackagesubject-update.md)|[accessPackageSubject](../resources/accessPackageSubject.md)|Update the properties of a [accessPackageSubject](../resources/accesspackagesubject.md) object.|
+|[Update accessPackageSubject](../api/accesspackagesubject-update.md)|[accessPackageSubject](../resources/accesspackagesubject.md)|Update the properties of a [accessPackageSubject](../resources/accesspackagesubject.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementApplicabilityRuleOsVersion resource type
+
+
+Namespace: microsoft.graph
 
 
 

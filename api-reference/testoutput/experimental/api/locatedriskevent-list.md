@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List locatedRiskEvents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [locatedRiskEvent](../resources/locatedriskevent.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.locatedRiskEvent not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.locatedRiskEvent not found
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1044
+Content-Length: 1043
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.locatedRiskEvent",
-      "id": "708c4820-4820-708c-2048-8c7020488c70",
+      "id": "979ebac3-bac3-979e-c3ba-9e97c3ba9e97",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
-      "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+      "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
       "riskEventType": "Risk Event Type value",
       "riskLevel": "String",
       "riskEventStatus": "String",
-      "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "userId": "User Id value",
       "location": {
         "@odata.type": "microsoft.graph.signInLocation",

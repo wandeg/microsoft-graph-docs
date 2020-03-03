@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365GroupsActivityCounts
 
+Namespace: microsoft.graph
+
 Create a new [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365GroupsActivityCounts not fou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365GroupsActivityCounts object.
+In the request body, supply a JSON representation for the [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md) object.
 
-The following table shows the properties that are required when you create the office365GroupsActivityCounts.
+The following table shows the properties that are required when you create the [office365GroupsActivityCounts](../resources/office365groupsactivitycounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365GroupsActivityCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365GroupsActivityCounts not found
 Content-type: application/json
 Content-length: 289
 
@@ -97,7 +99,7 @@ Content-Length: 338
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityCounts",
-  "id": "a282b8b1-b8b1-a282-b1b8-82a2b1b882a2",
+  "id": "75859bb3-9bb3-7585-b39b-8575b39b8575",
   "reportRefreshDate": "Date",
   "exchangeEmailsReceived": 6,
   "yammerMessagesPosted": 4,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add matchingRows
 
+Namespace: microsoft.graph
+
 Add matchingRows by posting to the matchingRows collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.lookupResultRow not found/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the lookupResultRow object.
+In the request body, supply a JSON representation for the [lookupResultRow](../resources/lookupresultrow.md) object.
 
-The following table shows the properties that are required when you create the lookupResultRow.
+The following table shows the properties that are required when you create the [lookupResultRow](../resources/lookupresultrow.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.lookupResultRow not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.lookupResultRow not found
 Content-type: application/json
 Content-length: 80
 
@@ -85,7 +87,7 @@ Content-Length: 129
 
 {
   "@odata.type": "#microsoft.graph.lookupResultRow",
-  "id": "6cfc5585-5585-6cfc-8555-fc6c8555fc6c",
+  "id": "bacdab0b-ab0b-bacd-0bab-cdba0babcdba",
   "row": "Row value"
 }
 ```

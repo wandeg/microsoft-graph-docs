@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # organizerMeetingInfo resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [meetingInfo](../resources/meetingInfo.md)
+
+
+Inherits from [meetingInfo](../resources/meetinginfo.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowConversationWithoutHost|Boolean| Inherited from [meetingInfo](../resources/meetingInfo.md)|
-|organizer|[identitySet](../resources/identitySet.md)||
+|allowConversationWithoutHost|Boolean| Inherited from [meetingInfo](../resources/meetinginfo.md)|
+|organizer|[identitySet](../resources/identityset.md)||
 
 ## Relationships
 None

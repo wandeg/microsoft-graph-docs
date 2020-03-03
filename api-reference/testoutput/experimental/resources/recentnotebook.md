@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # recentNotebook resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |displayName|String||
 |lastAccessedTime|DateTimeOffset||
-|links|[recentNotebookLinks](../resources/recentNotebookLinks.md)||
+|links|[recentNotebookLinks](../resources/recentnotebooklinks.md)||
 |sourceService|Enumeration|. Possible values are: `Unknown`, `OneDrive`, `OneDriveForBusiness`, `OnPremOneDriveForBusiness`.|
 
 ## Relationships

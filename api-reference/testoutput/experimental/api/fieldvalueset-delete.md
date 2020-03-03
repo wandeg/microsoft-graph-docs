@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete fieldValueSet
 
+Namespace: microsoft.graph
+
 Deletes a [fieldValueSet](../resources/fieldvalueset.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/fields
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/fields
 ```
 
 ### Response

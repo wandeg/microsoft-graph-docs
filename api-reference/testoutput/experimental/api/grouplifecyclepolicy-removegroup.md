@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # removeGroup
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groupLifecyclePolicies/{groupLifecyclePoliciesId}/removeGroup
+POST https://graph.microsoft.com/localtest/groupLifecyclePolicies/{groupLifecyclePoliciesId}/removeGroup
 
 Content-type: application/json
 Content-length: 35

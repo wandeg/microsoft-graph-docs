@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directorySettingTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [directorySettingTemplate](../resources/directorysettingtemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/directorySettingTemplates/{directorySettingTemplatesId}
+DELETE https://graph.microsoft.com/localtest/directorySettingTemplates/{directorySettingTemplatesId}
 ```
 
 ### Response

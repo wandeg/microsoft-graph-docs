@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenoteOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenoteOperation](../resources/onenoteoperation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/onenote/operations/{onenoteOpera
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteOperation.md) object.
+In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteoperation.md) object.
 
 The following table shows the properties that are required when you create the [onenoteOperation](../resources/onenoteoperation.md).
 
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the [
 |lastActionDateTime|DateTimeOffset| Inherited from [operation](../resources/operation.md)|
 |resourceLocation|String||
 |resourceId|String||
-|error|[onenoteOperationError](../resources/onenoteOperationError.md)||
+|error|[onenoteOperationError](../resources/onenoteoperationerror.md)||
 |percentComplete|String||
 
 
@@ -65,14 +67,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/operations/{onenoteOperationId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/operations/{onenoteOperationId}
 Content-type: application/json
 Content-length: 419
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {
@@ -94,14 +96,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 526
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
-  "id": "771ac63b-c63b-771a-3bc6-1a773bc61a77",
+  "id": "3ef37e7a-7e7a-3ef3-7a7e-f33e7a7ef33e",
   "status": "String",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {

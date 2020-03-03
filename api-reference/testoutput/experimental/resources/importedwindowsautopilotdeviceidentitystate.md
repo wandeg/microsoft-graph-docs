@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # importedWindowsAutopilotDeviceIdentityState resource type
+
+
+Namespace: microsoft.graph
 
 
 

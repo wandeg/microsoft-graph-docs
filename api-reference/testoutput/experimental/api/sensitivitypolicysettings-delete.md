@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sensitivityPolicySettings
 
+Namespace: microsoft.graph
+
 Deletes a [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/informationProtection/sensitivityPolicySettings
+DELETE https://graph.microsoft.com/localtest/informationProtection/sensitivityPolicySettings
 ```
 
 ### Response

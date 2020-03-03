@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10TeamGeneralConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10TeamGeneralConfiguration](../resources/windows10teamgeneralconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10TeamGeneralConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10TeamGeneralConfiguration not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2260
+Content-Length: 2259
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10TeamGeneralConfiguration",
-      "id": "d706fb97-fb97-d706-97fb-06d797fb06d7",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "3c05db75-db75-3c05-75db-053c75db053c",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 2260
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
@@ -103,7 +105,7 @@ Content-Length: 2260
       "connectAppBlockAutoLaunch": true,
       "maintenanceWindowBlocked": true,
       "maintenanceWindowDurationInHours": 0,
-      "maintenanceWindowStartTime": "11:59:28.0500000",
+      "maintenanceWindowStartTime": "11:56:57.0750000",
       "miracastChannel": "String",
       "miracastBlocked": true,
       "miracastRequirePin": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # clone
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/clone
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/clone
 
 Content-type: application/json
 Content-length: 225

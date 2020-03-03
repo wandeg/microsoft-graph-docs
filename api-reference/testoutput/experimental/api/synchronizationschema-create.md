@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create synchronizationSchema
 
+Namespace: microsoft.graph
+
 Create a new [synchronizationSchema](../resources/synchronizationschema.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.synchronizationSchema not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the synchronizationSchema object.
+In the request body, supply a JSON representation for the [synchronizationSchema](../resources/synchronizationschema.md) object.
 
-The following table shows the properties that are required when you create the synchronizationSchema.
+The following table shows the properties that are required when you create the [synchronizationSchema](../resources/synchronizationschema.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |provisioningTaskIdentifier|String||
-|synchronizationRules|[synchronizationRule](../resources/synchronizationRule.md) collection||
+|synchronizationRules|[synchronizationRule](../resources/synchronizationrule.md) collection||
 |version|String||
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.synchronizationSchema not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.synchronizationSchema not found
 Content-type: application/json
 Content-length: 3128
 
@@ -175,7 +177,7 @@ Content-Length: 3177
 
 {
   "@odata.type": "#microsoft.graph.synchronizationSchema",
-  "id": "384985da-85da-3849-da85-4938da854938",
+  "id": "c89cff04-ff04-c89c-04ff-9cc804ff9cc8",
   "provisioningTaskIdentifier": "Provisioning Task Identifier value",
   "synchronizationRules": [
     {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get search
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [search](../resources/search.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/search
+GET https://graph.microsoft.com/localtest/search
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 120
 {
   "value": {
     "@odata.type": "#microsoft.graph.search",
-    "id": "52db7545-7545-52db-4575-db524575db52"
+    "id": "e7f88227-8227-e7f8-2782-f8e72782f8e7"
   }
 }
 ```

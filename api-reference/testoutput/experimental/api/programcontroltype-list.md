@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List programControlTypes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [programControlType](../resources/programcontroltype.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/programControlTypes
+GET https://graph.microsoft.com/localtest/programControlTypes
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 254
   "value": [
     {
       "@odata.type": "#microsoft.graph.programControlType",
-      "id": "826cdde9-dde9-826c-e9dd-6c82e9dd6c82",
+      "id": "7a38ef3d-ef3d-7a38-3def-387a3def387a",
       "controlTypeGroupId": "Control Type Group Id value",
       "displayName": "Display Name value"
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update inviteParticipantsOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.inviteParticipantsOperation not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [inviteParticipantsOperation](../resources/inviteParticipantsOperation.md) object.
+In the request body, supply a JSON representation for the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.
 
 The following table shows the properties that are required when you create the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|participants|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|participants|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.inviteParticipantsOperation not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.inviteParticipantsOperation not found
 Content-type: application/json
 Content-length: 892
 
@@ -114,7 +116,7 @@ Content-Length: 941
 
 {
   "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-  "id": "ba082940-2940-ba08-4029-08ba402908ba",
+  "id": "be5a7d76-7d76-be5a-767d-5abe767d5abe",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

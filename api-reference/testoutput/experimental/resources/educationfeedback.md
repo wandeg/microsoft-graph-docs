@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationFeedback resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|feedbackBy|[identitySet](../resources/identitySet.md)||
+|feedbackBy|[identitySet](../resources/identityset.md)||
 |feedbackDateTime|DateTimeOffset||
-|text|[educationItemBody](../resources/educationItemBody.md)||
+|text|[educationItemBody](../resources/educationitembody.md)||
 
 ## Relationships
 None

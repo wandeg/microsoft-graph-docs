@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailActivitySummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailActivitySummaries](../api/emailactivitysummary-list.md)|[emailActivitySummary](../resources/emailActivitySummary.md) collection|List properties and relationships of the [emailActivitySummary](../resources/emailactivitysummary.md) objects.|
-|[Get emailActivitySummary](../api/emailactivitysummary-get.md)|[emailActivitySummary](../resources/emailActivitySummary.md)|Read properties and relationships of the [emailActivitySummary](../resources/emailactivitysummary.md) object.|
-|[Create emailActivitySummary](../api/emailactivitysummary-create.md)|[emailActivitySummary](../resources/emailActivitySummary.md)|Create a new [emailActivitySummary](../resources/emailactivitysummary.md) object.|
+|[List emailActivitySummaries](../api/emailactivitysummary-list.md)|[emailActivitySummary](../resources/emailactivitysummary.md) collection|List properties and relationships of the [emailActivitySummary](../resources/emailactivitysummary.md) objects.|
+|[Get emailActivitySummary](../api/emailactivitysummary-get.md)|[emailActivitySummary](../resources/emailactivitysummary.md)|Read properties and relationships of the [emailActivitySummary](../resources/emailactivitysummary.md) object.|
+|[Create emailActivitySummary](../api/emailactivitysummary-create.md)|[emailActivitySummary](../resources/emailactivitysummary.md)|Create a new [emailActivitySummary](../resources/emailactivitysummary.md) object.|
 |[Delete emailActivitySummary](../api/emailactivitysummary-delete.md)|None|Deletes a [emailActivitySummary](../resources/emailactivitysummary.md).|
-|[Update emailActivitySummary](../api/emailactivitysummary-update.md)|[emailActivitySummary](../resources/emailActivitySummary.md)|Update the properties of a [emailActivitySummary](../resources/emailactivitysummary.md) object.|
+|[Update emailActivitySummary](../api/emailactivitysummary-update.md)|[emailActivitySummary](../resources/emailactivitysummary.md)|Update the properties of a [emailActivitySummary](../resources/emailactivitysummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

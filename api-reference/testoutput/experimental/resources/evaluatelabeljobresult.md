@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # evaluateLabelJobResult resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|responsiblePolicy|[responsiblePolicy](../resources/responsiblePolicy.md)||
-|responsibleSensitiveTypes|[responsibleSensitiveType](../resources/responsibleSensitiveType.md) collection||
-|sensitivityLabel|[matchingLabel](../resources/matchingLabel.md)||
+|responsiblePolicy|[responsiblePolicy](../resources/responsiblepolicy.md)||
+|responsibleSensitiveTypes|[responsibleSensitiveType](../resources/responsiblesensitivetype.md) collection||
+|sensitivityLabel|[matchingLabel](../resources/matchinglabel.md)||
 
 ## Relationships
 None

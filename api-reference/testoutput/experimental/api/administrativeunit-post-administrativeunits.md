@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create administrativeUnit
 
+Namespace: microsoft.graph
+
 Create a new [administrativeUnit](../resources/administrativeunit.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /administrativeUnits
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the administrativeUnit object.
+In the request body, supply a JSON representation for the [administrativeUnit](../resources/administrativeunit.md) object.
 
-The following table shows the properties that are required when you create the administrativeUnit.
+The following table shows the properties that are required when you create the [administrativeUnit](../resources/administrativeunit.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |displayName|String||
 |description|String||
 |visibility|String||
@@ -63,13 +65,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/administrativeUnits
+POST https://graph.microsoft.com/localtest/administrativeUnits
 Content-type: application/json
 Content-length: 235
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "visibility": "Visibility value"
@@ -91,8 +93,8 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "id": "6017d3f5-d3f5-6017-f5d3-1760f5d31760",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "27ed627f-627f-27ed-7f62-ed277f62ed27",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "visibility": "Visibility value"

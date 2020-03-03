@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete organization
 
+Namespace: microsoft.graph
+
 Deletes a [organization](../resources/organization.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/organization/{organizationId}
+DELETE https://graph.microsoft.com/localtest/organization/{organizationId}
 ```
 
 ### Response

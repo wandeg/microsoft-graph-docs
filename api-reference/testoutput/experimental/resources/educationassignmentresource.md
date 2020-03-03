@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationAssignmentResource resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationAssignmentResource](../api/educationassignmentresource-get.md)|[educationAssignmentResource](../resources/educationAssignmentResource.md)|Read properties and relationships of the [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
+|[List educationAssignmentResources](../api/educationassignmentresource-list.md)|[educationAssignmentResource](../resources/educationassignmentresource.md) collection|List properties and relationships of the [educationAssignmentResource](../resources/educationassignmentresource.md) objects.|
+|[Get educationAssignmentResource](../api/educationassignmentresource-get.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Read properties and relationships of the [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
+|[Create educationAssignmentResource](../api/educationassignmentresource-create.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Create a new [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
 |[Delete educationAssignmentResource](../api/educationassignmentresource-delete.md)|None|Deletes a [educationAssignmentResource](../resources/educationassignmentresource.md).|
-|[Update educationAssignmentResource](../api/educationassignmentresource-update.md)|[educationAssignmentResource](../resources/educationAssignmentResource.md)|Update the properties of a [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
+|[Update educationAssignmentResource](../api/educationassignmentresource-update.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Update the properties of a [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |distributeForStudentWork|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|resource|[educationResource](../resources/educationResource.md)||
+|resource|[educationResource](../resources/educationresource.md)||
 
 ## Relationships
 None

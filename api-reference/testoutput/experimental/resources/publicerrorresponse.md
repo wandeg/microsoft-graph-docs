@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # publicErrorResponse resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|error|[publicError](../resources/publicError.md)||
+|error|[publicError](../resources/publicerror.md)||
 
 ## Relationships
 None

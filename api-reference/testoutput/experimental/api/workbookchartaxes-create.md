@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartAxes
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartAxes](../resources/workbookchartaxes.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartAxes not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartAxes object.
+In the request body, supply a JSON representation for the [workbookChartAxes](../resources/workbookchartaxes.md) object.
 
-The following table shows the properties that are required when you create the workbookChartAxes.
+The following table shows the properties that are required when you create the [workbookChartAxes](../resources/workbookchartaxes.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxes not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxes not found
 Content-type: application/json
 Content-length: 59
 
@@ -83,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxes",
-  "id": "550d9980-9980-550d-8099-0d5580990d55"
+  "id": "a617d0cd-d0cd-a617-cdd0-17a6cdd017a6"
 }
 ```
 

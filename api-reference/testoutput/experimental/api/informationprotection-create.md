@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create informationProtection
 
+Namespace: microsoft.graph
+
 Create a new [informationProtection](../resources/informationprotection.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.informationProtection not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the informationProtection object.
+In the request body, supply a JSON representation for the [informationProtection](../resources/informationprotection.md) object.
 
-The following table shows the properties that are required when you create the informationProtection.
+The following table shows the properties that are required when you create the [informationProtection](../resources/informationprotection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.informationProtection not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.informationProtection not found
 Content-type: application/json
 Content-length: 63
 
@@ -83,7 +85,7 @@ Content-Length: 112
 
 {
   "@odata.type": "#microsoft.graph.informationProtection",
-  "id": "cb97793c-793c-cb97-3c79-97cb3c7997cb"
+  "id": "1f44737b-737b-1f44-7b73-441f7b73441f"
 }
 ```
 

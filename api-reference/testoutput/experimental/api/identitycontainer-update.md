@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update identityContainer
 
+Namespace: microsoft.graph
+
 Update the properties of a [identityContainer](../resources/identitycontainer.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /identity
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [identityContainer](../resources/identityContainer.md) object.
+In the request body, supply a JSON representation for the [identityContainer](../resources/identitycontainer.md) object.
 
 The following table shows the properties that are required when you create the [identityContainer](../resources/identitycontainer.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/identity
+PATCH https://graph.microsoft.com/localtest/identity
 Content-type: application/json
 Content-length: 59
 
@@ -81,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.identityContainer",
-  "id": "bb1fed46-ed46-bb1f-46ed-1fbb46ed1fbb"
+  "id": "1e877267-7267-1e87-6772-871e6772871e"
 }
 ```
 

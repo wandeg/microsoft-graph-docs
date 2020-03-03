@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedSignupStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedSignupStatus](../resources/privilegedsignupstatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /privilegedSignupStatus/{privilegedSignupStatusId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedSignupStatus](../resources/privilegedSignupStatus.md) object.
+In the request body, supply a JSON representation for the [privilegedSignupStatus](../resources/privilegedsignupstatus.md) object.
 
 The following table shows the properties that are required when you create the [privilegedSignupStatus](../resources/privilegedsignupstatus.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedSignupStatus/{privilegedSignupStatusId}
+PATCH https://graph.microsoft.com/localtest/privilegedSignupStatus/{privilegedSignupStatusId}
 Content-type: application/json
 Content-length: 112
 
@@ -85,7 +87,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.privilegedSignupStatus",
-  "id": "77064065-4065-7706-6540-067765400677",
+  "id": "8162e90b-e90b-8162-0be9-62810be96281",
   "isRegistered": true,
   "status": "String"
 }

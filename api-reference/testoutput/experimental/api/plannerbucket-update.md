@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerBucket
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerBucket](../resources/plannerbucket.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /planner/buckets/{plannerBucketId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerBucket](../resources/plannerBucket.md) object.
+In the request body, supply a JSON representation for the [plannerBucket](../resources/plannerbucket.md) object.
 
 The following table shows the properties that are required when you create the [plannerBucket](../resources/plannerbucket.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/planner/buckets/{plannerBucketId}
+PATCH https://graph.microsoft.com/localtest/planner/buckets/{plannerBucketId}
 Content-type: application/json
 Content-length: 146
 
@@ -87,7 +89,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.plannerBucket",
-  "id": "b35f3cd9-3cd9-b35f-d93c-5fb3d93c5fb3",
+  "id": "ff70dbb1-dbb1-ff70-b1db-70ffb1db70ff",
   "name": "Name value",
   "planId": "Plan Id value",
   "orderHint": "Order Hint value"

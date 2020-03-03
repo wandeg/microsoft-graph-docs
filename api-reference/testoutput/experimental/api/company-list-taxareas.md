@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List taxAreas
 
+Namespace: microsoft.graph
+
 Get the taxAreas from the taxAreas navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/taxAreas
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/taxAreas
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 316
   "value": [
     {
       "@odata.type": "#microsoft.graph.taxArea",
-      "id": "7cf89646-9646-7cf8-4696-f87c4696f87c",
+      "id": "c7f76067-6067-c7f7-6760-f7c76760f7c7",
       "code": "Code value",
       "displayName": "Display Name value",
       "taxType": "Tax Type value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

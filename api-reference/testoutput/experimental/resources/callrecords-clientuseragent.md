@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
-
 
 # clientUserAgent resource type
 
 
+Namespace: microsoft.graph.callRecords
 
 
-Inherits from [userAgent](../resources/userAgent.md)
+
+
+Inherits from [userAgent](../resources/useragent.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|applicationVersion|String| Inherited from [userAgent](../resources/callRecords-userAgent.md)|
-|headerValue|String| Inherited from [userAgent](../resources/callRecords-userAgent.md)|
+|applicationVersion|String| Inherited from [userAgent](../resources/callrecords-useragent.md)|
+|headerValue|String| Inherited from [userAgent](../resources/callrecords-useragent.md)|
 |platform|Enumeration|. Possible values are: `unknown`, `windows`, `macOS`, `iOS`, `android`, `web`, `iPPhone`, `roomSystem`, `surfaceHub`, `holoLens`, `unknownFutureValue`.|
 |productFamily|Enumeration|. Possible values are: `unknown`, `teams`, `skypeForBusiness`, `lync`, `unknownFutureValue`.|
 

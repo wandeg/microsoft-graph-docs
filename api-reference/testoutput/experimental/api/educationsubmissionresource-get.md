@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationSubmissionResource
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/resources/{educationSubmissionResourceId}
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/resources/{educationSubmissionResourceId}
 ```
 
 ### Response
@@ -68,16 +70,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 944
+Content-Length: 943
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationSubmissionResource",
-    "id": "87eeda54-da54-87ee-54da-ee8754daee87",
+    "id": "300bd9b7-d9b7-300b-b7d9-0b30b7d90b30",
     "resource": {
       "@odata.type": "microsoft.graph.educationResource",
       "displayName": "Display Name value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -91,7 +93,7 @@ Content-Length: 944
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       }

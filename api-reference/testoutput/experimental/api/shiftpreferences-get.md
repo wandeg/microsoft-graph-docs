@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get shiftPreferences
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [shiftPreferences](../resources/shiftpreferences.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/settings/shiftPreferences
+GET https://graph.microsoft.com/localtest/me/settings/shiftPreferences
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1774
+Content-Length: 1773
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.shiftPreferences",
-    "id": "2c6e9f9f-9f9f-2c6e-9f9f-6e2c9f9f6e2c",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "4aa2d663-d663-4aa2-63d6-a24a63d6a24a",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -119,8 +121,8 @@ Content-Length: 1774
         "timeSlots": [
           {
             "@odata.type": "microsoft.graph.timeRange",
-            "startTime": "11:59:42.6500000",
-            "endTime": "11:59:23.2530000"
+            "startTime": "12:02:50.6370000",
+            "endTime": "12:02:54.9570000"
           }
         ]
       }

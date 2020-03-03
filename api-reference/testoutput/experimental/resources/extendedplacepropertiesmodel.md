@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # extendedPlacePropertiesModel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |businessUrl|String||
 |formattedAddress|String||
 |menuUrl|String||
-|openingHoursSpecifications|[openingHoursSpecification](../resources/openingHoursSpecification.md) collection||
+|openingHoursSpecifications|[openingHoursSpecification](../resources/openinghoursspecification.md) collection||
 |priceRange|String||
 |timeZone|String||
 

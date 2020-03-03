@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceConfigurationDeviceStateSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationDeviceStateSummaries
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationDeviceStateSummaries
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 376
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStateSummary",
-    "id": "a4b507db-07db-a4b5-db07-b5a4db07b5a4",
+    "id": "9b45a112-a112-9b45-12a1-459b12a1459b",
     "unknownDeviceCount": 2,
     "notApplicableDeviceCount": 8,
     "compliantDeviceCount": 4,

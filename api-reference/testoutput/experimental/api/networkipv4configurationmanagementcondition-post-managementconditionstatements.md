@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managementConditionStatements
 
+Namespace: microsoft.graph
+
 Create managementConditionStatements by posting to the managementConditionStatements collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/managementConditions/{managementConditionId}/managementCo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managementConditionStatement object.
+In the request body, supply a JSON representation for the [managementConditionStatement](../resources/managementconditionstatement.md) object.
 
-The following table shows the properties that are required when you create the managementConditionStatement.
+The following table shows the properties that are required when you create the [managementConditionStatement](../resources/managementconditionstatement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the m
 |description|String|The admin defined description of the management condition statement.|
 |createdDateTime|DateTimeOffset|The time the management condition statement was created. Generated service side.|
 |modifiedDateTime|DateTimeOffset|The time the management condition statement was last modified. Updated service side.|
-|expression|[managementConditionExpression](../resources/managementConditionExpression.md)|The management condition statement expression used to evaluate if a management condition statement was activated/deactivated.|
+|expression|[managementConditionExpression](../resources/managementconditionexpression.md)|The management condition statement expression used to evaluate if a management condition statement was activated/deactivated.|
 |eTag|String|ETag of the management condition statement. Updated service side.|
 |applicablePlatforms|Enumeration collection|The applicable platforms for this management condition statement.
 This is calculated from looking the management conditions associated to the management condition statement and finding the intersection of applicable platforms. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/managementConditions/{managementConditionId}/managementConditionStatements
+POST https://graph.microsoft.com/localtest/deviceManagement/managementConditions/{managementConditionId}/managementConditionStatements
 Content-type: application/json
 Content-length: 315
 
@@ -96,15 +98,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 483
+Content-Length: 482
 
 {
   "@odata.type": "#microsoft.graph.managementConditionStatement",
-  "id": "39262518-2518-3926-1825-263918252639",
+  "id": "443eae60-ae60-443e-60ae-3e4460ae3e44",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "expression": {
     "@odata.type": "microsoft.graph.managementConditionExpression"
   },

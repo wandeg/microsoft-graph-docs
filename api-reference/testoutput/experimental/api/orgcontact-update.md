@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update orgContact
 
+Namespace: microsoft.graph
+
 Update the properties of a [orgContact](../resources/orgcontact.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH /contacts/{contactsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [orgContact](../resources/orgContact.md) object.
+In the request body, supply a JSON representation for the [orgContact](../resources/orgcontact.md) object.
 
 The following table shows the properties that are required when you create the [orgContact](../resources/orgcontact.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
-|addresses|[physicalOfficeAddress](../resources/physicalOfficeAddress.md) collection||
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
+|addresses|[physicalOfficeAddress](../resources/physicalofficeaddress.md) collection||
 |companyName|String||
 |department|String||
 |displayName|String||
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the [
 |mailNickname|String||
 |onPremisesSyncEnabled|Boolean||
 |onPremisesLastSyncDateTime|DateTimeOffset||
-|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onPremisesProvisioningError.md) collection||
+|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection||
 |phones|[phone](../resources/phone.md) collection||
 |proxyAddresses|String collection||
 |surname|String||
@@ -73,13 +75,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/contacts/{contactsId}
+PATCH https://graph.microsoft.com/localtest/contacts/{contactsId}
 Content-type: application/json
 Content-length: 1355
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -99,14 +101,14 @@ Content-length: 1355
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
     }
   ],
   "phones": [
@@ -137,8 +139,8 @@ Content-Length: 1404
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "id": "adc508a4-08a4-adc5-a408-c5ada408c5ad",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "e8b04e82-4e82-e8b0-824e-b0e8824eb0e8",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -158,14 +160,14 @@ Content-Length: 1404
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
     }
   ],
   "phones": [

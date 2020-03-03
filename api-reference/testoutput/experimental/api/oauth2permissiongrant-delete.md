@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete oAuth2PermissionGrant
 
+Namespace: microsoft.graph
+
 Deletes a [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/oauth2PermissionGrants/{oauth2PermissionGrantsId}
+DELETE https://graph.microsoft.com/localtest/oauth2PermissionGrants/{oauth2PermissionGrantsId}
 ```
 
 ### Response

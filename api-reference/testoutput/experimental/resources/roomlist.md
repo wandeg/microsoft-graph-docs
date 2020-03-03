@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # roomList resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,21 +20,21 @@ Inherits from [place](../resources/place.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List roomLists](../api/roomlist-list.md)|[roomList](../resources/roomList.md) collection|List properties and relationships of the [roomList](../resources/roomlist.md) objects.|
-|[Get roomList](../api/roomlist-get.md)|[roomList](../resources/roomList.md)|Read properties and relationships of the [roomList](../resources/roomlist.md) object.|
-|[Create roomList](../api/roomlist-create.md)|[roomList](../resources/roomList.md)|Create a new [roomList](../resources/roomlist.md) object.|
+|[List roomLists](../api/roomlist-list.md)|[roomList](../resources/roomlist.md) collection|List properties and relationships of the [roomList](../resources/roomlist.md) objects.|
+|[Get roomList](../api/roomlist-get.md)|[roomList](../resources/roomlist.md)|Read properties and relationships of the [roomList](../resources/roomlist.md) object.|
+|[Create roomList](../api/roomlist-create.md)|[roomList](../resources/roomlist.md)|Create a new [roomList](../resources/roomlist.md) object.|
 |[Delete roomList](../api/roomlist-delete.md)|None|Deletes a [roomList](../resources/roomlist.md).|
-|[Update roomList](../api/roomlist-update.md)|[roomList](../resources/roomList.md)|Update the properties of a [roomList](../resources/roomlist.md) object.|
+|[Update roomList](../api/roomlist-update.md)|[roomList](../resources/roomlist.md)|Update the properties of a [roomList](../resources/roomlist.md) object.|
 |[List rooms](../api/roomlist-list-rooms.md)|[room](../resources/room.md) collection|Get the rooms from the rooms navigation property.|
 |[Add rooms](../api/roomlist-post-rooms.md)|[room](../resources/room.md)|Add rooms by posting to the rooms collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)| Inherited from [place](../resources/place.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)| Inherited from [place](../resources/place.md)|
 |displayName|String| Inherited from [place](../resources/place.md)|
 |emailAddress|String||
-|geoCoordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)| Inherited from [place](../resources/place.md)|
+|geoCoordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)| Inherited from [place](../resources/place.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |phone|String| Inherited from [place](../resources/place.md)|
 

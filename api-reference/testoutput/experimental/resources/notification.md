@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # notification resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List notifications](../api/notification-list.md)|[notification](../resources/notification.md) collection|List properties and relationships of the [notification](../resources/notification.md) objects.|
 |[Get notification](../api/notification-get.md)|[notification](../resources/notification.md)|Read properties and relationships of the [notification](../resources/notification.md) object.|
+|[Create notification](../api/notification-create.md)|[notification](../resources/notification.md)|Create a new [notification](../resources/notification.md) object.|
 |[Delete notification](../api/notification-delete.md)|None|Deletes a [notification](../resources/notification.md).|
 |[Update notification](../api/notification-update.md)|[notification](../resources/notification.md)|Update the properties of a [notification](../resources/notification.md) object.|
 
@@ -30,10 +33,10 @@ Inherits from [entity](../resources/entity.md)
 |expirationDateTime|DateTimeOffset||
 |groupName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|payload|[payloadTypes](../resources/payloadTypes.md)||
+|payload|[payloadTypes](../resources/payloadtypes.md)||
 |priority|Enumeration|. Possible values are: `None`, `High`, `Low`.|
 |targetHostName|String||
-|targetPolicy|[targetPolicyEndpoints](../resources/targetPolicyEndpoints.md)||
+|targetPolicy|[targetPolicyEndpoints](../resources/targetpolicyendpoints.md)||
 
 ## Relationships
 None

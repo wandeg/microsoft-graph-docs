@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailboxUsageMailboxCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mailboxUsageMailboxCountses](../api/mailboxusagemailboxcounts-list.md)|[mailboxUsageMailboxCounts](../resources/mailboxUsageMailboxCounts.md) collection|List properties and relationships of the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) objects.|
-|[Get mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-get.md)|[mailboxUsageMailboxCounts](../resources/mailboxUsageMailboxCounts.md)|Read properties and relationships of the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
-|[Create mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-create.md)|[mailboxUsageMailboxCounts](../resources/mailboxUsageMailboxCounts.md)|Create a new [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
+|[List mailboxUsageMailboxCountses](../api/mailboxusagemailboxcounts-list.md)|[mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) collection|List properties and relationships of the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) objects.|
+|[Get mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-get.md)|[mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md)|Read properties and relationships of the [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
+|[Create mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-create.md)|[mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md)|Create a new [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
 |[Delete mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-delete.md)|None|Deletes a [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md).|
-|[Update mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-update.md)|[mailboxUsageMailboxCounts](../resources/mailboxUsageMailboxCounts.md)|Update the properties of a [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
+|[Update mailboxUsageMailboxCounts](../api/mailboxusagemailboxcounts-update.md)|[mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md)|Update the properties of a [mailboxUsageMailboxCounts](../resources/mailboxusagemailboxcounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

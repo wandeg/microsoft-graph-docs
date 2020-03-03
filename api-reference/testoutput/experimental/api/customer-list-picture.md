@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List picture
 
+Namespace: microsoft.graph
+
 Get the pictures from the picture navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customers/{customerId}/picture
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/customers/{customerId}/picture
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 250
   "value": [
     {
       "@odata.type": "#microsoft.graph.picture",
-      "id": "79b7245c-245c-79b7-5c24-b7795c24b779",
+      "id": "94a23027-3027-94a2-2730-a2942730a294",
       "width": 5,
       "height": 6,
       "contentType": "Content Type value",

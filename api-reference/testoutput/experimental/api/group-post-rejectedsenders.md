@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add rejectedSenders
 
+Namespace: microsoft.graph
+
 Add rejectedSenders by posting to the rejectedSenders collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedGroups/{groupId}/rejectedSenders/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directoryObject object.
+In the request body, supply a JSON representation for the [directoryObject](../resources/directoryobject.md) object.
 
-The following table shows the properties that are required when you create the directoryObject.
+The following table shows the properties that are required when you create the [directoryObject](../resources/directoryobject.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/rejectedSenders
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/rejectedSenders
 Content-type: application/json
 Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00"
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00"
 }
 ```
 
@@ -86,8 +88,8 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "98b7e341-e341-98b7-41e3-b79841e3b798",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00"
+  "id": "3ee17962-7962-3ee1-6279-e13e6279e13e",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00"
 }
 ```
 

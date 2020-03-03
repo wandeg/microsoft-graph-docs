@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete vendor
 
+Namespace: microsoft.graph
+
 Deletes a [vendor](../resources/vendor.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/vendors/{vendorId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/vendors/{vendorId}
 ```
 
 ### Response

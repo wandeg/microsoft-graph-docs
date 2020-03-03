@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get embeddedSIMActivationCodePoolAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments/{embeddedSIMActivationCodePoolAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments/{embeddedSIMActivationCodePoolAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 257
 {
   "value": {
     "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-    "id": "3334bc32-bc32-3334-32bc-343332bc3433",
+    "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

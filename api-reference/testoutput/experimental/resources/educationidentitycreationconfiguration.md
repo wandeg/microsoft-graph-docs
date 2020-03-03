@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationIdentityCreationConfiguration resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationIdentitySynchronizationConfiguration](../resources/educationIdentitySynchronizationConfiguration.md)
+
+
+Inherits from [educationIdentitySynchronizationConfiguration](../resources/educationidentitysynchronizationconfiguration.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|userDomains|[educationIdentityDomain](../resources/educationIdentityDomain.md) collection||
+|userDomains|[educationIdentityDomain](../resources/educationidentitydomain.md) collection||
 
 ## Relationships
 None

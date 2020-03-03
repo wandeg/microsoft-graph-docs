@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get muteParticipantsOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [muteParticipantsOperation](../resources/muteparticipantsoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.muteParticipantsOperation not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.muteParticipantsOperation not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 423
 {
   "value": {
     "@odata.type": "#microsoft.graph.muteParticipantsOperation",
-    "id": "d4ae93cf-93cf-d4ae-cf93-aed4cf93aed4",
+    "id": "b089407d-407d-b089-7d40-89b07d4089b0",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get appCatalogs
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [appCatalogs](../resources/appcatalogs.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/appCatalogs
+GET https://graph.microsoft.com/localtest/appCatalogs
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 125
 {
   "value": {
     "@odata.type": "#microsoft.graph.appCatalogs",
-    "id": "8b971321-1321-8b97-2113-978b2113978b"
+    "id": "4a761063-1063-4a76-6310-764a6310764a"
   }
 }
 ```

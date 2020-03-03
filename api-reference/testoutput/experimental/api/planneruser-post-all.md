@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create all
 
+Namespace: microsoft.graph
+
 Create all by posting to the all collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/planner/all/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerDelta object.
+In the request body, supply a JSON representation for the [plannerDelta](../resources/plannerdelta.md) object.
 
-The following table shows the properties that are required when you create the plannerDelta.
+The following table shows the properties that are required when you create the [plannerDelta](../resources/plannerdelta.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/planner/all
+POST https://graph.microsoft.com/localtest/me/planner/all
 Content-type: application/json
 Content-length: 54
 
@@ -83,7 +85,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.plannerDelta",
-  "id": "241acbc6-cbc6-241a-c6cb-1a24c6cb1a24"
+  "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
 }
 ```
 

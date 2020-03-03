@@ -5,38 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # evaluateLabelsAndPoliciesJobResponse resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [jobResponseBase](../resources/jobResponseBase.md)
+
+
+Inherits from [jobResponseBase](../resources/jobresponsebase.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List evaluateLabelsAndPoliciesJobResponses](../api/evaluatelabelsandpoliciesjobresponse-list.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluateLabelsAndPoliciesJobResponse.md) collection|List properties and relationships of the [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) objects.|
-|[Get evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-get.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluateLabelsAndPoliciesJobResponse.md)|Read properties and relationships of the [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
-|[Create evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-create.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluateLabelsAndPoliciesJobResponse.md)|Create a new [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
+|[List evaluateLabelsAndPoliciesJobResponses](../api/evaluatelabelsandpoliciesjobresponse-list.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) collection|List properties and relationships of the [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) objects.|
+|[Get evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-get.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md)|Read properties and relationships of the [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
+|[Create evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-create.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md)|Create a new [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
 |[Delete evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-delete.md)|None|Deletes a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md).|
-|[Update evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-update.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluateLabelsAndPoliciesJobResponse.md)|Update the properties of a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
+|[Update evaluateLabelsAndPoliciesJobResponse](../api/evaluatelabelsandpoliciesjobresponse-update.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md)|Update the properties of a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|result|[evaluateLabelsAndPoliciesResult](../resources/evaluateLabelsAndPoliciesResult.md)||
-|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|status|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|tenantId|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|type|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
+|result|[evaluateLabelsAndPoliciesResult](../resources/evaluatelabelsandpoliciesresult.md)||
+|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|status|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|tenantId|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|type|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
 
 ## Relationships
 None

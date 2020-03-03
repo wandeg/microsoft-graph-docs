@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create educationRubricOutcome
 
+Namespace: microsoft.graph
+
 Create a new [educationRubricOutcome](../resources/educationrubricoutcome.md) object.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST ** Collection URI for microsoft.graph.educationRubricOutcome not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationRubricOutcome object.
+In the request body, supply a JSON representation for the [educationRubricOutcome](../resources/educationrubricoutcome.md) object.
 
-The following table shows the properties that are required when you create the educationRubricOutcome.
+The following table shows the properties that are required when you create the [educationRubricOutcome](../resources/educationrubricoutcome.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|rubricQualityFeedback|[rubricQualityFeedbackModel](../resources/rubricQualityFeedbackModel.md) collection||
-|rubricQualitySelectedLevels|[rubricQualitySelectedColumnModel](../resources/rubricQualitySelectedColumnModel.md) collection||
-|publishedRubricQualityFeedback|[rubricQualityFeedbackModel](../resources/rubricQualityFeedbackModel.md) collection||
-|publishedRubricQualitySelectedLevels|[rubricQualitySelectedColumnModel](../resources/rubricQualitySelectedColumnModel.md) collection||
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|rubricQualityFeedback|[rubricQualityFeedbackModel](../resources/rubricqualityfeedbackmodel.md) collection||
+|rubricQualitySelectedLevels|[rubricQualitySelectedColumnModel](../resources/rubricqualityselectedcolumnmodel.md) collection||
+|publishedRubricQualityFeedback|[rubricQualityFeedbackModel](../resources/rubricqualityfeedbackmodel.md) collection||
+|publishedRubricQualitySelectedLevels|[rubricQualitySelectedColumnModel](../resources/rubricqualityselectedcolumnmodel.md) collection||
 
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationRubricOutcome not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationRubricOutcome not found
 Content-type: application/json
 Content-length: 814
 
@@ -116,7 +118,7 @@ Content-Length: 1300
 
 {
   "@odata.type": "#microsoft.graph.educationRubricOutcome",
-  "id": "69e6131e-131e-69e6-1e13-e6691e13e669",
+  "id": "b8139c4b-9c4b-b813-4b9c-13b84b9c13b8",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -131,7 +133,7 @@ Content-Length: 1300
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "rubricQualityFeedback": [
     {
       "@odata.type": "microsoft.graph.rubricQualityFeedbackModel",

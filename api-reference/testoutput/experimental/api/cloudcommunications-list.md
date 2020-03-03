@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List cloudCommunicationses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [cloudCommunications](../resources/cloudcommunications.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.cloudCommunications not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.cloudCommunications not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 151
   "value": [
     {
       "@odata.type": "#microsoft.graph.cloudCommunications",
-      "id": "c93bc205-c205-c93b-05c2-3bc905c23bc9"
+      "id": "78677146-7146-7867-4671-677846716778"
     }
   ]
 }

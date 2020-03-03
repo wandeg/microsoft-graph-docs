@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create applicationSignInSummary
 
+Namespace: microsoft.graph
+
 Create a new [applicationSignInSummary](../resources/applicationsigninsummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.applicationSignInSummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the applicationSignInSummary object.
+In the request body, supply a JSON representation for the [applicationSignInSummary](../resources/applicationsigninsummary.md) object.
 
-The following table shows the properties that are required when you create the applicationSignInSummary.
+The following table shows the properties that are required when you create the [applicationSignInSummary](../resources/applicationsigninsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.applicationSignInSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.applicationSignInSummary not found
 Content-type: application/json
 Content-length: 205
 
@@ -91,7 +93,7 @@ Content-Length: 254
 
 {
   "@odata.type": "#microsoft.graph.applicationSignInSummary",
-  "id": "65f064cb-64cb-65f0-cb64-f065cb64f065",
+  "id": "6d0bb32e-b32e-6d0b-2eb3-0b6d2eb30b6d",
   "appDisplayName": "App Display Name value",
   "successfulSignInCount": 5,
   "failedSignInCount": 1,

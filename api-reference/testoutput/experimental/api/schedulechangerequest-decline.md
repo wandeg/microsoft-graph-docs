@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # decline
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.scheduleChangeRequest not found/decline
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.scheduleChangeRequest not found/decline
 
 Content-type: application/json
 Content-length: 34

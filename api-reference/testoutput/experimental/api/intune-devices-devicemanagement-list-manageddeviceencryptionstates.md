@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedDeviceEncryptionStates
 
+Namespace: microsoft.graph
+
 Get the managedDeviceEncryptionStates from the managedDeviceEncryptionStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/managedDeviceEncryptionStates
+GET https://graph.microsoft.com/localtest/deviceManagement/managedDeviceEncryptionStates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 829
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceEncryptionState",
-      "id": "1765db68-db68-1765-68db-651768db6517",
+      "id": "632426d4-26d4-6324-d426-2463d4262463",
       "userPrincipalName": "User Principal Name value",
       "deviceType": "String",
       "osVersion": "Os Version value",

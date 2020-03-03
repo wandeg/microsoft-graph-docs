@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get presence
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [presence](../resources/presence.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/presence
+GET https://graph.microsoft.com/localtest/me/presence
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 200
 {
   "value": {
     "@odata.type": "#microsoft.graph.presence",
-    "id": "ba441c11-1c11-ba44-111c-44ba111c44ba",
+    "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
     "availability": "Availability value",
     "activity": "Activity value"
   }

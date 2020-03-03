@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # customerPayment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get customerPayment](../api/customerpayment-get.md)|[customerPayment](../resources/customerPayment.md)|Read properties and relationships of the [customerPayment](../resources/customerpayment.md) object.|
+|[List customerPayments](../api/customerpayment-list.md)|[customerPayment](../resources/customerpayment.md) collection|List properties and relationships of the [customerPayment](../resources/customerpayment.md) objects.|
+|[Get customerPayment](../api/customerpayment-get.md)|[customerPayment](../resources/customerpayment.md)|Read properties and relationships of the [customerPayment](../resources/customerpayment.md) object.|
+|[Create customerPayment](../api/customerpayment-create.md)|[customerPayment](../resources/customerpayment.md)|Create a new [customerPayment](../resources/customerpayment.md) object.|
 |[Delete customerPayment](../api/customerpayment-delete.md)|None|Deletes a [customerPayment](../resources/customerpayment.md).|
-|[Update customerPayment](../api/customerpayment-update.md)|[customerPayment](../resources/customerPayment.md)|Update the properties of a [customerPayment](../resources/customerpayment.md) object.|
+|[Update customerPayment](../api/customerpayment-update.md)|[customerPayment](../resources/customerpayment.md)|Update the properties of a [customerPayment](../resources/customerpayment.md) object.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 
 ## Properties

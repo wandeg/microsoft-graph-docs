@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete accessPackageCatalog
 
+Namespace: microsoft.graph
+
 Deletes a [accessPackageCatalog](../resources/accesspackagecatalog.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/accessPackageCatalogs/{accessPackageCatalogsId}
+DELETE https://graph.microsoft.com/localtest/accessPackageCatalogs/{accessPackageCatalogsId}
 ```
 
 ### Response

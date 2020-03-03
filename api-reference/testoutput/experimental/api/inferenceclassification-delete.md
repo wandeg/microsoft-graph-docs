@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete inferenceClassification
 
+Namespace: microsoft.graph
+
 Deletes a [inferenceClassification](../resources/inferenceclassification.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/inferenceClassification
+DELETE https://graph.microsoft.com/localtest/me/inferenceClassification
 ```
 
 ### Response

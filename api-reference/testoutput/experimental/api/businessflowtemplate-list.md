@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List businessFlowTemplates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [businessFlowTemplate](../resources/businessflowtemplate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/businessFlowTemplates
+GET https://graph.microsoft.com/localtest/businessFlowTemplates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 196
   "value": [
     {
       "@odata.type": "#microsoft.graph.businessFlowTemplate",
-      "id": "c3fe3813-3813-c3fe-1338-fec31338fec3",
+      "id": "22703e6d-3e6d-2270-6d3e-70226d3e7022",
       "displayName": "Display Name value"
     }
   ]

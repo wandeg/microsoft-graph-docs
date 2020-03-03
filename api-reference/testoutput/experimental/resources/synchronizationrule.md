@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # synchronizationRule resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,9 +19,9 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |editable|Boolean||
 |id|String||
-|metadata|[stringKeyStringValuePair](../resources/stringKeyStringValuePair.md) collection||
+|metadata|[stringKeyStringValuePair](../resources/stringkeystringvaluepair.md) collection||
 |name|String||
-|objectMappings|[objectMapping](../resources/objectMapping.md) collection||
+|objectMappings|[objectMapping](../resources/objectmapping.md) collection||
 |priority|Int32||
 |sourceDirectoryName|String||
 |targetDirectoryName|String||

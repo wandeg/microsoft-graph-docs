@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete schedule
 
+Namespace: microsoft.graph
+
 Deletes a [schedule](../resources/schedule.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/teams/{teamsId}/schedule
+DELETE https://graph.microsoft.com/localtest/teams/{teamsId}/schedule
 ```
 
 ### Response

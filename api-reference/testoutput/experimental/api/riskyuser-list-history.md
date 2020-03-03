@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List history
 
+Namespace: microsoft.graph
+
 Get the riskyUserHistoryItems from the history navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/riskyUsers/{riskyUsersId}/history
+GET https://graph.microsoft.com/localtest/riskyUsers/{riskyUsersId}/history
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 757
   "value": [
     {
       "@odata.type": "#microsoft.graph.riskyUserHistoryItem",
-      "id": "7e9fd1ac-d1ac-7e9f-acd1-9f7eacd19f7e",
+      "id": "680fff26-ff26-680f-26ff-0f6826ff0f68",
       "isDeleted": true,
       "isGuest": true,
       "isProcessing": true,
-      "riskLastUpdatedDateTime": "2016-12-31T23:56:32.9362095+03:00",
+      "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
       "riskLevel": "String",
       "riskState": "String",
       "riskDetail": "String",

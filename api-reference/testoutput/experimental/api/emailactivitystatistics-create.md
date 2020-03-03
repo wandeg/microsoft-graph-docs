@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create emailActivityStatistics
 
+Namespace: microsoft.graph
+
 Create a new [emailActivityStatistics](../resources/emailactivitystatistics.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.emailActivityStatistics not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the emailActivityStatistics object.
+In the request body, supply a JSON representation for the [emailActivityStatistics](../resources/emailactivitystatistics.md) object.
 
-The following table shows the properties that are required when you create the emailActivityStatistics.
+The following table shows the properties that are required when you create the [emailActivityStatistics](../resources/emailactivitystatistics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |afterHours|Duration||
 |readEmail|Duration||
 |sentEmail|Duration||
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailActivityStatistics not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailActivityStatistics not found
 Content-type: application/json
-Content-length: 318
+Content-length: 322
 
 {
   "@odata.type": "#microsoft.graph.emailActivityStatistics",
@@ -77,10 +79,10 @@ Content-length: 318
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S",
-  "readEmail": "-PT3M11.7567899S",
-  "sentEmail": "PT1M11.5133279S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S",
+  "readEmail": "-PT1M6.6321885S",
+  "sentEmail": "-PT2M11.5873492S"
 }
 ```
 
@@ -95,19 +97,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 367
+Content-Length: 371
 
 {
   "@odata.type": "#microsoft.graph.emailActivityStatistics",
-  "id": "9b030e25-0e25-9b03-250e-039b250e039b",
+  "id": "ed421464-1464-ed42-6414-42ed641442ed",
   "activity": "String",
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "PT3M27.7161587S",
-  "afterHours": "PT21.1795365S",
-  "readEmail": "-PT3M11.7567899S",
-  "sentEmail": "PT1M11.5133279S"
+  "duration": "-PT1M55.0810357S",
+  "afterHours": "-PT1M34.3242013S",
+  "readEmail": "-PT1M6.6321885S",
+  "sentEmail": "-PT2M11.5873492S"
 }
 ```
 

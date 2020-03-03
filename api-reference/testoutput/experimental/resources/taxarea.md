@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # taxArea resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get taxArea](../api/taxarea-get.md)|[taxArea](../resources/taxArea.md)|Read properties and relationships of the [taxArea](../resources/taxarea.md) object.|
+|[List taxAreas](../api/taxarea-list.md)|[taxArea](../resources/taxarea.md) collection|List properties and relationships of the [taxArea](../resources/taxarea.md) objects.|
+|[Get taxArea](../api/taxarea-get.md)|[taxArea](../resources/taxarea.md)|Read properties and relationships of the [taxArea](../resources/taxarea.md) object.|
+|[Create taxArea](../api/taxarea-create.md)|[taxArea](../resources/taxarea.md)|Create a new [taxArea](../resources/taxarea.md) object.|
 |[Delete taxArea](../api/taxarea-delete.md)|None|Deletes a [taxArea](../resources/taxarea.md).|
-|[Update taxArea](../api/taxarea-update.md)|[taxArea](../resources/taxArea.md)|Update the properties of a [taxArea](../resources/taxarea.md) object.|
+|[Update taxArea](../api/taxarea-update.md)|[taxArea](../resources/taxarea.md)|Update the properties of a [taxArea](../resources/taxarea.md) object.|
 
 ## Properties
 |Property|Type|Description|

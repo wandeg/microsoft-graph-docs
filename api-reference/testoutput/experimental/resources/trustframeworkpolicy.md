@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # trustFrameworkPolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get trustFrameworkPolicy](../api/trustframeworkpolicy-get.md)|[trustFrameworkPolicy](../resources/trustFrameworkPolicy.md)|Read properties and relationships of the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.|
+|[List trustFrameworkPolicies](../api/trustframeworkpolicy-list.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md) collection|List properties and relationships of the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) objects.|
+|[Get trustFrameworkPolicy](../api/trustframeworkpolicy-get.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md)|Read properties and relationships of the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.|
+|[Create trustFrameworkPolicy](../api/trustframeworkpolicy-create.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md)|Create a new [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.|
 |[Delete trustFrameworkPolicy](../api/trustframeworkpolicy-delete.md)|None|Deletes a [trustFrameworkPolicy](../resources/trustframeworkpolicy.md).|
-|[Update trustFrameworkPolicy](../api/trustframeworkpolicy-update.md)|[trustFrameworkPolicy](../resources/trustFrameworkPolicy.md)|Update the properties of a [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.|
-|[List policies](../api/trustframework-list-policies.md)|[trustFrameworkPolicy](../resources/trustFrameworkPolicy.md) collection|Get the trustFrameworkPolicies from the policies navigation property.|
-|[Add policies](../api/trustframework-post-policies.md)|[trustFrameworkPolicy](../resources/trustFrameworkPolicy.md)|Add policies by posting to the policies collection.|
+|[Update trustFrameworkPolicy](../api/trustframeworkpolicy-update.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md)|Update the properties of a [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.|
+|[List policies](../api/trustframework-list-policies.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md) collection|Get the trustFrameworkPolicies from the policies navigation property.|
+|[Add policies](../api/trustframework-post-policies.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md)|Add policies by posting to the policies collection.|
 
 ## Properties
 |Property|Type|Description|

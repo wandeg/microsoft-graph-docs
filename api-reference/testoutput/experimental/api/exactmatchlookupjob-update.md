@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update exactMatchLookupJob
 
+Namespace: microsoft.graph
+
 Update the properties of a [exactMatchLookupJob](../resources/exactmatchlookupjob.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.exactMatchLookupJob not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [exactMatchLookupJob](../resources/exactMatchLookupJob.md) object.
+In the request body, supply a JSON representation for the [exactMatchLookupJob](../resources/exactmatchlookupjob.md) object.
 
 The following table shows the properties that are required when you create the [exactMatchLookupJob](../resources/exactmatchlookupjob.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|creationDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
-|startDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
-|lastUpdatedDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
-|completionDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [exactMatchJobBase](../resources/exactMatchJobBase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
+|startDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
+|lastUpdatedDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
+|completionDateTime|DateTimeOffset| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [exactMatchJobBase](../resources/exactmatchjobbase.md)|
 |state|String||
 
 
@@ -64,16 +66,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.exactMatchLookupJob not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.exactMatchLookupJob not found
 Content-type: application/json
-Content-length: 856
+Content-length: 858
 
 {
   "@odata.type": "#microsoft.graph.exactMatchLookupJob",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
-  "completionDateTime": "2017-01-01T00:02:23.013137+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -81,7 +83,7 @@ Content-length: 856
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },
@@ -105,15 +107,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 905
+Content-Length: 907
 
 {
   "@odata.type": "#microsoft.graph.exactMatchLookupJob",
-  "id": "c31ee9fd-e9fd-c31e-fde9-1ec3fde91ec3",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
-  "completionDateTime": "2017-01-01T00:02:23.013137+03:00",
+  "id": "c5506bf3-6bf3-c550-f36b-50c5f36b50c5",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -121,7 +123,7 @@ Content-Length: 905
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },

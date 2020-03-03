@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsUserActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List teamsUserActivityUserDetails](../api/teamsuseractivityuserdetail-list.md)|[teamsUserActivityUserDetail](../resources/teamsUserActivityUserDetail.md) collection|List properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) objects.|
-|[Get teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-get.md)|[teamsUserActivityUserDetail](../resources/teamsUserActivityUserDetail.md)|Read properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
-|[Create teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-create.md)|[teamsUserActivityUserDetail](../resources/teamsUserActivityUserDetail.md)|Create a new [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
+|[List teamsUserActivityUserDetails](../api/teamsuseractivityuserdetail-list.md)|[teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) collection|List properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) objects.|
+|[Get teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-get.md)|[teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md)|Read properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
+|[Create teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-create.md)|[teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md)|Create a new [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
 |[Delete teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-delete.md)|None|Deletes a [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md).|
-|[Update teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-update.md)|[teamsUserActivityUserDetail](../resources/teamsUserActivityUserDetail.md)|Update the properties of a [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
+|[Update teamsUserActivityUserDetail](../api/teamsuseractivityuserdetail-update.md)|[teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md)|Update the properties of a [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

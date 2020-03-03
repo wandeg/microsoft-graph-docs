@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidManagedStoreAccountEnterpriseSettings
 
+Namespace: microsoft.graph
+
 Deletes a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAccountEnterpriseSettings
+DELETE https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAccountEnterpriseSettings
 ```
 
 ### Response

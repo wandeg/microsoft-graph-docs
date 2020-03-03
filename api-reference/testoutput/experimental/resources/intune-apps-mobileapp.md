@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileApp resource type
+
+
+Namespace: microsoft.graph
 
 An abstract class containing the base properties for Intune mobile apps.
 
@@ -19,26 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileApp](../api/intune-apps-mobileapp-get.md)|[mobileApp](../resources/intune-apps-mobileApp.md)|Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.|
+|[List mobileApps](../api/intune-apps-mobileapp-list.md)|[mobileApp](../resources/intune-apps-mobileapp.md) collection|List properties and relationships of the [mobileApp](../resources/mobileapp.md) objects.|
+|[Get mobileApp](../api/intune-apps-mobileapp-get.md)|[mobileApp](../resources/intune-apps-mobileapp.md)|Read properties and relationships of the [mobileApp](../resources/intune-apps-mobileapp.md) object.|
 |[assign](../api/intune-apps-mobileapp-assign.md)|None||
 |[updateRelationships](../api/intune-apps-mobileapp-updaterelationships.md)|None||
-|[getRelatedAppStates](../api/intune-apps-mobileapp-getrelatedappstates.md)|[mobileAppRelationshipState](../resources/intune-apps-mobileAppRelationshipState.md) collection||
+|[getRelatedAppStates](../api/intune-apps-mobileapp-getrelatedappstates.md)|[mobileAppRelationshipState](../resources/intune-apps-mobileapprelationshipstate.md) collection||
 |[getMobileAppCount](../api/intune-apps-mobileapp-getmobileappcount.md)|Int64||
-|[getTopMobileApps](../api/intune-apps-mobileapp-gettopmobileapps.md)|[mobileApp](../resources/intune-apps-mobileApp.md) collection||
-|[hasPayloadLinks](../api/intune-apps-mobileapp-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/hasPayloadLinkResultItem.md) collection||
-|[List categories](../api/intune-apps-mobileapp-list-categories.md)|[mobileAppCategory](../resources/intune-apps-mobileAppCategory.md) collection|Get the mobileAppCategories from the categories navigation property.|
-|[Create categories](../api/intune-apps-mobileapp-post-categories.md)|[mobileAppCategory](../resources/intune-apps-mobileAppCategory.md)|Create categories by posting to the categories collection.|
-|[List assignments](../api/intune-apps-mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/intune-apps-mobileAppAssignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
-|[Add assignments](../api/intune-apps-mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/intune-apps-mobileAppAssignment.md)|Add assignments by posting to the assignments collection.|
-|[Get mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-get.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md)|Read properties and relationships of the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object.|
-|[List deviceStatuses](../api/intune-apps-mobileapp-list-devicestatuses.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileAppInstallStatus.md) collection|Get the mobileAppInstallStatuses from the deviceStatuses navigation property.|
-|[Add deviceStatuses](../api/intune-apps-mobileapp-post-devicestatuses.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileAppInstallStatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
-|[List userStatuses](../api/intune-apps-mobileapp-list-userstatuses.md)|[userAppInstallStatus](../resources/intune-apps-userAppInstallStatus.md) collection|Get the userAppInstallStatuses from the userStatuses navigation property.|
-|[Add userStatuses](../api/intune-apps-mobileapp-post-userstatuses.md)|[userAppInstallStatus](../resources/intune-apps-userAppInstallStatus.md)|Add userStatuses by posting to the userStatuses collection.|
-|[List relationships](../api/intune-apps-mobileapp-list-relationships.md)|[mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md) collection|Get the mobileAppRelationships from the relationships navigation property.|
-|[Add relationships](../api/intune-apps-mobileapp-post-relationships.md)|[mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md)|Add relationships by posting to the relationships collection.|
-|[List mobileApps](../api/intune-apps-deviceappmanagement-list-mobileapps.md)|[mobileApp](../resources/intune-apps-mobileApp.md) collection|Get the mobileApps from the mobileApps navigation property.|
-|[Add mobileApps](../api/intune-apps-deviceappmanagement-post-mobileapps.md)|[mobileApp](../resources/intune-apps-mobileApp.md)|Add mobileApps by posting to the mobileApps collection.|
+|[getTopMobileApps](../api/intune-apps-mobileapp-gettopmobileapps.md)|[mobileApp](../resources/intune-apps-mobileapp.md) collection||
+|[hasPayloadLinks](../api/intune-apps-mobileapp-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
+|[List categories](../api/intune-apps-mobileapp-list-categories.md)|[mobileAppCategory](../resources/intune-apps-mobileappcategory.md) collection|Get the mobileAppCategories from the categories navigation property.|
+|[Create categories](../api/intune-apps-mobileapp-post-categories.md)|[mobileAppCategory](../resources/intune-apps-mobileappcategory.md)|Create categories by posting to the categories collection.|
+|[List assignments](../api/intune-apps-mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
+|[Add assignments](../api/intune-apps-mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/intune-apps-mobileappassignment.md)|Add assignments by posting to the assignments collection.|
+|[Get mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-get.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md)|Read properties and relationships of the [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.|
+|[List deviceStatuses](../api/intune-apps-mobileapp-list-devicestatuses.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) collection|Get the mobileAppInstallStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/intune-apps-mobileapp-post-devicestatuses.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
+|[List userStatuses](../api/intune-apps-mobileapp-list-userstatuses.md)|[userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) collection|Get the userAppInstallStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/intune-apps-mobileapp-post-userstatuses.md)|[userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md)|Add userStatuses by posting to the userStatuses collection.|
+|[List relationships](../api/intune-apps-mobileapp-list-relationships.md)|[mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) collection|Get the mobileAppRelationships from the relationships navigation property.|
+|[Add relationships](../api/intune-apps-mobileapp-post-relationships.md)|[mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md)|Add relationships by posting to the relationships collection.|
+|[List mobileApps](../api/intune-apps-deviceappmanagement-list-mobileapps.md)|[mobileApp](../resources/intune-apps-mobileapp.md) collection|Get the mobileApps from the mobileApps navigation property.|
+|[Add mobileApps](../api/intune-apps-deviceappmanagement-post-mobileapps.md)|[mobileApp](../resources/intune-apps-mobileapp.md)|Add mobileApps by posting to the mobileApps collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -52,7 +54,7 @@ Inherits from [entity](../resources/entity.md)
 |informationUrl|String|The more information Url.|
 |isAssigned|Boolean|The value indicating whether the app is assigned to at least one group.|
 |isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin.|
-|largeIcon|[mimeContent](../resources/intune-apps-mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
+|largeIcon|[mimeContent](../resources/intune-apps-mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
 |lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified.|
 |notes|String|Notes for the app.|
 |owner|String|The owner of the app.|
@@ -65,12 +67,12 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[mobileAppAssignment](../resources/intune-apps-mobileAppAssignment.md) collection|The list of group assignments for this mobile app.|
-|categories|[mobileAppCategory](../resources/intune-apps-mobileAppCategory.md) collection|The list of categories for this app.|
-|deviceStatuses|[mobileAppInstallStatus](../resources/intune-apps-mobileAppInstallStatus.md) collection|The list of installation states for this mobile app.|
-|installSummary|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md)|Mobile App Install Summary.|
-|relationships|[mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md) collection|List of relationships for this mobile app.|
-|userStatuses|[userAppInstallStatus](../resources/intune-apps-userAppInstallStatus.md) collection|The list of installation states for this mobile app.|
+|assignments|[mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) collection|The list of group assignments for this mobile app.|
+|categories|[mobileAppCategory](../resources/intune-apps-mobileappcategory.md) collection|The list of categories for this app.|
+|deviceStatuses|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) collection|The list of installation states for this mobile app.|
+|installSummary|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md)|Mobile App Install Summary.|
+|relationships|[mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md) collection|List of relationships for this mobile app.|
+|userStatuses|[userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) collection|The list of installation states for this mobile app.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

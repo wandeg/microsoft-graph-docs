@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List items
 
+Namespace: microsoft.graph
+
 Get the baseItems from the items navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}/items
+GET https://graph.microsoft.com/localtest/sites/{sitesId}/items
 ```
 
 ### Response
@@ -65,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1591
+Content-Length: 1590
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.baseItem",
-      "id": "8f8cf734-f734-8f8c-34f7-8c8f34f78c8f",
+      "id": "168ebe0e-be0e-168e-0ebe-8e160ebe8e16",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -86,13 +88,13 @@ Content-Length: 1591
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

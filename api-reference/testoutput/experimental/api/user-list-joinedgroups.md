@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List joinedGroups
 
+Namespace: microsoft.graph
+
 Get the groups from the joinedGroups navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups
+GET https://graph.microsoft.com/localtest/me/joinedGroups
 ```
 
 ### Response
@@ -65,14 +67,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3163
+Content-Length: 3162
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "a2a4952c-952c-a2a4-2c95-a4a22c95a4a2",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "2c3bc02c-c02c-2c3b-2cc0-3b2c2cc03b2c",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "assignedLabels": [
         {
           "@odata.type": "microsoft.graph.assignedLabel",
@@ -84,13 +86,13 @@ Content-Length: 3163
         {
           "@odata.type": "microsoft.graph.assignedLicense",
           "disabledPlans": [
-            "018663cc-63cc-0186-cc63-8601cc638601"
+            "d28f3feb-3feb-d28f-eb3f-8fd2eb3f8fd2"
           ],
-          "skuId": "57435096-5096-5743-9650-435796504357"
+          "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76"
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "groupTypes": [
@@ -109,7 +111,7 @@ Content-Length: 3163
       "membershipRule": "Membership Rule value",
       "membershipRuleProcessingState": "Membership Rule Processing State value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -117,7 +119,7 @@ Content-Length: 3163
           "value": "Value value",
           "category": "Category value",
           "propertyCausingError": "Property Causing Error value",
-          "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+          "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
         }
       ],
       "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -128,7 +130,7 @@ Content-Length: 3163
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2016-12-31T23:59:56.7748726+03:00",
+      "renewedDateTime": "2017-01-01T00:02:09.3684079+03:00",
       "resourceBehaviorOptions": [
         "Resource Behavior Options value"
       ],

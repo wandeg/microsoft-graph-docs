@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagementScriptAssignment
 
-Read properties and relationships of the [deviceManagementScriptAssignment](../resources/devicemanagementscriptassignment.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagementScriptAssignment](../resources/devicemanagementscriptassignment.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/assignments/{deviceManagementScriptAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/assignments/{deviceManagementScriptAssignmentId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 250
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementScriptAssignment",
-    "id": "9d3e8595-8595-9d3e-9585-3e9d95853e9d",
+    "id": "934103d3-03d3-9341-d303-4193d3034193",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

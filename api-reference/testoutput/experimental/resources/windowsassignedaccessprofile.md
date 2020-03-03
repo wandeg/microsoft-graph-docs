@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsAssignedAccessProfile resource type
+
+
+Namespace: microsoft.graph
 
 Assigned Access profile for Windows.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsAssignedAccessProfiles](../api/windowsassignedaccessprofile-list.md)|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md) collection|List properties and relationships of the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) objects.|
-|[Get windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-get.md)|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md)|Read properties and relationships of the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
-|[Create windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-create.md)|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md)|Create a new [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
+|[List windowsAssignedAccessProfiles](../api/windowsassignedaccessprofile-list.md)|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) collection|List properties and relationships of the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) objects.|
+|[Get windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-get.md)|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md)|Read properties and relationships of the [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
+|[Create windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-create.md)|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md)|Create a new [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
 |[Delete windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-delete.md)|None|Deletes a [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md).|
-|[Update windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-update.md)|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md)|Update the properties of a [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
+|[Update windowsAssignedAccessProfile](../api/windowsassignedaccessprofile-update.md)|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md)|Update the properties of a [windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) object.|
 
 ## Properties
 |Property|Type|Description|

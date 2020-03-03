@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getPolicyNonComplianceMetadata
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/reports/getPolicyNonComplianceMetadata
+POST https://graph.microsoft.com/localtest/deviceManagement/reports/getPolicyNonComplianceMetadata
 
 Content-type: application/json
 Content-length: 278

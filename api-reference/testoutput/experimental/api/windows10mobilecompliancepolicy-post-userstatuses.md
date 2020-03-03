@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userStatuses
 
+Namespace: microsoft.graph
+
 Add userStatuses by posting to the userStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/userS
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceComplianceUserStatus object.
+In the request body, supply a JSON representation for the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.
 
-The following table shows the properties that are required when you create the deviceComplianceUserStatus.
+The following table shows the properties that are required when you create the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/userStatuses
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/userStatuses
 Content-type: application/json
 Content-length: 280
 
@@ -73,7 +75,7 @@ Content-length: 280
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -93,11 +95,11 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceUserStatus",
-  "id": "f8c65f07-5f07-f8c6-075f-c6f8075fc6f8",
+  "id": "5bd9c0b8-c0b8-5bd9-b8c0-d95bb8c0d95b",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

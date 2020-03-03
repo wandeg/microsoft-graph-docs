@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedRoleSettings
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /privilegedRoles/{privilegedRolesId}/settings
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedRoleSettings](../resources/privilegedRoleSettings.md) object.
+In the request body, supply a JSON representation for the [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.
 
 The following table shows the properties that are required when you create the [privilegedRoleSettings](../resources/privilegedrolesettings.md).
 
@@ -68,18 +70,18 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedRoles/{privilegedRolesId}/settings
+PATCH https://graph.microsoft.com/localtest/privilegedRoles/{privilegedRolesId}/settings
 Content-type: application/json
-Content-length: 456
+Content-length: 460
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "PT2M30.5291281S",
-  "maxElavationDuration": "PT18.2951584S",
-  "elevationDuration": "PT3M11.3606798S",
+  "minElevationDuration": "-PT2M51.2414314S",
+  "maxElavationDuration": "-PT1M27.9407158S",
+  "elevationDuration": "PT1M41.1840893S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,
@@ -99,17 +101,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 505
+Content-Length: 509
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
-  "id": "0f5a4dcc-4dcc-0f5a-cc4d-5a0fcc4d5a0f",
+  "id": "d3a3282d-282d-d3a3-2d28-a3d32d28a3d3",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "PT2M30.5291281S",
-  "maxElavationDuration": "PT18.2951584S",
-  "elevationDuration": "PT3M11.3606798S",
+  "minElevationDuration": "-PT2M51.2414314S",
+  "maxElavationDuration": "-PT1M27.9407158S",
+  "elevationDuration": "PT1M41.1840893S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,

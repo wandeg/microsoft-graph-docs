@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete synchronization
 
+Namespace: microsoft.graph
+
 Deletes a [synchronization](../resources/synchronization.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization
+DELETE https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization
 ```
 
 ### Response

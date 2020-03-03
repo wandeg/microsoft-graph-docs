@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # agreementAcceptance resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get agreementAcceptance](../api/agreementacceptance-get.md)|[agreementAcceptance](../resources/agreementAcceptance.md)|Read properties and relationships of the [agreementAcceptance](../resources/agreementacceptance.md) object.|
+|[List agreementAcceptances](../api/agreementacceptance-list.md)|[agreementAcceptance](../resources/agreementacceptance.md) collection|List properties and relationships of the [agreementAcceptance](../resources/agreementacceptance.md) objects.|
+|[Get agreementAcceptance](../api/agreementacceptance-get.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Read properties and relationships of the [agreementAcceptance](../resources/agreementacceptance.md) object.|
+|[Create agreementAcceptance](../api/agreementacceptance-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Create a new [agreementAcceptance](../resources/agreementacceptance.md) object.|
 |[Delete agreementAcceptance](../api/agreementacceptance-delete.md)|None|Deletes a [agreementAcceptance](../resources/agreementacceptance.md).|
-|[Update agreementAcceptance](../api/agreementacceptance-update.md)|[agreementAcceptance](../resources/agreementAcceptance.md)|Update the properties of a [agreementAcceptance](../resources/agreementacceptance.md) object.|
-|[List agreementAcceptances](../api/user-list-agreementacceptances.md)|[agreementAcceptance](../resources/agreementAcceptance.md) collection|Get the agreementAcceptances from the agreementAcceptances navigation property.|
-|[Create agreementAcceptances](../api/user-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementAcceptance.md)|Create agreementAcceptances by posting to the agreementAcceptances collection.|
+|[Update agreementAcceptance](../api/agreementacceptance-update.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Update the properties of a [agreementAcceptance](../resources/agreementacceptance.md) object.|
+|[List agreementAcceptances](../api/user-list-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md) collection|Get the agreementAcceptances from the agreementAcceptances navigation property.|
+|[Create agreementAcceptances](../api/user-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Create agreementAcceptances by posting to the agreementAcceptances collection.|
 
 ## Properties
 |Property|Type|Description|

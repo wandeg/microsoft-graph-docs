@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List openTypeExtensions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [openTypeExtension](../resources/opentypeextension.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.openTypeExtension not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.openTypeExtension not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 197
   "value": [
     {
       "@odata.type": "#microsoft.graph.openTypeExtension",
-      "id": "428087e1-87e1-4280-e187-8042e1878042",
+      "id": "7f9bc609-c609-7f9b-09c6-9b7f09c69b7f",
       "extensionName": "Extension Name value"
     }
   ]

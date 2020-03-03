@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the iosLobAppProvisioningConfigurationAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 286
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosLobAppProvisioningConfigurationAssignment",
-      "id": "2fb00efd-0efd-2fb0-fd0e-b02ffd0eb02f",
+      "id": "cd4914d9-14d9-cd49-d914-49cdd91449cd",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

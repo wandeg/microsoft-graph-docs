@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365GroupsActivityGroupCounts
 
+Namespace: microsoft.graph
+
 Create a new [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365GroupsActivityGroupCounts no
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365GroupsActivityGroupCounts object.
+In the request body, supply a JSON representation for the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.
 
-The following table shows the properties that are required when you create the office365GroupsActivityGroupCounts.
+The following table shows the properties that are required when you create the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365GroupsActivityGroupCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365GroupsActivityGroupCounts not found
 Content-type: application/json
 Content-length: 206
 
@@ -93,7 +95,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityGroupCounts",
-  "id": "6b1c755d-755d-6b1c-5d75-1c6b5d751c6b",
+  "id": "b4d2b2e3-b2e3-b4d2-e3b2-d2b4e3b2d2b4",
   "reportRefreshDate": "Date",
   "total": 5,
   "active": 6,

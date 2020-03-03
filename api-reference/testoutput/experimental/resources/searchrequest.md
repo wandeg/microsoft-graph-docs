@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # searchRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -20,7 +21,7 @@ Namespace: microsoft.graph
 |enableTopResults|Boolean||
 |entityTypes|Enumeration collection||
 |from|Int32||
-|query|[searchQuery](../resources/searchQuery.md)||
+|query|[searchQuery](../resources/searchquery.md)||
 |size|Int32||
 |stored_fields|String collection||
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get fileClassificationRequest
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [fileClassificationRequest](../resources/fileclassificationrequest.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/classifyFile/{fileClassificationRequestId}
+GET https://graph.microsoft.com/localtest/dataClassification/classifyFile/{fileClassificationRequestId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 231
 {
   "value": {
     "@odata.type": "#microsoft.graph.fileClassificationRequest",
-    "id": "0547285e-285e-0547-5e28-47055e284705",
+    "id": "25fefee6-fee6-25fe-e6fe-fe25e6fefe25",
     "file": "Stream",
     "sensitiveTypeIds": [
       "Sensitive Type Ids value"

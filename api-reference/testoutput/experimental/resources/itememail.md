@@ -5,36 +5,39 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # itemEmail resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get itemEmail](../api/itememail-get.md)|[itemEmail](../resources/itemEmail.md)|Read properties and relationships of the [itemEmail](../resources/itememail.md) object.|
+|[List itemEmails](../api/itememail-list.md)|[itemEmail](../resources/itememail.md) collection|List properties and relationships of the [itemEmail](../resources/itememail.md) objects.|
+|[Get itemEmail](../api/itememail-get.md)|[itemEmail](../resources/itememail.md)|Read properties and relationships of the [itemEmail](../resources/itememail.md) object.|
+|[Create itemEmail](../api/itememail-create.md)|[itemEmail](../resources/itememail.md)|Create a new [itemEmail](../resources/itememail.md) object.|
 |[Delete itemEmail](../api/itememail-delete.md)|None|Deletes a [itemEmail](../resources/itememail.md).|
-|[Update itemEmail](../api/itememail-update.md)|[itemEmail](../resources/itemEmail.md)|Update the properties of a [itemEmail](../resources/itememail.md) object.|
+|[Update itemEmail](../api/itememail-update.md)|[itemEmail](../resources/itememail.md)|Update the properties of a [itemEmail](../resources/itememail.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |address|String||
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
 |type|Enumeration|. Possible values are: `unknown`, `work`, `personal`, `main`, `other`.|
 
 ## Relationships

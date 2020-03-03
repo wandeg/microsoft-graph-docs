@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # azureADFeatureUsage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List azureADFeatureUsages](../api/azureadfeatureusage-list.md)|[azureADFeatureUsage](../resources/azureADFeatureUsage.md) collection|List properties and relationships of the [azureADFeatureUsage](../resources/azureadfeatureusage.md) objects.|
-|[Get azureADFeatureUsage](../api/azureadfeatureusage-get.md)|[azureADFeatureUsage](../resources/azureADFeatureUsage.md)|Read properties and relationships of the [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
-|[Create azureADFeatureUsage](../api/azureadfeatureusage-create.md)|[azureADFeatureUsage](../resources/azureADFeatureUsage.md)|Create a new [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
+|[List azureADFeatureUsages](../api/azureadfeatureusage-list.md)|[azureADFeatureUsage](../resources/azureadfeatureusage.md) collection|List properties and relationships of the [azureADFeatureUsage](../resources/azureadfeatureusage.md) objects.|
+|[Get azureADFeatureUsage](../api/azureadfeatureusage-get.md)|[azureADFeatureUsage](../resources/azureadfeatureusage.md)|Read properties and relationships of the [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
+|[Create azureADFeatureUsage](../api/azureadfeatureusage-create.md)|[azureADFeatureUsage](../resources/azureadfeatureusage.md)|Create a new [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
 |[Delete azureADFeatureUsage](../api/azureadfeatureusage-delete.md)|None|Deletes a [azureADFeatureUsage](../resources/azureadfeatureusage.md).|
-|[Update azureADFeatureUsage](../api/azureadfeatureusage-update.md)|[azureADFeatureUsage](../resources/azureADFeatureUsage.md)|Update the properties of a [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
+|[Update azureADFeatureUsage](../api/azureadfeatureusage-update.md)|[azureADFeatureUsage](../resources/azureadfeatureusage.md)|Update the properties of a [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.|
 
 ## Properties
 |Property|Type|Description|

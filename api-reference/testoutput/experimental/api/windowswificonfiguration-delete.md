@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsWifiConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [windowsWifiConfiguration](../resources/windowswificonfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsWifiConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsWifiConfiguration not found
 ```
 
 ### Response

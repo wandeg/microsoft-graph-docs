@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete riskyUserHistoryItem
 
+Namespace: microsoft.graph
+
 Deletes a [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}
+DELETE https://graph.microsoft.com/localtest/riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}
 ```
 
 ### Response

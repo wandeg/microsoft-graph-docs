@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get bookingCurrency
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [bookingCurrency](../resources/bookingcurrency.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingCurrencies/{bookingCurrenciesId}
+GET https://graph.microsoft.com/localtest/bookingCurrencies/{bookingCurrenciesId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 160
 {
   "value": {
     "@odata.type": "#microsoft.graph.bookingCurrency",
-    "id": "0fc23258-3258-0fc2-5832-c20f5832c20f",
+    "id": "7653a81e-a81e-7653-1ea8-53761ea85376",
     "symbol": "Symbol value"
   }
 }

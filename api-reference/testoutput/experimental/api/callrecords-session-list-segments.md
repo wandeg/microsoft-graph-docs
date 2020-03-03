@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List segments
 
+Namespace: microsoft.graph.callRecords
+
 Get the segments from the segments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/callRecords/{callRecordId}/sessions/{sessionId}/segments
+GET https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}/sessions/{sessionId}/segments
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4988
+Content-Length: 4987
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.segment",
-      "id": "7d904a78-4a78-7d90-784a-907d784a907d",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "id": "7b1b684a-684a-7b1b-4a68-1b7b4a681b7b",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {
@@ -156,14 +158,14 @@ Content-Length: 4988
               "streamId": "Stream Id value",
               "streamDirection": "String",
               "averageAudioDegradation": "Single",
-              "averageJitter": "PT1M6.1191588S",
-              "maxJitter": "-PT1M28.6559915S",
+              "averageJitter": "-PT2M9.7524828S",
+              "maxJitter": "PT2M30.9678173S",
               "averagePacketLossRate": "Single",
               "maxPacketLossRate": "Single",
               "averageRatioOfConcealedSamples": "Single",
               "maxRatioOfConcealedSamples": "Single",
-              "averageRoundTripTime": "-PT3M17.5707825S",
-              "maxRoundTripTime": "PT1M32.6696096S",
+              "averageRoundTripTime": "PT3M27.1364656S",
+              "maxRoundTripTime": "PT17.2216233S",
               "packetUtilization": 1,
               "averageBandwidthEstimate": 8,
               "wasMediaBypassed": true,
@@ -174,8 +176,8 @@ Content-Length: 4988
               "averageVideoPacketLossRate": "Single",
               "averageVideoFrameRate": "Single",
               "lowVideoProcessingCapabilityRatio": "Single",
-              "averageAudioNetworkJitter": "-PT2M54.7666186S",
-              "maxAudioNetworkJitter": "PT2.7210748S"
+              "averageAudioNetworkJitter": "-PT3M18.0252892S",
+              "maxAudioNetworkJitter": "-PT28.1157412S"
             }
           ]
         }

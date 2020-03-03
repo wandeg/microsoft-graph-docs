@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationFeedbackOutcome
 
+Namespace: microsoft.graph
+
 Deletes a [educationFeedbackOutcome](../resources/educationfeedbackoutcome.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.educationFeedbackOutcome not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.educationFeedbackOutcome not found
 ```
 
 ### Response

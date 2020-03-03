@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementIntentUserState
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceManagementIntentUserStateId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceManagementIntentUserStateId}
 ```
 
 ### Response

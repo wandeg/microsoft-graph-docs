@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementStringSettingInstance
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementStringSettingInstance](../resources/devicemanagementstringsettinginstance.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.deviceManagementStringSettingInstance
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementStringSettingInstance object.
+In the request body, supply a JSON representation for the [deviceManagementStringSettingInstance](../resources/devicemanagementstringsettinginstance.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementStringSettingInstance.
+The following table shows the properties that are required when you create the [deviceManagementStringSettingInstance](../resources/devicemanagementstringsettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |value|String|The string value|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementStringSettingInstance not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementStringSettingInstance not found
 Content-type: application/json
 Content-length: 184
 
@@ -89,7 +91,7 @@ Content-Length: 233
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementStringSettingInstance",
-  "id": "7596b138-b138-7596-38b1-967538b19675",
+  "id": "288092c1-92c1-2880-c192-8028c1928028",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value",
   "value": "Value value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update telecomExpenseManagementPartner
 
+Namespace: microsoft.graph
+
 Update the properties of a [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManageme
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [telecomExpenseManagementPartner](../resources/telecomExpenseManagementPartner.md) object.
+In the request body, supply a JSON representation for the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
 
 The following table shows the properties that are required when you create the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
 Content-type: application/json
 Content-length: 248
 
@@ -73,7 +75,7 @@ Content-length: 248
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
 }
 ```
 
@@ -91,12 +93,12 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-  "id": "3132a601-a601-3132-01a6-323101a63231",
+  "id": "6d019acb-9acb-6d01-cb9a-016dcb9a016d",
   "displayName": "Display Name value",
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
 }
 ```
 

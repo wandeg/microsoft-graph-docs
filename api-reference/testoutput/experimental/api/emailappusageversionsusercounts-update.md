@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update emailAppUsageVersionsUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.emailAppUsageVersionsUserCounts not foun
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [emailAppUsageVersionsUserCounts](../resources/emailAppUsageVersionsUserCounts.md) object.
+In the request body, supply a JSON representation for the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md) object.
 
 The following table shows the properties that are required when you create the [emailAppUsageVersionsUserCounts](../resources/emailappusageversionsusercounts.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailAppUsageVersionsUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailAppUsageVersionsUserCounts not found
 Content-type: application/json
 Content-length: 258
 
@@ -95,7 +97,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.emailAppUsageVersionsUserCounts",
-  "id": "e1c6e440-e440-e1c6-40e4-c6e140e4c6e1",
+  "id": "908104c9-04c9-9081-c904-8190c9048190",
   "reportRefreshDate": "Date",
   "outlook2016": 11,
   "outlook2013": 11,

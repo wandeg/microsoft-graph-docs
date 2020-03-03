@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageResourceRequests
 
+Namespace: microsoft.graph
+
 Get the accessPackageResourceRequests from the accessPackageResourceRequests navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageResourceRequests
+GET https://graph.microsoft.com/localtest/identityGovernance/entitlementManagement/accessPackageResourceRequests
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 518
+Content-Length: 519
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResourceRequest",
-      "id": "c4506f9d-6f9d-c450-9d6f-50c49d6f50c4",
+      "id": "9d1eccee-ccee-9d1e-eecc-1e9deecc1e9d",
       "catalogId": "Catalog Id value",
       "executeImmediately": true,
       "isValidationOnly": true,
@@ -78,7 +80,7 @@ Content-Length: 518
       "requestState": "Request State value",
       "requestStatus": "Request Status value",
       "justification": "Justification value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
     }
   ]
 }

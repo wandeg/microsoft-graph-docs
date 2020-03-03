@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookRangeView
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookRangeView](../resources/workbookrangeview.md) object.
 
 ## Permissions
@@ -35,24 +37,24 @@ PATCH ** Entity URI for microsoft.graph.workbookRangeView not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookRangeView](../resources/workbookRangeView.md) object.
+In the request body, supply a JSON representation for the [workbookRangeView](../resources/workbookrangeview.md) object.
 
 The following table shows the properties that are required when you create the [workbookRangeView](../resources/workbookrangeview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|cellAddresses|[Json](../resources/Json.md)||
+|cellAddresses|[Json](../resources/json.md)||
 |columnCount|Int32||
-|formulas|[Json](../resources/Json.md)||
-|formulasLocal|[Json](../resources/Json.md)||
-|formulasR1C1|[Json](../resources/Json.md)||
+|formulas|[Json](../resources/json.md)||
+|formulasLocal|[Json](../resources/json.md)||
+|formulasR1C1|[Json](../resources/json.md)||
 |index|Int32||
-|numberFormat|[Json](../resources/Json.md)||
+|numberFormat|[Json](../resources/json.md)||
 |rowCount|Int32||
-|text|[Json](../resources/Json.md)||
-|valueTypes|[Json](../resources/Json.md)||
-|values|[Json](../resources/Json.md)||
+|text|[Json](../resources/json.md)||
+|valueTypes|[Json](../resources/json.md)||
+|values|[Json](../resources/json.md)||
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeView not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeView not found
 Content-type: application/json
 Content-length: 656
 
@@ -119,7 +121,7 @@ Content-Length: 705
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeView",
-  "id": "9b9a9f99-9f99-9b9a-999f-9a9b999f9a9b",
+  "id": "c38b8b5e-8b5e-c38b-5e8b-8bc35e8b8bc3",
   "cellAddresses": {
     "@odata.type": "microsoft.graph.Json"
   },

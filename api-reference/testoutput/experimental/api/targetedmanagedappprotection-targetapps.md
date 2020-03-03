@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # targetApps
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|apps|[managedMobileApp](../resources/managedMobileApp.md) collection||
+|apps|[managedMobileApp](../resources/managedmobileapp.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.targetedManagedAppProtection not found/targetApps
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.targetedManagedAppProtection not found/targetApps
 
 Content-type: application/json
 Content-length: 286
@@ -68,7 +70,7 @@ Content-length: 286
   "apps": [
     {
       "@odata.type": "#microsoft.graph.managedMobileApp",
-      "id": "3d45223c-223c-3d45-3c22-453d3c22453d",
+      "id": "01daf82b-f82b-01da-2bf8-da012bf8da01",
       "mobileAppIdentifier": {
         "@odata.type": "microsoft.graph.mobileAppIdentifier"
       },

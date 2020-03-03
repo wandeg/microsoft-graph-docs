@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyPresentationValueText
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyPresentationValueText](../resources/grouppolicypresentationvaluetext.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.groupPolicyPresentationValueText not fou
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyPresentationValueText](../resources/groupPolicyPresentationValueText.md) object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationValueText](../resources/grouppolicypresentationvaluetext.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyPresentationValueText](../resources/grouppolicypresentationvaluetext.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the object was last modified. Inherited from [groupPolicyPresentationValue](../resources/groupPolicyPresentationValue.md)|
-|createdDateTime|DateTimeOffset|The date and time the object was created. Inherited from [groupPolicyPresentationValue](../resources/groupPolicyPresentationValue.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the object was last modified. Inherited from [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md)|
+|createdDateTime|DateTimeOffset|The date and time the object was created. Inherited from [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md)|
 |value|String|A string value for the associated presentation.|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationValueText not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationValueText not found
 Content-type: application/json
 Content-length: 101
 
@@ -81,13 +83,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 273
+Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
-  "id": "29ab9d00-9d00-29ab-009d-ab29009dab29",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "dcd544bd-44bd-dcd5-bd44-d5dcbd44d5dc",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "value": "Value value"
 }
 ```

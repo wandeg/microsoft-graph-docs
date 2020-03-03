@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create countryNamedLocation
 
+Namespace: microsoft.graph
+
 Create a new [countryNamedLocation](../resources/countrynamedlocation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.countryNamedLocation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the countryNamedLocation object.
+In the request body, supply a JSON representation for the [countryNamedLocation](../resources/countrynamedlocation.md) object.
 
-The following table shows the properties that are required when you create the countryNamedLocation.
+The following table shows the properties that are required when you create the [countryNamedLocation](../resources/countrynamedlocation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [namedLocation](../resources/namedLocation.md)|
-|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
-|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
+|displayName|String| Inherited from [namedLocation](../resources/namedlocation.md)|
+|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
+|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
 |countriesAndRegions|String collection||
 |includeUnknownCountriesAndRegions|Boolean||
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.countryNamedLocation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.countryNamedLocation not found
 Content-type: application/json
 Content-length: 217
 
@@ -89,14 +91,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 385
+Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.countryNamedLocation",
-  "id": "859b3ee6-3ee6-859b-e63e-9b85e63e9b85",
+  "id": "29756ff1-6ff1-2975-f16f-7529f16f7529",
   "displayName": "Display Name value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "countriesAndRegions": [
     "Countries And Regions value"
   ],

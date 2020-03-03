@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete enterpriseCodeSigningCertificate
 
-Deletes a [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md).
+Namespace: microsoft.graph
+
+Deletes a [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificateId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificateId}
 ```
 
 ### Response

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # oneDriveActivityUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List oneDriveActivityUserDetails](../api/onedriveactivityuserdetail-list.md)|[oneDriveActivityUserDetail](../resources/oneDriveActivityUserDetail.md) collection|List properties and relationships of the [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) objects.|
-|[Get oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-get.md)|[oneDriveActivityUserDetail](../resources/oneDriveActivityUserDetail.md)|Read properties and relationships of the [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
-|[Create oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-create.md)|[oneDriveActivityUserDetail](../resources/oneDriveActivityUserDetail.md)|Create a new [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
+|[List oneDriveActivityUserDetails](../api/onedriveactivityuserdetail-list.md)|[oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) collection|List properties and relationships of the [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) objects.|
+|[Get oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-get.md)|[oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md)|Read properties and relationships of the [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
+|[Create oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-create.md)|[oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md)|Create a new [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
 |[Delete oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-delete.md)|None|Deletes a [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md).|
-|[Update oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-update.md)|[oneDriveActivityUserDetail](../resources/oneDriveActivityUserDetail.md)|Update the properties of a [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
+|[Update oneDriveActivityUserDetail](../api/onedriveactivityuserdetail-update.md)|[oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md)|Update the properties of a [oneDriveActivityUserDetail](../resources/onedriveactivityuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365GroupsActivityStorage
 
+Namespace: microsoft.graph
+
 Create a new [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365GroupsActivityStorage not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365GroupsActivityStorage object.
+In the request body, supply a JSON representation for the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.
 
-The following table shows the properties that are required when you create the office365GroupsActivityStorage.
+The following table shows the properties that are required when you create the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365GroupsActivityStorage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365GroupsActivityStorage not found
 Content-type: application/json
 Content-length: 238
 
@@ -93,7 +95,7 @@ Content-Length: 287
 
 {
   "@odata.type": "#microsoft.graph.office365GroupsActivityStorage",
-  "id": "a2ef4281-4281-a2ef-8142-efa28142efa2",
+  "id": "b54d6ca3-6ca3-b54d-a36c-4db5a36c4db5",
   "reportRefreshDate": "Date",
   "mailboxStorageUsedInBytes": 9,
   "siteStorageUsedInBytes": 6,

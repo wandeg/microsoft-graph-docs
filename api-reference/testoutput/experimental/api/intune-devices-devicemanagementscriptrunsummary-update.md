@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceManagementScriptRunSummary
 
-Update the properties of a [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -34,9 +36,9 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementScriptRunSummary](../resources/deviceManagementScriptRunSummary.md) object.
+In the request body, supply a JSON representation for the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.
 
-The following table shows the properties that are required when you create the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md).
+The following table shows the properties that are required when you create the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -78,7 +80,7 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptRunSummary",
-  "id": "df948344-8344-df94-4483-94df448394df",
+  "id": "836ac9bb-c9bb-836a-bbc9-6a83bbc96a83",
   "successDeviceCount": 2,
   "errorDeviceCount": 0,
   "successUserCount": 0,

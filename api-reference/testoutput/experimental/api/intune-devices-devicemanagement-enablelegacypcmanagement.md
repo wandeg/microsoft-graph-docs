@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # enableLegacyPcManagement
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/enableLegacyPcManagement
+POST https://graph.microsoft.com/localtest/deviceManagement/enableLegacyPcManagement
 ```
 
 ### Response

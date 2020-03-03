@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # appLogCollectionRequest resource type
+
+
+Namespace: microsoft.graph
 
 AppLogCollectionRequest Entity.
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-get.md)|[appLogCollectionRequest](../resources/intune-devices-appLogCollectionRequest.md)|Read properties and relationships of the [appLogCollectionRequest](../resources/applogcollectionrequest.md) object.|
-|[Delete appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-delete.md)|None|Deletes a [appLogCollectionRequest](../resources/applogcollectionrequest.md).|
-|[Update appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-update.md)|[appLogCollectionRequest](../resources/intune-devices-appLogCollectionRequest.md)|Update the properties of a [appLogCollectionRequest](../resources/applogcollectionrequest.md) object.|
-|[createDownloadUrl](../api/intune-devices-applogcollectionrequest-createdownloadurl.md)|[appLogCollectionDownloadDetails](../resources/intune-devices-appLogCollectionDownloadDetails.md)||
+|[List appLogCollectionRequests](../api/intune-devices-applogcollectionrequest-list.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) collection|List properties and relationships of the [appLogCollectionRequest](../resources/applogcollectionrequest.md) objects.|
+|[Get appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-get.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md)|Read properties and relationships of the [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object.|
+|[Create appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-create.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md)|Create a new [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object.|
+|[Delete appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-delete.md)|None|Deletes a [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md).|
+|[Update appLogCollectionRequest](../api/intune-devices-applogcollectionrequest-update.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md)|Update the properties of a [appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) object.|
+|[createDownloadUrl](../api/intune-devices-applogcollectionrequest-createdownloadurl.md)|[appLogCollectionDownloadDetails](../resources/intune-devices-applogcollectiondownloaddetails.md)||
 
 ## Properties
 |Property|Type|Description|

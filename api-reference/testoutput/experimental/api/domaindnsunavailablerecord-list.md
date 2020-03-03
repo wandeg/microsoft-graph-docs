@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List domainDnsUnavailableRecords
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [domainDnsUnavailableRecord](../resources/domaindnsunavailablerecord.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsUnavailableRecord not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsUnavailableRecord not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 372
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsUnavailableRecord",
-      "id": "05dd22ea-22ea-05dd-ea22-dd05ea22dd05",
+      "id": "77437fab-7fab-7743-ab7f-4377ab7f4377",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

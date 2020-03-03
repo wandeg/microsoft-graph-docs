@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # My
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -41,7 +43,7 @@ GET /identityGovernance/entitlementManagement/accessPackageAssignments/{accessPa
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [accessPackageAssignmentRequest](../resources/accessPackageAssignmentRequest.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md) collection in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageAssignmentRequests/My
+GET https://graph.microsoft.com/localtest/accessPackageAssignmentRequests/My
 ```
 
 ### Response
@@ -73,14 +75,14 @@ Content-Length: 569
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageAssignmentRequest",
-      "id": "2806e1a8-e1a8-2806-a8e1-0628a8e10628",
+      "id": "bf55d753-d753-bf55-53d7-55bf53d755bf",
       "requestType": "Request Type value",
       "requestState": "Request State value",
       "requestStatus": "Request Status value",
       "isValidationOnly": true,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "completedDate": "2017-01-01T00:00:05.4735484+03:00",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "completedDate": "2016-12-31T23:57:08.7151202+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "justification": "Justification value"
     }
   ]

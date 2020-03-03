@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementTemplateSettingCategory
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementTemplateSettingCategory](../resources/devicemanagementtemplatesettingcategory.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/categories/{deviceManagementTemplateSettingCategoryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/categories/{deviceManagementTemplateSettingCategoryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 195
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementTemplateSettingCategory",
-    "id": "ff7e4b11-4b11-ff7e-114b-7eff114b7eff",
+    "id": "85aff74b-f74b-85af-4bf7-af854bf7af85",
     "displayName": "Display Name value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sitePage
 
+Namespace: microsoft.graph
+
 Deletes a [sitePage](../resources/sitepage.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/sites/{sitesId}/pages/{sitePageId}
+DELETE https://graph.microsoft.com/localtest/sites/{sitesId}/pages/{sitePageId}
 ```
 
 ### Response

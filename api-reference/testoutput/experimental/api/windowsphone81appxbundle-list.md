@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsPhone81AppXBundles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsPhone81AppXBundle](../resources/windowsphone81appxbundle.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsPhone81AppXBundle not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsPhone81AppXBundle not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2159
+Content-Length: 2158
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsPhone81AppXBundle",
-      "id": "04280734-0734-0428-3407-280434072804",
+      "id": "24b9e4fd-e4fd-24b9-fde4-b924fde4b924",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 2159
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

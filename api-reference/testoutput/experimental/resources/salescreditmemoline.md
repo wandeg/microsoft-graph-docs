@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesCreditMemoLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesCreditMemoLine](../api/salescreditmemoline-get.md)|[salesCreditMemoLine](../resources/salesCreditMemoLine.md)|Read properties and relationships of the [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
+|[List salesCreditMemoLines](../api/salescreditmemoline-list.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection|List properties and relationships of the [salesCreditMemoLine](../resources/salescreditmemoline.md) objects.|
+|[Get salesCreditMemoLine](../api/salescreditmemoline-get.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Read properties and relationships of the [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
+|[Create salesCreditMemoLine](../api/salescreditmemoline-create.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Create a new [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
 |[Delete salesCreditMemoLine](../api/salescreditmemoline-delete.md)|None|Deletes a [salesCreditMemoLine](../resources/salescreditmemoline.md).|
-|[Update salesCreditMemoLine](../api/salescreditmemoline-update.md)|[salesCreditMemoLine](../resources/salesCreditMemoLine.md)|Update the properties of a [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
+|[Update salesCreditMemoLine](../api/salescreditmemoline-update.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Update the properties of a [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 

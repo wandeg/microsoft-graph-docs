@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleSettings
 
+Namespace: microsoft.graph
+
 Get the governanceRoleSettings from the roleSettings navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/roleSettings
+GET https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/roleSettings
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 1007
   "value": [
     {
       "@odata.type": "#microsoft.graph.governanceRoleSetting",
-      "id": "d8950804-0804-d895-0408-95d8040895d8",
+      "id": "7446ab92-ab92-7446-92ab-467492ab4674",
       "resourceId": "Resource Id value",
       "roleDefinitionId": "Role Definition Id value",
       "isDefault": true,
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
       "lastUpdatedBy": "Last Updated By value",
       "adminEligibleSettings": [
         {

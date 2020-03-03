@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teamsDeviceUsageDistributionUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [teamsDeviceUsageDistributionUserCounts](../resources/teamsdeviceusagedistributionusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsDeviceUsageDistributionUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsDeviceUsageDistributionUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 378
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsDeviceUsageDistributionUserCounts",
-      "id": "b3c4ab5b-ab5b-b3c4-5bab-c4b35babc4b3",
+      "id": "caf953a1-53a1-caf9-a153-f9caa153f9ca",
       "reportRefreshDate": "Date",
       "web": 3,
       "windowsPhone": 12,

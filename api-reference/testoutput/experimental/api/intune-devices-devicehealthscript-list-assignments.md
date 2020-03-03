@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the deviceHealthScriptAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 395
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceHealthScriptAssignment",
-      "id": "ecc747d5-47d5-ecc7-d547-c7ecd547c7ec",
+      "id": "dfdfbf3b-bf3b-dfdf-3bbf-dfdf3bbfdfdf",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

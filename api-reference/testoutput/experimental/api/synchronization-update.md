@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update synchronization
 
+Namespace: microsoft.graph
+
 Update the properties of a [synchronization](../resources/synchronization.md) object.
 
 ## Permissions
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|secrets|[synchronizationSecretKeyStringValuePair](../resources/synchronizationSecretKeyStringValuePair.md) collection||
+|secrets|[synchronizationSecretKeyStringValuePair](../resources/synchronizationsecretkeystringvaluepair.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization
+PATCH https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization
 Content-type: application/json
 Content-length: 228
 
@@ -90,7 +92,7 @@ Content-Length: 277
 
 {
   "@odata.type": "#microsoft.graph.synchronization",
-  "id": "a7731f6c-1f6c-a773-6c1f-73a76c1f73a7",
+  "id": "a6beb882-b882-a6be-82b8-bea682b8bea6",
   "secrets": [
     {
       "@odata.type": "microsoft.graph.synchronizationSecretKeyStringValuePair",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365ActiveUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365ActiveUserCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365ActiveUserCounts object.
+In the request body, supply a JSON representation for the [office365ActiveUserCounts](../resources/office365activeusercounts.md) object.
 
-The following table shows the properties that are required when you create the office365ActiveUserCounts.
+The following table shows the properties that are required when you create the [office365ActiveUserCounts](../resources/office365activeusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActiveUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActiveUserCounts not found
 Content-type: application/json
 Content-length: 299
 
@@ -103,7 +105,7 @@ Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.office365ActiveUserCounts",
-  "id": "da0e2eb0-2eb0-da0e-b02e-0edab02e0eda",
+  "id": "a346dbc0-dbc0-a346-c0db-46a3c0db46a3",
   "reportRefreshDate": "Date",
   "office365": 9,
   "exchange": 8,

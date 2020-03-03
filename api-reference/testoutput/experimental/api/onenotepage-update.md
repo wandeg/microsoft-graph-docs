@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenotePage
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenotePage](../resources/onenotepage.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}/s
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenotePage](../resources/onenotePage.md) object.
+In the request body, supply a JSON representation for the [onenotePage](../resources/onenotepage.md) object.
 
 The following table shows the properties that are required when you create the [onenotePage](../resources/onenotepage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
 |title|String||
 |createdByAppId|String||
-|links|[pageLinks](../resources/pageLinks.md)||
+|links|[pageLinks](../resources/pagelinks.md)||
 |contentUrl|String||
 |content|Stream||
 |lastModifiedDateTime|DateTimeOffset||
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/pages/{onenotePageId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/pages/{onenotePageId}
 Content-type: application/json
 Content-length: 575
 
@@ -109,13 +111,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 747
+Content-Length: 746
 
 {
   "@odata.type": "#microsoft.graph.onenotePage",
-  "id": "2be20c1e-0c1e-2be2-1e0c-e22b1e0ce22b",
+  "id": "c1ca2dc3-2dc3-c1ca-c32d-cac1c32dcac1",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "title": "Title value",
   "createdByAppId": "Created By App Id value",
   "links": {
@@ -130,7 +132,7 @@ Content-Length: 747
   },
   "contentUrl": "https://example.com/contentUrl/",
   "content": "Stream",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "level": 5,
   "order": 5,
   "userTags": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartFill
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartFill](../resources/workbookchartfill.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartFill not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartFill object.
+In the request body, supply a JSON representation for the [workbookChartFill](../resources/workbookchartfill.md) object.
 
-The following table shows the properties that are required when you create the workbookChartFill.
+The following table shows the properties that are required when you create the [workbookChartFill](../resources/workbookchartfill.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartFill not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartFill not found
 Content-type: application/json
 Content-length: 59
 
@@ -83,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFill",
-  "id": "59e384d0-84d0-59e3-d084-e359d084e359"
+  "id": "6f97a7ca-a7ca-6f97-caa7-976fcaa7976f"
 }
 ```
 

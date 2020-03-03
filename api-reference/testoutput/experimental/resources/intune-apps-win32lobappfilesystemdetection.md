@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # win32LobAppFileSystemDetection resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [win32LobAppDetection](../resources/win32LobAppDetection.md)
+
+
+Inherits from [win32LobAppDetection](../resources/win32lobappdetection.md)
 
 ## Properties
 |Property|Type|Description|

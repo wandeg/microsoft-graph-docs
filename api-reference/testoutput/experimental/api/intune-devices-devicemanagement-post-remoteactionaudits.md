@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add remoteActionAudits
 
+Namespace: microsoft.graph
+
 Add remoteActionAudits by posting to the remoteActionAudits collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/remoteActionAudits/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the remoteActionAudit object.
+In the request body, supply a JSON representation for the [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md) object.
 
-The following table shows the properties that are required when you create the remoteActionAudit.
+The following table shows the properties that are required when you create the [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -56,7 +58,7 @@ The following table shows the properties that are required when you create the r
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [remoteActionAudit](../resources/remoteactionaudit.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md) object in the response body.
 
 ## Example
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/remoteActionAudits
+POST https://graph.microsoft.com/localtest/deviceManagement/remoteActionAudits
 Content-type: application/json
 Content-length: 497
 
@@ -78,7 +80,7 @@ Content-length: 497
   "userName": "User Name value",
   "initiatedByUserPrincipalName": "Initiated By User Principal Name value",
   "action": "String",
-  "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
+  "requestDateTime": "2017-01-01T00:00:58.3860693+03:00",
   "deviceOwnerUserPrincipalName": "Device Owner User Principal Name value",
   "deviceIMEI": "Device IMEI value",
   "actionState": "String",
@@ -101,12 +103,12 @@ Content-Length: 546
 
 {
   "@odata.type": "#microsoft.graph.remoteActionAudit",
-  "id": "537f25ec-25ec-537f-ec25-7f53ec257f53",
+  "id": "d2d45e42-5e42-d2d4-425e-d4d2425ed4d2",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "initiatedByUserPrincipalName": "Initiated By User Principal Name value",
   "action": "String",
-  "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
+  "requestDateTime": "2017-01-01T00:00:58.3860693+03:00",
   "deviceOwnerUserPrincipalName": "Device Owner User Principal Name value",
   "deviceIMEI": "Device IMEI value",
   "actionState": "String",

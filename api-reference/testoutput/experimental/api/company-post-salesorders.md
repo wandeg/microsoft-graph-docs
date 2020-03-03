@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add salesOrders
 
+Namespace: microsoft.graph
+
 Add salesOrders by posting to the salesOrders collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/salesOrders/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the salesOrder object.
+In the request body, supply a JSON representation for the [salesOrder](../resources/salesorder.md) object.
 
-The following table shows the properties that are required when you create the salesOrder.
+The following table shows the properties that are required when you create the [salesOrder](../resources/salesorder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,9 +56,9 @@ The following table shows the properties that are required when you create the s
 |billToCustomerNumber|String||
 |shipToName|String||
 |shipToContact|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
-|shippingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|shippingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |currencyId|Guid||
 |currencyCode|String||
 |pricesIncludeTax|Boolean||
@@ -90,7 +92,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesOrders
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesOrders
 Content-type: application/json
 Content-length: 1595
 
@@ -99,11 +101,11 @@ Content-length: 1595
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "orderDate": "Date",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "3f40489e-489e-3f40-9e48-403f9e48403f",
+  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
   "billToCustomerNumber": "Bill To Customer Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -121,10 +123,10 @@ Content-length: 1595
   "shippingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
   "salesperson": "Salesperson value",
   "partialShipping": true,
   "requestedDeliveryDate": "Date",
@@ -155,15 +157,15 @@ Content-Length: 1708
 
 {
   "@odata.type": "#microsoft.graph.salesOrder",
-  "id": "a5660e50-0e50-a566-500e-66a5500e66a5",
+  "id": "7ee4f560-f560-7ee4-60f5-e47e60f5e47e",
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "orderDate": "Date",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "3f40489e-489e-3f40-9e48-403f9e48403f",
+  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
   "billToCustomerNumber": "Bill To Customer Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -181,10 +183,10 @@ Content-Length: 1708
   "shippingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
   "salesperson": "Salesperson value",
   "partialShipping": true,
   "requestedDeliveryDate": "Date",
@@ -195,7 +197,7 @@ Content-Length: 1708
   "totalAmountIncludingTax": "4.2",
   "fullyShipped": true,
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "phoneNumber": "Phone Number value",
   "email": "Email value"
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sensitivityPolicySettings resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sensitivityPolicySettingses](../api/sensitivitypolicysettings-list.md)|[sensitivityPolicySettings](../resources/sensitivityPolicySettings.md) collection|List properties and relationships of the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) objects.|
-|[Get sensitivityPolicySettings](../api/sensitivitypolicysettings-get.md)|[sensitivityPolicySettings](../resources/sensitivityPolicySettings.md)|Read properties and relationships of the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
-|[Create sensitivityPolicySettings](../api/sensitivitypolicysettings-create.md)|[sensitivityPolicySettings](../resources/sensitivityPolicySettings.md)|Create a new [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
+|[List sensitivityPolicySettingses](../api/sensitivitypolicysettings-list.md)|[sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) collection|List properties and relationships of the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) objects.|
+|[Get sensitivityPolicySettings](../api/sensitivitypolicysettings-get.md)|[sensitivityPolicySettings](../resources/sensitivitypolicysettings.md)|Read properties and relationships of the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
+|[Create sensitivityPolicySettings](../api/sensitivitypolicysettings-create.md)|[sensitivityPolicySettings](../resources/sensitivitypolicysettings.md)|Create a new [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
 |[Delete sensitivityPolicySettings](../api/sensitivitypolicysettings-delete.md)|None|Deletes a [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md).|
-|[Update sensitivityPolicySettings](../api/sensitivitypolicysettings-update.md)|[sensitivityPolicySettings](../resources/sensitivityPolicySettings.md)|Update the properties of a [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
+|[Update sensitivityPolicySettings](../api/sensitivitypolicysettings-update.md)|[sensitivityPolicySettings](../resources/sensitivitypolicysettings.md)|Update the properties of a [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.|
 
 ## Properties
 |Property|Type|Description|

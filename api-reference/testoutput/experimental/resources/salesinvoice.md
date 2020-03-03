@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesInvoice resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,25 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesInvoice](../api/salesinvoice-get.md)|[salesInvoice](../resources/salesInvoice.md)|Read properties and relationships of the [salesInvoice](../resources/salesinvoice.md) object.|
+|[List salesInvoices](../api/salesinvoice-list.md)|[salesInvoice](../resources/salesinvoice.md) collection|List properties and relationships of the [salesInvoice](../resources/salesinvoice.md) objects.|
+|[Get salesInvoice](../api/salesinvoice-get.md)|[salesInvoice](../resources/salesinvoice.md)|Read properties and relationships of the [salesInvoice](../resources/salesinvoice.md) object.|
+|[Create salesInvoice](../api/salesinvoice-create.md)|[salesInvoice](../resources/salesinvoice.md)|Create a new [salesInvoice](../resources/salesinvoice.md) object.|
 |[Delete salesInvoice](../api/salesinvoice-delete.md)|None|Deletes a [salesInvoice](../resources/salesinvoice.md).|
-|[Update salesInvoice](../api/salesinvoice-update.md)|[salesInvoice](../resources/salesInvoice.md)|Update the properties of a [salesInvoice](../resources/salesinvoice.md) object.|
+|[Update salesInvoice](../api/salesinvoice-update.md)|[salesInvoice](../resources/salesinvoice.md)|Update the properties of a [salesInvoice](../resources/salesinvoice.md) object.|
 |[cancelAndSend](../api/salesinvoice-cancelandsend.md)|None||
 |[cancel](../api/salesinvoice-cancel.md)|None||
 |[postAndSend](../api/salesinvoice-postandsend.md)|None||
 |[post](../api/salesinvoice-post.md)|None||
 |[send](../api/salesinvoice-send.md)|None||
-|[List salesInvoiceLines](../api/salesinvoice-list-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesInvoiceLine.md) collection|Get the salesInvoiceLines from the salesInvoiceLines navigation property.|
-|[Add salesInvoiceLines](../api/salesinvoice-post-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesInvoiceLine.md)|Add salesInvoiceLines by posting to the salesInvoiceLines collection.|
+|[List salesInvoiceLines](../api/salesinvoice-list-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesinvoiceline.md) collection|Get the salesInvoiceLines from the salesInvoiceLines navigation property.|
+|[Add salesInvoiceLines](../api/salesinvoice-post-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Add salesInvoiceLines by posting to the salesInvoiceLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
-|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentTerm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
-|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentMethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |billToCustomerId|Guid||
 |billToCustomerNumber|String||
 |billToName|String||
@@ -62,9 +65,9 @@ Inherits from [entity](../resources/entity.md)
 |phoneNumber|String||
 |pricesIncludeTax|Boolean||
 |salesperson|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |shipmentMethodId|Guid||
-|shippingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|shippingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |shipToContact|String||
 |shipToName|String||
 |status|String||
@@ -77,9 +80,9 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |currency|[currency](../resources/currency.md)||
 |customer|[customer](../resources/customer.md)||
-|paymentTerm|[paymentTerm](../resources/paymentTerm.md)||
-|salesInvoiceLines|[salesInvoiceLine](../resources/salesInvoiceLine.md) collection||
-|shipmentMethod|[shipmentMethod](../resources/shipmentMethod.md)||
+|paymentTerm|[paymentTerm](../resources/paymentterm.md)||
+|salesInvoiceLines|[salesInvoiceLine](../resources/salesinvoiceline.md) collection||
+|shipmentMethod|[shipmentMethod](../resources/shipmentmethod.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

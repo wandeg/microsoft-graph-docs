@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userTeamwork
 
+Namespace: microsoft.graph
+
 Deletes a [userTeamwork](../resources/userteamwork.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/teamwork
+DELETE https://graph.microsoft.com/localtest/me/teamwork
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRangeFont
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRangeFont](../resources/workbookrangefont.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFont not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFont not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 287
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeFont",
-    "id": "b8913d71-3d71-b891-713d-91b8713d91b8",
+    "id": "f0bd647d-647d-f0bd-7d64-bdf07d64bdf0",
     "bold": true,
     "color": "Color value",
     "italic": true,

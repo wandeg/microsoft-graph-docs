@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create subscribeToToneOperation
 
+Namespace: microsoft.graph
+
 Create a new [subscribeToToneOperation](../resources/subscribetotoneoperation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.subscribeToToneOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the subscribeToToneOperation object.
+In the request body, supply a JSON representation for the [subscribeToToneOperation](../resources/subscribetotoneoperation.md) object.
 
-The following table shows the properties that are required when you create the subscribeToToneOperation.
+The following table shows the properties that are required when you create the [subscribeToToneOperation](../resources/subscribetotoneoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.subscribeToToneOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.subscribeToToneOperation not found
 Content-type: application/json
 Content-length: 275
 
@@ -94,7 +96,7 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.subscribeToToneOperation",
-  "id": "0448a82d-a82d-0448-2da8-48042da84804",
+  "id": "588ff077-f077-588f-77f0-8f5877f08f58",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

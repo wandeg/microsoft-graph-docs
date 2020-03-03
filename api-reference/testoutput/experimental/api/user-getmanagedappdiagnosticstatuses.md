@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getManagedAppDiagnosticStatuses
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppDiagnosticS
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [managedAppDiagnosticStatus](../resources/managedAppDiagnosticStatus.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [managedAppDiagnosticStatus](../resources/managedappdiagnosticstatus.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppDiagnosticStatuses
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppDiagnosticStatuses
 ```
 
 ### Response

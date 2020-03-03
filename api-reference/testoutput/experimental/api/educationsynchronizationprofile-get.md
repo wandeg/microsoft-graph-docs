@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationSynchronizationProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}
+GET https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 736
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationSynchronizationProfile",
-    "id": "e8fd2988-2988-e8fd-8829-fde88829fde8",
+    "id": "0926f8a0-f8a0-0926-a0f8-2609a0f82609",
     "displayName": "Display Name value",
     "dataProvider": {
       "@odata.type": "microsoft.graph.educationSynchronizationDataProvider"

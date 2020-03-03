@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceCategories
 
+Namespace: microsoft.graph
+
 Get the deviceCategories from the deviceCategories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCategories
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCategories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 307
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCategory",
-      "id": "9fc9c7c2-c7c2-9fc9-c2c7-c99fc2c7c99f",
+      "id": "280e0325-0325-280e-2503-0e2825030e28",
       "displayName": "Display Name value",
       "description": "Description value",
       "roleScopeTagIds": [

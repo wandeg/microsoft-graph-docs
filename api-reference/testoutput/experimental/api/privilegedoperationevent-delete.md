@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete privilegedOperationEvent
 
+Namespace: microsoft.graph
+
 Deletes a [privilegedOperationEvent](../resources/privilegedoperationevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/privilegedOperationEvents/{privilegedOperationEventsId}
+DELETE https://graph.microsoft.com/localtest/privilegedOperationEvents/{privilegedOperationEventsId}
 ```
 
 ### Response

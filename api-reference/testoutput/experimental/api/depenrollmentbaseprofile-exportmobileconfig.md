@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # exportMobileConfig
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.depEnrollmentBaseProfile not found/exportMobileConfig
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.depEnrollmentBaseProfile not found/exportMobileConfig
 ```
 
 ### Response

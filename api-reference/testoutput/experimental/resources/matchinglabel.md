@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # matchingLabel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,7 +22,7 @@ Namespace: microsoft.graph
 |displayName|String||
 |id|String||
 |isEndpointProtectionEnabled|Boolean||
-|labelActions|[labelActionBase](../resources/labelActionBase.md) collection||
+|labelActions|[labelActionBase](../resources/labelactionbase.md) collection||
 |name|String||
 |policyTip|String||
 |priority|Int32||

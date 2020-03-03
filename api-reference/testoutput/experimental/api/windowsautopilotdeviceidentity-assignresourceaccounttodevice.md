@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assignResourceAccountToDevice
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/assignResourceAccountToDevice
+POST https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/assignResourceAccountToDevice
 
 Content-type: application/json
 Content-length: 170

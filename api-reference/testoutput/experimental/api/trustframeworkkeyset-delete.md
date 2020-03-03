@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete trustFrameworkKeySet
 
+Namespace: microsoft.graph
+
 Deletes a [trustFrameworkKeySet](../resources/trustframeworkkeyset.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/trustFramework/keySets/{trustFrameworkKeySetId}
+DELETE https://graph.microsoft.com/localtest/trustFramework/keySets/{trustFrameworkKeySetId}
 ```
 
 ### Response

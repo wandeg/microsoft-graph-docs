@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createLink
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -69,7 +71,7 @@ The following table shows the parameters that can be used with this action.
 |expirationDateTime|DateTimeOffset||
 |password|String||
 |message|String||
-|recipients|[driveRecipient](../resources/driveRecipient.md) collection||
+|recipients|[driveRecipient](../resources/driverecipient.md) collection||
 
 
 
@@ -86,15 +88,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/drives/{drivesId}/root/createLink
+POST https://graph.microsoft.com/localtest/drives/{drivesId}/root/createLink
 
 Content-type: application/json
-Content-length: 343
+Content-length: 344
 
 {
   "type": "Type value",
   "scope": "Scope value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "password": "Password value",
   "message": "Message value",
   "recipients": [
@@ -118,13 +120,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 730
+Content-Length: 731
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "6e4632ec-32ec-6e46-ec32-466eec32466e",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+    "id": "32939072-9072-3293-7290-933272909332",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet"
     },

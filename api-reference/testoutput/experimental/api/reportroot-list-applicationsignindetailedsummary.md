@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List applicationSignInDetailedSummary
 
+Namespace: microsoft.graph
+
 Get the applicationSignInDetailedSummaries from the applicationSignInDetailedSummary navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/applicationSignInDetailedSummary
+GET https://graph.microsoft.com/localtest/reports/applicationSignInDetailedSummary
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 561
   "value": [
     {
       "@odata.type": "#microsoft.graph.applicationSignInDetailedSummary",
-      "id": "a02e661e-661e-a02e-1e66-2ea01e662ea0",
+      "id": "2d7be85e-e85e-2d7b-5ee8-7b2d5ee87b2d",
       "appId": "App Id value",
       "appDisplayName": "App Display Name value",
       "status": {
@@ -80,7 +82,7 @@ Content-Length: 561
         "additionalDetails": "Additional Details value"
       },
       "signInCount": 11,
-      "aggregatedEventDateTime": "2017-01-01T00:00:09.4341724+03:00"
+      "aggregatedEventDateTime": "2017-01-01T00:01:04.3937333+03:00"
     }
   ]
 }

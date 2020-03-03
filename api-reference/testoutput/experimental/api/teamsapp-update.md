@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsApp](../resources/teamsapp.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /appCatalogs/teamsApps/{teamsAppId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsApp](../resources/teamsApp.md) object.
+In the request body, supply a JSON representation for the [teamsApp](../resources/teamsapp.md) object.
 
 The following table shows the properties that are required when you create the [teamsApp](../resources/teamsapp.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/appCatalogs/teamsApps/{teamsAppId}
+PATCH https://graph.microsoft.com/localtest/appCatalogs/teamsApps/{teamsAppId}
 Content-type: application/json
 Content-length: 188
 
@@ -89,7 +91,7 @@ Content-Length: 237
 
 {
   "@odata.type": "#microsoft.graph.teamsApp",
-  "id": "cbd773f7-73f7-cbd7-f773-d7cbf773d7cb",
+  "id": "64d2f22b-f22b-64d2-2bf2-d2642bf2d264",
   "externalId": "External Id value",
   "name": "Name value",
   "displayName": "Display Name value",

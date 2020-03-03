@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # taxGroup resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get taxGroup](../api/taxgroup-get.md)|[taxGroup](../resources/taxGroup.md)|Read properties and relationships of the [taxGroup](../resources/taxgroup.md) object.|
+|[List taxGroups](../api/taxgroup-list.md)|[taxGroup](../resources/taxgroup.md) collection|List properties and relationships of the [taxGroup](../resources/taxgroup.md) objects.|
+|[Get taxGroup](../api/taxgroup-get.md)|[taxGroup](../resources/taxgroup.md)|Read properties and relationships of the [taxGroup](../resources/taxgroup.md) object.|
+|[Create taxGroup](../api/taxgroup-create.md)|[taxGroup](../resources/taxgroup.md)|Create a new [taxGroup](../resources/taxgroup.md) object.|
 |[Delete taxGroup](../api/taxgroup-delete.md)|None|Deletes a [taxGroup](../resources/taxgroup.md).|
-|[Update taxGroup](../api/taxgroup-update.md)|[taxGroup](../resources/taxGroup.md)|Update the properties of a [taxGroup](../resources/taxgroup.md) object.|
+|[Update taxGroup](../api/taxgroup-update.md)|[taxGroup](../resources/taxgroup.md)|Update the properties of a [taxGroup](../resources/taxgroup.md) object.|
 
 ## Properties
 |Property|Type|Description|

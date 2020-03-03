@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosVppAppAssignedUserLicenses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosVppAppAssignedUserLicense](../resources/iosvppappassigneduserlicense.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosVppAppAssignedUserLicense not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosVppAppAssignedUserLicense not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 344
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosVppAppAssignedUserLicense",
-      "id": "f21b9d5f-9d5f-f21b-5f9d-1bf25f9d1bf2",
+      "id": "d00b9e46-9e46-d00b-469e-0bd0469e0bd0",
       "userEmailAddress": "User Email Address value",
       "userId": "User Id value",
       "userName": "User Name value",

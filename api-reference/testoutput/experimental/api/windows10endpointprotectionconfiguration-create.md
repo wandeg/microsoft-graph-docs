@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windows10EndpointProtectionConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md) object.
 
 ## Permissions
@@ -36,54 +38,54 @@ POST ** Collection URI for microsoft.graph.windows10EndpointProtectionConfigurat
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windows10EndpointProtectionConfiguration object.
+In the request body, supply a JSON representation for the [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windows10EndpointProtectionConfiguration.
+The following table shows the properties that are required when you create the [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |dmaGuardDeviceEnumerationPolicy|Enumeration|This policy is intended to provide additional security against external DMA capable devices. It allows for more control over the enumeration of external DMA capable devices incompatible with DMA Remapping/device memory isolation and sandboxing. This policy only takes effect when Kernel DMA Protection is supported and enabled by the system firmware. Kernel DMA Protection is a platform feature that cannot be controlled via policy or by end user. It has to be supported by the system at the time of manufacturing. To check if the system supports Kernel DMA Protection, please check the Kernel DMA Protection field in the Summary page of MSINFO32.exe. Possible values are: `deviceDefault`, `blockAll`, `allowAll`.|
-|firewallRules|[windowsFirewallRule](../resources/windowsFirewallRule.md) collection|Configures the firewall rule settings. This collection can contain a maximum of 150 elements.|
-|userRightsAccessCredentialManagerAsTrustedCaller|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right is used by Credential Manager during Backup/Restore. Users' saved credentials might be compromised if this privilege is given to other entities. Only states NotConfigured and Allowed are supported|
-|userRightsAllowAccessFromNetwork|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups are allowed to connect to the computer over the network. State Allowed is supported.|
-|userRightsBlockAccessFromNetwork|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups are block from connecting to the computer over the network. State Block is supported.|
-|userRightsActAsPartOfTheOperatingSystem|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right allows a process to impersonate any user without authentication. The process can therefore gain access to the same local resources as that user. Only states NotConfigured and Allowed are supported|
-|userRightsLocalLogOn|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can log on to the computer. States NotConfigured, Allowed are supported |
-|userRightsDenyLocalLogOn|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users cannot log on to the computer. States NotConfigured, Blocked are supported |
-|userRightsBackupData|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when backing up files and directories. Only states NotConfigured and Allowed are supported|
-|userRightsChangeSystemTime|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups can change the time and date on the internal clock of the computer. Only states NotConfigured and Allowed are supported|
-|userRightsCreateGlobalObjects|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This security setting determines whether users can create global objects that are available to all sessions. Users who can create global objects could affect processes that run under other users' sessions, which could lead to application failure or data corruption. Only states NotConfigured and Allowed are supported|
-|userRightsCreatePageFile|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups can call an internal API to create and change the size of a page file. Only states NotConfigured and Allowed are supported|
-|userRightsCreatePermanentSharedObjects|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which accounts can be used by processes to create a directory object using the object manager. Only states NotConfigured and Allowed are supported|
-|userRightsCreateSymbolicLinks|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines if the user can create a symbolic link from the computer to which they are logged on. Only states NotConfigured and Allowed are supported|
-|userRightsCreateToken|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users/groups can be used by processes to create a token that can then be used to get access to any local resources when the process uses an internal API to create an access token. Only states NotConfigured and Allowed are supported|
-|userRightsDebugPrograms|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can attach a debugger to any process or to the kernel. Only states NotConfigured and Allowed are supported|
-|userRightsRemoteDesktopServicesLogOn|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups are prohibited from logging on as a Remote Desktop Services client. Only states NotConfigured and Blocked are supported|
-|userRightsDelegation|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can set the Trusted for Delegation setting on a user or computer object. Only states NotConfigured and Allowed are supported.|
-|userRightsGenerateSecurityAudits|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which accounts can be used by a process to add entries to the security log. The security log is used to trace unauthorized system access.  Only states NotConfigured and Allowed are supported.|
-|userRightsImpersonateClient|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|Assigning this user right to a user allows programs running on behalf of that user to impersonate a client. Requiring this user right for this kind of impersonation prevents an unauthorized user from convincing a client to connect to a service that they have created and then impersonating that client, which can elevate the unauthorized user's permissions to administrative or system levels. Only states NotConfigured and Allowed are supported.|
-|userRightsIncreaseSchedulingPriority|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which accounts can use a process with Write Property access to another process to increase the execution priority assigned to the other process. Only states NotConfigured and Allowed are supported.|
-|userRightsLoadUnloadDrivers|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can dynamically load and unload device drivers or other code in to kernel mode. Only states NotConfigured and Allowed are supported.|
-|userRightsLockMemory|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which accounts can use a process to keep data in physical memory, which prevents the system from paging the data to virtual memory on disk. Only states NotConfigured and Allowed are supported.|
-|userRightsManageAuditingAndSecurityLogs|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can specify object access auditing options for individual resources, such as files, Active Directory objects, and registry keys. Only states NotConfigured and Allowed are supported.|
-|userRightsManageVolumes|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users and groups can run maintenance tasks on a volume, such as remote defragmentation. Only states NotConfigured and Allowed are supported.|
-|userRightsModifyFirmwareEnvironment|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines who can modify firmware environment values. Only states NotConfigured and Allowed are supported.|
-|userRightsModifyObjectLabels|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which user accounts can modify the integrity label of objects, such as files, registry keys, or processes owned by other users. Only states NotConfigured and Allowed are supported.|
-|userRightsProfileSingleProcess|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can use performance monitoring tools to monitor the performance of system processes. Only states NotConfigured and Allowed are supported.|
-|userRightsRemoteShutdown|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users are allowed to shut down a computer from a remote location on the network. Misuse of this user right can result in a denial of service. Only states NotConfigured and Allowed are supported.|
-|userRightsRestoreData|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when restoring backed up files and directories, and determines which users can set any valid security principal as the owner of an object. Only states NotConfigured and Allowed are supported.|
-|userRightsTakeOwnership|[deviceManagementUserRightsSetting](../resources/deviceManagementUserRightsSetting.md)|This user right determines which users can take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. Only states NotConfigured and Allowed are supported.|
+|firewallRules|[windowsFirewallRule](../resources/windowsfirewallrule.md) collection|Configures the firewall rule settings. This collection can contain a maximum of 150 elements.|
+|userRightsAccessCredentialManagerAsTrustedCaller|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right is used by Credential Manager during Backup/Restore. Users' saved credentials might be compromised if this privilege is given to other entities. Only states NotConfigured and Allowed are supported|
+|userRightsAllowAccessFromNetwork|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups are allowed to connect to the computer over the network. State Allowed is supported.|
+|userRightsBlockAccessFromNetwork|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups are block from connecting to the computer over the network. State Block is supported.|
+|userRightsActAsPartOfTheOperatingSystem|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right allows a process to impersonate any user without authentication. The process can therefore gain access to the same local resources as that user. Only states NotConfigured and Allowed are supported|
+|userRightsLocalLogOn|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can log on to the computer. States NotConfigured, Allowed are supported |
+|userRightsDenyLocalLogOn|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users cannot log on to the computer. States NotConfigured, Blocked are supported |
+|userRightsBackupData|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when backing up files and directories. Only states NotConfigured and Allowed are supported|
+|userRightsChangeSystemTime|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups can change the time and date on the internal clock of the computer. Only states NotConfigured and Allowed are supported|
+|userRightsCreateGlobalObjects|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This security setting determines whether users can create global objects that are available to all sessions. Users who can create global objects could affect processes that run under other users' sessions, which could lead to application failure or data corruption. Only states NotConfigured and Allowed are supported|
+|userRightsCreatePageFile|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups can call an internal API to create and change the size of a page file. Only states NotConfigured and Allowed are supported|
+|userRightsCreatePermanentSharedObjects|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which accounts can be used by processes to create a directory object using the object manager. Only states NotConfigured and Allowed are supported|
+|userRightsCreateSymbolicLinks|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines if the user can create a symbolic link from the computer to which they are logged on. Only states NotConfigured and Allowed are supported|
+|userRightsCreateToken|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users/groups can be used by processes to create a token that can then be used to get access to any local resources when the process uses an internal API to create an access token. Only states NotConfigured and Allowed are supported|
+|userRightsDebugPrograms|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can attach a debugger to any process or to the kernel. Only states NotConfigured and Allowed are supported|
+|userRightsRemoteDesktopServicesLogOn|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups are prohibited from logging on as a Remote Desktop Services client. Only states NotConfigured and Blocked are supported|
+|userRightsDelegation|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can set the Trusted for Delegation setting on a user or computer object. Only states NotConfigured and Allowed are supported.|
+|userRightsGenerateSecurityAudits|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which accounts can be used by a process to add entries to the security log. The security log is used to trace unauthorized system access.  Only states NotConfigured and Allowed are supported.|
+|userRightsImpersonateClient|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|Assigning this user right to a user allows programs running on behalf of that user to impersonate a client. Requiring this user right for this kind of impersonation prevents an unauthorized user from convincing a client to connect to a service that they have created and then impersonating that client, which can elevate the unauthorized user's permissions to administrative or system levels. Only states NotConfigured and Allowed are supported.|
+|userRightsIncreaseSchedulingPriority|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which accounts can use a process with Write Property access to another process to increase the execution priority assigned to the other process. Only states NotConfigured and Allowed are supported.|
+|userRightsLoadUnloadDrivers|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can dynamically load and unload device drivers or other code in to kernel mode. Only states NotConfigured and Allowed are supported.|
+|userRightsLockMemory|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which accounts can use a process to keep data in physical memory, which prevents the system from paging the data to virtual memory on disk. Only states NotConfigured and Allowed are supported.|
+|userRightsManageAuditingAndSecurityLogs|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can specify object access auditing options for individual resources, such as files, Active Directory objects, and registry keys. Only states NotConfigured and Allowed are supported.|
+|userRightsManageVolumes|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users and groups can run maintenance tasks on a volume, such as remote defragmentation. Only states NotConfigured and Allowed are supported.|
+|userRightsModifyFirmwareEnvironment|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines who can modify firmware environment values. Only states NotConfigured and Allowed are supported.|
+|userRightsModifyObjectLabels|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which user accounts can modify the integrity label of objects, such as files, registry keys, or processes owned by other users. Only states NotConfigured and Allowed are supported.|
+|userRightsProfileSingleProcess|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can use performance monitoring tools to monitor the performance of system processes. Only states NotConfigured and Allowed are supported.|
+|userRightsRemoteShutdown|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users are allowed to shut down a computer from a remote location on the network. Misuse of this user right can result in a denial of service. Only states NotConfigured and Allowed are supported.|
+|userRightsRestoreData|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can bypass file, directory, registry, and other persistent objects permissions when restoring backed up files and directories, and determines which users can set any valid security principal as the owner of an object. Only states NotConfigured and Allowed are supported.|
+|userRightsTakeOwnership|[deviceManagementUserRightsSetting](../resources/devicemanagementuserrightssetting.md)|This user right determines which users can take ownership of any securable object in the system, including Active Directory objects, files and folders, printers, registry keys, processes, and threads. Only states NotConfigured and Allowed are supported.|
 |xboxServicesEnableXboxGameSaveTask|Boolean|This setting determines whether xbox game save is enabled (1) or disabled (0).|
 |xboxServicesAccessoryManagementServiceStartupMode|Enumeration|This setting determines whether the Accessory management service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual. Possible values are: `manual`, `automatic`, `disabled`.|
 |xboxServicesLiveAuthManagerServiceStartupMode|Enumeration|This setting determines whether Live Auth Manager service's start type is Automatic(2), Manual(3), Disabled(4). Default: Manual. Possible values are: `manual`, `automatic`, `disabled`.|
@@ -167,9 +169,9 @@ The following table shows the properties that are required when you create the w
 |firewallCertificateRevocationListCheckMethod|Enumeration|Specify how the certificate revocation list is to be enforced. Possible values are: `deviceDefault`, `none`, `attempt`, `require`.|
 |firewallMergeKeyingModuleSettings|Boolean|If an authentication set is not fully supported by a keying module, direct the module to ignore only unsupported authentication suites rather than the entire set|
 |firewallPacketQueueingMethod|Enumeration|Configures how packet queueing should be applied in the tunnel gateway scenario. Possible values are: `deviceDefault`, `disabled`, `queueInbound`, `queueOutbound`, `queueBoth`.|
-|firewallProfileDomain|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for domain networks|
-|firewallProfilePublic|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for public networks|
-|firewallProfilePrivate|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for private networks|
+|firewallProfileDomain|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for domain networks|
+|firewallProfilePublic|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for public networks|
+|firewallProfilePrivate|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for private networks|
 |defenderAdobeReaderLaunchChildProcess|Enumeration|Value indicating the behavior of Adobe Reader from creating child processes. Possible values are: `userDefined`, `enable`, `auditMode`.|
 |defenderAttackSurfaceReductionExcludedPaths|String collection|List of exe files and folders to be excluded from attack surface reduction rules|
 |defenderOfficeAppsOtherProcessInjectionType|Enumeration|Value indicating the behavior of Office applications injecting into other processes. Possible values are: `userDefined`, `block`, `auditMode`.|
@@ -227,9 +229,9 @@ The following table shows the properties that are required when you create the w
 |bitLockerDisableWarningForOtherDiskEncryption|Boolean|Allows the Admin to disable the warning prompt for other disk encryption on the user machines.|
 |bitLockerEnableStorageCardEncryptionOnMobile|Boolean|Allows the admin to require encryption to be turned on using BitLocker. This policy is valid only for a mobile SKU.|
 |bitLockerEncryptDevice|Boolean|Allows the admin to require encryption to be turned on using BitLocker.|
-|bitLockerSystemDrivePolicy|[bitLockerSystemDrivePolicy](../resources/bitLockerSystemDrivePolicy.md)|BitLocker System Drive Policy.|
-|bitLockerFixedDrivePolicy|[bitLockerFixedDrivePolicy](../resources/bitLockerFixedDrivePolicy.md)|BitLocker Fixed Drive Policy.|
-|bitLockerRemovableDrivePolicy|[bitLockerRemovableDrivePolicy](../resources/bitLockerRemovableDrivePolicy.md)|BitLocker Removable Drive Policy.|
+|bitLockerSystemDrivePolicy|[bitLockerSystemDrivePolicy](../resources/bitlockersystemdrivepolicy.md)|BitLocker System Drive Policy.|
+|bitLockerFixedDrivePolicy|[bitLockerFixedDrivePolicy](../resources/bitlockerfixeddrivepolicy.md)|BitLocker Fixed Drive Policy.|
+|bitLockerRemovableDrivePolicy|[bitLockerRemovableDrivePolicy](../resources/bitlockerremovabledrivepolicy.md)|BitLocker Removable Drive Policy.|
 |bitLockerRecoveryPasswordRotation|Enumeration|This setting initiates a client-driven recovery password rotation after an OS drive recovery (either by using bootmgr or WinRE). Possible values are: `notConfigured`, `disabled`, `enabledForAzureAd`, `enabledForAzureAdAndHybrid`.|
 |defenderDisableScanArchiveFiles|Boolean|Allows or disallows scanning of archives.|
 |defenderDisableBehaviorMonitoring|Boolean|Allows or disallows Windows Defender Behavior Monitoring functionality.|
@@ -262,7 +264,7 @@ The following table shows the properties that are required when you create the w
 |defenderScheduledScanDay|Enumeration|Selects the day that the Windows Defender scan should run. Possible values are: `userDefined`, `everyday`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `noScheduledScan`.|
 |defenderScheduledScanTime|TimeOfDay|Selects the time of day that the Windows Defender scan should run.|
 |defenderSubmitSamplesConsentType|Enumeration|Checks for the user consent level in Windows Defender to send data. Possible values are: `sendSafeSamplesAutomatically`, `alwaysPrompt`, `neverSend`, `sendAllSamplesAutomatically`.|
-|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderDetectedMalwareActions.md)|Allows an administrator to specify any valid threat severity levels and the corresponding default action ID to take.|
+|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderdetectedmalwareactions.md)|Allows an administrator to specify any valid threat severity levels and the corresponding default action ID to take.|
 
 
 
@@ -279,7 +281,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10EndpointProtectionConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10EndpointProtectionConfiguration not found
 Content-type: application/json
 Content-length: 18707
 
@@ -675,9 +677,9 @@ Content-length: 18707
   "defenderPotentiallyUnwantedAppAction": "String",
   "defenderScanDirection": "String",
   "defenderScanType": "String",
-  "defenderScheduledQuickScanTime": "11:59:25.1810000",
+  "defenderScheduledQuickScanTime": "12:02:45.2150000",
   "defenderScheduledScanDay": "String",
-  "defenderScheduledScanTime": "12:02:28.3360000",
+  "defenderScheduledScanTime": "12:01:04.6330000",
   "defenderSubmitSamplesConsentType": "String",
   "defenderDetectedMalwareActions": {
     "@odata.type": "microsoft.graph.defenderDetectedMalwareActions",
@@ -700,12 +702,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 18879
+Content-Length: 18878
 
 {
   "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
-  "id": "63b141b5-41b5-63b1-b541-b163b541b163",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "8a306c39-6c39-8a30-396c-308a396c308a",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -727,7 +729,7 @@ Content-Length: 18879
     "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
     "deviceMode": "String"
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -1097,9 +1099,9 @@ Content-Length: 18879
   "defenderPotentiallyUnwantedAppAction": "String",
   "defenderScanDirection": "String",
   "defenderScanType": "String",
-  "defenderScheduledQuickScanTime": "11:59:25.1810000",
+  "defenderScheduledQuickScanTime": "12:02:45.2150000",
   "defenderScheduledScanDay": "String",
-  "defenderScheduledScanTime": "12:02:28.3360000",
+  "defenderScheduledScanTime": "12:01:04.6330000",
   "defenderSubmitSamplesConsentType": "String",
   "defenderDetectedMalwareActions": {
     "@odata.type": "microsoft.graph.defenderDetectedMalwareActions",

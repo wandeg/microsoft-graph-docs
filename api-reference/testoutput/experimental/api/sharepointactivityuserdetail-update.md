@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharePointActivityUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.sharePointActivityUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharePointActivityUserDetail](../resources/sharePointActivityUserDetail.md) object.
+In the request body, supply a JSON representation for the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md).
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointActivityUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointActivityUserDetail not found
 Content-type: application/json
 Content-length: 493
 
@@ -107,7 +109,7 @@ Content-Length: 542
 
 {
   "@odata.type": "#microsoft.graph.sharePointActivityUserDetail",
-  "id": "35616396-6396-3561-9663-613596636135",
+  "id": "fe712b8e-2b8e-fe71-8e2b-71fe8e2b71fe",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "isDeleted": true,

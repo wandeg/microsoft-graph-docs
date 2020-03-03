@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete userExperienceAnalyticsMetric
 
-Deletes a [userExperienceAnalyticsMetric](../resources/userexperienceanalyticsmetric.md).
+Namespace: microsoft.graph
+
+Deletes a [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression/{userExperienceAnalyticsMetricId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression/{userExperienceAnalyticsMetricId}
 ```
 
 ### Response

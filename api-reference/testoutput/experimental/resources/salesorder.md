@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # salesOrder resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,19 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get salesOrder](../api/salesorder-get.md)|[salesOrder](../resources/salesOrder.md)|Read properties and relationships of the [salesOrder](../resources/salesorder.md) object.|
+|[List salesOrders](../api/salesorder-list.md)|[salesOrder](../resources/salesorder.md) collection|List properties and relationships of the [salesOrder](../resources/salesorder.md) objects.|
+|[Get salesOrder](../api/salesorder-get.md)|[salesOrder](../resources/salesorder.md)|Read properties and relationships of the [salesOrder](../resources/salesorder.md) object.|
+|[Create salesOrder](../api/salesorder-create.md)|[salesOrder](../resources/salesorder.md)|Create a new [salesOrder](../resources/salesorder.md) object.|
 |[Delete salesOrder](../api/salesorder-delete.md)|None|Deletes a [salesOrder](../resources/salesorder.md).|
-|[Update salesOrder](../api/salesorder-update.md)|[salesOrder](../resources/salesOrder.md)|Update the properties of a [salesOrder](../resources/salesorder.md) object.|
-|[List salesOrderLines](../api/salesorder-list-salesorderlines.md)|[salesOrderLine](../resources/salesOrderLine.md) collection|Get the salesOrderLines from the salesOrderLines navigation property.|
-|[Add salesOrderLines](../api/salesorder-post-salesorderlines.md)|[salesOrderLine](../resources/salesOrderLine.md)|Add salesOrderLines by posting to the salesOrderLines collection.|
+|[Update salesOrder](../api/salesorder-update.md)|[salesOrder](../resources/salesorder.md)|Update the properties of a [salesOrder](../resources/salesorder.md) object.|
+|[List salesOrderLines](../api/salesorder-list-salesorderlines.md)|[salesOrderLine](../resources/salesorderline.md) collection|Get the salesOrderLines from the salesOrderLines navigation property.|
+|[Add salesOrderLines](../api/salesorder-post-salesorderlines.md)|[salesOrderLine](../resources/salesorderline.md)|Add salesOrderLines by posting to the salesOrderLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
-|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentTerm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |billToCustomerId|Guid||
 |billToCustomerNumber|String||
 |billToName|String||
@@ -55,8 +58,8 @@ Inherits from [entity](../resources/entity.md)
 |pricesIncludeTax|Boolean||
 |requestedDeliveryDate|Date||
 |salesperson|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
-|shippingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|shippingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |shipToContact|String||
 |shipToName|String||
 |status|String||
@@ -69,8 +72,8 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |currency|[currency](../resources/currency.md)||
 |customer|[customer](../resources/customer.md)||
-|paymentTerm|[paymentTerm](../resources/paymentTerm.md)||
-|salesOrderLines|[salesOrderLine](../resources/salesOrderLine.md) collection||
+|paymentTerm|[paymentTerm](../resources/paymentterm.md)||
+|salesOrderLines|[salesOrderLine](../resources/salesorderline.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

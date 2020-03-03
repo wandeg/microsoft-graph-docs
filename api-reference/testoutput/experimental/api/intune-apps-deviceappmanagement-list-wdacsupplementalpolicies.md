@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List wdacSupplementalPolicies
 
+Namespace: microsoft.graph
+
 Get the windowsDefenderApplicationControlSupplementalPolicies from the wdacSupplementalPolicies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies
+GET https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Content-Length: 598
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicy",
-      "id": "af71ed9e-ed9e-af71-9eed-71af9eed71af",
+      "id": "e9f7fe24-fe24-e9f7-24fe-f7e924fef7e9",
       "displayName": "Display Name value",
       "description": "Description value",
       "content": "Y29udGVudA==",
       "contentFileName": "Content File Name value",
       "version": "Version value",
-      "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ]

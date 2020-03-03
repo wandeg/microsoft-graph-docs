@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update emailActivitySummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [emailActivitySummary](../resources/emailactivitysummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.emailActivitySummary not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [emailActivitySummary](../resources/emailActivitySummary.md) object.
+In the request body, supply a JSON representation for the [emailActivitySummary](../resources/emailactivitysummary.md) object.
 
 The following table shows the properties that are required when you create the [emailActivitySummary](../resources/emailactivitysummary.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailActivitySummary not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailActivitySummary not found
 Content-type: application/json
 Content-length: 206
 
@@ -93,7 +95,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.emailActivitySummary",
-  "id": "298faddc-addc-298f-dcad-8f29dcad8f29",
+  "id": "f20eee41-ee41-f20e-41ee-0ef241ee0ef2",
   "reportRefreshDate": "Date",
   "send": 4,
   "receive": 7,

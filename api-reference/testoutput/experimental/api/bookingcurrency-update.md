@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingCurrency
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingCurrency](../resources/bookingcurrency.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /bookingCurrencies/{bookingCurrenciesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingCurrency](../resources/bookingCurrency.md) object.
+In the request body, supply a JSON representation for the [bookingCurrency](../resources/bookingcurrency.md) object.
 
 The following table shows the properties that are required when you create the [bookingCurrency](../resources/bookingcurrency.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingCurrencies/{bookingCurrenciesId}
+PATCH https://graph.microsoft.com/localtest/bookingCurrencies/{bookingCurrenciesId}
 Content-type: application/json
 Content-length: 86
 
@@ -83,7 +85,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.bookingCurrency",
-  "id": "0fc23258-3258-0fc2-5832-c20f5832c20f",
+  "id": "7653a81e-a81e-7653-1ea8-53761ea85376",
   "symbol": "Symbol value"
 }
 ```

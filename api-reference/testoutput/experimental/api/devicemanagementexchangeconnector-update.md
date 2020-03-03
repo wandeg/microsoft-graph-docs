@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementExchangeConnector
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementExchangeConnector](../resources/deviceManagementExchangeConnector.md) object.
+In the request body, supply a JSON representation for the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md).
 
@@ -67,13 +69,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
 Content-type: application/json
-Content-length: 478
+Content-length: 479
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",
@@ -95,12 +97,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 528
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "id": "c054cd7c-cd7c-c054-7ccd-54c07ccd54c0",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "id": "07ec7178-7178-07ec-7871-ec077871ec07",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",

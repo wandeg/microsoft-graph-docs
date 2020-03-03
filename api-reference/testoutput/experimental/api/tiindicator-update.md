@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update tiIndicator
 
+Namespace: microsoft.graph
+
 Update the properties of a [tiIndicator](../resources/tiindicator.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /Security/tiIndicators/{tiIndicatorId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [tiIndicator](../resources/tiIndicator.md) object.
+In the request body, supply a JSON representation for the [tiIndicator](../resources/tiindicator.md) object.
 
 The following table shows the properties that are required when you create the [tiIndicator](../resources/tiindicator.md).
 
@@ -116,9 +118,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/Security/tiIndicators/{tiIndicatorId}
+PATCH https://graph.microsoft.com/localtest/Security/tiIndicators/{tiIndicatorId}
 Content-type: application/json
-Content-length: 2539
+Content-length: 2540
 
 {
   "@odata.type": "#microsoft.graph.tiIndicator",
@@ -141,10 +143,10 @@ Content-length: 2539
   "emailSourceIpAddress": "Email Source Ip Address value",
   "emailSubject": "Email Subject value",
   "emailXMailer": "Email XMailer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "externalId": "External Id value",
-  "fileCompileDateTime": "2016-12-31T23:57:58.3781856+03:00",
-  "fileCreatedDateTime": "2016-12-31T23:58:09.0538026+03:00",
+  "fileCompileDateTime": "2017-01-01T00:02:30.4914742+03:00",
+  "fileCreatedDateTime": "2016-12-31T23:56:41.8083525+03:00",
   "fileHashType": "String",
   "fileHashValue": "File Hash Value value",
   "fileMutexName": "File Mutex Name value",
@@ -153,13 +155,13 @@ Content-length: 2539
   "filePath": "File Path value",
   "fileSize": 8,
   "fileType": "File Type value",
-  "ingestedDateTime": "2016-12-31T23:56:35.5523635+03:00",
+  "ingestedDateTime": "2017-01-01T00:02:21.7613669+03:00",
   "isActive": true,
   "killChain": [
     "Kill Chain value"
   ],
   "knownFalsePositives": "Known False Positives value",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "malwareFamilyNames": [
     "Malware Family Names value"
   ],
@@ -201,11 +203,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2588
+Content-Length: 2589
 
 {
   "@odata.type": "#microsoft.graph.tiIndicator",
-  "id": "1c383218-3218-1c38-1832-381c1832381c",
+  "id": "ebcb7b71-7b71-ebcb-717b-cbeb717bcbeb",
   "action": "String",
   "activityGroupNames": [
     "Activity Group Names value"
@@ -225,10 +227,10 @@ Content-Length: 2588
   "emailSourceIpAddress": "Email Source Ip Address value",
   "emailSubject": "Email Subject value",
   "emailXMailer": "Email XMailer value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "externalId": "External Id value",
-  "fileCompileDateTime": "2016-12-31T23:57:58.3781856+03:00",
-  "fileCreatedDateTime": "2016-12-31T23:58:09.0538026+03:00",
+  "fileCompileDateTime": "2017-01-01T00:02:30.4914742+03:00",
+  "fileCreatedDateTime": "2016-12-31T23:56:41.8083525+03:00",
   "fileHashType": "String",
   "fileHashValue": "File Hash Value value",
   "fileMutexName": "File Mutex Name value",
@@ -237,13 +239,13 @@ Content-Length: 2588
   "filePath": "File Path value",
   "fileSize": 8,
   "fileType": "File Type value",
-  "ingestedDateTime": "2016-12-31T23:56:35.5523635+03:00",
+  "ingestedDateTime": "2017-01-01T00:02:21.7613669+03:00",
   "isActive": true,
   "killChain": [
     "Kill Chain value"
   ],
   "knownFalsePositives": "Known False Positives value",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "malwareFamilyNames": [
     "Malware Family Names value"
   ],

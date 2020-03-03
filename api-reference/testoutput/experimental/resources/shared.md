@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # shared resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|owner|[identitySet](../resources/identitySet.md)||
+|owner|[identitySet](../resources/identityset.md)||
 |scope|String||
-|sharedBy|[identitySet](../resources/identitySet.md)||
+|sharedBy|[identitySet](../resources/identityset.md)||
 |sharedDateTime|DateTimeOffset||
 
 ## Relationships

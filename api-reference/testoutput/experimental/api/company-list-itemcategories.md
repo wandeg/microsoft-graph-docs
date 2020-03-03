@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List itemCategories
 
+Namespace: microsoft.graph
+
 Get the itemCategories from the itemCategories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/itemCategories
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/itemCategories
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 285
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemCategory",
-      "id": "a34856d5-56d5-a348-d556-48a3d55648a3",
+      "id": "62710455-0455-6271-5504-716255047162",
       "code": "Code value",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

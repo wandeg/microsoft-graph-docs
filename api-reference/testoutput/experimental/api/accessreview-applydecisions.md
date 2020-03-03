@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # applyDecisions
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}/applyDecisions
+POST https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}/applyDecisions
 ```
 
 ### Response

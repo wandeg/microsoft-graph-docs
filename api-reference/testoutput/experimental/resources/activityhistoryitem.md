@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # activityHistoryItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get activityHistoryItem](../api/activityhistoryitem-get.md)|[activityHistoryItem](../resources/activityHistoryItem.md)|Read properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) object.|
+|[List activityHistoryItems](../api/activityhistoryitem-list.md)|[activityHistoryItem](../resources/activityhistoryitem.md) collection|List properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) objects.|
+|[Get activityHistoryItem](../api/activityhistoryitem-get.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Read properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) object.|
+|[Create activityHistoryItem](../api/activityhistoryitem-create.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Create a new [activityHistoryItem](../resources/activityhistoryitem.md) object.|
 |[Delete activityHistoryItem](../api/activityhistoryitem-delete.md)|None|Deletes a [activityHistoryItem](../resources/activityhistoryitem.md).|
-|[Update activityHistoryItem](../api/activityhistoryitem-update.md)|[activityHistoryItem](../resources/activityHistoryItem.md)|Update the properties of a [activityHistoryItem](../resources/activityhistoryitem.md) object.|
-|[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/userActivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
+|[Update activityHistoryItem](../api/activityhistoryitem-update.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Update the properties of a [activityHistoryItem](../resources/activityhistoryitem.md) object.|
+|[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/useractivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|activity|[userActivity](../resources/userActivity.md)||
+|activity|[userActivity](../resources/useractivity.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

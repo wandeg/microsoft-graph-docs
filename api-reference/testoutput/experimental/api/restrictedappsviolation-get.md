@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get restrictedAppsViolation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationRestrictedAppsViolations/{restrictedAppsViolationId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationRestrictedAppsViolations/{restrictedAppsViolationId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 647
 {
   "value": {
     "@odata.type": "#microsoft.graph.restrictedAppsViolation",
-    "id": "ab900812-0812-ab90-1208-90ab120890ab",
+    "id": "ba4be45e-e45e-ba4b-5ee4-4bba5ee44bba",
     "userId": "User Id value",
     "userName": "User Name value",
     "managedDeviceId": "Managed Device Id value",

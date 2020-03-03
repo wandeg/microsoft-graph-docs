@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete applicationSignInDetailedSummary
 
+Namespace: microsoft.graph
+
 Deletes a [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummaryId}
+DELETE https://graph.microsoft.com/localtest/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummaryId}
 ```
 
 ### Response

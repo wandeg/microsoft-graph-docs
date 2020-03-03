@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # patternedRecurrence resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|pattern|[recurrencePattern](../resources/recurrencePattern.md)||
-|range|[recurrenceRange](../resources/recurrenceRange.md)||
+|pattern|[recurrencePattern](../resources/recurrencepattern.md)||
+|range|[recurrenceRange](../resources/recurrencerange.md)||
 
 ## Relationships
 None

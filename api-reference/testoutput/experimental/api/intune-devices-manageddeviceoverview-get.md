@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get managedDeviceOverview
 
-Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -40,7 +42,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [managedDeviceOverview](../resources/manageddeviceoverview.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object in the response body.
 
 ## Example
 
@@ -71,7 +73,7 @@ Content-Length: 1286
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceOverview",
-    "id": "3b4c1902-1902-3b4c-0219-4c3b02194c3b",
+    "id": "ff9f96d5-96d5-ff9f-d596-9fffd5969fff",
     "enrolledDeviceCount": 3,
     "mdmEnrolledCount": 0,
     "dualEnrolledDeviceCount": 7,
@@ -105,7 +107,7 @@ Content-Length: 1286
         "Device Manufacturers value"
       ]
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete officeClientConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments/{officeClientConfigurationAssignmentId}
+DELETE https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments/{officeClientConfigurationAssignmentId}
 ```
 
 ### Response

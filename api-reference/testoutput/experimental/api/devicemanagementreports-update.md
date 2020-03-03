@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementReports
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementReports](../resources/devicemanagementreports.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/reports
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementReports](../resources/deviceManagementReports.md) object.
+In the request body, supply a JSON representation for the [deviceManagementReports](../resources/devicemanagementreports.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementReports](../resources/devicemanagementreports.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/reports
+PATCH https://graph.microsoft.com/localtest/deviceManagement/reports
 Content-type: application/json
 Content-length: 65
 
@@ -81,7 +83,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementReports",
-  "id": "ecfcf482-f482-ecfc-82f4-fcec82f4fcec"
+  "id": "9848e393-e393-9848-93e3-489893e34898"
 }
 ```
 

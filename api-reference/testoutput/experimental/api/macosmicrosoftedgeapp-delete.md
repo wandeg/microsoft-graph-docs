@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete macOSMicrosoftEdgeApp
 
+Namespace: microsoft.graph
+
 Deletes a [macOSMicrosoftEdgeApp](../resources/macosmicrosoftedgeapp.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macOSMicrosoftEdgeApp not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macOSMicrosoftEdgeApp not found
 ```
 
 ### Response

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # companyDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
 |department|String||
 |displayName|String||
 |officeLocation|String||

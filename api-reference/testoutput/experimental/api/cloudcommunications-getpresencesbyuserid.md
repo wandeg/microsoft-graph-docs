@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getPresencesByUserId
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/getPresencesByUserId
+POST https://graph.microsoft.com/localtest/communications/getPresencesByUserId
 
 Content-type: application/json
 Content-length: 38
@@ -88,7 +90,7 @@ Content-Length: 222
   "value": [
     {
       "@odata.type": "#microsoft.graph.presence",
-      "id": "ba441c11-1c11-ba44-111c-44ba111c44ba",
+      "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
       "availability": "Availability value",
       "activity": "Activity value"
     }

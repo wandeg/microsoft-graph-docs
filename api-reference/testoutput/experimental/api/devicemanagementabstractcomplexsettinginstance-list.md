@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementAbstractComplexSettingInstances
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementAbstractComplexSettingInstance](../resources/devicemanagementabstractcomplexsettinginstance.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementAbstractComplexSettingInstance not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementAbstractComplexSettingInstance not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 318
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementAbstractComplexSettingInstance",
-      "id": "faef4579-4579-faef-7945-effa7945effa",
+      "id": "5d290fbe-0fbe-5d29-be0f-295dbe0f295d",
       "definitionId": "Definition Id value",
       "valueJson": "Value Json value",
       "implementationId": "Implementation Id value"

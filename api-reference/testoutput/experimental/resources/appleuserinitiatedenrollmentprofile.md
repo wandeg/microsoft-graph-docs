@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # appleUserInitiatedEnrollmentProfile resource type
+
+
+Namespace: microsoft.graph
 
 The enrollmentProfile resource represents a collection of configurations which must be provided pre-enrollment to enable enrolling certain devices whose identities have been pre-staged. Pre-staged device identities are assigned to this type of profile to apply the profile's configurations at enrollment of the corresponding device.
 
@@ -19,19 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-get.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleUserInitiatedEnrollmentProfile.md)|Read properties and relationships of the [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.|
+|[List appleUserInitiatedEnrollmentProfiles](../api/appleuserinitiatedenrollmentprofile-list.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) collection|List properties and relationships of the [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) objects.|
+|[Get appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-get.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md)|Read properties and relationships of the [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.|
+|[Create appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-create.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md)|Create a new [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.|
 |[Delete appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-delete.md)|None|Deletes a [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md).|
-|[Update appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-update.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleUserInitiatedEnrollmentProfile.md)|Update the properties of a [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.|
+|[Update appleUserInitiatedEnrollmentProfile](../api/appleuserinitiatedenrollmentprofile-update.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md)|Update the properties of a [appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) object.|
 |[setPriority](../api/appleuserinitiatedenrollmentprofile-setpriority.md)|None||
-|[List assignments](../api/appleuserinitiatedenrollmentprofile-list-assignments.md)|[appleEnrollmentProfileAssignment](../resources/appleEnrollmentProfileAssignment.md) collection|Get the appleEnrollmentProfileAssignments from the assignments navigation property.|
-|[Add assignments](../api/appleuserinitiatedenrollmentprofile-post-assignments.md)|[appleEnrollmentProfileAssignment](../resources/appleEnrollmentProfileAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List appleUserInitiatedEnrollmentProfiles](../api/intune-devices-devicemanagement-list-appleuserinitiatedenrollmentprofiles.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleUserInitiatedEnrollmentProfile.md) collection|Get the appleUserInitiatedEnrollmentProfiles from the appleUserInitiatedEnrollmentProfiles navigation property.|
-|[Add appleUserInitiatedEnrollmentProfiles](../api/intune-devices-devicemanagement-post-appleuserinitiatedenrollmentprofiles.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleUserInitiatedEnrollmentProfile.md)|Add appleUserInitiatedEnrollmentProfiles by posting to the appleUserInitiatedEnrollmentProfiles collection.|
+|[List assignments](../api/appleuserinitiatedenrollmentprofile-list-assignments.md)|[appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md) collection|Get the appleEnrollmentProfileAssignments from the assignments navigation property.|
+|[Add assignments](../api/appleuserinitiatedenrollmentprofile-post-assignments.md)|[appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md)|Add assignments by posting to the assignments collection.|
+|[List appleUserInitiatedEnrollmentProfiles](../api/intune-devices-devicemanagement-list-appleuserinitiatedenrollmentprofiles.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md) collection|Get the appleUserInitiatedEnrollmentProfiles from the appleUserInitiatedEnrollmentProfiles navigation property.|
+|[Add appleUserInitiatedEnrollmentProfiles](../api/intune-devices-devicemanagement-post-appleuserinitiatedenrollmentprofiles.md)|[appleUserInitiatedEnrollmentProfile](../resources/appleuserinitiatedenrollmentprofile.md)|Add appleUserInitiatedEnrollmentProfiles by posting to the appleUserInitiatedEnrollmentProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|availableEnrollmentTypeOptions|[appleOwnerTypeEnrollmentType](../resources/appleOwnerTypeEnrollmentType.md) collection|List of available enrollment type options|
+|availableEnrollmentTypeOptions|[appleOwnerTypeEnrollmentType](../resources/appleownertypeenrollmenttype.md) collection|List of available enrollment type options|
 |createdDateTime|DateTimeOffset|Profile creation time|
 |defaultEnrollmentType|Enumeration|The default profile enrollment type. Possible values are: `unknown`, `device`, `user`.|
 |description|String|Description of the profile|
@@ -44,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[appleEnrollmentProfileAssignment](../resources/appleEnrollmentProfileAssignment.md) collection|The list of assignments for this profile.|
+|assignments|[appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md) collection|The list of assignments for this profile.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

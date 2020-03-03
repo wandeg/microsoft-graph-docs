@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete resourceOperation
 
+Namespace: microsoft.graph
+
 Deletes a [resourceOperation](../resources/resourceoperation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations/{resourceOperationId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/resourceOperations/{resourceOperationId}
 ```
 
 ### Response

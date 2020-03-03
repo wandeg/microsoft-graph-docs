@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileAppAssignment
 
-Read properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileAppAssignment](../resources/mobileappassignment.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 418
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppAssignment",
-    "id": "61a1efdc-efdc-61a1-dcef-a161dcefa161",
+    "id": "191a6a00-6a00-191a-006a-1a19006a1a19",
     "intent": "String",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # dlpWindowsDevicesNotification resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [dlpNotification](../resources/dlpNotification.md)
+
+
+Inherits from [dlpNotification](../resources/dlpnotification.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|author|String| Inherited from [dlpNotification](../resources/dlpNotification.md)|
+|author|String| Inherited from [dlpNotification](../resources/dlpnotification.md)|
 |contentName|String||
 |lastModfiedBy|String||
 

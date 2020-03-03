@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete targetedManagedAppPolicyAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md).
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
 ```
 
 ### Response

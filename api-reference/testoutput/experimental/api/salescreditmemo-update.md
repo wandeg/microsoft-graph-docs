@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update salesCreditMemo
 
+Namespace: microsoft.graph
+
 Update the properties of a [salesCreditMemo](../resources/salescreditmemo.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/salesCreditMemos/{salesCreditMemoId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [salesCreditMemo](../resources/salesCreditMemo.md) object.
+In the request body, supply a JSON representation for the [salesCreditMemo](../resources/salescreditmemo.md) object.
 
 The following table shows the properties that are required when you create the [salesCreditMemo](../resources/salescreditmemo.md).
 
@@ -52,8 +54,8 @@ The following table shows the properties that are required when you create the [
 |billToName|String||
 |billToCustomerId|Guid||
 |billToCustomerNumber|String||
-|sellingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
-|billingPostalAddress|[postalAddressType](../resources/postalAddressType.md)||
+|sellingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
+|billingPostalAddress|[postalAddressType](../resources/postaladdresstype.md)||
 |currencyId|Guid||
 |currencyCode|String||
 |paymentTermsId|Guid||
@@ -86,7 +88,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/salesCreditMemos/{salesCreditMemoId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/salesCreditMemos/{salesCreditMemoId}
 Content-type: application/json
 Content-length: 1462
 
@@ -96,11 +98,11 @@ Content-length: 1462
   "externalDocumentNumber": "External Document Number value",
   "creditMemoDate": "Date",
   "dueDate": "Date",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "3f40489e-489e-3f40-9e48-403f9e48403f",
+  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
   "billToCustomerNumber": "Bill To Customer Number value",
   "sellingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -113,9 +115,9 @@ Content-length: 1462
   "billingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
   "salesperson": "Salesperson value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -124,7 +126,7 @@ Content-length: 1462
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "invoiceId": "f237e20c-e20c-f237-0ce2-37f20ce237f2",
+  "invoiceId": "26c18131-8131-26c1-3181-c1263181c126",
   "invoiceNumber": "Invoice Number value",
   "phoneNumber": "Phone Number value",
   "email": "Email value"
@@ -145,16 +147,16 @@ Content-Length: 1575
 
 {
   "@odata.type": "#microsoft.graph.salesCreditMemo",
-  "id": "27d1a4ee-a4ee-27d1-eea4-d127eea4d127",
+  "id": "699cbd1d-bd1d-699c-1dbd-9c691dbd9c69",
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "creditMemoDate": "Date",
   "dueDate": "Date",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "3f40489e-489e-3f40-9e48-403f9e48403f",
+  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
   "billToCustomerNumber": "Bill To Customer Number value",
   "sellingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -167,9 +169,9 @@ Content-Length: 1575
   "billingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+  "currencyId": "5323df69-df69-5323-69df-235369df2353",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
+  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
   "salesperson": "Salesperson value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -178,8 +180,8 @@ Content-Length: 1575
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "invoiceId": "f237e20c-e20c-f237-0ce2-37f20ce237f2",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "invoiceId": "26c18131-8131-26c1-3181-c1263181c126",
   "invoiceNumber": "Invoice Number value",
   "phoneNumber": "Phone Number value",
   "email": "Email value"

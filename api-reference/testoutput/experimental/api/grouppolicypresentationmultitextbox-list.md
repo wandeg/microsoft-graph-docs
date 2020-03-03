@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicyPresentationMultiTextBoxes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [groupPolicyPresentationMultiTextBox](../resources/grouppolicypresentationmultitextbox.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationMultiTextBox not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationMultiTextBox not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 339
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyPresentationMultiTextBox",
-      "id": "109fee82-ee82-109f-82ee-9f1082ee9f10",
+      "id": "f4f1b227-b227-f4f1-27b2-f1f427b2f1f4",
       "label": "Label value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "required": true,
       "maxLength": 9,
       "maxStrings": 10

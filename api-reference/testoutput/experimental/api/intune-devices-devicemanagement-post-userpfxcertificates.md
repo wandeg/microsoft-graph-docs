@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userPfxCertificates
 
+Namespace: microsoft.graph
+
 Add userPfxCertificates by posting to the userPfxCertificates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/userPfxCertificates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userPFXCertificate object.
+In the request body, supply a JSON representation for the [userPFXCertificate](../resources/userpfxcertificate.md) object.
 
-The following table shows the properties that are required when you create the userPFXCertificate.
+The following table shows the properties that are required when you create the [userPFXCertificate](../resources/userpfxcertificate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,17 +73,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userPfxCertificates
+POST https://graph.microsoft.com/localtest/deviceManagement/userPfxCertificates
 Content-type: application/json
-Content-length: 514
+Content-length: 515
 
 {
   "@odata.type": "#microsoft.graph.userPFXCertificate",
   "thumbprint": "Thumbprint value",
   "intendedPurpose": "String",
   "userPrincipalName": "User Principal Name value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "providerName": "Provider Name value",
   "keyName": "Key Name value",
   "paddingScheme": "String",
@@ -105,19 +107,19 @@ Content-Length: 686
 
 {
   "@odata.type": "#microsoft.graph.userPFXCertificate",
-  "id": "b41980ea-80ea-b419-ea80-19b4ea8019b4",
+  "id": "56632ff6-2ff6-5663-f62f-6356f62f6356",
   "thumbprint": "Thumbprint value",
   "intendedPurpose": "String",
   "userPrincipalName": "User Principal Name value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "providerName": "Provider Name value",
   "keyName": "Key Name value",
   "paddingScheme": "String",
   "encryptedPfxBlob": "ZW5jcnlwdGVkUGZ4QmxvYg==",
   "encryptedPfxPassword": "Encrypted Pfx Password value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

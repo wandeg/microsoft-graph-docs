@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get agreementAcceptance
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [agreementAcceptance](../resources/agreementacceptance.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/agreementAcceptances/{agreementAcceptancesId}
+GET https://graph.microsoft.com/localtest/agreementAcceptances/{agreementAcceptancesId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 488
 {
   "value": {
     "@odata.type": "#microsoft.graph.agreementAcceptance",
-    "id": "8e86a9a0-a9a0-8e86-a0a9-868ea0a9868e",
+    "id": "2b6dc9c2-c9c2-2b6d-c2c9-6d2bc2c96d2b",
     "agreementId": "Agreement Id value",
     "userId": "User Id value",
     "agreementFileId": "Agreement File Id value",
-    "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00",
+    "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
     "userEmail": "User Email value",

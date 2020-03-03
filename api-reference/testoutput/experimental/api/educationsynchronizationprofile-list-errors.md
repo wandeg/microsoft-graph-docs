@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List errors
 
+Namespace: microsoft.graph
+
 Get the educationSynchronizationErrors from the errors navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors
+GET https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 459
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSynchronizationError",
-      "id": "9497babf-babf-9497-bfba-9794bfba9794",
+      "id": "00e492eb-92eb-00e4-eb92-e400eb92e400",
       "entryType": "Entry Type value",
       "errorCode": "Error Code value",
       "errorMessage": "Error Message value",
       "joiningValue": "Joining Value value",
-      "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00",
+      "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
       "reportableIdentifier": "Reportable Identifier value"
     }
   ]

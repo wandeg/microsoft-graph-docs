@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List scheduledActionConfigurations
 
+Namespace: microsoft.graph
+
 Get the deviceComplianceActionItems from the scheduledActionConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 379
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-      "id": "cc8b5d13-5d13-cc8b-135d-8bcc135d8bcc",
+      "id": "c5a87a92-7a92-c5a8-927a-a8c5927aa8c5",
       "gracePeriodHours": 0,
       "actionType": "String",
       "notificationTemplateId": "Notification Template Id value",

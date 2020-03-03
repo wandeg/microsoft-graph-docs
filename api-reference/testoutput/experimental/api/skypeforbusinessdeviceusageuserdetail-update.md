@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update skypeForBusinessDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail no
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeForBusinessDeviceUsageUserDetail.md) object.
+In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md).
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageUserDetail not found
 Content-type: application/json
 Content-length: 363
 
@@ -99,7 +101,7 @@ Content-Length: 412
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageUserDetail",
-  "id": "e6344f5c-4f5c-e634-5c4f-34e65c4f34e6",
+  "id": "9bcfcf09-cf09-9bcf-09cf-cf9b09cfcf9b",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

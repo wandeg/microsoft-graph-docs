@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List updateRecordingStatusOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.updateRecordingStatusOperation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.updateRecordingStatusOperation not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 403
   "value": [
     {
       "@odata.type": "#microsoft.graph.updateRecordingStatusOperation",
-      "id": "ee013eab-3eab-ee01-ab3e-01eeab3e01ee",
+      "id": "19ce9077-9077-19ce-7790-ce197790ce19",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

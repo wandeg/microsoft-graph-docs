@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete embeddedSIMDeviceState
 
+Namespace: microsoft.graph
+
 Deletes a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates/{embeddedSIMDeviceStateId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/deviceStates/{embeddedSIMDeviceStateId}
 ```
 
 ### Response

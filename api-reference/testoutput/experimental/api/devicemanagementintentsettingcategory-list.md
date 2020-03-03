@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementIntentSettingCategories
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/categories
+GET https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/categories
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 213
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementIntentSettingCategory",
-      "id": "fa7c453b-453b-fa7c-3b45-7cfa3b457cfa",
+      "id": "846bd537-d537-846b-37d5-6b8437d56b84",
       "displayName": "Display Name value"
     }
   ]

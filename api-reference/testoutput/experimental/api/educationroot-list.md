@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List educationRoots
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [educationRoot](../resources/educationroot.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationRoot not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationRoot not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 145
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationRoot",
-      "id": "20a7e921-e921-20a7-21e9-a72021e9a720"
+      "id": "0e7e4d93-4d93-0e7e-934d-7e0e934d7e0e"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365ActivationsUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365ActivationsUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365ActivationsUserDetail](../resources/office365ActivationsUserDetail.md) object.
+In the request body, supply a JSON representation for the [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md).
 
@@ -45,7 +47,7 @@ The following table shows the properties that are required when you create the [
 |reportRefreshDate|Date||
 |userPrincipalName|String||
 |displayName|String||
-|userActivationCounts|[userActivationCounts](../resources/userActivationCounts.md) collection||
+|userActivationCounts|[userActivationCounts](../resources/useractivationcounts.md) collection||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365ActivationsUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365ActivationsUserDetail not found
 Content-type: application/json
 Content-length: 535
 
@@ -101,7 +103,7 @@ Content-Length: 584
 
 {
   "@odata.type": "#microsoft.graph.office365ActivationsUserDetail",
-  "id": "fe7dd89d-d89d-fe7d-9dd8-7dfe9dd87dfe",
+  "id": "6f7e8fa8-8fa8-6f7e-a88f-7e6fa88f7e6f",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

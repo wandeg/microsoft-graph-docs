@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update activityBasedTimeoutPolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH /policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [activityBasedTimeoutPolicy](../resources/activityBasedTimeoutPolicy.md) object.
+In the request body, supply a JSON representation for the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object.
 
 The following table shows the properties that are required when you create the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|description|String| Inherited from [policyBase](../resources/policyBase.md)|
-|displayName|String| Inherited from [policyBase](../resources/policyBase.md)|
-|definition|String collection| Inherited from [stsPolicy](../resources/stsPolicy.md)|
-|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stsPolicy.md)|
+|description|String| Inherited from [policyBase](../resources/policybase.md)|
+|displayName|String| Inherited from [policyBase](../resources/policybase.md)|
+|definition|String collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
+|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
+PATCH https://graph.microsoft.com/localtest/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
 Content-type: application/json
 Content-length: 230
 
@@ -91,7 +93,7 @@ Content-Length: 279
 
 {
   "@odata.type": "#microsoft.graph.activityBasedTimeoutPolicy",
-  "id": "86d5d598-d598-86d5-98d5-d58698d5d586",
+  "id": "e1930949-0949-e193-4909-93e1490993e1",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

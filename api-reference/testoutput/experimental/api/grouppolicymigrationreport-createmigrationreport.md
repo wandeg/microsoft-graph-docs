@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createMigrationReport
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|groupPolicyObjectFile|[groupPolicyObjectFile](../resources/groupPolicyObjectFile.md)||
+|groupPolicyObjectFile|[groupPolicyObjectFile](../resources/grouppolicyobjectfile.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports/createMigrationReport
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports/createMigrationReport
 
 Content-type: application/json
 Content-length: 132

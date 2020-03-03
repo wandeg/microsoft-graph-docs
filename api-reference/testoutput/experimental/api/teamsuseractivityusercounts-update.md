@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsUserActivityUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.teamsUserActivityUserCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsUserActivityUserCounts](../resources/teamsUserActivityUserCounts.md) object.
+In the request body, supply a JSON representation for the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.
 
 The following table shows the properties that are required when you create the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsUserActivityUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsUserActivityUserCounts not found
 Content-type: application/json
 Content-length: 279
 
@@ -97,7 +99,7 @@ Content-Length: 328
 
 {
   "@odata.type": "#microsoft.graph.teamsUserActivityUserCounts",
-  "id": "61d3e319-e319-61d3-19e3-d36119e3d361",
+  "id": "2d3e27c2-27c2-2d3e-c227-3e2dc2273e2d",
   "reportRefreshDate": "Date",
   "reportDate": "Date",
   "teamChatMessages": 0,

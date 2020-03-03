@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete entitlementManagement
 
+Namespace: microsoft.graph
+
 Deletes a [entitlementManagement](../resources/entitlementmanagement.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/entitlementManagement
+DELETE https://graph.microsoft.com/localtest/entitlementManagement
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update openShift
 
+Namespace: microsoft.graph
+
 Update the properties of a [openShift](../resources/openshift.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH /me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [openShift](../resources/openShift.md) object.
+In the request body, supply a JSON representation for the [openShift](../resources/openshift.md) object.
 
 The following table shows the properties that are required when you create the [openShift](../resources/openshift.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|sharedOpenShift|[openShiftItem](../resources/openShiftItem.md)||
-|draftOpenShift|[openShiftItem](../resources/openShiftItem.md)||
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|sharedOpenShift|[openShiftItem](../resources/openshiftitem.md)||
+|draftOpenShift|[openShiftItem](../resources/openshiftitem.md)||
 |schedulingGroupId|String||
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/openShifts/{openShiftId}
 Content-type: application/json
 Content-length: 621
 
@@ -72,8 +74,8 @@ Content-length: 621
   "@odata.type": "#microsoft.graph.openShift",
   "sharedOpenShift": {
     "@odata.type": "microsoft.graph.openShiftItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "notes": "Notes value",
     "activities": [
@@ -102,13 +104,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1166
+Content-Length: 1165
 
 {
   "@odata.type": "#microsoft.graph.openShift",
-  "id": "cf3df069-f069-cf3d-69f0-3dcf69f03dcf",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "91d9b661-b661-91d9-61b6-d99161b6d991",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -125,8 +127,8 @@ Content-Length: 1166
   },
   "sharedOpenShift": {
     "@odata.type": "microsoft.graph.openShiftItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "notes": "Notes value",
     "activities": [

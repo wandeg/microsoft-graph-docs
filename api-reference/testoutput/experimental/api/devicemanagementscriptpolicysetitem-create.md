@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementScriptPolicySetItem
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementScriptPolicySetItem](../resources/devicemanagementscriptpolicysetitem.md) object.
 
 ## Permissions
@@ -36,21 +38,21 @@ POST ** Collection URI for microsoft.graph.deviceManagementScriptPolicySetItem n
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScriptPolicySetItem object.
+In the request body, supply a JSON representation for the [deviceManagementScriptPolicySetItem](../resources/devicemanagementscriptpolicysetitem.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScriptPolicySetItem.
+The following table shows the properties that are required when you create the [deviceManagementScriptPolicySetItem](../resources/devicemanagementscriptpolicysetitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset|Creation time of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|payloadId|String|PayloadId of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|itemType|String|policySetType of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|displayName|String|DisplayName of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|status|Enumeration|Status of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md). Possible values are: `unknown`, `validating`, `partialSuccess`, `success`, `error`, `notAssigned`.|
-|errorCode|Enumeration|Error code if any occured. Inherited from [policySetItem](../resources/policySetItem.md). Possible values are: `noError`, `unauthorized`, `notFound`, `deleted`.|
-|guidedDeploymentTags|String collection|Tags of the guided deployment Inherited from [policySetItem](../resources/policySetItem.md)|
+|createdDateTime|DateTimeOffset|Creation time of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|payloadId|String|PayloadId of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|itemType|String|policySetType of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|displayName|String|DisplayName of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|status|Enumeration|Status of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md). Possible values are: `unknown`, `validating`, `partialSuccess`, `success`, `error`, `notAssigned`.|
+|errorCode|Enumeration|Error code if any occured. Inherited from [policySetItem](../resources/policysetitem.md). Possible values are: `noError`, `unauthorized`, `notFound`, `deleted`.|
+|guidedDeploymentTags|String collection|Tags of the guided deployment Inherited from [policySetItem](../resources/policysetitem.md)|
 
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementScriptPolicySetItem not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementScriptPolicySetItem not found
 Content-type: application/json
 Content-length: 307
 
@@ -95,13 +97,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 479
+Content-Length: 478
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptPolicySetItem",
-  "id": "d861c4c1-c4c1-d861-c1c4-61d8c1c461d8",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "71ec5a55-5a55-71ec-555a-ec71555aec71",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "payloadId": "Payload Id value",
   "itemType": "Item Type value",
   "displayName": "Display Name value",

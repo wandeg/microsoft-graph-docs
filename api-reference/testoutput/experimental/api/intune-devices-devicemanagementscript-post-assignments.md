@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/assign
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementScriptAssignment object.
+In the request body, supply a JSON representation for the [deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementScriptAssignment.
+The following table shows the properties that are required when you create the [deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The Id of the Azure Active Directory group we are targeting the script to.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The Id of the Azure Active Directory group we are targeting the script to.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceManagementScriptAssignment](../resources/devicemanagementscriptassignment.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/assignments
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/assignments
 Content-type: application/json
 Content-length: 172
 
@@ -87,7 +89,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptAssignment",
-  "id": "9d3e8595-8595-9d3e-9585-3e9d95853e9d",
+  "id": "934103d3-03d3-9341-d303-4193d3034193",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

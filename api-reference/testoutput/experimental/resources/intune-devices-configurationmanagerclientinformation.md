@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # configurationManagerClientInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 

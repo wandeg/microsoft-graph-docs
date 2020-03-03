@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsUserActivityUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.teamsUserActivityUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsUserActivityUserDetail](../resources/teamsUserActivityUserDetail.md) object.
+In the request body, supply a JSON representation for the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md).
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsUserActivityUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsUserActivityUserDetail not found
 Content-type: application/json
 Content-length: 469
 
@@ -107,7 +109,7 @@ Content-Length: 518
 
 {
   "@odata.type": "#microsoft.graph.teamsUserActivityUserDetail",
-  "id": "5432c9ef-c9ef-5432-efc9-3254efc93254",
+  "id": "67546f5e-6f5e-6754-5e6f-54675e6f5467",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # bookingAppointment resource type
+
+
+Namespace: microsoft.graph
 
 Represents a booked appointment of a service by a customer in a business.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get bookingAppointment](../api/bookingappointment-get.md)|[bookingAppointment](../resources/bookingAppointment.md)|Read properties and relationships of the [bookingAppointment](../resources/bookingappointment.md) object.|
+|[List bookingAppointments](../api/bookingappointment-list.md)|[bookingAppointment](../resources/bookingappointment.md) collection|List properties and relationships of the [bookingAppointment](../resources/bookingappointment.md) objects.|
+|[Get bookingAppointment](../api/bookingappointment-get.md)|[bookingAppointment](../resources/bookingappointment.md)|Read properties and relationships of the [bookingAppointment](../resources/bookingappointment.md) object.|
+|[Create bookingAppointment](../api/bookingappointment-create.md)|[bookingAppointment](../resources/bookingappointment.md)|Create a new [bookingAppointment](../resources/bookingappointment.md) object.|
 |[Delete bookingAppointment](../api/bookingappointment-delete.md)|None|Deletes a [bookingAppointment](../resources/bookingappointment.md).|
-|[Update bookingAppointment](../api/bookingappointment-update.md)|[bookingAppointment](../resources/bookingAppointment.md)|Update the properties of a [bookingAppointment](../resources/bookingappointment.md) object.|
+|[Update bookingAppointment](../api/bookingappointment-update.md)|[bookingAppointment](../resources/bookingappointment.md)|Update the properties of a [bookingAppointment](../resources/bookingappointment.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,10 +38,10 @@ If CustomerId is not specified when an appointment is created then a new custome
 The value of this property is only available when reading an individual booking appointment by id. Its value can only be set when creating a new appointment with a new customer, ie, without specifying a CustomerId. After that, the property is computed from the customer represented by CustomerId.|
 |customerPhone|String||
 |duration|Duration||
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |invoiceAmount|Double||
-|invoiceDate|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|invoiceDate|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |invoiceId|String||
 |invoiceStatus|Enumeration|. Possible values are: `draft`, `reviewing`, `open`, `canceled`, `paid`, `corrective`.|
 |invoiceUrl|String||
@@ -47,7 +50,7 @@ The value of this property is only available when reading an individual booking 
 |preBuffer|Duration||
 |price|Double||
 |priceType|Enumeration|. Possible values are: `undefined`, `fixedPrice`, `startingAt`, `hourly`, `free`, `priceVaries`, `callUs`, `notSet`.|
-|reminders|[bookingReminder](../resources/bookingReminder.md) collection|The value of this property is only available when reading an individual booking appointment by id.|
+|reminders|[bookingReminder](../resources/bookingreminder.md) collection|The value of this property is only available when reading an individual booking appointment by id.|
 |selfServiceAppointmentId|String||
 |serviceId|String|The id of the booking service associated with this appointment.|
 |serviceLocation|[location](../resources/location.md)||
@@ -55,7 +58,7 @@ The value of this property is only available when reading an individual booking 
 This property is optional when creating a new appointment. If not specified, it is computed from the service associated with the appointment by the service id.|
 |serviceNotes|String|The value of this property is only available when reading an individual booking appointment by id.|
 |staffMemberIds|String collection||
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 ## Relationships
 None

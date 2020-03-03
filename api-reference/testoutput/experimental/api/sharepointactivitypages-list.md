@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sharePointActivityPageses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [sharePointActivityPages](../resources/sharepointactivitypages.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointActivityPages not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointActivityPages not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 296
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharePointActivityPages",
-      "id": "8d696e93-6e93-8d69-936e-698d936e698d",
+      "id": "cd805508-5508-cd80-0855-80cd085580cd",
       "reportRefreshDate": "Date",
       "visitedPageCount": 0,
       "reportDate": "Date",

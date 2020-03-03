@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementIntentDeviceStateSummary resource type
+
+
+Namespace: microsoft.graph
 
 Entity that represents device state summary for an intent
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementIntentDeviceStateSummaries](../api/devicemanagementintentdevicestatesummary-list.md)|[deviceManagementIntentDeviceStateSummary](../resources/deviceManagementIntentDeviceStateSummary.md) collection|List properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) objects.|
-|[Get deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-get.md)|[deviceManagementIntentDeviceStateSummary](../resources/deviceManagementIntentDeviceStateSummary.md)|Read properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
-|[Create deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-create.md)|[deviceManagementIntentDeviceStateSummary](../resources/deviceManagementIntentDeviceStateSummary.md)|Create a new [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
+|[List deviceManagementIntentDeviceStateSummaries](../api/devicemanagementintentdevicestatesummary-list.md)|[deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) collection|List properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) objects.|
+|[Get deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-get.md)|[deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md)|Read properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
+|[Create deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-create.md)|[deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md)|Create a new [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
 |[Delete deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-delete.md)|None|Deletes a [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md).|
-|[Update deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-update.md)|[deviceManagementIntentDeviceStateSummary](../resources/deviceManagementIntentDeviceStateSummary.md)|Update the properties of a [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
+|[Update deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-update.md)|[deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md)|Update the properties of a [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

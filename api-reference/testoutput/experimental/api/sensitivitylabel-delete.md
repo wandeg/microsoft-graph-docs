@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sensitivityLabel
 
+Namespace: microsoft.graph
+
 Deletes a [sensitivityLabel](../resources/sensitivitylabel.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels/{sensitivityLabelId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels/{sensitivityLabelId}
 ```
 
 ### Response

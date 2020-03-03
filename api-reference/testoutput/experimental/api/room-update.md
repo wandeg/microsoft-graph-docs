@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update room
 
+Namespace: microsoft.graph
+
 Update the properties of a [room](../resources/room.md) object.
 
 ## Permissions
@@ -43,9 +45,9 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String| Inherited from [place](../resources/place.md)|
-|geoCoordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)| Inherited from [place](../resources/place.md)|
+|geoCoordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)| Inherited from [place](../resources/place.md)|
 |phone|String| Inherited from [place](../resources/place.md)|
-|address|[physicalAddress](../resources/physicalAddress.md)| Inherited from [place](../resources/place.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)| Inherited from [place](../resources/place.md)|
 |emailAddress|String||
 |nickname|String||
 |building|String||
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.room not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.room not found
 Content-type: application/json
 Content-length: 1134
 
@@ -133,7 +135,7 @@ Content-Length: 1183
 
 {
   "@odata.type": "#microsoft.graph.room",
-  "id": "7331559c-559c-7331-9c55-31739c553173",
+  "id": "51d745b3-45b3-51d7-b345-d751b345d751",
   "displayName": "Display Name value",
   "geoCoordinates": {
     "@odata.type": "microsoft.graph.outlookGeoCoordinates",

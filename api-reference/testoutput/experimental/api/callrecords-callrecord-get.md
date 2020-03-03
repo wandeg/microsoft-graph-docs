@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get callRecord
 
-Read properties and relationships of the [callRecord](../resources/callrecord.md) object.
+Namespace: microsoft.graph.callRecords
+
+Read properties and relationships of the [callRecord](../resources/callrecords-callrecord.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [callRecord](../resources/callrecord.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [callRecord](../resources/callrecords-callrecord.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/callRecords/{callRecordId}
+GET https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}
 ```
 
 ### Response
@@ -72,15 +74,15 @@ Content-Length: 958
 {
   "value": {
     "@odata.type": "#microsoft.graph.callRecords.callRecord",
-    "id": "81ba513a-513a-81ba-3a51-ba813a51ba81",
+    "id": "319f7649-7649-319f-4976-9f3149769f31",
     "version": 7,
     "type": "String",
     "modalities": [
       "String"
     ],
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "organizer": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

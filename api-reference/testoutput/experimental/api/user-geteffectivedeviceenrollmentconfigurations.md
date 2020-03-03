@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getEffectiveDeviceEnrollmentConfigurations
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getEffectiveDeviceEnroll
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/getEffectiveDeviceEnrollmentConfigurations
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/getEffectiveDeviceEnrollmentConfigurations
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 422
+Content-Length: 421
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-      "id": "7e70c6b2-c6b2-7e70-b2c6-707eb2c6707e",
+      "id": "27567019-7019-2756-1970-562719705627",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "version": 7
     }
   ]

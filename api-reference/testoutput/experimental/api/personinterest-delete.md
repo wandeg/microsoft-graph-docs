@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete personInterest
 
+Namespace: microsoft.graph
+
 Deletes a [personInterest](../resources/personinterest.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/interests/{personInterestId}
+DELETE https://graph.microsoft.com/localtest/me/profile/interests/{personInterestId}
 ```
 
 ### Response

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # errorDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|details|[innerErrorDetail](../resources/innerErrorDetail.md) collection||
+|details|[innerErrorDetail](../resources/innererrordetail.md) collection||
 |errorCode|String||
 |message|String||
 

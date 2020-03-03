@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create commsApplication
 
+Namespace: microsoft.graph
+
 Create a new [commsApplication](../resources/commsapplication.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.commsApplication not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the commsApplication object.
+In the request body, supply a JSON representation for the [commsApplication](../resources/commsapplication.md) object.
 
-The following table shows the properties that are required when you create the commsApplication.
+The following table shows the properties that are required when you create the [commsApplication](../resources/commsapplication.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.commsApplication not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.commsApplication not found
 Content-type: application/json
 Content-length: 58
 
@@ -83,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.commsApplication",
-  "id": "a27c58da-58da-a27c-da58-7ca2da587ca2"
+  "id": "7eb0e620-e620-7eb0-20e6-b07e20e6b07e"
 }
 ```
 

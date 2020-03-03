@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete agedAccountsReceivable
 
+Namespace: microsoft.graph
+
 Deletes a [agedAccountsReceivable](../resources/agedaccountsreceivable.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/agedAccountsReceivable/{agedAccountsReceivableId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/agedAccountsReceivable/{agedAccountsReceivableId}
 ```
 
 ### Response

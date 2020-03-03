@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List keySets
 
+Namespace: microsoft.graph
+
 Get the trustFrameworkKeySets from the keySets navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/trustFramework/keySets
+GET https://graph.microsoft.com/localtest/trustFramework/keySets
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 737
   "value": [
     {
       "@odata.type": "#microsoft.graph.trustFrameworkKeySet",
-      "id": "78bf56b0-56b0-78bf-b056-bf78b056bf78",
+      "id": "cf54918e-918e-cf54-8e91-54cf8e9154cf",
       "keys": [
         {
           "@odata.type": "microsoft.graph.trustFrameworkKey",

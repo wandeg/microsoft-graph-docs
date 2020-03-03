@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # rubricLevel resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|[educationItemBody](../resources/educationItemBody.md)||
+|description|[educationItemBody](../resources/educationitembody.md)||
 |displayName|String||
-|grading|[educationAssignmentGradeType](../resources/educationAssignmentGradeType.md)||
+|grading|[educationAssignmentGradeType](../resources/educationassignmentgradetype.md)||
 |levelId|String||
 
 ## Relationships

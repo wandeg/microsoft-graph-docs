@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # azureADLicenseUsage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,17 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List azureADLicenseUsages](../api/azureadlicenseusage-list.md)|[azureADLicenseUsage](../resources/azureADLicenseUsage.md) collection|List properties and relationships of the [azureADLicenseUsage](../resources/azureadlicenseusage.md) objects.|
-|[Get azureADLicenseUsage](../api/azureadlicenseusage-get.md)|[azureADLicenseUsage](../resources/azureADLicenseUsage.md)|Read properties and relationships of the [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
-|[Create azureADLicenseUsage](../api/azureadlicenseusage-create.md)|[azureADLicenseUsage](../resources/azureADLicenseUsage.md)|Create a new [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
+|[List azureADLicenseUsages](../api/azureadlicenseusage-list.md)|[azureADLicenseUsage](../resources/azureadlicenseusage.md) collection|List properties and relationships of the [azureADLicenseUsage](../resources/azureadlicenseusage.md) objects.|
+|[Get azureADLicenseUsage](../api/azureadlicenseusage-get.md)|[azureADLicenseUsage](../resources/azureadlicenseusage.md)|Read properties and relationships of the [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
+|[Create azureADLicenseUsage](../api/azureadlicenseusage-create.md)|[azureADLicenseUsage](../resources/azureadlicenseusage.md)|Create a new [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
 |[Delete azureADLicenseUsage](../api/azureadlicenseusage-delete.md)|None|Deletes a [azureADLicenseUsage](../resources/azureadlicenseusage.md).|
-|[Update azureADLicenseUsage](../api/azureadlicenseusage-update.md)|[azureADLicenseUsage](../resources/azureADLicenseUsage.md)|Update the properties of a [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
+|[Update azureADLicenseUsage](../api/azureadlicenseusage-update.md)|[azureADLicenseUsage](../resources/azureadlicenseusage.md)|Update the properties of a [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|licenseInfoDetails|[licenseInfoDetail](../resources/licenseInfoDetail.md) collection||
+|licenseInfoDetails|[licenseInfoDetail](../resources/licenseinfodetail.md) collection||
 |snapshotDateTime|DateTimeOffset||
 
 ## Relationships

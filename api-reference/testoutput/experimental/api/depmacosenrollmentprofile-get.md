@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get depMacOSEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 1396
 {
   "value": {
     "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
-    "id": "4bea4c9f-4c9f-4bea-9f4c-ea4b9f4cea4b",
+    "id": "5fb77ee5-7ee5-5fb7-e57e-b75fe57eb75f",
     "displayName": "Display Name value",
     "description": "Description value",
     "requiresUserAuthentication": true,

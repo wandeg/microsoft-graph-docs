@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create office365ActivationsUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [office365ActivationsUserCounts](../resources/office365activationsusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.office365ActivationsUserCounts not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the office365ActivationsUserCounts object.
+In the request body, supply a JSON representation for the [office365ActivationsUserCounts](../resources/office365activationsusercounts.md) object.
 
-The following table shows the properties that are required when you create the office365ActivationsUserCounts.
+The following table shows the properties that are required when you create the [office365ActivationsUserCounts](../resources/office365activationsusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActivationsUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActivationsUserCounts not found
 Content-type: application/json
 Content-length: 215
 
@@ -93,7 +95,7 @@ Content-Length: 264
 
 {
   "@odata.type": "#microsoft.graph.office365ActivationsUserCounts",
-  "id": "c02875be-75be-c028-be75-28c0be7528c0",
+  "id": "ef8be27a-e27a-ef8b-7ae2-8bef7ae28bef",
   "reportRefreshDate": "Date",
   "productType": "Product Type value",
   "assigned": 8,

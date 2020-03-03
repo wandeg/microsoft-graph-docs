@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List policies
 
+Namespace: microsoft.graph
+
 Get the trustFrameworkPolicies from the policies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/trustFramework/policies
+GET https://graph.microsoft.com/localtest/trustFramework/policies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 152
   "value": [
     {
       "@odata.type": "#microsoft.graph.trustFrameworkPolicy",
-      "id": "b830d8fd-d8fd-b830-fdd8-30b8fdd830b8"
+      "id": "8a174fa8-4fa8-8a17-a84f-178aa84f178a"
     }
   ]
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsInformationProtectionProxiedDomainCollection resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Display name|
-|proxiedDomains|[proxiedDomain](../resources/proxiedDomain.md) collection|Collection of proxied domains|
+|proxiedDomains|[proxiedDomain](../resources/proxieddomain.md) collection|Collection of proxied domains|
 
 ## Relationships
 None

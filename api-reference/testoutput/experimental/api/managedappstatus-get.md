@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppStatus
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppStatus](../resources/managedappstatus.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedAppStatuses/{managedAppStatusId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedAppStatuses/{managedAppStatusId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 205
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppStatus",
-    "id": "32a422c7-22c7-32a4-c722-a432c722a432",
+    "id": "40a169b7-69b7-40a1-b769-a140b769a140",
     "displayName": "Display Name value",
     "version": "Version value"
   }

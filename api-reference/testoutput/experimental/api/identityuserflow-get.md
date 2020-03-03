@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get identityUserFlow
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [identityUserFlow](../resources/identityuserflow.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identity/userFlows/{identityUserFlowId}
+GET https://graph.microsoft.com/localtest/identity/userFlows/{identityUserFlowId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 199
 {
   "value": {
     "@odata.type": "#microsoft.graph.identityUserFlow",
-    "id": "6cb5af95-af95-6cb5-95af-b56c95afb56c",
+    "id": "e6b36136-6136-e6b3-3661-b3e63661b3e6",
     "userFlowType": "String",
     "userFlowTypeVersion": "Single"
   }

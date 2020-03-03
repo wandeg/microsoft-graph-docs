@@ -5,28 +5,31 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # outlookTask resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [outlookItem](../resources/outlookItem.md)
+
+
+Inherits from [outlookItem](../resources/outlookitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get outlookTask](../api/outlooktask-get.md)|[outlookTask](../resources/outlookTask.md)|Read properties and relationships of the [outlookTask](../resources/outlooktask.md) object.|
+|[List outlookTasks](../api/outlooktask-list.md)|[outlookTask](../resources/outlooktask.md) collection|List properties and relationships of the [outlookTask](../resources/outlooktask.md) objects.|
+|[Get outlookTask](../api/outlooktask-get.md)|[outlookTask](../resources/outlooktask.md)|Read properties and relationships of the [outlookTask](../resources/outlooktask.md) object.|
+|[Create outlookTask](../api/outlooktask-create.md)|[outlookTask](../resources/outlooktask.md)|Create a new [outlookTask](../resources/outlooktask.md) object.|
 |[Delete outlookTask](../api/outlooktask-delete.md)|None|Deletes a [outlookTask](../resources/outlooktask.md).|
-|[Update outlookTask](../api/outlooktask-update.md)|[outlookTask](../resources/outlookTask.md)|Update the properties of a [outlookTask](../resources/outlooktask.md) object.|
-|[complete](../api/outlooktask-complete.md)|[outlookTask](../resources/outlookTask.md) collection||
-|[List singleValueExtendedProperties](../api/outlooktask-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/outlooktask-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/outlooktask-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/outlooktask-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[Update outlookTask](../api/outlooktask-update.md)|[outlookTask](../resources/outlooktask.md)|Update the properties of a [outlookTask](../resources/outlooktask.md) object.|
+|[complete](../api/outlooktask-complete.md)|[outlookTask](../resources/outlooktask.md) collection||
+|[List singleValueExtendedProperties](../api/outlooktask-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/outlooktask-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/outlooktask-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/outlooktask-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
 |[List attachments](../api/outlooktask-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
 |[Add attachments](../api/outlooktask-post-attachments.md)|[attachment](../resources/attachment.md)|Add attachments by posting to the attachments collection.|
 
@@ -34,23 +37,23 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |assignedTo|String||
-|body|[itemBody](../resources/itemBody.md)||
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|completedDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|dueDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|body|[itemBody](../resources/itembody.md)||
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|completedDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|dueDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |hasAttachments|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |isReminderOn|Boolean||
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |owner|String||
 |parentFolderId|String||
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
-|reminderDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
+|reminderDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |sensitivity|Enumeration|. Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|startDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |status|Enumeration|. Possible values are: `notStarted`, `inProgress`, `completed`, `waitingOnOthers`, `deferred`.|
 |subject|String||
 
@@ -58,8 +61,8 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |Relationship|Type|Description|
 |:---|:---|:---|
 |attachments|[attachment](../resources/attachment.md) collection||
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection||
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection||
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

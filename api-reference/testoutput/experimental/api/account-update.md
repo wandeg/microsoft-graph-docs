@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update account
 
+Namespace: microsoft.graph
+
 Update the properties of a [account](../resources/account.md) object.
 
 ## Permissions
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/accounts/{accountId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/accounts/{accountId}
 Content-type: application/json
 Content-length: 211
 
@@ -101,13 +103,13 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.account",
-  "id": "d1679b19-9b19-d167-199b-67d1199b67d1",
+  "id": "93c62e25-2e25-93c6-252e-c693252ec693",
   "number": "Number value",
   "displayName": "Display Name value",
   "category": "Category value",
   "subCategory": "Sub Category value",
   "blocked": true,
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

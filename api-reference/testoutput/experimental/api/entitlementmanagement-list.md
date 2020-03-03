@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List entitlementManagements
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [entitlementManagement](../resources/entitlementmanagement.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.entitlementManagement not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.entitlementManagement not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 153
   "value": [
     {
       "@odata.type": "#microsoft.graph.entitlementManagement",
-      "id": "7ba32793-2793-7ba3-9327-a37b9327a37b"
+      "id": "b9651e9f-1e9f-b965-9f1e-65b99f1e65b9"
     }
   ]
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookRangeSort resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookRangeSorts](../api/workbookrangesort-list.md)|[workbookRangeSort](../resources/workbookRangeSort.md) collection|List properties and relationships of the [workbookRangeSort](../resources/workbookrangesort.md) objects.|
-|[Get workbookRangeSort](../api/workbookrangesort-get.md)|[workbookRangeSort](../resources/workbookRangeSort.md)|Read properties and relationships of the [workbookRangeSort](../resources/workbookrangesort.md) object.|
-|[Create workbookRangeSort](../api/workbookrangesort-create.md)|[workbookRangeSort](../resources/workbookRangeSort.md)|Create a new [workbookRangeSort](../resources/workbookrangesort.md) object.|
+|[List workbookRangeSorts](../api/workbookrangesort-list.md)|[workbookRangeSort](../resources/workbookrangesort.md) collection|List properties and relationships of the [workbookRangeSort](../resources/workbookrangesort.md) objects.|
+|[Get workbookRangeSort](../api/workbookrangesort-get.md)|[workbookRangeSort](../resources/workbookrangesort.md)|Read properties and relationships of the [workbookRangeSort](../resources/workbookrangesort.md) object.|
+|[Create workbookRangeSort](../api/workbookrangesort-create.md)|[workbookRangeSort](../resources/workbookrangesort.md)|Create a new [workbookRangeSort](../resources/workbookrangesort.md) object.|
 |[Delete workbookRangeSort](../api/workbookrangesort-delete.md)|None|Deletes a [workbookRangeSort](../resources/workbookrangesort.md).|
-|[Update workbookRangeSort](../api/workbookrangesort-update.md)|[workbookRangeSort](../resources/workbookRangeSort.md)|Update the properties of a [workbookRangeSort](../resources/workbookrangesort.md) object.|
+|[Update workbookRangeSort](../api/workbookrangesort-update.md)|[workbookRangeSort](../resources/workbookrangesort.md)|Update the properties of a [workbookRangeSort](../resources/workbookrangesort.md) object.|
 
 ## Properties
 |Property|Type|Description|

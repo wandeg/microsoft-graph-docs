@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update lookupResultRow
 
+Namespace: microsoft.graph
+
 Update the properties of a [lookupResultRow](../resources/lookupresultrow.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.lookupResultRow not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [lookupResultRow](../resources/lookupResultRow.md) object.
+In the request body, supply a JSON representation for the [lookupResultRow](../resources/lookupresultrow.md) object.
 
 The following table shows the properties that are required when you create the [lookupResultRow](../resources/lookupresultrow.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.lookupResultRow not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.lookupResultRow not found
 Content-type: application/json
 Content-length: 80
 
@@ -83,7 +85,7 @@ Content-Length: 129
 
 {
   "@odata.type": "#microsoft.graph.lookupResultRow",
-  "id": "6cfc5585-5585-6cfc-8555-fc6c8555fc6c",
+  "id": "bacdab0b-ab0b-bacd-0bab-cdba0babcdba",
   "row": "Row value"
 }
 ```

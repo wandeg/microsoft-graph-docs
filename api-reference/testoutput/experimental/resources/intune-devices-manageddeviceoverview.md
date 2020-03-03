@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDeviceOverview resource type
+
+
+Namespace: microsoft.graph
 
 Summary data for managed devices
 
@@ -19,22 +20,22 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedDeviceOverviews](../api/intune-devices-manageddeviceoverview-list.md)|[managedDeviceOverview](../resources/intune-devices-managedDeviceOverview.md) collection|List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.|
-|[Get managedDeviceOverview](../api/intune-devices-manageddeviceoverview-get.md)|[managedDeviceOverview](../resources/intune-devices-managedDeviceOverview.md)|Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
-|[Create managedDeviceOverview](../api/intune-devices-manageddeviceoverview-create.md)|[managedDeviceOverview](../resources/intune-devices-managedDeviceOverview.md)|Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
-|[Delete managedDeviceOverview](../api/intune-devices-manageddeviceoverview-delete.md)|None|Deletes a [managedDeviceOverview](../resources/manageddeviceoverview.md).|
-|[Update managedDeviceOverview](../api/intune-devices-manageddeviceoverview-update.md)|[managedDeviceOverview](../resources/intune-devices-managedDeviceOverview.md)|Update the properties of a [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
+|[List managedDeviceOverviews](../api/intune-devices-manageddeviceoverview-list.md)|[managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) collection|List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.|
+|[Get managedDeviceOverview](../api/intune-devices-manageddeviceoverview-get.md)|[managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md)|Read properties and relationships of the [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.|
+|[Create managedDeviceOverview](../api/intune-devices-manageddeviceoverview-create.md)|[managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md)|Create a new [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.|
+|[Delete managedDeviceOverview](../api/intune-devices-manageddeviceoverview-delete.md)|None|Deletes a [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md).|
+|[Update managedDeviceOverview](../api/intune-devices-manageddeviceoverview-update.md)|[managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md)|Update the properties of a [managedDeviceOverview](../resources/intune-devices-manageddeviceoverview.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/intune-devices-deviceExchangeAccessStateSummary.md)|Distribution of Exchange Access State in Intune|
-|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/intune-devices-deviceOperatingSystemSummary.md)|Device operating system summary.|
+|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/intune-devices-deviceexchangeaccessstatesummary.md)|Distribution of Exchange Access State in Intune|
+|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/intune-devices-deviceoperatingsystemsummary.md)|Device operating system summary.|
 |dualEnrolledDeviceCount|Int32|The number of devices enrolled in both MDM and EAS|
 |enrolledDeviceCount|Int32|Total enrolled device count. Does not include PC devices managed via Intune PC Agent|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Last modified date time of device overview|
-|managedDeviceModelsAndManufacturers|[managedDeviceModelsAndManufacturers](../resources/intune-devices-managedDeviceModelsAndManufacturers.md)|Models and Manufactures meatadata for managed devices in the account|
+|managedDeviceModelsAndManufacturers|[managedDeviceModelsAndManufacturers](../resources/intune-devices-manageddevicemodelsandmanufacturers.md)|Models and Manufactures meatadata for managed devices in the account|
 |mdmEnrolledCount|Int32|The number of devices enrolled in MDM|
 
 ## Relationships

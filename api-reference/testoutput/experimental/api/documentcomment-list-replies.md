@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List replies
 
+Namespace: microsoft.graph
+
 Get the documentCommentReplies from the replies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}/replies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 187
   "value": [
     {
       "@odata.type": "#microsoft.graph.documentCommentReply",
-      "id": "9163fc2b-fc2b-9163-2bfc-63912bfc6391",
+      "id": "9a2f5493-5493-9a2f-9354-2f9a93542f9a",
       "content": "Content value"
     }
   ]

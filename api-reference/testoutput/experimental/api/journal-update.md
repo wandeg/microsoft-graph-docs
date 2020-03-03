@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update journal
 
+Namespace: microsoft.graph
+
 Update the properties of a [journal](../resources/journal.md) object.
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/journals/{journalId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/journals/{journalId}
 Content-type: application/json
 Content-length: 242
 
@@ -71,7 +73,7 @@ Content-length: 242
   "@odata.type": "#microsoft.graph.journal",
   "code": "Code value",
   "displayName": "Display Name value",
-  "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```
@@ -90,11 +92,11 @@ Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.journal",
-  "id": "f0802d7a-2d7a-f080-7a2d-80f07a2d80f0",
+  "id": "81513f0e-3f0e-8151-0e3f-51810e3f5181",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```

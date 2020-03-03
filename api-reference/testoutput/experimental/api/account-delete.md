@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete account
 
+Namespace: microsoft.graph
+
 Deletes a [account](../resources/account.md).
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/accounts/{accountId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/accounts/{accountId}
 ```
 
 ### Response

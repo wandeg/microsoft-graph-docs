@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # delegatedPermissionClassification resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List delegatedPermissionClassifications](../api/delegatedpermissionclassification-list.md)|[delegatedPermissionClassification](../resources/delegatedPermissionClassification.md) collection|List properties and relationships of the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) objects.|
-|[Get delegatedPermissionClassification](../api/delegatedpermissionclassification-get.md)|[delegatedPermissionClassification](../resources/delegatedPermissionClassification.md)|Read properties and relationships of the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
-|[Create delegatedPermissionClassification](../api/delegatedpermissionclassification-create.md)|[delegatedPermissionClassification](../resources/delegatedPermissionClassification.md)|Create a new [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
+|[List delegatedPermissionClassifications](../api/delegatedpermissionclassification-list.md)|[delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) collection|List properties and relationships of the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) objects.|
+|[Get delegatedPermissionClassification](../api/delegatedpermissionclassification-get.md)|[delegatedPermissionClassification](../resources/delegatedpermissionclassification.md)|Read properties and relationships of the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
+|[Create delegatedPermissionClassification](../api/delegatedpermissionclassification-create.md)|[delegatedPermissionClassification](../resources/delegatedpermissionclassification.md)|Create a new [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
 |[Delete delegatedPermissionClassification](../api/delegatedpermissionclassification-delete.md)|None|Deletes a [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md).|
-|[Update delegatedPermissionClassification](../api/delegatedpermissionclassification-update.md)|[delegatedPermissionClassification](../resources/delegatedPermissionClassification.md)|Update the properties of a [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
+|[Update delegatedPermissionClassification](../api/delegatedpermissionclassification-update.md)|[delegatedPermissionClassification](../resources/delegatedpermissionclassification.md)|Update the properties of a [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.|
 
 ## Properties
 |Property|Type|Description|

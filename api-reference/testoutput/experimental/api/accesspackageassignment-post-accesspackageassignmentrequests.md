@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageAssignmentRequests
 
+Namespace: microsoft.graph
+
 Add accessPackageAssignmentRequests by posting to the accessPackageAssignmentRequests collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /identityGovernance/entitlementManagement/accessPackageAssignments/{accessP
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageAssignmentRequest object.
+In the request body, supply a JSON representation for the [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md) object.
 
-The following table shows the properties that are required when you create the accessPackageAssignmentRequest.
+The following table shows the properties that are required when you create the [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageAssignments/{accessPackageAssignmentsId}/accessPackageAssignmentRequests
+POST https://graph.microsoft.com/localtest/accessPackageAssignments/{accessPackageAssignmentsId}/accessPackageAssignmentRequests
 Content-type: application/json
-Content-length: 388
+Content-length: 389
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentRequest",
@@ -78,8 +80,8 @@ Content-length: 388
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "isValidationOnly": true,
-  "completedDate": "2017-01-01T00:00:05.4735484+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "completedDate": "2016-12-31T23:57:08.7151202+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "justification": "Justification value"
 }
 ```
@@ -99,14 +101,14 @@ Content-Length: 496
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentRequest",
-  "id": "2806e1a8-e1a8-2806-a8e1-0628a8e10628",
+  "id": "bf55d753-d753-bf55-53d7-55bf53d755bf",
   "requestType": "Request Type value",
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "isValidationOnly": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "completedDate": "2017-01-01T00:00:05.4735484+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "completedDate": "2016-12-31T23:57:08.7151202+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "justification": "Justification value"
 }
 ```

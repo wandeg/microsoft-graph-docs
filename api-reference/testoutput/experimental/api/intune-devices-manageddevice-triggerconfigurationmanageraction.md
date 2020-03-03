@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # triggerConfigurationManagerAction
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,7 +46,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|configurationManagerAction|[configurationManagerAction](../resources/intune-devices-configurationManagerAction.md)||
+|configurationManagerAction|[configurationManagerAction](../resources/intune-devices-configurationmanageraction.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/triggerConfigurationManagerAction
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/triggerConfigurationManagerAction
 
 Content-type: application/json
 Content-length: 134

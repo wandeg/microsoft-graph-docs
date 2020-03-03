@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartTitle
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartTitle](../resources/workbookcharttitle.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartTitle not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartTitle object.
+In the request body, supply a JSON representation for the [workbookChartTitle](../resources/workbookcharttitle.md) object.
 
-The following table shows the properties that are required when you create the workbookChartTitle.
+The following table shows the properties that are required when you create the [workbookChartTitle](../resources/workbookcharttitle.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartTitle not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartTitle not found
 Content-type: application/json
 Content-length: 125
 
@@ -89,7 +91,7 @@ Content-Length: 174
 
 {
   "@odata.type": "#microsoft.graph.workbookChartTitle",
-  "id": "2b369c2d-9c2d-2b36-2d9c-362b2d9c362b",
+  "id": "d61ff435-f435-d61f-35f4-1fd635f41fd6",
   "overlay": true,
   "text": "Text value",
   "visible": true

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update entitlementManagement
 
+Namespace: microsoft.graph
+
 Update the properties of a [entitlementManagement](../resources/entitlementmanagement.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /identityGovernance/entitlementManagement
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [entitlementManagement](../resources/entitlementManagement.md) object.
+In the request body, supply a JSON representation for the [entitlementManagement](../resources/entitlementmanagement.md) object.
 
 The following table shows the properties that are required when you create the [entitlementManagement](../resources/entitlementmanagement.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/entitlementManagement
+PATCH https://graph.microsoft.com/localtest/entitlementManagement
 Content-type: application/json
 Content-length: 63
 
@@ -82,7 +84,7 @@ Content-Length: 112
 
 {
   "@odata.type": "#microsoft.graph.entitlementManagement",
-  "id": "7ba32793-2793-7ba3-9327-a37b9327a37b"
+  "id": "b9651e9f-1e9f-b965-9f1e-65b99f1e65b9"
 }
 ```
 

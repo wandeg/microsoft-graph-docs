@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List macOSMicrosoftEdgeApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [macOSMicrosoftEdgeApp](../resources/macosmicrosoftedgeapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.macOSMicrosoftEdgeApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.macOSMicrosoftEdgeApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1049
+Content-Length: 1048
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.macOSMicrosoftEdgeApp",
-      "id": "d144f6e2-f6e2-d144-e2f6-44d1e2f644d1",
+      "id": "04860d69-0d69-0486-690d-8604690d8604",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1049
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add settings
 
+Namespace: microsoft.graph
+
 Add settings by posting to the settings collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceMana
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementSettingInstance object.
+In the request body, supply a JSON representation for the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementSettingInstance.
+The following table shows the properties that are required when you create the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}/settings
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}/settings
 Content-type: application/json
 Content-length: 151
 
@@ -87,7 +89,7 @@ Content-Length: 200
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-  "id": "74fed0f8-d0f8-74fe-f8d0-fe74f8d0fe74",
+  "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value"
 }

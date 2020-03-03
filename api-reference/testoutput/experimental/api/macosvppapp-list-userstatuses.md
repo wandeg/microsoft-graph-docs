@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStatuses
 
+Namespace: microsoft.graph
+
 Get the userAppInstallStatuses from the userStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 349
   "value": [
     {
       "@odata.type": "#microsoft.graph.userAppInstallStatus",
-      "id": "059349d6-49d6-0593-d649-9305d6499305",
+      "id": "546e56cb-56cb-546e-cb56-6e54cb566e54",
       "userName": "User Name value",
       "userPrincipalName": "User Principal Name value",
       "installedDeviceCount": 4,

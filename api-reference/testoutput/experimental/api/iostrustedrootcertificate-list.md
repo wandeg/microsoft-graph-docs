@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosTrustedRootCertificates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosTrustedRootCertificate](../resources/iostrustedrootcertificate.md) objects.
 
 ## Permissions
@@ -63,14 +65,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1324
+Content-Length: 1323
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosTrustedRootCertificate",
-      "id": "b2b9a4a1-a4a1-b2b9-a1a4-b9b2a1a4b9b2",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "a0386e48-6e48-a038-486e-38a0486e38a0",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -92,7 +94,7 @@ Content-Length: 1324
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

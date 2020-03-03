@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationState
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/managedDevices/{managedDeviceId}/deviceConfigurationStates/{deviceConf
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationState](../resources/deviceConfigurationState.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationState](../resources/deviceconfigurationstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settingStates|[deviceConfigurationSettingState](../resources/deviceConfigurationSettingState.md) collection||
+|settingStates|[deviceConfigurationSettingState](../resources/deviceconfigurationsettingstate.md) collection||
 |displayName|String|The name of the policy for this policyBase|
 |version|Int32|The version of the policy|
 |platformType|Enumeration|Platform type that the policy applies to. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceConfigurationStates/{deviceConfigurationStateId}
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceConfigurationStates/{deviceConfigurationStateId}
 Content-type: application/json
 Content-length: 1039
 
@@ -119,7 +121,7 @@ Content-Length: 1088
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationState",
-  "id": "5a7795f3-95f3-5a77-f395-775af395775a",
+  "id": "333149cd-49cd-3331-cd49-3133cd493133",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

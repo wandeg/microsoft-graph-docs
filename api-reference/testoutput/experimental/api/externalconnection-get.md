@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get externalConnection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [externalConnection](../resources/externalconnection.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/connections/{connectionsId}
+GET https://graph.microsoft.com/localtest/connections/{connectionsId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 356
 {
   "value": {
     "@odata.type": "#microsoft.graph.externalConnection",
-    "id": "1cc90bb3-0bb3-1cc9-b30b-c91cb30bc91c",
+    "id": "1e85e39c-e39c-1e85-9ce3-851e9ce3851e",
     "name": "Name value",
     "description": "Description value",
     "configuration": {

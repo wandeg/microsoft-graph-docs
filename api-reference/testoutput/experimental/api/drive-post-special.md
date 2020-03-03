@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add special
 
+Namespace: microsoft.graph
+
 Add special by posting to the special collection.
 
 ## Permissions
@@ -37,43 +39,43 @@ POST /me/joinedGroups/{groupId}/drive/special/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the driveItem object.
+In the request body, supply a JSON representation for the [driveItem](../resources/driveitem.md) object.
 
-The following table shows the properties that are required when you create the driveItem.
+The following table shows the properties that are required when you create the [driveItem](../resources/driveitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 |audio|[audio](../resources/audio.md)||
 |bundle|[bundle](../resources/bundle.md)||
 |content|Stream||
 |cTag|String||
 |deleted|[deleted](../resources/deleted.md)||
 |file|[file](../resources/file.md)||
-|fileSystemInfo|[fileSystemInfo](../resources/fileSystemInfo.md)||
+|fileSystemInfo|[fileSystemInfo](../resources/filesysteminfo.md)||
 |folder|[folder](../resources/folder.md)||
 |image|[image](../resources/image.md)||
-|location|[geoCoordinates](../resources/geoCoordinates.md)||
+|location|[geoCoordinates](../resources/geocoordinates.md)||
 |package|[package](../resources/package.md)||
-|pendingOperations|[pendingOperations](../resources/pendingOperations.md)||
+|pendingOperations|[pendingOperations](../resources/pendingoperations.md)||
 |photo|[photo](../resources/photo.md)||
-|publication|[publicationFacet](../resources/publicationFacet.md)||
-|remoteItem|[remoteItem](../resources/remoteItem.md)||
+|publication|[publicationFacet](../resources/publicationfacet.md)||
+|remoteItem|[remoteItem](../resources/remoteitem.md)||
 |root|[root](../resources/root.md)||
-|searchResult|[searchResult](../resources/searchResult.md)||
+|searchResult|[searchResult](../resources/searchresult.md)||
 |shared|[shared](../resources/shared.md)||
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
 |size|Int64||
-|specialFolder|[specialFolder](../resources/specialFolder.md)||
+|specialFolder|[specialFolder](../resources/specialfolder.md)||
 |video|[video](../resources/video.md)||
 |webDavUrl|String||
 
@@ -92,7 +94,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/drives/{drivesId}/special
+POST https://graph.microsoft.com/localtest/drives/{drivesId}/special
 Content-type: application/json
 Content-length: 5211
 
@@ -180,7 +182,7 @@ Content-length: 5211
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2016-12-31T23:58:32.4321059+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -210,7 +212,7 @@ Content-length: 5211
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2017-01-01T00:01:12.8268956+03:00"
+      "queuedDateTime": "2016-12-31T23:59:45.8885405+03:00"
     }
   },
   "photo": {
@@ -223,7 +225,7 @@ Content-length: 5211
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2016-12-31T23:57:12.7398246+03:00"
+    "takenDateTime": "2016-12-31T23:59:08.8860013+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -241,7 +243,7 @@ Content-length: 5211
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2016-12-31T23:59:25.6718097+03:00"
+      "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00"
     },
     "size": 4,
     "specialFolder": {
@@ -291,11 +293,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 5462
+Content-Length: 5461
 
 {
   "@odata.type": "#microsoft.graph.driveItem",
-  "id": "6a01ecb2-ecb2-6a01-b2ec-016ab2ec016a",
+  "id": "8464c8ba-c8ba-8464-bac8-6484bac86484",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -310,13 +312,13 @@ Content-Length: 5462
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",
@@ -383,7 +385,7 @@ Content-Length: 5462
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2016-12-31T23:58:32.4321059+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -413,7 +415,7 @@ Content-Length: 5462
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2017-01-01T00:01:12.8268956+03:00"
+      "queuedDateTime": "2016-12-31T23:59:45.8885405+03:00"
     }
   },
   "photo": {
@@ -426,7 +428,7 @@ Content-Length: 5462
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2016-12-31T23:57:12.7398246+03:00"
+    "takenDateTime": "2016-12-31T23:59:08.8860013+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -444,7 +446,7 @@ Content-Length: 5462
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2016-12-31T23:59:25.6718097+03:00"
+      "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00"
     },
     "size": 4,
     "specialFolder": {

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsDeviceUsageUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List teamsDeviceUsageUserCountses](../api/teamsdeviceusageusercounts-list.md)|[teamsDeviceUsageUserCounts](../resources/teamsDeviceUsageUserCounts.md) collection|List properties and relationships of the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) objects.|
-|[Get teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-get.md)|[teamsDeviceUsageUserCounts](../resources/teamsDeviceUsageUserCounts.md)|Read properties and relationships of the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
-|[Create teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-create.md)|[teamsDeviceUsageUserCounts](../resources/teamsDeviceUsageUserCounts.md)|Create a new [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
+|[List teamsDeviceUsageUserCountses](../api/teamsdeviceusageusercounts-list.md)|[teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) collection|List properties and relationships of the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) objects.|
+|[Get teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-get.md)|[teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md)|Read properties and relationships of the [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
+|[Create teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-create.md)|[teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md)|Create a new [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
 |[Delete teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-delete.md)|None|Deletes a [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md).|
-|[Update teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-update.md)|[teamsDeviceUsageUserCounts](../resources/teamsDeviceUsageUserCounts.md)|Update the properties of a [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
+|[Update teamsDeviceUsageUserCounts](../api/teamsdeviceusageusercounts-update.md)|[teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md)|Update the properties of a [teamsDeviceUsageUserCounts](../resources/teamsdeviceusageusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

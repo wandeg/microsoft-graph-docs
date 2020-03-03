@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceShellScript resource type
+
+
+Namespace: microsoft.graph
 
 Intune will provide customer the ability to run their Shell scripts on the enrolled Mac OS devices. The script can be run once or periodically.
 
@@ -19,20 +20,22 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceShellScript](../api/intune-devices-deviceshellscript-get.md)|[deviceShellScript](../resources/intune-devices-deviceShellScript.md)|Read properties and relationships of the [deviceShellScript](../resources/deviceshellscript.md) object.|
-|[Delete deviceShellScript](../api/intune-devices-deviceshellscript-delete.md)|None|Deletes a [deviceShellScript](../resources/deviceshellscript.md).|
-|[Update deviceShellScript](../api/intune-devices-deviceshellscript-update.md)|[deviceShellScript](../resources/intune-devices-deviceShellScript.md)|Update the properties of a [deviceShellScript](../resources/deviceshellscript.md) object.|
-|[List groupAssignments](../api/intune-devices-deviceshellscript-list-groupassignments.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md) collection|Get the deviceManagementScriptGroupAssignments from the groupAssignments navigation property.|
-|[Add groupAssignments](../api/intune-devices-deviceshellscript-post-groupassignments.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
-|[List assignments](../api/intune-devices-deviceshellscript-list-assignments.md)|[deviceManagementScriptAssignment](../resources/intune-devices-deviceManagementScriptAssignment.md) collection|Get the deviceManagementScriptAssignments from the assignments navigation property.|
-|[Add assignments](../api/intune-devices-deviceshellscript-post-assignments.md)|[deviceManagementScriptAssignment](../resources/intune-devices-deviceManagementScriptAssignment.md)|Add assignments by posting to the assignments collection.|
-|[Get deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-get.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md)|Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.|
-|[List deviceRunStates](../api/intune-devices-deviceshellscript-list-devicerunstates.md)|[deviceManagementScriptDeviceState](../resources/intune-devices-deviceManagementScriptDeviceState.md) collection|Get the deviceManagementScriptDeviceStates from the deviceRunStates navigation property.|
-|[Add deviceRunStates](../api/intune-devices-deviceshellscript-post-devicerunstates.md)|[deviceManagementScriptDeviceState](../resources/intune-devices-deviceManagementScriptDeviceState.md)|Add deviceRunStates by posting to the deviceRunStates collection.|
-|[List userRunStates](../api/intune-devices-deviceshellscript-list-userrunstates.md)|[deviceManagementScriptUserState](../resources/intune-devices-deviceManagementScriptUserState.md) collection|Get the deviceManagementScriptUserStates from the userRunStates navigation property.|
-|[Add userRunStates](../api/intune-devices-deviceshellscript-post-userrunstates.md)|[deviceManagementScriptUserState](../resources/intune-devices-deviceManagementScriptUserState.md)|Add userRunStates by posting to the userRunStates collection.|
-|[List deviceShellScripts](../api/intune-devices-devicemanagement-list-deviceshellscripts.md)|[deviceShellScript](../resources/intune-devices-deviceShellScript.md) collection|Get the deviceShellScripts from the deviceShellScripts navigation property.|
-|[Add deviceShellScripts](../api/intune-devices-devicemanagement-post-deviceshellscripts.md)|[deviceShellScript](../resources/intune-devices-deviceShellScript.md)|Add deviceShellScripts by posting to the deviceShellScripts collection.|
+|[List deviceShellScripts](../api/intune-devices-deviceshellscript-list.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md) collection|List properties and relationships of the [deviceShellScript](../resources/deviceshellscript.md) objects.|
+|[Get deviceShellScript](../api/intune-devices-deviceshellscript-get.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md)|Read properties and relationships of the [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.|
+|[Create deviceShellScript](../api/intune-devices-deviceshellscript-create.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md)|Create a new [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.|
+|[Delete deviceShellScript](../api/intune-devices-deviceshellscript-delete.md)|None|Deletes a [deviceShellScript](../resources/intune-devices-deviceshellscript.md).|
+|[Update deviceShellScript](../api/intune-devices-deviceshellscript-update.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md)|Update the properties of a [deviceShellScript](../resources/intune-devices-deviceshellscript.md) object.|
+|[List groupAssignments](../api/intune-devices-deviceshellscript-list-groupassignments.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) collection|Get the deviceManagementScriptGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/intune-devices-deviceshellscript-post-groupassignments.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/intune-devices-deviceshellscript-list-assignments.md)|[deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) collection|Get the deviceManagementScriptAssignments from the assignments navigation property.|
+|[Add assignments](../api/intune-devices-deviceshellscript-post-assignments.md)|[deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md)|Add assignments by posting to the assignments collection.|
+|[Get deviceManagementScriptRunSummary](../api/intune-devices-devicemanagementscriptrunsummary-get.md)|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md)|Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.|
+|[List deviceRunStates](../api/intune-devices-deviceshellscript-list-devicerunstates.md)|[deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) collection|Get the deviceManagementScriptDeviceStates from the deviceRunStates navigation property.|
+|[Add deviceRunStates](../api/intune-devices-deviceshellscript-post-devicerunstates.md)|[deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md)|Add deviceRunStates by posting to the deviceRunStates collection.|
+|[List userRunStates](../api/intune-devices-deviceshellscript-list-userrunstates.md)|[deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) collection|Get the deviceManagementScriptUserStates from the userRunStates navigation property.|
+|[Add userRunStates](../api/intune-devices-deviceshellscript-post-userrunstates.md)|[deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md)|Add userRunStates by posting to the userRunStates collection.|
+|[List deviceShellScripts](../api/intune-devices-devicemanagement-list-deviceshellscripts.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md) collection|Get the deviceShellScripts from the deviceShellScripts navigation property.|
+|[Add deviceShellScripts](../api/intune-devices-devicemanagement-post-deviceshellscripts.md)|[deviceShellScript](../resources/intune-devices-deviceshellscript.md)|Add deviceShellScripts by posting to the deviceShellScripts collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -50,11 +53,11 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceManagementScriptAssignment](../resources/intune-devices-deviceManagementScriptAssignment.md) collection|The list of group assignments for the device management script.|
-|deviceRunStates|[deviceManagementScriptDeviceState](../resources/intune-devices-deviceManagementScriptDeviceState.md) collection|List of run states for this script across all devices.|
-|groupAssignments|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md) collection|The list of group assignments for the device management script.|
-|runSummary|[deviceManagementScriptRunSummary](../resources/intune-devices-deviceManagementScriptRunSummary.md)|Run summary for device management script.|
-|userRunStates|[deviceManagementScriptUserState](../resources/intune-devices-deviceManagementScriptUserState.md) collection|List of run states for this script across all users.|
+|assignments|[deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) collection|The list of group assignments for the device management script.|
+|deviceRunStates|[deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) collection|List of run states for this script across all devices.|
+|groupAssignments|[deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) collection|The list of group assignments for the device management script.|
+|runSummary|[deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md)|Run summary for device management script.|
+|userRunStates|[deviceManagementScriptUserState](../resources/intune-devices-devicemanagementscriptuserstate.md) collection|List of run states for this script across all users.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

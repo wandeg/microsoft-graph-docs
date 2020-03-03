@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookFilter
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookFilter](../resources/workbookfilter.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookFilter](../resources/workbookFilter.md) object.
+In the request body, supply a JSON representation for the [workbookFilter](../resources/workbookfilter.md) object.
 
 The following table shows the properties that are required when you create the [workbookFilter](../resources/workbookfilter.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|criteria|[workbookFilterCriteria](../resources/workbookFilterCriteria.md)||
+|criteria|[workbookFilterCriteria](../resources/workbookfiltercriteria.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}/filter
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}/filter
 Content-type: application/json
 Content-length: 560
 
@@ -99,7 +101,7 @@ Content-Length: 609
 
 {
   "@odata.type": "#microsoft.graph.workbookFilter",
-  "id": "98dbf94e-f94e-98db-4ef9-db984ef9db98",
+  "id": "931ce82a-e82a-931c-2ae8-1c932ae81c93",
   "criteria": {
     "@odata.type": "microsoft.graph.workbookFilterCriteria",
     "color": "Color value",

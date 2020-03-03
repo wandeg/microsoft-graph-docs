@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # callRecord resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
@@ -19,24 +20,26 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get callRecord](../api/callrecords-callrecord-get.md)|[callRecord](../resources/callRecords-callRecord.md)|Read properties and relationships of the [callRecord](../resources/callrecord.md) object.|
-|[Delete callRecord](../api/callrecords-callrecord-delete.md)|None|Deletes a [callRecord](../resources/callrecord.md).|
-|[Update callRecord](../api/callrecords-callrecord-update.md)|[callRecord](../resources/callRecords-callRecord.md)|Update the properties of a [callRecord](../resources/callrecord.md) object.|
-|[List sessions](../api/callrecords-callrecord-list-sessions.md)|[session](../resources/callRecords-session.md) collection|Get the sessions from the sessions navigation property.|
-|[Add sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callRecords-session.md)|Add sessions by posting to the sessions collection.|
-|[List callRecords](../api/cloudcommunications-list-callrecords.md)|[callRecord](../resources/callRecords-callRecord.md) collection|Get the callRecords from the callRecords navigation property.|
-|[Add callRecords](../api/cloudcommunications-post-callrecords.md)|[callRecord](../resources/callRecords-callRecord.md)|Add callRecords by posting to the callRecords collection.|
+|[List callRecords](../api/callrecords-callrecord-list.md)|[callRecord](../resources/callrecords-callrecord.md) collection|List properties and relationships of the [callRecord](../resources/callrecord.md) objects.|
+|[Get callRecord](../api/callrecords-callrecord-get.md)|[callRecord](../resources/callrecords-callrecord.md)|Read properties and relationships of the [callRecord](../resources/callrecords-callrecord.md) object.|
+|[Create callRecord](../api/callrecords-callrecord-create.md)|[callRecord](../resources/callrecords-callrecord.md)|Create a new [callRecord](../resources/callrecords-callrecord.md) object.|
+|[Delete callRecord](../api/callrecords-callrecord-delete.md)|None|Deletes a [callRecord](../resources/callrecords-callrecord.md).|
+|[Update callRecord](../api/callrecords-callrecord-update.md)|[callRecord](../resources/callrecords-callrecord.md)|Update the properties of a [callRecord](../resources/callrecords-callrecord.md) object.|
+|[List sessions](../api/callrecords-callrecord-list-sessions.md)|[session](../resources/callrecords-session.md) collection|Get the sessions from the sessions navigation property.|
+|[Add sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callrecords-session.md)|Add sessions by posting to the sessions collection.|
+|[List callRecords](../api/cloudcommunications-list-callrecords.md)|[callRecord](../resources/callrecords-callrecord.md) collection|Get the callRecords from the callRecords navigation property.|
+|[Add callRecords](../api/cloudcommunications-post-callrecords.md)|[callRecord](../resources/callrecords-callrecord.md)|Add callRecords by posting to the callRecords collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |endDateTime|DateTimeOffset||
-|id|String| Inherited from [entity](../resources/callRecords-entity.md)|
+|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
 |joinWebUrl|String||
 |lastModifiedDateTime|DateTimeOffset||
 |modalities|Enumeration collection||
-|organizer|[identitySet](../resources/callRecords-identitySet.md)||
-|participants|[identitySet](../resources/callRecords-identitySet.md) collection||
+|organizer|[identitySet](../resources/callrecords-identityset.md)||
+|participants|[identitySet](../resources/callrecords-identityset.md) collection||
 |startDateTime|DateTimeOffset||
 |type|Enumeration|. Possible values are: `unknown`, `groupCall`, `peerToPeer`, `unknownFutureValue`.|
 |version|Int64||
@@ -44,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|sessions|[session](../resources/callRecords-session.md) collection||
+|sessions|[session](../resources/callrecords-session.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add threatAssessmentRequests
 
+Namespace: microsoft.graph
+
 Add threatAssessmentRequests by posting to the threatAssessmentRequests collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /informationProtection/threatAssessmentRequests/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the threatAssessmentRequest object.
+In the request body, supply a JSON representation for the [threatAssessmentRequest](../resources/threatassessmentrequest.md) object.
 
-The following table shows the properties that are required when you create the threatAssessmentRequest.
+The following table shows the properties that are required when you create the [threatAssessmentRequest](../resources/threatassessmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the t
 |category|Enumeration|. Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
 |status|Enumeration|. Possible values are: `pending`, `completed`.|
 |requestSource|Enumeration|. Possible values are: `undefined`, `user`, `administrator`.|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/threatAssessmentRequests
+POST https://graph.microsoft.com/localtest/informationProtection/threatAssessmentRequests
 Content-type: application/json
 Content-length: 574
 
@@ -105,12 +107,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 682
+Content-Length: 681
 
 {
   "@odata.type": "#microsoft.graph.threatAssessmentRequest",
-  "id": "6bad47f6-47f6-6bad-f647-ad6bf647ad6b",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "9f184502-4502-9f18-0245-189f0245189f",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "contentType": "String",
   "expectedAssessment": "String",
   "category": "String",

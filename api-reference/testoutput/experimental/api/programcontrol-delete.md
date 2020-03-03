@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete programControl
 
+Namespace: microsoft.graph
+
 Deletes a [programControl](../resources/programcontrol.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/programControls/{programControlsId}
+DELETE https://graph.microsoft.com/localtest/programControls/{programControlsId}
 ```
 
 ### Response

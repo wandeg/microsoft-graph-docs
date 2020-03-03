@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingStaffMember
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingStaffMember](../resources/bookingstaffmember.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}/staffMembers/{bookingStaffMemberI
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingStaffMember](../resources/bookingStaffMember.md) object.
+In the request body, supply a JSON representation for the [bookingStaffMember](../resources/bookingstaffmember.md) object.
 
 The following table shows the properties that are required when you create the [bookingStaffMember](../resources/bookingstaffmember.md).
 
@@ -43,13 +45,13 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
-|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingPerson.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
+|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingperson.md)|
 |availabilityIsAffectedByPersonalCalendar|Boolean||
 |colorIndex|Int32||
 |role|Enumeration|. Possible values are: `guest`, `administrator`, `viewer`, `externalGuest`.|
 |useBusinessHours|Boolean||
-|workingHours|[bookingWorkHours](../resources/bookingWorkHours.md) collection||
+|workingHours|[bookingWorkHours](../resources/bookingworkhours.md) collection||
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/staffMembers/{bookingStaffMemberId}
+PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/staffMembers/{bookingStaffMemberId}
 Content-type: application/json
 Content-length: 584
 
@@ -85,8 +87,8 @@ Content-length: 584
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "11:59:43.5410000",
-          "end": "12:01:36.3070000"
+          "start": "12:02:01.9800000",
+          "end": "12:02:50.7750000"
         }
       ]
     }
@@ -108,7 +110,7 @@ Content-Length: 633
 
 {
   "@odata.type": "#microsoft.graph.bookingStaffMember",
-  "id": "b8869257-9257-b886-5792-86b8579286b8",
+  "id": "ff3e1fa8-1fa8-ff3e-a81f-3effa81f3eff",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value",
   "availabilityIsAffectedByPersonalCalendar": true,
@@ -122,8 +124,8 @@ Content-Length: 633
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "11:59:43.5410000",
-          "end": "12:01:36.3070000"
+          "start": "12:02:01.9800000",
+          "end": "12:02:50.7750000"
         }
       ]
     }

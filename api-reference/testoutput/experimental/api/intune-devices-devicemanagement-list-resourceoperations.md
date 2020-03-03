@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List resourceOperations
 
+Namespace: microsoft.graph
+
 Get the resourceOperations from the resourceOperations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations
+GET https://graph.microsoft.com/localtest/deviceManagement/resourceOperations
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 359
   "value": [
     {
       "@odata.type": "#microsoft.graph.resourceOperation",
-      "id": "057e76e9-76e9-057e-e976-7e05e9767e05",
+      "id": "bc898d45-8d45-bc89-458d-89bc458d89bc",
       "resource": "Resource value",
       "resourceName": "Resource Name value",
       "actionName": "Action Name value",

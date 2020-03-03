@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete activityBasedTimeoutPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
+DELETE https://graph.microsoft.com/localtest/policies/activityBasedTimeoutPolicies/{activityBasedTimeoutPolicyId}
 ```
 
 ### Response

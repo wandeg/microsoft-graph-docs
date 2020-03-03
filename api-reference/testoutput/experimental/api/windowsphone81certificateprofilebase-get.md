@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsPhone81CertificateProfileBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsPhone81CertificateProfileBase](../resources/windowsphone81certificateprofilebase.md) object.
 
 ## Permissions
@@ -66,13 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1567
+Content-Length: 1566
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsPhone81CertificateProfileBase",
-    "id": "fea77f7f-7f7f-fea7-7f7f-a7fe7f7fa7fe",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "e5b58777-8777-e5b5-7787-b5e57787b5e5",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -94,7 +96,7 @@ Content-Length: 1567
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

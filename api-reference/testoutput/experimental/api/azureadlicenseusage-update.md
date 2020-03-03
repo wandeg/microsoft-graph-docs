@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update azureADLicenseUsage
 
+Namespace: microsoft.graph
+
 Update the properties of a [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.azureADLicenseUsage not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [azureADLicenseUsage](../resources/azureADLicenseUsage.md) object.
+In the request body, supply a JSON representation for the [azureADLicenseUsage](../resources/azureadlicenseusage.md) object.
 
 The following table shows the properties that are required when you create the [azureADLicenseUsage](../resources/azureadlicenseusage.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |snapshotDateTime|DateTimeOffset||
-|licenseInfoDetails|[licenseInfoDetail](../resources/licenseInfoDetail.md) collection||
+|licenseInfoDetails|[licenseInfoDetail](../resources/licenseinfodetail.md) collection||
 
 
 
@@ -60,13 +62,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.azureADLicenseUsage not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.azureADLicenseUsage not found
 Content-type: application/json
-Content-length: 351
+Content-length: 350
 
 {
   "@odata.type": "#microsoft.graph.azureADLicenseUsage",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "licenseInfoDetails": [
     {
       "@odata.type": "microsoft.graph.licenseInfoDetail",
@@ -89,12 +91,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 400
+Content-Length: 399
 
 {
   "@odata.type": "#microsoft.graph.azureADLicenseUsage",
-  "id": "de4208a6-08a6-de42-a608-42dea60842de",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "id": "3d61534f-534f-3d61-4f53-613d4f53613d",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "licenseInfoDetails": [
     {
       "@odata.type": "microsoft.graph.licenseInfoDetail",

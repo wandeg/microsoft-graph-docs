@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mobileAppInstallSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mobileAppInstallSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mobileAppInstallSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 504
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppInstallSummary",
-      "id": "78579ca1-9ca1-7857-a19c-5778a19c5778",
+      "id": "71932d78-2d78-7193-782d-9371782d9371",
       "installedDeviceCount": 4,
       "failedDeviceCount": 1,
       "notApplicableDeviceCount": 8,

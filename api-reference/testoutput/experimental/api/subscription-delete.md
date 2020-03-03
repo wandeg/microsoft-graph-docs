@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete subscription
 
+Namespace: microsoft.graph
+
 Deletes a [subscription](../resources/subscription.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/subscriptions/{subscriptionsId}
+DELETE https://graph.microsoft.com/localtest/subscriptions/{subscriptionsId}
 ```
 
 ### Response

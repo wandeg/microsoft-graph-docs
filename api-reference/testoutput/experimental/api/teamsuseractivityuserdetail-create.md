@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create teamsUserActivityUserDetail
 
+Namespace: microsoft.graph
+
 Create a new [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.teamsUserActivityUserDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsUserActivityUserDetail object.
+In the request body, supply a JSON representation for the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) object.
 
-The following table shows the properties that are required when you create the teamsUserActivityUserDetail.
+The following table shows the properties that are required when you create the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsUserActivityUserDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsUserActivityUserDetail not found
 Content-type: application/json
 Content-length: 469
 
@@ -109,7 +111,7 @@ Content-Length: 518
 
 {
   "@odata.type": "#microsoft.graph.teamsUserActivityUserDetail",
-  "id": "5432c9ef-c9ef-5432-efc9-3254efc93254",
+  "id": "67546f5e-6f5e-6754-5e6f-54675e6f5467",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

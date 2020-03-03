@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessReviews
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [accessReview](../resources/accessreview.md) objects.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessReviews
+GET https://graph.microsoft.com/localtest/accessReviews
 ```
 
 ### Response
@@ -71,10 +73,10 @@ Content-Length: 1663
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessReview",
-      "id": "9a0f0fe1-0fe1-9a0f-e10f-0f9ae10f0f9a",
+      "id": "0fda1333-1333-0fda-3313-da0f3313da0f",
       "displayName": "Display Name value",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "status": "Status value",
       "createdBy": {
         "@odata.type": "microsoft.graph.userIdentity",

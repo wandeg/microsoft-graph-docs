@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update tenantSetupInfo
 
+Namespace: microsoft.graph
+
 Update the properties of a [tenantSetupInfo](../resources/tenantsetupinfo.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.tenantSetupInfo not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [tenantSetupInfo](../resources/tenantSetupInfo.md) object.
+In the request body, supply a JSON representation for the [tenantSetupInfo](../resources/tenantsetupinfo.md) object.
 
 The following table shows the properties that are required when you create the [tenantSetupInfo](../resources/tenantsetupinfo.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.tenantSetupInfo not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.tenantSetupInfo not found
 Content-type: application/json
 Content-length: 258
 
@@ -93,7 +95,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.tenantSetupInfo",
-  "id": "0594d45c-d45c-0594-5cd4-94055cd49405",
+  "id": "eb5fba04-ba04-eb5f-04ba-5feb04ba5feb",
   "userRolesActions": "User Roles Actions value",
   "firstTimeSetup": true,
   "relevantRolesSettings": [

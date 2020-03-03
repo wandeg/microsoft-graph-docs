@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete resourceSpecificPermissionGrant
 
+Namespace: microsoft.graph
+
 Deletes a [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/permissionGrants/{permissionGrantsId}
+DELETE https://graph.microsoft.com/localtest/permissionGrants/{permissionGrantsId}
 ```
 
 ### Response

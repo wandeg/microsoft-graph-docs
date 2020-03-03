@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List definitions
 
+Namespace: microsoft.graph
+
 Get the groupPolicyDefinitions from the definitions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/definitionFile/definitions
+GET https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/definitionFile/definitions
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Content-Length: 460
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyDefinition",
-      "id": "03aed785-d785-03ae-85d7-ae0385d7ae03",
+      "id": "14dd9224-9224-14dd-2492-dd142492dd14",
       "classType": "String",
       "displayName": "Display Name value",
       "explainText": "Explain Text value",
       "categoryPath": "Category Path value",
       "supportedOn": "Supported On value",
       "policyType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

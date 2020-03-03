@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getMobileAppCount
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/getMobileAppCount(status='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/getMobileAppCount(status='parameterValue')
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the targetedManagedAppPolicyAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 341
   "value": [
     {
       "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-      "id": "3c5fbbd6-bbd6-3c5f-d6bb-5f3cd6bb5f3c",
+      "id": "03577a8a-7a8a-0357-8a7a-57038a7a5703",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

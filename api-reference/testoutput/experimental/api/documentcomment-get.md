@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get documentComment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [documentComment](../resources/documentcomment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 162
 {
   "value": {
     "@odata.type": "#microsoft.graph.documentComment",
-    "id": "ebf94df4-4df4-ebf9-f44d-f9ebf44df9eb",
+    "id": "4c14e6cf-e6cf-4c14-cfe6-144ccfe6144c",
     "content": "Content value"
   }
 }

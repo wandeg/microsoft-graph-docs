@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete accessReviewDecision
 
+Namespace: microsoft.graph
+
 Deletes a [accessReviewDecision](../resources/accessreviewdecision.md).
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/accessReviewDecisions/{accessReviewDecisionsId}
+DELETE https://graph.microsoft.com/localtest/accessReviewDecisions/{accessReviewDecisionsId}
 ```
 
 ### Response

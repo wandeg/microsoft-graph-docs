@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # applicationTemplate resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List applicationTemplates](../api/applicationtemplate-list.md)|[applicationTemplate](../resources/applicationTemplate.md) collection|List properties and relationships of the [applicationTemplate](../resources/applicationtemplate.md) objects.|
-|[Get applicationTemplate](../api/applicationtemplate-get.md)|[applicationTemplate](../resources/applicationTemplate.md)|Read properties and relationships of the [applicationTemplate](../resources/applicationtemplate.md) object.|
-|[Create applicationTemplate](../api/applicationtemplate-post-applicationtemplates.md)|[applicationTemplate](../resources/applicationTemplate.md)|Create a new [applicationTemplate](../resources/applicationtemplate.md) object.|
+|[List applicationTemplates](../api/applicationtemplate-list.md)|[applicationTemplate](../resources/applicationtemplate.md) collection|List properties and relationships of the [applicationTemplate](../resources/applicationtemplate.md) objects.|
+|[Get applicationTemplate](../api/applicationtemplate-get.md)|[applicationTemplate](../resources/applicationtemplate.md)|Read properties and relationships of the [applicationTemplate](../resources/applicationtemplate.md) object.|
+|[Create applicationTemplate](../api/applicationtemplate-post-applicationtemplates.md)|[applicationTemplate](../resources/applicationtemplate.md)|Create a new [applicationTemplate](../resources/applicationtemplate.md) object.|
 |[Delete applicationTemplate](../api/applicationtemplate-delete.md)|None|Deletes a [applicationTemplate](../resources/applicationtemplate.md).|
-|[Update applicationTemplate](../api/applicationtemplate-update.md)|[applicationTemplate](../resources/applicationTemplate.md)|Update the properties of a [applicationTemplate](../resources/applicationtemplate.md) object.|
-|[instantiate](../api/applicationtemplate-instantiate.md)|[applicationServicePrincipal](../resources/applicationServicePrincipal.md)||
+|[Update applicationTemplate](../api/applicationtemplate-update.md)|[applicationTemplate](../resources/applicationtemplate.md)|Update the properties of a [applicationTemplate](../resources/applicationtemplate.md) object.|
+|[instantiate](../api/applicationtemplate-instantiate.md)|[applicationServicePrincipal](../resources/applicationserviceprincipal.md)||
 
 ## Properties
 |Property|Type|Description|

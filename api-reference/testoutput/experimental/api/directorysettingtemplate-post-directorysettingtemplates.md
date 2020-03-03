@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create directorySettingTemplate
 
+Namespace: microsoft.graph
+
 Create a new [directorySettingTemplate](../resources/directorysettingtemplate.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /directorySettingTemplates
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directorySettingTemplate object.
+In the request body, supply a JSON representation for the [directorySettingTemplate](../resources/directorysettingtemplate.md) object.
 
-The following table shows the properties that are required when you create the directorySettingTemplate.
+The following table shows the properties that are required when you create the [directorySettingTemplate](../resources/directorysettingtemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |displayName|String||
 |description|String||
-|values|[settingTemplateValue](../resources/settingTemplateValue.md) collection||
+|values|[settingTemplateValue](../resources/settingtemplatevalue.md) collection||
 
 
 
@@ -63,13 +65,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directorySettingTemplates
+POST https://graph.microsoft.com/localtest/directorySettingTemplates
 Content-type: application/json
 Content-length: 404
 
 {
   "@odata.type": "#microsoft.graph.directorySettingTemplate",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [
@@ -98,8 +100,8 @@ Content-Length: 453
 
 {
   "@odata.type": "#microsoft.graph.directorySettingTemplate",
-  "id": "c77f7bf1-7bf1-c77f-f17b-7fc7f17b7fc7",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "d576b242-b242-d576-42b2-76d542b276d5",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [

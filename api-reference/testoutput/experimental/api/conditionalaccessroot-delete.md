@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete conditionalAccessRoot
 
+Namespace: microsoft.graph
+
 Deletes a [conditionalAccessRoot](../resources/conditionalaccessroot.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/conditionalAccess
+DELETE https://graph.microsoft.com/localtest/conditionalAccess
 ```
 
 ### Response

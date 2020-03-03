@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get emailActivityStatistics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [emailActivityStatistics](../resources/emailactivitystatistics.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailActivityStatistics not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailActivityStatistics not found
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 406
+Content-Length: 410
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.emailActivityStatistics",
-    "id": "9b030e25-0e25-9b03-250e-039b250e039b",
+    "id": "ed421464-1464-ed42-6414-42ed641442ed",
     "activity": "String",
     "startDate": "Date",
     "endDate": "Date",
     "timeZoneUsed": "Time Zone Used value",
-    "duration": "PT3M27.7161587S",
-    "afterHours": "PT21.1795365S",
-    "readEmail": "-PT3M11.7567899S",
-    "sentEmail": "PT1M11.5133279S"
+    "duration": "-PT1M55.0810357S",
+    "afterHours": "-PT1M34.3242013S",
+    "readEmail": "-PT1M6.6321885S",
+    "sentEmail": "-PT2M11.5873492S"
   }
 }
 ```

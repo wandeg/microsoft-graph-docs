@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add featureRolloutPolicies
 
+Namespace: microsoft.graph
+
 Add featureRolloutPolicies by posting to the featureRolloutPolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /directory/featureRolloutPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the featureRolloutPolicy object.
+In the request body, supply a JSON representation for the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.
 
-The following table shows the properties that are required when you create the featureRolloutPolicy.
+The following table shows the properties that are required when you create the [featureRolloutPolicy](../resources/featurerolloutpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/directory/featureRolloutPolicies
+POST https://graph.microsoft.com/localtest/directory/featureRolloutPolicies
 Content-type: application/json
 Content-length: 223
 
@@ -93,7 +95,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.featureRolloutPolicy",
-  "id": "50fc1353-1353-50fc-5313-fc505313fc50",
+  "id": "69e61aee-1aee-69e6-ee1a-e669ee1ae669",
   "displayName": "Display Name value",
   "description": "Description value",
   "feature": "String",

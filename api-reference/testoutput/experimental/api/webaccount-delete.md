@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete webAccount
 
+Namespace: microsoft.graph
+
 Deletes a [webAccount](../resources/webaccount.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/webAccounts/{webAccountId}
+DELETE https://graph.microsoft.com/localtest/me/profile/webAccounts/{webAccountId}
 ```
 
 ### Response

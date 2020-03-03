@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementIntegerSettingInstance
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementIntegerSettingInstance](../resources/devicemanagementintegersettinginstance.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.deviceManagementIntegerSettingInstance n
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementIntegerSettingInstance](../resources/deviceManagementIntegerSettingInstance.md) object.
+In the request body, supply a JSON representation for the [deviceManagementIntegerSettingInstance](../resources/devicemanagementintegersettinginstance.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementIntegerSettingInstance](../resources/devicemanagementintegersettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |value|Int32|The integer value|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceManagementIntegerSettingInstance not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceManagementIntegerSettingInstance not found
 Content-type: application/json
 Content-length: 173
 
@@ -87,7 +89,7 @@ Content-Length: 222
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntegerSettingInstance",
-  "id": "f0565186-5186-f056-8651-56f0865156f0",
+  "id": "10611d39-1d39-1061-391d-6110391d6110",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value",
   "value": 5

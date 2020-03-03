@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userConfigurations
 
+Namespace: microsoft.graph
+
 Get the userConfigurations from the userConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/userConfigurations
+GET https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/userConfigurations
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 190
   "value": [
     {
       "@odata.type": "#microsoft.graph.userConfiguration",
-      "id": "a9759248-9248-a975-4892-75a9489275a9",
+      "id": "0e1870cb-70cb-0e18-cb70-180ecb70180e",
       "binaryData": "YmluYXJ5RGF0YQ=="
     }
   ]

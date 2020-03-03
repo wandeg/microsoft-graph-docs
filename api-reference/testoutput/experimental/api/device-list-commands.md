@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List commands
 
+Namespace: microsoft.graph
+
 Get the commands from the commands navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/devices/{devicesId}/commands
+GET https://graph.microsoft.com/localtest/devices/{devicesId}/commands
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 526
   "value": [
     {
       "@odata.type": "#microsoft.graph.command",
-      "id": "4b16bcad-bcad-4b16-adbc-164badbc164b",
+      "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
       "Status": "Status value",
       "Type": "Type value",
       "AppServiceName": "App Service Name value",

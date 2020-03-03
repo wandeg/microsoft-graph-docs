@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete endpoint
 
+Namespace: microsoft.graph
+
 Deletes a [endpoint](../resources/endpoint.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/groups/{groupsId}/endpoints/{endpointId}
+DELETE https://graph.microsoft.com/localtest/groups/{groupsId}/endpoints/{endpointId}
 ```
 
 ### Response

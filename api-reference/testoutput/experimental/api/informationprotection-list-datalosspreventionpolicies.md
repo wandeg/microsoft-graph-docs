@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List dataLossPreventionPolicies
 
+Namespace: microsoft.graph
+
 Get the dataLossPreventionPolicies from the dataLossPreventionPolicies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/informationProtection/dataLossPreventionPolicies
+GET https://graph.microsoft.com/localtest/informationProtection/dataLossPreventionPolicies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 185
   "value": [
     {
       "@odata.type": "#microsoft.graph.dataLossPreventionPolicy",
-      "id": "56cec865-c865-56ce-65c8-ce5665c8ce56",
+      "id": "aba94021-4021-aba9-2140-a9ab2140a9ab",
       "name": "Name value"
     }
   ]

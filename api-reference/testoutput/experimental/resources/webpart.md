@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # webPart resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|data|[sitePageData](../resources/sitePageData.md)||
+|data|[sitePageData](../resources/sitepagedata.md)||
 |type|String||
 
 ## Relationships

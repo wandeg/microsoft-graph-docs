@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add companies
 
+Namespace: microsoft.graph
+
 Add companies by posting to the companies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the company object.
+In the request body, supply a JSON representation for the [company](../resources/company.md) object.
 
-The following table shows the properties that are required when you create the company.
+The following table shows the properties that are required when you create the [company](../resources/company.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies
+POST https://graph.microsoft.com/localtest/financials/companies
 Content-type: application/json
 Content-length: 211
 
@@ -91,7 +93,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.company",
-  "id": "23c67a93-7a93-23c6-937a-c623937ac623",
+  "id": "deae77e1-77e1-deae-e177-aedee177aede",
   "systemVersion": "System Version value",
   "name": "Name value",
   "displayName": "Display Name value",

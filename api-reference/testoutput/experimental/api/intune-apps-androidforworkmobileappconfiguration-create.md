@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create androidForWorkMobileAppConfiguration
 
-Create a new [androidForWorkMobileAppConfiguration](../resources/androidforworkmobileappconfiguration.md) object.
+Namespace: microsoft.graph
+
+Create a new [androidForWorkMobileAppConfiguration](../resources/intune-apps-androidforworkmobileappconfiguration.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,28 +38,28 @@ POST ** Collection URI for microsoft.graph.androidForWorkMobileAppConfiguration 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidForWorkMobileAppConfiguration object.
+In the request body, supply a JSON representation for the [androidForWorkMobileAppConfiguration](../resources/intune-apps-androidforworkmobileappconfiguration.md) object.
 
-The following table shows the properties that are required when you create the androidForWorkMobileAppConfiguration.
+The following table shows the properties that are required when you create the [androidForWorkMobileAppConfiguration](../resources/intune-apps-androidforworkmobileappconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|targetedMobileApps|String collection|the associated app. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this App configuration entity. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-managedDeviceMobileAppConfiguration.md)|
+|targetedMobileApps|String collection|the associated app. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this App configuration entity. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [managedDeviceMobileAppConfiguration](../resources/intune-apps-manageddevicemobileappconfiguration.md)|
 |packageId|String|Android For Work app configuration package id.|
 |payloadJson|String|Android For Work app configuration JSON payload.|
-|permissionActions|[androidPermissionAction](../resources/intune-apps-androidPermissionAction.md) collection|List of Android app permissions and corresponding permission actions.|
+|permissionActions|[androidPermissionAction](../resources/intune-apps-androidpermissionaction.md) collection|List of Android app permissions and corresponding permission actions.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [androidForWorkMobileAppConfiguration](../resources/androidforworkmobileappconfiguration.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [androidForWorkMobileAppConfiguration](../resources/intune-apps-androidforworkmobileappconfiguration.md) object in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidForWorkMobileAppConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidForWorkMobileAppConfiguration not found
 Content-type: application/json
 Content-length: 557
 
@@ -107,20 +109,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 729
+Content-Length: 728
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkMobileAppConfiguration",
-  "id": "d3644e6f-4e6f-d364-6f4e-64d36f4e64d3",
+  "id": "ab34d4e2-d4e2-ab34-e2d4-34abe2d434ab",
   "targetedMobileApps": [
     "Targeted Mobile Apps value"
   ],
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "packageId": "Package Id value",

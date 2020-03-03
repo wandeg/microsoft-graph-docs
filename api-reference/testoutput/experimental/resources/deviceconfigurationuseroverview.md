@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceConfigurationUserOverview resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationUserOverviews](../api/deviceconfigurationuseroverview-list.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md) collection|List properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) objects.|
-|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[Create deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-create.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Create a new [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[List deviceConfigurationUserOverviews](../api/deviceconfigurationuseroverview-list.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) collection|List properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) objects.|
+|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[Create deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-create.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Create a new [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
 |[Delete deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-delete.md)|None|Deletes a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md).|
-|[Update deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-update.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Update the properties of a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[Update deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-update.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Update the properties of a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartDataLabelFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartDataLabelFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartDataLabelFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 160
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartDataLabelFormat",
-      "id": "010f6253-6253-010f-5362-0f0153620f01"
+      "id": "198d247f-247f-198d-7f24-8d197f248d19"
     }
   ]
 }

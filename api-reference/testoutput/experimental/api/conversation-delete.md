@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete conversation
 
+Namespace: microsoft.graph
+
 Deletes a [conversation](../resources/conversation.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/groups/{groupsId}/conversations/{conversationId}
+DELETE https://graph.microsoft.com/localtest/groups/{groupsId}/conversations/{conversationId}
 ```
 
 ### Response

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookCommentReply resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookCommentReply](../api/workbookcommentreply-get.md)|[workbookCommentReply](../resources/workbookCommentReply.md)|Read properties and relationships of the [workbookCommentReply](../resources/workbookcommentreply.md) object.|
+|[List workbookCommentReplies](../api/workbookcommentreply-list.md)|[workbookCommentReply](../resources/workbookcommentreply.md) collection|List properties and relationships of the [workbookCommentReply](../resources/workbookcommentreply.md) objects.|
+|[Get workbookCommentReply](../api/workbookcommentreply-get.md)|[workbookCommentReply](../resources/workbookcommentreply.md)|Read properties and relationships of the [workbookCommentReply](../resources/workbookcommentreply.md) object.|
+|[Create workbookCommentReply](../api/workbookcommentreply-create.md)|[workbookCommentReply](../resources/workbookcommentreply.md)|Create a new [workbookCommentReply](../resources/workbookcommentreply.md) object.|
 |[Delete workbookCommentReply](../api/workbookcommentreply-delete.md)|None|Deletes a [workbookCommentReply](../resources/workbookcommentreply.md).|
-|[Update workbookCommentReply](../api/workbookcommentreply-update.md)|[workbookCommentReply](../resources/workbookCommentReply.md)|Update the properties of a [workbookCommentReply](../resources/workbookcommentreply.md) object.|
+|[Update workbookCommentReply](../api/workbookcommentreply-update.md)|[workbookCommentReply](../resources/workbookcommentreply.md)|Update the properties of a [workbookCommentReply](../resources/workbookcommentreply.md) object.|
 
 ## Properties
 |Property|Type|Description|

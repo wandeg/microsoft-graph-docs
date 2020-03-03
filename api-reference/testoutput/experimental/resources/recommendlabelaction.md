@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # recommendLabelAction resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [informationProtectionAction](../resources/informationProtectionAction.md)
+
+
+Inherits from [informationProtectionAction](../resources/informationprotectionaction.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|actions|[informationProtectionAction](../resources/informationProtectionAction.md) collection||
+|actions|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
 |actionSource|Enumeration|. Possible values are: `manual`, `automatic`, `recommended`, `default`.|
-|label|[labelDetails](../resources/labelDetails.md)||
+|label|[labelDetails](../resources/labeldetails.md)||
 |responsibleSensitiveTypeIds|Guid collection||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create mailboxUsageQuotaStatusMailboxCounts
 
+Namespace: microsoft.graph
+
 Create a new [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mailboxUsageQuotaStatusMailboxCounts object.
+In the request body, supply a JSON representation for the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.
 
-The following table shows the properties that are required when you create the mailboxUsageQuotaStatusMailboxCounts.
+The following table shows the properties that are required when you create the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
 Content-type: application/json
 Content-length: 302
 
@@ -99,7 +101,7 @@ Content-Length: 351
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageQuotaStatusMailboxCounts",
-  "id": "1d2716ae-16ae-1d27-ae16-271dae16271d",
+  "id": "cec16fca-6fca-cec1-ca6f-c1ceca6fc1ce",
   "reportRefreshDate": "Date",
   "underLimit": 10,
   "warningIssued": 13,

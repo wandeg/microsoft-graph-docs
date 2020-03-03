@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # summarizeDeviceRegressionPerformance
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -45,7 +47,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userExperienceAnalyticsRegressionSummary.md) in the response body.
+If successful, this function returns a `200 OK` response code and a [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) in the response body.
 
 ## Example
 
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary/summarizeDeviceRegressionPerformance(summarizeBy='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary/summarizeDeviceRegressionPerformance(summarizeBy='parameterValue')
 ```
 
 ### Response
@@ -76,7 +78,7 @@ Content-Length: 154
 {
   "value": {
     "@odata.type": "#microsoft.graph.userExperienceAnalyticsRegressionSummary",
-    "id": "7b659701-9701-7b65-0197-657b0197657b"
+    "id": "197635e0-35e0-1976-e035-7619e0357619"
   }
 }
 ```

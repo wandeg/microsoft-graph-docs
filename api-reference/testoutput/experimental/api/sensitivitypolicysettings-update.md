@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sensitivityPolicySettings
 
+Namespace: microsoft.graph
+
 Update the properties of a [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /informationProtection/sensitivityPolicySettings
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sensitivityPolicySettings](../resources/sensitivityPolicySettings.md) object.
+In the request body, supply a JSON representation for the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.
 
 The following table shows the properties that are required when you create the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/informationProtection/sensitivityPolicySettings
+PATCH https://graph.microsoft.com/localtest/informationProtection/sensitivityPolicySettings
 Content-type: application/json
 Content-length: 197
 
@@ -87,7 +89,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.sensitivityPolicySettings",
-  "id": "82ccc22a-c22a-82cc-2ac2-cc822ac2cc82",
+  "id": "359acee7-cee7-359a-e7ce-9a35e7ce9a35",
   "isMandatory": true,
   "helpWebUrl": "https://example.com/helpWebUrl/",
   "downgradeSensitivityRequiresJustification": true

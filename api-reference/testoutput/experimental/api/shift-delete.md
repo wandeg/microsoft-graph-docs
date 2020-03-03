@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete shift
 
+Namespace: microsoft.graph
+
 Deletes a [shift](../resources/shift.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
 ```
 
 ### Response

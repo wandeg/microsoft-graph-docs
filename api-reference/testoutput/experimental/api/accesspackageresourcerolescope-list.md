@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageResourceRoleScopes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md) objects.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessPackageResourceRoleScopes
+GET https://graph.microsoft.com/localtest/accessPackageResourceRoleScopes
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 371
+Content-Length: 370
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResourceRoleScope",
-      "id": "c768d37d-d37d-c768-7dd3-68c77dd368c7",
+      "id": "a5e43181-3181-a5e4-8131-e4a58131e4a5",
       "createdBy": "Created By value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "modifiedBy": "Modified By value",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
     }
   ]
 }

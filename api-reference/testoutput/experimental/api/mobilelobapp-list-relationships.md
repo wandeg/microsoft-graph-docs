@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List relationships
 
+Namespace: microsoft.graph
+
 Get the mobileAppRelationships from the relationships navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/relationships
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/relationships
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 248
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppRelationship",
-      "id": "7caaf138-f138-7caa-38f1-aa7c38f1aa7c",
+      "id": "680e718a-718a-680e-8a71-0e688a710e68",
       "targetId": "Target Id value",
       "targetDisplayName": "Target Display Name value"
     }

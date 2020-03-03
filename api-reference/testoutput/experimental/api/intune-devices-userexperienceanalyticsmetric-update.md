@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userExperienceAnalyticsMetric
 
-Update the properties of a [userExperienceAnalyticsMetric](../resources/userexperienceanalyticsmetric.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -38,9 +40,9 @@ PATCH /deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalytic
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userExperienceAnalyticsMetric](../resources/userExperienceAnalyticsMetric.md) object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md) object.
 
-The following table shows the properties that are required when you create the [userExperienceAnalyticsMetric](../resources/userexperienceanalyticsmetric.md).
+The following table shows the properties that are required when you create the [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsMetric](../resources/userexperienceanalyticsmetric.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression/{userExperienceAnalyticsMetricId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary/modelRegression/{userExperienceAnalyticsMetricId}
 Content-type: application/json
 Content-length: 118
 
@@ -88,7 +90,7 @@ Content-Length: 167
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsMetric",
-  "id": "0c0ca341-a341-0c0c-41a3-0c0c41a30c0c",
+  "id": "b8a03256-3256-b8a0-5632-a0b85632a0b8",
   "value": "Double",
   "unit": "Unit value"
 }

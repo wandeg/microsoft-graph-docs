@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add customers
 
+Namespace: microsoft.graph
+
 Add customers by posting to the customers collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /bookingBusinesses/{bookingBusinessesId}/customers/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the bookingCustomer object.
+In the request body, supply a JSON representation for the [bookingCustomer](../resources/bookingcustomer.md) object.
 
-The following table shows the properties that are required when you create the bookingCustomer.
+The following table shows the properties that are required when you create the [bookingCustomer](../resources/bookingcustomer.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
-|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingPerson.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
+|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingperson.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/customers
+POST https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/customers
 Content-type: application/json
 Content-length: 139
 
@@ -88,7 +90,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.bookingCustomer",
-  "id": "f6984ead-4ead-f698-ad4e-98f6ad4e98f6",
+  "id": "626ab662-b662-626a-62b6-6a6262b66a62",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value"
 }

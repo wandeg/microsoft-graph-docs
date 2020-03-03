@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update androidDeviceComplianceLocalActionLockDeviceWithPasscode
 
+Namespace: microsoft.graph
+
 Update the properties of a [androidDeviceComplianceLocalActionLockDeviceWithPasscode](../resources/androiddevicecompliancelocalactionlockdevicewithpasscode.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH ** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [androidDeviceComplianceLocalActionLockDeviceWithPasscode](../resources/androidDeviceComplianceLocalActionLockDeviceWithPasscode.md) object.
+In the request body, supply a JSON representation for the [androidDeviceComplianceLocalActionLockDeviceWithPasscode](../resources/androiddevicecompliancelocalactionlockdevicewithpasscode.md) object.
 
 The following table shows the properties that are required when you create the [androidDeviceComplianceLocalActionLockDeviceWithPasscode](../resources/androiddevicecompliancelocalactionlockdevicewithpasscode.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androidDeviceComplianceLocalActionBase.md)|
+|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md)|
 |passcode|String|Passcode to reset to Android device. This property is read-only.|
 |passcodeSignInFailureCountBeforeWipe|Int32|Number of sign in failures before wiping device, the value can be 4-11. Valid values 4 to 11|
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode not found
 Content-type: application/json
 Content-length: 207
 
@@ -87,7 +89,7 @@ Content-Length: 256
 
 {
   "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode",
-  "id": "0ae00c04-0c04-0ae0-040c-e00a040ce00a",
+  "id": "509822a7-22a7-5098-a722-9850a7229850",
   "gracePeriodInMinutes": 4,
   "passcode": "Passcode value",
   "passcodeSignInFailureCountBeforeWipe": 4

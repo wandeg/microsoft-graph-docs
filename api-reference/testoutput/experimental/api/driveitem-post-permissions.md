@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add permissions
 
+Namespace: microsoft.graph
+
 Add permissions by posting to the permissions collection.
 
 ## Permissions
@@ -37,20 +39,20 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/p
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the permission object.
+In the request body, supply a JSON representation for the [permission](../resources/permission.md) object.
 
-The following table shows the properties that are required when you create the permission.
+The following table shows the properties that are required when you create the [permission](../resources/permission.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |expirationDateTime|DateTimeOffset||
-|grantedTo|[identitySet](../resources/identitySet.md)||
-|grantedToIdentities|[identitySet](../resources/identitySet.md) collection||
+|grantedTo|[identitySet](../resources/identityset.md)||
+|grantedToIdentities|[identitySet](../resources/identityset.md) collection||
 |hasPassword|Boolean||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
-|invitation|[sharingInvitation](../resources/sharingInvitation.md)||
-|link|[sharingLink](../resources/sharingLink.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
+|invitation|[sharingInvitation](../resources/sharinginvitation.md)||
+|link|[sharingLink](../resources/sharinglink.md)||
 |roles|String collection||
 |shareId|String||
 
@@ -69,13 +71,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/permissions
+POST https://graph.microsoft.com/localtest/workbooks/{workbooksId}/permissions
 Content-type: application/json
-Content-length: 1848
+Content-length: 1849
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -150,12 +152,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1897
+Content-Length: 1898
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "6e4632ec-32ec-6e46-ec32-466eec32466e",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "id": "32939072-9072-3293-7290-933272909332",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

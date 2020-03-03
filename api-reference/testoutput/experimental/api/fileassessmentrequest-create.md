@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create fileAssessmentRequest
 
+Namespace: microsoft.graph
+
 Create a new [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST ** Collection URI for microsoft.graph.fileAssessmentRequest not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the fileAssessmentRequest object.
+In the request body, supply a JSON representation for the [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.
 
-The following table shows the properties that are required when you create the fileAssessmentRequest.
+The following table shows the properties that are required when you create the [fileAssessmentRequest](../resources/fileassessmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `mail`, `url`, `file`.|
-|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `block`, `unblock`.|
-|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
-|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `pending`, `completed`.|
-|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `user`, `administrator`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `mail`, `url`, `file`.|
+|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `block`, `unblock`.|
+|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
+|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `pending`, `completed`.|
+|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `user`, `administrator`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
 |fileName|String||
 |contentData|String||
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.fileAssessmentRequest not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.fileAssessmentRequest not found
 Content-type: application/json
 Content-length: 646
 
@@ -109,12 +111,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 754
+Content-Length: 753
 
 {
   "@odata.type": "#microsoft.graph.fileAssessmentRequest",
-  "id": "2badf7f2-f7f2-2bad-f2f7-ad2bf2f7ad2b",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "id": "1a612a3c-2a3c-1a61-3c2a-611a3c2a611a",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "contentType": "String",
   "expectedAssessment": "String",
   "category": "String",

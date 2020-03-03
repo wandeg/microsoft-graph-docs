@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get privilegedSignupStatus
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [privilegedSignupStatus](../resources/privilegedsignupstatus.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedSignupStatus/{privilegedSignupStatusId}
+GET https://graph.microsoft.com/localtest/privilegedSignupStatus/{privilegedSignupStatusId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 188
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedSignupStatus",
-    "id": "77064065-4065-7706-6540-067765400677",
+    "id": "8162e90b-e90b-8162-0be9-62810be96281",
     "isRegistered": true,
     "status": "String"
   }

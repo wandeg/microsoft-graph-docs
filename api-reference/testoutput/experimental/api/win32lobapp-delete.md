@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete win32LobApp
 
+Namespace: microsoft.graph
+
 Deletes a [win32LobApp](../resources/win32lobapp.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.win32LobApp not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.win32LobApp not found
 ```
 
 ### Response

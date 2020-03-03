@@ -5,42 +5,43 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windows10GeneralConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 This topic provides descriptions of the declared methods, properties and relationships exposed by the windows10GeneralConfiguration resource.
 
 
-Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
+Inherits from [deviceConfiguration](../resources/deviceconfiguration.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windows10GeneralConfigurations](../api/windows10generalconfiguration-list.md)|[windows10GeneralConfiguration](../resources/windows10GeneralConfiguration.md) collection|List properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) objects.|
-|[Get windows10GeneralConfiguration](../api/windows10generalconfiguration-get.md)|[windows10GeneralConfiguration](../resources/windows10GeneralConfiguration.md)|Read properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
-|[Create windows10GeneralConfiguration](../api/windows10generalconfiguration-create.md)|[windows10GeneralConfiguration](../resources/windows10GeneralConfiguration.md)|Create a new [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
+|[List windows10GeneralConfigurations](../api/windows10generalconfiguration-list.md)|[windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) collection|List properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) objects.|
+|[Get windows10GeneralConfiguration](../api/windows10generalconfiguration-get.md)|[windows10GeneralConfiguration](../resources/windows10generalconfiguration.md)|Read properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
+|[Create windows10GeneralConfiguration](../api/windows10generalconfiguration-create.md)|[windows10GeneralConfiguration](../resources/windows10generalconfiguration.md)|Create a new [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
 |[Delete windows10GeneralConfiguration](../api/windows10generalconfiguration-delete.md)|None|Deletes a [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md).|
-|[Update windows10GeneralConfiguration](../api/windows10generalconfiguration-update.md)|[windows10GeneralConfiguration](../resources/windows10GeneralConfiguration.md)|Update the properties of a [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
-|[assign](../api/windows10generalconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection||
+|[Update windows10GeneralConfiguration](../api/windows10generalconfiguration-update.md)|[windows10GeneralConfiguration](../resources/windows10generalconfiguration.md)|Update the properties of a [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.|
+|[assign](../api/windows10generalconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
 |[windowsPrivacyAccessControls](../api/windows10generalconfiguration-windowsprivacyaccesscontrols.md)|None||
 |[assignedAccessMultiModeProfiles](../api/windows10generalconfiguration-assignedaccessmultimodeprofiles.md)|None||
-|[List groupAssignments](../api/windows10generalconfiguration-list-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) collection|Get the deviceConfigurationGroupAssignments from the groupAssignments navigation property.|
-|[Add groupAssignments](../api/windows10generalconfiguration-post-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
-|[List assignments](../api/windows10generalconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/windows10generalconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List deviceStatuses](../api/windows10generalconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
-|[Add deviceStatuses](../api/windows10generalconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
-|[List userStatuses](../api/windows10generalconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
-|[Add userStatuses](../api/windows10generalconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md)|Add userStatuses by posting to the userStatuses collection.|
-|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
-|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[List deviceSettingStateSummaries](../api/windows10generalconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
-|[Add deviceSettingStateSummaries](../api/windows10generalconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
-|[List privacyAccessControls](../api/windows10generalconfiguration-list-privacyaccesscontrols.md)|[windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md) collection|Get the windowsPrivacyDataAccessControlItems from the privacyAccessControls navigation property.|
-|[Add privacyAccessControls](../api/windows10generalconfiguration-post-privacyaccesscontrols.md)|[windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md)|Add privacyAccessControls by posting to the privacyAccessControls collection.|
+|[List groupAssignments](../api/windows10generalconfiguration-list-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) collection|Get the deviceConfigurationGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/windows10generalconfiguration-post-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/windows10generalconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/windows10generalconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List deviceStatuses](../api/windows10generalconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/windows10generalconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
+|[List userStatuses](../api/windows10generalconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/windows10generalconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
+|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[List deviceSettingStateSummaries](../api/windows10generalconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
+|[Add deviceSettingStateSummaries](../api/windows10generalconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
+|[List privacyAccessControls](../api/windows10generalconfiguration-list-privacyaccesscontrols.md)|[windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) collection|Get the windowsPrivacyDataAccessControlItems from the privacyAccessControls navigation property.|
+|[Add privacyAccessControls](../api/windows10generalconfiguration-post-privacyaccesscontrols.md)|[windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md)|Add privacyAccessControls by posting to the privacyAccessControls collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -70,7 +71,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |connectedDevicesServiceBlocked|Boolean|Whether or not to block Connected Devices Service which enables discovery and connection to other devices, remote messaging, remote app sessions and other cross-device experiences.|
 |copyPasteBlocked|Boolean|Whether or not to Block the user from using copy paste.|
 |cortanaBlocked|Boolean|Whether or not to Block the user from using Cortana.|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |cryptographyAllowFipsAlgorithmPolicy|Boolean|Specify whether to allow or disallow the Federal Information Processing Standard (FIPS) policy.|
 |dataProtectionBlockDirectMemoryAccess|Boolean|This policy setting allows you to block direct memory access (DMA) for all hot pluggable PCI downstream ports until a user logs into Windows.|
 |defenderBlockEndUserAccess|Boolean|Whether or not to block end user access to Defender.|
@@ -79,7 +80,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |defenderCloudExtendedTimeout|Int32|Timeout extension for file scanning by the cloud. Valid values 0 to 50|
 |defenderCloudExtendedTimeoutInSeconds|Int32|Timeout extension for file scanning by the cloud. Valid values 0 to 50|
 |defenderDaysBeforeDeletingQuarantinedMalware|Int32|Number of days before deleting quarantined malware. Valid values 0 to 90|
-|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderDetectedMalwareActions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
+|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderdetectedmalwareactions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
 |defenderDisableCatchupFullScan|Boolean|When blocked, catch-up scans for scheduled full scans will be turned off.|
 |defenderDisableCatchupQuickScan|Boolean|When blocked, catch-up scans for scheduled quick scans will be turned off.|
 |defenderFileExtensionsToExclude|String collection|File extensions to exclude from scans and real time protection.|
@@ -108,17 +109,17 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |defenderSignatureUpdateIntervalInHours|Int32|The signature update interval in hours. Specify 0 not to check. Valid values 0 to 24|
 |defenderSubmitSamplesConsentType|Enumeration|Checks for the user consent level in Windows Defender to send data. Possible values are: `sendSafeSamplesAutomatically`, `alwaysPrompt`, `neverSend`, `sendAllSamplesAutomatically`.|
 |defenderSystemScanSchedule|Enumeration|Defender day of the week for the system scan. Possible values are: `userDefined`, `everyday`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `noScheduledScan`.|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |developerUnlockSetting|Enumeration|Indicates whether or not to allow developer unlock. Possible values are: `notConfigured`, `blocked`, `allowed`.|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |deviceManagementBlockFactoryResetOnMobile|Boolean|Indicates whether or not to Block the user from resetting their phone.|
 |deviceManagementBlockManualUnenroll|Boolean|Indicates whether or not to Block the user from doing manual un-enrollment from device management.|
 |diagnosticsDataSubmissionMode|Enumeration|Gets or sets a value allowing the device to send diagnostic and usage telemetry data, such as Watson. Possible values are: `userDefined`, `none`, `basic`, `enhanced`, `full`.|
 |displayAppListWithGdiDPIScalingTurnedOff|String collection|List of legacy applications that have GDI DPI Scaling turned off.|
 |displayAppListWithGdiDPIScalingTurnedOn|String collection|List of legacy applications that have GDI DPI Scaling turned on.|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |edgeAllowStartPagesModification|Boolean|Allow users to change Start pages on Edge. Use the EdgeHomepageUrls to specify the Start pages that the user would see by default when they open Edge.|
 |edgeBlockAccessToAboutFlags|Boolean|Indicates whether or not to prevent access to about flags on Edge browser.|
 |edgeBlockAddressBarDropdown|Boolean|Block the address bar dropdown functionality in Microsoft Edge. Disable this settings to minimize network connections from Microsoft Edge to Microsoft services.|
@@ -151,7 +152,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |edgeFavoritesBarVisibility|Enumeration|Get or set a value that specifies whether to set the favorites bar to always be visible or hidden on any page. Possible values are: `notConfigured`, `hide`, `show`.|
 |edgeFavoritesListLocation|String|The location of the favorites list to provision. Could be a local file, local network or http location.|
 |edgeFirstRunUrl|String|The first run URL for when Edge browser is opened for the first time.|
-|edgeHomeButtonConfiguration|[edgeHomeButtonConfiguration](../resources/edgeHomeButtonConfiguration.md)|Causes the Home button to either hide, load the default Start page, load a New tab page, or a custom URL|
+|edgeHomeButtonConfiguration|[edgeHomeButtonConfiguration](../resources/edgehomebuttonconfiguration.md)|Causes the Home button to either hide, load the default Start page, load a New tab page, or a custom URL|
 |edgeHomeButtonConfigurationEnabled|Boolean|Enable the Home button configuration.|
 |edgeHomepageUrls|String collection|The list of URLs for homepages shodwn on MDM-enrolled devices on Edge browser.|
 |edgeKioskModeRestriction|Enumeration|Controls how the Microsoft Edge settings are restricted based on the configure kiosk mode. Possible values are: `notConfigured`, `digitalSignage`, `normalMode`, `publicBrowsingSingleApp`, `publicBrowsingMultiApp`.|
@@ -161,7 +162,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |edgePreventCertificateErrorOverride|Boolean|Allow or prevent users from overriding certificate errors.|
 |edgeRequiredExtensionPackageFamilyNames|String collection|Specify the list of package family names of browser extensions that are required and cannot be turned off by the user.|
 |edgeRequireSmartScreen|Boolean|Indicates whether or not to Require the user to use the smart screen filter.|
-|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgeSearchEngineBase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
+|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgesearchenginebase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
 |edgeSendIntranetTrafficToInternetExplorer|Boolean|Indicates whether or not to switch the intranet traffic from Edge to Internet Explorer.|
 |edgeShowMessageWhenOpeningInternetExplorerSites|Enumeration|Controls the message displayed by Edge before switching to Internet Explorer. Possible values are: `notConfigured`, `disabled`, `enabled`, `keepGoing`.|
 |edgeSyncFavoritesWithInternetExplorer|Boolean|Enable favorites sync between Internet Explorer and Microsoft Edge. Additions, deletions, modifications and order changes to favorites are shared between browsers.|
@@ -185,7 +186,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |inkWorkspaceAccessState|Enumeration|Controls the user access to the ink workspace, from the desktop and from above the lock screen. Possible values are: `notConfigured`, `blocked`, `allowed`.|
 |inkWorkspaceBlockSuggestedApps|Boolean|Specify whether to show recommended app suggestions in the ink workspace.|
 |internetSharingBlocked|Boolean|Indicates whether or not to Block the user from using internet sharing.|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |locationServicesBlocked|Boolean|Indicates whether or not to Block the user from location services.|
 |lockScreenActivateAppsWithVoice|Enumeration|This policy setting specifies whether Windows apps can be activated by voice while the system is locked. Possible values are: `notConfigured`, `enabled`, `disabled`.|
 |lockScreenAllowTimeoutConfiguration|Boolean|Specify whether to show a user-configurable setting to control the screen timeout while on the lock screen of Windows 10 Mobile devices. If this policy is set to Allow, the value set by lockScreenTimeoutInSeconds is ignored.|
@@ -203,7 +204,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |networkProxyApplySettingsDeviceWide|Boolean|If set, proxy settings will be applied to all processes and accounts in the device. Otherwise, it will be applied to the user account that’s enrolled into MDM.|
 |networkProxyAutomaticConfigurationUrl|String|Address to the proxy auto-config (PAC) script you want to use.|
 |networkProxyDisableAutoDetect|Boolean|Disable automatic detection of settings. If enabled, the system will try to find the path to a proxy auto-config (PAC) script.|
-|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10NetworkProxyServer.md)|Specifies manual proxy server settings.|
+|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10networkproxyserver.md)|Specifies manual proxy server settings.|
 |nfcBlocked|Boolean|Indicates whether or not to Block the user from using near field communication.|
 |oneDriveDisableFileSync|Boolean|Gets or sets a value allowing IT admins to prevent apps and features from working with files on OneDrive.|
 |passwordBlockSimple|Boolean|Specify whether PINs or passwords such as "1111" or "1234" are allowed. For Windows 10 desktops, it also controls the use of picture passwords.|
@@ -237,7 +238,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |privacyBlockPublishUserActivities|Boolean|Blocks the shared experiences/discovery of recently used resources in task switcher etc.|
 |privacyDisableLaunchExperience|Boolean|This policy prevents the privacy experience from launching during user logon for new and upgraded users.​|
 |resetProtectionModeBlocked|Boolean|Indicates whether or not to Block the user from reset protection mode.|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |safeSearchFilter|Enumeration|Specifies what filter level of safe search is required. Possible values are: `userDefined`, `strict`, `moderate`.|
 |screenCaptureBlocked|Boolean|Indicates whether or not to Block the user from taking Screenshots.|
 |searchBlockDiacritics|Boolean|Specifies if search can use diacritics.|
@@ -307,20 +308,20 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |storageRequireMobileDeviceEncryption|Boolean|Indicating whether or not to require encryption on a mobile device.|
 |storageRestrictAppDataToSystemVolume|Boolean|Indicates whether application data is restricted to the system drive.|
 |storageRestrictAppInstallToSystemVolume|Boolean|Indicates whether the installation of applications is restricted to the system drive.|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |systemTelemetryProxyServer|String|Gets or sets the fully qualified domain name (FQDN) or IP address of a proxy server to forward Connected User Experiences and Telemetry requests.|
 |taskManagerBlockEndTask|Boolean|Specify whether non-administrators can use Task Manager to end tasks.|
 |tenantLockdownRequireNetworkDuringOutOfBoxExperience|Boolean|Whether the device is required to connect to the network.|
 |uninstallBuiltInApps|Boolean|Indicates whether or not to uninstall a fixed list of built-in Windows apps.|
 |usbBlocked|Boolean|Indicates whether or not to Block the user from USB connection.|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |voiceRecordingBlocked|Boolean|Indicates whether or not to Block the user from voice recording.|
 |webRtcBlockLocalhostIpAddress|Boolean|Indicates whether or not user's localhost IP address is displayed while making phone calls using the WebRTC|
 |wiFiBlockAutomaticConnectHotspots|Boolean|Indicating whether or not to block automatically connecting to Wi-Fi hotspots. Has no impact if Wi-Fi is blocked.|
 |wiFiBlocked|Boolean|Indicates whether or not to Block the user from using Wi-Fi.|
 |wiFiBlockManualConfiguration|Boolean|Indicates whether or not to Block the user from using Wi-Fi manual configuration.|
 |wiFiScanInterval|Int32|Specify how often devices scan for Wi-Fi networks. Supported values are 1-500, where 100 = default, and 500 = low frequency. Valid values 1 to 500|
-|windows10AppsForceUpdateSchedule|[windows10AppsForceUpdateSchedule](../resources/windows10AppsForceUpdateSchedule.md)|Windows 10 force update schedule for Apps.|
+|windows10AppsForceUpdateSchedule|[windows10AppsForceUpdateSchedule](../resources/windows10appsforceupdateschedule.md)|Windows 10 force update schedule for Apps.|
 |windowsSpotlightBlockConsumerSpecificFeatures|Boolean|Allows IT admins to block experiences that are typically for consumers only, such as Start suggestions, Membership notifications, Post-OOBE app install and redirect tiles.|
 |windowsSpotlightBlocked|Boolean|Allows IT admins to turn off all Windows Spotlight features|
 |windowsSpotlightBlockOnActionCenter|Boolean|Block suggestions from Microsoft that show after each OS clean install, upgrade or in an on-going basis to introduce users to what is new or changed|
@@ -339,14 +340,14 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|groupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) collection|The list of group assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|privacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md) collection|Indicates a list of applications with their access control levels over privacy data categories, and/or the default access levels per category.|
-|userStatuses|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|assignments|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|groupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) collection|The list of group assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|privacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) collection|Indicates a list of applications with their access control levels over privacy data categories, and/or the default access levels per category.|
+|userStatuses|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

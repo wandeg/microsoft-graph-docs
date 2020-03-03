@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookSortField resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |ascending|Boolean||
 |color|String||
 |dataOption|String||
-|icon|[workbookIcon](../resources/workbookIcon.md)||
+|icon|[workbookIcon](../resources/workbookicon.md)||
 |key|Int32||
 |sortOn|String||
 

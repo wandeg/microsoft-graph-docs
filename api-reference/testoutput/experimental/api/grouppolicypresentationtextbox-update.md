@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyPresentationTextBox
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyPresentationTextBox](../resources/grouppolicypresentationtextbox.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH ** Entity URI for microsoft.graph.groupPolicyPresentationTextBox not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyPresentationTextBox](../resources/groupPolicyPresentationTextBox.md) object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationTextBox](../resources/grouppolicypresentationtextbox.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyPresentationTextBox](../resources/grouppolicypresentationtextbox.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
 |defaultValue|String|Localized default string displayed in the text box. The default value is empty.|
 |required|Boolean|Requirement to enter a value in the text box. Default value is false.|
 |maxLength|Int64|An unsigned integer that specifies the maximum number of text characters. Default value is 1023.|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationTextBox not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationTextBox not found
 Content-type: application/json
 Content-length: 181
 
@@ -90,9 +92,9 @@ Content-Length: 294
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationTextBox",
-  "id": "41caf3d8-f3d8-41ca-d8f3-ca41d8f3ca41",
+  "id": "bc276c94-6c94-bc27-946c-27bc946c27bc",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "defaultValue": "Default Value value",
   "required": true,
   "maxLength": 9

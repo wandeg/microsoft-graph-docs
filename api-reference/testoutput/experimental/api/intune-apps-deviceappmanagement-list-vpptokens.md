@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List vppTokens
 
+Namespace: microsoft.graph
+
 Get the vppTokens from the vppTokens navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/vppTokens
+GET https://graph.microsoft.com/localtest/deviceAppManagement/vppTokens
 ```
 
 ### Response
@@ -64,28 +66,28 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1255
+Content-Length: 1257
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.vppToken",
-      "id": "d9039a32-9a32-d903-329a-03d9329a03d9",
+      "id": "be7b7b55-7b55-be7b-557b-7bbe557b7bbe",
       "organizationName": "Organization Name value",
       "vppTokenAccountType": "String",
       "appleId": "Apple Id value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "token": "Token value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "state": "String",
       "tokenActionResults": [
         {
           "@odata.type": "microsoft.graph.vppTokenActionResult",
           "actionName": "Action Name value",
           "actionState": "String",
-          "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-          "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+          "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
         }
       ],
       "lastSyncStatus": "String",

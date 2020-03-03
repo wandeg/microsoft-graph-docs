@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationSchool
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationSchool](../resources/educationschool.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH /education/schools/{educationSchoolId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationSchool](../resources/educationSchool.md) object.
+In the request body, supply a JSON representation for the [educationSchool](../resources/educationschool.md) object.
 
 The following table shows the properties that are required when you create the [educationSchool](../resources/educationschool.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [educationOrganization](../resources/educationOrganization.md)|
-|description|String| Inherited from [educationOrganization](../resources/educationOrganization.md)|
-|externalSource|Enumeration| Inherited from [educationOrganization](../resources/educationOrganization.md). Possible values are: `sis`, `manual`, `unknownFutureValue`.|
+|displayName|String| Inherited from [educationOrganization](../resources/educationorganization.md)|
+|description|String| Inherited from [educationOrganization](../resources/educationorganization.md)|
+|externalSource|Enumeration| Inherited from [educationOrganization](../resources/educationorganization.md). Possible values are: `sis`, `manual`, `unknownFutureValue`.|
 |principalEmail|String||
 |principalName|String||
 |externalPrincipalId|String||
@@ -54,8 +56,8 @@ The following table shows the properties that are required when you create the [
 |externalId|String||
 |phone|String||
 |fax|String||
-|createdBy|[identitySet](../resources/identitySet.md)||
-|address|[physicalAddress](../resources/physicalAddress.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
 
 
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/schools/{educationSchoolId}
+PATCH https://graph.microsoft.com/localtest/education/schools/{educationSchoolId}
 Content-type: application/json
 Content-length: 1174
 
@@ -130,7 +132,7 @@ Content-Length: 1223
 
 {
   "@odata.type": "#microsoft.graph.educationSchool",
-  "id": "41bd57cc-57cc-41bd-cc57-bd41cc57bd41",
+  "id": "f53bb4d9-b4d9-f53b-d9b4-3bf5d9b43bf5",
   "displayName": "Display Name value",
   "description": "Description value",
   "externalSource": "String",

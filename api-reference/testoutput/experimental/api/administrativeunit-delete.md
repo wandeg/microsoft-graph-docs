@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete administrativeUnit
 
+Namespace: microsoft.graph
+
 Deletes a [administrativeUnit](../resources/administrativeunit.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/administrativeUnits/{administrativeUnitsId}
+DELETE https://graph.microsoft.com/localtest/administrativeUnits/{administrativeUnitsId}
 ```
 
 ### Response

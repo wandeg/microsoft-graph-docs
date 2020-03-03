@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceConfigurationUserStateSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceConfigurationUserStateSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceConfigurationUserStateSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 393
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationUserStateSummary",
-      "id": "faf0faea-faea-faf0-eafa-f0faeafaf0fa",
+      "id": "5b2ea204-a204-5b2e-04a2-2e5b04a22e5b",
       "unknownUserCount": 0,
       "notApplicableUserCount": 6,
       "compliantUserCount": 2,

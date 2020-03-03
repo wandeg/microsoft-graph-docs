@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get privilegedApproval
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [privilegedApproval](../resources/privilegedapproval.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedApproval/{privilegedApprovalId}
+GET https://graph.microsoft.com/localtest/privilegedApproval/{privilegedApprovalId}
 ```
 
 ### Response
@@ -67,21 +69,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 528
+Content-Length: 529
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedApproval",
-    "id": "e6d77812-7812-e6d7-1278-d7e61278d7e6",
+    "id": "1f8359bc-59bc-1f83-bc59-831fbc59831f",
     "userId": "User Id value",
     "roleId": "Role Id value",
     "approvalType": "Approval Type value",
     "approvalState": "String",
-    "approvalDuration": "-PT26.664797S",
+    "approvalDuration": "-PT43.0884826S",
     "requestorReason": "Requestor Reason value",
     "approverReason": "Approver Reason value",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00"
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
   }
 }
 ```

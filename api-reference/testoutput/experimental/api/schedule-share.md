@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # share
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -62,15 +64,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/schedule/share
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/schedule/share
 
 Content-type: application/json
 Content-length: 138
 
 {
   "notifyTeam": true,
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00"
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
 }
 ```
 

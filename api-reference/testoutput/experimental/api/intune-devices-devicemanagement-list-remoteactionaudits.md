@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List remoteActionAudits
 
+Namespace: microsoft.graph
+
 Get the remoteActionAudits from the remoteActionAudits navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/remoteActionAudits
+GET https://graph.microsoft.com/localtest/deviceManagement/remoteActionAudits
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 623
   "value": [
     {
       "@odata.type": "#microsoft.graph.remoteActionAudit",
-      "id": "537f25ec-25ec-537f-ec25-7f53ec257f53",
+      "id": "d2d45e42-5e42-d2d4-425e-d4d2425ed4d2",
       "deviceDisplayName": "Device Display Name value",
       "userName": "User Name value",
       "initiatedByUserPrincipalName": "Initiated By User Principal Name value",
       "action": "String",
-      "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
+      "requestDateTime": "2017-01-01T00:00:58.3860693+03:00",
       "deviceOwnerUserPrincipalName": "Device Owner User Principal Name value",
       "deviceIMEI": "Device IMEI value",
       "actionState": "String",

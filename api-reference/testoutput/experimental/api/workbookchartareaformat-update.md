@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartAreaFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartAreaFormat](../resources/workbookChartAreaFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartAreaFormat](../resources/workbookchartareaformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format
 Content-type: application/json
 Content-length: 65
 
@@ -81,7 +83,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-  "id": "f1b41255-1255-f1b4-5512-b4f15512b4f1"
+  "id": "86c39342-9342-86c3-4293-c3864293c386"
 }
 ```
 

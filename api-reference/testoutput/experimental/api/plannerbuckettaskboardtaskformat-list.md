@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerBucketTaskBoardTaskFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerBucketTaskBoardTaskFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerBucketTaskBoardTaskFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 204
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerBucketTaskBoardTaskFormat",
-      "id": "556f8124-8124-556f-2481-6f5524816f55",
+      "id": "9ebe5fb8-5fb8-9ebe-b85f-be9eb85fbe9e",
       "orderHint": "Order Hint value"
     }
   ]

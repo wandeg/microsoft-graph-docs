@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationCsvDataProvider resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationSynchronizationDataProvider](../resources/educationSynchronizationDataProvider.md)
+
+
+Inherits from [educationSynchronizationDataProvider](../resources/educationsynchronizationdataprovider.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|customizations|[educationSynchronizationCustomizations](../resources/educationSynchronizationCustomizations.md)||
+|customizations|[educationSynchronizationCustomizations](../resources/educationsynchronizationcustomizations.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyPresentation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyPresentation](../resources/grouppolicypresentation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/presentations/{groupPolicyPresentationId}
+GET https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues/{groupPolicyPresentationValueId}/presentation/definition/presentations/{groupPolicyPresentationId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 232
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentation",
-    "id": "421ac457-c457-421a-57c4-1a4257c41a42",
+    "id": "3d562b56-2b56-3d56-562b-563d562b563d",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

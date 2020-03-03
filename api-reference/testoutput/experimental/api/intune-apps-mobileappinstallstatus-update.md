@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppInstallStatus
 
-Update the properties of a [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/userStatuses/{userAppInstall
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppInstallStatus](../resources/mobileAppInstallStatus.md) object.
+In the request body, supply a JSON representation for the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppInstallStatus](../resources/mobileappinstallstatus.md).
+The following table shows the properties that are required when you create the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object in the response body.
 
 ## Example
 
@@ -71,15 +73,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses/{mobileAppInstallStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/deviceStatuses/{mobileAppInstallStatusId}
 Content-type: application/json
-Content-length: 535
+Content-length: 536
 
 {
   "@odata.type": "#microsoft.graph.mobileAppInstallStatus",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "mobileAppInstallStatusValue": "String",
   "installState": "String",
   "installStateDetail": "String",
@@ -102,14 +104,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 584
+Content-Length: 585
 
 {
   "@odata.type": "#microsoft.graph.mobileAppInstallStatus",
-  "id": "fbdee6f1-e6f1-fbde-f1e6-defbf1e6defb",
+  "id": "f9b1035b-035b-f9b1-5b03-b1f95b03b1f9",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "mobileAppInstallStatusValue": "String",
   "installState": "String",
   "installStateDetail": "String",

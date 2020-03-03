@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List accessPackageAssignments
 
+Namespace: microsoft.graph
+
 Get the accessPackageAssignments from the accessPackageAssignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageAssignments
+GET https://graph.microsoft.com/localtest/identityGovernance/entitlementManagement/accessPackageAssignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 541
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageAssignment",
-      "id": "26ba4e1b-4e1b-26ba-1b4e-ba261b4eba26",
+      "id": "89902c03-2c03-8990-032c-9089032c9089",
       "catalogId": "Catalog Id value",
       "accessPackageId": "Access Package Id value",
       "assignmentPolicyId": "Assignment Policy Id value",
@@ -78,7 +80,7 @@ Content-Length: 541
       "assignmentStatus": "Assignment Status value",
       "assignmentState": "Assignment State value",
       "isExtended": true,
-      "expiredDateTime": "2017-01-01T00:01:28.5537509+03:00"
+      "expiredDateTime": "2016-12-31T23:58:42.0287162+03:00"
     }
   ]
 }

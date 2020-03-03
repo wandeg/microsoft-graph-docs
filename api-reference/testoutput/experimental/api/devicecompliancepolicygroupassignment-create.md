@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceCompliancePolicyGroupAssignment
 
+Namespace: microsoft.graph
+
 Create a new [deviceCompliancePolicyGroupAssignment](../resources/devicecompliancepolicygroupassignment.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceCompliancePolicyGroupAssignment
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCompliancePolicyGroupAssignment object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicyGroupAssignment](../resources/devicecompliancepolicygroupassignment.md) object.
 
-The following table shows the properties that are required when you create the deviceCompliancePolicyGroupAssignment.
+The following table shows the properties that are required when you create the [deviceCompliancePolicyGroupAssignment](../resources/devicecompliancepolicygroupassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceCompliancePolicyGroupAssignment not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceCompliancePolicyGroupAssignment not found
 Content-type: application/json
 Content-length: 149
 
@@ -87,7 +89,7 @@ Content-Length: 198
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyGroupAssignment",
-  "id": "7a428692-8692-7a42-9286-427a9286427a",
+  "id": "081f893b-893b-081f-3b89-1f083b891f08",
   "targetGroupId": "Target Group Id value",
   "excludeGroup": true
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userExperienceAnalyticsRegressionSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userExperienceAnalyticsRegressionSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userExperienceAnalyticsRegressionSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 172
   "value": [
     {
       "@odata.type": "#microsoft.graph.userExperienceAnalyticsRegressionSummary",
-      "id": "7b659701-9701-7b65-0197-657b0197657b"
+      "id": "197635e0-35e0-1976-e035-7619e0357619"
     }
   ]
 }

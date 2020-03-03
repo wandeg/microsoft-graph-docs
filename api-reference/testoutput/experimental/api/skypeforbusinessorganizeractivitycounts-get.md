@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get skypeForBusinessOrganizerActivityCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessOrganizerActivityCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessOrganizerActivityCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 392
 {
   "value": {
     "@odata.type": "#microsoft.graph.skypeForBusinessOrganizerActivityCounts",
-    "id": "cd81548d-548d-cd81-8d54-81cd8d5481cd",
+    "id": "86c96275-6275-86c9-7562-c9867562c986",
     "im": 2,
     "audioVideo": 10,
     "appSharing": 10,

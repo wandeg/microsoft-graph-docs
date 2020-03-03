@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # filterOperators
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ GET /applications/{applicationsId}/synchronization/templates/{synchronizationTem
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [filterOperatorSchema](../resources/filterOperatorSchema.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [filterOperatorSchema](../resources/filteroperatorschema.md) collection in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/filterOperators
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/filterOperators
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 288
   "value": [
     {
       "@odata.type": "#microsoft.graph.filterOperatorSchema",
-      "id": "58b8aa39-aa39-58b8-39aa-b85839aab858",
+      "id": "885b8a7a-8a7a-885b-7a8a-5b887a8a5b88",
       "arity": "String",
       "multivaluedComparisonType": "String",
       "supportedAttributeTypes": [

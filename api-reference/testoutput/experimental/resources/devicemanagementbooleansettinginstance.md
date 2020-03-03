@@ -5,33 +5,34 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementBooleanSettingInstance resource type
+
+
+Namespace: microsoft.graph
 
 A setting instance representing a boolean value
 
 
-Inherits from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)
+Inherits from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementBooleanSettingInstances](../api/devicemanagementbooleansettinginstance-list.md)|[deviceManagementBooleanSettingInstance](../resources/deviceManagementBooleanSettingInstance.md) collection|List properties and relationships of the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) objects.|
-|[Get deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-get.md)|[deviceManagementBooleanSettingInstance](../resources/deviceManagementBooleanSettingInstance.md)|Read properties and relationships of the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
-|[Create deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-create.md)|[deviceManagementBooleanSettingInstance](../resources/deviceManagementBooleanSettingInstance.md)|Create a new [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
+|[List deviceManagementBooleanSettingInstances](../api/devicemanagementbooleansettinginstance-list.md)|[deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) collection|List properties and relationships of the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) objects.|
+|[Get deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-get.md)|[deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md)|Read properties and relationships of the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
+|[Create deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-create.md)|[deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md)|Create a new [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
 |[Delete deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-delete.md)|None|Deletes a [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md).|
-|[Update deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-update.md)|[deviceManagementBooleanSettingInstance](../resources/deviceManagementBooleanSettingInstance.md)|Update the properties of a [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
+|[Update deviceManagementBooleanSettingInstance](../api/devicemanagementbooleansettinginstance-update.md)|[deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md)|Update the properties of a [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |value|Boolean|The boolean value|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 
 ## Relationships
 None

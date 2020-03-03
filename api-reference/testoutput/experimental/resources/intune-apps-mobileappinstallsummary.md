@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppInstallSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the installation summary of a mobile app.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileAppInstallSummaries](../api/intune-apps-mobileappinstallsummary-list.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md) collection|List properties and relationships of the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) objects.|
-|[Get mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-get.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md)|Read properties and relationships of the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object.|
-|[Create mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-create.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md)|Create a new [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object.|
-|[Delete mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-delete.md)|None|Deletes a [mobileAppInstallSummary](../resources/mobileappinstallsummary.md).|
-|[Update mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-update.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileAppInstallSummary.md)|Update the properties of a [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object.|
+|[List mobileAppInstallSummaries](../api/intune-apps-mobileappinstallsummary-list.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) collection|List properties and relationships of the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) objects.|
+|[Get mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-get.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md)|Read properties and relationships of the [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.|
+|[Create mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-create.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md)|Create a new [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.|
+|[Delete mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-delete.md)|None|Deletes a [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md).|
+|[Update mobileAppInstallSummary](../api/intune-apps-mobileappinstallsummary-update.md)|[mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md)|Update the properties of a [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

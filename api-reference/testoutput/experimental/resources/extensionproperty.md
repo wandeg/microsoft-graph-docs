@@ -5,35 +5,38 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # extensionProperty resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get extensionProperty](../api/extensionproperty-get.md)|[extensionProperty](../resources/extensionProperty.md)|Read properties and relationships of the [extensionProperty](../resources/extensionproperty.md) object.|
+|[List extensionProperties](../api/extensionproperty-list.md)|[extensionProperty](../resources/extensionproperty.md) collection|List properties and relationships of the [extensionProperty](../resources/extensionproperty.md) objects.|
+|[Get extensionProperty](../api/extensionproperty-get.md)|[extensionProperty](../resources/extensionproperty.md)|Read properties and relationships of the [extensionProperty](../resources/extensionproperty.md) object.|
+|[Create extensionProperty](../api/extensionproperty-create.md)|[extensionProperty](../resources/extensionproperty.md)|Create a new [extensionProperty](../resources/extensionproperty.md) object.|
 |[Delete extensionProperty](../api/extensionproperty-delete.md)|None|Deletes a [extensionProperty](../resources/extensionproperty.md).|
-|[Update extensionProperty](../api/extensionproperty-update.md)|[extensionProperty](../resources/extensionProperty.md)|Update the properties of a [extensionProperty](../resources/extensionproperty.md) object.|
+|[Update extensionProperty](../api/extensionproperty-update.md)|[extensionProperty](../resources/extensionproperty.md)|Update the properties of a [extensionProperty](../resources/extensionproperty.md) object.|
 |[checkMemberGroups](../api/extensionproperty-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/extensionproperty-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/extensionproperty-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/extensionproperty-getmemberobjects.md)|String collection||
-|[restore](../api/extensionproperty-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/extensionproperty-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |appDisplayName|String||
 |dataType|String||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isSyncedFromOnPremises|Boolean||
 |name|String||

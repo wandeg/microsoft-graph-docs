@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List classifyFileJobs
 
+Namespace: microsoft.graph
+
 Get the jobResponseBases from the classifyFileJobs navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/classifyFileJobs
+GET https://graph.microsoft.com/localtest/dataClassification/classifyFileJobs
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1026
+Content-Length: 1027
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.jobResponseBase",
-      "id": "2b802f0d-2f0d-2b80-0d2f-802b0d2f802b",
+      "id": "e3582e2c-2e2c-e358-2c2e-58e32c2e58e3",
       "type": "Type value",
       "status": "Status value",
       "tenantId": "Tenant Id value",
-      "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "error": {
         "@odata.type": "microsoft.graph.classificationError",
         "code": "Code value",
@@ -84,7 +86,7 @@ Content-Length: 1026
         "target": "Target value",
         "innerError": {
           "@odata.type": "microsoft.graph.classificationInnerError",
-          "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+          "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
           "clientRequestId": "Client Request Id value",
           "activityId": "Activity Id value"
         },

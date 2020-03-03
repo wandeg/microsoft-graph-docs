@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsInformationProtectionDesktopApp resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)
+
+
+Inherits from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)
 
 ## Properties
 |Property|Type|Description|
@@ -22,11 +23,11 @@ Inherits from [windowsInformationProtectionApp](../resources/windowsInformationP
 |binaryName|String|The binary name.|
 |binaryVersionHigh|String|The high binary version.|
 |binaryVersionLow|String|The lower binary version.|
-|denied|Boolean|If true, app is denied protection or exemption. Inherited from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)|
-|description|String|The app's description. Inherited from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)|
-|displayName|String|App display name. Inherited from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)|
-|productName|String|The product name. Inherited from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)|
-|publisherName|String|The publisher name Inherited from [windowsInformationProtectionApp](../resources/windowsInformationProtectionApp.md)|
+|denied|Boolean|If true, app is denied protection or exemption. Inherited from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)|
+|description|String|The app's description. Inherited from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)|
+|displayName|String|App display name. Inherited from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)|
+|productName|String|The product name. Inherited from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)|
+|publisherName|String|The publisher name Inherited from [windowsInformationProtectionApp](../resources/windowsinformationprotectionapp.md)|
 
 ## Relationships
 None

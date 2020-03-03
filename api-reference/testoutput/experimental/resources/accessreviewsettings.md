@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # accessReviewSettings resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -20,10 +21,10 @@ Namespace: microsoft.graph
 |activityDurationInDays|Int32||
 |autoApplyReviewResultsEnabled|Boolean||
 |autoReviewEnabled|Boolean||
-|autoReviewSettings|[autoReviewSettings](../resources/autoReviewSettings.md)||
+|autoReviewSettings|[autoReviewSettings](../resources/autoreviewsettings.md)||
 |justificationRequiredOnApproval|Boolean||
 |mailNotificationsEnabled|Boolean||
-|recurrenceSettings|[accessReviewRecurrenceSettings](../resources/accessReviewRecurrenceSettings.md)||
+|recurrenceSettings|[accessReviewRecurrenceSettings](../resources/accessreviewrecurrencesettings.md)||
 |remindersEnabled|Boolean||
 
 ## Relationships

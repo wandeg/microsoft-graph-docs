@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windows81VpnProxyServer resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [vpnProxyServer](../resources/vpnProxyServer.md)
+
+
+Inherits from [vpnProxyServer](../resources/vpnproxyserver.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|String|Address. Inherited from [vpnProxyServer](../resources/vpnProxyServer.md)|
+|address|String|Address. Inherited from [vpnProxyServer](../resources/vpnproxyserver.md)|
 |automaticallyDetectProxySettings|Boolean|Automatically detect proxy settings.|
-|automaticConfigurationScriptUrl|String|Proxy's automatic configuration script url. Inherited from [vpnProxyServer](../resources/vpnProxyServer.md)|
+|automaticConfigurationScriptUrl|String|Proxy's automatic configuration script url. Inherited from [vpnProxyServer](../resources/vpnproxyserver.md)|
 |bypassProxyServerForLocalAddress|Boolean|Bypass proxy server for local address.|
-|port|Int32|Port. Valid values 0 to 65535 Inherited from [vpnProxyServer](../resources/vpnProxyServer.md)|
+|port|Int32|Port. Valid values 0 to 65535 Inherited from [vpnProxyServer](../resources/vpnproxyserver.md)|
 
 ## Relationships
 None

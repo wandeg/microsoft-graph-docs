@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceInstallState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
 ```
 
 ### Response
@@ -68,15 +70,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 458
+Content-Length: 459
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceInstallState",
-    "id": "3a86fe0a-fe0a-3a86-0afe-863a0afe863a",
+    "id": "375438b8-38b8-3754-b838-5437b8385437",
     "deviceName": "Device Name value",
     "deviceId": "Device Id value",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "installState": "String",
     "errorCode": "Error Code value",
     "osVersion": "Os Version value",

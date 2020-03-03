@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceHealthScriptRunSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the run summary of a device management script.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceHealthScriptRunSummaries](../api/intune-devices-devicehealthscriptrunsummary-list.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-deviceHealthScriptRunSummary.md) collection|List properties and relationships of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) objects.|
-|[Get deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-get.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-deviceHealthScriptRunSummary.md)|Read properties and relationships of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.|
-|[Create deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-create.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-deviceHealthScriptRunSummary.md)|Create a new [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.|
-|[Delete deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-delete.md)|None|Deletes a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md).|
-|[Update deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-update.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-deviceHealthScriptRunSummary.md)|Update the properties of a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.|
+|[List deviceHealthScriptRunSummaries](../api/intune-devices-devicehealthscriptrunsummary-list.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) collection|List properties and relationships of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) objects.|
+|[Get deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-get.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md)|Read properties and relationships of the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.|
+|[Create deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-create.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md)|Create a new [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.|
+|[Delete deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-delete.md)|None|Deletes a [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md).|
+|[Update deviceHealthScriptRunSummary](../api/intune-devices-devicehealthscriptrunsummary-update.md)|[deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md)|Update the properties of a [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

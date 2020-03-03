@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceRunStates
 
+Namespace: microsoft.graph
+
 Add deviceRunStates by posting to the deviceRunStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunState
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceHealthScriptDeviceState object.
+In the request body, supply a JSON representation for the [deviceHealthScriptDeviceState](../resources/intune-devices-devicehealthscriptdevicestate.md) object.
 
-The following table shows the properties that are required when you create the deviceHealthScriptDeviceState.
+The following table shows the properties that are required when you create the [deviceHealthScriptDeviceState](../resources/intune-devices-devicehealthscriptdevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -57,7 +59,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceHealthScriptDeviceState](../resources/devicehealthscriptdevicestate.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceHealthScriptDeviceState](../resources/intune-devices-devicehealthscriptdevicestate.md) object in the response body.
 
 ## Example
 
@@ -69,16 +71,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates
 Content-type: application/json
-Content-length: 759
+Content-length: 760
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScriptDeviceState",
   "detectionState": "String",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
-  "expectedStateUpdateDateTime": "2017-01-01T00:02:58.8774146+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
+  "expectedStateUpdateDateTime": "2016-12-31T23:58:06.1336639+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "preRemediationDetectionScriptOutput": "Pre Remediation Detection Script Output value",
   "preRemediationDetectionScriptError": "Pre Remediation Detection Script Error value",
   "remediationScriptError": "Remediation Script Error value",
@@ -99,15 +101,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 808
+Content-Length: 809
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScriptDeviceState",
-  "id": "daed47e9-47e9-daed-e947-eddae947edda",
+  "id": "bd3971c9-71c9-bd39-c971-39bdc97139bd",
   "detectionState": "String",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
-  "expectedStateUpdateDateTime": "2017-01-01T00:02:58.8774146+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
+  "expectedStateUpdateDateTime": "2016-12-31T23:58:06.1336639+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "preRemediationDetectionScriptOutput": "Pre Remediation Detection Script Output value",
   "preRemediationDetectionScriptError": "Pre Remediation Detection Script Error value",
   "remediationScriptError": "Remediation Script Error value",

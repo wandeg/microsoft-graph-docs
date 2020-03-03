@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete windowsManagementApp
 
-Deletes a [windowsManagementApp](../resources/windowsmanagementapp.md).
+Namespace: microsoft.graph
+
+Deletes a [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get stsPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [stsPolicy](../resources/stspolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.stsPolicy not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.stsPolicy not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 297
 {
   "value": {
     "@odata.type": "#microsoft.graph.stsPolicy",
-    "id": "7d1dce82-ce82-7d1d-82ce-1d7d82ce1d7d",
+    "id": "561b5771-5771-561b-7157-1b5671571b56",
     "description": "Description value",
     "displayName": "Display Name value",
     "definition": [

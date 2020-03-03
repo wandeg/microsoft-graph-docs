@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get commsOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [commsOperation](../resources/commsoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}/operations/{commsOperationId}
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}/operations/{commsOperationId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 353
 {
   "value": {
     "@odata.type": "#microsoft.graph.commsOperation",
-    "id": "c3457367-7367-c345-6773-45c3677345c3",
+    "id": "bbc9d89b-d89b-bbc9-9bd8-c9bb9bd8c9bb",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

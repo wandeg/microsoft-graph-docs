@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # cancelMediaProcessing
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [cancelMediaProcessingOperation](../resources/cancelMediaProcessingOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/cancelMediaProcessing
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/cancelMediaProcessing
 
 Content-type: application/json
 Content-length: 47
@@ -86,7 +88,7 @@ Content-Length: 295
 {
   "value": {
     "@odata.type": "#microsoft.graph.cancelMediaProcessingOperation",
-    "id": "4c838a1d-8a1d-4c83-1d8a-834c1d8a834c",
+    "id": "72b1b39a-b39a-72b1-9ab3-b1729ab3b172",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

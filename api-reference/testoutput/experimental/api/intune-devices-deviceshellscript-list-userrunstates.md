@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userRunStates
 
+Namespace: microsoft.graph
+
 Get the deviceManagementScriptUserStates from the userRunStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/userRunStates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 282
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptUserState",
-      "id": "fcddab30-ab30-fcdd-30ab-ddfc30abddfc",
+      "id": "b19e3078-3078-b19e-7830-9eb178309eb1",
       "successDeviceCount": 2,
       "errorDeviceCount": 0,
       "userPrincipalName": "User Principal Name value"

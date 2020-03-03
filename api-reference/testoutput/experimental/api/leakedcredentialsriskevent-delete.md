@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete leakedCredentialsRiskEvent
 
+Namespace: microsoft.graph
+
 Deletes a [leakedCredentialsRiskEvent](../resources/leakedcredentialsriskevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/leakedCredentialsRiskEvents/{leakedCredentialsRiskEventsId}
+DELETE https://graph.microsoft.com/localtest/leakedCredentialsRiskEvents/{leakedCredentialsRiskEventsId}
 ```
 
 ### Response

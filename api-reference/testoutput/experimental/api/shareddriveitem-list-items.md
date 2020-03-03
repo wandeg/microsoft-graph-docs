@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List items
 
+Namespace: microsoft.graph
+
 Get the driveItems from the items navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/shares/{sharesId}/items
+GET https://graph.microsoft.com/localtest/shares/{sharesId}/items
 ```
 
 ### Response
@@ -65,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 6239
+Content-Length: 6238
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "6a01ecb2-ecb2-6a01-b2ec-016ab2ec016a",
+      "id": "8464c8ba-c8ba-8464-bac8-6484bac86484",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -86,13 +88,13 @@ Content-Length: 6239
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",
@@ -159,7 +161,7 @@ Content-Length: 6239
       },
       "fileSystemInfo": {
         "@odata.type": "microsoft.graph.fileSystemInfo",
-        "lastAccessedDateTime": "2016-12-31T23:58:32.4321059+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00"
       },
       "folder": {
         "@odata.type": "microsoft.graph.folder",
@@ -189,7 +191,7 @@ Content-Length: 6239
         "@odata.type": "microsoft.graph.pendingOperations",
         "pendingContentUpdate": {
           "@odata.type": "microsoft.graph.pendingContentUpdate",
-          "queuedDateTime": "2017-01-01T00:01:12.8268956+03:00"
+          "queuedDateTime": "2016-12-31T23:59:45.8885405+03:00"
         }
       },
       "photo": {
@@ -202,7 +204,7 @@ Content-Length: 6239
         "focalLength": "Double",
         "iso": 3,
         "orientation": 11,
-        "takenDateTime": "2016-12-31T23:57:12.7398246+03:00"
+        "takenDateTime": "2016-12-31T23:59:08.8860013+03:00"
       },
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
@@ -220,7 +222,7 @@ Content-Length: 6239
           "sharedBy": {
             "@odata.type": "microsoft.graph.identitySet"
           },
-          "sharedDateTime": "2016-12-31T23:59:25.6718097+03:00"
+          "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00"
         },
         "size": 4,
         "specialFolder": {

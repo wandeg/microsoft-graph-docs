@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windows10CompliancePolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [windows10CompliancePolicy](../resources/windows10compliancepolicy.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.windows10CompliancePolicy not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windows10CompliancePolicy](../resources/windows10CompliancePolicy.md) object.
+In the request body, supply a JSON representation for the [windows10CompliancePolicy](../resources/windows10compliancepolicy.md) object.
 
 The following table shows the properties that are required when you create the [windows10CompliancePolicy](../resources/windows10compliancepolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
 |passwordRequired|Boolean|Require a password to unlock Windows device.|
 |passwordBlockSimple|Boolean|Indicates whether or not to block simple password.|
 |passwordRequiredToUnlockFromIdle|Boolean|Require a password to unlock an idle device.|
@@ -74,7 +76,7 @@ The following table shows the properties that are required when you create the [
 |rtpEnabled|Boolean|Require Windows Defender Antimalware Real-Time Protection on Windows devices.|
 |antivirusRequired|Boolean|Require any Antivirus solution registered with Windows Decurity Center to be on and monitoring (e.g. Symantec, Windows Defender).|
 |antiSpywareRequired|Boolean|Require any AntiSpyware solution registered with Windows Decurity Center to be on and monitoring (e.g. Symantec, Windows Defender).|
-|validOperatingSystemBuildRanges|[operatingSystemVersionRange](../resources/operatingSystemVersionRange.md) collection|The valid operating system build ranges on Windows devices. This collection can contain a maximum of 10000 elements.|
+|validOperatingSystemBuildRanges|[operatingSystemVersionRange](../resources/operatingsystemversionrange.md) collection|The valid operating system build ranges on Windows devices. This collection can contain a maximum of 10000 elements.|
 |deviceThreatProtectionEnabled|Boolean|Require that devices have enabled device threat protection.|
 |deviceThreatProtectionRequiredSecurityLevel|Enumeration|Require Device Threat Protection minimum risk level to report noncompliance. Possible values are: `unavailable`, `secured`, `low`, `medium`, `high`, `notSet`.|
 |configurationManagerComplianceRequired|Boolean|Require to consider SCCM Compliance state into consideration for Intune Compliance State.|
@@ -95,7 +97,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10CompliancePolicy not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10CompliancePolicy not found
 Content-type: application/json
 Content-length: 1640
 
@@ -157,17 +159,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1812
+Content-Length: 1811
 
 {
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
-  "id": "58ac8b88-8b88-58ac-888b-ac58888bac58",
+  "id": "3a9870ec-70ec-3a98-ec70-983aec70983a",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passwordRequired": true,

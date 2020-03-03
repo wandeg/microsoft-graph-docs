@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add jobs
 
+Namespace: microsoft.graph
+
 Add jobs by posting to the jobs collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /applications/{applicationsId}/synchronization/jobs/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the synchronizationJob object.
+In the request body, supply a JSON representation for the [synchronizationJob](../resources/synchronizationjob.md) object.
 
-The following table shows the properties that are required when you create the synchronizationJob.
+The following table shows the properties that are required when you create the [synchronizationJob](../resources/synchronizationjob.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |templateId|String||
-|schedule|[synchronizationSchedule](../resources/synchronizationSchedule.md)||
-|status|[synchronizationStatus](../resources/synchronizationStatus.md)||
-|synchronizationJobSettings|[keyValuePair](../resources/keyValuePair.md) collection||
+|schedule|[synchronizationSchedule](../resources/synchronizationschedule.md)||
+|status|[synchronizationStatus](../resources/synchronizationstatus.md)||
+|synchronizationJobSettings|[keyValuePair](../resources/keyvaluepair.md) collection||
 
 
 
@@ -63,17 +65,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs
 Content-type: application/json
-Content-length: 2657
+Content-length: 2656
 
 {
   "@odata.type": "#microsoft.graph.synchronizationJob",
   "templateId": "Template Id value",
   "schedule": {
     "@odata.type": "microsoft.graph.synchronizationSchedule",
-    "expiration": "2016-12-31T23:56:39.5472388+03:00",
-    "interval": "PT2M25.093322S",
+    "expiration": "2016-12-31T23:57:48.0321632+03:00",
+    "interval": "-PT2M35.6823926S",
     "state": "String"
   },
   "status": {
@@ -100,8 +102,8 @@ Content-length: 2657
         "message": "Message value",
         "tenantActionable": true
       },
-      "timeBegan": "2016-12-31T23:58:53.4947735+03:00",
-      "timeEnded": "2016-12-31T23:58:13.1246605+03:00"
+      "timeBegan": "2016-12-31T23:56:38.758188+03:00",
+      "timeEnded": "2017-01-01T00:00:59.4792075+03:00"
     },
     "lastSuccessfulExecution": {
       "@odata.type": "microsoft.graph.synchronizationTaskExecution"
@@ -113,21 +115,21 @@ Content-length: 2657
       {
         "@odata.type": "microsoft.graph.synchronizationProgress",
         "completedUnits": 14,
-        "progressObservationDateTime": "2017-01-01T00:03:15.9876946+03:00",
+        "progressObservationDateTime": "2016-12-31T23:58:06.548007+03:00",
         "totalUnits": 10,
         "units": "Units value"
       }
     ],
     "quarantine": {
       "@odata.type": "microsoft.graph.synchronizationQuarantine",
-      "currentBegan": "2017-01-01T00:01:03.4090256+03:00",
-      "nextAttempt": "2017-01-01T00:01:38.5156912+03:00",
+      "currentBegan": "2016-12-31T23:57:24.2893083+03:00",
+      "nextAttempt": "2016-12-31T23:59:51.872306+03:00",
       "reason": "String",
-      "seriesBegan": "2016-12-31T23:57:22.9254581+03:00",
+      "seriesBegan": "2017-01-01T00:00:37.242502+03:00",
       "seriesCount": 11
     },
-    "steadyStateFirstAchievedTime": "2017-01-01T00:00:09.893615+03:00",
-    "steadyStateLastAchievedTime": "2016-12-31T23:58:03.7785912+03:00",
+    "steadyStateFirstAchievedTime": "2016-12-31T23:57:16.2528743+03:00",
+    "steadyStateLastAchievedTime": "2016-12-31T23:59:10.0513884+03:00",
     "synchronizedEntryCountByType": [
       {
         "@odata.type": "microsoft.graph.stringKeyLongValuePair",
@@ -158,16 +160,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2706
+Content-Length: 2705
 
 {
   "@odata.type": "#microsoft.graph.synchronizationJob",
-  "id": "a2c358f2-58f2-a2c3-f258-c3a2f258c3a2",
+  "id": "b8997069-7069-b899-6970-99b8697099b8",
   "templateId": "Template Id value",
   "schedule": {
     "@odata.type": "microsoft.graph.synchronizationSchedule",
-    "expiration": "2016-12-31T23:56:39.5472388+03:00",
-    "interval": "PT2M25.093322S",
+    "expiration": "2016-12-31T23:57:48.0321632+03:00",
+    "interval": "-PT2M35.6823926S",
     "state": "String"
   },
   "status": {
@@ -194,8 +196,8 @@ Content-Length: 2706
         "message": "Message value",
         "tenantActionable": true
       },
-      "timeBegan": "2016-12-31T23:58:53.4947735+03:00",
-      "timeEnded": "2016-12-31T23:58:13.1246605+03:00"
+      "timeBegan": "2016-12-31T23:56:38.758188+03:00",
+      "timeEnded": "2017-01-01T00:00:59.4792075+03:00"
     },
     "lastSuccessfulExecution": {
       "@odata.type": "microsoft.graph.synchronizationTaskExecution"
@@ -207,21 +209,21 @@ Content-Length: 2706
       {
         "@odata.type": "microsoft.graph.synchronizationProgress",
         "completedUnits": 14,
-        "progressObservationDateTime": "2017-01-01T00:03:15.9876946+03:00",
+        "progressObservationDateTime": "2016-12-31T23:58:06.548007+03:00",
         "totalUnits": 10,
         "units": "Units value"
       }
     ],
     "quarantine": {
       "@odata.type": "microsoft.graph.synchronizationQuarantine",
-      "currentBegan": "2017-01-01T00:01:03.4090256+03:00",
-      "nextAttempt": "2017-01-01T00:01:38.5156912+03:00",
+      "currentBegan": "2016-12-31T23:57:24.2893083+03:00",
+      "nextAttempt": "2016-12-31T23:59:51.872306+03:00",
       "reason": "String",
-      "seriesBegan": "2016-12-31T23:57:22.9254581+03:00",
+      "seriesBegan": "2017-01-01T00:00:37.242502+03:00",
       "seriesCount": 11
     },
-    "steadyStateFirstAchievedTime": "2017-01-01T00:00:09.893615+03:00",
-    "steadyStateLastAchievedTime": "2016-12-31T23:58:03.7785912+03:00",
+    "steadyStateFirstAchievedTime": "2016-12-31T23:57:16.2528743+03:00",
+    "steadyStateLastAchievedTime": "2016-12-31T23:59:10.0513884+03:00",
     "synchronizedEntryCountByType": [
       {
         "@odata.type": "microsoft.graph.stringKeyLongValuePair",

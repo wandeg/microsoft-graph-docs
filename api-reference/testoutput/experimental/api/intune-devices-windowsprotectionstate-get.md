@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get windowsProtectionState
 
-Read properties and relationships of the [windowsProtectionState](../resources/windowsprotectionstate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -42,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [windowsProtectionState](../resources/windowsprotectionstate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [windowsProtectionState](../resources/intune-devices-windowsprotectionstate.md) object in the response body.
 
 ## Example
 
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/windowsProtectionState
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/windowsProtectionState
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 962
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsProtectionState",
-    "id": "29bdb8ad-b8ad-29bd-adb8-bd29adb8bd29",
+    "id": "b666b67f-b67f-b666-7fb6-66b67fb666b6",
     "malwareProtectionEnabled": true,
     "deviceState": "String",
     "realTimeProtectionEnabled": true,
@@ -86,11 +88,11 @@ Content-Length: 962
     "engineVersion": "Engine Version value",
     "signatureVersion": "Signature Version value",
     "antiMalwareVersion": "Anti Malware Version value",
-    "lastQuickScanDateTime": "2017-01-01T00:01:16.2114342+03:00",
-    "lastFullScanDateTime": "2016-12-31T23:59:44.8503151+03:00",
+    "lastQuickScanDateTime": "2016-12-31T23:59:37.2154902+03:00",
+    "lastFullScanDateTime": "2016-12-31T23:57:00.3510604+03:00",
     "lastQuickScanSignatureVersion": "Last Quick Scan Signature Version value",
     "lastFullScanSignatureVersion": "Last Full Scan Signature Version value",
-    "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00"
+    "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00"
   }
 }
 ```

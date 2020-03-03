@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidManagedStoreAppConfigurationSchema
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidManagedStoreAppConfigurationSchema](../resources/androidmanagedstoreappconfigurationschema.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAppConfigurationSchemas/{androidManagedStoreAppConfigurationSchemaId}
+GET https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAppConfigurationSchemas/{androidManagedStoreAppConfigurationSchemaId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1113
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidManagedStoreAppConfigurationSchema",
-    "id": "98f50cce-0cce-98f5-ce0c-f598ce0cf598",
+    "id": "17339224-9224-1733-2492-331724923317",
     "exampleJson": "ZXhhbXBsZUpzb24=",
     "schemaItems": [
       {

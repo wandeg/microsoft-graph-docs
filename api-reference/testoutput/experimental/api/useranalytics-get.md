@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get userAnalytics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [userAnalytics](../resources/useranalytics.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/analytics
+GET https://graph.microsoft.com/localtest/me/analytics
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 290
 {
   "value": {
     "@odata.type": "#microsoft.graph.userAnalytics",
-    "id": "96913d95-3d95-9691-953d-9196953d9196",
+    "id": "a747485a-485a-a747-5a48-47a75a4847a7",
     "settings": {
       "@odata.type": "microsoft.graph.settings",
       "hasLicense": true,

@@ -5,40 +5,41 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosGeneralDeviceConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 This topic provides descriptions of the declared methods, properties and relationships exposed by the iosGeneralDeviceConfiguration resource.
 
 
-Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
+Inherits from [deviceConfiguration](../resources/deviceconfiguration.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List iosGeneralDeviceConfigurations](../api/iosgeneraldeviceconfiguration-list.md)|[iosGeneralDeviceConfiguration](../resources/iosGeneralDeviceConfiguration.md) collection|List properties and relationships of the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) objects.|
-|[Get iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-get.md)|[iosGeneralDeviceConfiguration](../resources/iosGeneralDeviceConfiguration.md)|Read properties and relationships of the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
-|[Create iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-create.md)|[iosGeneralDeviceConfiguration](../resources/iosGeneralDeviceConfiguration.md)|Create a new [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
+|[List iosGeneralDeviceConfigurations](../api/iosgeneraldeviceconfiguration-list.md)|[iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) collection|List properties and relationships of the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) objects.|
+|[Get iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-get.md)|[iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md)|Read properties and relationships of the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
+|[Create iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-create.md)|[iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md)|Create a new [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
 |[Delete iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-delete.md)|None|Deletes a [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md).|
-|[Update iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-update.md)|[iosGeneralDeviceConfiguration](../resources/iosGeneralDeviceConfiguration.md)|Update the properties of a [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
-|[assign](../api/iosgeneraldeviceconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection||
+|[Update iosGeneralDeviceConfiguration](../api/iosgeneraldeviceconfiguration-update.md)|[iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md)|Update the properties of a [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.|
+|[assign](../api/iosgeneraldeviceconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
 |[windowsPrivacyAccessControls](../api/iosgeneraldeviceconfiguration-windowsprivacyaccesscontrols.md)|None||
 |[assignedAccessMultiModeProfiles](../api/iosgeneraldeviceconfiguration-assignedaccessmultimodeprofiles.md)|None||
-|[List groupAssignments](../api/iosgeneraldeviceconfiguration-list-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) collection|Get the deviceConfigurationGroupAssignments from the groupAssignments navigation property.|
-|[Add groupAssignments](../api/iosgeneraldeviceconfiguration-post-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
-|[List assignments](../api/iosgeneraldeviceconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/iosgeneraldeviceconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List deviceStatuses](../api/iosgeneraldeviceconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
-|[Add deviceStatuses](../api/iosgeneraldeviceconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
-|[List userStatuses](../api/iosgeneraldeviceconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
-|[Add userStatuses](../api/iosgeneraldeviceconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md)|Add userStatuses by posting to the userStatuses collection.|
-|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
-|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[List deviceSettingStateSummaries](../api/iosgeneraldeviceconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
-|[Add deviceSettingStateSummaries](../api/iosgeneraldeviceconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
+|[List groupAssignments](../api/iosgeneraldeviceconfiguration-list-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) collection|Get the deviceConfigurationGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/iosgeneraldeviceconfiguration-post-groupassignments.md)|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/iosgeneraldeviceconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/iosgeneraldeviceconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List deviceStatuses](../api/iosgeneraldeviceconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/iosgeneraldeviceconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
+|[List userStatuses](../api/iosgeneraldeviceconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/iosgeneraldeviceconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
+|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[List deviceSettingStateSummaries](../api/iosgeneraldeviceconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
+|[Add deviceSettingStateSummaries](../api/iosgeneraldeviceconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -56,13 +57,13 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |appleWatchBlockPairing|Boolean|Indicates whether or not to allow Apple Watch pairing when the device is in supervised mode (iOS 9.0 and later).|
 |appleWatchForceWristDetection|Boolean|Indicates whether or not to force a paired Apple Watch to use Wrist Detection (iOS 8.2 and later).|
 |appRemovalBlocked|Boolean|Indicates if the removal of apps is allowed.|
-|appsSingleAppModeList|[appListItem](../resources/appListItem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
+|appsSingleAppModeList|[appListItem](../resources/applistitem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
 |appStoreBlockAutomaticDownloads|Boolean|Indicates whether or not to block the automatic downloading of apps purchased on other devices when the device is in supervised mode (iOS 9.0 and later).|
 |appStoreBlocked|Boolean|Indicates whether or not to block the user from using the App Store. Requires a supervised device for iOS 13 and later.|
 |appStoreBlockInAppPurchases|Boolean|Indicates whether or not to block the user from making in app purchases.|
 |appStoreBlockUIAppInstallation|Boolean|Indicates whether or not to block the App Store app, not restricting installation through Host apps. Applies to supervised mode only (iOS 9.0 and later).|
 |appStoreRequirePassword|Boolean|Indicates whether or not to require a password when using the app store.|
-|appsVisibilityList|[appListItem](../resources/appListItem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
+|appsVisibilityList|[appListItem](../resources/applistitem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
 |appsVisibilityListType|Enumeration|Type of list that is in the AppsVisibilityList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |autoFillForceAuthentication|Boolean|Indicates whether or not to force user authentication before autofilling passwords and credit card information in Safari and other apps on supervised devices.|
 |blockSystemAppRemoval|Boolean|Indicates whether or not the removal of system apps from the device is blocked on a supervised device (iOS 11.0 and later).|
@@ -82,24 +83,24 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |classroomForceRequestPermissionToLeaveClasses|Boolean|Indicates whether a student enrolled in an unmanaged course via Classroom will request permission from the teacher when attempting to leave the course (iOS 11.3 and later).|
 |classroomForceUnpromptedAppAndDeviceLock|Boolean|Indicates whether or not to allow the teacher to lock apps or the device without prompting the student. Supervised only.|
 |compliantAppListType|Enumeration|List that is in the AppComplianceList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |configurationProfileBlockChanges|Boolean|Indicates whether or not to block the user from installing configuration profiles and certificates interactively when the device is in supervised mode.|
 |contactsAllowManagedToUnmanagedWrite|Boolean|Indicates whether or not managed apps can write contacts to unmanaged contacts accounts (iOS 12.0 and later).|
 |contactsAllowUnmanagedToManagedRead|Boolean|Indicates whether or not unmanaged apps can read from managed contacts accounts (iOS 12.0 or later).|
 |continuousPathKeyboardBlocked|Boolean|Indicates whether or not to block the continuous path keyboard when the device is supervised (iOS 13 or later).|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |dateAndTimeForceSetAutomatically|Boolean|Indicates whether or not the Date and Time "Set Automatically" feature is enabled and cannot be turned off by the user (iOS 12.0 and later).|
 |definitionLookupBlocked|Boolean|Indicates whether or not to block definition lookup when the device is in supervised mode (iOS 8.1.3 and later ).|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |deviceBlockEnableRestrictions|Boolean|Indicates whether or not to allow the user to enables restrictions in the device settings when the device is in supervised mode.|
 |deviceBlockEraseContentAndSettings|Boolean|Indicates whether or not to allow the use of the 'Erase all content and settings' option on the device when the device is in supervised mode.|
 |deviceBlockNameModification|Boolean|Indicates whether or not to allow device name modification when the device is in supervised mode (iOS 9.0 and later).|
-|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/devicemanagementapplicabilityruledevicemode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/devicemanagementapplicabilityruleosedition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/devicemanagementapplicabilityruleosversion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |diagnosticDataBlockSubmission|Boolean|Indicates whether or not to block diagnostic data submission.|
 |diagnosticDataBlockSubmissionModification|Boolean|Indicates whether or not to allow diagnostics submission settings modification when the device is in supervised mode (iOS 9.3.2 and later).|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |documentsBlockManagedDocumentsInUnmanagedApps|Boolean|Indicates whether or not to block the user from viewing managed documents in unmanaged apps.|
 |documentsBlockUnmanagedDocumentsInManagedApps|Boolean|Indicates whether or not to block the user from viewing unmanaged documents in managed apps.|
 |emailInDomainSuffixes|String collection|An email address lacking a suffix that matches any of these strings will be considered out-of-domain.|
@@ -166,23 +167,23 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |kioskModeRequireMonoAudio|Boolean|Indicates whether or not to require mono audio while in kiosk mode.|
 |kioskModeRequireVoiceOver|Boolean|Indicates whether or not to require voice over while in kiosk mode.|
 |kioskModeRequireZoom|Boolean|Indicates whether or not to require zoom while in kiosk mode.|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |lockScreenBlockControlCenter|Boolean|Indicates whether or not to block the user from using control center on the lock screen.|
 |lockScreenBlockNotificationView|Boolean|Indicates whether or not to block the user from using the notification view on the lock screen.|
 |lockScreenBlockPassbook|Boolean|Indicates whether or not to block the user from using passbook when the device is locked.|
 |lockScreenBlockTodayView|Boolean|Indicates whether or not to block the user from using the Today View on the lock screen.|
 |mediaContentRatingApps|Enumeration|Media content rating settings for Apps. Possible values are: `allAllowed`, `allBlocked`, `agesAbove4`, `agesAbove9`, `agesAbove12`, `agesAbove17`.|
-|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediaContentRatingAustralia.md)|Media content rating settings for Australia|
-|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediaContentRatingCanada.md)|Media content rating settings for Canada|
-|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediaContentRatingFrance.md)|Media content rating settings for France|
-|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediaContentRatingGermany.md)|Media content rating settings for Germany|
-|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediaContentRatingIreland.md)|Media content rating settings for Ireland|
-|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediaContentRatingJapan.md)|Media content rating settings for Japan|
-|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediaContentRatingNewZealand.md)|Media content rating settings for New Zealand|
-|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediaContentRatingUnitedKingdom.md)|Media content rating settings for United Kingdom|
-|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediaContentRatingUnitedStates.md)|Media content rating settings for United States|
+|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediacontentratingaustralia.md)|Media content rating settings for Australia|
+|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediacontentratingcanada.md)|Media content rating settings for Canada|
+|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediacontentratingfrance.md)|Media content rating settings for France|
+|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediacontentratinggermany.md)|Media content rating settings for Germany|
+|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediacontentratingireland.md)|Media content rating settings for Ireland|
+|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediacontentratingjapan.md)|Media content rating settings for Japan|
+|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediacontentratingnewzealand.md)|Media content rating settings for New Zealand|
+|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediacontentratingunitedkingdom.md)|Media content rating settings for United Kingdom|
+|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediacontentratingunitedstates.md)|Media content rating settings for United States|
 |messagesBlocked|Boolean|Indicates whether or not to block the user from using the Messages app on the supervised device.|
-|networkUsageRules|[iosNetworkUsageRule](../resources/iosNetworkUsageRule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
+|networkUsageRules|[iosNetworkUsageRule](../resources/iosnetworkusagerule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
 |notificationsBlockSettingsModification|Boolean|Indicates whether or not to allow notifications settings modification (iOS 9.3 and later).|
 |passcodeBlockFingerprintModification|Boolean|Block modification of registered Touch ID fingerprints when in supervised mode.|
 |passcodeBlockFingerprintUnlock|Boolean|Indicates whether or not to block fingerprint unlock.|
@@ -204,7 +205,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |podcastsBlocked|Boolean|Indicates whether or not to block the user from using podcasts on the supervised device (iOS 8.0 and later).|
 |privacyForceLimitAdTracking|Boolean|Indicates if ad tracking is limited.(iOS 7.0 and later).|
 |proximityBlockSetupToNewDevice|Boolean|Indicates whether or not to enable the prompt to setup nearby devices with a supervised device.|
-|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |safariBlockAutofill|Boolean|Indicates whether or not to block the user from using Auto fill in Safari. Requires a supervised device for iOS 13 and later.|
 |safariBlocked|Boolean|Indicates whether or not to block the user from using Safari. Requires a supervised device for iOS 13 and later.|
 |safariBlockJavaScript|Boolean|Indicates whether or not to block JavaScript in Safari.|
@@ -221,9 +222,9 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |softwareUpdatesEnforcedDelayInDays|Int32|Sets how many days a software update will be delyed for a supervised device. Valid values 0 to 90|
 |softwareUpdatesForceDelayed|Boolean|Indicates whether or not to delay user visibility of software updates when the device is in supervised mode.|
 |spotlightBlockInternetResults|Boolean|Indicates whether or not to block Spotlight search from returning internet results on supervised device.|
-|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |usbRestrictedModeBlocked|Boolean|Indicates if connecting to USB accessories while the device is locked is allowed (iOS 11.4.1 and later).|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |voiceDialingBlocked|Boolean|Indicates whether or not to block voice dialing.|
 |vpnBlockCreation|Boolean|Indicates whether or not the creation of VPN configurations is blocked (iOS 11.0 and later).|
 |wallpaperBlockModification|Boolean|Indicates whether or not to allow wallpaper modification on supervised device (iOS 9.0 and later) .|
@@ -233,13 +234,13 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|groupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) collection|The list of group assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|userStatuses|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|assignments|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|groupAssignments|[deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) collection|The list of group assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|userStatuses|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

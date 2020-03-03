@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create relyingPartyDetailedSummary
 
+Namespace: microsoft.graph
+
 Create a new [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.relyingPartyDetailedSummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the relyingPartyDetailedSummary object.
+In the request body, supply a JSON representation for the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.
 
-The following table shows the properties that are required when you create the relyingPartyDetailedSummary.
+The following table shows the properties that are required when you create the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the r
 |signInSuccessRate|Double||
 |uniqueUserCount|Int64||
 |migrationStatus|Enumeration|. Possible values are: `ready`, `needsReview`, `additionalStepsRequired`, `unknownFutureValue`.|
-|migrationValidationDetails|[keyValuePair](../resources/keyValuePair.md) collection||
+|migrationValidationDetails|[keyValuePair](../resources/keyvaluepair.md) collection||
 |replyUrls|String collection||
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.relyingPartyDetailedSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.relyingPartyDetailedSummary not found
 Content-type: application/json
 Content-length: 595
 
@@ -113,7 +115,7 @@ Content-Length: 644
 
 {
   "@odata.type": "#microsoft.graph.relyingPartyDetailedSummary",
-  "id": "b4388373-8373-b438-7383-38b4738338b4",
+  "id": "463e740e-740e-463e-0e74-3e460e743e46",
   "relyingPartyId": "Relying Party Id value",
   "serviceId": "Service Id value",
   "relyingPartyName": "Relying Party Name value",

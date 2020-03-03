@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # identityRiskEvent resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List identityRiskEvents](../api/identityriskevent-list.md)|[identityRiskEvent](../resources/identityRiskEvent.md) collection|List properties and relationships of the [identityRiskEvent](../resources/identityriskevent.md) objects.|
-|[Get identityRiskEvent](../api/identityriskevent-get.md)|[identityRiskEvent](../resources/identityRiskEvent.md)|Read properties and relationships of the [identityRiskEvent](../resources/identityriskevent.md) object.|
-|[Create identityRiskEvent](../api/identityriskevent-post-identityriskevents.md)|[identityRiskEvent](../resources/identityRiskEvent.md)|Create a new [identityRiskEvent](../resources/identityriskevent.md) object.|
+|[List identityRiskEvents](../api/identityriskevent-list.md)|[identityRiskEvent](../resources/identityriskevent.md) collection|List properties and relationships of the [identityRiskEvent](../resources/identityriskevent.md) objects.|
+|[Get identityRiskEvent](../api/identityriskevent-get.md)|[identityRiskEvent](../resources/identityriskevent.md)|Read properties and relationships of the [identityRiskEvent](../resources/identityriskevent.md) object.|
+|[Create identityRiskEvent](../api/identityriskevent-post-identityriskevents.md)|[identityRiskEvent](../resources/identityriskevent.md)|Create a new [identityRiskEvent](../resources/identityriskevent.md) object.|
 |[Delete identityRiskEvent](../api/identityriskevent-delete.md)|None|Deletes a [identityRiskEvent](../resources/identityriskevent.md).|
-|[Update identityRiskEvent](../api/identityriskevent-update.md)|[identityRiskEvent](../resources/identityRiskEvent.md)|Update the properties of a [identityRiskEvent](../resources/identityriskevent.md) object.|
+|[Update identityRiskEvent](../api/identityriskevent-update.md)|[identityRiskEvent](../resources/identityriskevent.md)|Update the properties of a [identityRiskEvent](../resources/identityriskevent.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties

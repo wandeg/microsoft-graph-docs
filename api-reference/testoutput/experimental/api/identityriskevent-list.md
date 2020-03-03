@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List identityRiskEvents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [identityRiskEvent](../resources/identityriskevent.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identityRiskEvents
+GET https://graph.microsoft.com/localtest/identityRiskEvents
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 598
+Content-Length: 597
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityRiskEvent",
-      "id": "9953902a-902a-9953-2a90-53992a905399",
+      "id": "4fefdef1-def1-4fef-f1de-ef4ff1deef4f",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
-      "riskEventDateTime": "2017-01-01T00:01:00.7804275+03:00",
+      "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
       "riskEventType": "Risk Event Type value",
       "riskLevel": "String",
       "riskEventStatus": "String",
-      "closedDateTime": "2017-01-01T00:01:30.8768135+03:00",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "userId": "User Id value"
     }
   ]

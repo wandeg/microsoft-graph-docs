@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete targetedManagedAppConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}
 ```
 
 ### Response

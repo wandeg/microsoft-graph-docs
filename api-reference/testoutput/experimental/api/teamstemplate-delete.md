@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [teamsTemplate](../resources/teamstemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/teamsTemplates/{teamsTemplatesId}
+DELETE https://graph.microsoft.com/localtest/teamsTemplates/{teamsTemplatesId}
 ```
 
 ### Response

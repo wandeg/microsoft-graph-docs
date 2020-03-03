@@ -5,56 +5,57 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # activeDirectoryWindowsAutopilotDeploymentProfile resource type
+
+
+Namespace: microsoft.graph
 
 Windows Autopilot Deployment Profile
 
 
-Inherits from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)
+Inherits from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List activeDirectoryWindowsAutopilotDeploymentProfiles](../api/activedirectorywindowsautopilotdeploymentprofile-list.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activeDirectoryWindowsAutopilotDeploymentProfile.md) collection|List properties and relationships of the [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) objects.|
-|[Get activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-get.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activeDirectoryWindowsAutopilotDeploymentProfile.md)|Read properties and relationships of the [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
-|[Create activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-create.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activeDirectoryWindowsAutopilotDeploymentProfile.md)|Create a new [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
+|[List activeDirectoryWindowsAutopilotDeploymentProfiles](../api/activedirectorywindowsautopilotdeploymentprofile-list.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) collection|List properties and relationships of the [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) objects.|
+|[Get activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-get.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md)|Read properties and relationships of the [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
+|[Create activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-create.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md)|Create a new [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
 |[Delete activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-delete.md)|None|Deletes a [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md).|
-|[Update activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-update.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activeDirectoryWindowsAutopilotDeploymentProfile.md)|Update the properties of a [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
+|[Update activeDirectoryWindowsAutopilotDeploymentProfile](../api/activedirectorywindowsautopilotdeploymentprofile-update.md)|[activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md)|Update the properties of a [activeDirectoryWindowsAutopilotDeploymentProfile](../resources/activedirectorywindowsautopilotdeploymentprofile.md) object.|
 |[assign](../api/activedirectorywindowsautopilotdeploymentprofile-assign.md)|None||
-|[List assignedDevices](../api/activedirectorywindowsautopilotdeploymentprofile-list-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md) collection|Get the windowsAutopilotDeviceIdentities from the assignedDevices navigation property.|
-|[Add assignedDevices](../api/activedirectorywindowsautopilotdeploymentprofile-post-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md)|Add assignedDevices by posting to the assignedDevices collection.|
-|[List assignments](../api/activedirectorywindowsautopilotdeploymentprofile-list-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md) collection|Get the windowsAutopilotDeploymentProfileAssignments from the assignments navigation property.|
-|[Add assignments](../api/activedirectorywindowsautopilotdeploymentprofile-post-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md)|Add assignments by posting to the assignments collection.|
-|[Get windowsDomainJoinConfiguration](../api/windowsdomainjoinconfiguration-get.md)|[windowsDomainJoinConfiguration](../resources/windowsDomainJoinConfiguration.md)|Read properties and relationships of the [windowsDomainJoinConfiguration](../resources/windowsdomainjoinconfiguration.md) object.|
+|[List assignedDevices](../api/activedirectorywindowsautopilotdeploymentprofile-list-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) collection|Get the windowsAutopilotDeviceIdentities from the assignedDevices navigation property.|
+|[Add assignedDevices](../api/activedirectorywindowsautopilotdeploymentprofile-post-assigneddevices.md)|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md)|Add assignedDevices by posting to the assignedDevices collection.|
+|[List assignments](../api/activedirectorywindowsautopilotdeploymentprofile-list-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) collection|Get the windowsAutopilotDeploymentProfileAssignments from the assignments navigation property.|
+|[Add assignments](../api/activedirectorywindowsautopilotdeploymentprofile-post-assignments.md)|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md)|Add assignments by posting to the assignments collection.|
+|[Get windowsDomainJoinConfiguration](../api/windowsdomainjoinconfiguration-get.md)|[windowsDomainJoinConfiguration](../resources/windowsdomainjoinconfiguration.md)|Read properties and relationships of the [windowsDomainJoinConfiguration](../resources/windowsdomainjoinconfiguration.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdDateTime|DateTimeOffset|Profile creation time Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|description|String|Description of the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|deviceNameTemplate|String|The template used to name the AutoPilot Device. This can be a custom text and can also contain either the serial number of the device, or a randomly generated number. The total length of the text generated by the template can be no more than 15 characters. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|deviceType|Enumeration|The AutoPilot device type that this profile is applicable to. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md). Possible values are: `windowsPc`, `surfaceHub2`.|
-|displayName|String|Name of the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|enableWhiteGlove|Boolean|Enable Autopilot White Glove for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|enrollmentStatusScreenSettings|[windowsEnrollmentStatusScreenSettings](../resources/windowsEnrollmentStatusScreenSettings.md)|Enrollment status screen setting Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|extractHardwareHash|Boolean|HardwareHash Extraction for the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
+|createdDateTime|DateTimeOffset|Profile creation time Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|description|String|Description of the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|deviceNameTemplate|String|The template used to name the AutoPilot Device. This can be a custom text and can also contain either the serial number of the device, or a randomly generated number. The total length of the text generated by the template can be no more than 15 characters. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|deviceType|Enumeration|The AutoPilot device type that this profile is applicable to. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md). Possible values are: `windowsPc`, `surfaceHub2`.|
+|displayName|String|Name of the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|enableWhiteGlove|Boolean|Enable Autopilot White Glove for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|enrollmentStatusScreenSettings|[windowsEnrollmentStatusScreenSettings](../resources/windowsenrollmentstatusscreensettings.md)|Enrollment status screen setting Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|extractHardwareHash|Boolean|HardwareHash Extraction for the profile Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
 |hybridAzureADJoinSkipConnectivityCheck|Boolean|The Autopilot Hybrid Azure AD join flow will continue even if it does not establish domain controller connectivity during OOBE.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|language|String|Language configured on the device Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|lastModifiedDateTime|DateTimeOffset|Profile last modified time Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|outOfBoxExperienceSettings|[outOfBoxExperienceSettings](../resources/outOfBoxExperienceSettings.md)|Out of box experience setting Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|roleScopeTagIds|String collection|Scope tags for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
+|language|String|Language configured on the device Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|lastModifiedDateTime|DateTimeOffset|Profile last modified time Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|outOfBoxExperienceSettings|[outOfBoxExperienceSettings](../resources/outofboxexperiencesettings.md)|Out of box experience setting Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|roleScopeTagIds|String collection|Scope tags for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignedDevices|[windowsAutopilotDeviceIdentity](../resources/windowsAutopilotDeviceIdentity.md) collection|The list of assigned devices for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|assignments|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsAutopilotDeploymentProfileAssignment.md) collection|The list of group assignments for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsAutopilotDeploymentProfile.md)|
-|domainJoinConfiguration|[windowsDomainJoinConfiguration](../resources/windowsDomainJoinConfiguration.md)|Configuration to join Active Directory domain|
+|assignedDevices|[windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) collection|The list of assigned devices for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|assignments|[windowsAutopilotDeploymentProfileAssignment](../resources/windowsautopilotdeploymentprofileassignment.md) collection|The list of group assignments for the profile. Inherited from [windowsAutopilotDeploymentProfile](../resources/windowsautopilotdeploymentprofile.md)|
+|domainJoinConfiguration|[windowsDomainJoinConfiguration](../resources/windowsdomainjoinconfiguration.md)|Configuration to join Active Directory domain|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

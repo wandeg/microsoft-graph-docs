@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsMicrosoftEdgeApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsMicrosoftEdgeApp](../resources/windowsmicrosoftedgeapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsMicrosoftEdgeApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsMicrosoftEdgeApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1051
+Content-Length: 1050
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsMicrosoftEdgeApp",
-      "id": "d40b916d-916d-d40b-6d91-0bd46d910bd4",
+      "id": "8d00193d-193d-8d00-3d19-008d3d19008d",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1051
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

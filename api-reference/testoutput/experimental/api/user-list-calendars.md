@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List calendars
 
+Namespace: microsoft.graph
+
 Get the calendars from the calendars navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/calendars
+GET https://graph.microsoft.com/localtest/me/calendars
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 751
   "value": [
     {
       "@odata.type": "#microsoft.graph.calendar",
-      "id": "cfde7b0b-7b0b-cfde-0b7b-decf0b7bdecf",
+      "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
       "name": "Name value",
       "color": "String",
       "hexColor": "Hex Color value",

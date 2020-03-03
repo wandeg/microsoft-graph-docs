@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete fileSecurityProfile
 
+Namespace: microsoft.graph
+
 Deletes a [fileSecurityProfile](../resources/filesecurityprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/fileSecurityProfiles/{fileSecurityProfileId}
+DELETE https://graph.microsoft.com/localtest/Security/fileSecurityProfiles/{fileSecurityProfileId}
 ```
 
 ### Response

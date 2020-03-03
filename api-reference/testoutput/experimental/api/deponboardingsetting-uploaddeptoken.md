@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # uploadDepToken
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/uploadDepToken
+POST https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/uploadDepToken
 
 Content-type: application/json
 Content-length: 69

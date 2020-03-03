@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # baseItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,22 +20,23 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get baseItem](../api/baseitem-get.md)|[baseItem](../resources/baseItem.md)|Read properties and relationships of the [baseItem](../resources/baseitem.md) object.|
+|[List baseItems](../api/baseitem-list.md)|[baseItem](../resources/baseitem.md) collection|List properties and relationships of the [baseItem](../resources/baseitem.md) objects.|
+|[Get baseItem](../api/baseitem-get.md)|[baseItem](../resources/baseitem.md)|Read properties and relationships of the [baseItem](../resources/baseitem.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |description|String||
 |eTag|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 |name|String||
-|parentReference|[itemReference](../resources/itemReference.md)||
+|parentReference|[itemReference](../resources/itemreference.md)||
 |webUrl|String||
 
 ## Relationships

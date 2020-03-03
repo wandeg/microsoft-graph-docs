@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # removeContentHeaderAction resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [informationProtectionAction](../resources/informationProtectionAction.md)
+
+
+Inherits from [informationProtectionAction](../resources/informationprotectionaction.md)
 
 ## Properties
 |Property|Type|Description|

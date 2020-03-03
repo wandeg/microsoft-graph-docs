@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartTitles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartTitle not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartTitle not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 227
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartTitle",
-      "id": "2b369c2d-9c2d-2b36-2d9c-362b2d9c362b",
+      "id": "d61ff435-f435-d61f-35f4-1fd635f41fd6",
       "overlay": true,
       "text": "Text value",
       "visible": true

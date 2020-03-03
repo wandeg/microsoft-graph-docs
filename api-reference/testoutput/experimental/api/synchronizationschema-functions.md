@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # functions
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ GET /applications/{applicationsId}/synchronization/templates/{synchronizationTem
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [attributeMappingFunctionSchema](../resources/attributeMappingFunctionSchema.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) collection in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/functions
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/functions
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 293
   "value": [
     {
       "@odata.type": "#microsoft.graph.attributeMappingFunctionSchema",
-      "id": "718b8b96-8b96-718b-968b-8b71968b8b71",
+      "id": "0d1d87b6-87b6-0d1d-b687-1d0db6871d0d",
       "parameters": [
         {
           "@odata.type": "microsoft.graph.attributeMappingParameterSchema"

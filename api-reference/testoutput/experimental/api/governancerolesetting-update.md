@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governanceRoleSetting
 
+Namespace: microsoft.graph
+
 Update the properties of a [governanceRoleSetting](../resources/governancerolesetting.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/ro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governanceRoleSetting](../resources/governanceRoleSetting.md) object.
+In the request body, supply a JSON representation for the [governanceRoleSetting](../resources/governancerolesetting.md) object.
 
 The following table shows the properties that are required when you create the [governanceRoleSetting](../resources/governancerolesetting.md).
 
@@ -52,10 +54,10 @@ The following table shows the properties that are required when you create the [
 |isDefault|Boolean||
 |lastUpdatedDateTime|DateTimeOffset||
 |lastUpdatedBy|String||
-|adminEligibleSettings|[governanceRuleSetting](../resources/governanceRuleSetting.md) collection||
-|adminMemberSettings|[governanceRuleSetting](../resources/governanceRuleSetting.md) collection||
-|userEligibleSettings|[governanceRuleSetting](../resources/governanceRuleSetting.md) collection||
-|userMemberSettings|[governanceRuleSetting](../resources/governanceRuleSetting.md) collection||
+|adminEligibleSettings|[governanceRuleSetting](../resources/governancerulesetting.md) collection||
+|adminMemberSettings|[governanceRuleSetting](../resources/governancerulesetting.md) collection||
+|userEligibleSettings|[governanceRuleSetting](../resources/governancerulesetting.md) collection||
+|userMemberSettings|[governanceRuleSetting](../resources/governancerulesetting.md) collection||
 
 
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/governanceRoleSettings/{governanceRoleSettingsId}
+PATCH https://graph.microsoft.com/localtest/governanceRoleSettings/{governanceRoleSettingsId}
 Content-type: application/json
 Content-length: 809
 
@@ -81,7 +83,7 @@ Content-length: 809
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "isDefault": true,
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "lastUpdatedBy": "Last Updated By value",
   "adminEligibleSettings": [
     {
@@ -122,11 +124,11 @@ Content-Length: 858
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleSetting",
-  "id": "d8950804-0804-d895-0408-95d8040895d8",
+  "id": "7446ab92-ab92-7446-92ab-467492ab4674",
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "isDefault": true,
-  "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
+  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
   "lastUpdatedBy": "Last Updated By value",
   "adminEligibleSettings": [
     {

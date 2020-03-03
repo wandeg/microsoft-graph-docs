@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getActiveKey
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /trustFramework/keySets/{trustFrameworkKeySetId}/getActiveKey
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [trustFrameworkKey](../resources/trustFrameworkKey.md) in the response body.
+If successful, this function returns a `200 OK` response code and a [trustFrameworkKey](../resources/trustframeworkkey.md) in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/trustFramework/keySets/{trustFrameworkKeySetId}/getActiveKey
+GET https://graph.microsoft.com/localtest/trustFramework/keySets/{trustFrameworkKeySetId}/getActiveKey
 ```
 
 ### Response

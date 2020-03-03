@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create credentialUserRegistrationDetails
 
+Namespace: microsoft.graph
+
 Create a new [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /reports/credentialUserRegistrationDetails
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the credentialUserRegistrationDetails object.
+In the request body, supply a JSON representation for the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
 
-The following table shows the properties that are required when you create the credentialUserRegistrationDetails.
+The following table shows the properties that are required when you create the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/reports/credentialUserRegistrationDetails
+POST https://graph.microsoft.com/localtest/reports/credentialUserRegistrationDetails
 Content-type: application/json
 Content-length: 314
 
@@ -99,7 +101,7 @@ Content-Length: 363
 
 {
   "@odata.type": "#microsoft.graph.credentialUserRegistrationDetails",
-  "id": "a1fb7134-7134-a1fb-3471-fba13471fba1",
+  "id": "0fd663e2-63e2-0fd6-e263-d60fe263d60f",
   "userPrincipalName": "User Principal Name value",
   "userDisplayName": "User Display Name value",
   "authMethods": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update skypeForBusinessOrganizerActivityMinuteCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [skypeForBusinessOrganizerActivityMinuteCounts](../resources/skypeforbusinessorganizeractivityminutecounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.skypeForBusinessOrganizerActivityMinuteC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [skypeForBusinessOrganizerActivityMinuteCounts](../resources/skypeForBusinessOrganizerActivityMinuteCounts.md) object.
+In the request body, supply a JSON representation for the [skypeForBusinessOrganizerActivityMinuteCounts](../resources/skypeforbusinessorganizeractivityminutecounts.md) object.
 
 The following table shows the properties that are required when you create the [skypeForBusinessOrganizerActivityMinuteCounts](../resources/skypeforbusinessorganizeractivityminutecounts.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessOrganizerActivityMinuteCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessOrganizerActivityMinuteCounts not found
 Content-type: application/json
 Content-length: 259
 
@@ -93,7 +95,7 @@ Content-Length: 308
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessOrganizerActivityMinuteCounts",
-  "id": "e595151d-151d-e595-1d15-95e51d1595e5",
+  "id": "d0501500-1500-d050-0015-50d0001550d0",
   "audioVideo": 10,
   "dialInMicrosoft": 15,
   "dialOutMicrosoft": 0,

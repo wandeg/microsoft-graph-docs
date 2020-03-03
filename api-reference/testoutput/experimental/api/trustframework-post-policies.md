@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add policies
 
+Namespace: microsoft.graph
+
 Add policies by posting to the policies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /trustFramework/policies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the trustFrameworkPolicy object.
+In the request body, supply a JSON representation for the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.
 
-The following table shows the properties that are required when you create the trustFrameworkPolicy.
+The following table shows the properties that are required when you create the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/trustFramework/policies
+POST https://graph.microsoft.com/localtest/trustFramework/policies
 Content-type: application/json
 Content-length: 62
 
@@ -83,7 +85,7 @@ Content-Length: 111
 
 {
   "@odata.type": "#microsoft.graph.trustFrameworkPolicy",
-  "id": "b830d8fd-d8fd-b830-fdd8-30b8fdd830b8"
+  "id": "8a174fa8-4fa8-8a17-a84f-178aa84f178a"
 }
 ```
 

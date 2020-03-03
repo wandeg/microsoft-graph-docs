@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create importedDeviceIdentityResult
 
+Namespace: microsoft.graph
+
 Create a new [importedDeviceIdentityResult](../resources/importeddeviceidentityresult.md) object.
 
 ## Permissions
@@ -36,21 +38,21 @@ POST ** Collection URI for microsoft.graph.importedDeviceIdentityResult not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the importedDeviceIdentityResult object.
+In the request body, supply a JSON representation for the [importedDeviceIdentityResult](../resources/importeddeviceidentityresult.md) object.
 
-The following table shows the properties that are required when you create the importedDeviceIdentityResult.
+The following table shows the properties that are required when you create the [importedDeviceIdentityResult](../resources/importeddeviceidentityresult.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|importedDeviceIdentifier|String|Imported Device Identifier Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md)|
-|importedDeviceIdentityType|Enumeration|Type of Imported Device Identity Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md). Possible values are: `unknown`, `imei`, `serialNumber`.|
-|lastModifiedDateTime|DateTimeOffset|Last Modified DateTime of the description Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md)|
-|createdDateTime|DateTimeOffset|Created Date Time of the device Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md)|
-|lastContactedDateTime|DateTimeOffset|Last Contacted Date Time of the device Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md)|
-|description|String|The description of the device Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md)|
-|enrollmentState|Enumeration|The state of the device in Intune Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md). Possible values are: `unknown`, `enrolled`, `pendingReset`, `failed`, `notContacted`, `blocked`.|
-|platform|Enumeration|The platform of the Device. Inherited from [importedDeviceIdentity](../resources/importedDeviceIdentity.md). Possible values are: `unknown`, `ios`, `android`, `windows`, `windowsMobile`, `macOS`.|
+|importedDeviceIdentifier|String|Imported Device Identifier Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md)|
+|importedDeviceIdentityType|Enumeration|Type of Imported Device Identity Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md). Possible values are: `unknown`, `imei`, `serialNumber`.|
+|lastModifiedDateTime|DateTimeOffset|Last Modified DateTime of the description Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md)|
+|createdDateTime|DateTimeOffset|Created Date Time of the device Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md)|
+|lastContactedDateTime|DateTimeOffset|Last Contacted Date Time of the device Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md)|
+|description|String|The description of the device Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md)|
+|enrollmentState|Enumeration|The state of the device in Intune Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md). Possible values are: `unknown`, `enrolled`, `pendingReset`, `failed`, `notContacted`, `blocked`.|
+|platform|Enumeration|The platform of the Device. Inherited from [importedDeviceIdentity](../resources/importeddeviceidentity.md). Possible values are: `unknown`, `ios`, `android`, `windows`, `windowsMobile`, `macOS`.|
 |status|Boolean|Status of imported device identity|
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.importedDeviceIdentityResult not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.importedDeviceIdentityResult not found
 Content-type: application/json
 Content-length: 360
 
@@ -76,7 +78,7 @@ Content-length: 360
   "@odata.type": "#microsoft.graph.importedDeviceIdentityResult",
   "importedDeviceIdentifier": "Imported Device Identifier value",
   "importedDeviceIdentityType": "String",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String",
@@ -95,16 +97,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 532
+Content-Length: 531
 
 {
   "@odata.type": "#microsoft.graph.importedDeviceIdentityResult",
-  "id": "1f624535-4535-1f62-3545-621f3545621f",
+  "id": "5a6ef58f-f58f-5a6e-8ff5-6e5a8ff56e5a",
   "importedDeviceIdentifier": "Imported Device Identifier value",
   "importedDeviceIdentityType": "String",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String",

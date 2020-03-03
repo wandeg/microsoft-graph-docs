@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update picture
 
+Namespace: microsoft.graph
+
 Update the properties of a [picture](../resources/picture.md) object.
 
 ## Permissions
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/picture/{pictureId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/picture/{pictureId}
 Content-type: application/json
 Content-length: 144
 
@@ -93,7 +95,7 @@ Content-Length: 193
 
 {
   "@odata.type": "#microsoft.graph.picture",
-  "id": "79b7245c-245c-79b7-5c24-b7795c24b779",
+  "id": "94a23027-3027-94a2-2730-a2942730a294",
   "width": 5,
   "height": 6,
   "contentType": "Content Type value",

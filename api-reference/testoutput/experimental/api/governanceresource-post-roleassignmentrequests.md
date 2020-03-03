@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add roleAssignmentRequests
 
+Namespace: microsoft.graph
+
 Add roleAssignmentRequests by posting to the roleAssignmentRequests collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/rol
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the governanceRoleAssignmentRequest object.
+In the request body, supply a JSON representation for the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.
 
-The following table shows the properties that are required when you create the governanceRoleAssignmentRequest.
+The following table shows the properties that are required when you create the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,8 +54,8 @@ The following table shows the properties that are required when you create the g
 |assignmentState|String||
 |requestedDateTime|DateTimeOffset||
 |reason|String||
-|status|[governanceRoleAssignmentRequestStatus](../resources/governanceRoleAssignmentRequestStatus.md)||
-|schedule|[governanceSchedule](../resources/governanceSchedule.md)||
+|status|[governanceRoleAssignmentRequestStatus](../resources/governanceroleassignmentrequeststatus.md)||
+|schedule|[governanceSchedule](../resources/governanceschedule.md)||
 
 
 
@@ -70,9 +72,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/governanceResources/{governanceResourcesId}/roleAssignmentRequests
+POST https://graph.microsoft.com/localtest/governanceResources/{governanceResourcesId}/roleAssignmentRequests
 Content-type: application/json
-Content-length: 1003
+Content-length: 1004
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
@@ -82,7 +84,7 @@ Content-length: 1003
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
   "reason": "Reason value",
   "status": {
     "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus",
@@ -98,9 +100,9 @@ Content-length: 1003
   },
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-    "duration": "PT3M27.7161587S"
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```
@@ -116,18 +118,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1052
+Content-Length: 1053
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
-  "id": "8b5623bd-23bd-8b56-bd23-568bbd23568b",
+  "id": "296851b4-51b4-2968-b451-6829b4516829",
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "subjectId": "Subject Id value",
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2016-12-31T23:59:36.6387568+03:00",
+  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
   "reason": "Reason value",
   "status": {
     "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus",
@@ -143,9 +145,9 @@ Content-Length: 1052
   },
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-    "duration": "PT3M27.7161587S"
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```

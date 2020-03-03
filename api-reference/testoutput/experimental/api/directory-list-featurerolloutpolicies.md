@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List featureRolloutPolicies
 
+Namespace: microsoft.graph
+
 Get the featureRolloutPolicies from the featureRolloutPolicies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directory/featureRolloutPolicies
+GET https://graph.microsoft.com/localtest/directory/featureRolloutPolicies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 333
   "value": [
     {
       "@odata.type": "#microsoft.graph.featureRolloutPolicy",
-      "id": "50fc1353-1353-50fc-5313-fc505313fc50",
+      "id": "69e61aee-1aee-69e6-ee1a-e669ee1ae669",
       "displayName": "Display Name value",
       "description": "Description value",
       "feature": "String",

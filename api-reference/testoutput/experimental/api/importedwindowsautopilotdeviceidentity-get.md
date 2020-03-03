@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get importedWindowsAutopilotDeviceIdentity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/importedWindowsAutopilotDeviceIdentities/{importedWindowsAutopilotDeviceIdentityId}
+GET https://graph.microsoft.com/localtest/deviceManagement/importedWindowsAutopilotDeviceIdentities/{importedWindowsAutopilotDeviceIdentityId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 778
 {
   "value": {
     "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentity",
-    "id": "9e997c44-7c44-9e99-447c-999e447c999e",
+    "id": "def4d4cb-d4cb-def4-cbd4-f4decbd4f4de",
     "orderIdentifier": "Order Identifier value",
     "groupTag": "Group Tag value",
     "serialNumber": "Serial Number value",

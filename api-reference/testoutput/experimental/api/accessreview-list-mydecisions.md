@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List myDecisions
 
+Namespace: microsoft.graph
+
 Get the accessReviewDecisions from the myDecisions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}/myDecisions
+GET https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}/myDecisions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 878
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessReviewDecision",
-      "id": "dac74cd6-4cd6-dac7-d64c-c7dad64cc7da",
+      "id": "903da73c-a73c-903d-3ca7-3d903ca73d90",
       "accessReviewId": "Access Review Id value",
       "reviewedBy": {
         "@odata.type": "microsoft.graph.userIdentity",
@@ -79,13 +81,13 @@ Content-Length: 878
         "ipAddress": "Ip Address value",
         "userPrincipalName": "User Principal Name value"
       },
-      "reviewedDateTime": "2016-12-31T23:57:10.8561795+03:00",
+      "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
       "reviewResult": "Review Result value",
       "justification": "Justification value",
       "appliedBy": {
         "@odata.type": "microsoft.graph.userIdentity"
       },
-      "appliedDateTime": "2016-12-31T23:58:26.0451415+03:00",
+      "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
       "applyResult": "Apply Result value",
       "accessRecommendation": "Access Recommendation value"
     }

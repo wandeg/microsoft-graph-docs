@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsInformationProtectionAppLockerFile
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsIn
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsInformationProtectionAppLockerFile](../resources/windowsInformationProtectionAppLockerFile.md) object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
 
 The following table shows the properties that are required when you create the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
 Content-type: application/json
 Content-length: 211
 
@@ -92,7 +94,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-  "id": "327b9363-9363-327b-6393-7b3263937b32",
+  "id": "c74935a6-35a6-c749-a635-49c7a63549c7",
   "displayName": "Display Name value",
   "fileHash": "File Hash value",
   "file": "ZmlsZQ==",

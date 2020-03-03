@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementBooleanSettingInstances
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementBooleanSettingInstance](../resources/devicemanagementbooleansettinginstance.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementBooleanSettingInstance not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 278
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementBooleanSettingInstance",
-      "id": "370584a9-84a9-3705-a984-0537a9840537",
+      "id": "6e381c2f-1c2f-6e38-2f1c-386e2f1c386e",
       "definitionId": "Definition Id value",
       "valueJson": "Value Json value",
       "value": true

@@ -5,45 +5,46 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsOfficeClientConfiguration resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [officeClientConfiguration](../resources/officeClientConfiguration.md)
+
+
+Inherits from [officeClientConfiguration](../resources/officeclientconfiguration.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsOfficeClientConfigurations](../api/windowsofficeclientconfiguration-list.md)|[windowsOfficeClientConfiguration](../resources/windowsOfficeClientConfiguration.md) collection|List properties and relationships of the [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) objects.|
-|[Get windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-get.md)|[windowsOfficeClientConfiguration](../resources/windowsOfficeClientConfiguration.md)|Read properties and relationships of the [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
-|[Create windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-create.md)|[windowsOfficeClientConfiguration](../resources/windowsOfficeClientConfiguration.md)|Create a new [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
+|[List windowsOfficeClientConfigurations](../api/windowsofficeclientconfiguration-list.md)|[windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) collection|List properties and relationships of the [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) objects.|
+|[Get windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-get.md)|[windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md)|Read properties and relationships of the [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
+|[Create windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-create.md)|[windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md)|Create a new [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
 |[Delete windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-delete.md)|None|Deletes a [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md).|
-|[Update windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-update.md)|[windowsOfficeClientConfiguration](../resources/windowsOfficeClientConfiguration.md)|Update the properties of a [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
-|[assign](../api/windowsofficeclientconfiguration-assign.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection||
-|[List assignments](../api/windowsofficeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/windowsofficeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
+|[Update windowsOfficeClientConfiguration](../api/windowsofficeclientconfiguration-update.md)|[windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md)|Update the properties of a [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.|
+|[assign](../api/windowsofficeclientconfiguration-assign.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
+|[List assignments](../api/windowsofficeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/windowsofficeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|checkinStatuses|[officeClientCheckinStatus](../resources/officeClientCheckinStatus.md) collection| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|description|String| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|displayName|String| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
+|checkinStatuses|[officeClientCheckinStatus](../resources/officeclientcheckinstatus.md) collection| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|description|String| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|displayName|String| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|policyPayload|Stream| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|priority|Int32| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|userCheckinSummary|[officeUserCheckinSummary](../resources/officeUserCheckinSummary.md)| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
-|userPreferencePayload|Stream| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
+|policyPayload|Stream| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|priority|Int32| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|userCheckinSummary|[officeUserCheckinSummary](../resources/officeusercheckinsummary.md)| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
+|userPreferencePayload|Stream| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection| Inherited from [officeClientConfiguration](../resources/officeClientConfiguration.md)|
+|assignments|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection| Inherited from [officeClientConfiguration](../resources/officeclientconfiguration.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

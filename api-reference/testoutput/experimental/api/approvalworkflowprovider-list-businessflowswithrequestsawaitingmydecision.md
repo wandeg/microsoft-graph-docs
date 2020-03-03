@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List businessFlowsWithRequestsAwaitingMyDecision
 
+Namespace: microsoft.graph
+
 Get the businessFlows from the businessFlowsWithRequestsAwaitingMyDecision navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlowsWithRequestsAwaitingMyDecision
+GET https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlowsWithRequestsAwaitingMyDecision
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 2184
   "value": [
     {
       "@odata.type": "#microsoft.graph.businessFlow",
-      "id": "ad29cadb-cadb-ad29-dbca-29addbca29ad",
+      "id": "790ced02-ed02-790c-02ed-0c7902ed0c79",
       "displayName": "Display Name value",
       "description": "Description value",
       "deDuplicationId": "De Duplication Id value",

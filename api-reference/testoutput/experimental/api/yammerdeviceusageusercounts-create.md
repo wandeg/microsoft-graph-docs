@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create yammerDeviceUsageUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.yammerDeviceUsageUserCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the yammerDeviceUsageUserCounts object.
+In the request body, supply a JSON representation for the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.
 
-The following table shows the properties that are required when you create the yammerDeviceUsageUserCounts.
+The following table shows the properties that are required when you create the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerDeviceUsageUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerDeviceUsageUserCounts not found
 Content-type: application/json
 Content-length: 272
 
@@ -101,7 +103,7 @@ Content-Length: 321
 
 {
   "@odata.type": "#microsoft.graph.yammerDeviceUsageUserCounts",
-  "id": "dc169f2b-9f2b-dc16-2b9f-16dc2b9f16dc",
+  "id": "dedbe24c-e24c-dedb-4ce2-dbde4ce2dbde",
   "reportRefreshDate": "Date",
   "web": 3,
   "windowsPhone": 12,

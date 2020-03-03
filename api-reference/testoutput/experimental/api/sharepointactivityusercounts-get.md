@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sharePointActivityUserCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointActivityUserCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointActivityUserCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 372
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharePointActivityUserCounts",
-    "id": "fc1b9f16-9f16-fc1b-169f-1bfc169f1bfc",
+    "id": "b9f3b69c-b69c-b9f3-9cb6-f3b99cb6f3b9",
     "reportRefreshDate": "Date",
     "visitedPage": 11,
     "viewedOrEdited": 14,

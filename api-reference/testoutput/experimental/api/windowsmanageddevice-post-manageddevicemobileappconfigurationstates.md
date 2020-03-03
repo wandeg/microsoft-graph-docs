@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedDeviceMobileAppConfigurationStates
 
+Namespace: microsoft.graph
+
 Add managedDeviceMobileAppConfigurationStates by posting to the managedDeviceMobileAppConfigurationStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationSta
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfigurationState object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfigurationState.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates
 Content-type: application/json
 Content-length: 296
 
@@ -97,7 +99,7 @@ Content-Length: 345
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationState",
-  "id": "892e9a0f-9a0f-892e-0f9a-2e890f9a2e89",
+  "id": "e6abe752-e752-e6ab-52e7-abe652e7abe6",
   "displayName": "Display Name value",
   "version": 7,
   "platformType": "String",

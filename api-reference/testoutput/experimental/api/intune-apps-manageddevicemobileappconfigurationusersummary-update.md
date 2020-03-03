@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update managedDeviceMobileAppConfigurationUserSummary
 
-Update the properties of a [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [managedDeviceMobileAppConfigurationUserSummary](../resources/intune-apps-manageddevicemobileappconfigurationusersummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfig
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserSummary](../resources/managedDeviceMobileAppConfigurationUserSummary.md) object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserSummary](../resources/intune-apps-manageddevicemobileappconfigurationusersummary.md) object.
 
-The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md).
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationUserSummary](../resources/intune-apps-manageddevicemobileappconfigurationusersummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationUserSummary](../resources/intune-apps-manageddevicemobileappconfigurationusersummary.md) object in the response body.
 
 ## Example
 
@@ -66,9 +68,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatusSummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatusSummary
 Content-type: application/json
-Content-length: 320
+Content-length: 321
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
@@ -78,7 +80,7 @@ Content-length: 320
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```
@@ -93,18 +95,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 369
+Content-Length: 370
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
-  "id": "06d11bd1-1bd1-06d1-d11b-d106d11bd106",
+  "id": "f678cd07-cd07-f678-07cd-78f607cd78f6",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```

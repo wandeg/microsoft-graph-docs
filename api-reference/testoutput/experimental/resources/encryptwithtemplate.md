@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # encryptWithTemplate resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [encryptContent](../resources/encryptContent.md)
+
+
+Inherits from [encryptContent](../resources/encryptcontent.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |availableForEncryption|Boolean||
-|encryptWith|Enumeration| Inherited from [encryptContent](../resources/encryptContent.md). Possible values are: `template`, `userDefinedRights`.|
-|name|String| Inherited from [labelActionBase](../resources/labelActionBase.md)|
+|encryptWith|Enumeration| Inherited from [encryptContent](../resources/encryptcontent.md). Possible values are: `template`, `userDefinedRights`.|
+|name|String| Inherited from [labelActionBase](../resources/labelactionbase.md)|
 |templateId|String||
 
 ## Relationships

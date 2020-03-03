@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # recordingInfo resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|initiatedBy|[participantInfo](../resources/participantInfo.md)||
+|initiatedBy|[participantInfo](../resources/participantinfo.md)||
 |recordingStatus|Enumeration|. Possible values are: `unknown`, `notRecording`, `recording`, `failed`, `unknownFutureValue`.|
 
 ## Relationships

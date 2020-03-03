@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directoryObject
 
+Namespace: microsoft.graph
+
 Deletes a [directoryObject](../resources/directoryobject.md).
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/directoryObjects/{directoryObjectsId}
+DELETE https://graph.microsoft.com/localtest/directoryObjects/{directoryObjectsId}
 ```
 
 ### Response

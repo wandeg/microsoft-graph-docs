@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # classificationError resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [classifcationErrorBase](../resources/classifcationErrorBase.md)
+
+
+Inherits from [classifcationErrorBase](../resources/classifcationerrorbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|code|String| Inherited from [classifcationErrorBase](../resources/classifcationErrorBase.md)|
-|details|[classifcationErrorBase](../resources/classifcationErrorBase.md) collection||
-|innerError|[classificationInnerError](../resources/classificationInnerError.md)| Inherited from [classifcationErrorBase](../resources/classifcationErrorBase.md)|
-|message|String| Inherited from [classifcationErrorBase](../resources/classifcationErrorBase.md)|
-|target|String| Inherited from [classifcationErrorBase](../resources/classifcationErrorBase.md)|
+|code|String| Inherited from [classifcationErrorBase](../resources/classifcationerrorbase.md)|
+|details|[classifcationErrorBase](../resources/classifcationerrorbase.md) collection||
+|innerError|[classificationInnerError](../resources/classificationinnererror.md)| Inherited from [classifcationErrorBase](../resources/classifcationerrorbase.md)|
+|message|String| Inherited from [classifcationErrorBase](../resources/classifcationerrorbase.md)|
+|target|String| Inherited from [classifcationErrorBase](../resources/classifcationerrorbase.md)|
 
 ## Relationships
 None

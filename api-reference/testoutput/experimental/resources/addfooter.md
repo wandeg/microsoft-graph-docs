@@ -5,26 +5,27 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # addFooter resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [markContent](../resources/markContent.md)
+
+
+Inherits from [markContent](../resources/markcontent.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |alignment|Enumeration|. Possible values are: `left`, `right`, `center`.|
-|fontColor|String| Inherited from [markContent](../resources/markContent.md)|
-|fontSize|Int64| Inherited from [markContent](../resources/markContent.md)|
+|fontColor|String| Inherited from [markContent](../resources/markcontent.md)|
+|fontSize|Int64| Inherited from [markContent](../resources/markcontent.md)|
 |margin|Int32||
-|name|String| Inherited from [labelActionBase](../resources/labelActionBase.md)|
-|text|String| Inherited from [markContent](../resources/markContent.md)|
+|name|String| Inherited from [labelActionBase](../resources/labelactionbase.md)|
+|text|String| Inherited from [markContent](../resources/markcontent.md)|
 
 ## Relationships
 None

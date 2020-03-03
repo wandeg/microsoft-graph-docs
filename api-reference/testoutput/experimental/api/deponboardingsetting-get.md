@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get depOnboardingSetting
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [depOnboardingSetting](../resources/deponboardingsetting.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
+GET https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
 ```
 
 ### Response
@@ -72,12 +74,12 @@ Content-Length: 744
 {
   "value": {
     "@odata.type": "#microsoft.graph.depOnboardingSetting",
-    "id": "5ac0c699-c699-5ac0-99c6-c05a99c6c05a",
+    "id": "770c8d5e-8d5e-770c-5e8d-0c775e8d0c77",
     "appleIdentifier": "Apple Identifier value",
-    "tokenExpirationDateTime": "2016-12-31T23:56:54.7194078+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-    "lastSuccessfulSyncDateTime": "2016-12-31T23:57:49.1192359+03:00",
-    "lastSyncTriggeredDateTime": "2016-12-31T23:57:31.7649706+03:00",
+    "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "lastSuccessfulSyncDateTime": "2017-01-01T00:01:19.2375777+03:00",
+    "lastSyncTriggeredDateTime": "2016-12-31T23:57:44.9769189+03:00",
     "shareTokenWithSchoolDataSyncService": true,
     "lastSyncErrorCode": 1,
     "tokenType": "String",

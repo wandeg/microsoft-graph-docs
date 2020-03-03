@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceCompliancePolicyPolicySetItems
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceCompliancePolicyPolicySetItem](../resources/devicecompliancepolicypolicysetitem.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceCompliancePolicyPolicySetItem not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceCompliancePolicyPolicySetItem not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 560
+Content-Length: 559
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyPolicySetItem",
-      "id": "baf031a2-31a2-baf0-a231-f0baa231f0ba",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "6c0c8378-8378-6c0c-7883-0c6c78830c6c",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "payloadId": "Payload Id value",
       "itemType": "Item Type value",
       "displayName": "Display Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # windowsPrivacyAccessControls
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|windowsPrivacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md) collection||
+|windowsPrivacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.unsupportedDeviceConfiguration not found/windowsPrivacyAccessControls
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.unsupportedDeviceConfiguration not found/windowsPrivacyAccessControls
 
 Content-type: application/json
 Content-length: 370
@@ -68,7 +70,7 @@ Content-length: 370
   "windowsPrivacyAccessControls": [
     {
       "@odata.type": "#microsoft.graph.windowsPrivacyDataAccessControlItem",
-      "id": "c2534b6b-4b6b-c253-6b4b-53c26b4b53c2",
+      "id": "6126bcaf-bcaf-6126-afbc-2661afbc2661",
       "accessLevel": "String",
       "dataCategory": "String",
       "appPackageFamilyName": "App Package Family Name value",

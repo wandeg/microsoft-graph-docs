@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create synchronization
 
+Namespace: microsoft.graph
+
 Create a new [synchronization](../resources/synchronization.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.synchronization not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the synchronization object.
+In the request body, supply a JSON representation for the [synchronization](../resources/synchronization.md) object.
 
-The following table shows the properties that are required when you create the synchronization.
+The following table shows the properties that are required when you create the [synchronization](../resources/synchronization.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|secrets|[synchronizationSecretKeyStringValuePair](../resources/synchronizationSecretKeyStringValuePair.md) collection||
+|secrets|[synchronizationSecretKeyStringValuePair](../resources/synchronizationsecretkeystringvaluepair.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.synchronization not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.synchronization not found
 Content-type: application/json
 Content-length: 228
 
@@ -91,7 +93,7 @@ Content-Length: 277
 
 {
   "@odata.type": "#microsoft.graph.synchronization",
-  "id": "a7731f6c-1f6c-a773-6c1f-73a76c1f73a7",
+  "id": "a6beb882-b882-a6be-82b8-bea682b8bea6",
   "secrets": [
     {
       "@odata.type": "microsoft.graph.synchronizationSecretKeyStringValuePair",

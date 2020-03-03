@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update enrollmentRestrictionsConfigurationPolicySetItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [enrollmentRestrictionsConfigurationPolicySetItem](../resources/enrollmentrestrictionsconfigurationpolicysetitem.md) object.
 
 ## Permissions
@@ -35,21 +37,21 @@ PATCH ** Entity URI for microsoft.graph.enrollmentRestrictionsConfigurationPolic
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [enrollmentRestrictionsConfigurationPolicySetItem](../resources/enrollmentRestrictionsConfigurationPolicySetItem.md) object.
+In the request body, supply a JSON representation for the [enrollmentRestrictionsConfigurationPolicySetItem](../resources/enrollmentrestrictionsconfigurationpolicysetitem.md) object.
 
 The following table shows the properties that are required when you create the [enrollmentRestrictionsConfigurationPolicySetItem](../resources/enrollmentrestrictionsconfigurationpolicysetitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset|Creation time of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|payloadId|String|PayloadId of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|itemType|String|policySetType of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|displayName|String|DisplayName of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md)|
-|status|Enumeration|Status of the PolicySetItem. Inherited from [policySetItem](../resources/policySetItem.md). Possible values are: `unknown`, `validating`, `partialSuccess`, `success`, `error`, `notAssigned`.|
-|errorCode|Enumeration|Error code if any occured. Inherited from [policySetItem](../resources/policySetItem.md). Possible values are: `noError`, `unauthorized`, `notFound`, `deleted`.|
-|guidedDeploymentTags|String collection|Tags of the guided deployment Inherited from [policySetItem](../resources/policySetItem.md)|
+|createdDateTime|DateTimeOffset|Creation time of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|payloadId|String|PayloadId of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|itemType|String|policySetType of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|displayName|String|DisplayName of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md)|
+|status|Enumeration|Status of the PolicySetItem. Inherited from [policySetItem](../resources/policysetitem.md). Possible values are: `unknown`, `validating`, `partialSuccess`, `success`, `error`, `notAssigned`.|
+|errorCode|Enumeration|Error code if any occured. Inherited from [policySetItem](../resources/policysetitem.md). Possible values are: `noError`, `unauthorized`, `notFound`, `deleted`.|
+|guidedDeploymentTags|String collection|Tags of the guided deployment Inherited from [policySetItem](../resources/policysetitem.md)|
 |priority|Int32|Priority of the EnrollmentRestrictionsConfigurationPolicySetItem.|
 |limit|Int32|Limit of the EnrollmentRestrictionsConfigurationPolicySetItem.|
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem not found
 Content-type: application/json
 Content-length: 353
 
@@ -97,13 +99,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 525
+Content-Length: 524
 
 {
   "@odata.type": "#microsoft.graph.enrollmentRestrictionsConfigurationPolicySetItem",
-  "id": "d821488f-488f-d821-8f48-21d88f4821d8",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "403afc61-fc61-403a-61fc-3a4061fc3a40",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "payloadId": "Payload Id value",
   "itemType": "Item Type value",
   "displayName": "Display Name value",

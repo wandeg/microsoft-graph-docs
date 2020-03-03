@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # synchronizationTemplate resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get synchronizationTemplate](../api/synchronizationtemplate-get.md)|[synchronizationTemplate](../resources/synchronizationTemplate.md)|Read properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
+|[List synchronizationTemplates](../api/synchronizationtemplate-list.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md) collection|List properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) objects.|
+|[Get synchronizationTemplate](../api/synchronizationtemplate-get.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Read properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
+|[Create synchronizationTemplate](../api/synchronizationtemplate-create.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Create a new [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
 |[Delete synchronizationTemplate](../api/synchronizationtemplate-delete.md)|None|Deletes a [synchronizationTemplate](../resources/synchronizationtemplate.md).|
-|[Update synchronizationTemplate](../api/synchronizationtemplate-update.md)|[synchronizationTemplate](../resources/synchronizationTemplate.md)|Update the properties of a [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
-|[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationSchema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
+|[Update synchronizationTemplate](../api/synchronizationtemplate-update.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Update the properties of a [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
+|[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -33,12 +36,12 @@ Inherits from [entity](../resources/entity.md)
 |discoverable|Boolean||
 |factoryTag|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|metadata|[metadataEntry](../resources/metadataEntry.md) collection||
+|metadata|[metadataEntry](../resources/metadataentry.md) collection||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|schema|[synchronizationSchema](../resources/synchronizationSchema.md)||
+|schema|[synchronizationSchema](../resources/synchronizationschema.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

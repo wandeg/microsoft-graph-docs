@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsUniversalAppXContainedApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.windowsUniversalAppXContainedApp not fou
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsUniversalAppXContainedApp](../resources/windowsUniversalAppXContainedApp.md) object.
+In the request body, supply a JSON representation for the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.
 
 The following table shows the properties that are required when you create the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsUniversalAppXContainedApp not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsUniversalAppXContainedApp not found
 Content-type: application/json
 Content-length: 122
 
@@ -83,7 +85,7 @@ Content-Length: 171
 
 {
   "@odata.type": "#microsoft.graph.windowsUniversalAppXContainedApp",
-  "id": "da92a4ce-a4ce-da92-cea4-92dacea492da",
+  "id": "f0b6c7de-c7de-f0b6-dec7-b6f0dec7b6f0",
   "appUserModelId": "App User Model Id value"
 }
 ```

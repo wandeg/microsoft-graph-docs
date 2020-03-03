@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add windowsInformationProtectionWipeActions
 
+Namespace: microsoft.graph
+
 Add windowsInformationProtectionWipeActions by posting to the windowsInformationProtectionWipeActions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/windowsInformationProtectionWipeActions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsInformationProtectionWipeAction object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) object.
 
-The following table shows the properties that are required when you create the windowsInformationProtectionWipeAction.
+The following table shows the properties that are required when you create the [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,9 +67,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionWipeActions
+POST https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionWipeActions
 Content-type: application/json
-Content-length: 411
+Content-length: 412
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionWipeAction",
@@ -76,7 +78,7 @@ Content-length: 411
   "targetedDeviceRegistrationId": "Targeted Device Registration Id value",
   "targetedDeviceName": "Targeted Device Name value",
   "targetedDeviceMacAddress": "Targeted Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00"
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
 }
 ```
 
@@ -91,17 +93,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 460
+Content-Length: 461
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionWipeAction",
-  "id": "5f8ac44c-c44c-5f8a-4cc4-8a5f4cc48a5f",
+  "id": "925020d3-20d3-9250-d320-5092d3205092",
   "status": "String",
   "targetedUserId": "Targeted User Id value",
   "targetedDeviceRegistrationId": "Targeted Device Registration Id value",
   "targetedDeviceName": "Targeted Device Name value",
   "targetedDeviceMacAddress": "Targeted Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:59:25.132243+03:00"
+  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
 }
 ```
 

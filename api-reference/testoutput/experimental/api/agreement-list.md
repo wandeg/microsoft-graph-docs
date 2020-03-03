@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List agreements
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [agreement](../resources/agreement.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/agreements
+GET https://graph.microsoft.com/localtest/agreements
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 235
   "value": [
     {
       "@odata.type": "#microsoft.graph.agreement",
-      "id": "538faced-aced-538f-edac-8f53edac8f53",
+      "id": "e945b4f8-b4f8-e945-f8b4-45e9f8b445e9",
       "displayName": "Display Name value",
       "isViewingBeforeAcceptanceRequired": true
     }

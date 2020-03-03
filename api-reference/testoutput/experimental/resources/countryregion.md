@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # countryRegion resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get countryRegion](../api/countryregion-get.md)|[countryRegion](../resources/countryRegion.md)|Read properties and relationships of the [countryRegion](../resources/countryregion.md) object.|
+|[List countryRegions](../api/countryregion-list.md)|[countryRegion](../resources/countryregion.md) collection|List properties and relationships of the [countryRegion](../resources/countryregion.md) objects.|
+|[Get countryRegion](../api/countryregion-get.md)|[countryRegion](../resources/countryregion.md)|Read properties and relationships of the [countryRegion](../resources/countryregion.md) object.|
+|[Create countryRegion](../api/countryregion-create.md)|[countryRegion](../resources/countryregion.md)|Create a new [countryRegion](../resources/countryregion.md) object.|
 |[Delete countryRegion](../api/countryregion-delete.md)|None|Deletes a [countryRegion](../resources/countryregion.md).|
-|[Update countryRegion](../api/countryregion-update.md)|[countryRegion](../resources/countryRegion.md)|Update the properties of a [countryRegion](../resources/countryregion.md) object.|
+|[Update countryRegion](../api/countryregion-update.md)|[countryRegion](../resources/countryregion.md)|Update the properties of a [countryRegion](../resources/countryregion.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userCredentialUsageDetails
 
+Namespace: microsoft.graph
+
 Deletes a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/reports/userCredentialUsageDetails/{userCredentialUsageDetailsId}
+DELETE https://graph.microsoft.com/localtest/reports/userCredentialUsageDetails/{userCredentialUsageDetailsId}
 ```
 
 ### Response

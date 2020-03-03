@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # subscribeByMail
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/subscribeByMail
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/subscribeByMail
 ```
 
 ### Response

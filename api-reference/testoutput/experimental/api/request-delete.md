@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete request
 
+Namespace: microsoft.graph
+
 Deletes a [request](../resources/request.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}
+DELETE https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}
 ```
 
 ### Response

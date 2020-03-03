@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementSettingDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /deviceManagement/templates/{deviceManagementTemplateId}/categories/{devic
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md) object.
+In the request body, supply a JSON representation for the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md).
 
@@ -51,8 +53,8 @@ The following table shows the properties that are required when you create the [
 |description|String|The setting's description|
 |documentationUrl|String|Url to setting documentation|
 |keywords|String collection|Keywords associated with the setting|
-|constraints|[deviceManagementConstraint](../resources/deviceManagementConstraint.md) collection|Collection of constraints for the setting value|
-|dependencies|[deviceManagementSettingDependency](../resources/deviceManagementSettingDependency.md) collection|Collection of dependencies on other settings|
+|constraints|[deviceManagementConstraint](../resources/devicemanagementconstraint.md) collection|Collection of constraints for the setting value|
+|dependencies|[deviceManagementSettingDependency](../resources/devicemanagementsettingdependency.md) collection|Collection of dependencies on other settings|
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/settingDefinitions/{deviceManagementSettingDefinitionId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/settingDefinitions/{deviceManagementSettingDefinitionId}
 Content-type: application/json
 Content-length: 590
 
@@ -111,7 +113,7 @@ Content-Length: 639
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingDefinition",
-  "id": "f0142567-2567-f014-6725-14f0672514f0",
+  "id": "49ffdbef-dbef-49ff-efdb-ff49efdbff49",
   "valueType": "String",
   "displayName": "Display Name value",
   "isTopLevel": true,

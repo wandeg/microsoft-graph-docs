@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add settingDefinitions
 
+Namespace: microsoft.graph
+
 Add settingDefinitions by posting to the settingDefinitions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceMana
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementSettingDefinition object.
+In the request body, supply a JSON representation for the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementSettingDefinition.
+The following table shows the properties that are required when you create the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,8 +51,8 @@ The following table shows the properties that are required when you create the d
 |description|String|The setting's description|
 |documentationUrl|String|Url to setting documentation|
 |keywords|String collection|Keywords associated with the setting|
-|constraints|[deviceManagementConstraint](../resources/deviceManagementConstraint.md) collection|Collection of constraints for the setting value|
-|dependencies|[deviceManagementSettingDependency](../resources/deviceManagementSettingDependency.md) collection|Collection of dependencies on other settings|
+|constraints|[deviceManagementConstraint](../resources/devicemanagementconstraint.md) collection|Collection of constraints for the setting value|
+|dependencies|[deviceManagementSettingDependency](../resources/devicemanagementsettingdependency.md) collection|Collection of dependencies on other settings|
 
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}/settingDefinitions
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceManagementIntentSettingCategoryId}/settingDefinitions
 Content-type: application/json
 Content-length: 590
 
@@ -110,7 +112,7 @@ Content-Length: 639
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingDefinition",
-  "id": "f0142567-2567-f014-6725-14f0672514f0",
+  "id": "49ffdbef-dbef-49ff-efdb-ff49efdbff49",
   "valueType": "String",
   "displayName": "Display Name value",
   "isTopLevel": true,

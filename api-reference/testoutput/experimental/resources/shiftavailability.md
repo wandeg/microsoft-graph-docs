@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # shiftAvailability resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
-|timeSlots|[timeRange](../resources/timeRange.md) collection||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
+|timeSlots|[timeRange](../resources/timerange.md) collection||
 |timeZone|String||
 
 ## Relationships

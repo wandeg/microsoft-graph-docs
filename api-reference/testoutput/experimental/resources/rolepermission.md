@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # rolePermission resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |actions|String collection|Allowed Actions - Deprecated|
-|resourceActions|[resourceAction](../resources/resourceAction.md) collection|Resource Actions each containing a set of allowed and not allowed permissions.|
+|resourceActions|[resourceAction](../resources/resourceaction.md) collection|Resource Actions each containing a set of allowed and not allowed permissions.|
 
 ## Relationships
 None

@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # customAction resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [informationProtectionAction](../resources/informationProtectionAction.md)
+
+
+Inherits from [informationProtectionAction](../resources/informationprotectionaction.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |name|String||
-|properties|[keyValuePair](../resources/keyValuePair.md) collection||
+|properties|[keyValuePair](../resources/keyvaluepair.md) collection||
 
 ## Relationships
 None

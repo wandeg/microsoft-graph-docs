@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add taskGroups
 
+Namespace: microsoft.graph
+
 Add taskGroups by posting to the taskGroups collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/outlook/taskGroups/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the outlookTaskGroup object.
+In the request body, supply a JSON representation for the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
 
-The following table shows the properties that are required when you create the outlookTaskGroup.
+The following table shows the properties that are required when you create the [outlookTaskGroup](../resources/outlooktaskgroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/outlook/taskGroups
+POST https://graph.microsoft.com/localtest/me/outlook/taskGroups
 Content-type: application/json
 Content-length: 201
 
@@ -72,7 +74,7 @@ Content-length: 201
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+  "groupKey": "27262869-2869-2726-6928-262769282627"
 }
 ```
 
@@ -91,11 +93,11 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.outlookTaskGroup",
-  "id": "255b3331-3331-255b-3133-5b2531335b25",
+  "id": "40c340e6-40e6-40c3-e640-c340e640c340",
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "bfe02d99-2d99-bfe0-992d-e0bf992de0bf"
+  "groupKey": "27262869-2869-2726-6928-262769282627"
 }
 ```
 

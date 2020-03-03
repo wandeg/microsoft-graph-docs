@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessOrganizerActivityCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessOrganizerActivityCountses](../api/skypeforbusinessorganizeractivitycounts-list.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeForBusinessOrganizerActivityCounts.md) collection|List properties and relationships of the [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) objects.|
-|[Get skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-get.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeForBusinessOrganizerActivityCounts.md)|Read properties and relationships of the [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
-|[Create skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-create.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeForBusinessOrganizerActivityCounts.md)|Create a new [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
+|[List skypeForBusinessOrganizerActivityCountses](../api/skypeforbusinessorganizeractivitycounts-list.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) collection|List properties and relationships of the [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) objects.|
+|[Get skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-get.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md)|Read properties and relationships of the [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
+|[Create skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-create.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md)|Create a new [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
 |[Delete skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-delete.md)|None|Deletes a [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md).|
-|[Update skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-update.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeForBusinessOrganizerActivityCounts.md)|Update the properties of a [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
+|[Update skypeForBusinessOrganizerActivityCounts](../api/skypeforbusinessorganizeractivitycounts-update.md)|[skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md)|Update the properties of a [skypeForBusinessOrganizerActivityCounts](../resources/skypeforbusinessorganizeractivitycounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

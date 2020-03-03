@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get ndesConnector
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [ndesConnector](../resources/ndesconnector.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/ndesConnectors/{ndesConnectorId}
+GET https://graph.microsoft.com/localtest/deviceManagement/ndesConnectors/{ndesConnectorId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 261
 {
   "value": {
     "@odata.type": "#microsoft.graph.ndesConnector",
-    "id": "8d428f99-8f99-8d42-998f-428d998f428d",
-    "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+    "id": "963deb66-eb66-963d-66eb-3d9666eb3d96",
+    "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
     "state": "String",
     "displayName": "Display Name value"
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create emailActivitySummary
 
+Namespace: microsoft.graph
+
 Create a new [emailActivitySummary](../resources/emailactivitysummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.emailActivitySummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the emailActivitySummary object.
+In the request body, supply a JSON representation for the [emailActivitySummary](../resources/emailactivitysummary.md) object.
 
-The following table shows the properties that are required when you create the emailActivitySummary.
+The following table shows the properties that are required when you create the [emailActivitySummary](../resources/emailactivitysummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailActivitySummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailActivitySummary not found
 Content-type: application/json
 Content-length: 206
 
@@ -95,7 +97,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.emailActivitySummary",
-  "id": "298faddc-addc-298f-dcad-8f29dcad8f29",
+  "id": "f20eee41-ee41-f20e-41ee-0ef241ee0ef2",
   "reportRefreshDate": "Date",
   "send": 4,
   "receive": 7,

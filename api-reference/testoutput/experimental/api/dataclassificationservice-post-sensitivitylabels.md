@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add sensitivityLabels
 
+Namespace: microsoft.graph
+
 Add sensitivityLabels by posting to the sensitivityLabels collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/sensitivityLabels/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sensitivityLabel object.
+In the request body, supply a JSON representation for the [sensitivityLabel](../resources/sensitivitylabel.md) object.
 
-The following table shows the properties that are required when you create the sensitivityLabel.
+The following table shows the properties that are required when you create the [sensitivityLabel](../resources/sensitivitylabel.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,10 +52,10 @@ The following table shows the properties that are required when you create the s
 |isEndpointProtectionEnabled|Boolean||
 |isDefault|Boolean||
 |applicationMode|Enumeration|. Possible values are: `manual`, `automatic`, `recommended`.|
-|labelActions|[labelActionBase](../resources/labelActionBase.md) collection||
-|assignedPolicies|[labelPolicy](../resources/labelPolicy.md) collection||
+|labelActions|[labelActionBase](../resources/labelactionbase.md) collection||
+|assignedPolicies|[labelPolicy](../resources/labelpolicy.md) collection||
 |priority|Int32||
-|autoLabeling|[autoLabeling](../resources/autoLabeling.md)||
+|autoLabeling|[autoLabeling](../resources/autolabeling.md)||
 
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels
+POST https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels
 Content-type: application/json
 Content-length: 921
 
@@ -124,7 +126,7 @@ Content-Length: 970
 
 {
   "@odata.type": "#microsoft.graph.sensitivityLabel",
-  "id": "0f094177-4177-0f09-7741-090f7741090f",
+  "id": "746d2913-2913-746d-1329-6d7413296d74",
   "name": "Name value",
   "displayName": "Display Name value",
   "description": "Description value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppStatusRaw
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppStatusRaw](../resources/managedappstatusraw.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.managedAppStatusRaw not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.managedAppStatusRaw not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 279
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppStatusRaw",
-    "id": "16795e66-5e66-1679-665e-7916665e7916",
+    "id": "81550748-0748-8155-4807-558148075581",
     "displayName": "Display Name value",
     "version": "Version value",
     "content": {

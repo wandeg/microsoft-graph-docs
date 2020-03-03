@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # calendarPermission resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get calendarPermission](../api/calendarpermission-get.md)|[calendarPermission](../resources/calendarPermission.md)|Read properties and relationships of the [calendarPermission](../resources/calendarpermission.md) object.|
+|[List calendarPermissions](../api/calendarpermission-list.md)|[calendarPermission](../resources/calendarpermission.md) collection|List properties and relationships of the [calendarPermission](../resources/calendarpermission.md) objects.|
+|[Get calendarPermission](../api/calendarpermission-get.md)|[calendarPermission](../resources/calendarpermission.md)|Read properties and relationships of the [calendarPermission](../resources/calendarpermission.md) object.|
+|[Create calendarPermission](../api/calendarpermission-create.md)|[calendarPermission](../resources/calendarpermission.md)|Create a new [calendarPermission](../resources/calendarpermission.md) object.|
 |[Delete calendarPermission](../api/calendarpermission-delete.md)|None|Deletes a [calendarPermission](../resources/calendarpermission.md).|
-|[Update calendarPermission](../api/calendarpermission-update.md)|[calendarPermission](../resources/calendarPermission.md)|Update the properties of a [calendarPermission](../resources/calendarpermission.md) object.|
+|[Update calendarPermission](../api/calendarpermission-update.md)|[calendarPermission](../resources/calendarpermission.md)|Update the properties of a [calendarPermission](../resources/calendarpermission.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |allowedRoles|Enumeration collection||
-|emailAddress|[emailAddress](../resources/emailAddress.md)||
+|emailAddress|[emailAddress](../resources/emailaddress.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isInsideOrganization|Boolean||
 |isRemovable|Boolean||

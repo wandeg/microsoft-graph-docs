@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointSiteUsageDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointSiteUsageDetails](../api/sharepointsiteusagedetail-list.md)|[sharePointSiteUsageDetail](../resources/sharePointSiteUsageDetail.md) collection|List properties and relationships of the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) objects.|
-|[Get sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-get.md)|[sharePointSiteUsageDetail](../resources/sharePointSiteUsageDetail.md)|Read properties and relationships of the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
-|[Create sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-create.md)|[sharePointSiteUsageDetail](../resources/sharePointSiteUsageDetail.md)|Create a new [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
+|[List sharePointSiteUsageDetails](../api/sharepointsiteusagedetail-list.md)|[sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) collection|List properties and relationships of the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) objects.|
+|[Get sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-get.md)|[sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md)|Read properties and relationships of the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
+|[Create sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-create.md)|[sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md)|Create a new [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
 |[Delete sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-delete.md)|None|Deletes a [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md).|
-|[Update sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-update.md)|[sharePointSiteUsageDetail](../resources/sharePointSiteUsageDetail.md)|Update the properties of a [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
+|[Update sharePointSiteUsageDetail](../api/sharepointsiteusagedetail-update.md)|[sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md)|Update the properties of a [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

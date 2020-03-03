@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete countryRegion
 
+Namespace: microsoft.graph
+
 Deletes a [countryRegion](../resources/countryregion.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/countriesRegions/{countryRegionId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/countriesRegions/{countryRegionId}
 ```
 
 ### Response

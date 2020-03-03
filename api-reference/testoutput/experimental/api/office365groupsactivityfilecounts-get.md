@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get office365GroupsActivityFileCounts
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityFileCounts not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityFileCounts not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 287
 {
   "value": {
     "@odata.type": "#microsoft.graph.office365GroupsActivityFileCounts",
-    "id": "3ef53839-3839-3ef5-3938-f53e3938f53e",
+    "id": "96df8bf4-8bf4-96df-f48b-df96f48bdf96",
     "reportRefreshDate": "Date",
     "total": 5,
     "active": 6,

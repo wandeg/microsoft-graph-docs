@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceComplianceActionItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/sche
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceComplianceActionItem](../resources/deviceComplianceActionItem.md) object.
+In the request body, supply a JSON representation for the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.
 
 The following table shows the properties that are required when you create the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations/{deviceComplianceActionItemId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations/{deviceComplianceActionItemId}
 Content-type: application/json
 Content-length: 265
 
@@ -91,7 +93,7 @@ Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-  "id": "cc8b5d13-5d13-cc8b-135d-8bcc135d8bcc",
+  "id": "c5a87a92-7a92-c5a8-927a-a8c5927aa8c5",
   "gracePeriodHours": 0,
   "actionType": "String",
   "notificationTemplateId": "Notification Template Id value",

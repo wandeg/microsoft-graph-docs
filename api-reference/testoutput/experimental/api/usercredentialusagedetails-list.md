@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userCredentialUsageDetailses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/userCredentialUsageDetails
+GET https://graph.microsoft.com/localtest/reports/userCredentialUsageDetails
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Content-Length: 462
   "value": [
     {
       "@odata.type": "#microsoft.graph.userCredentialUsageDetails",
-      "id": "4c03f248-f248-4c03-48f2-034c48f2034c",
+      "id": "149bdb35-db35-149b-35db-9b1435db9b14",
       "feature": "String",
       "userPrincipalName": "User Principal Name value",
       "userDisplayName": "User Display Name value",
       "isSuccess": true,
       "authMethod": "String",
       "failureReason": "Failure Reason value",
-      "eventDateTime": "2017-01-01T00:00:02.9716266+03:00"
+      "eventDateTime": "2017-01-01T00:01:42.7768776+03:00"
     }
   ]
 }

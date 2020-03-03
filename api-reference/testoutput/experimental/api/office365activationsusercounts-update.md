@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365ActivationsUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365ActivationsUserCounts](../resources/office365activationsusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365ActivationsUserCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365ActivationsUserCounts](../resources/office365ActivationsUserCounts.md) object.
+In the request body, supply a JSON representation for the [office365ActivationsUserCounts](../resources/office365activationsusercounts.md) object.
 
 The following table shows the properties that are required when you create the [office365ActivationsUserCounts](../resources/office365activationsusercounts.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365ActivationsUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365ActivationsUserCounts not found
 Content-type: application/json
 Content-length: 215
 
@@ -91,7 +93,7 @@ Content-Length: 264
 
 {
   "@odata.type": "#microsoft.graph.office365ActivationsUserCounts",
-  "id": "c02875be-75be-c028-be75-28c0be7528c0",
+  "id": "ef8be27a-e27a-ef8b-7ae2-8bef7ae28bef",
   "reportRefreshDate": "Date",
   "productType": "Product Type value",
   "assigned": 8,

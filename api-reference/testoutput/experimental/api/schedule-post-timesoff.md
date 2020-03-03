@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add timesOff
 
+Namespace: microsoft.graph
+
 Add timesOff by posting to the timesOff collection.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST /me/joinedGroups/{groupId}/team/schedule/timesOff/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the timeOff object.
+In the request body, supply a JSON representation for the [timeOff](../resources/timeoff.md) object.
 
-The following table shows the properties that are required when you create the timeOff.
+The following table shows the properties that are required when you create the [timeOff](../resources/timeoff.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|sharedTimeOff|[timeOffItem](../resources/timeOffItem.md)||
-|draftTimeOff|[timeOffItem](../resources/timeOffItem.md)||
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|sharedTimeOff|[timeOffItem](../resources/timeoffitem.md)||
+|draftTimeOff|[timeOffItem](../resources/timeoffitem.md)||
 |userId|String||
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/timesOff
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/timesOff
 Content-type: application/json
 Content-length: 426
 
@@ -73,8 +75,8 @@ Content-length: 426
   "@odata.type": "#microsoft.graph.timeOff",
   "sharedTimeOff": {
     "@odata.type": "microsoft.graph.timeOffItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "timeOffReasonId": "Time Off Reason Id value"
   },
@@ -96,13 +98,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 971
+Content-Length: 970
 
 {
   "@odata.type": "#microsoft.graph.timeOff",
-  "id": "59027fba-7fba-5902-ba7f-0259ba7f0259",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "87af232f-232f-87af-2f23-af872f23af87",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -119,8 +121,8 @@ Content-Length: 971
   },
   "sharedTimeOff": {
     "@odata.type": "microsoft.graph.timeOffItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "timeOffReasonId": "Time Off Reason Id value"
   },

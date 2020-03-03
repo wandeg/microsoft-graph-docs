@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupPolicyMigrationReport
 
+Namespace: microsoft.graph
+
 Deletes a [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}
 ```
 
 ### Response

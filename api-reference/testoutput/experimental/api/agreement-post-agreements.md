@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create agreement
 
+Namespace: microsoft.graph
+
 Create a new [agreement](../resources/agreement.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /agreements
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the agreement object.
+In the request body, supply a JSON representation for the [agreement](../resources/agreement.md) object.
 
-The following table shows the properties that are required when you create the agreement.
+The following table shows the properties that are required when you create the [agreement](../resources/agreement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/agreements
+POST https://graph.microsoft.com/localtest/agreements
 Content-type: application/json
 Content-length: 137
 
@@ -87,7 +89,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.agreement",
-  "id": "538faced-aced-538f-edac-8f53edac8f53",
+  "id": "e945b4f8-b4f8-e945-f8b4-45e9f8b445e9",
   "displayName": "Display Name value",
   "isViewingBeforeAcceptanceRequired": true
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # cancel
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events/{eventId}/cancel
+POST https://graph.microsoft.com/localtest/me/events/{eventId}/cancel
 
 Content-type: application/json
 Content-length: 34

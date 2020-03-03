@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update unifiedRoleDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /roleManagement/directory/roleDefinitions/{unifiedRoleDefinitionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [unifiedRoleDefinition](../resources/unifiedRoleDefinition.md) object.
+In the request body, supply a JSON representation for the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.
 
 The following table shows the properties that are required when you create the [unifiedRoleDefinition](../resources/unifiedroledefinition.md).
 
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the [
 |isBuiltIn|Boolean||
 |isEnabled|Boolean||
 |resourceScopes|String collection||
-|rolePermissions|[unifiedRolePermission](../resources/unifiedRolePermission.md) collection||
+|rolePermissions|[unifiedRolePermission](../resources/unifiedrolepermission.md) collection||
 |templateId|String||
 |version|String||
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/roleManagement/directory/roleDefinitions/{unifiedRoleDefinitionId}
+PATCH https://graph.microsoft.com/localtest/roleManagement/directory/roleDefinitions/{unifiedRoleDefinitionId}
 Content-type: application/json
 Content-length: 545
 
@@ -107,7 +109,7 @@ Content-Length: 594
 
 {
   "@odata.type": "#microsoft.graph.unifiedRoleDefinition",
-  "id": "42ee607e-607e-42ee-7e60-ee427e60ee42",
+  "id": "817a827d-827d-817a-7d82-7a817d827a81",
   "description": "Description value",
   "displayName": "Display Name value",
   "isBuiltIn": true,

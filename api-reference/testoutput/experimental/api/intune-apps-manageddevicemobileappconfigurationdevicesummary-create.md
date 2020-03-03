@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create managedDeviceMobileAppConfigurationDeviceSummary
 
-Create a new [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object.
+Namespace: microsoft.graph
+
+Create a new [managedDeviceMobileAppConfigurationDeviceSummary](../resources/intune-apps-manageddevicemobileappconfigurationdevicesummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationDe
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfigurationDeviceSummary object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/intune-apps-manageddevicemobileappconfigurationdevicesummary.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfigurationDeviceSummary.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/intune-apps-manageddevicemobileappconfigurationdevicesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -56,7 +58,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [managedDeviceMobileAppConfigurationDeviceSummary](../resources/intune-apps-manageddevicemobileappconfigurationdevicesummary.md) object in the response body.
 
 ## Example
 
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary not found
 Content-type: application/json
-Content-length: 359
+Content-length: 360
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
@@ -81,7 +83,7 @@ Content-length: 359
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```
@@ -97,11 +99,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 408
+Content-Length: 409
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
-  "id": "92754e0d-4e0d-9275-0d4e-75920d4e7592",
+  "id": "a9510164-0164-a951-6401-51a9640151a9",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "notApplicablePlatformCount": 10,
@@ -109,7 +111,7 @@ Content-Length: 408
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get tokenLifetimePolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/policies/tokenLifetimePolicies/{tokenLifetimePolicyId}
+GET https://graph.microsoft.com/localtest/policies/tokenLifetimePolicies/{tokenLifetimePolicyId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 307
 {
   "value": {
     "@odata.type": "#microsoft.graph.tokenLifetimePolicy",
-    "id": "28f1da29-da29-28f1-29da-f12829daf128",
+    "id": "1b0eb783-b783-1b0e-83b7-0e1b83b70e1b",
     "description": "Description value",
     "displayName": "Display Name value",
     "definition": [

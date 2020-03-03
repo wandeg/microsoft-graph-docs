@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/assignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementIntentAssignment object.
+In the request body, supply a JSON representation for the [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementIntentAssignment.
+The following table shows the properties that are required when you create the [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The assignment target|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/assignments
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/assignments
 Content-type: application/json
 Content-length: 172
 
@@ -87,7 +89,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentAssignment",
-  "id": "10942871-2871-1094-7128-941071289410",
+  "id": "4c63bff1-bff1-4c63-f1bf-634cf1bf634c",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

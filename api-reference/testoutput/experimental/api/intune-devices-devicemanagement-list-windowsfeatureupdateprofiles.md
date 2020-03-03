@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsFeatureUpdateProfiles
 
+Namespace: microsoft.graph
+
 Get the windowsFeatureUpdateProfiles from the windowsFeatureUpdateProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles
+GET https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 440
+Content-Length: 439
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfile",
-      "id": "9c154f7a-4f7a-9c15-7a4f-159c7a4f159c",
+      "id": "df3be66e-e66e-df3b-6ee6-3bdf6ee63bdf",
       "displayName": "Display Name value",
       "description": "Description value",
       "featureUpdateVersion": "Feature Update Version value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

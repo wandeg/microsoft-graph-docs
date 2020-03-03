@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get countryRegion
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [countryRegion](../resources/countryregion.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/countriesRegions/{countryRegionId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/countriesRegions/{countryRegionId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 308
 {
   "value": {
     "@odata.type": "#microsoft.graph.countryRegion",
-    "id": "2172a90e-a90e-2172-0ea9-72210ea97221",
+    "id": "0c101412-1412-0c10-1214-100c1214100c",
     "code": "Code value",
     "displayName": "Display Name value",
     "addressFormat": "Address Format value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

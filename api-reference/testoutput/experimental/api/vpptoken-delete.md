@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete vppToken
 
+Namespace: microsoft.graph
+
 Deletes a [vppToken](../resources/vpptoken.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/vppTokens/{vppTokenId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/vppTokens/{vppTokenId}
 ```
 
 ### Response

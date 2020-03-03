@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List controls
 
+Namespace: microsoft.graph
+
 Get the programControls from the controls navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/programs/{programsId}/controls
+GET https://graph.microsoft.com/localtest/programs/{programsId}/controls
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 746
+Content-Length: 745
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.programControl",
-      "id": "130b2c88-2c88-130b-882c-0b13882c0b13",
+      "id": "59973866-3866-5997-6638-975966389759",
       "controlId": "Control Id value",
       "programId": "Program Id value",
       "controlTypeId": "Control Type Id value",
@@ -86,7 +88,7 @@ Content-Length: 746
         "@odata.type": "microsoft.graph.programResource",
         "type": "Type value"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
     }
   ]
 }

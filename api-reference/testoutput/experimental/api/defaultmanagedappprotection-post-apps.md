@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add apps
 
+Namespace: microsoft.graph
+
 Add apps by posting to the apps collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtect
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedMobileApp object.
+In the request body, supply a JSON representation for the [managedMobileApp](../resources/managedmobileapp.md) object.
 
-The following table shows the properties that are required when you create the managedMobileApp.
+The following table shows the properties that are required when you create the [managedMobileApp](../resources/managedmobileapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The identifier for an app with it's operating system type.|
+|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The identifier for an app with it's operating system type.|
 |version|String|Version of the entity.|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}/apps
+POST https://graph.microsoft.com/localtest/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}/apps
 Content-type: application/json
 Content-length: 181
 
@@ -89,7 +91,7 @@ Content-Length: 230
 
 {
   "@odata.type": "#microsoft.graph.managedMobileApp",
-  "id": "3d45223c-223c-3d45-3c22-453d3c22453d",
+  "id": "01daf82b-f82b-01da-2bf8-da012bf8da01",
   "mobileAppIdentifier": {
     "@odata.type": "microsoft.graph.mobileAppIdentifier"
   },

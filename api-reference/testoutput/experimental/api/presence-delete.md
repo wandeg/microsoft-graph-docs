@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete presence
 
+Namespace: microsoft.graph
+
 Deletes a [presence](../resources/presence.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/presence
+DELETE https://graph.microsoft.com/localtest/me/presence
 ```
 
 ### Response

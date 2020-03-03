@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List privilegedRoleSettingses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [privilegedRoleSettings](../resources/privilegedrolesettings.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.privilegedRoleSettings not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.privilegedRoleSettings not found
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 594
+Content-Length: 598
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.privilegedRoleSettings",
-      "id": "0f5a4dcc-4dcc-0f5a-cc4d-5a0fcc4d5a0f",
+      "id": "d3a3282d-282d-d3a3-2d28-a3d32d28a3d3",
       "approverIds": [
         "Approver Ids value"
       ],
-      "minElevationDuration": "PT2M30.5291281S",
-      "maxElavationDuration": "PT18.2951584S",
-      "elevationDuration": "PT3M11.3606798S",
+      "minElevationDuration": "-PT2M51.2414314S",
+      "maxElavationDuration": "-PT1M27.9407158S",
+      "elevationDuration": "PT1M41.1840893S",
       "notificationToUserOnElevation": true,
       "ticketingInfoOnElevation": true,
       "mfaOnElevation": true,

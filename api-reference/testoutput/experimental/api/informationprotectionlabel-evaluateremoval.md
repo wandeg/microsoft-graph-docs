@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # evaluateRemoval
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,13 +44,13 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|contentInfo|[contentInfo](../resources/contentInfo.md)||
-|downgradeJustification|[downgradeJustification](../resources/downgradeJustification.md)||
+|contentInfo|[contentInfo](../resources/contentinfo.md)||
+|downgradeJustification|[downgradeJustification](../resources/downgradejustification.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationProtectionAction.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationprotectionaction.md) collection in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/policy/labels/evaluateRemoval
+POST https://graph.microsoft.com/localtest/informationProtection/policy/labels/evaluateRemoval
 
 Content-type: application/json
 Content-length: 177

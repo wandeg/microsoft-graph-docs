@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementReports
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementReports](../resources/devicemanagementreports.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/reports
+DELETE https://graph.microsoft.com/localtest/deviceManagement/reports
 ```
 
 ### Response

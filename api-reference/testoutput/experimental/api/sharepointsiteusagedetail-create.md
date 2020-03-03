@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointSiteUsageDetail
 
+Namespace: microsoft.graph
+
 Create a new [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointSiteUsageDetail not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointSiteUsageDetail object.
+In the request body, supply a JSON representation for the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md) object.
 
-The following table shows the properties that are required when you create the sharePointSiteUsageDetail.
+The following table shows the properties that are required when you create the [sharePointSiteUsageDetail](../resources/sharepointsiteusagedetail.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -74,14 +76,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsageDetail not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsageDetail not found
 Content-type: application/json
 Content-length: 604
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageDetail",
   "reportRefreshDate": "Date",
-  "siteId": "005424d7-24d7-0054-d724-5400d7245400",
+  "siteId": "e6fd33e3-33e3-e6fd-e333-fde6e333fde6",
   "siteUrl": "https://example.com/siteUrl/",
   "ownerDisplayName": "Owner Display Name value",
   "ownerPrincipalName": "Owner Principal Name value",
@@ -113,9 +115,9 @@ Content-Length: 653
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageDetail",
-  "id": "cbf31882-1882-cbf3-8218-f3cb8218f3cb",
+  "id": "6e05d61e-d61e-6e05-1ed6-056e1ed6056e",
   "reportRefreshDate": "Date",
-  "siteId": "005424d7-24d7-0054-d724-5400d7245400",
+  "siteId": "e6fd33e3-33e3-e6fd-e333-fde6e333fde6",
   "siteUrl": "https://example.com/siteUrl/",
   "ownerDisplayName": "Owner Display Name value",
   "ownerPrincipalName": "Owner Principal Name value",

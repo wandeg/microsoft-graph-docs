@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update informationProtectionPolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /informationProtection/policy
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [informationProtectionPolicy](../resources/informationProtectionPolicy.md) object.
+In the request body, supply a JSON representation for the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.
 
 The following table shows the properties that are required when you create the [informationProtectionPolicy](../resources/informationprotectionpolicy.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/informationProtection/policy
+PATCH https://graph.microsoft.com/localtest/informationProtection/policy
 Content-type: application/json
 Content-length: 69
 
@@ -81,7 +83,7 @@ Content-Length: 118
 
 {
   "@odata.type": "#microsoft.graph.informationProtectionPolicy",
-  "id": "88172d2c-2d2c-8817-2c2d-17882c2d1788"
+  "id": "738d216e-216e-738d-6e21-8d736e218d73"
 }
 ```
 

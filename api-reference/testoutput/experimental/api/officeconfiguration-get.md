@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get officeConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [officeConfiguration](../resources/officeconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/officeConfiguration
+GET https://graph.microsoft.com/localtest/officeConfiguration
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 910
 {
   "value": {
     "@odata.type": "#microsoft.graph.officeConfiguration",
-    "id": "c404c435-c435-c404-35c4-04c435c404c4",
+    "id": "c87a85cd-85cd-c87a-cd85-7ac8cd857ac8",
     "tenantCheckinStatuses": [
       {
         "@odata.type": "microsoft.graph.officeClientCheckinStatus",
@@ -82,7 +84,7 @@ Content-Length: 910
         "devicePlatformVersion": "Device Platform Version value",
         "wasSuccessful": true,
         "userId": "User Id value",
-        "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+        "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
         "errorMessage": "Error Message value",
         "appliedPolicies": [
           "Applied Policies value"

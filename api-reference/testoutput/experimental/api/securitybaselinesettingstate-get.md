@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get securityBaselineSettingState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates/{securityBaselineSettingStateId}
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates/{securityBaselineSettingStateId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 263
 {
   "value": {
     "@odata.type": "#microsoft.graph.securityBaselineSettingState",
-    "id": "a25d86bb-86bb-a25d-bb86-5da2bb865da2",
+    "id": "a84fce29-ce29-a84f-29ce-4fa829ce4fa8",
     "settingName": "Setting Name value",
     "state": "String",
     "settingCategoryId": "Setting Category Id value"

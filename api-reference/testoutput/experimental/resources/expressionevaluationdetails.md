@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # expressionEvaluationDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,9 +18,9 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |expression|String||
-|expressionEvaluationDetails|[expressionEvaluationDetails](../resources/expressionEvaluationDetails.md) collection||
+|expressionEvaluationDetails|[expressionEvaluationDetails](../resources/expressionevaluationdetails.md) collection||
 |expressionResult|Boolean||
-|propertyToEvaluate|[propertyToEvaluate](../resources/propertyToEvaluate.md)||
+|propertyToEvaluate|[propertyToEvaluate](../resources/propertytoevaluate.md)||
 
 ## Relationships
 None

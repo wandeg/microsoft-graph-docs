@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update governanceRoleDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [governanceRoleDefinition](../resources/governanceroledefinition.md) object.
 
 ## Permissions
@@ -44,7 +46,7 @@ PATCH /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/ro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [governanceRoleDefinition](../resources/governanceRoleDefinition.md) object.
+In the request body, supply a JSON representation for the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.
 
 The following table shows the properties that are required when you create the [governanceRoleDefinition](../resources/governanceroledefinition.md).
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/governanceRoleDefinitions/{governanceRoleDefinitionsId}
+PATCH https://graph.microsoft.com/localtest/governanceRoleDefinitions/{governanceRoleDefinitionsId}
 Content-type: application/json
 Content-length: 220
 
@@ -98,7 +100,7 @@ Content-Length: 269
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleDefinition",
-  "id": "060f2ae1-2ae1-060f-e12a-0f06e12a0f06",
+  "id": "844a2f55-2f55-844a-552f-4a84552f4a84",
   "resourceId": "Resource Id value",
   "externalId": "External Id value",
   "templateId": "Template Id value",

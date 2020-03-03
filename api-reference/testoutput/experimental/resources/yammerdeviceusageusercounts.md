@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # yammerDeviceUsageUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List yammerDeviceUsageUserCountses](../api/yammerdeviceusageusercounts-list.md)|[yammerDeviceUsageUserCounts](../resources/yammerDeviceUsageUserCounts.md) collection|List properties and relationships of the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) objects.|
-|[Get yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-get.md)|[yammerDeviceUsageUserCounts](../resources/yammerDeviceUsageUserCounts.md)|Read properties and relationships of the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
-|[Create yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-create.md)|[yammerDeviceUsageUserCounts](../resources/yammerDeviceUsageUserCounts.md)|Create a new [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
+|[List yammerDeviceUsageUserCountses](../api/yammerdeviceusageusercounts-list.md)|[yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) collection|List properties and relationships of the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) objects.|
+|[Get yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-get.md)|[yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md)|Read properties and relationships of the [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
+|[Create yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-create.md)|[yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md)|Create a new [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
 |[Delete yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-delete.md)|None|Deletes a [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md).|
-|[Update yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-update.md)|[yammerDeviceUsageUserCounts](../resources/yammerDeviceUsageUserCounts.md)|Update the properties of a [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
+|[Update yammerDeviceUsageUserCounts](../api/yammerdeviceusageusercounts-update.md)|[yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md)|Update the properties of a [yammerDeviceUsageUserCounts](../resources/yammerdeviceusageusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

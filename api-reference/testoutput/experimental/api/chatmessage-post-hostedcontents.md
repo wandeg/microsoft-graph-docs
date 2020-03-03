@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add hostedContents
 
+Namespace: microsoft.graph
+
 Add hostedContents by posting to the hostedContents collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageI
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the chatMessageHostedContent object.
+In the request body, supply a JSON representation for the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.
 
-The following table shows the properties that are required when you create the chatMessageHostedContent.
+The following table shows the properties that are required when you create the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents
 Content-type: application/json
 Content-length: 66
 
@@ -83,7 +85,7 @@ Content-Length: 115
 
 {
   "@odata.type": "#microsoft.graph.chatMessageHostedContent",
-  "id": "78937006-7006-7893-0670-937806709378"
+  "id": "c92830a1-30a1-c928-a130-28c9a13028c9"
 }
 ```
 

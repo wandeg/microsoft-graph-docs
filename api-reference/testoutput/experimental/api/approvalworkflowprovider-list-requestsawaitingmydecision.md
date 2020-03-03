@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List requestsAwaitingMyDecision
 
+Namespace: microsoft.graph
+
 Get the requests from the requestsAwaitingMyDecision navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requestsAwaitingMyDecision
+GET https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requestsAwaitingMyDecision
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 2565
   "value": [
     {
       "@odata.type": "#microsoft.graph.request",
-      "id": "93ce215e-215e-93ce-5e21-ce935e21ce93",
+      "id": "3d5e0420-0420-3d5e-2004-5e3d20045e3d",
       "displayName": "Display Name value",
       "description": "Description value",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
       "status": "Status value",
       "businessFlowId": "Business Flow Id value",
       "createdBy": {

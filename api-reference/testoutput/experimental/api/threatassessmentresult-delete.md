@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete threatAssessmentResult
 
+Namespace: microsoft.graph
+
 Deletes a [threatAssessmentResult](../resources/threatassessmentresult.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results/{threatAssessmentResultId}
+DELETE https://graph.microsoft.com/localtest/informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results/{threatAssessmentResultId}
 ```
 
 ### Response

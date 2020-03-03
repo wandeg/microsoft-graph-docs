@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceCompliancePolicyStates
 
+Namespace: microsoft.graph
+
 Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCompliancePolicyState object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.
 
-The following table shows the properties that are required when you create the deviceCompliancePolicyState.
+The following table shows the properties that are required when you create the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settingStates|[deviceCompliancePolicySettingState](../resources/deviceCompliancePolicySettingState.md) collection||
+|settingStates|[deviceCompliancePolicySettingState](../resources/devicecompliancepolicysettingstate.md) collection||
 |displayName|String|The name of the policy for this policyBase|
 |version|Int32|The version of the policy|
 |platformType|Enumeration|Platform type that the policy applies to. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates
 Content-type: application/json
 Content-length: 1045
 
@@ -121,7 +123,7 @@ Content-Length: 1094
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-  "id": "28c4cf28-cf28-28c4-28cf-c42828cfc428",
+  "id": "d7babfdb-bfdb-d7ba-dbbf-bad7dbbfbad7",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

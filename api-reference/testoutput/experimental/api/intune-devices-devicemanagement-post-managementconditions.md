@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managementConditions
 
+Namespace: microsoft.graph
+
 Add managementConditions by posting to the managementConditions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/managementConditions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managementCondition object.
+In the request body, supply a JSON representation for the [managementCondition](../resources/managementcondition.md) object.
 
-The following table shows the properties that are required when you create the managementCondition.
+The following table shows the properties that are required when you create the [managementCondition](../resources/managementcondition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/managementConditions
+POST https://graph.microsoft.com/localtest/deviceManagement/managementConditions
 Content-type: application/json
 Content-length: 251
 
@@ -93,16 +95,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 419
+Content-Length: 418
 
 {
   "@odata.type": "#microsoft.graph.managementCondition",
-  "id": "0d5e2d46-2d46-0d5e-462d-5e0d462d5e0d",
+  "id": "7da52cbf-2cbf-7da5-bf2c-a57dbf2ca57d",
   "uniqueName": "Unique Name value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "eTag": "ETag value",
   "applicablePlatforms": [
     "String"

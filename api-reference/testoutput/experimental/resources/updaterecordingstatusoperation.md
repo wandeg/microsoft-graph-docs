@@ -5,33 +5,34 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # updateRecordingStatusOperation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [commsOperation](../resources/commsOperation.md)
+
+
+Inherits from [commsOperation](../resources/commsoperation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List updateRecordingStatusOperations](../api/updaterecordingstatusoperation-list.md)|[updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md) collection|List properties and relationships of the [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) objects.|
-|[Get updateRecordingStatusOperation](../api/updaterecordingstatusoperation-get.md)|[updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md)|Read properties and relationships of the [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
-|[Create updateRecordingStatusOperation](../api/updaterecordingstatusoperation-create.md)|[updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md)|Create a new [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
+|[List updateRecordingStatusOperations](../api/updaterecordingstatusoperation-list.md)|[updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) collection|List properties and relationships of the [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) objects.|
+|[Get updateRecordingStatusOperation](../api/updaterecordingstatusoperation-get.md)|[updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md)|Read properties and relationships of the [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
+|[Create updateRecordingStatusOperation](../api/updaterecordingstatusoperation-create.md)|[updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md)|Create a new [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
 |[Delete updateRecordingStatusOperation](../api/updaterecordingstatusoperation-delete.md)|None|Deletes a [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md).|
-|[Update updateRecordingStatusOperation](../api/updaterecordingstatusoperation-update.md)|[updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md)|Update the properties of a [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
+|[Update updateRecordingStatusOperation](../api/updaterecordingstatusoperation-update.md)|[updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md)|Update the properties of a [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
 
 ## Relationships
 None

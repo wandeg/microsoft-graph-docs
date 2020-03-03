@@ -5,36 +5,37 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # callActivityStatistics resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [activityStatistics](../resources/activityStatistics.md)
+
+
+Inherits from [activityStatistics](../resources/activitystatistics.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List callActivityStatisticses](../api/callactivitystatistics-list.md)|[callActivityStatistics](../resources/callActivityStatistics.md) collection|List properties and relationships of the [callActivityStatistics](../resources/callactivitystatistics.md) objects.|
-|[Get callActivityStatistics](../api/callactivitystatistics-get.md)|[callActivityStatistics](../resources/callActivityStatistics.md)|Read properties and relationships of the [callActivityStatistics](../resources/callactivitystatistics.md) object.|
-|[Create callActivityStatistics](../api/callactivitystatistics-create.md)|[callActivityStatistics](../resources/callActivityStatistics.md)|Create a new [callActivityStatistics](../resources/callactivitystatistics.md) object.|
+|[List callActivityStatisticses](../api/callactivitystatistics-list.md)|[callActivityStatistics](../resources/callactivitystatistics.md) collection|List properties and relationships of the [callActivityStatistics](../resources/callactivitystatistics.md) objects.|
+|[Get callActivityStatistics](../api/callactivitystatistics-get.md)|[callActivityStatistics](../resources/callactivitystatistics.md)|Read properties and relationships of the [callActivityStatistics](../resources/callactivitystatistics.md) object.|
+|[Create callActivityStatistics](../api/callactivitystatistics-create.md)|[callActivityStatistics](../resources/callactivitystatistics.md)|Create a new [callActivityStatistics](../resources/callactivitystatistics.md) object.|
 |[Delete callActivityStatistics](../api/callactivitystatistics-delete.md)|None|Deletes a [callActivityStatistics](../resources/callactivitystatistics.md).|
-|[Update callActivityStatistics](../api/callactivitystatistics-update.md)|[callActivityStatistics](../resources/callActivityStatistics.md)|Update the properties of a [callActivityStatistics](../resources/callactivitystatistics.md) object.|
+|[Update callActivityStatistics](../api/callactivitystatistics-update.md)|[callActivityStatistics](../resources/callactivitystatistics.md)|Update the properties of a [callActivityStatistics](../resources/callactivitystatistics.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
 |afterHours|Duration||
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 
 ## Relationships
 None

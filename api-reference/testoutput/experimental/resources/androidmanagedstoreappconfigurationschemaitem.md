@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidManagedStoreAppConfigurationSchemaItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -26,7 +27,7 @@ Namespace: microsoft.graph
 |index|Int32|Unique index the application uses to maintain nested schema items|
 |parentIndex|Int32|Index of parent schema item to track nested schema items|
 |schemaItemKey|String|Unique key the application uses to identify the item|
-|selections|[keyValuePair](../resources/keyValuePair.md) collection|List of human readable name/value pairs for the valid values that can be set for this item (Choice and Multiselect items only)|
+|selections|[keyValuePair](../resources/keyvaluepair.md) collection|List of human readable name/value pairs for the valid values that can be set for this item (Choice and Multiselect items only)|
 
 ## Relationships
 None

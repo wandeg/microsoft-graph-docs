@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create post
 
+Namespace: microsoft.graph
+
 Create a new [post](../resources/post.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversa
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the post object.
+In the request body, supply a JSON representation for the [post](../resources/post.md) object.
 
-The following table shows the properties that are required when you create the post.
+The following table shows the properties that are required when you create the [post](../resources/post.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
-|body|[itemBody](../resources/itemBody.md)||
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
+|body|[itemBody](../resources/itembody.md)||
 |receivedDateTime|DateTimeOffset||
 |hasAttachments|Boolean||
 |from|[recipient](../resources/recipient.md)||
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts
 Content-type: application/json
 Content-length: 857
 
@@ -87,7 +89,7 @@ Content-length: 857
     "contentType": "String",
     "content": "Content value"
   },
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
   "hasAttachments": true,
   "from": {
     "@odata.type": "microsoft.graph.recipient",
@@ -122,13 +124,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1029
+Content-Length: 1028
 
 {
   "@odata.type": "#microsoft.graph.post",
-  "id": "1ee906f1-06f1-1ee9-f106-e91ef106e91e",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "a60d9d57-9d57-a60d-579d-0da6579d0da6",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -138,7 +140,7 @@ Content-Length: 1029
     "contentType": "String",
     "content": "Content value"
   },
-  "receivedDateTime": "2016-12-31T23:59:48.3455349+03:00",
+  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
   "hasAttachments": true,
   "from": {
     "@odata.type": "microsoft.graph.recipient",

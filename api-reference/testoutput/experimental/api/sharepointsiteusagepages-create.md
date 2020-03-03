@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointSiteUsagePages
 
+Namespace: microsoft.graph
+
 Create a new [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointSiteUsagePages not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointSiteUsagePages object.
+In the request body, supply a JSON representation for the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md) object.
 
-The following table shows the properties that are required when you create the sharePointSiteUsagePages.
+The following table shows the properties that are required when you create the [sharePointSiteUsagePages](../resources/sharepointsiteusagepages.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointSiteUsagePages not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointSiteUsagePages not found
 Content-type: application/json
 Content-length: 223
 
@@ -93,7 +95,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsagePages",
-  "id": "8db93fe7-3fe7-8db9-e73f-b98de73fb98d",
+  "id": "86a80786-0786-86a8-8607-a8868607a886",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "pageViewCount": 13,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete agreementFile
 
+Namespace: microsoft.graph
+
 Deletes a [agreementFile](../resources/agreementfile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/agreements/{agreementsId}/files/{agreementFileId}
+DELETE https://graph.microsoft.com/localtest/agreements/{agreementsId}/files/{agreementFileId}
 ```
 
 ### Response

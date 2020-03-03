@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # oneDriveUsageFileCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List oneDriveUsageFileCountses](../api/onedriveusagefilecounts-list.md)|[oneDriveUsageFileCounts](../resources/oneDriveUsageFileCounts.md) collection|List properties and relationships of the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) objects.|
-|[Get oneDriveUsageFileCounts](../api/onedriveusagefilecounts-get.md)|[oneDriveUsageFileCounts](../resources/oneDriveUsageFileCounts.md)|Read properties and relationships of the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
-|[Create oneDriveUsageFileCounts](../api/onedriveusagefilecounts-create.md)|[oneDriveUsageFileCounts](../resources/oneDriveUsageFileCounts.md)|Create a new [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
+|[List oneDriveUsageFileCountses](../api/onedriveusagefilecounts-list.md)|[oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) collection|List properties and relationships of the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) objects.|
+|[Get oneDriveUsageFileCounts](../api/onedriveusagefilecounts-get.md)|[oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md)|Read properties and relationships of the [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
+|[Create oneDriveUsageFileCounts](../api/onedriveusagefilecounts-create.md)|[oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md)|Create a new [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
 |[Delete oneDriveUsageFileCounts](../api/onedriveusagefilecounts-delete.md)|None|Deletes a [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md).|
-|[Update oneDriveUsageFileCounts](../api/onedriveusagefilecounts-update.md)|[oneDriveUsageFileCounts](../resources/oneDriveUsageFileCounts.md)|Update the properties of a [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
+|[Update oneDriveUsageFileCounts](../api/onedriveusagefilecounts-update.md)|[oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md)|Update the properties of a [oneDriveUsageFileCounts](../resources/onedriveusagefilecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

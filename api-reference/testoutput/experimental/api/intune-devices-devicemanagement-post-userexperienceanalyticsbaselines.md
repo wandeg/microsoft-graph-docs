@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userExperienceAnalyticsBaselines
 
+Namespace: microsoft.graph
+
 Add userExperienceAnalyticsBaselines by posting to the userExperienceAnalyticsBaselines collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/userExperienceAnalyticsBaselines/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsBaseline object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsBaseline.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the u
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsBaseline](../resources/userexperienceanalyticsbaseline.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsBaseline](../resources/intune-devices-userexperienceanalyticsbaseline.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsBaselines
+POST https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsBaselines
 Content-type: application/json
 Content-length: 135
 
@@ -84,14 +86,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 243
+Content-Length: 242
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsBaseline",
-  "id": "b1b6e91e-e91e-b1b6-1ee9-b6b11ee9b6b1",
+  "id": "404d41c1-41c1-404d-c141-4d40c1414d40",
   "displayName": "Display Name value",
   "isBuiltIn": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
 }
 ```
 

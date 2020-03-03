@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagement
 
-Read properties and relationships of the [deviceManagement](../resources/devicemanagement.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagement](../resources/intune-devices-devicemanagement.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagement](../resources/devicemanagement.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagement](../resources/intune-devices-devicemanagement.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement
+GET https://graph.microsoft.com/localtest/deviceManagement
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4948
+Content-Length: 4949
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagement",
-    "id": "674b8417-8417-674b-1784-4b6717844b67",
+    "id": "024c7c9b-7c9b-024c-9b7c-4c029b7c4c02",
     "settings": {
       "@odata.type": "microsoft.graph.deviceManagementSettings",
       "deviceComplianceCheckinThresholdDays": 4,
@@ -85,9 +87,9 @@ Content-Length: 4948
       "androidDeviceAdministratorEnrollmentEnabled": true
     },
     "maximumDepTokens": 0,
-    "intuneAccountId": "ba7966b6-66b6-ba79-b666-79bab66679ba",
-    "lastReportAggregationDateTime": "2017-01-01T00:01:28.3241737+03:00",
-    "deviceComplianceReportSummarizationDateTime": "2016-12-31T23:59:13.5698921+03:00",
+    "intuneAccountId": "593a6361-6361-593a-6163-3a5961633a59",
+    "lastReportAggregationDateTime": "2017-01-01T00:00:47.6468686+03:00",
+    "deviceComplianceReportSummarizationDateTime": "2017-01-01T00:02:15.9853611+03:00",
     "legacyPcManangementEnabled": true,
     "intuneBrand": {
       "@odata.type": "microsoft.graph.intuneBrand",
@@ -165,7 +167,7 @@ Content-Length: 4948
           "@odata.type": "microsoft.graph.windowsMalwareStateCount",
           "state": "String",
           "deviceCount": 11,
-          "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00"
+          "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00"
         }
       ],
       "malwareExecutionStateSummary": [
@@ -194,7 +196,7 @@ Content-Length: 4948
         }
       ]
     },
-    "accountMoveCompletionDateTime": "2016-12-31T23:57:34.0593966+03:00",
+    "accountMoveCompletionDateTime": "2017-01-01T00:02:02.1429561+03:00",
     "groupPolicyObjectFiles": [
       {
         "@odata.type": "microsoft.graph.groupPolicyObjectFile",

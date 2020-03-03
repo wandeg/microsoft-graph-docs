@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update privilegedRoleAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [privilegedRoleAssignment](../resources/privilegedroleassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /privilegedRoleAssignments/{privilegedRoleAssignmentsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [privilegedRoleAssignment](../resources/privilegedRoleAssignment.md) object.
+In the request body, supply a JSON representation for the [privilegedRoleAssignment](../resources/privilegedroleassignment.md) object.
 
 The following table shows the properties that are required when you create the [privilegedRoleAssignment](../resources/privilegedroleassignment.md).
 
@@ -63,16 +65,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/privilegedRoleAssignments/{privilegedRoleAssignmentsId}
+PATCH https://graph.microsoft.com/localtest/privilegedRoleAssignments/{privilegedRoleAssignmentsId}
 Content-type: application/json
-Content-length: 254
+Content-length: 255
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleAssignment",
   "userId": "User Id value",
   "roleId": "Role Id value",
   "isElevated": true,
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "resultMessage": "Result Message value"
 }
 ```
@@ -87,15 +89,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 303
+Content-Length: 304
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleAssignment",
-  "id": "11fe4775-4775-11fe-7547-fe117547fe11",
+  "id": "59a88cae-8cae-59a8-ae8c-a859ae8ca859",
   "userId": "User Id value",
   "roleId": "Role Id value",
   "isElevated": true,
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "resultMessage": "Result Message value"
 }
 ```

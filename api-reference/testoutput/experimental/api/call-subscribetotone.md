@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # subscribeToTone
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [subscribeToToneOperation](../resources/subscribeToToneOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [subscribeToToneOperation](../resources/subscribetotoneoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/subscribeToTone
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/subscribeToTone
 
 Content-type: application/json
 Content-length: 47
@@ -86,7 +88,7 @@ Content-Length: 289
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribeToToneOperation",
-    "id": "0448a82d-a82d-0448-2da8-48042da84804",
+    "id": "588ff077-f077-588f-77f0-8f5877f08f58",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessPackage
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessPackage](../resources/accesspackage.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessPackage](../resources/accessPackage.md) object.
+In the request body, supply a JSON representation for the [accessPackage](../resources/accesspackage.md) object.
 
 The following table shows the properties that are required when you create the [accessPackage](../resources/accesspackage.md).
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessPackages/{accessPackagesId}
+PATCH https://graph.microsoft.com/localtest/accessPackages/{accessPackagesId}
 Content-type: application/json
 Content-length: 297
 
@@ -98,20 +100,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 465
+Content-Length: 464
 
 {
   "@odata.type": "#microsoft.graph.accessPackage",
-  "id": "d36f901d-901d-d36f-1d90-6fd31d906fd3",
+  "id": "614bf432-f432-614b-32f4-4b6132f44b61",
   "catalogId": "Catalog Id value",
   "displayName": "Display Name value",
   "description": "Description value",
   "isHidden": true,
   "isRoleScopesVisible": true,
   "createdBy": "Created By value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "modifiedBy": "Modified By value",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
 }
 ```
 

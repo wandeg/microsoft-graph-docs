@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # tokenMeetingInfo resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [meetingInfo](../resources/meetingInfo.md)
+
+
+Inherits from [meetingInfo](../resources/meetinginfo.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowConversationWithoutHost|Boolean| Inherited from [meetingInfo](../resources/meetingInfo.md)|
+|allowConversationWithoutHost|Boolean| Inherited from [meetingInfo](../resources/meetinginfo.md)|
 |token|String||
 
 ## Relationships

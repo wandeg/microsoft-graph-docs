@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create dataClassificationService
 
+Namespace: microsoft.graph
+
 Create a new [dataClassificationService](../resources/dataclassificationservice.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.dataClassificationService not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the dataClassificationService object.
+In the request body, supply a JSON representation for the [dataClassificationService](../resources/dataclassificationservice.md) object.
 
-The following table shows the properties that are required when you create the dataClassificationService.
+The following table shows the properties that are required when you create the [dataClassificationService](../resources/dataclassificationservice.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.dataClassificationService not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.dataClassificationService not found
 Content-type: application/json
 Content-length: 67
 
@@ -83,7 +85,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.dataClassificationService",
-  "id": "5cbbe705-e705-5cbb-05e7-bb5c05e7bb5c"
+  "id": "1e29e745-e745-1e29-45e7-291e45e7291e"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update iosVppEBook
 
+Namespace: microsoft.graph
+
 Update the properties of a [iosVppEBook](../resources/iosvppebook.md) object.
 
 ## Permissions
@@ -35,22 +37,22 @@ PATCH ** Entity URI for microsoft.graph.iosVppEBook not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosVppEBook](../resources/iosVppEBook.md) object.
+In the request body, supply a JSON representation for the [iosVppEBook](../resources/iosvppebook.md) object.
 
 The following table shows the properties that are required when you create the [iosVppEBook](../resources/iosvppebook.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Name of the eBook. Inherited from [managedEBook](../resources/managedEBook.md)|
-|description|String|Description. Inherited from [managedEBook](../resources/managedEBook.md)|
-|publisher|String|Publisher. Inherited from [managedEBook](../resources/managedEBook.md)|
-|publishedDateTime|DateTimeOffset|The date and time when the eBook was published. Inherited from [managedEBook](../resources/managedEBook.md)|
-|largeCover|[mimeContent](../resources/intune-apps-mimeContent.md)|Book cover. Inherited from [managedEBook](../resources/managedEBook.md)|
-|createdDateTime|DateTimeOffset|The date and time when the eBook file was created. Inherited from [managedEBook](../resources/managedEBook.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time when the eBook was last modified. Inherited from [managedEBook](../resources/managedEBook.md)|
-|informationUrl|String|The more information Url. Inherited from [managedEBook](../resources/managedEBook.md)|
-|privacyInformationUrl|String|The privacy statement Url. Inherited from [managedEBook](../resources/managedEBook.md)|
+|displayName|String|Name of the eBook. Inherited from [managedEBook](../resources/managedebook.md)|
+|description|String|Description. Inherited from [managedEBook](../resources/managedebook.md)|
+|publisher|String|Publisher. Inherited from [managedEBook](../resources/managedebook.md)|
+|publishedDateTime|DateTimeOffset|The date and time when the eBook was published. Inherited from [managedEBook](../resources/managedebook.md)|
+|largeCover|[mimeContent](../resources/intune-apps-mimecontent.md)|Book cover. Inherited from [managedEBook](../resources/managedebook.md)|
+|createdDateTime|DateTimeOffset|The date and time when the eBook file was created. Inherited from [managedEBook](../resources/managedebook.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time when the eBook was last modified. Inherited from [managedEBook](../resources/managedebook.md)|
+|informationUrl|String|The more information Url. Inherited from [managedEBook](../resources/managedebook.md)|
+|privacyInformationUrl|String|The privacy statement Url. Inherited from [managedEBook](../resources/managedebook.md)|
 |vppTokenId|Guid|The Vpp token ID.|
 |appleId|String|The Apple ID associated with Vpp token.|
 |vppOrganizationName|String|The Vpp token's organization name.|
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppEBook not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppEBook not found
 Content-type: application/json
 Content-length: 854
 
@@ -85,7 +87,7 @@ Content-length: 854
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00",
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
@@ -93,7 +95,7 @@ Content-length: 854
   },
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
-  "vppTokenId": "b8328db5-8db5-b832-b58d-32b8b58d32b8",
+  "vppTokenId": "1ac1501d-501d-1ac1-1d50-c11a1d50c11a",
   "appleId": "Apple Id value",
   "vppOrganizationName": "Vpp Organization Name value",
   "genres": [
@@ -119,25 +121,25 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1026
+Content-Length: 1025
 
 {
   "@odata.type": "#microsoft.graph.iosVppEBook",
-  "id": "6090cf22-cf22-6090-22cf-906022cf9060",
+  "id": "ddf2658d-658d-ddf2-8d65-f2dd8d65f2dd",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00",
+  "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
-  "vppTokenId": "b8328db5-8db5-b832-b58d-32b8b58d32b8",
+  "vppTokenId": "1ac1501d-501d-1ac1-1d50-c11a1d50c11a",
   "appleId": "Apple Id value",
   "vppOrganizationName": "Vpp Organization Name value",
   "genres": [

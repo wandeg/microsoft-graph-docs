@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update emailAppUsageAppsUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.emailAppUsageAppsUserCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [emailAppUsageAppsUserCounts](../resources/emailAppUsageAppsUserCounts.md) object.
+In the request body, supply a JSON representation for the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.
 
 The following table shows the properties that are required when you create the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailAppUsageAppsUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailAppUsageAppsUserCounts not found
 Content-type: application/json
 Content-length: 342
 
@@ -103,7 +105,7 @@ Content-Length: 391
 
 {
   "@odata.type": "#microsoft.graph.emailAppUsageAppsUserCounts",
-  "id": "29843b93-3b93-2984-933b-8429933b8429",
+  "id": "7e4b278f-278f-7e4b-8f27-4b7e8f274b7e",
   "reportRefreshDate": "Date",
   "mailForMac": 10,
   "outlookForMac": 13,

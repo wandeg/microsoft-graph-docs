@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get homeRealmDiscoveryPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
+GET https://graph.microsoft.com/localtest/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 312
 {
   "value": {
     "@odata.type": "#microsoft.graph.homeRealmDiscoveryPolicy",
-    "id": "88fcb5bf-b5bf-88fc-bfb5-fc88bfb5fc88",
+    "id": "836063e2-63e2-8360-e263-6083e2636083",
     "description": "Description value",
     "displayName": "Display Name value",
     "definition": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update countryRegion
 
+Namespace: microsoft.graph
+
 Update the properties of a [countryRegion](../resources/countryregion.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/countriesRegions/{countryRegionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [countryRegion](../resources/countryRegion.md) object.
+In the request body, supply a JSON representation for the [countryRegion](../resources/countryregion.md) object.
 
 The following table shows the properties that are required when you create the [countryRegion](../resources/countryregion.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/countriesRegions/{countryRegionId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/countriesRegions/{countryRegionId}
 Content-type: application/json
 Content-length: 164
 
@@ -88,11 +90,11 @@ Content-Length: 277
 
 {
   "@odata.type": "#microsoft.graph.countryRegion",
-  "id": "2172a90e-a90e-2172-0ea9-72210ea97221",
+  "id": "0c101412-1412-0c10-1214-100c1214100c",
   "code": "Code value",
   "displayName": "Display Name value",
   "addressFormat": "Address Format value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

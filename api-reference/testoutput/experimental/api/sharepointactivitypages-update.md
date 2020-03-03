@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharePointActivityPages
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharePointActivityPages](../resources/sharepointactivitypages.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.sharePointActivityPages not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharePointActivityPages](../resources/sharePointActivityPages.md) object.
+In the request body, supply a JSON representation for the [sharePointActivityPages](../resources/sharepointactivitypages.md) object.
 
 The following table shows the properties that are required when you create the [sharePointActivityPages](../resources/sharepointactivitypages.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointActivityPages not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointActivityPages not found
 Content-type: application/json
 Content-length: 190
 
@@ -89,7 +91,7 @@ Content-Length: 239
 
 {
   "@odata.type": "#microsoft.graph.sharePointActivityPages",
-  "id": "8d696e93-6e93-8d69-936e-698d936e698d",
+  "id": "cd805508-5508-cd80-0855-80cd085580cd",
   "reportRefreshDate": "Date",
   "visitedPageCount": 0,
   "reportDate": "Date",

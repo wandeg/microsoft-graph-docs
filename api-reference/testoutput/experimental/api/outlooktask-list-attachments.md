@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List attachments
 
+Namespace: microsoft.graph
+
 Get the attachments from the attachments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/{outlookTaskFolderId}/tasks/{outlookTaskId}/attachments
+GET https://graph.microsoft.com/localtest/me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/{outlookTaskFolderId}/tasks/{outlookTaskId}/attachments
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.attachment",
-      "id": "2d6d4d94-4d94-2d6d-944d-6d2d944d6d2d",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "d6782afc-2afc-d678-fc2a-78d6fc2a78d6",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "contentType": "Content Type value",
       "size": 4,

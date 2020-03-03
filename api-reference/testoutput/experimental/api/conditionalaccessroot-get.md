@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get conditionalAccessRoot
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [conditionalAccessRoot](../resources/conditionalaccessroot.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/conditionalAccess
+GET https://graph.microsoft.com/localtest/conditionalAccess
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 135
 {
   "value": {
     "@odata.type": "#microsoft.graph.conditionalAccessRoot",
-    "id": "e584425d-425d-e584-5d42-84e55d4284e5"
+    "id": "be125e28-5e28-be12-285e-12be285e12be"
   }
 }
 ```

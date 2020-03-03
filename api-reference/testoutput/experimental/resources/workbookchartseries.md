@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartSeries resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookChartSeries](../api/workbookchartseries-get.md)|[workbookChartSeries](../resources/workbookChartSeries.md)|Read properties and relationships of the [workbookChartSeries](../resources/workbookchartseries.md) object.|
+|[List workbookChartSerieses](../api/workbookchartseries-list.md)|[workbookChartSeries](../resources/workbookchartseries.md) collection|List properties and relationships of the [workbookChartSeries](../resources/workbookchartseries.md) objects.|
+|[Get workbookChartSeries](../api/workbookchartseries-get.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Read properties and relationships of the [workbookChartSeries](../resources/workbookchartseries.md) object.|
+|[Create workbookChartSeries](../api/workbookchartseries-create.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Create a new [workbookChartSeries](../resources/workbookchartseries.md) object.|
 |[Delete workbookChartSeries](../api/workbookchartseries-delete.md)|None|Deletes a [workbookChartSeries](../resources/workbookchartseries.md).|
-|[Update workbookChartSeries](../api/workbookchartseries-update.md)|[workbookChartSeries](../resources/workbookChartSeries.md)|Update the properties of a [workbookChartSeries](../resources/workbookchartseries.md) object.|
-|[Get workbookChartSeriesFormat](../api/workbookchartseriesformat-get.md)|[workbookChartSeriesFormat](../resources/workbookChartSeriesFormat.md)|Read properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
-|[List points](../api/workbookchartseries-list-points.md)|[workbookChartPoint](../resources/workbookChartPoint.md) collection|Get the workbookChartPoints from the points navigation property.|
-|[Add points](../api/workbookchartseries-post-points.md)|[workbookChartPoint](../resources/workbookChartPoint.md)|Add points by posting to the points collection.|
+|[Update workbookChartSeries](../api/workbookchartseries-update.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Update the properties of a [workbookChartSeries](../resources/workbookchartseries.md) object.|
+|[Get workbookChartSeriesFormat](../api/workbookchartseriesformat-get.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)|Read properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
+|[List points](../api/workbookchartseries-list-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md) collection|Get the workbookChartPoints from the points navigation property.|
+|[Add points](../api/workbookchartseries-post-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Add points by posting to the points collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,8 +38,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|format|[workbookChartSeriesFormat](../resources/workbookChartSeriesFormat.md)||
-|points|[workbookChartPoint](../resources/workbookChartPoint.md) collection||
+|format|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)||
+|points|[workbookChartPoint](../resources/workbookchartpoint.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

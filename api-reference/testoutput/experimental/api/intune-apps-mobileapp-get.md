@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileApp
 
-Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileApp](../resources/intune-apps-mobileapp.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileApp](../resources/mobileapp.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileApp](../resources/intune-apps-mobileapp.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 945
+Content-Length: 944
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileApp",
-    "id": "263296eb-96eb-2632-eb96-3226eb963226",
+    "id": "47c48b31-8b31-47c4-318b-c447318bc447",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -81,8 +83,8 @@ Content-Length: 945
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create educationRoot
 
+Namespace: microsoft.graph
+
 Create a new [educationRoot](../resources/educationroot.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.educationRoot not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationRoot object.
+In the request body, supply a JSON representation for the [educationRoot](../resources/educationroot.md) object.
 
-The following table shows the properties that are required when you create the educationRoot.
+The following table shows the properties that are required when you create the [educationRoot](../resources/educationroot.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationRoot not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationRoot not found
 Content-type: application/json
 Content-length: 55
 
@@ -83,7 +85,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.educationRoot",
-  "id": "20a7e921-e921-20a7-21e9-a72021e9a720"
+  "id": "0e7e4d93-4d93-0e7e-934d-7e0e934d7e0e"
 }
 ```
 

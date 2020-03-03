@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create networkIPv4ConfigurationManagementCondition
 
+Namespace: microsoft.graph
+
 Create a new [networkIPv4ConfigurationManagementCondition](../resources/networkipv4configurationmanagementcondition.md) object.
 
 ## Permissions
@@ -36,20 +38,20 @@ POST ** Collection URI for microsoft.graph.networkIPv4ConfigurationManagementCon
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the networkIPv4ConfigurationManagementCondition object.
+In the request body, supply a JSON representation for the [networkIPv4ConfigurationManagementCondition](../resources/networkipv4configurationmanagementcondition.md) object.
 
-The following table shows the properties that are required when you create the networkIPv4ConfigurationManagementCondition.
+The following table shows the properties that are required when you create the [networkIPv4ConfigurationManagementCondition](../resources/networkipv4configurationmanagementcondition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementCondition.md)|
-|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementCondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
+|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementcondition.md)|
+|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementcondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
 |ipV4Prefix|String|The IPv4 subnet to be connected to. e.g. 10.0.0.0/8|
 |ipV4Gateway|String|The IPv4 gateway address. e.g. 10.0.0.0|
 |ipV4DHCPServer|String|The IPv4 address of the DHCP server for the adapter.|
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
 Content-type: application/json
 Content-length: 521
 
@@ -107,16 +109,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 689
+Content-Length: 688
 
 {
   "@odata.type": "#microsoft.graph.networkIPv4ConfigurationManagementCondition",
-  "id": "be6ebca1-bca1-be6e-a1bc-6ebea1bc6ebe",
+  "id": "2057d813-d813-2057-13d8-572013d85720",
   "uniqueName": "Unique Name value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "eTag": "ETag value",
   "applicablePlatforms": [
     "String"

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDeviceMobileAppConfigurationState resource type
+
+
+Namespace: microsoft.graph
 
 Managed Device Mobile App Configuration State for a given device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-get.md)|[managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md)|Read properties and relationships of the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.|
+|[List managedDeviceMobileAppConfigurationStates](../api/manageddevicemobileappconfigurationstate-list.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) collection|List properties and relationships of the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) objects.|
+|[Get managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-get.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md)|Read properties and relationships of the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.|
+|[Create managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-create.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md)|Create a new [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.|
 |[Delete managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-delete.md)|None|Deletes a [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md).|
-|[Update managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-update.md)|[managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md)|Update the properties of a [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.|
+|[Update managedDeviceMobileAppConfigurationState](../api/manageddevicemobileappconfigurationstate-update.md)|[managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md)|Update the properties of a [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.|
 
 ## Properties
 |Property|Type|Description|

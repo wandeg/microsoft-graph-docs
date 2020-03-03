@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get directory
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [directory](../resources/directory.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directory
+GET https://graph.microsoft.com/localtest/directory
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 123
 {
   "value": {
     "@odata.type": "#microsoft.graph.directory",
-    "id": "66643dab-3dab-6664-ab3d-6466ab3d6466"
+    "id": "4dd9cb6a-cb6a-4dd9-6acb-d94d6acbd94d"
   }
 }
 ```

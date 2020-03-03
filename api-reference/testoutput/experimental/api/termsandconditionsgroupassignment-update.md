@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update termsAndConditionsGroupAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/termsAndConditions/{termsAndConditionsId}/groupAssignmen
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md) object.
+In the request body, supply a JSON representation for the [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.
 
 The following table shows the properties that are required when you create the [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/groupAssignments/{termsAndConditionsGroupAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/groupAssignments/{termsAndConditionsGroupAssignmentId}
 Content-type: application/json
 Content-length: 120
 
@@ -83,7 +85,7 @@ Content-Length: 169
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsGroupAssignment",
-  "id": "56e9b858-b858-56e9-58b8-e95658b8e956",
+  "id": "51085c9a-5c9a-5108-9a5c-08519a5c0851",
   "targetGroupId": "Target Group Id value"
 }
 ```

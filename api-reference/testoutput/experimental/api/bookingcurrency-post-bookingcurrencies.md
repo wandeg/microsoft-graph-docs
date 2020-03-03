@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create bookingCurrency
 
+Namespace: microsoft.graph
+
 Create a new [bookingCurrency](../resources/bookingcurrency.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /bookingCurrencies
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the bookingCurrency object.
+In the request body, supply a JSON representation for the [bookingCurrency](../resources/bookingcurrency.md) object.
 
-The following table shows the properties that are required when you create the bookingCurrency.
+The following table shows the properties that are required when you create the [bookingCurrency](../resources/bookingcurrency.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/bookingCurrencies
+POST https://graph.microsoft.com/localtest/bookingCurrencies
 Content-type: application/json
 Content-length: 86
 
@@ -85,7 +87,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.bookingCurrency",
-  "id": "0fc23258-3258-0fc2-5832-c20f5832c20f",
+  "id": "7653a81e-a81e-7653-1ea8-53761ea85376",
   "symbol": "Symbol value"
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create activityBasedTimeoutPolicies
 
+Namespace: microsoft.graph
+
 Create activityBasedTimeoutPolicies by posting to the activityBasedTimeoutPolicies collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /servicePrincipals/{servicePrincipalsId}/activityBasedTimeoutPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the activityBasedTimeoutPolicy object.
+In the request body, supply a JSON representation for the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object.
 
-The following table shows the properties that are required when you create the activityBasedTimeoutPolicy.
+The following table shows the properties that are required when you create the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|description|String| Inherited from [policyBase](../resources/policyBase.md)|
-|displayName|String| Inherited from [policyBase](../resources/policyBase.md)|
-|definition|String collection| Inherited from [stsPolicy](../resources/stsPolicy.md)|
-|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stsPolicy.md)|
+|description|String| Inherited from [policyBase](../resources/policybase.md)|
+|displayName|String| Inherited from [policyBase](../resources/policybase.md)|
+|definition|String collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
+|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/activityBasedTimeoutPolicies
+POST https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/activityBasedTimeoutPolicies
 Content-type: application/json
 Content-length: 230
 
@@ -93,7 +95,7 @@ Content-Length: 279
 
 {
   "@odata.type": "#microsoft.graph.activityBasedTimeoutPolicy",
-  "id": "86d5d598-d598-86d5-98d5-d58698d5d586",
+  "id": "e1930949-0949-e193-4909-93e1490993e1",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

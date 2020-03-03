@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStatuses
 
+Namespace: microsoft.graph
+
 Get the managedDeviceMobileAppConfigurationUserStatuses from the userStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 409
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-      "id": "ecbf12d0-12d0-ecbf-d012-bfecd012bfec",
+      "id": "e8e1b05f-b05f-e8e1-5fb0-e1e85fb0e1e8",
       "userDisplayName": "User Display Name value",
       "devicesCount": 12,
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

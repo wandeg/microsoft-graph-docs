@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update yammerActivitySummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [yammerActivitySummary](../resources/yammeractivitysummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.yammerActivitySummary not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [yammerActivitySummary](../resources/yammerActivitySummary.md) object.
+In the request body, supply a JSON representation for the [yammerActivitySummary](../resources/yammeractivitysummary.md) object.
 
 The following table shows the properties that are required when you create the [yammerActivitySummary](../resources/yammeractivitysummary.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.yammerActivitySummary not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.yammerActivitySummary not found
 Content-type: application/json
 Content-length: 207
 
@@ -93,7 +95,7 @@ Content-Length: 256
 
 {
   "@odata.type": "#microsoft.graph.yammerActivitySummary",
-  "id": "1d1f1b64-1b64-1d1f-641b-1f1d641b1f1d",
+  "id": "21c741d7-41d7-21c7-d741-c721d741c721",
   "reportRefreshDate": "Date",
   "liked": 5,
   "posted": 6,

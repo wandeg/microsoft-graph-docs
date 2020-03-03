@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementTroubleshootingErrorDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -20,7 +21,7 @@ Namespace: microsoft.graph
 |failure|String||
 |failureDetails|String|The detailed description of what went wrong.|
 |remediation|String|The detailed description of how to remediate this issue.|
-|resources|[deviceManagementTroubleshootingErrorResource](../resources/deviceManagementTroubleshootingErrorResource.md) collection|Links to helpful documentation about this failure.|
+|resources|[deviceManagementTroubleshootingErrorResource](../resources/devicemanagementtroubleshootingerrorresource.md) collection|Links to helpful documentation about this failure.|
 
 ## Relationships
 None

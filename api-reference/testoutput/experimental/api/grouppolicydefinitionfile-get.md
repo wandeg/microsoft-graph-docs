@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyDefinitionFile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyDefinitionFiles/{groupPolicyDefinitionFileId}
+GET https://graph.microsoft.com/localtest/deviceManagement/groupPolicyDefinitionFiles/{groupPolicyDefinitionFileId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 508
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyDefinitionFile",
-    "id": "4bf47bd0-7bd0-4bf4-d07b-f44bd07bf44b",
+    "id": "d7ab3a02-3a02-d7ab-023a-abd7023aabd7",
     "displayName": "Display Name value",
     "description": "Description value",
     "languageCodes": [
@@ -82,7 +84,7 @@ Content-Length: 508
     "targetNamespace": "Target Namespace value",
     "policyType": "String",
     "revision": "Revision value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getHistoricalReport
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/reports/getHistoricalReport
+POST https://graph.microsoft.com/localtest/deviceManagement/reports/getHistoricalReport
 
 Content-type: application/json
 Content-length: 242

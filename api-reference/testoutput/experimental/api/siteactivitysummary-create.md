@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create siteActivitySummary
 
+Namespace: microsoft.graph
+
 Create a new [siteActivitySummary](../resources/siteactivitysummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.siteActivitySummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the siteActivitySummary object.
+In the request body, supply a JSON representation for the [siteActivitySummary](../resources/siteactivitysummary.md) object.
 
-The following table shows the properties that are required when you create the siteActivitySummary.
+The following table shows the properties that are required when you create the [siteActivitySummary](../resources/siteactivitysummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.siteActivitySummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.siteActivitySummary not found
 Content-type: application/json
 Content-length: 253
 
@@ -97,7 +99,7 @@ Content-Length: 302
 
 {
   "@odata.type": "#microsoft.graph.siteActivitySummary",
-  "id": "13ca0c59-0c59-13ca-590c-ca13590cca13",
+  "id": "1795a129-a129-1795-29a1-951729a19517",
   "reportRefreshDate": "Date",
   "viewedOrEdited": 14,
   "synced": 6,

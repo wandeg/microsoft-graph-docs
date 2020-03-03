@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List singleValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/singleValueExtendedProperties
+GET https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/singleValueExtendedProperties
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 196
   "value": [
     {
       "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-      "id": "411203cb-03cb-4112-cb03-1241cb031241",
+      "id": "a82b8113-8113-a82b-1381-2ba813812ba8",
       "value": "Value value"
     }
   ]

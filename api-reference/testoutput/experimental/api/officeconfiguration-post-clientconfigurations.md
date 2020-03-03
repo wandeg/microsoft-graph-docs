@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add clientConfigurations
 
+Namespace: microsoft.graph
+
 Add clientConfigurations by posting to the clientConfigurations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /officeConfiguration/clientConfigurations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the officeClientConfiguration object.
+In the request body, supply a JSON representation for the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.
 
-The following table shows the properties that are required when you create the officeClientConfiguration.
+The following table shows the properties that are required when you create the [officeClientConfiguration](../resources/officeclientconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,8 +50,8 @@ The following table shows the properties that are required when you create the o
 |description|String||
 |displayName|String||
 |priority|Int32||
-|userCheckinSummary|[officeUserCheckinSummary](../resources/officeUserCheckinSummary.md)||
-|checkinStatuses|[officeClientCheckinStatus](../resources/officeClientCheckinStatus.md) collection||
+|userCheckinSummary|[officeUserCheckinSummary](../resources/officeusercheckinsummary.md)||
+|checkinStatuses|[officeClientCheckinStatus](../resources/officeclientcheckinstatus.md) collection||
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations
+POST https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations
 Content-type: application/json
 Content-length: 955
 
@@ -91,7 +93,7 @@ Content-length: 955
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"
@@ -116,7 +118,7 @@ Content-Length: 1004
 
 {
   "@odata.type": "#microsoft.graph.officeClientConfiguration",
-  "id": "c31ae50a-e50a-c31a-0ae5-1ac30ae51ac3",
+  "id": "78e63e7b-3e7b-78e6-7b3e-e6787b3ee678",
   "userPreferencePayload": "Stream",
   "policyPayload": "Stream",
   "description": "Description value",
@@ -136,7 +138,7 @@ Content-Length: 1004
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"

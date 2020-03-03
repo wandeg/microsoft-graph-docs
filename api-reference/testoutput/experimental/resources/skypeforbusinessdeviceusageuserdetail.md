@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessDeviceUsageUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessDeviceUsageUserDetails](../api/skypeforbusinessdeviceusageuserdetail-list.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeForBusinessDeviceUsageUserDetail.md) collection|List properties and relationships of the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) objects.|
-|[Get skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-get.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeForBusinessDeviceUsageUserDetail.md)|Read properties and relationships of the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
-|[Create skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-create.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeForBusinessDeviceUsageUserDetail.md)|Create a new [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
+|[List skypeForBusinessDeviceUsageUserDetails](../api/skypeforbusinessdeviceusageuserdetail-list.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) collection|List properties and relationships of the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) objects.|
+|[Get skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-get.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md)|Read properties and relationships of the [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
+|[Create skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-create.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md)|Create a new [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
 |[Delete skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-delete.md)|None|Deletes a [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md).|
-|[Update skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-update.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeForBusinessDeviceUsageUserDetail.md)|Update the properties of a [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
+|[Update skypeForBusinessDeviceUsageUserDetail](../api/skypeforbusinessdeviceusageuserdetail-update.md)|[skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md)|Update the properties of a [skypeForBusinessDeviceUsageUserDetail](../resources/skypeforbusinessdeviceusageuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

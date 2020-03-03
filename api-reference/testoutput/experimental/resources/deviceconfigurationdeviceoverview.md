@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceConfigurationDeviceOverview resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationDeviceOverviews](../api/deviceconfigurationdeviceoverview-list.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md) collection|List properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) objects.|
-|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
-|[Create deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-create.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Create a new [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[List deviceConfigurationDeviceOverviews](../api/deviceconfigurationdeviceoverview-list.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) collection|List properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) objects.|
+|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[Create deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-create.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Create a new [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
 |[Delete deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-delete.md)|None|Deletes a [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md).|
-|[Update deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-update.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Update the properties of a [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[Update deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-update.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Update the properties of a [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
 
 ## Properties
 |Property|Type|Description|

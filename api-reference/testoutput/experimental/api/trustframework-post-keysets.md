@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add keySets
 
+Namespace: microsoft.graph
+
 Add keySets by posting to the keySets collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /trustFramework/keySets/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the trustFrameworkKeySet object.
+In the request body, supply a JSON representation for the [trustFrameworkKeySet](../resources/trustframeworkkeyset.md) object.
 
-The following table shows the properties that are required when you create the trustFrameworkKeySet.
+The following table shows the properties that are required when you create the [trustFrameworkKeySet](../resources/trustframeworkkeyset.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|keys|[trustFrameworkKey](../resources/trustFrameworkKey.md) collection||
+|keys|[trustFrameworkKey](../resources/trustframeworkkey.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/trustFramework/keySets
+POST https://graph.microsoft.com/localtest/trustFramework/keySets
 Content-type: application/json
 Content-length: 555
 
@@ -107,7 +109,7 @@ Content-Length: 604
 
 {
   "@odata.type": "#microsoft.graph.trustFrameworkKeySet",
-  "id": "78bf56b0-56b0-78bf-b056-bf78b056bf78",
+  "id": "cf54918e-918e-cf54-8e91-54cf8e9154cf",
   "keys": [
     {
       "@odata.type": "microsoft.graph.trustFrameworkKey",

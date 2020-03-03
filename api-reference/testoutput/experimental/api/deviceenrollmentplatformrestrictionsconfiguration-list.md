@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceEnrollmentPlatformRestrictionsConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceEnrollmentPlatformRestrictionsConfiguration](../resources/deviceenrollmentplatformrestrictionsconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration not found
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1476
+Content-Length: 1475
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
-      "id": "9ce5bd19-bd19-9ce5-19bd-e59c19bde59c",
+      "id": "f8f5824a-824a-f8f5-4a82-f5f84a82f5f8",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "version": 7,
       "iosRestriction": {
         "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction",

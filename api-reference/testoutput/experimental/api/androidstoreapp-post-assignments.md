@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/assignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppAssignment object.
+In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object.
 
-The following table shows the properties that are required when you create the mobileAppAssignment.
+The following table shows the properties that are required when you create the [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |intent|Enumeration|The install intent defined by the admin. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The target group assignment defined by the admin.|
-|settings|[mobileAppAssignmentSettings](../resources/intune-apps-mobileAppAssignmentSettings.md)|The settings for target assignment defined by the admin.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group assignment defined by the admin.|
+|settings|[mobileAppAssignmentSettings](../resources/intune-apps-mobileappassignmentsettings.md)|The settings for target assignment defined by the admin.|
 |source|Enumeration|The resource type which is the source for the assignment. Possible values are: `direct`, `policySets`.|
 |sourceId|String|The identifier of the source of the assignment.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppAssignment](../resources/mobileappassignment.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppAssignment](../resources/intune-apps-mobileappassignment.md) object in the response body.
 
 ## Example
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/assignments
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/assignments
 Content-type: application/json
 Content-length: 328
 
@@ -97,7 +99,7 @@ Content-Length: 377
 
 {
   "@odata.type": "#microsoft.graph.mobileAppAssignment",
-  "id": "61a1efdc-efdc-61a1-dcef-a161dcefa161",
+  "id": "191a6a00-6a00-191a-006a-1a19006a1a19",
   "intent": "String",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

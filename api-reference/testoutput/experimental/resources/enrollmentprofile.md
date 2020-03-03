@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # enrollmentProfile resource type
+
+
+Namespace: microsoft.graph
 
 The enrollmentProfile resource represents a collection of configurations which must be provided pre-enrollment to enable enrolling certain devices whose identities have been pre-staged. Pre-staged device identities are assigned to this type of profile to apply the profile's configurations at enrollment of the corresponding device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get enrollmentProfile](../api/enrollmentprofile-get.md)|[enrollmentProfile](../resources/enrollmentProfile.md)|Read properties and relationships of the [enrollmentProfile](../resources/enrollmentprofile.md) object.|
+|[List enrollmentProfiles](../api/enrollmentprofile-list.md)|[enrollmentProfile](../resources/enrollmentprofile.md) collection|List properties and relationships of the [enrollmentProfile](../resources/enrollmentprofile.md) objects.|
+|[Get enrollmentProfile](../api/enrollmentprofile-get.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Read properties and relationships of the [enrollmentProfile](../resources/enrollmentprofile.md) object.|
+|[Create enrollmentProfile](../api/enrollmentprofile-create.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Create a new [enrollmentProfile](../resources/enrollmentprofile.md) object.|
 |[Delete enrollmentProfile](../api/enrollmentprofile-delete.md)|None|Deletes a [enrollmentProfile](../resources/enrollmentprofile.md).|
-|[Update enrollmentProfile](../api/enrollmentprofile-update.md)|[enrollmentProfile](../resources/enrollmentProfile.md)|Update the properties of a [enrollmentProfile](../resources/enrollmentprofile.md) object.|
+|[Update enrollmentProfile](../api/enrollmentprofile-update.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Update the properties of a [enrollmentProfile](../resources/enrollmentprofile.md) object.|
 |[setDefaultProfile](../api/enrollmentprofile-setdefaultprofile.md)|None||
 |[exportMobileConfig](../api/enrollmentprofile-exportmobileconfig.md)|String||
 |[updateDeviceProfileAssignment](../api/enrollmentprofile-updatedeviceprofileassignment.md)|None||

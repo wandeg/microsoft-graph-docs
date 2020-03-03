@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update termsAndConditions
 
+Namespace: microsoft.graph
+
 Update the properties of a [termsAndConditions](../resources/termsandconditions.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/termsAndConditions/{termsAndConditionsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [termsAndConditions](../resources/termsAndConditions.md) object.
+In the request body, supply a JSON representation for the [termsAndConditions](../resources/termsandconditions.md) object.
 
 The following table shows the properties that are required when you create the [termsAndConditions](../resources/termsandconditions.md).
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}
 Content-type: application/json
 Content-length: 335
 
@@ -96,14 +98,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 567
+Content-Length: 566
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditions",
-  "id": "7b96b38b-b38b-7b96-8bb3-967b8bb3967b",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "a45ef439-f439-a45e-39f4-5ea439f45ea4",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "title": "Title value",

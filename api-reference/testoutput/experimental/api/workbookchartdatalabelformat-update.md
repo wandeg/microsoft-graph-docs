@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartDataLabelFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartDataLabelFormat](../resources/workbookChartDataLabelFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels/format
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels/format
 Content-type: application/json
 Content-length: 70
 
@@ -81,7 +83,7 @@ Content-Length: 119
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabelFormat",
-  "id": "010f6253-6253-010f-5362-0f0153620f01"
+  "id": "198d247f-247f-198d-7f24-8d197f248d19"
 }
 ```
 

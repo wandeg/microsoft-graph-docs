@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update iosVppAppAssignedLicense
 
-Update the properties of a [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/as
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosVppAppAssignedLicense](../resources/iosVppAppAssignedLicense.md) object.
+In the request body, supply a JSON representation for the [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object.
 
-The following table shows the properties that are required when you create the [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md).
+The following table shows the properties that are required when you create the [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
 Content-type: application/json
 Content-length: 234
 
@@ -89,7 +91,7 @@ Content-Length: 283
 
 {
   "@odata.type": "#microsoft.graph.iosVppAppAssignedLicense",
-  "id": "15081030-1030-1508-3010-081530100815",
+  "id": "b5d559e7-59e7-b5d5-e759-d5b5e759d5b5",
   "userEmailAddress": "User Email Address value",
   "userId": "User Id value",
   "userName": "User Name value",

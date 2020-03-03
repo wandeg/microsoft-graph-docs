@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # eBookInstallSummary resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the installation summary of a book for a device.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List eBookInstallSummaries](../api/ebookinstallsummary-list.md)|[eBookInstallSummary](../resources/eBookInstallSummary.md) collection|List properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) objects.|
-|[Get eBookInstallSummary](../api/ebookinstallsummary-get.md)|[eBookInstallSummary](../resources/eBookInstallSummary.md)|Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
-|[Create eBookInstallSummary](../api/ebookinstallsummary-create.md)|[eBookInstallSummary](../resources/eBookInstallSummary.md)|Create a new [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
+|[List eBookInstallSummaries](../api/ebookinstallsummary-list.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md) collection|List properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) objects.|
+|[Get eBookInstallSummary](../api/ebookinstallsummary-get.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
+|[Create eBookInstallSummary](../api/ebookinstallsummary-create.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Create a new [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
 |[Delete eBookInstallSummary](../api/ebookinstallsummary-delete.md)|None|Deletes a [eBookInstallSummary](../resources/ebookinstallsummary.md).|
-|[Update eBookInstallSummary](../api/ebookinstallsummary-update.md)|[eBookInstallSummary](../resources/eBookInstallSummary.md)|Update the properties of a [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
+|[Update eBookInstallSummary](../api/ebookinstallsummary-update.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Update the properties of a [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharedDriveItem
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharedDriveItem](../resources/shareddriveitem.md) object.
 
 ## Permissions
@@ -35,23 +37,23 @@ PATCH /shares/{sharesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharedDriveItem](../resources/sharedDriveItem.md) object.
+In the request body, supply a JSON representation for the [sharedDriveItem](../resources/shareddriveitem.md) object.
 
 The following table shows the properties that are required when you create the [sharedDriveItem](../resources/shareddriveitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
-|owner|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
+|owner|[identitySet](../resources/identityset.md)||
 
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/shares/{sharesId}
+PATCH https://graph.microsoft.com/localtest/shares/{sharesId}
 Content-type: application/json
 Content-length: 1216
 
@@ -125,11 +127,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1467
+Content-Length: 1466
 
 {
   "@odata.type": "#microsoft.graph.sharedDriveItem",
-  "id": "50d0d6c7-d6c7-50d0-c7d6-d050c7d6d050",
+  "id": "aa69b583-b583-aa69-83b5-69aa83b569aa",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -144,13 +146,13 @@ Content-Length: 1467
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

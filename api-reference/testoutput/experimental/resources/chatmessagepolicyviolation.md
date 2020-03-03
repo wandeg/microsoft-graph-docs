@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # chatMessagePolicyViolation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |dlpAction|Enumeration|. Possible values are: `none`, `notifySender`, `blockAccess`, `blockAccessExternal`.|
 |justificationText|String||
-|policyTip|[chatMessagePolicyViolationPolicyTip](../resources/chatMessagePolicyViolationPolicyTip.md)||
+|policyTip|[chatMessagePolicyViolationPolicyTip](../resources/chatmessagepolicyviolationpolicytip.md)||
 |userAction|Enumeration|. Possible values are: `none`, `override`, `reportFalsePositive`.|
 |verdictDetails|Enumeration|. Possible values are: `none`, `allowFalsePositiveOverride`, `allowOverrideWithoutJustification`, `allowOverrideWithJustification`.|
 

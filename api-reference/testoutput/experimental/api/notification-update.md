@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update notification
 
+Namespace: microsoft.graph
+
 Update the properties of a [notification](../resources/notification.md) object.
 
 ## Permissions
@@ -45,11 +47,11 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |targetHostName|String||
 |expirationDateTime|DateTimeOffset||
-|payload|[payloadTypes](../resources/payloadTypes.md)||
+|payload|[payloadTypes](../resources/payloadtypes.md)||
 |displayTimeToLive|Int32||
 |priority|Enumeration|. Possible values are: `None`, `High`, `Low`.|
 |groupName|String||
-|targetPolicy|[targetPolicyEndpoints](../resources/targetPolicyEndpoints.md)||
+|targetPolicy|[targetPolicyEndpoints](../resources/targetpolicyendpoints.md)||
 
 
 
@@ -66,14 +68,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/notifications/{notificationId}
+PATCH https://graph.microsoft.com/localtest/me/notifications/{notificationId}
 Content-type: application/json
-Content-length: 661
+Content-length: 662
 
 {
   "@odata.type": "#microsoft.graph.notification",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",
@@ -105,13 +107,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 710
+Content-Length: 711
 
 {
   "@odata.type": "#microsoft.graph.notification",
-  "id": "3fd82c9b-2c9b-3fd8-9b2c-d83f9b2cd83f",
+  "id": "d3e59931-9931-d3e5-3199-e5d33199e5d3",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",

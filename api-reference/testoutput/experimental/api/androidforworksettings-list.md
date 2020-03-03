@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidForWorkSettingses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidForWorkSettings not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidForWorkSettings not found
 ```
 
 ### Response
@@ -70,13 +72,13 @@ Content-Length: 644
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidForWorkSettings",
-      "id": "442d411a-411a-442d-1a41-2d441a412d44",
+      "id": "3efe57d1-57d1-3efe-d157-fe3ed157fe3e",
       "bindStatus": "String",
-      "lastAppSyncDateTime": "2017-01-01T00:03:22.6248676+03:00",
+      "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
       "lastAppSyncStatus": "String",
       "ownerUserPrincipalName": "Owner User Principal Name value",
       "ownerOrganizationName": "Owner Organization Name value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "enrollmentTarget": "String",
       "targetGroupIds": [
         "Target Group Ids value"

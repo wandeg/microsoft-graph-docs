@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update multiValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Update the properties of a [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
 
 ## Permissions
@@ -43,7 +45,7 @@ PATCH /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{convers
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) object.
+In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
 
 The following table shows the properties that are required when you create the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md).
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH https://graph.microsoft.com/localtest/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
 Content-type: application/json
 Content-length: 113
 
@@ -93,7 +95,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "9dde930f-930f-9dde-0f93-de9d0f93de9d",
+  "id": "b7346fc8-6fc8-b734-c86f-34b7c86f34b7",
   "value": [
     "Value value"
   ]

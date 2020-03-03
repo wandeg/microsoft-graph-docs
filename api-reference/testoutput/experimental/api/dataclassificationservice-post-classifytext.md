@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add classifyText
 
+Namespace: microsoft.graph
+
 Add classifyText by posting to the classifyText collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/classifyText/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the textClassificationRequest object.
+In the request body, supply a JSON representation for the [textClassificationRequest](../resources/textclassificationrequest.md) object.
 
-The following table shows the properties that are required when you create the textClassificationRequest.
+The following table shows the properties that are required when you create the [textClassificationRequest](../resources/textclassificationrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/classifyText
+POST https://graph.microsoft.com/localtest/dataClassification/classifyText
 Content-type: application/json
 Content-length: 183
 
@@ -91,7 +93,7 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.textClassificationRequest",
-  "id": "a10e1109-1109-a10e-0911-0ea109110ea1",
+  "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
   "text": "Text value",
   "sensitiveTypeIds": [
     "Sensitive Type Ids value"

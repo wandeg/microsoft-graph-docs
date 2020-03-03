@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementIntentDeviceSettingStateSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries/{deviceManagementIntentDeviceSettingStateSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries/{deviceManagementIntentDeviceSettingStateSummaryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 366
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceSettingStateSummary",
-    "id": "9d24436b-436b-9d24-6b43-249d6b43249d",
+    "id": "19d40817-0817-19d4-1708-d4191708d419",
     "settingName": "Setting Name value",
     "compliantCount": 14,
     "conflictCount": 13,

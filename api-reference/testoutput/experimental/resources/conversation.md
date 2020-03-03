@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # conversation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List conversations](../api/conversation-list.md)|[conversation](../resources/conversation.md) collection|List properties and relationships of the [conversation](../resources/conversation.md) objects.|
 |[Get conversation](../api/conversation-get.md)|[conversation](../resources/conversation.md)|Read properties and relationships of the [conversation](../resources/conversation.md) object.|
+|[Create conversation](../api/conversation-create.md)|[conversation](../resources/conversation.md)|Create a new [conversation](../resources/conversation.md) object.|
 |[Delete conversation](../api/conversation-delete.md)|None|Deletes a [conversation](../resources/conversation.md).|
 |[Update conversation](../api/conversation-update.md)|[conversation](../resources/conversation.md)|Update the properties of a [conversation](../resources/conversation.md) object.|
-|[List threads](../api/conversation-list-threads.md)|[conversationThread](../resources/conversationThread.md) collection|Get the conversationThreads from the threads navigation property.|
-|[Add threads](../api/conversation-post-threads.md)|[conversationThread](../resources/conversationThread.md)|Add threads by posting to the threads collection.|
+|[List threads](../api/conversation-list-threads.md)|[conversationThread](../resources/conversationthread.md) collection|Get the conversationThreads from the threads navigation property.|
+|[Add threads](../api/conversation-post-threads.md)|[conversationThread](../resources/conversationthread.md)|Add threads by posting to the threads collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|threads|[conversationThread](../resources/conversationThread.md) collection||
+|threads|[conversationThread](../resources/conversationthread.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

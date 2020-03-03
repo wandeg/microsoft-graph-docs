@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add operations
 
+Namespace: microsoft.graph
+
 Add operations by posting to the operations collection.
 
 ## Permissions
@@ -37,15 +39,15 @@ POST /external/connections/{externalConnectionId}/operations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the connectionOperation object.
+In the request body, supply a JSON representation for the [connectionOperation](../resources/connectionoperation.md) object.
 
-The following table shows the properties that are required when you create the connectionOperation.
+The following table shows the properties that are required when you create the [connectionOperation](../resources/connectionoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |status|Enumeration|. Possible values are: `unspecified`, `inprogress`, `completed`, `failed`.|
-|error|[errorDetail](../resources/errorDetail.md)||
+|error|[errorDetail](../resources/errordetail.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/connections/{connectionsId}/operations
+POST https://graph.microsoft.com/localtest/connections/{connectionsId}/operations
 Content-type: application/json
 Content-length: 363
 
@@ -98,7 +100,7 @@ Content-Length: 412
 
 {
   "@odata.type": "#microsoft.graph.connectionOperation",
-  "id": "730868f2-68f2-7308-f268-0873f2680873",
+  "id": "21156cef-6cef-2115-ef6c-1521ef6c1521",
   "status": "String",
   "error": {
     "@odata.type": "microsoft.graph.errorDetail",

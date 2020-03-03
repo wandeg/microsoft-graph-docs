@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10MobileCompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10MobileCompliancePolicy](../resources/windows10mobilecompliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10MobileCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10MobileCompliancePolicy not found
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1450
+Content-Length: 1449
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10MobileCompliancePolicy",
-      "id": "b310a249-a249-b310-49a2-10b349a210b3",
+      "id": "5a6f6d2f-6d2f-5a6f-2f6d-6f5a2f6d6f5a",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete networkIPv4ConfigurationManagementCondition
 
+Namespace: microsoft.graph
+
 Deletes a [networkIPv4ConfigurationManagementCondition](../resources/networkipv4configurationmanagementcondition.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.networkIPv4ConfigurationManagementCondition not found
 ```
 
 ### Response

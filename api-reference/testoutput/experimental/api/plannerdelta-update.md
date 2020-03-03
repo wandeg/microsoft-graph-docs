@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerDelta
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerDelta](../resources/plannerdelta.md) object.
 
 ## Permissions
@@ -34,7 +36,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerDelta](../resources/plannerDelta.md) object.
+In the request body, supply a JSON representation for the [plannerDelta](../resources/plannerdelta.md) object.
 
 The following table shows the properties that are required when you create the [plannerDelta](../resources/plannerdelta.md).
 
@@ -74,7 +76,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.plannerDelta",
-  "id": "241acbc6-cbc6-241a-c6cb-1a24c6cb1a24"
+  "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
 }
 ```
 

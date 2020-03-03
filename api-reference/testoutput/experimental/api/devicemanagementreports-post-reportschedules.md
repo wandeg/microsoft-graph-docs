@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add reportSchedules
 
+Namespace: microsoft.graph
+
 Add reportSchedules by posting to the reportSchedules collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/reports/reportSchedules/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementReportSchedule object.
+In the request body, supply a JSON representation for the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementReportSchedule.
+The following table shows the properties that are required when you create the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/reports/reportSchedules
+POST https://graph.microsoft.com/localtest/deviceManagement/reports/reportSchedules
 Content-type: application/json
 Content-length: 543
 
@@ -83,8 +85,8 @@ Content-length: 543
     "Emails value"
   ],
   "recurrence": "String",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "userId": "User Id value",
   "reportName": "Report Name value",
   "filter": "Filter value",
@@ -113,15 +115,15 @@ Content-Length: 592
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementReportSchedule",
-  "id": "aac73a51-3a51-aac7-513a-c7aa513ac7aa",
+  "id": "29fb27d0-27d0-29fb-d027-fb29d027fb29",
   "reportScheduleName": "Report Schedule Name value",
   "subject": "Subject value",
   "emails": [
     "Emails value"
   ],
   "recurrence": "String",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "userId": "User Id value",
   "reportName": "Report Name value",
   "filter": "Filter value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update cloudCommunications
 
+Namespace: microsoft.graph
+
 Update the properties of a [cloudCommunications](../resources/cloudcommunications.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /communications
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [cloudCommunications](../resources/cloudCommunications.md) object.
+In the request body, supply a JSON representation for the [cloudCommunications](../resources/cloudcommunications.md) object.
 
 The following table shows the properties that are required when you create the [cloudCommunications](../resources/cloudcommunications.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/communications
+PATCH https://graph.microsoft.com/localtest/communications
 Content-type: application/json
 Content-length: 61
 
@@ -81,7 +83,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.cloudCommunications",
-  "id": "c93bc205-c205-c93b-05c2-3bc905c23bc9"
+  "id": "78677146-7146-7867-4671-677846716778"
 }
 ```
 

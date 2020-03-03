@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update documentComment
 
+Namespace: microsoft.graph
+
 Update the properties of a [documentComment](../resources/documentcomment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [documentComment](../resources/documentComment.md) object.
+In the request body, supply a JSON representation for the [documentComment](../resources/documentcomment.md) object.
 
 The following table shows the properties that are required when you create the [documentComment](../resources/documentcomment.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document/comments/{documentCommentId}
 Content-type: application/json
 Content-length: 88
 
@@ -83,7 +85,7 @@ Content-Length: 137
 
 {
   "@odata.type": "#microsoft.graph.documentComment",
-  "id": "ebf94df4-4df4-ebf9-f44d-f9ebf44df9eb",
+  "id": "4c14e6cf-e6cf-4c14-cfe6-144ccfe6144c",
   "content": "Content value"
 }
 ```

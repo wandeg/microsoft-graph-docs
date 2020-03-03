@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List journals
 
+Namespace: microsoft.graph
+
 Get the journals from the journals navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/journals
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/journals
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 416
   "value": [
     {
       "@odata.type": "#microsoft.graph.journal",
-      "id": "f0802d7a-2d7a-f080-7a2d-80f07a2d80f0",
+      "id": "81513f0e-3f0e-8151-0e3f-51810e3f5181",
       "code": "Code value",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-      "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
       "balancingAccountNumber": "Balancing Account Number value"
     }
   ]

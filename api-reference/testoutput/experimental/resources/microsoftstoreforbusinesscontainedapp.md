@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # microsoftStoreForBusinessContainedApp resource type
+
+
+Namespace: microsoft.graph
 
 A class that represents a contained app of a MicrosoftStoreForBusinessApp.
 
 
-Inherits from [mobileContainedApp](../resources/mobileContainedApp.md)
+Inherits from [mobileContainedApp](../resources/mobilecontainedapp.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List microsoftStoreForBusinessContainedApps](../api/microsoftstoreforbusinesscontainedapp-list.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftStoreForBusinessContainedApp.md) collection|List properties and relationships of the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) objects.|
-|[Get microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-get.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftStoreForBusinessContainedApp.md)|Read properties and relationships of the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
-|[Create microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-create.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftStoreForBusinessContainedApp.md)|Create a new [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
+|[List microsoftStoreForBusinessContainedApps](../api/microsoftstoreforbusinesscontainedapp-list.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) collection|List properties and relationships of the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) objects.|
+|[Get microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-get.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md)|Read properties and relationships of the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
+|[Create microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-create.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md)|Create a new [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
 |[Delete microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-delete.md)|None|Deletes a [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md).|
-|[Update microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-update.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftStoreForBusinessContainedApp.md)|Update the properties of a [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
+|[Update microsoftStoreForBusinessContainedApp](../api/microsoftstoreforbusinesscontainedapp-update.md)|[microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md)|Update the properties of a [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update trustFramework
 
+Namespace: microsoft.graph
+
 Update the properties of a [trustFramework](../resources/trustframework.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /trustFramework
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [trustFramework](../resources/trustFramework.md) object.
+In the request body, supply a JSON representation for the [trustFramework](../resources/trustframework.md) object.
 
 The following table shows the properties that are required when you create the [trustFramework](../resources/trustframework.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/trustFramework
+PATCH https://graph.microsoft.com/localtest/trustFramework
 Content-type: application/json
 Content-length: 56
 
@@ -81,7 +83,7 @@ Content-Length: 105
 
 {
   "@odata.type": "#microsoft.graph.trustFramework",
-  "id": "410b655a-655a-410b-5a65-0b415a650b41"
+  "id": "c0227738-7738-c022-3877-22c0387722c0"
 }
 ```
 

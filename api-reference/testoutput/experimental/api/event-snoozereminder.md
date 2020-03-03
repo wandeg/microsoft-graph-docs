@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # snoozeReminder
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|NewReminderTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|NewReminderTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events/{eventId}/snoozeReminder
+POST https://graph.microsoft.com/localtest/me/events/{eventId}/snoozeReminder
 
 Content-type: application/json
 Content-length: 88

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create groupPolicyPresentationText
 
+Namespace: microsoft.graph
+
 Create a new [groupPolicyPresentationText](../resources/grouppolicypresentationtext.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.groupPolicyPresentationText not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyPresentationText object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationText](../resources/grouppolicypresentationtext.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyPresentationText.
+The following table shows the properties that are required when you create the [groupPolicyPresentationText](../resources/grouppolicypresentationtext.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationText not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationText not found
 Content-type: application/json
 Content-length: 96
 
@@ -86,9 +88,9 @@ Content-Length: 209
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationText",
-  "id": "570a05eb-05eb-570a-eb05-0a57eb050a57",
+  "id": "4c293121-3121-4c29-2131-294c2131294c",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

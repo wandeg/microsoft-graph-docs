@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # activityStatistics resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List activityStatisticses](../api/activitystatistics-list.md)|[activityStatistics](../resources/activityStatistics.md) collection|List properties and relationships of the [activityStatistics](../resources/activitystatistics.md) objects.|
-|[Get activityStatistics](../api/activitystatistics-get.md)|[activityStatistics](../resources/activityStatistics.md)|Read properties and relationships of the [activityStatistics](../resources/activitystatistics.md) object.|
+|[List activityStatisticses](../api/activitystatistics-list.md)|[activityStatistics](../resources/activitystatistics.md) collection|List properties and relationships of the [activityStatistics](../resources/activitystatistics.md) objects.|
+|[Get activityStatistics](../api/activitystatistics-get.md)|[activityStatistics](../resources/activitystatistics.md)|Read properties and relationships of the [activityStatistics](../resources/activitystatistics.md) object.|
 
 ## Properties
 |Property|Type|Description|

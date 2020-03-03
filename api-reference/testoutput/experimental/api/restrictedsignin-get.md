@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get restrictedSignIn
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/restrictedSignIns/{restrictedSignInId}
+GET https://graph.microsoft.com/localtest/auditLogs/restrictedSignIns/{restrictedSignInId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4215
+Content-Length: 4214
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.restrictedSignIn",
-    "id": "84822f22-2f22-8482-222f-8284222f8284",
+    "id": "5262e234-e234-5262-34e2-625234e26252",
     "alternateSignInName": "Alternate Sign In Name value",
     "appDisplayName": "App Display Name value",
     "appId": "App Id value",
@@ -95,7 +97,7 @@ Content-Length: 4215
     "authenticationDetails": [
       {
         "@odata.type": "microsoft.graph.authenticationDetail",
-        "authenticationStepDateTime": "2016-12-31T23:58:47.9464116+03:00",
+        "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
         "authenticationMethod": "Authentication Method value",
         "authenticationMethodDetail": "Authentication Method Detail value",
         "succeeded": true,
@@ -123,7 +125,7 @@ Content-Length: 4215
     "clientAppUsed": "Client App Used value",
     "conditionalAccessStatus": "String",
     "correlationId": "Correlation Id value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "deviceDetail": {
       "@odata.type": "microsoft.graph.deviceDetail",
       "deviceId": "Device Id value",
@@ -187,7 +189,7 @@ Content-Length: 4215
     "userDisplayName": "User Display Name value",
     "userId": "User Id value",
     "userPrincipalName": "User Principal Name value",
-    "targetTenantId": "63fee22f-e22f-63fe-2fe2-fe632fe2fe63"
+    "targetTenantId": "3cfa4394-4394-3cfa-9443-fa3c9443fa3c"
   }
 }
 ```

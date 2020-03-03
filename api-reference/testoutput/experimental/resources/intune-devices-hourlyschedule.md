@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # hourlySchedule resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [runSchedule](../resources/runSchedule.md)
+
+
+Inherits from [runSchedule](../resources/runschedule.md)
 
 ## Properties
 |Property|Type|Description|

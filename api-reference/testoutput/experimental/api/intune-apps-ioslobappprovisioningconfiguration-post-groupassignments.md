@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add groupAssignments
 
+Namespace: microsoft.graph
+
 Add groupAssignments by posting to the groupAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisio
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppProvisioningConfigGroupAssignment object.
+In the request body, supply a JSON representation for the [mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md) object.
 
-The following table shows the properties that are required when you create the mobileAppProvisioningConfigGroupAssignment.
+The following table shows the properties that are required when you create the [mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppProvisioningConfigGroupAssignment](../resources/mobileappprovisioningconfiggroupassignment.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/groupAssignments
+POST https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/groupAssignments
 Content-type: application/json
 Content-length: 129
 
@@ -85,7 +87,7 @@ Content-Length: 178
 
 {
   "@odata.type": "#microsoft.graph.mobileAppProvisioningConfigGroupAssignment",
-  "id": "c69ac454-c454-c69a-54c4-9ac654c49ac6",
+  "id": "9d0c8489-8489-9d0c-8984-0c9d89840c9d",
   "targetGroupId": "Target Group Id value"
 }
 ```

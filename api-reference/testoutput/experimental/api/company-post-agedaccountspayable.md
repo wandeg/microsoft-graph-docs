@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add agedAccountsPayable
 
+Namespace: microsoft.graph
+
 Add agedAccountsPayable by posting to the agedAccountsPayable collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/agedAccountsPayable/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the agedAccountsPayable object.
+In the request body, supply a JSON representation for the [agedAccountsPayable](../resources/agedaccountspayable.md) object.
 
-The following table shows the properties that are required when you create the agedAccountsPayable.
+The following table shows the properties that are required when you create the [agedAccountsPayable](../resources/agedaccountspayable.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/agedAccountsPayable
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/agedAccountsPayable
 Content-type: application/json
 Content-length: 384
 
@@ -103,7 +105,7 @@ Content-Length: 433
 
 {
   "@odata.type": "#microsoft.graph.agedAccountsPayable",
-  "id": "301d12ba-12ba-301d-ba12-1d30ba121d30",
+  "id": "ed338a54-8a54-ed33-548a-33ed548a33ed",
   "vendorNumber": "Vendor Number value",
   "name": "Name value",
   "currencyCode": "Currency Code value",

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # endpoint resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|userAgent|[userAgent](../resources/callRecords-userAgent.md)||
+|userAgent|[userAgent](../resources/callrecords-useragent.md)||
 
 ## Relationships
 None

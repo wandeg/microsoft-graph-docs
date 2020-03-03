@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add localizedNotificationMessages
 
+Namespace: microsoft.graph
+
 Add localizedNotificationMessages by posting to the localizedNotificationMessages collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/notificationMessageTemplates/{notificationMessageTemplate
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the localizedNotificationMessage object.
+In the request body, supply a JSON representation for the [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.
 
-The following table shows the properties that are required when you create the localizedNotificationMessage.
+The following table shows the properties that are required when you create the [localizedNotificationMessage](../resources/localizednotificationmessage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages
+POST https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages
 Content-type: application/json
 Content-length: 200
 
@@ -92,8 +94,8 @@ Content-Length: 313
 
 {
   "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-  "id": "a7d0955e-955e-a7d0-5e95-d0a75e95d0a7",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "a8cb40ff-40ff-a8cb-ff40-cba8ff40cba8",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "locale": "Locale value",
   "subject": "Subject value",
   "messageTemplate": "Message Template value",

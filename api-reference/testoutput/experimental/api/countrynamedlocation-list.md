@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List countryNamedLocations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [countryNamedLocation](../resources/countrynamedlocation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.countryNamedLocation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.countryNamedLocation not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 454
+Content-Length: 453
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.countryNamedLocation",
-      "id": "859b3ee6-3ee6-859b-e63e-9b85e63e9b85",
+      "id": "29756ff1-6ff1-2975-f16f-7529f16f7529",
       "displayName": "Display Name value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
       "countriesAndRegions": [
         "Countries And Regions value"
       ],

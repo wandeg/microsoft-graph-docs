@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List policies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [policy](../resources/policy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.policy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.policy not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 138
   "value": [
     {
       "@odata.type": "#microsoft.graph.policy",
-      "id": "88e8f630-f630-88e8-30f6-e88830f6e888"
+      "id": "2c6b00bb-00bb-2c6b-bb00-6b2cbb006b2c"
     }
   ]
 }

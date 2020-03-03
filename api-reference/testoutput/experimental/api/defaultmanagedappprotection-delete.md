@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete defaultManagedAppProtection
 
+Namespace: microsoft.graph
+
 Deletes a [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/defaultManagedAppProtections/{defaultManagedAppProtectionId}
 ```
 
 ### Response

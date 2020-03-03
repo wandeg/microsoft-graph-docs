@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List drives
 
+Namespace: microsoft.graph
+
 Get the drives from the drives navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drives
+GET https://graph.microsoft.com/localtest/me/drives
 ```
 
 ### Response
@@ -65,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2236
+Content-Length: 2235
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.drive",
-      "id": "1e3d187b-187b-1e3d-7b18-3d1e7b183d1e",
+      "id": "dc9d53fb-53fb-dc9d-fb53-9ddcfb539ddc",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -86,13 +88,13 @@ Content-Length: 2236
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

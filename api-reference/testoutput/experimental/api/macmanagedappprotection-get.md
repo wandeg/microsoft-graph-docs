@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get macManagedAppProtection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [macManagedAppProtection](../resources/macmanagedappprotection.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macManagedAppProtection not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macManagedAppProtection not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.macManagedAppProtection",
-    "id": "7a614793-4793-7a61-9347-617a9347617a"
+    "id": "bac05fed-5fed-bac0-ed5f-c0baed5fc0ba"
   }
 }
 ```

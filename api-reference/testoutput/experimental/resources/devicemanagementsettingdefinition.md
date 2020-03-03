@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementSettingDefinition resource type
+
+
+Namespace: microsoft.graph
 
 Entity representing the defintion for a given setting
 
@@ -19,15 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-get.md)|[deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|Read properties and relationships of the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.|
+|[List deviceManagementSettingDefinitions](../api/devicemanagementsettingdefinition-list.md)|[deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) collection|List properties and relationships of the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) objects.|
+|[Get deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-get.md)|[deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|Read properties and relationships of the [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.|
+|[Create deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-create.md)|[deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|Create a new [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.|
 |[Delete deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-delete.md)|None|Deletes a [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md).|
-|[Update deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-update.md)|[deviceManagementSettingDefinition](../resources/deviceManagementSettingDefinition.md)|Update the properties of a [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.|
+|[Update deviceManagementSettingDefinition](../api/devicemanagementsettingdefinition-update.md)|[deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md)|Update the properties of a [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|constraints|[deviceManagementConstraint](../resources/deviceManagementConstraint.md) collection|Collection of constraints for the setting value|
-|dependencies|[deviceManagementSettingDependency](../resources/deviceManagementSettingDependency.md) collection|Collection of dependencies on other settings|
+|constraints|[deviceManagementConstraint](../resources/devicemanagementconstraint.md) collection|Collection of constraints for the setting value|
+|dependencies|[deviceManagementSettingDependency](../resources/devicemanagementsettingdependency.md) collection|Collection of dependencies on other settings|
 |description|String|The setting's description|
 |displayName|String|The setting's display name|
 |documentationUrl|String|Url to setting documentation|

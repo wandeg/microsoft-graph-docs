@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/groupPolicyDefinitions/{groupPolicyDefinitionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyDefinition](../resources/groupPolicyDefinition.md) object.
+In the request body, supply a JSON representation for the [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyDefinition](../resources/grouppolicydefinition.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyDefinitions/{groupPolicyDefinitionId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/groupPolicyDefinitions/{groupPolicyDefinitionId}
 Content-type: application/json
 Content-length: 278
 
@@ -94,14 +96,14 @@ Content-Length: 391
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyDefinition",
-  "id": "03aed785-d785-03ae-85d7-ae0385d7ae03",
+  "id": "14dd9224-9224-14dd-2492-dd142492dd14",
   "classType": "String",
   "displayName": "Display Name value",
   "explainText": "Explain Text value",
   "categoryPath": "Category Path value",
   "supportedOn": "Supported On value",
   "policyType": "String",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

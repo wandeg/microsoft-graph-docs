@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookWorksheetProtection resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,17 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookWorksheetProtections](../api/workbookworksheetprotection-list.md)|[workbookWorksheetProtection](../resources/workbookWorksheetProtection.md) collection|List properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) objects.|
-|[Get workbookWorksheetProtection](../api/workbookworksheetprotection-get.md)|[workbookWorksheetProtection](../resources/workbookWorksheetProtection.md)|Read properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
-|[Create workbookWorksheetProtection](../api/workbookworksheetprotection-create.md)|[workbookWorksheetProtection](../resources/workbookWorksheetProtection.md)|Create a new [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
+|[List workbookWorksheetProtections](../api/workbookworksheetprotection-list.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md) collection|List properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) objects.|
+|[Get workbookWorksheetProtection](../api/workbookworksheetprotection-get.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Read properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
+|[Create workbookWorksheetProtection](../api/workbookworksheetprotection-create.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Create a new [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
 |[Delete workbookWorksheetProtection](../api/workbookworksheetprotection-delete.md)|None|Deletes a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md).|
-|[Update workbookWorksheetProtection](../api/workbookworksheetprotection-update.md)|[workbookWorksheetProtection](../resources/workbookWorksheetProtection.md)|Update the properties of a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
+|[Update workbookWorksheetProtection](../api/workbookworksheetprotection-update.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Update the properties of a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|options|[workbookWorksheetProtectionOptions](../resources/workbookWorksheetProtectionOptions.md)||
+|options|[workbookWorksheetProtectionOptions](../resources/workbookworksheetprotectionoptions.md)||
 |protected|Boolean||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsOfficeClientConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsOfficeClientConfiguration](../resources/windowsofficeclientconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsOfficeClientConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsOfficeClientConfiguration not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1086
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsOfficeClientConfiguration",
-    "id": "e6f81641-1641-e6f8-4116-f8e64116f8e6",
+    "id": "6c9ec9bd-c9bd-6c9e-bdc9-9e6cbdc99e6c",
     "userPreferencePayload": "Stream",
     "policyPayload": "Stream",
     "description": "Description value",
@@ -92,7 +94,7 @@ Content-Length: 1086
         "devicePlatformVersion": "Device Platform Version value",
         "wasSuccessful": true,
         "userId": "User Id value",
-        "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+        "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
         "errorMessage": "Error Message value",
         "appliedPolicies": [
           "Applied Policies value"

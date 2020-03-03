@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update dlpEvaluatePoliciesJobResponse
 
+Namespace: microsoft.graph
+
 Update the properties of a [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.
 
 ## Permissions
@@ -35,21 +37,21 @@ PATCH ** Entity URI for microsoft.graph.dlpEvaluatePoliciesJobResponse not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [dlpEvaluatePoliciesJobResponse](../resources/dlpEvaluatePoliciesJobResponse.md) object.
+In the request body, supply a JSON representation for the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md) object.
 
 The following table shows the properties that are required when you create the [dlpEvaluatePoliciesJobResponse](../resources/dlpevaluatepoliciesjobresponse.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|type|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|status|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|tenantId|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|result|[dlpPoliciesJobResult](../resources/dlpPoliciesJobResult.md)||
+|type|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|status|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|tenantId|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|result|[dlpPoliciesJobResult](../resources/dlppoliciesjobresult.md)||
 
 
 
@@ -66,18 +68,18 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.dlpEvaluatePoliciesJobResponse not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.dlpEvaluatePoliciesJobResponse not found
 Content-type: application/json
-Content-length: 1451
+Content-length: 1452
 
 {
   "@odata.type": "#microsoft.graph.dlpEvaluatePoliciesJobResponse",
   "type": "Type value",
   "status": "Status value",
   "tenantId": "Tenant Id value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -85,7 +87,7 @@ Content-length: 1451
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },
@@ -129,17 +131,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1500
+Content-Length: 1501
 
 {
   "@odata.type": "#microsoft.graph.dlpEvaluatePoliciesJobResponse",
-  "id": "6785a295-a295-6785-95a2-856795a28567",
+  "id": "59329ea6-9ea6-5932-a69e-3259a69e3259",
   "type": "Type value",
   "status": "Status value",
   "tenantId": "Tenant Id value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -147,7 +149,7 @@ Content-Length: 1500
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },

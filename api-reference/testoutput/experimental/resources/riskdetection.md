@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # riskDetection resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List riskDetections](../api/riskdetection-list.md)|[riskDetection](../resources/riskDetection.md) collection|List properties and relationships of the [riskDetection](../resources/riskdetection.md) objects.|
-|[Get riskDetection](../api/riskdetection-get.md)|[riskDetection](../resources/riskDetection.md)|Read properties and relationships of the [riskDetection](../resources/riskdetection.md) object.|
-|[Create riskDetection](../api/riskdetection-post-riskdetections.md)|[riskDetection](../resources/riskDetection.md)|Create a new [riskDetection](../resources/riskdetection.md) object.|
+|[List riskDetections](../api/riskdetection-list.md)|[riskDetection](../resources/riskdetection.md) collection|List properties and relationships of the [riskDetection](../resources/riskdetection.md) objects.|
+|[Get riskDetection](../api/riskdetection-get.md)|[riskDetection](../resources/riskdetection.md)|Read properties and relationships of the [riskDetection](../resources/riskdetection.md) object.|
+|[Create riskDetection](../api/riskdetection-post-riskdetections.md)|[riskDetection](../resources/riskdetection.md)|Create a new [riskDetection](../resources/riskdetection.md) object.|
 |[Delete riskDetection](../api/riskdetection-delete.md)|None|Deletes a [riskDetection](../resources/riskdetection.md).|
-|[Update riskDetection](../api/riskdetection-update.md)|[riskDetection](../resources/riskDetection.md)|Update the properties of a [riskDetection](../resources/riskdetection.md) object.|
+|[Update riskDetection](../api/riskdetection-update.md)|[riskDetection](../resources/riskdetection.md)|Update the properties of a [riskDetection](../resources/riskdetection.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |ipAddress|String||
 |lastUpdatedDateTime|DateTimeOffset||
-|location|[signInLocation](../resources/signInLocation.md)||
+|location|[signInLocation](../resources/signinlocation.md)||
 |requestId|String||
 |riskDetail|Enumeration|. Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
 |riskLevel|Enumeration|. Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointActivityPages
 
+Namespace: microsoft.graph
+
 Create a new [sharePointActivityPages](../resources/sharepointactivitypages.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointActivityPages not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointActivityPages object.
+In the request body, supply a JSON representation for the [sharePointActivityPages](../resources/sharepointactivitypages.md) object.
 
-The following table shows the properties that are required when you create the sharePointActivityPages.
+The following table shows the properties that are required when you create the [sharePointActivityPages](../resources/sharepointactivitypages.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointActivityPages not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointActivityPages not found
 Content-type: application/json
 Content-length: 190
 
@@ -91,7 +93,7 @@ Content-Length: 239
 
 {
   "@odata.type": "#microsoft.graph.sharePointActivityPages",
-  "id": "8d696e93-6e93-8d69-936e-698d936e698d",
+  "id": "cd805508-5508-cd80-0855-80cd085580cd",
   "reportRefreshDate": "Date",
   "visitedPageCount": 0,
   "reportDate": "Date",

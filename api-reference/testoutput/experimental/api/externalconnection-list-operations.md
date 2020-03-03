@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List operations
 
+Namespace: microsoft.graph
+
 Get the connectionOperations from the operations navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/connections/{connectionsId}/operations
+GET https://graph.microsoft.com/localtest/connections/{connectionsId}/operations
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 501
   "value": [
     {
       "@odata.type": "#microsoft.graph.connectionOperation",
-      "id": "730868f2-68f2-7308-f268-0873f2680873",
+      "id": "21156cef-6cef-2115-ef6c-1521ef6c1521",
       "status": "String",
       "error": {
         "@odata.type": "microsoft.graph.errorDetail",

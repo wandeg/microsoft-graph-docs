@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationAssignment](../resources/educationassignment.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}
 ```
 
 ### Response
@@ -68,12 +70,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1470
+Content-Length: 1468
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationAssignment",
-    "id": "7e577ae4-7ae4-7e57-e47a-577ee47a577e",
+    "id": "f3f25053-5053-f3f2-5350-f2f35350f2f3",
     "classId": "Class Id value",
     "displayName": "Display Name value",
     "instructions": {
@@ -81,10 +83,10 @@ Content-Length: 1470
       "contentType": "String",
       "content": "Content value"
     },
-    "closeDateTime": "2016-12-31T23:56:24.9256365+03:00",
-    "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
-    "assignDateTime": "2017-01-01T00:01:55.1489412+03:00",
-    "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+    "closeDateTime": "2017-01-01T00:01:20.1298622+03:00",
+    "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
+    "assignDateTime": "2016-12-31T23:59:28.9197423+03:00",
+    "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
     "grading": {
       "@odata.type": "microsoft.graph.educationAssignmentGradeType"
     },
@@ -92,7 +94,7 @@ Content-Length: 1470
       "@odata.type": "microsoft.graph.educationAssignmentRecipient"
     },
     "allowLateSubmissions": true,
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -106,7 +108,7 @@ Content-Length: 1470
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

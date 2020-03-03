@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete cloudAppSecurityProfile
 
+Namespace: microsoft.graph
+
 Deletes a [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/cloudAppSecurityProfiles/{cloudAppSecurityProfileId}
+DELETE https://graph.microsoft.com/localtest/Security/cloudAppSecurityProfiles/{cloudAppSecurityProfileId}
 ```
 
 ### Response

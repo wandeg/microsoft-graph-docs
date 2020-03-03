@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete office365GroupsActivityStorage
 
+Namespace: microsoft.graph
+
 Deletes a [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365GroupsActivityStorage not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365GroupsActivityStorage not found
 ```
 
 ### Response

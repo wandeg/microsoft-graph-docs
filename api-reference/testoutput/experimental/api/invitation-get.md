@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get invitation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [invitation](../resources/invitation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/invitations/{invitationsId}
+GET https://graph.microsoft.com/localtest/invitations/{invitationsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1048
 {
   "value": {
     "@odata.type": "#microsoft.graph.invitation",
-    "id": "71be8c14-8c14-71be-148c-be71148cbe71",
+    "id": "e40a4257-4257-e40a-5742-0ae457420ae4",
     "invitedUserDisplayName": "Invited User Display Name value",
     "invitedUserType": "Invited User Type value",
     "invitedUserEmailAddress": "Invited User Email Address value",

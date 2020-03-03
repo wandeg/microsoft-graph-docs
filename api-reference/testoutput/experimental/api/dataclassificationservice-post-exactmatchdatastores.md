@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add exactMatchDataStores
 
+Namespace: microsoft.graph
+
 Add exactMatchDataStores by posting to the exactMatchDataStores collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/exactMatchDataStores/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the exactMatchDataStore object.
+In the request body, supply a JSON representation for the [exactMatchDataStore](../resources/exactmatchdatastore.md) object.
 
-The following table shows the properties that are required when you create the exactMatchDataStore.
+The following table shows the properties that are required when you create the [exactMatchDataStore](../resources/exactmatchdatastore.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/exactMatchDataStores
+POST https://graph.microsoft.com/localtest/dataClassification/exactMatchDataStores
 Content-type: application/json
 Content-length: 207
 
@@ -70,7 +72,7 @@ Content-length: 207
   "@odata.type": "#microsoft.graph.exactMatchDataStore",
   "displayName": "Display Name value",
   "description": "Description value",
-  "dataLastUpdatedDateTime": "2017-01-01T00:02:56.7657585+03:00"
+  "dataLastUpdatedDateTime": "2016-12-31T23:57:12.7722306+03:00"
 }
 ```
 
@@ -89,10 +91,10 @@ Content-Length: 256
 
 {
   "@odata.type": "#microsoft.graph.exactMatchDataStore",
-  "id": "5100038f-038f-5100-8f03-00518f030051",
+  "id": "0ecaed55-ed55-0eca-55ed-ca0e55edca0e",
   "displayName": "Display Name value",
   "description": "Description value",
-  "dataLastUpdatedDateTime": "2017-01-01T00:02:56.7657585+03:00"
+  "dataLastUpdatedDateTime": "2016-12-31T23:57:12.7722306+03:00"
 }
 ```
 

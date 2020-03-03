@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add androidForWorkEnrollmentProfiles
 
+Namespace: microsoft.graph
+
 Add androidForWorkEnrollmentProfiles by posting to the androidForWorkEnrollmentProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/androidForWorkEnrollmentProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidForWorkEnrollmentProfile object.
+In the request body, supply a JSON representation for the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.
 
-The following table shows the properties that are required when you create the androidForWorkEnrollmentProfile.
+The following table shows the properties that are required when you create the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the a
 |tokenExpirationDateTime|DateTimeOffset|Date time the most recently created token will expire.|
 |enrolledDeviceCount|Int32|Total number of Android devices that have enrolled using this enrollment profile.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimeContent.md)|String used to generate a QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|String used to generate a QR code for the token.|
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkEnrollmentProfiles
+POST https://graph.microsoft.com/localtest/deviceManagement/androidForWorkEnrollmentProfiles
 Content-type: application/json
 Content-length: 496
 
@@ -79,7 +81,7 @@ Content-length: 496
   "displayName": "Display Name value",
   "description": "Description value",
   "tokenValue": "Token Value value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:54.7194078+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {
@@ -101,18 +103,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 668
+Content-Length: 667
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkEnrollmentProfile",
-  "id": "e05b089f-089f-e05b-9f08-5be09f085be0",
+  "id": "d37b6d7e-6d7e-d37b-7e6d-7bd37e6d7bd3",
   "accountId": "Account Id value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "tokenValue": "Token Value value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:54.7194078+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {

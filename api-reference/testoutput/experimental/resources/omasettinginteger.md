@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # omaSettingInteger resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [omaSetting](../resources/omaSetting.md)
+
+
+Inherits from [omaSetting](../resources/omasetting.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|String|Description. Inherited from [omaSetting](../resources/omaSetting.md)|
-|displayName|String|Display Name. Inherited from [omaSetting](../resources/omaSetting.md)|
+|description|String|Description. Inherited from [omaSetting](../resources/omasetting.md)|
+|displayName|String|Display Name. Inherited from [omaSetting](../resources/omasetting.md)|
 |isReadOnly|Boolean|By setting to true, the CSP (configuration service provider) specified in the OMA-URI will perform a get, instead of set|
-|omaUri|String|OMA. Inherited from [omaSetting](../resources/omaSetting.md)|
+|omaUri|String|OMA. Inherited from [omaSetting](../resources/omasetting.md)|
 |value|Int32|Value.|
 
 ## Relationships

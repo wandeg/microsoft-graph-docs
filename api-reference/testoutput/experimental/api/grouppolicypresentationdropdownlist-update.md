@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyPresentationDropdownList
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyPresentationDropdownList](../resources/grouppolicypresentationdropdownlist.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.groupPolicyPresentationDropdownList not 
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyPresentationDropdownList](../resources/groupPolicyPresentationDropdownList.md) object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationDropdownList](../resources/grouppolicypresentationdropdownlist.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyPresentationDropdownList](../resources/grouppolicypresentationdropdownlist.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|defaultItem|[groupPolicyPresentationDropdownListItem](../resources/groupPolicyPresentationDropdownListItem.md)|Localized string value identifying the default choice of the list of items.|
-|items|[groupPolicyPresentationDropdownListItem](../resources/groupPolicyPresentationDropdownListItem.md) collection|Represents a set of localized display names and their associated values.|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|defaultItem|[groupPolicyPresentationDropdownListItem](../resources/grouppolicypresentationdropdownlistitem.md)|Localized string value identifying the default choice of the list of items.|
+|items|[groupPolicyPresentationDropdownListItem](../resources/grouppolicypresentationdropdownlistitem.md) collection|Represents a set of localized display names and their associated values.|
 |required|Boolean|Requirement to enter a value in the parameter box. The default value is false.|
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationDropdownList not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationDropdownList not found
 Content-type: application/json
 Content-length: 414
 
@@ -98,9 +100,9 @@ Content-Length: 527
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationDropdownList",
-  "id": "66fc555c-555c-66fc-5c55-fc665c55fc66",
+  "id": "1666abc8-abc8-1666-c8ab-6616c8ab6616",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "defaultItem": {
     "@odata.type": "microsoft.graph.groupPolicyPresentationDropdownListItem",
     "displayName": "Display Name value",

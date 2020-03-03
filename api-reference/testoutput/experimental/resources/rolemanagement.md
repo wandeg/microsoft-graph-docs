@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # roleManagement resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get roleManagement](../api/rolemanagement-get.md)|[roleManagement](../resources/roleManagement.md)|Read properties and relationships of the [roleManagement](../resources/rolemanagement.md) object.|
-|[Update roleManagement](../api/rolemanagement-update.md)|[roleManagement](../resources/roleManagement.md)|Update the properties of a [roleManagement](../resources/rolemanagement.md) object.|
-|[Get rbacApplication](../api/rbacapplication-get.md)|[rbacApplication](../resources/rbacApplication.md)|Read properties and relationships of the [rbacApplication](../resources/rbacapplication.md) object.|
+|[Get roleManagement](../api/rolemanagement-get.md)|[roleManagement](../resources/rolemanagement.md)|Read properties and relationships of the [roleManagement](../resources/rolemanagement.md) object.|
+|[Update roleManagement](../api/rolemanagement-update.md)|[roleManagement](../resources/rolemanagement.md)|Update the properties of a [roleManagement](../resources/rolemanagement.md) object.|
+|[Get rbacApplication](../api/rbacapplication-get.md)|[rbacApplication](../resources/rbacapplication.md)|Read properties and relationships of the [rbacApplication](../resources/rbacapplication.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|directory|[rbacApplication](../resources/rbacApplication.md)||
+|directory|[rbacApplication](../resources/rbacapplication.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

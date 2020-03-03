@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementIntentDeviceStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/deviceStateSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementIntentDeviceStateSummary](../resources/deviceManagementIntentDeviceStateSummary.md) object.
+In the request body, supply a JSON representation for the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/deviceStateSummary
+PATCH https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/deviceStateSummary
 Content-type: application/json
 Content-length: 237
 
@@ -93,7 +95,7 @@ Content-Length: 286
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceStateSummary",
-  "id": "b6da0262-0262-b6da-6202-dab66202dab6",
+  "id": "fd6c6bd1-6bd1-fd6c-d16b-6cfdd16b6cfd",
   "conflictCount": 13,
   "errorCount": 10,
   "failedCount": 11,

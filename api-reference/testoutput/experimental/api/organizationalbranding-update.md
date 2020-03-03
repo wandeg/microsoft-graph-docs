@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update organizationalBranding
 
+Namespace: microsoft.graph
+
 Update the properties of a [organizationalBranding](../resources/organizationalbranding.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /organization/{organizationId}/brandings/{organizationalBrandingId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [organizationalBranding](../resources/organizationalBranding.md) object.
+In the request body, supply a JSON representation for the [organizationalBranding](../resources/organizationalbranding.md) object.
 
 The following table shows the properties that are required when you create the [organizationalBranding](../resources/organizationalbranding.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/organization/{organizationId}/brandings/{organizationalBrandingId}
+PATCH https://graph.microsoft.com/localtest/organization/{organizationId}/brandings/{organizationalBrandingId}
 Content-type: application/json
 Content-length: 326
 
@@ -95,7 +97,7 @@ Content-Length: 375
 
 {
   "@odata.type": "#microsoft.graph.organizationalBranding",
-  "id": "74e73f7b-3f7b-74e7-7b3f-e7747b3fe774",
+  "id": "78efe820-e820-78ef-20e8-ef7820e8ef78",
   "backgroundColor": "Background Color value",
   "backgroundImage": "Stream",
   "bannerLogo": "Stream",

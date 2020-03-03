@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # update
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,10 +44,10 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|addedPolicySetItems|[policySetItem](../resources/policySetItem.md) collection||
-|updatedPolicySetItems|[policySetItem](../resources/policySetItem.md) collection||
+|addedPolicySetItems|[policySetItem](../resources/policysetitem.md) collection||
+|updatedPolicySetItems|[policySetItem](../resources/policysetitem.md) collection||
 |deletedPolicySetItems|String collection||
-|assignments|[policySetAssignment](../resources/policySetAssignment.md) collection||
+|assignments|[policySetAssignment](../resources/policysetassignment.md) collection||
 
 
 
@@ -62,18 +64,18 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/update
+POST https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/update
 
 Content-type: application/json
-Content-length: 1509
+Content-length: 1507
 
 {
   "addedPolicySetItems": [
     {
       "@odata.type": "#microsoft.graph.policySetItem",
-      "id": "2fc58ff5-8ff5-2fc5-f58f-c52ff58fc52f",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "83b2d785-d785-83b2-85d7-b28385d7b283",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "payloadId": "Payload Id value",
       "itemType": "Item Type value",
       "displayName": "Display Name value",
@@ -87,9 +89,9 @@ Content-length: 1509
   "updatedPolicySetItems": [
     {
       "@odata.type": "#microsoft.graph.policySetItem",
-      "id": "2fc58ff5-8ff5-2fc5-f58f-c52ff58fc52f",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "83b2d785-d785-83b2-85d7-b28385d7b283",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "payloadId": "Payload Id value",
       "itemType": "Item Type value",
       "displayName": "Display Name value",
@@ -106,8 +108,8 @@ Content-length: 1509
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.policySetAssignment",
-      "id": "2aef28d1-28d1-2aef-d128-ef2ad128ef2a",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

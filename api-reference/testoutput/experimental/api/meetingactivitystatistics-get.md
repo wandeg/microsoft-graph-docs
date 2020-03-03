@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get meetingActivityStatistics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [meetingActivityStatistics](../resources/meetingactivitystatistics.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.meetingActivityStatistics not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.meetingActivityStatistics not found
 ```
 
 ### Response
@@ -67,23 +69,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 516
+Content-Length: 524
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.meetingActivityStatistics",
-    "id": "8f4a6001-6001-8f4a-0160-4a8f01604a8f",
+    "id": "2b96e2c8-e2c8-2b96-c8e2-962bc8e2962b",
     "activity": "String",
     "startDate": "Date",
     "endDate": "Date",
     "timeZoneUsed": "Time Zone Used value",
-    "duration": "PT3M27.7161587S",
-    "afterHours": "PT21.1795365S",
-    "organized": "PT1M8.7021172S",
-    "recurring": "-PT1M11.9254811S",
-    "long": "PT38.7461735S",
-    "conflicting": "PT3M34.2235549S",
-    "multitasking": "PT2M11.8784902S"
+    "duration": "-PT1M55.0810357S",
+    "afterHours": "-PT1M34.3242013S",
+    "organized": "-PT2M39.109661S",
+    "recurring": "PT1M59.6924386S",
+    "long": "-PT3M22.609558S",
+    "conflicting": "-PT3M18.0945761S",
+    "multitasking": "-PT1M33.7370046S"
   }
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List filterOperatorSchemas
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [filterOperatorSchema](../resources/filteroperatorschema.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/filterOperators
+GET https://graph.microsoft.com/localtest/filterOperators
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 288
   "value": [
     {
       "@odata.type": "#microsoft.graph.filterOperatorSchema",
-      "id": "58b8aa39-aa39-58b8-39aa-b85839aab858",
+      "id": "885b8a7a-8a7a-885b-7a8a-5b887a8a5b88",
       "arity": "String",
       "multivaluedComparisonType": "String",
       "supportedAttributeTypes": [

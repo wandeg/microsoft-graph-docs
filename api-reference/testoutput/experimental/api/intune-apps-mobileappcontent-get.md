@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get mobileAppContent
 
-Read properties and relationships of the [mobileAppContent](../resources/mobileappcontent.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -43,7 +45,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [mobileAppContent](../resources/mobileappcontent.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [mobileAppContent](../resources/intune-apps-mobileappcontent.md) object in the response body.
 
 ## Example
 
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 130
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppContent",
-    "id": "41cfb398-b398-41cf-98b3-cf4198b3cf41"
+    "id": "9233c4e9-c4e9-9233-e9c4-3392e9c43392"
   }
 }
 ```

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationOrganization resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationOrganizations](../api/educationorganization-list.md)|[educationOrganization](../resources/educationOrganization.md) collection|List properties and relationships of the [educationOrganization](../resources/educationorganization.md) objects.|
-|[Get educationOrganization](../api/educationorganization-get.md)|[educationOrganization](../resources/educationOrganization.md)|Read properties and relationships of the [educationOrganization](../resources/educationorganization.md) object.|
+|[List educationOrganizations](../api/educationorganization-list.md)|[educationOrganization](../resources/educationorganization.md) collection|List properties and relationships of the [educationOrganization](../resources/educationorganization.md) objects.|
+|[Get educationOrganization](../api/educationorganization-get.md)|[educationOrganization](../resources/educationorganization.md)|Read properties and relationships of the [educationOrganization](../resources/educationorganization.md) object.|
 
 ## Properties
 |Property|Type|Description|

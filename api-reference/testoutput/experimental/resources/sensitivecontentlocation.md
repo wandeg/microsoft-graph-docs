@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sensitiveContentLocation resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|evidences|[sensitiveContentEvidence](../resources/sensitiveContentEvidence.md) collection||
+|evidences|[sensitiveContentEvidence](../resources/sensitivecontentevidence.md) collection||
 |idMatch|String||
 |length|Int32||
 |offset|Int32||

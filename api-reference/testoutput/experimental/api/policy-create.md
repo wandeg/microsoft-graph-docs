@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create policy
 
+Namespace: microsoft.graph
+
 Create a new [policy](../resources/policy.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.policy not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the policy object.
+In the request body, supply a JSON representation for the [policy](../resources/policy.md) object.
 
-The following table shows the properties that are required when you create the policy.
+The following table shows the properties that are required when you create the [policy](../resources/policy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.policy not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.policy not found
 Content-type: application/json
 Content-length: 48
 
@@ -83,7 +85,7 @@ Content-Length: 97
 
 {
   "@odata.type": "#microsoft.graph.policy",
-  "id": "88e8f630-f630-88e8-30f6-e88830f6e888"
+  "id": "2c6b00bb-00bb-2c6b-bb00-6b2cbb006b2c"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windows10EnrollmentCompletionPageConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [windows10EnrollmentCompletionPageConfiguration](../resources/windows10enrollmentcompletionpageconfiguration.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.windows10EnrollmentCompletionPageConfigu
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windows10EnrollmentCompletionPageConfiguration](../resources/windows10EnrollmentCompletionPageConfiguration.md) object.
+In the request body, supply a JSON representation for the [windows10EnrollmentCompletionPageConfiguration](../resources/windows10enrollmentcompletionpageconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [windows10EnrollmentCompletionPageConfiguration](../resources/windows10enrollmentcompletionpageconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The display name of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|description|String|The description of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|priority|Int32|Priority is used when a user exists in multiple groups that are assigned enrollment configuration. Users are subject only to the configuration with the lowest priority value. Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|createdDateTime|DateTimeOffset|Created date time in UTC of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|lastModifiedDateTime|DateTimeOffset|Last modified date time in UTC of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|version|Int32|The version of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
+|displayName|String|The display name of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|description|String|The description of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|priority|Int32|Priority is used when a user exists in multiple groups that are assigned enrollment configuration. Users are subject only to the configuration with the lowest priority value. Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|createdDateTime|DateTimeOffset|Created date time in UTC of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|Last modified date time in UTC of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|version|Int32|The version of the device enrollment configuration Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
 |showInstallationProgress|Boolean|Show or hide installation progress to user|
 |blockDeviceSetupRetryByUser|Boolean|Allow the user to retry the setup on installation failure|
 |allowDeviceResetOnInstallFailure|Boolean|Allow or block device reset on installation failure|
@@ -74,7 +76,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10EnrollmentCompletionPageConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10EnrollmentCompletionPageConfiguration not found
 Content-type: application/json
 Content-length: 684
 
@@ -109,16 +111,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 856
+Content-Length: 855
 
 {
   "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
-  "id": "ef73885b-885b-ef73-5b88-73ef5b8873ef",
+  "id": "963d4535-4535-963d-3545-3d9635453d96",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "version": 7,
   "showInstallationProgress": true,
   "blockDeviceSetupRetryByUser": true,

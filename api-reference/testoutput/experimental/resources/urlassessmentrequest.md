@@ -5,45 +5,46 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # urlAssessmentRequest resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)
+
+
+Inherits from [threatAssessmentRequest](../resources/threatassessmentrequest.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List urlAssessmentRequests](../api/urlassessmentrequest-list.md)|[urlAssessmentRequest](../resources/urlAssessmentRequest.md) collection|List properties and relationships of the [urlAssessmentRequest](../resources/urlassessmentrequest.md) objects.|
-|[Get urlAssessmentRequest](../api/urlassessmentrequest-get.md)|[urlAssessmentRequest](../resources/urlAssessmentRequest.md)|Read properties and relationships of the [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
-|[Create urlAssessmentRequest](../api/urlassessmentrequest-create.md)|[urlAssessmentRequest](../resources/urlAssessmentRequest.md)|Create a new [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
+|[List urlAssessmentRequests](../api/urlassessmentrequest-list.md)|[urlAssessmentRequest](../resources/urlassessmentrequest.md) collection|List properties and relationships of the [urlAssessmentRequest](../resources/urlassessmentrequest.md) objects.|
+|[Get urlAssessmentRequest](../api/urlassessmentrequest-get.md)|[urlAssessmentRequest](../resources/urlassessmentrequest.md)|Read properties and relationships of the [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
+|[Create urlAssessmentRequest](../api/urlassessmentrequest-create.md)|[urlAssessmentRequest](../resources/urlassessmentrequest.md)|Create a new [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
 |[Delete urlAssessmentRequest](../api/urlassessmentrequest-delete.md)|None|Deletes a [urlAssessmentRequest](../resources/urlassessmentrequest.md).|
-|[Update urlAssessmentRequest](../api/urlassessmentrequest-update.md)|[urlAssessmentRequest](../resources/urlAssessmentRequest.md)|Update the properties of a [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
-|[List results](../api/urlassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection|Get the threatAssessmentResults from the results navigation property.|
-|[Add results](../api/urlassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md)|Add results by posting to the results collection.|
+|[Update urlAssessmentRequest](../api/urlassessmentrequest-update.md)|[urlAssessmentRequest](../resources/urlassessmentrequest.md)|Update the properties of a [urlAssessmentRequest](../resources/urlassessmentrequest.md) object.|
+|[List results](../api/urlassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|Get the threatAssessmentResults from the results navigation property.|
+|[Add results](../api/urlassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Add results by posting to the results collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
-|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `mail`, `url`, `file`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `block`, `unblock`.|
+|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
+|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `mail`, `url`, `file`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `block`, `unblock`.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `user`, `administrator`.|
-|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `pending`, `completed`.|
+|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `user`, `administrator`.|
+|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `pending`, `completed`.|
 |url|String||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|results|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
+|results|[threatAssessmentResult](../resources/threatassessmentresult.md) collection| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

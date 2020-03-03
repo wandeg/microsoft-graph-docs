@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookApplications
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookApplication](../resources/workbookapplication.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookApplication not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookApplication not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 203
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookApplication",
-      "id": "581ba8ff-a8ff-581b-ffa8-1b58ffa81b58",
+      "id": "24b593be-93be-24b5-be93-b524be93b524",
       "calculationMode": "Calculation Mode value"
     }
   ]

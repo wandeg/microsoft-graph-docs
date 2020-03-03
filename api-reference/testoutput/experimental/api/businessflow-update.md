@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update businessFlow
 
+Namespace: microsoft.graph
+
 Update the properties of a [businessFlow](../resources/businessflow.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlowsWith
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [businessFlow](../resources/businessFlow.md) object.
+In the request body, supply a JSON representation for the [businessFlow](../resources/businessflow.md) object.
 
 The following table shows the properties that are required when you create the [businessFlow](../resources/businessflow.md).
 
@@ -49,9 +51,9 @@ The following table shows the properties that are required when you create the [
 |schemaId|String||
 |customData|String||
 |recordVersion|String||
-|policy|[governancePolicy](../resources/governancePolicy.md)||
+|policy|[governancePolicy](../resources/governancepolicy.md)||
 |policyTemplateId|String||
-|settings|[businessFlowSettings](../resources/businessFlowSettings.md)||
+|settings|[businessFlowSettings](../resources/businessflowsettings.md)||
 
 
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlows/{businessFlowId}
+PATCH https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlows/{businessFlowId}
 Content-type: application/json
 Content-length: 1882
 
@@ -144,7 +146,7 @@ Content-Length: 1931
 
 {
   "@odata.type": "#microsoft.graph.businessFlow",
-  "id": "ad29cadb-cadb-ad29-dbca-29addbca29ad",
+  "id": "790ced02-ed02-790c-02ed-0c7902ed0c79",
   "displayName": "Display Name value",
   "description": "Description value",
   "deDuplicationId": "De Duplication Id value",

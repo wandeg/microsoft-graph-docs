@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List referenceAttachments
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.referenceAttachment not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.referenceAttachment not found
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 594
   "value": [
     {
       "@odata.type": "#microsoft.graph.referenceAttachment",
-      "id": "9895a6d5-a6d5-9895-d5a6-9598d5a69598",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "eb77e7aa-e7aa-eb77-aae7-77ebaae777eb",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "name": "Name value",
       "contentType": "Content Type value",
       "size": 4,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assignLicense
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,7 +46,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|addLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
+|addLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
 |removeLicenses|Guid collection||
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/assignLicense
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/assignLicense
 
 Content-type: application/json
 Content-length: 172
@@ -74,7 +76,7 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "decba372-a372-decb-72a3-cbde72a3cbde"
+    "53c01d8b-1d8b-53c0-8b1d-c0538b1dc053"
   ]
 }
 ```
@@ -90,13 +92,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2523
+Content-Length: 2522
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.group",
-    "id": "a2a4952c-952c-a2a4-2c95-a4a22c95a4a2",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "2c3bc02c-c02c-2c3b-2cc0-3b2c2cc03b2c",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "assignedLabels": [
       {
         "@odata.type": "microsoft.graph.assignedLabel"
@@ -108,7 +110,7 @@ Content-Length: 2523
       }
     ],
     "classification": "Classification value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "groupTypes": [
@@ -126,7 +128,7 @@ Content-Length: 2523
     "membershipRule": "Membership Rule value",
     "membershipRuleProcessingState": "Membership Rule Processing State value",
     "onPremisesDomainName": "On Premises Domain Name value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
     "onPremisesNetBiosName": "On Premises Net Bios Name value",
     "onPremisesProvisioningErrors": [
       {
@@ -141,7 +143,7 @@ Content-Length: 2523
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "renewedDateTime": "2016-12-31T23:59:56.7748726+03:00",
+    "renewedDateTime": "2017-01-01T00:02:09.3684079+03:00",
     "resourceBehaviorOptions": [
       "Resource Behavior Options value"
     ],

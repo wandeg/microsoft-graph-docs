@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # remoteLockActionResult resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deviceActionResult](../resources/deviceActionResult.md)
+
+
+Inherits from [deviceActionResult](../resources/deviceactionresult.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|actionName|String|Action name Inherited from [deviceActionResult](../resources/intune-devices-deviceActionResult.md)|
-|actionState|Enumeration|State of the action Inherited from [deviceActionResult](../resources/intune-devices-deviceActionResult.md). Possible values are: `none`, `pending`, `canceled`, `active`, `done`, `failed`, `notSupported`.|
-|lastUpdatedDateTime|DateTimeOffset|Time the action state was last updated Inherited from [deviceActionResult](../resources/intune-devices-deviceActionResult.md)|
-|startDateTime|DateTimeOffset|Time the action was initiated Inherited from [deviceActionResult](../resources/intune-devices-deviceActionResult.md)|
+|actionName|String|Action name Inherited from [deviceActionResult](../resources/intune-devices-deviceactionresult.md)|
+|actionState|Enumeration|State of the action Inherited from [deviceActionResult](../resources/intune-devices-deviceactionresult.md). Possible values are: `none`, `pending`, `canceled`, `active`, `done`, `failed`, `notSupported`.|
+|lastUpdatedDateTime|DateTimeOffset|Time the action state was last updated Inherited from [deviceActionResult](../resources/intune-devices-deviceactionresult.md)|
+|startDateTime|DateTimeOffset|Time the action was initiated Inherited from [deviceActionResult](../resources/intune-devices-deviceactionresult.md)|
 |unlockPin|String|Pin to unlock the client|
 
 ## Relationships

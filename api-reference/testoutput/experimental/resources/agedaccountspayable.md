@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # agedAccountsPayable resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get agedAccountsPayable](../api/agedaccountspayable-get.md)|[agedAccountsPayable](../resources/agedAccountsPayable.md)|Read properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
+|[List agedAccountsPayables](../api/agedaccountspayable-list.md)|[agedAccountsPayable](../resources/agedaccountspayable.md) collection|List properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) objects.|
+|[Get agedAccountsPayable](../api/agedaccountspayable-get.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Read properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
+|[Create agedAccountsPayable](../api/agedaccountspayable-create.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Create a new [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
 |[Delete agedAccountsPayable](../api/agedaccountspayable-delete.md)|None|Deletes a [agedAccountsPayable](../resources/agedaccountspayable.md).|
-|[Update agedAccountsPayable](../api/agedaccountspayable-update.md)|[agedAccountsPayable](../resources/agedAccountsPayable.md)|Update the properties of a [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
+|[Update agedAccountsPayable](../api/agedaccountspayable-update.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Update the properties of a [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
 
 ## Properties
 |Property|Type|Description|

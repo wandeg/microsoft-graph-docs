@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get notebook
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [notebook](../resources/notebook.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}
 ```
 
 ### Response
@@ -70,14 +72,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1243
+Content-Length: 1242
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.notebook",
-    "id": "a1c6ab37-ab37-a1c6-37ab-c6a137abc6a1",
+    "id": "41126303-6303-4112-0363-124103631241",
     "self": "Self value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "displayName": "Display Name value",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
@@ -95,7 +97,7 @@ Content-Length: 1243
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "isDefault": true,
     "userRole": "String",
     "isShared": true,

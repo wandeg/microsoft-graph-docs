@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get governanceSubject
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [governanceSubject](../resources/governancesubject.md) object.
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/governanceSubjects/{governanceSubjectsId}
+GET https://graph.microsoft.com/localtest/governanceSubjects/{governanceSubjectsId}
 ```
 
 ### Response
@@ -76,7 +78,7 @@ Content-Length: 275
 {
   "value": {
     "@odata.type": "#microsoft.graph.governanceSubject",
-    "id": "9760f942-f942-9760-42f9-609742f96097",
+    "id": "7fe7d72d-d72d-7fe7-2dd7-e77f2dd7e77f",
     "type": "Type value",
     "displayName": "Display Name value",
     "principalName": "Principal Name value",

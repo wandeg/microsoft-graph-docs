@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationSynchronizationProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /education/synchronizationProfiles/{educationSynchronizationProfileId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationSynchronizationProfile](../resources/educationSynchronizationProfile.md) object.
+In the request body, supply a JSON representation for the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.
 
 The following table shows the properties that are required when you create the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md).
 
@@ -43,9 +45,9 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
-|dataProvider|[educationSynchronizationDataProvider](../resources/educationSynchronizationDataProvider.md)||
-|identitySynchronizationConfiguration|[educationIdentitySynchronizationConfiguration](../resources/educationIdentitySynchronizationConfiguration.md)||
-|licensesToAssign|[educationSynchronizationLicenseAssignment](../resources/educationSynchronizationLicenseAssignment.md) collection||
+|dataProvider|[educationSynchronizationDataProvider](../resources/educationsynchronizationdataprovider.md)||
+|identitySynchronizationConfiguration|[educationIdentitySynchronizationConfiguration](../resources/educationidentitysynchronizationconfiguration.md)||
+|licensesToAssign|[educationSynchronizationLicenseAssignment](../resources/educationsynchronizationlicenseassignment.md) collection||
 |state|Enumeration|. Possible values are: `deleting`, `deletionFailed`, `provisioningFailed`, `provisioned`, `provisioning`, `unknownFutureValue`.|
 |handleSpecialCharacterConstraint|Boolean||
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}
+PATCH https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}
 Content-type: application/json
 Content-length: 628
 
@@ -105,7 +107,7 @@ Content-Length: 677
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationProfile",
-  "id": "e8fd2988-2988-e8fd-8829-fde88829fde8",
+  "id": "0926f8a0-f8a0-0926-a0f8-2609a0f82609",
   "displayName": "Display Name value",
   "dataProvider": {
     "@odata.type": "microsoft.graph.educationSynchronizationDataProvider"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get document
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [document](../resources/document.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/document
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/document
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.document",
-    "id": "3842d4a1-d4a1-3842-a1d4-4238a1d44238"
+    "id": "c4322df0-2df0-c432-f02d-32c4f02d32c4"
   }
 }
 ```

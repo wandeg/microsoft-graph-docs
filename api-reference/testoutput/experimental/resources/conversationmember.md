@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # conversationMember resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get conversationMember](../api/conversationmember-get.md)|[conversationMember](../resources/conversationMember.md)|Read properties and relationships of the [conversationMember](../resources/conversationmember.md) object.|
+|[List conversationMembers](../api/conversationmember-list.md)|[conversationMember](../resources/conversationmember.md) collection|List properties and relationships of the [conversationMember](../resources/conversationmember.md) objects.|
+|[Get conversationMember](../api/conversationmember-get.md)|[conversationMember](../resources/conversationmember.md)|Read properties and relationships of the [conversationMember](../resources/conversationmember.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # segment resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
@@ -19,19 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get segment](../api/callrecords-segment-get.md)|[segment](../resources/callRecords-segment.md)|Read properties and relationships of the [segment](../resources/segment.md) object.|
-|[Delete segment](../api/callrecords-segment-delete.md)|None|Deletes a [segment](../resources/segment.md).|
-|[Update segment](../api/callrecords-segment-update.md)|[segment](../resources/callRecords-segment.md)|Update the properties of a [segment](../resources/segment.md) object.|
+|[List segments](../api/callrecords-segment-list.md)|[segment](../resources/callrecords-segment.md) collection|List properties and relationships of the [segment](../resources/segment.md) objects.|
+|[Get segment](../api/callrecords-segment-get.md)|[segment](../resources/callrecords-segment.md)|Read properties and relationships of the [segment](../resources/callrecords-segment.md) object.|
+|[Create segment](../api/callrecords-segment-create.md)|[segment](../resources/callrecords-segment.md)|Create a new [segment](../resources/callrecords-segment.md) object.|
+|[Delete segment](../api/callrecords-segment-delete.md)|None|Deletes a [segment](../resources/callrecords-segment.md).|
+|[Update segment](../api/callrecords-segment-update.md)|[segment](../resources/callrecords-segment.md)|Update the properties of a [segment](../resources/callrecords-segment.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|callee|[endpoint](../resources/callRecords-endpoint.md)||
-|caller|[endpoint](../resources/callRecords-endpoint.md)||
+|callee|[endpoint](../resources/callrecords-endpoint.md)||
+|caller|[endpoint](../resources/callrecords-endpoint.md)||
 |endDateTime|DateTimeOffset||
-|failureInfo|[failureInfo](../resources/callRecords-failureInfo.md)||
-|id|String| Inherited from [entity](../resources/callRecords-entity.md)|
-|media|[media](../resources/callRecords-media.md) collection||
+|failureInfo|[failureInfo](../resources/callrecords-failureinfo.md)||
+|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
+|media|[media](../resources/callrecords-media.md) collection||
 |startDateTime|DateTimeOffset||
 
 ## Relationships

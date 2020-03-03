@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List emailActivityUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [emailActivityUserDetail](../resources/emailactivityuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.emailActivityUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.emailActivityUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 576
   "value": [
     {
       "@odata.type": "#microsoft.graph.emailActivityUserDetail",
-      "id": "4ffc0b41-0b41-4ffc-410b-fc4f410bfc4f",
+      "id": "aa341e5f-1e5f-aa34-5f1e-34aa5f1e34aa",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "displayName": "Display Name value",

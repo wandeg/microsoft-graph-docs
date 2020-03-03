@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /servicePrincipals/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [servicePrincipal](../resources/servicePrincipal.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [servicePrincipal](../resources/serviceprincipal.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/servicePrincipals/delta
+GET https://graph.microsoft.com/localtest/servicePrincipals/delta
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 1802
   "value": [
     {
       "@odata.type": "#microsoft.graph.servicePrincipal",
-      "id": "3c101314-1314-3c10-1413-103c1413103c",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "da5b47bc-47bc-da5b-bc47-5bdabc475bda",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "accountEnabled": true,
       "addIns": [
         {
@@ -81,7 +83,7 @@ Content-Length: 1802
       "appDisplayName": "App Display Name value",
       "appId": "App Id value",
       "applicationTemplateId": "Application Template Id value",
-      "appOwnerOrganizationId": "9a93e3d1-e3d1-9a93-d1e3-939ad1e3939a",
+      "appOwnerOrganizationId": "9f15957f-957f-9f15-7f95-159f7f95159f",
       "appRoleAssignmentRequired": true,
       "appRoles": [
         {

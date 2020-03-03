@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharingDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|sharedBy|[insightIdentity](../resources/insightIdentity.md)||
+|sharedBy|[insightIdentity](../resources/insightidentity.md)||
 |sharedDateTime|DateTimeOffset||
-|sharingReference|[resourceReference](../resources/resourceReference.md)||
+|sharingReference|[resourceReference](../resources/resourcereference.md)||
 |sharingSubject|String||
 |sharingType|String||
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookComment
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookComment](../resources/workbookcomment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookComment](../resources/workbookComment.md) object.
+In the request body, supply a JSON representation for the [workbookComment](../resources/workbookcomment.md) object.
 
 The following table shows the properties that are required when you create the [workbookComment](../resources/workbookcomment.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments/{workbookCommentId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/comments/{workbookCommentId}
 Content-type: application/json
 Content-length: 128
 
@@ -85,7 +87,7 @@ Content-Length: 177
 
 {
   "@odata.type": "#microsoft.graph.workbookComment",
-  "id": "80104654-4654-8010-5446-108054461080",
+  "id": "9b7588ab-88ab-9b75-ab88-759bab88759b",
   "content": "Content value",
   "contentType": "Content Type value"
 }

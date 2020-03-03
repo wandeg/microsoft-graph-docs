@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # identityGovernance resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get identityGovernance](../api/identitygovernance-get.md)|[identityGovernance](../resources/identityGovernance.md)|Read properties and relationships of the [identityGovernance](../resources/identitygovernance.md) object.|
-|[Update identityGovernance](../api/identitygovernance-update.md)|[identityGovernance](../resources/identityGovernance.md)|Update the properties of a [identityGovernance](../resources/identitygovernance.md) object.|
-|[Get entitlementManagement](../api/entitlementmanagement-get.md)|[entitlementManagement](../resources/entitlementManagement.md)|Read properties and relationships of the [entitlementManagement](../resources/entitlementmanagement.md) object.|
+|[Get identityGovernance](../api/identitygovernance-get.md)|[identityGovernance](../resources/identitygovernance.md)|Read properties and relationships of the [identityGovernance](../resources/identitygovernance.md) object.|
+|[Update identityGovernance](../api/identitygovernance-update.md)|[identityGovernance](../resources/identitygovernance.md)|Update the properties of a [identityGovernance](../resources/identitygovernance.md) object.|
+|[Get entitlementManagement](../api/entitlementmanagement-get.md)|[entitlementManagement](../resources/entitlementmanagement.md)|Read properties and relationships of the [entitlementManagement](../resources/entitlementmanagement.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|entitlementManagement|[entitlementManagement](../resources/entitlementManagement.md)||
+|entitlementManagement|[entitlementManagement](../resources/entitlementmanagement.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

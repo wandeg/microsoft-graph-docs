@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the deviceManagementIntentAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementIntentAssignment",
-      "id": "10942871-2871-1094-7128-941071289410",
+      "id": "4c63bff1-bff1-4c63-f1bf-634cf1bf634c",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

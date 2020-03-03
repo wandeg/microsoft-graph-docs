@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get messageRule
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [messageRule](../resources/messagerule.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
+GET https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 2858
 {
   "value": {
     "@odata.type": "#microsoft.graph.messageRule",
-    "id": "6f611641-1641-6f61-4116-616f4116616f",
+    "id": "b250e382-e382-b250-82e3-50b282e350b2",
     "displayName": "Display Name value",
     "sequence": 8,
     "conditions": {

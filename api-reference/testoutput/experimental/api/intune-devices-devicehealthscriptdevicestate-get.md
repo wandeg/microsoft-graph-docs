@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceHealthScriptDeviceState
 
-Read properties and relationships of the [deviceHealthScriptDeviceState](../resources/devicehealthscriptdevicestate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceHealthScriptDeviceState](../resources/intune-devices-devicehealthscriptdevicestate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceHealthScriptDeviceState](../resources/devicehealthscriptdevicestate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceHealthScriptDeviceState](../resources/intune-devices-devicehealthscriptdevicestate.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates/{deviceHealthScriptDeviceStateId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates/{deviceHealthScriptDeviceStateId}
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 851
+Content-Length: 852
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceHealthScriptDeviceState",
-    "id": "daed47e9-47e9-daed-e947-eddae947edda",
+    "id": "bd3971c9-71c9-bd39-c971-39bdc97139bd",
     "detectionState": "String",
-    "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
-    "expectedStateUpdateDateTime": "2017-01-01T00:02:58.8774146+03:00",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
+    "expectedStateUpdateDateTime": "2016-12-31T23:58:06.1336639+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "preRemediationDetectionScriptOutput": "Pre Remediation Detection Script Output value",
     "preRemediationDetectionScriptError": "Pre Remediation Detection Script Error value",
     "remediationScriptError": "Remediation Script Error value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List tasks
 
+Namespace: microsoft.graph
+
 Get the outlookTasks from the tasks navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/outlook/tasks
+GET https://graph.microsoft.com/localtest/me/outlook/tasks
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2011
+Content-Length: 2010
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTask",
-      "id": "e6886141-6141-e688-4161-88e6416188e6",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "3d4e93c0-93c0-3d4e-c093-4e3dc0934e3d",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"

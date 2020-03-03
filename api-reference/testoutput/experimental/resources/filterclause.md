@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # filterClause resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |operatorName|String||
 |sourceOperandName|String||
-|targetOperand|[filterOperand](../resources/filterOperand.md)||
+|targetOperand|[filterOperand](../resources/filteroperand.md)||
 
 ## Relationships
 None

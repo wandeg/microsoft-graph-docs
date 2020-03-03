@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get employee
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [employee](../resources/employee.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/employees/{employeeId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/employees/{employeeId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1022
 {
   "value": {
     "@odata.type": "#microsoft.graph.employee",
-    "id": "50fd06ee-06ee-50fd-ee06-fd50ee06fd50",
+    "id": "4afa59a1-59a1-4afa-a159-fa4aa159fa4a",
     "number": "Number value",
     "displayName": "Display Name value",
     "givenName": "Given Name value",
@@ -96,7 +98,7 @@ Content-Length: 1022
     "status": "Status value",
     "birthDate": "Date",
     "statisticsGroupCode": "Statistics Group Code value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
   }
 }
 ```

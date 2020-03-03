@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domainDnsUnavailableRecord
 
+Namespace: microsoft.graph
+
 Update the properties of a [domainDnsUnavailableRecord](../resources/domaindnsunavailablerecord.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.domainDnsUnavailableRecord not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [domainDnsUnavailableRecord](../resources/domainDnsUnavailableRecord.md) object.
+In the request body, supply a JSON representation for the [domainDnsUnavailableRecord](../resources/domaindnsunavailablerecord.md) object.
 
 The following table shows the properties that are required when you create the [domainDnsUnavailableRecord](../resources/domaindnsunavailablerecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |description|String||
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.domainDnsUnavailableRecord not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.domainDnsUnavailableRecord not found
 Content-type: application/json
 Content-length: 258
 
@@ -93,7 +95,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.domainDnsUnavailableRecord",
-  "id": "05dd22ea-22ea-05dd-ea22-dd05ea22dd05",
+  "id": "77437fab-7fab-7743-ab7f-4377ab7f4377",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

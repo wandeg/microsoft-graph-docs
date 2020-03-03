@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileAppDependency
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileAppDependency](../resources/mobileappdependency.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mobileAppDependency not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mobileAppDependency not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 286
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppDependency",
-    "id": "5ef7ca92-ca92-5ef7-92ca-f75e92caf75e",
+    "id": "f862b777-b777-f862-77b7-62f877b762f8",
     "targetId": "Target Id value",
     "targetDisplayName": "Target Display Name value",
     "dependencyType": "String",

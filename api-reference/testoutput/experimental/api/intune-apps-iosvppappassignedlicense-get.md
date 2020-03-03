@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get iosVppAppAssignedLicense
 
-Read properties and relationships of the [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [iosVppAppAssignedLicense](../resources/iosvppappassignedlicense.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [iosVppAppAssignedLicense](../resources/intune-apps-iosvppappassignedlicense.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.iosVppApp/assignedLicenses/{iosVppAppAssignedLicenseId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 314
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosVppAppAssignedLicense",
-    "id": "15081030-1030-1508-3010-081530100815",
+    "id": "b5d559e7-59e7-b5d5-e759-d5b5e759d5b5",
     "userEmailAddress": "User Email Address value",
     "userId": "User Id value",
     "userName": "User Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update conversationThread
 
+Namespace: microsoft.graph
+
 Update the properties of a [conversationThread](../resources/conversationthread.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{convers
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [conversationThread](../resources/conversationThread.md) object.
+In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
 
 The following table shows the properties that are required when you create the [conversationThread](../resources/conversationthread.md).
 
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groups/{groupsId}/threads/{conversationThreadId}
+PATCH https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}
 Content-type: application/json
-Content-length: 626
+Content-length: 624
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
@@ -86,7 +88,7 @@ Content-length: 626
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -110,11 +112,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 675
+Content-Length: 673
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "ea7e7a27-7a27-ea7e-277a-7eea277a7eea",
+  "id": "3083ed6b-ed6b-3083-6bed-83306bed8330",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -127,7 +129,7 @@ Content-Length: 675
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

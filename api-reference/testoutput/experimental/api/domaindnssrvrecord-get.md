@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get domainDnsSrvRecord
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [domainDnsSrvRecord](../resources/domaindnssrvrecord.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.domainDnsSrvRecord not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.domainDnsSrvRecord not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 455
 {
   "value": {
     "@odata.type": "#microsoft.graph.domainDnsSrvRecord",
-    "id": "706ebb34-bb34-706e-34bb-6e7034bb6e70",
+    "id": "72714f18-4f18-7271-184f-7172184f7172",
     "isOptional": true,
     "label": "Label value",
     "recordType": "Record Type value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List paymentMethods
 
+Namespace: microsoft.graph
+
 Get the paymentMethods from the paymentMethods navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/paymentMethods
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/paymentMethods
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 286
   "value": [
     {
       "@odata.type": "#microsoft.graph.paymentMethod",
-      "id": "792e3cd3-3cd3-792e-d33c-2e79d33c2e79",
+      "id": "620d69bd-69bd-620d-bd69-0d62bd690d62",
       "code": "Code value",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

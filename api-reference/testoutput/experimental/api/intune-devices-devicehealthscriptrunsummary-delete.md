@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete deviceHealthScriptRunSummary
 
-Deletes a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md).
+Namespace: microsoft.graph
+
+Deletes a [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
 ```
 
 ### Response

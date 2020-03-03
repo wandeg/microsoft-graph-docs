@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppIntentAndStateDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,7 +22,7 @@ Namespace: microsoft.graph
 |displayVersion|String|Human readable version of the application|
 |installState|Enumeration|The install state of the app. Possible values are: `installed`, `failed`, `notInstalled`, `uninstallFailed`, `pendingInstall`, `unknown`, `notApplicable`.|
 |mobileAppIntent|Enumeration|Mobile App Intent. Possible values are: `available`, `notAvailable`, `requiredInstall`, `requiredUninstall`, `requiredAndAvailableInstall`, `availableInstallWithoutEnrollment`, `exclude`.|
-|supportedDeviceTypes|[mobileAppSupportedDeviceType](../resources/mobileAppSupportedDeviceType.md) collection|The supported platforms for the app.|
+|supportedDeviceTypes|[mobileAppSupportedDeviceType](../resources/mobileappsupporteddevicetype.md) collection|The supported platforms for the app.|
 
 ## Relationships
 None

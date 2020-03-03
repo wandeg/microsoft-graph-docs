@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete customerPaymentJournal
 
+Namespace: microsoft.graph
+
 Deletes a [customerPaymentJournal](../resources/customerpaymentjournal.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
 ```
 
 ### Response

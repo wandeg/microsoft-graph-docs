@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # windowsPrivacyAccessControls
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -41,7 +43,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|windowsPrivacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsPrivacyDataAccessControlItem.md) collection||
+|windowsPrivacyAccessControls|[windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md) collection||
 
 
 

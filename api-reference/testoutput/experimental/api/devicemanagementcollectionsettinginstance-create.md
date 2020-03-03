@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagementCollectionSettingInstance
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.deviceManagementCollectionSettingInst
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementCollectionSettingInstance object.
+In the request body, supply a JSON representation for the [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementCollectionSettingInstance.
+The following table shows the properties that are required when you create the [deviceManagementCollectionSettingInstance](../resources/devicemanagementcollectionsettinginstance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
-|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/deviceManagementSettingInstance.md)|
+|definitionId|String|The ID of the setting definition for this instance Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
+|valueJson|String|JSON representation of the value Inherited from [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementCollectionSettingInstance not found
 Content-type: application/json
 Content-length: 161
 
@@ -87,7 +89,7 @@ Content-Length: 210
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCollectionSettingInstance",
-  "id": "62ce8f8d-8f8d-62ce-8d8f-ce628d8fce62",
+  "id": "a4f857d7-57d7-a4f8-d757-f8a4d757f8a4",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value"
 }

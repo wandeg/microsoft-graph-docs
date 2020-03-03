@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsTemplate](../resources/teamstemplate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /teamsTemplates/{teamsTemplatesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsTemplate](../resources/teamsTemplate.md) object.
+In the request body, supply a JSON representation for the [teamsTemplate](../resources/teamstemplate.md) object.
 
 The following table shows the properties that are required when you create the [teamsTemplate](../resources/teamstemplate.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teamsTemplates/{teamsTemplatesId}
+PATCH https://graph.microsoft.com/localtest/teamsTemplates/{teamsTemplatesId}
 Content-type: application/json
 Content-length: 55
 
@@ -81,7 +83,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.teamsTemplate",
-  "id": "4c6abe39-be39-4c6a-39be-6a4c39be6a4c"
+  "id": "2e8d35fc-35fc-2e8d-fc35-8d2efc358d2e"
 }
 ```
 

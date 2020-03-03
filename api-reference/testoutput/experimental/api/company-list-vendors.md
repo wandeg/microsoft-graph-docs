@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List vendors
 
+Namespace: microsoft.graph
+
 Get the vendors from the vendors navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/vendors
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/vendors
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1074
   "value": [
     {
       "@odata.type": "#microsoft.graph.vendor",
-      "id": "500c2fbb-2fbb-500c-bb2f-0c50bb2f0c50",
+      "id": "aeeb9435-9435-aeeb-3594-ebae3594ebae",
       "number": "Number value",
       "displayName": "Display Name value",
       "address": {
@@ -85,14 +87,14 @@ Content-Length: 1074
       "email": "Email value",
       "website": "Website value",
       "taxRegistrationNumber": "Tax Registration Number value",
-      "currencyId": "20bf8064-8064-20bf-6480-bf206480bf20",
+      "currencyId": "5323df69-df69-5323-69df-235369df2353",
       "currencyCode": "Currency Code value",
-      "paymentTermsId": "65ea415a-415a-65ea-5a41-ea655a41ea65",
-      "paymentMethodId": "899ce3e1-e3e1-899c-e1e3-9c89e1e39c89",
+      "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+      "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
       "taxLiable": true,
       "blocked": "Blocked value",
       "balance": "4.2",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

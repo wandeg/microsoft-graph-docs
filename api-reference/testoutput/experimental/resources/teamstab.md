@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsTab resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get teamsTab](../api/teamstab-get.md)|[teamsTab](../resources/teamsTab.md)|Read properties and relationships of the [teamsTab](../resources/teamstab.md) object.|
+|[List teamsTabs](../api/teamstab-list.md)|[teamsTab](../resources/teamstab.md) collection|List properties and relationships of the [teamsTab](../resources/teamstab.md) objects.|
+|[Get teamsTab](../api/teamstab-get.md)|[teamsTab](../resources/teamstab.md)|Read properties and relationships of the [teamsTab](../resources/teamstab.md) object.|
+|[Create teamsTab](../api/teamstab-create.md)|[teamsTab](../resources/teamstab.md)|Create a new [teamsTab](../resources/teamstab.md) object.|
 |[Delete teamsTab](../api/teamstab-delete.md)|None|Deletes a [teamsTab](../resources/teamstab.md).|
-|[Update teamsTab](../api/teamstab-update.md)|[teamsTab](../resources/teamsTab.md)|Update the properties of a [teamsTab](../resources/teamstab.md) object.|
-|[Get teamsApp](../api/teamsapp-get.md)|[teamsApp](../resources/teamsApp.md)|Read properties and relationships of the [teamsApp](../resources/teamsapp.md) object.|
+|[Update teamsTab](../api/teamstab-update.md)|[teamsTab](../resources/teamstab.md)|Update the properties of a [teamsTab](../resources/teamstab.md) object.|
+|[Get teamsApp](../api/teamsapp-get.md)|[teamsApp](../resources/teamsapp.md)|Read properties and relationships of the [teamsApp](../resources/teamsapp.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|configuration|[teamsTabConfiguration](../resources/teamsTabConfiguration.md)||
+|configuration|[teamsTabConfiguration](../resources/teamstabconfiguration.md)||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |messageId|String||
@@ -39,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|teamsApp|[teamsApp](../resources/teamsApp.md)||
+|teamsApp|[teamsApp](../resources/teamsapp.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

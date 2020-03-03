@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sharePointActivityUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointActivityUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointActivityUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 639
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharePointActivityUserDetail",
-      "id": "35616396-6396-3561-9663-613596636135",
+      "id": "fe712b8e-2b8e-fe71-8e2b-71fe8e2b71fe",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "isDeleted": true,

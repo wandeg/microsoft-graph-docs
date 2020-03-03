@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsAppDefinition",
-    "id": "f9fa8e26-8e26-f9fa-268e-faf9268efaf9",
+    "id": "ad3d55b7-55b7-ad3d-b755-3dadb7553dad",
     "teamsAppId": "Teams App Id value",
     "displayName": "Display Name value",
     "version": "Version value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedDeviceMobileAppConfigurationState
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationSt
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationState](../resources/managedDeviceMobileAppConfigurationState.md) object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md) object.
 
 The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationState](../resources/manageddevicemobileappconfigurationstate.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates/{managedDeviceMobileAppConfigurationStateId}
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/managedDeviceMobileAppConfigurationStates/{managedDeviceMobileAppConfigurationStateId}
 Content-type: application/json
 Content-length: 296
 
@@ -95,7 +97,7 @@ Content-Length: 345
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationState",
-  "id": "892e9a0f-9a0f-892e-0f9a-2e890f9a2e89",
+  "id": "e6abe752-e752-e6ab-52e7-abe652e7abe6",
   "displayName": "Display Name value",
   "version": 7,
   "platformType": "String",

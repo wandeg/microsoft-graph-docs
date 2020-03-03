@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update deviceManagementScriptDeviceState
 
-Update the properties of a [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -37,9 +39,9 @@ PATCH /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/userR
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementScriptDeviceState](../resources/deviceManagementScriptDeviceState.md) object.
+In the request body, supply a JSON representation for the [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object.
 
-The following table shows the properties that are required when you create the [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md).
+The following table shows the properties that are required when you create the [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object in the response body.
 
 ## Example
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/deviceRunStates/{deviceManagementScriptDeviceStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/deviceRunStates/{deviceManagementScriptDeviceStateId}
 Content-type: application/json
 Content-length: 280
 
@@ -73,7 +75,7 @@ Content-length: 280
   "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
   "runState": "String",
   "resultMessage": "Result Message value",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
   "errorCode": 9,
   "errorDescription": "Error Description value"
 }
@@ -93,10 +95,10 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
-  "id": "34ee1794-1794-34ee-9417-ee349417ee34",
+  "id": "1bbd95b4-95b4-1bbd-b495-bd1bb495bd1b",
   "runState": "String",
   "resultMessage": "Result Message value",
-  "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+  "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
   "errorCode": 9,
   "errorDescription": "Error Description value"
 }

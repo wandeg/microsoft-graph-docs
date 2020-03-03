@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
-
 
 # serviceUserAgent resource type
 
 
+Namespace: microsoft.graph.callRecords
 
 
-Inherits from [userAgent](../resources/userAgent.md)
+
+
+Inherits from [userAgent](../resources/useragent.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|applicationVersion|String| Inherited from [userAgent](../resources/callRecords-userAgent.md)|
-|headerValue|String| Inherited from [userAgent](../resources/callRecords-userAgent.md)|
+|applicationVersion|String| Inherited from [userAgent](../resources/callrecords-useragent.md)|
+|headerValue|String| Inherited from [userAgent](../resources/callrecords-useragent.md)|
 |role|Enumeration|. Possible values are: `unknown`, `customBot`, `skypeForBusinessMicrosoftTeamsGateway`, `skypeForBusinessAudioVideoMcu`, `skypeForBusinessApplicationSharingMcu`, `skypeForBusinessCallQueues`, `skypeForBusinessAutoAttendant`, `mediationServer`, `mediationServerCloudConnectorEdition`, `exchangeUnifiedMessagingService`, `mediaController`, `conferencingAnnouncementService`, `conferencingAttendant`, `audioTeleconferencerController`, `skypeForBusinessUnifiedCommunicationApplicationPlatform`, `responseGroupServiceAnnouncementService`, `gateway`, `skypeTranslator`, `skypeForBusinessAttendant`, `responseGroupService`, `unknownFutureValue`.|
 
 ## Relationships

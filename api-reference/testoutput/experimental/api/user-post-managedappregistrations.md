@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managedAppRegistrations
 
+Namespace: microsoft.graph
+
 Create managedAppRegistrations by posting to the managedAppRegistrations collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/managedAppRegistrations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppRegistration object.
+In the request body, supply a JSON representation for the [managedAppRegistration](../resources/managedappregistration.md) object.
 
-The following table shows the properties that are required when you create the managedAppRegistration.
+The following table shows the properties that are required when you create the [managedAppRegistration](../resources/managedappregistration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -58,7 +60,7 @@ The following table shows the properties that are required when you create the m
 |deviceManufacturer|String|The device manufacturer for the current app registration |
 |flaggedReasons|Enumeration collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device. Possible values are: `none`, `rootedDevice`, `androidBootloaderUnlocked`, `androidFactoryRomModified`.|
 |userId|String|The user Id to who this app registration belongs.|
-|appIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The app package Identifier|
+|appIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The app package Identifier|
 |version|String|Version of the entity.|
 
 
@@ -76,13 +78,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedAppRegistrations
+POST https://graph.microsoft.com/localtest/me/managedAppRegistrations
 Content-type: application/json
-Content-length: 778
+Content-length: 779
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -119,9 +121,9 @@ Content-Length: 886
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "2df57160-7160-2df5-6071-f52d6071f52d",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "id": "723369fd-69fd-7233-fd69-3372fd693372",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add templates
 
+Namespace: microsoft.graph
+
 Add templates by posting to the templates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /applications/{applicationsId}/synchronization/templates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the synchronizationTemplate object.
+In the request body, supply a JSON representation for the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.
 
-The following table shows the properties that are required when you create the synchronizationTemplate.
+The following table shows the properties that are required when you create the [synchronizationTemplate](../resources/synchronizationtemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -48,7 +50,7 @@ The following table shows the properties that are required when you create the s
 |description|String||
 |discoverable|Boolean||
 |factoryTag|String||
-|metadata|[metadataEntry](../resources/metadataEntry.md) collection||
+|metadata|[metadataEntry](../resources/metadataentry.md) collection||
 
 
 
@@ -65,13 +67,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/templates
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/templates
 Content-type: application/json
 Content-length: 396
 
 {
   "@odata.type": "#microsoft.graph.synchronizationTemplate",
-  "applicationId": "d7fbb6cb-b6cb-d7fb-cbb6-fbd7cbb6fbd7",
+  "applicationId": "c409845e-845e-c409-5e84-09c45e8409c4",
   "default": true,
   "description": "Description value",
   "discoverable": true,
@@ -101,8 +103,8 @@ Content-Length: 445
 
 {
   "@odata.type": "#microsoft.graph.synchronizationTemplate",
-  "id": "58b8ac24-ac24-58b8-24ac-b85824acb858",
-  "applicationId": "d7fbb6cb-b6cb-d7fb-cbb6-fbd7cbb6fbd7",
+  "id": "ef935b80-5b80-ef93-805b-93ef805b93ef",
+  "applicationId": "c409845e-845e-c409-5e84-09c45e8409c4",
   "default": true,
   "description": "Description value",
   "discoverable": true,

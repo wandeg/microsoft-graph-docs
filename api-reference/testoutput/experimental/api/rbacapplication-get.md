@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get rbacApplication
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [rbacApplication](../resources/rbacapplication.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/roleManagement/directory
+GET https://graph.microsoft.com/localtest/roleManagement/directory
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 129
 {
   "value": {
     "@odata.type": "#microsoft.graph.rbacApplication",
-    "id": "40a4af17-af17-40a4-17af-a44017afa440"
+    "id": "9bb972e4-72e4-9bb9-e472-b99be472b99b"
   }
 }
 ```

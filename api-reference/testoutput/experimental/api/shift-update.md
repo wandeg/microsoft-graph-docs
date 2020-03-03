@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update shift
 
+Namespace: microsoft.graph
+
 Update the properties of a [shift](../resources/shift.md) object.
 
 ## Permissions
@@ -42,11 +44,11 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|sharedShift|[shiftItem](../resources/shiftItem.md)||
-|draftShift|[shiftItem](../resources/shiftItem.md)||
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|sharedShift|[shiftItem](../resources/shiftitem.md)||
+|draftShift|[shiftItem](../resources/shiftitem.md)||
 |userId|String||
 |schedulingGroupId|String||
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/shifts/{shiftId}
 Content-type: application/json
 Content-length: 605
 
@@ -73,8 +75,8 @@ Content-length: 605
   "@odata.type": "#microsoft.graph.shift",
   "sharedShift": {
     "@odata.type": "microsoft.graph.shiftItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "notes": "Notes value",
     "activities": [
@@ -103,13 +105,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1150
+Content-Length: 1149
 
 {
   "@odata.type": "#microsoft.graph.shift",
-  "id": "323eab49-ab49-323e-49ab-3e3249ab3e32",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "cf97ecfa-ecfa-cf97-faec-97cffaec97cf",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -126,8 +128,8 @@ Content-Length: 1150
   },
   "sharedShift": {
     "@odata.type": "microsoft.graph.shiftItem",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "theme": "String",
     "notes": "Notes value",
     "activities": [

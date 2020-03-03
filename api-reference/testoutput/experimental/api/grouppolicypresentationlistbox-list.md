@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicyPresentationListBoxes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [groupPolicyPresentationListBox](../resources/grouppolicypresentationlistbox.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationListBox not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationListBox not found
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 335
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyPresentationListBox",
-      "id": "03447017-7017-0344-1770-440317704403",
+      "id": "bc4e845d-845d-bc4e-5d84-4ebc5d844ebc",
       "label": "Label value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "explicitValue": true,
       "valuePrefix": "Value Prefix value"
     }

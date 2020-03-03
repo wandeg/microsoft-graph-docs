@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # outlookUser resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,19 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookUsers](../api/outlookuser-list.md)|[outlookUser](../resources/outlookUser.md) collection|List properties and relationships of the [outlookUser](../resources/outlookuser.md) objects.|
-|[Get outlookUser](../api/outlookuser-get.md)|[outlookUser](../resources/outlookUser.md)|Read properties and relationships of the [outlookUser](../resources/outlookuser.md) object.|
-|[Create outlookUser](../api/outlookuser-create.md)|[outlookUser](../resources/outlookUser.md)|Create a new [outlookUser](../resources/outlookuser.md) object.|
+|[List outlookUsers](../api/outlookuser-list.md)|[outlookUser](../resources/outlookuser.md) collection|List properties and relationships of the [outlookUser](../resources/outlookuser.md) objects.|
+|[Get outlookUser](../api/outlookuser-get.md)|[outlookUser](../resources/outlookuser.md)|Read properties and relationships of the [outlookUser](../resources/outlookuser.md) object.|
+|[Create outlookUser](../api/outlookuser-create.md)|[outlookUser](../resources/outlookuser.md)|Create a new [outlookUser](../resources/outlookuser.md) object.|
 |[Delete outlookUser](../api/outlookuser-delete.md)|None|Deletes a [outlookUser](../resources/outlookuser.md).|
-|[Update outlookUser](../api/outlookuser-update.md)|[outlookUser](../resources/outlookUser.md)|Update the properties of a [outlookUser](../resources/outlookuser.md) object.|
-|[List masterCategories](../api/outlookuser-list-mastercategories.md)|[outlookCategory](../resources/outlookCategory.md) collection|Get the outlookCategories from the masterCategories navigation property.|
-|[Add masterCategories](../api/outlookuser-post-mastercategories.md)|[outlookCategory](../resources/outlookCategory.md)|Add masterCategories by posting to the masterCategories collection.|
-|[List taskGroups](../api/outlookuser-list-taskgroups.md)|[outlookTaskGroup](../resources/outlookTaskGroup.md) collection|Get the outlookTaskGroups from the taskGroups navigation property.|
-|[Add taskGroups](../api/outlookuser-post-taskgroups.md)|[outlookTaskGroup](../resources/outlookTaskGroup.md)|Add taskGroups by posting to the taskGroups collection.|
-|[List taskFolders](../api/outlookuser-list-taskfolders.md)|[outlookTaskFolder](../resources/outlookTaskFolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
-|[Add taskFolders](../api/outlookuser-post-taskfolders.md)|[outlookTaskFolder](../resources/outlookTaskFolder.md)|Add taskFolders by posting to the taskFolders collection.|
-|[List tasks](../api/outlookuser-list-tasks.md)|[outlookTask](../resources/outlookTask.md) collection|Get the outlookTasks from the tasks navigation property.|
-|[Add tasks](../api/outlookuser-post-tasks.md)|[outlookTask](../resources/outlookTask.md)|Add tasks by posting to the tasks collection.|
+|[Update outlookUser](../api/outlookuser-update.md)|[outlookUser](../resources/outlookuser.md)|Update the properties of a [outlookUser](../resources/outlookuser.md) object.|
+|[List masterCategories](../api/outlookuser-list-mastercategories.md)|[outlookCategory](../resources/outlookcategory.md) collection|Get the outlookCategories from the masterCategories navigation property.|
+|[Add masterCategories](../api/outlookuser-post-mastercategories.md)|[outlookCategory](../resources/outlookcategory.md)|Add masterCategories by posting to the masterCategories collection.|
+|[List taskGroups](../api/outlookuser-list-taskgroups.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md) collection|Get the outlookTaskGroups from the taskGroups navigation property.|
+|[Add taskGroups](../api/outlookuser-post-taskgroups.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Add taskGroups by posting to the taskGroups collection.|
+|[List taskFolders](../api/outlookuser-list-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
+|[Add taskFolders](../api/outlookuser-post-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Add taskFolders by posting to the taskFolders collection.|
+|[List tasks](../api/outlookuser-list-tasks.md)|[outlookTask](../resources/outlooktask.md) collection|Get the outlookTasks from the tasks navigation property.|
+|[Add tasks](../api/outlookuser-post-tasks.md)|[outlookTask](../resources/outlooktask.md)|Add tasks by posting to the tasks collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,10 +42,10 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|masterCategories|[outlookCategory](../resources/outlookCategory.md) collection||
-|taskFolders|[outlookTaskFolder](../resources/outlookTaskFolder.md) collection||
-|taskGroups|[outlookTaskGroup](../resources/outlookTaskGroup.md) collection||
-|tasks|[outlookTask](../resources/outlookTask.md) collection||
+|masterCategories|[outlookCategory](../resources/outlookcategory.md) collection||
+|taskFolders|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection||
+|taskGroups|[outlookTaskGroup](../resources/outlooktaskgroup.md) collection||
+|tasks|[outlookTask](../resources/outlooktask.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

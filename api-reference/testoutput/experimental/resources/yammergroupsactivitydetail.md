@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # yammerGroupsActivityDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List yammerGroupsActivityDetails](../api/yammergroupsactivitydetail-list.md)|[yammerGroupsActivityDetail](../resources/yammerGroupsActivityDetail.md) collection|List properties and relationships of the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) objects.|
-|[Get yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-get.md)|[yammerGroupsActivityDetail](../resources/yammerGroupsActivityDetail.md)|Read properties and relationships of the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
-|[Create yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-create.md)|[yammerGroupsActivityDetail](../resources/yammerGroupsActivityDetail.md)|Create a new [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
+|[List yammerGroupsActivityDetails](../api/yammergroupsactivitydetail-list.md)|[yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) collection|List properties and relationships of the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) objects.|
+|[Get yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-get.md)|[yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md)|Read properties and relationships of the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
+|[Create yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-create.md)|[yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md)|Create a new [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
 |[Delete yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-delete.md)|None|Deletes a [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md).|
-|[Update yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-update.md)|[yammerGroupsActivityDetail](../resources/yammerGroupsActivityDetail.md)|Update the properties of a [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
+|[Update yammerGroupsActivityDetail](../api/yammergroupsactivitydetail-update.md)|[yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md)|Update the properties of a [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

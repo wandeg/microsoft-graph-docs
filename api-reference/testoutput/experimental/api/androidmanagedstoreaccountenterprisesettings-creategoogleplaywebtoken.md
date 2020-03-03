@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createGooglePlayWebToken
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/androidManagedStoreAccountEnterpriseSettings/createGooglePlayWebToken
+POST https://graph.microsoft.com/localtest/deviceManagement/androidManagedStoreAccountEnterpriseSettings/createGooglePlayWebToken
 
 Content-type: application/json
 Content-length: 39

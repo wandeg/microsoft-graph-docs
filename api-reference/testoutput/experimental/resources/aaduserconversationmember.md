@@ -5,34 +5,35 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # aadUserConversationMember resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [conversationMember](../resources/conversationMember.md)
+
+
+Inherits from [conversationMember](../resources/conversationmember.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List aadUserConversationMembers](../api/aaduserconversationmember-list.md)|[aadUserConversationMember](../resources/aadUserConversationMember.md) collection|List properties and relationships of the [aadUserConversationMember](../resources/aaduserconversationmember.md) objects.|
-|[Get aadUserConversationMember](../api/aaduserconversationmember-get.md)|[aadUserConversationMember](../resources/aadUserConversationMember.md)|Read properties and relationships of the [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
-|[Create aadUserConversationMember](../api/aaduserconversationmember-create.md)|[aadUserConversationMember](../resources/aadUserConversationMember.md)|Create a new [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
+|[List aadUserConversationMembers](../api/aaduserconversationmember-list.md)|[aadUserConversationMember](../resources/aaduserconversationmember.md) collection|List properties and relationships of the [aadUserConversationMember](../resources/aaduserconversationmember.md) objects.|
+|[Get aadUserConversationMember](../api/aaduserconversationmember-get.md)|[aadUserConversationMember](../resources/aaduserconversationmember.md)|Read properties and relationships of the [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
+|[Create aadUserConversationMember](../api/aaduserconversationmember-create.md)|[aadUserConversationMember](../resources/aaduserconversationmember.md)|Create a new [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
 |[Delete aadUserConversationMember](../api/aaduserconversationmember-delete.md)|None|Deletes a [aadUserConversationMember](../resources/aaduserconversationmember.md).|
-|[Update aadUserConversationMember](../api/aaduserconversationmember-update.md)|[aadUserConversationMember](../resources/aadUserConversationMember.md)|Update the properties of a [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
+|[Update aadUserConversationMember](../api/aaduserconversationmember-update.md)|[aadUserConversationMember](../resources/aaduserconversationmember.md)|Update the properties of a [aadUserConversationMember](../resources/aaduserconversationmember.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|displayName|String| Inherited from [conversationMember](../resources/conversationMember.md)|
+|displayName|String| Inherited from [conversationMember](../resources/conversationmember.md)|
 |email|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|roles|String collection| Inherited from [conversationMember](../resources/conversationMember.md)|
+|roles|String collection| Inherited from [conversationMember](../resources/conversationmember.md)|
 |userId|String||
 
 ## Relationships

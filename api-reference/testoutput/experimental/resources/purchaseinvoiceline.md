@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # purchaseInvoiceLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get purchaseInvoiceLine](../api/purchaseinvoiceline-get.md)|[purchaseInvoiceLine](../resources/purchaseInvoiceLine.md)|Read properties and relationships of the [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.|
+|[List purchaseInvoiceLines](../api/purchaseinvoiceline-list.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md) collection|List properties and relationships of the [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) objects.|
+|[Get purchaseInvoiceLine](../api/purchaseinvoiceline-get.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Read properties and relationships of the [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.|
+|[Create purchaseInvoiceLine](../api/purchaseinvoiceline-create.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Create a new [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.|
 |[Delete purchaseInvoiceLine](../api/purchaseinvoiceline-delete.md)|None|Deletes a [purchaseInvoiceLine](../resources/purchaseinvoiceline.md).|
-|[Update purchaseInvoiceLine](../api/purchaseinvoiceline-update.md)|[purchaseInvoiceLine](../resources/purchaseInvoiceLine.md)|Update the properties of a [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.|
+|[Update purchaseInvoiceLine](../api/purchaseinvoiceline-update.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Update the properties of a [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create cloudCommunications
 
+Namespace: microsoft.graph
+
 Create a new [cloudCommunications](../resources/cloudcommunications.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.cloudCommunications not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the cloudCommunications object.
+In the request body, supply a JSON representation for the [cloudCommunications](../resources/cloudcommunications.md) object.
 
-The following table shows the properties that are required when you create the cloudCommunications.
+The following table shows the properties that are required when you create the [cloudCommunications](../resources/cloudcommunications.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.cloudCommunications not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.cloudCommunications not found
 Content-type: application/json
 Content-length: 61
 
@@ -83,7 +85,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.cloudCommunications",
-  "id": "c93bc205-c205-c93b-05c2-3bc905c23bc9"
+  "id": "78677146-7146-7867-4671-677846716778"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceAppManagementTasks
 
+Namespace: microsoft.graph
+
 Add deviceAppManagementTasks by posting to the deviceAppManagementTasks collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/deviceAppManagementTasks/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceAppManagementTask object.
+In the request body, supply a JSON representation for the [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object.
 
-The following table shows the properties that are required when you create the deviceAppManagementTask.
+The following table shows the properties that are required when you create the [deviceAppManagementTask](../resources/deviceappmanagementtask.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/deviceAppManagementTasks
+POST https://graph.microsoft.com/localtest/deviceAppManagement/deviceAppManagementTasks
 Content-type: application/json
 Content-length: 383
 
@@ -77,7 +79,7 @@ Content-length: 383
   "@odata.type": "#microsoft.graph.deviceAppManagementTask",
   "displayName": "Display Name value",
   "description": "Description value",
-  "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
+  "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
   "category": "String",
   "priority": "String",
   "creator": "Creator value",
@@ -98,15 +100,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 491
+Content-Length: 490
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagementTask",
-  "id": "ad00f9bd-f9bd-ad00-bdf9-00adbdf900ad",
+  "id": "81fcc215-c215-81fc-15c2-fc8115c2fc81",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "dueDateTime": "2016-12-31T23:57:44.4001585+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
   "category": "String",
   "priority": "String",
   "creator": "Creator value",

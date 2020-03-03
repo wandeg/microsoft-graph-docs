@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List settings
 
+Namespace: microsoft.graph
+
 Get the deviceManagementSettingInstances from the settings navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/settings
+GET https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/settings
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 249
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-      "id": "74fed0f8-d0f8-74fe-f8d0-fe74f8d0fe74",
+      "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
       "definitionId": "Definition Id value",
       "valueJson": "Value Json value"
     }

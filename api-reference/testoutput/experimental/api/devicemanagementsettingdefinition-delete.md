@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementSettingDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementSettingDefinition](../resources/devicemanagementsettingdefinition.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/settingDefinitions/{deviceManagementSettingDefinitionId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/settingDefinitions/{deviceManagementSettingDefinitionId}
 ```
 
 ### Response

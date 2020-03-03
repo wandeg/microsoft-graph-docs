@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add cloudAppSecurityProfiles
 
+Namespace: microsoft.graph
+
 Add cloudAppSecurityProfiles by posting to the cloudAppSecurityProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /Security/cloudAppSecurityProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the cloudAppSecurityProfile object.
+In the request body, supply a JSON representation for the [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.
 
-The following table shows the properties that are required when you create the cloudAppSecurityProfile.
+The following table shows the properties that are required when you create the [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the c
 |riskScore|String||
 |tags|String collection||
 |type|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/cloudAppSecurityProfiles
+POST https://graph.microsoft.com/localtest/Security/cloudAppSecurityProfiles
 Content-type: application/json
 Content-length: 875
 
@@ -119,18 +121,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1047
+Content-Length: 1046
 
 {
   "@odata.type": "#microsoft.graph.cloudAppSecurityProfile",
-  "id": "053c36a0-36a0-053c-a036-3c05a0363c05",
+  "id": "895eae94-ae94-895e-94ae-5e8994ae5e89",
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "deploymentPackageUrl": "https://example.com/deploymentPackageUrl/",
   "destinationServiceName": "Destination Service Name value",
   "isSigned": true,
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "manifest": "Manifest value",
   "name": "Name value",
   "permissionsRequired": "String",

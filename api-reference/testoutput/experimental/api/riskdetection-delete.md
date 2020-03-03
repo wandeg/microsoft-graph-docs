@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete riskDetection
 
+Namespace: microsoft.graph
+
 Deletes a [riskDetection](../resources/riskdetection.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/riskDetections/{riskDetectionsId}
+DELETE https://graph.microsoft.com/localtest/riskDetections/{riskDetectionsId}
 ```
 
 ### Response

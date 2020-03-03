@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationSynchronizationProfileStatus
 
+Namespace: microsoft.graph
+
 Deletes a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/profileStatus
+DELETE https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/profileStatus
 ```
 
 ### Response

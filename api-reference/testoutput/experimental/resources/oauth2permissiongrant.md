@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # oAuth2PermissionGrant resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List oAuth2PermissionGrants](../api/oauth2permissiongrant-list.md)|[oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md) collection|List properties and relationships of the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) objects.|
-|[Get oAuth2PermissionGrant](../api/oauth2permissiongrant-get.md)|[oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md)|Read properties and relationships of the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
-|[Create oAuth2PermissionGrant](../api/oauth2permissiongrant-post-oauth2permissiongrants.md)|[oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md)|Create a new [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
+|[List oAuth2PermissionGrants](../api/oauth2permissiongrant-list.md)|[oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) collection|List properties and relationships of the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) objects.|
+|[Get oAuth2PermissionGrant](../api/oauth2permissiongrant-get.md)|[oAuth2PermissionGrant](../resources/oauth2permissiongrant.md)|Read properties and relationships of the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
+|[Create oAuth2PermissionGrant](../api/oauth2permissiongrant-post-oauth2permissiongrants.md)|[oAuth2PermissionGrant](../resources/oauth2permissiongrant.md)|Create a new [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
 |[Delete oAuth2PermissionGrant](../api/oauth2permissiongrant-delete.md)|None|Deletes a [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md).|
-|[Update oAuth2PermissionGrant](../api/oauth2permissiongrant-update.md)|[oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md)|Update the properties of a [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
-|[delta](../api/oauth2permissiongrant-delta.md)|[oAuth2PermissionGrant](../resources/oAuth2PermissionGrant.md) collection||
+|[Update oAuth2PermissionGrant](../api/oauth2permissiongrant-update.md)|[oAuth2PermissionGrant](../resources/oauth2permissiongrant.md)|Update the properties of a [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.|
+|[delta](../api/oauth2permissiongrant-delta.md)|[oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) collection||
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List tiIndicators
 
+Namespace: microsoft.graph
+
 Get the tiIndicators from the tiIndicators navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/tiIndicators
+GET https://graph.microsoft.com/localtest/Security/tiIndicators
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2893
+Content-Length: 2894
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.tiIndicator",
-      "id": "1c383218-3218-1c38-1832-381c1832381c",
+      "id": "ebcb7b71-7b71-ebcb-717b-cbeb717bcbeb",
       "action": "String",
       "activityGroupNames": [
         "Activity Group Names value"
@@ -90,10 +92,10 @@ Content-Length: 2893
       "emailSourceIpAddress": "Email Source Ip Address value",
       "emailSubject": "Email Subject value",
       "emailXMailer": "Email XMailer value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "externalId": "External Id value",
-      "fileCompileDateTime": "2016-12-31T23:57:58.3781856+03:00",
-      "fileCreatedDateTime": "2016-12-31T23:58:09.0538026+03:00",
+      "fileCompileDateTime": "2017-01-01T00:02:30.4914742+03:00",
+      "fileCreatedDateTime": "2016-12-31T23:56:41.8083525+03:00",
       "fileHashType": "String",
       "fileHashValue": "File Hash Value value",
       "fileMutexName": "File Mutex Name value",
@@ -102,13 +104,13 @@ Content-Length: 2893
       "filePath": "File Path value",
       "fileSize": 8,
       "fileType": "File Type value",
-      "ingestedDateTime": "2016-12-31T23:56:35.5523635+03:00",
+      "ingestedDateTime": "2017-01-01T00:02:21.7613669+03:00",
       "isActive": true,
       "killChain": [
         "Kill Chain value"
       ],
       "knownFalsePositives": "Known False Positives value",
-      "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
       "malwareFamilyNames": [
         "Malware Family Names value"
       ],

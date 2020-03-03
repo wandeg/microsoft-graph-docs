@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create androidDeviceComplianceLocalActionLockDevice
 
+Namespace: microsoft.graph
+
 Create a new [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLoc
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidDeviceComplianceLocalActionLockDevice object.
+In the request body, supply a JSON representation for the [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md) object.
 
-The following table shows the properties that are required when you create the androidDeviceComplianceLocalActionLockDevice.
+The following table shows the properties that are required when you create the [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androidDeviceComplianceLocalActionBase.md)|
+|gracePeriodInMinutes|Int32|Number of minutes to wait till a local action is enforced. Valid values 0 to 2147483647 Inherited from [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md)|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
 Content-type: application/json
 Content-length: 116
 
@@ -85,7 +87,7 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionLockDevice",
-  "id": "190e540a-540a-190e-0a54-0e190a540e19",
+  "id": "4466e6e0-e6e0-4466-e0e6-6644e0e66644",
   "gracePeriodInMinutes": 4
 }
 ```

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update applicationSignInDetailedSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummar
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [applicationSignInDetailedSummary](../resources/applicationSignInDetailedSummary.md) object.
+In the request body, supply a JSON representation for the [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.
 
 The following table shows the properties that are required when you create the [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |appId|String||
 |appDisplayName|String||
-|status|[signInStatus](../resources/signInStatus.md)||
+|status|[signInStatus](../resources/signinstatus.md)||
 |signInCount|Int64||
 |aggregatedEventDateTime|DateTimeOffset||
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummaryId}
+PATCH https://graph.microsoft.com/localtest/reports/applicationSignInDetailedSummary/{applicationSignInDetailedSummaryId}
 Content-type: application/json
 Content-length: 431
 
@@ -78,7 +80,7 @@ Content-length: 431
     "additionalDetails": "Additional Details value"
   },
   "signInCount": 11,
-  "aggregatedEventDateTime": "2017-01-01T00:00:09.4341724+03:00"
+  "aggregatedEventDateTime": "2017-01-01T00:01:04.3937333+03:00"
 }
 ```
 
@@ -96,7 +98,7 @@ Content-Length: 480
 
 {
   "@odata.type": "#microsoft.graph.applicationSignInDetailedSummary",
-  "id": "a02e661e-661e-a02e-1e66-2ea01e662ea0",
+  "id": "2d7be85e-e85e-2d7b-5ee8-7b2d5ee87b2d",
   "appId": "App Id value",
   "appDisplayName": "App Display Name value",
   "status": {
@@ -106,7 +108,7 @@ Content-Length: 480
     "additionalDetails": "Additional Details value"
   },
   "signInCount": 11,
-  "aggregatedEventDateTime": "2017-01-01T00:00:09.4341724+03:00"
+  "aggregatedEventDateTime": "2017-01-01T00:01:04.3937333+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update officeGraphInsights
 
+Namespace: microsoft.graph
+
 Update the properties of a [officeGraphInsights](../resources/officegraphinsights.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/insights
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [officeGraphInsights](../resources/officeGraphInsights.md) object.
+In the request body, supply a JSON representation for the [officeGraphInsights](../resources/officegraphinsights.md) object.
 
 The following table shows the properties that are required when you create the [officeGraphInsights](../resources/officegraphinsights.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/insights
+PATCH https://graph.microsoft.com/localtest/me/insights
 Content-type: application/json
 Content-length: 61
 
@@ -82,7 +84,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.officeGraphInsights",
-  "id": "1e7a7cde-7cde-1e7a-de7c-7a1ede7c7a1e"
+  "id": "1c7b5d24-5d24-1c7b-245d-7b1c245d7b1c"
 }
 ```
 

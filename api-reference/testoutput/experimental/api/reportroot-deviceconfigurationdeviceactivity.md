@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # deviceConfigurationDeviceActivity
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/deviceConfigurationDeviceActivity
+GET https://graph.microsoft.com/localtest/reports/deviceConfigurationDeviceActivity
 ```
 
 ### Response

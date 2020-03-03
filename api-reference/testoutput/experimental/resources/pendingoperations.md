@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # pendingOperations resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|pendingContentUpdate|[pendingContentUpdate](../resources/pendingContentUpdate.md)||
+|pendingContentUpdate|[pendingContentUpdate](../resources/pendingcontentupdate.md)||
 
 ## Relationships
 None

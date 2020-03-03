@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onlineMeeting
 
+Namespace: microsoft.graph
+
 Update the properties of a [onlineMeeting](../resources/onlinemeeting.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /users/{usersId}/onlineMeetings/{onlineMeetingId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onlineMeeting](../resources/onlineMeeting.md) object.
+In the request body, supply a JSON representation for the [onlineMeeting](../resources/onlinemeeting.md) object.
 
 The following table shows the properties that are required when you create the [onlineMeeting](../resources/onlinemeeting.md).
 
@@ -54,12 +56,12 @@ The following table shows the properties that are required when you create the [
 |joinUrl|String||
 |subject|String||
 |isCancelled|Boolean||
-|participants|[meetingParticipants](../resources/meetingParticipants.md)||
+|participants|[meetingParticipants](../resources/meetingparticipants.md)||
 |isBroadcast|Boolean||
 |accessLevel|Enumeration|. Possible values are: `everyone`, `invited`, `locked`, `sameEnterprise`, `sameEnterpriseAndFederated`.|
 |capabilities|Enumeration collection|. Possible values are: `questionAndAnswer`, `unknownFutureValue`.|
-|audioConferencing|[audioConferencing](../resources/audioConferencing.md)||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
+|audioConferencing|[audioConferencing](../resources/audioconferencing.md)||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
 |videoTeleconferenceId|String||
 
 
@@ -77,17 +79,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/onlineMeetings/{onlineMeetingId}
+PATCH https://graph.microsoft.com/localtest/me/onlineMeetings/{onlineMeetingId}
 Content-type: application/json
-Content-length: 2075
+Content-length: 2077
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-  "canceledDateTime": "2016-12-31T23:59:04.935877+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "canceledDateTime": "2017-01-01T00:00:00.8251655+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "entryExitAnnouncement": true,
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
@@ -160,16 +162,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2124
+Content-Length: 2126
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "96cd02c9-02c9-96cd-c902-cd96c902cd96",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-  "canceledDateTime": "2016-12-31T23:59:04.935877+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "id": "df6965b5-65b5-df69-b565-69dfb56569df",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "canceledDateTime": "2017-01-01T00:00:00.8251655+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "entryExitAnnouncement": true,
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",

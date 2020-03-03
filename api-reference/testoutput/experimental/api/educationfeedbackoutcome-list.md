@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List educationFeedbackOutcomes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [educationFeedbackOutcome](../resources/educationfeedbackoutcome.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationFeedbackOutcome not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationFeedbackOutcome not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1171
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationFeedbackOutcome",
-      "id": "229ad521-d521-229a-21d5-9a2221d59a22",
+      "id": "70150078-0078-7015-7800-157078001570",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -85,7 +87,7 @@ Content-Length: 1171
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "feedback": {
         "@odata.type": "microsoft.graph.educationFeedback",
         "text": {
@@ -93,7 +95,7 @@ Content-Length: 1171
           "contentType": "String",
           "content": "Content value"
         },
-        "feedbackDateTime": "2017-01-01T00:01:35.5643881+03:00",
+        "feedbackDateTime": "2016-12-31T23:59:51.6026372+03:00",
         "feedbackBy": {
           "@odata.type": "microsoft.graph.identitySet"
         }

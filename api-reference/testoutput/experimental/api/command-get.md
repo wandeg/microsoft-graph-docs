@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get command
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [command](../resources/command.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/commands/{commandsId}
+GET https://graph.microsoft.com/localtest/commands/{commandsId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 488
 {
   "value": {
     "@odata.type": "#microsoft.graph.command",
-    "id": "4b16bcad-bcad-4b16-adbc-164badbc164b",
+    "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
     "Status": "Status value",
     "Type": "Type value",
     "AppServiceName": "App Service Name value",

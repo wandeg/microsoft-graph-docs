@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List items
 
+Namespace: microsoft.graph
+
 Get the items from the items navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/items
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/items
 ```
 
 ### Response
@@ -70,22 +72,22 @@ Content-Length: 774
   "value": [
     {
       "@odata.type": "#microsoft.graph.item",
-      "id": "d3ffc7fa-c7fa-d3ff-fac7-ffd3fac7ffd3",
+      "id": "18a35fd7-5fd7-18a3-d75f-a318d75fa318",
       "number": "Number value",
       "displayName": "Display Name value",
       "type": "Type value",
-      "itemCategoryId": "eb76f59a-f59a-eb76-9af5-76eb9af576eb",
+      "itemCategoryId": "f6c1027d-027d-f6c1-7d02-c1f67d02c1f6",
       "itemCategoryCode": "Item Category Code value",
       "blocked": true,
-      "baseUnitOfMeasureId": "27880a8d-0a8d-2788-8d0a-88278d0a8827",
+      "baseUnitOfMeasureId": "33eceb10-eb10-33ec-10eb-ec3310ebec33",
       "gtin": "Gtin value",
       "inventory": "4.2",
       "unitPrice": "4.2",
       "priceIncludesTax": true,
       "unitCost": "4.2",
-      "taxGroupId": "61b5c465-c465-61b5-65c4-b56165c4b561",
+      "taxGroupId": "d4a99fdf-9fdf-d4a9-df9f-a9d4df9fa9d4",
       "taxGroupCode": "Tax Group Code value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

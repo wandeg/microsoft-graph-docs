@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contacts
 
+Namespace: microsoft.graph
+
 Add contacts by posting to the contacts collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /me/contactFolders/{contactFolderId}/contacts/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the contact object.
+In the request body, supply a JSON representation for the [contact](../resources/contact.md) object.
 
-The following table shows the properties that are required when you create the contact.
+The following table shows the properties that are required when you create the [contact](../resources/contact.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |parentFolderId|String||
 |birthday|DateTimeOffset||
 |fileAs|String||
@@ -61,7 +63,7 @@ The following table shows the properties that are required when you create the c
 |yomiSurname|String||
 |yomiCompanyName|String||
 |generation|String||
-|emailAddresses|[typedEmailAddress](../resources/typedEmailAddress.md) collection||
+|emailAddresses|[typedEmailAddress](../resources/typedemailaddress.md) collection||
 |websites|[website](../resources/website.md) collection||
 |imAddresses|String collection||
 |jobTitle|String||
@@ -72,14 +74,14 @@ The following table shows the properties that are required when you create the c
 |assistantName|String||
 |manager|String||
 |phones|[phone](../resources/phone.md) collection||
-|postalAddresses|[physicalAddress](../resources/physicalAddress.md) collection||
+|postalAddresses|[physicalAddress](../resources/physicaladdress.md) collection||
 |spouseName|String||
 |personalNotes|String||
 |children|String collection||
 |weddingAnniversary|Date||
 |gender|String||
 |isFavorite|Boolean||
-|flag|[followupFlag](../resources/followupFlag.md)||
+|flag|[followupFlag](../resources/followupflag.md)||
 
 
 
@@ -96,7 +98,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/contactFolders/{contactFolderId}/contacts
+POST https://graph.microsoft.com/localtest/me/contactFolders/{contactFolderId}/contacts
 Content-type: application/json
 Content-length: 2493
 
@@ -107,7 +109,7 @@ Content-length: 2493
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2017-01-01T00:03:13.7306563+03:00",
+  "birthday": "2017-01-01T00:01:02.2766982+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
@@ -201,19 +203,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2665
+Content-Length: 2664
 
 {
   "@odata.type": "#microsoft.graph.contact",
-  "id": "0bad941c-941c-0bad-1c94-ad0b1c94ad0b",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "99b4e22a-e22a-99b4-2ae2-b4992ae2b499",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2017-01-01T00:03:13.7306563+03:00",
+  "birthday": "2017-01-01T00:01:02.2766982+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",

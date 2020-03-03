@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update person
 
+Namespace: microsoft.graph
+
 Update the properties of a [person](../resources/person.md) object.
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the [
 |birthday|String||
 |personNotes|String||
 |isFavorite|Boolean||
-|emailAddresses|[rankedEmailAddress](../resources/rankedEmailAddress.md) collection||
+|emailAddresses|[rankedEmailAddress](../resources/rankedemailaddress.md) collection||
 |phones|[phone](../resources/phone.md) collection||
 |postalAddresses|[location](../resources/location.md) collection||
 |websites|[website](../resources/website.md) collection||
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the [
 |department|String||
 |officeLocation|String||
 |profession|String||
-|sources|[personDataSource](../resources/personDataSource.md) collection||
+|sources|[personDataSource](../resources/persondatasource.md) collection||
 |mailboxType|String||
 |personType|String||
 |userPrincipalName|String||
@@ -79,7 +81,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/people/{personId}
+PATCH https://graph.microsoft.com/localtest/me/people/{personId}
 Content-type: application/json
 Content-length: 2072
 
@@ -171,7 +173,7 @@ Content-Length: 2121
 
 {
   "@odata.type": "#microsoft.graph.person",
-  "id": "76e89a88-9a88-76e8-889a-e876889ae876",
+  "id": "28bbef2d-ef2d-28bb-2def-bb282defbb28",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
   "surname": "Surname value",

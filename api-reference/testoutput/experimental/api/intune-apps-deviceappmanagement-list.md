@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceAppManagements
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceAppManagement](../resources/deviceappmanagement.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceAppManagement not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceAppManagement not found
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 561
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceAppManagement",
-      "id": "cd57745c-745c-cd57-5c74-57cd5c7457cd",
-      "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:28.4643829+03:00",
+      "id": "343b45a8-45a8-343b-a845-3b34a8453b34",
+      "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:48.1203972+03:00",
       "isEnabledForMicrosoftStoreForBusiness": true,
       "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-      "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:57:14.9790392+03:00",
+      "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:51.8779493+03:00",
       "microsoftStoreForBusinessPortalSelection": "String"
     }
   ]

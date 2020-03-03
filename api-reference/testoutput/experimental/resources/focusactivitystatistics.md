@@ -5,35 +5,36 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # focusActivityStatistics resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [activityStatistics](../resources/activityStatistics.md)
+
+
+Inherits from [activityStatistics](../resources/activitystatistics.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List focusActivityStatisticses](../api/focusactivitystatistics-list.md)|[focusActivityStatistics](../resources/focusActivityStatistics.md) collection|List properties and relationships of the [focusActivityStatistics](../resources/focusactivitystatistics.md) objects.|
-|[Get focusActivityStatistics](../api/focusactivitystatistics-get.md)|[focusActivityStatistics](../resources/focusActivityStatistics.md)|Read properties and relationships of the [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
-|[Create focusActivityStatistics](../api/focusactivitystatistics-create.md)|[focusActivityStatistics](../resources/focusActivityStatistics.md)|Create a new [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
+|[List focusActivityStatisticses](../api/focusactivitystatistics-list.md)|[focusActivityStatistics](../resources/focusactivitystatistics.md) collection|List properties and relationships of the [focusActivityStatistics](../resources/focusactivitystatistics.md) objects.|
+|[Get focusActivityStatistics](../api/focusactivitystatistics-get.md)|[focusActivityStatistics](../resources/focusactivitystatistics.md)|Read properties and relationships of the [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
+|[Create focusActivityStatistics](../api/focusactivitystatistics-create.md)|[focusActivityStatistics](../resources/focusactivitystatistics.md)|Create a new [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
 |[Delete focusActivityStatistics](../api/focusactivitystatistics-delete.md)|None|Deletes a [focusActivityStatistics](../resources/focusactivitystatistics.md).|
-|[Update focusActivityStatistics](../api/focusactivitystatistics-update.md)|[focusActivityStatistics](../resources/focusActivityStatistics.md)|Update the properties of a [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
+|[Update focusActivityStatistics](../api/focusactivitystatistics-update.md)|[focusActivityStatistics](../resources/focusactivitystatistics.md)|Update the properties of a [focusActivityStatistics](../resources/focusactivitystatistics.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|activity|Enumeration| Inherited from [activityStatistics](../resources/activityStatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|duration|Duration| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|endDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|activity|Enumeration| Inherited from [activityStatistics](../resources/activitystatistics.md). Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|duration|Duration| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|endDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|startDate|Date| Inherited from [activityStatistics](../resources/activityStatistics.md)|
-|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activityStatistics.md)|
+|startDate|Date| Inherited from [activityStatistics](../resources/activitystatistics.md)|
+|timeZoneUsed|String| Inherited from [activityStatistics](../resources/activitystatistics.md)|
 
 ## Relationships
 None

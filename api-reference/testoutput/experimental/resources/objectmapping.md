@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # objectMapping resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attributeMappings|[attributeMapping](../resources/attributeMapping.md) collection||
+|attributeMappings|[attributeMapping](../resources/attributemapping.md) collection||
 |enabled|Boolean||
 |flowTypes|Enumeration|. Possible values are: `None`, `Add`, `Update`, `Delete`.|
-|metadata|[metadataEntry](../resources/metadataEntry.md) collection||
+|metadata|[metadataEntry](../resources/metadataentry.md) collection||
 |name|String||
 |scope|[filter](../resources/filter.md)||
 |sourceObjectName|String||

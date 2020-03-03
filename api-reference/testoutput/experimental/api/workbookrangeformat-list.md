@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookRangeFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookRangeFormat](../resources/workbookrangeformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 354
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookRangeFormat",
-      "id": "636846af-46af-6368-af46-6863af466863",
+      "id": "ce2c6c73-6c73-ce2c-736c-2cce736c2cce",
       "columnWidth": "Double",
       "horizontalAlignment": "Horizontal Alignment value",
       "rowHeight": "Double",

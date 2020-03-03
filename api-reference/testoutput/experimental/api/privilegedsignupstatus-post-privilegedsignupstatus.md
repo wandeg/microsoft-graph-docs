@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create privilegedSignupStatus
 
+Namespace: microsoft.graph
+
 Create a new [privilegedSignupStatus](../resources/privilegedsignupstatus.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedSignupStatus
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the privilegedSignupStatus object.
+In the request body, supply a JSON representation for the [privilegedSignupStatus](../resources/privilegedsignupstatus.md) object.
 
-The following table shows the properties that are required when you create the privilegedSignupStatus.
+The following table shows the properties that are required when you create the [privilegedSignupStatus](../resources/privilegedsignupstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedSignupStatus
+POST https://graph.microsoft.com/localtest/privilegedSignupStatus
 Content-type: application/json
 Content-length: 112
 
@@ -87,7 +89,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.privilegedSignupStatus",
-  "id": "77064065-4065-7706-6540-067765400677",
+  "id": "8162e90b-e90b-8162-0be9-62810be96281",
   "isRegistered": true,
   "status": "String"
 }

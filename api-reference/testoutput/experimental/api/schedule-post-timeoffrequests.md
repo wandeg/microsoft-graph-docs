@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add timeOffRequests
 
+Namespace: microsoft.graph
+
 Add timeOffRequests by posting to the timeOffRequests collection.
 
 ## Permissions
@@ -36,24 +38,24 @@ POST /me/joinedGroups/{groupId}/team/schedule/timeOffRequests/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the timeOffRequest object.
+In the request body, supply a JSON representation for the [timeOffRequest](../resources/timeoffrequest.md) object.
 
-The following table shows the properties that are required when you create the timeOffRequest.
+The following table shows the properties that are required when you create the [timeOffRequest](../resources/timeoffrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
-|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
-|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
-|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/scheduleChangeRequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|assignedTo|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `sender`, `recipient`, `manager`, `system`, `unknownFutureValue`.|
+|state|Enumeration| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md). Possible values are: `pending`, `approved`, `declined`, `unknownFutureValue`.|
+|senderMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|senderDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerActionMessage|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerActionDateTime|DateTimeOffset| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|senderUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
+|managerUserId|String| Inherited from [scheduleChangeRequest](../resources/schedulechangerequest.md)|
 |startDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
 |timeOffReasonId|String||
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/timeOffRequests
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/timeOffRequests
 Content-type: application/json
 Content-length: 581
 
@@ -82,13 +84,13 @@ Content-length: 581
   "assignedTo": "String",
   "state": "String",
   "senderMessage": "Sender Message value",
-  "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+  "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
   "managerActionMessage": "Manager Action Message value",
-  "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+  "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
   "senderUserId": "Sender User Id value",
   "managerUserId": "Manager User Id value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "timeOffReasonId": "Time Off Reason Id value"
 }
 ```
@@ -104,13 +106,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1126
+Content-Length: 1125
 
 {
   "@odata.type": "#microsoft.graph.timeOffRequest",
-  "id": "2ecb49a3-49a3-2ecb-a349-cb2ea349cb2e",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "cfb17b22-7b22-cfb1-227b-b1cf227bb1cf",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -128,13 +130,13 @@ Content-Length: 1126
   "assignedTo": "String",
   "state": "String",
   "senderMessage": "Sender Message value",
-  "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+  "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
   "managerActionMessage": "Manager Action Message value",
-  "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+  "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
   "senderUserId": "Sender User Id value",
   "managerUserId": "Manager User Id value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "timeOffReasonId": "Time Off Reason Id value"
 }
 ```

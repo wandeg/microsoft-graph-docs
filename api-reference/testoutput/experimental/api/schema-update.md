@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update schema
 
+Namespace: microsoft.graph
+
 Update the properties of a [schema](../resources/schema.md) object.
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/connections/{connectionsId}/schema
+PATCH https://graph.microsoft.com/localtest/connections/{connectionsId}/schema
 Content-type: application/json
 Content-length: 311
 
@@ -95,7 +97,7 @@ Content-Length: 360
 
 {
   "@odata.type": "#microsoft.graph.schema",
-  "id": "cf2d9a22-9a22-cf2d-229a-2dcf229a2dcf",
+  "id": "22a09afe-9afe-22a0-fe9a-a022fe9aa022",
   "baseType": "Base Type value",
   "properties": [
     {

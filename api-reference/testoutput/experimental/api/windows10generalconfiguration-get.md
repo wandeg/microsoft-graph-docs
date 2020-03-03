@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windows10GeneralConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10GeneralConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10GeneralConfiguration not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 15583
+Content-Length: 15582
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-    "id": "9719236b-236b-9719-6b23-19976b231997",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "63df1017-1017-63df-1710-df631710df63",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,7 +97,7 @@ Content-Length: 15583
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,
@@ -112,7 +114,7 @@ Content-Length: 15583
     "powerHybridSleepPluggedIn": "String",
     "windows10AppsForceUpdateSchedule": {
       "@odata.type": "microsoft.graph.windows10AppsForceUpdateSchedule",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
       "recurrence": "String",
       "runImmediatelyIfAfterStartDateTime": true
     },
@@ -255,8 +257,8 @@ Content-Length: 15583
     "defenderScanScriptsLoadedInInternetExplorer": true,
     "defenderSignatureUpdateIntervalInHours": 6,
     "defenderScanType": "String",
-    "defenderScheduledScanTime": "12:02:28.3360000",
-    "defenderScheduledQuickScanTime": "11:59:25.1810000",
+    "defenderScheduledScanTime": "12:01:04.6330000",
+    "defenderScheduledQuickScanTime": "12:02:45.2150000",
     "defenderCloudBlockLevel": "String",
     "defenderCloudExtendedTimeout": 12,
     "defenderCloudExtendedTimeoutInSeconds": 5,

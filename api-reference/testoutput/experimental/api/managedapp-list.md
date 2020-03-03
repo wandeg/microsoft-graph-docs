@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [managedApp](../resources/managedapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1081
+Content-Length: 1080
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedApp",
-      "id": "766de9d5-e9d5-766d-d5e9-6d76d5e96d76",
+      "id": "4dbf5a40-5a40-4dbf-405a-bf4d405abf4d",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1081
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

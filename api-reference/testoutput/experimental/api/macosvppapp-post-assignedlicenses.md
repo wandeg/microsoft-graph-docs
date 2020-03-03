@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignedLicenses
 
+Namespace: microsoft.graph
+
 Add assignedLicenses by posting to the assignedLicenses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/a
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the macOsVppAppAssignedLicense object.
+In the request body, supply a JSON representation for the [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md) object.
 
-The following table shows the properties that are required when you create the macOsVppAppAssignedLicense.
+The following table shows the properties that are required when you create the [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [macOsVppAppAssignedLicense](../resources/macosvppappassignedlicense.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses
 Content-type: application/json
 Content-length: 236
 
@@ -91,7 +93,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.macOsVppAppAssignedLicense",
-  "id": "52a88d27-8d27-52a8-278d-a852278da852",
+  "id": "245232b3-32b3-2452-b332-5224b3325224",
   "userEmailAddress": "User Email Address value",
   "userId": "User Id value",
   "userName": "User Name value",

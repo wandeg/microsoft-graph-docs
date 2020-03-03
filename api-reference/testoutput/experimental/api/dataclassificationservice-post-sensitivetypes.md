@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add sensitiveTypes
 
+Namespace: microsoft.graph
+
 Add sensitiveTypes by posting to the sensitiveTypes collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/sensitiveTypes/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sensitiveType object.
+In the request body, supply a JSON representation for the [sensitiveType](../resources/sensitivetype.md) object.
 
-The following table shows the properties that are required when you create the sensitiveType.
+The following table shows the properties that are required when you create the [sensitiveType](../resources/sensitivetype.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/sensitiveTypes
+POST https://graph.microsoft.com/localtest/dataClassification/sensitiveTypes
 Content-type: application/json
 Content-length: 306
 
@@ -97,7 +99,7 @@ Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.sensitiveType",
-  "id": "3c8ed259-d259-3c8e-59d2-8e3c59d28e3c",
+  "id": "c2d268be-68be-c2d2-be68-d2c2be68d2c2",
   "name": "Name value",
   "description": "Description value",
   "rulePackageId": "Rule Package Id value",

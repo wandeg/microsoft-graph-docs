@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete swapShiftsChangeRequest
 
+Namespace: microsoft.graph
+
 Deletes a [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequestId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/swapShiftsChangeRequests/{swapShiftsChangeRequestId}
 ```
 
 ### Response

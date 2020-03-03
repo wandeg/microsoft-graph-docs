@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get appleEnrollmentProfileAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [appleEnrollmentProfileAssignment](../resources/appleenrollmentprofileassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/appleUserInitiatedEnrollmentProfiles/{appleUserInitiatedEnrollmentProfileId}/assignments/{appleEnrollmentProfileAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 250
 {
   "value": {
     "@odata.type": "#microsoft.graph.appleEnrollmentProfileAssignment",
-    "id": "50c95a49-5a49-50c9-495a-c950495ac950",
+    "id": "c52ec797-c797-c52e-97c7-2ec597c72ec5",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

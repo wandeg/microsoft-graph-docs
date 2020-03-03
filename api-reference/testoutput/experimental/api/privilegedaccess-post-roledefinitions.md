@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add roleDefinitions
 
+Namespace: microsoft.graph
+
 Add roleDefinitions by posting to the roleDefinitions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedAccess/{privilegedAccessId}/roleDefinitions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the governanceRoleDefinition object.
+In the request body, supply a JSON representation for the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.
 
-The following table shows the properties that are required when you create the governanceRoleDefinition.
+The following table shows the properties that are required when you create the [governanceRoleDefinition](../resources/governanceroledefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/roleDefinitions
+POST https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/roleDefinitions
 Content-type: application/json
 Content-length: 220
 
@@ -91,7 +93,7 @@ Content-Length: 269
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleDefinition",
-  "id": "060f2ae1-2ae1-060f-e12a-0f06e12a0f06",
+  "id": "844a2f55-2f55-844a-552f-4a84552f4a84",
   "resourceId": "Resource Id value",
   "externalId": "External Id value",
   "templateId": "Template Id value",

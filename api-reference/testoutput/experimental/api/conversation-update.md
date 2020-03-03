@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update conversation
 
+Namespace: microsoft.graph
+
 Update the properties of a [conversation](../resources/conversation.md) object.
 
 ## Permissions
@@ -64,15 +66,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groups/{groupsId}/conversations/{conversationId}
+PATCH https://graph.microsoft.com/localtest/groups/{groupsId}/conversations/{conversationId}
 Content-type: application/json
-Content-length: 259
+Content-length: 257
 
 {
   "@odata.type": "#microsoft.graph.conversation",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -90,14 +92,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 308
+Content-Length: 306
 
 {
   "@odata.type": "#microsoft.graph.conversation",
-  "id": "458e3e31-3e31-458e-313e-8e45313e8e45",
+  "id": "aa124df4-4df4-aa12-f44d-12aaf44d12aa",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

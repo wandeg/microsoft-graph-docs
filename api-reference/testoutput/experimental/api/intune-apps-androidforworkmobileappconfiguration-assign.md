@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[managedDeviceMobileAppConfigurationAssignment](../resources/intune-apps-managedDeviceMobileAppConfigurationAssignment.md) collection||
+|assignments|[managedDeviceMobileAppConfigurationAssignment](../resources/intune-apps-manageddevicemobileappconfigurationassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidForWorkMobileAppConfiguration not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidForWorkMobileAppConfiguration not found/assign
 
 Content-type: application/json
 Content-length: 293
@@ -68,7 +70,7 @@ Content-length: 293
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationAssignment",
-      "id": "c59543f5-43f5-c595-f543-95c5f54395c5",
+      "id": "f0b66038-6038-f0b6-3860-b6f03860b6f0",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

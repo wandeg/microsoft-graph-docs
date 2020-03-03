@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get allowedDataLocation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [allowedDataLocation](../resources/alloweddatalocation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/allowedDataLocations/{allowedDataLocationsId}
+GET https://graph.microsoft.com/localtest/allowedDataLocations/{allowedDataLocationsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 253
 {
   "value": {
     "@odata.type": "#microsoft.graph.allowedDataLocation",
-    "id": "37f5a920-a920-37f5-20a9-f53720a9f537",
+    "id": "979cc821-c821-979c-21c8-9c9721c89c97",
     "appId": "App Id value",
     "location": "Location value",
     "isDefault": true,

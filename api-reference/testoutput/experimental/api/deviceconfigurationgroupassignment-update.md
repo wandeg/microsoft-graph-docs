@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationGroupAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object.
 
 ## Permissions
@@ -44,7 +46,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.g
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationGroupAssignment](../resources/deviceConfigurationGroupAssignment.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments/{deviceConfigurationGroupAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments/{deviceConfigurationGroupAssignmentId}
 Content-type: application/json
 Content-length: 146
 
@@ -94,7 +96,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-  "id": "346c266c-266c-346c-6c26-6c346c266c34",
+  "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
   "targetGroupId": "Target Group Id value",
   "excludeGroup": true
 }

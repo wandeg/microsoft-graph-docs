@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get bookingCustomer
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [bookingCustomer](../resources/bookingcustomer.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/customers/{bookingCustomerId}
+GET https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/customers/{bookingCustomerId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 215
 {
   "value": {
     "@odata.type": "#microsoft.graph.bookingCustomer",
-    "id": "f6984ead-4ead-f698-ad4e-98f6ad4e98f6",
+    "id": "626ab662-b662-626a-62b6-6a6262b66a62",
     "displayName": "Display Name value",
     "emailAddress": "Email Address value"
   }

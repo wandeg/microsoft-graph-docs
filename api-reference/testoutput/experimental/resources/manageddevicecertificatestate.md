@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDeviceCertificateState resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedDeviceCertificateState](../api/manageddevicecertificatestate-get.md)|[managedDeviceCertificateState](../resources/managedDeviceCertificateState.md)|Read properties and relationships of the [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.|
+|[List managedDeviceCertificateStates](../api/manageddevicecertificatestate-list.md)|[managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) collection|List properties and relationships of the [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) objects.|
+|[Get managedDeviceCertificateState](../api/manageddevicecertificatestate-get.md)|[managedDeviceCertificateState](../resources/manageddevicecertificatestate.md)|Read properties and relationships of the [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.|
+|[Create managedDeviceCertificateState](../api/manageddevicecertificatestate-create.md)|[managedDeviceCertificateState](../resources/manageddevicecertificatestate.md)|Create a new [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.|
 |[Delete managedDeviceCertificateState](../api/manageddevicecertificatestate-delete.md)|None|Deletes a [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md).|
-|[Update managedDeviceCertificateState](../api/manageddevicecertificatestate-update.md)|[managedDeviceCertificateState](../resources/managedDeviceCertificateState.md)|Update the properties of a [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.|
+|[Update managedDeviceCertificateState](../api/manageddevicecertificatestate-update.md)|[managedDeviceCertificateState](../resources/manageddevicecertificatestate.md)|Update the properties of a [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.|
 
 ## Properties
 |Property|Type|Description|

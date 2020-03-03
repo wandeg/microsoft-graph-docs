@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create invitation
 
+Namespace: microsoft.graph
+
 Create a new [invitation](../resources/invitation.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /invitations
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the invitation object.
+In the request body, supply a JSON representation for the [invitation](../resources/invitation.md) object.
 
-The following table shows the properties that are required when you create the invitation.
+The following table shows the properties that are required when you create the [invitation](../resources/invitation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the i
 |invitedUserDisplayName|String||
 |invitedUserType|String||
 |invitedUserEmailAddress|String||
-|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedUserMessageInfo.md)||
+|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedusermessageinfo.md)||
 |sendInvitationMessage|Boolean||
 |inviteRedirectUrl|String||
 |inviteRedeemUrl|String||
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/invitations
+POST https://graph.microsoft.com/localtest/invitations
 Content-type: application/json
 Content-length: 930
 
@@ -115,7 +117,7 @@ Content-Length: 979
 
 {
   "@odata.type": "#microsoft.graph.invitation",
-  "id": "71be8c14-8c14-71be-148c-be71148cbe71",
+  "id": "e40a4257-4257-e40a-5742-0ae457420ae4",
   "invitedUserDisplayName": "Invited User Display Name value",
   "invitedUserType": "Invited User Type value",
   "invitedUserEmailAddress": "Invited User Email Address value",

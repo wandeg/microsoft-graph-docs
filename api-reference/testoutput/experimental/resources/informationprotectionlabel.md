@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # informationProtectionLabel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,13 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get informationProtectionLabel](../api/informationprotectionlabel-get.md)|[informationProtectionLabel](../resources/informationProtectionLabel.md)|Read properties and relationships of the [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
+|[List informationProtectionLabels](../api/informationprotectionlabel-list.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md) collection|List properties and relationships of the [informationProtectionLabel](../resources/informationprotectionlabel.md) objects.|
+|[Get informationProtectionLabel](../api/informationprotectionlabel-get.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Read properties and relationships of the [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
+|[Create informationProtectionLabel](../api/informationprotectionlabel-create.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Create a new [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
 |[Delete informationProtectionLabel](../api/informationprotectionlabel-delete.md)|None|Deletes a [informationProtectionLabel](../resources/informationprotectionlabel.md).|
-|[Update informationProtectionLabel](../api/informationprotectionlabel-update.md)|[informationProtectionLabel](../resources/informationProtectionLabel.md)|Update the properties of a [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
-|[extractLabel](../api/informationprotectionlabel-extractlabel.md)|[informationProtectionContentLabel](../resources/informationProtectionContentLabel.md)||
-|[evaluateApplication](../api/informationprotectionlabel-evaluateapplication.md)|[informationProtectionAction](../resources/informationProtectionAction.md) collection||
-|[evaluateRemoval](../api/informationprotectionlabel-evaluateremoval.md)|[informationProtectionAction](../resources/informationProtectionAction.md) collection||
-|[evaluateClassificationResults](../api/informationprotectionlabel-evaluateclassificationresults.md)|[informationProtectionAction](../resources/informationProtectionAction.md) collection||
+|[Update informationProtectionLabel](../api/informationprotectionlabel-update.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Update the properties of a [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
+|[extractLabel](../api/informationprotectionlabel-extractlabel.md)|[informationProtectionContentLabel](../resources/informationprotectioncontentlabel.md)||
+|[evaluateApplication](../api/informationprotectionlabel-evaluateapplication.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
+|[evaluateRemoval](../api/informationprotectionlabel-evaluateremoval.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
+|[evaluateClassificationResults](../api/informationprotectionlabel-evaluateclassificationresults.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
 
 ## Properties
 |Property|Type|Description|

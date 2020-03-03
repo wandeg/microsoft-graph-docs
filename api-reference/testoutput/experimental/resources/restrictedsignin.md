@@ -5,67 +5,68 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # restrictedSignIn resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [signIn](../resources/signIn.md)
+
+
+Inherits from [signIn](../resources/signin.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List restrictedSignIns](../api/restrictedsignin-list.md)|[restrictedSignIn](../resources/restrictedSignIn.md) collection|List properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) objects.|
-|[Get restrictedSignIn](../api/restrictedsignin-get.md)|[restrictedSignIn](../resources/restrictedSignIn.md)|Read properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) object.|
-|[Create restrictedSignIn](../api/restrictedsignin-create.md)|[restrictedSignIn](../resources/restrictedSignIn.md)|Create a new [restrictedSignIn](../resources/restrictedsignin.md) object.|
+|[List restrictedSignIns](../api/restrictedsignin-list.md)|[restrictedSignIn](../resources/restrictedsignin.md) collection|List properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) objects.|
+|[Get restrictedSignIn](../api/restrictedsignin-get.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Read properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) object.|
+|[Create restrictedSignIn](../api/restrictedsignin-create.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Create a new [restrictedSignIn](../resources/restrictedsignin.md) object.|
 |[Delete restrictedSignIn](../api/restrictedsignin-delete.md)|None|Deletes a [restrictedSignIn](../resources/restrictedsignin.md).|
-|[Update restrictedSignIn](../api/restrictedsignin-update.md)|[restrictedSignIn](../resources/restrictedSignIn.md)|Update the properties of a [restrictedSignIn](../resources/restrictedsignin.md) object.|
+|[Update restrictedSignIn](../api/restrictedsignin-update.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Update the properties of a [restrictedSignIn](../resources/restrictedsignin.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|alternateSignInName|String| Inherited from [signIn](../resources/signIn.md)|
-|appDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|appId|String| Inherited from [signIn](../resources/signIn.md)|
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationDetails|[authenticationDetail](../resources/authenticationDetail.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationMethodsUsed|String collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationProcessingDetails|[keyValue](../resources/keyValue.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationRequirementPolicy.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|clientAppUsed|String| Inherited from [signIn](../resources/signIn.md)|
-|conditionalAccessStatus|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
-|correlationId|String| Inherited from [signIn](../resources/signIn.md)|
-|createdDateTime|DateTimeOffset| Inherited from [signIn](../resources/signIn.md)|
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)| Inherited from [signIn](../resources/signIn.md)|
+|alternateSignInName|String| Inherited from [signIn](../resources/signin.md)|
+|appDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|appId|String| Inherited from [signIn](../resources/signin.md)|
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationDetails|[authenticationDetail](../resources/authenticationdetail.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationMethodsUsed|String collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationProcessingDetails|[keyValue](../resources/keyvalue.md) collection| Inherited from [signIn](../resources/signin.md)|
+|authenticationRequirementPolicies|[authenticationRequirementPolicy](../resources/authenticationrequirementpolicy.md) collection| Inherited from [signIn](../resources/signin.md)|
+|clientAppUsed|String| Inherited from [signIn](../resources/signin.md)|
+|conditionalAccessStatus|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
+|correlationId|String| Inherited from [signIn](../resources/signin.md)|
+|createdDateTime|DateTimeOffset| Inherited from [signIn](../resources/signin.md)|
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)| Inherited from [signIn](../resources/signin.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|ipAddress|String| Inherited from [signIn](../resources/signIn.md)|
-|isInteractive|Boolean| Inherited from [signIn](../resources/signIn.md)|
-|location|[signInLocation](../resources/signInLocation.md)| Inherited from [signIn](../resources/signIn.md)|
-|mfaDetail|[mfaDetail](../resources/mfaDetail.md)| Inherited from [signIn](../resources/signIn.md)|
-|networkLocationDetails|[networkLocationDetail](../resources/networkLocationDetail.md) collection| Inherited from [signIn](../resources/signIn.md)|
-|originalRequestId|String| Inherited from [signIn](../resources/signIn.md)|
-|processingTimeInMilliseconds|Int32| Inherited from [signIn](../resources/signIn.md)|
-|resourceDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|resourceId|String| Inherited from [signIn](../resources/signIn.md)|
-|riskDetail|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
-|riskEventTypes|Enumeration collection| Inherited from [signIn](../resources/signIn.md)|
-|riskLevelAggregated|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|riskLevelDuringSignIn|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
-|riskState|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
-|servicePrincipalId|String| Inherited from [signIn](../resources/signIn.md)|
-|servicePrincipalName|String| Inherited from [signIn](../resources/signIn.md)|
-|status|[signInStatus](../resources/signInStatus.md)| Inherited from [signIn](../resources/signIn.md)|
+|ipAddress|String| Inherited from [signIn](../resources/signin.md)|
+|isInteractive|Boolean| Inherited from [signIn](../resources/signin.md)|
+|location|[signInLocation](../resources/signinlocation.md)| Inherited from [signIn](../resources/signin.md)|
+|mfaDetail|[mfaDetail](../resources/mfadetail.md)| Inherited from [signIn](../resources/signin.md)|
+|networkLocationDetails|[networkLocationDetail](../resources/networklocationdetail.md) collection| Inherited from [signIn](../resources/signin.md)|
+|originalRequestId|String| Inherited from [signIn](../resources/signin.md)|
+|processingTimeInMilliseconds|Int32| Inherited from [signIn](../resources/signin.md)|
+|resourceDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|resourceId|String| Inherited from [signIn](../resources/signin.md)|
+|riskDetail|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
+|riskEventTypes|Enumeration collection| Inherited from [signIn](../resources/signin.md)|
+|riskLevelAggregated|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|riskLevelDuringSignIn|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
+|riskState|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
+|servicePrincipalId|String| Inherited from [signIn](../resources/signin.md)|
+|servicePrincipalName|String| Inherited from [signIn](../resources/signin.md)|
+|status|[signInStatus](../resources/signinstatus.md)| Inherited from [signIn](../resources/signin.md)|
 |targetTenantId|Guid||
-|tokenIssuerName|String| Inherited from [signIn](../resources/signIn.md)|
-|tokenIssuerType|Enumeration| Inherited from [signIn](../resources/signIn.md). Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
-|userAgent|String| Inherited from [signIn](../resources/signIn.md)|
-|userDisplayName|String| Inherited from [signIn](../resources/signIn.md)|
-|userId|String| Inherited from [signIn](../resources/signIn.md)|
-|userPrincipalName|String| Inherited from [signIn](../resources/signIn.md)|
+|tokenIssuerName|String| Inherited from [signIn](../resources/signin.md)|
+|tokenIssuerType|Enumeration| Inherited from [signIn](../resources/signin.md). Possible values are: `AzureAD`, `ADFederationServices`, `UnknownFutureValue`.|
+|userAgent|String| Inherited from [signIn](../resources/signin.md)|
+|userDisplayName|String| Inherited from [signIn](../resources/signin.md)|
+|userId|String| Inherited from [signIn](../resources/signin.md)|
+|userPrincipalName|String| Inherited from [signIn](../resources/signin.md)|
 
 ## Relationships
 None

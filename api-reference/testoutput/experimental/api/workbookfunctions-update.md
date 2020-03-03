@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookFunctions
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookFunctions](../resources/workbookfunctions.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookFunctions](../resources/workbookFunctions.md) object.
+In the request body, supply a JSON representation for the [workbookFunctions](../resources/workbookfunctions.md) object.
 
 The following table shows the properties that are required when you create the [workbookFunctions](../resources/workbookfunctions.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/functions
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/functions
 Content-type: application/json
 Content-length: 59
 
@@ -81,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookFunctions",
-  "id": "1cea6953-6953-1cea-5369-ea1c5369ea1c"
+  "id": "f6e76afe-6afe-f6e7-fe6a-e7f6fe6ae7f6"
 }
 ```
 

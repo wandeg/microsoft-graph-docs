@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get eBookInstallSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 320
 {
   "value": {
     "@odata.type": "#microsoft.graph.eBookInstallSummary",
-    "id": "6a30e1b2-e1b2-6a30-b2e1-306ab2e1306a",
+    "id": "45220166-0166-4522-6601-224566012245",
     "installedDeviceCount": 4,
     "failedDeviceCount": 1,
     "notInstalledDeviceCount": 7,

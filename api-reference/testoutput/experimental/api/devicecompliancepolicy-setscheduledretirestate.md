@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # setScheduledRetireState
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/setScheduledRetireState
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/setScheduledRetireState
 
 Content-type: application/json
 Content-length: 88

@@ -5,29 +5,30 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # onenoteEntitySchemaObjectModel resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)
+
+
+Inherits from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenoteEntitySchemaObjectModels](../api/onenoteentityschemaobjectmodel-list.md)|[onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md) collection|List properties and relationships of the [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) objects.|
-|[Get onenoteEntitySchemaObjectModel](../api/onenoteentityschemaobjectmodel-get.md)|[onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|Read properties and relationships of the [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) object.|
+|[List onenoteEntitySchemaObjectModels](../api/onenoteentityschemaobjectmodel-list.md)|[onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) collection|List properties and relationships of the [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) objects.|
+|[Get onenoteEntitySchemaObjectModel](../api/onenoteentityschemaobjectmodel-get.md)|[onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|Read properties and relationships of the [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |createdDateTime|DateTimeOffset||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
 
 ## Relationships
 None

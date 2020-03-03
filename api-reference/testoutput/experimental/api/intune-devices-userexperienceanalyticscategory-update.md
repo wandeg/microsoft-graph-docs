@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userExperienceAnalyticsCategory
 
-Update the properties of a [userExperienceAnalyticsCategory](../resources/userexperienceanalyticscategory.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,19 +37,19 @@ PATCH /deviceManagement/userExperienceAnalyticsCategories/{userExperienceAnalyti
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userExperienceAnalyticsCategory](../resources/userExperienceAnalyticsCategory.md) object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md) object.
 
-The following table shows the properties that are required when you create the [userExperienceAnalyticsCategory](../resources/userexperienceanalyticscategory.md).
+The following table shows the properties that are required when you create the [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userExperienceAnalyticsInsight.md) collection|The insights for the user experience analytics category.|
+|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userexperienceanalyticsinsight.md) collection|The insights for the user experience analytics category.|
 
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsCategory](../resources/userexperienceanalyticscategory.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsCategory](../resources/intune-devices-userexperienceanalyticscategory.md) object in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsCategories/{userExperienceAnalyticsCategoryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsCategories/{userExperienceAnalyticsCategoryId}
 Content-type: application/json
 Content-length: 481
 
@@ -96,7 +98,7 @@ Content-Length: 530
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsCategory",
-  "id": "432ceda3-eda3-432c-a3ed-2c43a3ed2c43",
+  "id": "808eba42-ba42-808e-42ba-8e8042ba8e80",
   "insights": [
     {
       "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

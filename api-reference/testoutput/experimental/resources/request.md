@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # request resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,40 +20,42 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List requests](../api/request-list.md)|[request](../resources/request.md) collection|List properties and relationships of the [request](../resources/request.md) objects.|
 |[Get request](../api/request-get.md)|[request](../resources/request.md)|Read properties and relationships of the [request](../resources/request.md) object.|
+|[Create request](../api/request-create.md)|[request](../resources/request.md)|Create a new [request](../resources/request.md) object.|
 |[Delete request](../api/request-delete.md)|None|Deletes a [request](../resources/request.md).|
 |[Update request](../api/request-update.md)|[request](../resources/request.md)|Update the properties of a [request](../resources/request.md) object.|
 |[stop](../api/request-stop.md)|None||
 |[recordDecisions](../api/request-recorddecisions.md)|None||
-|[List decisions](../api/request-list-decisions.md)|[accessReviewDecision](../resources/accessReviewDecision.md) collection|Get the accessReviewDecisions from the decisions navigation property.|
-|[Add decisions](../api/request-post-decisions.md)|[accessReviewDecision](../resources/accessReviewDecision.md)|Add decisions by posting to the decisions collection.|
-|[List myDecisions](../api/request-list-mydecisions.md)|[accessReviewDecision](../resources/accessReviewDecision.md) collection|Get the accessReviewDecisions from the myDecisions navigation property.|
-|[Add myDecisions](../api/request-post-mydecisions.md)|[accessReviewDecision](../resources/accessReviewDecision.md)|Add myDecisions by posting to the myDecisions collection.|
+|[List decisions](../api/request-list-decisions.md)|[accessReviewDecision](../resources/accessreviewdecision.md) collection|Get the accessReviewDecisions from the decisions navigation property.|
+|[Add decisions](../api/request-post-decisions.md)|[accessReviewDecision](../resources/accessreviewdecision.md)|Add decisions by posting to the decisions collection.|
+|[List myDecisions](../api/request-list-mydecisions.md)|[accessReviewDecision](../resources/accessreviewdecision.md) collection|Get the accessReviewDecisions from the myDecisions navigation property.|
+|[Add myDecisions](../api/request-post-mydecisions.md)|[accessReviewDecision](../resources/accessreviewdecision.md)|Add myDecisions by posting to the myDecisions collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |businessFlowId|String||
-|createdBy|[userIdentity](../resources/userIdentity.md)||
+|createdBy|[userIdentity](../resources/useridentity.md)||
 |customData|String||
 |deDuplicationId|String||
 |description|String||
 |displayName|String||
 |endDateTime|DateTimeOffset||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|policy|[governancePolicy](../resources/governancePolicy.md)||
+|policy|[governancePolicy](../resources/governancepolicy.md)||
 |policyTemplateId|String||
 |recordVersion|String||
 |schemaId|String||
-|settings|[accessReviewSettings](../resources/accessReviewSettings.md)||
+|settings|[accessReviewSettings](../resources/accessreviewsettings.md)||
 |startDateTime|DateTimeOffset||
 |status|String||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|decisions|[accessReviewDecision](../resources/accessReviewDecision.md) collection||
-|myDecisions|[accessReviewDecision](../resources/accessReviewDecision.md) collection||
+|decisions|[accessReviewDecision](../resources/accessreviewdecision.md) collection||
+|myDecisions|[accessReviewDecision](../resources/accessreviewdecision.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

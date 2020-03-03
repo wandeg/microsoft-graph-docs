@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph.callRecords
 ---
 
-
 # serviceEndpoint resource type
+
+
+Namespace: microsoft.graph.callRecords
 
 
 
@@ -19,7 +20,7 @@ Inherits from [endpoint](../resources/endpoint.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|userAgent|[userAgent](../resources/callRecords-userAgent.md)| Inherited from [endpoint](../resources/callRecords-endpoint.md)|
+|userAgent|[userAgent](../resources/callrecords-useragent.md)| Inherited from [endpoint](../resources/callrecords-endpoint.md)|
 
 ## Relationships
 None

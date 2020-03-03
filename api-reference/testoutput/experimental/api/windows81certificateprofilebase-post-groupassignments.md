@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add groupAssignments
 
+Namespace: microsoft.graph
+
 Add groupAssignments by posting to the groupAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.gr
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceConfigurationGroupAssignment object.
+In the request body, supply a JSON representation for the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object.
 
-The following table shows the properties that are required when you create the deviceConfigurationGroupAssignment.
+The following table shows the properties that are required when you create the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsWifiEnterpriseEAPConfiguration/identityCertificateForClientAuthentication/groupAssignments
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windowsWifiEnterpriseEAPConfiguration/identityCertificateForClientAuthentication/groupAssignments
 Content-type: application/json
 Content-length: 146
 
@@ -87,7 +89,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-  "id": "346c266c-266c-346c-6c26-6c346c266c34",
+  "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
   "targetGroupId": "Target Group Id value",
   "excludeGroup": true
 }

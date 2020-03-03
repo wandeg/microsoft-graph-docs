@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # fileClassificationRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get fileClassificationRequest](../api/fileclassificationrequest-get.md)|[fileClassificationRequest](../resources/fileClassificationRequest.md)|Read properties and relationships of the [fileClassificationRequest](../resources/fileclassificationrequest.md) object.|
+|[List fileClassificationRequests](../api/fileclassificationrequest-list.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md) collection|List properties and relationships of the [fileClassificationRequest](../resources/fileclassificationrequest.md) objects.|
+|[Get fileClassificationRequest](../api/fileclassificationrequest-get.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md)|Read properties and relationships of the [fileClassificationRequest](../resources/fileclassificationrequest.md) object.|
+|[Create fileClassificationRequest](../api/fileclassificationrequest-create.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md)|Create a new [fileClassificationRequest](../resources/fileclassificationrequest.md) object.|
 |[Delete fileClassificationRequest](../api/fileclassificationrequest-delete.md)|None|Deletes a [fileClassificationRequest](../resources/fileclassificationrequest.md).|
-|[Update fileClassificationRequest](../api/fileclassificationrequest-update.md)|[fileClassificationRequest](../resources/fileClassificationRequest.md)|Update the properties of a [fileClassificationRequest](../resources/fileclassificationrequest.md) object.|
-|[List classifyFile](../api/dataclassificationservice-list-classifyfile.md)|[fileClassificationRequest](../resources/fileClassificationRequest.md) collection|Get the fileClassificationRequests from the classifyFile navigation property.|
-|[Add classifyFile](../api/dataclassificationservice-post-classifyfile.md)|[fileClassificationRequest](../resources/fileClassificationRequest.md)|Add classifyFile by posting to the classifyFile collection.|
+|[Update fileClassificationRequest](../api/fileclassificationrequest-update.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md)|Update the properties of a [fileClassificationRequest](../resources/fileclassificationrequest.md) object.|
+|[List classifyFile](../api/dataclassificationservice-list-classifyfile.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md) collection|Get the fileClassificationRequests from the classifyFile navigation property.|
+|[Add classifyFile](../api/dataclassificationservice-post-classifyfile.md)|[fileClassificationRequest](../resources/fileclassificationrequest.md)|Add classifyFile by posting to the classifyFile collection.|
 
 ## Properties
 |Property|Type|Description|

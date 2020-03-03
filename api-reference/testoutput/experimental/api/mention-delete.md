@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mention
 
+Namespace: microsoft.graph
+
 Deletes a [mention](../resources/mention.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/messages/{messageId}/mentions/{mentionId}
+DELETE https://graph.microsoft.com/localtest/me/messages/{messageId}/mentions/{mentionId}
 ```
 
 ### Response

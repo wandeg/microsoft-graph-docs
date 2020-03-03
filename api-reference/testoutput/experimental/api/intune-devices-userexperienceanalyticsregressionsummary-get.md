@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get userExperienceAnalyticsRegressionSummary
 
-Read properties and relationships of the [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary
+GET https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 154
 {
   "value": {
     "@odata.type": "#microsoft.graph.userExperienceAnalyticsRegressionSummary",
-    "id": "7b659701-9701-7b65-0197-657b0197657b"
+    "id": "197635e0-35e0-1976-e035-7619e0357619"
   }
 }
 ```

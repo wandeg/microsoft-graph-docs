@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List applicationTemplates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [applicationTemplate](../resources/applicationtemplate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applicationTemplates
+GET https://graph.microsoft.com/localtest/applicationTemplates
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 638
   "value": [
     {
       "@odata.type": "#microsoft.graph.applicationTemplate",
-      "id": "42b167cd-67cd-42b1-cd67-b142cd67b142",
+      "id": "57eb8c8b-8c8b-57eb-8b8c-eb578b8ceb57",
       "displayName": "Display Name value",
       "homePageUrl": "https://example.com/homePageUrl/",
       "supportedSingleSignOnModes": [

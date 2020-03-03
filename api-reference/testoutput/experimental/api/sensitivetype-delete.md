@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete sensitiveType
 
+Namespace: microsoft.graph
+
 Deletes a [sensitiveType](../resources/sensitivetype.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/sensitiveTypes/{sensitiveTypeId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/sensitiveTypes/{sensitiveTypeId}
 ```
 
 ### Response

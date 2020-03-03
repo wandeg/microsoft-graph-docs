@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceCompliancePolicySettingState resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -22,7 +23,7 @@ Namespace: microsoft.graph
 |instanceDisplayName|String|Name of setting instance that is being reported.|
 |setting|String|The setting that is being reported|
 |settingName|String|Localized/user friendly setting name that is being reported|
-|sources|[settingSource](../resources/settingSource.md) collection|Contributing policies|
+|sources|[settingSource](../resources/settingsource.md) collection|Contributing policies|
 |state|Enumeration|The compliance state of the setting. Possible values are: `unknown`, `notApplicable`, `compliant`, `remediated`, `nonCompliant`, `error`, `conflict`, `notAssigned`.|
 |userEmail|String|UserEmail|
 |userId|String|UserId|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create contract
 
+Namespace: microsoft.graph
+
 Create a new [contract](../resources/contract.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /contracts
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the contract object.
+In the request body, supply a JSON representation for the [contract](../resources/contract.md) object.
 
-The following table shows the properties that are required when you create the contract.
+The following table shows the properties that are required when you create the [contract](../resources/contract.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |contractType|String||
 |customerId|Guid||
 |defaultDomainName|String||
@@ -64,15 +66,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/contracts
+POST https://graph.microsoft.com/localtest/contracts
 Content-type: application/json
 Content-length: 301
 
 {
   "@odata.type": "#microsoft.graph.contract",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "contractType": "Contract Type value",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "defaultDomainName": "Default Domain Name value",
   "displayName": "Display Name value"
 }
@@ -93,10 +95,10 @@ Content-Length: 350
 
 {
   "@odata.type": "#microsoft.graph.contract",
-  "id": "ac0de6a1-e6a1-ac0d-a1e6-0daca1e60dac",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "da2ac735-c735-da2a-35c7-2ada35c72ada",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "contractType": "Contract Type value",
-  "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
   "defaultDomainName": "Default Domain Name value",
   "displayName": "Display Name value"
 }

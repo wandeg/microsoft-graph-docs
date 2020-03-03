@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create conditionalAccessRoot
 
+Namespace: microsoft.graph
+
 Create a new [conditionalAccessRoot](../resources/conditionalaccessroot.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.conditionalAccessRoot not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the conditionalAccessRoot object.
+In the request body, supply a JSON representation for the [conditionalAccessRoot](../resources/conditionalaccessroot.md) object.
 
-The following table shows the properties that are required when you create the conditionalAccessRoot.
+The following table shows the properties that are required when you create the [conditionalAccessRoot](../resources/conditionalaccessroot.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.conditionalAccessRoot not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.conditionalAccessRoot not found
 Content-type: application/json
 Content-length: 63
 
@@ -83,7 +85,7 @@ Content-Length: 112
 
 {
   "@odata.type": "#microsoft.graph.conditionalAccessRoot",
-  "id": "e584425d-425d-e584-5d42-84e55d4284e5"
+  "id": "be125e28-5e28-be12-285e-12be285e12be"
 }
 ```
 

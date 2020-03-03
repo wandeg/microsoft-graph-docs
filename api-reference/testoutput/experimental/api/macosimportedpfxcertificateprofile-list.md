@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List macOSImportedPFXCertificateProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [macOSImportedPFXCertificateProfile](../resources/macosimportedpfxcertificateprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.macOSImportedPFXCertificateProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.macOSImportedPFXCertificateProfile not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1475
+Content-Length: 1474
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.macOSImportedPFXCertificateProfile",
-      "id": "3b5c0750-0750-3b5c-5007-5c3b50075c3b",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "689769ea-69ea-6897-ea69-9768ea699768",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 1475
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

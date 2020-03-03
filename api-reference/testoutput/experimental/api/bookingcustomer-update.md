@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingCustomer
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingCustomer](../resources/bookingcustomer.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}/customers/{bookingCustomerId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingCustomer](../resources/bookingCustomer.md) object.
+In the request body, supply a JSON representation for the [bookingCustomer](../resources/bookingcustomer.md) object.
 
 The following table shows the properties that are required when you create the [bookingCustomer](../resources/bookingcustomer.md).
 
@@ -43,8 +45,8 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
-|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingPerson.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
+|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingperson.md)|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/customers/{bookingCustomerId}
+PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/customers/{bookingCustomerId}
 Content-type: application/json
 Content-length: 139
 
@@ -86,7 +88,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.bookingCustomer",
-  "id": "f6984ead-4ead-f698-ad4e-98f6ad4e98f6",
+  "id": "626ab662-b662-626a-62b6-6a6262b66a62",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value"
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add dataLossPreventionPolicies
 
+Namespace: microsoft.graph
+
 Add dataLossPreventionPolicies by posting to the dataLossPreventionPolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /informationProtection/dataLossPreventionPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the dataLossPreventionPolicy object.
+In the request body, supply a JSON representation for the [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md) object.
 
-The following table shows the properties that are required when you create the dataLossPreventionPolicy.
+The following table shows the properties that are required when you create the [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/dataLossPreventionPolicies
+POST https://graph.microsoft.com/localtest/informationProtection/dataLossPreventionPolicies
 Content-type: application/json
 Content-length: 91
 
@@ -85,7 +87,7 @@ Content-Length: 140
 
 {
   "@odata.type": "#microsoft.graph.dataLossPreventionPolicy",
-  "id": "56cec865-c865-56ce-65c8-ce5665c8ce56",
+  "id": "aba94021-4021-aba9-2140-a9ab2140a9ab",
   "name": "Name value"
 }
 ```

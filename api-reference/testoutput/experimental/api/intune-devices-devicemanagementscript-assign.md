@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,8 +44,8 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceManagementScriptGroupAssignments|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md) collection||
-|deviceManagementScriptAssignments|[deviceManagementScriptAssignment](../resources/intune-devices-deviceManagementScriptAssignment.md) collection||
+|deviceManagementScriptGroupAssignments|[deviceManagementScriptGroupAssignment](../resources/intune-devices-devicemanagementscriptgroupassignment.md) collection||
+|deviceManagementScriptAssignments|[deviceManagementScriptAssignment](../resources/intune-devices-devicemanagementscriptassignment.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/assign
 
 Content-type: application/json
 Content-length: 550
@@ -69,14 +71,14 @@ Content-length: 550
   "deviceManagementScriptGroupAssignments": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptGroupAssignment",
-      "id": "87582e40-2e40-8758-402e-5887402e5887",
+      "id": "64802449-2449-6480-4924-806449248064",
       "targetGroupId": "Target Group Id value"
     }
   ],
   "deviceManagementScriptAssignments": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptAssignment",
-      "id": "9d3e8595-8595-9d3e-9585-3e9d95853e9d",
+      "id": "934103d3-03d3-9341-d303-4193d3034193",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

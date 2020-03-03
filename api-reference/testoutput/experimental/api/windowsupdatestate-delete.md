@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsUpdateState
 
+Namespace: microsoft.graph
+
 Deletes a [windowsUpdateState](../resources/windowsupdatestate.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/deviceUpdateStates/{windowsUpdateStateId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/deviceUpdateStates/{windowsUpdateStateId}
 ```
 
 ### Response

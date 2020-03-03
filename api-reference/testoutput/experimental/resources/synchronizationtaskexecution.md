@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # synchronizationTaskExecution resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -26,7 +27,7 @@ Namespace: microsoft.graph
 |countImported|Int64||
 |countImportedDeltas|Int64||
 |countImportedReferenceDeltas|Int64||
-|error|[synchronizationError](../resources/synchronizationError.md)||
+|error|[synchronizationError](../resources/synchronizationerror.md)||
 |state|Enumeration|. Possible values are: `Succeeded`, `Failed`, `EntryLevelErrors`.|
 |timeBegan|DateTimeOffset||
 |timeEnded|DateTimeOffset||

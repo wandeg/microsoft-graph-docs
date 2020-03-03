@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete messageRule
 
+Namespace: microsoft.graph
+
 Deletes a [messageRule](../resources/messagerule.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
+DELETE https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
 ```
 
 ### Response

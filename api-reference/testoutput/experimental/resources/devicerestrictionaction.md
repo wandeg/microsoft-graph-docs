@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deviceRestrictionAction resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [dlpActionInfo](../resources/dlpActionInfo.md)
+
+
+Inherits from [dlpActionInfo](../resources/dlpactioninfo.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|action|Enumeration| Inherited from [dlpActionInfo](../resources/dlpActionInfo.md). Possible values are: `notifyUser`, `blockAccess`, `deviceRestriction`.|
+|action|Enumeration| Inherited from [dlpActionInfo](../resources/dlpactioninfo.md). Possible values are: `notifyUser`, `blockAccess`, `deviceRestriction`.|
 |message|String||
 |restrictionAction|Enumeration|. Possible values are: `warn`, `audit`, `block`.|
 |triggers|Enumeration collection||

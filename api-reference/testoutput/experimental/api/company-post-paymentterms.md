@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add paymentTerms
 
+Namespace: microsoft.graph
+
 Add paymentTerms by posting to the paymentTerms collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/paymentTerms/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the paymentTerm object.
+In the request body, supply a JSON representation for the [paymentTerm](../resources/paymentterm.md) object.
 
-The following table shows the properties that are required when you create the paymentTerm.
+The following table shows the properties that are required when you create the [paymentTerm](../resources/paymentterm.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/paymentTerms
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/paymentTerms
 Content-type: application/json
 Content-length: 310
 
@@ -96,14 +98,14 @@ Content-Length: 423
 
 {
   "@odata.type": "#microsoft.graph.paymentTerm",
-  "id": "c6215f36-5f36-c621-365f-21c6365f21c6",
+  "id": "2c9c3f95-3f95-2c9c-953f-9c2c953f9c2c",
   "code": "Code value",
   "displayName": "Display Name value",
   "dueDateCalculation": "Due Date Calculation value",
   "discountDateCalculation": "Discount Date Calculation value",
   "discountPercent": "4.2",
   "calculateDiscountOnCreditMemos": true,
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

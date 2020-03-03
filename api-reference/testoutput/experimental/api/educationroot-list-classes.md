@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List classes
 
+Namespace: microsoft.graph
+
 Get the educationClasses from the classes navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes
+GET https://graph.microsoft.com/localtest/education/classes
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1162
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationClass",
-      "id": "60496f21-6f21-6049-216f-4960216f4960",
+      "id": "00653963-3963-0065-6339-650063396500",
       "displayName": "Display Name value",
       "mailNickname": "Mail Nickname value",
       "description": "Description value",

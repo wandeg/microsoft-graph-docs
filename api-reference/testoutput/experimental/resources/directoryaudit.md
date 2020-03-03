@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # directoryAudit resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,27 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List directoryAudits](../api/directoryaudit-list.md)|[directoryAudit](../resources/directoryAudit.md) collection|List properties and relationships of the [directoryAudit](../resources/directoryaudit.md) objects.|
-|[Get directoryAudit](../api/directoryaudit-get.md)|[directoryAudit](../resources/directoryAudit.md)|Read properties and relationships of the [directoryAudit](../resources/directoryaudit.md) object.|
-|[Create directoryAudit](../api/directoryaudit-create.md)|[directoryAudit](../resources/directoryAudit.md)|Create a new [directoryAudit](../resources/directoryaudit.md) object.|
+|[List directoryAudits](../api/directoryaudit-list.md)|[directoryAudit](../resources/directoryaudit.md) collection|List properties and relationships of the [directoryAudit](../resources/directoryaudit.md) objects.|
+|[Get directoryAudit](../api/directoryaudit-get.md)|[directoryAudit](../resources/directoryaudit.md)|Read properties and relationships of the [directoryAudit](../resources/directoryaudit.md) object.|
+|[Create directoryAudit](../api/directoryaudit-create.md)|[directoryAudit](../resources/directoryaudit.md)|Create a new [directoryAudit](../resources/directoryaudit.md) object.|
 |[Delete directoryAudit](../api/directoryaudit-delete.md)|None|Deletes a [directoryAudit](../resources/directoryaudit.md).|
-|[Update directoryAudit](../api/directoryaudit-update.md)|[directoryAudit](../resources/directoryAudit.md)|Update the properties of a [directoryAudit](../resources/directoryaudit.md) object.|
+|[Update directoryAudit](../api/directoryaudit-update.md)|[directoryAudit](../resources/directoryaudit.md)|Update the properties of a [directoryAudit](../resources/directoryaudit.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |activityDateTime|DateTimeOffset||
 |activityDisplayName|String||
-|additionalDetails|[keyValue](../resources/keyValue.md) collection||
+|additionalDetails|[keyValue](../resources/keyvalue.md) collection||
 |category|String||
 |correlationId|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|initiatedBy|[auditActivityInitiator](../resources/auditActivityInitiator.md)||
+|initiatedBy|[auditActivityInitiator](../resources/auditactivityinitiator.md)||
 |loggedByService|String||
 |operationType|String||
 |result|Enumeration|. Possible values are: `success`, `failure`, `timeout`, `unknownFutureValue`.|
 |resultReason|String||
-|targetResources|[targetResource](../resources/targetResource.md) collection||
+|targetResources|[targetResource](../resources/targetresource.md) collection||
 
 ## Relationships
 None

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppContentFile
 
-Update the properties of a [mobileAppContentFile](../resources/mobileappcontentfile.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppCo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppContentFile](../resources/mobileAppContentFile.md) object.
+In the request body, supply a JSON representation for the [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppContentFile](../resources/mobileappcontentfile.md).
+The following table shows the properties that are required when you create the [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -57,7 +59,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppContentFile](../resources/mobileappcontentfile.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
 Content-type: application/json
 Content-length: 387
 
@@ -80,7 +82,7 @@ Content-length: 387
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2016-12-31T23:56:41.2886459+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:02:49.8360031+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String",
   "isFrameworkFile": true,
@@ -98,18 +100,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 495
+Content-Length: 494
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
-  "id": "0d763fb5-3fb5-0d76-b53f-760db53f760d",
+  "id": "fbfff66f-f66f-fbff-6ff6-fffb6ff6fffb",
   "azureStorageUri": "Azure Storage Uri value",
   "isCommitted": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2016-12-31T23:56:41.2886459+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:02:49.8360031+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String",
   "isFrameworkFile": true,

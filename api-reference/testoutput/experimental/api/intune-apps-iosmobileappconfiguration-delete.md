@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Delete iosMobileAppConfiguration
 
-Deletes a [iosMobileAppConfiguration](../resources/iosmobileappconfiguration.md).
+Namespace: microsoft.graph
+
+Deletes a [iosMobileAppConfiguration](../resources/intune-apps-iosmobileappconfiguration.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosMobileAppConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosMobileAppConfiguration not found
 ```
 
 ### Response

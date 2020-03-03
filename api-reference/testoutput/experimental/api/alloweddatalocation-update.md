@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update allowedDataLocation
 
+Namespace: microsoft.graph
+
 Update the properties of a [allowedDataLocation](../resources/alloweddatalocation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /allowedDataLocations/{allowedDataLocationsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [allowedDataLocation](../resources/allowedDataLocation.md) object.
+In the request body, supply a JSON representation for the [allowedDataLocation](../resources/alloweddatalocation.md) object.
 
 The following table shows the properties that are required when you create the [allowedDataLocation](../resources/alloweddatalocation.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/allowedDataLocations/{allowedDataLocationsId}
+PATCH https://graph.microsoft.com/localtest/allowedDataLocations/{allowedDataLocationsId}
 Content-type: application/json
 Content-length: 173
 
@@ -89,7 +91,7 @@ Content-Length: 222
 
 {
   "@odata.type": "#microsoft.graph.allowedDataLocation",
-  "id": "37f5a920-a920-37f5-20a9-f53720a9f537",
+  "id": "979cc821-c821-979c-21c8-9c9721c89c97",
   "appId": "App Id value",
   "location": "Location value",
   "isDefault": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get yammerGroupsActivityDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.yammerGroupsActivityDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.yammerGroupsActivityDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 548
 {
   "value": {
     "@odata.type": "#microsoft.graph.yammerGroupsActivityDetail",
-    "id": "2e2e5233-5233-2e2e-3352-2e2e33522e2e",
+    "id": "54513b00-3b00-5451-003b-5154003b5154",
     "reportRefreshDate": "Date",
     "groupDisplayName": "Group Display Name value",
     "isDeleted": true,

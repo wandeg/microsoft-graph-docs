@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # androidMobileAppIdentifier resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [mobileAppIdentifier](../resources/mobileAppIdentifier.md)
+
+
+Inherits from [mobileAppIdentifier](../resources/mobileappidentifier.md)
 
 ## Properties
 |Property|Type|Description|

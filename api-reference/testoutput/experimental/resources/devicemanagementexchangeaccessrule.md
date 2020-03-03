@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementExchangeAccessRule resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |accessLevel|Enumeration|Access Level for Exchange granted by this rule. Possible values are: `none`, `allow`, `block`, `quarantine`.|
-|deviceClass|[deviceManagementExchangeDeviceClass](../resources/deviceManagementExchangeDeviceClass.md)|Device Class which will be impacted by this rule.|
+|deviceClass|[deviceManagementExchangeDeviceClass](../resources/devicemanagementexchangedeviceclass.md)|Device Class which will be impacted by this rule.|
 
 ## Relationships
 None

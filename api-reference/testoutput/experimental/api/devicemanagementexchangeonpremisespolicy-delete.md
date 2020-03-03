@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementExchangeOnPremisesPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/exchangeOnPremisesPolicy
+DELETE https://graph.microsoft.com/localtest/deviceManagement/exchangeOnPremisesPolicy
 ```
 
 ### Response

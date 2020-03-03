@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete tokenLifetimePolicy
 
+Namespace: microsoft.graph
+
 Deletes a [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/policies/tokenLifetimePolicies/{tokenLifetimePolicyId}
+DELETE https://graph.microsoft.com/localtest/policies/tokenLifetimePolicies/{tokenLifetimePolicyId}
 ```
 
 ### Response

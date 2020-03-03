@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # kerberosSingleSignOnExtension resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [singleSignOnExtension](../resources/singleSignOnExtension.md)
+
+
+Inherits from [singleSignOnExtension](../resources/singlesignonextension.md)
 
 ## Properties
 |Property|Type|Description|

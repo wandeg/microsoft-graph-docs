@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update externalConnection
 
+Namespace: microsoft.graph
+
 Update the properties of a [externalConnection](../resources/externalconnection.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /external/connections/{externalConnectionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [externalConnection](../resources/externalConnection.md) object.
+In the request body, supply a JSON representation for the [externalConnection](../resources/externalconnection.md) object.
 
 The following table shows the properties that are required when you create the [externalConnection](../resources/externalconnection.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/connections/{connectionsId}
+PATCH https://graph.microsoft.com/localtest/connections/{connectionsId}
 Content-type: application/json
 Content-length: 268
 
@@ -93,7 +95,7 @@ Content-Length: 317
 
 {
   "@odata.type": "#microsoft.graph.externalConnection",
-  "id": "1cc90bb3-0bb3-1cc9-b30b-c91cb30bc91c",
+  "id": "1e85e39c-e39c-1e85-9ce3-851e9ce3851e",
   "name": "Name value",
   "description": "Description value",
   "configuration": {

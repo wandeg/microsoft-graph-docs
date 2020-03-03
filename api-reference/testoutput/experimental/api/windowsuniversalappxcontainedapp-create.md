@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windowsUniversalAppXContainedApp
 
+Namespace: microsoft.graph
+
 Create a new [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.windowsUniversalAppXContainedApp not 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsUniversalAppXContainedApp object.
+In the request body, supply a JSON representation for the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) object.
 
-The following table shows the properties that are required when you create the windowsUniversalAppXContainedApp.
+The following table shows the properties that are required when you create the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsUniversalAppXContainedApp not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsUniversalAppXContainedApp not found
 Content-type: application/json
 Content-length: 122
 
@@ -85,7 +87,7 @@ Content-Length: 171
 
 {
   "@odata.type": "#microsoft.graph.windowsUniversalAppXContainedApp",
-  "id": "da92a4ce-a4ce-da92-cea4-92dacea492da",
+  "id": "f0b6c7de-c7de-f0b6-dec7-b6f0dec7b6f0",
   "appUserModelId": "App User Model Id value"
 }
 ```

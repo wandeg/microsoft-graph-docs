@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete depMacOSEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Deletes a [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md).
 
 ## Permissions

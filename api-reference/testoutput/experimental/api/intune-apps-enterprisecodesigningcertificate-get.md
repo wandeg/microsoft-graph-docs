@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get enterpriseCodeSigningCertificate
 
-Read properties and relationships of the [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificateId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/enterpriseCodeSigningCertificates/{enterpriseCodeSigningCertificateId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 472
+Content-Length: 473
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.enterpriseCodeSigningCertificate",
-    "id": "59885d3b-5d3b-5988-3b5d-88593b5d8859",
+    "id": "09359bff-9bff-0935-ff9b-3509ff9b3509",
     "content": "Y29udGVudA==",
     "status": "String",
     "subjectName": "Subject Name value",
     "subject": "Subject value",
     "issuerName": "Issuer Name value",
     "issuer": "Issuer value",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-    "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
   }
 }
 ```

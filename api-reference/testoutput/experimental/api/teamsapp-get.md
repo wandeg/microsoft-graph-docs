@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsApp](../resources/teamsapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/appCatalogs/teamsApps/{teamsAppId}
+GET https://graph.microsoft.com/localtest/appCatalogs/teamsApps/{teamsAppId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 268
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsApp",
-    "id": "cbd773f7-73f7-cbd7-f773-d7cbf773d7cb",
+    "id": "64d2f22b-f22b-64d2-2bf2-d2642bf2d264",
     "externalId": "External Id value",
     "name": "Name value",
     "displayName": "Display Name value",

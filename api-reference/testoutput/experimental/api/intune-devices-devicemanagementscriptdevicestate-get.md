@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagementScriptDeviceState
 
-Read properties and relationships of the [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -43,7 +45,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagementScriptDeviceState](../resources/intune-devices-devicemanagementscriptdevicestate.md) object in the response body.
 
 ## Example
 
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/deviceRunStates/{deviceManagementScriptDeviceStateId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/deviceRunStates/{deviceManagementScriptDeviceStateId}
 ```
 
 ### Response
@@ -74,10 +76,10 @@ Content-Length: 362
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
-    "id": "34ee1794-1794-34ee-9417-ee349417ee34",
+    "id": "1bbd95b4-95b4-1bbd-b495-bd1bb495bd1b",
     "runState": "String",
     "resultMessage": "Result Message value",
-    "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
+    "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
     "errorCode": 9,
     "errorDescription": "Error Description value"
   }

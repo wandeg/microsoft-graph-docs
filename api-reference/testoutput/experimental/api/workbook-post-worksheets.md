@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add worksheets
 
+Namespace: microsoft.graph
+
 Add worksheets by posting to the worksheets collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/w
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookWorksheet object.
+In the request body, supply a JSON representation for the [workbookWorksheet](../resources/workbookworksheet.md) object.
 
-The following table shows the properties that are required when you create the workbookWorksheet.
+The following table shows the properties that are required when you create the [workbookWorksheet](../resources/workbookworksheet.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/worksheets
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/worksheets
 Content-type: application/json
 Content-length: 139
 
@@ -89,7 +91,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheet",
-  "id": "3703d708-d708-3703-08d7-033708d70337",
+  "id": "1cdbc61c-c61c-1cdb-1cc6-db1c1cc6db1c",
   "name": "Name value",
   "position": 8,
   "visibility": "Visibility value"

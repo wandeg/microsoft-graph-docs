@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # signInFrequencySessionControl resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [conditionalAccessSessionControl](../resources/conditionalAccessSessionControl.md)
+
+
+Inherits from [conditionalAccessSessionControl](../resources/conditionalaccesssessioncontrol.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|isEnabled|Boolean| Inherited from [conditionalAccessSessionControl](../resources/conditionalAccessSessionControl.md)|
+|isEnabled|Boolean| Inherited from [conditionalAccessSessionControl](../resources/conditionalaccesssessioncontrol.md)|
 |type|Enumeration|. Possible values are: `days`, `hours`.|
 |value|Int32||
 

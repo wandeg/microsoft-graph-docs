@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add attachments
 
+Namespace: microsoft.graph
+
 Add attachments by posting to the attachments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/messages/{messageId}/attachments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the attachment object.
+In the request body, supply a JSON representation for the [attachment](../resources/attachment.md) object.
 
-The following table shows the properties that are required when you create the attachment.
+The following table shows the properties that are required when you create the [attachment](../resources/attachment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/messages/{messageId}/attachments
+POST https://graph.microsoft.com/localtest/me/messages/{messageId}/attachments
 Content-type: application/json
 Content-length: 152
 
@@ -92,8 +94,8 @@ Content-Length: 265
 
 {
   "@odata.type": "#microsoft.graph.attachment",
-  "id": "2d6d4d94-4d94-2d6d-944d-6d2d944d6d2d",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "d6782afc-2afc-d678-fc2a-78d6fc2a78d6",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

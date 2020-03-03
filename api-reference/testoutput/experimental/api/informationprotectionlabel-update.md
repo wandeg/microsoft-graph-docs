@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update informationProtectionLabel
 
+Namespace: microsoft.graph
+
 Update the properties of a [informationProtectionLabel](../resources/informationprotectionlabel.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /informationProtection/policy/labels/{informationProtectionLabelId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [informationProtectionLabel](../resources/informationProtectionLabel.md) object.
+In the request body, supply a JSON representation for the [informationProtectionLabel](../resources/informationprotectionlabel.md) object.
 
 The following table shows the properties that are required when you create the [informationProtectionLabel](../resources/informationprotectionlabel.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/informationProtection/policy/labels/{informationProtectionLabelId}
+PATCH https://graph.microsoft.com/localtest/informationProtection/policy/labels/{informationProtectionLabelId}
 Content-type: application/json
 Content-length: 233
 
@@ -93,7 +95,7 @@ Content-Length: 282
 
 {
   "@odata.type": "#microsoft.graph.informationProtectionLabel",
-  "id": "c84fff52-ff52-c84f-52ff-4fc852ff4fc8",
+  "id": "ee736e28-6e28-ee73-286e-73ee286e73ee",
   "name": "Name value",
   "description": "Description value",
   "color": "Color value",

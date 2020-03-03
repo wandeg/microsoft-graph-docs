@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationAssignmentGroupRecipient resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationAssignmentRecipient](../resources/educationAssignmentRecipient.md)
+
+
+Inherits from [educationAssignmentRecipient](../resources/educationassignmentrecipient.md)
 
 ## Properties
 |Property|Type|Description|

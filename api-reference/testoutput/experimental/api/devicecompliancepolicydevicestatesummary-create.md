@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceCompliancePolicyDeviceStateSummary
 
+Namespace: microsoft.graph
+
 Create a new [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceCompliancePolicyDeviceStateSumm
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCompliancePolicyDeviceStateSummary object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md) object.
 
-The following table shows the properties that are required when you create the deviceCompliancePolicyDeviceStateSummary.
+The following table shows the properties that are required when you create the [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceCompliancePolicyDeviceStateSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceCompliancePolicyDeviceStateSummary not found
 Content-type: application/json
 Content-length: 349
 
@@ -101,7 +103,7 @@ Content-Length: 398
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyDeviceStateSummary",
-  "id": "f1b248cc-48cc-f1b2-cc48-b2f1cc48b2f1",
+  "id": "79a18cfa-8cfa-79a1-fa8c-a179fa8ca179",
   "inGracePeriodCount": 2,
   "configManagerCount": 2,
   "unknownDeviceCount": 2,

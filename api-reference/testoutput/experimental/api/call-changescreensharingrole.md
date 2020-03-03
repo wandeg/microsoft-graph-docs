@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # changeScreenSharingRole
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/changeScreenSharingRole
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/changeScreenSharingRole
 
 Content-type: application/json
 Content-length: 24

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # team resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List teams](../api/team-list.md)|[team](../resources/team.md) collection|List properties and relationships of the [team](../resources/team.md) objects.|
 |[Get team](../api/team-get.md)|[team](../resources/team.md)|Read properties and relationships of the [team](../resources/team.md) object.|
+|[Create team](../api/team-post-teams.md)|[team](../resources/team.md)|Create a new [team](../resources/team.md) object.|
 |[Delete team](../api/team-delete.md)|None|Deletes a [team](../resources/team.md).|
 |[Update team](../api/team-update.md)|[team](../resources/team.md)|Update the properties of a [team](../resources/team.md) object.|
 |[clone](../api/team-clone.md)|None||
@@ -27,19 +30,19 @@ Inherits from [entity](../resources/entity.md)
 |[unarchive](../api/team-unarchive.md)|None||
 |[Get schedule](../api/schedule-get.md)|[schedule](../resources/schedule.md)|Read properties and relationships of the [schedule](../resources/schedule.md) object.|
 |[Get group](../api/group-get.md)|[group](../resources/group.md)|Read properties and relationships of the [group](../resources/group.md) object.|
-|[Get teamsTemplate](../api/teamstemplate-get.md)|[teamsTemplate](../resources/teamsTemplate.md)|Read properties and relationships of the [teamsTemplate](../resources/teamstemplate.md) object.|
-|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilePhoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
+|[Get teamsTemplate](../api/teamstemplate-get.md)|[teamsTemplate](../resources/teamstemplate.md)|Read properties and relationships of the [teamsTemplate](../resources/teamstemplate.md) object.|
+|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
 |[List owners](../api/team-list-owners.md)|[user](../resources/user.md) collection|Get the users from the owners navigation property.|
 |[Create owners](../api/team-post-owners.md)|[user](../resources/user.md)|Create owners by posting to the owners collection.|
 |[List channels](../api/team-list-channels.md)|[channel](../resources/channel.md) collection|Get the channels from the channels navigation property.|
 |[Add channels](../api/team-post-channels.md)|[channel](../resources/channel.md)|Add channels by posting to the channels collection.|
 |[Get channel](../api/channel-get.md)|[channel](../resources/channel.md)|Read properties and relationships of the [channel](../resources/channel.md) object.|
-|[List apps](../api/team-list-apps.md)|[teamsCatalogApp](../resources/teamsCatalogApp.md) collection|Get the teamsCatalogApps from the apps navigation property.|
-|[Add apps](../api/team-post-apps.md)|[teamsCatalogApp](../resources/teamsCatalogApp.md)|Add apps by posting to the apps collection.|
-|[List installedApps](../api/team-list-installedapps.md)|[teamsAppInstallation](../resources/teamsAppInstallation.md) collection|Get the teamsAppInstallations from the installedApps navigation property.|
-|[Add installedApps](../api/team-post-installedapps.md)|[teamsAppInstallation](../resources/teamsAppInstallation.md)|Add installedApps by posting to the installedApps collection.|
-|[List operations](../api/team-list-operations.md)|[teamsAsyncOperation](../resources/teamsAsyncOperation.md) collection|Get the teamsAsyncOperations from the operations navigation property.|
-|[Add operations](../api/team-post-operations.md)|[teamsAsyncOperation](../resources/teamsAsyncOperation.md)|Add operations by posting to the operations collection.|
+|[List apps](../api/team-list-apps.md)|[teamsCatalogApp](../resources/teamscatalogapp.md) collection|Get the teamsCatalogApps from the apps navigation property.|
+|[Add apps](../api/team-post-apps.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Add apps by posting to the apps collection.|
+|[List installedApps](../api/team-list-installedapps.md)|[teamsAppInstallation](../resources/teamsappinstallation.md) collection|Get the teamsAppInstallations from the installedApps navigation property.|
+|[Add installedApps](../api/team-post-installedapps.md)|[teamsAppInstallation](../resources/teamsappinstallation.md)|Add installedApps by posting to the installedApps collection.|
+|[List operations](../api/team-list-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection|Get the teamsAsyncOperations from the operations navigation property.|
+|[Add operations](../api/team-post-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Add operations by posting to the operations collection.|
 |[List joinedTeams](../api/user-list-joinedteams.md)|[team](../resources/team.md) collection|Get the teams from the joinedTeams navigation property.|
 |[Add joinedTeams](../api/user-post-joinedteams.md)|[team](../resources/team.md)|Add joinedTeams by posting to the joinedTeams collection.|
 
@@ -48,15 +51,15 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |classification|String||
 |description|String||
-|discoverySettings|[teamDiscoverySettings](../resources/teamDiscoverySettings.md)||
+|discoverySettings|[teamDiscoverySettings](../resources/teamdiscoverysettings.md)||
 |displayName|String||
-|funSettings|[teamFunSettings](../resources/teamFunSettings.md)||
-|guestSettings|[teamGuestSettings](../resources/teamGuestSettings.md)||
+|funSettings|[teamFunSettings](../resources/teamfunsettings.md)||
+|guestSettings|[teamGuestSettings](../resources/teamguestsettings.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |internalId|String||
 |isArchived|Boolean||
-|memberSettings|[teamMemberSettings](../resources/teamMemberSettings.md)||
-|messagingSettings|[teamMessagingSettings](../resources/teamMessagingSettings.md)||
+|memberSettings|[teamMemberSettings](../resources/teammembersettings.md)||
+|messagingSettings|[teamMessagingSettings](../resources/teammessagingsettings.md)||
 |specialization|Enumeration|. Possible values are: `none`, `educationStandard`, `educationClass`, `educationProfessionalLearningCommunity`, `educationStaff`, `healthcareStandard`, `healthcareCareCoordination`, `unknownFutureValue`.|
 |visibility|Enumeration|. Possible values are: `private`, `public`, `hiddenMembership`, `unknownFutureValue`.|
 |webUrl|String||
@@ -64,16 +67,16 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|apps|[teamsCatalogApp](../resources/teamsCatalogApp.md) collection||
+|apps|[teamsCatalogApp](../resources/teamscatalogapp.md) collection||
 |channels|[channel](../resources/channel.md) collection||
 |group|[group](../resources/group.md)||
-|installedApps|[teamsAppInstallation](../resources/teamsAppInstallation.md) collection||
-|operations|[teamsAsyncOperation](../resources/teamsAsyncOperation.md) collection||
+|installedApps|[teamsAppInstallation](../resources/teamsappinstallation.md) collection||
+|operations|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection||
 |owners|[user](../resources/user.md) collection||
-|photo|[profilePhoto](../resources/profilePhoto.md)||
+|photo|[profilePhoto](../resources/profilephoto.md)||
 |primaryChannel|[channel](../resources/channel.md)||
 |schedule|[schedule](../resources/schedule.md)||
-|template|[teamsTemplate](../resources/teamsTemplate.md)||
+|template|[teamsTemplate](../resources/teamstemplate.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

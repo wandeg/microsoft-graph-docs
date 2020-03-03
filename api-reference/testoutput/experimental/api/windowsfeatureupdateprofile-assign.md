@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[windowsFeatureUpdateProfileAssignment](../resources/windowsFeatureUpdateProfileAssignment.md) collection||
+|assignments|[windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assign
 
 Content-type: application/json
 Content-length: 285
@@ -68,7 +70,7 @@ Content-length: 285
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfileAssignment",
-      "id": "7a85fe0c-fe0c-7a85-0cfe-857a0cfe857a",
+      "id": "26a940fa-40fa-26a9-fa40-a926fa40a926",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

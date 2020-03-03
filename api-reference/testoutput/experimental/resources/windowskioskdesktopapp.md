@@ -5,27 +5,28 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsKioskDesktopApp resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)
+
+
+Inherits from [windowsKioskAppBase](../resources/windowskioskappbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|appType|Enumeration|The app type Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md). Possible values are: `unknown`, `store`, `desktop`, `aumId`.|
-|autoLaunch|Boolean|Allow the app to be auto-launched in multi-app kiosk mode Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)|
+|appType|Enumeration|The app type Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md). Possible values are: `unknown`, `store`, `desktop`, `aumId`.|
+|autoLaunch|Boolean|Allow the app to be auto-launched in multi-app kiosk mode Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md)|
 |desktopApplicationId|String|Define the DesktopApplicationID of the app|
 |desktopApplicationLinkPath|String|Define the DesktopApplicationLinkPath of the app|
-|name|String|Represents the friendly name of an app Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)|
+|name|String|Represents the friendly name of an app Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md)|
 |path|String|Define the path of a desktop app|
-|startLayoutTileSize|Enumeration|The app tile size for the start layout Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md). Possible values are: `hidden`, `small`, `medium`, `wide`, `large`.|
+|startLayoutTileSize|Enumeration|The app tile size for the start layout Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md). Possible values are: `hidden`, `small`, `medium`, `wide`, `large`.|
 
 ## Relationships
 None

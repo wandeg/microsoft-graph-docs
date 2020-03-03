@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerProgressTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/progressTaskBoardFormat
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTaskId}/progressTaskBoardFormat
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 186
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-    "id": "d9ec4924-4924-d9ec-2449-ecd92449ecd9",
+    "id": "7559b0e5-b0e5-7559-e5b0-5975e5b05975",
     "orderHint": "Order Hint value"
   }
 }

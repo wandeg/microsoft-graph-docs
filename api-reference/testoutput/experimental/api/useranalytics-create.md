@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create userAnalytics
 
+Namespace: microsoft.graph
+
 Create a new [userAnalytics](../resources/useranalytics.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.userAnalytics not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userAnalytics object.
+In the request body, supply a JSON representation for the [userAnalytics](../resources/useranalytics.md) object.
 
-The following table shows the properties that are required when you create the userAnalytics.
+The following table shows the properties that are required when you create the [userAnalytics](../resources/useranalytics.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userAnalytics not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userAnalytics not found
 Content-type: application/json
 Content-length: 206
 
@@ -90,7 +92,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.userAnalytics",
-  "id": "96913d95-3d95-9691-953d-9196953d9196",
+  "id": "a747485a-485a-a747-5a48-47a75a4847a7",
   "settings": {
     "@odata.type": "microsoft.graph.settings",
     "hasLicense": true,

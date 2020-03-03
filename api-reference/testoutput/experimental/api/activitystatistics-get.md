@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get activityStatistics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [activityStatistics](../resources/activitystatistics.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/activitystatistics/{activitystatisticsId}
+GET https://graph.microsoft.com/localtest/activitystatistics/{activitystatisticsId}
 ```
 
 ### Response
@@ -68,17 +70,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 290
+Content-Length: 291
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.activityStatistics",
-    "id": "c0dd8613-8613-c0dd-1386-ddc01386ddc0",
+    "id": "53e767f4-67f4-53e7-f467-e753f467e753",
     "activity": "String",
     "startDate": "Date",
     "endDate": "Date",
     "timeZoneUsed": "Time Zone Used value",
-    "duration": "PT3M27.7161587S"
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```

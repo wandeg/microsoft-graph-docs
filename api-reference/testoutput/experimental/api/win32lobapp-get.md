@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get win32LobApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [win32LobApp](../resources/win32lobapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.win32LobApp not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.win32LobApp not found
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2917
+Content-Length: 2916
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.win32LobApp",
-    "id": "b26e5d57-5d57-b26e-575d-6eb2575d6eb2",
+    "id": "7da05df6-5df6-7da0-f65d-a07df65da07d",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -81,8 +83,8 @@ Content-Length: 2917
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",

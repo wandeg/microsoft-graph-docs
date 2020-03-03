@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # domainSecurityProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get domainSecurityProfile](../api/domainsecurityprofile-get.md)|[domainSecurityProfile](../resources/domainSecurityProfile.md)|Read properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
+|[List domainSecurityProfiles](../api/domainsecurityprofile-list.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md) collection|List properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) objects.|
+|[Get domainSecurityProfile](../api/domainsecurityprofile-get.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Read properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
+|[Create domainSecurityProfile](../api/domainsecurityprofile-create.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Create a new [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
 |[Delete domainSecurityProfile](../api/domainsecurityprofile-delete.md)|None|Deletes a [domainSecurityProfile](../resources/domainsecurityprofile.md).|
-|[Update domainSecurityProfile](../api/domainsecurityprofile-update.md)|[domainSecurityProfile](../resources/domainSecurityProfile.md)|Update the properties of a [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
-|[List domainSecurityProfiles](../api/security-list-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainSecurityProfile.md) collection|Get the domainSecurityProfiles from the domainSecurityProfiles navigation property.|
-|[Add domainSecurityProfiles](../api/security-post-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainSecurityProfile.md)|Add domainSecurityProfiles by posting to the domainSecurityProfiles collection.|
+|[Update domainSecurityProfile](../api/domainsecurityprofile-update.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Update the properties of a [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
+|[List domainSecurityProfiles](../api/security-list-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md) collection|Get the domainSecurityProfiles from the domainSecurityProfiles navigation property.|
+|[Add domainSecurityProfiles](../api/security-post-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Add domainSecurityProfiles by posting to the domainSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -33,16 +36,16 @@ Inherits from [entity](../resources/entity.md)
 |azureTenantId|String||
 |countHits|Int32||
 |countInOrg|Int32||
-|domainCategories|[reputationCategory](../resources/reputationCategory.md) collection||
+|domainCategories|[reputationCategory](../resources/reputationcategory.md) collection||
 |domainRegisteredDateTime|DateTimeOffset||
 |firstSeenDateTime|DateTimeOffset||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastSeenDateTime|DateTimeOffset||
 |name|String||
-|registrant|[domainRegistrant](../resources/domainRegistrant.md)||
+|registrant|[domainRegistrant](../resources/domainregistrant.md)||
 |riskScore|String||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

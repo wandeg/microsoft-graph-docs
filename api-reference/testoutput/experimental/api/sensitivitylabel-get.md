@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sensitivityLabel
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/sensitivityLabels/{sensitivityLabelId}
+GET https://graph.microsoft.com/localtest/dataClassification/sensitivityLabels/{sensitivityLabelId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 1053
 {
   "value": {
     "@odata.type": "#microsoft.graph.sensitivityLabel",
-    "id": "0f094177-4177-0f09-7741-090f7741090f",
+    "id": "746d2913-2913-746d-1329-6d7413296d74",
     "name": "Name value",
     "displayName": "Display Name value",
     "description": "Description value",

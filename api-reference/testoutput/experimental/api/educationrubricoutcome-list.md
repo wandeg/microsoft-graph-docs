@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List educationRubricOutcomes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [educationRubricOutcome](../resources/educationrubricoutcome.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.educationRubricOutcome not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.educationRubricOutcome not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1509
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationRubricOutcome",
-      "id": "69e6131e-131e-69e6-1e13-e6691e13e669",
+      "id": "b8139c4b-9c4b-b813-4b9c-13b84b9c13b8",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -85,7 +87,7 @@ Content-Length: 1509
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "rubricQualityFeedback": [
         {
           "@odata.type": "microsoft.graph.rubricQualityFeedbackModel",

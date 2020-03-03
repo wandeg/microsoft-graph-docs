@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update companyInformation
 
+Namespace: microsoft.graph
+
 Update the properties of a [companyInformation](../resources/companyinformation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/companyInformation/{companyInformationId
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [companyInformation](../resources/companyInformation.md) object.
+In the request body, supply a JSON representation for the [companyInformation](../resources/companyinformation.md) object.
 
 The following table shows the properties that are required when you create the [companyInformation](../resources/companyinformation.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |phoneNumber|String||
 |faxNumber|String||
 |email|String||
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/companyInformation/{companyInformationId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/companyInformation/{companyInformationId}
 Content-type: application/json
 Content-length: 695
 
@@ -111,7 +113,7 @@ Content-Length: 808
 
 {
   "@odata.type": "#microsoft.graph.companyInformation",
-  "id": "dc9b0c07-0c07-dc9b-070c-9bdc070c9bdc",
+  "id": "d65a8cc1-8cc1-d65a-c18c-5ad6c18c5ad6",
   "displayName": "Display Name value",
   "address": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -130,7 +132,7 @@ Content-Length: 808
   "currentFiscalYearStartDate": "Date",
   "industry": "Industry value",
   "picture": "Stream",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

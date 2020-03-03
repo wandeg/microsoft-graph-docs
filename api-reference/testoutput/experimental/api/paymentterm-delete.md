@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete paymentTerm
 
+Namespace: microsoft.graph
+
 Deletes a [paymentTerm](../resources/paymentterm.md).
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/paymentTerms/{paymentTermId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/paymentTerms/{paymentTermId}
 ```
 
 ### Response

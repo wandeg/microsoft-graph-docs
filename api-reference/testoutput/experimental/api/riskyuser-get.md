@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get riskyUser
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [riskyUser](../resources/riskyuser.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/riskyUsers/{riskyUsersId}
+GET https://graph.microsoft.com/localtest/riskyUsers/{riskyUsersId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 456
 {
   "value": {
     "@odata.type": "#microsoft.graph.riskyUser",
-    "id": "67f81437-1437-67f8-3714-f8673714f867",
+    "id": "0f5e2830-2830-0f5e-3028-5e0f30285e0f",
     "isDeleted": true,
     "isGuest": true,
     "isProcessing": true,
-    "riskLastUpdatedDateTime": "2016-12-31T23:56:32.9362095+03:00",
+    "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
     "riskLevel": "String",
     "riskState": "String",
     "riskDetail": "String",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update azureADFeatureUsage
 
+Namespace: microsoft.graph
+
 Update the properties of a [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.azureADFeatureUsage not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [azureADFeatureUsage](../resources/azureADFeatureUsage.md) object.
+In the request body, supply a JSON representation for the [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.
 
 The following table shows the properties that are required when you create the [azureADFeatureUsage](../resources/azureadfeatureusage.md).
 
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.azureADFeatureUsage not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.azureADFeatureUsage not found
 Content-type: application/json
-Content-length: 176
+Content-length: 175
 
 {
   "@odata.type": "#microsoft.graph.azureADFeatureUsage",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "featureName": "Feature Name value",
   "usage": 5
 }
@@ -83,12 +85,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 225
+Content-Length: 224
 
 {
   "@odata.type": "#microsoft.graph.azureADFeatureUsage",
-  "id": "621fad09-ad09-621f-09ad-1f6209ad1f62",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "id": "dae653c6-53c6-dae6-c653-e6dac653e6da",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "featureName": "Feature Name value",
   "usage": 5
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # deleteUserFromSharedAppleDevice
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deleteUserFromSharedAppleDevice
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deleteUserFromSharedAppleDevice
 
 Content-type: application/json
 Content-length: 56

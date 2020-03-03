@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update securityBaselineState
 
+Namespace: microsoft.graph
+
 Update the properties of a [securityBaselineState](../resources/securitybaselinestate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBasel
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [securityBaselineState](../resources/securityBaselineState.md) object.
+In the request body, supply a JSON representation for the [securityBaselineState](../resources/securitybaselinestate.md) object.
 
 The following table shows the properties that are required when you create the [securityBaselineState](../resources/securitybaselinestate.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}
 Content-type: application/json
 Content-length: 175
 
@@ -85,7 +87,7 @@ Content-Length: 224
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineState",
-  "id": "22d26ce1-6ce1-22d2-e16c-d222e16cd222",
+  "id": "50ee8edf-8edf-50ee-df8e-ee50df8eee50",
   "securityBaselineTemplateId": "Security Baseline Template Id value",
   "displayName": "Display Name value"
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365GroupsActivityFileCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365GroupsActivityFileCountses](../api/office365groupsactivityfilecounts-list.md)|[office365GroupsActivityFileCounts](../resources/office365GroupsActivityFileCounts.md) collection|List properties and relationships of the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) objects.|
-|[Get office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-get.md)|[office365GroupsActivityFileCounts](../resources/office365GroupsActivityFileCounts.md)|Read properties and relationships of the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
-|[Create office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-create.md)|[office365GroupsActivityFileCounts](../resources/office365GroupsActivityFileCounts.md)|Create a new [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
+|[List office365GroupsActivityFileCountses](../api/office365groupsactivityfilecounts-list.md)|[office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) collection|List properties and relationships of the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) objects.|
+|[Get office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-get.md)|[office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md)|Read properties and relationships of the [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
+|[Create office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-create.md)|[office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md)|Create a new [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
 |[Delete office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-delete.md)|None|Deletes a [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md).|
-|[Update office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-update.md)|[office365GroupsActivityFileCounts](../resources/office365GroupsActivityFileCounts.md)|Update the properties of a [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
+|[Update office365GroupsActivityFileCounts](../api/office365groupsactivityfilecounts-update.md)|[office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md)|Update the properties of a [office365GroupsActivityFileCounts](../resources/office365groupsactivityfilecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

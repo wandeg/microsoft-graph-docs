@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add settingStates
 
+Namespace: microsoft.graph
+
 Add settingStates by posting to the settingStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaseli
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the securityBaselineSettingState object.
+In the request body, supply a JSON representation for the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.
 
-The following table shows the properties that are required when you create the securityBaselineSettingState.
+The following table shows the properties that are required when you create the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates
 Content-type: application/json
 Content-length: 185
 
@@ -89,7 +91,7 @@ Content-Length: 234
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineSettingState",
-  "id": "a25d86bb-86bb-a25d-bb86-5da2bb865da2",
+  "id": "a84fce29-ce29-a84f-29ce-4fa829ce4fa8",
   "settingName": "Setting Name value",
   "state": "String",
   "settingCategoryId": "Setting Category Id value"

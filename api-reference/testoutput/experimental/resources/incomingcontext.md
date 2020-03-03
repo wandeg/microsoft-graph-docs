@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # incomingContext resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,9 +18,9 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |observedParticipantId|String||
-|onBehalfOf|[identitySet](../resources/identitySet.md)||
+|onBehalfOf|[identitySet](../resources/identityset.md)||
 |sourceParticipantId|String||
-|transferor|[identitySet](../resources/identitySet.md)||
+|transferor|[identitySet](../resources/identityset.md)||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationSynchronizationError
 
+Namespace: microsoft.graph
+
 Deletes a [educationSynchronizationError](../resources/educationsynchronizationerror.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors/{educationSynchronizationErrorId}
+DELETE https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors/{educationSynchronizationErrorId}
 ```
 
 ### Response

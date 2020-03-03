@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List memberOf
 
+Namespace: microsoft.graph
+
 Get the directoryObjects from the memberOf navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/contacts/{contactsId}/memberOf
+GET https://graph.microsoft.com/localtest/contacts/{contactsId}/memberOf
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 210
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryObject",
-      "id": "98b7e341-e341-98b7-41e3-b79841e3b798",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00"
+      "id": "3ee17962-7962-3ee1-6279-e13e6279e13e",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # import
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|importedWindowsAutopilotDeviceIdentities|[importedWindowsAutopilotDeviceIdentity](../resources/importedWindowsAutopilotDeviceIdentity.md) collection||
+|importedWindowsAutopilotDeviceIdentities|[importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [importedWindowsAutopilotDeviceIdentity](../resources/importedWindowsAutopilotDeviceIdentity.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [importedWindowsAutopilotDeviceIdentity](../resources/importedwindowsautopilotdeviceidentity.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/importedWindowsAutopilotDeviceIdentities/import
+POST https://graph.microsoft.com/localtest/deviceManagement/importedWindowsAutopilotDeviceIdentities/import
 
 Content-type: application/json
 Content-length: 666
@@ -68,7 +70,7 @@ Content-length: 666
   "importedWindowsAutopilotDeviceIdentities": [
     {
       "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentity",
-      "id": "9e997c44-7c44-9e99-447c-999e447c999e",
+      "id": "def4d4cb-d4cb-def4-cbd4-f4decbd4f4de",
       "orderIdentifier": "Order Identifier value",
       "groupTag": "Group Tag value",
       "serialNumber": "Serial Number value",
@@ -101,7 +103,7 @@ Content-Length: 631
   "value": [
     {
       "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentity",
-      "id": "9e997c44-7c44-9e99-447c-999e447c999e",
+      "id": "def4d4cb-d4cb-def4-cbd4-f4decbd4f4de",
       "orderIdentifier": "Order Identifier value",
       "groupTag": "Group Tag value",
       "serialNumber": "Serial Number value",

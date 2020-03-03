@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userStatuses
 
+Namespace: microsoft.graph
+
 Add userStatuses by posting to the userStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/userStatuses/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userAppInstallStatus object.
+In the request body, supply a JSON representation for the [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) object.
 
-The following table shows the properties that are required when you create the userAppInstallStatus.
+The following table shows the properties that are required when you create the [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -52,7 +54,7 @@ The following table shows the properties that are required when you create the u
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userAppInstallStatus](../resources/userappinstallstatus.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) object in the response body.
 
 ## Example
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses
 Content-type: application/json
 Content-length: 239
 
@@ -93,7 +95,7 @@ Content-Length: 288
 
 {
   "@odata.type": "#microsoft.graph.userAppInstallStatus",
-  "id": "059349d6-49d6-0593-d649-9305d6499305",
+  "id": "546e56cb-56cb-546e-cb56-6e54cb566e54",
   "userName": "User Name value",
   "userPrincipalName": "User Principal Name value",
   "installedDeviceCount": 4,

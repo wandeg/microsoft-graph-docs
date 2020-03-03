@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsDeviceUsageUserDetail not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsDeviceUsageUserDetail not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 512
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsDeviceUsageUserDetail",
-    "id": "7b410dca-0dca-7b41-ca0d-417bca0d417b",
+    "id": "fa1e1d91-1d91-fa1e-911d-1efa911d1efa",
     "reportRefreshDate": "Date",
     "userPrincipalName": "User Principal Name value",
     "lastActivityDate": "Date",

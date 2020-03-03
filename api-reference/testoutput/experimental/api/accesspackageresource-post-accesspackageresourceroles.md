@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageResourceRoles
 
+Namespace: microsoft.graph
+
 Add accessPackageResourceRoles by posting to the accessPackageResourceRoles collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPack
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageResourceRole object.
+In the request body, supply a JSON representation for the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.
 
-The following table shows the properties that are required when you create the accessPackageResourceRole.
+The following table shows the properties that are required when you create the [accessPackageResourceRole](../resources/accesspackageresourcerole.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/accessPackageResources/{accessPackageResourcesId}/accessPackageResourceRoles
+POST https://graph.microsoft.com/localtest/accessPackageResources/{accessPackageResourcesId}/accessPackageResourceRoles
 Content-type: application/json
 Content-length: 222
 
@@ -92,7 +94,7 @@ Content-Length: 271
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRole",
-  "id": "1efea8ca-a8ca-1efe-caa8-fe1ecaa8fe1e",
+  "id": "d54e2aed-2aed-d54e-ed2a-4ed5ed2a4ed5",
   "displayName": "Display Name value",
   "description": "Description value",
   "originId": "Origin Id value",

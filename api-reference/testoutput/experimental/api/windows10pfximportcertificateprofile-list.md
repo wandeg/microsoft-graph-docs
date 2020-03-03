@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10PFXImportCertificateProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10PFXImportCertificateProfile](../resources/windows10pfximportcertificateprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10PFXImportCertificateProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10PFXImportCertificateProfile not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1258
+Content-Length: 1257
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10PFXImportCertificateProfile",
-      "id": "a16556fa-56fa-a165-fa56-65a1fa5665a1",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "87f95019-5019-87f9-1950-f9871950f987",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 1258
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

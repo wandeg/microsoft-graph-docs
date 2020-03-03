@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # reset
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/reset
+POST https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/reset
 ```
 
 ### Response

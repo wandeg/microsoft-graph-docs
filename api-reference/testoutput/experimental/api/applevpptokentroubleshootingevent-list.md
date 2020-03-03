@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List appleVppTokenTroubleshootingEvents
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [appleVppTokenTroubleshootingEvent](../resources/applevpptokentroubleshootingevent.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.appleVppTokenTroubleshootingEvent not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.appleVppTokenTroubleshootingEvent not found
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 1071
   "value": [
     {
       "@odata.type": "#microsoft.graph.appleVppTokenTroubleshootingEvent",
-      "id": "1e082cb6-2cb6-1e08-b62c-081eb62c081e",
-      "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+      "id": "ebbea97a-a97a-ebbe-7aa9-beeb7aa9beeb",
+      "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
       "correlationId": "Correlation Id value",
       "troubleshootingErrorDetails": {
         "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

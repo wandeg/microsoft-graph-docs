@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointSiteUsageSiteCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointSiteUsageSiteCountses](../api/sharepointsiteusagesitecounts-list.md)|[sharePointSiteUsageSiteCounts](../resources/sharePointSiteUsageSiteCounts.md) collection|List properties and relationships of the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) objects.|
-|[Get sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-get.md)|[sharePointSiteUsageSiteCounts](../resources/sharePointSiteUsageSiteCounts.md)|Read properties and relationships of the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
-|[Create sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-create.md)|[sharePointSiteUsageSiteCounts](../resources/sharePointSiteUsageSiteCounts.md)|Create a new [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
+|[List sharePointSiteUsageSiteCountses](../api/sharepointsiteusagesitecounts-list.md)|[sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) collection|List properties and relationships of the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) objects.|
+|[Get sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-get.md)|[sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md)|Read properties and relationships of the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
+|[Create sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-create.md)|[sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md)|Create a new [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
 |[Delete sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-delete.md)|None|Deletes a [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md).|
-|[Update sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-update.md)|[sharePointSiteUsageSiteCounts](../resources/sharePointSiteUsageSiteCounts.md)|Update the properties of a [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
+|[Update sharePointSiteUsageSiteCounts](../api/sharepointsiteusagesitecounts-update.md)|[sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md)|Update the properties of a [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementSettingCategory
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/categories/{deviceManagementSettingCategoryId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/categories/{deviceManagementSettingCategoryId}
 ```
 
 ### Response

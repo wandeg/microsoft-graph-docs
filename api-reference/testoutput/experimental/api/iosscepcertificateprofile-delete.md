@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete iosScepCertificateProfile
 
+Namespace: microsoft.graph
+
 Deletes a [iosScepCertificateProfile](../resources/iosscepcertificateprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosScepCertificateProfile not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosScepCertificateProfile not found
 ```
 
 ### Response

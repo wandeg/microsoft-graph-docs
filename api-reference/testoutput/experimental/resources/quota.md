@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # quota resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |deleted|Int64||
 |remaining|Int64||
 |state|String||
-|storagePlanInformation|[storagePlanInformation](../resources/storagePlanInformation.md)||
+|storagePlanInformation|[storagePlanInformation](../resources/storageplaninformation.md)||
 |total|Int64||
 |used|Int64||
 

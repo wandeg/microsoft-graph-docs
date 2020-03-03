@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getByPath
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}/getByPath(path='parameterValue')
+GET https://graph.microsoft.com/localtest/sites/{sitesId}/getByPath(path='parameterValue')
 ```
 
 ### Response
@@ -77,22 +79,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 923
+Content-Length: 922
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.site",
-    "id": "5c359121-9121-5c35-2191-355c2191355c",
+    "id": "492603bc-03bc-4926-bc03-2649bc032649",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference"

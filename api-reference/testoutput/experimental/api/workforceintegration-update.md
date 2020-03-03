@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workforceIntegration
 
+Namespace: microsoft.graph
+
 Update the properties of a [workforceIntegration](../resources/workforceintegration.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH /teamwork/workforceIntegrations/{workforceIntegrationId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workforceIntegration](../resources/workforceIntegration.md) object.
+In the request body, supply a JSON representation for the [workforceIntegration](../resources/workforceintegration.md) object.
 
 The following table shows the properties that are required when you create the [workforceIntegration](../resources/workforceintegration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |displayName|String||
 |apiVersion|Int32||
-|encryption|[workforceIntegrationEncryption](../resources/workforceIntegrationEncryption.md)||
+|encryption|[workforceIntegrationEncryption](../resources/workforceintegrationencryption.md)||
 |isActive|Boolean||
 |url|String||
 |supports|Enumeration|. Possible values are: `none`, `shift`, `swapRequest`, `userShiftPreferences`, `openShift`, `openShiftRequest`, `offerShiftRequest`, `unknownFutureValue`.|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teamwork/workforceIntegrations/{workforceIntegrationId}
+PATCH https://graph.microsoft.com/localtest/teamwork/workforceIntegrations/{workforceIntegrationId}
 Content-type: application/json
 Content-length: 344
 
@@ -96,13 +98,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 889
+Content-Length: 888
 
 {
   "@odata.type": "#microsoft.graph.workforceIntegration",
-  "id": "0ce9b8e3-b8e3-0ce9-e3b8-e90ce3b8e90c",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "2a6dc170-c170-2a6d-70c1-6d2a70c16d2a",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

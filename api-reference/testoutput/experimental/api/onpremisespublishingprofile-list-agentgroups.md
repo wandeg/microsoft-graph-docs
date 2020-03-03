@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List agentGroups
 
+Namespace: microsoft.graph
+
 Get the onPremisesAgentGroups from the agentGroups navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups
+GET https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 257
   "value": [
     {
       "@odata.type": "#microsoft.graph.onPremisesAgentGroup",
-      "id": "7b1dc0c4-c0c4-7b1d-c4c0-1d7bc4c01d7b",
+      "id": "87d3d3e5-d3e5-87d3-e5d3-d387e5d3d387",
       "displayName": "Display Name value",
       "publishingType": "String",
       "isDefault": true

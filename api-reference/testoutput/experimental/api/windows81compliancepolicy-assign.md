@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceCompliancePolicyAssignment](../resources/deviceCompliancePolicyAssignment.md) collection||
+|assignments|[deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [deviceCompliancePolicyAssignment](../resources/deviceCompliancePolicyAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows81CompliancePolicy not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows81CompliancePolicy not found/assign
 
 Content-type: application/json
 Content-length: 345
@@ -68,7 +70,7 @@ Content-length: 345
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "75eb51a0-51a0-75eb-a051-eb75a051eb75",
+      "id": "8379daad-daad-8379-adda-7983adda7983",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },
@@ -96,7 +98,7 @@ Content-Length: 339
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "75eb51a0-51a0-75eb-a051-eb75a051eb75",
+      "id": "8379daad-daad-8379-adda-7983adda7983",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

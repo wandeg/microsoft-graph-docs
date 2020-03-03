@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # itemActivityOLD resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,25 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get itemActivityOLD](../api/itemactivityold-get.md)|[itemActivityOLD](../resources/itemActivityOLD.md)|Read properties and relationships of the [itemActivityOLD](../resources/itemactivityold.md) object.|
+|[List itemActivityOLDs](../api/itemactivityold-list.md)|[itemActivityOLD](../resources/itemactivityold.md) collection|List properties and relationships of the [itemActivityOLD](../resources/itemactivityold.md) objects.|
+|[Get itemActivityOLD](../api/itemactivityold-get.md)|[itemActivityOLD](../resources/itemactivityold.md)|Read properties and relationships of the [itemActivityOLD](../resources/itemactivityold.md) object.|
+|[Create itemActivityOLD](../api/itemactivityold-create.md)|[itemActivityOLD](../resources/itemactivityold.md)|Create a new [itemActivityOLD](../resources/itemactivityold.md) object.|
 |[Delete itemActivityOLD](../api/itemactivityold-delete.md)|None|Deletes a [itemActivityOLD](../resources/itemactivityold.md).|
-|[Update itemActivityOLD](../api/itemactivityold-update.md)|[itemActivityOLD](../resources/itemActivityOLD.md)|Update the properties of a [itemActivityOLD](../resources/itemactivityold.md) object.|
-|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveItem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
-|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listItem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
+|[Update itemActivityOLD](../api/itemactivityold-update.md)|[itemActivityOLD](../resources/itemactivityold.md)|Update the properties of a [itemActivityOLD](../resources/itemactivityold.md) object.|
+|[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
+|[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|action|[itemActionSet](../resources/itemActionSet.md)||
-|actor|[identitySet](../resources/identitySet.md)||
+|action|[itemActionSet](../resources/itemactionset.md)||
+|actor|[identitySet](../resources/identityset.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|times|[itemActivityTimeSet](../resources/itemActivityTimeSet.md)||
+|times|[itemActivityTimeSet](../resources/itemactivitytimeset.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|driveItem|[driveItem](../resources/driveItem.md)||
-|listItem|[listItem](../resources/listItem.md)||
+|driveItem|[driveItem](../resources/driveitem.md)||
+|listItem|[listItem](../resources/listitem.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

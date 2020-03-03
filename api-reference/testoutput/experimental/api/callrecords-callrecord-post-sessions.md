@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add sessions
 
+Namespace: microsoft.graph.callRecords
+
 Add sessions by posting to the sessions collection.
 
 ## Permissions
@@ -36,24 +38,24 @@ POST /communications/callRecords/{callRecordId}/sessions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the session object.
+In the request body, supply a JSON representation for the [session](../resources/callrecords-session.md) object.
 
-The following table shows the properties that are required when you create the session.
+The following table shows the properties that are required when you create the [session](../resources/callrecords-session.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/callRecords-entity.md)|
+|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
 |modalities|Enumeration collection|. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `screenSharing`, `unknownFutureValue`.|
 |startDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
-|caller|[endpoint](../resources/callRecords-endpoint.md)||
-|callee|[endpoint](../resources/callRecords-endpoint.md)||
-|failureInfo|[failureInfo](../resources/callRecords-failureInfo.md)||
+|caller|[endpoint](../resources/callrecords-endpoint.md)||
+|callee|[endpoint](../resources/callrecords-endpoint.md)||
+|failureInfo|[failureInfo](../resources/callrecords-failureinfo.md)||
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [session](../resources/session.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [session](../resources/callrecords-session.md) object in the response body.
 
 ## Example
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/callRecords/{callRecordId}/sessions
+POST https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}/sessions
 Content-type: application/json
 Content-length: 707
 
@@ -74,8 +76,8 @@ Content-length: 707
   "modalities": [
     "String"
   ],
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {
@@ -110,12 +112,12 @@ Content-Length: 756
 
 {
   "@odata.type": "#microsoft.graph.callRecords.session",
-  "id": "77900896-0896-7790-9608-907796089077",
+  "id": "26004e0a-4e0a-2600-0a4e-00260a4e0026",
   "modalities": [
     "String"
   ],
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileContainedApp resource type
+
+
+Namespace: microsoft.graph
 
 An abstract class that represents a contained app in a mobileApp acting as a package.
 
@@ -19,7 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileContainedApp](../api/intune-apps-mobilecontainedapp-get.md)|[mobileContainedApp](../resources/intune-apps-mobileContainedApp.md)|Read properties and relationships of the [mobileContainedApp](../resources/mobilecontainedapp.md) object.|
+|[List mobileContainedApps](../api/intune-apps-mobilecontainedapp-list.md)|[mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md) collection|List properties and relationships of the [mobileContainedApp](../resources/mobilecontainedapp.md) objects.|
+|[Get mobileContainedApp](../api/intune-apps-mobilecontainedapp-get.md)|[mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md)|Read properties and relationships of the [mobileContainedApp](../resources/intune-apps-mobilecontainedapp.md) object.|
 
 ## Properties
 |Property|Type|Description|

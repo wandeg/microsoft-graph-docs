@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignedLicenses
 
+Namespace: microsoft.graph
+
 Get the macOsVppAppAssignedLicenses from the assignedLicenses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 342
   "value": [
     {
       "@odata.type": "#microsoft.graph.macOsVppAppAssignedLicense",
-      "id": "52a88d27-8d27-52a8-278d-a852278da852",
+      "id": "245232b3-32b3-2452-b332-5224b3325224",
       "userEmailAddress": "User Email Address value",
       "userId": "User Id value",
       "userName": "User Name value",

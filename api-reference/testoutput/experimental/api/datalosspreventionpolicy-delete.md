@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete dataLossPreventionPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicyId}
+DELETE https://graph.microsoft.com/localtest/informationProtection/dataLossPreventionPolicies/{dataLossPreventionPolicyId}
 ```
 
 ### Response

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # contentInfo resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |format|Enumeration|. Possible values are: `default`, `email`.|
 |identifier|String||
-|metadata|[keyValuePair](../resources/keyValuePair.md) collection||
+|metadata|[keyValuePair](../resources/keyvaluepair.md) collection||
 |state|Enumeration|. Possible values are: `rest`, `motion`, `use`.|
 
 ## Relationships

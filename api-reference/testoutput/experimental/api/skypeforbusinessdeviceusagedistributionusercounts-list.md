@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List skypeForBusinessDeviceUsageDistributionUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 376
   "value": [
     {
       "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts",
-      "id": "683f9284-9284-683f-8492-3f6884923f68",
+      "id": "252e87b6-87b6-252e-b687-2e25b6872e25",
       "reportRefreshDate": "Date",
       "windows": 7,
       "windowsPhone": 12,

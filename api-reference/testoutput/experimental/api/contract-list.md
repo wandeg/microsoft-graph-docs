@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List contracts
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [contract](../resources/contract.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/contracts
+GET https://graph.microsoft.com/localtest/contracts
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 411
   "value": [
     {
       "@odata.type": "#microsoft.graph.contract",
-      "id": "ac0de6a1-e6a1-ac0d-a1e6-0daca1e60dac",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "da2ac735-c735-da2a-35c7-2ada35c72ada",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "contractType": "Contract Type value",
-      "customerId": "c49f9156-9156-c49f-5691-9fc456919fc4",
+      "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
       "defaultDomainName": "Default Domain Name value",
       "displayName": "Display Name value"
     }

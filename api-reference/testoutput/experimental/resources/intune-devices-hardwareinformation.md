@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # hardwareInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -34,7 +35,7 @@ Namespace: microsoft.graph
 |osBuildNumber|String|Operating System Build Number on Android device|
 |phoneNumber|String|Phone number of the device|
 |serialNumber|String|Serial number.|
-|sharedDeviceCachedUsers|[sharedAppleDeviceUser](../resources/intune-devices-sharedAppleDeviceUser.md) collection|All users on the shared Apple device|
+|sharedDeviceCachedUsers|[sharedAppleDeviceUser](../resources/intune-devices-sharedappledeviceuser.md) collection|All users on the shared Apple device|
 |subscriberCarrier|String|Subscriber carrier of the device|
 |totalStorageSpace|Int64|Total storage space of the device.|
 |tpmSpecificationVersion|String|String that specifies the specification version.|

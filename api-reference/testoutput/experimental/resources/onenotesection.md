@@ -5,50 +5,53 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # onenoteSection resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)
+
+
+Inherits from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get onenoteSection](../api/onenotesection-get.md)|[onenoteSection](../resources/onenoteSection.md)|Read properties and relationships of the [onenoteSection](../resources/onenotesection.md) object.|
+|[List onenoteSections](../api/onenotesection-list.md)|[onenoteSection](../resources/onenotesection.md) collection|List properties and relationships of the [onenoteSection](../resources/onenotesection.md) objects.|
+|[Get onenoteSection](../api/onenotesection-get.md)|[onenoteSection](../resources/onenotesection.md)|Read properties and relationships of the [onenoteSection](../resources/onenotesection.md) object.|
+|[Create onenoteSection](../api/onenotesection-create.md)|[onenoteSection](../resources/onenotesection.md)|Create a new [onenoteSection](../resources/onenotesection.md) object.|
 |[Delete onenoteSection](../api/onenotesection-delete.md)|None|Deletes a [onenoteSection](../resources/onenotesection.md).|
-|[Update onenoteSection](../api/onenotesection-update.md)|[onenoteSection](../resources/onenoteSection.md)|Update the properties of a [onenoteSection](../resources/onenotesection.md) object.|
-|[copyToNotebook](../api/onenotesection-copytonotebook.md)|[onenoteOperation](../resources/onenoteOperation.md)||
-|[copyToSectionGroup](../api/onenotesection-copytosectiongroup.md)|[onenoteOperation](../resources/onenoteOperation.md)||
+|[Update onenoteSection](../api/onenotesection-update.md)|[onenoteSection](../resources/onenotesection.md)|Update the properties of a [onenoteSection](../resources/onenotesection.md) object.|
+|[copyToNotebook](../api/onenotesection-copytonotebook.md)|[onenoteOperation](../resources/onenoteoperation.md)||
+|[copyToSectionGroup](../api/onenotesection-copytosectiongroup.md)|[onenoteOperation](../resources/onenoteoperation.md)||
 |[Get notebook](../api/notebook-get.md)|[notebook](../resources/notebook.md)|Read properties and relationships of the [notebook](../resources/notebook.md) object.|
-|[Get sectionGroup](../api/sectiongroup-get.md)|[sectionGroup](../resources/sectionGroup.md)|Read properties and relationships of the [sectionGroup](../resources/sectiongroup.md) object.|
-|[List pages](../api/onenotesection-list-pages.md)|[onenotePage](../resources/onenotePage.md) collection|Get the onenotePages from the pages navigation property.|
-|[Add pages](../api/onenotesection-post-pages.md)|[onenotePage](../resources/onenotePage.md)|Add pages by posting to the pages collection.|
+|[Get sectionGroup](../api/sectiongroup-get.md)|[sectionGroup](../resources/sectiongroup.md)|Read properties and relationships of the [sectionGroup](../resources/sectiongroup.md) object.|
+|[List pages](../api/onenotesection-list-pages.md)|[onenotePage](../resources/onenotepage.md) collection|Get the onenotePages from the pages navigation property.|
+|[Add pages](../api/onenotesection-post-pages.md)|[onenotePage](../resources/onenotepage.md)|Add pages by posting to the pages collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
-|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
+|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isDefault|Boolean||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|links|[sectionLinks](../resources/sectionLinks.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|links|[sectionLinks](../resources/sectionlinks.md)||
 |pagesUrl|String||
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|pages|[onenotePage](../resources/onenotePage.md) collection||
+|pages|[onenotePage](../resources/onenotepage.md) collection||
 |parentNotebook|[notebook](../resources/notebook.md)||
-|parentSectionGroup|[sectionGroup](../resources/sectionGroup.md)||
+|parentSectionGroup|[sectionGroup](../resources/sectiongroup.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

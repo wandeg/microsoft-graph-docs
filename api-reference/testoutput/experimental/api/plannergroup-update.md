@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerGroup](../resources/plannergroup.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/joinedGroups/{groupId}/planner
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerGroup](../resources/plannerGroup.md) object.
+In the request body, supply a JSON representation for the [plannerGroup](../resources/plannergroup.md) object.
 
 The following table shows the properties that are required when you create the [plannerGroup](../resources/plannergroup.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groups/{groupsId}/planner
+PATCH https://graph.microsoft.com/localtest/groups/{groupsId}/planner
 Content-type: application/json
 Content-length: 54
 
@@ -82,7 +84,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.plannerGroup",
-  "id": "1b90e575-e575-1b90-75e5-901b75e5901b"
+  "id": "96730afc-0afc-9673-fc0a-7396fc0a7396"
 }
 ```
 

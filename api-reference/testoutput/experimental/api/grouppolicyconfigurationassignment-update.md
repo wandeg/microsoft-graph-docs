@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupPolicyConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/a
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupPolicyConfigurationAssignment](../resources/groupPolicyConfigurationAssignment.md) object.
+In the request body, supply a JSON representation for the [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) object.
 
 The following table shows the properties that are required when you create the [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The type of groups targeted the group policy configuration.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The type of groups targeted the group policy configuration.|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assignments/{groupPolicyConfigurationAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assignments/{groupPolicyConfigurationAssignmentId}
 Content-type: application/json
 Content-length: 174
 
@@ -86,8 +88,8 @@ Content-Length: 287
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-  "id": "63fd6a97-6a97-63fd-976a-fd63976afd63",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

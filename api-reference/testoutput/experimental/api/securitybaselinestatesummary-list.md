@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List securityBaselineStateSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.securityBaselineStateSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.securityBaselineStateSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 327
   "value": [
     {
       "@odata.type": "#microsoft.graph.securityBaselineStateSummary",
-      "id": "0dc89c26-9c26-0dc8-269c-c80d269cc80d",
+      "id": "fef4217c-217c-fef4-7c21-f4fe7c21f4fe",
       "secureCount": 11,
       "notSecureCount": 14,
       "unknownCount": 12,

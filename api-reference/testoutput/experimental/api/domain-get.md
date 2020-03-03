@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get domain
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [domain](../resources/domain.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/domains/{domainsId}
+GET https://graph.microsoft.com/localtest/domains/{domainsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 724
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "0230eb8b-eb8b-0230-8beb-30028beb3002",
+    "id": "91491c9e-1c9e-9149-9e1c-49919e1c4991",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,
@@ -89,7 +91,7 @@ Content-Length: 724
       "@odata.type": "microsoft.graph.domainState",
       "status": "Status value",
       "operation": "Operation value",
-      "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00"
+      "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00"
     }
   }
 }

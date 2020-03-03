@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete audioRoutingGroup
 
+Namespace: microsoft.graph
+
 Deletes a [audioRoutingGroup](../resources/audioroutinggroup.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications/calls/{callId}/audioRoutingGroups/{audioRoutingGroupId}
+DELETE https://graph.microsoft.com/localtest/communications/calls/{callId}/audioRoutingGroups/{audioRoutingGroupId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|officeConfigurationAssignments|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection||
+|officeConfigurationAssignments|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assign
+POST https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assign
 
 Content-type: application/json
 Content-length: 299
@@ -68,7 +70,7 @@ Content-length: 299
   "officeConfigurationAssignments": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "cdb94c6c-4c6c-cdb9-6c4c-b9cd6c4cb9cd",
+      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }
@@ -94,7 +96,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "cdb94c6c-4c6c-cdb9-6c4c-b9cd6c4cb9cd",
+      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }

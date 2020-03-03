@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get exactMatchUploadAgent
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/exactMatchUploadAgents/{exactMatchUploadAgentId}
+GET https://graph.microsoft.com/localtest/dataClassification/exactMatchUploadAgents/{exactMatchUploadAgentId}
 ```
 
 ### Response
@@ -73,9 +75,9 @@ Content-Length: 238
 {
   "value": {
     "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
-    "id": "2b200352-0352-2b20-5203-202b5203202b",
+    "id": "1721cbcf-cbcf-1721-cfcb-2117cfcb2117",
     "description": "Description value",
-    "creationDateTime": "2017-01-01T00:00:59.0982804+03:00"
+    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
   }
 }
 ```

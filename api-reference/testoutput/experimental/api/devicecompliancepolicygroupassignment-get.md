@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceCompliancePolicyGroupAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceCompliancePolicyGroupAssignment](../resources/devicecompliancepolicygroupassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceCompliancePolicyGroupAssignment not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceCompliancePolicyGroupAssignment not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 225
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCompliancePolicyGroupAssignment",
-    "id": "7a428692-8692-7a42-9286-427a9286427a",
+    "id": "081f893b-893b-081f-3b89-1f083b891f08",
     "targetGroupId": "Target Group Id value",
     "excludeGroup": true
   }

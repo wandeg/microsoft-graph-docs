@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete fileClassificationRequest
 
+Namespace: microsoft.graph
+
 Deletes a [fileClassificationRequest](../resources/fileclassificationrequest.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/classifyFile/{fileClassificationRequestId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/classifyFile/{fileClassificationRequestId}
 ```
 
 ### Response

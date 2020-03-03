@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assign
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the enrollmentConfigurationAssignment object.
+In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
-The following table shows the properties that are required when you create the enrollmentConfigurationAssignment.
+The following table shows the properties that are required when you create the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Represents an assignment to managed devices in the tenant|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Represents an assignment to managed devices in the tenant|
 |source|Enumeration|Type of resource used for deployment to a group, direct or policySet. Possible values are: `direct`, `policySets`.|
 |sourceId|String|Identifier for resource used for deployment to a group|
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments
+POST https://graph.microsoft.com/localtest/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments
 Content-type: application/json
 Content-length: 230
 
@@ -91,7 +93,7 @@ Content-Length: 279
 
 {
   "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-  "id": "54428a31-8a31-5442-318a-4254318a4254",
+  "id": "79d19b8c-9b8c-79d1-8c9b-d1798c9bd179",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

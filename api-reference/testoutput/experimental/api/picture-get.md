@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get picture
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [picture](../resources/picture.md) object.
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/picture/{pictureId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/picture/{pictureId}
 ```
 
 ### Response
@@ -76,7 +78,7 @@ Content-Length: 224
 {
   "value": {
     "@odata.type": "#microsoft.graph.picture",
-    "id": "79b7245c-245c-79b7-5c24-b7795c24b779",
+    "id": "94a23027-3027-94a2-2730-a2942730a294",
     "width": 5,
     "height": 6,
     "contentType": "Content Type value",

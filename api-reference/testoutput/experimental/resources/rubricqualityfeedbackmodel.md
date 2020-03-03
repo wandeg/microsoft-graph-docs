@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # rubricQualityFeedbackModel resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|feedback|[educationItemBody](../resources/educationItemBody.md)||
+|feedback|[educationItemBody](../resources/educationitembody.md)||
 |qualityId|String||
 
 ## Relationships

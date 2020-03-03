@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365ServicesUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365ServicesUserCountses](../api/office365servicesusercounts-list.md)|[office365ServicesUserCounts](../resources/office365ServicesUserCounts.md) collection|List properties and relationships of the [office365ServicesUserCounts](../resources/office365servicesusercounts.md) objects.|
-|[Get office365ServicesUserCounts](../api/office365servicesusercounts-get.md)|[office365ServicesUserCounts](../resources/office365ServicesUserCounts.md)|Read properties and relationships of the [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
-|[Create office365ServicesUserCounts](../api/office365servicesusercounts-create.md)|[office365ServicesUserCounts](../resources/office365ServicesUserCounts.md)|Create a new [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
+|[List office365ServicesUserCountses](../api/office365servicesusercounts-list.md)|[office365ServicesUserCounts](../resources/office365servicesusercounts.md) collection|List properties and relationships of the [office365ServicesUserCounts](../resources/office365servicesusercounts.md) objects.|
+|[Get office365ServicesUserCounts](../api/office365servicesusercounts-get.md)|[office365ServicesUserCounts](../resources/office365servicesusercounts.md)|Read properties and relationships of the [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
+|[Create office365ServicesUserCounts](../api/office365servicesusercounts-create.md)|[office365ServicesUserCounts](../resources/office365servicesusercounts.md)|Create a new [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
 |[Delete office365ServicesUserCounts](../api/office365servicesusercounts-delete.md)|None|Deletes a [office365ServicesUserCounts](../resources/office365servicesusercounts.md).|
-|[Update office365ServicesUserCounts](../api/office365servicesusercounts-update.md)|[office365ServicesUserCounts](../resources/office365ServicesUserCounts.md)|Update the properties of a [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
+|[Update office365ServicesUserCounts](../api/office365servicesusercounts-update.md)|[office365ServicesUserCounts](../resources/office365servicesusercounts.md)|Update the properties of a [office365ServicesUserCounts](../resources/office365servicesusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

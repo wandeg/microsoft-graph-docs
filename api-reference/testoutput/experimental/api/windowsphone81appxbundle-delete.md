@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsPhone81AppXBundle
 
+Namespace: microsoft.graph
+
 Deletes a [windowsPhone81AppXBundle](../resources/windowsphone81appxbundle.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsPhone81AppXBundle not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsPhone81AppXBundle not found
 ```
 
 ### Response

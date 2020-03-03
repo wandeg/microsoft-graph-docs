@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List oneDriveUsageAccountCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [oneDriveUsageAccountCounts](../resources/onedriveusageaccountcounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.oneDriveUsageAccountCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.oneDriveUsageAccountCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 346
   "value": [
     {
       "@odata.type": "#microsoft.graph.oneDriveUsageAccountCounts",
-      "id": "88c28f65-8f65-88c2-658f-c288658fc288",
+      "id": "90c802db-02db-90c8-db02-c890db02c890",
       "reportRefreshDate": "Date",
       "siteType": "Site Type value",
       "total": 5,

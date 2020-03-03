@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the managedEBookAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assignments
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 298
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedEBookAssignment",
-      "id": "0eb4b46a-b46a-0eb4-6ab4-b40e6ab4b40e",
+      "id": "744d8040-8040-744d-4080-4d7440804d74",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

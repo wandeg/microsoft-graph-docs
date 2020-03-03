@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get officeGraphInsights
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [officeGraphInsights](../resources/officegraphinsights.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights
+GET https://graph.microsoft.com/localtest/me/insights
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 133
 {
   "value": {
     "@odata.type": "#microsoft.graph.officeGraphInsights",
-    "id": "1e7a7cde-7cde-1e7a-de7c-7a1ede7c7a1e"
+    "id": "1c7b5d24-5d24-1c7b-245d-7b1c245d7b1c"
   }
 }
 ```

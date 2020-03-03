@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update embeddedSIMActivationCodePoolAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCod
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [embeddedSIMActivationCodePoolAssignment](../resources/embeddedSIMActivationCodePoolAssignment.md) object.
+In the request body, supply a JSON representation for the [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) object.
 
 The following table shows the properties that are required when you create the [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|The type of groups targeted by the embedded SIM activation code pool.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The type of groups targeted by the embedded SIM activation code pool.|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments/{embeddedSIMActivationCodePoolAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCodePoolId}/assignments/{embeddedSIMActivationCodePoolAssignmentId}
 Content-type: application/json
 Content-length: 179
 
@@ -85,7 +87,7 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-  "id": "3334bc32-bc32-3334-32bc-343332bc3433",
+  "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

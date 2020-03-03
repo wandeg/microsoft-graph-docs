@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementTroubleshootingEvent
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEv
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md) object.
+In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md).
 
@@ -44,9 +46,9 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |eventDateTime|DateTimeOffset|Time when the event occurred .|
 |correlationId|String|Id used for tracing the failure in the service.|
-|troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/deviceManagementTroubleshootingErrorDetails.md)|Object containing detailed information about the error and its remediation.|
+|troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/devicemanagementtroubleshootingerrordetails.md)|Object containing detailed information about the error and its remediation.|
 |eventName|String|Event Name corresponding to the Troubleshooting Event. It is an Optional field|
-|additionalInformation|[keyValuePair](../resources/keyValuePair.md) collection|A set of string key and string value pairs which provides additional information on the Troubleshooting event|
+|additionalInformation|[keyValuePair](../resources/keyvaluepair.md) collection|A set of string key and string value pairs which provides additional information on the Troubleshooting event|
 
 
 
@@ -63,13 +65,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
 Content-type: application/json
 Content-length: 852
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -110,8 +112,8 @@ Content-Length: 901
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "d5a6ce95-ce95-d5a6-95ce-a6d595cea6d5",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "id": "3707cc7c-cc7c-3707-7ccc-07377ccc0737",
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

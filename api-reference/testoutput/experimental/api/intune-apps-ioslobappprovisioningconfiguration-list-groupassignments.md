@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupAssignments
 
+Namespace: microsoft.graph
+
 Get the mobileAppProvisioningConfigGroupAssignments from the groupAssignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/groupAssignments
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/groupAssignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 223
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppProvisioningConfigGroupAssignment",
-      "id": "c69ac454-c454-c69a-54c4-9ac654c49ac6",
+      "id": "9d0c8489-8489-9d0c-8984-0c9d89840c9d",
       "targetGroupId": "Target Group Id value"
     }
   ]

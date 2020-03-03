@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStates
 
+Namespace: microsoft.graph
+
 Add deviceStates by posting to the deviceStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.se
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the securityBaselineDeviceState object.
+In the request body, supply a JSON representation for the [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md) object.
 
-The following table shows the properties that are required when you create the securityBaselineDeviceState.
+The following table shows the properties that are required when you create the [securityBaselineDeviceState](../resources/securitybaselinedevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStates
+POST https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStates
 Content-type: application/json
 Content-length: 310
 
@@ -74,7 +76,7 @@ Content-length: 310
   "deviceDisplayName": "Device Display Name value",
   "userPrincipalName": "User Principal Name value",
   "state": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00"
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00"
 }
 ```
 
@@ -93,12 +95,12 @@ Content-Length: 359
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineDeviceState",
-  "id": "c4fe953b-953b-c4fe-3b95-fec43b95fec4",
+  "id": "d5aa8e54-8e54-d5aa-548e-aad5548eaad5",
   "managedDeviceId": "Managed Device Id value",
   "deviceDisplayName": "Device Display Name value",
   "userPrincipalName": "User Principal Name value",
   "state": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00"
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete enrollmentConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
+DELETE https://graph.microsoft.com/localtest/me/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
 ```
 
 ### Response

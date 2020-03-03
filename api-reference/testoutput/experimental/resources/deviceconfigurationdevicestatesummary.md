@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceConfigurationDeviceStateSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationDeviceStateSummaries](../api/deviceconfigurationdevicestatesummary-list.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceConfigurationDeviceStateSummary.md) collection|List properties and relationships of the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) objects.|
-|[Get deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-get.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceConfigurationDeviceStateSummary.md)|Read properties and relationships of the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
-|[Create deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-create.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceConfigurationDeviceStateSummary.md)|Create a new [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
+|[List deviceConfigurationDeviceStateSummaries](../api/deviceconfigurationdevicestatesummary-list.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) collection|List properties and relationships of the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) objects.|
+|[Get deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-get.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md)|Read properties and relationships of the [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
+|[Create deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-create.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md)|Create a new [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
 |[Delete deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-delete.md)|None|Deletes a [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md).|
-|[Update deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-update.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceConfigurationDeviceStateSummary.md)|Update the properties of a [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
+|[Update deviceConfigurationDeviceStateSummary](../api/deviceconfigurationdevicestatesummary-update.md)|[deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md)|Update the properties of a [deviceConfigurationDeviceStateSummary](../resources/deviceconfigurationdevicestatesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

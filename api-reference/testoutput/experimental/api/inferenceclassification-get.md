@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get inferenceClassification
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [inferenceClassification](../resources/inferenceclassification.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/inferenceClassification
+GET https://graph.microsoft.com/localtest/me/inferenceClassification
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.inferenceClassification",
-    "id": "4c3fdc9f-dc9f-4c3f-9fdc-3f4c9fdc3f4c"
+    "id": "46925249-5249-4692-4952-924649529246"
   }
 }
 ```

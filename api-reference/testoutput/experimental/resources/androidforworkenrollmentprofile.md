@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidForWorkEnrollmentProfile resource type
+
+
+Namespace: microsoft.graph
 
 Enrollment Profile used to enroll COSU devices using Google's Cloud Management.
 
@@ -19,13 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-get.md)|[androidForWorkEnrollmentProfile](../resources/androidForWorkEnrollmentProfile.md)|Read properties and relationships of the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
+|[List androidForWorkEnrollmentProfiles](../api/androidforworkenrollmentprofile-list.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) collection|List properties and relationships of the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) objects.|
+|[Get androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-get.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Read properties and relationships of the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
+|[Create androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-create.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Create a new [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
 |[Delete androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-delete.md)|None|Deletes a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md).|
-|[Update androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-update.md)|[androidForWorkEnrollmentProfile](../resources/androidForWorkEnrollmentProfile.md)|Update the properties of a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
+|[Update androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-update.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Update the properties of a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
 |[revokeToken](../api/androidforworkenrollmentprofile-revoketoken.md)|None||
 |[createToken](../api/androidforworkenrollmentprofile-createtoken.md)|None||
-|[List androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-list-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidForWorkEnrollmentProfile.md) collection|Get the androidForWorkEnrollmentProfiles from the androidForWorkEnrollmentProfiles navigation property.|
-|[Add androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-post-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidForWorkEnrollmentProfile.md)|Add androidForWorkEnrollmentProfiles by posting to the androidForWorkEnrollmentProfiles collection.|
+|[List androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-list-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) collection|Get the androidForWorkEnrollmentProfiles from the androidForWorkEnrollmentProfiles navigation property.|
+|[Add androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-post-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Add androidForWorkEnrollmentProfiles by posting to the androidForWorkEnrollmentProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Date time the enrollment profile was last modified.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimeContent.md)|String used to generate a QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|String used to generate a QR code for the token.|
 |tokenExpirationDateTime|DateTimeOffset|Date time the most recently created token will expire.|
 |tokenValue|String|Value of the most recently created token for this enrollment profile.|
 

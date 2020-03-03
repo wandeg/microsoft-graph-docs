@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementPartner resource type
+
+
+Namespace: microsoft.graph
 
 Entity which represents a connection to device management partner.
 
@@ -19,17 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementPartner](../api/devicemanagementpartner-get.md)|[deviceManagementPartner](../resources/deviceManagementPartner.md)|Read properties and relationships of the [deviceManagementPartner](../resources/devicemanagementpartner.md) object.|
+|[List deviceManagementPartners](../api/devicemanagementpartner-list.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md) collection|List properties and relationships of the [deviceManagementPartner](../resources/devicemanagementpartner.md) objects.|
+|[Get deviceManagementPartner](../api/devicemanagementpartner-get.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md)|Read properties and relationships of the [deviceManagementPartner](../resources/devicemanagementpartner.md) object.|
+|[Create deviceManagementPartner](../api/devicemanagementpartner-create.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md)|Create a new [deviceManagementPartner](../resources/devicemanagementpartner.md) object.|
 |[Delete deviceManagementPartner](../api/devicemanagementpartner-delete.md)|None|Deletes a [deviceManagementPartner](../resources/devicemanagementpartner.md).|
-|[Update deviceManagementPartner](../api/devicemanagementpartner-update.md)|[deviceManagementPartner](../resources/deviceManagementPartner.md)|Update the properties of a [deviceManagementPartner](../resources/devicemanagementpartner.md) object.|
-|[List deviceManagementPartners](../api/intune-devices-devicemanagement-list-devicemanagementpartners.md)|[deviceManagementPartner](../resources/deviceManagementPartner.md) collection|Get the deviceManagementPartners from the deviceManagementPartners navigation property.|
-|[Add deviceManagementPartners](../api/intune-devices-devicemanagement-post-devicemanagementpartners.md)|[deviceManagementPartner](../resources/deviceManagementPartner.md)|Add deviceManagementPartners by posting to the deviceManagementPartners collection.|
+|[Update deviceManagementPartner](../api/devicemanagementpartner-update.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md)|Update the properties of a [deviceManagementPartner](../resources/devicemanagementpartner.md) object.|
+|[List deviceManagementPartners](../api/intune-devices-devicemanagement-list-devicemanagementpartners.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md) collection|Get the deviceManagementPartners from the deviceManagementPartners navigation property.|
+|[Add deviceManagementPartners](../api/intune-devices-devicemanagement-post-devicemanagementpartners.md)|[deviceManagementPartner](../resources/devicemanagementpartner.md)|Add deviceManagementPartners by posting to the deviceManagementPartners collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Partner display name|
-|groupsRequiringPartnerEnrollment|[deviceManagementPartnerAssignment](../resources/deviceManagementPartnerAssignment.md) collection|User groups that specifies whether enrollment is through partner.|
+|groupsRequiringPartnerEnrollment|[deviceManagementPartnerAssignment](../resources/devicemanagementpartnerassignment.md) collection|User groups that specifies whether enrollment is through partner.|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isConfigured|Boolean|Whether device management partner is configured or not|
 |lastHeartbeatDateTime|DateTimeOffset|Timestamp of last heartbeat after admin enabled option Connect to Device management Partner|

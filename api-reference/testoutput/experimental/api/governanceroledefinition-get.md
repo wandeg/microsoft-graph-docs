@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get governanceRoleDefinition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/governanceRoleDefinitions/{governanceRoleDefinitionsId}
+GET https://graph.microsoft.com/localtest/governanceRoleDefinitions/{governanceRoleDefinitionsId}
 ```
 
 ### Response
@@ -81,7 +83,7 @@ Content-Length: 300
 {
   "value": {
     "@odata.type": "#microsoft.graph.governanceRoleDefinition",
-    "id": "060f2ae1-2ae1-060f-e12a-0f06e12a0f06",
+    "id": "844a2f55-2f55-844a-552f-4a84552f4a84",
     "resourceId": "Resource Id value",
     "externalId": "External Id value",
     "templateId": "Template Id value",

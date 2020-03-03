@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -37,7 +39,7 @@ One of the following permissions is required to call this API. To learn more, in
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [plannerDelta](../resources/plannerDelta.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [plannerDelta](../resources/plannerdelta.md) collection in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerDelta",
-      "id": "241acbc6-cbc6-241a-c6cb-1a24c6cb1a24"
+      "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
     }
   ]
 }

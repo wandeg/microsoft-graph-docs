@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userExperienceAnalyticsDeviceStartupHistory
 
+Namespace: microsoft.graph
+
 Add userExperienceAnalyticsDeviceStartupHistory by posting to the userExperienceAnalyticsDeviceStartupHistory collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/userExperienceAnalyticsDeviceStartupHistory/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsDeviceStartupHistory object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsDeviceStartupHistory](../resources/intune-devices-userexperienceanalyticsdevicestartuphistory.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsDeviceStartupHistory.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsDeviceStartupHistory](../resources/intune-devices-userexperienceanalyticsdevicestartuphistory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ The following table shows the properties that are required when you create the u
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsDeviceStartupHistory](../resources/userexperienceanalyticsdevicestartuphistory.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsDeviceStartupHistory](../resources/intune-devices-userexperienceanalyticsdevicestartuphistory.md) object in the response body.
 
 ## Example
 
@@ -71,14 +73,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsDeviceStartupHistory
+POST https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsDeviceStartupHistory
 Content-type: application/json
 Content-length: 498
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceStartupHistory",
   "deviceId": "Device Id value",
-  "startTime": "2016-12-31T23:59:41.6500596+03:00",
+  "startTime": "2017-01-01T00:02:49.6370207+03:00",
   "coreBootTimeInMs": 0,
   "groupPolicyBootTimeInMs": 7,
   "featureUpdateBootTimeInMs": 9,
@@ -107,9 +109,9 @@ Content-Length: 547
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsDeviceStartupHistory",
-  "id": "a39d0365-0365-a39d-6503-9da365039da3",
+  "id": "3431c76a-c76a-3431-6ac7-31346ac73134",
   "deviceId": "Device Id value",
-  "startTime": "2016-12-31T23:59:41.6500596+03:00",
+  "startTime": "2017-01-01T00:02:49.6370207+03:00",
   "coreBootTimeInMs": 0,
   "groupPolicyBootTimeInMs": 7,
   "featureUpdateBootTimeInMs": 9,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get publishedResource
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [publishedResource](../resources/publishedresource.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources/{publishedResourceId}
+GET https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources/{publishedResourceId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 250
 {
   "value": {
     "@odata.type": "#microsoft.graph.publishedResource",
-    "id": "eb2819e7-19e7-eb28-e719-28ebe71928eb",
+    "id": "7fa4a67d-a67d-7fa4-7da6-a47f7da6a47f",
     "displayName": "Display Name value",
     "resourceName": "Resource Name value",
     "publishingType": "String"

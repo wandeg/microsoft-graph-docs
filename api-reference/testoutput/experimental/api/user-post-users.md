@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create user
 
+Namespace: microsoft.graph
+
 Create a new [user](../resources/user.md) object.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST /me/managedDevices/{managedDeviceId}/users
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the user object.
+In the request body, supply a JSON representation for the [user](../resources/user.md) object.
 
-The following table shows the properties that are required when you create the user.
+The following table shows the properties that are required when you create the [user](../resources/user.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
-|signInActivity|[signInActivity](../resources/signInActivity.md)||
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
+|signInActivity|[signInActivity](../resources/signinactivity.md)||
 |accountEnabled|Boolean||
 |ageGroup|String||
-|assignedLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
 |city|String||
 |companyName|String||
@@ -57,26 +59,26 @@ The following table shows the properties that are required when you create the u
 |createdDateTime|DateTimeOffset||
 |creationType|String||
 |department|String||
-|deviceKeys|[deviceKey](../resources/deviceKey.md) collection||
+|deviceKeys|[deviceKey](../resources/devicekey.md) collection||
 |displayName|String||
 |employeeId|String||
 |faxNumber|String||
 |givenName|String||
-|identities|[objectIdentity](../resources/objectIdentity.md) collection||
+|identities|[objectIdentity](../resources/objectidentity.md) collection||
 |imAddresses|String collection||
 |isResourceAccount|Boolean||
 |jobTitle|String||
 |lastPasswordChangeDateTime|DateTimeOffset||
 |legalAgeGroupClassification|String||
-|licenseAssignmentStates|[licenseAssignmentState](../resources/licenseAssignmentState.md) collection||
+|licenseAssignmentStates|[licenseAssignmentState](../resources/licenseassignmentstate.md) collection||
 |mail|String||
 |mailNickname|String||
 |mobilePhone|String||
 |onPremisesDistinguishedName|String||
-|onPremisesExtensionAttributes|[onPremisesExtensionAttributes](../resources/onPremisesExtensionAttributes.md)||
+|onPremisesExtensionAttributes|[onPremisesExtensionAttributes](../resources/onpremisesextensionattributes.md)||
 |onPremisesImmutableId|String||
 |onPremisesLastSyncDateTime|DateTimeOffset||
-|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onPremisesProvisioningError.md) collection||
+|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection||
 |onPremisesSecurityIdentifier|String||
 |onPremisesSyncEnabled|Boolean||
 |onPremisesDomainName|String||
@@ -84,12 +86,12 @@ The following table shows the properties that are required when you create the u
 |onPremisesUserPrincipalName|String||
 |otherMails|String collection||
 |passwordPolicies|String||
-|passwordProfile|[passwordProfile](../resources/passwordProfile.md)||
+|passwordProfile|[passwordProfile](../resources/passwordprofile.md)||
 |officeLocation|String||
 |postalCode|String||
 |preferredDataLocation|String||
 |preferredLanguage|String||
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |proxyAddresses|String collection||
 |refreshTokensValidFromDateTime|DateTimeOffset||
 |showInAddressList|Boolean||
@@ -102,8 +104,8 @@ The following table shows the properties that are required when you create the u
 |externalUserState|String||
 |externalUserStateChangeDateTime|String||
 |userType|String||
-|mailboxSettings|[mailboxSettings](../resources/mailboxSettings.md)||
-|identityUserRisk|[identityUserRisk](../resources/identityUserRisk.md)||
+|mailboxSettings|[mailboxSettings](../resources/mailboxsettings.md)||
+|identityUserRisk|[identityUserRisk](../resources/identityuserrisk.md)||
 |deviceEnrollmentLimit|Int32|The limit on the maximum number of devices that the user is permitted to enroll. Allowed values are 5 or 1000.|
 |aboutMe|String||
 |birthday|DateTimeOffset||
@@ -131,16 +133,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users
 Content-type: application/json
-Content-length: 7485
+Content-length: 7482
 
 {
   "@odata.type": "#microsoft.graph.user",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "signInActivity": {
     "@odata.type": "microsoft.graph.signInActivity",
-    "lastSignInDateTime": "2016-12-31T23:56:38.1704747+03:00",
+    "lastSignInDateTime": "2017-01-01T00:00:44.698105+03:00",
     "lastSignInRequestId": "Last Sign In Request Id value"
   },
   "accountEnabled": true,
@@ -149,18 +151,18 @@ Content-length: 7485
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "018663cc-63cc-0186-cc63-8601cc638601"
+        "d28f3feb-3feb-d28f-eb3f-8fd2eb3f8fd2"
       ],
-      "skuId": "57435096-5096-5743-9650-435796504357"
+      "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
     }
   ],
   "businessPhones": [
@@ -177,7 +179,7 @@ Content-length: 7485
       "@odata.type": "microsoft.graph.deviceKey",
       "keyType": "Key Type value",
       "keyMaterial": "a2V5TWF0ZXJpYWw=",
-      "deviceId": "b17cd4ef-d4ef-b17c-efd4-7cb1efd47cb1"
+      "deviceId": "688189fe-89fe-6881-fe89-8168fe898168"
     }
   ],
   "displayName": "Display Name value",
@@ -197,7 +199,7 @@ Content-length: 7485
   ],
   "isResourceAccount": true,
   "jobTitle": "Job Title value",
-  "lastPasswordChangeDateTime": "2017-01-01T00:03:20.3786017+03:00",
+  "lastPasswordChangeDateTime": "2016-12-31T23:57:01.5811029+03:00",
   "legalAgeGroupClassification": "Legal Age Group Classification value",
   "licenseAssignmentStates": [
     {
@@ -230,14 +232,14 @@ Content-length: 7485
     "extensionAttribute15": "Extension Attribute15 value"
   },
   "onPremisesImmutableId": "On Premises Immutable Id value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
     }
   ],
   "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -268,9 +270,9 @@ Content-length: 7485
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "refreshTokensValidFromDateTime": "2017-01-01T00:01:06.4301913+03:00",
+  "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
   "showInAddressList": true,
-  "signInSessionsValidFromDateTime": "2017-01-01T00:03:09.9007887+03:00",
+  "signInSessionsValidFromDateTime": "2017-01-01T00:01:26.7367124+03:00",
   "state": "State value",
   "streetAddress": "Street Address value",
   "surname": "Surname value",
@@ -307,8 +309,8 @@ Content-length: 7485
       "daysOfWeek": [
         "String"
       ],
-      "startTime": "11:59:42.6500000",
-      "endTime": "11:59:23.2530000",
+      "startTime": "12:02:50.6370000",
+      "endTime": "12:02:54.9570000",
       "timeZone": {
         "@odata.type": "microsoft.graph.timeZoneBase",
         "name": "Name value"
@@ -320,12 +322,12 @@ Content-length: 7485
   "identityUserRisk": {
     "@odata.type": "microsoft.graph.identityUserRisk",
     "level": "String",
-    "lastChangedDateTime": "2016-12-31T23:56:34.8332311+03:00"
+    "lastChangedDateTime": "2016-12-31T23:58:16.6283733+03:00"
   },
   "deviceEnrollmentLimit": 5,
   "aboutMe": "About Me value",
-  "birthday": "2017-01-01T00:03:13.7306563+03:00",
-  "hireDate": "2017-01-01T00:00:29.1235179+03:00",
+  "birthday": "2017-01-01T00:01:02.2766982+03:00",
+  "hireDate": "2017-01-01T00:03:11.1185624+03:00",
   "interests": [
     "Interests value"
   ],
@@ -357,15 +359,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 7593
+Content-Length: 7589
 
 {
   "@odata.type": "#microsoft.graph.user",
-  "id": "b3e21b10-1b10-b3e2-101b-e2b3101be2b3",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "a6723cb8-3cb8-a672-b83c-72a6b83c72a6",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "signInActivity": {
     "@odata.type": "microsoft.graph.signInActivity",
-    "lastSignInDateTime": "2016-12-31T23:56:38.1704747+03:00",
+    "lastSignInDateTime": "2017-01-01T00:00:44.698105+03:00",
     "lastSignInRequestId": "Last Sign In Request Id value"
   },
   "accountEnabled": true,
@@ -374,18 +376,18 @@ Content-Length: 7593
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "018663cc-63cc-0186-cc63-8601cc638601"
+        "d28f3feb-3feb-d28f-eb3f-8fd2eb3f8fd2"
       ],
-      "skuId": "57435096-5096-5743-9650-435796504357"
+      "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
     }
   ],
   "businessPhones": [
@@ -395,7 +397,7 @@ Content-Length: 7593
   "companyName": "Company Name value",
   "consentProvidedForMinor": "Consent Provided For Minor value",
   "country": "Country value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "creationType": "Creation Type value",
   "department": "Department value",
   "deviceKeys": [
@@ -403,7 +405,7 @@ Content-Length: 7593
       "@odata.type": "microsoft.graph.deviceKey",
       "keyType": "Key Type value",
       "keyMaterial": "a2V5TWF0ZXJpYWw=",
-      "deviceId": "b17cd4ef-d4ef-b17c-efd4-7cb1efd47cb1"
+      "deviceId": "688189fe-89fe-6881-fe89-8168fe898168"
     }
   ],
   "displayName": "Display Name value",
@@ -423,7 +425,7 @@ Content-Length: 7593
   ],
   "isResourceAccount": true,
   "jobTitle": "Job Title value",
-  "lastPasswordChangeDateTime": "2017-01-01T00:03:20.3786017+03:00",
+  "lastPasswordChangeDateTime": "2016-12-31T23:57:01.5811029+03:00",
   "legalAgeGroupClassification": "Legal Age Group Classification value",
   "licenseAssignmentStates": [
     {
@@ -456,14 +458,14 @@ Content-Length: 7593
     "extensionAttribute15": "Extension Attribute15 value"
   },
   "onPremisesImmutableId": "On Premises Immutable Id value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:01:54.8756248+03:00"
+      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
     }
   ],
   "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -494,9 +496,9 @@ Content-Length: 7593
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "refreshTokensValidFromDateTime": "2017-01-01T00:01:06.4301913+03:00",
+  "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
   "showInAddressList": true,
-  "signInSessionsValidFromDateTime": "2017-01-01T00:03:09.9007887+03:00",
+  "signInSessionsValidFromDateTime": "2017-01-01T00:01:26.7367124+03:00",
   "state": "State value",
   "streetAddress": "Street Address value",
   "surname": "Surname value",
@@ -533,8 +535,8 @@ Content-Length: 7593
       "daysOfWeek": [
         "String"
       ],
-      "startTime": "11:59:42.6500000",
-      "endTime": "11:59:23.2530000",
+      "startTime": "12:02:50.6370000",
+      "endTime": "12:02:54.9570000",
       "timeZone": {
         "@odata.type": "microsoft.graph.timeZoneBase",
         "name": "Name value"
@@ -546,12 +548,12 @@ Content-Length: 7593
   "identityUserRisk": {
     "@odata.type": "microsoft.graph.identityUserRisk",
     "level": "String",
-    "lastChangedDateTime": "2016-12-31T23:56:34.8332311+03:00"
+    "lastChangedDateTime": "2016-12-31T23:58:16.6283733+03:00"
   },
   "deviceEnrollmentLimit": 5,
   "aboutMe": "About Me value",
-  "birthday": "2017-01-01T00:03:13.7306563+03:00",
-  "hireDate": "2017-01-01T00:00:29.1235179+03:00",
+  "birthday": "2017-01-01T00:01:02.2766982+03:00",
+  "hireDate": "2017-01-01T00:03:11.1185624+03:00",
   "interests": [
     "Interests value"
   ],

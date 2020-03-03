@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List domainDnsCnameRecords
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [domainDnsCnameRecord](../resources/domaindnscnamerecord.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsCnameRecord not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsCnameRecord not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 371
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsCnameRecord",
-      "id": "e5698887-8887-e569-8788-69e5878869e5",
+      "id": "2011ef2e-ef2e-2011-2eef-11202eef1120",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

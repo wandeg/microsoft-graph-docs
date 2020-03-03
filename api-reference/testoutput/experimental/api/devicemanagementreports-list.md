@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementReportses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceManagementReports](../resources/devicemanagementreports.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagementReports not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagementReports not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 155
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementReports",
-      "id": "ecfcf482-f482-ecfc-82f4-fcec82f4fcec"
+      "id": "9848e393-e393-9848-93e3-489893e34898"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create macManagedAppProtection
 
+Namespace: microsoft.graph
+
 Create a new [macManagedAppProtection](../resources/macmanagedappprotection.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.macManagedAppProtection not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the macManagedAppProtection object.
+In the request body, supply a JSON representation for the [macManagedAppProtection](../resources/macmanagedappprotection.md) object.
 
-The following table shows the properties that are required when you create the macManagedAppProtection.
+The following table shows the properties that are required when you create the [macManagedAppProtection](../resources/macmanagedappprotection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.macManagedAppProtection not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.macManagedAppProtection not found
 Content-type: application/json
 Content-length: 65
 
@@ -83,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.macManagedAppProtection",
-  "id": "7a614793-4793-7a61-9347-617a9347617a"
+  "id": "bac05fed-5fed-bac0-ed5f-c0baed5fc0ba"
 }
 ```
 

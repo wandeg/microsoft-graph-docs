@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # visualInfo resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attribution|[imageInfo](../resources/imageInfo.md)||
+|attribution|[imageInfo](../resources/imageinfo.md)||
 |backgroundColor|String||
-|content|[Json](../resources/Json.md)||
+|content|[Json](../resources/json.md)||
 |description|String||
 |displayText|String||
 

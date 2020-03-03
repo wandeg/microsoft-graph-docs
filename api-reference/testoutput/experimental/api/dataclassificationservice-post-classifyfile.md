@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add classifyFile
 
+Namespace: microsoft.graph
+
 Add classifyFile by posting to the classifyFile collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataClassification/classifyFile/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the fileClassificationRequest object.
+In the request body, supply a JSON representation for the [fileClassificationRequest](../resources/fileclassificationrequest.md) object.
 
-The following table shows the properties that are required when you create the fileClassificationRequest.
+The following table shows the properties that are required when you create the [fileClassificationRequest](../resources/fileclassificationrequest.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataClassification/classifyFile
+POST https://graph.microsoft.com/localtest/dataClassification/classifyFile
 Content-type: application/json
 Content-length: 151
 
@@ -89,7 +91,7 @@ Content-Length: 200
 
 {
   "@odata.type": "#microsoft.graph.fileClassificationRequest",
-  "id": "0547285e-285e-0547-5e28-47055e284705",
+  "id": "25fefee6-fee6-25fe-e6fe-fe25e6fefe25",
   "file": "Stream",
   "sensitiveTypeIds": [
     "Sensitive Type Ids value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update securityBaselineStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.s
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md) object.
+In the request body, supply a JSON representation for the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.
 
 The following table shows the properties that are required when you create the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStateSummary
+PATCH https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStateSummary
 Content-type: application/json
 Content-length: 213
 
@@ -93,7 +95,7 @@ Content-Length: 262
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineStateSummary",
-  "id": "0dc89c26-9c26-0dc8-269c-c80d269cc80d",
+  "id": "fef4217c-217c-fef4-7c21-f4fe7c21f4fe",
   "secureCount": 11,
   "notSecureCount": 14,
   "unknownCount": 12,

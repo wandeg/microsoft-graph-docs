@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # namedLocation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List namedLocations](../api/namedlocation-list.md)|[namedLocation](../resources/namedLocation.md) collection|List properties and relationships of the [namedLocation](../resources/namedlocation.md) objects.|
-|[Get namedLocation](../api/namedlocation-get.md)|[namedLocation](../resources/namedLocation.md)|Read properties and relationships of the [namedLocation](../resources/namedlocation.md) object.|
-|[Create namedLocation](../api/namedlocation-create.md)|[namedLocation](../resources/namedLocation.md)|Create a new [namedLocation](../resources/namedlocation.md) object.|
+|[List namedLocations](../api/namedlocation-list.md)|[namedLocation](../resources/namedlocation.md) collection|List properties and relationships of the [namedLocation](../resources/namedlocation.md) objects.|
+|[Get namedLocation](../api/namedlocation-get.md)|[namedLocation](../resources/namedlocation.md)|Read properties and relationships of the [namedLocation](../resources/namedlocation.md) object.|
+|[Create namedLocation](../api/namedlocation-create.md)|[namedLocation](../resources/namedlocation.md)|Create a new [namedLocation](../resources/namedlocation.md) object.|
 |[Delete namedLocation](../api/namedlocation-delete.md)|None|Deletes a [namedLocation](../resources/namedlocation.md).|
-|[Update namedLocation](../api/namedlocation-update.md)|[namedLocation](../resources/namedLocation.md)|Update the properties of a [namedLocation](../resources/namedlocation.md) object.|
+|[Update namedLocation](../api/namedlocation-update.md)|[namedLocation](../resources/namedlocation.md)|Update the properties of a [namedLocation](../resources/namedlocation.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get customerPaymentJournal
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [customerPaymentJournal](../resources/customerpaymentjournal.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 403
 {
   "value": {
     "@odata.type": "#microsoft.graph.customerPaymentJournal",
-    "id": "0757ea13-ea13-0757-13ea-570713ea5707",
+    "id": "eb324685-4685-eb32-8546-32eb854632eb",
     "code": "Code value",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-    "balancingAccountId": "1f4f6a81-6a81-1f4f-816a-4f1f816a4f1f",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
     "balancingAccountNumber": "Balancing Account Number value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update presence
 
+Namespace: microsoft.graph
+
 Update the properties of a [presence](../resources/presence.md) object.
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/presence
+PATCH https://graph.microsoft.com/localtest/me/presence
 Content-type: application/json
 Content-length: 124
 
@@ -86,7 +88,7 @@ Content-Length: 173
 
 {
   "@odata.type": "#microsoft.graph.presence",
-  "id": "ba441c11-1c11-ba44-111c-44ba111c44ba",
+  "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
   "availability": "Availability value",
   "activity": "Activity value"
 }

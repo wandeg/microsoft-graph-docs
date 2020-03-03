@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add hostSecurityProfiles
 
+Namespace: microsoft.graph
+
 Add hostSecurityProfiles by posting to the hostSecurityProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /Security/hostSecurityProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the hostSecurityProfile object.
+In the request body, supply a JSON representation for the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.
 
-The following table shows the properties that are required when you create the hostSecurityProfile.
+The following table shows the properties that are required when you create the [hostSecurityProfile](../resources/hostsecurityprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,16 +53,16 @@ The following table shows the properties that are required when you create the h
 |isAzureAdRegistered|Boolean||
 |isHybridAzureDomainJoined|Boolean||
 |lastSeenDateTime|DateTimeOffset||
-|logonUsers|[logonUser](../resources/logonUser.md) collection||
+|logonUsers|[logonUser](../resources/logonuser.md) collection||
 |netBiosName|String||
-|networkInterfaces|[networkInterface](../resources/networkInterface.md) collection||
+|networkInterfaces|[networkInterface](../resources/networkinterface.md) collection||
 |os|String||
 |osVersion|String||
 |parentHost|String||
 |relatedHostIds|String collection||
 |riskScore|String||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -77,20 +79,20 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/hostSecurityProfiles
+POST https://graph.microsoft.com/localtest/Security/hostSecurityProfiles
 Content-type: application/json
-Content-length: 1560
+Content-length: 1559
 
 {
   "@odata.type": "#microsoft.graph.hostSecurityProfile",
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "fqdn": "Fqdn value",
   "isAzureAdJoined": true,
   "isAzureAdRegistered": true,
   "isHybridAzureDomainJoined": true,
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "logonUsers": [
     {
       "@odata.type": "microsoft.graph.logonUser",
@@ -145,19 +147,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1609
+Content-Length: 1608
 
 {
   "@odata.type": "#microsoft.graph.hostSecurityProfile",
-  "id": "61b7bc6c-bc6c-61b7-6cbc-b7616cbcb761",
+  "id": "ca4bc022-c022-ca4b-22c0-4bca22c04bca",
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
   "fqdn": "Fqdn value",
   "isAzureAdJoined": true,
   "isAzureAdRegistered": true,
   "isHybridAzureDomainJoined": true,
-  "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
   "logonUsers": [
     {
       "@odata.type": "microsoft.graph.logonUser",

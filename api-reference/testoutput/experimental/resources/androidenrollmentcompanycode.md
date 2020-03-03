@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidEnrollmentCompanyCode resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |enrollmentToken|String|Enrollment Token used by the User to enroll their device.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimeContent.md)|Generated QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Generated QR code for the token.|
 
 ## Relationships
 None

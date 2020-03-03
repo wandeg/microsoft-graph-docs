@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create deviceHealthScriptRunSummary
 
-Create a new [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Create a new [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceHealthScriptRunSummary not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceHealthScriptRunSummary object.
+In the request body, supply a JSON representation for the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object.
 
-The following table shows the properties that are required when you create the deviceHealthScriptRunSummary.
+The following table shows the properties that are required when you create the [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -57,7 +59,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [deviceHealthScriptRunSummary](../resources/intune-devices-devicehealthscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceHealthScriptRunSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceHealthScriptRunSummary not found
 Content-type: application/json
 Content-length: 494
 
@@ -83,7 +85,7 @@ Content-length: 494
   "remediationSkippedDeviceCount": 13,
   "issueReoccurredDeviceCount": 10,
   "remediationScriptErrorDeviceCount": 1,
-  "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+  "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
   "issueRemediatedCumulativeDeviceCount": 4
 }
 ```
@@ -103,7 +105,7 @@ Content-Length: 543
 
 {
   "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
-  "id": "015eddf6-ddf6-015e-f6dd-5e01f6dd5e01",
+  "id": "994a6ada-6ada-994a-da6a-4a99da6a4a99",
   "noIssueDetectedDeviceCount": 10,
   "issueDetectedDeviceCount": 8,
   "detectionScriptErrorDeviceCount": 15,
@@ -112,7 +114,7 @@ Content-Length: 543
   "remediationSkippedDeviceCount": 13,
   "issueReoccurredDeviceCount": 10,
   "remediationScriptErrorDeviceCount": 1,
-  "lastScriptRunDateTime": "2016-12-31T23:58:57.4056277+03:00",
+  "lastScriptRunDateTime": "2016-12-31T23:58:05.1341989+03:00",
   "issueRemediatedCumulativeDeviceCount": 4
 }
 ```

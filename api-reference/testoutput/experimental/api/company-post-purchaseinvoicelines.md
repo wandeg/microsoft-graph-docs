@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add purchaseInvoiceLines
 
+Namespace: microsoft.graph
+
 Add purchaseInvoiceLines by posting to the purchaseInvoiceLines collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/purchaseInvoiceLines/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the purchaseInvoiceLine object.
+In the request body, supply a JSON representation for the [purchaseInvoiceLine](../resources/purchaseinvoiceline.md) object.
 
-The following table shows the properties that are required when you create the purchaseInvoiceLine.
+The following table shows the properties that are required when you create the [purchaseInvoiceLine](../resources/purchaseinvoiceline.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -80,16 +82,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/purchaseInvoiceLines
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/purchaseInvoiceLines
 Content-type: application/json
 Content-length: 761
 
 {
   "@odata.type": "#microsoft.graph.purchaseInvoiceLine",
-  "documentId": "419d5728-5728-419d-2857-9d4128579d41",
+  "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
   "sequence": 8,
-  "itemId": "28a289c5-89c5-28a2-c589-a228c589a228",
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "lineType": "Line Type value",
   "description": "Description value",
   "unitCost": "4.2",
@@ -125,11 +127,11 @@ Content-Length: 810
 
 {
   "@odata.type": "#microsoft.graph.purchaseInvoiceLine",
-  "id": "db9b63f4-63f4-db9b-f463-9bdbf4639bdb",
-  "documentId": "419d5728-5728-419d-2857-9d4128579d41",
+  "id": "6299c7ce-c7ce-6299-cec7-9962cec79962",
+  "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
   "sequence": 8,
-  "itemId": "28a289c5-89c5-28a2-c589-a228c589a228",
-  "accountId": "7538836d-836d-7538-6d83-38756d833875",
+  "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
+  "accountId": "95554513-4513-9555-1345-559513455595",
   "lineType": "Line Type value",
   "description": "Description value",
   "unitCost": "4.2",

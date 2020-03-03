@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List webAccounts
 
+Namespace: microsoft.graph
+
 Get the webAccounts from the webAccounts navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/webAccounts
+GET https://graph.microsoft.com/localtest/me/profile/webAccounts
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1338
+Content-Length: 1337
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.webAccount",
-      "id": "821fafaf-afaf-821f-afaf-1f82afaf1f82",
+      "id": "37ea9a38-9a38-37ea-389a-ea37389aea37",
       "allowedAudiences": "String",
       "inference": {
         "@odata.type": "microsoft.graph.inferenceData",
         "confidenceScore": "Double",
         "userHasVerifiedAccuracy": true
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -92,7 +94,7 @@ Content-Length: 1338
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },

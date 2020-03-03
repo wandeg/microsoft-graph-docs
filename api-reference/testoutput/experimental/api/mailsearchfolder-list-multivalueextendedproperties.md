@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List multiValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/multiValueExtendedProperties
+GET https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/multiValueExtendedProperties
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 215
   "value": [
     {
       "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-      "id": "9dde930f-930f-9dde-0f93-de9d0f93de9d",
+      "id": "b7346fc8-6fc8-b734-c86f-34b7c86f34b7",
       "value": [
         "Value value"
       ]

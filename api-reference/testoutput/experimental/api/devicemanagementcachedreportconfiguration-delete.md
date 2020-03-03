@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementCachedReportConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/reports/cachedReportConfigurations/{deviceManagementCachedReportConfigurationId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/reports/cachedReportConfigurations/{deviceManagementCachedReportConfigurationId}
 ```
 
 ### Response

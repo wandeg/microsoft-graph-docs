@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List privilegedRoleSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.privilegedRoleSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.privilegedRoleSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 287
   "value": [
     {
       "@odata.type": "#microsoft.graph.privilegedRoleSummary",
-      "id": "96528db3-8db3-9652-b38d-5296b38d5296",
+      "id": "819ba627-a627-819b-27a6-9b8127a69b81",
       "status": "String",
       "usersCount": 10,
       "managedCount": 12,

@@ -5,40 +5,43 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # projectParticipation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [itemFacet](../resources/itemFacet.md)
+
+
+Inherits from [itemFacet](../resources/itemfacet.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get projectParticipation](../api/projectparticipation-get.md)|[projectParticipation](../resources/projectParticipation.md)|Read properties and relationships of the [projectParticipation](../resources/projectparticipation.md) object.|
+|[List projectParticipations](../api/projectparticipation-list.md)|[projectParticipation](../resources/projectparticipation.md) collection|List properties and relationships of the [projectParticipation](../resources/projectparticipation.md) objects.|
+|[Get projectParticipation](../api/projectparticipation-get.md)|[projectParticipation](../resources/projectparticipation.md)|Read properties and relationships of the [projectParticipation](../resources/projectparticipation.md) object.|
+|[Create projectParticipation](../api/projectparticipation-create.md)|[projectParticipation](../resources/projectparticipation.md)|Create a new [projectParticipation](../resources/projectparticipation.md) object.|
 |[Delete projectParticipation](../api/projectparticipation-delete.md)|None|Deletes a [projectParticipation](../resources/projectparticipation.md).|
-|[Update projectParticipation](../api/projectparticipation-update.md)|[projectParticipation](../resources/projectParticipation.md)|Update the properties of a [projectParticipation](../resources/projectparticipation.md) object.|
+|[Update projectParticipation](../api/projectparticipation-update.md)|[projectParticipation](../resources/projectparticipation.md)|Update the properties of a [projectParticipation](../resources/projectparticipation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
 |categories|String collection||
-|client|[companyDetail](../resources/companyDetail.md)||
-|colleagues|[relatedPerson](../resources/relatedPerson.md) collection||
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|detail|[positionDetail](../resources/positionDetail.md)||
+|client|[companyDetail](../resources/companydetail.md)||
+|colleagues|[relatedPerson](../resources/relatedperson.md) collection||
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|detail|[positionDetail](../resources/positiondetail.md)||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|sponsors|[relatedPerson](../resources/relatedPerson.md) collection||
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|sponsors|[relatedPerson](../resources/relatedperson.md) collection||
 
 ## Relationships
 None

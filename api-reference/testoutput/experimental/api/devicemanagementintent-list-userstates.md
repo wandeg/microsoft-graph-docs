@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStates
 
+Namespace: microsoft.graph
+
 Get the deviceManagementIntentUserStates from the userStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/userStates
+GET https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/userStates
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 378
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementIntentUserState",
-      "id": "e80dfd39-fd39-e80d-39fd-0de839fd0de8",
+      "id": "499dd460-d460-499d-60d4-9d4960d49d49",
       "userPrincipalName": "User Principal Name value",
       "userName": "User Name value",
       "deviceCount": 11,
-      "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
       "state": "String"
     }
   ]

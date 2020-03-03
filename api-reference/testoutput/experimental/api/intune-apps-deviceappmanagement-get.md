@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceAppManagement
 
-Read properties and relationships of the [deviceAppManagement](../resources/deviceappmanagement.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceAppManagement](../resources/deviceappmanagement.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceAppManagement](../resources/intune-apps-deviceappmanagement.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement
+GET https://graph.microsoft.com/localtest/deviceAppManagement
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 533
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceAppManagement",
-    "id": "cd57745c-745c-cd57-5c74-57cd5c7457cd",
-    "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:28.4643829+03:00",
+    "id": "343b45a8-45a8-343b-a845-3b34a8453b34",
+    "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:48.1203972+03:00",
     "isEnabledForMicrosoftStoreForBusiness": true,
     "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-    "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:57:14.9790392+03:00",
+    "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:51.8779493+03:00",
     "microsoftStoreForBusinessPortalSelection": "String"
   }
 }

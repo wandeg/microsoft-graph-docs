@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List trustFrameworks
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [trustFramework](../resources/trustframework.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.trustFramework not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.trustFramework not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 146
   "value": [
     {
       "@odata.type": "#microsoft.graph.trustFramework",
-      "id": "410b655a-655a-410b-5a65-0b415a650b41"
+      "id": "c0227738-7738-c022-3877-22c0387722c0"
     }
   ]
 }

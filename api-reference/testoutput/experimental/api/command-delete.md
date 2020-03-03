@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete command
 
+Namespace: microsoft.graph
+
 Deletes a [command](../resources/command.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/commands/{commandsId}
+DELETE https://graph.microsoft.com/localtest/commands/{commandsId}
 ```
 
 ### Response

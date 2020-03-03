@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get siteUsageStorage
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [siteUsageStorage](../resources/siteusagestorage.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.siteUsageStorage not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.siteUsageStorage not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 301
 {
   "value": {
     "@odata.type": "#microsoft.graph.siteUsageStorage",
-    "id": "5944a1b5-a1b5-5944-b5a1-4459b5a14459",
+    "id": "6c95ce11-ce11-6c95-11ce-956c11ce956c",
     "reportRefreshDate": "Date",
     "siteType": "Site Type value",
     "storageUsedInBytes": 2,

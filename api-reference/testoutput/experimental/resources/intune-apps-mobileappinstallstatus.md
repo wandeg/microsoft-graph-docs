@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppInstallStatus resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the installation state of a mobile app for a device.
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-get.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileAppInstallStatus.md)|Read properties and relationships of the [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object.|
-|[Delete mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-delete.md)|None|Deletes a [mobileAppInstallStatus](../resources/mobileappinstallstatus.md).|
-|[Update mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-update.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileAppInstallStatus.md)|Update the properties of a [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) object.|
-|[Get mobileApp](../api/intune-apps-mobileapp-get.md)|[mobileApp](../resources/intune-apps-mobileApp.md)|Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.|
+|[List mobileAppInstallStatuses](../api/intune-apps-mobileappinstallstatus-list.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) collection|List properties and relationships of the [mobileAppInstallStatus](../resources/mobileappinstallstatus.md) objects.|
+|[Get mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-get.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md)|Read properties and relationships of the [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.|
+|[Create mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-create.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md)|Create a new [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.|
+|[Delete mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-delete.md)|None|Deletes a [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md).|
+|[Update mobileAppInstallStatus](../api/intune-apps-mobileappinstallstatus-update.md)|[mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md)|Update the properties of a [mobileAppInstallStatus](../resources/intune-apps-mobileappinstallstatus.md) object.|
+|[Get mobileApp](../api/intune-apps-mobileapp-get.md)|[mobileApp](../resources/intune-apps-mobileapp.md)|Read properties and relationships of the [mobileApp](../resources/intune-apps-mobileapp.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|app|[mobileApp](../resources/intune-apps-mobileApp.md)|The navigation link to the mobile app.|
+|app|[mobileApp](../resources/intune-apps-mobileapp.md)|The navigation link to the mobile app.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

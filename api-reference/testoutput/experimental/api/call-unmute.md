@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # unmute
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [unmuteParticipantOperation](../resources/unmuteParticipantOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/unmute
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/unmute
 
 Content-type: application/json
 Content-length: 47
@@ -86,7 +88,7 @@ Content-Length: 291
 {
   "value": {
     "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-    "id": "2d433e00-3e00-2d43-003e-432d003e432d",
+    "id": "4a0cb051-b051-4a0c-51b0-0c4a51b00c4a",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

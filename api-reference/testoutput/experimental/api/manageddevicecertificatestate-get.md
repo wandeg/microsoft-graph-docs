@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedDeviceCertificateState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 1569
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceCertificateState",
-    "id": "11e07268-7268-11e0-6872-e0116872e011",
+    "id": "d20e886a-886a-d20e-6a88-0ed26a880ed2",
     "devicePlatform": "String",
     "certificateKeyUsage": "String",
     "certificateValidityPeriodUnits": "String",
@@ -83,9 +85,9 @@ Content-Length: 1569
     "certificateProfileDisplayName": "Certificate Profile Display Name value",
     "deviceDisplayName": "Device Display Name value",
     "userDisplayName": "User Display Name value",
-    "certificateExpirationDateTime": "2016-12-31T23:59:01.3955648+03:00",
-    "certificateLastIssuanceStateChangedDateTime": "2016-12-31T23:59:52.1845752+03:00",
-    "lastCertificateStateChangeDateTime": "2016-12-31T23:56:46.3178631+03:00",
+    "certificateExpirationDateTime": "2016-12-31T23:57:57.5583647+03:00",
+    "certificateLastIssuanceStateChangedDateTime": "2017-01-01T00:03:32.3703864+03:00",
+    "lastCertificateStateChangeDateTime": "2016-12-31T23:58:49.2604406+03:00",
     "certificateIssuer": "Certificate Issuer value",
     "certificateThumbprint": "Certificate Thumbprint value",
     "certificateSerialNumber": "Certificate Serial Number value",
@@ -94,7 +96,7 @@ Content-Length: 1569
     "certificateValidityPeriod": 9,
     "certificateSubjectNameFormatString": "Certificate Subject Name Format String value",
     "certificateSubjectAlternativeNameFormatString": "Certificate Subject Alternative Name Format String value",
-    "certificateIssuanceDateTime": "2017-01-01T00:00:11.2022147+03:00",
+    "certificateIssuanceDateTime": "2016-12-31T23:58:16.9914339+03:00",
     "certificateErrorCode": 4
   }
 }

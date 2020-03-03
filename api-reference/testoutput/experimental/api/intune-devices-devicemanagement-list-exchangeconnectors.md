@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List exchangeConnectors
 
+Namespace: microsoft.graph
+
 Get the deviceManagementExchangeConnectors from the exchangeConnectors navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/exchangeConnectors
+GET https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 604
+Content-Length: 605
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-      "id": "c054cd7c-cd7c-c054-7ccd-54c07ccd54c0",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "id": "07ec7178-7178-07ec-7871-ec077871ec07",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "status": "String",
       "primarySmtpAddress": "Primary Smtp Address value",
       "serverName": "Server Name value",

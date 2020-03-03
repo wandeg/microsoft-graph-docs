@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailboxUsageQuotaStatusMailboxCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxUsageQuotaStatusMailboxCounts.md) object.
+In the request body, supply a JSON representation for the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md) object.
 
 The following table shows the properties that are required when you create the [mailboxUsageQuotaStatusMailboxCounts](../resources/mailboxusagequotastatusmailboxcounts.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailboxUsageQuotaStatusMailboxCounts not found
 Content-type: application/json
 Content-length: 302
 
@@ -97,7 +99,7 @@ Content-Length: 351
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageQuotaStatusMailboxCounts",
-  "id": "1d2716ae-16ae-1d27-ae16-271dae16271d",
+  "id": "cec16fca-6fca-cec1-ca6f-c1ceca6fc1ce",
   "reportRefreshDate": "Date",
   "underLimit": 10,
   "warningIssued": 13,

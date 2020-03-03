@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sections
 
+Namespace: microsoft.graph
+
 Get the onenoteSections from the sections navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sections
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sections
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1208
+Content-Length: 1207
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteSection",
-      "id": "ca9c914a-914a-ca9c-4a91-9cca4a919cca",
+      "id": "326fe634-e634-326f-34e6-6f3234e66f32",
       "self": "Self value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "displayName": "Display Name value",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
@@ -90,7 +92,7 @@ Content-Length: 1208
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "isDefault": true,
       "links": {
         "@odata.type": "microsoft.graph.sectionLinks",

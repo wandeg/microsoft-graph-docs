@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create windowsManagementAppHealthSummary
 
-Create a new [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) object.
+Namespace: microsoft.graph
+
+Create a new [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.windowsManagementAppHealthSummary not
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsManagementAppHealthSummary object.
+In the request body, supply a JSON representation for the [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object.
 
-The following table shows the properties that are required when you create the windowsManagementAppHealthSummary.
+The following table shows the properties that are required when you create the [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the w
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [windowsManagementAppHealthSummary](../resources/intune-devices-windowsmanagementapphealthsummary.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsManagementAppHealthSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsManagementAppHealthSummary not found
 Content-type: application/json
 Content-length: 161
 
@@ -89,7 +91,7 @@ Content-Length: 210
 
 {
   "@odata.type": "#microsoft.graph.windowsManagementAppHealthSummary",
-  "id": "ac84d481-d481-ac84-81d4-84ac81d484ac",
+  "id": "edc16e39-6e39-edc1-396e-c1ed396ec1ed",
   "healthyDeviceCount": 2,
   "unhealthyDeviceCount": 4,
   "unknownDeviceCount": 2

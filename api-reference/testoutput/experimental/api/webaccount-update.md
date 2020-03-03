@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update webAccount
 
+Namespace: microsoft.graph
+
 Update the properties of a [webAccount](../resources/webaccount.md) object.
 
 ## Permissions
@@ -35,22 +37,22 @@ PATCH /me/profile/webAccounts/{webAccountId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [webAccount](../resources/webAccount.md) object.
+In the request body, supply a JSON representation for the [webAccount](../resources/webaccount.md) object.
 
 The following table shows the properties that are required when you create the [webAccount](../resources/webaccount.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
 |description|String||
 |userId|String||
-|service|[serviceInformation](../resources/serviceInformation.md)||
+|service|[serviceInformation](../resources/serviceinformation.md)||
 |statusMessage|String||
 |webUrl|String||
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/profile/webAccounts/{webAccountId}
+PATCH https://graph.microsoft.com/localtest/me/profile/webAccounts/{webAccountId}
 Content-type: application/json
 Content-length: 910
 
@@ -117,18 +119,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1161
+Content-Length: 1160
 
 {
   "@odata.type": "#microsoft.graph.webAccount",
-  "id": "821fafaf-afaf-821f-afaf-1f82afaf1f82",
+  "id": "37ea9a38-9a38-37ea-389a-ea37389aea37",
   "allowedAudiences": "String",
   "inference": {
     "@odata.type": "microsoft.graph.inferenceData",
     "confidenceScore": "Double",
     "userHasVerifiedAccuracy": true
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -143,7 +145,7 @@ Content-Length: 1161
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

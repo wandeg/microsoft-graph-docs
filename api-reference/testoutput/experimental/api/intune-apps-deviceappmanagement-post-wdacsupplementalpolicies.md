@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add wdacSupplementalPolicies
 
+Namespace: microsoft.graph
+
 Add wdacSupplementalPolicies by posting to the wdacSupplementalPolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/wdacSupplementalPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsDefenderApplicationControlSupplementalPolicy object.
+In the request body, supply a JSON representation for the [windowsDefenderApplicationControlSupplementalPolicy](../resources/windowsdefenderapplicationcontrolsupplementalpolicy.md) object.
 
-The following table shows the properties that are required when you create the windowsDefenderApplicationControlSupplementalPolicy.
+The following table shows the properties that are required when you create the [windowsDefenderApplicationControlSupplementalPolicy](../resources/windowsdefenderapplicationcontrolsupplementalpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies
+POST https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies
 Content-type: application/json
 Content-length: 404
 
@@ -78,7 +80,7 @@ Content-length: 404
   "content": "Y29udGVudA==",
   "contentFileName": "Content File Name value",
   "version": "Version value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ]
@@ -100,14 +102,14 @@ Content-Length: 517
 
 {
   "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicy",
-  "id": "af71ed9e-ed9e-af71-9eed-71af9eed71af",
+  "id": "e9f7fe24-fe24-e9f7-24fe-f7e924fef7e9",
   "displayName": "Display Name value",
   "description": "Description value",
   "content": "Y29udGVudA==",
   "contentFileName": "Content File Name value",
   "version": "Version value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ]

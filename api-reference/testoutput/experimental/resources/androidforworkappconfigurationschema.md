@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidForWorkAppConfigurationSchema resource type
+
+
+Namespace: microsoft.graph
 
 Schema describing an Android for Work application's custom configurations.
 
@@ -19,18 +20,20 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-get.md)|[androidForWorkAppConfigurationSchema](../resources/androidForWorkAppConfigurationSchema.md)|Read properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
+|[List androidForWorkAppConfigurationSchemas](../api/androidforworkappconfigurationschema-list.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) collection|List properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) objects.|
+|[Get androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-get.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Read properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
+|[Create androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-create.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Create a new [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
 |[Delete androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-delete.md)|None|Deletes a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md).|
-|[Update androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-update.md)|[androidForWorkAppConfigurationSchema](../resources/androidForWorkAppConfigurationSchema.md)|Update the properties of a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
-|[List androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-list-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidForWorkAppConfigurationSchema.md) collection|Get the androidForWorkAppConfigurationSchemas from the androidForWorkAppConfigurationSchemas navigation property.|
-|[Add androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-post-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidForWorkAppConfigurationSchema.md)|Add androidForWorkAppConfigurationSchemas by posting to the androidForWorkAppConfigurationSchemas collection.|
+|[Update androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-update.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Update the properties of a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
+|[List androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-list-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) collection|Get the androidForWorkAppConfigurationSchemas from the androidForWorkAppConfigurationSchemas navigation property.|
+|[Add androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-post-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Add androidForWorkAppConfigurationSchemas by posting to the androidForWorkAppConfigurationSchemas collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |exampleJson|Binary|UTF8 encoded byte array containing example JSON string conforming to this schema that demonstrates how to set the configuration for this app|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|schemaItems|[androidForWorkAppConfigurationSchemaItem](../resources/androidForWorkAppConfigurationSchemaItem.md) collection|Collection of items each representing a named configuration option in the schema|
+|schemaItems|[androidForWorkAppConfigurationSchemaItem](../resources/androidforworkappconfigurationschemaitem.md) collection|Collection of items each representing a named configuration option in the schema|
 
 ## Relationships
 None

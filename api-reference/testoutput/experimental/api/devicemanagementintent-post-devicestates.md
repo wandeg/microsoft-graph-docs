@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStates
 
+Namespace: microsoft.graph
+
 Add deviceStates by posting to the deviceStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/deviceStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementIntentDeviceState object.
+In the request body, supply a JSON representation for the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementIntentDeviceState.
+The following table shows the properties that are required when you create the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/deviceStates
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/deviceStates
 Content-type: application/json
 Content-length: 335
 
@@ -74,7 +76,7 @@ Content-length: 335
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceDisplayName": "Device Display Name value",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "state": "String",
   "deviceId": "Device Id value"
 }
@@ -95,11 +97,11 @@ Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceState",
-  "id": "8fcfaf00-af00-8fcf-00af-cf8f00afcf8f",
+  "id": "3bbb7e8f-7e8f-3bbb-8f7e-bb3b8f7ebb3b",
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceDisplayName": "Device Display Name value",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "state": "String",
   "deviceId": "Device Id value"
 }

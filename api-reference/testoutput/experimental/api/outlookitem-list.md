@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List outlookItems
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [outlookItem](../resources/outlookitem.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.outlookItem not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.outlookItem not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 375
+Content-Length: 374
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookItem",
-      "id": "4db53745-3745-4db5-4537-b54d4537b54d",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "9e9c37a4-37a4-9e9c-a437-9c9ea4379c9e",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"

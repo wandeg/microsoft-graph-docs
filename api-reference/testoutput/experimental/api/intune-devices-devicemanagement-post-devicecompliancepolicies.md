@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceCompliancePolicies
 
+Namespace: microsoft.graph
+
 Add deviceCompliancePolicies by posting to the deviceCompliancePolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceCompliancePolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCompliancePolicy object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicy](../resources/devicecompliancepolicy.md) object.
 
-The following table shows the properties that are required when you create the deviceCompliancePolicy.
+The following table shows the properties that are required when you create the [deviceCompliancePolicy](../resources/devicecompliancepolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies
 Content-type: application/json
 Content-length: 222
 
@@ -91,17 +93,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 394
+Content-Length: 393
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicy",
-  "id": "ccef0951-0951-ccef-5109-efcc5109efcc",
+  "id": "115d71c6-71c6-115d-c671-5d11c6715d11",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "version": 7
 }

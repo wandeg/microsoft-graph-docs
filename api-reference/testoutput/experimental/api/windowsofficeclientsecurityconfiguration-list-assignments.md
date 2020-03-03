@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the officeClientConfigurationAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "cdb94c6c-4c6c-cdb9-6c4c-b9cd6c4cb9cd",
+      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }

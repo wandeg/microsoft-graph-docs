@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get fileAssessmentRequest
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.fileAssessmentRequest not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.fileAssessmentRequest not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 821
+Content-Length: 820
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.fileAssessmentRequest",
-    "id": "2badf7f2-f7f2-2bad-f2f7-ad2bf2f7ad2b",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "id": "1a612a3c-2a3c-1a61-3c2a-611a3c2a611a",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "contentType": "String",
     "expectedAssessment": "String",
     "category": "String",

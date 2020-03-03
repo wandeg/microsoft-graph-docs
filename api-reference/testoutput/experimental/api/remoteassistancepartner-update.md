@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update remoteAssistancePartner
 
+Namespace: microsoft.graph
+
 Update the properties of a [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/remoteAssistancePartners/{remoteAssistancePartnerId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [remoteAssistancePartner](../resources/remoteAssistancePartner.md) object.
+In the request body, supply a JSON representation for the [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.
 
 The following table shows the properties that are required when you create the [remoteAssistancePartner](../resources/remoteassistancepartner.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/remoteAssistancePartners/{remoteAssistancePartnerId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/remoteAssistancePartners/{remoteAssistancePartnerId}
 Content-type: application/json
 Content-length: 262
 
@@ -71,7 +73,7 @@ Content-length: 262
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
 }
 ```
 
@@ -89,11 +91,11 @@ Content-Length: 311
 
 {
   "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-  "id": "cabfb8d2-b8d2-cabf-d2b8-bfcad2b8bfca",
+  "id": "af25d22f-d22f-af25-2fd2-25af2fd225af",
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
 }
 ```
 

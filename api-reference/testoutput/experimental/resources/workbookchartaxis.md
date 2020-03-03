@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartAxis resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,32 +20,32 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartAxises](../api/workbookchartaxis-list.md)|[workbookChartAxis](../resources/workbookChartAxis.md) collection|List properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) objects.|
-|[Get workbookChartAxis](../api/workbookchartaxis-get.md)|[workbookChartAxis](../resources/workbookChartAxis.md)|Read properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) object.|
-|[Create workbookChartAxis](../api/workbookchartaxis-create.md)|[workbookChartAxis](../resources/workbookChartAxis.md)|Create a new [workbookChartAxis](../resources/workbookchartaxis.md) object.|
+|[List workbookChartAxises](../api/workbookchartaxis-list.md)|[workbookChartAxis](../resources/workbookchartaxis.md) collection|List properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) objects.|
+|[Get workbookChartAxis](../api/workbookchartaxis-get.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Read properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) object.|
+|[Create workbookChartAxis](../api/workbookchartaxis-create.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Create a new [workbookChartAxis](../resources/workbookchartaxis.md) object.|
 |[Delete workbookChartAxis](../api/workbookchartaxis-delete.md)|None|Deletes a [workbookChartAxis](../resources/workbookchartaxis.md).|
-|[Update workbookChartAxis](../api/workbookchartaxis-update.md)|[workbookChartAxis](../resources/workbookChartAxis.md)|Update the properties of a [workbookChartAxis](../resources/workbookchartaxis.md) object.|
-|[Get workbookChartAxisFormat](../api/workbookchartaxisformat-get.md)|[workbookChartAxisFormat](../resources/workbookChartAxisFormat.md)|Read properties and relationships of the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.|
-|[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookChartGridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
-|[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookChartGridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
-|[Get workbookChartAxisTitle](../api/workbookchartaxistitle-get.md)|[workbookChartAxisTitle](../resources/workbookChartAxisTitle.md)|Read properties and relationships of the [workbookChartAxisTitle](../resources/workbookchartaxistitle.md) object.|
+|[Update workbookChartAxis](../api/workbookchartaxis-update.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Update the properties of a [workbookChartAxis](../resources/workbookchartaxis.md) object.|
+|[Get workbookChartAxisFormat](../api/workbookchartaxisformat-get.md)|[workbookChartAxisFormat](../resources/workbookchartaxisformat.md)|Read properties and relationships of the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.|
+|[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
+|[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
+|[Get workbookChartAxisTitle](../api/workbookchartaxistitle-get.md)|[workbookChartAxisTitle](../resources/workbookchartaxistitle.md)|Read properties and relationships of the [workbookChartAxisTitle](../resources/workbookchartaxistitle.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|majorUnit|[Json](../resources/Json.md)||
-|maximum|[Json](../resources/Json.md)||
-|minimum|[Json](../resources/Json.md)||
-|minorUnit|[Json](../resources/Json.md)||
+|majorUnit|[Json](../resources/json.md)||
+|maximum|[Json](../resources/json.md)||
+|minimum|[Json](../resources/json.md)||
+|minorUnit|[Json](../resources/json.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|format|[workbookChartAxisFormat](../resources/workbookChartAxisFormat.md)||
-|majorGridlines|[workbookChartGridlines](../resources/workbookChartGridlines.md)||
-|minorGridlines|[workbookChartGridlines](../resources/workbookChartGridlines.md)||
-|title|[workbookChartAxisTitle](../resources/workbookChartAxisTitle.md)||
+|format|[workbookChartAxisFormat](../resources/workbookchartaxisformat.md)||
+|majorGridlines|[workbookChartGridlines](../resources/workbookchartgridlines.md)||
+|minorGridlines|[workbookChartGridlines](../resources/workbookchartgridlines.md)||
+|title|[workbookChartAxisTitle](../resources/workbookchartaxistitle.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # conditionalAccessConditionSet resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|applications|[conditionalAccessApplications](../resources/conditionalAccessApplications.md)||
+|applications|[conditionalAccessApplications](../resources/conditionalaccessapplications.md)||
 |clientAppTypes|Enumeration collection||
-|deviceStates|[conditionalAccessDeviceStates](../resources/conditionalAccessDeviceStates.md)||
-|locations|[conditionalAccessLocations](../resources/conditionalAccessLocations.md)||
-|platforms|[conditionalAccessPlatforms](../resources/conditionalAccessPlatforms.md)||
+|deviceStates|[conditionalAccessDeviceStates](../resources/conditionalaccessdevicestates.md)||
+|locations|[conditionalAccessLocations](../resources/conditionalaccesslocations.md)||
+|platforms|[conditionalAccessPlatforms](../resources/conditionalaccessplatforms.md)||
 |signInRiskLevels|Enumeration collection||
-|users|[conditionalAccessUsers](../resources/conditionalAccessUsers.md)||
+|users|[conditionalAccessUsers](../resources/conditionalaccessusers.md)||
 
 ## Relationships
 None

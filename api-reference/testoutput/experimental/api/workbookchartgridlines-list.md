@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartGridlineses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartGridlines not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartGridlines not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 178
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartGridlines",
-      "id": "7fda67fc-67fc-7fda-fc67-da7ffc67da7f",
+      "id": "4a5003ef-03ef-4a50-ef03-504aef03504a",
       "visible": true
     }
   ]

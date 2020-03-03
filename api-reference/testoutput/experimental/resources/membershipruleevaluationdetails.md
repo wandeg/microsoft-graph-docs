@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # membershipRuleEvaluationDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|membershipRuleEvaluationDetails|[expressionEvaluationDetails](../resources/expressionEvaluationDetails.md)||
+|membershipRuleEvaluationDetails|[expressionEvaluationDetails](../resources/expressionevaluationdetails.md)||
 
 ## Relationships
 None

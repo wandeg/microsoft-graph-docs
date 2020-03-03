@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create privilegedAccess
 
+Namespace: microsoft.graph
+
 Create a new [privilegedAccess](../resources/privilegedaccess.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedAccess
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the privilegedAccess object.
+In the request body, supply a JSON representation for the [privilegedAccess](../resources/privilegedaccess.md) object.
 
-The following table shows the properties that are required when you create the privilegedAccess.
+The following table shows the properties that are required when you create the [privilegedAccess](../resources/privilegedaccess.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedAccess
+POST https://graph.microsoft.com/localtest/privilegedAccess
 Content-type: application/json
 Content-length: 98
 
@@ -85,7 +87,7 @@ Content-Length: 147
 
 {
   "@odata.type": "#microsoft.graph.privilegedAccess",
-  "id": "f51e3f15-3f15-f51e-153f-1ef5153f1ef5",
+  "id": "0d80c281-c281-0d80-81c2-800d81c2800d",
   "displayName": "Display Name value"
 }
 ```

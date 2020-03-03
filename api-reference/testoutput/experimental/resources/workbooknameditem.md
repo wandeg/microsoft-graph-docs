@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookNamedItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookNamedItem](../api/workbooknameditem-get.md)|[workbookNamedItem](../resources/workbookNamedItem.md)|Read properties and relationships of the [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[List workbookNamedItems](../api/workbooknameditem-list.md)|[workbookNamedItem](../resources/workbooknameditem.md) collection|List properties and relationships of the [workbookNamedItem](../resources/workbooknameditem.md) objects.|
+|[Get workbookNamedItem](../api/workbooknameditem-get.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Read properties and relationships of the [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[Create workbookNamedItem](../api/workbooknameditem-create.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Create a new [workbookNamedItem](../resources/workbooknameditem.md) object.|
 |[Delete workbookNamedItem](../api/workbooknameditem-delete.md)|None|Deletes a [workbookNamedItem](../resources/workbooknameditem.md).|
-|[Update workbookNamedItem](../api/workbooknameditem-update.md)|[workbookNamedItem](../resources/workbookNamedItem.md)|Update the properties of a [workbookNamedItem](../resources/workbooknameditem.md) object.|
-|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookWorksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
+|[Update workbookNamedItem](../api/workbooknameditem-update.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Update the properties of a [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,13 +35,13 @@ Inherits from [entity](../resources/entity.md)
 |name|String||
 |scope|String||
 |type|String||
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 |visible|Boolean||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|worksheet|[workbookWorksheet](../resources/workbookWorksheet.md)||
+|worksheet|[workbookWorksheet](../resources/workbookworksheet.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

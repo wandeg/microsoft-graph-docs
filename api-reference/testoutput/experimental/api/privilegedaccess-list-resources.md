@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List resources
 
+Namespace: microsoft.graph
+
 Get the governanceResources from the resources navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/resources
+GET https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/resources
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 414
   "value": [
     {
       "@odata.type": "#microsoft.graph.governanceResource",
-      "id": "8fd0522d-522d-8fd0-2d52-d08f2d52d08f",
+      "id": "07783df7-3df7-0778-f73d-7807f73d7807",
       "externalId": "External Id value",
       "type": "Type value",
       "displayName": "Display Name value",
       "status": "Status value",
-      "registeredDateTime": "2017-01-01T00:00:03.0159289+03:00",
+      "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
       "registeredRoot": "Registered Root value"
     }
   ]

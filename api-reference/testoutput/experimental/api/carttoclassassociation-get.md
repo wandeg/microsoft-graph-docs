@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get cartToClassAssociation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/cartToClassAssociations/{cartToClassAssociationId}
+GET https://graph.microsoft.com/localtest/deviceManagement/cartToClassAssociations/{cartToClassAssociationId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 488
+Content-Length: 487
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.cartToClassAssociation",
-    "id": "36aa71ae-71ae-36aa-ae71-aa36ae71aa36",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "f4785119-5119-f478-1951-78f4195178f4",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "version": 7,
     "displayName": "Display Name value",
     "description": "Description value",

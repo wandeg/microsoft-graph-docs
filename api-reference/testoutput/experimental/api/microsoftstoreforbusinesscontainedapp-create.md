@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create microsoftStoreForBusinessContainedApp
 
+Namespace: microsoft.graph
+
 Create a new [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.microsoftStoreForBusinessContainedApp
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the microsoftStoreForBusinessContainedApp object.
+In the request body, supply a JSON representation for the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md) object.
 
-The following table shows the properties that are required when you create the microsoftStoreForBusinessContainedApp.
+The following table shows the properties that are required when you create the [microsoftStoreForBusinessContainedApp](../resources/microsoftstoreforbusinesscontainedapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.microsoftStoreForBusinessContainedApp not found
 Content-type: application/json
 Content-length: 127
 
@@ -85,7 +87,7 @@ Content-Length: 176
 
 {
   "@odata.type": "#microsoft.graph.microsoftStoreForBusinessContainedApp",
-  "id": "d5ff2333-2333-d5ff-3323-ffd53323ffd5",
+  "id": "e2cae680-e680-e2ca-80e6-cae280e6cae2",
   "appUserModelId": "App User Model Id value"
 }
 ```

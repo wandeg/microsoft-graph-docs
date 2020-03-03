@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidDeviceOwnerEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidDeviceOwnerEnrollmentProfile](../resources/androiddeviceownerenrollmentprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwnerEnrollmentProfileId}
+GET https://graph.microsoft.com/localtest/deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwnerEnrollmentProfileId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 858
+Content-Length: 856
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidDeviceOwnerEnrollmentProfile",
-    "id": "fc84b379-b379-fc84-79b3-84fc79b384fc",
+    "id": "fb98f0ce-f0ce-fb98-cef0-98fbcef098fb",
     "accountId": "Account Id value",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "tokenValue": "Token Value value",
-    "tokenCreationDateTime": "2017-01-01T00:03:19.4248631+03:00",
-    "tokenExpirationDateTime": "2016-12-31T23:56:54.7194078+03:00",
+    "tokenCreationDateTime": "2017-01-01T00:00:30.448772+03:00",
+    "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
     "enrolledDeviceCount": 3,
     "qrCodeContent": "Qr Code Content value",
     "qrCodeImage": {

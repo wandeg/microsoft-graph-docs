@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List synchronizationProfiles
 
+Namespace: microsoft.graph
+
 Get the educationSynchronizationProfiles from the synchronizationProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/synchronizationProfiles
+GET https://graph.microsoft.com/localtest/education/synchronizationProfiles
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 790
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSynchronizationProfile",
-      "id": "e8fd2988-2988-e8fd-8829-fde88829fde8",
+      "id": "0926f8a0-f8a0-0926-a0f8-2609a0f82609",
       "displayName": "Display Name value",
       "dataProvider": {
         "@odata.type": "microsoft.graph.educationSynchronizationDataProvider"

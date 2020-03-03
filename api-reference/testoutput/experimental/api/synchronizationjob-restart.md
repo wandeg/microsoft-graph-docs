@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # restart
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|criteria|[synchronizationJobRestartCriteria](../resources/synchronizationJobRestartCriteria.md)||
+|criteria|[synchronizationJobRestartCriteria](../resources/synchronizationjobrestartcriteria.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/restart
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/restart
 
 Content-type: application/json
 Content-length: 127

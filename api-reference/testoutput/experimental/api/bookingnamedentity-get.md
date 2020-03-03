@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get bookingNamedEntity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [bookingNamedEntity](../resources/bookingnamedentity.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.bookingNamedEntity not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.bookingNamedEntity not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 174
 {
   "value": {
     "@odata.type": "#microsoft.graph.bookingNamedEntity",
-    "id": "319f6faa-6faa-319f-aa6f-9f31aa6f9f31",
+    "id": "dcbf6554-6554-dcbf-5465-bfdc5465bfdc",
     "displayName": "Display Name value"
   }
 }

@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # governancePolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|decisionMakerCriteria|[governanceCriteria](../resources/governanceCriteria.md) collection||
-|notificationPolicy|[governanceNotificationPolicy](../resources/governanceNotificationPolicy.md)||
+|decisionMakerCriteria|[governanceCriteria](../resources/governancecriteria.md) collection||
+|notificationPolicy|[governanceNotificationPolicy](../resources/governancenotificationpolicy.md)||
 
 ## Relationships
 None

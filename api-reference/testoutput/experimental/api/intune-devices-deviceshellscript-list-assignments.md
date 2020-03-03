@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the deviceManagementScriptAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceShellScripts/{deviceShellScriptId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceShellScripts/{deviceShellScriptId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementScriptAssignment",
-      "id": "9d3e8595-8595-9d3e-9585-3e9d95853e9d",
+      "id": "934103d3-03d3-9341-d303-4193d3034193",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

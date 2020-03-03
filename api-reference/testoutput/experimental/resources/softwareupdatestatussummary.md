@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # softwareUpdateStatusSummary resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List softwareUpdateStatusSummaries](../api/softwareupdatestatussummary-list.md)|[softwareUpdateStatusSummary](../resources/softwareUpdateStatusSummary.md) collection|List properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) objects.|
-|[Get softwareUpdateStatusSummary](../api/softwareupdatestatussummary-get.md)|[softwareUpdateStatusSummary](../resources/softwareUpdateStatusSummary.md)|Read properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
-|[Create softwareUpdateStatusSummary](../api/softwareupdatestatussummary-create.md)|[softwareUpdateStatusSummary](../resources/softwareUpdateStatusSummary.md)|Create a new [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
+|[List softwareUpdateStatusSummaries](../api/softwareupdatestatussummary-list.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) collection|List properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) objects.|
+|[Get softwareUpdateStatusSummary](../api/softwareupdatestatussummary-get.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Read properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
+|[Create softwareUpdateStatusSummary](../api/softwareupdatestatussummary-create.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Create a new [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
 |[Delete softwareUpdateStatusSummary](../api/softwareupdatestatussummary-delete.md)|None|Deletes a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md).|
-|[Update softwareUpdateStatusSummary](../api/softwareupdatestatussummary-update.md)|[softwareUpdateStatusSummary](../resources/softwareUpdateStatusSummary.md)|Update the properties of a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
+|[Update softwareUpdateStatusSummary](../api/softwareupdatestatussummary-update.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Update the properties of a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
 
 ## Properties
 |Property|Type|Description|

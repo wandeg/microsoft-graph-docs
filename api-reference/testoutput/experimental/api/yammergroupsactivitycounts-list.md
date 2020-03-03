@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List yammerGroupsActivityCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [yammerGroupsActivityCounts](../resources/yammergroupsactivitycounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.yammerGroupsActivityCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.yammerGroupsActivityCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.yammerGroupsActivityCounts",
-      "id": "94145b03-5b03-9414-035b-1494035b1494",
+      "id": "64d35fa4-5fa4-64d3-a45f-d364a45fd364",
       "reportRefreshDate": "Date",
       "liked": 5,
       "posted": 6,

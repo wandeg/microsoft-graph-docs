@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update office365ActiveUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.office365ActiveUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [office365ActiveUserDetail](../resources/office365ActiveUserDetail.md) object.
+In the request body, supply a JSON representation for the [office365ActiveUserDetail](../resources/office365activeuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [office365ActiveUserDetail](../resources/office365activeuserdetail.md).
 
@@ -82,7 +84,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.office365ActiveUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.office365ActiveUserDetail not found
 Content-type: application/json
 Content-length: 977
 
@@ -131,7 +133,7 @@ Content-Length: 1026
 
 {
   "@odata.type": "#microsoft.graph.office365ActiveUserDetail",
-  "id": "f706e6a6-e6a6-f706-a6e6-06f7a6e606f7",
+  "id": "188d3c66-3c66-188d-663c-8d18663c8d18",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "displayName": "Display Name value",

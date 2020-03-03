@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add taxGroups
 
+Namespace: microsoft.graph
+
 Add taxGroups by posting to the taxGroups collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/taxGroups/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the taxGroup object.
+In the request body, supply a JSON representation for the [taxGroup](../resources/taxgroup.md) object.
 
-The following table shows the properties that are required when you create the taxGroup.
+The following table shows the properties that are required when you create the [taxGroup](../resources/taxgroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/taxGroups
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/taxGroups
 Content-type: application/json
 Content-length: 147
 
@@ -90,11 +92,11 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.taxGroup",
-  "id": "2c36df91-df91-2c36-91df-362c91df362c",
+  "id": "3e37b4b5-b4b5-3e37-b5b4-373eb5b4373e",
   "code": "Code value",
   "displayName": "Display Name value",
   "taxType": "Tax Type value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

@@ -5,35 +5,36 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # countryNamedLocation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [namedLocation](../resources/namedLocation.md)
+
+
+Inherits from [namedLocation](../resources/namedlocation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List countryNamedLocations](../api/countrynamedlocation-list.md)|[countryNamedLocation](../resources/countryNamedLocation.md) collection|List properties and relationships of the [countryNamedLocation](../resources/countrynamedlocation.md) objects.|
-|[Get countryNamedLocation](../api/countrynamedlocation-get.md)|[countryNamedLocation](../resources/countryNamedLocation.md)|Read properties and relationships of the [countryNamedLocation](../resources/countrynamedlocation.md) object.|
-|[Create countryNamedLocation](../api/countrynamedlocation-create.md)|[countryNamedLocation](../resources/countryNamedLocation.md)|Create a new [countryNamedLocation](../resources/countrynamedlocation.md) object.|
+|[List countryNamedLocations](../api/countrynamedlocation-list.md)|[countryNamedLocation](../resources/countrynamedlocation.md) collection|List properties and relationships of the [countryNamedLocation](../resources/countrynamedlocation.md) objects.|
+|[Get countryNamedLocation](../api/countrynamedlocation-get.md)|[countryNamedLocation](../resources/countrynamedlocation.md)|Read properties and relationships of the [countryNamedLocation](../resources/countrynamedlocation.md) object.|
+|[Create countryNamedLocation](../api/countrynamedlocation-create.md)|[countryNamedLocation](../resources/countrynamedlocation.md)|Create a new [countryNamedLocation](../resources/countrynamedlocation.md) object.|
 |[Delete countryNamedLocation](../api/countrynamedlocation-delete.md)|None|Deletes a [countryNamedLocation](../resources/countrynamedlocation.md).|
-|[Update countryNamedLocation](../api/countrynamedlocation-update.md)|[countryNamedLocation](../resources/countryNamedLocation.md)|Update the properties of a [countryNamedLocation](../resources/countrynamedlocation.md) object.|
+|[Update countryNamedLocation](../api/countrynamedlocation-update.md)|[countryNamedLocation](../resources/countrynamedlocation.md)|Update the properties of a [countryNamedLocation](../resources/countrynamedlocation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |countriesAndRegions|String collection||
-|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
-|displayName|String| Inherited from [namedLocation](../resources/namedLocation.md)|
+|createdDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
+|displayName|String| Inherited from [namedLocation](../resources/namedlocation.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |includeUnknownCountriesAndRegions|Boolean||
-|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedLocation.md)|
+|modifiedDateTime|DateTimeOffset| Inherited from [namedLocation](../resources/namedlocation.md)|
 
 ## Relationships
 None

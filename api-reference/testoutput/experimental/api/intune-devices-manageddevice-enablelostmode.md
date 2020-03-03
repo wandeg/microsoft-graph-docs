@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # enableLostMode
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/enableLostMode
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/enableLostMode
 
 Content-type: application/json
 Content-length: 103

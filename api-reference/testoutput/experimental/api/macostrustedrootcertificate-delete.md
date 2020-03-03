@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete macOSTrustedRootCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [macOSTrustedRootCertificate](../resources/macostrustedrootcertificate.md).
 
 ## Permissions

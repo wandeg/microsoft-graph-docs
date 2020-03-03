@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get schema
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [schema](../resources/schema.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/connections/{connectionsId}/schema
+GET https://graph.microsoft.com/localtest/connections/{connectionsId}/schema
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 405
 {
   "value": {
     "@odata.type": "#microsoft.graph.schema",
-    "id": "cf2d9a22-9a22-cf2d-229a-2dcf229a2dcf",
+    "id": "22a09afe-9afe-22a0-fe9a-a022fe9aa022",
     "baseType": "Base Type value",
     "properties": [
       {

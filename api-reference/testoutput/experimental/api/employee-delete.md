@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete employee
 
+Namespace: microsoft.graph
+
 Deletes a [employee](../resources/employee.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/financials/companies/{companyId}/employees/{employeeId}
+DELETE https://graph.microsoft.com/localtest/financials/companies/{companyId}/employees/{employeeId}
 ```
 
 ### Response

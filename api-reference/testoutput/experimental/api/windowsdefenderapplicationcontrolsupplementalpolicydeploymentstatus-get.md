@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentstatus.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatusId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deviceStatuses/{windowsDefenderApplicationControlSupplementalPolicyDeploymentStatusId}
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 574
+Content-Length: 575
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus",
-    "id": "6dc86a8d-6a8d-6dc8-8d6a-c86d8d6ac86d",
+    "id": "0a6396aa-96aa-0a63-aa96-630aaa96630a",
     "deviceName": "Device Name value",
     "deviceId": "Device Id value",
-    "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
     "osVersion": "Os Version value",
     "osDescription": "Os Description value",
     "deploymentStatus": "String",

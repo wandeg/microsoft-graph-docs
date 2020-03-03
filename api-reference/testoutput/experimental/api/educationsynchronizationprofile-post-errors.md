@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add errors
 
+Namespace: microsoft.graph
+
 Add errors by posting to the errors collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /education/synchronizationProfiles/{educationSynchronizationProfileId}/erro
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationSynchronizationError object.
+In the request body, supply a JSON representation for the [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.
 
-The following table shows the properties that are required when you create the educationSynchronizationError.
+The following table shows the properties that are required when you create the [educationSynchronizationError](../resources/educationsynchronizationerror.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors
+POST https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/errors
 Content-type: application/json
 Content-length: 345
 
@@ -75,7 +77,7 @@ Content-length: 345
   "errorCode": "Error Code value",
   "errorMessage": "Error Message value",
   "joiningValue": "Joining Value value",
-  "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00",
+  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
   "reportableIdentifier": "Reportable Identifier value"
 }
 ```
@@ -95,12 +97,12 @@ Content-Length: 394
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationError",
-  "id": "9497babf-babf-9497-bfba-9794bfba9794",
+  "id": "00e492eb-92eb-00e4-eb92-e400eb92e400",
   "entryType": "Entry Type value",
   "errorCode": "Error Code value",
   "errorMessage": "Error Message value",
   "joiningValue": "Joining Value value",
-  "recordedDateTime": "2017-01-01T00:03:18.9258587+03:00",
+  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
   "reportableIdentifier": "Reportable Identifier value"
 }
 ```

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsDeviceUsageUserDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List teamsDeviceUsageUserDetails](../api/teamsdeviceusageuserdetail-list.md)|[teamsDeviceUsageUserDetail](../resources/teamsDeviceUsageUserDetail.md) collection|List properties and relationships of the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) objects.|
-|[Get teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-get.md)|[teamsDeviceUsageUserDetail](../resources/teamsDeviceUsageUserDetail.md)|Read properties and relationships of the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
-|[Create teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-create.md)|[teamsDeviceUsageUserDetail](../resources/teamsDeviceUsageUserDetail.md)|Create a new [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
+|[List teamsDeviceUsageUserDetails](../api/teamsdeviceusageuserdetail-list.md)|[teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) collection|List properties and relationships of the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) objects.|
+|[Get teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-get.md)|[teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md)|Read properties and relationships of the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
+|[Create teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-create.md)|[teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md)|Create a new [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
 |[Delete teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-delete.md)|None|Deletes a [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md).|
-|[Update teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-update.md)|[teamsDeviceUsageUserDetail](../resources/teamsDeviceUsageUserDetail.md)|Update the properties of a [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
+|[Update teamsDeviceUsageUserDetail](../api/teamsdeviceusageuserdetail-update.md)|[teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md)|Update the properties of a [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemEmail
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemEmail](../resources/itememail.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/emails/{itemEmailId}
+GET https://graph.microsoft.com/localtest/me/profile/emails/{itemEmailId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1022
+Content-Length: 1021
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemEmail",
-    "id": "8d644c9b-4c9b-8d64-9b4c-648d9b4c648d",
+    "id": "2bbea687-a687-2bbe-87a6-be2b87a6be2b",
     "allowedAudiences": "String",
     "inference": {
       "@odata.type": "microsoft.graph.inferenceData",
       "confidenceScore": "Double",
       "userHasVerifiedAccuracy": true
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,7 +96,7 @@ Content-Length: 1022
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidForWorkScepCertificateProfiles
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidForWorkScepCertificateProfile](../resources/androidforworkscepcertificateprofile.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidForWorkScepCertificateProfile not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidForWorkScepCertificateProfile not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2163
+Content-Length: 2162
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidForWorkScepCertificateProfile",
-      "id": "a94aeaf4-eaf4-a94a-f4ea-4aa9f4ea4aa9",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "f1dfcadf-cadf-f1df-dfca-dff1dfcadff1",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],
@@ -93,7 +95,7 @@ Content-Length: 2163
         "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
         "deviceMode": "String"
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

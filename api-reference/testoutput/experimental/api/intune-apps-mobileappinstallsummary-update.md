@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update mobileAppInstallSummary
 
-Update the properties of a [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/installSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppInstallSummary](../resources/mobileAppInstallSummary.md) object.
+In the request body, supply a JSON representation for the [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object.
 
-The following table shows the properties that are required when you create the [mobileAppInstallSummary](../resources/mobileappinstallsummary.md).
+The following table shows the properties that are required when you create the [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -56,7 +58,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [mobileAppInstallSummary](../resources/mobileappinstallsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [mobileAppInstallSummary](../resources/intune-apps-mobileappinstallsummary.md) object in the response body.
 
 ## Example
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/installSummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/installSummary
 Content-type: application/json
 Content-length: 374
 
@@ -101,7 +103,7 @@ Content-Length: 423
 
 {
   "@odata.type": "#microsoft.graph.mobileAppInstallSummary",
-  "id": "78579ca1-9ca1-7857-a19c-5778a19c5778",
+  "id": "71932d78-2d78-7193-782d-9371782d9371",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notApplicableDeviceCount": 8,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update securityBaselineSettingState
 
+Namespace: microsoft.graph
+
 Update the properties of a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBasel
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [securityBaselineSettingState](../resources/securityBaselineSettingState.md) object.
+In the request body, supply a JSON representation for the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.
 
 The following table shows the properties that are required when you create the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates/{securityBaselineSettingStateId}
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBaselineStateId}/settingStates/{securityBaselineSettingStateId}
 Content-type: application/json
 Content-length: 185
 
@@ -87,7 +89,7 @@ Content-Length: 234
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineSettingState",
-  "id": "a25d86bb-86bb-a25d-bb86-5da2bb865da2",
+  "id": "a84fce29-ce29-a84f-29ce-4fa829ce4fa8",
   "settingName": "Setting Name value",
   "state": "String",
   "settingCategoryId": "Setting Category Id value"

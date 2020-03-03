@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupPolicyPresentationTextBox
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupPolicyPresentationTextBox](../resources/grouppolicypresentationtextbox.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationTextBox not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationTextBox not found
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 327
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentationTextBox",
-    "id": "41caf3d8-f3d8-41ca-d8f3-ca41d8f3ca41",
+    "id": "bc276c94-6c94-bc27-946c-27bc946c27bc",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "defaultValue": "Default Value value",
     "required": true,
     "maxLength": 9

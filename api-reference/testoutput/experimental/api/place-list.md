@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List places
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [place](../resources/place.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/places
+GET https://graph.microsoft.com/localtest/places
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 841
   "value": [
     {
       "@odata.type": "#microsoft.graph.place",
-      "id": "e2e95a86-5a86-e2e9-865a-e9e2865ae9e2",
+      "id": "e803582e-582e-e803-2e58-03e82e5803e8",
       "displayName": "Display Name value",
       "geoCoordinates": {
         "@odata.type": "microsoft.graph.outlookGeoCoordinates",

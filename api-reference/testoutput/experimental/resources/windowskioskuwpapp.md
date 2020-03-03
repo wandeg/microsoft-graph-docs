@@ -5,27 +5,28 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsKioskUWPApp resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)
+
+
+Inherits from [windowsKioskAppBase](../resources/windowskioskappbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |appId|String|This references an Intune App that will be target to the same assignments as Kiosk configuration|
-|appType|Enumeration|The app type Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md). Possible values are: `unknown`, `store`, `desktop`, `aumId`.|
+|appType|Enumeration|The app type Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md). Possible values are: `unknown`, `store`, `desktop`, `aumId`.|
 |appUserModelId|String|This is the only Application User Model ID (AUMID) that will be available to launch use while in Kiosk Mode|
-|autoLaunch|Boolean|Allow the app to be auto-launched in multi-app kiosk mode Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)|
+|autoLaunch|Boolean|Allow the app to be auto-launched in multi-app kiosk mode Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md)|
 |containedAppId|String|This references an contained App from an Intune App|
-|name|String|Represents the friendly name of an app Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md)|
-|startLayoutTileSize|Enumeration|The app tile size for the start layout Inherited from [windowsKioskAppBase](../resources/windowsKioskAppBase.md). Possible values are: `hidden`, `small`, `medium`, `wide`, `large`.|
+|name|String|Represents the friendly name of an app Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md)|
+|startLayoutTileSize|Enumeration|The app tile size for the start layout Inherited from [windowsKioskAppBase](../resources/windowskioskappbase.md). Possible values are: `hidden`, `small`, `medium`, `wide`, `large`.|
 
 ## Relationships
 None

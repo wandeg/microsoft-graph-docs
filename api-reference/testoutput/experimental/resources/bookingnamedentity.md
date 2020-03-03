@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # bookingNamedEntity resource type
+
+
+Namespace: microsoft.graph
 
 Booking entities that provide a display name.
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List bookingNamedEntities](../api/bookingnamedentity-list.md)|[bookingNamedEntity](../resources/bookingNamedEntity.md) collection|List properties and relationships of the [bookingNamedEntity](../resources/bookingnamedentity.md) objects.|
-|[Get bookingNamedEntity](../api/bookingnamedentity-get.md)|[bookingNamedEntity](../resources/bookingNamedEntity.md)|Read properties and relationships of the [bookingNamedEntity](../resources/bookingnamedentity.md) object.|
+|[List bookingNamedEntities](../api/bookingnamedentity-list.md)|[bookingNamedEntity](../resources/bookingnamedentity.md) collection|List properties and relationships of the [bookingNamedEntity](../resources/bookingnamedentity.md) objects.|
+|[Get bookingNamedEntity](../api/bookingnamedentity-get.md)|[bookingNamedEntity](../resources/bookingnamedentity.md)|Read properties and relationships of the [bookingNamedEntity](../resources/bookingnamedentity.md) object.|
 
 ## Properties
 |Property|Type|Description|

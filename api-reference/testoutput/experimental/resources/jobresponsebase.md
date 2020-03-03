@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # jobResponseBase resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get jobResponseBase](../api/jobresponsebase-get.md)|[jobResponseBase](../resources/jobResponseBase.md)|Read properties and relationships of the [jobResponseBase](../resources/jobresponsebase.md) object.|
+|[List jobResponseBases](../api/jobresponsebase-list.md)|[jobResponseBase](../resources/jobresponsebase.md) collection|List properties and relationships of the [jobResponseBase](../resources/jobresponsebase.md) objects.|
+|[Get jobResponseBase](../api/jobresponsebase-get.md)|[jobResponseBase](../resources/jobresponsebase.md)|Read properties and relationships of the [jobResponseBase](../resources/jobresponsebase.md) object.|
+|[Create jobResponseBase](../api/jobresponsebase-create.md)|[jobResponseBase](../resources/jobresponsebase.md)|Create a new [jobResponseBase](../resources/jobresponsebase.md) object.|
 |[Delete jobResponseBase](../api/jobresponsebase-delete.md)|None|Deletes a [jobResponseBase](../resources/jobresponsebase.md).|
-|[Update jobResponseBase](../api/jobresponsebase-update.md)|[jobResponseBase](../resources/jobResponseBase.md)|Update the properties of a [jobResponseBase](../resources/jobresponsebase.md) object.|
+|[Update jobResponseBase](../api/jobresponsebase-update.md)|[jobResponseBase](../resources/jobresponsebase.md)|Update the properties of a [jobResponseBase](../resources/jobresponsebase.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |creationDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
-|error|[classificationError](../resources/classificationError.md)||
+|error|[classificationError](../resources/classificationerror.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |startDateTime|DateTimeOffset||
 |status|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete importedAppleDeviceIdentity
 
+Namespace: microsoft.graph
+
 Deletes a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAppleDeviceIdentities/{importedAppleDeviceIdentityId}
 ```
 
 ### Response

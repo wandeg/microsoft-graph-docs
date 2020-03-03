@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # governanceRoleAssignmentRequest resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,14 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-get.md)|[governanceRoleAssignmentRequest](../resources/governanceRoleAssignmentRequest.md)|Read properties and relationships of the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.|
+|[List governanceRoleAssignmentRequests](../api/governanceroleassignmentrequest-list.md)|[governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) collection|List properties and relationships of the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) objects.|
+|[Get governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-get.md)|[governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md)|Read properties and relationships of the [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.|
+|[Create governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-post-governanceroleassignmentrequests.md)|[governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md)|Create a new [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.|
 |[Delete governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-delete.md)|None|Deletes a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md).|
-|[Update governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-update.md)|[governanceRoleAssignmentRequest](../resources/governanceRoleAssignmentRequest.md)|Update the properties of a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.|
+|[Update governanceRoleAssignmentRequest](../api/governanceroleassignmentrequest-update.md)|[governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md)|Update the properties of a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) object.|
 |[cancel](../api/governanceroleassignmentrequest-cancel.md)|None||
-|[updateRequest](../api/governanceroleassignmentrequest-updaterequest.md)|[governanceRoleAssignmentRequest](../resources/governanceRoleAssignmentRequest.md)||
-|[Get governanceResource](../api/governanceresource-get.md)|[governanceResource](../resources/governanceResource.md)|Read properties and relationships of the [governanceResource](../resources/governanceresource.md) object.|
-|[Get governanceRoleDefinition](../api/governanceroledefinition-get.md)|[governanceRoleDefinition](../resources/governanceRoleDefinition.md)|Read properties and relationships of the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.|
-|[Get governanceSubject](../api/governancesubject-get.md)|[governanceSubject](../resources/governanceSubject.md)|Read properties and relationships of the [governanceSubject](../resources/governancesubject.md) object.|
+|[updateRequest](../api/governanceroleassignmentrequest-updaterequest.md)|[governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md)||
+|[Get governanceResource](../api/governanceresource-get.md)|[governanceResource](../resources/governanceresource.md)|Read properties and relationships of the [governanceResource](../resources/governanceresource.md) object.|
+|[Get governanceRoleDefinition](../api/governanceroledefinition-get.md)|[governanceRoleDefinition](../resources/governanceroledefinition.md)|Read properties and relationships of the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.|
+|[Get governanceSubject](../api/governancesubject-get.md)|[governanceSubject](../resources/governancesubject.md)|Read properties and relationships of the [governanceSubject](../resources/governancesubject.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,17 +41,17 @@ Inherits from [entity](../resources/entity.md)
 |requestedDateTime|DateTimeOffset||
 |resourceId|String||
 |roleDefinitionId|String||
-|schedule|[governanceSchedule](../resources/governanceSchedule.md)||
-|status|[governanceRoleAssignmentRequestStatus](../resources/governanceRoleAssignmentRequestStatus.md)||
+|schedule|[governanceSchedule](../resources/governanceschedule.md)||
+|status|[governanceRoleAssignmentRequestStatus](../resources/governanceroleassignmentrequeststatus.md)||
 |subjectId|String||
 |type|String||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|resource|[governanceResource](../resources/governanceResource.md)||
-|roleDefinition|[governanceRoleDefinition](../resources/governanceRoleDefinition.md)||
-|subject|[governanceSubject](../resources/governanceSubject.md)||
+|resource|[governanceResource](../resources/governanceresource.md)||
+|roleDefinition|[governanceRoleDefinition](../resources/governanceroledefinition.md)||
+|subject|[governanceSubject](../resources/governancesubject.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update request
 
+Namespace: microsoft.graph
+
 Update the properties of a [request](../resources/request.md) object.
 
 ## Permissions
@@ -49,14 +51,14 @@ The following table shows the properties that are required when you create the [
 |endDateTime|DateTimeOffset||
 |status|String||
 |businessFlowId|String||
-|createdBy|[userIdentity](../resources/userIdentity.md)||
+|createdBy|[userIdentity](../resources/useridentity.md)||
 |deDuplicationId|String||
 |schemaId|String||
 |customData|String||
 |recordVersion|String||
 |policyTemplateId|String||
-|policy|[governancePolicy](../resources/governancePolicy.md)||
-|settings|[accessReviewSettings](../resources/accessReviewSettings.md)||
+|policy|[governancePolicy](../resources/governancepolicy.md)||
+|settings|[accessReviewSettings](../resources/accessreviewsettings.md)||
 
 
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}
+PATCH https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}
 Content-type: application/json
 Content-length: 2227
 
@@ -81,8 +83,8 @@ Content-length: 2227
   "@odata.type": "#microsoft.graph.request",
   "displayName": "Display Name value",
   "description": "Description value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "status": "Status value",
   "businessFlowId": "Business Flow Id value",
   "createdBy": {
@@ -158,11 +160,11 @@ Content-Length: 2276
 
 {
   "@odata.type": "#microsoft.graph.request",
-  "id": "93ce215e-215e-93ce-5e21-ce935e21ce93",
+  "id": "3d5e0420-0420-3d5e-2004-5e3d20045e3d",
   "displayName": "Display Name value",
   "description": "Description value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "status": "Status value",
   "businessFlowId": "Business Flow Id value",
   "createdBy": {

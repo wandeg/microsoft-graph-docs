@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailboxUsageDetail resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mailboxUsageDetails](../api/mailboxusagedetail-list.md)|[mailboxUsageDetail](../resources/mailboxUsageDetail.md) collection|List properties and relationships of the [mailboxUsageDetail](../resources/mailboxusagedetail.md) objects.|
-|[Get mailboxUsageDetail](../api/mailboxusagedetail-get.md)|[mailboxUsageDetail](../resources/mailboxUsageDetail.md)|Read properties and relationships of the [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
-|[Create mailboxUsageDetail](../api/mailboxusagedetail-create.md)|[mailboxUsageDetail](../resources/mailboxUsageDetail.md)|Create a new [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
+|[List mailboxUsageDetails](../api/mailboxusagedetail-list.md)|[mailboxUsageDetail](../resources/mailboxusagedetail.md) collection|List properties and relationships of the [mailboxUsageDetail](../resources/mailboxusagedetail.md) objects.|
+|[Get mailboxUsageDetail](../api/mailboxusagedetail-get.md)|[mailboxUsageDetail](../resources/mailboxusagedetail.md)|Read properties and relationships of the [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
+|[Create mailboxUsageDetail](../api/mailboxusagedetail-create.md)|[mailboxUsageDetail](../resources/mailboxusagedetail.md)|Create a new [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
 |[Delete mailboxUsageDetail](../api/mailboxusagedetail-delete.md)|None|Deletes a [mailboxUsageDetail](../resources/mailboxusagedetail.md).|
-|[Update mailboxUsageDetail](../api/mailboxusagedetail-update.md)|[mailboxUsageDetail](../resources/mailboxUsageDetail.md)|Update the properties of a [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
+|[Update mailboxUsageDetail](../api/mailboxusagedetail-update.md)|[mailboxUsageDetail](../resources/mailboxusagedetail.md)|Update the properties of a [mailboxUsageDetail](../resources/mailboxusagedetail.md) object.|
 
 ## Properties
 |Property|Type|Description|

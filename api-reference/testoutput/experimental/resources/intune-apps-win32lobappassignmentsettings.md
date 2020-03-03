@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # win32LobAppAssignmentSettings resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [mobileAppAssignmentSettings](../resources/mobileAppAssignmentSettings.md)
+
+
+Inherits from [mobileAppAssignmentSettings](../resources/mobileappassignmentsettings.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|installTimeSettings|[mobileAppInstallTimeSettings](../resources/intune-apps-mobileAppInstallTimeSettings.md)|The install time settings to apply for this app assignment.|
+|installTimeSettings|[mobileAppInstallTimeSettings](../resources/intune-apps-mobileappinstalltimesettings.md)|The install time settings to apply for this app assignment.|
 |notifications|Enumeration|The notification status for this app assignment. Possible values are: `showAll`, `showReboot`, `hideAll`.|
-|restartSettings|[win32LobAppRestartSettings](../resources/intune-apps-win32LobAppRestartSettings.md)|The reboot settings to apply for this app assignment.|
+|restartSettings|[win32LobAppRestartSettings](../resources/intune-apps-win32lobapprestartsettings.md)|The reboot settings to apply for this app assignment.|
 
 ## Relationships
 None

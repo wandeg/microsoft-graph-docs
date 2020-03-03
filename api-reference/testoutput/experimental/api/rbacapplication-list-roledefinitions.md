@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleDefinitions
 
+Namespace: microsoft.graph
+
 Get the unifiedRoleDefinitions from the roleDefinitions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/roleManagement/directory/roleDefinitions
+GET https://graph.microsoft.com/localtest/roleManagement/directory/roleDefinitions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 707
   "value": [
     {
       "@odata.type": "#microsoft.graph.unifiedRoleDefinition",
-      "id": "42ee607e-607e-42ee-7e60-ee427e60ee42",
+      "id": "817a827d-827d-817a-7d82-7a817d827a81",
       "description": "Description value",
       "displayName": "Display Name value",
       "isBuiltIn": true,

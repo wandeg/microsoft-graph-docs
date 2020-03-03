@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domainDnsRecord
 
+Namespace: microsoft.graph
+
 Update the properties of a [domainDnsRecord](../resources/domaindnsrecord.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /domains/{domainsId}/serviceConfigurationRecords/{domainDnsRecordId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [domainDnsRecord](../resources/domainDnsRecord.md) object.
+In the request body, supply a JSON representation for the [domainDnsRecord](../resources/domaindnsrecord.md) object.
 
 The following table shows the properties that are required when you create the [domainDnsRecord](../resources/domaindnsrecord.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/domainDnsRecords/{domainDnsRecordsId}
+PATCH https://graph.microsoft.com/localtest/domainDnsRecords/{domainDnsRecordsId}
 Content-type: application/json
 Content-length: 208
 
@@ -93,7 +95,7 @@ Content-Length: 257
 
 {
   "@odata.type": "#microsoft.graph.domainDnsRecord",
-  "id": "8d2dd78d-d78d-8d2d-8dd7-2d8d8dd72d8d",
+  "id": "9bc3fc52-fc52-9bc3-52fc-c39b52fcc39b",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userAppInstallStatus
 
-Update the properties of a [userAppInstallStatus](../resources/userappinstallstatus.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/userStatuses/{userAppInstall
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userAppInstallStatus](../resources/userAppInstallStatus.md) object.
+In the request body, supply a JSON representation for the [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) object.
 
-The following table shows the properties that are required when you create the [userAppInstallStatus](../resources/userappinstallstatus.md).
+The following table shows the properties that are required when you create the [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userAppInstallStatus](../resources/userappinstallstatus.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userAppInstallStatus](../resources/intune-apps-userappinstallstatus.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses/{userAppInstallStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/userStatuses/{userAppInstallStatusId}
 Content-type: application/json
 Content-length: 239
 
@@ -91,7 +93,7 @@ Content-Length: 288
 
 {
   "@odata.type": "#microsoft.graph.userAppInstallStatus",
-  "id": "059349d6-49d6-0593-d649-9305d6499305",
+  "id": "546e56cb-56cb-546e-cb56-6e54cb566e54",
   "userName": "User Name value",
   "userPrincipalName": "User Principal Name value",
   "installedDeviceCount": 4,

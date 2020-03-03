@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create mailboxUsageStorage
 
+Namespace: microsoft.graph
+
 Create a new [mailboxUsageStorage](../resources/mailboxusagestorage.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.mailboxUsageStorage not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mailboxUsageStorage object.
+In the request body, supply a JSON representation for the [mailboxUsageStorage](../resources/mailboxusagestorage.md) object.
 
-The following table shows the properties that are required when you create the mailboxUsageStorage.
+The following table shows the properties that are required when you create the [mailboxUsageStorage](../resources/mailboxusagestorage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mailboxUsageStorage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mailboxUsageStorage not found
 Content-type: application/json
 Content-length: 188
 
@@ -91,7 +93,7 @@ Content-Length: 237
 
 {
   "@odata.type": "#microsoft.graph.mailboxUsageStorage",
-  "id": "d975738f-738f-d975-8f73-75d98f7375d9",
+  "id": "d93ed668-d668-d93e-68d6-3ed968d63ed9",
   "reportRefreshDate": "Date",
   "storageUsedInBytes": 2,
   "reportDate": "Date",

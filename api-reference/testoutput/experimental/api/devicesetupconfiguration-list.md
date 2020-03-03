@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceSetupConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceSetupConfiguration](../resources/devicesetupconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceSetupConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceSetupConfiguration not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 395
+Content-Length: 394
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceSetupConfiguration",
-      "id": "3ac8267b-267b-3ac8-7b26-c83a7b26c83a",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "id": "198ab7f4-b7f4-198a-f4b7-8a19f4b78a19",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "displayName": "Display Name value",
       "version": 7
     }

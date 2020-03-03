@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedMobileApp resource type
+
+
+Namespace: microsoft.graph
 
 The identifier for the deployment an app.
 
@@ -19,15 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedMobileApp](../api/managedmobileapp-get.md)|[managedMobileApp](../resources/managedMobileApp.md)|Read properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) object.|
+|[List managedMobileApps](../api/managedmobileapp-list.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|List properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) objects.|
+|[Get managedMobileApp](../api/managedmobileapp-get.md)|[managedMobileApp](../resources/managedmobileapp.md)|Read properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) object.|
+|[Create managedMobileApp](../api/managedmobileapp-create.md)|[managedMobileApp](../resources/managedmobileapp.md)|Create a new [managedMobileApp](../resources/managedmobileapp.md) object.|
 |[Delete managedMobileApp](../api/managedmobileapp-delete.md)|None|Deletes a [managedMobileApp](../resources/managedmobileapp.md).|
-|[Update managedMobileApp](../api/managedmobileapp-update.md)|[managedMobileApp](../resources/managedMobileApp.md)|Update the properties of a [managedMobileApp](../resources/managedmobileapp.md) object.|
+|[Update managedMobileApp](../api/managedmobileapp-update.md)|[managedMobileApp](../resources/managedmobileapp.md)|Update the properties of a [managedMobileApp](../resources/managedmobileapp.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The identifier for an app with it's operating system type.|
+|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The identifier for an app with it's operating system type.|
 |version|String|Version of the entity.|
 
 ## Relationships

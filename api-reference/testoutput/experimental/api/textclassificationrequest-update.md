@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update textClassificationRequest
 
+Namespace: microsoft.graph
+
 Update the properties of a [textClassificationRequest](../resources/textclassificationrequest.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /dataClassification/classifyText/{textClassificationRequestId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [textClassificationRequest](../resources/textClassificationRequest.md) object.
+In the request body, supply a JSON representation for the [textClassificationRequest](../resources/textclassificationrequest.md) object.
 
 The following table shows the properties that are required when you create the [textClassificationRequest](../resources/textclassificationrequest.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/dataClassification/classifyText/{textClassificationRequestId}
+PATCH https://graph.microsoft.com/localtest/dataClassification/classifyText/{textClassificationRequestId}
 Content-type: application/json
 Content-length: 183
 
@@ -89,7 +91,7 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.textClassificationRequest",
-  "id": "a10e1109-1109-a10e-0911-0ea109110ea1",
+  "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
   "text": "Text value",
   "sensitiveTypeIds": [
     "Sensitive Type Ids value"

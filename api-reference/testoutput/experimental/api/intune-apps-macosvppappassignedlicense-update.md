@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update macOsVppAppAssignedLicense
 
-Update the properties of a [macOsVppAppAssignedLicense](../resources/macosvppappassignedlicense.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [macOsVppAppAssignedLicense](../resources/macOsVppAppAssignedLicense.md) object.
+In the request body, supply a JSON representation for the [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md) object.
 
-The following table shows the properties that are required when you create the [macOsVppAppAssignedLicense](../resources/macosvppappassignedlicense.md).
+The following table shows the properties that are required when you create the [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [macOsVppAppAssignedLicense](../resources/macosvppappassignedlicense.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [macOsVppAppAssignedLicense](../resources/intune-apps-macosvppappassignedlicense.md) object in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses/{macOsVppAppAssignedLicenseId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.macOsVppApp/assignedLicenses/{macOsVppAppAssignedLicenseId}
 Content-type: application/json
 Content-length: 236
 
@@ -89,7 +91,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.macOsVppAppAssignedLicense",
-  "id": "52a88d27-8d27-52a8-278d-a852278da852",
+  "id": "245232b3-32b3-2452-b332-5224b3325224",
   "userEmailAddress": "User Email Address value",
   "userId": "User Id value",
   "userName": "User Name value",

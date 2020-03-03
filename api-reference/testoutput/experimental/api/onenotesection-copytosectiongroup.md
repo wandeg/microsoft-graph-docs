@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # copyToSectionGroup
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [onenoteOperation](../resources/onenoteOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [onenoteOperation](../resources/onenoteoperation.md) in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sections/{onenoteSectionId}/copyToSectionGroup
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/sections/{onenoteSectionId}/copyToSectionGroup
 
 Content-type: application/json
 Content-length: 171
@@ -91,15 +93,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 508
+Content-Length: 507
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteOperation",
-    "id": "771ac63b-c63b-771a-3bc6-1a773bc61a77",
+    "id": "3ef37e7a-7e7a-3ef3-7a7e-f33e7a7ef33e",
     "status": "String",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
     "resourceLocation": "Resource Location value",
     "resourceId": "Resource Id value",
     "error": {

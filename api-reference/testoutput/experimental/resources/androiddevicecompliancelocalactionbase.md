@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidDeviceComplianceLocalActionBase resource type
+
+
+Namespace: microsoft.graph
 
 Local Action Configuration
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidDeviceComplianceLocalActionBases](../api/androiddevicecompliancelocalactionbase-list.md)|[androidDeviceComplianceLocalActionBase](../resources/androidDeviceComplianceLocalActionBase.md) collection|List properties and relationships of the [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) objects.|
-|[Get androidDeviceComplianceLocalActionBase](../api/androiddevicecompliancelocalactionbase-get.md)|[androidDeviceComplianceLocalActionBase](../resources/androidDeviceComplianceLocalActionBase.md)|Read properties and relationships of the [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) object.|
+|[List androidDeviceComplianceLocalActionBases](../api/androiddevicecompliancelocalactionbase-list.md)|[androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) collection|List properties and relationships of the [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) objects.|
+|[Get androidDeviceComplianceLocalActionBase](../api/androiddevicecompliancelocalactionbase-get.md)|[androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md)|Read properties and relationships of the [androidDeviceComplianceLocalActionBase](../resources/androiddevicecompliancelocalactionbase.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # external resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,8 +22,8 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |[Get external](../api/external-get.md)|[external](../resources/external.md)|Read properties and relationships of the [external](../resources/external.md) object.|
 |[Update external](../api/external-update.md)|[external](../resources/external.md)|Update the properties of a [external](../resources/external.md) object.|
-|[List connections](../api/external-list-connections.md)|[externalConnection](../resources/externalConnection.md) collection|Get the externalConnections from the connections navigation property.|
-|[Add connections](../api/external-post-connections.md)|[externalConnection](../resources/externalConnection.md)|Add connections by posting to the connections collection.|
+|[List connections](../api/external-list-connections.md)|[externalConnection](../resources/externalconnection.md) collection|Get the externalConnections from the connections navigation property.|
+|[Add connections](../api/external-post-connections.md)|[externalConnection](../resources/externalconnection.md)|Add connections by posting to the connections collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|connections|[externalConnection](../resources/externalConnection.md) collection||
+|connections|[externalConnection](../resources/externalconnection.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceStates
 
+Namespace: microsoft.graph
+
 Get the securityBaselineDeviceStates from the deviceStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStates
+GET https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/deviceStates
 ```
 
 ### Response
@@ -70,12 +72,12 @@ Content-Length: 420
   "value": [
     {
       "@odata.type": "#microsoft.graph.securityBaselineDeviceState",
-      "id": "c4fe953b-953b-c4fe-3b95-fec43b95fec4",
+      "id": "d5aa8e54-8e54-d5aa-548e-aad5548eaad5",
       "managedDeviceId": "Managed Device Id value",
       "deviceDisplayName": "Device Display Name value",
       "userPrincipalName": "User Principal Name value",
       "state": "String",
-      "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00"
+      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00"
     }
   ]
 }

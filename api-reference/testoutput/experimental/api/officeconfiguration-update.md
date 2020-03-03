@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update officeConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [officeConfiguration](../resources/officeconfiguration.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH /officeConfiguration
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [officeConfiguration](../resources/officeConfiguration.md) object.
+In the request body, supply a JSON representation for the [officeConfiguration](../resources/officeconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [officeConfiguration](../resources/officeconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|tenantCheckinStatuses|[officeClientCheckinStatus](../resources/officeClientCheckinStatus.md) collection||
-|tenantUserCheckinSummary|[officeUserCheckinSummary](../resources/officeUserCheckinSummary.md)||
+|tenantCheckinStatuses|[officeClientCheckinStatus](../resources/officeclientcheckinstatus.md) collection||
+|tenantUserCheckinSummary|[officeUserCheckinSummary](../resources/officeusercheckinsummary.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/officeConfiguration
+PATCH https://graph.microsoft.com/localtest/officeConfiguration
 Content-type: application/json
 Content-length: 796
 
@@ -75,7 +77,7 @@ Content-length: 796
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"
@@ -104,7 +106,7 @@ Content-Length: 845
 
 {
   "@odata.type": "#microsoft.graph.officeConfiguration",
-  "id": "c404c435-c435-c404-35c4-04c435c404c4",
+  "id": "c87a85cd-85cd-c87a-cd85-7ac8cd857ac8",
   "tenantCheckinStatuses": [
     {
       "@odata.type": "microsoft.graph.officeClientCheckinStatus",
@@ -114,7 +116,7 @@ Content-Length: 845
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:00:15.2429914+03:00",
+      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"

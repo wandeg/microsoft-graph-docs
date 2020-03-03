@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete providerTenantSetting
 
+Namespace: microsoft.graph
+
 Deletes a [providerTenantSetting](../resources/providertenantsetting.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/providerTenantSettings/{providerTenantSettingId}
+DELETE https://graph.microsoft.com/localtest/Security/providerTenantSettings/{providerTenantSettingId}
 ```
 
 ### Response

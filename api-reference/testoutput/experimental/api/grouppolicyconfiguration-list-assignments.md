@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the groupPolicyConfigurationAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 344
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-      "id": "63fd6a97-6a97-63fd-976a-fd63976afd63",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

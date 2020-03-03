@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # policyBase resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List policyBases](../api/policybase-list.md)|[policyBase](../resources/policyBase.md) collection|List properties and relationships of the [policyBase](../resources/policybase.md) objects.|
-|[Get policyBase](../api/policybase-get.md)|[policyBase](../resources/policyBase.md)|Read properties and relationships of the [policyBase](../resources/policybase.md) object.|
+|[List policyBases](../api/policybase-list.md)|[policyBase](../resources/policybase.md) collection|List properties and relationships of the [policyBase](../resources/policybase.md) objects.|
+|[Get policyBase](../api/policybase-get.md)|[policyBase](../resources/policybase.md)|Read properties and relationships of the [policyBase](../resources/policybase.md) object.|
 
 ## Properties
 |Property|Type|Description|

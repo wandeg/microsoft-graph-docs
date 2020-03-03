@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete languageProficiency
 
+Namespace: microsoft.graph
+
 Deletes a [languageProficiency](../resources/languageproficiency.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/profile/languages/{languageProficiencyId}
+DELETE https://graph.microsoft.com/localtest/me/profile/languages/{languageProficiencyId}
 ```
 
 ### Response

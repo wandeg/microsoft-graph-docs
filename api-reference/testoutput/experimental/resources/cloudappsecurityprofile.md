@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # cloudAppSecurityProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get cloudAppSecurityProfile](../api/cloudappsecurityprofile-get.md)|[cloudAppSecurityProfile](../resources/cloudAppSecurityProfile.md)|Read properties and relationships of the [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.|
+|[List cloudAppSecurityProfiles](../api/cloudappsecurityprofile-list.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) collection|List properties and relationships of the [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) objects.|
+|[Get cloudAppSecurityProfile](../api/cloudappsecurityprofile-get.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md)|Read properties and relationships of the [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.|
+|[Create cloudAppSecurityProfile](../api/cloudappsecurityprofile-create.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md)|Create a new [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.|
 |[Delete cloudAppSecurityProfile](../api/cloudappsecurityprofile-delete.md)|None|Deletes a [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md).|
-|[Update cloudAppSecurityProfile](../api/cloudappsecurityprofile-update.md)|[cloudAppSecurityProfile](../resources/cloudAppSecurityProfile.md)|Update the properties of a [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.|
-|[List cloudAppSecurityProfiles](../api/security-list-cloudappsecurityprofiles.md)|[cloudAppSecurityProfile](../resources/cloudAppSecurityProfile.md) collection|Get the cloudAppSecurityProfiles from the cloudAppSecurityProfiles navigation property.|
-|[Add cloudAppSecurityProfiles](../api/security-post-cloudappsecurityprofiles.md)|[cloudAppSecurityProfile](../resources/cloudAppSecurityProfile.md)|Add cloudAppSecurityProfiles by posting to the cloudAppSecurityProfiles collection.|
+|[Update cloudAppSecurityProfile](../api/cloudappsecurityprofile-update.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md)|Update the properties of a [cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) object.|
+|[List cloudAppSecurityProfiles](../api/security-list-cloudappsecurityprofiles.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md) collection|Get the cloudAppSecurityProfiles from the cloudAppSecurityProfiles navigation property.|
+|[Add cloudAppSecurityProfiles](../api/security-post-cloudappsecurityprofiles.md)|[cloudAppSecurityProfile](../resources/cloudappsecurityprofile.md)|Add cloudAppSecurityProfiles by posting to the cloudAppSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 |riskScore|String||
 |tags|String collection||
 |type|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

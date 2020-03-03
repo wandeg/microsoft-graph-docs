@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get domainSecurityProfile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/domainSecurityProfiles/{domainSecurityProfileId}
+GET https://graph.microsoft.com/localtest/Security/domainSecurityProfiles/{domainSecurityProfileId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1341
+Content-Length: 1340
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.domainSecurityProfile",
-    "id": "0bac715a-715a-0bac-5a71-ac0b5a71ac0b",
+    "id": "2db8f0b7-f0b7-2db8-b7f0-b82db7f0b82d",
     "activityGroupNames": [
       "Activity Group Names value"
     ],
@@ -88,9 +90,9 @@ Content-Length: 1341
         "vendor": "Vendor value"
       }
     ],
-    "domainRegisteredDateTime": "2017-01-01T00:00:09.6498567+03:00",
-    "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
-    "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+    "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
+    "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+    "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
     "name": "Name value",
     "registrant": {
       "@odata.type": "microsoft.graph.domainRegistrant",

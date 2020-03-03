@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # unifiedRoleDefinition resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get unifiedRoleDefinition](../api/unifiedroledefinition-get.md)|[unifiedRoleDefinition](../resources/unifiedRoleDefinition.md)|Read properties and relationships of the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
+|[List unifiedRoleDefinitions](../api/unifiedroledefinition-list.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md) collection|List properties and relationships of the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) objects.|
+|[Get unifiedRoleDefinition](../api/unifiedroledefinition-get.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Read properties and relationships of the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
+|[Create unifiedRoleDefinition](../api/unifiedroledefinition-create.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Create a new [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
 |[Delete unifiedRoleDefinition](../api/unifiedroledefinition-delete.md)|None|Deletes a [unifiedRoleDefinition](../resources/unifiedroledefinition.md).|
-|[Update unifiedRoleDefinition](../api/unifiedroledefinition-update.md)|[unifiedRoleDefinition](../resources/unifiedRoleDefinition.md)|Update the properties of a [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
+|[Update unifiedRoleDefinition](../api/unifiedroledefinition-update.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Update the properties of a [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 |isBuiltIn|Boolean||
 |isEnabled|Boolean||
 |resourceScopes|String collection||
-|rolePermissions|[unifiedRolePermission](../resources/unifiedRolePermission.md) collection||
+|rolePermissions|[unifiedRolePermission](../resources/unifiedrolepermission.md) collection||
 |templateId|String||
 |version|String||
 

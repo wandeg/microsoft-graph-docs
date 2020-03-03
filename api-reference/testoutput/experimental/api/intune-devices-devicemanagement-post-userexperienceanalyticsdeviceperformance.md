@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userExperienceAnalyticsDevicePerformance
 
+Namespace: microsoft.graph
+
 Add userExperienceAnalyticsDevicePerformance by posting to the userExperienceAnalyticsDevicePerformance collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/userExperienceAnalyticsDevicePerformance/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsDevicePerformance object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsDevicePerformance](../resources/intune-devices-userexperienceanalyticsdeviceperformance.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsDevicePerformance.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsDevicePerformance](../resources/intune-devices-userexperienceanalyticsdeviceperformance.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ The following table shows the properties that are required when you create the u
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsDevicePerformance](../resources/userexperienceanalyticsdeviceperformance.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsDevicePerformance](../resources/intune-devices-userexperienceanalyticsdeviceperformance.md) object in the response body.
 
 ## Example
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsDevicePerformance
+POST https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsDevicePerformance
 Content-type: application/json
 Content-length: 487
 
@@ -109,7 +111,7 @@ Content-Length: 536
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsDevicePerformance",
-  "id": "2c79d37e-d37e-2c79-7ed3-792c7ed3792c",
+  "id": "bb8401b6-01b6-bb84-b601-84bbb60184bb",
   "deviceName": "Device Name value",
   "model": "Model value",
   "manufacturer": "Manufacturer value",

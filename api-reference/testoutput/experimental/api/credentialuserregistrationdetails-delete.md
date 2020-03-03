@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete credentialUserRegistrationDetails
 
+Namespace: microsoft.graph
+
 Deletes a [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
+DELETE https://graph.microsoft.com/localtest/reports/credentialUserRegistrationDetails/{credentialUserRegistrationDetailsId}
 ```
 
 ### Response

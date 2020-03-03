@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # enterpriseCodeSigningCertificate resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-get.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterpriseCodeSigningCertificate.md)|Read properties and relationships of the [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) object.|
-|[Delete enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-delete.md)|None|Deletes a [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md).|
-|[Update enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-update.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterpriseCodeSigningCertificate.md)|Update the properties of a [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) object.|
-|[List enterpriseCodeSigningCertificates](../api/intune-apps-deviceappmanagement-list-enterprisecodesigningcertificates.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterpriseCodeSigningCertificate.md) collection|Get the enterpriseCodeSigningCertificates from the enterpriseCodeSigningCertificates navigation property.|
-|[Add enterpriseCodeSigningCertificates](../api/intune-apps-deviceappmanagement-post-enterprisecodesigningcertificates.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterpriseCodeSigningCertificate.md)|Add enterpriseCodeSigningCertificates by posting to the enterpriseCodeSigningCertificates collection.|
+|[List enterpriseCodeSigningCertificates](../api/intune-apps-enterprisecodesigningcertificate-list.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) collection|List properties and relationships of the [enterpriseCodeSigningCertificate](../resources/enterprisecodesigningcertificate.md) objects.|
+|[Get enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-get.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md)|Read properties and relationships of the [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object.|
+|[Create enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-create.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md)|Create a new [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object.|
+|[Delete enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-delete.md)|None|Deletes a [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md).|
+|[Update enterpriseCodeSigningCertificate](../api/intune-apps-enterprisecodesigningcertificate-update.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md)|Update the properties of a [enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) object.|
+|[List enterpriseCodeSigningCertificates](../api/intune-apps-deviceappmanagement-list-enterprisecodesigningcertificates.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md) collection|Get the enterpriseCodeSigningCertificates from the enterpriseCodeSigningCertificates navigation property.|
+|[Add enterpriseCodeSigningCertificates](../api/intune-apps-deviceappmanagement-post-enterprisecodesigningcertificates.md)|[enterpriseCodeSigningCertificate](../resources/intune-apps-enterprisecodesigningcertificate.md)|Add enterpriseCodeSigningCertificates by posting to the enterpriseCodeSigningCertificates collection.|
 
 ## Properties
 |Property|Type|Description|

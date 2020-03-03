@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementDerivedCredentialSettings
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementDerivedCredentialSettings](../resources/devicemanagementderivedcredentialsettings.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
+GET https://graph.microsoft.com/localtest/deviceManagement/derivedCredentials/{deviceManagementDerivedCredentialSettingsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 305
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementDerivedCredentialSettings",
-    "id": "e613e12d-e12d-e613-2de1-13e62de113e6",
+    "id": "91cc585e-585e-91cc-5e58-cc915e58cc91",
     "helpUrl": "https://example.com/helpUrl/",
     "displayName": "Display Name value",
     "issuer": "String",

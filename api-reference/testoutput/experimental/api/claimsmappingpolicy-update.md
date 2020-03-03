@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update claimsMappingPolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [claimsMappingPolicy](../resources/claimsmappingpolicy.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH /policies/claimsMappingPolicies/{claimsMappingPolicyId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [claimsMappingPolicy](../resources/claimsMappingPolicy.md) object.
+In the request body, supply a JSON representation for the [claimsMappingPolicy](../resources/claimsmappingpolicy.md) object.
 
 The following table shows the properties that are required when you create the [claimsMappingPolicy](../resources/claimsmappingpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|description|String| Inherited from [policyBase](../resources/policyBase.md)|
-|displayName|String| Inherited from [policyBase](../resources/policyBase.md)|
-|definition|String collection| Inherited from [stsPolicy](../resources/stsPolicy.md)|
-|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stsPolicy.md)|
+|description|String| Inherited from [policyBase](../resources/policybase.md)|
+|displayName|String| Inherited from [policyBase](../resources/policybase.md)|
+|definition|String collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
+|isOrganizationDefault|Boolean| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/policies/claimsMappingPolicies/{claimsMappingPolicyId}
+PATCH https://graph.microsoft.com/localtest/policies/claimsMappingPolicies/{claimsMappingPolicyId}
 Content-type: application/json
 Content-length: 223
 
@@ -91,7 +93,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.claimsMappingPolicy",
-  "id": "7f30d5a9-d5a9-7f30-a9d5-307fa9d5307f",
+  "id": "980267e2-67e2-9802-e267-0298e2670298",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

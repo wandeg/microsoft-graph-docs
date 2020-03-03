@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupPolicySettingMapping
 
+Namespace: microsoft.graph
+
 Deletes a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings/{groupPolicySettingMappingId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings/{groupPolicySettingMappingId}
 ```
 
 ### Response

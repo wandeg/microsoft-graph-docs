@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add categories
 
+Namespace: microsoft.graph
+
 Add categories by posting to the categories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /education/classes/{educationClassId}/assignments/{educationAssignmentId}/c
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationCategory object.
+In the request body, supply a JSON representation for the [educationCategory](../resources/educationcategory.md) object.
 
-The following table shows the properties that are required when you create the educationCategory.
+The following table shows the properties that are required when you create the [educationCategory](../resources/educationcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignments/{educationAssignmentId}/categories
+POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignments/{educationAssignmentId}/categories
 Content-type: application/json
 Content-length: 99
 
@@ -85,7 +87,7 @@ Content-Length: 148
 
 {
   "@odata.type": "#microsoft.graph.educationCategory",
-  "id": "4ada2ab2-2ab2-4ada-b22a-da4ab22ada4a",
+  "id": "be0967cb-67cb-be09-cb67-09becb6709be",
   "displayName": "Display Name value"
 }
 ```

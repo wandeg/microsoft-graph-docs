@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessPackageResourceRoleScope
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md) object.
 
 ## Permissions
@@ -38,7 +40,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessPackageResourceRoleScope](../resources/accessPackageResourceRoleScope.md) object.
+In the request body, supply a JSON representation for the [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md) object.
 
 The following table shows the properties that are required when you create the [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}
+PATCH https://graph.microsoft.com/localtest/accessPackageResourceRoleScopes/{accessPackageResourceRoleScopesId}
 Content-type: application/json
 Content-length: 146
 
@@ -86,15 +88,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 314
+Content-Length: 313
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRoleScope",
-  "id": "c768d37d-d37d-c768-7dd3-68c77dd368c7",
+  "id": "a5e43181-3181-a5e4-8131-e4a58131e4a5",
   "createdBy": "Created By value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "modifiedBy": "Modified By value",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
 }
 ```
 

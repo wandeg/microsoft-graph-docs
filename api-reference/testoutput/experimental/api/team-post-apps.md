@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add apps
 
+Namespace: microsoft.graph
+
 Add apps by posting to the apps collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedGroups/{groupId}/team/apps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsCatalogApp object.
+In the request body, supply a JSON representation for the [teamsCatalogApp](../resources/teamscatalogapp.md) object.
 
-The following table shows the properties that are required when you create the teamsCatalogApp.
+The following table shows the properties that are required when you create the [teamsCatalogApp](../resources/teamscatalogapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/apps
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/apps
 Content-type: application/json
 Content-length: 155
 
@@ -90,7 +92,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.teamsCatalogApp",
-  "id": "79d15acd-5acd-79d1-cd5a-d179cd5ad179",
+  "id": "11dd4ded-4ded-11dd-ed4d-dd11ed4ddd11",
   "externalId": "External Id value",
   "name": "Name value",
   "distributionMethod": "String"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List fileSecurityProfiles
 
+Namespace: microsoft.graph
+
 Get the fileSecurityProfiles from the fileSecurityProfiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/fileSecurityProfiles
+GET https://graph.microsoft.com/localtest/Security/fileSecurityProfiles
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1709
+Content-Length: 1708
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.fileSecurityProfile",
-      "id": "e5844810-4810-e584-1048-84e5104884e5",
+      "id": "55b90364-0364-55b9-6403-b9556403b955",
       "activityGroupNames": [
         "Activity Group Names value"
       ],
@@ -81,7 +83,7 @@ Content-Length: 1709
         "Extensions value"
       ],
       "fileType": "File Type value",
-      "firstSeenDateTime": "2016-12-31T23:57:27.0365895+03:00",
+      "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
       "hashes": [
         {
           "@odata.type": "microsoft.graph.fileHash",
@@ -89,7 +91,7 @@ Content-Length: 1709
           "hashValue": "Hash Value value"
         }
       ],
-      "lastSeenDateTime": "2016-12-31T23:58:05.5931807+03:00",
+      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
       "malwareStates": [
         {
           "@odata.type": "microsoft.graph.malwareState",

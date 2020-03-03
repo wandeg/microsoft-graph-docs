@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add dimensions
 
+Namespace: microsoft.graph
+
 Add dimensions by posting to the dimensions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/dimensions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the dimension object.
+In the request body, supply a JSON representation for the [dimension](../resources/dimension.md) object.
 
-The following table shows the properties that are required when you create the dimension.
+The following table shows the properties that are required when you create the [dimension](../resources/dimension.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/dimensions
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/dimensions
 Content-type: application/json
 Content-length: 116
 
@@ -88,10 +90,10 @@ Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.dimension",
-  "id": "a9e7ab0f-ab0f-a9e7-0fab-e7a90fabe7a9",
+  "id": "57bfe219-e219-57bf-19e2-bf5719e2bf57",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

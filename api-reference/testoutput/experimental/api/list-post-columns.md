@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add columns
 
+Namespace: microsoft.graph
+
 Add columns by posting to the columns collection.
 
 ## Permissions
@@ -36,33 +38,33 @@ POST /me/joinedGroups/{groupId}/drive/list/columns/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the columnDefinition object.
+In the request body, supply a JSON representation for the [columnDefinition](../resources/columndefinition.md) object.
 
-The following table shows the properties that are required when you create the columnDefinition.
+The following table shows the properties that are required when you create the [columnDefinition](../resources/columndefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|boolean|[booleanColumn](../resources/booleanColumn.md)||
-|calculated|[calculatedColumn](../resources/calculatedColumn.md)||
-|choice|[choiceColumn](../resources/choiceColumn.md)||
+|boolean|[booleanColumn](../resources/booleancolumn.md)||
+|calculated|[calculatedColumn](../resources/calculatedcolumn.md)||
+|choice|[choiceColumn](../resources/choicecolumn.md)||
 |columnGroup|String||
-|currency|[currencyColumn](../resources/currencyColumn.md)||
-|dateTime|[dateTimeColumn](../resources/dateTimeColumn.md)||
-|defaultValue|[defaultColumnValue](../resources/defaultColumnValue.md)||
+|currency|[currencyColumn](../resources/currencycolumn.md)||
+|dateTime|[dateTimeColumn](../resources/datetimecolumn.md)||
+|defaultValue|[defaultColumnValue](../resources/defaultcolumnvalue.md)||
 |description|String||
 |displayName|String||
 |enforceUniqueValues|Boolean||
-|geolocation|[geolocationColumn](../resources/geolocationColumn.md)||
+|geolocation|[geolocationColumn](../resources/geolocationcolumn.md)||
 |hidden|Boolean||
 |indexed|Boolean||
-|lookup|[lookupColumn](../resources/lookupColumn.md)||
+|lookup|[lookupColumn](../resources/lookupcolumn.md)||
 |name|String||
-|number|[numberColumn](../resources/numberColumn.md)||
-|personOrGroup|[personOrGroupColumn](../resources/personOrGroupColumn.md)||
+|number|[numberColumn](../resources/numbercolumn.md)||
+|personOrGroup|[personOrGroupColumn](../resources/personorgroupcolumn.md)||
 |readOnly|Boolean||
 |required|Boolean||
-|text|[textColumn](../resources/textColumn.md)||
+|text|[textColumn](../resources/textcolumn.md)||
 
 
 
@@ -79,7 +81,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/list/columns
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/list/columns
 Content-type: application/json
 Content-length: 1986
 
@@ -170,7 +172,7 @@ Content-Length: 2035
 
 {
   "@odata.type": "#microsoft.graph.columnDefinition",
-  "id": "263a4ff4-4ff4-263a-f44f-3a26f44f3a26",
+  "id": "93f728eb-28eb-93f7-eb28-f793eb28f793",
   "boolean": {
     "@odata.type": "microsoft.graph.booleanColumn"
   },

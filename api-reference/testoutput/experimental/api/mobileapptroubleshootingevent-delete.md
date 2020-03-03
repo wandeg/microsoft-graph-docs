@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mobileAppTroubleshootingEvent
 
+Namespace: microsoft.graph
+
 Deletes a [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}
 ```
 
 ### Response

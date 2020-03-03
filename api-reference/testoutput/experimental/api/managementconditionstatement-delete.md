@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managementConditionStatement
 
+Namespace: microsoft.graph
+
 Deletes a [managementConditionStatement](../resources/managementconditionstatement.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/managementConditionStatements/{managementConditionStatementId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/managementConditionStatements/{managementConditionStatementId}
 ```
 
 ### Response

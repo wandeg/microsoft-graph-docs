@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedDevices
 
+Namespace: microsoft.graph
+
 Add managedDevices by posting to the managedDevices collection.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST /deviceManagement/managedDevices/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDevice object.
+In the request body, supply a JSON representation for the [managedDevice](../resources/intune-devices-manageddevice.md) object.
 
-The following table shows the properties that are required when you create the managedDevice.
+The following table shows the properties that are required when you create the [managedDevice](../resources/intune-devices-manageddevice.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |userId|String|Unique Identifier for the user associated with the device. This property is read-only.|
 |deviceName|String|Name of the device. This property is read-only.|
-|hardwareInformation|[hardwareInformation](../resources/intune-devices-hardwareInformation.md)|The hardward details for the device.  Includes information such as storage space, manufacturer, serial number, etc. This property is read-only.|
+|hardwareInformation|[hardwareInformation](../resources/intune-devices-hardwareinformation.md)|The hardward details for the device.  Includes information such as storage space, manufacturer, serial number, etc. This property is read-only.|
 |ownerType|Enumeration|Ownership of the device. Can be 'company' or 'personal'. Possible values are: `unknown`, `company`, `personal`.|
 |managedDeviceOwnerType|Enumeration|Ownership of the device. Can be 'company' or 'personal'. Possible values are: `unknown`, `company`, `personal`.|
-|deviceActionResults|[deviceActionResult](../resources/intune-devices-deviceActionResult.md) collection|List of ComplexType deviceActionResult objects. This property is read-only.|
+|deviceActionResults|[deviceActionResult](../resources/intune-devices-deviceactionresult.md) collection|List of ComplexType deviceActionResult objects. This property is read-only.|
 |managementState|Enumeration|Management state of the device. This property is read-only. Possible values are: `managed`, `retirePending`, `retireFailed`, `wipePending`, `wipeFailed`, `unhealthy`, `deletePending`, `retireIssued`, `wipeIssued`, `wipeCanceled`, `retireCanceled`, `discovered`.|
 |enrolledDateTime|DateTimeOffset|Enrollment time of the device. This property is read-only.|
 |lastSyncDateTime|DateTimeOffset|The date and time that the device last completed a successful sync with Intune. This property is read-only.|
@@ -88,9 +90,9 @@ The following table shows the properties that are required when you create the m
 |phoneNumber|String|Phone number of the device. This property is read-only.|
 |androidSecurityPatchLevel|String|Android security patch level. This property is read-only.|
 |userDisplayName|String|User display name. This property is read-only.|
-|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/intune-devices-configurationManagerClientEnabledFeatures.md)|ConfigrMgr client enabled features. This property is read-only.|
+|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/intune-devices-configurationmanagerclientenabledfeatures.md)|ConfigrMgr client enabled features. This property is read-only.|
 |wiFiMacAddress|String|Wi-Fi MAC. This property is read-only.|
-|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/intune-devices-deviceHealthAttestationState.md)|The device health attestation state. This property is read-only.|
+|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/intune-devices-devicehealthattestationstate.md)|The device health attestation state. This property is read-only.|
 |subscriberCarrier|String|Subscriber Carrier. This property is read-only.|
 |meid|String|MEID. This property is read-only.|
 |totalStorageSpaceInBytes|Int64|Total Storage in Bytes. This property is read-only.|
@@ -98,7 +100,7 @@ The following table shows the properties that are required when you create the m
 |managedDeviceName|String|Automatically generated name to identify a device. Can be overwritten to a user friendly name.|
 |partnerReportedThreatState|Enumeration|Indicates the threat state of a device when a Mobile Threat Defense partner is in use by the account and device. Read Only. This property is read-only. Possible values are: `unknown`, `activated`, `deactivated`, `secured`, `lowSeverity`, `mediumSeverity`, `highSeverity`, `unresponsive`, `compromised`, `misconfigured`.|
 |retireAfterDateTime|DateTimeOffset|Indicates the time after when a device will be auto retired because of scheduled action. This property is read-only.|
-|usersLoggedOn|[loggedOnUser](../resources/intune-devices-loggedOnUser.md) collection|Indicates the last logged on users of a device. This property is read-only.|
+|usersLoggedOn|[loggedOnUser](../resources/intune-devices-loggedonuser.md) collection|Indicates the last logged on users of a device. This property is read-only.|
 |preferMdmOverGroupPolicyAppliedDateTime|DateTimeOffset|Reports the DateTime the preferMdmOverGroupPolicy setting was set.  When set, the Intune MDM settings will override Group Policy settings if there is a conflict. Read Only. This property is read-only.|
 |autopilotEnrolled|Boolean|Reports if the managed device is enrolled via auto-pilot. This property is read-only.|
 |requireUserEnrollmentApproval|Boolean|Reports if the managed iOS device is user approval enrollment. This property is read-only.|
@@ -109,8 +111,8 @@ The following table shows the properties that are required when you create the m
 |windowsActiveMalwareCount|Int32|Count of active malware for this windows device. This property is read-only.|
 |windowsRemediatedMalwareCount|Int32|Count of remediated malware for this windows device. This property is read-only.|
 |notes|String|Notes on the device created by IT Admin|
-|configurationManagerClientHealthState|[configurationManagerClientHealthState](../resources/intune-devices-configurationManagerClientHealthState.md)|Configuration manager client health state, valid only for devices managed by MDM/ConfigMgr Agent|
-|configurationManagerClientInformation|[configurationManagerClientInformation](../resources/intune-devices-configurationManagerClientInformation.md)|Configuration manager client information, valid only for devices managed, duel-managed or tri-managed by ConfigMgr Agent|
+|configurationManagerClientHealthState|[configurationManagerClientHealthState](../resources/intune-devices-configurationmanagerclienthealthstate.md)|Configuration manager client health state, valid only for devices managed by MDM/ConfigMgr Agent|
+|configurationManagerClientInformation|[configurationManagerClientInformation](../resources/intune-devices-configurationmanagerclientinformation.md)|Configuration manager client information, valid only for devices managed, duel-managed or tri-managed by ConfigMgr Agent|
 |ethernetMacAddress|String|Ethernet MAC. This property is read-only.|
 |physicalMemoryInBytes|Int64|Total Memory in Bytes. This property is read-only.|
 |processorArchitecture|Enumeration|Processor architecture. This property is read-only. Possible values are: `unknown`, `x86`, `x64`, `arm`, `arM64`.|
@@ -118,7 +120,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [managedDevice](../resources/manageddevice.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [managedDevice](../resources/intune-devices-manageddevice.md) object in the response body.
 
 ## Example
 
@@ -130,7 +132,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/managedDevices
+POST https://graph.microsoft.com/localtest/deviceManagement/managedDevices
 Content-type: application/json
 Content-length: 7480
 
@@ -179,13 +181,13 @@ Content-length: 7480
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
     }
   ],
   "managementState": "String",
-  "enrolledDateTime": "2016-12-31T23:57:05.8195886+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "enrolledDateTime": "2016-12-31T23:57:33.2039505+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "chassisType": "String",
   "operatingSystem": "Operating System value",
   "deviceType": "String",
@@ -195,7 +197,7 @@ Content-length: 7480
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2017-01-01T00:00:46.2610831+03:00",
+  "easActivationDateTime": "2017-01-01T00:03:17.6859355+03:00",
   "aadRegistered": true,
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
@@ -207,7 +209,7 @@ Content-length: 7480
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:19.5323287+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:54.6036506+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -217,7 +219,7 @@ Content-length: 7480
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -240,7 +242,7 @@ Content-length: 7480
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2016-12-31T23:59:15.1085943+03:00",
+    "issuedDateTime": "2017-01-01T00:03:06.2449897+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,
@@ -275,17 +277,17 @@ Content-length: 7480
   "freeStorageSpaceInBytes": 7,
   "managedDeviceName": "Managed Device Name value",
   "partnerReportedThreatState": "String",
-  "retireAfterDateTime": "2016-12-31T23:59:23.8529265+03:00",
+  "retireAfterDateTime": "2016-12-31T23:56:27.7226917+03:00",
   "usersLoggedOn": [
     {
       "@odata.type": "microsoft.graph.loggedOnUser",
-      "lastLogOnDateTime": "2016-12-31T23:56:35.7950357+03:00"
+      "lastLogOnDateTime": "2017-01-01T00:02:43.9016004+03:00"
     }
   ],
-  "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:00:19.4068156+03:00",
+  "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:57:37.9669567+03:00",
   "autopilotEnrolled": true,
   "requireUserEnrollmentApproval": true,
-  "managementCertificateExpirationDate": "2017-01-01T00:01:31.4930621+03:00",
+  "managementCertificateExpirationDate": "2017-01-01T00:01:58.7700963+03:00",
   "iccid": "Iccid value",
   "udid": "Udid value",
   "roleScopeTagIds": [
@@ -324,7 +326,7 @@ Content-Length: 7529
 
 {
   "@odata.type": "#microsoft.graph.managedDevice",
-  "id": "6fde5d11-5d11-6fde-115d-de6f115dde6f",
+  "id": "75612d27-2d27-7561-272d-6175272d6175",
   "userId": "User Id value",
   "deviceName": "Device Name value",
   "hardwareInformation": {
@@ -368,13 +370,13 @@ Content-Length: 7529
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00"
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
     }
   ],
   "managementState": "String",
-  "enrolledDateTime": "2016-12-31T23:57:05.8195886+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "enrolledDateTime": "2016-12-31T23:57:33.2039505+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "chassisType": "String",
   "operatingSystem": "Operating System value",
   "deviceType": "String",
@@ -384,7 +386,7 @@ Content-Length: 7529
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2017-01-01T00:00:46.2610831+03:00",
+  "easActivationDateTime": "2017-01-01T00:03:17.6859355+03:00",
   "aadRegistered": true,
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
@@ -396,7 +398,7 @@ Content-Length: 7529
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:19.5323287+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:54.6036506+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -406,7 +408,7 @@ Content-Length: 7529
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -429,7 +431,7 @@ Content-Length: 7529
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2016-12-31T23:59:15.1085943+03:00",
+    "issuedDateTime": "2017-01-01T00:03:06.2449897+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,
@@ -464,17 +466,17 @@ Content-Length: 7529
   "freeStorageSpaceInBytes": 7,
   "managedDeviceName": "Managed Device Name value",
   "partnerReportedThreatState": "String",
-  "retireAfterDateTime": "2016-12-31T23:59:23.8529265+03:00",
+  "retireAfterDateTime": "2016-12-31T23:56:27.7226917+03:00",
   "usersLoggedOn": [
     {
       "@odata.type": "microsoft.graph.loggedOnUser",
-      "lastLogOnDateTime": "2016-12-31T23:56:35.7950357+03:00"
+      "lastLogOnDateTime": "2017-01-01T00:02:43.9016004+03:00"
     }
   ],
-  "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:00:19.4068156+03:00",
+  "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:57:37.9669567+03:00",
   "autopilotEnrolled": true,
   "requireUserEnrollmentApproval": true,
-  "managementCertificateExpirationDate": "2017-01-01T00:01:31.4930621+03:00",
+  "managementCertificateExpirationDate": "2017-01-01T00:01:58.7700963+03:00",
   "iccid": "Iccid value",
   "udid": "Udid value",
   "roleScopeTagIds": [

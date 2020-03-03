@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create groupPolicyPresentationCheckBox
 
+Namespace: microsoft.graph
+
 Create a new [groupPolicyPresentationCheckBox](../resources/grouppolicypresentationcheckbox.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.groupPolicyPresentationCheckBox not f
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyPresentationCheckBox object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationCheckBox](../resources/grouppolicypresentationcheckbox.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyPresentationCheckBox.
+The following table shows the properties that are required when you create the [groupPolicyPresentationCheckBox](../resources/grouppolicypresentationcheckbox.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
 |defaultChecked|Boolean|Default value for the check box. The default value is false.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationCheckBox not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationCheckBox not found
 Content-type: application/json
 Content-length: 127
 
@@ -88,9 +90,9 @@ Content-Length: 240
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationCheckBox",
-  "id": "7aadc0cc-c0cc-7aad-ccc0-ad7accc0ad7a",
+  "id": "7f1ce9d0-e9d0-7f1c-d0e9-1c7fd0e91c7f",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "defaultChecked": true
 }
 ```

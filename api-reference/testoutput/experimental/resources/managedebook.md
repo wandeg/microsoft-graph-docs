@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedEBook resource type
+
+
+Namespace: microsoft.graph
 
 An abstract class containing the base properties for Managed eBook.
 
@@ -19,19 +20,20 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedEBook](../api/managedebook-get.md)|[managedEBook](../resources/managedEBook.md)|Read properties and relationships of the [managedEBook](../resources/managedebook.md) object.|
+|[List managedEBooks](../api/managedebook-list.md)|[managedEBook](../resources/managedebook.md) collection|List properties and relationships of the [managedEBook](../resources/managedebook.md) objects.|
+|[Get managedEBook](../api/managedebook-get.md)|[managedEBook](../resources/managedebook.md)|Read properties and relationships of the [managedEBook](../resources/managedebook.md) object.|
 |[assign](../api/managedebook-assign.md)|None||
-|[List categories](../api/managedebook-list-categories.md)|[managedEBookCategory](../resources/managedEBookCategory.md) collection|Get the managedEBookCategories from the categories navigation property.|
-|[Create categories](../api/managedebook-post-categories.md)|[managedEBookCategory](../resources/managedEBookCategory.md)|Create categories by posting to the categories collection.|
-|[List assignments](../api/managedebook-list-assignments.md)|[managedEBookAssignment](../resources/managedEBookAssignment.md) collection|Get the managedEBookAssignments from the assignments navigation property.|
-|[Add assignments](../api/managedebook-post-assignments.md)|[managedEBookAssignment](../resources/managedEBookAssignment.md)|Add assignments by posting to the assignments collection.|
-|[Get eBookInstallSummary](../api/ebookinstallsummary-get.md)|[eBookInstallSummary](../resources/eBookInstallSummary.md)|Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
-|[List deviceStates](../api/managedebook-list-devicestates.md)|[deviceInstallState](../resources/deviceInstallState.md) collection|Get the deviceInstallStates from the deviceStates navigation property.|
-|[Add deviceStates](../api/managedebook-post-devicestates.md)|[deviceInstallState](../resources/deviceInstallState.md)|Add deviceStates by posting to the deviceStates collection.|
-|[List userStateSummary](../api/managedebook-list-userstatesummary.md)|[userInstallStateSummary](../resources/userInstallStateSummary.md) collection|Get the userInstallStateSummaries from the userStateSummary navigation property.|
-|[Add userStateSummary](../api/managedebook-post-userstatesummary.md)|[userInstallStateSummary](../resources/userInstallStateSummary.md)|Add userStateSummary by posting to the userStateSummary collection.|
-|[List managedEBooks](../api/intune-apps-deviceappmanagement-list-managedebooks.md)|[managedEBook](../resources/managedEBook.md) collection|Get the managedEBooks from the managedEBooks navigation property.|
-|[Add managedEBooks](../api/intune-apps-deviceappmanagement-post-managedebooks.md)|[managedEBook](../resources/managedEBook.md)|Add managedEBooks by posting to the managedEBooks collection.|
+|[List categories](../api/managedebook-list-categories.md)|[managedEBookCategory](../resources/managedebookcategory.md) collection|Get the managedEBookCategories from the categories navigation property.|
+|[Create categories](../api/managedebook-post-categories.md)|[managedEBookCategory](../resources/managedebookcategory.md)|Create categories by posting to the categories collection.|
+|[List assignments](../api/managedebook-list-assignments.md)|[managedEBookAssignment](../resources/managedebookassignment.md) collection|Get the managedEBookAssignments from the assignments navigation property.|
+|[Add assignments](../api/managedebook-post-assignments.md)|[managedEBookAssignment](../resources/managedebookassignment.md)|Add assignments by posting to the assignments collection.|
+|[Get eBookInstallSummary](../api/ebookinstallsummary-get.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
+|[List deviceStates](../api/managedebook-list-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md) collection|Get the deviceInstallStates from the deviceStates navigation property.|
+|[Add deviceStates](../api/managedebook-post-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Add deviceStates by posting to the deviceStates collection.|
+|[List userStateSummary](../api/managedebook-list-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|Get the userInstallStateSummaries from the userStateSummary navigation property.|
+|[Add userStateSummary](../api/managedebook-post-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Add userStateSummary by posting to the userStateSummary collection.|
+|[List managedEBooks](../api/intune-apps-deviceappmanagement-list-managedebooks.md)|[managedEBook](../resources/managedebook.md) collection|Get the managedEBooks from the managedEBooks navigation property.|
+|[Add managedEBooks](../api/intune-apps-deviceappmanagement-post-managedebooks.md)|[managedEBook](../resources/managedebook.md)|Add managedEBooks by posting to the managedEBooks collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |displayName|String|Name of the eBook.|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |informationUrl|String|The more information Url.|
-|largeCover|[mimeContent](../resources/intune-apps-mimeContent.md)|Book cover.|
+|largeCover|[mimeContent](../resources/intune-apps-mimecontent.md)|Book cover.|
 |lastModifiedDateTime|DateTimeOffset|The date and time when the eBook was last modified.|
 |privacyInformationUrl|String|The privacy statement Url.|
 |publishedDateTime|DateTimeOffset|The date and time when the eBook was published.|
@@ -50,11 +52,11 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[managedEBookAssignment](../resources/managedEBookAssignment.md) collection|The list of assignments for this eBook.|
-|categories|[managedEBookCategory](../resources/managedEBookCategory.md) collection|The list of categories for this eBook.|
-|deviceStates|[deviceInstallState](../resources/deviceInstallState.md) collection|The list of installation states for this eBook.|
-|installSummary|[eBookInstallSummary](../resources/eBookInstallSummary.md)|Mobile App Install Summary.|
-|userStateSummary|[userInstallStateSummary](../resources/userInstallStateSummary.md) collection|The list of installation states for this eBook.|
+|assignments|[managedEBookAssignment](../resources/managedebookassignment.md) collection|The list of assignments for this eBook.|
+|categories|[managedEBookCategory](../resources/managedebookcategory.md) collection|The list of categories for this eBook.|
+|deviceStates|[deviceInstallState](../resources/deviceinstallstate.md) collection|The list of installation states for this eBook.|
+|installSummary|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Mobile App Install Summary.|
+|userStateSummary|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|The list of installation states for this eBook.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

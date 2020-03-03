@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupPolicyPresentationValueText
 
+Namespace: microsoft.graph
+
 Deletes a [groupPolicyPresentationValueText](../resources/grouppolicypresentationvaluetext.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.groupPolicyPresentationValueText not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.groupPolicyPresentationValueText not found
 ```
 
 ### Response

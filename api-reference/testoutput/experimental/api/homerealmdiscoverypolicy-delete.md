@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete homeRealmDiscoveryPolicy
 
+Namespace: microsoft.graph
+
 Deletes a [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
+DELETE https://graph.microsoft.com/localtest/policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
 ```
 
 ### Response

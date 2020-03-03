@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get payloadResponse
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [payloadResponse](../resources/payloadresponse.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/payloadResponse/{payloadResponseId}
+GET https://graph.microsoft.com/localtest/payloadResponse/{payloadResponseId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 129
 {
   "value": {
     "@odata.type": "#microsoft.graph.payloadResponse",
-    "id": "b60088d7-88d7-b600-d788-00b6d78800b6"
+    "id": "425e067d-067d-425e-7d06-5e427d065e42"
   }
 }
 ```

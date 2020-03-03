@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete chatMessageHostedContent
 
+Namespace: microsoft.graph
+
 Deletes a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents/{chatMessageHostedContentId}
+DELETE https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageId}/hostedContents/{chatMessageHostedContentId}
 ```
 
 ### Response

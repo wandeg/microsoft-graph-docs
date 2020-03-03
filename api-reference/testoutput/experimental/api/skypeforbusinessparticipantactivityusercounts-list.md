@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List skypeForBusinessParticipantActivityUserCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [skypeForBusinessParticipantActivityUserCounts](../resources/skypeforbusinessparticipantactivityusercounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessParticipantActivityUserCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessParticipantActivityUserCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 402
   "value": [
     {
       "@odata.type": "#microsoft.graph.skypeForBusinessParticipantActivityUserCounts",
-      "id": "d1e9081c-081c-d1e9-1c08-e9d11c08e9d1",
+      "id": "840cb8ca-b8ca-840c-cab8-0c84cab80c84",
       "im": 2,
       "audioVideo": 10,
       "appSharing": 10,

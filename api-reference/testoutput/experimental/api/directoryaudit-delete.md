@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directoryAudit
 
+Namespace: microsoft.graph
+
 Deletes a [directoryAudit](../resources/directoryaudit.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/auditLogs/directoryAudits/{directoryAuditId}
+DELETE https://graph.microsoft.com/localtest/auditLogs/directoryAudits/{directoryAuditId}
 ```
 
 ### Response

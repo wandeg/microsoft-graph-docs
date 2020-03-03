@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookTableSort
 
+Namespace: microsoft.graph
+
 Create a new [workbookTableSort](../resources/workbooktablesort.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.workbookTableSort not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookTableSort object.
+In the request body, supply a JSON representation for the [workbookTableSort](../resources/workbooktablesort.md) object.
 
-The following table shows the properties that are required when you create the workbookTableSort.
+The following table shows the properties that are required when you create the [workbookTableSort](../resources/workbooktablesort.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|fields|[workbookSortField](../resources/workbookSortField.md) collection||
+|fields|[workbookSortField](../resources/workbooksortfield.md) collection||
 |matchCase|Boolean||
 |method|String||
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookTableSort not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookTableSort not found
 Content-type: application/json
 Content-length: 485
 
@@ -103,7 +105,7 @@ Content-Length: 534
 
 {
   "@odata.type": "#microsoft.graph.workbookTableSort",
-  "id": "19fa572b-572b-19fa-2b57-fa192b57fa19",
+  "id": "320c8dc2-8dc2-320c-c28d-0c32c28d0c32",
   "fields": [
     {
       "@odata.type": "microsoft.graph.workbookSortField",

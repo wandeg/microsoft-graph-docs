@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List organizations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [organization](../resources/organization.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/organization
+GET https://graph.microsoft.com/localtest/organization
 ```
 
 ### Response
@@ -64,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2766
+Content-Length: 2764
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.organization",
-      "id": "3aa93766-3766-3aa9-6637-a93a6637a93a",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "59cf2fa2-2fa2-59cf-a22f-cf59a22fcf59",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "assignedPlans": [
         {
           "@odata.type": "microsoft.graph.assignedPlan",
-          "assignedDateTime": "2017-01-01T00:00:28.0288253+03:00",
+          "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
           "capabilityStatus": "Capability Status value",
           "service": "Service value",
-          "servicePlanId": "f778b540-b540-f778-40b5-78f740b578f7"
+          "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
         }
       ],
       "businessPhones": [
@@ -87,13 +89,13 @@ Content-Length: 2766
       "city": "City value",
       "country": "Country value",
       "countryLetterCode": "Country Letter Code value",
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "displayName": "Display Name value",
       "isMultipleDataLocationsForServicesEnabled": true,
       "marketingNotificationEmails": [
         "Marketing Notification Emails value"
       ],
-      "onPremisesLastSyncDateTime": "2016-12-31T23:59:32.0778154+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
       "onPremisesSyncEnabled": true,
       "postalCode": "Postal Code value",
       "preferredLanguage": "Preferred Language value",
@@ -133,9 +135,9 @@ Content-Length: 2766
       "certificateConnectorSetting": {
         "@odata.type": "microsoft.graph.certificateConnectorSetting",
         "status": 6,
-        "certExpiryTime": "2017-01-01T00:01:14.8173044+03:00",
+        "certExpiryTime": "2017-01-01T00:00:31.0487871+03:00",
         "enrollmentError": "Enrollment Error value",
-        "lastConnectorConnectionTime": "2016-12-31T23:59:43.2041816+03:00",
+        "lastConnectorConnectionTime": "2016-12-31T23:57:26.3349319+03:00",
         "connectorVersion": "Connector Version value",
         "lastUploadVersion": 1
       }

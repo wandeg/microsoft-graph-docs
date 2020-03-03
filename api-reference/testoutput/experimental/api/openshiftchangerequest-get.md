@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get openShiftChangeRequest
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [openShiftChangeRequest](../resources/openshiftchangerequest.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/openShiftChangeRequests/{openShiftChangeRequestId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/openShiftChangeRequests/{openShiftChangeRequestId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1086
+Content-Length: 1085
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.openShiftChangeRequest",
-    "id": "098f26a9-26a9-098f-a926-8f09a9268f09",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "e4d2a3c0-a3c0-e4d2-c0a3-d2e4c0a3d2e4",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -92,9 +94,9 @@ Content-Length: 1086
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:58:57.5545713+03:00",
+    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2016-12-31T23:58:19.3888566+03:00",
+    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value",
     "openShiftId": "Open Shift Id value"

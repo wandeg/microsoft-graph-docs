@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete jobResponseBase
 
+Namespace: microsoft.graph
+
 Deletes a [jobResponseBase](../resources/jobresponsebase.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataClassification/jobs/{jobResponseBaseId}
+DELETE https://graph.microsoft.com/localtest/dataClassification/jobs/{jobResponseBaseId}
 ```
 
 ### Response

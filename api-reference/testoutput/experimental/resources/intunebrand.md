@@ -5,29 +5,30 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # intuneBrand resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|companyPortalBlockedActions|[companyPortalBlockedAction](../resources/companyPortalBlockedAction.md) collection|Collection of blocked actions on the company portal as per platform and device ownership types.|
+|companyPortalBlockedActions|[companyPortalBlockedAction](../resources/companyportalblockedaction.md) collection|Collection of blocked actions on the company portal as per platform and device ownership types.|
 |contactITEmailAddress|String|Email address of the person/organization responsible for IT support.|
 |contactITName|String|Name of the person/organization responsible for IT support.|
 |contactITNotes|String|Text comments regarding the person/organization responsible for IT support.|
 |contactITPhoneNumber|String|Phone number of the person/organization responsible for IT support.|
 |customPrivacyMessage|String|Custom privacy message.|
-|darkBackgroundLogo|[mimeContent](../resources/intune-apps-mimeContent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
+|darkBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
 |displayName|String|Company/organization name that is displayed to end users.|
 |isFactoryResetDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Factory Reset' action on corporate owned devices.|
 |isRemoveDeviceDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Remove Device' action on corporate owned devices.|
-|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimeContent.md)|Customized image displayed in Company Portal app landing page|
-|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimeContent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
+|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Customized image displayed in Company Portal app landing page|
+|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
 |onlineSupportSiteName|String|Display name of the company/organization’s IT helpdesk site.|
 |onlineSupportSiteUrl|String|URL to the company/organization’s IT helpdesk site.|
 |privacyUrl|String|URL to the company/organization’s privacy policy.|
@@ -36,7 +37,7 @@ Namespace: microsoft.graph
 |showLogo|Boolean|Boolean that represents whether the administrator-supplied logo images are shown or not shown.|
 |showNameNextToLogo|Boolean|Boolean that represents whether the administrator-supplied display name will be shown next to the logo image.|
 |showOfficeWebApps|Boolean|Boolean that indicates if Office WebApps will be shown in Company Portal|
-|themeColor|[rgbColor](../resources/rgbColor.md)|Primary theme color used in the Company Portal applications and web portal.|
+|themeColor|[rgbColor](../resources/rgbcolor.md)|Primary theme color used in the Company Portal applications and web portal.|
 
 ## Relationships
 None

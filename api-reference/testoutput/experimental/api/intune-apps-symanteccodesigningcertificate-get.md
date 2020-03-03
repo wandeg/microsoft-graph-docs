@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get symantecCodeSigningCertificate
 
-Read properties and relationships of the [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [symantecCodeSigningCertificate](../resources/symanteccodesigningcertificate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [symantecCodeSigningCertificate](../resources/intune-apps-symanteccodesigningcertificate.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/symantecCodeSigningCertificate
+GET https://graph.microsoft.com/localtest/deviceAppManagement/symantecCodeSigningCertificate
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 505
+Content-Length: 506
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.symantecCodeSigningCertificate",
-    "id": "20cef7f4-f7f4-20ce-f4f7-ce20f4f7ce20",
+    "id": "686e5b1c-5b1c-686e-1c5b-6e681c5b6e68",
     "content": "Y29udGVudA==",
     "status": "String",
     "password": "Password value",
@@ -80,8 +82,8 @@ Content-Length: 505
     "subject": "Subject value",
     "issuerName": "Issuer Name value",
     "issuer": "Issuer value",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-    "uploadDateTime": "2016-12-31T23:56:57.0702389+03:00"
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "uploadDateTime": "2017-01-01T00:02:13.8421427+03:00"
   }
 }
 ```

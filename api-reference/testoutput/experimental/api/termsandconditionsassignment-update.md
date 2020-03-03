@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update termsAndConditionsAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments/{t
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md) object.
+In the request body, supply a JSON representation for the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.
 
 The following table shows the properties that are required when you create the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Assignment target that the T&C policy is assigned to.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Assignment target that the T&C policy is assigned to.|
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments/{termsAndConditionsAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments/{termsAndConditionsAssignmentId}
 Content-type: application/json
 Content-length: 168
 
@@ -85,7 +87,7 @@ Content-Length: 217
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-  "id": "1a599199-9199-1a59-9991-591a9991591a",
+  "id": "3b273123-3123-3b27-2331-273b2331273b",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

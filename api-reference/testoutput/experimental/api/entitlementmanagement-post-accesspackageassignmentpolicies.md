@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add accessPackageAssignmentPolicies
 
+Namespace: microsoft.graph
+
 Add accessPackageAssignmentPolicies by posting to the accessPackageAssignmentPolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /identityGovernance/entitlementManagement/accessPackageAssignmentPolicies/$
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the accessPackageAssignmentPolicy object.
+In the request body, supply a JSON representation for the [accessPackageAssignmentPolicy](../resources/accesspackageassignmentpolicy.md) object.
 
-The following table shows the properties that are required when you create the accessPackageAssignmentPolicy.
+The following table shows the properties that are required when you create the [accessPackageAssignmentPolicy](../resources/accesspackageassignmentpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,9 +73,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageAssignmentPolicies
+POST https://graph.microsoft.com/localtest/identityGovernance/entitlementManagement/accessPackageAssignmentPolicies
 Content-type: application/json
-Content-length: 437
+Content-length: 438
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentPolicy",
@@ -84,7 +86,7 @@ Content-length: 437
   "isEnabled": true,
   "canExtend": true,
   "durationInDays": 14,
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "createdBy": "Created By value",
   "modifiedBy": "Modified By value"
 }
@@ -105,7 +107,7 @@ Content-Length: 605
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentPolicy",
-  "id": "4908a4f3-a4f3-4908-f3a4-0849f3a40849",
+  "id": "76099350-9350-7609-5093-097650930976",
   "userType": "User Type value",
   "accessPackageId": "Access Package Id value",
   "displayName": "Display Name value",
@@ -113,11 +115,11 @@ Content-Length: 605
   "isEnabled": true,
   "canExtend": true,
   "durationInDays": 14,
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "createdBy": "Created By value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "modifiedBy": "Modified By value",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00"
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
 }
 ```
 

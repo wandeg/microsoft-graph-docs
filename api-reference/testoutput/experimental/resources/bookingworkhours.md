@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # bookingWorkHours resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |day|Enumeration|The day of the week represented by this instance. Possible values are: `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`.|
-|timeSlots|[bookingWorkTimeSlot](../resources/bookingWorkTimeSlot.md) collection|A list of start/end times during a day.|
+|timeSlots|[bookingWorkTimeSlot](../resources/bookingworktimeslot.md) collection|A list of start/end times during a day.|
 
 ## Relationships
 None

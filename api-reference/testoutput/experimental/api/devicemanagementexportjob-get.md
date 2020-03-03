@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementExportJob
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/reports/exportJobs/{deviceManagementExportJobId}
+GET https://graph.microsoft.com/localtest/deviceManagement/reports/exportJobs/{deviceManagementExportJobId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 496
+Content-Length: 497
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementExportJob",
-    "id": "cff3b074-b074-cff3-74b0-f3cf74b0f3cf",
+    "id": "8f2659c2-59c2-8f26-c259-268fc259268f",
     "reportName": "Report Name value",
     "filter": "Filter value",
     "select": [
@@ -82,8 +84,8 @@ Content-Length: 496
     "snapshotId": "Snapshot Id value",
     "status": "String",
     "url": "Url value",
-    "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00"
+    "requestDateTime": "2017-01-01T00:00:58.3860693+03:00",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
   }
 }
 ```

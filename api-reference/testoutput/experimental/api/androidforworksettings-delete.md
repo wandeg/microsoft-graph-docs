@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidForWorkSettings
 
+Namespace: microsoft.graph
+
 Deletes a [androidForWorkSettings](../resources/androidforworksettings.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/androidForWorkSettings
+DELETE https://graph.microsoft.com/localtest/deviceManagement/androidForWorkSettings
 ```
 
 ### Response

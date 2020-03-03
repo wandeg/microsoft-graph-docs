@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add presentationValues
 
+Namespace: microsoft.graph
+
 Add presentationValues by posting to the presentationValues collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/de
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyPresentationValue object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyPresentationValue.
+The following table shows the properties that are required when you create the [groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/definitionValues/{groupPolicyDefinitionValueId}/presentationValues
 Content-type: application/json
 Content-length: 70
 
@@ -81,13 +83,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 242
+Content-Length: 241
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationValue",
-  "id": "7cc9c9f1-c9f1-7cc9-f1c9-c97cf1c9c97c",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00"
+  "id": "b3cea72e-a72e-b3ce-2ea7-ceb32ea7ceb3",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
 }
 ```
 

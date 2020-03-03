@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationSynchronizationError resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationSynchronizationError](../api/educationsynchronizationerror-get.md)|[educationSynchronizationError](../resources/educationSynchronizationError.md)|Read properties and relationships of the [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
+|[List educationSynchronizationErrors](../api/educationsynchronizationerror-list.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md) collection|List properties and relationships of the [educationSynchronizationError](../resources/educationsynchronizationerror.md) objects.|
+|[Get educationSynchronizationError](../api/educationsynchronizationerror-get.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Read properties and relationships of the [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
+|[Create educationSynchronizationError](../api/educationsynchronizationerror-create.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Create a new [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
 |[Delete educationSynchronizationError](../api/educationsynchronizationerror-delete.md)|None|Deletes a [educationSynchronizationError](../resources/educationsynchronizationerror.md).|
-|[Update educationSynchronizationError](../api/educationsynchronizationerror-update.md)|[educationSynchronizationError](../resources/educationSynchronizationError.md)|Update the properties of a [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
+|[Update educationSynchronizationError](../api/educationsynchronizationerror-update.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Update the properties of a [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete unfamiliarLocationRiskEvent
 
+Namespace: microsoft.graph
+
 Deletes a [unfamiliarLocationRiskEvent](../resources/unfamiliarlocationriskevent.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/unfamiliarLocationRiskEvents/{unfamiliarLocationRiskEventsId}
+DELETE https://graph.microsoft.com/localtest/unfamiliarLocationRiskEvents/{unfamiliarLocationRiskEventsId}
 ```
 
 ### Response

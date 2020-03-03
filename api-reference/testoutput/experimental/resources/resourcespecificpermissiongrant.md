@@ -5,37 +5,38 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # resourceSpecificPermissionGrant resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List resourceSpecificPermissionGrants](../api/resourcespecificpermissiongrant-list.md)|[resourceSpecificPermissionGrant](../resources/resourceSpecificPermissionGrant.md) collection|List properties and relationships of the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) objects.|
-|[Get resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-get.md)|[resourceSpecificPermissionGrant](../resources/resourceSpecificPermissionGrant.md)|Read properties and relationships of the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
-|[Create resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-post-permissiongrants.md)|[resourceSpecificPermissionGrant](../resources/resourceSpecificPermissionGrant.md)|Create a new [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
+|[List resourceSpecificPermissionGrants](../api/resourcespecificpermissiongrant-list.md)|[resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) collection|List properties and relationships of the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) objects.|
+|[Get resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-get.md)|[resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md)|Read properties and relationships of the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
+|[Create resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-post-permissiongrants.md)|[resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md)|Create a new [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
 |[Delete resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-delete.md)|None|Deletes a [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md).|
-|[Update resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-update.md)|[resourceSpecificPermissionGrant](../resources/resourceSpecificPermissionGrant.md)|Update the properties of a [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
+|[Update resourceSpecificPermissionGrant](../api/resourcespecificpermissiongrant-update.md)|[resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md)|Update the properties of a [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.|
 |[checkMemberGroups](../api/resourcespecificpermissiongrant-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/resourcespecificpermissiongrant-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/resourcespecificpermissiongrant-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/resourcespecificpermissiongrant-getmemberobjects.md)|String collection||
-|[restore](../api/resourcespecificpermissiongrant-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/resourcespecificpermissiongrant-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |clientAppId|String||
 |clientId|String||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |permission|String||
 |permissionType|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileAppIntentAndState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
+GET https://graph.microsoft.com/localtest/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 934
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppIntentAndState",
-    "id": "817670ab-70ab-8176-ab70-7681ab707681",
+    "id": "0e508b02-8b02-0e50-028b-500e028b500e",
     "managedDeviceIdentifier": "Managed Device Identifier value",
     "userId": "User Id value",
     "mobileAppList": [

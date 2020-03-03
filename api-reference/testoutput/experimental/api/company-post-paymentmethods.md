@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add paymentMethods
 
+Namespace: microsoft.graph
+
 Add paymentMethods by posting to the paymentMethods collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /financials/companies/{companyId}/paymentMethods/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the paymentMethod object.
+In the request body, supply a JSON representation for the [paymentMethod](../resources/paymentmethod.md) object.
 
-The following table shows the properties that are required when you create the paymentMethod.
+The following table shows the properties that are required when you create the [paymentMethod](../resources/paymentmethod.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/financials/companies/{companyId}/paymentMethods
+POST https://graph.microsoft.com/localtest/financials/companies/{companyId}/paymentMethods
 Content-type: application/json
 Content-length: 120
 
@@ -88,10 +90,10 @@ Content-Length: 233
 
 {
   "@odata.type": "#microsoft.graph.paymentMethod",
-  "id": "792e3cd3-3cd3-792e-d33c-2e79d33c2e79",
+  "id": "620d69bd-69bd-620d-bd69-0d62bd690d62",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

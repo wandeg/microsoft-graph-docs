@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get financials
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [financials](../resources/financials.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials
+GET https://graph.microsoft.com/localtest/financials
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 124
 {
   "value": {
     "@odata.type": "#microsoft.graph.financials",
-    "id": "ffdea07f-a07f-ffde-7fa0-deff7fa0deff"
+    "id": "278b3623-3623-278b-2336-8b2723368b27"
   }
 }
 ```

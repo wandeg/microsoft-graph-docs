@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mentionAction resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|mentionees|[identitySet](../resources/identitySet.md) collection||
+|mentionees|[identitySet](../resources/identityset.md) collection||
 
 ## Relationships
 None

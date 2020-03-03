@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # exactMatchJobBase resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List exactMatchJobBases](../api/exactmatchjobbase-list.md)|[exactMatchJobBase](../resources/exactMatchJobBase.md) collection|List properties and relationships of the [exactMatchJobBase](../resources/exactmatchjobbase.md) objects.|
-|[Get exactMatchJobBase](../api/exactmatchjobbase-get.md)|[exactMatchJobBase](../resources/exactMatchJobBase.md)|Read properties and relationships of the [exactMatchJobBase](../resources/exactmatchjobbase.md) object.|
+|[List exactMatchJobBases](../api/exactmatchjobbase-list.md)|[exactMatchJobBase](../resources/exactmatchjobbase.md) collection|List properties and relationships of the [exactMatchJobBase](../resources/exactmatchjobbase.md) objects.|
+|[Get exactMatchJobBase](../api/exactmatchjobbase-get.md)|[exactMatchJobBase](../resources/exactmatchjobbase.md)|Read properties and relationships of the [exactMatchJobBase](../resources/exactmatchjobbase.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |completionDateTime|DateTimeOffset||
 |creationDateTime|DateTimeOffset||
-|error|[classificationError](../resources/classificationError.md)||
+|error|[classificationError](../resources/classificationerror.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastUpdatedDateTime|DateTimeOffset||
 |startDateTime|DateTimeOffset||

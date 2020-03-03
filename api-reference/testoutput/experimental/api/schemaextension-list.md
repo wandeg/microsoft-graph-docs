@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List schemaExtensions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [schemaExtension](../resources/schemaextension.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/schemaExtensions
+GET https://graph.microsoft.com/localtest/schemaExtensions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 507
   "value": [
     {
       "@odata.type": "#microsoft.graph.schemaExtension",
-      "id": "745f15b3-15b3-745f-b315-5f74b3155f74",
+      "id": "a85dacef-acef-a85d-efac-5da8efac5da8",
       "description": "Description value",
       "targetTypes": [
         "Target Types value"

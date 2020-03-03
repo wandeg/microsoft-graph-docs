@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementReportSchedule resource type
+
+
+Namespace: microsoft.graph
 
 Entity representing a schedule for which reports are delivered
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementReportSchedule](../api/devicemanagementreportschedule-get.md)|[deviceManagementReportSchedule](../resources/deviceManagementReportSchedule.md)|Read properties and relationships of the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
+|[List deviceManagementReportSchedules](../api/devicemanagementreportschedule-list.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) collection|List properties and relationships of the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) objects.|
+|[Get deviceManagementReportSchedule](../api/devicemanagementreportschedule-get.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Read properties and relationships of the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
+|[Create deviceManagementReportSchedule](../api/devicemanagementreportschedule-create.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Create a new [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
 |[Delete deviceManagementReportSchedule](../api/devicemanagementreportschedule-delete.md)|None|Deletes a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md).|
-|[Update deviceManagementReportSchedule](../api/devicemanagementreportschedule-update.md)|[deviceManagementReportSchedule](../resources/deviceManagementReportSchedule.md)|Update the properties of a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
+|[Update deviceManagementReportSchedule](../api/devicemanagementreportschedule-update.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Update the properties of a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
 
 ## Properties
 |Property|Type|Description|

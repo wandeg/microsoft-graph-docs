@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[groupPolicyConfigurationAssignment](../resources/groupPolicyConfigurationAssignment.md) collection||
+|assignments|[groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [groupPolicyConfigurationAssignment](../resources/groupPolicyConfigurationAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assign
+POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/assign
 
 Content-type: application/json
 Content-length: 350
@@ -68,8 +70,8 @@ Content-length: 350
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-      "id": "63fd6a97-6a97-63fd-976a-fd63976afd63",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -95,8 +97,8 @@ Content-Length: 344
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-      "id": "63fd6a97-6a97-63fd-976a-fd63976afd63",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

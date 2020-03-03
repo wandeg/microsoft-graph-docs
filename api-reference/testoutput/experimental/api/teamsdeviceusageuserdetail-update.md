@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsDeviceUsageUserDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.teamsDeviceUsageUserDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsDeviceUsageUserDetail](../resources/teamsDeviceUsageUserDetail.md) object.
+In the request body, supply a JSON representation for the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md) object.
 
 The following table shows the properties that are required when you create the [teamsDeviceUsageUserDetail](../resources/teamsdeviceusageuserdetail.md).
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.teamsDeviceUsageUserDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.teamsDeviceUsageUserDetail not found
 Content-type: application/json
 Content-length: 416
 
@@ -105,7 +107,7 @@ Content-Length: 465
 
 {
   "@odata.type": "#microsoft.graph.teamsDeviceUsageUserDetail",
-  "id": "7b410dca-0dca-7b41-ca0d-417bca0d417b",
+  "id": "fa1e1d91-1d91-fa1e-911d-1efa911d1efa",
   "reportRefreshDate": "Date",
   "userPrincipalName": "User Principal Name value",
   "lastActivityDate": "Date",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # resume
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/resume
+POST https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/resume
 ```
 
 ### Response

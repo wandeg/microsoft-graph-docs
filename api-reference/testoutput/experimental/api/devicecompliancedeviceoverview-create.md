@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceComplianceDeviceOverview
 
+Namespace: microsoft.graph
+
 Create a new [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceComplianceDeviceOverview object.
+In the request body, supply a JSON representation for the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.
 
-The following table shows the properties that are required when you create the deviceComplianceDeviceOverview.
+The following table shows the properties that are required when you create the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,9 +70,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not found
 Content-type: application/json
-Content-length: 341
+Content-length: 342
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
@@ -81,7 +83,7 @@ Content-length: 341
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```
@@ -97,11 +99,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 390
+Content-Length: 391
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
-  "id": "4673f14a-f14a-4673-4af1-73464af17346",
+  "id": "d226abf5-abf5-d226-f5ab-26d2f5ab26d2",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "notApplicablePlatformCount": 10,
@@ -109,7 +111,7 @@ Content-Length: 390
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2016-12-31T23:59:30.086867+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
   "configurationVersion": 4
 }
 ```

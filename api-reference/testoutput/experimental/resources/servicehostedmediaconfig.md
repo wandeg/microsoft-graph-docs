@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # serviceHostedMediaConfig resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [mediaConfig](../resources/mediaConfig.md)
+
+
+Inherits from [mediaConfig](../resources/mediaconfig.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|preFetchMedia|[mediaInfo](../resources/mediaInfo.md) collection||
-|removeFromDefaultAudioGroup|Boolean| Inherited from [mediaConfig](../resources/mediaConfig.md)|
+|preFetchMedia|[mediaInfo](../resources/mediainfo.md) collection||
+|removeFromDefaultAudioGroup|Boolean| Inherited from [mediaConfig](../resources/mediaconfig.md)|
 
 ## Relationships
 None

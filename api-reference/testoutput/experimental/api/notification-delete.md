@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete notification
 
+Namespace: microsoft.graph
+
 Deletes a [notification](../resources/notification.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/notifications/{notificationId}
+DELETE https://graph.microsoft.com/localtest/me/notifications/{notificationId}
 ```
 
 ### Response

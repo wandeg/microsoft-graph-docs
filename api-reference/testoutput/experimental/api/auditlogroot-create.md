@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create auditLogRoot
 
+Namespace: microsoft.graph
+
 Create a new [auditLogRoot](../resources/auditlogroot.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.auditLogRoot not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the auditLogRoot object.
+In the request body, supply a JSON representation for the [auditLogRoot](../resources/auditlogroot.md) object.
 
-The following table shows the properties that are required when you create the auditLogRoot.
+The following table shows the properties that are required when you create the [auditLogRoot](../resources/auditlogroot.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.auditLogRoot not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.auditLogRoot not found
 Content-type: application/json
 Content-length: 54
 
@@ -83,7 +85,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.auditLogRoot",
-  "id": "e9328331-8331-e932-3183-32e9318332e9"
+  "id": "0e6fe61e-e61e-0e6f-1ee6-6f0e1ee66f0e"
 }
 ```
 

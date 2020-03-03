@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create azureADFeatureUsage
 
+Namespace: microsoft.graph
+
 Create a new [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.azureADFeatureUsage not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the azureADFeatureUsage object.
+In the request body, supply a JSON representation for the [azureADFeatureUsage](../resources/azureadfeatureusage.md) object.
 
-The following table shows the properties that are required when you create the azureADFeatureUsage.
+The following table shows the properties that are required when you create the [azureADFeatureUsage](../resources/azureadfeatureusage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,13 +64,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.azureADFeatureUsage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.azureADFeatureUsage not found
 Content-type: application/json
-Content-length: 176
+Content-length: 175
 
 {
   "@odata.type": "#microsoft.graph.azureADFeatureUsage",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "featureName": "Feature Name value",
   "usage": 5
 }
@@ -85,12 +87,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 225
+Content-Length: 224
 
 {
   "@odata.type": "#microsoft.graph.azureADFeatureUsage",
-  "id": "621fad09-ad09-621f-09ad-1f6209ad1f62",
-  "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+  "id": "dae653c6-53c6-dae6-c653-e6dac653e6da",
+  "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
   "featureName": "Feature Name value",
   "usage": 5
 }

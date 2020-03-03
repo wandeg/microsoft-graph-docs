@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceSettingStateSummaries
 
+Namespace: microsoft.graph
+
 Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSumm
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementIntentDeviceSettingStateSummary object.
+In the request body, supply a JSON representation for the [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementIntentDeviceSettingStateSummary.
+The following table shows the properties that are required when you create the [deviceManagementIntentDeviceSettingStateSummary](../resources/devicemanagementintentdevicesettingstatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries
+POST https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/deviceSettingStateSummaries
 Content-type: application/json
 Content-length: 280
 
@@ -97,7 +99,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceSettingStateSummary",
-  "id": "9d24436b-436b-9d24-6b43-249d6b43249d",
+  "id": "19d40817-0817-19d4-1708-d4191708d419",
   "settingName": "Setting Name value",
   "compliantCount": 14,
   "conflictCount": 13,

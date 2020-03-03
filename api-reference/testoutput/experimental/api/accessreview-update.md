@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessReview
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessReview](../resources/accessreview.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /accessReviews/{accessReviewsId}/instances/{accessReviewId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessReview](../resources/accessReview.md) object.
+In the request body, supply a JSON representation for the [accessReview](../resources/accessreview.md) object.
 
 The following table shows the properties that are required when you create the [accessReview](../resources/accessreview.md).
 
@@ -47,11 +49,11 @@ The following table shows the properties that are required when you create the [
 |startDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
 |status|String||
-|createdBy|[userIdentity](../resources/userIdentity.md)||
+|createdBy|[userIdentity](../resources/useridentity.md)||
 |businessFlowTemplateId|String||
 |reviewerType|String||
 |description|String||
-|settings|[accessReviewSettings](../resources/accessReviewSettings.md)||
+|settings|[accessReviewSettings](../resources/accessreviewsettings.md)||
 |reviewedEntity|[identity](../resources/identity.md)||
 
 
@@ -69,15 +71,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessReviews/{accessReviewsId}
+PATCH https://graph.microsoft.com/localtest/accessReviews/{accessReviewsId}
 Content-type: application/json
 Content-length: 1425
 
 {
   "@odata.type": "#microsoft.graph.accessReview",
   "displayName": "Display Name value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "status": "Status value",
   "createdBy": {
     "@odata.type": "microsoft.graph.userIdentity",
@@ -129,10 +131,10 @@ Content-Length: 1474
 
 {
   "@odata.type": "#microsoft.graph.accessReview",
-  "id": "9a0f0fe1-0fe1-9a0f-e10f-0f9ae10f0f9a",
+  "id": "0fda1333-1333-0fda-3313-da0f3313da0f",
   "displayName": "Display Name value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "status": "Status value",
   "createdBy": {
     "@odata.type": "microsoft.graph.userIdentity",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getRelatedAppStates
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -46,7 +48,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [mobileAppRelationshipState](../resources/intune-apps-mobileAppRelationshipState.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [mobileAppRelationshipState](../resources/intune-apps-mobileapprelationshipstate.md) collection in the response body.
 
 ## Example
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.webApp not found/getRelatedAppStates(userPrincipalName='parameterValue',deviceId='parameterValue')
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.webApp not found/getRelatedAppStates(userPrincipalName='parameterValue',deviceId='parameterValue')
 ```
 
 ### Response

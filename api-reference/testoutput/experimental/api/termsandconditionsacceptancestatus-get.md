@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get termsAndConditionsAcceptanceStatus
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatuses/{termsAndConditionsAcceptanceStatusId}
+GET https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatuses/{termsAndConditionsAcceptanceStatusId}
 ```
 
 ### Response
@@ -72,10 +74,10 @@ Content-Length: 289
 {
   "value": {
     "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-    "id": "b9d2ae41-ae41-b9d2-41ae-d2b941aed2b9",
+    "id": "538b66b3-66b3-538b-b366-8b53b3668b53",
     "userDisplayName": "User Display Name value",
     "acceptedVersion": 15,
-    "acceptedDateTime": "2017-01-01T00:03:09.3513998+03:00"
+    "acceptedDateTime": "2016-12-31T23:56:51.8170211+03:00"
   }
 }
 ```

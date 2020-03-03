@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,8 +44,8 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|appProvisioningConfigurationGroupAssignments|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileAppProvisioningConfigGroupAssignment.md) collection||
-|iOSLobAppProvisioningConfigAssignments|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-iosLobAppProvisioningConfigurationAssignment.md) collection||
+|appProvisioningConfigurationGroupAssignments|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md) collection||
+|iOSLobAppProvisioningConfigAssignments|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-ioslobappprovisioningconfigurationassignment.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/assign
+POST https://graph.microsoft.com/localtest/deviceAppManagement/iosLobAppProvisioningConfigurations/{iosLobAppProvisioningConfigurationId}/assign
 
 Content-type: application/json
 Content-length: 578
@@ -69,14 +71,14 @@ Content-length: 578
   "appProvisioningConfigurationGroupAssignments": [
     {
       "@odata.type": "#microsoft.graph.mobileAppProvisioningConfigGroupAssignment",
-      "id": "c69ac454-c454-c69a-54c4-9ac654c49ac6",
+      "id": "9d0c8489-8489-9d0c-8984-0c9d89840c9d",
       "targetGroupId": "Target Group Id value"
     }
   ],
   "iOSLobAppProvisioningConfigAssignments": [
     {
       "@odata.type": "#microsoft.graph.iosLobAppProvisioningConfigurationAssignment",
-      "id": "2fb00efd-0efd-2fb0-fd0e-b02ffd0eb02f",
+      "id": "cd4914d9-14d9-cd49-d914-49cdd91449cd",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

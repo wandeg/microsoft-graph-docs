@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidForWorkCustomConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidForWorkCustomConfiguration](../resources/androidforworkcustomconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidForWorkCustomConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidForWorkCustomConfiguration not found
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1340
+Content-Length: 1339
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidForWorkCustomConfiguration",
-    "id": "e9bee187-e187-e9be-87e1-bee987e1bee9",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "3b98b41b-b41b-3b98-1bb4-983b1bb4983b",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -95,7 +97,7 @@ Content-Length: 1340
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List skypeForBusinessPeerToPeerActivityMinuteCountses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [skypeForBusinessPeerToPeerActivityMinuteCounts](../resources/skypeforbusinesspeertopeeractivityminutecounts.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessPeerToPeerActivityMinuteCounts not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessPeerToPeerActivityMinuteCounts not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 327
   "value": [
     {
       "@odata.type": "#microsoft.graph.skypeForBusinessPeerToPeerActivityMinuteCounts",
-      "id": "ec0548dd-48dd-ec05-dd48-05ecdd4805ec",
+      "id": "a9b7f509-f509-a9b7-09f5-b7a909f5b7a9",
       "audio": 5,
       "video": 5,
       "reportRefreshDate": "Date",

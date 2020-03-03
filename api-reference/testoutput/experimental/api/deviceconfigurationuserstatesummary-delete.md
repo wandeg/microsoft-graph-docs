@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceConfigurationUserStateSummary
 
+Namespace: microsoft.graph
+
 Deletes a [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationUserStateSummaries
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurationUserStateSummaries
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add agentGroups
 
+Namespace: microsoft.graph
+
 Add agentGroups by posting to the agentGroups collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups/
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onPremisesAgentGroup object.
+In the request body, supply a JSON representation for the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.
 
-The following table shows the properties that are required when you create the onPremisesAgentGroup.
+The following table shows the properties that are required when you create the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups
+POST https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agentGroups
 Content-type: application/json
 Content-length: 155
 
@@ -89,7 +91,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.onPremisesAgentGroup",
-  "id": "7b1dc0c4-c0c4-7b1d-c4c0-1d7bc4c01d7b",
+  "id": "87d3d3e5-d3e5-87d3-e5d3-d387e5d3d387",
   "displayName": "Display Name value",
   "publishingType": "String",
   "isDefault": true

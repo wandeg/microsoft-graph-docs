@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # start
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /education/synchronizationProfiles/{educationSynchronizationProfileId}/star
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [educationFileSynchronizationVerificationMessage](../resources/educationFileSynchronizationVerificationMessage.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [educationFileSynchronizationVerificationMessage](../resources/educationfilesynchronizationverificationmessage.md) collection in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/start
+POST https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/start
 ```
 
 ### Response

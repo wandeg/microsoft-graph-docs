@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create informationProtectionPolicy
 
+Namespace: microsoft.graph
+
 Create a new [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.informationProtectionPolicy not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the informationProtectionPolicy object.
+In the request body, supply a JSON representation for the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.
 
-The following table shows the properties that are required when you create the informationProtectionPolicy.
+The following table shows the properties that are required when you create the [informationProtectionPolicy](../resources/informationprotectionpolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.informationProtectionPolicy not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.informationProtectionPolicy not found
 Content-type: application/json
 Content-length: 69
 
@@ -83,7 +85,7 @@ Content-Length: 118
 
 {
   "@odata.type": "#microsoft.graph.informationProtectionPolicy",
-  "id": "88172d2c-2d2c-8817-2c2d-17882c2d1788"
+  "id": "738d216e-216e-738d-6e21-8d736e218d73"
 }
 ```
 

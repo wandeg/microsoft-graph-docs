@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # shareAction resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|recipients|[identitySet](../resources/identitySet.md) collection||
+|recipients|[identitySet](../resources/identityset.md) collection||
 
 ## Relationships
 None

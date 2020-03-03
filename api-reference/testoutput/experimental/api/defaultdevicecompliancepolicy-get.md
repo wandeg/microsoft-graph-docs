@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get defaultDeviceCompliancePolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [defaultDeviceCompliancePolicy](../resources/defaultdevicecompliancepolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.defaultDeviceCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.defaultDeviceCompliancePolicy not found
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 440
+Content-Length: 439
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.defaultDeviceCompliancePolicy",
-    "id": "8109cbaa-cbaa-8109-aacb-0981aacb0981",
+    "id": "88b6f316-f316-88b6-16f3-b68816f3b688",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "displayName": "Display Name value",
     "version": 7
   }

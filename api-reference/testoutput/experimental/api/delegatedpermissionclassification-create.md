@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create delegatedPermissionClassification
 
+Namespace: microsoft.graph
+
 Create a new [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.delegatedPermissionClassification not
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the delegatedPermissionClassification object.
+In the request body, supply a JSON representation for the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md) object.
 
-The following table shows the properties that are required when you create the delegatedPermissionClassification.
+The following table shows the properties that are required when you create the [delegatedPermissionClassification](../resources/delegatedpermissionclassification.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.delegatedPermissionClassification not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.delegatedPermissionClassification not found
 Content-type: application/json
 Content-length: 194
 
@@ -89,7 +91,7 @@ Content-Length: 243
 
 {
   "@odata.type": "#microsoft.graph.delegatedPermissionClassification",
-  "id": "947f692a-692a-947f-2a69-7f942a697f94",
+  "id": "68614311-4311-6861-1143-616811436168",
   "permissionId": "Permission Id value",
   "permissionName": "Permission Name value",
   "classification": "String"

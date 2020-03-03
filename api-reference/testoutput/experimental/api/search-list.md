@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List searches
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [search](../resources/search.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.search not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.search not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 138
   "value": [
     {
       "@odata.type": "#microsoft.graph.search",
-      "id": "52db7545-7545-52db-4575-db524575db52"
+      "id": "e7f88227-8227-e7f8-2782-f8e72782f8e7"
     }
   ]
 }

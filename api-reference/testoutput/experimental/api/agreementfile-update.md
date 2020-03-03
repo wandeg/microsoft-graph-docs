@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update agreementFile
 
+Namespace: microsoft.graph
+
 Update the properties of a [agreementFile](../resources/agreementfile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /agreements/{agreementsId}/files/{agreementFileId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [agreementFile](../resources/agreementFile.md) object.
+In the request body, supply a JSON representation for the [agreementFile](../resources/agreementfile.md) object.
 
 The following table shows the properties that are required when you create the [agreementFile](../resources/agreementfile.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |language|String||
 |fileName|String||
-|fileData|[agreementFileData](../resources/agreementFileData.md)||
+|fileData|[agreementFileData](../resources/agreementfiledata.md)||
 |isDefault|Boolean||
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/agreements/{agreementsId}/files/{agreementFileId}
+PATCH https://graph.microsoft.com/localtest/agreements/{agreementsId}/files/{agreementFileId}
 Content-type: application/json
 Content-length: 248
 
@@ -92,7 +94,7 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.agreementFile",
-  "id": "1ad53af8-3af8-1ad5-f83a-d51af83ad51a",
+  "id": "5471cf3f-cf3f-5471-3fcf-71543fcf7154",
   "language": "Language value",
   "fileName": "File Name value",
   "fileData": {

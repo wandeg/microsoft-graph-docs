@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get calendarPermission
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [calendarPermission](../resources/calendarpermission.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermissionId}
+GET https://graph.microsoft.com/localtest/me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermissionId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 411
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendarPermission",
-    "id": "cb27b565-b565-cb27-65b5-27cb65b527cb",
+    "id": "0445712f-712f-0445-2f71-45042f714504",
     "emailAddress": {
       "@odata.type": "microsoft.graph.emailAddress",
       "name": "Name value",

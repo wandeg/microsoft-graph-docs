@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidManagedStoreAccountEnterpriseSettings resource type
+
+
+Namespace: microsoft.graph
 
 Enterprise settings for an Android managed store account.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidManagedStoreAccountEnterpriseSettingses](../api/androidmanagedstoreaccountenterprisesettings-list.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidManagedStoreAccountEnterpriseSettings.md) collection|List properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) objects.|
-|[Get androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-get.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidManagedStoreAccountEnterpriseSettings.md)|Read properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
-|[Create androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-create.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidManagedStoreAccountEnterpriseSettings.md)|Create a new [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
+|[List androidManagedStoreAccountEnterpriseSettingses](../api/androidmanagedstoreaccountenterprisesettings-list.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) collection|List properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) objects.|
+|[Get androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-get.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md)|Read properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
+|[Create androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-create.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md)|Create a new [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
 |[Delete androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-delete.md)|None|Deletes a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md).|
-|[Update androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-update.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidManagedStoreAccountEnterpriseSettings.md)|Update the properties of a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
+|[Update androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-update.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md)|Update the properties of a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
 |[approveApps](../api/androidmanagedstoreaccountenterprisesettings-approveapps.md)|None||
 |[requestSignupUrl](../api/androidmanagedstoreaccountenterprisesettings-requestsignupurl.md)|String||
 |[completeSignup](../api/androidmanagedstoreaccountenterprisesettings-completesignup.md)|None||
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |androidDeviceOwnerFullyManagedEnrollmentEnabled|Boolean|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
 |bindStatus|Enumeration|Bind status of the tenant with the Google EMM API. Possible values are: `notBound`, `bound`, `boundAndValidated`, `unbinding`.|
-|companyCodes|[androidEnrollmentCompanyCode](../resources/androidEnrollmentCompanyCode.md) collection|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
+|companyCodes|[androidEnrollmentCompanyCode](../resources/androidenrollmentcompanycode.md) collection|Company codes for AndroidManagedStoreAccountEnterpriseSettings|
 |deviceOwnerManagementEnabled|Boolean|Indicates if this account is flighting for Android Device Owner Management with CloudDPC.|
 |enrollmentTarget|Enumeration|Indicates which users can enroll devices in Android Enterprise device management. Possible values are: `none`, `all`, `targeted`, `targetedAsEnrollmentRestrictions`.|
 |id|String| Inherited from [entity](../resources/entity.md)|

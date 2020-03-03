@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerDelta
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerDelta](../resources/plannerdelta.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 126
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerDelta",
-    "id": "241acbc6-cbc6-241a-c6cb-1a24c6cb1a24"
+    "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
   }
 }
 ```

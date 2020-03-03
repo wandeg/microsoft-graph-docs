@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # credentialSingleSignOnExtension resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [singleSignOnExtension](../resources/singleSignOnExtension.md)
+
+
+Inherits from [singleSignOnExtension](../resources/singlesignonextension.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|configurations|[keyTypedValuePair](../resources/keyTypedValuePair.md) collection|Gets or sets a list of typed key-value pairs used to configure Credential-type profiles. This collection can contain a maximum of 500 elements.|
+|configurations|[keyTypedValuePair](../resources/keytypedvaluepair.md) collection|Gets or sets a list of typed key-value pairs used to configure Credential-type profiles. This collection can contain a maximum of 500 elements.|
 |domains|String collection|Gets or sets a list of hosts or domain names for which the app extension performs SSO.|
 |extensionIdentifier|String|Gets or sets the bundle ID of the app extension that performs SSO for the specified URLs.|
 |realm|String|Gets or sets the case-sensitive realm name for this profile.|

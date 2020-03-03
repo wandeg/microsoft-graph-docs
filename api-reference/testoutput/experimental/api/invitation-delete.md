@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete invitation
 
+Namespace: microsoft.graph
+
 Deletes a [invitation](../resources/invitation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/invitations/{invitationsId}
+DELETE https://graph.microsoft.com/localtest/invitations/{invitationsId}
 ```
 
 ### Response

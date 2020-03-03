@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharePointSiteUsageFileCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sharePointSiteUsageFileCountses](../api/sharepointsiteusagefilecounts-list.md)|[sharePointSiteUsageFileCounts](../resources/sharePointSiteUsageFileCounts.md) collection|List properties and relationships of the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) objects.|
-|[Get sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-get.md)|[sharePointSiteUsageFileCounts](../resources/sharePointSiteUsageFileCounts.md)|Read properties and relationships of the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
-|[Create sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-create.md)|[sharePointSiteUsageFileCounts](../resources/sharePointSiteUsageFileCounts.md)|Create a new [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
+|[List sharePointSiteUsageFileCountses](../api/sharepointsiteusagefilecounts-list.md)|[sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) collection|List properties and relationships of the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) objects.|
+|[Get sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-get.md)|[sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md)|Read properties and relationships of the [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
+|[Create sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-create.md)|[sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md)|Create a new [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
 |[Delete sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-delete.md)|None|Deletes a [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md).|
-|[Update sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-update.md)|[sharePointSiteUsageFileCounts](../resources/sharePointSiteUsageFileCounts.md)|Update the properties of a [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
+|[Update sharePointSiteUsageFileCounts](../api/sharepointsiteusagefilecounts-update.md)|[sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md)|Update the properties of a [sharePointSiteUsageFileCounts](../resources/sharepointsiteusagefilecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

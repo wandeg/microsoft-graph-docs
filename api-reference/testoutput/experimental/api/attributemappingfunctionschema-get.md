@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get attributeMappingFunctionSchema
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/functions/{functionsId}
+GET https://graph.microsoft.com/localtest/functions/{functionsId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 393
 {
   "value": {
     "@odata.type": "#microsoft.graph.attributeMappingFunctionSchema",
-    "id": "718b8b96-8b96-718b-968b-8b71968b8b71",
+    "id": "0d1d87b6-87b6-0d1d-b687-1d0db6871d0d",
     "parameters": [
       {
         "@odata.type": "microsoft.graph.attributeMappingParameterSchema",

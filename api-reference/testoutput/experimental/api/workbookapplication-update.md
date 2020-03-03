@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookApplication
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookApplication](../resources/workbookapplication.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookApplication](../resources/workbookApplication.md) object.
+In the request body, supply a JSON representation for the [workbookApplication](../resources/workbookapplication.md) object.
 
 The following table shows the properties that are required when you create the [workbookApplication](../resources/workbookapplication.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/application
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/application
 Content-type: application/json
 Content-length: 109
 
@@ -83,7 +85,7 @@ Content-Length: 158
 
 {
   "@odata.type": "#microsoft.graph.workbookApplication",
-  "id": "581ba8ff-a8ff-581b-ffa8-1b58ffa81b58",
+  "id": "24b593be-93be-24b5-be93-b524be93b524",
   "calculationMode": "Calculation Mode value"
 }
 ```

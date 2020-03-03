@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get emailActivitySummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [emailActivitySummary](../resources/emailactivitysummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.emailActivitySummary not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.emailActivitySummary not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 290
 {
   "value": {
     "@odata.type": "#microsoft.graph.emailActivitySummary",
-    "id": "298faddc-addc-298f-dcad-8f29dcad8f29",
+    "id": "f20eee41-ee41-f20e-41ee-0ef241ee0ef2",
     "reportRefreshDate": "Date",
     "send": 4,
     "receive": 7,

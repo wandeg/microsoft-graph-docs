@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add iosUpdateStatuses
 
+Namespace: microsoft.graph
+
 Add iosUpdateStatuses by posting to the iosUpdateStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/iosUpdateStatuses/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosUpdateDeviceStatus object.
+In the request body, supply a JSON representation for the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.
 
-The following table shows the properties that are required when you create the iosUpdateDeviceStatus.
+The following table shows the properties that are required when you create the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -71,9 +73,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/iosUpdateStatuses
+POST https://graph.microsoft.com/localtest/deviceManagement/iosUpdateStatuses
 Content-type: application/json
-Content-length: 561
+Content-length: 560
 
 {
   "@odata.type": "#microsoft.graph.iosUpdateDeviceStatus",
@@ -85,9 +87,9 @@ Content-length: 561
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -103,11 +105,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 610
+Content-Length: 609
 
 {
   "@odata.type": "#microsoft.graph.iosUpdateDeviceStatus",
-  "id": "a412e166-e166-a412-66e1-12a466e112a4",
+  "id": "5c4ba2ec-a2ec-5c4b-eca2-4b5ceca24b5c",
   "installStatus": "String",
   "osVersion": "Os Version value",
   "deviceId": "Device Id value",
@@ -116,9 +118,9 @@ Content-Length: 610
   "userName": "User Name value",
   "deviceModel": "Device Model value",
   "platform": 8,
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:56:44.0926802+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

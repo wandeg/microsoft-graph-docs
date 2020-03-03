@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directorySetting
 
+Namespace: microsoft.graph
+
 Update the properties of a [directorySetting](../resources/directorysetting.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedGroups/{groupId}/settings/{directorySettingId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directorySetting](../resources/directorySetting.md) object.
+In the request body, supply a JSON representation for the [directorySetting](../resources/directorysetting.md) object.
 
 The following table shows the properties that are required when you create the [directorySetting](../resources/directorysetting.md).
 
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |templateId|String||
-|values|[settingValue](../resources/settingValue.md) collection||
+|values|[settingValue](../resources/settingvalue.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/settings/{settingsId}
+PATCH https://graph.microsoft.com/localtest/settings/{settingsId}
 Content-type: application/json
 Content-length: 284
 
@@ -95,7 +97,7 @@ Content-Length: 333
 
 {
   "@odata.type": "#microsoft.graph.directorySetting",
-  "id": "045ccc1b-cc1b-045c-1bcc-5c041bcc5c04",
+  "id": "95cf0a68-0a68-95cf-680a-cf95680acf95",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceComplianceSettingState
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompl
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceComplianceSettingState](../resources/deviceComplianceSettingState.md) object.
+In the request body, supply a JSON representation for the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.
 
 The following table shows the properties that are required when you create the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md).
 
@@ -70,9 +72,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}/deviceComplianceSettingStates/{deviceComplianceSettingStateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}/deviceComplianceSettingStates/{deviceComplianceSettingStateId}
 Content-type: application/json
-Content-length: 540
+Content-length: 539
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
@@ -87,7 +89,7 @@ Content-length: 540
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
 }
 ```
 
@@ -101,11 +103,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 589
+Content-Length: 588
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-  "id": "4585cf5c-cf5c-4585-5ccf-85455ccf8545",
+  "id": "d2cad14b-d14b-d2ca-4bd1-cad24bd1cad2",
   "platformType": "String",
   "setting": "Setting value",
   "settingName": "Setting Name value",
@@ -117,7 +119,7 @@ Content-Length: 589
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
 }
 ```
 

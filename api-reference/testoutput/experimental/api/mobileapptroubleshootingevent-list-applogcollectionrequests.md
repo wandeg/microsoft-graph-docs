@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List appLogCollectionRequests
 
+Namespace: microsoft.graph
+
 Get the appLogCollectionRequests from the appLogCollectionRequests navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLogCollectionRequests
+GET https://graph.microsoft.com/localtest/me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLogCollectionRequests
 ```
 
 ### Response
@@ -70,13 +72,13 @@ Content-Length: 368
   "value": [
     {
       "@odata.type": "#microsoft.graph.appLogCollectionRequest",
-      "id": "fe0593ec-93ec-fe05-ec93-05feec9305fe",
+      "id": "1de4ac7e-ac7e-1de4-7eac-e41d7eace41d",
       "status": "String",
       "errorMessage": "Error Message value",
       "customLogFolders": [
         "Custom Log Folders value"
       ],
-      "completedDateTime": "2017-01-01T00:01:13.9669573+03:00"
+      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00"
     }
   ]
 }

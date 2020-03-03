@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List dimensionValues
 
+Namespace: microsoft.graph
+
 Get the dimensionValues from the dimensionValues navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/dimensions/{dimensionId}/dimensionValues
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/dimensions/{dimensionId}/dimensionValues
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 287
   "value": [
     {
       "@odata.type": "#microsoft.graph.dimensionValue",
-      "id": "7a82417b-417b-7a82-7b41-827a7b41827a",
+      "id": "1248a191-a191-1248-91a1-481291a14812",
       "code": "Code value",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

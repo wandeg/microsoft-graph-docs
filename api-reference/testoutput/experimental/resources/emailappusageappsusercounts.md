@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # emailAppUsageAppsUserCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List emailAppUsageAppsUserCountses](../api/emailappusageappsusercounts-list.md)|[emailAppUsageAppsUserCounts](../resources/emailAppUsageAppsUserCounts.md) collection|List properties and relationships of the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) objects.|
-|[Get emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-get.md)|[emailAppUsageAppsUserCounts](../resources/emailAppUsageAppsUserCounts.md)|Read properties and relationships of the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
-|[Create emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-create.md)|[emailAppUsageAppsUserCounts](../resources/emailAppUsageAppsUserCounts.md)|Create a new [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
+|[List emailAppUsageAppsUserCountses](../api/emailappusageappsusercounts-list.md)|[emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) collection|List properties and relationships of the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) objects.|
+|[Get emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-get.md)|[emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md)|Read properties and relationships of the [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
+|[Create emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-create.md)|[emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md)|Create a new [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
 |[Delete emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-delete.md)|None|Deletes a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md).|
-|[Update emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-update.md)|[emailAppUsageAppsUserCounts](../resources/emailAppUsageAppsUserCounts.md)|Update the properties of a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
+|[Update emailAppUsageAppsUserCounts](../api/emailappusageappsusercounts-update.md)|[emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md)|Update the properties of a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

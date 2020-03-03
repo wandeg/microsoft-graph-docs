@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # privilegedOperationEvent resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedOperationEvents](../api/privilegedoperationevent-list.md)|[privilegedOperationEvent](../resources/privilegedOperationEvent.md) collection|List properties and relationships of the [privilegedOperationEvent](../resources/privilegedoperationevent.md) objects.|
-|[Get privilegedOperationEvent](../api/privilegedoperationevent-get.md)|[privilegedOperationEvent](../resources/privilegedOperationEvent.md)|Read properties and relationships of the [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
-|[Create privilegedOperationEvent](../api/privilegedoperationevent-post-privilegedoperationevents.md)|[privilegedOperationEvent](../resources/privilegedOperationEvent.md)|Create a new [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
+|[List privilegedOperationEvents](../api/privilegedoperationevent-list.md)|[privilegedOperationEvent](../resources/privilegedoperationevent.md) collection|List properties and relationships of the [privilegedOperationEvent](../resources/privilegedoperationevent.md) objects.|
+|[Get privilegedOperationEvent](../api/privilegedoperationevent-get.md)|[privilegedOperationEvent](../resources/privilegedoperationevent.md)|Read properties and relationships of the [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
+|[Create privilegedOperationEvent](../api/privilegedoperationevent-post-privilegedoperationevents.md)|[privilegedOperationEvent](../resources/privilegedoperationevent.md)|Create a new [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
 |[Delete privilegedOperationEvent](../api/privilegedoperationevent-delete.md)|None|Deletes a [privilegedOperationEvent](../resources/privilegedoperationevent.md).|
-|[Update privilegedOperationEvent](../api/privilegedoperationevent-update.md)|[privilegedOperationEvent](../resources/privilegedOperationEvent.md)|Update the properties of a [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
+|[Update privilegedOperationEvent](../api/privilegedoperationevent-update.md)|[privilegedOperationEvent](../resources/privilegedoperationevent.md)|Update the properties of a [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.|
 
 ## Properties
 |Property|Type|Description|

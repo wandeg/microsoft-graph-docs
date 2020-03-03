@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # mobileAppTroubleshootingAppTargetHistory resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [mobileAppTroubleshootingHistoryItem](../resources/mobileAppTroubleshootingHistoryItem.md)
+
+
+Inherits from [mobileAppTroubleshootingHistoryItem](../resources/mobileapptroubleshootinghistoryitem.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |errorCode|String|Error code for the failure, empty if no failure.|
-|occurrenceDateTime|DateTimeOffset|Time when the history item occurred. Inherited from [mobileAppTroubleshootingHistoryItem](../resources/mobileAppTroubleshootingHistoryItem.md)|
+|occurrenceDateTime|DateTimeOffset|Time when the history item occurred. Inherited from [mobileAppTroubleshootingHistoryItem](../resources/mobileapptroubleshootinghistoryitem.md)|
 |runState|Enumeration|Status of the item. Possible values are: `unknown`, `success`, `fail`, `scriptError`, `pending`, `notApplicable`.|
 |securityGroupId|String|AAD security group id to which it was targeted.|
 

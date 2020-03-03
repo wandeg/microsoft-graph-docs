@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # journalLine resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get journalLine](../api/journalline-get.md)|[journalLine](../resources/journalLine.md)|Read properties and relationships of the [journalLine](../resources/journalline.md) object.|
+|[List journalLines](../api/journalline-list.md)|[journalLine](../resources/journalline.md) collection|List properties and relationships of the [journalLine](../resources/journalline.md) objects.|
+|[Get journalLine](../api/journalline-get.md)|[journalLine](../resources/journalline.md)|Read properties and relationships of the [journalLine](../resources/journalline.md) object.|
+|[Create journalLine](../api/journalline-create.md)|[journalLine](../resources/journalline.md)|Create a new [journalLine](../resources/journalline.md) object.|
 |[Delete journalLine](../api/journalline-delete.md)|None|Deletes a [journalLine](../resources/journalline.md).|
-|[Update journalLine](../api/journalline-update.md)|[journalLine](../resources/journalLine.md)|Update the properties of a [journalLine](../resources/journalline.md) object.|
+|[Update journalLine](../api/journalline-update.md)|[journalLine](../resources/journalline.md)|Update the properties of a [journalLine](../resources/journalline.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
 
 ## Properties

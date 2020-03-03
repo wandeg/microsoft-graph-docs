@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userAnalyticses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [userAnalytics](../resources/useranalytics.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userAnalytics not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userAnalytics not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 320
   "value": [
     {
       "@odata.type": "#microsoft.graph.userAnalytics",
-      "id": "96913d95-3d95-9691-953d-9196953d9196",
+      "id": "a747485a-485a-a747-5a48-47a75a4847a7",
       "settings": {
         "@odata.type": "microsoft.graph.settings",
         "hasLicense": true,

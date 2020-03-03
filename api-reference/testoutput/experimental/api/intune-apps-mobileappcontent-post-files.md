@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add files
 
+Namespace: microsoft.graph
+
 Add files by posting to the files collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppCon
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppContentFile object.
+In the request body, supply a JSON representation for the [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object.
 
-The following table shows the properties that are required when you create the mobileAppContentFile.
+The following table shows the properties that are required when you create the [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -58,7 +60,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppContentFile](../resources/mobileappcontentfile.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppContentFile](../resources/intune-apps-mobileappcontentfile.md) object in the response body.
 
 ## Example
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files
 Content-type: application/json
 Content-length: 387
 
@@ -81,7 +83,7 @@ Content-length: 387
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2016-12-31T23:56:41.2886459+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:02:49.8360031+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String",
   "isFrameworkFile": true,
@@ -100,18 +102,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 495
+Content-Length: 494
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
-  "id": "0d763fb5-3fb5-0d76-b53f-760db53f760d",
+  "id": "fbfff66f-f66f-fbff-6ff6-fffb6ff6fffb",
   "azureStorageUri": "Azure Storage Uri value",
   "isCommitted": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2016-12-31T23:56:41.2886459+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:02:49.8360031+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String",
   "isFrameworkFile": true,

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userExperienceAnalyticsInsight resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |insightId|String|The unique identifier of the user experience analytics insight.|
 |severity|Enumeration|The value of the user experience analytics insight. Possible values are: `none`, `informational`, `warning`, `error`.|
 |userExperienceAnalyticsMetricId|String|The unique identifier of the user experience analytics insight.|
-|values|[userExperienceAnalyticsInsightValue](../resources/intune-devices-userExperienceAnalyticsInsightValue.md) collection|The value of the user experience analytics insight.|
+|values|[userExperienceAnalyticsInsightValue](../resources/intune-devices-userexperienceanalyticsinsightvalue.md) collection|The value of the user experience analytics insight.|
 
 ## Relationships
 None

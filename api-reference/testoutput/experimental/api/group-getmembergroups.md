@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getMemberGroups
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/getMemberGroups
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/getMemberGroups
 
 Content-type: application/json
 Content-length: 35

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add timeOffReasons
 
+Namespace: microsoft.graph
+
 Add timeOffReasons by posting to the timeOffReasons collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/joinedGroups/{groupId}/team/schedule/timeOffReasons/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the timeOffReason object.
+In the request body, supply a JSON representation for the [timeOffReason](../resources/timeoffreason.md) object.
 
-The following table shows the properties that are required when you create the timeOffReason.
+The following table shows the properties that are required when you create the [timeOffReason](../resources/timeoffreason.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |displayName|String||
 |iconType|Enumeration|. Possible values are: `none`, `car`, `calendar`, `running`, `plane`, `firstAid`, `doctor`, `notWorking`, `clock`, `juryDuty`, `globe`, `cup`, `phone`, `weather`, `umbrella`, `piggyBank`, `dog`, `cake`, `trafficCone`, `pin`, `sunny`, `unknownFutureValue`.|
 |isActive|Boolean||
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/schedule/timeOffReasons
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/schedule/timeOffReasons
 Content-type: application/json
 Content-length: 141
 
@@ -88,13 +90,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 686
+Content-Length: 685
 
 {
   "@odata.type": "#microsoft.graph.timeOffReason",
-  "id": "5da26a4c-6a4c-5da2-4c6a-a25d4c6aa25d",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "4cb4eadb-eadb-4cb4-dbea-b44cdbeab44c",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

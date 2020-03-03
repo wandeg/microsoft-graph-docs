@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add items
 
+Namespace: microsoft.graph
+
 Add items by posting to the items collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/policySets/{policySetId}/items/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the policySetItem object.
+In the request body, supply a JSON representation for the [policySetItem](../resources/policysetitem.md) object.
 
-The following table shows the properties that are required when you create the policySetItem.
+The following table shows the properties that are required when you create the [policySetItem](../resources/policysetitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/policySets/{policySetId}/items
+POST https://graph.microsoft.com/localtest/deviceAppManagement/policySets/{policySetId}/items
 Content-type: application/json
 Content-length: 285
 
@@ -95,13 +97,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 457
+Content-Length: 456
 
 {
   "@odata.type": "#microsoft.graph.policySetItem",
-  "id": "2fc58ff5-8ff5-2fc5-f58f-c52ff58fc52f",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "id": "83b2d785-d785-83b2-85d7-b28385d7b283",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "payloadId": "Payload Id value",
   "itemType": "Item Type value",
   "displayName": "Display Name value",

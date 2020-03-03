@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get baseItemVersion
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.baseItemVersion not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.baseItemVersion not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 754
 {
   "value": {
     "@odata.type": "#microsoft.graph.baseItemVersion",
-    "id": "04d7fb44-fb44-04d7-44fb-d70444fbd704",
+    "id": "4c2741f9-41f9-4c27-f941-274cf941274c",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -87,7 +89,7 @@ Content-Length: 754
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "publication": {
       "@odata.type": "microsoft.graph.publicationFacet",
       "level": "Level value",

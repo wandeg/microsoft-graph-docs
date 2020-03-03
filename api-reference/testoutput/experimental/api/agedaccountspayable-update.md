@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update agedAccountsPayable
 
+Namespace: microsoft.graph
+
 Update the properties of a [agedAccountsPayable](../resources/agedaccountspayable.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /financials/companies/{companyId}/agedAccountsPayable/{agedAccountsPayable
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [agedAccountsPayable](../resources/agedAccountsPayable.md) object.
+In the request body, supply a JSON representation for the [agedAccountsPayable](../resources/agedaccountspayable.md) object.
 
 The following table shows the properties that are required when you create the [agedAccountsPayable](../resources/agedaccountspayable.md).
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/financials/companies/{companyId}/agedAccountsPayable/{agedAccountsPayableId}
+PATCH https://graph.microsoft.com/localtest/financials/companies/{companyId}/agedAccountsPayable/{agedAccountsPayableId}
 Content-type: application/json
 Content-length: 384
 
@@ -101,7 +103,7 @@ Content-Length: 433
 
 {
   "@odata.type": "#microsoft.graph.agedAccountsPayable",
-  "id": "301d12ba-12ba-301d-ba12-1d30ba121d30",
+  "id": "ed338a54-8a54-ed33-548a-33ed548a33ed",
   "vendorNumber": "Vendor Number value",
   "name": "Name value",
   "currencyCode": "Currency Code value",

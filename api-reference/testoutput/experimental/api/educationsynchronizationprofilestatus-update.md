@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationSynchronizationProfileStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /education/synchronizationProfiles/{educationSynchronizationProfileId}/pro
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationSynchronizationProfileStatus](../resources/educationSynchronizationProfileStatus.md) object.
+In the request body, supply a JSON representation for the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.
 
 The following table shows the properties that are required when you create the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md).
 
@@ -60,14 +62,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/synchronizationProfiles/{educationSynchronizationProfileId}/profileStatus
+PATCH https://graph.microsoft.com/localtest/education/synchronizationProfiles/{educationSynchronizationProfileId}/profileStatus
 Content-type: application/json
 Content-length: 173
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationProfileStatus",
   "status": "String",
-  "lastSynchronizationDateTime": "2016-12-31T23:58:26.3743195+03:00"
+  "lastSynchronizationDateTime": "2016-12-31T23:59:53.6736225+03:00"
 }
 ```
 
@@ -85,9 +87,9 @@ Content-Length: 222
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationProfileStatus",
-  "id": "3fff00fa-00fa-3fff-fa00-ff3ffa00ff3f",
+  "id": "982895ee-95ee-9828-ee95-2898ee952898",
   "status": "String",
-  "lastSynchronizationDateTime": "2016-12-31T23:58:26.3743195+03:00"
+  "lastSynchronizationDateTime": "2016-12-31T23:59:53.6736225+03:00"
 }
 ```
 

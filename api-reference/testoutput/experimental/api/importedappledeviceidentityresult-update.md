@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update importedAppleDeviceIdentityResult
 
+Namespace: microsoft.graph
+
 Update the properties of a [importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md) object.
 
 ## Permissions
@@ -35,24 +37,24 @@ PATCH ** Entity URI for microsoft.graph.importedAppleDeviceIdentityResult not fo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [importedAppleDeviceIdentityResult](../resources/importedAppleDeviceIdentityResult.md) object.
+In the request body, supply a JSON representation for the [importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md) object.
 
 The following table shows the properties that are required when you create the [importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|serialNumber|String|Device serial number Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|requestedEnrollmentProfileId|String|Enrollment profile Id admin intends to apply to the device during next enrollment Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|requestedEnrollmentProfileAssignmentDateTime|DateTimeOffset|The time enrollment profile was assigned to the device Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|isSupervised|Boolean|Indicates if the Apple device is supervised. More information is at: https://support.apple.com/en-us/HT202837 Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|discoverySource|Enumeration|Apple device discovery source. Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md). Possible values are: `unknown`, `adminImport`, `deviceEnrollmentProgram`.|
-|isDeleted|Boolean|Indicates if the device is deleted from Apple Business Manager Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|createdDateTime|DateTimeOffset|Created Date Time of the device Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|lastContactedDateTime|DateTimeOffset|Last Contacted Date Time of the device Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|description|String|The description of the device Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md)|
-|enrollmentState|Enumeration|The state of the device in Intune Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md). Possible values are: `unknown`, `enrolled`, `pendingReset`, `failed`, `notContacted`, `blocked`.|
-|platform|Enumeration|The platform of the Device. Inherited from [importedAppleDeviceIdentity](../resources/importedAppleDeviceIdentity.md). Possible values are: `unknown`, `ios`, `android`, `windows`, `windowsMobile`, `macOS`.|
+|serialNumber|String|Device serial number Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|requestedEnrollmentProfileId|String|Enrollment profile Id admin intends to apply to the device during next enrollment Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|requestedEnrollmentProfileAssignmentDateTime|DateTimeOffset|The time enrollment profile was assigned to the device Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|isSupervised|Boolean|Indicates if the Apple device is supervised. More information is at: https://support.apple.com/en-us/HT202837 Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|discoverySource|Enumeration|Apple device discovery source. Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md). Possible values are: `unknown`, `adminImport`, `deviceEnrollmentProgram`.|
+|isDeleted|Boolean|Indicates if the device is deleted from Apple Business Manager Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|createdDateTime|DateTimeOffset|Created Date Time of the device Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|lastContactedDateTime|DateTimeOffset|Last Contacted Date Time of the device Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|description|String|The description of the device Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|
+|enrollmentState|Enumeration|The state of the device in Intune Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md). Possible values are: `unknown`, `enrolled`, `pendingReset`, `failed`, `notContacted`, `blocked`.|
+|platform|Enumeration|The platform of the Device. Inherited from [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md). Possible values are: `unknown`, `ios`, `android`, `windows`, `windowsMobile`, `macOS`.|
 |status|Boolean|Status of imported device identity|
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.importedAppleDeviceIdentityResult not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.importedAppleDeviceIdentityResult not found
 Content-type: application/json
 Content-length: 540
 
@@ -78,11 +80,11 @@ Content-length: 540
   "@odata.type": "#microsoft.graph.importedAppleDeviceIdentityResult",
   "serialNumber": "Serial Number value",
   "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:11.9968518+03:00",
+  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
   "isSupervised": true,
   "discoverySource": "String",
   "isDeleted": true,
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String",
@@ -100,19 +102,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 648
+Content-Length: 647
 
 {
   "@odata.type": "#microsoft.graph.importedAppleDeviceIdentityResult",
-  "id": "a0706119-6119-a070-1961-70a0196170a0",
+  "id": "87ce4481-4481-87ce-8144-ce878144ce87",
   "serialNumber": "Serial Number value",
   "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:11.9968518+03:00",
+  "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
   "isSupervised": true,
   "discoverySource": "String",
   "isDeleted": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastContactedDateTime": "2016-12-31T23:57:05.6212876+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String",

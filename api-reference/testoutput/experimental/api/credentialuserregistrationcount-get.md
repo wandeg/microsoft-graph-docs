@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get credentialUserRegistrationCount
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [credentialUserRegistrationCount](../resources/credentialuserregistrationcount.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.credentialUserRegistrationCount not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.credentialUserRegistrationCount not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 369
 {
   "value": {
     "@odata.type": "#microsoft.graph.credentialUserRegistrationCount",
-    "id": "32a539a1-39a1-32a5-a139-a532a139a532",
+    "id": "1bc6be74-be74-1bc6-74be-c61b74bec61b",
     "totalUserCount": 14,
     "userRegistrationCounts": [
       {

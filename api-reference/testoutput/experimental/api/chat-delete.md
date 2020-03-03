@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete chat
 
+Namespace: microsoft.graph
+
 Deletes a [chat](../resources/chat.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/chats/{chatsId}
+DELETE https://graph.microsoft.com/localtest/chats/{chatsId}
 ```
 
 ### Response

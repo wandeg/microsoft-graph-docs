@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List domainJoinConnectors
 
+Namespace: microsoft.graph
+
 Get the deviceManagementDomainJoinConnectors from the domainJoinConnectors navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/domainJoinConnectors
+GET https://graph.microsoft.com/localtest/deviceManagement/domainJoinConnectors
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 342
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementDomainJoinConnector",
-      "id": "6684c925-c925-6684-25c9-846625c98466",
+      "id": "a924df48-df48-a924-48df-24a948df24a9",
       "displayName": "Display Name value",
-      "lastConnectionDateTime": "2016-12-31T23:56:55.9168968+03:00",
+      "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
       "state": "String",
       "version": "Version value"
     }

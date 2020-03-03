@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete privilegedSignupStatus
 
+Namespace: microsoft.graph
+
 Deletes a [privilegedSignupStatus](../resources/privilegedsignupstatus.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/privilegedSignupStatus/{privilegedSignupStatusId}
+DELETE https://graph.microsoft.com/localtest/privilegedSignupStatus/{privilegedSignupStatusId}
 ```
 
 ### Response

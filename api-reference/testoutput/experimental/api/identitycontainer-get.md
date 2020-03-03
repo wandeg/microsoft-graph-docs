@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get identityContainer
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [identityContainer](../resources/identitycontainer.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/identity
+GET https://graph.microsoft.com/localtest/identity
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 131
 {
   "value": {
     "@odata.type": "#microsoft.graph.identityContainer",
-    "id": "bb1fed46-ed46-bb1f-46ed-1fbb46ed1fbb"
+    "id": "1e877267-7267-1e87-6772-871e6772871e"
   }
 }
 ```

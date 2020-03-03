@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationFeedbackOutcome
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationFeedbackOutcome](../resources/educationfeedbackoutcome.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.educationFeedbackOutcome not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationFeedbackOutcome](../resources/educationFeedbackOutcome.md) object.
+In the request body, supply a JSON representation for the [educationFeedbackOutcome](../resources/educationfeedbackoutcome.md) object.
 
 The following table shows the properties that are required when you create the [educationFeedbackOutcome](../resources/educationfeedbackoutcome.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationOutcome.md)|
-|feedback|[educationFeedback](../resources/educationFeedback.md)||
-|publishedFeedback|[educationFeedback](../resources/educationFeedback.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [educationOutcome](../resources/educationoutcome.md)|
+|feedback|[educationFeedback](../resources/educationfeedback.md)||
+|publishedFeedback|[educationFeedback](../resources/educationfeedback.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.educationFeedbackOutcome not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.educationFeedbackOutcome not found
 Content-type: application/json
 Content-length: 524
 
@@ -75,7 +77,7 @@ Content-length: 524
       "contentType": "String",
       "content": "Content value"
     },
-    "feedbackDateTime": "2017-01-01T00:01:35.5643881+03:00",
+    "feedbackDateTime": "2016-12-31T23:59:51.6026372+03:00",
     "feedbackBy": {
       "@odata.type": "microsoft.graph.identitySet"
     }
@@ -100,7 +102,7 @@ Content-Length: 1010
 
 {
   "@odata.type": "#microsoft.graph.educationFeedbackOutcome",
-  "id": "229ad521-d521-229a-21d5-9a2221d59a22",
+  "id": "70150078-0078-7015-7800-157078001570",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -115,7 +117,7 @@ Content-Length: 1010
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "feedback": {
     "@odata.type": "microsoft.graph.educationFeedback",
     "text": {
@@ -123,7 +125,7 @@ Content-Length: 1010
       "contentType": "String",
       "content": "Content value"
     },
-    "feedbackDateTime": "2017-01-01T00:01:35.5643881+03:00",
+    "feedbackDateTime": "2016-12-31T23:59:51.6026372+03:00",
     "feedbackBy": {
       "@odata.type": "microsoft.graph.identitySet"
     }

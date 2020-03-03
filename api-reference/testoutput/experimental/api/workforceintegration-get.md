@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workforceIntegration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workforceIntegration](../resources/workforceintegration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teamwork/workforceIntegrations/{workforceIntegrationId}
+GET https://graph.microsoft.com/localtest/teamwork/workforceIntegrations/{workforceIntegrationId}
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 964
+Content-Length: 963
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.workforceIntegration",
-    "id": "0ce9b8e3-b8e3-0ce9-e3b8-e90ce3b8e90c",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "2a6dc170-c170-2a6d-70c1-6d2a70c16d2a",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

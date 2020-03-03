@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookRangeSort
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookRangeSort](../resources/workbookrangesort.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookRangeSort not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookRangeSort](../resources/workbookRangeSort.md) object.
+In the request body, supply a JSON representation for the [workbookRangeSort](../resources/workbookrangesort.md) object.
 
 The following table shows the properties that are required when you create the [workbookRangeSort](../resources/workbookrangesort.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeSort not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeSort not found
 Content-type: application/json
 Content-length: 59
 
@@ -81,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeSort",
-  "id": "345d6cf8-6cf8-345d-f86c-5d34f86c5d34"
+  "id": "e613ec6c-ec6c-e613-6cec-13e66cec13e6"
 }
 ```
 

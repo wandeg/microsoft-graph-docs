@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List onlineMeetings
 
+Namespace: microsoft.graph
+
 Get the onlineMeetings from the onlineMeetings navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/app/onlineMeetings
+GET https://graph.microsoft.com/localtest/app/onlineMeetings
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2421
+Content-Length: 2423
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onlineMeeting",
-      "id": "96cd02c9-02c9-96cd-c902-cd96c902cd96",
-      "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
-      "canceledDateTime": "2016-12-31T23:59:04.935877+03:00",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "id": "df6965b5-65b5-df69-b565-69dfb56569df",
+      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+      "canceledDateTime": "2017-01-01T00:00:00.8251655+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "entryExitAnnouncement": true,
       "joinUrl": "https://example.com/joinUrl/",
       "subject": "Subject value",

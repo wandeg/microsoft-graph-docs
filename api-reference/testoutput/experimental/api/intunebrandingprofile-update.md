@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update intuneBrandingProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [intuneBrandingProfile](../resources/intunebrandingprofile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [intuneBrandingProfile](../resources/intuneBrandingProfile.md) object.
+In the request body, supply a JSON representation for the [intuneBrandingProfile](../resources/intunebrandingprofile.md) object.
 
 The following table shows the properties that are required when you create the [intuneBrandingProfile](../resources/intunebrandingprofile.md).
 
@@ -48,12 +50,12 @@ The following table shows the properties that are required when you create the [
 |createdDateTime|DateTimeOffset|Time when the BrandingProfile was created|
 |lastModifiedDateTime|DateTimeOffset|Time when the BrandingProfile was last modified|
 |displayName|String|Company/organization name that is displayed to end users|
-|themeColor|[rgbColor](../resources/rgbColor.md)|Primary theme color used in the Company Portal applications and web portal|
+|themeColor|[rgbColor](../resources/rgbcolor.md)|Primary theme color used in the Company Portal applications and web portal|
 |showLogo|Boolean|Boolean that represents whether the administrator-supplied logo images are shown or not|
 |showDisplayNameNextToLogo|Boolean|Boolean that represents whether the administrator-supplied display name will be shown next to the logo image or not|
-|themeColorLogo|[mimeContent](../resources/intune-apps-mimeContent.md)|Logo image displayed in Company Portal apps which have a theme color background behind the logo|
-|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimeContent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo|
-|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimeContent.md)|Customized image displayed in Company Portal apps landing page|
+|themeColorLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a theme color background behind the logo|
+|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo|
+|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Customized image displayed in Company Portal apps landing page|
 |contactITName|String|Name of the person/organization responsible for IT support|
 |contactITPhoneNumber|String|Phone number of the person/organization responsible for IT support|
 |contactITEmailAddress|String|E-mail address of the person/organization responsible for IT support|
@@ -64,7 +66,7 @@ The following table shows the properties that are required when you create the [
 |customPrivacyMessage|String|Text comments regarding what the admin has access to on the device|
 |isRemoveDeviceDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Remove Device' action on corporate owned devices.|
 |isFactoryResetDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Factory Reset' action on corporate owned devices.|
-|companyPortalBlockedActions|[companyPortalBlockedAction](../resources/companyPortalBlockedAction.md) collection|Collection of blocked actions on the company portal as per platform and device ownership types.|
+|companyPortalBlockedActions|[companyPortalBlockedAction](../resources/companyportalblockedaction.md) collection|Collection of blocked actions on the company portal as per platform and device ownership types.|
 |showAzureADEnterpriseApps|Boolean|Boolean that indicates if AzureAD Enterprise Apps will be shown in Company Portal|
 |showOfficeWebApps|Boolean|Boolean that indicates if Office WebApps will be shown in Company Portal|
 
@@ -83,7 +85,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
 Content-type: application/json
 Content-length: 1505
 
@@ -145,16 +147,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1677
+Content-Length: 1676
 
 {
   "@odata.type": "#microsoft.graph.intuneBrandingProfile",
-  "id": "c04e5cb8-5cb8-c04e-b85c-4ec0b85c4ec0",
+  "id": "c872cd53-cd53-c872-53cd-72c853cd72c8",
   "profileName": "Profile Name value",
   "profileDescription": "Profile Description value",
   "isDefaultProfile": true,
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "displayName": "Display Name value",
   "themeColor": {
     "@odata.type": "microsoft.graph.rgbColor",

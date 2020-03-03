@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsUniversalAppXContainedApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsUniversalAppXContainedApp](../resources/windowsuniversalappxcontainedapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsUniversalAppXContainedApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsUniversalAppXContainedApp not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 216
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUniversalAppXContainedApp",
-      "id": "da92a4ce-a4ce-da92-cea4-92dacea492da",
+      "id": "f0b6c7de-c7de-f0b6-dec7-b6f0dec7b6f0",
       "appUserModelId": "App User Model Id value"
     }
   ]

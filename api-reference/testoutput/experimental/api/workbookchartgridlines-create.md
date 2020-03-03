@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartGridlines
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartGridlines not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartGridlines object.
+In the request body, supply a JSON representation for the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
 
-The following table shows the properties that are required when you create the workbookChartGridlines.
+The following table shows the properties that are required when you create the [workbookChartGridlines](../resources/workbookchartgridlines.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartGridlines not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartGridlines not found
 Content-type: application/json
 Content-length: 84
 
@@ -85,7 +87,7 @@ Content-Length: 133
 
 {
   "@odata.type": "#microsoft.graph.workbookChartGridlines",
-  "id": "7fda67fc-67fc-7fda-fc67-da7ffc67da7f",
+  "id": "4a5003ef-03ef-4a50-ef03-504aef03504a",
   "visible": true
 }
 ```

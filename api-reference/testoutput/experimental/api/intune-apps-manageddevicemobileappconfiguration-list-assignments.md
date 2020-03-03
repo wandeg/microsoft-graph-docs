@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List assignments
 
+Namespace: microsoft.graph
+
 Get the managedDeviceMobileAppConfigurationAssignments from the assignments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/assignments
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/assignments
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 287
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationAssignment",
-      "id": "c59543f5-43f5-c595-f543-95c5f54395c5",
+      "id": "f0b66038-6038-f0b6-3860-b6f03860b6f0",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

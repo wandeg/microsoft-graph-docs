@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365GroupsActivityStorage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365GroupsActivityStorages](../api/office365groupsactivitystorage-list.md)|[office365GroupsActivityStorage](../resources/office365GroupsActivityStorage.md) collection|List properties and relationships of the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) objects.|
-|[Get office365GroupsActivityStorage](../api/office365groupsactivitystorage-get.md)|[office365GroupsActivityStorage](../resources/office365GroupsActivityStorage.md)|Read properties and relationships of the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
-|[Create office365GroupsActivityStorage](../api/office365groupsactivitystorage-create.md)|[office365GroupsActivityStorage](../resources/office365GroupsActivityStorage.md)|Create a new [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
+|[List office365GroupsActivityStorages](../api/office365groupsactivitystorage-list.md)|[office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) collection|List properties and relationships of the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) objects.|
+|[Get office365GroupsActivityStorage](../api/office365groupsactivitystorage-get.md)|[office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md)|Read properties and relationships of the [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
+|[Create office365GroupsActivityStorage](../api/office365groupsactivitystorage-create.md)|[office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md)|Create a new [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
 |[Delete office365GroupsActivityStorage](../api/office365groupsactivitystorage-delete.md)|None|Deletes a [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md).|
-|[Update office365GroupsActivityStorage](../api/office365groupsactivitystorage-update.md)|[office365GroupsActivityStorage](../resources/office365GroupsActivityStorage.md)|Update the properties of a [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
+|[Update office365GroupsActivityStorage](../api/office365groupsactivitystorage-update.md)|[office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md)|Update the properties of a [office365GroupsActivityStorage](../resources/office365groupsactivitystorage.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete iosTrustedRootCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [iosTrustedRootCertificate](../resources/iostrustedrootcertificate.md).
 
 ## Permissions

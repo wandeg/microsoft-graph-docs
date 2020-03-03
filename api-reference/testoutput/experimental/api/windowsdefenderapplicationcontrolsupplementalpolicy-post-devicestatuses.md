@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStatuses
 
+Namespace: microsoft.graph
+
 Add deviceStatuses by posting to the deviceStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationCo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus object.
+In the request body, supply a JSON representation for the [windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentstatus.md) object.
 
-The following table shows the properties that are required when you create the windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus.
+The following table shows the properties that are required when you create the [windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus](../resources/windowsdefenderapplicationcontrolsupplementalpolicydeploymentstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,15 +70,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deviceStatuses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/wdacSupplementalPolicies/{windowsDefenderApplicationControlSupplementalPolicyId}/deviceStatuses
 Content-type: application/json
-Content-length: 484
+Content-length: 485
 
 {
   "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "osVersion": "Os Version value",
   "osDescription": "Os Description value",
   "deploymentStatus": "String",
@@ -97,14 +99,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 533
+Content-Length: 534
 
 {
   "@odata.type": "#microsoft.graph.windowsDefenderApplicationControlSupplementalPolicyDeploymentStatus",
-  "id": "6dc86a8d-6a8d-6dc8-8d6a-c86d8d6ac86d",
+  "id": "0a6396aa-96aa-0a63-aa96-630aaa96630a",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
   "osVersion": "Os Version value",
   "osDescription": "Os Description value",
   "deploymentStatus": "String",

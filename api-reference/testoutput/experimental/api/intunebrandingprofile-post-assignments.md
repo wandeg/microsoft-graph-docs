@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignme
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the intuneBrandingProfileAssignment object.
+In the request body, supply a JSON representation for the [intuneBrandingProfileAssignment](../resources/intunebrandingprofileassignment.md) object.
 
-The following table shows the properties that are required when you create the intuneBrandingProfileAssignment.
+The following table shows the properties that are required when you create the [intuneBrandingProfileAssignment](../resources/intunebrandingprofileassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Assignment target that the branding profile is assigned to.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Assignment target that the branding profile is assigned to.|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments
+POST https://graph.microsoft.com/localtest/deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}/assignments
 Content-type: application/json
 Content-length: 171
 
@@ -87,7 +89,7 @@ Content-Length: 220
 
 {
   "@odata.type": "#microsoft.graph.intuneBrandingProfileAssignment",
-  "id": "fe8c40d6-40d6-fe8c-d640-8cfed6408cfe",
+  "id": "c3f71358-1358-c3f7-5813-f7c35813f7c3",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

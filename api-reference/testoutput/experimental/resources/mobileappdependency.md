@@ -5,25 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppDependency resource type
+
+
+Namespace: microsoft.graph
 
 Describes a dependency type between two mobile apps.
 
 
-Inherits from [mobileAppRelationship](../resources/mobileAppRelationship.md)
+Inherits from [mobileAppRelationship](../resources/mobileapprelationship.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileAppDependencies](../api/mobileappdependency-list.md)|[mobileAppDependency](../resources/mobileAppDependency.md) collection|List properties and relationships of the [mobileAppDependency](../resources/mobileappdependency.md) objects.|
-|[Get mobileAppDependency](../api/mobileappdependency-get.md)|[mobileAppDependency](../resources/mobileAppDependency.md)|Read properties and relationships of the [mobileAppDependency](../resources/mobileappdependency.md) object.|
-|[Create mobileAppDependency](../api/mobileappdependency-create.md)|[mobileAppDependency](../resources/mobileAppDependency.md)|Create a new [mobileAppDependency](../resources/mobileappdependency.md) object.|
+|[List mobileAppDependencies](../api/mobileappdependency-list.md)|[mobileAppDependency](../resources/mobileappdependency.md) collection|List properties and relationships of the [mobileAppDependency](../resources/mobileappdependency.md) objects.|
+|[Get mobileAppDependency](../api/mobileappdependency-get.md)|[mobileAppDependency](../resources/mobileappdependency.md)|Read properties and relationships of the [mobileAppDependency](../resources/mobileappdependency.md) object.|
+|[Create mobileAppDependency](../api/mobileappdependency-create.md)|[mobileAppDependency](../resources/mobileappdependency.md)|Create a new [mobileAppDependency](../resources/mobileappdependency.md) object.|
 |[Delete mobileAppDependency](../api/mobileappdependency-delete.md)|None|Deletes a [mobileAppDependency](../resources/mobileappdependency.md).|
-|[Update mobileAppDependency](../api/mobileappdependency-update.md)|[mobileAppDependency](../resources/mobileAppDependency.md)|Update the properties of a [mobileAppDependency](../resources/mobileappdependency.md) object.|
+|[Update mobileAppDependency](../api/mobileappdependency-update.md)|[mobileAppDependency](../resources/mobileappdependency.md)|Update the properties of a [mobileAppDependency](../resources/mobileappdependency.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,8 +32,8 @@ Inherits from [mobileAppRelationship](../resources/mobileAppRelationship.md)
 |dependencyType|Enumeration|The type of dependency relationship between the parent and child apps. Possible values are: `detect`, `autoInstall`.|
 |dependentAppCount|Int32|The total number of dependencies the child app has.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|targetDisplayName|String|The target child mobile app's display name. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md)|
-|targetId|String|The target child mobile app's app id. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md)|
+|targetDisplayName|String|The target child mobile app's display name. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md)|
+|targetId|String|The target child mobile app's app id. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md)|
 
 ## Relationships
 None

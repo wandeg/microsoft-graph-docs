@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List classifyText
 
+Namespace: microsoft.graph
+
 Get the textClassificationRequests from the classifyText navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/classifyText
+GET https://graph.microsoft.com/localtest/dataClassification/classifyText
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 293
   "value": [
     {
       "@odata.type": "#microsoft.graph.textClassificationRequest",
-      "id": "a10e1109-1109-a10e-0911-0ea109110ea1",
+      "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
       "text": "Text value",
       "sensitiveTypeIds": [
         "Sensitive Type Ids value"

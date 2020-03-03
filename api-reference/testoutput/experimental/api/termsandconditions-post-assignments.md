@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments/$re
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the termsAndConditionsAssignment object.
+In the request body, supply a JSON representation for the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.
 
-The following table shows the properties that are required when you create the termsAndConditionsAssignment.
+The following table shows the properties that are required when you create the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceAndAppManagementAssignmentTarget.md)|Assignment target that the T&C policy is assigned to.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Assignment target that the T&C policy is assigned to.|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments
+POST https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments
 Content-type: application/json
 Content-length: 168
 
@@ -87,7 +89,7 @@ Content-Length: 217
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-  "id": "1a599199-9199-1a59-9991-591a9991591a",
+  "id": "3b273123-3123-3b27-2331-273b2331273b",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

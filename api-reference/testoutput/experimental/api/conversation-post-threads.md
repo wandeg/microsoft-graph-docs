@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add threads
 
+Namespace: microsoft.graph
+
 Add threads by posting to the threads collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the conversationThread object.
+In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
 
-The following table shows the properties that are required when you create the conversationThread.
+The following table shows the properties that are required when you create the [conversationThread](../resources/conversationthread.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/conversations/{conversationId}/threads
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/conversations/{conversationId}/threads
 Content-type: application/json
-Content-length: 626
+Content-length: 624
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
@@ -85,7 +87,7 @@ Content-length: 626
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -110,11 +112,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 675
+Content-Length: 673
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "ea7e7a27-7a27-ea7e-277a-7eea277a7eea",
+  "id": "3083ed6b-ed6b-3083-6bed-83306bed8330",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -127,7 +129,7 @@ Content-Length: 675
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:54.185054+03:00",
+  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

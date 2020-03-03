@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # updateRecordingStatus
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [updateRecordingStatusOperation](../resources/updateRecordingStatusOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/app/calls/{callId}/updateRecordingStatus
+POST https://graph.microsoft.com/localtest/app/calls/{callId}/updateRecordingStatus
 
 Content-type: application/json
 Content-length: 70
@@ -88,7 +90,7 @@ Content-Length: 295
 {
   "value": {
     "@odata.type": "#microsoft.graph.updateRecordingStatusOperation",
-    "id": "ee013eab-3eab-ee01-ab3e-01eeab3e01ee",
+    "id": "19ce9077-9077-19ce-7790-ce197790ce19",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

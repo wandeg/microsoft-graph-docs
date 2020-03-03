@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileAppCategories
 
+Namespace: microsoft.graph
+
 Add mobileAppCategories by posting to the mobileAppCategories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileAppCategories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppCategory object.
+In the request body, supply a JSON representation for the [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object.
 
-The following table shows the properties that are required when you create the mobileAppCategory.
+The following table shows the properties that are required when you create the [mobileAppCategory](../resources/intune-apps-mobileappcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the m
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [mobileAppCategory](../resources/mobileappcategory.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [mobileAppCategory](../resources/intune-apps-mobileappcategory.md) object in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppCategories
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppCategories
 Content-type: application/json
 Content-length: 99
 
@@ -86,9 +88,9 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.mobileAppCategory",
-  "id": "c32c2193-2193-c32c-9321-2cc393212cc3",
+  "id": "e87814ef-14ef-e878-ef14-78e8ef1478e8",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
 }
 ```
 

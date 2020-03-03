@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assignedAccessMultiModeProfiles
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -41,7 +43,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignedAccessMultiModeProfiles|[windowsAssignedAccessProfile](../resources/windowsAssignedAccessProfile.md) collection||
+|assignedAccessMultiModeProfiles|[windowsAssignedAccessProfile](../resources/windowsassignedaccessprofile.md) collection||
 
 
 

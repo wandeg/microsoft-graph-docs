@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update yammerGroupsActivityDetail
 
+Namespace: microsoft.graph
+
 Update the properties of a [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.yammerGroupsActivityDetail not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [yammerGroupsActivityDetail](../resources/yammerGroupsActivityDetail.md) object.
+In the request body, supply a JSON representation for the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md) object.
 
 The following table shows the properties that are required when you create the [yammerGroupsActivityDetail](../resources/yammergroupsactivitydetail.md).
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.yammerGroupsActivityDetail not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.yammerGroupsActivityDetail not found
 Content-type: application/json
 Content-length: 452
 
@@ -105,7 +107,7 @@ Content-Length: 501
 
 {
   "@odata.type": "#microsoft.graph.yammerGroupsActivityDetail",
-  "id": "2e2e5233-5233-2e2e-3352-2e2e33522e2e",
+  "id": "54513b00-3b00-5451-003b-5154003b5154",
   "reportRefreshDate": "Date",
   "groupDisplayName": "Group Display Name value",
   "isDeleted": true,

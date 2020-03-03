@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # officeClientConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,30 +20,31 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get officeClientConfiguration](../api/officeclientconfiguration-get.md)|[officeClientConfiguration](../resources/officeClientConfiguration.md)|Read properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.|
-|[assign](../api/officeclientconfiguration-assign.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection||
+|[List officeClientConfigurations](../api/officeclientconfiguration-list.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md) collection|List properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) objects.|
+|[Get officeClientConfiguration](../api/officeclientconfiguration-get.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md)|Read properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.|
+|[assign](../api/officeclientconfiguration-assign.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
 |[updatePriorities](../api/officeclientconfiguration-updatepriorities.md)|None||
-|[List assignments](../api/officeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/officeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List clientConfigurations](../api/officeconfiguration-list-clientconfigurations.md)|[officeClientConfiguration](../resources/officeClientConfiguration.md) collection|Get the officeClientConfigurations from the clientConfigurations navigation property.|
-|[Add clientConfigurations](../api/officeconfiguration-post-clientconfigurations.md)|[officeClientConfiguration](../resources/officeClientConfiguration.md)|Add clientConfigurations by posting to the clientConfigurations collection.|
+|[List assignments](../api/officeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/officeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List clientConfigurations](../api/officeconfiguration-list-clientconfigurations.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md) collection|Get the officeClientConfigurations from the clientConfigurations navigation property.|
+|[Add clientConfigurations](../api/officeconfiguration-post-clientconfigurations.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md)|Add clientConfigurations by posting to the clientConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|checkinStatuses|[officeClientCheckinStatus](../resources/officeClientCheckinStatus.md) collection||
+|checkinStatuses|[officeClientCheckinStatus](../resources/officeclientcheckinstatus.md) collection||
 |description|String||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |policyPayload|Stream||
 |priority|Int32||
-|userCheckinSummary|[officeUserCheckinSummary](../resources/officeUserCheckinSummary.md)||
+|userCheckinSummary|[officeUserCheckinSummary](../resources/officeusercheckinsummary.md)||
 |userPreferencePayload|Stream||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) collection||
+|assignments|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

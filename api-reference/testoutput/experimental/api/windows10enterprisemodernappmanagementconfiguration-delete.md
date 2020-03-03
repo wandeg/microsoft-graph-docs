@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windows10EnterpriseModernAppManagementConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [windows10EnterpriseModernAppManagementConfiguration](../resources/windows10enterprisemodernappmanagementconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10EnterpriseModernAppManagementConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10EnterpriseModernAppManagementConfiguration not found
 ```
 
 ### Response

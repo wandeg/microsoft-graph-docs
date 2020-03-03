@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add brandings
 
+Namespace: microsoft.graph
+
 Add brandings by posting to the brandings collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /organization/{organizationId}/brandings/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the organizationalBranding object.
+In the request body, supply a JSON representation for the [organizationalBranding](../resources/organizationalbranding.md) object.
 
-The following table shows the properties that are required when you create the organizationalBranding.
+The following table shows the properties that are required when you create the [organizationalBranding](../resources/organizationalbranding.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/organization/{organizationId}/brandings
+POST https://graph.microsoft.com/localtest/organization/{organizationId}/brandings
 Content-type: application/json
 Content-length: 326
 
@@ -97,7 +99,7 @@ Content-Length: 375
 
 {
   "@odata.type": "#microsoft.graph.organizationalBranding",
-  "id": "74e73f7b-3f7b-74e7-7b3f-e7747b3fe774",
+  "id": "78efe820-e820-78ef-20e8-ef7820e8ef78",
   "backgroundColor": "Background Color value",
   "backgroundImage": "Stream",
   "bannerLogo": "Stream",

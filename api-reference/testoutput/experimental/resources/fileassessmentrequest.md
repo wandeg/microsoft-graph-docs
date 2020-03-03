@@ -5,46 +5,47 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # fileAssessmentRequest resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)
+
+
+Inherits from [threatAssessmentRequest](../resources/threatassessmentrequest.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List fileAssessmentRequests](../api/fileassessmentrequest-list.md)|[fileAssessmentRequest](../resources/fileAssessmentRequest.md) collection|List properties and relationships of the [fileAssessmentRequest](../resources/fileassessmentrequest.md) objects.|
-|[Get fileAssessmentRequest](../api/fileassessmentrequest-get.md)|[fileAssessmentRequest](../resources/fileAssessmentRequest.md)|Read properties and relationships of the [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
-|[Create fileAssessmentRequest](../api/fileassessmentrequest-create.md)|[fileAssessmentRequest](../resources/fileAssessmentRequest.md)|Create a new [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
+|[List fileAssessmentRequests](../api/fileassessmentrequest-list.md)|[fileAssessmentRequest](../resources/fileassessmentrequest.md) collection|List properties and relationships of the [fileAssessmentRequest](../resources/fileassessmentrequest.md) objects.|
+|[Get fileAssessmentRequest](../api/fileassessmentrequest-get.md)|[fileAssessmentRequest](../resources/fileassessmentrequest.md)|Read properties and relationships of the [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
+|[Create fileAssessmentRequest](../api/fileassessmentrequest-create.md)|[fileAssessmentRequest](../resources/fileassessmentrequest.md)|Create a new [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
 |[Delete fileAssessmentRequest](../api/fileassessmentrequest-delete.md)|None|Deletes a [fileAssessmentRequest](../resources/fileassessmentrequest.md).|
-|[Update fileAssessmentRequest](../api/fileassessmentrequest-update.md)|[fileAssessmentRequest](../resources/fileAssessmentRequest.md)|Update the properties of a [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
-|[List results](../api/fileassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection|Get the threatAssessmentResults from the results navigation property.|
-|[Add results](../api/fileassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatAssessmentResult.md)|Add results by posting to the results collection.|
+|[Update fileAssessmentRequest](../api/fileassessmentrequest-update.md)|[fileAssessmentRequest](../resources/fileassessmentrequest.md)|Update the properties of a [fileAssessmentRequest](../resources/fileassessmentrequest.md) object.|
+|[List results](../api/fileassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|Get the threatAssessmentResults from the results navigation property.|
+|[Add results](../api/fileassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Add results by posting to the results collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
+|category|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `spam`, `phishing`, `malware`, `unknownFutureValue`.|
 |contentData|String||
-|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `mail`, `url`, `file`.|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
-|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `block`, `unblock`.|
+|contentType|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `mail`, `url`, `file`.|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|createdDateTime|DateTimeOffset| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
+|expectedAssessment|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `block`, `unblock`.|
 |fileName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `undefined`, `user`, `administrator`.|
-|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md). Possible values are: `pending`, `completed`.|
+|requestSource|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `undefined`, `user`, `administrator`.|
+|status|Enumeration| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md). Possible values are: `pending`, `completed`.|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|results|[threatAssessmentResult](../resources/threatAssessmentResult.md) collection| Inherited from [threatAssessmentRequest](../resources/threatAssessmentRequest.md)|
+|results|[threatAssessmentResult](../resources/threatassessmentresult.md) collection| Inherited from [threatAssessmentRequest](../resources/threatassessmentrequest.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

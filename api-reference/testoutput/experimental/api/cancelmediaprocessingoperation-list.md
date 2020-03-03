@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List cancelMediaProcessingOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.cancelMediaProcessingOperation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.cancelMediaProcessingOperation not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 403
   "value": [
     {
       "@odata.type": "#microsoft.graph.cancelMediaProcessingOperation",
-      "id": "4c838a1d-8a1d-4c83-1d8a-834c1d8a834c",
+      "id": "72b1b39a-b39a-72b1-9ab3-b1729ab3b172",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

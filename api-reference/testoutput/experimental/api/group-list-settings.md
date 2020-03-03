@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List settings
 
+Namespace: microsoft.graph
+
 Get the directorySettings from the settings navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/settings
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/settings
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 410
   "value": [
     {
       "@odata.type": "#microsoft.graph.directorySetting",
-      "id": "045ccc1b-cc1b-045c-1bcc-5c041bcc5c04",
+      "id": "95cf0a68-0a68-95cf-680a-cf95680acf95",
       "displayName": "Display Name value",
       "templateId": "Template Id value",
       "values": [

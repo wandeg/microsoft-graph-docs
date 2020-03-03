@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get contact
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [contact](../resources/contact.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/contacts/{contactId}
+GET https://graph.microsoft.com/localtest/me/contacts/{contactId}
 ```
 
 ### Response
@@ -69,20 +71,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2862
+Content-Length: 2861
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.contact",
-    "id": "0bad941c-941c-0bad-1c94-ad0b1c94ad0b",
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "99b4e22a-e22a-99b4-2ae2-b4992ae2b499",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
     "parentFolderId": "Parent Folder Id value",
-    "birthday": "2017-01-01T00:03:13.7306563+03:00",
+    "birthday": "2017-01-01T00:01:02.2766982+03:00",
     "fileAs": "File As value",
     "displayName": "Display Name value",
     "givenName": "Given Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsPrivacyDataAccessControlItem
 
+Namespace: microsoft.graph
+
 Deletes a [windowsPrivacyDataAccessControlItem](../resources/windowsprivacydataaccesscontrolitem.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.graph.windows10GeneralConfiguration/privacyAccessControls/{windowsPrivacyDataAccessControlItemId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationCategory
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationCategory](../resources/educationcategory.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
+GET https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 173
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationCategory",
-    "id": "4ada2ab2-2ab2-4ada-b22a-da4ab22ada4a",
+    "id": "be0967cb-67cb-be09-cb67-09becb6709be",
     "displayName": "Display Name value"
   }
 }

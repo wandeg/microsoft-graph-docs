@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get externalFile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [externalFile](../resources/externalfile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.externalFile not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.externalFile not found
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 814
+Content-Length: 813
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.externalFile",
-    "id": "ac6ab174-b174-ac6a-74b1-6aac74b16aac",
+    "id": "26e60572-0572-26e6-7205-e6267205e626",
     "properties": {
       "@odata.type": "microsoft.graph.properties"
     },
@@ -86,8 +88,8 @@ Content-Length: 814
         "identitySource": "Identity Source value"
       }
     ],
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
     "createdBy": "Created By value",
     "lastModifiedBy": "Last Modified By value",
     "title": "Title value",

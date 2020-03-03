@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teamsUserActivityUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [teamsUserActivityUserDetail](../resources/teamsuseractivityuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsUserActivityUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsUserActivityUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 615
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsUserActivityUserDetail",
-      "id": "5432c9ef-c9ef-5432-efc9-3254efc93254",
+      "id": "67546f5e-6f5e-6754-5e6f-54675e6f5467",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "lastActivityDate": "Date",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # groupPolicySettingMapping resource type
+
+
+Namespace: microsoft.graph
 
 The Group Policy setting to MDM/Intune mapping.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get groupPolicySettingMapping](../api/grouppolicysettingmapping-get.md)|[groupPolicySettingMapping](../resources/groupPolicySettingMapping.md)|Read properties and relationships of the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
+|[List groupPolicySettingMappings](../api/grouppolicysettingmapping-list.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) collection|List properties and relationships of the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) objects.|
+|[Get groupPolicySettingMapping](../api/grouppolicysettingmapping-get.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Read properties and relationships of the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
+|[Create groupPolicySettingMapping](../api/grouppolicysettingmapping-create.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Create a new [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
 |[Delete groupPolicySettingMapping](../api/grouppolicysettingmapping-delete.md)|None|Deletes a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md).|
-|[Update groupPolicySettingMapping](../api/grouppolicysettingmapping-update.md)|[groupPolicySettingMapping](../resources/groupPolicySettingMapping.md)|Update the properties of a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
+|[Update groupPolicySettingMapping](../api/grouppolicysettingmapping-update.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Update the properties of a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
 
 ## Properties
 |Property|Type|Description|

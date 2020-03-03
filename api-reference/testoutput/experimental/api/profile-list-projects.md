@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List projects
 
+Namespace: microsoft.graph
+
 Get the projectParticipations from the projects navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/profile/projects
+GET https://graph.microsoft.com/localtest/me/profile/projects
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2492
+Content-Length: 2491
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.projectParticipation",
-      "id": "e811c776-c776-e811-76c7-11e876c711e8",
+      "id": "d1f1db93-db93-d1f1-93db-f1d193dbf1d1",
       "allowedAudiences": "String",
       "inference": {
         "@odata.type": "microsoft.graph.inferenceData",
         "confidenceScore": "Double",
         "userHasVerifiedAccuracy": true
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -92,7 +94,7 @@ Content-Length: 2492
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },

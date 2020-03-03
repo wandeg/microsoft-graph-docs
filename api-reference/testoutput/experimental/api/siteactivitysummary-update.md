@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update siteActivitySummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [siteActivitySummary](../resources/siteactivitysummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.siteActivitySummary not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [siteActivitySummary](../resources/siteActivitySummary.md) object.
+In the request body, supply a JSON representation for the [siteActivitySummary](../resources/siteactivitysummary.md) object.
 
 The following table shows the properties that are required when you create the [siteActivitySummary](../resources/siteactivitysummary.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.siteActivitySummary not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.siteActivitySummary not found
 Content-type: application/json
 Content-length: 253
 
@@ -95,7 +97,7 @@ Content-Length: 302
 
 {
   "@odata.type": "#microsoft.graph.siteActivitySummary",
-  "id": "13ca0c59-0c59-13ca-590c-ca13590cca13",
+  "id": "1795a129-a129-1795-29a1-951729a19517",
   "reportRefreshDate": "Date",
   "viewedOrEdited": 14,
   "synced": 6,

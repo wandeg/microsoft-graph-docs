@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deviceManagementSettingBooleanConstraint resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deviceManagementConstraint](../resources/deviceManagementConstraint.md)
+
+
+Inherits from [deviceManagementConstraint](../resources/devicemanagementconstraint.md)
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List advancedThreatProtectionOnboardingDeviceSettingStates
 
+Namespace: microsoft.graph
+
 Get the advancedThreatProtectionOnboardingDeviceSettingStates from the advancedThreatProtectionOnboardingDeviceSettingStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedThreatProtectionOnboardingDeviceSettingStates
+GET https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedThreatProtectionOnboardingDeviceSettingStates
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 702
+Content-Length: 701
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingDeviceSettingState",
-      "id": "39fed4a3-d4a3-39fe-a3d4-fe39a3d4fe39",
+      "id": "0e26c1f1-c1f1-0e26-f1c1-260ef1c1260e",
       "platformType": "String",
       "setting": "Setting value",
       "settingName": "Setting Name value",
@@ -82,7 +84,7 @@ Content-Length: 702
       "userPrincipalName": "User Principal Name value",
       "deviceModel": "Device Model value",
       "state": "String",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:57.7638055+03:00"
+      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
     }
   ]
 }

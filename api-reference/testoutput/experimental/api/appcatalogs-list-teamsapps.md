@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teamsApps
 
+Namespace: microsoft.graph
+
 Get the teamsApps from the teamsApps navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/appCatalogs/teamsApps
+GET https://graph.microsoft.com/localtest/appCatalogs/teamsApps
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 294
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsApp",
-      "id": "cbd773f7-73f7-cbd7-f773-d7cbf773d7cb",
+      "id": "64d2f22b-f22b-64d2-2bf2-d2642bf2d264",
       "externalId": "External Id value",
       "name": "Name value",
       "displayName": "Display Name value",

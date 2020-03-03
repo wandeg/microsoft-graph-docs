@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List photos
 
+Namespace: microsoft.graph
+
 Get the profilePhotos from the photos navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/photos
+GET https://graph.microsoft.com/localtest/me/photos
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 183
   "value": [
     {
       "@odata.type": "#microsoft.graph.profilePhoto",
-      "id": "296e2261-2261-296e-6122-6e2961226e29",
+      "id": "38921062-1062-3892-6210-923862109238",
       "height": 6,
       "width": 5
     }

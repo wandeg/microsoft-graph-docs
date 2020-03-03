@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create mobileAppDependency
 
+Namespace: microsoft.graph
+
 Create a new [mobileAppDependency](../resources/mobileappdependency.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.mobileAppDependency not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppDependency object.
+In the request body, supply a JSON representation for the [mobileAppDependency](../resources/mobileappdependency.md) object.
 
-The following table shows the properties that are required when you create the mobileAppDependency.
+The following table shows the properties that are required when you create the [mobileAppDependency](../resources/mobileappdependency.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|targetId|String|The target child mobile app's app id. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md)|
-|targetDisplayName|String|The target child mobile app's display name. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileAppRelationship.md)|
+|targetId|String|The target child mobile app's app id. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md)|
+|targetDisplayName|String|The target child mobile app's display name. Inherited from [mobileAppRelationship](../resources/intune-apps-mobileapprelationship.md)|
 |dependencyType|Enumeration|The type of dependency relationship between the parent and child apps. Possible values are: `detect`, `autoInstall`.|
 |dependentAppCount|Int32|The total number of dependencies the child app has.|
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.mobileAppDependency not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.mobileAppDependency not found
 Content-type: application/json
 Content-length: 206
 
@@ -91,7 +93,7 @@ Content-Length: 255
 
 {
   "@odata.type": "#microsoft.graph.mobileAppDependency",
-  "id": "5ef7ca92-ca92-5ef7-92ca-f75e92caf75e",
+  "id": "f862b777-b777-f862-77b7-62f877b762f8",
   "targetId": "Target Id value",
   "targetDisplayName": "Target Display Name value",
   "dependencyType": "String",

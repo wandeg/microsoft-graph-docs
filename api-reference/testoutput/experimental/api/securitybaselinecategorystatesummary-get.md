@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get securityBaselineCategoryStateSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/microsoft.graph.securityBaselineTemplate/categoryDeviceStateSummaries/{securityBaselineCategoryStateSummaryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 347
 {
   "value": {
     "@odata.type": "#microsoft.graph.securityBaselineCategoryStateSummary",
-    "id": "8cc7f5a9-f5a9-8cc7-a9f5-c78ca9f5c78c",
+    "id": "4a601bdb-1bdb-4a60-db1b-604adb1b604a",
     "secureCount": 11,
     "notSecureCount": 14,
     "unknownCount": 12,

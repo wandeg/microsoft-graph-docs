@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List exactMatchLookupJobs
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [exactMatchLookupJob](../resources/exactmatchlookupjob.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.exactMatchLookupJob not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.exactMatchLookupJob not found
 ```
 
 ### Response
@@ -64,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1034
+Content-Length: 1036
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.exactMatchLookupJob",
-      "id": "c31ee9fd-e9fd-c31e-fde9-1ec3fde91ec3",
-      "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-      "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
-      "completionDateTime": "2017-01-01T00:02:23.013137+03:00",
+      "id": "c5506bf3-6bf3-c550-f36b-50c5f36b50c5",
+      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+      "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
       "error": {
         "@odata.type": "microsoft.graph.classificationError",
         "code": "Code value",
@@ -82,7 +84,7 @@ Content-Length: 1034
         "target": "Target value",
         "innerError": {
           "@odata.type": "microsoft.graph.classificationInnerError",
-          "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+          "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
           "clientRequestId": "Client Request Id value",
           "activityId": "Activity Id value"
         },

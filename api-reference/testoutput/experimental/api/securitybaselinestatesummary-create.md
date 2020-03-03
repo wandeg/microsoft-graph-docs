@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create securityBaselineStateSummary
 
+Namespace: microsoft.graph
+
 Create a new [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.securityBaselineStateSummary not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the securityBaselineStateSummary object.
+In the request body, supply a JSON representation for the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md) object.
 
-The following table shows the properties that are required when you create the securityBaselineStateSummary.
+The following table shows the properties that are required when you create the [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.securityBaselineStateSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.securityBaselineStateSummary not found
 Content-type: application/json
 Content-length: 213
 
@@ -95,7 +97,7 @@ Content-Length: 262
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineStateSummary",
-  "id": "0dc89c26-9c26-0dc8-269c-c80d269cc80d",
+  "id": "fef4217c-217c-fef4-7c21-f4fe7c21f4fe",
   "secureCount": 11,
   "notSecureCount": 14,
   "unknownCount": 12,

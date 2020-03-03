@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get remoteActionAudit
 
-Read properties and relationships of the [remoteActionAudit](../resources/remoteactionaudit.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -41,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [remoteActionAudit](../resources/remoteactionaudit.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [remoteActionAudit](../resources/intune-devices-remoteactionaudit.md) object in the response body.
 
 ## Example
 
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/remoteActionAudits/{remoteActionAuditId}
+GET https://graph.microsoft.com/localtest/deviceManagement/remoteActionAudits/{remoteActionAuditId}
 ```
 
 ### Response
@@ -72,12 +74,12 @@ Content-Length: 587
 {
   "value": {
     "@odata.type": "#microsoft.graph.remoteActionAudit",
-    "id": "537f25ec-25ec-537f-ec25-7f53ec257f53",
+    "id": "d2d45e42-5e42-d2d4-425e-d4d2425ed4d2",
     "deviceDisplayName": "Device Display Name value",
     "userName": "User Name value",
     "initiatedByUserPrincipalName": "Initiated By User Principal Name value",
     "action": "String",
-    "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
+    "requestDateTime": "2017-01-01T00:00:58.3860693+03:00",
     "deviceOwnerUserPrincipalName": "Device Owner User Principal Name value",
     "deviceIMEI": "Device IMEI value",
     "actionState": "String",

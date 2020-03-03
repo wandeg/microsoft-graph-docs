@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getFileVaultKey
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsManagedDevice not found/getFileVaultKey
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsManagedDevice not found/getFileVaultKey
 ```
 
 ### Response

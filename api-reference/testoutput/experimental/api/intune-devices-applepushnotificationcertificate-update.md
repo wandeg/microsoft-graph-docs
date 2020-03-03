@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update applePushNotificationCertificate
 
-Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceManagement/applePushNotificationCertificate
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [applePushNotificationCertificate](../resources/applePushNotificationCertificate.md) object.
+In the request body, supply a JSON representation for the [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object.
 
-The following table shows the properties that are required when you create the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).
+The following table shows the properties that are required when you create the [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -53,7 +55,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [applePushNotificationCertificate](../resources/intune-devices-applepushnotificationcertificate.md) object in the response body.
 
 ## Example
 
@@ -65,15 +67,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/applePushNotificationCertificate
+PATCH https://graph.microsoft.com/localtest/deviceManagement/applePushNotificationCertificate
 Content-type: application/json
-Content-length: 415
+Content-length: 416
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "certificateUploadStatus": "Certificate Upload Status value",
   "certificateUploadFailureReason": "Certificate Upload Failure Reason value",
   "certificate": "Certificate value"
@@ -90,15 +92,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 528
+Content-Length: 529
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-  "id": "0eaa910c-910c-0eaa-0c91-aa0e0c91aa0e",
+  "id": "b0481aa9-1aa9-b048-a91a-48b0a91a48b0",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-  "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
   "certificateUploadStatus": "Certificate Upload Status value",
   "certificateUploadFailureReason": "Certificate Upload Failure Reason value",
   "certificate": "Certificate value"

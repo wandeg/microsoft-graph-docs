@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # iosWebContentFilterSpecificWebsitesAccess resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [iosWebContentFilterBase](../resources/iosWebContentFilterBase.md)
+
+
+Inherits from [iosWebContentFilterBase](../resources/ioswebcontentfilterbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|specificWebsitesOnly|[iosBookmark](../resources/iosBookmark.md) collection|URL bookmarks which will be installed into built-in browser and user is only allowed to access websites through bookmarks. This collection can contain a maximum of 500 elements.|
-|websiteList|[iosBookmark](../resources/iosBookmark.md) collection|URL bookmarks which will be installed into built-in browser and user is only allowed to access websites through bookmarks. This collection can contain a maximum of 500 elements.|
+|specificWebsitesOnly|[iosBookmark](../resources/iosbookmark.md) collection|URL bookmarks which will be installed into built-in browser and user is only allowed to access websites through bookmarks. This collection can contain a maximum of 500 elements.|
+|websiteList|[iosBookmark](../resources/iosbookmark.md) collection|URL bookmarks which will be installed into built-in browser and user is only allowed to access websites through bookmarks. This collection can contain a maximum of 500 elements.|
 
 ## Relationships
 None

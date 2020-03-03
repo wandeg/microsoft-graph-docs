@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List members
 
+Namespace: microsoft.graph
+
 Get the conversationMembers from the members navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/members
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/members
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 245
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversationMember",
-      "id": "15f74870-4870-15f7-7048-f7157048f715",
+      "id": "16eeb970-b970-16ee-70b9-ee1670b9ee16",
       "roles": [
         "Roles value"
       ],

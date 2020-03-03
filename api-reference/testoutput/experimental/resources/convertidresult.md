@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # convertIdResult resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|errorDetails|[genericError](../resources/genericError.md)||
+|errorDetails|[genericError](../resources/genericerror.md)||
 |sourceId|String||
 |targetId|String||
 

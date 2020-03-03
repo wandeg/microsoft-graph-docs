@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create groupPolicyPresentationComboBox
 
+Namespace: microsoft.graph
+
 Create a new [groupPolicyPresentationComboBox](../resources/grouppolicypresentationcombobox.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.groupPolicyPresentationComboBox not f
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupPolicyPresentationComboBox object.
+In the request body, supply a JSON representation for the [groupPolicyPresentationComboBox](../resources/grouppolicypresentationcombobox.md) object.
 
-The following table shows the properties that are required when you create the groupPolicyPresentationComboBox.
+The following table shows the properties that are required when you create the [groupPolicyPresentationComboBox](../resources/grouppolicypresentationcombobox.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/groupPolicyPresentation.md)|
+|label|String|Localized text label for any presentation entity. The default value is empty. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified. Inherited from [groupPolicyPresentation](../resources/grouppolicypresentation.md)|
 |defaultValue|String|Localized default string displayed in the combo box. The default value is empty.|
 |suggestions|String collection|Localized strings listed in the drop-down list of the combo box. The default value is empty.|
 |required|Boolean|Specifies whether a value must be specified for the parameter. The default value is false.|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.groupPolicyPresentationComboBox not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.groupPolicyPresentationComboBox not found
 Content-type: application/json
 Content-length: 233
 
@@ -96,9 +98,9 @@ Content-Length: 346
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentationComboBox",
-  "id": "8f2a417b-417b-8f2a-7b41-2a8f7b412a8f",
+  "id": "f7af3fff-3fff-f7af-ff3f-aff7ff3faff7",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "defaultValue": "Default Value value",
   "suggestions": [
     "Suggestions value"

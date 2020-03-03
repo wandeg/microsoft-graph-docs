@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # synchronizationJob resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get synchronizationJob](../api/synchronizationjob-get.md)|[synchronizationJob](../resources/synchronizationJob.md)|Read properties and relationships of the [synchronizationJob](../resources/synchronizationjob.md) object.|
+|[List synchronizationJobs](../api/synchronizationjob-list.md)|[synchronizationJob](../resources/synchronizationjob.md) collection|List properties and relationships of the [synchronizationJob](../resources/synchronizationjob.md) objects.|
+|[Get synchronizationJob](../api/synchronizationjob-get.md)|[synchronizationJob](../resources/synchronizationjob.md)|Read properties and relationships of the [synchronizationJob](../resources/synchronizationjob.md) object.|
+|[Create synchronizationJob](../api/synchronizationjob-create.md)|[synchronizationJob](../resources/synchronizationjob.md)|Create a new [synchronizationJob](../resources/synchronizationjob.md) object.|
 |[Delete synchronizationJob](../api/synchronizationjob-delete.md)|None|Deletes a [synchronizationJob](../resources/synchronizationjob.md).|
-|[Update synchronizationJob](../api/synchronizationjob-update.md)|[synchronizationJob](../resources/synchronizationJob.md)|Update the properties of a [synchronizationJob](../resources/synchronizationjob.md) object.|
+|[Update synchronizationJob](../api/synchronizationjob-update.md)|[synchronizationJob](../resources/synchronizationjob.md)|Update the properties of a [synchronizationJob](../resources/synchronizationjob.md) object.|
 |[pause](../api/synchronizationjob-pause.md)|None||
 |[start](../api/synchronizationjob-start.md)|None||
 |[stop](../api/synchronizationjob-stop.md)|None||
@@ -29,21 +32,21 @@ Inherits from [entity](../resources/entity.md)
 |[restart](../api/synchronizationjob-restart.md)|None||
 |[validateCredentials](../api/synchronizationjob-validatecredentials.md)|None||
 |[validateCredentials](../api/synchronizationjob-validatecredentials.md)|None||
-|[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationSchema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
+|[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|schedule|[synchronizationSchedule](../resources/synchronizationSchedule.md)||
-|status|[synchronizationStatus](../resources/synchronizationStatus.md)||
-|synchronizationJobSettings|[keyValuePair](../resources/keyValuePair.md) collection||
+|schedule|[synchronizationSchedule](../resources/synchronizationschedule.md)||
+|status|[synchronizationStatus](../resources/synchronizationstatus.md)||
+|synchronizationJobSettings|[keyValuePair](../resources/keyvaluepair.md) collection||
 |templateId|String||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|schema|[synchronizationSchema](../resources/synchronizationSchema.md)||
+|schema|[synchronizationSchema](../resources/synchronizationschema.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

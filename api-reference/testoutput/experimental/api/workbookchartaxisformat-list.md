@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartAxisFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxisFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxisFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 155
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAxisFormat",
-      "id": "1b92bf40-bf40-1b92-40bf-921b40bf921b"
+      "id": "0545f240-f240-0545-40f2-450540f24505"
     }
   ]
 }

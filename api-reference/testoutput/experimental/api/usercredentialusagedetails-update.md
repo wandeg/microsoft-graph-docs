@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userCredentialUsageDetails
 
+Namespace: microsoft.graph
+
 Update the properties of a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /reports/userCredentialUsageDetails/{userCredentialUsageDetailsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userCredentialUsageDetails](../resources/userCredentialUsageDetails.md) object.
+In the request body, supply a JSON representation for the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.
 
 The following table shows the properties that are required when you create the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/reports/userCredentialUsageDetails/{userCredentialUsageDetailsId}
+PATCH https://graph.microsoft.com/localtest/reports/userCredentialUsageDetails/{userCredentialUsageDetailsId}
 Content-type: application/json
 Content-length: 344
 
@@ -77,7 +79,7 @@ Content-length: 344
   "isSuccess": true,
   "authMethod": "String",
   "failureReason": "Failure Reason value",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00"
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00"
 }
 ```
 
@@ -95,14 +97,14 @@ Content-Length: 393
 
 {
   "@odata.type": "#microsoft.graph.userCredentialUsageDetails",
-  "id": "4c03f248-f248-4c03-48f2-034c48f2034c",
+  "id": "149bdb35-db35-149b-35db-9b1435db9b14",
   "feature": "String",
   "userPrincipalName": "User Principal Name value",
   "userDisplayName": "User Display Name value",
   "isSuccess": true,
   "authMethod": "String",
   "failureReason": "Failure Reason value",
-  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00"
+  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00"
 }
 ```
 

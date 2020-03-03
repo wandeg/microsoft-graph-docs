@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # dlpEvaluationInput resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,8 +18,8 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |accessScope|Enumeration|. Possible values are: `inOrganization`, `notInOrganization`.|
-|currentLabel|[currentLabel](../resources/currentLabel.md)||
-|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredSensitiveType.md) collection||
+|currentLabel|[currentLabel](../resources/currentlabel.md)||
+|discoveredSensitiveTypes|[discoveredSensitiveType](../resources/discoveredsensitivetype.md) collection||
 
 ## Relationships
 None

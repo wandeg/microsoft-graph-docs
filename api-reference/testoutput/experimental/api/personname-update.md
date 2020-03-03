@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update personName
 
+Namespace: microsoft.graph
+
 Update the properties of a [personName](../resources/personname.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH /me/profile/names/{personNameId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [personName](../resources/personName.md) object.
+In the request body, supply a JSON representation for the [personName](../resources/personname.md) object.
 
 The following table shows the properties that are required when you create the [personName](../resources/personname.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
 |displayName|String||
 |first|String||
 |initials|String||
@@ -58,7 +60,7 @@ The following table shows the properties that are required when you create the [
 |nickname|String||
 |suffix|String||
 |title|String||
-|pronunciation|[yomiPersonName](../resources/yomiPersonName.md)||
+|pronunciation|[yomiPersonName](../resources/yomipersonname.md)||
 
 
 
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/profile/names/{personNameId}
+PATCH https://graph.microsoft.com/localtest/me/profile/names/{personNameId}
 Content-type: application/json
 Content-length: 994
 
@@ -127,18 +129,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1245
+Content-Length: 1244
 
 {
   "@odata.type": "#microsoft.graph.personName",
-  "id": "3a0217ae-17ae-3a02-ae17-023aae17023a",
+  "id": "cde5325e-325e-cde5-5e32-e5cd5e32e5cd",
   "allowedAudiences": "String",
   "inference": {
     "@odata.type": "microsoft.graph.inferenceData",
     "confidenceScore": "Double",
     "userHasVerifiedAccuracy": true
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -153,7 +155,7 @@ Content-Length: 1245
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get focusActivityStatistics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [focusActivityStatistics](../resources/focusactivitystatistics.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.focusActivityStatistics not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.focusActivityStatistics not found
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 295
+Content-Length: 296
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.focusActivityStatistics",
-    "id": "f835d8b2-d8b2-f835-b2d8-35f8b2d835f8",
+    "id": "6d401f1f-1f1f-6d40-1f1f-406d1f1f406d",
     "activity": "String",
     "startDate": "Date",
     "endDate": "Date",
     "timeZoneUsed": "Time Zone Used value",
-    "duration": "PT3M27.7161587S"
+    "duration": "-PT1M55.0810357S"
   }
 }
 ```

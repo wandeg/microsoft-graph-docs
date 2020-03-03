@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update officeClientConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /officeConfiguration/clientConfigurations/{officeClientConfigurationId}/as
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [officeClientConfigurationAssignment](../resources/officeClientConfigurationAssignment.md) object.
+In the request body, supply a JSON representation for the [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) object.
 
 The following table shows the properties that are required when you create the [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[officeConfigurationAssignmentTarget](../resources/officeConfigurationAssignmentTarget.md)||
+|target|[officeConfigurationAssignmentTarget](../resources/officeconfigurationassignmenttarget.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments/{officeClientConfigurationAssignmentId}
+PATCH https://graph.microsoft.com/localtest/officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments/{officeClientConfigurationAssignmentId}
 Content-type: application/json
 Content-length: 172
 
@@ -85,7 +87,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-  "id": "cdb94c6c-4c6c-cdb9-6c4c-b9cd6c4cb9cd",
+  "id": "08f87e97-7e97-08f8-977e-f808977ef808",
   "target": {
     "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
   }

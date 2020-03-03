@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailSearchFolder
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailSearchFolder](../resources/mailsearchfolder.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.mailSearchFolder not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailSearchFolder](../resources/mailSearchFolder.md) object.
+In the request body, supply a JSON representation for the [mailSearchFolder](../resources/mailsearchfolder.md) object.
 
 The following table shows the properties that are required when you create the [mailSearchFolder](../resources/mailsearchfolder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [mailFolder](../resources/mailFolder.md)|
-|parentFolderId|String| Inherited from [mailFolder](../resources/mailFolder.md)|
-|childFolderCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
-|unreadItemCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
-|totalItemCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
-|wellKnownName|String| Inherited from [mailFolder](../resources/mailFolder.md)|
+|displayName|String| Inherited from [mailFolder](../resources/mailfolder.md)|
+|parentFolderId|String| Inherited from [mailFolder](../resources/mailfolder.md)|
+|childFolderCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
+|unreadItemCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
+|totalItemCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
+|wellKnownName|String| Inherited from [mailFolder](../resources/mailfolder.md)|
 |isSupported|Boolean||
 |includeNestedFolders|Boolean||
 |sourceFolderIds|String collection||
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailSearchFolder not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailSearchFolder not found
 Content-type: application/json
 Content-length: 425
 
@@ -103,7 +105,7 @@ Content-Length: 474
 
 {
   "@odata.type": "#microsoft.graph.mailSearchFolder",
-  "id": "5c49cb77-cb77-5c49-77cb-495c77cb495c",
+  "id": "d3b57247-7247-d3b5-4772-b5d34772b5d3",
   "displayName": "Display Name value",
   "parentFolderId": "Parent Folder Id value",
   "childFolderCount": 0,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add metricValues
 
+Namespace: microsoft.graph
+
 Add metricValues by posting to the metricValues collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalytics
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsMetric object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsMetric.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the u
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsMetric](../resources/userexperienceanalyticsmetric.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsMetric](../resources/intune-devices-userexperienceanalyticsmetric.md) object in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalyticsBaselineId}/deviceBootPerformanceMetrics/metricValues
+POST https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsBaselines/{userExperienceAnalyticsBaselineId}/deviceBootPerformanceMetrics/metricValues
 Content-type: application/json
 Content-length: 118
 
@@ -87,7 +89,7 @@ Content-Length: 167
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsMetric",
-  "id": "0c0ca341-a341-0c0c-41a3-0c0c41a30c0c",
+  "id": "b8a03256-3256-b8a0-5632-a0b85632a0b8",
   "value": "Double",
   "unit": "Unit value"
 }

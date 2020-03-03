@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create sharePointActivityUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.sharePointActivityUserCounts not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharePointActivityUserCounts object.
+In the request body, supply a JSON representation for the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md) object.
 
-The following table shows the properties that are required when you create the sharePointActivityUserCounts.
+The following table shows the properties that are required when you create the [sharePointActivityUserCounts](../resources/sharepointactivityusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sharePointActivityUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sharePointActivityUserCounts not found
 Content-type: application/json
 Content-length: 284
 
@@ -99,7 +101,7 @@ Content-Length: 333
 
 {
   "@odata.type": "#microsoft.graph.sharePointActivityUserCounts",
-  "id": "fc1b9f16-9f16-fc1b-169f-1bfc169f1bfc",
+  "id": "b9f3b69c-b69c-b9f3-9cb6-f3b99cb6f3b9",
   "reportRefreshDate": "Date",
   "visitedPage": 11,
   "viewedOrEdited": 14,

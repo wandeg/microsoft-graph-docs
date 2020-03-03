@@ -5,35 +5,38 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # securityBaselineCategoryStateSummary resource type
+
+
+Namespace: microsoft.graph
 
 The security baseline per category compliance state summary for the security baseline of the account.
 
 
-Inherits from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)
+Inherits from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-get.md)|[securityBaselineCategoryStateSummary](../resources/securityBaselineCategoryStateSummary.md)|Read properties and relationships of the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.|
+|[List securityBaselineCategoryStateSummaries](../api/securitybaselinecategorystatesummary-list.md)|[securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) collection|List properties and relationships of the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) objects.|
+|[Get securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-get.md)|[securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md)|Read properties and relationships of the [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.|
+|[Create securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-create.md)|[securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md)|Create a new [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.|
 |[Delete securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-delete.md)|None|Deletes a [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md).|
-|[Update securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-update.md)|[securityBaselineCategoryStateSummary](../resources/securityBaselineCategoryStateSummary.md)|Update the properties of a [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.|
+|[Update securityBaselineCategoryStateSummary](../api/securitybaselinecategorystatesummary-update.md)|[securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md)|Update the properties of a [securityBaselineCategoryStateSummary](../resources/securitybaselinecategorystatesummary.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|conflictCount|Int32|Number of conflict devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
+|conflictCount|Int32|Number of conflict devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
 |displayName|String|The category name|
-|errorCount|Int32|Number of error devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
+|errorCount|Int32|Number of error devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|notApplicableCount|Int32|Number of not applicable devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|notSecureCount|Int32|Number of not secure devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|secureCount|Int32|Number of secure devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
-|unknownCount|Int32|Number of unknown devices Inherited from [securityBaselineStateSummary](../resources/securityBaselineStateSummary.md)|
+|notApplicableCount|Int32|Number of not applicable devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|notSecureCount|Int32|Number of not secure devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|secureCount|Int32|Number of secure devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
+|unknownCount|Int32|Number of unknown devices Inherited from [securityBaselineStateSummary](../resources/securitybaselinestatesummary.md)|
 
 ## Relationships
 None

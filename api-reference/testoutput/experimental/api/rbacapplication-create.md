@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create rbacApplication
 
+Namespace: microsoft.graph
+
 Create a new [rbacApplication](../resources/rbacapplication.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.rbacApplication not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the rbacApplication object.
+In the request body, supply a JSON representation for the [rbacApplication](../resources/rbacapplication.md) object.
 
-The following table shows the properties that are required when you create the rbacApplication.
+The following table shows the properties that are required when you create the [rbacApplication](../resources/rbacapplication.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.rbacApplication not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.rbacApplication not found
 Content-type: application/json
 Content-length: 57
 
@@ -83,7 +85,7 @@ Content-Length: 106
 
 {
   "@odata.type": "#microsoft.graph.rbacApplication",
-  "id": "40a4af17-af17-40a4-17af-a44017afa440"
+  "id": "9bb972e4-72e4-9bb9-e472-b99be472b99b"
 }
 ```
 

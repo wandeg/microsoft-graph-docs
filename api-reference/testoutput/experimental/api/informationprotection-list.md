@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List informationProtections
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [informationProtection](../resources/informationprotection.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.informationProtection not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.informationProtection not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 153
   "value": [
     {
       "@odata.type": "#microsoft.graph.informationProtection",
-      "id": "cb97793c-793c-cb97-3c79-97cb3c7997cb"
+      "id": "1f44737b-737b-1f44-7b73-441f7b73441f"
     }
   ]
 }

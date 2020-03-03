@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenoteResource
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenoteResource](../resources/onenoteresource.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResour
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenoteResource](../resources/onenoteResource.md) object.
+In the request body, supply a JSON representation for the [onenoteResource](../resources/onenoteresource.md) object.
 
 The following table shows the properties that are required when you create the [onenoteResource](../resources/onenoteresource.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
 |content|Stream||
 |contentUrl|String||
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/sites/{siteId}/onenote/resources/{onenoteResourceId}
 Content-type: application/json
 Content-length: 158
 
@@ -87,7 +89,7 @@ Content-Length: 207
 
 {
   "@odata.type": "#microsoft.graph.onenoteResource",
-  "id": "bf33c182-c182-bf33-82c1-33bf82c133bf",
+  "id": "07bc711f-711f-07bc-1f71-bc071f71bc07",
   "self": "Self value",
   "content": "Stream",
   "contentUrl": "https://example.com/contentUrl/"

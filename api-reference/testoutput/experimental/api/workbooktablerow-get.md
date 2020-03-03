@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookTableRow
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 217
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableRow",
-    "id": "63618d4d-8d4d-6361-4d8d-61634d8d6163",
+    "id": "b54b86d2-86d2-b54b-d286-4bb5d2864bb5",
     "index": 5,
     "values": {
       "@odata.type": "microsoft.graph.Json"

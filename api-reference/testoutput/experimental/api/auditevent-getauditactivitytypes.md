@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getAuditActivityTypes
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/auditEvents/getAuditActivityTypes(category='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/auditEvents/getAuditActivityTypes(category='parameterValue')
 ```
 
 ### Response

@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # androidDeviceOwnerGlobalProxyAutoConfig resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [androidDeviceOwnerGlobalProxy](../resources/androidDeviceOwnerGlobalProxy.md)
+
+
+Inherits from [androidDeviceOwnerGlobalProxy](../resources/androiddeviceownerglobalproxy.md)
 
 ## Properties
 |Property|Type|Description|

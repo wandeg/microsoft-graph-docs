@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # evaluateLabelsAndPolicies
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,14 +46,14 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|evaluateSensitivityLabels|[evaluateSensitivityLabelsRequest](../resources/evaluateSensitivityLabelsRequest.md)||
-|evaluateDataLossPreventionPolicies|[dlpEvaluatePoliciesRequest](../resources/dlpEvaluatePoliciesRequest.md)||
-|classifyText|[textClassificationRequest](../resources/textClassificationRequest.md)||
+|evaluateSensitivityLabels|[evaluateSensitivityLabelsRequest](../resources/evaluatesensitivitylabelsrequest.md)||
+|evaluateDataLossPreventionPolicies|[dlpEvaluatePoliciesRequest](../resources/dlpevaluatepoliciesrequest.md)||
+|classifyText|[textClassificationRequest](../resources/textclassificationrequest.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluateLabelsAndPoliciesJobResponse.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/informationProtection/evaluateLabelsAndPolicies
+POST https://graph.microsoft.com/localtest/informationProtection/evaluateLabelsAndPolicies
 
 Content-type: application/json
 Content-length: 978
@@ -94,7 +96,7 @@ Content-length: 978
   },
   "classifyText": {
     "@odata.type": "#microsoft.graph.textClassificationRequest",
-    "id": "a10e1109-1109-a10e-0911-0ea109110ea1",
+    "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
     "text": "Text value",
     "sensitiveTypeIds": [
       "Sensitive Type Ids value"
@@ -120,13 +122,13 @@ Content-Length: 603
 {
   "value": {
     "@odata.type": "#microsoft.graph.evaluateLabelsAndPoliciesJobResponse",
-    "id": "c1f0d579-d579-c1f0-79d5-f0c179d5f0c1",
+    "id": "b61f2273-2273-b61f-7322-1fb673221fb6",
     "type": "Type value",
     "status": "Status value",
     "tenantId": "Tenant Id value",
-    "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
     "error": {
       "@odata.type": "microsoft.graph.classificationError"
     },

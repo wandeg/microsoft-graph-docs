@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # unaryManagementConditionExpression resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [managementConditionExpressionModel](../resources/managementConditionExpressionModel.md)
+
+
+Inherits from [managementConditionExpressionModel](../resources/managementconditionexpressionmodel.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|operand|[managementConditionExpressionModel](../resources/managementConditionExpressionModel.md)|The operand of the unary operation.|
+|operand|[managementConditionExpressionModel](../resources/managementconditionexpressionmodel.md)|The operand of the unary operation.|
 |operator|Enumeration|The operator used in the evaluation of the unary operation. Possible values are: `not`.|
 
 ## Relationships

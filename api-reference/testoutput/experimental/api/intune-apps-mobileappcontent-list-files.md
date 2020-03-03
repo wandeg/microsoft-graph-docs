@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List files
 
+Namespace: microsoft.graph
+
 Get the mobileAppContentFiles from the files navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 580
+Content-Length: 579
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppContentFile",
-      "id": "0d763fb5-3fb5-0d76-b53f-760db53f760d",
+      "id": "fbfff66f-f66f-fbff-6ff6-fffb6ff6fffb",
       "azureStorageUri": "Azure Storage Uri value",
       "isCommitted": true,
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
       "name": "Name value",
       "size": 4,
       "sizeEncrypted": 13,
-      "azureStorageUriExpirationDateTime": "2016-12-31T23:56:41.2886459+03:00",
+      "azureStorageUriExpirationDateTime": "2017-01-01T00:02:49.8360031+03:00",
       "manifest": "bWFuaWZlc3Q=",
       "uploadState": "String",
       "isFrameworkFile": true,

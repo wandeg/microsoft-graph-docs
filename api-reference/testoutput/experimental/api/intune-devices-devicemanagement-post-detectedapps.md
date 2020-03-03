@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add detectedApps
 
+Namespace: microsoft.graph
+
 Add detectedApps by posting to the detectedApps collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/detectedApps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the detectedApp object.
+In the request body, supply a JSON representation for the [detectedApp](../resources/intune-devices-detectedapp.md) object.
 
-The following table shows the properties that are required when you create the detectedApp.
+The following table shows the properties that are required when you create the [detectedApp](../resources/intune-devices-detectedapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -51,7 +53,7 @@ The following table shows the properties that are required when you create the d
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [detectedApp](../resources/detectedapp.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [detectedApp](../resources/intune-devices-detectedapp.md) object in the response body.
 
 ## Example
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/detectedApps
+POST https://graph.microsoft.com/localtest/deviceManagement/detectedApps
 Content-type: application/json
 Content-length: 167
 
@@ -91,7 +93,7 @@ Content-Length: 216
 
 {
   "@odata.type": "#microsoft.graph.detectedApp",
-  "id": "7b86facd-facd-7b86-cdfa-867bcdfa867b",
+  "id": "20b5a094-a094-20b5-94a0-b52094a0b520",
   "displayName": "Display Name value",
   "version": "Version value",
   "sizeInByte": 10,

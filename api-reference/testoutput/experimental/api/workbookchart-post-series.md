@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add series
 
+Namespace: microsoft.graph
+
 Add series by posting to the series collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/w
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartSeries object.
+In the request body, supply a JSON representation for the [workbookChartSeries](../resources/workbookchartseries.md) object.
 
-The following table shows the properties that are required when you create the workbookChartSeries.
+The following table shows the properties that are required when you create the [workbookChartSeries](../resources/workbookchartseries.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series
 Content-type: application/json
 Content-length: 86
 
@@ -85,7 +87,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.workbookChartSeries",
-  "id": "23fd67e0-67e0-23fd-e067-fd23e067fd23",
+  "id": "ec5ea629-a629-ec5e-29a6-5eec29a65eec",
   "name": "Name value"
 }
 ```

@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # objectDefinition resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attributes|[attributeDefinition](../resources/attributeDefinition.md) collection||
-|metadata|[metadataEntry](../resources/metadataEntry.md) collection||
+|attributes|[attributeDefinition](../resources/attributedefinition.md) collection||
+|metadata|[metadataEntry](../resources/metadataentry.md) collection||
 |name|String||
 |supportedApis|String collection||
 

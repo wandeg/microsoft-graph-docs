@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create importedWindowsAutopilotDeviceIdentityUpload
 
+Namespace: microsoft.graph
+
 Create a new [importedWindowsAutopilotDeviceIdentityUpload](../resources/importedwindowsautopilotdeviceidentityupload.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.importedWindowsAutopilotDeviceIdentit
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the importedWindowsAutopilotDeviceIdentityUpload object.
+In the request body, supply a JSON representation for the [importedWindowsAutopilotDeviceIdentityUpload](../resources/importedwindowsautopilotdeviceidentityupload.md) object.
 
-The following table shows the properties that are required when you create the importedWindowsAutopilotDeviceIdentityUpload.
+The following table shows the properties that are required when you create the [importedWindowsAutopilotDeviceIdentityUpload](../resources/importedwindowsautopilotdeviceidentityupload.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.importedWindowsAutopilotDeviceIdentityUpload not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.importedWindowsAutopilotDeviceIdentityUpload not found
 Content-type: application/json
 Content-length: 171
 
 {
   "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentityUpload",
-  "createdDateTimeUtc": "2016-12-31T23:58:05.5093446+03:00",
+  "createdDateTimeUtc": "2016-12-31T23:58:32.5709497+03:00",
   "status": "String"
 }
 ```
@@ -87,8 +89,8 @@ Content-Length: 220
 
 {
   "@odata.type": "#microsoft.graph.importedWindowsAutopilotDeviceIdentityUpload",
-  "id": "b89b18f2-18f2-b89b-f218-9bb8f2189bb8",
-  "createdDateTimeUtc": "2016-12-31T23:58:05.5093446+03:00",
+  "id": "7579b981-b981-7579-81b9-797581b97975",
+  "createdDateTimeUtc": "2016-12-31T23:58:32.5709497+03:00",
   "status": "String"
 }
 ```

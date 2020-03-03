@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add roleAssignments
 
+Namespace: microsoft.graph
+
 Add roleAssignments by posting to the roleAssignments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /privilegedAccess/{privilegedAccessId}/roleAssignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the governanceRoleAssignment object.
+In the request body, supply a JSON representation for the [governanceRoleAssignment](../resources/governanceroleassignment.md) object.
 
-The following table shows the properties that are required when you create the governanceRoleAssignment.
+The following table shows the properties that are required when you create the [governanceRoleAssignment](../resources/governanceroleassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}/roleAssignments
+POST https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}/roleAssignments
 Content-type: application/json
 Content-length: 537
 
@@ -80,8 +82,8 @@ Content-length: 537
   "subjectId": "Subject Id value",
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "externalId": "External Id value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "memberType": "Member Type value",
   "assignmentState": "Assignment State value",
   "status": "Status value"
@@ -103,14 +105,14 @@ Content-Length: 586
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleAssignment",
-  "id": "1dbbfe62-fe62-1dbb-62fe-bb1d62febb1d",
+  "id": "c36f0cf0-0cf0-c36f-f00c-6fc3f00c6fc3",
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "subjectId": "Subject Id value",
   "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
   "externalId": "External Id value",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "memberType": "Member Type value",
   "assignmentState": "Assignment State value",
   "status": "Status value"

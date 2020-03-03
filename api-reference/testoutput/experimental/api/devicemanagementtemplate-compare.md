@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # compare
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -46,7 +48,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [deviceManagementSettingComparison](../resources/deviceManagementSettingComparison.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [deviceManagementSettingComparison](../resources/devicemanagementsettingcomparison.md) collection in the response body.
 
 ## Example
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/templates/{deviceManagementTemplateId}/compare(templateId='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/templates/{deviceManagementTemplateId}/compare(templateId='parameterValue')
 ```
 
 ### Response

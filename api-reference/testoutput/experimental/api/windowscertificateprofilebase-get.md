@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsCertificateProfileBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsCertificateProfileBase](../resources/windowscertificateprofilebase.md) object.
 
 ## Permissions
@@ -66,13 +68,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1391
+Content-Length: 1390
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsCertificateProfileBase",
-    "id": "04ee84d1-84d1-04ee-d184-ee04d184ee04",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "id": "3ec28b31-8b31-3ec2-318b-c23e318bc23e",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "roleScopeTagIds": [
       "Role Scope Tag Ids value"
     ],
@@ -94,7 +96,7 @@ Content-Length: 1391
       "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
       "deviceMode": "String"
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

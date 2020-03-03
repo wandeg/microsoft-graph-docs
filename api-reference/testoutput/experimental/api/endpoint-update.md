@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update endpoint
 
+Namespace: microsoft.graph
+
 Update the properties of a [endpoint](../resources/endpoint.md) object.
 
 ## Permissions
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |capability|String||
 |providerId|String||
 |providerName|String||
@@ -65,13 +67,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groups/{groupsId}/endpoints/{endpointId}
+PATCH https://graph.microsoft.com/localtest/groups/{groupsId}/endpoints/{endpointId}
 Content-type: application/json
 Content-length: 304
 
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",
@@ -94,8 +96,8 @@ Content-Length: 353
 
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "id": "12485afa-5afa-1248-fa5a-4812fa5a4812",
-  "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+  "id": "5089dbfa-dbfa-5089-fadb-8950fadb8950",
+  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",

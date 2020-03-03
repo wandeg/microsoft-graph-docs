@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Create userExperienceAnalyticsOverview
 
-Create a new [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object.
+Namespace: microsoft.graph
+
+Create a new [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -36,19 +38,19 @@ POST ** Collection URI for microsoft.graph.userExperienceAnalyticsOverview not f
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the userExperienceAnalyticsOverview object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object.
 
-The following table shows the properties that are required when you create the userExperienceAnalyticsOverview.
+The following table shows the properties that are required when you create the [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userExperienceAnalyticsInsight.md) collection|The user experience analytics insights.|
+|insights|[userExperienceAnalyticsInsight](../resources/intune-devices-userexperienceanalyticsinsight.md) collection|The user experience analytics insights.|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsOverview](../resources/userexperienceanalyticsoverview.md) object in the response body.
+If successful, this method returns a `201 Created` response code and a [userExperienceAnalyticsOverview](../resources/intune-devices-userexperienceanalyticsoverview.md) object in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userExperienceAnalyticsOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userExperienceAnalyticsOverview not found
 Content-type: application/json
 Content-length: 481
 
@@ -98,7 +100,7 @@ Content-Length: 530
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsOverview",
-  "id": "273bb623-b623-273b-23b6-3b2723b63b27",
+  "id": "cc461c04-1c04-cc46-041c-46cc041c46cc",
   "insights": [
     {
       "@odata.type": "microsoft.graph.userExperienceAnalyticsInsight",

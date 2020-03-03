@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update skypeForBusinessDeviceUsageDistributionUserCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionU
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeForBusinessDeviceUsageDistributionUserCounts.md) object.
+In the request body, supply a JSON representation for the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.
 
 The following table shows the properties that are required when you create the [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
 Content-type: application/json
 Content-length: 258
 
@@ -95,7 +97,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts",
-  "id": "683f9284-9284-683f-8492-3f6884923f68",
+  "id": "252e87b6-87b6-252e-b687-2e25b6872e25",
   "reportRefreshDate": "Date",
   "windows": 7,
   "windowsPhone": 12,

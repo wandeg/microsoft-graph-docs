@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update networkIPv6ConfigurationManagementCondition
 
+Namespace: microsoft.graph
+
 Update the properties of a [networkIPv6ConfigurationManagementCondition](../resources/networkipv6configurationmanagementcondition.md) object.
 
 ## Permissions
@@ -35,20 +37,20 @@ PATCH ** Entity URI for microsoft.graph.networkIPv6ConfigurationManagementCondit
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [networkIPv6ConfigurationManagementCondition](../resources/networkIPv6ConfigurationManagementCondition.md) object.
+In the request body, supply a JSON representation for the [networkIPv6ConfigurationManagementCondition](../resources/networkipv6configurationmanagementcondition.md) object.
 
 The following table shows the properties that are required when you create the [networkIPv6ConfigurationManagementCondition](../resources/networkipv6configurationmanagementcondition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementCondition.md)|
-|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementCondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
+|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementcondition.md)|
+|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementcondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
 |ipV6Prefix|String|The IPv6 subnet to be connected to. e.g. 2001:db8::/32|
 |ipV6Gateway|String|The IPv6 gateway address to. e.g 2001:db8::1|
 |ipV6DNSServerList|String collection|An IPv6 DNS servers configured for the adapter.|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.networkIPv6ConfigurationManagementCondition not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.networkIPv6ConfigurationManagementCondition not found
 Content-type: application/json
 Content-length: 475
 
@@ -103,16 +105,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 643
+Content-Length: 642
 
 {
   "@odata.type": "#microsoft.graph.networkIPv6ConfigurationManagementCondition",
-  "id": "75387cc2-7cc2-7538-c27c-3875c27c3875",
+  "id": "904a3b62-3b62-904a-623b-4a90623b4a90",
   "uniqueName": "Unique Name value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "eTag": "ETag value",
   "applicablePlatforms": [
     "String"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create program
 
+Namespace: microsoft.graph
+
 Create a new [program](../resources/program.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /programs
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the program object.
+In the request body, supply a JSON representation for the [program](../resources/program.md) object.
 
-The following table shows the properties that are required when you create the program.
+The following table shows the properties that are required when you create the [program](../resources/program.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/programs
+POST https://graph.microsoft.com/localtest/programs
 Content-type: application/json
 Content-length: 128
 
@@ -87,7 +89,7 @@ Content-Length: 177
 
 {
   "@odata.type": "#microsoft.graph.program",
-  "id": "44393de9-3de9-4439-e93d-3944e93d3944",
+  "id": "65bee448-e448-65be-48e4-be6548e4be65",
   "displayName": "Display Name value",
   "description": "Description value"
 }

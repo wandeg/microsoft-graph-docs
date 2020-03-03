@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # agedAccountsReceivable resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get agedAccountsReceivable](../api/agedaccountsreceivable-get.md)|[agedAccountsReceivable](../resources/agedAccountsReceivable.md)|Read properties and relationships of the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
+|[List agedAccountsReceivables](../api/agedaccountsreceivable-list.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md) collection|List properties and relationships of the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) objects.|
+|[Get agedAccountsReceivable](../api/agedaccountsreceivable-get.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Read properties and relationships of the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
+|[Create agedAccountsReceivable](../api/agedaccountsreceivable-create.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Create a new [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
 |[Delete agedAccountsReceivable](../api/agedaccountsreceivable-delete.md)|None|Deletes a [agedAccountsReceivable](../resources/agedaccountsreceivable.md).|
-|[Update agedAccountsReceivable](../api/agedaccountsreceivable-update.md)|[agedAccountsReceivable](../resources/agedAccountsReceivable.md)|Update the properties of a [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
+|[Update agedAccountsReceivable](../api/agedaccountsreceivable-update.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Update the properties of a [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
 
 ## Properties
 |Property|Type|Description|

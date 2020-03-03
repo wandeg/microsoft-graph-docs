@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartPointFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartPointFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartPointFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 156
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartPointFormat",
-      "id": "93d203db-03db-93d2-db03-d293db03d293"
+      "id": "851e2444-2444-851e-4424-1e8544241e85"
     }
   ]
 }

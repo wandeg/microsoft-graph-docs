@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # employee resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List employees](../api/employee-list.md)|[employee](../resources/employee.md) collection|List properties and relationships of the [employee](../resources/employee.md) objects.|
 |[Get employee](../api/employee-get.md)|[employee](../resources/employee.md)|Read properties and relationships of the [employee](../resources/employee.md) object.|
+|[Create employee](../api/employee-create.md)|[employee](../resources/employee.md)|Create a new [employee](../resources/employee.md) object.|
 |[Delete employee](../api/employee-delete.md)|None|Deletes a [employee](../resources/employee.md).|
 |[Update employee](../api/employee-update.md)|[employee](../resources/employee.md)|Update the properties of a [employee](../resources/employee.md) object.|
 |[List picture](../api/employee-list-picture.md)|[picture](../resources/picture.md) collection|Get the pictures from the picture navigation property.|
@@ -28,7 +31,7 @@ Inherits from [entity](../resources/entity.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[postalAddressType](../resources/postalAddressType.md)||
+|address|[postalAddressType](../resources/postaladdresstype.md)||
 |birthDate|Date||
 |displayName|String||
 |email|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # exportDeviceAndAppManagementData
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -46,7 +48,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [deviceAndAppManagementData](../resources/deviceAndAppManagementData.md) in the response body.
+If successful, this function returns a `200 OK` response code and a [deviceAndAppManagementData](../resources/deviceandappmanagementdata.md) in the response body.
 
 ## Example
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/users/{userId}/exportDeviceAndAppManagementData(skip=4,top=3)
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/exportDeviceAndAppManagementData(skip=4,top=3)
 ```
 
 ### Response

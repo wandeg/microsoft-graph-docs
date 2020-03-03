@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List notifications
 
+Namespace: microsoft.graph
+
 Get the notifications from the notifications navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/notifications
+GET https://graph.microsoft.com/localtest/me/notifications
 ```
 
 ### Response
@@ -65,15 +67,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 831
+Content-Length: 832
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.notification",
-      "id": "3fd82c9b-2c9b-3fd8-9b2c-d83f9b2cd83f",
+      "id": "d3e59931-9931-d3e5-3199-e5d33199e5d3",
       "targetHostName": "Target Host Name value",
-      "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
+      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
       "payload": {
         "@odata.type": "microsoft.graph.payloadTypes",
         "rawContent": "Raw Content value",

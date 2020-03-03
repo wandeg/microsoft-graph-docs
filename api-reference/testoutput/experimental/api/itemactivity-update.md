@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update itemActivity
 
+Namespace: microsoft.graph
+
 Update the properties of a [itemActivity](../resources/itemactivity.md) object.
 
 ## Permissions
@@ -34,16 +36,16 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [itemActivity](../resources/itemActivity.md) object.
+In the request body, supply a JSON representation for the [itemActivity](../resources/itemactivity.md) object.
 
 The following table shows the properties that are required when you create the [itemActivity](../resources/itemactivity.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|access|[accessAction](../resources/accessAction.md)||
+|access|[accessAction](../resources/accessaction.md)||
 |activityDateTime|DateTimeOffset||
-|actor|[identitySet](../resources/identitySet.md)||
+|actor|[identitySet](../resources/identityset.md)||
 
 
 
@@ -77,11 +79,11 @@ Content-Length: 599
 
 {
   "@odata.type": "#microsoft.graph.itemActivity",
-  "id": "d7d89815-9815-d7d8-1598-d8d71598d8d7",
+  "id": "71e35a15-5a15-71e3-155a-e371155ae371",
   "access": {
     "@odata.type": "microsoft.graph.accessAction"
   },
-  "activityDateTime": "2017-01-01T00:02:10.8639373+03:00",
+  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
   "actor": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get privilegedOperationEvent
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [privilegedOperationEvent](../resources/privilegedoperationevent.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/privilegedOperationEvents/{privilegedOperationEventsId}
+GET https://graph.microsoft.com/localtest/privilegedOperationEvents/{privilegedOperationEventsId}
 ```
 
 ### Response
@@ -67,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 757
+Content-Length: 758
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedOperationEvent",
-    "id": "9597f945-f945-9597-45f9-979545f99795",
+    "id": "1176076e-076e-1176-6e07-76116e077611",
     "userId": "User Id value",
     "userName": "User Name value",
     "userMail": "User Mail value",
     "roleId": "Role Id value",
     "roleName": "Role Name value",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-    "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
     "requestorId": "Requestor Id value",
     "requestorName": "Requestor Name value",
     "tenantId": "Tenant Id value",

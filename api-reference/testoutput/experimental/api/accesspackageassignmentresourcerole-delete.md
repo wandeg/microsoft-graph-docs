@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete accessPackageAssignmentResourceRole
 
+Namespace: microsoft.graph
+
 Deletes a [accessPackageAssignmentResourceRole](../resources/accesspackageassignmentresourcerole.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/accessPackageAssignmentResourceRoles/{accessPackageAssignmentResourceRolesId}
+DELETE https://graph.microsoft.com/localtest/accessPackageAssignmentResourceRoles/{accessPackageAssignmentResourceRolesId}
 ```
 
 ### Response

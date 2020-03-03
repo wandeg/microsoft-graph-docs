@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsPhone81TrustedRootCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [windowsPhone81TrustedRootCertificate](../resources/windowsphone81trustedrootcertificate.md).
 
 ## Permissions

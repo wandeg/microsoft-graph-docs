@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create oAuth2PermissionGrant
 
+Namespace: microsoft.graph
+
 Create a new [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /oauth2PermissionGrants
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the oAuth2PermissionGrant object.
+In the request body, supply a JSON representation for the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.
 
-The following table shows the properties that are required when you create the oAuth2PermissionGrant.
+The following table shows the properties that are required when you create the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/oauth2PermissionGrants
+POST https://graph.microsoft.com/localtest/oauth2PermissionGrants
 Content-type: application/json
 Content-length: 349
 
@@ -74,11 +76,11 @@ Content-length: 349
   "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
   "clientId": "Client Id value",
   "consentType": "Consent Type value",
-  "expiryTime": "2017-01-01T00:01:52.1150286+03:00",
+  "expiryTime": "2016-12-31T23:58:12.6684613+03:00",
   "principalId": "Principal Id value",
   "resourceId": "Resource Id value",
   "scope": "Scope value",
-  "startTime": "2016-12-31T23:59:41.6500596+03:00"
+  "startTime": "2017-01-01T00:02:49.6370207+03:00"
 }
 ```
 
@@ -97,14 +99,14 @@ Content-Length: 398
 
 {
   "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
-  "id": "b4971c0a-1c0a-b497-0a1c-97b40a1c97b4",
+  "id": "4dea3746-3746-4dea-4637-ea4d4637ea4d",
   "clientId": "Client Id value",
   "consentType": "Consent Type value",
-  "expiryTime": "2017-01-01T00:01:52.1150286+03:00",
+  "expiryTime": "2016-12-31T23:58:12.6684613+03:00",
   "principalId": "Principal Id value",
   "resourceId": "Resource Id value",
   "scope": "Scope value",
-  "startTime": "2016-12-31T23:59:41.6500596+03:00"
+  "startTime": "2017-01-01T00:02:49.6370207+03:00"
 }
 ```
 

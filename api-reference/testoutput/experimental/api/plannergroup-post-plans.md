@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plans
 
+Namespace: microsoft.graph
+
 Create plans by posting to the plans collection.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST /me/joinedGroups/{groupId}/planner/plans/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerPlan object.
+In the request body, supply a JSON representation for the [plannerPlan](../resources/plannerplan.md) object.
 
-The following table shows the properties that are required when you create the plannerPlan.
+The following table shows the properties that are required when you create the [plannerPlan](../resources/plannerplan.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |owner|String||
 |title|String||
-|contexts|[plannerPlanContextCollection](../resources/plannerPlanContextCollection.md)||
+|contexts|[plannerPlanContextCollection](../resources/plannerplancontextcollection.md)||
 
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/planner/plans
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/planner/plans
 Content-type: application/json
 Content-length: 565
 
@@ -103,11 +105,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 673
+Content-Length: 672
 
 {
   "@odata.type": "#microsoft.graph.plannerPlan",
-  "id": "d5b14423-4423-d5b1-2344-b1d52344b1d5",
+  "id": "1ed3a5e5-a5e5-1ed3-e5a5-d31ee5a5d31e",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -122,7 +124,7 @@ Content-Length: 673
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "owner": "Owner value",
   "title": "Title value",
   "contexts": {

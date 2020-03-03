@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceEnrollmentConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 The Base Class of Device Enrollment Configuration
 
@@ -19,12 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceEnrollmentConfiguration](../api/deviceenrollmentconfiguration-get.md)|[deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|Read properties and relationships of the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) object.|
-|[hasPayloadLinks](../api/deviceenrollmentconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/hasPayloadLinkResultItem.md) collection||
+|[List deviceEnrollmentConfigurations](../api/deviceenrollmentconfiguration-list.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|List properties and relationships of the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) objects.|
+|[Get deviceEnrollmentConfiguration](../api/deviceenrollmentconfiguration-get.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|Read properties and relationships of the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) object.|
+|[hasPayloadLinks](../api/deviceenrollmentconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[setPriority](../api/deviceenrollmentconfiguration-setpriority.md)|None||
 |[assign](../api/deviceenrollmentconfiguration-assign.md)|None||
-|[List assignments](../api/deviceenrollmentconfiguration-list-assignments.md)|[enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md) collection|Get the enrollmentConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/deviceenrollmentconfiguration-post-assignments.md)|[enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
+|[List assignments](../api/deviceenrollmentconfiguration-list-assignments.md)|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) collection|Get the enrollmentConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/deviceenrollmentconfiguration-post-assignments.md)|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md) collection|The list of group assignments for the device configuration profile|
+|assignments|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) collection|The list of group assignments for the device configuration profile|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

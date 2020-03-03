@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerUsers
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerUser](../resources/planneruser.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerUser not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerUser not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 391
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerUser",
-      "id": "1d98aa9a-aa9a-1d98-9aaa-981d9aaa981d",
+      "id": "78f5d7d9-d7d9-78f5-d9d7-f578d9d7f578",
       "favoritePlanReferences": {
         "@odata.type": "microsoft.graph.plannerFavoritePlanReferenceCollection"
       },

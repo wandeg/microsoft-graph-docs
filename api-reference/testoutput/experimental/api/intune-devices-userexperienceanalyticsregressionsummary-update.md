@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update userExperienceAnalyticsRegressionSummary
 
-Update the properties of a [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -35,9 +37,9 @@ PATCH /deviceManagement/userExperienceAnalyticsRegressionSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userExperienceAnalyticsRegressionSummary](../resources/userExperienceAnalyticsRegressionSummary.md) object.
+In the request body, supply a JSON representation for the [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) object.
 
-The following table shows the properties that are required when you create the [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md).
+The following table shows the properties that are required when you create the [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsRegressionSummary](../resources/userexperienceanalyticsregressionsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [userExperienceAnalyticsRegressionSummary](../resources/intune-devices-userexperienceanalyticsregressionsummary.md) object in the response body.
 
 ## Example
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/userExperienceAnalyticsRegressionSummary
+PATCH https://graph.microsoft.com/localtest/deviceManagement/userExperienceAnalyticsRegressionSummary
 Content-type: application/json
 Content-length: 82
 
@@ -81,7 +83,7 @@ Content-Length: 131
 
 {
   "@odata.type": "#microsoft.graph.userExperienceAnalyticsRegressionSummary",
-  "id": "7b659701-9701-7b65-0197-657b0197657b"
+  "id": "197635e0-35e0-1976-e035-7619e0357619"
 }
 ```
 

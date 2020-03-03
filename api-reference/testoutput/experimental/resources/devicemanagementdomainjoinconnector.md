@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementDomainJoinConnector resource type
+
+
+Namespace: microsoft.graph
 
 A Domain Join Connector is a connector that is responsible to allocate (and delete) machine account blobs
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-get.md)|[deviceManagementDomainJoinConnector](../resources/deviceManagementDomainJoinConnector.md)|Read properties and relationships of the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
+|[List deviceManagementDomainJoinConnectors](../api/devicemanagementdomainjoinconnector-list.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) collection|List properties and relationships of the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) objects.|
+|[Get deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-get.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Read properties and relationships of the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
+|[Create deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-create.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Create a new [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
 |[Delete deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-delete.md)|None|Deletes a [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md).|
-|[Update deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-update.md)|[deviceManagementDomainJoinConnector](../resources/deviceManagementDomainJoinConnector.md)|Update the properties of a [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
-|[List domainJoinConnectors](../api/intune-devices-devicemanagement-list-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/deviceManagementDomainJoinConnector.md) collection|Get the deviceManagementDomainJoinConnectors from the domainJoinConnectors navigation property.|
-|[Add domainJoinConnectors](../api/intune-devices-devicemanagement-post-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/deviceManagementDomainJoinConnector.md)|Add domainJoinConnectors by posting to the domainJoinConnectors collection.|
+|[Update deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-update.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Update the properties of a [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
+|[List domainJoinConnectors](../api/intune-devices-devicemanagement-list-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) collection|Get the deviceManagementDomainJoinConnectors from the domainJoinConnectors navigation property.|
+|[Add domainJoinConnectors](../api/intune-devices-devicemanagement-post-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Add domainJoinConnectors by posting to the domainJoinConnectors collection.|
 
 ## Properties
 |Property|Type|Description|

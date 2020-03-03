@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamwork
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamwork](../resources/teamwork.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teamwork
+GET https://graph.microsoft.com/localtest/teamwork
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamwork",
-    "id": "f8251c81-1c81-f825-811c-25f8811c25f8"
+    "id": "e73a8a85-8a85-e73a-858a-3ae7858a3ae7"
   }
 }
 ```

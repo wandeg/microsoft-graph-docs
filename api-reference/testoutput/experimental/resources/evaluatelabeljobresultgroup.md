@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # evaluateLabelJobResultGroup resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|automatic|[evaluateLabelJobResult](../resources/evaluateLabelJobResult.md)||
-|recommended|[evaluateLabelJobResult](../resources/evaluateLabelJobResult.md)||
+|automatic|[evaluateLabelJobResult](../resources/evaluatelabeljobresult.md)||
+|recommended|[evaluateLabelJobResult](../resources/evaluatelabeljobresult.md)||
 
 ## Relationships
 None

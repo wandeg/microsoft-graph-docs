@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsManagementAppHealthSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsManagementAppHealthSummary](../resources/windowsmanagementapphealthsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsManagementAppHealthSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsManagementAppHealthSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 263
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsManagementAppHealthSummary",
-      "id": "ac84d481-d481-ac84-81d4-84ac81d484ac",
+      "id": "edc16e39-6e39-edc1-396e-c1ed396ec1ed",
       "healthyDeviceCount": 2,
       "unhealthyDeviceCount": 4,
       "unknownDeviceCount": 2

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /administrativeUnits/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [administrativeUnit](../resources/administrativeUnit.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [administrativeUnit](../resources/administrativeunit.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/administrativeUnits/delta
+GET https://graph.microsoft.com/localtest/administrativeUnits/delta
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 341
   "value": [
     {
       "@odata.type": "#microsoft.graph.administrativeUnit",
-      "id": "6017d3f5-d3f5-6017-f5d3-1760f5d31760",
-      "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+      "id": "27ed627f-627f-27ed-7f62-ed277f62ed27",
+      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
       "displayName": "Display Name value",
       "description": "Description value",
       "visibility": "Visibility value"

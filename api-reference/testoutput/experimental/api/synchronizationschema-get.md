@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get synchronizationSchema
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 3378
 {
   "value": {
     "@odata.type": "#microsoft.graph.synchronizationSchema",
-    "id": "384985da-85da-3849-da85-4938da854938",
+    "id": "c89cff04-ff04-c89c-04ff-9cc804ff9cc8",
     "provisioningTaskIdentifier": "Provisioning Task Identifier value",
     "synchronizationRules": [
       {

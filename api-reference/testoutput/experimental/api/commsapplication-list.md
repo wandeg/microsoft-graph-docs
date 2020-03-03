@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List commsApplications
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [commsApplication](../resources/commsapplication.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.commsApplication not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.commsApplication not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 148
   "value": [
     {
       "@odata.type": "#microsoft.graph.commsApplication",
-      "id": "a27c58da-58da-a27c-da58-7ca2da587ca2"
+      "id": "7eb0e620-e620-7eb0-20e6-b07e20e6b07e"
     }
   ]
 }

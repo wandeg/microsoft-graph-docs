@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartPoint resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,21 +20,23 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookChartPoint](../api/workbookchartpoint-get.md)|[workbookChartPoint](../resources/workbookChartPoint.md)|Read properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) object.|
+|[List workbookChartPoints](../api/workbookchartpoint-list.md)|[workbookChartPoint](../resources/workbookchartpoint.md) collection|List properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) objects.|
+|[Get workbookChartPoint](../api/workbookchartpoint-get.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Read properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) object.|
+|[Create workbookChartPoint](../api/workbookchartpoint-create.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Create a new [workbookChartPoint](../resources/workbookchartpoint.md) object.|
 |[Delete workbookChartPoint](../api/workbookchartpoint-delete.md)|None|Deletes a [workbookChartPoint](../resources/workbookchartpoint.md).|
-|[Update workbookChartPoint](../api/workbookchartpoint-update.md)|[workbookChartPoint](../resources/workbookChartPoint.md)|Update the properties of a [workbookChartPoint](../resources/workbookchartpoint.md) object.|
-|[Get workbookChartPointFormat](../api/workbookchartpointformat-get.md)|[workbookChartPointFormat](../resources/workbookChartPointFormat.md)|Read properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
+|[Update workbookChartPoint](../api/workbookchartpoint-update.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Update the properties of a [workbookChartPoint](../resources/workbookchartpoint.md) object.|
+|[Get workbookChartPointFormat](../api/workbookchartpointformat-get.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Read properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|format|[workbookChartPointFormat](../resources/workbookChartPointFormat.md)||
+|format|[workbookChartPointFormat](../resources/workbookchartpointformat.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

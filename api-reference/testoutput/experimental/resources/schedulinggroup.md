@@ -5,35 +5,38 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # schedulingGroup resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [changeTrackedEntity](../resources/changeTrackedEntity.md)
+
+
+Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get schedulingGroup](../api/schedulinggroup-get.md)|[schedulingGroup](../resources/schedulingGroup.md)|Read properties and relationships of the [schedulingGroup](../resources/schedulinggroup.md) object.|
+|[List schedulingGroups](../api/schedulinggroup-list.md)|[schedulingGroup](../resources/schedulinggroup.md) collection|List properties and relationships of the [schedulingGroup](../resources/schedulinggroup.md) objects.|
+|[Get schedulingGroup](../api/schedulinggroup-get.md)|[schedulingGroup](../resources/schedulinggroup.md)|Read properties and relationships of the [schedulingGroup](../resources/schedulinggroup.md) object.|
+|[Create schedulingGroup](../api/schedulinggroup-create.md)|[schedulingGroup](../resources/schedulinggroup.md)|Create a new [schedulingGroup](../resources/schedulinggroup.md) object.|
 |[Delete schedulingGroup](../api/schedulinggroup-delete.md)|None|Deletes a [schedulingGroup](../resources/schedulinggroup.md).|
-|[Update schedulingGroup](../api/schedulinggroup-update.md)|[schedulingGroup](../resources/schedulingGroup.md)|Update the properties of a [schedulingGroup](../resources/schedulinggroup.md) object.|
-|[List schedulingGroups](../api/schedule-list-schedulinggroups.md)|[schedulingGroup](../resources/schedulingGroup.md) collection|Get the schedulingGroups from the schedulingGroups navigation property.|
-|[Add schedulingGroups](../api/schedule-post-schedulinggroups.md)|[schedulingGroup](../resources/schedulingGroup.md)|Add schedulingGroups by posting to the schedulingGroups collection.|
+|[Update schedulingGroup](../api/schedulinggroup-update.md)|[schedulingGroup](../resources/schedulinggroup.md)|Update the properties of a [schedulingGroup](../resources/schedulinggroup.md) object.|
+|[List schedulingGroups](../api/schedule-list-schedulinggroups.md)|[schedulingGroup](../resources/schedulinggroup.md) collection|Get the schedulingGroups from the schedulingGroups navigation property.|
+|[Add schedulingGroups](../api/schedule-post-schedulinggroups.md)|[schedulingGroup](../resources/schedulinggroup.md)|Add schedulingGroups by posting to the schedulingGroups collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|createdDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |isActive|Boolean||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changeTrackedEntity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [changeTrackedEntity](../resources/changetrackedentity.md)|
 |userIds|String collection||
 
 ## Relationships

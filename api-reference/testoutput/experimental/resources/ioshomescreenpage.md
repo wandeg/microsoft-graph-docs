@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosHomeScreenPage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Name of the page|
-|icons|[iosHomeScreenItem](../resources/iosHomeScreenItem.md) collection|A list of apps and folders to appear on a page. This collection can contain a maximum of 500 elements.|
+|icons|[iosHomeScreenItem](../resources/ioshomescreenitem.md) collection|A list of apps and folders to appear on a page. This collection can contain a maximum of 500 elements.|
 
 ## Relationships
 None

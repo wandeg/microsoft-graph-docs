@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # plannerGroup resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,13 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerGroups](../api/plannergroup-list.md)|[plannerGroup](../resources/plannerGroup.md) collection|List properties and relationships of the [plannerGroup](../resources/plannergroup.md) objects.|
-|[Get plannerGroup](../api/plannergroup-get.md)|[plannerGroup](../resources/plannerGroup.md)|Read properties and relationships of the [plannerGroup](../resources/plannergroup.md) object.|
-|[Create plannerGroup](../api/plannergroup-create.md)|[plannerGroup](../resources/plannerGroup.md)|Create a new [plannerGroup](../resources/plannergroup.md) object.|
+|[List plannerGroups](../api/plannergroup-list.md)|[plannerGroup](../resources/plannergroup.md) collection|List properties and relationships of the [plannerGroup](../resources/plannergroup.md) objects.|
+|[Get plannerGroup](../api/plannergroup-get.md)|[plannerGroup](../resources/plannergroup.md)|Read properties and relationships of the [plannerGroup](../resources/plannergroup.md) object.|
+|[Create plannerGroup](../api/plannergroup-create.md)|[plannerGroup](../resources/plannergroup.md)|Create a new [plannerGroup](../resources/plannergroup.md) object.|
 |[Delete plannerGroup](../api/plannergroup-delete.md)|None|Deletes a [plannerGroup](../resources/plannergroup.md).|
-|[Update plannerGroup](../api/plannergroup-update.md)|[plannerGroup](../resources/plannerGroup.md)|Update the properties of a [plannerGroup](../resources/plannergroup.md) object.|
-|[List plans](../api/plannergroup-list-plans.md)|[plannerPlan](../resources/plannerPlan.md) collection|Get the plannerPlans from the plans navigation property.|
-|[Create plans](../api/plannergroup-post-plans.md)|[plannerPlan](../resources/plannerPlan.md)|Create plans by posting to the plans collection.|
+|[Update plannerGroup](../api/plannergroup-update.md)|[plannerGroup](../resources/plannergroup.md)|Update the properties of a [plannerGroup](../resources/plannergroup.md) object.|
+|[List plans](../api/plannergroup-list-plans.md)|[plannerPlan](../resources/plannerplan.md) collection|Get the plannerPlans from the plans navigation property.|
+|[Create plans](../api/plannergroup-post-plans.md)|[plannerPlan](../resources/plannerplan.md)|Create plans by posting to the plans collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|plans|[plannerPlan](../resources/plannerPlan.md) collection||
+|plans|[plannerPlan](../resources/plannerplan.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

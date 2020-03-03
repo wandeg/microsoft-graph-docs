@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # baseItemVersion resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List baseItemVersions](../api/baseitemversion-list.md)|[baseItemVersion](../resources/baseItemVersion.md) collection|List properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) objects.|
-|[Get baseItemVersion](../api/baseitemversion-get.md)|[baseItemVersion](../resources/baseItemVersion.md)|Read properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) object.|
+|[List baseItemVersions](../api/baseitemversion-list.md)|[baseItemVersion](../resources/baseitemversion.md) collection|List properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) objects.|
+|[Get baseItemVersion](../api/baseitemversion-get.md)|[baseItemVersion](../resources/baseitemversion.md)|Read properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
-|publication|[publicationFacet](../resources/publicationFacet.md)||
+|publication|[publicationFacet](../resources/publicationfacet.md)||
 
 ## Relationships
 None

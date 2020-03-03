@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add windowsInformationProtectionAppLearningSummaries
 
+Namespace: microsoft.graph
+
 Add windowsInformationProtectionAppLearningSummaries by posting to the windowsInformationProtectionAppLearningSummaries collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/windowsInformationProtectionAppLearningSummaries/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsInformationProtectionAppLearningSummary object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionAppLearningSummary](../resources/windowsinformationprotectionapplearningsummary.md) object.
 
-The following table shows the properties that are required when you create the windowsInformationProtectionAppLearningSummary.
+The following table shows the properties that are required when you create the [windowsInformationProtectionAppLearningSummary](../resources/windowsinformationprotectionapplearningsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/windowsInformationProtectionAppLearningSummaries
+POST https://graph.microsoft.com/localtest/deviceManagement/windowsInformationProtectionAppLearningSummaries
 Content-type: application/json
 Content-length: 190
 
@@ -89,7 +91,7 @@ Content-Length: 239
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLearningSummary",
-  "id": "9d057d9a-7d9a-9d05-9a7d-059d9a7d059d",
+  "id": "4c660ad2-0ad2-4c66-d20a-664cd20a664c",
   "applicationName": "Application Name value",
   "applicationType": "String",
   "deviceCount": 11

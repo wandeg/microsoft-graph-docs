@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupPolicySettingMappings
 
+Namespace: microsoft.graph
+
 Get the groupPolicySettingMappings from the groupPolicySettingMappings navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings
+GET https://graph.microsoft.com/localtest/deviceManagement/groupPolicyMigrationReports/{groupPolicyMigrationReportId}/groupPolicySettingMappings
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1062
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicySettingMapping",
-      "id": "a4a11c74-1c74-a4a1-741c-a1a4741ca1a4",
+      "id": "20835d7c-5d7c-2083-7c5d-83207c5d8320",
       "parentId": "Parent Id value",
       "childIdList": [
         "Child Id List value"

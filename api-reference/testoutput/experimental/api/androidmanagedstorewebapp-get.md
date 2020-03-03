@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidManagedStoreWebApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidManagedStoreWebApp](../resources/androidmanagedstorewebapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidManagedStoreWebApp not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidManagedStoreWebApp not found
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1240
+Content-Length: 1239
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidManagedStoreWebApp",
-    "id": "2a5b0ad1-0ad1-2a5b-d10a-5b2ad10a5b2a",
+    "id": "0c952bd8-2bd8-0c95-d82b-950cd82b950c",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -81,8 +83,8 @@ Content-Length: 1240
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",

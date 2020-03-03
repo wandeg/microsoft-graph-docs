@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsAsyncOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/joinedGroups/{groupId}/team/operations/{teamsAsyncOperationId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsAsyncOperation](../resources/teamsAsyncOperation.md) object.
+In the request body, supply a JSON representation for the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.
 
 The following table shows the properties that are required when you create the [teamsAsyncOperation](../resources/teamsasyncoperation.md).
 
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the [
 |attemptsCount|Int32||
 |targetResourceId|String||
 |targetResourceLocation|String||
-|error|[operationError](../resources/operationError.md)||
+|error|[operationError](../resources/operationerror.md)||
 
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teams/{teamsId}/operations/{teamsAsyncOperationId}
+PATCH https://graph.microsoft.com/localtest/teams/{teamsId}/operations/{teamsAsyncOperationId}
 Content-type: application/json
 Content-length: 447
 
@@ -75,7 +77,7 @@ Content-length: 447
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
   "operationType": "String",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",
@@ -97,15 +99,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 555
+Content-Length: 554
 
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-  "id": "6cf4e0b1-e0b1-6cf4-b1e0-f46cb1e0f46c",
+  "id": "c350ef18-ef18-c350-18ef-50c318ef50c3",
   "operationType": "String",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:56:44.8542569+03:00",
+  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",

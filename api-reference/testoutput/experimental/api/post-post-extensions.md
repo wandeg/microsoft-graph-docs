@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add extensions
 
+Namespace: microsoft.graph
+
 Add extensions by posting to the extensions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversa
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the extension object.
+In the request body, supply a JSON representation for the [extension](../resources/extension.md) object.
 
-The following table shows the properties that are required when you create the extension.
+The following table shows the properties that are required when you create the [extension](../resources/extension.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/extensions
+POST https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/extensions
 Content-type: application/json
 Content-length: 51
 
@@ -83,7 +85,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.extension",
-  "id": "532ccf6b-cf6b-532c-6bcf-2c536bcf2c53"
+  "id": "0deb773a-773a-0deb-3a77-eb0d3a77eb0d"
 }
 ```
 

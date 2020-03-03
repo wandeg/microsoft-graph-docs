@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationCategory
 
+Namespace: microsoft.graph
+
 Deletes a [educationCategory](../resources/educationcategory.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
+DELETE https://graph.microsoft.com/localtest/education/classes/{educationClassId}/assignmentCategories/{educationCategoryId}
 ```
 
 ### Response

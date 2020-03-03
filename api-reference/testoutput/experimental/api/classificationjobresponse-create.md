@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create classificationJobResponse
 
+Namespace: microsoft.graph
+
 Create a new [classificationJobResponse](../resources/classificationjobresponse.md) object.
 
 ## Permissions
@@ -36,21 +38,21 @@ POST ** Collection URI for microsoft.graph.classificationJobResponse not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the classificationJobResponse object.
+In the request body, supply a JSON representation for the [classificationJobResponse](../resources/classificationjobresponse.md) object.
 
-The following table shows the properties that are required when you create the classificationJobResponse.
+The following table shows the properties that are required when you create the [classificationJobResponse](../resources/classificationjobresponse.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|type|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|status|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|tenantId|String| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|error|[classificationError](../resources/classificationError.md)| Inherited from [jobResponseBase](../resources/jobResponseBase.md)|
-|result|[detectedSensitiveContentWrapper](../resources/detectedSensitiveContentWrapper.md)||
+|type|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|status|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|tenantId|String| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|creationDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|startDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|endDateTime|DateTimeOffset| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|error|[classificationError](../resources/classificationerror.md)| Inherited from [jobResponseBase](../resources/jobresponsebase.md)|
+|result|[detectedSensitiveContentWrapper](../resources/detectedsensitivecontentwrapper.md)||
 
 
 
@@ -67,18 +69,18 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.classificationJobResponse not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.classificationJobResponse not found
 Content-type: application/json
-Content-length: 1675
+Content-length: 1676
 
 {
   "@odata.type": "#microsoft.graph.classificationJobResponse",
   "type": "Type value",
   "status": "Status value",
   "tenantId": "Tenant Id value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -86,7 +88,7 @@ Content-length: 1675
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },
@@ -101,7 +103,7 @@ Content-length: 1675
     "classification": [
       {
         "@odata.type": "microsoft.graph.detectedSensitiveContent",
-        "id": "7fa8665d-665d-7fa8-5d66-a87f5d66a87f",
+        "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
         "displayName": "Display Name value",
         "uniqueCount": 11,
         "confidence": 10,
@@ -137,17 +139,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1724
+Content-Length: 1725
 
 {
   "@odata.type": "#microsoft.graph.classificationJobResponse",
-  "id": "135d6e53-6e53-135d-536e-5d13536e5d13",
+  "id": "7f32c975-c975-7f32-75c9-327f75c9327f",
   "type": "Type value",
   "status": "Status value",
   "tenantId": "Tenant Id value",
-  "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-  "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-  "endDateTime": "2017-01-01T00:01:17.3856072+03:00",
+  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
   "error": {
     "@odata.type": "microsoft.graph.classificationError",
     "code": "Code value",
@@ -155,7 +157,7 @@ Content-Length: 1724
     "target": "Target value",
     "innerError": {
       "@odata.type": "microsoft.graph.classificationInnerError",
-      "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+      "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
       "clientRequestId": "Client Request Id value",
       "activityId": "Activity Id value"
     },
@@ -170,7 +172,7 @@ Content-Length: 1724
     "classification": [
       {
         "@odata.type": "microsoft.graph.detectedSensitiveContent",
-        "id": "7fa8665d-665d-7fa8-5d66-a87f5d66a87f",
+        "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
         "displayName": "Display Name value",
         "uniqueCount": 11,
         "confidence": 10,

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # chatMessage resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,31 +20,33 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get chatMessage](../api/chatmessage-get.md)|[chatMessage](../resources/chatMessage.md)|Read properties and relationships of the [chatMessage](../resources/chatmessage.md) object.|
+|[List chatMessages](../api/chatmessage-list.md)|[chatMessage](../resources/chatmessage.md) collection|List properties and relationships of the [chatMessage](../resources/chatmessage.md) objects.|
+|[Get chatMessage](../api/chatmessage-get.md)|[chatMessage](../resources/chatmessage.md)|Read properties and relationships of the [chatMessage](../resources/chatmessage.md) object.|
+|[Create chatMessage](../api/chatmessage-create.md)|[chatMessage](../resources/chatmessage.md)|Create a new [chatMessage](../resources/chatmessage.md) object.|
 |[Delete chatMessage](../api/chatmessage-delete.md)|None|Deletes a [chatMessage](../resources/chatmessage.md).|
-|[Update chatMessage](../api/chatmessage-update.md)|[chatMessage](../resources/chatMessage.md)|Update the properties of a [chatMessage](../resources/chatmessage.md) object.|
-|[List replies](../api/chatmessage-list-replies.md)|[chatMessage](../resources/chatMessage.md) collection|Get the chatMessages from the replies navigation property.|
-|[Add replies](../api/chatmessage-post-replies.md)|[chatMessage](../resources/chatMessage.md)|Add replies by posting to the replies collection.|
-|[List hostedContents](../api/chatmessage-list-hostedcontents.md)|[chatMessageHostedContent](../resources/chatMessageHostedContent.md) collection|Get the chatMessageHostedContents from the hostedContents navigation property.|
-|[Add hostedContents](../api/chatmessage-post-hostedcontents.md)|[chatMessageHostedContent](../resources/chatMessageHostedContent.md)|Add hostedContents by posting to the hostedContents collection.|
+|[Update chatMessage](../api/chatmessage-update.md)|[chatMessage](../resources/chatmessage.md)|Update the properties of a [chatMessage](../resources/chatmessage.md) object.|
+|[List replies](../api/chatmessage-list-replies.md)|[chatMessage](../resources/chatmessage.md) collection|Get the chatMessages from the replies navigation property.|
+|[Add replies](../api/chatmessage-post-replies.md)|[chatMessage](../resources/chatmessage.md)|Add replies by posting to the replies collection.|
+|[List hostedContents](../api/chatmessage-list-hostedcontents.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection|Get the chatMessageHostedContents from the hostedContents navigation property.|
+|[Add hostedContents](../api/chatmessage-post-hostedcontents.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Add hostedContents by posting to the hostedContents collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attachments|[chatMessageAttachment](../resources/chatMessageAttachment.md) collection||
-|body|[itemBody](../resources/itemBody.md)||
+|attachments|[chatMessageAttachment](../resources/chatmessageattachment.md) collection||
+|body|[itemBody](../resources/itembody.md)||
 |createdDateTime|DateTimeOffset||
 |deletedDateTime|DateTimeOffset||
 |etag|String||
-|from|[identitySet](../resources/identitySet.md)||
+|from|[identitySet](../resources/identityset.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |importance|Enumeration|. Possible values are: `normal`, `high`, `urgent`.|
 |lastModifiedDateTime|DateTimeOffset||
 |locale|String||
-|mentions|[chatMessageMention](../resources/chatMessageMention.md) collection||
+|mentions|[chatMessageMention](../resources/chatmessagemention.md) collection||
 |messageType|Enumeration|. Possible values are: `message`, `chatEvent`, `typing`.|
-|policyViolation|[chatMessagePolicyViolation](../resources/chatMessagePolicyViolation.md)||
-|reactions|[chatMessageReaction](../resources/chatMessageReaction.md) collection||
+|policyViolation|[chatMessagePolicyViolation](../resources/chatmessagepolicyviolation.md)||
+|reactions|[chatMessageReaction](../resources/chatmessagereaction.md) collection||
 |replyToId|String||
 |subject|String||
 |summary|String||
@@ -52,8 +55,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|hostedContents|[chatMessageHostedContent](../resources/chatMessageHostedContent.md) collection||
-|replies|[chatMessage](../resources/chatMessage.md) collection||
+|hostedContents|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection||
+|replies|[chatMessage](../resources/chatmessage.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

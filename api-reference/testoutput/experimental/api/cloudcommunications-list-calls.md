@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List calls
 
+Namespace: microsoft.graph
+
 Get the calls from the calls navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls
+GET https://graph.microsoft.com/localtest/communications/calls
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 3608
   "value": [
     {
       "@odata.type": "#microsoft.graph.call",
-      "id": "122cf051-f051-122c-51f0-2c1251f02c12",
+      "id": "c4fdf733-f733-c4fd-33f7-fdc433f7fdc4",
       "state": "String",
       "mediaState": {
         "@odata.type": "microsoft.graph.callMediaState",

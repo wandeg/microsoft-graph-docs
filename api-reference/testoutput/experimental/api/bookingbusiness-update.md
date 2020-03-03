@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingBusiness
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingBusiness](../resources/bookingbusiness.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingBusiness](../resources/bookingBusiness.md) object.
+In the request body, supply a JSON representation for the [bookingBusiness](../resources/bookingbusiness.md) object.
 
 The following table shows the properties that are required when you create the [bookingBusiness](../resources/bookingbusiness.md).
 
@@ -43,16 +45,16 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
 |businessType|String||
-|address|[physicalAddress](../resources/physicalAddress.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
 |phone|String||
 |email|String||
 |webSiteUrl|String|The URL of the business web site.
 Example: https://www.contoso.com|
 |defaultCurrencyIso|String||
-|businessHours|[bookingWorkHours](../resources/bookingWorkHours.md) collection||
-|schedulingPolicy|[bookingSchedulingPolicy](../resources/bookingSchedulingPolicy.md)||
+|businessHours|[bookingWorkHours](../resources/bookingworkhours.md) collection||
+|schedulingPolicy|[bookingSchedulingPolicy](../resources/bookingschedulingpolicy.md)||
 |isPublished|Boolean||
 |publicUrl|String||
 
@@ -71,9 +73,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}
+PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}
 Content-type: application/json
-Content-length: 1309
+Content-length: 1307
 
 {
   "@odata.type": "#microsoft.graph.bookingBusiness",
@@ -100,17 +102,17 @@ Content-length: 1309
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "11:59:43.5410000",
-          "end": "12:01:36.3070000"
+          "start": "12:02:01.9800000",
+          "end": "12:02:50.7750000"
         }
       ]
     }
   ],
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT16.2068969S",
-    "minimumLeadTime": "PT2M23.9129853S",
-    "maximumAdvance": "-PT20.4133449S",
+    "timeSlotInterval": "PT24.7084489S",
+    "minimumLeadTime": "PT46.1171008S",
+    "maximumAdvance": "-PT29.5884928S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },
@@ -129,11 +131,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1358
+Content-Length: 1356
 
 {
   "@odata.type": "#microsoft.graph.bookingBusiness",
-  "id": "0feddc40-dc40-0fed-40dc-ed0f40dced0f",
+  "id": "a4acbc94-bc94-a4ac-94bc-aca494bcaca4",
   "displayName": "Display Name value",
   "businessType": "Business Type value",
   "address": {
@@ -157,17 +159,17 @@ Content-Length: 1358
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "11:59:43.5410000",
-          "end": "12:01:36.3070000"
+          "start": "12:02:01.9800000",
+          "end": "12:02:50.7750000"
         }
       ]
     }
   ],
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT16.2068969S",
-    "minimumLeadTime": "PT2M23.9129853S",
-    "maximumAdvance": "-PT20.4133449S",
+    "timeSlotInterval": "PT24.7084489S",
+    "minimumLeadTime": "PT46.1171008S",
+    "maximumAdvance": "-PT29.5884928S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },

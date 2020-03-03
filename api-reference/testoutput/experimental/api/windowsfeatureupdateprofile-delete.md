@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsFeatureUpdateProfile
 
+Namespace: microsoft.graph
+
 Deletes a [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}
 ```
 
 ### Response

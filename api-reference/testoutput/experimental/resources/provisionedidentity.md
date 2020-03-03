@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # provisionedIdentity resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|details|[detailsInfo](../resources/detailsInfo.md)||
+|details|[detailsInfo](../resources/detailsinfo.md)||
 |displayName|String||
 |id|String||
 |identityType|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List companyInformation
 
+Namespace: microsoft.graph
+
 Get the companyInformations from the companyInformation navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/financials/companies/{companyId}/companyInformation
+GET https://graph.microsoft.com/localtest/financials/companies/{companyId}/companyInformation
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 925
   "value": [
     {
       "@odata.type": "#microsoft.graph.companyInformation",
-      "id": "dc9b0c07-0c07-dc9b-070c-9bdc070c9bdc",
+      "id": "d65a8cc1-8cc1-d65a-c18c-5ad6c18c5ad6",
       "displayName": "Display Name value",
       "address": {
         "@odata.type": "microsoft.graph.postalAddressType",
@@ -89,7 +91,7 @@ Content-Length: 925
       "currentFiscalYearStartDate": "Date",
       "industry": "Industry value",
       "picture": "Stream",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
     }
   ]
 }

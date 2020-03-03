@@ -5,34 +5,35 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # playPromptOperation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [commsOperation](../resources/commsOperation.md)
+
+
+Inherits from [commsOperation](../resources/commsoperation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List playPromptOperations](../api/playpromptoperation-list.md)|[playPromptOperation](../resources/playPromptOperation.md) collection|List properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) objects.|
-|[Get playPromptOperation](../api/playpromptoperation-get.md)|[playPromptOperation](../resources/playPromptOperation.md)|Read properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) object.|
-|[Create playPromptOperation](../api/playpromptoperation-create.md)|[playPromptOperation](../resources/playPromptOperation.md)|Create a new [playPromptOperation](../resources/playpromptoperation.md) object.|
+|[List playPromptOperations](../api/playpromptoperation-list.md)|[playPromptOperation](../resources/playpromptoperation.md) collection|List properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) objects.|
+|[Get playPromptOperation](../api/playpromptoperation-get.md)|[playPromptOperation](../resources/playpromptoperation.md)|Read properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) object.|
+|[Create playPromptOperation](../api/playpromptoperation-create.md)|[playPromptOperation](../resources/playpromptoperation.md)|Create a new [playPromptOperation](../resources/playpromptoperation.md) object.|
 |[Delete playPromptOperation](../api/playpromptoperation-delete.md)|None|Deletes a [playPromptOperation](../resources/playpromptoperation.md).|
-|[Update playPromptOperation](../api/playpromptoperation-update.md)|[playPromptOperation](../resources/playPromptOperation.md)|Update the properties of a [playPromptOperation](../resources/playpromptoperation.md) object.|
+|[Update playPromptOperation](../api/playpromptoperation-update.md)|[playPromptOperation](../resources/playpromptoperation.md)|Update the properties of a [playPromptOperation](../resources/playpromptoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
 |completionReason|Enumeration|. Possible values are: `unknown`, `completedSuccessfully`, `mediaOperationCanceled`, `unknownFutureValue`.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|resultInfo|[ResultInfo](../resources/ResultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
 
 ## Relationships
 None

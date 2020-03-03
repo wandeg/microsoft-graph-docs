@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # localizedNotificationMessage resource type
+
+
+Namespace: microsoft.graph
 
 The text content of a Notification Message Template for the specified locale.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get localizedNotificationMessage](../api/localizednotificationmessage-get.md)|[localizedNotificationMessage](../resources/localizedNotificationMessage.md)|Read properties and relationships of the [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.|
+|[List localizedNotificationMessages](../api/localizednotificationmessage-list.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md) collection|List properties and relationships of the [localizedNotificationMessage](../resources/localizednotificationmessage.md) objects.|
+|[Get localizedNotificationMessage](../api/localizednotificationmessage-get.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md)|Read properties and relationships of the [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.|
+|[Create localizedNotificationMessage](../api/localizednotificationmessage-create.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md)|Create a new [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.|
 |[Delete localizedNotificationMessage](../api/localizednotificationmessage-delete.md)|None|Deletes a [localizedNotificationMessage](../resources/localizednotificationmessage.md).|
-|[Update localizedNotificationMessage](../api/localizednotificationmessage-update.md)|[localizedNotificationMessage](../resources/localizedNotificationMessage.md)|Update the properties of a [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.|
+|[Update localizedNotificationMessage](../api/localizednotificationmessage-update.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md)|Update the properties of a [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Get deviceManagementScriptRunSummary
 
-Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object.
+Namespace: microsoft.graph
+
+Read properties and relationships of the [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -40,7 +42,7 @@ This method supports some of the OData query parameters to help customize the re
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [deviceManagementScriptRunSummary](../resources/devicemanagementscriptrunsummary.md) object in the response body.
+If successful, this method returns a `200 OK` response code and [deviceManagementScriptRunSummary](../resources/intune-devices-devicemanagementscriptrunsummary.md) object in the response body.
 
 ## Example
 
@@ -71,7 +73,7 @@ Content-Length: 259
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementScriptRunSummary",
-    "id": "df948344-8344-df94-4483-94df448394df",
+    "id": "836ac9bb-c9bb-836a-bbc9-6a83bbc96a83",
     "successDeviceCount": 2,
     "errorDeviceCount": 0,
     "successUserCount": 0,

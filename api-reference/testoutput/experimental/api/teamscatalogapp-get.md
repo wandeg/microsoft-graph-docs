@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsCatalogApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsCatalogApp](../resources/teamscatalogapp.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/apps/{teamsCatalogAppId}
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/apps/{teamsCatalogAppId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 233
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsCatalogApp",
-    "id": "79d15acd-5acd-79d1-cd5a-d179cd5ad179",
+    "id": "11dd4ded-4ded-11dd-ed4d-dd11ed4ddd11",
     "externalId": "External Id value",
     "name": "Name value",
     "distributionMethod": "String"

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosLobAppProvisioningConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 This topic provides descriptions of the declared methods, properties and relationships exposed by the iOS Lob App Provisioning Configuration resource.
 
@@ -19,21 +20,23 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-get.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-iosLobAppProvisioningConfiguration.md)|Read properties and relationships of the [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md) object.|
-|[Delete iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-delete.md)|None|Deletes a [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md).|
-|[Update iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-update.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-iosLobAppProvisioningConfiguration.md)|Update the properties of a [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md) object.|
+|[List iosLobAppProvisioningConfigurations](../api/intune-apps-ioslobappprovisioningconfiguration-list.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) collection|List properties and relationships of the [iosLobAppProvisioningConfiguration](../resources/ioslobappprovisioningconfiguration.md) objects.|
+|[Get iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-get.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md)|Read properties and relationships of the [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object.|
+|[Create iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-create.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md)|Create a new [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object.|
+|[Delete iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-delete.md)|None|Deletes a [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md).|
+|[Update iosLobAppProvisioningConfiguration](../api/intune-apps-ioslobappprovisioningconfiguration-update.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md)|Update the properties of a [iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) object.|
 |[assign](../api/intune-apps-ioslobappprovisioningconfiguration-assign.md)|None||
-|[hasPayloadLinks](../api/intune-apps-ioslobappprovisioningconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/hasPayloadLinkResultItem.md) collection||
-|[List groupAssignments](../api/intune-apps-ioslobappprovisioningconfiguration-list-groupassignments.md)|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileAppProvisioningConfigGroupAssignment.md) collection|Get the mobileAppProvisioningConfigGroupAssignments from the groupAssignments navigation property.|
-|[Add groupAssignments](../api/intune-apps-ioslobappprovisioningconfiguration-post-groupassignments.md)|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileAppProvisioningConfigGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
-|[List assignments](../api/intune-apps-ioslobappprovisioningconfiguration-list-assignments.md)|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-iosLobAppProvisioningConfigurationAssignment.md) collection|Get the iosLobAppProvisioningConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/intune-apps-ioslobappprovisioningconfiguration-post-assignments.md)|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-iosLobAppProvisioningConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List deviceStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-list-devicestatuses.md)|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationDeviceStatus.md) collection|Get the managedDeviceMobileAppConfigurationDeviceStatuses from the deviceStatuses navigation property.|
-|[Add deviceStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-post-devicestatuses.md)|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationDeviceStatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
-|[List userStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-list-userstatuses.md)|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationUserStatus.md) collection|Get the managedDeviceMobileAppConfigurationUserStatuses from the userStatuses navigation property.|
-|[Add userStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-post-userstatuses.md)|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationUserStatus.md)|Add userStatuses by posting to the userStatuses collection.|
-|[List iosLobAppProvisioningConfigurations](../api/intune-apps-deviceappmanagement-list-ioslobappprovisioningconfigurations.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-iosLobAppProvisioningConfiguration.md) collection|Get the iosLobAppProvisioningConfigurations from the iosLobAppProvisioningConfigurations navigation property.|
-|[Add iosLobAppProvisioningConfigurations](../api/intune-apps-deviceappmanagement-post-ioslobappprovisioningconfigurations.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-iosLobAppProvisioningConfiguration.md)|Add iosLobAppProvisioningConfigurations by posting to the iosLobAppProvisioningConfigurations collection.|
+|[hasPayloadLinks](../api/intune-apps-ioslobappprovisioningconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
+|[List groupAssignments](../api/intune-apps-ioslobappprovisioningconfiguration-list-groupassignments.md)|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md) collection|Get the mobileAppProvisioningConfigGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/intune-apps-ioslobappprovisioningconfiguration-post-groupassignments.md)|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/intune-apps-ioslobappprovisioningconfiguration-list-assignments.md)|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-ioslobappprovisioningconfigurationassignment.md) collection|Get the iosLobAppProvisioningConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/intune-apps-ioslobappprovisioningconfiguration-post-assignments.md)|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-ioslobappprovisioningconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List deviceStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-list-devicestatuses.md)|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) collection|Get the managedDeviceMobileAppConfigurationDeviceStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-post-devicestatuses.md)|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
+|[List userStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-list-userstatuses.md)|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-manageddevicemobileappconfigurationuserstatus.md) collection|Get the managedDeviceMobileAppConfigurationUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/intune-apps-ioslobappprovisioningconfiguration-post-userstatuses.md)|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-manageddevicemobileappconfigurationuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
+|[List iosLobAppProvisioningConfigurations](../api/intune-apps-deviceappmanagement-list-ioslobappprovisioningconfigurations.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md) collection|Get the iosLobAppProvisioningConfigurations from the iosLobAppProvisioningConfigurations navigation property.|
+|[Add iosLobAppProvisioningConfigurations](../api/intune-apps-deviceappmanagement-post-ioslobappprovisioningconfigurations.md)|[iosLobAppProvisioningConfiguration](../resources/intune-apps-ioslobappprovisioningconfiguration.md)|Add iosLobAppProvisioningConfigurations by posting to the iosLobAppProvisioningConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -52,10 +55,10 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-iosLobAppProvisioningConfigurationAssignment.md) collection|The associated group assignments for IosLobAppProvisioningConfiguration.|
-|deviceStatuses|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationDeviceStatus.md) collection|The list of device installation states for this mobile app configuration.|
-|groupAssignments|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileAppProvisioningConfigGroupAssignment.md) collection|The associated group assignments.|
-|userStatuses|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-managedDeviceMobileAppConfigurationUserStatus.md) collection|The list of user installation states for this mobile app configuration.|
+|assignments|[iosLobAppProvisioningConfigurationAssignment](../resources/intune-apps-ioslobappprovisioningconfigurationassignment.md) collection|The associated group assignments for IosLobAppProvisioningConfiguration.|
+|deviceStatuses|[managedDeviceMobileAppConfigurationDeviceStatus](../resources/intune-apps-manageddevicemobileappconfigurationdevicestatus.md) collection|The list of device installation states for this mobile app configuration.|
+|groupAssignments|[mobileAppProvisioningConfigGroupAssignment](../resources/intune-apps-mobileappprovisioningconfiggroupassignment.md) collection|The associated group assignments.|
+|userStatuses|[managedDeviceMobileAppConfigurationUserStatus](../resources/intune-apps-manageddevicemobileappconfigurationuserstatus.md) collection|The list of user installation states for this mobile app configuration.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

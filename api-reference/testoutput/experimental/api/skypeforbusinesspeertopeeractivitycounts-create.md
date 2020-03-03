@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create skypeForBusinessPeerToPeerActivityCounts
 
+Namespace: microsoft.graph
+
 Create a new [skypeForBusinessPeerToPeerActivityCounts](../resources/skypeforbusinesspeertopeeractivitycounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.skypeForBusinessPeerToPeerActivityCou
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the skypeForBusinessPeerToPeerActivityCounts object.
+In the request body, supply a JSON representation for the [skypeForBusinessPeerToPeerActivityCounts](../resources/skypeforbusinesspeertopeeractivitycounts.md) object.
 
-The following table shows the properties that are required when you create the skypeForBusinessPeerToPeerActivityCounts.
+The following table shows the properties that are required when you create the [skypeForBusinessPeerToPeerActivityCounts](../resources/skypeforbusinesspeertopeeractivitycounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessPeerToPeerActivityCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessPeerToPeerActivityCounts not found
 Content-type: application/json
 Content-length: 267
 
@@ -99,7 +101,7 @@ Content-Length: 316
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessPeerToPeerActivityCounts",
-  "id": "e1310a0c-0a0c-e131-0c0a-31e10c0a31e1",
+  "id": "66db09d4-09d4-66db-d409-db66d409db66",
   "im": 2,
   "audio": 5,
   "video": 5,

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # windowsInformationProtectionIPRangeCollection resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |displayName|String|Display name|
-|ranges|[ipRange](../resources/ipRange.md) collection|Collection of ip ranges|
+|ranges|[ipRange](../resources/iprange.md) collection|Collection of ip ranges|
 
 ## Relationships
 None

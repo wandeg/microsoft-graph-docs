@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationSubmissionResource resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationSubmissionResource](../api/educationsubmissionresource-get.md)|[educationSubmissionResource](../resources/educationSubmissionResource.md)|Read properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
+|[List educationSubmissionResources](../api/educationsubmissionresource-list.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md) collection|List properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) objects.|
+|[Get educationSubmissionResource](../api/educationsubmissionresource-get.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Read properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
+|[Create educationSubmissionResource](../api/educationsubmissionresource-create.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Create a new [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
 |[Delete educationSubmissionResource](../api/educationsubmissionresource-delete.md)|None|Deletes a [educationSubmissionResource](../resources/educationsubmissionresource.md).|
-|[Update educationSubmissionResource](../api/educationsubmissionresource-update.md)|[educationSubmissionResource](../resources/educationSubmissionResource.md)|Update the properties of a [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
+|[Update educationSubmissionResource](../api/educationsubmissionresource-update.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Update the properties of a [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |assignmentResourceUrl|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|resource|[educationResource](../resources/educationResource.md)||
+|resource|[educationResource](../resources/educationresource.md)||
 
 ## Relationships
 None

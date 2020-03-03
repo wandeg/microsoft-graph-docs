@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update depEnrollmentProfile
 
+Namespace: microsoft.graph
+
 Update the properties of a [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.depEnrollmentProfile not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [depEnrollmentProfile](../resources/depEnrollmentProfile.md) object.
+In the request body, supply a JSON representation for the [depEnrollmentProfile](../resources/depenrollmentprofile.md) object.
 
 The following table shows the properties that are required when you create the [depEnrollmentProfile](../resources/depenrollmentprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
-|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
+|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentprofile.md)|
 |isDefault|Boolean|Indicates if this is the default profile|
 |supervisedModeEnabled|Boolean|Supervised mode, True to enable, false otherwise. See https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune for additional information.|
 |supportDepartment|String|Support department information|
@@ -57,7 +59,7 @@ The following table shows the properties that are required when you create the [
 |supportPhoneNumber|String|Support phone number|
 |iTunesPairingMode|Enumeration|Indicates the iTunes pairing mode. Possible values are: `disallow`, `allow`, `requiresCertificate`.|
 |profileRemovalDisabled|Boolean|Indicates if the profile removal option is disabled|
-|managementCertificates|[managementCertificateWithThumbprint](../resources/managementCertificateWithThumbprint.md) collection|Management certificates for Apple Configurator|
+|managementCertificates|[managementCertificateWithThumbprint](../resources/managementcertificatewiththumbprint.md) collection|Management certificates for Apple Configurator|
 |restoreBlocked|Boolean|Indicates if Restore setup pane is blocked|
 |restoreFromAndroidDisabled|Boolean|Indicates if Restore from Android is disabled|
 |appleIdDisabled|Boolean|Indicates if Apple id setup pane is disabled|
@@ -88,7 +90,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.depEnrollmentProfile not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.depEnrollmentProfile not found
 Content-type: application/json
 Content-length: 1355
 
@@ -147,7 +149,7 @@ Content-Length: 1404
 
 {
   "@odata.type": "#microsoft.graph.depEnrollmentProfile",
-  "id": "a0fcd748-d748-a0fc-48d7-fca048d7fca0",
+  "id": "69fb20d3-20d3-69fb-d320-fb69d320fb69",
   "displayName": "Display Name value",
   "description": "Description value",
   "requiresUserAuthentication": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update skypeForBusinessParticipantActivityCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [skypeForBusinessParticipantActivityCounts](../resources/skypeforbusinessparticipantactivitycounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.skypeForBusinessParticipantActivityCount
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [skypeForBusinessParticipantActivityCounts](../resources/skypeForBusinessParticipantActivityCounts.md) object.
+In the request body, supply a JSON representation for the [skypeForBusinessParticipantActivityCounts](../resources/skypeforbusinessparticipantactivitycounts.md) object.
 
 The following table shows the properties that are required when you create the [skypeForBusinessParticipantActivityCounts](../resources/skypeforbusinessparticipantactivitycounts.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.skypeForBusinessParticipantActivityCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.skypeForBusinessParticipantActivityCounts not found
 Content-type: application/json
 Content-length: 276
 
@@ -97,7 +99,7 @@ Content-Length: 325
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessParticipantActivityCounts",
-  "id": "8e425b30-5b30-8e42-305b-428e305b428e",
+  "id": "3c9a9d90-9d90-3c9a-909d-9a3c909d9a3c",
   "im": 2,
   "audioVideo": 10,
   "appSharing": 10,

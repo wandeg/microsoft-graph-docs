@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # deliveryOptimizationBandwidthHoursWithPercentage resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [deliveryOptimizationBandwidth](../resources/deliveryOptimizationBandwidth.md)
+
+
+Inherits from [deliveryOptimizationBandwidth](../resources/deliveryoptimizationbandwidth.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|bandwidthBackgroundPercentageHours|[deliveryOptimizationBandwidthBusinessHoursLimit](../resources/deliveryOptimizationBandwidthBusinessHoursLimit.md)|Background download percentage hours.|
-|bandwidthForegroundPercentageHours|[deliveryOptimizationBandwidthBusinessHoursLimit](../resources/deliveryOptimizationBandwidthBusinessHoursLimit.md)|Foreground download percentage hours.|
+|bandwidthBackgroundPercentageHours|[deliveryOptimizationBandwidthBusinessHoursLimit](../resources/deliveryoptimizationbandwidthbusinesshourslimit.md)|Background download percentage hours.|
+|bandwidthForegroundPercentageHours|[deliveryOptimizationBandwidthBusinessHoursLimit](../resources/deliveryoptimizationbandwidthbusinesshourslimit.md)|Foreground download percentage hours.|
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete directorySetting
 
+Namespace: microsoft.graph
+
 Deletes a [directorySetting](../resources/directorysetting.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/settings/{settingsId}
+DELETE https://graph.microsoft.com/localtest/settings/{settingsId}
 ```
 
 ### Response

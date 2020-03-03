@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # labelingOptions resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,8 +18,8 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |assignmentMethod|Enumeration|. Possible values are: `standard`, `privileged`, `auto`.|
-|downgradeJustification|[downgradeJustification](../resources/downgradeJustification.md)||
-|extendedProperties|[keyValuePair](../resources/keyValuePair.md) collection||
+|downgradeJustification|[downgradeJustification](../resources/downgradejustification.md)||
+|extendedProperties|[keyValuePair](../resources/keyvaluepair.md) collection||
 |labelId|Guid||
 
 ## Relationships

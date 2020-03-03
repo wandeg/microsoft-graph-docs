@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # itemFacet resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,18 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemFacets](../api/itemfacet-list.md)|[itemFacet](../resources/itemFacet.md) collection|List properties and relationships of the [itemFacet](../resources/itemfacet.md) objects.|
-|[Get itemFacet](../api/itemfacet-get.md)|[itemFacet](../resources/itemFacet.md)|Read properties and relationships of the [itemFacet](../resources/itemfacet.md) object.|
+|[List itemFacets](../api/itemfacet-list.md)|[itemFacet](../resources/itemfacet.md) collection|List properties and relationships of the [itemFacet](../resources/itemfacet.md) objects.|
+|[Get itemFacet](../api/itemfacet-get.md)|[itemFacet](../resources/itemfacet.md)|Read properties and relationships of the [itemFacet](../resources/itemfacet.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |allowedAudiences|Enumeration|. Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inference|[inferenceData](../resources/inferenceData.md)||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|inference|[inferenceData](../resources/inferencedata.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 ## Relationships

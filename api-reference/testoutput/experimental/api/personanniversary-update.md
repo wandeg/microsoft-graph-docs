@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update personAnniversary
 
+Namespace: microsoft.graph
+
 Update the properties of a [personAnniversary](../resources/personanniversary.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH /me/profile/anniversaries/{personAnniversaryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [personAnniversary](../resources/personAnniversary.md) object.
+In the request body, supply a JSON representation for the [personAnniversary](../resources/personanniversary.md) object.
 
 The following table shows the properties that are required when you create the [personAnniversary](../resources/personanniversary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemFacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
-|inference|[inferenceData](../resources/inferenceData.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemFacet.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [itemFacet](../resources/itemFacet.md)|
+|allowedAudiences|Enumeration| Inherited from [itemFacet](../resources/itemfacet.md). Possible values are: `me`, `family`, `contacts`, `groupMembers`, `organization`, `federatedOrganizations`, `everyone`, `unknownFutureValue`.|
+|inference|[inferenceData](../resources/inferencedata.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [itemFacet](../resources/itemfacet.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [itemFacet](../resources/itemfacet.md)|
 |type|Enumeration|. Possible values are: `birthday`, `wedding`, `unknownFutureValue`.|
 |date|Date||
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/profile/anniversaries/{personAnniversaryId}
+PATCH https://graph.microsoft.com/localtest/me/profile/anniversaries/{personAnniversaryId}
 Content-type: application/json
 Content-length: 648
 
@@ -107,18 +109,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 899
+Content-Length: 898
 
 {
   "@odata.type": "#microsoft.graph.personAnniversary",
-  "id": "5870f8e4-f8e4-5870-e4f8-7058e4f87058",
+  "id": "10022afe-2afe-1002-fe2a-0210fe2a0210",
   "allowedAudiences": "String",
   "inference": {
     "@odata.type": "microsoft.graph.inferenceData",
     "confidenceScore": "Double",
     "userHasVerifiedAccuracy": true
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -133,7 +135,7 @@ Content-Length: 899
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

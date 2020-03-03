@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update accessReviewDecision
 
+Namespace: microsoft.graph
+
 Update the properties of a [accessReviewDecision](../resources/accessreviewdecision.md) object.
 
 ## Permissions
@@ -39,7 +41,7 @@ PATCH /approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{request
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [accessReviewDecision](../resources/accessReviewDecision.md) object.
+In the request body, supply a JSON representation for the [accessReviewDecision](../resources/accessreviewdecision.md) object.
 
 The following table shows the properties that are required when you create the [accessReviewDecision](../resources/accessreviewdecision.md).
 
@@ -47,11 +49,11 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |accessReviewId|String||
-|reviewedBy|[userIdentity](../resources/userIdentity.md)||
+|reviewedBy|[userIdentity](../resources/useridentity.md)||
 |reviewedDateTime|DateTimeOffset||
 |reviewResult|String||
 |justification|String||
-|appliedBy|[userIdentity](../resources/userIdentity.md)||
+|appliedBy|[userIdentity](../resources/useridentity.md)||
 |appliedDateTime|DateTimeOffset||
 |applyResult|String||
 |accessRecommendation|String||
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/accessReviewDecisions/{accessReviewDecisionsId}
+PATCH https://graph.microsoft.com/localtest/accessReviewDecisions/{accessReviewDecisionsId}
 Content-type: application/json
 Content-length: 720
 
@@ -85,13 +87,13 @@ Content-length: 720
     "ipAddress": "Ip Address value",
     "userPrincipalName": "User Principal Name value"
   },
-  "reviewedDateTime": "2016-12-31T23:57:10.8561795+03:00",
+  "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
   "reviewResult": "Review Result value",
   "justification": "Justification value",
   "appliedBy": {
     "@odata.type": "microsoft.graph.userIdentity"
   },
-  "appliedDateTime": "2016-12-31T23:58:26.0451415+03:00",
+  "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
   "applyResult": "Apply Result value",
   "accessRecommendation": "Access Recommendation value"
 }
@@ -111,7 +113,7 @@ Content-Length: 769
 
 {
   "@odata.type": "#microsoft.graph.accessReviewDecision",
-  "id": "dac74cd6-4cd6-dac7-d64c-c7dad64cc7da",
+  "id": "903da73c-a73c-903d-3ca7-3d903ca73d90",
   "accessReviewId": "Access Review Id value",
   "reviewedBy": {
     "@odata.type": "microsoft.graph.userIdentity",
@@ -120,13 +122,13 @@ Content-Length: 769
     "ipAddress": "Ip Address value",
     "userPrincipalName": "User Principal Name value"
   },
-  "reviewedDateTime": "2016-12-31T23:57:10.8561795+03:00",
+  "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
   "reviewResult": "Review Result value",
   "justification": "Justification value",
   "appliedBy": {
     "@odata.type": "microsoft.graph.userIdentity"
   },
-  "appliedDateTime": "2016-12-31T23:58:26.0451415+03:00",
+  "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
   "applyResult": "Apply Result value",
   "accessRecommendation": "Access Recommendation value"
 }

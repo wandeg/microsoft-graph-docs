@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # parseExpression
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -44,13 +46,13 @@ The following table shows the parameters that can be used with this action.
 |Property|Type|Description|
 |:---|:---|:---|
 |expression|String||
-|testInputObject|[expressionInputObject](../resources/expressionInputObject.md)||
-|targetAttributeDefinition|[attributeDefinition](../resources/attributeDefinition.md)||
+|testInputObject|[expressionInputObject](../resources/expressioninputobject.md)||
+|targetAttributeDefinition|[attributeDefinition](../resources/attributedefinition.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [parseExpressionResponse](../resources/parseExpressionResponse.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [parseExpressionResponse](../resources/parseexpressionresponse.md) in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/parseExpression
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}/schema/parseExpression
 
 Content-type: application/json
 Content-length: 1167

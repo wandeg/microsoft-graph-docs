@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add members
 
+Namespace: microsoft.graph
+
 Add members by posting to the members collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/chats/{chatId}/members/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the conversationMember object.
+In the request body, supply a JSON representation for the [conversationMember](../resources/conversationmember.md) object.
 
-The following table shows the properties that are required when you create the conversationMember.
+The following table shows the properties that are required when you create the [conversationMember](../resources/conversationmember.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/chats/{chatsId}/members
+POST https://graph.microsoft.com/localtest/chats/{chatsId}/members
 Content-type: application/json
 Content-length: 139
 
@@ -90,7 +92,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.conversationMember",
-  "id": "15f74870-4870-15f7-7048-f7157048f715",
+  "id": "16eeb970-b970-16ee-70b9-ee1670b9ee16",
   "roles": [
     "Roles value"
   ],

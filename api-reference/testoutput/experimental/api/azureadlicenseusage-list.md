@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List azureADLicenseUsages
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [azureADLicenseUsage](../resources/azureadlicenseusage.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.azureADLicenseUsage not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.azureADLicenseUsage not found
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 481
+Content-Length: 480
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.azureADLicenseUsage",
-      "id": "de4208a6-08a6-de42-a608-42dea60842de",
-      "snapshotDateTime": "2016-12-31T23:56:55.0631898+03:00",
+      "id": "3d61534f-534f-3d61-4f53-613d4f53613d",
+      "snapshotDateTime": "2016-12-31T23:56:35.704242+03:00",
       "licenseInfoDetails": [
         {
           "@odata.type": "microsoft.graph.licenseInfoDetail",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List managedEBooks
 
+Namespace: microsoft.graph
+
 Get the managedEBooks from the managedEBooks navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks
 ```
 
 ### Response
@@ -64,24 +66,24 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 756
+Content-Length: 755
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedEBook",
-      "id": "0b620969-0969-0b62-6909-620b6909620b",
+      "id": "ea086ffd-6ffd-ea08-fd6f-08eafd6f08ea",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
-      "publishedDateTime": "2017-01-01T00:00:59.8075986+03:00",
+      "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00",
       "largeCover": {
         "@odata.type": "microsoft.graph.mimeContent",
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
       "informationUrl": "https://example.com/informationUrl/",
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/"
     }

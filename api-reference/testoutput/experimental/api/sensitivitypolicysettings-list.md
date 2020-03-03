@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sensitivityPolicySettingses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.sensitivityPolicySettings not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.sensitivityPolicySettings not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 299
   "value": [
     {
       "@odata.type": "#microsoft.graph.sensitivityPolicySettings",
-      "id": "82ccc22a-c22a-82cc-2ac2-cc822ac2cc82",
+      "id": "359acee7-cee7-359a-e7ce-9a35e7ce9a35",
       "isMandatory": true,
       "helpWebUrl": "https://example.com/helpWebUrl/",
       "downgradeSensitivityRequiresJustification": true

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedMobileApp
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedMobileApp](../resources/managedmobileapp.md) object.
 
 ## Permissions
@@ -38,14 +40,14 @@ PATCH /deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedMobileApp](../resources/managedMobileApp.md) object.
+In the request body, supply a JSON representation for the [managedMobileApp](../resources/managedmobileapp.md) object.
 
 The following table shows the properties that are required when you create the [managedMobileApp](../resources/managedmobileapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The identifier for an app with it's operating system type.|
+|mobileAppIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The identifier for an app with it's operating system type.|
 |version|String|Version of the entity.|
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps/{managedMobileAppId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps/{managedMobileAppId}
 Content-type: application/json
 Content-length: 181
 
@@ -90,7 +92,7 @@ Content-Length: 230
 
 {
   "@odata.type": "#microsoft.graph.managedMobileApp",
-  "id": "3d45223c-223c-3d45-3c22-453d3c22453d",
+  "id": "01daf82b-f82b-01da-2bf8-da012bf8da01",
   "mobileAppIdentifier": {
     "@odata.type": "microsoft.graph.mobileAppIdentifier"
   },

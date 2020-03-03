@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete androidManagedAppProtection
 
+Namespace: microsoft.graph
+
 Deletes a [androidManagedAppProtection](../resources/androidmanagedappprotection.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtectionId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/androidManagedAppProtections/{androidManagedAppProtectionId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getEncryptionPublicKey
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/getEncryptionPublicKey
+GET https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/getEncryptionPublicKey
 ```
 
 ### Response

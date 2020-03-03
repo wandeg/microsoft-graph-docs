@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete privilegedAccess
 
+Namespace: microsoft.graph
+
 Deletes a [privilegedAccess](../resources/privilegedaccess.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/privilegedAccess/{privilegedAccessId}
+DELETE https://graph.microsoft.com/localtest/privilegedAccess/{privilegedAccessId}
 ```
 
 ### Response

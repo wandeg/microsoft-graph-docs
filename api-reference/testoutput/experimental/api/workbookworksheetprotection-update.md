@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookWorksheetProtection
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookWorksheetProtection](../resources/workbookWorksheetProtection.md) object.
+In the request body, supply a JSON representation for the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
 
 The following table shows the properties that are required when you create the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|options|[workbookWorksheetProtectionOptions](../resources/workbookWorksheetProtectionOptions.md)||
+|options|[workbookWorksheetProtectionOptions](../resources/workbookworksheetprotectionoptions.md)||
 |protected|Boolean||
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/protection
+PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/protection
 Content-type: application/json
 Content-length: 527
 
@@ -98,7 +100,7 @@ Content-Length: 576
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-  "id": "eea3f130-f130-eea3-30f1-a3ee30f1a3ee",
+  "id": "49199be1-9be1-4919-e19b-1949e19b1949",
   "options": {
     "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
     "allowAutoFilter": true,

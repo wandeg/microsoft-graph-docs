@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get activityHistoryItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/activities/{userActivityId}/historyItems/{activityHistoryItemId}
+GET https://graph.microsoft.com/localtest/me/activities/{userActivityId}/historyItems/{activityHistoryItemId}
 ```
 
 ### Response
@@ -72,14 +74,14 @@ Content-Length: 550
 {
   "value": {
     "@odata.type": "#microsoft.graph.activityHistoryItem",
-    "id": "84c41bc4-1bc4-84c4-c41b-c484c41bc484",
+    "id": "8f247e5d-7e5d-8f24-5d7e-248f5d7e248f",
     "status": "String",
     "activeDurationSeconds": 5,
-    "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-    "lastActiveDateTime": "2017-01-01T00:03:09.8624933+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
-    "expirationDateTime": "2017-01-01T00:01:09.280378+03:00",
-    "startedDateTime": "2016-12-31T23:58:15.2266892+03:00",
+    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "lastActiveDateTime": "2016-12-31T23:58:54.0663658+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "startedDateTime": "2016-12-31T23:57:57.4958527+03:00",
     "userTimezone": "User Timezone value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sensitiveType
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sensitiveType](../resources/sensitivetype.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/dataClassification/sensitiveTypes/{sensitiveTypeId}
+GET https://graph.microsoft.com/localtest/dataClassification/sensitiveTypes/{sensitiveTypeId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 392
 {
   "value": {
     "@odata.type": "#microsoft.graph.sensitiveType",
-    "id": "3c8ed259-d259-3c8e-59d2-8e3c59d28e3c",
+    "id": "c2d268be-68be-c2d2-be68-d2c2be68d2c2",
     "name": "Name value",
     "description": "Description value",
     "rulePackageId": "Rule Package Id value",

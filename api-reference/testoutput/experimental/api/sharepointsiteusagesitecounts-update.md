@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharePointSiteUsageSiteCounts
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharePointSiteUsageSiteCounts](../resources/sharePointSiteUsageSiteCounts.md) object.
+In the request body, supply a JSON representation for the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md) object.
 
 The following table shows the properties that are required when you create the [sharePointSiteUsageSiteCounts](../resources/sharepointsiteusagesitecounts.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharePointSiteUsageSiteCounts not found
 Content-type: application/json
 Content-length: 235
 
@@ -93,7 +95,7 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.sharePointSiteUsageSiteCounts",
-  "id": "5671a226-a226-5671-26a2-715626a27156",
+  "id": "7a59cf92-cf92-7a59-92cf-597a92cf597a",
   "reportRefreshDate": "Date",
   "siteType": "Site Type value",
   "total": 5,

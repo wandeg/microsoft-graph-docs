@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List aadUserConversationMembers
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [aadUserConversationMember](../resources/aaduserconversationmember.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.aadUserConversationMember not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.aadUserConversationMember not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.aadUserConversationMember",
-      "id": "928ebc1f-bc1f-928e-1fbc-8e921fbc8e92",
+      "id": "f2485e17-5e17-f248-175e-48f2175e48f2",
       "roles": [
         "Roles value"
       ],

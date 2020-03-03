@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create presence
 
+Namespace: microsoft.graph
+
 Create a new [presence](../resources/presence.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.presence not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the presence object.
+In the request body, supply a JSON representation for the [presence](../resources/presence.md) object.
 
-The following table shows the properties that are required when you create the presence.
+The following table shows the properties that are required when you create the [presence](../resources/presence.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.presence not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.presence not found
 Content-type: application/json
 Content-length: 124
 
@@ -87,7 +89,7 @@ Content-Length: 173
 
 {
   "@odata.type": "#microsoft.graph.presence",
-  "id": "ba441c11-1c11-ba44-111c-44ba111c44ba",
+  "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
   "availability": "Availability value",
   "activity": "Activity value"
 }

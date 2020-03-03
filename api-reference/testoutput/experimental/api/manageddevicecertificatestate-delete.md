@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedDeviceCertificateState
 
+Namespace: microsoft.graph
+
 Deletes a [managedDeviceCertificateState](../resources/manageddevicecertificatestate.md).
 
 ## Permissions

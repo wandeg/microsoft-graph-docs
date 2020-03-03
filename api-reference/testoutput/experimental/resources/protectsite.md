@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # protectSite resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [labelActionBase](../resources/labelActionBase.md)
+
+
+Inherits from [labelActionBase](../resources/labelactionbase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |accessType|Enumeration|. Possible values are: `block`, `full`, `limited`.|
-|name|String| Inherited from [labelActionBase](../resources/labelActionBase.md)|
+|name|String| Inherited from [labelActionBase](../resources/labelactionbase.md)|
 
 ## Relationships
 None

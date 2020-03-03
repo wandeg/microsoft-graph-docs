@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # termsAndConditions resource type
+
+
+Namespace: microsoft.graph
 
 A termsAndConditions entity represents the metadata and contents of a given Terms and Conditions (T&C) policy. T&C policies’ contents are presented to users upon their first attempt to enroll into Intune and subsequently upon edits where an administrator has required re-acceptance. They enable administrators to communicate the provisions to which a user must agree in order to have devices enrolled into Intune.
 
@@ -19,17 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get termsAndConditions](../api/termsandconditions-get.md)|[termsAndConditions](../resources/termsAndConditions.md)|Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.|
+|[List termsAndConditionses](../api/termsandconditions-list.md)|[termsAndConditions](../resources/termsandconditions.md) collection|List properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) objects.|
+|[Get termsAndConditions](../api/termsandconditions-get.md)|[termsAndConditions](../resources/termsandconditions.md)|Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.|
+|[Create termsAndConditions](../api/termsandconditions-create.md)|[termsAndConditions](../resources/termsandconditions.md)|Create a new [termsAndConditions](../resources/termsandconditions.md) object.|
 |[Delete termsAndConditions](../api/termsandconditions-delete.md)|None|Deletes a [termsAndConditions](../resources/termsandconditions.md).|
-|[Update termsAndConditions](../api/termsandconditions-update.md)|[termsAndConditions](../resources/termsAndConditions.md)|Update the properties of a [termsAndConditions](../resources/termsandconditions.md) object.|
-|[List groupAssignments](../api/termsandconditions-list-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md) collection|Get the termsAndConditionsGroupAssignments from the groupAssignments navigation property.|
-|[Add groupAssignments](../api/termsandconditions-post-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
-|[List assignments](../api/termsandconditions-list-assignments.md)|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md) collection|Get the termsAndConditionsAssignments from the assignments navigation property.|
-|[Add assignments](../api/termsandconditions-post-assignments.md)|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List acceptanceStatuses](../api/termsandconditions-list-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md) collection|Get the termsAndConditionsAcceptanceStatuses from the acceptanceStatuses navigation property.|
-|[Add acceptanceStatuses](../api/termsandconditions-post-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md)|Add acceptanceStatuses by posting to the acceptanceStatuses collection.|
-|[List termsAndConditions](../api/intune-devices-devicemanagement-list-termsandconditions.md)|[termsAndConditions](../resources/termsAndConditions.md) collection|Get the termsAndConditionses from the termsAndConditions navigation property.|
-|[Add termsAndConditions](../api/intune-devices-devicemanagement-post-termsandconditions.md)|[termsAndConditions](../resources/termsAndConditions.md)|Add termsAndConditions by posting to the termsAndConditions collection.|
+|[Update termsAndConditions](../api/termsandconditions-update.md)|[termsAndConditions](../resources/termsandconditions.md)|Update the properties of a [termsAndConditions](../resources/termsandconditions.md) object.|
+|[List groupAssignments](../api/termsandconditions-list-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) collection|Get the termsAndConditionsGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/termsandconditions-post-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/termsandconditions-list-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|Get the termsAndConditionsAssignments from the assignments navigation property.|
+|[Add assignments](../api/termsandconditions-post-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Add assignments by posting to the assignments collection.|
+|[List acceptanceStatuses](../api/termsandconditions-list-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) collection|Get the termsAndConditionsAcceptanceStatuses from the acceptanceStatuses navigation property.|
+|[Add acceptanceStatuses](../api/termsandconditions-post-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md)|Add acceptanceStatuses by posting to the acceptanceStatuses collection.|
+|[List termsAndConditions](../api/intune-devices-devicemanagement-list-termsandconditions.md)|[termsAndConditions](../resources/termsandconditions.md) collection|Get the termsAndConditionses from the termsAndConditions navigation property.|
+|[Add termsAndConditions](../api/intune-devices-devicemanagement-post-termsandconditions.md)|[termsAndConditions](../resources/termsandconditions.md)|Add termsAndConditions by posting to the termsAndConditions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,9 +52,9 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|acceptanceStatuses|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md) collection|The list of acceptance statuses for this T&C policy.|
-|assignments|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md) collection|The list of assignments for this T&C policy.|
-|groupAssignments|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md) collection|The list of group assignments for this T&C policy.|
+|acceptanceStatuses|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) collection|The list of acceptance statuses for this T&C policy.|
+|assignments|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|The list of assignments for this T&C policy.|
+|groupAssignments|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) collection|The list of group assignments for this T&C policy.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

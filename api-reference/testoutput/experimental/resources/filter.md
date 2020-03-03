@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # filter resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|categoryFilterGroups|[filterGroup](../resources/filterGroup.md) collection||
-|groups|[filterGroup](../resources/filterGroup.md) collection||
-|inputFilterGroups|[filterGroup](../resources/filterGroup.md) collection||
+|categoryFilterGroups|[filterGroup](../resources/filtergroup.md) collection||
+|groups|[filterGroup](../resources/filtergroup.md) collection||
+|inputFilterGroups|[filterGroup](../resources/filtergroup.md) collection||
 
 ## Relationships
 None

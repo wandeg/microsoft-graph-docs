@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update commsApplication
 
+Namespace: microsoft.graph
+
 Update the properties of a [commsApplication](../resources/commsapplication.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /app
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [commsApplication](../resources/commsApplication.md) object.
+In the request body, supply a JSON representation for the [commsApplication](../resources/commsapplication.md) object.
 
 The following table shows the properties that are required when you create the [commsApplication](../resources/commsapplication.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/app
+PATCH https://graph.microsoft.com/localtest/app
 Content-type: application/json
 Content-length: 58
 
@@ -81,7 +83,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.commsApplication",
-  "id": "a27c58da-58da-a27c-da58-7ca2da587ca2"
+  "id": "7eb0e620-e620-7eb0-20e6-b07e20e6b07e"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsTab
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsTab](../resources/teamstab.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
+GET https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 663
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsTab",
-    "id": "edd69ca1-9ca1-edd6-a19c-d6eda19cd6ed",
+    "id": "bcab996c-996c-bcab-6c99-abbc6c99abbc",
     "name": "Name value",
     "displayName": "Display Name value",
     "teamsAppId": "Teams App Id value",

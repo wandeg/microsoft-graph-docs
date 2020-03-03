@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create teamsUserActivityUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.teamsUserActivityUserCounts not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsUserActivityUserCounts object.
+In the request body, supply a JSON representation for the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md) object.
 
-The following table shows the properties that are required when you create the teamsUserActivityUserCounts.
+The following table shows the properties that are required when you create the [teamsUserActivityUserCounts](../resources/teamsuseractivityusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.teamsUserActivityUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.teamsUserActivityUserCounts not found
 Content-type: application/json
 Content-length: 279
 
@@ -99,7 +101,7 @@ Content-Length: 328
 
 {
   "@odata.type": "#microsoft.graph.teamsUserActivityUserCounts",
-  "id": "61d3e319-e319-61d3-19e3-d36119e3d361",
+  "id": "2d3e27c2-27c2-2d3e-c227-3e2dc2273e2d",
   "reportRefreshDate": "Date",
   "reportDate": "Date",
   "teamChatMessages": 0,

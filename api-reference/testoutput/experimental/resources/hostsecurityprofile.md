@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # hostSecurityProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get hostSecurityProfile](../api/hostsecurityprofile-get.md)|[hostSecurityProfile](../resources/hostSecurityProfile.md)|Read properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
+|[List hostSecurityProfiles](../api/hostsecurityprofile-list.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md) collection|List properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) objects.|
+|[Get hostSecurityProfile](../api/hostsecurityprofile-get.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Read properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
+|[Create hostSecurityProfile](../api/hostsecurityprofile-create.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Create a new [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
 |[Delete hostSecurityProfile](../api/hostsecurityprofile-delete.md)|None|Deletes a [hostSecurityProfile](../resources/hostsecurityprofile.md).|
-|[Update hostSecurityProfile](../api/hostsecurityprofile-update.md)|[hostSecurityProfile](../resources/hostSecurityProfile.md)|Update the properties of a [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
-|[List hostSecurityProfiles](../api/security-list-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostSecurityProfile.md) collection|Get the hostSecurityProfiles from the hostSecurityProfiles navigation property.|
-|[Add hostSecurityProfiles](../api/security-post-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostSecurityProfile.md)|Add hostSecurityProfiles by posting to the hostSecurityProfiles collection.|
+|[Update hostSecurityProfile](../api/hostsecurityprofile-update.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Update the properties of a [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
+|[List hostSecurityProfiles](../api/security-list-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md) collection|Get the hostSecurityProfiles from the hostSecurityProfiles navigation property.|
+|[Add hostSecurityProfiles](../api/security-post-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Add hostSecurityProfiles by posting to the hostSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,16 +40,16 @@ Inherits from [entity](../resources/entity.md)
 |isAzureAdRegistered|Boolean||
 |isHybridAzureDomainJoined|Boolean||
 |lastSeenDateTime|DateTimeOffset||
-|logonUsers|[logonUser](../resources/logonUser.md) collection||
+|logonUsers|[logonUser](../resources/logonuser.md) collection||
 |netBiosName|String||
-|networkInterfaces|[networkInterface](../resources/networkInterface.md) collection||
+|networkInterfaces|[networkInterface](../resources/networkinterface.md) collection||
 |os|String||
 |osVersion|String||
 |parentHost|String||
 |relatedHostIds|String collection||
 |riskScore|String||
 |tags|String collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

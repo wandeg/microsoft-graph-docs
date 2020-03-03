@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # outlookCategory resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get outlookCategory](../api/outlookcategory-get.md)|[outlookCategory](../resources/outlookCategory.md)|Read properties and relationships of the [outlookCategory](../resources/outlookcategory.md) object.|
+|[List outlookCategories](../api/outlookcategory-list.md)|[outlookCategory](../resources/outlookcategory.md) collection|List properties and relationships of the [outlookCategory](../resources/outlookcategory.md) objects.|
+|[Get outlookCategory](../api/outlookcategory-get.md)|[outlookCategory](../resources/outlookcategory.md)|Read properties and relationships of the [outlookCategory](../resources/outlookcategory.md) object.|
+|[Create outlookCategory](../api/outlookcategory-create.md)|[outlookCategory](../resources/outlookcategory.md)|Create a new [outlookCategory](../resources/outlookcategory.md) object.|
 |[Delete outlookCategory](../api/outlookcategory-delete.md)|None|Deletes a [outlookCategory](../resources/outlookcategory.md).|
-|[Update outlookCategory](../api/outlookcategory-update.md)|[outlookCategory](../resources/outlookCategory.md)|Update the properties of a [outlookCategory](../resources/outlookcategory.md) object.|
+|[Update outlookCategory](../api/outlookcategory-update.md)|[outlookCategory](../resources/outlookcategory.md)|Update the properties of a [outlookCategory](../resources/outlookcategory.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidDeviceComplianceLocalActionLockDevices
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidDeviceComplianceLocalActionLockDevice](../resources/androiddevicecompliancelocalactionlockdevice.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidDeviceComplianceLocalActionLockDevice not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 210
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidDeviceComplianceLocalActionLockDevice",
-      "id": "190e540a-540a-190e-0a54-0e190a540e19",
+      "id": "4466e6e0-e6e0-4466-e0e6-6644e0e66644",
       "gracePeriodInMinutes": 4
     }
   ]

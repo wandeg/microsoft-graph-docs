@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get endpoint
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [endpoint](../resources/endpoint.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/endpoints/{endpointId}
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/endpoints/{endpointId}
 ```
 
 ### Response
@@ -73,8 +75,8 @@ Content-Length: 388
 {
   "value": {
     "@odata.type": "#microsoft.graph.endpoint",
-    "id": "12485afa-5afa-1248-fa5a-4812fa5a4812",
-    "deletedDateTime": "2017-01-01T00:00:34.0507931+03:00",
+    "id": "5089dbfa-dbfa-5089-fadb-8950fadb8950",
+    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
     "capability": "Capability value",
     "providerId": "Provider Id value",
     "providerName": "Provider Name value",

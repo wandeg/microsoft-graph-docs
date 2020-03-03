@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update identityGovernance
 
+Namespace: microsoft.graph
+
 Update the properties of a [identityGovernance](../resources/identitygovernance.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /identityGovernance
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [identityGovernance](../resources/identityGovernance.md) object.
+In the request body, supply a JSON representation for the [identityGovernance](../resources/identitygovernance.md) object.
 
 The following table shows the properties that are required when you create the [identityGovernance](../resources/identitygovernance.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/identityGovernance
+PATCH https://graph.microsoft.com/localtest/identityGovernance
 Content-type: application/json
 Content-length: 60
 
@@ -81,7 +83,7 @@ Content-Length: 109
 
 {
   "@odata.type": "#microsoft.graph.identityGovernance",
-  "id": "79882bdc-2bdc-7988-dc2b-8879dc2b8879"
+  "id": "c7e5545e-545e-c7e5-5e54-e5c75e54e5c7"
 }
 ```
 

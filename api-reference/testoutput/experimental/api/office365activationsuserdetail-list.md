@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List office365ActivationsUserDetails
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [office365ActivationsUserDetail](../resources/office365activationsuserdetail.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.office365ActivationsUserDetail not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.office365ActivationsUserDetail not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 689
   "value": [
     {
       "@odata.type": "#microsoft.graph.office365ActivationsUserDetail",
-      "id": "fe7dd89d-d89d-fe7d-9dd8-7dfe9dd87dfe",
+      "id": "6f7e8fa8-8fa8-6f7e-a88f-7e6fa88f7e6f",
       "reportRefreshDate": "Date",
       "userPrincipalName": "User Principal Name value",
       "displayName": "Display Name value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update publishedResource
 
+Namespace: microsoft.graph
+
 Update the properties of a [publishedResource](../resources/publishedresource.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedRe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [publishedResource](../resources/publishedResource.md) object.
+In the request body, supply a JSON representation for the [publishedResource](../resources/publishedresource.md) object.
 
 The following table shows the properties that are required when you create the [publishedResource](../resources/publishedresource.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources/{publishedResourceId}
+PATCH https://graph.microsoft.com/localtest/onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/publishedResources/{publishedResourceId}
 Content-type: application/json
 Content-length: 172
 
@@ -87,7 +89,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.publishedResource",
-  "id": "eb2819e7-19e7-eb28-e719-28ebe71928eb",
+  "id": "7fa4a67d-a67d-7fa4-7da6-a47f7da6a47f",
   "displayName": "Display Name value",
   "resourceName": "Resource Name value",
   "publishingType": "String"

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # skypeForBusinessParticipantActivityMinuteCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skypeForBusinessParticipantActivityMinuteCountses](../api/skypeforbusinessparticipantactivityminutecounts-list.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeForBusinessParticipantActivityMinuteCounts.md) collection|List properties and relationships of the [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) objects.|
-|[Get skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-get.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeForBusinessParticipantActivityMinuteCounts.md)|Read properties and relationships of the [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
-|[Create skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-create.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeForBusinessParticipantActivityMinuteCounts.md)|Create a new [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
+|[List skypeForBusinessParticipantActivityMinuteCountses](../api/skypeforbusinessparticipantactivityminutecounts-list.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) collection|List properties and relationships of the [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) objects.|
+|[Get skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-get.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md)|Read properties and relationships of the [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
+|[Create skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-create.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md)|Create a new [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
 |[Delete skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-delete.md)|None|Deletes a [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md).|
-|[Update skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-update.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeForBusinessParticipantActivityMinuteCounts.md)|Update the properties of a [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
+|[Update skypeForBusinessParticipantActivityMinuteCounts](../api/skypeforbusinessparticipantactivityminutecounts-update.md)|[skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md)|Update the properties of a [skypeForBusinessParticipantActivityMinuteCounts](../resources/skypeforbusinessparticipantactivityminutecounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

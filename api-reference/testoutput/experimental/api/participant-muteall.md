@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # muteAll
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [muteParticipantsOperation](../resources/muteParticipantsOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [muteParticipantsOperation](../resources/muteparticipantsoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants/muteAll
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/participants/muteAll
 
 Content-type: application/json
 Content-length: 100
@@ -89,7 +91,7 @@ Content-Length: 349
 {
   "value": {
     "@odata.type": "#microsoft.graph.muteParticipantsOperation",
-    "id": "d4ae93cf-93cf-d4ae-cf93-aed4cf93aed4",
+    "id": "b089407d-407d-b089-7d40-89b07d4089b0",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationUser resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,54 +20,56 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationUser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
+|[List educationUsers](../api/educationuser-list.md)|[educationUser](../resources/educationuser.md) collection|List properties and relationships of the [educationUser](../resources/educationuser.md) objects.|
+|[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationuser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
+|[Create educationUser](../api/educationuser-create.md)|[educationUser](../resources/educationuser.md)|Create a new [educationUser](../resources/educationuser.md) object.|
 |[Delete educationUser](../api/educationuser-delete.md)|None|Deletes a [educationUser](../resources/educationuser.md).|
-|[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationUser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
-|[delta](../api/educationuser-delta.md)|[educationUser](../resources/educationUser.md) collection||
-|[List assignments](../api/educationuser-list-assignments.md)|[educationAssignment](../resources/educationAssignment.md) collection|Get the educationAssignments from the assignments navigation property.|
-|[Add assignments](../api/educationuser-post-assignments.md)|[educationAssignment](../resources/educationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List rubrics](../api/educationuser-list-rubrics.md)|[educationRubric](../resources/educationRubric.md) collection|Get the educationRubrics from the rubrics navigation property.|
-|[Add rubrics](../api/educationuser-post-rubrics.md)|[educationRubric](../resources/educationRubric.md)|Add rubrics by posting to the rubrics collection.|
-|[List classes](../api/educationuser-list-classes.md)|[educationClass](../resources/educationClass.md) collection|Get the educationClasses from the classes navigation property.|
-|[Create classes](../api/educationuser-post-classes.md)|[educationClass](../resources/educationClass.md)|Create classes by posting to the classes collection.|
-|[List taughtClasses](../api/educationuser-list-taughtclasses.md)|[educationClass](../resources/educationClass.md) collection|Get the educationClasses from the taughtClasses navigation property.|
-|[Create taughtClasses](../api/educationuser-post-taughtclasses.md)|[educationClass](../resources/educationClass.md)|Create taughtClasses by posting to the taughtClasses collection.|
-|[List schools](../api/educationuser-list-schools.md)|[educationSchool](../resources/educationSchool.md) collection|Get the educationSchools from the schools navigation property.|
-|[Create schools](../api/educationuser-post-schools.md)|[educationSchool](../resources/educationSchool.md)|Create schools by posting to the schools collection.|
+|[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationuser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
+|[delta](../api/educationuser-delta.md)|[educationUser](../resources/educationuser.md) collection||
+|[List assignments](../api/educationuser-list-assignments.md)|[educationAssignment](../resources/educationassignment.md) collection|Get the educationAssignments from the assignments navigation property.|
+|[Add assignments](../api/educationuser-post-assignments.md)|[educationAssignment](../resources/educationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List rubrics](../api/educationuser-list-rubrics.md)|[educationRubric](../resources/educationrubric.md) collection|Get the educationRubrics from the rubrics navigation property.|
+|[Add rubrics](../api/educationuser-post-rubrics.md)|[educationRubric](../resources/educationrubric.md)|Add rubrics by posting to the rubrics collection.|
+|[List classes](../api/educationuser-list-classes.md)|[educationClass](../resources/educationclass.md) collection|Get the educationClasses from the classes navigation property.|
+|[Create classes](../api/educationuser-post-classes.md)|[educationClass](../resources/educationclass.md)|Create classes by posting to the classes collection.|
+|[List taughtClasses](../api/educationuser-list-taughtclasses.md)|[educationClass](../resources/educationclass.md) collection|Get the educationClasses from the taughtClasses navigation property.|
+|[Create taughtClasses](../api/educationuser-post-taughtclasses.md)|[educationClass](../resources/educationclass.md)|Create taughtClasses by posting to the taughtClasses collection.|
+|[List schools](../api/educationuser-list-schools.md)|[educationSchool](../resources/educationschool.md) collection|Get the educationSchools from the schools navigation property.|
+|[Create schools](../api/educationuser-post-schools.md)|[educationSchool](../resources/educationschool.md)|Create schools by posting to the schools collection.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |accountEnabled|Boolean||
-|assignedLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |department|String||
 |displayName|String||
 |externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
 |givenName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |mail|String||
-|mailingAddress|[physicalAddress](../resources/physicalAddress.md)||
+|mailingAddress|[physicalAddress](../resources/physicaladdress.md)||
 |mailNickname|String||
 |middleName|String||
 |mobilePhone|String||
 |officeLocation|String||
-|onPremisesInfo|[educationOnPremisesInfo](../resources/educationOnPremisesInfo.md)||
+|onPremisesInfo|[educationOnPremisesInfo](../resources/educationonpremisesinfo.md)||
 |passwordPolicies|String||
-|passwordProfile|[passwordProfile](../resources/passwordProfile.md)||
+|passwordProfile|[passwordProfile](../resources/passwordprofile.md)||
 |preferredLanguage|String||
 |primaryRole|Enumeration|. Possible values are: `student`, `teacher`, `none`, `unknownFutureValue`, `faculty`.|
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |refreshTokensValidFromDateTime|DateTimeOffset||
-|relatedContacts|[relatedContact](../resources/relatedContact.md) collection||
-|residenceAddress|[physicalAddress](../resources/physicalAddress.md)||
+|relatedContacts|[relatedContact](../resources/relatedcontact.md) collection||
+|residenceAddress|[physicalAddress](../resources/physicaladdress.md)||
 |showInAddressList|Boolean||
-|student|[educationStudent](../resources/educationStudent.md)||
+|student|[educationStudent](../resources/educationstudent.md)||
 |surname|String||
-|teacher|[educationTeacher](../resources/educationTeacher.md)||
+|teacher|[educationTeacher](../resources/educationteacher.md)||
 |usageLocation|String||
 |userPrincipalName|String||
 |userType|String||
@@ -74,11 +77,11 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[educationAssignment](../resources/educationAssignment.md) collection||
-|classes|[educationClass](../resources/educationClass.md) collection||
-|rubrics|[educationRubric](../resources/educationRubric.md) collection||
-|schools|[educationSchool](../resources/educationSchool.md) collection||
-|taughtClasses|[educationClass](../resources/educationClass.md) collection||
+|assignments|[educationAssignment](../resources/educationassignment.md) collection||
+|classes|[educationClass](../resources/educationclass.md) collection||
+|rubrics|[educationRubric](../resources/educationrubric.md) collection||
+|schools|[educationSchool](../resources/educationschool.md) collection||
+|taughtClasses|[educationClass](../resources/educationclass.md) collection||
 |user|[user](../resources/user.md)||
 
 ## JSON Representation

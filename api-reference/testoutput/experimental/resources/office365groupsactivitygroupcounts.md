@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # office365GroupsActivityGroupCounts resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List office365GroupsActivityGroupCountses](../api/office365groupsactivitygroupcounts-list.md)|[office365GroupsActivityGroupCounts](../resources/office365GroupsActivityGroupCounts.md) collection|List properties and relationships of the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) objects.|
-|[Get office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-get.md)|[office365GroupsActivityGroupCounts](../resources/office365GroupsActivityGroupCounts.md)|Read properties and relationships of the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
-|[Create office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-create.md)|[office365GroupsActivityGroupCounts](../resources/office365GroupsActivityGroupCounts.md)|Create a new [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
+|[List office365GroupsActivityGroupCountses](../api/office365groupsactivitygroupcounts-list.md)|[office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) collection|List properties and relationships of the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) objects.|
+|[Get office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-get.md)|[office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md)|Read properties and relationships of the [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
+|[Create office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-create.md)|[office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md)|Create a new [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
 |[Delete office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-delete.md)|None|Deletes a [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md).|
-|[Update office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-update.md)|[office365GroupsActivityGroupCounts](../resources/office365GroupsActivityGroupCounts.md)|Update the properties of a [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
+|[Update office365GroupsActivityGroupCounts](../api/office365groupsactivitygroupcounts-update.md)|[office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md)|Update the properties of a [office365GroupsActivityGroupCounts](../resources/office365groupsactivitygroupcounts.md) object.|
 
 ## Properties
 |Property|Type|Description|

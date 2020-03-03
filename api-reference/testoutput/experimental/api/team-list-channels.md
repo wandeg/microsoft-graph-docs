@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List channels
 
+Namespace: microsoft.graph
+
 Get the channels from the channels navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/channels
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/channels
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 376
   "value": [
     {
       "@odata.type": "#microsoft.graph.channel",
-      "id": "6eaa47f4-47f4-6eaa-f447-aa6ef447aa6e",
+      "id": "c6b8902d-902d-c6b8-2d90-b8c62d90b8c6",
       "displayName": "Display Name value",
       "description": "Description value",
       "isFavoriteByDefault": true,

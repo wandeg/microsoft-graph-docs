@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # conditionalAccessPolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,23 +20,23 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List conditionalAccessPolicies](../api/conditionalaccesspolicy-list.md)|[conditionalAccessPolicy](../resources/conditionalAccessPolicy.md) collection|List properties and relationships of the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) objects.|
-|[Get conditionalAccessPolicy](../api/conditionalaccesspolicy-get.md)|[conditionalAccessPolicy](../resources/conditionalAccessPolicy.md)|Read properties and relationships of the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
-|[Create conditionalAccessPolicy](../api/conditionalaccesspolicy-create.md)|[conditionalAccessPolicy](../resources/conditionalAccessPolicy.md)|Create a new [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
+|[List conditionalAccessPolicies](../api/conditionalaccesspolicy-list.md)|[conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) collection|List properties and relationships of the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) objects.|
+|[Get conditionalAccessPolicy](../api/conditionalaccesspolicy-get.md)|[conditionalAccessPolicy](../resources/conditionalaccesspolicy.md)|Read properties and relationships of the [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
+|[Create conditionalAccessPolicy](../api/conditionalaccesspolicy-create.md)|[conditionalAccessPolicy](../resources/conditionalaccesspolicy.md)|Create a new [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
 |[Delete conditionalAccessPolicy](../api/conditionalaccesspolicy-delete.md)|None|Deletes a [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md).|
-|[Update conditionalAccessPolicy](../api/conditionalaccesspolicy-update.md)|[conditionalAccessPolicy](../resources/conditionalAccessPolicy.md)|Update the properties of a [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
+|[Update conditionalAccessPolicy](../api/conditionalaccesspolicy-update.md)|[conditionalAccessPolicy](../resources/conditionalaccesspolicy.md)|Update the properties of a [conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|conditions|[conditionalAccessConditionSet](../resources/conditionalAccessConditionSet.md)||
+|conditions|[conditionalAccessConditionSet](../resources/conditionalaccessconditionset.md)||
 |createdDateTime|DateTimeOffset||
 |description|String||
 |displayName|String||
-|grantControls|[conditionalAccessGrantControls](../resources/conditionalAccessGrantControls.md)||
+|grantControls|[conditionalAccessGrantControls](../resources/conditionalaccessgrantcontrols.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |modifiedDateTime|DateTimeOffset||
-|sessionControls|[conditionalAccessSessionControls](../resources/conditionalAccessSessionControls.md)||
+|sessionControls|[conditionalAccessSessionControls](../resources/conditionalaccesssessioncontrols.md)||
 |state|Enumeration|. Possible values are: `enabled`, `disabled`, `enabledForReportingButNotEnforced`.|
 
 ## Relationships

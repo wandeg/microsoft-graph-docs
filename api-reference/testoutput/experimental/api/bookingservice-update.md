@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update bookingService
 
+Namespace: microsoft.graph
+
 Update the properties of a [bookingService](../resources/bookingservice.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}/services/{bookingServiceId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [bookingService](../resources/bookingService.md) object.
+In the request body, supply a JSON representation for the [bookingService](../resources/bookingservice.md) object.
 
 The following table shows the properties that are required when you create the [bookingService](../resources/bookingservice.md).
 
@@ -43,19 +45,19 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display name of this entity.
-The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingnamedentity.md)|
 |defaultDuration|Duration||
 |defaultLocation|[location](../resources/location.md)||
 |defaultPrice|Double||
 |defaultPriceType|Enumeration|. Possible values are: `undefined`, `fixedPrice`, `startingAt`, `hourly`, `free`, `priceVaries`, `callUs`, `notSet`.|
-|defaultReminders|[bookingReminder](../resources/bookingReminder.md) collection|The default reminders set in an appointment of this service.
+|defaultReminders|[bookingReminder](../resources/bookingreminder.md) collection|The default reminders set in an appointment of this service.
 The value of this property is only available when reading an individual booking service by id.|
 |description|String||
 |isHiddenFromCustomers|Boolean||
 |notes|String||
 |preBuffer|Duration||
 |postBuffer|Duration||
-|schedulingPolicy|[bookingSchedulingPolicy](../resources/bookingSchedulingPolicy.md)||
+|schedulingPolicy|[bookingSchedulingPolicy](../resources/bookingschedulingpolicy.md)||
 |staffMemberIds|String collection||
 
 
@@ -73,14 +75,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/bookingBusinesses/{bookingBusinessesId}/services/{bookingServiceId}
+PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/services/{bookingServiceId}
 Content-type: application/json
-Content-length: 1789
+Content-length: 1788
 
 {
   "@odata.type": "#microsoft.graph.bookingService",
   "displayName": "Display Name value",
-  "defaultDuration": "-PT2M8.2763756S",
+  "defaultDuration": "PT2M30.8894523S",
   "defaultLocation": {
     "@odata.type": "microsoft.graph.location",
     "locationEmailAddress": "Location Email Address value",
@@ -112,7 +114,7 @@ Content-length: 1789
   "defaultReminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "PT29.4091216S",
+      "offset": "-PT2M15.3589096S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -120,13 +122,13 @@ Content-length: 1789
   "description": "Description value",
   "isHiddenFromCustomers": true,
   "notes": "Notes value",
-  "preBuffer": "PT3M13.876457S",
-  "postBuffer": "-PT3M7.6941789S",
+  "preBuffer": "-PT27.6468082S",
+  "postBuffer": "-PT49.745402S",
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT16.2068969S",
-    "minimumLeadTime": "PT2M23.9129853S",
-    "maximumAdvance": "-PT20.4133449S",
+    "timeSlotInterval": "PT24.7084489S",
+    "minimumLeadTime": "PT46.1171008S",
+    "maximumAdvance": "-PT29.5884928S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },
@@ -146,13 +148,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1838
+Content-Length: 1837
 
 {
   "@odata.type": "#microsoft.graph.bookingService",
-  "id": "128c329c-329c-128c-9c32-8c129c328c12",
+  "id": "dcfd9872-9872-dcfd-7298-fddc7298fddc",
   "displayName": "Display Name value",
-  "defaultDuration": "-PT2M8.2763756S",
+  "defaultDuration": "PT2M30.8894523S",
   "defaultLocation": {
     "@odata.type": "microsoft.graph.location",
     "locationEmailAddress": "Location Email Address value",
@@ -184,7 +186,7 @@ Content-Length: 1838
   "defaultReminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "PT29.4091216S",
+      "offset": "-PT2M15.3589096S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -192,13 +194,13 @@ Content-Length: 1838
   "description": "Description value",
   "isHiddenFromCustomers": true,
   "notes": "Notes value",
-  "preBuffer": "PT3M13.876457S",
-  "postBuffer": "-PT3M7.6941789S",
+  "preBuffer": "-PT27.6468082S",
+  "postBuffer": "-PT49.745402S",
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT16.2068969S",
-    "minimumLeadTime": "PT2M23.9129853S",
-    "maximumAdvance": "-PT20.4133449S",
+    "timeSlotInterval": "PT24.7084489S",
+    "minimumLeadTime": "PT46.1171008S",
+    "maximumAdvance": "-PT29.5884928S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },

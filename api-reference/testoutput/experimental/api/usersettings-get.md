@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get userSettings
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [userSettings](../resources/usersettings.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/settings
+GET https://graph.microsoft.com/localtest/me/settings
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 246
 {
   "value": {
     "@odata.type": "#microsoft.graph.userSettings",
-    "id": "9bbc6ffe-6ffe-9bbc-fe6f-bc9bfe6fbc9b",
+    "id": "37b6956f-956f-37b6-6f95-b6376f95b637",
     "contributionToContentDiscoveryDisabled": true,
     "contributionToContentDiscoveryAsOrganizationDisabled": true
   }

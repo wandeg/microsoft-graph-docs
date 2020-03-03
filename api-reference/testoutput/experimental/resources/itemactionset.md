@@ -5,27 +5,28 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # itemActionSet resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|comment|[commentAction](../resources/commentAction.md)||
-|create|[createAction](../resources/createAction.md)||
-|delete|[deleteAction](../resources/deleteAction.md)||
-|edit|[editAction](../resources/editAction.md)||
-|mention|[mentionAction](../resources/mentionAction.md)||
-|move|[moveAction](../resources/moveAction.md)||
-|rename|[renameAction](../resources/renameAction.md)||
-|restore|[restoreAction](../resources/restoreAction.md)||
-|share|[shareAction](../resources/shareAction.md)||
-|version|[versionAction](../resources/versionAction.md)||
+|comment|[commentAction](../resources/commentaction.md)||
+|create|[createAction](../resources/createaction.md)||
+|delete|[deleteAction](../resources/deleteaction.md)||
+|edit|[editAction](../resources/editaction.md)||
+|mention|[mentionAction](../resources/mentionaction.md)||
+|move|[moveAction](../resources/moveaction.md)||
+|rename|[renameAction](../resources/renameaction.md)||
+|restore|[restoreAction](../resources/restoreaction.md)||
+|share|[shareAction](../resources/shareaction.md)||
+|version|[versionAction](../resources/versionaction.md)||
 
 ## Relationships
 None

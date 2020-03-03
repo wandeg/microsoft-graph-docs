@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get exactMatchJobBase
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [exactMatchJobBase](../resources/exactmatchjobbase.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.exactMatchJobBase not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.exactMatchJobBase not found
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 941
+Content-Length: 943
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.exactMatchJobBase",
-    "id": "8db4424b-424b-8db4-4b42-b48d4b42b48d",
-    "creationDateTime": "2017-01-01T00:00:59.0982804+03:00",
-    "startDateTime": "2017-01-01T00:03:15.6077862+03:00",
-    "lastUpdatedDateTime": "2017-01-01T00:01:04.1563754+03:00",
-    "completionDateTime": "2017-01-01T00:02:23.013137+03:00",
+    "id": "1b0f8add-8add-1b0f-dd8a-0f1bdd8a0f1b",
+    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+    "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+    "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
     "error": {
       "@odata.type": "microsoft.graph.classificationError",
       "code": "Code value",
@@ -84,7 +86,7 @@ Content-Length: 941
       "target": "Target value",
       "innerError": {
         "@odata.type": "microsoft.graph.classificationInnerError",
-        "errorDateTime": "2017-01-01T00:03:21.298689+03:00",
+        "errorDateTime": "2016-12-31T23:59:22.9712113+03:00",
         "clientRequestId": "Client Request Id value",
         "activityId": "Activity Id value"
       },

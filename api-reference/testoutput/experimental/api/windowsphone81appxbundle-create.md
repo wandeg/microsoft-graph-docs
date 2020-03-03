@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windowsPhone81AppXBundle
 
+Namespace: microsoft.graph
+
 Create a new [windowsPhone81AppXBundle](../resources/windowsphone81appxbundle.md) object.
 
 ## Permissions
@@ -36,42 +38,42 @@ POST ** Collection URI for microsoft.graph.windowsPhone81AppXBundle not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsPhone81AppXBundle object.
+In the request body, supply a JSON representation for the [windowsPhone81AppXBundle](../resources/windowsphone81appxbundle.md) object.
 
-The following table shows the properties that are required when you create the windowsPhone81AppXBundle.
+The following table shows the properties that are required when you create the [windowsPhone81AppXBundle](../resources/windowsphone81appxbundle.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|description|String|The description of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|largeIcon|[mimeContent](../resources/intune-apps-mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|owner|String|The owner of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|developer|String|The developer of the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|notes|String|Notes for the app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|uploadState|Int32|The upload state. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md). Possible values are: `notPublished`, `processing`, `published`.|
-|isAssigned|Boolean|The value indicating whether the app is assigned to at least one group. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|roleScopeTagIds|String collection|List of scope tag ids for this mobile app. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|dependentAppCount|Int32|The total number of dependencies the child app has. Inherited from [mobileApp](../resources/intune-apps-mobileApp.md)|
-|committedContentVersion|String|The internal committed content version. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
-|fileName|String|The name of the main Lob application file. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
-|size|Int64|The total size, including all uploaded files. Inherited from [mobileLobApp](../resources/mobileLobApp.md)|
-|applicableArchitectures|Enumeration|The Windows architecture(s) for which this app can run on. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md). Possible values are: `none`, `x86`, `x64`, `arm`, `neutral`, `arm64`.|
-|identityName|String|The Identity Name. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|identityPublisherHash|String|The Identity Publisher Hash. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|identityResourceIdentifier|String|The Identity Resource Identifier. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsMinimumOperatingSystem.md)|The value for the minimum applicable operating system. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|phoneProductIdentifier|String|The Phone Product Identifier. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|phonePublisherId|String|The Phone Publisher Id. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|identityVersion|String|The identity version. Inherited from [windowsPhone81AppX](../resources/windowsPhone81AppX.md)|
-|appXPackageInformationList|[windowsPackageInformation](../resources/intune-apps-windowsPackageInformation.md) collection|The list of AppX Package Information.|
+|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|description|String|The description of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|largeIcon|[mimeContent](../resources/intune-apps-mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|owner|String|The owner of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|developer|String|The developer of the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|notes|String|Notes for the app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|uploadState|Int32|The upload state. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md). Possible values are: `notPublished`, `processing`, `published`.|
+|isAssigned|Boolean|The value indicating whether the app is assigned to at least one group. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|roleScopeTagIds|String collection|List of scope tag ids for this mobile app. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|dependentAppCount|Int32|The total number of dependencies the child app has. Inherited from [mobileApp](../resources/intune-apps-mobileapp.md)|
+|committedContentVersion|String|The internal committed content version. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
+|fileName|String|The name of the main Lob application file. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
+|size|Int64|The total size, including all uploaded files. Inherited from [mobileLobApp](../resources/mobilelobapp.md)|
+|applicableArchitectures|Enumeration|The Windows architecture(s) for which this app can run on. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md). Possible values are: `none`, `x86`, `x64`, `arm`, `neutral`, `arm64`.|
+|identityName|String|The Identity Name. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|identityPublisherHash|String|The Identity Publisher Hash. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|identityResourceIdentifier|String|The Identity Resource Identifier. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|minimumSupportedOperatingSystem|[windowsMinimumOperatingSystem](../resources/intune-apps-windowsminimumoperatingsystem.md)|The value for the minimum applicable operating system. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|phoneProductIdentifier|String|The Phone Product Identifier. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|phonePublisherId|String|The Phone Publisher Id. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|identityVersion|String|The identity version. Inherited from [windowsPhone81AppX](../resources/windowsphone81appx.md)|
+|appXPackageInformationList|[windowsPackageInformation](../resources/intune-apps-windowspackageinformation.md) collection|The list of AppX Package Information.|
 
 
 
@@ -88,7 +90,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsPhone81AppXBundle not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsPhone81AppXBundle not found
 Content-type: application/json
 Content-length: 1738
 
@@ -158,11 +160,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1910
+Content-Length: 1909
 
 {
   "@odata.type": "#microsoft.graph.windowsPhone81AppXBundle",
-  "id": "04280734-0734-0428-3407-280434072804",
+  "id": "24b9e4fd-e4fd-24b9-fde4-b924fde4b924",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -171,8 +173,8 @@ Content-Length: 1910
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",

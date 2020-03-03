@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get relyingPartyDetailedSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [relyingPartyDetailedSummary](../resources/relyingpartydetailedsummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.relyingPartyDetailedSummary not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 705
 {
   "value": {
     "@odata.type": "#microsoft.graph.relyingPartyDetailedSummary",
-    "id": "b4388373-8373-b438-7383-38b4738338b4",
+    "id": "463e740e-740e-463e-0e74-3e460e743e46",
     "relyingPartyId": "Relying Party Id value",
     "serviceId": "Service Id value",
     "relyingPartyName": "Relying Party Name value",

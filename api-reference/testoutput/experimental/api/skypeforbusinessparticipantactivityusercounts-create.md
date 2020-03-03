@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create skypeForBusinessParticipantActivityUserCounts
 
+Namespace: microsoft.graph
+
 Create a new [skypeForBusinessParticipantActivityUserCounts](../resources/skypeforbusinessparticipantactivityusercounts.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.skypeForBusinessParticipantActivityUs
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the skypeForBusinessParticipantActivityUserCounts object.
+In the request body, supply a JSON representation for the [skypeForBusinessParticipantActivityUserCounts](../resources/skypeforbusinessparticipantactivityusercounts.md) object.
 
-The following table shows the properties that are required when you create the skypeForBusinessParticipantActivityUserCounts.
+The following table shows the properties that are required when you create the [skypeForBusinessParticipantActivityUserCounts](../resources/skypeforbusinessparticipantactivityusercounts.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessParticipantActivityUserCounts not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.skypeForBusinessParticipantActivityUserCounts not found
 Content-type: application/json
 Content-length: 280
 
@@ -99,7 +101,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.skypeForBusinessParticipantActivityUserCounts",
-  "id": "d1e9081c-081c-d1e9-1c08-e9d11c08e9d1",
+  "id": "840cb8ca-b8ca-840c-cab8-0c84cab80c84",
   "im": 2,
   "audioVideo": 10,
   "appSharing": 10,

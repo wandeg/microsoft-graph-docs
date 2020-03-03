@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # tiIndicator resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get tiIndicator](../api/tiindicator-get.md)|[tiIndicator](../resources/tiIndicator.md)|Read properties and relationships of the [tiIndicator](../resources/tiindicator.md) object.|
+|[List tiIndicators](../api/tiindicator-list.md)|[tiIndicator](../resources/tiindicator.md) collection|List properties and relationships of the [tiIndicator](../resources/tiindicator.md) objects.|
+|[Get tiIndicator](../api/tiindicator-get.md)|[tiIndicator](../resources/tiindicator.md)|Read properties and relationships of the [tiIndicator](../resources/tiindicator.md) object.|
+|[Create tiIndicator](../api/tiindicator-create.md)|[tiIndicator](../resources/tiindicator.md)|Create a new [tiIndicator](../resources/tiindicator.md) object.|
 |[Delete tiIndicator](../api/tiindicator-delete.md)|None|Deletes a [tiIndicator](../resources/tiindicator.md).|
-|[Update tiIndicator](../api/tiindicator-update.md)|[tiIndicator](../resources/tiIndicator.md)|Update the properties of a [tiIndicator](../resources/tiindicator.md) object.|
-|[List tiIndicators](../api/security-list-tiindicators.md)|[tiIndicator](../resources/tiIndicator.md) collection|Get the tiIndicators from the tiIndicators navigation property.|
-|[Add tiIndicators](../api/security-post-tiindicators.md)|[tiIndicator](../resources/tiIndicator.md)|Add tiIndicators by posting to the tiIndicators collection.|
+|[Update tiIndicator](../api/tiindicator-update.md)|[tiIndicator](../resources/tiindicator.md)|Update the properties of a [tiIndicator](../resources/tiindicator.md) object.|
+|[List tiIndicators](../api/security-list-tiindicators.md)|[tiIndicator](../resources/tiindicator.md) collection|Get the tiIndicators from the tiIndicators navigation property.|
+|[Add tiIndicators](../api/security-post-tiindicators.md)|[tiIndicator](../resources/tiindicator.md)|Add tiIndicators by posting to the tiIndicators collection.|
 
 ## Properties
 |Property|Type|Description|

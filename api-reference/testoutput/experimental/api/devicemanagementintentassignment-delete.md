@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceManagementIntentAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/assignments/{deviceManagementIntentAssignmentId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/intents/{deviceManagementIntentId}/assignments/{deviceManagementIntentAssignmentId}
 ```
 
 ### Response

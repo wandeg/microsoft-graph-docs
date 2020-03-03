@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # bitLockerSystemDrivePolicy resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,7 +22,7 @@ Namespace: microsoft.graph
 |prebootRecoveryEnableMessageAndUrl|Boolean|Enable pre-boot recovery message and Url. If requireStartupAuthentication is false, this value does not affect.|
 |prebootRecoveryMessage|String|Defines a custom recovery message.|
 |prebootRecoveryUrl|String|Defines a custom recovery URL.|
-|recoveryOptions|[bitLockerRecoveryOptions](../resources/bitLockerRecoveryOptions.md)|Allows to recover BitLocker encrypted operating system drives in the absence of the required startup key information. This policy setting is applied when you turn on BitLocker.|
+|recoveryOptions|[bitLockerRecoveryOptions](../resources/bitlockerrecoveryoptions.md)|Allows to recover BitLocker encrypted operating system drives in the absence of the required startup key information. This policy setting is applied when you turn on BitLocker.|
 |startupAuthenticationBlockWithoutTpmChip|Boolean|Indicates whether to allow BitLocker without a compatible TPM (requires a password or a startup key on a USB flash drive).|
 |startupAuthenticationRequired|Boolean|Require additional authentication at startup.|
 |startupAuthenticationTpmKeyUsage|Enumeration|Indicates if TPM startup key is allowed/required/disallowed. Possible values are: `blocked`, `required`, `allowed`.|

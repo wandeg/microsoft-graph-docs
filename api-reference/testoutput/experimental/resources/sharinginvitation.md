@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # sharingInvitation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |email|String||
-|invitedBy|[identitySet](../resources/identitySet.md)||
+|invitedBy|[identitySet](../resources/identityset.md)||
 |redeemedBy|String||
 |signInRequired|Boolean||
 

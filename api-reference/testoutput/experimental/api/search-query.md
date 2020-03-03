@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # query
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|requests|[searchRequest](../resources/searchRequest.md) collection||
+|requests|[searchRequest](../resources/searchrequest.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [searchResponse](../resources/searchResponse.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [searchResponse](../resources/searchresponse.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/search/query
+POST https://graph.microsoft.com/localtest/search/query
 
 Content-type: application/json
 Content-length: 570

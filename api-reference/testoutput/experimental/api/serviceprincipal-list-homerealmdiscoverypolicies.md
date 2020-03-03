@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List homeRealmDiscoveryPolicies
 
+Namespace: microsoft.graph
+
 Get the homeRealmDiscoveryPolicies from the homeRealmDiscoveryPolicies navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/servicePrincipals/{servicePrincipalsId}/homeRealmDiscoveryPolicies
+GET https://graph.microsoft.com/localtest/servicePrincipals/{servicePrincipalsId}/homeRealmDiscoveryPolicies
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 342
   "value": [
     {
       "@odata.type": "#microsoft.graph.homeRealmDiscoveryPolicy",
-      "id": "88fcb5bf-b5bf-88fc-bfb5-fc88bfb5fc88",
+      "id": "836063e2-63e2-8360-e263-6083e2636083",
       "description": "Description value",
       "displayName": "Display Name value",
       "definition": [

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # auditActor resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -24,7 +25,7 @@ Namespace: microsoft.graph
 |userId|String|User Id.|
 |userPermissions|String collection|List of user permissions when the audit was performed.|
 |userPrincipalName|String|User Principal Name (UPN).|
-|userRoleScopeTags|[roleScopeTagInfo](../resources/roleScopeTagInfo.md) collection|List of user scope tags when the audit was performed.|
+|userRoleScopeTags|[roleScopeTagInfo](../resources/rolescopetaginfo.md) collection|List of user scope tags when the audit was performed.|
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update circularGeofenceManagementCondition
 
+Namespace: microsoft.graph
+
 Update the properties of a [circularGeofenceManagementCondition](../resources/circulargeofencemanagementcondition.md) object.
 
 ## Permissions
@@ -35,20 +37,20 @@ PATCH ** Entity URI for microsoft.graph.circularGeofenceManagementCondition not 
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [circularGeofenceManagementCondition](../resources/circularGeofenceManagementCondition.md) object.
+In the request body, supply a JSON representation for the [circularGeofenceManagementCondition](../resources/circulargeofencemanagementcondition.md) object.
 
 The following table shows the properties that are required when you create the [circularGeofenceManagementCondition](../resources/circulargeofencemanagementcondition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementCondition.md)|
-|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementCondition.md)|
-|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementCondition.md)|
-|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementCondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
+|uniqueName|String|Unique name for the management condition. Used in management condition expressions. Inherited from [managementCondition](../resources/managementcondition.md)|
+|displayName|String|The admin defined name of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|description|String|The admin defined description of the management condition. Inherited from [managementCondition](../resources/managementcondition.md)|
+|createdDateTime|DateTimeOffset|The time the management condition was created. Generated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|modifiedDateTime|DateTimeOffset|The time the management condition was last modified. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|eTag|String|ETag of the management condition. Updated service side. Inherited from [managementCondition](../resources/managementcondition.md)|
+|applicablePlatforms|Enumeration collection|The applicable platforms for this management condition. Inherited from [managementCondition](../resources/managementcondition.md). Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `unknown`.|
 |latitude|Double|Latitude in degrees, between -90 and +90 inclusive.|
 |longitude|Double|Longitude in degrees, between -180 and +180 inclusive.|
 |radiusInMeters|Single|Radius in meters.|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.circularGeofenceManagementCondition not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.circularGeofenceManagementCondition not found
 Content-type: application/json
 Content-length: 349
 
@@ -97,16 +99,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 517
+Content-Length: 516
 
 {
   "@odata.type": "#microsoft.graph.circularGeofenceManagementCondition",
-  "id": "85edb7d1-b7d1-85ed-d1b7-ed85d1b7ed85",
+  "id": "f85064be-64be-f850-be64-50f8be6450f8",
   "uniqueName": "Unique Name value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
-  "modifiedDateTime": "2017-01-01T00:03:12.7204145+03:00",
+  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
   "eTag": "ETag value",
   "applicablePlatforms": [
     "String"

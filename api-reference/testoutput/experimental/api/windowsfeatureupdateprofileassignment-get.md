@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsFeatureUpdateProfileAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assignments/{windowsFeatureUpdateProfileAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/assignments/{windowsFeatureUpdateProfileAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 255
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsFeatureUpdateProfileAssignment",
-    "id": "7a85fe0c-fe0c-7a85-0cfe-857a0cfe857a",
+    "id": "26a940fa-40fa-26a9-fa40-a926fa40a926",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

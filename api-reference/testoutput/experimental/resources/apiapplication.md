@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # apiApplication resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,8 +19,8 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |acceptMappedClaims|Boolean||
 |knownClientApplications|Guid collection||
-|oauth2PermissionScopes|[permissionScope](../resources/permissionScope.md) collection||
-|preAuthorizedApplications|[preAuthorizedApplication](../resources/preAuthorizedApplication.md) collection||
+|oauth2PermissionScopes|[permissionScope](../resources/permissionscope.md) collection||
+|preAuthorizedApplications|[preAuthorizedApplication](../resources/preauthorizedapplication.md) collection||
 |requestedAccessTokenVersion|Int32||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceRunStates
 
+Namespace: microsoft.graph
+
 Get the deviceHealthScriptDeviceStates from the deviceRunStates navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/deviceRunStates
 ```
 
 ### Response
@@ -64,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 889
+Content-Length: 890
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceHealthScriptDeviceState",
-      "id": "daed47e9-47e9-daed-e947-eddae947edda",
+      "id": "bd3971c9-71c9-bd39-c971-39bdc97139bd",
       "detectionState": "String",
-      "lastStateUpdateDateTime": "2017-01-01T00:00:35.4713927+03:00",
-      "expectedStateUpdateDateTime": "2017-01-01T00:02:58.8774146+03:00",
-      "lastSyncDateTime": "2016-12-31T23:59:56.035751+03:00",
+      "lastStateUpdateDateTime": "2017-01-01T00:00:11.0338933+03:00",
+      "expectedStateUpdateDateTime": "2016-12-31T23:58:06.1336639+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
       "preRemediationDetectionScriptOutput": "Pre Remediation Detection Script Output value",
       "preRemediationDetectionScriptError": "Pre Remediation Detection Script Error value",
       "remediationScriptError": "Remediation Script Error value",

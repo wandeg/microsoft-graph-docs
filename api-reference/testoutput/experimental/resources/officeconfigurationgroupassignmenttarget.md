@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # officeConfigurationGroupAssignmentTarget resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [officeConfigurationAssignmentTarget](../resources/officeConfigurationAssignmentTarget.md)
+
+
+Inherits from [officeConfigurationAssignmentTarget](../resources/officeconfigurationassignmenttarget.md)
 
 ## Properties
 |Property|Type|Description|

@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # binaryManagementConditionExpression resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [managementConditionExpressionModel](../resources/managementConditionExpressionModel.md)
+
+
+Inherits from [managementConditionExpressionModel](../resources/managementconditionexpressionmodel.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|firstOperand|[managementConditionExpressionModel](../resources/managementConditionExpressionModel.md)|The first operand of the binary operation.|
+|firstOperand|[managementConditionExpressionModel](../resources/managementconditionexpressionmodel.md)|The first operand of the binary operation.|
 |operator|Enumeration|The operator used in the evaluation of the binary operation. Possible values are: `or`, `and`.|
-|secondOperand|[managementConditionExpressionModel](../resources/managementConditionExpressionModel.md)|The second operand of the binary operation.|
+|secondOperand|[managementConditionExpressionModel](../resources/managementconditionexpressionmodel.md)|The second operand of the binary operation.|
 
 ## Relationships
 None

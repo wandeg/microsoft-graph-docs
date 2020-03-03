@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsInformationProtectionDeviceRegistration
 
+Namespace: microsoft.graph
+
 Deletes a [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionDeviceRegistrations/{windowsInformationProtectionDeviceRegistrationId}
 ```
 
 ### Response

@@ -9,7 +9,9 @@ doc_type: apiPageType
 
 # Update windowsManagementApp
 
-Update the properties of a [windowsManagementApp](../resources/windowsmanagementapp.md) object.
+Namespace: microsoft.graph
+
+Update the properties of a [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -34,9 +36,9 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsManagementApp](../resources/windowsManagementApp.md) object.
+In the request body, supply a JSON representation for the [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object.
 
-The following table shows the properties that are required when you create the [windowsManagementApp](../resources/windowsmanagementapp.md).
+The following table shows the properties that are required when you create the [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `200 OK` response code and an updated [windowsManagementApp](../resources/windowsmanagementapp.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an updated [windowsManagementApp](../resources/intune-devices-windowsmanagementapp.md) object in the response body.
 
 ## Example
 
@@ -75,7 +77,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.windowsManagementApp",
-  "id": "3d1b151b-151b-3d1b-1b15-1b3d1b151b3d",
+  "id": "219c6239-6239-219c-3962-9c2139629c21",
   "availableVersion": "Available Version value"
 }
 ```

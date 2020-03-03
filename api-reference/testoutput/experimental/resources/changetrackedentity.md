@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # changeTrackedEntity resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List changeTrackedEntities](../api/changetrackedentity-list.md)|[changeTrackedEntity](../resources/changeTrackedEntity.md) collection|List properties and relationships of the [changeTrackedEntity](../resources/changetrackedentity.md) objects.|
-|[Get changeTrackedEntity](../api/changetrackedentity-get.md)|[changeTrackedEntity](../resources/changeTrackedEntity.md)|Read properties and relationships of the [changeTrackedEntity](../resources/changetrackedentity.md) object.|
+|[List changeTrackedEntities](../api/changetrackedentity-list.md)|[changeTrackedEntity](../resources/changetrackedentity.md) collection|List properties and relationships of the [changeTrackedEntity](../resources/changetrackedentity.md) objects.|
+|[Get changeTrackedEntity](../api/changetrackedentity-get.md)|[changeTrackedEntity](../resources/changetrackedentity.md)|Read properties and relationships of the [changeTrackedEntity](../resources/changetrackedentity.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |createdDateTime|DateTimeOffset||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 ## Relationships
