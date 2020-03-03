@@ -1,0 +1,67 @@
+---
+title: "workbookNamedItem resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# workbookNamedItem resource type
+
+
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get workbookNamedItem](../api/workbooknameditem-get.md)|[workbookNamedItem](../resources/workbookNamedItem.md)|Read properties and relationships of the [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[Delete workbookNamedItem](../api/workbooknameditem-delete.md)|None|Deletes a [workbookNamedItem](../resources/workbooknameditem.md).|
+|[Update workbookNamedItem](../api/workbooknameditem-update.md)|[workbookNamedItem](../resources/workbookNamedItem.md)|Update the properties of a [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookWorksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|comment|String||
+|id|String| Inherited from [entity](../resources/entity.md)|
+|name|String||
+|scope|String||
+|type|String||
+|value|[Json](../resources/Json.md)||
+|visible|Boolean||
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|worksheet|[workbookWorksheet](../resources/workbookWorksheet.md)||
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.workbookNamedItem",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.workbookNamedItem",
+  "id": "String (identifier)",
+  "comment": "String",
+  "name": "String",
+  "scope": "String",
+  "type": "String",
+  "value": {
+    "@odata.type": "microsoft.graph.Json"
+  },
+  "visible": true
+}
+```
+

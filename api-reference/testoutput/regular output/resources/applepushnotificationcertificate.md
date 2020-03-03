@@ -1,0 +1,63 @@
+---
+title: "applePushNotificationCertificate resource type"
+description: "Apple push notification certificate."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# applePushNotificationCertificate resource type
+
+Apple push notification certificate.
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[List applePushNotificationCertificates](../api/applepushnotificationcertificate-list.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md) collection|List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.|
+|[Get applePushNotificationCertificate](../api/applepushnotificationcertificate-get.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Read properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[Create applePushNotificationCertificate](../api/applepushnotificationcertificate-create.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Create a new [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[Delete applePushNotificationCertificate](../api/applepushnotificationcertificate-delete.md)|None|Deletes a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).|
+|[Update applePushNotificationCertificate](../api/applepushnotificationcertificate-update.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[downloadApplePushNotificationCertificateSigningRequest](../api/applepushnotificationcertificate-downloadapplepushnotificationcertificatesigningrequest.md)|String||
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|appleIdentifier|String|Apple Id of the account used to create the MDM push certificate.|
+|certificate|String||
+|expirationDateTime|DateTimeOffset|The expiration date and time for Apple push notification certificate.|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedDateTime|DateTimeOffset|Last modified date and time for Apple push notification certificate.|
+|topicIdentifier|String|Topic Id.|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.applePushNotificationCertificate",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
+  "id": "String (identifier)",
+  "appleIdentifier": "String",
+  "topicIdentifier": "String",
+  "lastModifiedDateTime": "String (timestamp)",
+  "expirationDateTime": "String (timestamp)",
+  "certificate": "String"
+}
+```
+

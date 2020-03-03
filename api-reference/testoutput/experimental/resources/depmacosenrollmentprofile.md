@@ -1,0 +1,116 @@
+---
+title: "depMacOSEnrollmentProfile resource type"
+description: "The DepMacOSEnrollmentProfile resource represents an Apple Device Enrollment Program (DEP) enrollment profile specific to macOS configuration. This type of profile must be assigned to Apple DEP serial numbers before the corresponding devices can enroll via DEP."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# depMacOSEnrollmentProfile resource type
+
+The DepMacOSEnrollmentProfile resource represents an Apple Device Enrollment Program (DEP) enrollment profile specific to macOS configuration. This type of profile must be assigned to Apple DEP serial numbers before the corresponding devices can enroll via DEP.
+
+
+Inherits from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[List depMacOSEnrollmentProfiles](../api/depmacosenrollmentprofile-list.md)|[depMacOSEnrollmentProfile](../resources/depMacOSEnrollmentProfile.md) collection|List properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) objects.|
+|[Get depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-get.md)|[depMacOSEnrollmentProfile](../resources/depMacOSEnrollmentProfile.md)|Read properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
+|[Create depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-create.md)|[depMacOSEnrollmentProfile](../resources/depMacOSEnrollmentProfile.md)|Create a new [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
+|[Delete depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-delete.md)|None|Deletes a [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md).|
+|[Update depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-update.md)|[depMacOSEnrollmentProfile](../resources/depMacOSEnrollmentProfile.md)|Update the properties of a [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|appleIdDisabled|Boolean|Indicates if Apple id setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|applePayDisabled|Boolean|Indicates if Apple pay setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|chooseYourLockScreenDisabled|Boolean|Indicates if iCloud Documents and Desktop screen is disabled|
+|configurationEndpointUrl|String|Configuration endpoint url to use for Enrollment Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|configurationWebUrl|Boolean|URL for setup assistant login Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|description|String|Description of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|deviceNameTemplate|String|Sets a literal or name pattern. Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|diagnosticsDisabled|Boolean|Indicates if diagnostics setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|displayName|String|Name of the profile Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|displayToneSetupDisabled|Boolean|Indicates if displaytone setup screen is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|enableAuthenticationViaCompanyPortal|Boolean|Indicates to authenticate with Apple Setup Assistant instead of Company Portal. Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|fileVaultDisabled|Boolean|Indicates if file vault is disabled|
+|iCloudDiagnosticsDisabled|Boolean|Indicates if iCloud Analytics screen is disabled|
+|iCloudStorageDisabled|Boolean|Indicates if iCloud Documents and Desktop screen is disabled|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|isDefault|Boolean|Indicates if this is the default profile Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|isMandatory|Boolean|Indicates if the profile is mandatory Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|locationDisabled|Boolean|Indicates if Location service setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|passCodeDisabled|Boolean|Indicates if Passcode setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|privacyPaneDisabled|Boolean|Indicates if privacy screen is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|profileRemovalDisabled|Boolean|Indicates if the profile removal option is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|registrationDisabled|Boolean|Indicates if registration is disabled|
+|requireCompanyPortalOnSetupAssistantEnrolledDevices|Boolean|Indicates that Company Portal is required on setup assistant enrolled devices Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|requiresUserAuthentication|Boolean|Indicates if the profile requires user authentication Inherited from [enrollmentProfile](../resources/enrollmentProfile.md)|
+|restoreBlocked|Boolean|Indicates if Restore setup pane is blocked Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|screenTimeScreenDisabled|Boolean|Indicates if screen timeout setup is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|siriDisabled|Boolean|Indicates if siri setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|supervisedModeEnabled|Boolean|Supervised mode, True to enable, false otherwise. See https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune for additional information. Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|supportDepartment|String|Support department information Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|supportPhoneNumber|String|Support phone number Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|termsAndConditionsDisabled|Boolean|Indicates if 'Terms and Conditions' setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|touchIdDisabled|Boolean|Indicates if touch id setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+|zoomDisabled|Boolean|Indicates if zoom setup pane is disabled Inherited from [depEnrollmentBaseProfile](../resources/depEnrollmentBaseProfile.md)|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.depMacOSEnrollmentProfile",
+  "baseType": "microsoft.graph.depEnrollmentBaseProfile",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
+  "id": "String (identifier)",
+  "displayName": "String",
+  "description": "String",
+  "requiresUserAuthentication": true,
+  "configurationEndpointUrl": "String",
+  "enableAuthenticationViaCompanyPortal": true,
+  "requireCompanyPortalOnSetupAssistantEnrolledDevices": true,
+  "isDefault": true,
+  "supervisedModeEnabled": true,
+  "supportDepartment": "String",
+  "passCodeDisabled": true,
+  "isMandatory": true,
+  "locationDisabled": true,
+  "supportPhoneNumber": "String",
+  "profileRemovalDisabled": true,
+  "restoreBlocked": true,
+  "appleIdDisabled": true,
+  "termsAndConditionsDisabled": true,
+  "touchIdDisabled": true,
+  "applePayDisabled": true,
+  "zoomDisabled": true,
+  "siriDisabled": true,
+  "diagnosticsDisabled": true,
+  "displayToneSetupDisabled": true,
+  "privacyPaneDisabled": true,
+  "screenTimeScreenDisabled": true,
+  "deviceNameTemplate": "String",
+  "configurationWebUrl": true,
+  "registrationDisabled": true,
+  "fileVaultDisabled": true,
+  "iCloudDiagnosticsDisabled": true,
+  "iCloudStorageDisabled": true,
+  "chooseYourLockScreenDisabled": true
+}
+```
+

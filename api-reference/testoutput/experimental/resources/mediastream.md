@@ -1,0 +1,45 @@
+---
+title: "mediaStream resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# mediaStream resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|direction|Enumeration|. Possible values are: `inactive`, `sendOnly`, `receiveOnly`, `sendReceive`.|
+|label|String||
+|mediaType|Enumeration|. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
+|serverMuted|Boolean||
+|sourceId|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.mediaStream"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.mediaStream",
+  "mediaType": "String",
+  "label": "String",
+  "sourceId": "String",
+  "direction": "String",
+  "serverMuted": true
+}
+```
+

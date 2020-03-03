@@ -1,0 +1,39 @@
+---
+title: "personType resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# personType resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|class|String||
+|subclass|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.personType"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.personType",
+  "class": "String",
+  "subclass": "String"
+}
+```
+

@@ -1,0 +1,101 @@
+---
+title: "Add exemptAppLockerFiles"
+description: "Add exemptAppLockerFiles by posting to the exemptAppLockerFiles collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Add exemptAppLockerFiles
+
+Add exemptAppLockerFiles by posting to the exemptAppLockerFiles collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST ** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found/$ref
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the windowsInformationProtectionAppLockerFile object.
+
+The following table shows the properties that are required when you create the windowsInformationProtectionAppLockerFile.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|displayName|String|The friendly name|
+|fileHash|String|SHA256 hash of the file|
+|file|Binary|File as a byte array|
+|version|String|Version of the entity.|
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_windowsinformationprotectionapplockerfile_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found
+Content-type: application/json
+Content-length: 211
+
+{
+  "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
+  "displayName": "Display Name value",
+  "fileHash": "File Hash value",
+  "file": "ZmlsZQ==",
+  "version": "Version value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.windowsinformationprotectionapplockerfile"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 260
+
+{
+  "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
+  "id": "327b9363-9363-327b-6393-7b3263937b32",
+  "displayName": "Display Name value",
+  "fileHash": "File Hash value",
+  "file": "ZmlsZQ==",
+  "version": "Version value"
+}
+```
+

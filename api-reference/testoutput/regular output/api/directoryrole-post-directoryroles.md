@@ -1,0 +1,101 @@
+---
+title: "Create directoryRole"
+description: "Create a new directoryRole object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create directoryRole
+
+Create a new [directoryRole](../resources/directoryrole.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /directoryRoles
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the directoryRole object.
+
+The following table shows the properties that are required when you create the directoryRole.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|description|String||
+|displayName|String||
+|roleTemplateId|String||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [directoryRole](../resources/directoryrole.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_directoryrole_from_directoryroles"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api/directoryRoles
+Content-type: application/json
+Content-length: 240
+
+{
+  "@odata.type": "#microsoft.graph.directoryRole",
+  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "roleTemplateId": "Role Template Id value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.directoryrole"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 289
+
+{
+  "@odata.type": "#microsoft.graph.directoryRole",
+  "id": "dfc43b4d-3b4d-dfc4-4d3b-c4df4d3bc4df",
+  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "roleTemplateId": "Role Template Id value"
+}
+```
+

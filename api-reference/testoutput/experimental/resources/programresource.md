@@ -1,0 +1,44 @@
+---
+title: "programResource resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# programResource resource type
+
+
+
+
+Inherits from [identity](../resources/identity.md)
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|displayName|String| Inherited from [identity](../resources/identity.md)|
+|id|String| Inherited from [identity](../resources/identity.md)|
+|type|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.programResource"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.programResource",
+  "id": "String (identifier)",
+  "displayName": "String",
+  "type": "String"
+}
+```
+

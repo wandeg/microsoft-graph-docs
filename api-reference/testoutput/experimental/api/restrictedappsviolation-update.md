@@ -1,0 +1,124 @@
+---
+title: "Update restrictedAppsViolation"
+description: "Update the properties of a restrictedAppsViolation object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update restrictedAppsViolation
+
+Update the properties of a [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /deviceManagement/deviceConfigurationRestrictedAppsViolations/{restrictedAppsViolationId}
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [restrictedAppsViolation](../resources/restrictedAppsViolation.md) object.
+
+The following table shows the properties that are required when you create the [restrictedAppsViolation](../resources/restrictedappsviolation.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|userId|String|User unique identifier, must be Guid|
+|userName|String|User name|
+|managedDeviceId|String|Managed device unique identifier, must be Guid|
+|deviceName|String|Device name|
+|deviceConfigurationId|String|Device configuration profile unique identifier, must be Guid|
+|deviceConfigurationName|String|Device configuration profile name|
+|platformType|Enumeration|Platform type. Possible values are: `android`, `androidForWork`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
+|restrictedAppsState|Enumeration|Restricted apps state. Possible values are: `prohibitedApps`, `notApprovedApps`.|
+|restrictedApps|[managedDeviceReportedApp](../resources/managedDeviceReportedApp.md) collection|List of violated restricted apps|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [restrictedAppsViolation](../resources/restrictedappsviolation.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_restrictedappsviolation"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurationRestrictedAppsViolations/{restrictedAppsViolationId}
+Content-type: application/json
+Content-length: 547
+
+{
+  "@odata.type": "#microsoft.graph.restrictedAppsViolation",
+  "userId": "User Id value",
+  "userName": "User Name value",
+  "managedDeviceId": "Managed Device Id value",
+  "deviceName": "Device Name value",
+  "deviceConfigurationId": "Device Configuration Id value",
+  "deviceConfigurationName": "Device Configuration Name value",
+  "platformType": "String",
+  "restrictedAppsState": "String",
+  "restrictedApps": [
+    {
+      "@odata.type": "microsoft.graph.managedDeviceReportedApp",
+      "appId": "App Id value"
+    }
+  ]
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 596
+
+{
+  "@odata.type": "#microsoft.graph.restrictedAppsViolation",
+  "id": "ab900812-0812-ab90-1208-90ab120890ab",
+  "userId": "User Id value",
+  "userName": "User Name value",
+  "managedDeviceId": "Managed Device Id value",
+  "deviceName": "Device Name value",
+  "deviceConfigurationId": "Device Configuration Id value",
+  "deviceConfigurationName": "Device Configuration Name value",
+  "platformType": "String",
+  "restrictedAppsState": "String",
+  "restrictedApps": [
+    {
+      "@odata.type": "microsoft.graph.managedDeviceReportedApp",
+      "appId": "App Id value"
+    }
+  ]
+}
+```
+

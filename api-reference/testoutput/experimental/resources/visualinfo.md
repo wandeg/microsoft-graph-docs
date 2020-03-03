@@ -1,0 +1,53 @@
+---
+title: "visualInfo resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# visualInfo resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|attribution|[imageInfo](../resources/imageInfo.md)||
+|backgroundColor|String||
+|content|[Json](../resources/Json.md)||
+|description|String||
+|displayText|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.visualInfo"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.visualInfo",
+  "attribution": {
+    "@odata.type": "microsoft.graph.imageInfo",
+    "iconUrl": "String",
+    "alternativeText": "String",
+    "alternateText": "String",
+    "addImageQuery": true
+  },
+  "backgroundColor": "String",
+  "description": "String",
+  "displayText": "String",
+  "content": {
+    "@odata.type": "microsoft.graph.Json"
+  }
+}
+```
+

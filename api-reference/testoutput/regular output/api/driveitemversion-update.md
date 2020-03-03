@@ -1,0 +1,122 @@
+---
+title: "Update driveItemVersion"
+description: "Update the properties of a driveItemVersion object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update driveItemVersion
+
+Update the properties of a [driveItemVersion](../resources/driveitemversion.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /workbooks/{workbooksId}/versions/{driveItemVersionId}
+PATCH /me/drive/items/{driveItemId}/versions/{driveItemVersionId}
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [driveItemVersion](../resources/driveItemVersion.md) object.
+
+The following table shows the properties that are required when you create the [driveItemVersion](../resources/driveitemversion.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
+|publication|[publicationFacet](../resources/publicationFacet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
+|content|Stream||
+|size|Int64||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [driveItemVersion](../resources/driveitemversion.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_driveitemversion"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/versions/{driveItemVersionId}
+Content-type: application/json
+Content-length: 244
+
+{
+  "@odata.type": "#microsoft.graph.driveItemVersion",
+  "publication": {
+    "@odata.type": "microsoft.graph.publicationFacet",
+    "level": "Level value",
+    "versionId": "Version Id value"
+  },
+  "content": "Stream",
+  "size": 4
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 730
+
+{
+  "@odata.type": "#microsoft.graph.driveItemVersion",
+  "id": "c674ade1-ade1-c674-e1ad-74c6e1ad74c6",
+  "lastModifiedBy": {
+    "@odata.type": "microsoft.graph.identitySet",
+    "application": {
+      "@odata.type": "microsoft.graph.identity",
+      "displayName": "Display Name value",
+      "id": "Id value"
+    },
+    "device": {
+      "@odata.type": "microsoft.graph.identity"
+    },
+    "user": {
+      "@odata.type": "microsoft.graph.identity"
+    }
+  },
+  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "publication": {
+    "@odata.type": "microsoft.graph.publicationFacet",
+    "level": "Level value",
+    "versionId": "Version Id value"
+  },
+  "content": "Stream",
+  "size": 4
+}
+```
+

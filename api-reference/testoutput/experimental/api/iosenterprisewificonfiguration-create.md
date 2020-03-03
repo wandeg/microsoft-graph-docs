@@ -1,0 +1,207 @@
+---
+title: "Create iosEnterpriseWiFiConfiguration"
+description: "Create a new iosEnterpriseWiFiConfiguration object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create iosEnterpriseWiFiConfiguration
+
+Create a new [iosEnterpriseWiFiConfiguration](../resources/iosenterprisewificonfiguration.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST ** Collection URI for microsoft.graph.iosEnterpriseWiFiConfiguration not found
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the iosEnterpriseWiFiConfiguration object.
+
+The following table shows the properties that are required when you create the iosEnterpriseWiFiConfiguration.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|networkName|String|Network Name Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|ssid|String|This is the name of the Wi-Fi network that is broadcast to all devices. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|connectAutomatically|Boolean|Connect automatically when this network is in range. Setting this to true will skip the user prompt and automatically connect the device to Wi-Fi network. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|connectWhenNetworkNameIsHidden|Boolean|Connect when the network is not broadcasting its name (SSID). When set to true, this profile forces the device to connect to a network that doesn't broadcast its SSID to all devices. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|wiFiSecurityType|Enumeration|Indicates whether Wi-Fi endpoint uses an EAP based security type. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md). Possible values are: `open`, `wpaPersonal`, `wpaEnterprise`, `wep`, `wpa2Personal`, `wpa2Enterprise`.|
+|proxySettings|Enumeration|Proxy Type for this Wi-Fi connection Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md). Possible values are: `none`, `manual`, `automatic`.|
+|proxyManualAddress|String|IP Address or DNS hostname of the proxy server when manual configuration is selected. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|proxyManualPort|Int32|Port of the proxy server when manual configuration is selected. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|proxyAutomaticConfigurationUrl|String|URL of the proxy server automatic configuration script when automatic configuration is selected. This URL is typically the location of PAC (Proxy Auto Configuration) file. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|preSharedKey|String|This is the pre-shared key for WPA Personal Wi-Fi network. Inherited from [iosWiFiConfiguration](../resources/iosWiFiConfiguration.md)|
+|eapType|Enumeration|Extensible Authentication Protocol (EAP). Indicates the type of EAP protocol set on the Wi-Fi endpoint (router). Possible values are: `eapTls`, `leap`, `eapSim`, `eapTtls`, `peap`, `eapFast`.|
+|eapFastConfiguration|Enumeration|EAP-FAST Configuration Option when EAP-FAST is the selected EAP Type. Possible values are: `noProtectedAccessCredential`, `useProtectedAccessCredential`, `useProtectedAccessCredentialAndProvision`, `useProtectedAccessCredentialAndProvisionAnonymously`.|
+|trustedServerCertificateNames|String collection|Trusted server certificate names when EAP Type is configured to EAP-TLS/TTLS/FAST or PEAP. This is the common name used in the certificates issued by your trusted certificate authority (CA). If you provide this information, you can bypass the dynamic trust dialog that is displayed on end users' devices when they connect to this Wi-Fi network.|
+|authenticationMethod|Enumeration|Authentication Method when EAP Type is configured to PEAP or EAP-TTLS. Possible values are: `certificate`, `usernameAndPassword`, `derivedCredential`.|
+|innerAuthenticationProtocolForEapTtls|Enumeration|Non-EAP Method for Authentication when EAP Type is EAP-TTLS and Authenticationmethod is Username and Password. Possible values are: `unencryptedPassword`, `challengeHandshakeAuthenticationProtocol`, `microsoftChap`, `microsoftChapVersionTwo`.|
+|outerIdentityPrivacyTemporaryValue|String|Enable identity privacy (Outer Identity) when EAP Type is configured to EAP - TTLS, EAP - FAST or PEAP. This property masks usernames with the text you enter. For example, if you use 'anonymous', each user that authenticates with this Wi-Fi connection using their real username is displayed as 'anonymous'.|
+|usernameFormatString|String|Username format string used to build the username to connect to wifi|
+|passwordFormatString|String|Password format string used to build the password to connect to wifi|
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [iosEnterpriseWiFiConfiguration](../resources/iosenterprisewificonfiguration.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_iosenterprisewificonfiguration_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosEnterpriseWiFiConfiguration not found
+Content-type: application/json
+Content-length: 1765
+
+{
+  "@odata.type": "#microsoft.graph.iosEnterpriseWiFiConfiguration",
+  "roleScopeTagIds": [
+    "Role Scope Tag Ids value"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsEdition",
+    "osEditionTypes": [
+      "String"
+    ],
+    "name": "Name value",
+    "ruleType": "String"
+  },
+  "deviceManagementApplicabilityRuleOsVersion": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsVersion",
+    "minOSVersion": "Min OSVersion value",
+    "maxOSVersion": "Max OSVersion value"
+  },
+  "deviceManagementApplicabilityRuleDeviceMode": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
+    "deviceMode": "String"
+  },
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "version": 7,
+  "networkName": "Network Name value",
+  "ssid": "Ssid value",
+  "connectAutomatically": true,
+  "connectWhenNetworkNameIsHidden": true,
+  "wiFiSecurityType": "String",
+  "proxySettings": "String",
+  "proxyManualAddress": "Proxy Manual Address value",
+  "proxyManualPort": 15,
+  "proxyAutomaticConfigurationUrl": "https://example.com/proxyAutomaticConfigurationUrl/",
+  "preSharedKey": "Pre Shared Key value",
+  "eapType": "String",
+  "eapFastConfiguration": "String",
+  "trustedServerCertificateNames": [
+    "Trusted Server Certificate Names value"
+  ],
+  "authenticationMethod": "String",
+  "innerAuthenticationProtocolForEapTtls": "String",
+  "outerIdentityPrivacyTemporaryValue": "Outer Identity Privacy Temporary Value value",
+  "usernameFormatString": "Username Format String value",
+  "passwordFormatString": "Password Format String value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.iosenterprisewificonfiguration"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 1937
+
+{
+  "@odata.type": "#microsoft.graph.iosEnterpriseWiFiConfiguration",
+  "id": "db9149b1-49b1-db91-b149-91dbb14991db",
+  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "roleScopeTagIds": [
+    "Role Scope Tag Ids value"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsEdition",
+    "osEditionTypes": [
+      "String"
+    ],
+    "name": "Name value",
+    "ruleType": "String"
+  },
+  "deviceManagementApplicabilityRuleOsVersion": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsVersion",
+    "minOSVersion": "Min OSVersion value",
+    "maxOSVersion": "Max OSVersion value"
+  },
+  "deviceManagementApplicabilityRuleDeviceMode": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
+    "deviceMode": "String"
+  },
+  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "version": 7,
+  "networkName": "Network Name value",
+  "ssid": "Ssid value",
+  "connectAutomatically": true,
+  "connectWhenNetworkNameIsHidden": true,
+  "wiFiSecurityType": "String",
+  "proxySettings": "String",
+  "proxyManualAddress": "Proxy Manual Address value",
+  "proxyManualPort": 15,
+  "proxyAutomaticConfigurationUrl": "https://example.com/proxyAutomaticConfigurationUrl/",
+  "preSharedKey": "Pre Shared Key value",
+  "eapType": "String",
+  "eapFastConfiguration": "String",
+  "trustedServerCertificateNames": [
+    "Trusted Server Certificate Names value"
+  ],
+  "authenticationMethod": "String",
+  "innerAuthenticationProtocolForEapTtls": "String",
+  "outerIdentityPrivacyTemporaryValue": "Outer Identity Privacy Temporary Value value",
+  "usernameFormatString": "Username Format String value",
+  "passwordFormatString": "Password Format String value"
+}
+```
+

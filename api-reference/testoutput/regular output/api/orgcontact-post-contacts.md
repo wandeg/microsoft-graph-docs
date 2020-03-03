@@ -1,0 +1,190 @@
+---
+title: "Create orgContact"
+description: "Create a new orgContact object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create orgContact
+
+Create a new [orgContact](../resources/orgcontact.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /contacts
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the orgContact object.
+
+The following table shows the properties that are required when you create the orgContact.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|addresses|[physicalOfficeAddress](../resources/physicalOfficeAddress.md) collection||
+|companyName|String||
+|department|String||
+|displayName|String||
+|givenName|String||
+|jobTitle|String||
+|mail|String||
+|mailNickname|String||
+|onPremisesSyncEnabled|Boolean||
+|onPremisesLastSyncDateTime|DateTimeOffset||
+|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onPremisesProvisioningError.md) collection||
+|phones|[phone](../resources/phone.md) collection||
+|proxyAddresses|String collection||
+|surname|String||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [orgContact](../resources/orgcontact.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_orgcontact_from_contacts"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api/contacts
+Content-type: application/json
+Content-length: 1425
+
+{
+  "@odata.type": "#microsoft.graph.orgContact",
+  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "addresses": [
+    {
+      "@odata.type": "microsoft.graph.physicalOfficeAddress",
+      "city": "City value",
+      "countryOrRegion": "Country Or Region value",
+      "officeLocation": "Office Location value",
+      "postalCode": "Postal Code value",
+      "state": "State value",
+      "street": "Street value"
+    }
+  ],
+  "companyName": "Company Name value",
+  "department": "Department value",
+  "displayName": "Display Name value",
+  "givenName": "Given Name value",
+  "jobTitle": "Job Title value",
+  "mail": "Mail value",
+  "mailNickname": "Mail Nickname value",
+  "onPremisesSyncEnabled": true,
+  "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+  "onPremisesProvisioningErrors": [
+    {
+      "@odata.type": "microsoft.graph.onPremisesProvisioningError",
+      "value": "Value value",
+      "category": "Category value",
+      "propertyCausingError": "Property Causing Error value",
+      "occurredDateTime": "2017-01-01T00:02:39.4081471+03:00"
+    }
+  ],
+  "phones": [
+    {
+      "@odata.type": "microsoft.graph.phone",
+      "type": "String",
+      "number": "Number value",
+      "region": "Region value",
+      "language": "Language value"
+    }
+  ],
+  "proxyAddresses": [
+    "Proxy Addresses value"
+  ],
+  "surname": "Surname value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.orgcontact"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 1474
+
+{
+  "@odata.type": "#microsoft.graph.orgContact",
+  "id": "4a07cc41-cc41-4a07-41cc-074a41cc074a",
+  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "addresses": [
+    {
+      "@odata.type": "microsoft.graph.physicalOfficeAddress",
+      "city": "City value",
+      "countryOrRegion": "Country Or Region value",
+      "officeLocation": "Office Location value",
+      "postalCode": "Postal Code value",
+      "state": "State value",
+      "street": "Street value"
+    }
+  ],
+  "companyName": "Company Name value",
+  "department": "Department value",
+  "displayName": "Display Name value",
+  "givenName": "Given Name value",
+  "jobTitle": "Job Title value",
+  "mail": "Mail value",
+  "mailNickname": "Mail Nickname value",
+  "onPremisesSyncEnabled": true,
+  "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+  "onPremisesProvisioningErrors": [
+    {
+      "@odata.type": "microsoft.graph.onPremisesProvisioningError",
+      "value": "Value value",
+      "category": "Category value",
+      "propertyCausingError": "Property Causing Error value",
+      "occurredDateTime": "2017-01-01T00:02:39.4081471+03:00"
+    }
+  ],
+  "phones": [
+    {
+      "@odata.type": "microsoft.graph.phone",
+      "type": "String",
+      "number": "Number value",
+      "region": "Region value",
+      "language": "Language value"
+    }
+  ],
+  "proxyAddresses": [
+    "Proxy Addresses value"
+  ],
+  "surname": "Surname value"
+}
+```
+

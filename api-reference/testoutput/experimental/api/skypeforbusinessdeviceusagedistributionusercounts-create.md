@@ -1,0 +1,110 @@
+---
+title: "Create skypeForBusinessDeviceUsageDistributionUserCounts"
+description: "Create a new skypeForBusinessDeviceUsageDistributionUserCounts object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create skypeForBusinessDeviceUsageDistributionUserCounts
+
+Create a new [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST ** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the skypeForBusinessDeviceUsageDistributionUserCounts object.
+
+The following table shows the properties that are required when you create the skypeForBusinessDeviceUsageDistributionUserCounts.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|reportRefreshDate|Date||
+|windows|Int32||
+|windowsPhone|Int32||
+|androidPhone|Int32||
+|iPhone|Int32||
+|iPad|Int32||
+|reportPeriod|String||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [skypeForBusinessDeviceUsageDistributionUserCounts](../resources/skypeforbusinessdeviceusagedistributionusercounts.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_skypeforbusinessdeviceusagedistributionusercounts_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts not found
+Content-type: application/json
+Content-length: 258
+
+{
+  "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts",
+  "reportRefreshDate": "Date",
+  "windows": 7,
+  "windowsPhone": 12,
+  "androidPhone": 12,
+  "iPhone": 6,
+  "iPad": 4,
+  "reportPeriod": "Report Period value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.skypeforbusinessdeviceusagedistributionusercounts"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 307
+
+{
+  "@odata.type": "#microsoft.graph.skypeForBusinessDeviceUsageDistributionUserCounts",
+  "id": "683f9284-9284-683f-8492-3f6884923f68",
+  "reportRefreshDate": "Date",
+  "windows": 7,
+  "windowsPhone": 12,
+  "androidPhone": 12,
+  "iPhone": 6,
+  "iPad": 4,
+  "reportPeriod": "Report Period value"
+}
+```
+

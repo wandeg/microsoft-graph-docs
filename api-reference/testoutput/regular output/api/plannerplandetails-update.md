@@ -1,0 +1,113 @@
+---
+title: "Update plannerPlanDetails"
+description: "Update the properties of a plannerPlanDetails object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update plannerPlanDetails
+
+Update the properties of a [plannerPlanDetails](../resources/plannerplandetails.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /me/planner/plans/{plannerPlanId}/details
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [plannerPlanDetails](../resources/plannerPlanDetails.md) object.
+
+The following table shows the properties that are required when you create the [plannerPlanDetails](../resources/plannerplandetails.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|sharedWith|[plannerUserIds](../resources/plannerUserIds.md)||
+|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannerCategoryDescriptions.md)||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [plannerPlanDetails](../resources/plannerplandetails.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_plannerplandetails"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/me/planner/plans/{plannerPlanId}/details
+Content-type: application/json
+Content-length: 461
+
+{
+  "@odata.type": "#microsoft.graph.plannerPlanDetails",
+  "sharedWith": {
+    "@odata.type": "microsoft.graph.plannerUserIds"
+  },
+  "categoryDescriptions": {
+    "@odata.type": "microsoft.graph.plannerCategoryDescriptions",
+    "category1": "Category1 value",
+    "category2": "Category2 value",
+    "category3": "Category3 value",
+    "category4": "Category4 value",
+    "category5": "Category5 value",
+    "category6": "Category6 value"
+  }
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 510
+
+{
+  "@odata.type": "#microsoft.graph.plannerPlanDetails",
+  "id": "fe2c3b16-3b16-fe2c-163b-2cfe163b2cfe",
+  "sharedWith": {
+    "@odata.type": "microsoft.graph.plannerUserIds"
+  },
+  "categoryDescriptions": {
+    "@odata.type": "microsoft.graph.plannerCategoryDescriptions",
+    "category1": "Category1 value",
+    "category2": "Category2 value",
+    "category3": "Category3 value",
+    "category4": "Category4 value",
+    "category5": "Category5 value",
+    "category6": "Category6 value"
+  }
+}
+```
+

@@ -1,0 +1,108 @@
+---
+title: "Add operations"
+description: "Add operations by posting to the operations collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Add operations
+
+Add operations by posting to the operations collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /communications/calls/{callId}/operations/$ref
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the commsOperation object.
+
+The following table shows the properties that are required when you create the commsOperation.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|status|Enumeration|. Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String||
+|resultInfo|[resultInfo](../resources/resultInfo.md)||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [commsOperation](../resources/commsoperation.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_commsoperation_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/operations
+Content-type: application/json
+Content-length: 265
+
+{
+  "@odata.type": "#microsoft.graph.commsOperation",
+  "status": "String",
+  "clientContext": "Client Context value",
+  "resultInfo": {
+    "@odata.type": "microsoft.graph.resultInfo",
+    "code": 4,
+    "subcode": 7,
+    "message": "Message value"
+  }
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.commsoperation"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 314
+
+{
+  "@odata.type": "#microsoft.graph.commsOperation",
+  "id": "e6a42829-2829-e6a4-2928-a4e62928a4e6",
+  "status": "String",
+  "clientContext": "Client Context value",
+  "resultInfo": {
+    "@odata.type": "microsoft.graph.resultInfo",
+    "code": 4,
+    "subcode": 7,
+    "message": "Message value"
+  }
+}
+```
+

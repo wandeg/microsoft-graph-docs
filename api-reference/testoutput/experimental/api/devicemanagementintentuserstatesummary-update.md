@@ -1,0 +1,102 @@
+---
+title: "Update deviceManagementIntentUserStateSummary"
+description: "Update the properties of a deviceManagementIntentUserStateSummary object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update deviceManagementIntentUserStateSummary
+
+Update the properties of a [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /deviceManagement/intents/{deviceManagementIntentId}/userStateSummary
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [deviceManagementIntentUserStateSummary](../resources/deviceManagementIntentUserStateSummary.md) object.
+
+The following table shows the properties that are required when you create the [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|conflictCount|Int32|Number of users in conflict|
+|errorCount|Int32|Number of error users|
+|failedCount|Int32|Number of failed users|
+|notApplicableCount|Int32|Number of not applicable users|
+|successCount|Int32|Number of succeeded users|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_devicemanagementintentuserstatesummary"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/deviceManagement/intents/{deviceManagementIntentId}/userStateSummary
+Content-type: application/json
+Content-length: 198
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementIntentUserStateSummary",
+  "conflictCount": 13,
+  "errorCount": 10,
+  "failedCount": 11,
+  "notApplicableCount": 2,
+  "successCount": 12
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 247
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementIntentUserStateSummary",
+  "id": "e0cd03e1-03e1-e0cd-e103-cde0e103cde0",
+  "conflictCount": 13,
+  "errorCount": 10,
+  "failedCount": 11,
+  "notApplicableCount": 2,
+  "successCount": 12
+}
+```
+

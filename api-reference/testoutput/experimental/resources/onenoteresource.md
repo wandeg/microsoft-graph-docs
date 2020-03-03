@@ -1,0 +1,56 @@
+---
+title: "onenoteResource resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# onenoteResource resource type
+
+
+
+
+Inherits from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get onenoteResource](../api/onenoteresource-get.md)|[onenoteResource](../resources/onenoteResource.md)|Read properties and relationships of the [onenoteResource](../resources/onenoteresource.md) object.|
+|[Delete onenoteResource](../api/onenoteresource-delete.md)|None|Deletes a [onenoteResource](../resources/onenoteresource.md).|
+|[Update onenoteResource](../api/onenoteresource-update.md)|[onenoteResource](../resources/onenoteResource.md)|Update the properties of a [onenoteResource](../resources/onenoteresource.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|content|Stream||
+|contentUrl|String||
+|id|String| Inherited from [entity](../resources/entity.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.onenoteResource",
+  "baseType": "microsoft.graph.onenoteEntityBaseModel",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.onenoteResource",
+  "id": "String (identifier)",
+  "self": "String",
+  "content": "Stream",
+  "contentUrl": "String"
+}
+```
+

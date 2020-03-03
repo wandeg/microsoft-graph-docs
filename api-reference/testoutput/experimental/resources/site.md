@@ -1,0 +1,151 @@
+---
+title: "site resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# site resource type
+
+
+
+
+Inherits from [baseItem](../resources/baseItem.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get site](../api/site-get.md)|[site](../resources/site.md)|Read properties and relationships of the [site](../resources/site.md) object.|
+|[Delete site](../api/site-delete.md)|None|Deletes a [site](../resources/site.md).|
+|[Update site](../api/site-update.md)|[site](../resources/site.md)|Update the properties of a [site](../resources/site.md) object.|
+|[getActivitiesByInterval](../api/site-getactivitiesbyinterval.md)|[itemActivityStat](../resources/itemActivityStat.md) collection||
+|[getByPath](../api/site-getbypath.md)|[site](../resources/site.md)||
+|[add](../api/site-add.md)|[site](../resources/site.md) collection||
+|[remove](../api/site-remove.md)|[site](../resources/site.md) collection||
+|[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
+|[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
+|[Get itemAnalytics](../api/itemanalytics-get.md)|[itemAnalytics](../resources/itemAnalytics.md)|Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.|
+|[List columns](../api/site-list-columns.md)|[columnDefinition](../resources/columnDefinition.md) collection|Get the columnDefinitions from the columns navigation property.|
+|[Add columns](../api/site-post-columns.md)|[columnDefinition](../resources/columnDefinition.md)|Add columns by posting to the columns collection.|
+|[List contentTypes](../api/site-list-contenttypes.md)|[contentType](../resources/contentType.md) collection|Get the contentTypes from the contentTypes navigation property.|
+|[Add contentTypes](../api/site-post-contenttypes.md)|[contentType](../resources/contentType.md)|Add contentTypes by posting to the contentTypes collection.|
+|[Get drive](../api/drive-get.md)|[drive](../resources/drive.md)|Read properties and relationships of the [drive](../resources/drive.md) object.|
+|[List drives](../api/site-list-drives.md)|[drive](../resources/drive.md) collection|Get the drives from the drives navigation property.|
+|[Add drives](../api/site-post-drives.md)|[drive](../resources/drive.md)|Add drives by posting to the drives collection.|
+|[List items](../api/site-list-items.md)|[baseItem](../resources/baseItem.md) collection|Get the baseItems from the items navigation property.|
+|[Add items](../api/site-post-items.md)|[baseItem](../resources/baseItem.md)|Add items by posting to the items collection.|
+|[List lists](../api/site-list-lists.md)|[list](../resources/list.md) collection|Get the lists from the lists navigation property.|
+|[Add lists](../api/site-post-lists.md)|[list](../resources/list.md)|Add lists by posting to the lists collection.|
+|[List pages](../api/site-list-pages.md)|[sitePage](../resources/sitePage.md) collection|Get the sitePages from the pages navigation property.|
+|[Add pages](../api/site-post-pages.md)|[sitePage](../resources/sitePage.md)|Add pages by posting to the pages collection.|
+|[List sites](../api/site-list-sites.md)|[site](../resources/site.md) collection|Get the sites from the sites navigation property.|
+|[Add sites](../api/site-post-sites.md)|[site](../resources/site.md)|Add sites by posting to the sites collection.|
+|[Get onenote](../api/onenote-get.md)|[onenote](../resources/onenote.md)|Read properties and relationships of the [onenote](../resources/onenote.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
+|description|String| Inherited from [baseItem](../resources/baseItem.md)|
+|displayName|String||
+|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
+|name|String| Inherited from [baseItem](../resources/baseItem.md)|
+|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|root|[root](../resources/root.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
+|siteCollection|[siteCollection](../resources/siteCollection.md)||
+|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|analytics|[itemAnalytics](../resources/itemAnalytics.md)||
+|columns|[columnDefinition](../resources/columnDefinition.md) collection||
+|contentTypes|[contentType](../resources/contentType.md) collection||
+|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|drive|[drive](../resources/drive.md)||
+|drives|[drive](../resources/drive.md) collection||
+|items|[baseItem](../resources/baseItem.md) collection||
+|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|lists|[list](../resources/list.md) collection||
+|onenote|[onenote](../resources/onenote.md)||
+|pages|[sitePage](../resources/sitePage.md) collection||
+|sites|[site](../resources/site.md) collection||
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.site",
+  "baseType": "microsoft.graph.baseItem",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.site",
+  "id": "String (identifier)",
+  "createdBy": {
+    "@odata.type": "microsoft.graph.identitySet",
+    "application": {
+      "@odata.type": "microsoft.graph.identity",
+      "id": "String",
+      "displayName": "String"
+    },
+    "device": {
+      "@odata.type": "microsoft.graph.identity"
+    },
+    "user": {
+      "@odata.type": "microsoft.graph.identity"
+    }
+  },
+  "createdDateTime": "String (timestamp)",
+  "description": "String",
+  "eTag": "String",
+  "lastModifiedBy": {
+    "@odata.type": "microsoft.graph.identitySet"
+  },
+  "lastModifiedDateTime": "String (timestamp)",
+  "name": "String",
+  "parentReference": {
+    "@odata.type": "microsoft.graph.itemReference",
+    "driveId": "String",
+    "driveType": "String",
+    "path": "String",
+    "shareId": "String",
+    "sharepointIds": {
+      "@odata.type": "microsoft.graph.sharepointIds",
+      "listId": "String",
+      "listItemId": "String",
+      "listItemUniqueId": "String",
+      "siteId": "String",
+      "siteUrl": "String",
+      "tenantId": "String",
+      "webId": "String"
+    }
+  },
+  "webUrl": "String",
+  "displayName": "String",
+  "root": {
+    "@odata.type": "microsoft.graph.root"
+  },
+  "sharepointIds": {
+    "@odata.type": "microsoft.graph.sharepointIds"
+  },
+  "siteCollection": {
+    "@odata.type": "microsoft.graph.siteCollection",
+    "dataLocationCode": "String",
+    "hostname": "String"
+  }
+}
+```
+

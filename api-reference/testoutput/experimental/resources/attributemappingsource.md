@@ -1,0 +1,52 @@
+---
+title: "attributeMappingSource resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# attributeMappingSource resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|expression|String||
+|name|String||
+|parameters|[stringKeyAttributeMappingSourceValuePair](../resources/stringKeyAttributeMappingSourceValuePair.md) collection||
+|type|Enumeration|. Possible values are: `Attribute`, `Constant`, `Function`.|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.attributeMappingSource"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.attributeMappingSource",
+  "expression": "String",
+  "name": "String",
+  "parameters": [
+    {
+      "@odata.type": "microsoft.graph.stringKeyAttributeMappingSourceValuePair",
+      "key": "String",
+      "value": {
+        "@odata.type": "microsoft.graph.attributeMappingSource",
+        "type": "String"
+      }
+    }
+  ],
+  "type": "String"
+}
+```
+

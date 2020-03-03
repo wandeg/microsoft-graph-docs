@@ -1,0 +1,87 @@
+---
+title: "List remoteActionAudits"
+description: "Get the remoteActionAudits from the remoteActionAudits navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List remoteActionAudits
+
+Get the remoteActionAudits from the remoteActionAudits navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /deviceManagement/remoteActionAudits
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [remoteActionAudit](../resources/remoteactionaudit.md) objects in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_remoteactionaudit"
+}
+-->
+``` http
+GET https://graph.microsoft.com/docs\api/deviceManagement/remoteActionAudits
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.remoteactionaudit)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 623
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.remoteActionAudit",
+      "id": "537f25ec-25ec-537f-ec25-7f53ec257f53",
+      "deviceDisplayName": "Device Display Name value",
+      "userName": "User Name value",
+      "initiatedByUserPrincipalName": "Initiated By User Principal Name value",
+      "action": "String",
+      "requestDateTime": "2017-01-01T00:00:41.7585221+03:00",
+      "deviceOwnerUserPrincipalName": "Device Owner User Principal Name value",
+      "deviceIMEI": "Device IMEI value",
+      "actionState": "String",
+      "managedDeviceId": "Managed Device Id value"
+    }
+  ]
+}
+```
+

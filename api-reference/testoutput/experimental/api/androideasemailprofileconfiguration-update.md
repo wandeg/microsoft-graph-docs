@@ -1,0 +1,192 @@
+---
+title: "Update androidEasEmailProfileConfiguration"
+description: "Update the properties of a androidEasEmailProfileConfiguration object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update androidEasEmailProfileConfiguration
+
+Update the properties of a [androidEasEmailProfileConfiguration](../resources/androideasemailprofileconfiguration.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH ** Entity URI for microsoft.graph.androidEasEmailProfileConfiguration not found
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [androidEasEmailProfileConfiguration](../resources/androidEasEmailProfileConfiguration.md) object.
+
+The following table shows the properties that are required when you create the [androidEasEmailProfileConfiguration](../resources/androideasemailprofileconfiguration.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|supportsScopeTags|Boolean|Indicates whether or not the underlying Device Configuration supports the assignment of scope tags. Assigning to the ScopeTags property is not allowed when this value is false and entities will not be visible to scoped users. This occurs for Legacy policies created in Silverlight and can be resolved by deleting and recreating the policy in the Azure Portal. This property is read-only. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleOsEdition|[deviceManagementApplicabilityRuleOsEdition](../resources/deviceManagementApplicabilityRuleOsEdition.md)|The OS edition applicability for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleOsVersion|[deviceManagementApplicabilityRuleOsVersion](../resources/deviceManagementApplicabilityRuleOsVersion.md)|The OS version applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|deviceManagementApplicabilityRuleDeviceMode|[deviceManagementApplicabilityRuleDeviceMode](../resources/deviceManagementApplicabilityRuleDeviceMode.md)|The device mode applicability rule for this Policy. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|accountName|String|Exchange ActiveSync account name, displayed to users as name of EAS (this) profile.|
+|authenticationMethod|Enumeration|Authentication method for Exchange ActiveSync. Possible values are: `usernameAndPassword`, `certificate`, `derivedCredential`.|
+|syncCalendar|Boolean|Toggles syncing the calendar. If set to false calendar is turned off on the device.|
+|syncContacts|Boolean|Toggles syncing contacts. If set to false contacts are turned off on the device.|
+|syncTasks|Boolean|Toggles syncing tasks. If set to false tasks are turned off on the device.|
+|syncNotes|Boolean|Toggles syncing notes. If set to false notes are turned off on the device.|
+|durationOfEmailToSync|Enumeration|Duration of time email should be synced to. Possible values are: `userDefined`, `oneDay`, `threeDays`, `oneWeek`, `twoWeeks`, `oneMonth`, `unlimited`.|
+|emailAddressSource|Enumeration|Email attribute that is picked from AAD and injected into this profile before installing on the device. Possible values are: `userPrincipalName`, `primarySmtpAddress`.|
+|emailSyncSchedule|Enumeration|Email sync schedule. Possible values are: `userDefined`, `asMessagesArrive`, `manual`, `fifteenMinutes`, `thirtyMinutes`, `sixtyMinutes`, `basedOnMyUsage`.|
+|hostName|String|Exchange location (URL) that the native mail app connects to.|
+|requireSmime|Boolean|Indicates whether or not to use S/MIME certificate.|
+|requireSsl|Boolean|Indicates whether or not to use SSL.|
+|usernameSource|Enumeration|Username attribute that is picked from AAD and injected into this profile before installing on the device. Possible values are: `username`, `userPrincipalName`, `samAccountName`, `primarySmtpAddress`.|
+|userDomainNameSource|Enumeration|UserDomainname attribute that is picked from AAD and injected into this profile before installing on the device. Possible values are: `fullDomainName`, `netBiosDomainName`.|
+|customDomainName|String|Custom domain name value used while generating an email profile before installing on the device.|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [androidEasEmailProfileConfiguration](../resources/androideasemailprofileconfiguration.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_androideasemailprofileconfiguration"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidEasEmailProfileConfiguration not found
+Content-type: application/json
+Content-length: 1380
+
+{
+  "@odata.type": "#microsoft.graph.androidEasEmailProfileConfiguration",
+  "roleScopeTagIds": [
+    "Role Scope Tag Ids value"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsEdition",
+    "osEditionTypes": [
+      "String"
+    ],
+    "name": "Name value",
+    "ruleType": "String"
+  },
+  "deviceManagementApplicabilityRuleOsVersion": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsVersion",
+    "minOSVersion": "Min OSVersion value",
+    "maxOSVersion": "Max OSVersion value"
+  },
+  "deviceManagementApplicabilityRuleDeviceMode": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
+    "deviceMode": "String"
+  },
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "version": 7,
+  "accountName": "Account Name value",
+  "authenticationMethod": "String",
+  "syncCalendar": true,
+  "syncContacts": true,
+  "syncTasks": true,
+  "syncNotes": true,
+  "durationOfEmailToSync": "String",
+  "emailAddressSource": "String",
+  "emailSyncSchedule": "String",
+  "hostName": "Host Name value",
+  "requireSmime": true,
+  "requireSsl": true,
+  "usernameSource": "String",
+  "userDomainNameSource": "String",
+  "customDomainName": "Custom Domain Name value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1552
+
+{
+  "@odata.type": "#microsoft.graph.androidEasEmailProfileConfiguration",
+  "id": "c64e69f3-69f3-c64e-f369-4ec6f3694ec6",
+  "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+  "roleScopeTagIds": [
+    "Role Scope Tag Ids value"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsEdition",
+    "osEditionTypes": [
+      "String"
+    ],
+    "name": "Name value",
+    "ruleType": "String"
+  },
+  "deviceManagementApplicabilityRuleOsVersion": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleOsVersion",
+    "minOSVersion": "Min OSVersion value",
+    "maxOSVersion": "Max OSVersion value"
+  },
+  "deviceManagementApplicabilityRuleDeviceMode": {
+    "@odata.type": "microsoft.graph.deviceManagementApplicabilityRuleDeviceMode",
+    "deviceMode": "String"
+  },
+  "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+  "description": "Description value",
+  "displayName": "Display Name value",
+  "version": 7,
+  "accountName": "Account Name value",
+  "authenticationMethod": "String",
+  "syncCalendar": true,
+  "syncContacts": true,
+  "syncTasks": true,
+  "syncNotes": true,
+  "durationOfEmailToSync": "String",
+  "emailAddressSource": "String",
+  "emailSyncSchedule": "String",
+  "hostName": "Host Name value",
+  "requireSmime": true,
+  "requireSsl": true,
+  "usernameSource": "String",
+  "userDomainNameSource": "String",
+  "customDomainName": "Custom Domain Name value"
+}
+```
+

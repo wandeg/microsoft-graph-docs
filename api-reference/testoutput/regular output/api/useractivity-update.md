@@ -1,0 +1,159 @@
+---
+title: "Update userActivity"
+description: "Update the properties of a userActivity object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update userActivity
+
+Update the properties of a [userActivity](../resources/useractivity.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /me/activities/{userActivityId}
+PATCH /users/{usersId}/activities/{userActivityId}
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [userActivity](../resources/userActivity.md) object.
+
+The following table shows the properties that are required when you create the [userActivity](../resources/useractivity.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|visualElements|[visualInfo](../resources/visualInfo.md)||
+|activitySourceHost|String||
+|activationUrl|String||
+|appActivityId|String||
+|appDisplayName|String||
+|contentUrl|String||
+|createdDateTime|DateTimeOffset||
+|expirationDateTime|DateTimeOffset||
+|fallbackUrl|String||
+|lastModifiedDateTime|DateTimeOffset||
+|userTimezone|String||
+|contentInfo|[Json](../resources/Json.md)||
+|status|Enumeration|. Possible values are: `active`, `updated`, `deleted`, `ignored`, `unknownFutureValue`.|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [userActivity](../resources/useractivity.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_useractivity"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/me/activities/{userActivityId}
+Content-type: application/json
+Content-length: 1103
+
+{
+  "@odata.type": "#microsoft.graph.userActivity",
+  "visualElements": {
+    "@odata.type": "microsoft.graph.visualInfo",
+    "attribution": {
+      "@odata.type": "microsoft.graph.imageInfo",
+      "iconUrl": "https://example.com/iconUrl/",
+      "alternativeText": "Alternative Text value",
+      "alternateText": "Alternate Text value",
+      "addImageQuery": true
+    },
+    "backgroundColor": "Background Color value",
+    "description": "Description value",
+    "displayText": "Display Text value",
+    "content": {
+      "@odata.type": "microsoft.graph.Json"
+    }
+  },
+  "activitySourceHost": "Activity Source Host value",
+  "activationUrl": "https://example.com/activationUrl/",
+  "appActivityId": "App Activity Id value",
+  "appDisplayName": "App Display Name value",
+  "contentUrl": "https://example.com/contentUrl/",
+  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "fallbackUrl": "https://example.com/fallbackUrl/",
+  "userTimezone": "User Timezone value",
+  "contentInfo": {
+    "@odata.type": "microsoft.graph.Json"
+  },
+  "status": "String"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1275
+
+{
+  "@odata.type": "#microsoft.graph.userActivity",
+  "id": "2527f551-f551-2527-51f5-272551f52725",
+  "visualElements": {
+    "@odata.type": "microsoft.graph.visualInfo",
+    "attribution": {
+      "@odata.type": "microsoft.graph.imageInfo",
+      "iconUrl": "https://example.com/iconUrl/",
+      "alternativeText": "Alternative Text value",
+      "alternateText": "Alternate Text value",
+      "addImageQuery": true
+    },
+    "backgroundColor": "Background Color value",
+    "description": "Description value",
+    "displayText": "Display Text value",
+    "content": {
+      "@odata.type": "microsoft.graph.Json"
+    }
+  },
+  "activitySourceHost": "Activity Source Host value",
+  "activationUrl": "https://example.com/activationUrl/",
+  "appActivityId": "App Activity Id value",
+  "appDisplayName": "App Display Name value",
+  "contentUrl": "https://example.com/contentUrl/",
+  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "fallbackUrl": "https://example.com/fallbackUrl/",
+  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "userTimezone": "User Timezone value",
+  "contentInfo": {
+    "@odata.type": "microsoft.graph.Json"
+  },
+  "status": "String"
+}
+```
+

@@ -1,0 +1,81 @@
+---
+title: "List accessPackageAssignmentResourceRoles"
+description: "Get the accessPackageAssignmentResourceRoles from the accessPackageAssignmentResourceRoles navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List accessPackageAssignmentResourceRoles
+
+Get the accessPackageAssignmentResourceRoles from the accessPackageAssignmentResourceRoles navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /identityGovernance/entitlementManagement/accessPackageAssignmentResourceRoles
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [accessPackageAssignmentResourceRole](../resources/accesspackageassignmentresourcerole.md) objects in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_accesspackageassignmentresourcerole"
+}
+-->
+``` http
+GET https://graph.microsoft.com/docs\api/identityGovernance/entitlementManagement/accessPackageAssignmentResourceRoles
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.accesspackageassignmentresourcerole)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 284
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.accessPackageAssignmentResourceRole",
+      "id": "522e0b0d-0b0d-522e-0d0b-2e520d0b2e52",
+      "originId": "Origin Id value",
+      "originSystem": "Origin System value",
+      "status": "Status value"
+    }
+  ]
+}
+```
+

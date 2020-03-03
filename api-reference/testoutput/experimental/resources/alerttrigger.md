@@ -1,0 +1,41 @@
+---
+title: "alertTrigger resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# alertTrigger resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|name|String||
+|type|String||
+|value|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.alertTrigger"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.alertTrigger",
+  "name": "String",
+  "type": "String",
+  "value": "String"
+}
+```
+

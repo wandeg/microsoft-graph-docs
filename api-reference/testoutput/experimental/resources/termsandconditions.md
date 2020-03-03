@@ -1,0 +1,84 @@
+---
+title: "termsAndConditions resource type"
+description: "A termsAndConditions entity represents the metadata and contents of a given Terms and Conditions (T&C) policy. T&C policies’ contents are presented to users upon their first attempt to enroll into Intune and subsequently upon edits where an administrator has required re-acceptance. They enable administrators to communicate the provisions to which a user must agree in order to have devices enrolled into Intune."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# termsAndConditions resource type
+
+A termsAndConditions entity represents the metadata and contents of a given Terms and Conditions (T&C) policy. T&C policies’ contents are presented to users upon their first attempt to enroll into Intune and subsequently upon edits where an administrator has required re-acceptance. They enable administrators to communicate the provisions to which a user must agree in order to have devices enrolled into Intune.
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get termsAndConditions](../api/termsandconditions-get.md)|[termsAndConditions](../resources/termsAndConditions.md)|Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.|
+|[Delete termsAndConditions](../api/termsandconditions-delete.md)|None|Deletes a [termsAndConditions](../resources/termsandconditions.md).|
+|[Update termsAndConditions](../api/termsandconditions-update.md)|[termsAndConditions](../resources/termsAndConditions.md)|Update the properties of a [termsAndConditions](../resources/termsandconditions.md) object.|
+|[List groupAssignments](../api/termsandconditions-list-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md) collection|Get the termsAndConditionsGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/termsandconditions-post-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
+|[List assignments](../api/termsandconditions-list-assignments.md)|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md) collection|Get the termsAndConditionsAssignments from the assignments navigation property.|
+|[Add assignments](../api/termsandconditions-post-assignments.md)|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md)|Add assignments by posting to the assignments collection.|
+|[List acceptanceStatuses](../api/termsandconditions-list-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md) collection|Get the termsAndConditionsAcceptanceStatuses from the acceptanceStatuses navigation property.|
+|[Add acceptanceStatuses](../api/termsandconditions-post-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md)|Add acceptanceStatuses by posting to the acceptanceStatuses collection.|
+|[List termsAndConditions](../api/intune-devices-devicemanagement-list-termsandconditions.md)|[termsAndConditions](../resources/termsAndConditions.md) collection|Get the termsAndConditionses from the termsAndConditions navigation property.|
+|[Add termsAndConditions](../api/intune-devices-devicemanagement-post-termsandconditions.md)|[termsAndConditions](../resources/termsAndConditions.md)|Add termsAndConditions by posting to the termsAndConditions collection.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|acceptanceStatement|String|Administrator-supplied explanation of the terms and conditions, typically describing what it means to accept the terms and conditions set out in the T&C policy. This is shown to the user on prompts to accept the T&C policy.|
+|bodyText|String|Administrator-supplied body text of the terms and conditions, typically the terms themselves. This is shown to the user on prompts to accept the T&C policy.|
+|createdDateTime|DateTimeOffset|DateTime the object was created.|
+|description|String|Administrator-supplied description of the T&C policy.|
+|displayName|String|Administrator-supplied name for the T&C policy. |
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified.|
+|modifiedDateTime|DateTimeOffset|DateTime the object was last modified.|
+|roleScopeTagIds|String collection|List of Scope Tags for this Entity instance.|
+|title|String|Administrator-supplied title of the terms and conditions. This is shown to the user on prompts to accept the T&C policy.|
+|version|Int32|Integer indicating the current version of the terms. Incremented when an administrator makes a change to the terms and wishes to require users to re-accept the modified T&C policy.|
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|acceptanceStatuses|[termsAndConditionsAcceptanceStatus](../resources/termsAndConditionsAcceptanceStatus.md) collection|The list of acceptance statuses for this T&C policy.|
+|assignments|[termsAndConditionsAssignment](../resources/termsAndConditionsAssignment.md) collection|The list of assignments for this T&C policy.|
+|groupAssignments|[termsAndConditionsGroupAssignment](../resources/termsAndConditionsGroupAssignment.md) collection|The list of group assignments for this T&C policy.|
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.termsAndConditions",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.termsAndConditions",
+  "id": "String (identifier)",
+  "createdDateTime": "String (timestamp)",
+  "modifiedDateTime": "String (timestamp)",
+  "lastModifiedDateTime": "String (timestamp)",
+  "displayName": "String",
+  "description": "String",
+  "title": "String",
+  "bodyText": "String",
+  "acceptanceStatement": "String",
+  "version": 1024,
+  "roleScopeTagIds": [
+    "String"
+  ]
+}
+```
+

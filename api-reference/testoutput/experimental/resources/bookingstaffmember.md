@@ -1,0 +1,71 @@
+---
+title: "bookingStaffMember resource type"
+description: "Represents a staff member who provides services in a business."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# bookingStaffMember resource type
+
+Represents a staff member who provides services in a business.
+
+
+Inherits from [bookingPerson](../resources/bookingPerson.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get bookingStaffMember](../api/bookingstaffmember-get.md)|[bookingStaffMember](../resources/bookingStaffMember.md)|Read properties and relationships of the [bookingStaffMember](../resources/bookingstaffmember.md) object.|
+|[Delete bookingStaffMember](../api/bookingstaffmember-delete.md)|None|Deletes a [bookingStaffMember](../resources/bookingstaffmember.md).|
+|[Update bookingStaffMember](../api/bookingstaffmember-update.md)|[bookingStaffMember](../resources/bookingStaffMember.md)|Update the properties of a [bookingStaffMember](../resources/bookingstaffmember.md) object.|
+|[List staffMembers](../api/bookingbusiness-list-staffmembers.md)|[bookingStaffMember](../resources/bookingStaffMember.md) collection|Get the bookingStaffMembers from the staffMembers navigation property.|
+|[Add staffMembers](../api/bookingbusiness-post-staffmembers.md)|[bookingStaffMember](../resources/bookingStaffMember.md)|Add staffMembers by posting to the staffMembers collection.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|availabilityIsAffectedByPersonalCalendar|Boolean||
+|colorIndex|Int32||
+|displayName|String|Display name of this entity.
+The display name is suitable for human-readable interfaces. Inherited from [bookingNamedEntity](../resources/bookingNamedEntity.md)|
+|emailAddress|String|The e-mail address of this person. Inherited from [bookingPerson](../resources/bookingPerson.md)|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|role|Enumeration|. Possible values are: `guest`, `administrator`, `viewer`, `externalGuest`.|
+|useBusinessHours|Boolean||
+|workingHours|[bookingWorkHours](../resources/bookingWorkHours.md) collection||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.bookingStaffMember",
+  "baseType": "microsoft.graph.bookingPerson",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.bookingStaffMember",
+  "id": "String (identifier)",
+  "displayName": "String",
+  "emailAddress": "String",
+  "availabilityIsAffectedByPersonalCalendar": true,
+  "colorIndex": 1024,
+  "role": "String",
+  "useBusinessHours": true,
+  "workingHours": [
+    {
+      "@odata.type": "microsoft.graph.bookingWorkHours"
+    }
+  ]
+}
+```
+

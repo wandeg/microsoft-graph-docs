@@ -1,0 +1,49 @@
+---
+title: "passwordCredential resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# passwordCredential resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|customKeyIdentifier|Binary||
+|displayName|String||
+|endDateTime|DateTimeOffset||
+|hint|String||
+|keyId|Guid||
+|secretText|String||
+|startDateTime|DateTimeOffset||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.passwordCredential"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.passwordCredential",
+  "customKeyIdentifier": "binary",
+  "endDateTime": "String (timestamp)",
+  "keyId": "Guid",
+  "startDateTime": "String (timestamp)",
+  "secretText": "String",
+  "hint": "String",
+  "displayName": "String"
+}
+```
+

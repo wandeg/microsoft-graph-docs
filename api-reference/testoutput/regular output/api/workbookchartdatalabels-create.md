@@ -1,0 +1,113 @@
+---
+title: "Create workbookChartDataLabels"
+description: "Create a new workbookChartDataLabels object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create workbookChartDataLabels
+
+Create a new [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST ** Collection URI for microsoft.graph.workbookChartDataLabels not found
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the workbookChartDataLabels object.
+
+The following table shows the properties that are required when you create the workbookChartDataLabels.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|position|String||
+|separator|String||
+|showBubbleSize|Boolean||
+|showCategoryName|Boolean||
+|showLegendKey|Boolean||
+|showPercentage|Boolean||
+|showSeriesName|Boolean||
+|showValue|Boolean||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_workbookchartdatalabels_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartDataLabels not found
+Content-type: application/json
+Content-length: 291
+
+{
+  "@odata.type": "#microsoft.graph.workbookChartDataLabels",
+  "position": "Position value",
+  "separator": "Separator value",
+  "showBubbleSize": true,
+  "showCategoryName": true,
+  "showLegendKey": true,
+  "showPercentage": true,
+  "showSeriesName": true,
+  "showValue": true
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.workbookchartdatalabels"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 340
+
+{
+  "@odata.type": "#microsoft.graph.workbookChartDataLabels",
+  "id": "c9b90d74-0d74-c9b9-740d-b9c9740db9c9",
+  "position": "Position value",
+  "separator": "Separator value",
+  "showBubbleSize": true,
+  "showCategoryName": true,
+  "showLegendKey": true,
+  "showPercentage": true,
+  "showSeriesName": true,
+  "showValue": true
+}
+```
+

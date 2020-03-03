@@ -1,0 +1,140 @@
+---
+title: "Update deviceManagementTroubleshootingEvent"
+description: "Update the properties of a deviceManagementTroubleshootingEvent object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update deviceManagementTroubleshootingEvent
+
+Update the properties of a [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md) object.
+
+The following table shows the properties that are required when you create the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|eventDateTime|DateTimeOffset|Time when the event occurred .|
+|correlationId|String|Id used for tracing the failure in the service.|
+|troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/deviceManagementTroubleshootingErrorDetails.md)|Object containing detailed information about the error and its remediation.|
+|eventName|String|Event Name corresponding to the Troubleshooting Event. It is an Optional field|
+|additionalInformation|[keyValuePair](../resources/keyValuePair.md) collection|A set of string key and string value pairs which provides additional information on the Troubleshooting event|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_devicemanagementtroubleshootingevent"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/docs\api/deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
+Content-type: application/json
+Content-length: 852
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
+  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "correlationId": "Correlation Id value",
+  "troubleshootingErrorDetails": {
+    "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
+    "context": "Context value",
+    "failure": "Failure value",
+    "failureDetails": "Failure Details value",
+    "remediation": "Remediation value",
+    "resources": [
+      {
+        "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorResource",
+        "text": "Text value",
+        "link": "Link value"
+      }
+    ]
+  },
+  "eventName": "Event Name value",
+  "additionalInformation": [
+    {
+      "@odata.type": "microsoft.graph.keyValuePair",
+      "name": "Name value",
+      "value": "Value value"
+    }
+  ]
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 901
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
+  "id": "d5a6ce95-ce95-d5a6-95ce-a6d595cea6d5",
+  "eventDateTime": "2017-01-01T00:00:02.9716266+03:00",
+  "correlationId": "Correlation Id value",
+  "troubleshootingErrorDetails": {
+    "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
+    "context": "Context value",
+    "failure": "Failure value",
+    "failureDetails": "Failure Details value",
+    "remediation": "Remediation value",
+    "resources": [
+      {
+        "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorResource",
+        "text": "Text value",
+        "link": "Link value"
+      }
+    ]
+  },
+  "eventName": "Event Name value",
+  "additionalInformation": [
+    {
+      "@odata.type": "microsoft.graph.keyValuePair",
+      "name": "Name value",
+      "value": "Value value"
+    }
+  ]
+}
+```
+

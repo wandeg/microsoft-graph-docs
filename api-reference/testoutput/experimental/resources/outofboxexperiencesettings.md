@@ -1,0 +1,47 @@
+---
+title: "outOfBoxExperienceSettings resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# outOfBoxExperienceSettings resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|deviceUsageType|Enumeration|AAD join authentication type. Possible values are: `singleUser`, `shared`.|
+|hideEscapeLink|Boolean|If set to true, then the user can't start over with different account, on company sign-in|
+|hideEULA|Boolean|Show or hide EULA to user|
+|hidePrivacySettings|Boolean|Show or hide privacy settings to user|
+|skipKeyboardSelectionPage|Boolean|If set, then skip the keyboard selection page if Language and Region are set|
+|userType|Enumeration|Type of user. Possible values are: `administrator`, `standard`.|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.outOfBoxExperienceSettings"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.outOfBoxExperienceSettings",
+  "hidePrivacySettings": true,
+  "hideEULA": true,
+  "userType": "String",
+  "deviceUsageType": "String",
+  "skipKeyboardSelectionPage": true,
+  "hideEscapeLink": true
+}
+```
+

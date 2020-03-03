@@ -1,0 +1,193 @@
+---
+title: "List calendarView"
+description: "Get the events from the calendarView navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List calendarView
+
+Get the events from the calendarView navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /groups/{groupsId}/calendarView
+GET /me/joinedTeams/{groupId}/calendarView
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [event](../resources/event.md) objects in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_event"
+}
+-->
+``` http
+GET https://graph.microsoft.com/docs\api/groups/{groupsId}/calendarView
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.event)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 3984
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.event",
+      "id": "31f56311-6311-31f5-1163-f5311163f531",
+      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "changeKey": "Change Key value",
+      "categories": [
+        "Categories value"
+      ],
+      "originalStartTimeZone": "Original Start Time Zone value",
+      "originalEndTimeZone": "Original End Time Zone value",
+      "responseStatus": {
+        "@odata.type": "microsoft.graph.responseStatus",
+        "response": "String",
+        "time": "2016-12-31T23:59:22.8558203+03:00"
+      },
+      "iCalUId": "ICal UId value",
+      "reminderMinutesBeforeStart": 10,
+      "isReminderOn": true,
+      "hasAttachments": true,
+      "subject": "Subject value",
+      "body": {
+        "@odata.type": "microsoft.graph.itemBody",
+        "contentType": "String",
+        "content": "Content value"
+      },
+      "bodyPreview": "Body Preview value",
+      "importance": "String",
+      "sensitivity": "String",
+      "start": {
+        "@odata.type": "microsoft.graph.dateTimeTimeZone",
+        "dateTime": "Date Time value",
+        "timeZone": "Time Zone value"
+      },
+      "originalStart": "2017-01-01T00:01:42.1602103+03:00",
+      "end": {
+        "@odata.type": "microsoft.graph.dateTimeTimeZone"
+      },
+      "location": {
+        "@odata.type": "microsoft.graph.location",
+        "displayName": "Display Name value",
+        "locationEmailAddress": "Location Email Address value",
+        "address": {
+          "@odata.type": "microsoft.graph.physicalAddress",
+          "street": "Street value",
+          "city": "City value",
+          "state": "State value",
+          "countryOrRegion": "Country Or Region value",
+          "postalCode": "Postal Code value"
+        },
+        "locationUri": "Location Uri value",
+        "coordinates": {
+          "@odata.type": "microsoft.graph.outlookGeoCoordinates",
+          "latitude": "Double",
+          "longitude": "Double",
+          "accuracy": "Double",
+          "altitude": "Double",
+          "altitudeAccuracy": "Double"
+        },
+        "locationType": "String",
+        "uniqueId": "Unique Id value",
+        "uniqueIdType": "String"
+      },
+      "locations": [
+        {
+          "@odata.type": "microsoft.graph.location"
+        }
+      ],
+      "isAllDay": true,
+      "isCancelled": true,
+      "isOrganizer": true,
+      "recurrence": {
+        "@odata.type": "microsoft.graph.patternedRecurrence",
+        "pattern": {
+          "@odata.type": "microsoft.graph.recurrencePattern",
+          "type": "String",
+          "interval": 8,
+          "month": 5,
+          "dayOfMonth": 10,
+          "daysOfWeek": [
+            "String"
+          ],
+          "firstDayOfWeek": "String",
+          "index": "String"
+        },
+        "range": {
+          "@odata.type": "microsoft.graph.recurrenceRange",
+          "type": "String",
+          "startDate": "Date",
+          "endDate": "Date",
+          "recurrenceTimeZone": "Recurrence Time Zone value",
+          "numberOfOccurrences": 3
+        }
+      },
+      "responseRequested": true,
+      "seriesMasterId": "Series Master Id value",
+      "showAs": "String",
+      "type": "String",
+      "attendees": [
+        {
+          "@odata.type": "microsoft.graph.attendee",
+          "emailAddress": {
+            "@odata.type": "microsoft.graph.emailAddress",
+            "name": "Name value",
+            "address": "Address value"
+          },
+          "type": "String",
+          "status": {
+            "@odata.type": "microsoft.graph.responseStatus"
+          }
+        }
+      ],
+      "organizer": {
+        "@odata.type": "microsoft.graph.recipient"
+      },
+      "webLink": "Web Link value",
+      "onlineMeetingUrl": "https://example.com/onlineMeetingUrl/"
+    }
+  ]
+}
+```
+

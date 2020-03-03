@@ -1,0 +1,39 @@
+---
+title: "authenticationRequirementPolicy resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# authenticationRequirementPolicy resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|detail|String||
+|requirementProvider|Enumeration|. Possible values are: `MFA`, `CA`, `unknownFutureValue`.|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.authenticationRequirementPolicy"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.authenticationRequirementPolicy",
+  "requirementProvider": "String",
+  "detail": "String"
+}
+```
+

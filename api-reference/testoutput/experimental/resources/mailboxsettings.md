@@ -1,0 +1,80 @@
+---
+title: "mailboxSettings resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# mailboxSettings resource type
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|archiveFolder|String||
+|automaticRepliesSetting|[automaticRepliesSetting](../resources/automaticRepliesSetting.md)||
+|dateFormat|String||
+|delegateMeetingMessageDeliveryOptions|Enumeration|. Possible values are: `sendToDelegateAndInformationToPrincipal`, `sendToDelegateAndPrincipal`, `sendToDelegateOnly`.|
+|language|[localeInfo](../resources/localeInfo.md)||
+|timeFormat|String||
+|timeZone|String||
+|workingHours|[workingHours](../resources/workingHours.md)||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.mailboxSettings"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.mailboxSettings",
+  "automaticRepliesSetting": {
+    "@odata.type": "microsoft.graph.automaticRepliesSetting",
+    "status": "String",
+    "externalAudience": "String",
+    "scheduledStartDateTime": {
+      "@odata.type": "microsoft.graph.dateTimeTimeZone",
+      "dateTime": "String",
+      "timeZone": "String"
+    },
+    "scheduledEndDateTime": {
+      "@odata.type": "microsoft.graph.dateTimeTimeZone"
+    },
+    "internalReplyMessage": "String",
+    "externalReplyMessage": "String"
+  },
+  "archiveFolder": "String",
+  "timeZone": "String",
+  "language": {
+    "@odata.type": "microsoft.graph.localeInfo",
+    "locale": "String",
+    "displayName": "String"
+  },
+  "delegateMeetingMessageDeliveryOptions": "String",
+  "workingHours": {
+    "@odata.type": "microsoft.graph.workingHours",
+    "daysOfWeek": [
+      "String"
+    ],
+    "startTime": "String (time of day)",
+    "endTime": "String (time of day)",
+    "timeZone": {
+      "@odata.type": "microsoft.graph.timeZoneBase",
+      "name": "String"
+    }
+  },
+  "dateFormat": "String",
+  "timeFormat": "String"
+}
+```
+

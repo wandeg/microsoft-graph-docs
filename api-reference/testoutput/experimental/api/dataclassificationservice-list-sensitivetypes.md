@@ -1,0 +1,85 @@
+---
+title: "List sensitiveTypes"
+description: "Get the sensitiveTypes from the sensitiveTypes navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List sensitiveTypes
+
+Get the sensitiveTypes from the sensitiveTypes navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /dataClassification/sensitiveTypes
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [sensitiveType](../resources/sensitivetype.md) objects in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_sensitivetype"
+}
+-->
+``` http
+GET https://graph.microsoft.com/docs\api/dataClassification/sensitiveTypes
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.sensitivetype)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 424
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.sensitiveType",
+      "id": "3c8ed259-d259-3c8e-59d2-8e3c59d28e3c",
+      "name": "Name value",
+      "description": "Description value",
+      "rulePackageId": "Rule Package Id value",
+      "rulePackageType": "Rule Package Type value",
+      "publisherName": "Publisher Name value",
+      "state": "State value",
+      "scope": "String"
+    }
+  ]
+}
+```
+

@@ -1,0 +1,162 @@
+---
+title: "Create taughtClasses"
+description: "Create taughtClasses by posting to the taughtClasses collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create taughtClasses
+
+Create taughtClasses by posting to the taughtClasses collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /education/classes/{educationClassId}/members/{educationUserId}/taughtClasses/$ref
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+|Content-Type|application/json|
+
+## Request body
+In the request body, supply a JSON representation for the educationClass object.
+
+The following table shows the properties that are required when you create the educationClass.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|displayName|String||
+|mailNickname|String||
+|description|String||
+|createdBy|[identitySet](../resources/identitySet.md)||
+|classCode|String||
+|externalName|String||
+|externalId|String||
+|externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
+|grade|String||
+|term|[educationTerm](../resources/educationTerm.md)||
+|course|[educationCourse](../resources/educationCourse.md)||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [educationClass](../resources/educationclass.md) object in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_educationclass_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members/{educationUserId}/taughtClasses
+Content-type: application/json
+Content-length: 948
+
+{
+  "@odata.type": "#microsoft.graph.educationClass",
+  "displayName": "Display Name value",
+  "mailNickname": "Mail Nickname value",
+  "description": "Description value",
+  "createdBy": {
+    "@odata.type": "microsoft.graph.identitySet",
+    "application": {
+      "@odata.type": "microsoft.graph.identity",
+      "id": "Id value"
+    },
+    "device": {
+      "@odata.type": "microsoft.graph.identity"
+    },
+    "user": {
+      "@odata.type": "microsoft.graph.identity"
+    }
+  },
+  "classCode": "Class Code value",
+  "externalName": "External Name value",
+  "externalId": "External Id value",
+  "externalSource": "String",
+  "grade": "Grade value",
+  "term": {
+    "@odata.type": "microsoft.graph.educationTerm",
+    "startDate": "Date",
+    "endDate": "Date"
+  },
+  "course": {
+    "@odata.type": "microsoft.graph.educationCourse",
+    "subject": "Subject value",
+    "courseNumber": "Course Number value"
+  }
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.educationclass"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 997
+
+{
+  "@odata.type": "#microsoft.graph.educationClass",
+  "id": "60496f21-6f21-6049-216f-4960216f4960",
+  "displayName": "Display Name value",
+  "mailNickname": "Mail Nickname value",
+  "description": "Description value",
+  "createdBy": {
+    "@odata.type": "microsoft.graph.identitySet",
+    "application": {
+      "@odata.type": "microsoft.graph.identity",
+      "id": "Id value"
+    },
+    "device": {
+      "@odata.type": "microsoft.graph.identity"
+    },
+    "user": {
+      "@odata.type": "microsoft.graph.identity"
+    }
+  },
+  "classCode": "Class Code value",
+  "externalName": "External Name value",
+  "externalId": "External Id value",
+  "externalSource": "String",
+  "grade": "Grade value",
+  "term": {
+    "@odata.type": "microsoft.graph.educationTerm",
+    "startDate": "Date",
+    "endDate": "Date"
+  },
+  "course": {
+    "@odata.type": "microsoft.graph.educationCourse",
+    "subject": "Subject value",
+    "courseNumber": "Course Number value"
+  }
+}
+```
+

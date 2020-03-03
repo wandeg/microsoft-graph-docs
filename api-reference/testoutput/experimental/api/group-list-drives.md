@@ -1,0 +1,141 @@
+---
+title: "List drives"
+description: "Get the drives from the drives navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List drives
+
+Get the drives from the drives navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP Request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /groups/{groupsId}/drives
+GET /me/joinedGroups/{groupId}/drives
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [drive](../resources/drive.md) objects in the response body.
+
+## Example
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_drive"
+}
+-->
+``` http
+GET https://graph.microsoft.com/docs\api/groups/{groupsId}/drives
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.drive)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 2236
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.drive",
+      "id": "1e3d187b-187b-1e3d-7b18-3d1e7b183d1e",
+      "createdBy": {
+        "@odata.type": "microsoft.graph.identitySet",
+        "application": {
+          "@odata.type": "microsoft.graph.identity",
+          "id": "Id value",
+          "displayName": "Display Name value"
+        },
+        "device": {
+          "@odata.type": "microsoft.graph.identity"
+        },
+        "user": {
+          "@odata.type": "microsoft.graph.identity"
+        }
+      },
+      "createdDateTime": "2017-01-01T00:00:46.1697867+03:00",
+      "description": "Description value",
+      "eTag": "ETag value",
+      "lastModifiedBy": {
+        "@odata.type": "microsoft.graph.identitySet"
+      },
+      "lastModifiedDateTime": "2016-12-31T23:58:46.8102575+03:00",
+      "name": "Name value",
+      "parentReference": {
+        "@odata.type": "microsoft.graph.itemReference",
+        "driveId": "Drive Id value",
+        "driveType": "Drive Type value",
+        "path": "Path value",
+        "shareId": "Share Id value",
+        "sharepointIds": {
+          "@odata.type": "microsoft.graph.sharepointIds",
+          "listId": "List Id value",
+          "listItemId": "List Item Id value",
+          "listItemUniqueId": "List Item Unique Id value",
+          "siteId": "Site Id value",
+          "siteUrl": "https://example.com/siteUrl/",
+          "tenantId": "Tenant Id value",
+          "webId": "Web Id value"
+        }
+      },
+      "webUrl": "https://example.com/webUrl/",
+      "driveType": "Drive Type value",
+      "owner": {
+        "@odata.type": "microsoft.graph.identitySet"
+      },
+      "quota": {
+        "@odata.type": "microsoft.graph.quota",
+        "deleted": 7,
+        "remaining": 9,
+        "state": "State value",
+        "total": 5,
+        "used": 4,
+        "storagePlanInformation": {
+          "@odata.type": "microsoft.graph.storagePlanInformation",
+          "upgradeAvailable": true
+        }
+      },
+      "sharePointIds": {
+        "@odata.type": "microsoft.graph.sharepointIds"
+      },
+      "system": {
+        "@odata.type": "microsoft.graph.systemFacet"
+      }
+    }
+  ]
+}
+```
+

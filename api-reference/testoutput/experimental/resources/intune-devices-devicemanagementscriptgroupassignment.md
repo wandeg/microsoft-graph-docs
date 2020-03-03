@@ -1,0 +1,52 @@
+---
+title: "deviceManagementScriptGroupAssignment resource type"
+description: "Contains properties used to assign a device management script to a group."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# deviceManagementScriptGroupAssignment resource type
+
+Contains properties used to assign a device management script to a group.
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get deviceManagementScriptGroupAssignment](../api/intune-devices-devicemanagementscriptgroupassignment-get.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md)|Read properties and relationships of the [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md) object.|
+|[Delete deviceManagementScriptGroupAssignment](../api/intune-devices-devicemanagementscriptgroupassignment-delete.md)|None|Deletes a [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md).|
+|[Update deviceManagementScriptGroupAssignment](../api/intune-devices-devicemanagementscriptgroupassignment-update.md)|[deviceManagementScriptGroupAssignment](../resources/intune-devices-deviceManagementScriptGroupAssignment.md)|Update the properties of a [deviceManagementScriptGroupAssignment](../resources/devicemanagementscriptgroupassignment.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|targetGroupId|String|The Id of the Azure Active Directory group we are targeting the script to.|
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.deviceManagementScriptGroupAssignment",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.deviceManagementScriptGroupAssignment",
+  "id": "String (identifier)",
+  "targetGroupId": "String"
+}
+```
+

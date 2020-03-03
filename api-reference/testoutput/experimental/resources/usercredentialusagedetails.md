@@ -1,0 +1,66 @@
+---
+title: "userCredentialUsageDetails resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+Namespace: microsoft.graph
+---
+
+
+# userCredentialUsageDetails resource type
+
+
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[List userCredentialUsageDetailses](../api/usercredentialusagedetails-list.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md) collection|List properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) objects.|
+|[Get userCredentialUsageDetails](../api/usercredentialusagedetails-get.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Read properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+|[Create userCredentialUsageDetails](../api/usercredentialusagedetails-create.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Create a new [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+|[Delete userCredentialUsageDetails](../api/usercredentialusagedetails-delete.md)|None|Deletes a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md).|
+|[Update userCredentialUsageDetails](../api/usercredentialusagedetails-update.md)|[userCredentialUsageDetails](../resources/userCredentialUsageDetails.md)|Update the properties of a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|authMethod|Enumeration|. Possible values are: `email`, `mobileSMS`, `mobileCall`, `officePhone`, `securityQuestion`, `appNotification`, `appCode`, `alternateMobileCall`, `fido`, `appPassword`, `unknownFutureValue`.|
+|eventDateTime|DateTimeOffset||
+|failureReason|String||
+|feature|Enumeration|. Possible values are: `registration`, `reset`, `unknownFutureValue`.|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|isSuccess|Boolean||
+|userDisplayName|String||
+|userPrincipalName|String||
+
+## Relationships
+None
+
+## JSON Representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.userCredentialUsageDetails",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.userCredentialUsageDetails",
+  "id": "String (identifier)",
+  "feature": "String",
+  "userPrincipalName": "String",
+  "userDisplayName": "String",
+  "isSuccess": true,
+  "authMethod": "String",
+  "failureReason": "String",
+  "eventDateTime": "String (timestamp)"
+}
+```
+
