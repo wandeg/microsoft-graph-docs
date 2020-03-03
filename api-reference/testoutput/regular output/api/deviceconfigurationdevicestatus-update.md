@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationDeviceStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceStatu
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceStatuses/{deviceConfigurationDeviceStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceStatuses/{deviceConfigurationDeviceStatusId}
 Content-type: application/json
 Content-length: 423
 
@@ -74,9 +76,9 @@ Content-length: 423
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -95,13 +97,13 @@ Content-Length: 472
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStatus",
-  "id": "4b5ee2d4-e2d4-4b5e-d4e2-5e4bd4e25e4b",
+  "id": "ce2dde06-de06-ce2d-06de-2dce06de2dce",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

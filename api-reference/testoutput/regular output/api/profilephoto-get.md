@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get profilePhoto
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/photo
+GET https://graph.microsoft.com/localtest/me/photo
 ```
 
 ### Response
@@ -80,7 +82,7 @@ Content-Length: 161
 {
   "value": {
     "@odata.type": "#microsoft.graph.profilePhoto",
-    "id": "1fe344be-44be-1fe3-be44-e31fbe44e31f",
+    "id": "ee96df92-df92-ee96-92df-96ee92df96ee",
     "height": 6,
     "width": 5
   }

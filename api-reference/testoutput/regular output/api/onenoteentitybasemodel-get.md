@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenoteEntityBaseModel
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.onenoteEntityBaseModel not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.onenoteEntityBaseModel not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 163
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteEntityBaseModel",
-    "id": "85a1a2a5-a2a5-85a1-a5a2-a185a5a2a185",
+    "id": "3ab54c4d-4c4d-3ab5-4d4c-b53a4d4cb53a",
     "self": "Self value"
   }
 }

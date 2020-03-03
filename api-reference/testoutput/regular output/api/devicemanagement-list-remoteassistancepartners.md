@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List remoteAssistancePartners
 
+Namespace: microsoft.graph
+
 Get the remoteAssistancePartners from the remoteAssistancePartners navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/remoteAssistancePartners
+GET https://graph.microsoft.com/localtest/deviceManagement/remoteAssistancePartners
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 368
   "value": [
     {
       "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-      "id": "f6fd7b4e-7b4e-f6fd-4e7b-fdf64e7bfdf6",
+      "id": "1ac7bd7e-bd7e-1ac7-7ebd-c71a7ebdc71a",
       "displayName": "Display Name value",
       "onboardingUrl": "https://example.com/onboardingUrl/",
       "onboardingStatus": "String",
-      "lastConnectionDateTime": "2017-01-01T00:01:46.1399312+03:00"
+      "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
     }
   ]
 }

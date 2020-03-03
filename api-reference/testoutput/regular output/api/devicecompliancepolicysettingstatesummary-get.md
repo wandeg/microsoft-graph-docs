@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceCompliancePolicySettingStateSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 486
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-    "id": "e7c40200-0200-e7c4-0002-c4e70002c4e7",
+    "id": "5d3388c6-88c6-5d33-c688-335dc688335d",
     "setting": "Setting value",
     "settingName": "Setting Name value",
     "platformType": "String",

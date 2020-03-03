@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create message
 
+Namespace: microsoft.graph
+
 Create a new [message](../resources/message.md) object.
 
 ## Permissions
@@ -38,24 +40,24 @@ POST /me/mailFolders/{mailFolderId}/messages
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the message object.
+In the request body, supply a JSON representation for the [message](../resources/message.md) object.
 
-The following table shows the properties that are required when you create the message.
+The following table shows the properties that are required when you create the [message](../resources/message.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |receivedDateTime|DateTimeOffset||
 |sentDateTime|DateTimeOffset||
 |hasAttachments|Boolean||
 |internetMessageId|String||
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection||
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection||
 |subject|String||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |parentFolderId|String||
@@ -67,14 +69,14 @@ The following table shows the properties that are required when you create the m
 |replyTo|[recipient](../resources/recipient.md) collection||
 |conversationId|String||
 |conversationIndex|Binary||
-|uniqueBody|[itemBody](../resources/itemBody.md)||
+|uniqueBody|[itemBody](../resources/itembody.md)||
 |isDeliveryReceiptRequested|Boolean||
 |isReadReceiptRequested|Boolean||
 |isRead|Boolean||
 |isDraft|Boolean||
 |webLink|String||
 |inferenceClassification|Enumeration|. Possible values are: `focused`, `other`.|
-|flag|[followupFlag](../resources/followupFlag.md)||
+|flag|[followupFlag](../resources/followupflag.md)||
 
 
 
@@ -91,7 +93,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/messages
+POST https://graph.microsoft.com/localtest/me/messages
 Content-type: application/json
 Content-length: 2191
 
@@ -101,8 +103,8 @@ Content-length: 2191
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:02:26.0260569+03:00",
-  "sentDateTime": "2016-12-31T23:57:12.0011454+03:00",
+  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
+  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -191,19 +193,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2363
+Content-Length: 2362
 
 {
   "@odata.type": "#microsoft.graph.message",
-  "id": "0d3b7353-7353-0d3b-5373-3b0d53733b0d",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "454d8301-8301-454d-0183-4d4501834d45",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:02:26.0260569+03:00",
-  "sentDateTime": "2016-12-31T23:57:12.0011454+03:00",
+  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
+  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

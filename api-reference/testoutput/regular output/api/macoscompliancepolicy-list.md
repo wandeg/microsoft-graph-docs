@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List macOSCompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [macOSCompliancePolicy](../resources/macoscompliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.macOSCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.macOSCompliancePolicy not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1143
+Content-Length: 1142
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
-      "id": "a279a3dd-a3dd-a279-dda3-79a2dda379a2",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "ed4cb8c3-b8c3-ed4c-c3b8-4cedc3b84ced",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

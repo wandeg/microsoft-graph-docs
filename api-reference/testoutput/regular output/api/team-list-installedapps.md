@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List installedApps
 
+Namespace: microsoft.graph
+
 Get the teamsAppInstallations from the installedApps navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/installedApps
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/installedApps
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 152
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAppInstallation",
-      "id": "61337879-7879-6133-7978-336179783361"
+      "id": "7964a6b2-a6b2-7964-b2a6-6479b2a66479"
     }
   ]
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookPivotTable resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,10 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookPivotTable](../api/workbookpivottable-get.md)|[workbookPivotTable](../resources/workbookPivotTable.md)|Read properties and relationships of the [workbookPivotTable](../resources/workbookpivottable.md) object.|
+|[List workbookPivotTables](../api/workbookpivottable-list.md)|[workbookPivotTable](../resources/workbookpivottable.md) collection|List properties and relationships of the [workbookPivotTable](../resources/workbookpivottable.md) objects.|
+|[Get workbookPivotTable](../api/workbookpivottable-get.md)|[workbookPivotTable](../resources/workbookpivottable.md)|Read properties and relationships of the [workbookPivotTable](../resources/workbookpivottable.md) object.|
+|[Create workbookPivotTable](../api/workbookpivottable-create.md)|[workbookPivotTable](../resources/workbookpivottable.md)|Create a new [workbookPivotTable](../resources/workbookpivottable.md) object.|
 |[Delete workbookPivotTable](../api/workbookpivottable-delete.md)|None|Deletes a [workbookPivotTable](../resources/workbookpivottable.md).|
-|[Update workbookPivotTable](../api/workbookpivottable-update.md)|[workbookPivotTable](../resources/workbookPivotTable.md)|Update the properties of a [workbookPivotTable](../resources/workbookpivottable.md) object.|
-|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookWorksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
+|[Update workbookPivotTable](../api/workbookpivottable-update.md)|[workbookPivotTable](../resources/workbookpivottable.md)|Update the properties of a [workbookPivotTable](../resources/workbookpivottable.md) object.|
+|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -33,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|worksheet|[workbookWorksheet](../resources/workbookWorksheet.md)||
+|worksheet|[workbookWorksheet](../resources/workbookworksheet.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

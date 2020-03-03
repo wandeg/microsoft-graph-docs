@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # itemAttachment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,12 +20,12 @@ Inherits from [attachment](../resources/attachment.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemAttachments](../api/itemattachment-list.md)|[itemAttachment](../resources/itemAttachment.md) collection|List properties and relationships of the [itemAttachment](../resources/itemattachment.md) objects.|
-|[Get itemAttachment](../api/itemattachment-get.md)|[itemAttachment](../resources/itemAttachment.md)|Read properties and relationships of the [itemAttachment](../resources/itemattachment.md) object.|
-|[Create itemAttachment](../api/itemattachment-create.md)|[itemAttachment](../resources/itemAttachment.md)|Create a new [itemAttachment](../resources/itemattachment.md) object.|
+|[List itemAttachments](../api/itemattachment-list.md)|[itemAttachment](../resources/itemattachment.md) collection|List properties and relationships of the [itemAttachment](../resources/itemattachment.md) objects.|
+|[Get itemAttachment](../api/itemattachment-get.md)|[itemAttachment](../resources/itemattachment.md)|Read properties and relationships of the [itemAttachment](../resources/itemattachment.md) object.|
+|[Create itemAttachment](../api/itemattachment-create.md)|[itemAttachment](../resources/itemattachment.md)|Create a new [itemAttachment](../resources/itemattachment.md) object.|
 |[Delete itemAttachment](../api/itemattachment-delete.md)|None|Deletes a [itemAttachment](../resources/itemattachment.md).|
-|[Update itemAttachment](../api/itemattachment-update.md)|[itemAttachment](../resources/itemAttachment.md)|Update the properties of a [itemAttachment](../resources/itemattachment.md) object.|
-|[Get outlookItem](../api/outlookitem-get.md)|[outlookItem](../resources/outlookItem.md)|Read properties and relationships of the [outlookItem](../resources/outlookitem.md) object.|
+|[Update itemAttachment](../api/itemattachment-update.md)|[itemAttachment](../resources/itemattachment.md)|Update the properties of a [itemAttachment](../resources/itemattachment.md) object.|
+|[Get outlookItem](../api/outlookitem-get.md)|[outlookItem](../resources/outlookitem.md)|Read properties and relationships of the [outlookItem](../resources/outlookitem.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +40,7 @@ Inherits from [attachment](../resources/attachment.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|item|[outlookItem](../resources/outlookItem.md)||
+|item|[outlookItem](../resources/outlookitem.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List auditLogRoots
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [auditLogRoot](../resources/auditlogroot.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.auditLogRoot not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.auditLogRoot not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.auditLogRoot",
-      "id": "e561e749-e749-e561-49e7-61e549e761e5"
+      "id": "64982d7e-2d7e-6498-7e2d-98647e2d9864"
     }
   ]
 }

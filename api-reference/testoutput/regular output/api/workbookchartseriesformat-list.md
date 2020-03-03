@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartSeriesFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartSeriesFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartSeriesFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 157
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartSeriesFormat",
-      "id": "02b8dbb5-dbb5-02b8-b5db-b802b5dbb802"
+      "id": "dbe4a156-a156-dbe4-56a1-e4db56a1e4db"
     }
   ]
 }

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDevice resource type
+
+
+Namespace: microsoft.graph
 
 Devices that are managed or pre-enrolled through Intune
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get managedDevice](../api/manageddevice-get.md)|[managedDevice](../resources/managedDevice.md)|Read properties and relationships of the [managedDevice](../resources/manageddevice.md) object.|
+|[List managedDevices](../api/manageddevice-list.md)|[managedDevice](../resources/manageddevice.md) collection|List properties and relationships of the [managedDevice](../resources/manageddevice.md) objects.|
+|[Get managedDevice](../api/manageddevice-get.md)|[managedDevice](../resources/manageddevice.md)|Read properties and relationships of the [managedDevice](../resources/manageddevice.md) object.|
+|[Create managedDevice](../api/manageddevice-create.md)|[managedDevice](../resources/manageddevice.md)|Create a new [managedDevice](../resources/manageddevice.md) object.|
 |[Delete managedDevice](../api/manageddevice-delete.md)|None|Deletes a [managedDevice](../resources/manageddevice.md).|
-|[Update managedDevice](../api/manageddevice-update.md)|[managedDevice](../resources/managedDevice.md)|Update the properties of a [managedDevice](../resources/manageddevice.md) object.|
+|[Update managedDevice](../api/manageddevice-update.md)|[managedDevice](../resources/manageddevice.md)|Update the properties of a [managedDevice](../resources/manageddevice.md) object.|
 |[retire](../api/manageddevice-retire.md)|None||
 |[wipe](../api/manageddevice-wipe.md)|None||
 |[resetPasscode](../api/manageddevice-resetpasscode.md)|None||
@@ -40,11 +43,11 @@ Inherits from [entity](../resources/entity.md)
 |[windowsDefenderScan](../api/manageddevice-windowsdefenderscan.md)|None||
 |[windowsDefenderUpdateSignatures](../api/manageddevice-windowsdefenderupdatesignatures.md)|None||
 |[updateWindowsDeviceAccount](../api/manageddevice-updatewindowsdeviceaccount.md)|None||
-|[List deviceConfigurationStates](../api/manageddevice-list-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceConfigurationState.md) collection|Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.|
-|[Add deviceConfigurationStates](../api/manageddevice-post-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceConfigurationState.md)|Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.|
-|[List deviceCompliancePolicyStates](../api/manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
-|[Add deviceCompliancePolicyStates](../api/manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
-|[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/deviceCategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
+|[List deviceConfigurationStates](../api/manageddevice-list-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.|
+|[Add deviceConfigurationStates](../api/manageddevice-post-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.|
+|[List deviceCompliancePolicyStates](../api/manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
+|[Add deviceCompliancePolicyStates](../api/manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
+|[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/devicecategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -55,11 +58,11 @@ Inherits from [entity](../resources/entity.md)
 |azureADRegistered|Boolean|Whether the device is Azure Active Directory registered.|
 |complianceGracePeriodExpirationDateTime|DateTimeOffset|The DateTime when device compliance grace period expires|
 |complianceState|Enumeration|Compliance state of the device. Possible values are: `unknown`, `compliant`, `noncompliant`, `conflict`, `error`, `inGracePeriod`, `configManager`.|
-|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/configurationManagerClientEnabledFeatures.md)|ConfigrMgr client enabled features|
-|deviceActionResults|[deviceActionResult](../resources/deviceActionResult.md) collection|List of ComplexType deviceActionResult objects.|
+|configurationManagerClientEnabledFeatures|[configurationManagerClientEnabledFeatures](../resources/configurationmanagerclientenabledfeatures.md)|ConfigrMgr client enabled features|
+|deviceActionResults|[deviceActionResult](../resources/deviceactionresult.md) collection|List of ComplexType deviceActionResult objects.|
 |deviceCategoryDisplayName|String|Device category display name|
 |deviceEnrollmentType|Enumeration|Enrollment type of the device. Possible values are: `unknown`, `userEnrollment`, `deviceEnrollmentManager`, `appleBulkWithUser`, `appleBulkWithoutUser`, `windowsAzureADJoin`, `windowsBulkUserless`, `windowsAutoEnrollment`, `windowsBulkAzureDomainJoin`, `windowsCoManagement`.|
-|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/deviceHealthAttestationState.md)|The device health attestation state.|
+|deviceHealthAttestationState|[deviceHealthAttestationState](../resources/devicehealthattestationstate.md)|The device health attestation state.|
 |deviceName|String|Name of the device|
 |deviceRegistrationState|Enumeration|Device registration state. Possible values are: `notRegistered`, `registered`, `revoked`, `keyConflict`, `approvalPending`, `certificateReset`, `notRegisteredPendingEnrollment`, `unknown`.|
 |easActivated|Boolean|Whether the device is Exchange ActiveSync activated.|
@@ -100,9 +103,9 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|deviceCategory|[deviceCategory](../resources/deviceCategory.md)|Device category|
-|deviceCompliancePolicyStates|[deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md) collection|Device compliance policy states for this device.|
-|deviceConfigurationStates|[deviceConfigurationState](../resources/deviceConfigurationState.md) collection|Device configuration states for this device.|
+|deviceCategory|[deviceCategory](../resources/devicecategory.md)|Device category|
+|deviceCompliancePolicyStates|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Device compliance policy states for this device.|
+|deviceConfigurationStates|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|Device configuration states for this device.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

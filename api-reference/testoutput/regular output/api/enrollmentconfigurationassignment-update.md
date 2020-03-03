@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update enrollmentConfigurationAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /deviceManagement/deviceEnrollmentConfigurations/{deviceEnrollmentConfigur
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md) object.
+In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
 
 The following table shows the properties that are required when you create the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)||
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceEnrollmentConfigurations/{deviceEnrollmentConfigurationId}/assignments/{enrollmentConfigurationAssignmentId}
 Content-type: application/json
 Content-length: 173
 
@@ -85,7 +87,7 @@ Content-Length: 222
 
 {
   "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-  "id": "db409e5f-9e5f-db40-5f9e-40db5f9e40db",
+  "id": "1084fe56-fe56-1084-56fe-841056fe8410",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List serviceConfigurationRecords
 
+Namespace: microsoft.graph
+
 Get the domainDnsRecords from the serviceConfigurationRecords navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/domains/{domainsId}/serviceConfigurationRecords
+GET https://graph.microsoft.com/localtest/domains/{domainsId}/serviceConfigurationRecords
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 318
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsRecord",
-      "id": "1e08a289-a289-1e08-89a2-081e89a2081e",
+      "id": "5171188f-188f-5171-8f18-71518f187151",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

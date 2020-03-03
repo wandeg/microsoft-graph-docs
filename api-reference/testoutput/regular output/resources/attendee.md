@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # attendee resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [attendeeBase](../resources/attendeeBase.md)
+
+
+Inherits from [attendeeBase](../resources/attendeebase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|emailAddress|[emailAddress](../resources/emailAddress.md)| Inherited from [recipient](../resources/recipient.md)|
-|status|[responseStatus](../resources/responseStatus.md)||
-|type|Enumeration| Inherited from [attendeeBase](../resources/attendeeBase.md). Possible values are: `required`, `optional`, `resource`.|
+|emailAddress|[emailAddress](../resources/emailaddress.md)| Inherited from [recipient](../resources/recipient.md)|
+|status|[responseStatus](../resources/responsestatus.md)||
+|type|Enumeration| Inherited from [attendeeBase](../resources/attendeebase.md). Possible values are: `required`, `optional`, `resource`.|
 
 ## Relationships
 None

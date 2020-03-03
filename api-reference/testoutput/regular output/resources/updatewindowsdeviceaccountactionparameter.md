@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # updateWindowsDeviceAccountActionParameter resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |calendarSyncEnabled|Boolean||
-|deviceAccount|[windowsDeviceAccount](../resources/windowsDeviceAccount.md)||
+|deviceAccount|[windowsDeviceAccount](../resources/windowsdeviceaccount.md)||
 |deviceAccountEmail|String||
 |exchangeServer|String||
 |passwordRotationEnabled|Boolean||

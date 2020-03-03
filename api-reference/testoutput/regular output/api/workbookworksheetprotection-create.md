@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookWorksheetProtection
 
+Namespace: microsoft.graph
+
 Create a new [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.workbookWorksheetProtection not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookWorksheetProtection object.
+In the request body, supply a JSON representation for the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
 
-The following table shows the properties that are required when you create the workbookWorksheetProtection.
+The following table shows the properties that are required when you create the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|options|[workbookWorksheetProtectionOptions](../resources/workbookWorksheetProtectionOptions.md)||
+|options|[workbookWorksheetProtectionOptions](../resources/workbookworksheetprotectionoptions.md)||
 |protected|Boolean||
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookWorksheetProtection not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookWorksheetProtection not found
 Content-type: application/json
 Content-length: 527
 
@@ -100,7 +102,7 @@ Content-Length: 576
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-  "id": "a3db073b-073b-a3db-3b07-dba33b07dba3",
+  "id": "a3a10595-0595-a3a1-9505-a1a39505a1a3",
   "options": {
     "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
     "allowAutoFilter": true,

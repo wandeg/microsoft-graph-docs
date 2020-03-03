@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List defaultManagedAppProtections
 
+Namespace: microsoft.graph
+
 Get the defaultManagedAppProtections from the defaultManagedAppProtections navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/defaultManagedAppProtections
+GET https://graph.microsoft.com/localtest/deviceAppManagement/defaultManagedAppProtections
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2328
+Content-Length: 2321
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.defaultManagedAppProtection",
-      "id": "f4c36891-6891-f4c3-9168-c3f49168c3f4",
+      "id": "38901c01-1c01-3890-011c-9038011c9038",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "version": "Version value",
-      "periodOfflineBeforeAccessCheck": "PT2M20.6624607S",
-      "periodOnlineBeforeAccessCheck": "-PT1M12.1020242S",
+      "periodOfflineBeforeAccessCheck": "PT36.6523871S",
+      "periodOnlineBeforeAccessCheck": "-PT27.118372S",
       "allowedInboundDataTransferSources": "String",
       "allowedOutboundDataTransferDestinations": "String",
       "organizationalCredentialsRequired": true,
@@ -86,13 +88,13 @@ Content-Length: 2328
       "deviceComplianceRequired": true,
       "managedBrowserToOpenLinksRequired": true,
       "saveAsBlocked": true,
-      "periodOfflineBeforeWipeIsEnforced": "-PT1M51.0240441S",
+      "periodOfflineBeforeWipeIsEnforced": "-PT1M20.6052259S",
       "pinRequired": true,
       "maximumPinRetries": 1,
       "simplePinBlocked": true,
       "minimumPinLength": 0,
       "pinCharacterSet": "String",
-      "periodBeforePinReset": "-PT2M19.1534292S",
+      "periodBeforePinReset": "PT2M20.6426175S",
       "allowedDataStorageLocations": [
         "String"
       ],

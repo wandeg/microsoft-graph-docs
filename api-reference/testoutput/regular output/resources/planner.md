@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # planner resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,12 +22,12 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |[Get planner](../api/planner-get.md)|[planner](../resources/planner.md)|Read properties and relationships of the [planner](../resources/planner.md) object.|
 |[Update planner](../api/planner-update.md)|[planner](../resources/planner.md)|Update the properties of a [planner](../resources/planner.md) object.|
-|[List tasks](../api/planner-list-tasks.md)|[plannerTask](../resources/plannerTask.md) collection|Get the plannerTasks from the tasks navigation property.|
-|[Add tasks](../api/planner-post-tasks.md)|[plannerTask](../resources/plannerTask.md)|Add tasks by posting to the tasks collection.|
-|[List plans](../api/planner-list-plans.md)|[plannerPlan](../resources/plannerPlan.md) collection|Get the plannerPlans from the plans navigation property.|
-|[Add plans](../api/planner-post-plans.md)|[plannerPlan](../resources/plannerPlan.md)|Add plans by posting to the plans collection.|
-|[List buckets](../api/planner-list-buckets.md)|[plannerBucket](../resources/plannerBucket.md) collection|Get the plannerBuckets from the buckets navigation property.|
-|[Add buckets](../api/planner-post-buckets.md)|[plannerBucket](../resources/plannerBucket.md)|Add buckets by posting to the buckets collection.|
+|[List tasks](../api/planner-list-tasks.md)|[plannerTask](../resources/plannertask.md) collection|Get the plannerTasks from the tasks navigation property.|
+|[Add tasks](../api/planner-post-tasks.md)|[plannerTask](../resources/plannertask.md)|Add tasks by posting to the tasks collection.|
+|[List plans](../api/planner-list-plans.md)|[plannerPlan](../resources/plannerplan.md) collection|Get the plannerPlans from the plans navigation property.|
+|[Add plans](../api/planner-post-plans.md)|[plannerPlan](../resources/plannerplan.md)|Add plans by posting to the plans collection.|
+|[List buckets](../api/planner-list-buckets.md)|[plannerBucket](../resources/plannerbucket.md) collection|Get the plannerBuckets from the buckets navigation property.|
+|[Add buckets](../api/planner-post-buckets.md)|[plannerBucket](../resources/plannerbucket.md)|Add buckets by posting to the buckets collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,9 +37,9 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|buckets|[plannerBucket](../resources/plannerBucket.md) collection||
-|plans|[plannerPlan](../resources/plannerPlan.md) collection||
-|tasks|[plannerTask](../resources/plannerTask.md) collection||
+|buckets|[plannerBucket](../resources/plannerbucket.md) collection||
+|plans|[plannerPlan](../resources/plannerplan.md) collection||
+|tasks|[plannerTask](../resources/plannertask.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

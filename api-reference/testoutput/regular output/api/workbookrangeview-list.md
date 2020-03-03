@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookRangeViews
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookRangeView](../resources/workbookrangeview.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeView not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeView not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 854
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookRangeView",
-      "id": "ca4bf0c5-f0c5-ca4b-c5f0-4bcac5f04bca",
+      "id": "4b68ae4a-ae4a-4b68-4aae-684b4aae684b",
       "cellAddresses": {
         "@odata.type": "microsoft.graph.Json"
       },

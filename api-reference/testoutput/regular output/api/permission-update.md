@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update permission
 
+Namespace: microsoft.graph
+
 Update the properties of a [permission](../resources/permission.md) object.
 
 ## Permissions
@@ -43,10 +45,10 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|grantedTo|[identitySet](../resources/identitySet.md)||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
-|invitation|[sharingInvitation](../resources/sharingInvitation.md)||
-|link|[sharingLink](../resources/sharingLink.md)||
+|grantedTo|[identitySet](../resources/identityset.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
+|invitation|[sharingInvitation](../resources/sharinginvitation.md)||
+|link|[sharingLink](../resources/sharinglink.md)||
 |roles|String collection||
 |shareId|String||
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/permissions/{permissionId}
+PATCH https://graph.microsoft.com/localtest/workbooks/{workbooksId}/permissions/{permissionId}
 Content-type: application/json
 Content-length: 1496
 
@@ -138,7 +140,7 @@ Content-Length: 1545
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "8bb9333d-333d-8bb9-3d33-b98b3d33b98b",
+  "id": "a7b7bff3-bff3-a7b7-f3bf-b7a7f3bfb7a7",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domainDnsTxtRecord
 
+Namespace: microsoft.graph
+
 Update the properties of a [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.domainDnsTxtRecord not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [domainDnsTxtRecord](../resources/domainDnsTxtRecord.md) object.
+In the request body, supply a JSON representation for the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) object.
 
 The following table shows the properties that are required when you create the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |text|String||
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.domainDnsTxtRecord not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.domainDnsTxtRecord not found
 Content-type: application/json
 Content-length: 236
 
@@ -93,7 +95,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.domainDnsTxtRecord",
-  "id": "72d06cb0-6cb0-72d0-b06c-d072b06cd072",
+  "id": "9086ef6d-ef6d-9086-6def-86906def8690",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

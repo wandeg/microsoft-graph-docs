@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create team
 
+Namespace: microsoft.graph
+
 Create a new [team](../resources/team.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST /teams
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the team object.
+In the request body, supply a JSON representation for the [team](../resources/team.md) object.
 
-The following table shows the properties that are required when you create the team.
+The following table shows the properties that are required when you create the [team](../resources/team.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |webUrl|String||
-|memberSettings|[teamMemberSettings](../resources/teamMemberSettings.md)||
-|guestSettings|[teamGuestSettings](../resources/teamGuestSettings.md)||
-|messagingSettings|[teamMessagingSettings](../resources/teamMessagingSettings.md)||
-|funSettings|[teamFunSettings](../resources/teamFunSettings.md)||
+|memberSettings|[teamMemberSettings](../resources/teammembersettings.md)||
+|guestSettings|[teamGuestSettings](../resources/teamguestsettings.md)||
+|messagingSettings|[teamMessagingSettings](../resources/teammessagingsettings.md)||
+|funSettings|[teamFunSettings](../resources/teamfunsettings.md)||
 |isArchived|Boolean||
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams
+POST https://graph.microsoft.com/localtest/teams
 Content-type: application/json
 Content-length: 961
 
@@ -117,7 +119,7 @@ Content-Length: 1010
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "54b4ec7d-ec7d-54b4-7dec-b4547decb454",
+  "id": "847cdc25-dc25-847c-25dc-7c8425dc7c84",
   "webUrl": "https://example.com/webUrl/",
   "memberSettings": {
     "@odata.type": "microsoft.graph.teamMemberSettings",

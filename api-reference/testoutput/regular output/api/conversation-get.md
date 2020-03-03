@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get conversation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [conversation](../resources/conversation.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/conversations/{conversationId}
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/conversations/{conversationId}
 ```
 
 ### Response
@@ -73,10 +75,10 @@ Content-Length: 346
 {
   "value": {
     "@odata.type": "#microsoft.graph.conversation",
-    "id": "8d12587e-587e-8d12-7e58-128d7e58128d",
+    "id": "40a58dd9-8dd9-40a5-d98d-a540d98da540",
     "topic": "Topic value",
     "hasAttachments": true,
-    "lastDeliveredDateTime": "2017-01-01T00:02:32.1744944+03:00",
+    "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
     "uniqueSenders": [
       "Unique Senders value"
     ],

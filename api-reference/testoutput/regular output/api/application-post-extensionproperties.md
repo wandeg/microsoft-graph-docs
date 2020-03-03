@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add extensionProperties
 
+Namespace: microsoft.graph
+
 Add extensionProperties by posting to the extensionProperties collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /applications/{applicationsId}/extensionProperties/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the extensionProperty object.
+In the request body, supply a JSON representation for the [extensionProperty](../resources/extensionproperty.md) object.
 
-The following table shows the properties that are required when you create the extensionProperty.
+The following table shows the properties that are required when you create the [extensionProperty](../resources/extensionproperty.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |appDisplayName|String||
 |name|String||
 |dataType|String||
@@ -65,13 +67,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/extensionProperties
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/extensionProperties
 Content-type: application/json
 Content-length: 315
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",
@@ -97,8 +99,8 @@ Content-Length: 364
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "id": "a55d8fc7-8fc7-a55d-c78f-5da5c78f5da5",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "5c0eb8c4-b8c4-5c0e-c4b8-0e5cc4b80e5c",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",

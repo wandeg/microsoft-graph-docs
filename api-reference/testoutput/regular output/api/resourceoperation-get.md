@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get resourceOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [resourceOperation](../resources/resourceoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/resourceOperations/{resourceOperationId}
+GET https://graph.microsoft.com/localtest/deviceManagement/resourceOperations/{resourceOperationId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 256
 {
   "value": {
     "@odata.type": "#microsoft.graph.resourceOperation",
-    "id": "ac3c26af-26af-ac3c-af26-3cacaf263cac",
+    "id": "43b3ed98-ed98-43b3-98ed-b34398edb343",
     "resourceName": "Resource Name value",
     "actionName": "Action Name value",
     "description": "Description value"

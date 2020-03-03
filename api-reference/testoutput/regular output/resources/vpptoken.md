@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # vppToken resource type
+
+
+Namespace: microsoft.graph
 
 You purchase multiple licenses for iOS apps through the Apple Volume Purchase Program for Business or Education. This involves setting up an Apple VPP account from the Apple website and uploading the Apple VPP Business or Education token to Intune. You can then synchronize your volume purchase information with Intune and track your volume-purchased app use. You can upload multiple Apple VPP Business or Education tokens.
 
@@ -19,12 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get vppToken](../api/vpptoken-get.md)|[vppToken](../resources/vppToken.md)|Read properties and relationships of the [vppToken](../resources/vpptoken.md) object.|
+|[List vppTokens](../api/vpptoken-list.md)|[vppToken](../resources/vpptoken.md) collection|List properties and relationships of the [vppToken](../resources/vpptoken.md) objects.|
+|[Get vppToken](../api/vpptoken-get.md)|[vppToken](../resources/vpptoken.md)|Read properties and relationships of the [vppToken](../resources/vpptoken.md) object.|
+|[Create vppToken](../api/vpptoken-create.md)|[vppToken](../resources/vpptoken.md)|Create a new [vppToken](../resources/vpptoken.md) object.|
 |[Delete vppToken](../api/vpptoken-delete.md)|None|Deletes a [vppToken](../resources/vpptoken.md).|
-|[Update vppToken](../api/vpptoken-update.md)|[vppToken](../resources/vppToken.md)|Update the properties of a [vppToken](../resources/vpptoken.md) object.|
-|[syncLicenses](../api/vpptoken-synclicenses.md)|[vppToken](../resources/vppToken.md)||
-|[List vppTokens](../api/deviceappmanagement-list-vpptokens.md)|[vppToken](../resources/vppToken.md) collection|Get the vppTokens from the vppTokens navigation property.|
-|[Add vppTokens](../api/deviceappmanagement-post-vpptokens.md)|[vppToken](../resources/vppToken.md)|Add vppTokens by posting to the vppTokens collection.|
+|[Update vppToken](../api/vpptoken-update.md)|[vppToken](../resources/vpptoken.md)|Update the properties of a [vppToken](../resources/vpptoken.md) object.|
+|[syncLicenses](../api/vpptoken-synclicenses.md)|[vppToken](../resources/vpptoken.md)||
+|[List vppTokens](../api/deviceappmanagement-list-vpptokens.md)|[vppToken](../resources/vpptoken.md) collection|Get the vppTokens from the vppTokens navigation property.|
+|[Add vppTokens](../api/deviceappmanagement-post-vpptokens.md)|[vppToken](../resources/vpptoken.md)|Add vppTokens by posting to the vppTokens collection.|
 
 ## Properties
 |Property|Type|Description|

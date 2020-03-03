@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # messageRulePredicates resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -45,7 +46,7 @@ Namespace: microsoft.graph
 |sentToMe|Boolean||
 |sentToOrCcMe|Boolean||
 |subjectContains|String collection||
-|withinSizeRange|[sizeRange](../resources/sizeRange.md)||
+|withinSizeRange|[sizeRange](../resources/sizerange.md)||
 
 ## Relationships
 None

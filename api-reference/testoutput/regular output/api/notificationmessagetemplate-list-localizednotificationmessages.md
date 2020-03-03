@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List localizedNotificationMessages
 
+Namespace: microsoft.graph
+
 Get the localizedNotificationMessages from the localizedNotificationMessages navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages
+GET https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 374
   "value": [
     {
       "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-      "id": "4677542b-542b-4677-2b54-77462b547746",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "id": "f009df5a-df5a-f009-5adf-09f05adf09f0",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "locale": "Locale value",
       "subject": "Subject value",
       "messageTemplate": "Message Template value",

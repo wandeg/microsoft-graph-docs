@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # timeSlot resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 ## Relationships
 None

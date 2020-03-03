@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List extensionProperties
 
+Namespace: microsoft.graph
+
 Get the extensionProperties from the extensionProperties navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/{applicationsId}/extensionProperties
+GET https://graph.microsoft.com/localtest/applications/{applicationsId}/extensionProperties
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 437
   "value": [
     {
       "@odata.type": "#microsoft.graph.extensionProperty",
-      "id": "a55d8fc7-8fc7-a55d-c78f-5da5c78f5da5",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+      "id": "5c0eb8c4-b8c4-5c0e-c4b8-0e5cc4b80e5c",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
       "appDisplayName": "App Display Name value",
       "name": "Name value",
       "dataType": "Data Type value",

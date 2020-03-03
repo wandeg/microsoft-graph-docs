@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidGeneralDeviceConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidGeneralDeviceConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2728
+Content-Length: 2727
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidGeneralDeviceConfiguration",
-    "id": "70a8d555-d555-70a8-55d5-a87055d5a870",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "b344bb77-bb77-b344-77bb-44b377bb44b3",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

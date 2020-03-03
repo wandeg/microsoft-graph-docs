@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add onlineMeetings
 
+Namespace: microsoft.graph
+
 Add onlineMeetings by posting to the onlineMeetings collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/onlineMeetings/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onlineMeeting object.
+In the request body, supply a JSON representation for the [onlineMeeting](../resources/onlinemeeting.md) object.
 
-The following table shows the properties that are required when you create the onlineMeeting.
+The following table shows the properties that are required when you create the [onlineMeeting](../resources/onlinemeeting.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,9 +51,9 @@ The following table shows the properties that are required when you create the o
 |endDateTime|DateTimeOffset||
 |joinUrl|String||
 |subject|String||
-|participants|[meetingParticipants](../resources/meetingParticipants.md)||
-|audioConferencing|[audioConferencing](../resources/audioConferencing.md)||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
+|participants|[meetingParticipants](../resources/meetingparticipants.md)||
+|audioConferencing|[audioConferencing](../resources/audioconferencing.md)||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
 |videoTeleconferenceId|String||
 
 
@@ -69,15 +71,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/onlineMeetings
+POST https://graph.microsoft.com/localtest/me/onlineMeetings
 Content-type: application/json
 Content-length: 1579
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2016-12-31T23:57:49.9048852+03:00",
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+  "creationDateTime": "2016-12-31T23:59:03.7411042+03:00",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {
@@ -138,10 +140,10 @@ Content-Length: 1628
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "2cc351ac-51ac-2cc3-ac51-c32cac51c32c",
-  "creationDateTime": "2016-12-31T23:57:49.9048852+03:00",
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+  "id": "78200008-0008-7820-0800-207808002078",
+  "creationDateTime": "2016-12-31T23:59:03.7411042+03:00",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {

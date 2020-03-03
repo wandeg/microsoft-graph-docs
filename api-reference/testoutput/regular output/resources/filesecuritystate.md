@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # fileSecurityState resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|fileHash|[fileHash](../resources/fileHash.md)||
+|fileHash|[fileHash](../resources/filehash.md)||
 |name|String||
 |path|String||
 |riskScore|String||

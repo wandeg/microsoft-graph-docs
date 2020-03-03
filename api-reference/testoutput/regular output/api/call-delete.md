@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete call
 
+Namespace: microsoft.graph
+
 Deletes a [call](../resources/call.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications/calls/{callId}
+DELETE https://graph.microsoft.com/localtest/communications/calls/{callId}
 ```
 
 ### Response

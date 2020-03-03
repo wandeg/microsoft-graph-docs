@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceCompliancePolicyAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assignments/{deviceCompliancePolicyAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assignments/{deviceCompliancePolicyAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 250
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-    "id": "c778dcc5-dcc5-c778-c5dc-78c7c5dc78c7",
+    "id": "d782e990-e990-d782-90e9-82d790e982d7",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

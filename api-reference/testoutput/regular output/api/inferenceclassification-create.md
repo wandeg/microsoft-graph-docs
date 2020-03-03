@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create inferenceClassification
 
+Namespace: microsoft.graph
+
 Create a new [inferenceClassification](../resources/inferenceclassification.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.inferenceClassification not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the inferenceClassification object.
+In the request body, supply a JSON representation for the [inferenceClassification](../resources/inferenceclassification.md) object.
 
-The following table shows the properties that are required when you create the inferenceClassification.
+The following table shows the properties that are required when you create the [inferenceClassification](../resources/inferenceclassification.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.inferenceClassification not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.inferenceClassification not found
 Content-type: application/json
 Content-length: 65
 
@@ -83,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassification",
-  "id": "af6c211d-211d-af6c-1d21-6caf1d216caf"
+  "id": "e64a358a-358a-e64a-8a35-4ae68a354ae6"
 }
 ```
 

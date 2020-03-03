@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List borders
 
+Namespace: microsoft.graph
+
 Get the workbookRangeBorders from the borders navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeBorder not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeBorder not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 286
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookRangeBorder",
-      "id": "98c13938-3938-98c1-3839-c1983839c198",
+      "id": "98eb73a4-73a4-98eb-a473-eb98a473eb98",
       "color": "Color value",
       "sideIndex": "Side Index value",
       "style": "Style value",

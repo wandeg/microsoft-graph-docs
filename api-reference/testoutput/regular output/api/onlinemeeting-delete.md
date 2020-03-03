@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete onlineMeeting
 
+Namespace: microsoft.graph
+
 Deletes a [onlineMeeting](../resources/onlinemeeting.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/onlineMeetings/{onlineMeetingId}
+DELETE https://graph.microsoft.com/localtest/me/onlineMeetings/{onlineMeetingId}
 ```
 
 ### Response

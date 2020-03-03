@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartAxises
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxis not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxis not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 461
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAxis",
-      "id": "43bc6052-6052-43bc-5260-bc435260bc43",
+      "id": "31ee50a2-50a2-31ee-a250-ee31a250ee31",
       "majorUnit": {
         "@odata.type": "microsoft.graph.Json"
       },

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List categories
 
+Namespace: microsoft.graph
+
 Get the mobileAppCategories from the categories navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/categories
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/categories
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 261
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppCategory",
-      "id": "4efe25cb-25cb-4efe-cb25-fe4ecb25fe4e",
+      "id": "210bf76b-f76b-210b-6bf7-0b216bf70b21",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
     }
   ]
 }

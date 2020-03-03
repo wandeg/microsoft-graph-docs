@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartLegendFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartLegendFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartLegendFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 157
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-      "id": "8bc14f5d-4f5d-8bc1-5d4f-c18b5d4fc18b"
+      "id": "357c2015-2015-357c-1520-7c3515207c35"
     }
   ]
 }

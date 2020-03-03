@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookApplication
 
+Namespace: microsoft.graph
+
 Create a new [workbookApplication](../resources/workbookapplication.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookApplication not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookApplication object.
+In the request body, supply a JSON representation for the [workbookApplication](../resources/workbookapplication.md) object.
 
-The following table shows the properties that are required when you create the workbookApplication.
+The following table shows the properties that are required when you create the [workbookApplication](../resources/workbookapplication.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookApplication not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookApplication not found
 Content-type: application/json
 Content-length: 109
 
@@ -85,7 +87,7 @@ Content-Length: 158
 
 {
   "@odata.type": "#microsoft.graph.workbookApplication",
-  "id": "e6daa3f0-a3f0-e6da-f0a3-dae6f0a3dae6",
+  "id": "1f433e32-3e32-1f43-323e-431f323e431f",
   "calculationMode": "Calculation Mode value"
 }
 ```

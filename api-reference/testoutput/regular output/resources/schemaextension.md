@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # schemaExtension resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List schemaExtensions](../api/schemaextension-list.md)|[schemaExtension](../resources/schemaExtension.md) collection|List properties and relationships of the [schemaExtension](../resources/schemaextension.md) objects.|
-|[Get schemaExtension](../api/schemaextension-get.md)|[schemaExtension](../resources/schemaExtension.md)|Read properties and relationships of the [schemaExtension](../resources/schemaextension.md) object.|
-|[Create schemaExtension](../api/schemaextension-post-schemaextensions.md)|[schemaExtension](../resources/schemaExtension.md)|Create a new [schemaExtension](../resources/schemaextension.md) object.|
+|[List schemaExtensions](../api/schemaextension-list.md)|[schemaExtension](../resources/schemaextension.md) collection|List properties and relationships of the [schemaExtension](../resources/schemaextension.md) objects.|
+|[Get schemaExtension](../api/schemaextension-get.md)|[schemaExtension](../resources/schemaextension.md)|Read properties and relationships of the [schemaExtension](../resources/schemaextension.md) object.|
+|[Create schemaExtension](../api/schemaextension-post-schemaextensions.md)|[schemaExtension](../resources/schemaextension.md)|Create a new [schemaExtension](../resources/schemaextension.md) object.|
 |[Delete schemaExtension](../api/schemaextension-delete.md)|None|Deletes a [schemaExtension](../resources/schemaextension.md).|
-|[Update schemaExtension](../api/schemaextension-update.md)|[schemaExtension](../resources/schemaExtension.md)|Update the properties of a [schemaExtension](../resources/schemaextension.md) object.|
+|[Update schemaExtension](../api/schemaextension-update.md)|[schemaExtension](../resources/schemaextension.md)|Update the properties of a [schemaExtension](../resources/schemaextension.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 |description|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |owner|String||
-|properties|[extensionSchemaProperty](../resources/extensionSchemaProperty.md) collection||
+|properties|[extensionSchemaProperty](../resources/extensionschemaproperty.md) collection||
 |status|String||
 |targetTypes|String collection||
 

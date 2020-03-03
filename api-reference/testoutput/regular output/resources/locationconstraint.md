@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # locationConstraint resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |isRequired|Boolean||
-|locations|[locationConstraintItem](../resources/locationConstraintItem.md) collection||
+|locations|[locationConstraintItem](../resources/locationconstraintitem.md) collection||
 |suggestLocation|Boolean||
 
 ## Relationships

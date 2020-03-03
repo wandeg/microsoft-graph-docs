@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationRoot
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationRoot](../resources/educationroot.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /education
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationRoot](../resources/educationRoot.md) object.
+In the request body, supply a JSON representation for the [educationRoot](../resources/educationroot.md) object.
 
 The following table shows the properties that are required when you create the [educationRoot](../resources/educationroot.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education
+PATCH https://graph.microsoft.com/localtest/education
 Content-type: application/json
 Content-length: 55
 
@@ -81,7 +83,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.educationRoot",
-  "id": "f19f5c6b-5c6b-f19f-6b5c-9ff16b5c9ff1"
+  "id": "a852b66a-b66a-a852-6ab6-52a86ab652a8"
 }
 ```
 

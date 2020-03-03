@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosUpdateDeviceStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get iosUpdateDeviceStatus](../api/iosupdatedevicestatus-get.md)|[iosUpdateDeviceStatus](../resources/iosUpdateDeviceStatus.md)|Read properties and relationships of the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
+|[List iosUpdateDeviceStatuses](../api/iosupdatedevicestatus-list.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) collection|List properties and relationships of the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) objects.|
+|[Get iosUpdateDeviceStatus](../api/iosupdatedevicestatus-get.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Read properties and relationships of the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
+|[Create iosUpdateDeviceStatus](../api/iosupdatedevicestatus-create.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Create a new [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
 |[Delete iosUpdateDeviceStatus](../api/iosupdatedevicestatus-delete.md)|None|Deletes a [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md).|
-|[Update iosUpdateDeviceStatus](../api/iosupdatedevicestatus-update.md)|[iosUpdateDeviceStatus](../resources/iosUpdateDeviceStatus.md)|Update the properties of a [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
-|[List iosUpdateStatuses](../api/devicemanagement-list-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosUpdateDeviceStatus.md) collection|Get the iosUpdateDeviceStatuses from the iosUpdateStatuses navigation property.|
-|[Add iosUpdateStatuses](../api/devicemanagement-post-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosUpdateDeviceStatus.md)|Add iosUpdateStatuses by posting to the iosUpdateStatuses collection.|
+|[Update iosUpdateDeviceStatus](../api/iosupdatedevicestatus-update.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Update the properties of a [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
+|[List iosUpdateStatuses](../api/devicemanagement-list-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) collection|Get the iosUpdateDeviceStatuses from the iosUpdateStatuses navigation property.|
+|[Add iosUpdateStatuses](../api/devicemanagement-post-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Add iosUpdateStatuses by posting to the iosUpdateStatuses collection.|
 
 ## Properties
 |Property|Type|Description|

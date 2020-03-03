@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get settingStateDeviceSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries/{settingStateDeviceSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries/{settingStateDeviceSummaryId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 450
 {
   "value": {
     "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-    "id": "e269b998-b998-e269-98b9-69e298b969e2",
+    "id": "fcefb81c-b81c-fcef-1cb8-effc1cb8effc",
     "settingName": "Setting Name value",
     "instancePath": "Instance Path value",
     "unknownDeviceCount": 2,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete plannerAssignedToTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Deletes a [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
+DELETE https://graph.microsoft.com/localtest/me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
 ```
 
 ### Response

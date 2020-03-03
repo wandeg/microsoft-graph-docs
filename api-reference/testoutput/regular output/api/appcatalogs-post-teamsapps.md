@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add teamsApps
 
+Namespace: microsoft.graph
+
 Add teamsApps by posting to the teamsApps collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /appCatalogs/teamsApps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsApp object.
+In the request body, supply a JSON representation for the [teamsApp](../resources/teamsapp.md) object.
 
-The following table shows the properties that are required when you create the teamsApp.
+The following table shows the properties that are required when you create the [teamsApp](../resources/teamsapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/appCatalogs/teamsApps
+POST https://graph.microsoft.com/localtest/appCatalogs/teamsApps
 Content-type: application/json
 Content-length: 163
 
@@ -89,7 +91,7 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.teamsApp",
-  "id": "741acf4f-cf4f-741a-4fcf-1a744fcf1a74",
+  "id": "b49ea33c-a33c-b49e-3ca3-9eb43ca39eb4",
   "externalId": "External Id value",
   "displayName": "Display Name value",
   "distributionMethod": "String"

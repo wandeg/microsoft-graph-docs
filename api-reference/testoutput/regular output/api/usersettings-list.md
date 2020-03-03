@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userSettingses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [userSettings](../resources/usersettings.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.userSettings not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.userSettings not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 268
   "value": [
     {
       "@odata.type": "#microsoft.graph.userSettings",
-      "id": "4e266a2a-6a2a-4e26-2a6a-264e2a6a264e",
+      "id": "0f1850c7-50c7-0f18-c750-180fc750180f",
       "contributionToContentDiscoveryDisabled": true,
       "contributionToContentDiscoveryAsOrganizationDisabled": true
     }

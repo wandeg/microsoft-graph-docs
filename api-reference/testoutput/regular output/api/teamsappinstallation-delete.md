@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsAppInstallation
 
+Namespace: microsoft.graph
+
 Deletes a [teamsAppInstallation](../resources/teamsappinstallation.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/teams/{teamsId}/installedApps/{teamsAppInstallationId}
+DELETE https://graph.microsoft.com/localtest/teams/{teamsId}/installedApps/{teamsAppInstallationId}
 ```
 
 ### Response

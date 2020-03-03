@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete outlookUser
 
+Namespace: microsoft.graph
+
 Deletes a [outlookUser](../resources/outlookuser.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/outlook
+DELETE https://graph.microsoft.com/localtest/me/outlook
 ```
 
 ### Response

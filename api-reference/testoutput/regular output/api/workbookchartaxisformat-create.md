@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartAxisFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartAxisFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartAxisFormat object.
+In the request body, supply a JSON representation for the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartAxisFormat.
+The following table shows the properties that are required when you create the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxisFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxisFormat not found
 Content-type: application/json
 Content-length: 65
 
@@ -83,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxisFormat",
-  "id": "e4d7e240-e240-e4d7-40e2-d7e440e2d7e4"
+  "id": "b5f2923b-923b-b5f2-3b92-f2b53b92f2b5"
 }
 ```
 

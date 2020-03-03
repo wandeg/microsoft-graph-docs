@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookRangeFill
 
+Namespace: microsoft.graph
+
 Create a new [workbookRangeFill](../resources/workbookrangefill.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRangeFill not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRangeFill object.
+In the request body, supply a JSON representation for the [workbookRangeFill](../resources/workbookrangefill.md) object.
 
-The following table shows the properties that are required when you create the workbookRangeFill.
+The following table shows the properties that are required when you create the [workbookRangeFill](../resources/workbookrangefill.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeFill not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeFill not found
 Content-type: application/json
 Content-length: 86
 
@@ -85,7 +87,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFill",
-  "id": "4359ad13-ad13-4359-13ad-594313ad5943",
+  "id": "ebccb99b-b99b-ebcc-9bb9-cceb9bb9cceb",
   "color": "Color value"
 }
 ```

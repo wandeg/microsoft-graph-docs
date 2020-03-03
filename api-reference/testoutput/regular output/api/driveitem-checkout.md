@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # checkout
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/root/checkout
+POST https://graph.microsoft.com/localtest/me/drive/root/checkout
 ```
 
 ### Response

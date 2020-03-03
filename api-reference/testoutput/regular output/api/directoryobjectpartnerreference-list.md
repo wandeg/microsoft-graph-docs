@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List directoryObjectPartnerReferences
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [directoryObjectPartnerReference](../resources/directoryobjectpartnerreference.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.directoryObjectPartnerReference not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.directoryObjectPartnerReference not found
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 429
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-      "id": "2785b77e-b77e-2785-7eb7-85277eb78527",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+      "id": "5d6fb2ce-b2ce-5d6f-ceb2-6f5dceb26f5d",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
-      "externalPartnerTenantId": "b4e14d2f-4d2f-b4e1-2f4d-e1b42f4de1b4",
+      "externalPartnerTenantId": "e7255d56-5d56-e725-565d-25e7565d25e7",
       "objectType": "Object Type value"
     }
   ]

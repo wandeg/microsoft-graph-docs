@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add termsAndConditions
 
+Namespace: microsoft.graph
+
 Add termsAndConditions by posting to the termsAndConditions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/termsAndConditions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the termsAndConditions object.
+In the request body, supply a JSON representation for the [termsAndConditions](../resources/termsandconditions.md) object.
 
-The following table shows the properties that are required when you create the termsAndConditions.
+The following table shows the properties that are required when you create the [termsAndConditions](../resources/termsandconditions.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions
+POST https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions
 Content-type: application/json
 Content-length: 273
 
@@ -93,13 +95,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 445
+Content-Length: 444
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditions",
-  "id": "f3368da5-8da5-f336-a58d-36f3a58d36f3",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "53e8dd11-dd11-53e8-11dd-e85311dde853",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "title": "Title value",

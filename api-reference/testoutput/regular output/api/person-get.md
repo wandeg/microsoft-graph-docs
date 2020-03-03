@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get person
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [person](../resources/person.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/people/{personId}
+GET https://graph.microsoft.com/localtest/me/people/{personId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 2345
 {
   "value": {
     "@odata.type": "#microsoft.graph.person",
-    "id": "f4300e3a-0e3a-f430-3a0e-30f43a0e30f4",
+    "id": "da9a6eeb-6eeb-da9a-eb6e-9adaeb6e9ada",
     "displayName": "Display Name value",
     "givenName": "Given Name value",
     "surname": "Surname value",

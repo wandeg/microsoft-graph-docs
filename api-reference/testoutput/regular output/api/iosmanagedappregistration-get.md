@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get iosManagedAppRegistration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [iosManagedAppRegistration](../resources/iosmanagedappregistration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosManagedAppRegistration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosManagedAppRegistration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 753
+Content-Length: 751
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-    "id": "c2f62de5-2de5-c2f6-e52d-f6c2e52df6c2",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+    "id": "ab1d856e-856e-ab1d-6e85-1dab6e851dab",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
     "applicationVersion": "Application Version value",
     "managementSdkVersion": "Management Sdk Version value",
     "platformVersion": "Platform Version value",

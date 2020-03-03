@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update inferenceClassification
 
+Namespace: microsoft.graph
+
 Update the properties of a [inferenceClassification](../resources/inferenceclassification.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/inferenceClassification
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [inferenceClassification](../resources/inferenceClassification.md) object.
+In the request body, supply a JSON representation for the [inferenceClassification](../resources/inferenceclassification.md) object.
 
 The following table shows the properties that are required when you create the [inferenceClassification](../resources/inferenceclassification.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/inferenceClassification
+PATCH https://graph.microsoft.com/localtest/me/inferenceClassification
 Content-type: application/json
 Content-length: 65
 
@@ -82,7 +84,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassification",
-  "id": "af6c211d-211d-af6c-1d21-6caf1d216caf"
+  "id": "e64a358a-358a-e64a-8a35-4ae68a354ae6"
 }
 ```
 

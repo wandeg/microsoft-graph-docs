@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerProgressTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Create a new [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.plannerProgressTaskBoardTaskFormat no
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerProgressTaskBoardTaskFormat object.
+In the request body, supply a JSON representation for the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
 
-The following table shows the properties that are required when you create the plannerProgressTaskBoardTaskFormat.
+The following table shows the properties that are required when you create the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerProgressTaskBoardTaskFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerProgressTaskBoardTaskFormat not found
 Content-type: application/json
 Content-length: 112
 
@@ -85,7 +87,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-  "id": "36260b10-0b10-3626-100b-2636100b2636",
+  "id": "85d60fe7-0fe7-85d6-e70f-d685e70fd685",
   "orderHint": "Order Hint value"
 }
 ```

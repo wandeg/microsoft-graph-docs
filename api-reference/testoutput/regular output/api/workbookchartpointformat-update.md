@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartPointFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartPointFormat](../resources/workbookChartPointFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartPointFormat](../resources/workbookchartpointformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}/format
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}/format
 Content-type: application/json
 Content-length: 66
 
@@ -81,7 +83,7 @@ Content-Length: 115
 
 {
   "@odata.type": "#microsoft.graph.workbookChartPointFormat",
-  "id": "5fddfdab-fdab-5fdd-abfd-dd5fabfddd5f"
+  "id": "2f001880-1880-2f00-8018-002f8018002f"
 }
 ```
 

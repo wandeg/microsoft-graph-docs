@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add secureScoreControlProfiles
 
+Namespace: microsoft.graph
+
 Add secureScoreControlProfiles by posting to the secureScoreControlProfiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /Security/secureScoreControlProfiles/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the secureScoreControlProfile object.
+In the request body, supply a JSON representation for the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.
 
-The following table shows the properties that are required when you create the secureScoreControlProfile.
+The following table shows the properties that are required when you create the [secureScoreControlProfile](../resources/securescorecontrolprofile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,9 +48,9 @@ The following table shows the properties that are required when you create the s
 |actionType|String||
 |actionUrl|String||
 |azureTenantId|String||
-|complianceInformation|[complianceInformation](../resources/complianceInformation.md) collection||
+|complianceInformation|[complianceInformation](../resources/complianceinformation.md) collection||
 |controlCategory|String||
-|controlStateUpdates|[secureScoreControlStateUpdate](../resources/secureScoreControlStateUpdate.md) collection||
+|controlStateUpdates|[secureScoreControlStateUpdate](../resources/securescorecontrolstateupdate.md) collection||
 |deprecated|Boolean||
 |implementationCost|String||
 |lastModifiedDateTime|DateTimeOffset||
@@ -61,7 +63,7 @@ The following table shows the properties that are required when you create the s
 |tier|String||
 |title|String||
 |userImpact|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -78,7 +80,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/secureScoreControlProfiles
+POST https://graph.microsoft.com/localtest/Security/secureScoreControlProfiles
 Content-type: application/json
 Content-length: 1565
 
@@ -108,7 +110,7 @@ Content-length: 1565
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2017-01-01T00:02:39.6439205+03:00"
+      "updatedDateTime": "2016-12-31T23:59:12.8270379+03:00"
     }
   ],
   "deprecated": true,
@@ -149,7 +151,7 @@ Content-Length: 1678
 
 {
   "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-  "id": "762b697a-697a-762b-7a69-2b767a692b76",
+  "id": "cb8c9235-9235-cb8c-3592-8ccb35928ccb",
   "actionType": "Action Type value",
   "actionUrl": "https://example.com/actionUrl/",
   "azureTenantId": "Azure Tenant Id value",
@@ -174,12 +176,12 @@ Content-Length: 1678
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2017-01-01T00:02:39.6439205+03:00"
+      "updatedDateTime": "2016-12-31T23:59:12.8270379+03:00"
     }
   ],
   "deprecated": true,
   "implementationCost": "Implementation Cost value",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "maxScore": "Double",
   "rank": 4,
   "remediation": "Remediation value",

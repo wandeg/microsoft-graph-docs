@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get security
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [security](../resources/security.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security
+GET https://graph.microsoft.com/localtest/Security
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.security",
-    "id": "3d8edfd0-dfd0-3d8e-d0df-8e3dd0df8e3d"
+    "id": "0f827499-7499-0f82-9974-820f9974820f"
   }
 }
 ```

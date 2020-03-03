@@ -5,60 +5,63 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # list resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [baseItem](../resources/baseItem.md)
+
+
+Inherits from [baseItem](../resources/baseitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List lists](../api/list-list.md)|[list](../resources/list.md) collection|List properties and relationships of the [list](../resources/list.md) objects.|
 |[Get list](../api/list-get.md)|[list](../resources/list.md)|Read properties and relationships of the [list](../resources/list.md) object.|
+|[Create list](../api/list-create.md)|[list](../resources/list.md)|Create a new [list](../resources/list.md) object.|
 |[Delete list](../api/list-delete.md)|None|Deletes a [list](../resources/list.md).|
 |[Update list](../api/list-update.md)|[list](../resources/list.md)|Update the properties of a [list](../resources/list.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
-|[List columns](../api/list-list-columns.md)|[columnDefinition](../resources/columnDefinition.md) collection|Get the columnDefinitions from the columns navigation property.|
-|[Add columns](../api/list-post-columns.md)|[columnDefinition](../resources/columnDefinition.md)|Add columns by posting to the columns collection.|
-|[List contentTypes](../api/list-list-contenttypes.md)|[contentType](../resources/contentType.md) collection|Get the contentTypes from the contentTypes navigation property.|
-|[Add contentTypes](../api/list-post-contenttypes.md)|[contentType](../resources/contentType.md)|Add contentTypes by posting to the contentTypes collection.|
+|[List columns](../api/list-list-columns.md)|[columnDefinition](../resources/columndefinition.md) collection|Get the columnDefinitions from the columns navigation property.|
+|[Add columns](../api/list-post-columns.md)|[columnDefinition](../resources/columndefinition.md)|Add columns by posting to the columns collection.|
+|[List contentTypes](../api/list-list-contenttypes.md)|[contentType](../resources/contenttype.md) collection|Get the contentTypes from the contentTypes navigation property.|
+|[Add contentTypes](../api/list-post-contenttypes.md)|[contentType](../resources/contenttype.md)|Add contentTypes by posting to the contentTypes collection.|
 |[Get drive](../api/drive-get.md)|[drive](../resources/drive.md)|Read properties and relationships of the [drive](../resources/drive.md) object.|
-|[List items](../api/list-list-items.md)|[listItem](../resources/listItem.md) collection|Get the listItems from the items navigation property.|
-|[Add items](../api/list-post-items.md)|[listItem](../resources/listItem.md)|Add items by posting to the items collection.|
+|[List items](../api/list-list-items.md)|[listItem](../resources/listitem.md) collection|Get the listItems from the items navigation property.|
+|[Add items](../api/list-post-items.md)|[listItem](../resources/listitem.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
 |displayName|String||
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|list|[listInfo](../resources/listInfo.md)||
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
-|system|[systemFacet](../resources/systemFacet.md)||
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|list|[listInfo](../resources/listinfo.md)||
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
+|system|[systemFacet](../resources/systemfacet.md)||
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|columns|[columnDefinition](../resources/columnDefinition.md) collection||
-|contentTypes|[contentType](../resources/contentType.md) collection||
-|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|columns|[columnDefinition](../resources/columndefinition.md) collection||
+|contentTypes|[contentType](../resources/contenttype.md) collection||
+|createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 |drive|[drive](../resources/drive.md)||
-|items|[listItem](../resources/listItem.md) collection||
-|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseItem.md)|
+|items|[listItem](../resources/listitem.md) collection||
+|lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

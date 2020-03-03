@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /deviceAppManagement/managedEBooks/{managedEBookId}/assignments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedEBookAssignment object.
+In the request body, supply a JSON representation for the [managedEBookAssignment](../resources/managedebookassignment.md) object.
 
-The following table shows the properties that are required when you create the managedEBookAssignment.
+The following table shows the properties that are required when you create the [managedEBookAssignment](../resources/managedebookassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|The assignment target for eBook.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The assignment target for eBook.|
 |installIntent|Enumeration|The install intent for eBook. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assignments
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assignments
 Content-type: application/json
 Content-length: 192
 
@@ -89,7 +91,7 @@ Content-Length: 241
 
 {
   "@odata.type": "#microsoft.graph.managedEBookAssignment",
-  "id": "f2565fcc-5fcc-f256-cc5f-56f2cc5f56f2",
+  "id": "5eae703f-703f-5eae-3f70-ae5e3f70ae5e",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

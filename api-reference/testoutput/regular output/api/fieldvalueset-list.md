@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List fieldValueSets
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [fieldValueSet](../resources/fieldvalueset.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.fieldValueSet not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.fieldValueSet not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 145
   "value": [
     {
       "@odata.type": "#microsoft.graph.fieldValueSet",
-      "id": "92aa11b7-11b7-92aa-b711-aa92b711aa92"
+      "id": "b64247bd-47bd-b642-bd47-42b6bd4742b6"
     }
   ]
 }

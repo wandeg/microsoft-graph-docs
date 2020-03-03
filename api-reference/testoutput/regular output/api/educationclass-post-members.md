@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create members
 
+Namespace: microsoft.graph
+
 Create members by posting to the members collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /education/classes/{educationClassId}/members/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the educationUser object.
+In the request body, supply a JSON representation for the [educationUser](../resources/educationuser.md) object.
 
-The following table shows the properties that are required when you create the educationUser.
+The following table shows the properties that are required when you create the [educationUser](../resources/educationuser.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,14 +48,14 @@ The following table shows the properties that are required when you create the e
 |primaryRole|Enumeration|. Possible values are: `student`, `teacher`, `none`, `unknownFutureValue`.|
 |middleName|String||
 |externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
-|residenceAddress|[physicalAddress](../resources/physicalAddress.md)||
-|mailingAddress|[physicalAddress](../resources/physicalAddress.md)||
-|student|[educationStudent](../resources/educationStudent.md)||
-|teacher|[educationTeacher](../resources/educationTeacher.md)||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|residenceAddress|[physicalAddress](../resources/physicaladdress.md)||
+|mailingAddress|[physicalAddress](../resources/physicaladdress.md)||
+|student|[educationStudent](../resources/educationstudent.md)||
+|teacher|[educationTeacher](../resources/educationteacher.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |accountEnabled|Boolean||
-|assignedLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
 |department|String||
 |displayName|String||
@@ -62,10 +64,10 @@ The following table shows the properties that are required when you create the e
 |mailNickname|String||
 |mobilePhone|String||
 |passwordPolicies|String||
-|passwordProfile|[passwordProfile](../resources/passwordProfile.md)||
+|passwordProfile|[passwordProfile](../resources/passwordprofile.md)||
 |officeLocation|String||
 |preferredLanguage|String||
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |refreshTokensValidFromDateTime|DateTimeOffset||
 |showInAddressList|Boolean||
 |surname|String||
@@ -88,9 +90,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/education/classes/{educationClassId}/members
+POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members
 Content-type: application/json
-Content-length: 2924
+Content-length: 2925
 
 {
   "@odata.type": "#microsoft.graph.educationUser",
@@ -140,18 +142,18 @@ Content-length: 2924
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "9b57b07c-b07c-9b57-7cb0-579b7cb0579b"
+        "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
       ],
-      "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b"
+      "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+      "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
     }
   ],
   "businessPhones": [
@@ -178,7 +180,7 @@ Content-length: 2924
       "provisioningStatus": "Provisioning Status value"
     }
   ],
-  "refreshTokensValidFromDateTime": "2017-01-01T00:03:04.220591+03:00",
+  "refreshTokensValidFromDateTime": "2017-01-01T00:01:51.2247581+03:00",
   "showInAddressList": true,
   "surname": "Surname value",
   "usageLocation": "Usage Location value",
@@ -198,11 +200,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2973
+Content-Length: 2974
 
 {
   "@odata.type": "#microsoft.graph.educationUser",
-  "id": "c166bdfa-bdfa-c166-fabd-66c1fabd66c1",
+  "id": "9931ae8f-ae8f-9931-8fae-31998fae3199",
   "primaryRole": "String",
   "middleName": "Middle Name value",
   "externalSource": "String",
@@ -249,18 +251,18 @@ Content-Length: 2973
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "9b57b07c-b07c-9b57-7cb0-579b7cb0579b"
+        "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
       ],
-      "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b"
+      "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+      "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
     }
   ],
   "businessPhones": [
@@ -287,7 +289,7 @@ Content-Length: 2973
       "provisioningStatus": "Provisioning Status value"
     }
   ],
-  "refreshTokensValidFromDateTime": "2017-01-01T00:03:04.220591+03:00",
+  "refreshTokensValidFromDateTime": "2017-01-01T00:01:51.2247581+03:00",
   "showInAddressList": true,
   "surname": "Surname value",
   "usageLocation": "Usage Location value",

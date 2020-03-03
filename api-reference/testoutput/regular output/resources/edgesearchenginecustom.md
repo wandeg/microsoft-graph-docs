@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # edgeSearchEngineCustom resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [edgeSearchEngineBase](../resources/edgeSearchEngineBase.md)
+
+
+Inherits from [edgeSearchEngineBase](../resources/edgesearchenginebase.md)
 
 ## Properties
 |Property|Type|Description|

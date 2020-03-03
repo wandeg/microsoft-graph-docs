@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userInstallStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [userInstallStateSummary](../resources/userinstallstatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{user
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userInstallStateSummary](../resources/userInstallStateSummary.md) object.
+In the request body, supply a JSON representation for the [userInstallStateSummary](../resources/userinstallstatesummary.md) object.
 
 The following table shows the properties that are required when you create the [userInstallStateSummary](../resources/userinstallstatesummary.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}
 Content-type: application/json
 Content-length: 189
 
@@ -89,7 +91,7 @@ Content-Length: 238
 
 {
   "@odata.type": "#microsoft.graph.userInstallStateSummary",
-  "id": "edf45494-5494-edf4-9454-f4ed9454f4ed",
+  "id": "5ec23a86-3a86-5ec2-863a-c25e863ac25e",
   "userName": "User Name value",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,

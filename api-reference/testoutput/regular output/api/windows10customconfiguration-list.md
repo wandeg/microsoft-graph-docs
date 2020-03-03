@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10CustomConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10CustomConfiguration](../resources/windows10customconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10CustomConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10CustomConfiguration not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 578
+Content-Length: 577
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
-      "id": "d9552ca0-2ca0-d955-a02c-55d9a02c55d9",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "478617bb-17bb-4786-bb17-8647bb178647",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

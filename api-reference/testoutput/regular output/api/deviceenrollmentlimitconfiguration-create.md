@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceEnrollmentLimitConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [deviceEnrollmentLimitConfiguration](../resources/deviceenrollmentlimitconfiguration.md) object.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST ** Collection URI for microsoft.graph.deviceEnrollmentLimitConfiguration no
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceEnrollmentLimitConfiguration object.
+In the request body, supply a JSON representation for the [deviceEnrollmentLimitConfiguration](../resources/deviceenrollmentlimitconfiguration.md) object.
 
-The following table shows the properties that are required when you create the deviceEnrollmentLimitConfiguration.
+The following table shows the properties that are required when you create the [deviceEnrollmentLimitConfiguration](../resources/deviceenrollmentlimitconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|description|String| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|priority|Int32| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|createdDateTime|DateTimeOffset| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
-|version|Int32| Inherited from [deviceEnrollmentConfiguration](../resources/deviceEnrollmentConfiguration.md)|
+|displayName|String| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|description|String| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|priority|Int32| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|createdDateTime|DateTimeOffset| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
+|version|Int32| Inherited from [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|
 |limit|Int32||
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceEnrollmentLimitConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceEnrollmentLimitConfiguration not found
 Content-type: application/json
 Content-length: 205
 
@@ -91,16 +93,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 377
+Content-Length: 376
 
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
-  "id": "3ab8cc48-cc48-3ab8-48cc-b83a48ccb83a",
+  "id": "1fb3de06-de06-1fb3-06de-b31f06deb31f",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "version": 7,
   "limit": 5
 }

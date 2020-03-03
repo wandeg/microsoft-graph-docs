@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileAppContentFile
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileAppContentFile](../resources/mobileappcontentfile.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppCo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppContentFile](../resources/mobileAppContentFile.md) object.
+In the request body, supply a JSON representation for the [mobileAppContentFile](../resources/mobileappcontentfile.md) object.
 
 The following table shows the properties that are required when you create the [mobileAppContentFile](../resources/mobileappcontentfile.md).
 
@@ -67,9 +69,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
 Content-type: application/json
-Content-length: 333
+Content-length: 334
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
@@ -78,7 +80,7 @@ Content-length: 333
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2017-01-01T00:01:45.071169+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:00:04.7403156+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String"
 }
@@ -98,14 +100,14 @@ Content-Length: 441
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
-  "id": "d6874a77-4a77-d687-774a-87d6774a87d6",
+  "id": "16b942cb-42cb-16b9-cb42-b916cb42b916",
   "azureStorageUri": "Azure Storage Uri value",
   "isCommitted": true,
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2017-01-01T00:01:45.071169+03:00",
+  "azureStorageUriExpirationDateTime": "2017-01-01T00:00:04.7403156+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String"
 }

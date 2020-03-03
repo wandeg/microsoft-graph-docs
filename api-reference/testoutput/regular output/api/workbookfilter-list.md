@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookFilters
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookFilter](../resources/workbookfilter.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFilter not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFilter not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 718
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookFilter",
-      "id": "701a2bd9-2bd9-701a-d92b-1a70d92b1a70",
+      "id": "c3deb3ee-b3ee-c3de-eeb3-dec3eeb3dec3",
       "criteria": {
         "@odata.type": "microsoft.graph.workbookFilterCriteria",
         "color": "Color value",

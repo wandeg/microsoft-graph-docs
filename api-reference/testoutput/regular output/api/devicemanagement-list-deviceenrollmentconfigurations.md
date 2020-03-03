@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceEnrollmentConfigurations
 
+Namespace: microsoft.graph
+
 Get the deviceEnrollmentConfigurations from the deviceEnrollmentConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceEnrollmentConfigurations
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceEnrollmentConfigurations
 ```
 
 ### Response
@@ -64,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 422
+Content-Length: 421
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-      "id": "c14ced56-ed56-c14c-56ed-4cc156ed4cc1",
+      "id": "d7c227d8-27d8-d7c2-d827-c2d7d827c2d7",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "version": 7
     }
   ]

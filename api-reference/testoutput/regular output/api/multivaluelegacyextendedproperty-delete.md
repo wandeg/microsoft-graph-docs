@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete multiValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Deletes a [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md).
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+DELETE https://graph.microsoft.com/localtest/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
 ```
 
 ### Response

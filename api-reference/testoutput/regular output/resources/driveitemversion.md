@@ -5,23 +5,26 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # driveItemVersion resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [baseItemVersion](../resources/baseItemVersion.md)
+
+
+Inherits from [baseItemVersion](../resources/baseitemversion.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get driveItemVersion](../api/driveitemversion-get.md)|[driveItemVersion](../resources/driveItemVersion.md)|Read properties and relationships of the [driveItemVersion](../resources/driveitemversion.md) object.|
+|[List driveItemVersions](../api/driveitemversion-list.md)|[driveItemVersion](../resources/driveitemversion.md) collection|List properties and relationships of the [driveItemVersion](../resources/driveitemversion.md) objects.|
+|[Get driveItemVersion](../api/driveitemversion-get.md)|[driveItemVersion](../resources/driveitemversion.md)|Read properties and relationships of the [driveItemVersion](../resources/driveitemversion.md) object.|
+|[Create driveItemVersion](../api/driveitemversion-create.md)|[driveItemVersion](../resources/driveitemversion.md)|Create a new [driveItemVersion](../resources/driveitemversion.md) object.|
 |[Delete driveItemVersion](../api/driveitemversion-delete.md)|None|Deletes a [driveItemVersion](../resources/driveitemversion.md).|
-|[Update driveItemVersion](../api/driveitemversion-update.md)|[driveItemVersion](../resources/driveItemVersion.md)|Update the properties of a [driveItemVersion](../resources/driveitemversion.md) object.|
+|[Update driveItemVersion](../api/driveitemversion-update.md)|[driveItemVersion](../resources/driveitemversion.md)|Update the properties of a [driveItemVersion](../resources/driveitemversion.md) object.|
 |[restoreVersion](../api/driveitemversion-restoreversion.md)|None||
 
 ## Properties
@@ -29,9 +32,9 @@ Inherits from [baseItemVersion](../resources/baseItemVersion.md)
 |:---|:---|:---|
 |content|Stream||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
-|publication|[publicationFacet](../resources/publicationFacet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|publication|[publicationFacet](../resources/publicationfacet.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
 |size|Int64||
 
 ## Relationships

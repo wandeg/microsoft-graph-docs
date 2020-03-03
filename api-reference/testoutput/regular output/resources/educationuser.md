@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # educationUser resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,45 +20,47 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationUser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
+|[List educationUsers](../api/educationuser-list.md)|[educationUser](../resources/educationuser.md) collection|List properties and relationships of the [educationUser](../resources/educationuser.md) objects.|
+|[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationuser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
+|[Create educationUser](../api/educationuser-create.md)|[educationUser](../resources/educationuser.md)|Create a new [educationUser](../resources/educationuser.md) object.|
 |[Delete educationUser](../api/educationuser-delete.md)|None|Deletes a [educationUser](../resources/educationuser.md).|
-|[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationUser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
-|[List schools](../api/educationuser-list-schools.md)|[educationSchool](../resources/educationSchool.md) collection|Get the educationSchools from the schools navigation property.|
-|[Create schools](../api/educationuser-post-schools.md)|[educationSchool](../resources/educationSchool.md)|Create schools by posting to the schools collection.|
-|[List classes](../api/educationuser-list-classes.md)|[educationClass](../resources/educationClass.md) collection|Get the educationClasses from the classes navigation property.|
-|[Create classes](../api/educationuser-post-classes.md)|[educationClass](../resources/educationClass.md)|Create classes by posting to the classes collection.|
+|[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationuser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
+|[List schools](../api/educationuser-list-schools.md)|[educationSchool](../resources/educationschool.md) collection|Get the educationSchools from the schools navigation property.|
+|[Create schools](../api/educationuser-post-schools.md)|[educationSchool](../resources/educationschool.md)|Create schools by posting to the schools collection.|
+|[List classes](../api/educationuser-list-classes.md)|[educationClass](../resources/educationclass.md) collection|Get the educationClasses from the classes navigation property.|
+|[Create classes](../api/educationuser-post-classes.md)|[educationClass](../resources/educationclass.md)|Create classes by posting to the classes collection.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |accountEnabled|Boolean||
-|assignedLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |department|String||
 |displayName|String||
 |externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
 |givenName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |mail|String||
-|mailingAddress|[physicalAddress](../resources/physicalAddress.md)||
+|mailingAddress|[physicalAddress](../resources/physicaladdress.md)||
 |mailNickname|String||
 |middleName|String||
 |mobilePhone|String||
 |officeLocation|String||
 |passwordPolicies|String||
-|passwordProfile|[passwordProfile](../resources/passwordProfile.md)||
+|passwordProfile|[passwordProfile](../resources/passwordprofile.md)||
 |preferredLanguage|String||
 |primaryRole|Enumeration|. Possible values are: `student`, `teacher`, `none`, `unknownFutureValue`.|
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |refreshTokensValidFromDateTime|DateTimeOffset||
-|residenceAddress|[physicalAddress](../resources/physicalAddress.md)||
+|residenceAddress|[physicalAddress](../resources/physicaladdress.md)||
 |showInAddressList|Boolean||
-|student|[educationStudent](../resources/educationStudent.md)||
+|student|[educationStudent](../resources/educationstudent.md)||
 |surname|String||
-|teacher|[educationTeacher](../resources/educationTeacher.md)||
+|teacher|[educationTeacher](../resources/educationteacher.md)||
 |usageLocation|String||
 |userPrincipalName|String||
 |userType|String||
@@ -65,8 +68,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|classes|[educationClass](../resources/educationClass.md) collection||
-|schools|[educationSchool](../resources/educationSchool.md) collection||
+|classes|[educationClass](../resources/educationclass.md) collection||
+|schools|[educationSchool](../resources/educationschool.md) collection||
 |user|[user](../resources/user.md)||
 
 ## JSON Representation

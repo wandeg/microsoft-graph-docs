@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedAppPolicyDeploymentSummary
 
+Namespace: microsoft.graph
+
 Deletes a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
 ```
 
 ### Response

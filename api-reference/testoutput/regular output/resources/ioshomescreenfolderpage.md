@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosHomeScreenFolderPage resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|apps|[iosHomeScreenApp](../resources/iosHomeScreenApp.md) collection|A list of apps to appear on a page within a folder. This collection can contain a maximum of 500 elements.|
+|apps|[iosHomeScreenApp](../resources/ioshomescreenapp.md) collection|A list of apps to appear on a page within a folder. This collection can contain a maximum of 500 elements.|
 |displayName|String|Name of the folder page|
 
 ## Relationships

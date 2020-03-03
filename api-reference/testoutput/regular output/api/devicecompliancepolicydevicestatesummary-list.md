@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceCompliancePolicyDeviceStateSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceCompliancePolicyDeviceStateSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceCompliancePolicyDeviceStateSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 475
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyDeviceStateSummary",
-      "id": "e8973ab7-3ab7-e897-b73a-97e8b73a97e8",
+      "id": "2ed6c272-c272-2ed6-72c2-d62e72c2d62e",
       "inGracePeriodCount": 2,
       "configManagerCount": 2,
       "unknownDeviceCount": 2,

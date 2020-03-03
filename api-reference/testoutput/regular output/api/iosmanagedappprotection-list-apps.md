@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List apps
 
+Namespace: microsoft.graph
+
 Get the managedMobileApps from the apps navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/apps
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 287
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedMobileApp",
-      "id": "a20d7abb-7abb-a20d-bb7a-0da2bb7a0da2",
+      "id": "d5aeaacf-aacf-d5ae-cfaa-aed5cfaaaed5",
       "mobileAppIdentifier": {
         "@odata.type": "microsoft.graph.mobileAppIdentifier"
       },

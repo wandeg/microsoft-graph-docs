@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerAssignedToTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerAssignedToTaskBoardTaskFormat.md) object.
+In the request body, supply a JSON representation for the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
 
 The following table shows the properties that are required when you create the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |unassignedOrderHint|String||
-|orderHintsByAssignee|[plannerOrderHintsByAssignee](../resources/plannerOrderHintsByAssignee.md)||
+|orderHintsByAssignee|[plannerOrderHintsByAssignee](../resources/plannerorderhintsbyassignee.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
+PATCH https://graph.microsoft.com/localtest/me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
 Content-type: application/json
 Content-length: 236
 
@@ -87,7 +89,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-  "id": "5cdfd451-d451-5cdf-51d4-df5c51d4df5c",
+  "id": "ef837043-7043-ef83-4370-83ef437083ef",
   "unassignedOrderHint": "Unassigned Order Hint value",
   "orderHintsByAssignee": {
     "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

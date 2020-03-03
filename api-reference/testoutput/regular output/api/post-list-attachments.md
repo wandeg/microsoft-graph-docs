@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List attachments
 
+Namespace: microsoft.graph
+
 Get the attachments from the attachments navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/attachments
+GET https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/attachments
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.attachment",
-      "id": "addaeabc-eabc-adda-bcea-daadbceadaad",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "id": "d596da57-da57-d596-57da-96d557da96d5",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "name": "Name value",
       "contentType": "Content Type value",
       "size": 4,

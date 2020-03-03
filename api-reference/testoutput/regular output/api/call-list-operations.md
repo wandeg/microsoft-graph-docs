@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List operations
 
+Namespace: microsoft.graph
+
 Get the commsOperations from the operations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}/operations
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}/operations
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 387
   "value": [
     {
       "@odata.type": "#microsoft.graph.commsOperation",
-      "id": "e6a42829-2829-e6a4-2928-a4e62928a4e6",
+      "id": "43359530-9530-4335-3095-354330953543",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

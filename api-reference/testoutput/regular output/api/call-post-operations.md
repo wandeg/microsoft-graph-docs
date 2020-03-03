@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add operations
 
+Namespace: microsoft.graph
+
 Add operations by posting to the operations collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /communications/calls/{callId}/operations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the commsOperation object.
+In the request body, supply a JSON representation for the [commsOperation](../resources/commsoperation.md) object.
 
-The following table shows the properties that are required when you create the commsOperation.
+The following table shows the properties that are required when you create the [commsOperation](../resources/commsoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |status|Enumeration|. Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
 |clientContext|String||
-|resultInfo|[resultInfo](../resources/resultInfo.md)||
+|resultInfo|[resultInfo](../resources/resultinfo.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/operations
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/operations
 Content-type: application/json
 Content-length: 265
 
@@ -94,7 +96,7 @@ Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.commsOperation",
-  "id": "e6a42829-2829-e6a4-2928-a4e62928a4e6",
+  "id": "43359530-9530-4335-3095-354330953543",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

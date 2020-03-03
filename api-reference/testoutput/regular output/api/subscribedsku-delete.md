@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete subscribedSku
 
+Namespace: microsoft.graph
+
 Deletes a [subscribedSku](../resources/subscribedsku.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/subscribedSkus/{subscribedSkusId}
+DELETE https://graph.microsoft.com/localtest/subscribedSkus/{subscribedSkusId}
 ```
 
 ### Response

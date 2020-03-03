@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update administrativeUnit
 
+Namespace: microsoft.graph
+
 Update the properties of a [administrativeUnit](../resources/administrativeunit.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH ** Entity URI for microsoft.graph.administrativeUnit not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [administrativeUnit](../resources/administrativeUnit.md) object.
+In the request body, supply a JSON representation for the [administrativeUnit](../resources/administrativeunit.md) object.
 
 The following table shows the properties that are required when you create the [administrativeUnit](../resources/administrativeunit.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 
 
 
@@ -59,13 +61,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.administrativeUnit not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.administrativeUnit not found
 Content-type: application/json
 Content-length: 119
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
 }
 ```
 
@@ -83,8 +85,8 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "id": "d9f7a29a-a29a-d9f7-9aa2-f7d99aa2f7d9",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+  "id": "e3886bf7-6bf7-e388-f76b-88e3f76b88e3",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
 }
 ```
 

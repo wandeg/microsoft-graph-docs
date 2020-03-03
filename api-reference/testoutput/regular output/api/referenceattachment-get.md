@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get referenceAttachment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [referenceAttachment](../resources/referenceattachment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.referenceAttachment not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.referenceAttachment not found
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 307
 {
   "value": {
     "@odata.type": "#microsoft.graph.referenceAttachment",
-    "id": "9e1973a1-73a1-9e19-a173-199ea173199e",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "id": "9d5bc6c0-c6c0-9d5b-c0c6-5b9dc0c65b9d",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "contentType": "Content Type value",
     "size": 4,

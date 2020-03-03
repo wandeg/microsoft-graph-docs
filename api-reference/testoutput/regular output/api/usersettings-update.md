@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userSettings
 
+Namespace: microsoft.graph
+
 Update the properties of a [userSettings](../resources/usersettings.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/settings
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userSettings](../resources/userSettings.md) object.
+In the request body, supply a JSON representation for the [userSettings](../resources/usersettings.md) object.
 
 The following table shows the properties that are required when you create the [userSettings](../resources/usersettings.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/settings
+PATCH https://graph.microsoft.com/localtest/me/settings
 Content-type: application/json
 Content-length: 170
 
@@ -86,7 +88,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.userSettings",
-  "id": "4e266a2a-6a2a-4e26-2a6a-264e2a6a264e",
+  "id": "0f1850c7-50c7-0f18-c750-180fc750180f",
   "contributionToContentDiscoveryDisabled": true,
   "contributionToContentDiscoveryAsOrganizationDisabled": true
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List contentTypes
 
+Namespace: microsoft.graph
+
 Get the contentTypes from the contentTypes navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}/contentTypes
+GET https://graph.microsoft.com/localtest/sites/{sitesId}/contentTypes
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 1162
   "value": [
     {
       "@odata.type": "#microsoft.graph.contentType",
-      "id": "848b01db-01db-848b-db01-8b84db018b84",
+      "id": "10f918e1-18e1-10f9-e118-f910e118f910",
       "description": "Description value",
       "group": "Group value",
       "hidden": true,

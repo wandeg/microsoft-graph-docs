@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # meetingTimeSuggestionsResult resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |emptySuggestionsReason|String||
-|meetingTimeSuggestions|[meetingTimeSuggestion](../resources/meetingTimeSuggestion.md) collection||
+|meetingTimeSuggestions|[meetingTimeSuggestion](../resources/meetingtimesuggestion.md) collection||
 
 ## Relationships
 None

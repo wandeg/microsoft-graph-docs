@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete profilePhoto
 
+Namespace: microsoft.graph
+
 Deletes a [profilePhoto](../resources/profilephoto.md).
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/photo
+DELETE https://graph.microsoft.com/localtest/me/photo
 ```
 
 ### Response

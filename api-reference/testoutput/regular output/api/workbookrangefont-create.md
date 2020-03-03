@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookRangeFont
 
+Namespace: microsoft.graph
+
 Create a new [workbookRangeFont](../resources/workbookrangefont.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRangeFont not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRangeFont object.
+In the request body, supply a JSON representation for the [workbookRangeFont](../resources/workbookrangefont.md) object.
 
-The following table shows the properties that are required when you create the workbookRangeFont.
+The following table shows the properties that are required when you create the [workbookRangeFont](../resources/workbookrangefont.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeFont not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeFont not found
 Content-type: application/json
 Content-length: 203
 
@@ -95,7 +97,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFont",
-  "id": "5d4c5da8-5da8-5d4c-a85d-4c5da85d4c5d",
+  "id": "123b8e61-8e61-123b-618e-3b12618e3b12",
   "bold": true,
   "color": "Color value",
   "italic": true,

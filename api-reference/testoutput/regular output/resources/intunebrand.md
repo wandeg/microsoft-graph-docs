@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # intuneBrand resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -20,16 +21,16 @@ Namespace: microsoft.graph
 |contactITName|String|Name of the person/organization responsible for IT support.|
 |contactITNotes|String|Text comments regarding the person/organization responsible for IT support.|
 |contactITPhoneNumber|String|Phone number of the person/organization responsible for IT support.|
-|darkBackgroundLogo|[mimeContent](../resources/mimeContent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
+|darkBackgroundLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
 |displayName|String|Company/organization name that is displayed to end users.|
-|lightBackgroundLogo|[mimeContent](../resources/mimeContent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
+|lightBackgroundLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
 |onlineSupportSiteName|String|Display name of the company/organization’s IT helpdesk site.|
 |onlineSupportSiteUrl|String|URL to the company/organization’s IT helpdesk site.|
 |privacyUrl|String|URL to the company/organization’s privacy policy.|
 |showDisplayNameNextToLogo|Boolean|Boolean that represents whether the administrator-supplied display name will be shown next to the logo image.|
 |showLogo|Boolean|Boolean that represents whether the administrator-supplied logo images are shown or not shown.|
 |showNameNextToLogo|Boolean|Boolean that represents whether the administrator-supplied display name will be shown next to the logo image.|
-|themeColor|[rgbColor](../resources/rgbColor.md)|Primary theme color used in the Company Portal applications and web portal.|
+|themeColor|[rgbColor](../resources/rgbcolor.md)|Primary theme color used in the Company Portal applications and web portal.|
 
 ## Relationships
 None

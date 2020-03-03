@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerGroup
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerGroup](../resources/plannergroup.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/planner
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/planner
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 126
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerGroup",
-    "id": "ecee4b58-4b58-ecee-584b-eeec584beeec"
+    "id": "68ac29ab-29ab-68ac-ab29-ac68ab29ac68"
   }
 }
 ```

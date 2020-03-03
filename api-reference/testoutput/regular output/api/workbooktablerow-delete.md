@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookTableRow
 
+Namespace: microsoft.graph
+
 Deletes a [workbookTableRow](../resources/workbooktablerow.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows/{workbookTableRowId}
 ```
 
 ### Response

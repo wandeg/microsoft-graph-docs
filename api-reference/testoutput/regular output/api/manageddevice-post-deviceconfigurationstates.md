@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceConfigurationStates
 
+Namespace: microsoft.graph
+
 Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/managedDevices/{managedDeviceId}/deviceConfigurationStates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceConfigurationState object.
+In the request body, supply a JSON representation for the [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.
 
-The following table shows the properties that are required when you create the deviceConfigurationState.
+The following table shows the properties that are required when you create the [deviceConfigurationState](../resources/deviceconfigurationstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settingStates|[deviceConfigurationSettingState](../resources/deviceConfigurationSettingState.md) collection||
+|settingStates|[deviceConfigurationSettingState](../resources/deviceconfigurationsettingstate.md) collection||
 |displayName|String|The name of the policy for this policyBase|
 |version|Int32|The version of the policy|
 |platformType|Enumeration|Platform type that the policy applies to. Possible values are: `android`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceConfigurationStates
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceConfigurationStates
 Content-type: application/json
 Content-length: 956
 
@@ -117,7 +119,7 @@ Content-Length: 1005
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationState",
-  "id": "c4040b0d-0b0d-c404-0d0b-04c40d0b04c4",
+  "id": "c5541671-1671-c554-7116-54c5711654c5",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

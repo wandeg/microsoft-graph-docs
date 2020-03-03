@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsInformationProtectionAppLockerFile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
 ```
 
 ### Response
@@ -75,7 +77,7 @@ Content-Length: 291
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-    "id": "57d966ae-66ae-57d9-ae66-d957ae66d957",
+    "id": "fcbd25a5-25a5-fcbd-a525-bdfca525bdfc",
     "displayName": "Display Name value",
     "fileHash": "File Hash value",
     "file": "ZmlsZQ==",

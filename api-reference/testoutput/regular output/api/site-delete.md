@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete site
 
+Namespace: microsoft.graph
+
 Deletes a [site](../resources/site.md).
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/sites/{sitesId}
+DELETE https://graph.microsoft.com/localtest/sites/{sitesId}
 ```
 
 ### Response

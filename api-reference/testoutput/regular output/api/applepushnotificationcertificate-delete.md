@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete applePushNotificationCertificate
 
+Namespace: microsoft.graph
+
 Deletes a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/applePushNotificationCertificate
+DELETE https://graph.microsoft.com/localtest/deviceManagement/applePushNotificationCertificate
 ```
 
 ### Response

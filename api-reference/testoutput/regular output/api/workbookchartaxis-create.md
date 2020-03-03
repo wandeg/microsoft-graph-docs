@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartAxis
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartAxis](../resources/workbookchartaxis.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST ** Collection URI for microsoft.graph.workbookChartAxis not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartAxis object.
+In the request body, supply a JSON representation for the [workbookChartAxis](../resources/workbookchartaxis.md) object.
 
-The following table shows the properties that are required when you create the workbookChartAxis.
+The following table shows the properties that are required when you create the [workbookChartAxis](../resources/workbookchartaxis.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|majorUnit|[Json](../resources/Json.md)||
-|maximum|[Json](../resources/Json.md)||
-|minimum|[Json](../resources/Json.md)||
-|minorUnit|[Json](../resources/Json.md)||
+|majorUnit|[Json](../resources/json.md)||
+|maximum|[Json](../resources/json.md)||
+|minimum|[Json](../resources/json.md)||
+|minorUnit|[Json](../resources/json.md)||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAxis not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAxis not found
 Content-type: application/json
 Content-length: 323
 
@@ -99,7 +101,7 @@ Content-Length: 372
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxis",
-  "id": "43bc6052-6052-43bc-5260-bc435260bc43",
+  "id": "31ee50a2-50a2-31ee-a250-ee31a250ee31",
   "majorUnit": {
     "@odata.type": "microsoft.graph.Json"
   },

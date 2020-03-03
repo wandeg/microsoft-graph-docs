@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStatuses
 
+Namespace: microsoft.graph
+
 Get the deviceComplianceUserStatuses from the userStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/userStatuses
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/userStatuses
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 390
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceUserStatus",
-      "id": "f2f87031-7031-f2f8-3170-f8f23170f8f2",
+      "id": "02ae9416-9416-02ae-1694-ae021694ae02",
       "userDisplayName": "User Display Name value",
       "devicesCount": 12,
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartTitle
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartTitle](../resources/workbookcharttitle.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartTitle](../resources/workbookChartTitle.md) object.
+In the request body, supply a JSON representation for the [workbookChartTitle](../resources/workbookcharttitle.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartTitle](../resources/workbookcharttitle.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title
 Content-type: application/json
 Content-length: 125
 
@@ -87,7 +89,7 @@ Content-Length: 174
 
 {
   "@odata.type": "#microsoft.graph.workbookChartTitle",
-  "id": "58f6b7be-b7be-58f6-beb7-f658beb7f658",
+  "id": "3df9ec7a-ec7a-3df9-7aec-f93d7aecf93d",
   "overlay": true,
   "text": "Text value",
   "visible": true

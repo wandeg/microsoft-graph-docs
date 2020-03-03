@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartLegendFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartLegendFormat](../resources/workbookChartLegendFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend/format
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend/format
 Content-type: application/json
 Content-length: 67
 
@@ -81,7 +83,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-  "id": "8bc14f5d-4f5d-8bc1-5d4f-c18b5d4fc18b"
+  "id": "357c2015-2015-357c-1520-7c3515207c35"
 }
 ```
 

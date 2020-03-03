@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get post
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [post](../resources/post.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}
+GET https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}
 ```
 
 ### Response
@@ -68,14 +70,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1087
+Content-Length: 1086
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.post",
-    "id": "fc478808-8808-fc47-0888-47fc088847fc",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "id": "9e5cddfc-ddfc-9e5c-fcdd-5c9efcdd5c9e",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
@@ -85,7 +87,7 @@ Content-Length: 1087
       "contentType": "String",
       "content": "Content value"
     },
-    "receivedDateTime": "2017-01-01T00:02:26.0260569+03:00",
+    "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
     "hasAttachments": true,
     "from": {
       "@odata.type": "microsoft.graph.recipient",

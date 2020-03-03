@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update columnDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [columnDefinition](../resources/columndefinition.md) object.
 
 ## Permissions
@@ -37,32 +39,32 @@ PATCH /me/joinedTeams/{groupId}/sites/{siteId}/columns/{columnDefinitionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [columnDefinition](../resources/columnDefinition.md) object.
+In the request body, supply a JSON representation for the [columnDefinition](../resources/columndefinition.md) object.
 
 The following table shows the properties that are required when you create the [columnDefinition](../resources/columndefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|boolean|[booleanColumn](../resources/booleanColumn.md)||
-|calculated|[calculatedColumn](../resources/calculatedColumn.md)||
-|choice|[choiceColumn](../resources/choiceColumn.md)||
+|boolean|[booleanColumn](../resources/booleancolumn.md)||
+|calculated|[calculatedColumn](../resources/calculatedcolumn.md)||
+|choice|[choiceColumn](../resources/choicecolumn.md)||
 |columnGroup|String||
-|currency|[currencyColumn](../resources/currencyColumn.md)||
-|dateTime|[dateTimeColumn](../resources/dateTimeColumn.md)||
-|defaultValue|[defaultColumnValue](../resources/defaultColumnValue.md)||
+|currency|[currencyColumn](../resources/currencycolumn.md)||
+|dateTime|[dateTimeColumn](../resources/datetimecolumn.md)||
+|defaultValue|[defaultColumnValue](../resources/defaultcolumnvalue.md)||
 |description|String||
 |displayName|String||
 |enforceUniqueValues|Boolean||
 |hidden|Boolean||
 |indexed|Boolean||
-|lookup|[lookupColumn](../resources/lookupColumn.md)||
+|lookup|[lookupColumn](../resources/lookupcolumn.md)||
 |name|String||
-|number|[numberColumn](../resources/numberColumn.md)||
-|personOrGroup|[personOrGroupColumn](../resources/personOrGroupColumn.md)||
+|number|[numberColumn](../resources/numbercolumn.md)||
+|personOrGroup|[personOrGroupColumn](../resources/personorgroupcolumn.md)||
 |readOnly|Boolean||
 |required|Boolean||
-|text|[textColumn](../resources/textColumn.md)||
+|text|[textColumn](../resources/textcolumn.md)||
 
 
 
@@ -79,7 +81,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/list/columns/{columnDefinitionId}
+PATCH https://graph.microsoft.com/localtest/me/drive/list/columns/{columnDefinitionId}
 Content-type: application/json
 Content-length: 1904
 
@@ -166,7 +168,7 @@ Content-Length: 1953
 
 {
   "@odata.type": "#microsoft.graph.columnDefinition",
-  "id": "89105bca-5bca-8910-ca5b-1089ca5b1089",
+  "id": "22d49bef-9bef-22d4-ef9b-d422ef9bd422",
   "boolean": {
     "@odata.type": "microsoft.graph.booleanColumn"
   },

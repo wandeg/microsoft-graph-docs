@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartPoint
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 201
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartPoint",
-    "id": "34628f83-8f83-3462-838f-6234838f6234",
+    "id": "d2a16e7e-6e7e-d2a1-7e6e-a1d27e6ea1d2",
     "value": {
       "@odata.type": "microsoft.graph.Json"
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete columnDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [columnDefinition](../resources/columndefinition.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/list/columns/{columnDefinitionId}
+DELETE https://graph.microsoft.com/localtest/me/drive/list/columns/{columnDefinitionId}
 ```
 
 ### Response

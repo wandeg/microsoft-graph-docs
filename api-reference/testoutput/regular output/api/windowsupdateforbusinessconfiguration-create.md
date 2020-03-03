@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windowsUpdateForBusinessConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windowsUpdateForBusinessConfiguration](../resources/windowsupdateforbusinessconfiguration.md) object.
 
 ## Permissions
@@ -36,24 +38,24 @@ POST ** Collection URI for microsoft.graph.windowsUpdateForBusinessConfiguration
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsUpdateForBusinessConfiguration object.
+In the request body, supply a JSON representation for the [windowsUpdateForBusinessConfiguration](../resources/windowsupdateforbusinessconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windowsUpdateForBusinessConfiguration.
+The following table shows the properties that are required when you create the [windowsUpdateForBusinessConfiguration](../resources/windowsupdateforbusinessconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |deliveryOptimizationMode|Enumeration|Delivery Optimization Mode. Possible values are: `userDefined`, `httpOnly`, `httpWithPeeringNat`, `httpWithPeeringPrivateGroup`, `httpWithInternetPeering`, `simpleDownload`, `bypassMode`.|
 |prereleaseFeatures|Enumeration|The pre-release features. Possible values are: `userDefined`, `settingsOnly`, `settingsAndExperimentations`, `notAllowed`.|
 |automaticUpdateMode|Enumeration|Automatic update mode. Possible values are: `userDefined`, `notifyDownload`, `autoInstallAtMaintenanceTime`, `autoInstallAndRebootAtMaintenanceTime`, `autoInstallAndRebootAtScheduledTime`, `autoInstallAndRebootWithoutEndUserControl`.|
 |microsoftUpdateServiceAllowed|Boolean|Allow Microsoft Update Service|
 |driversExcluded|Boolean|Exclude Windows update Drivers|
-|installationSchedule|[windowsUpdateInstallScheduleType](../resources/windowsUpdateInstallScheduleType.md)|Installation schedule|
+|installationSchedule|[windowsUpdateInstallScheduleType](../resources/windowsupdateinstallscheduletype.md)|Installation schedule|
 |qualityUpdatesDeferralPeriodInDays|Int32|Defer Quality Updates by these many days|
 |featureUpdatesDeferralPeriodInDays|Int32|Defer Feature Updates by these many days|
 |qualityUpdatesPaused|Boolean|Pause Quality Updates|
@@ -77,9 +79,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsUpdateForBusinessConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsUpdateForBusinessConfiguration not found
 Content-type: application/json
-Content-length: 812
+Content-length: 809
 
 {
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
@@ -98,8 +100,8 @@ Content-length: 812
   "featureUpdatesDeferralPeriodInDays": 2,
   "qualityUpdatesPaused": true,
   "featureUpdatesPaused": true,
-  "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:00:12.1681668+03:00",
-  "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:58:50.8463964+03:00",
+  "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:01:52.66969+03:00",
+  "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:56:30.348384+03:00",
   "businessReadyUpdatesOnly": "String"
 }
 ```
@@ -115,13 +117,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 984
+Content-Length: 980
 
 {
   "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
-  "id": "a24b61fc-61fc-a24b-fc61-4ba2fc614ba2",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "901a1464-1464-901a-6414-1a9064141a90",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -137,8 +139,8 @@ Content-Length: 984
   "featureUpdatesDeferralPeriodInDays": 2,
   "qualityUpdatesPaused": true,
   "featureUpdatesPaused": true,
-  "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:00:12.1681668+03:00",
-  "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:58:50.8463964+03:00",
+  "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:01:52.66969+03:00",
+  "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:56:30.348384+03:00",
   "businessReadyUpdatesOnly": "String"
 }
 ```

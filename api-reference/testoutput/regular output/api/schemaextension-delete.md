@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete schemaExtension
 
+Namespace: microsoft.graph
+
 Deletes a [schemaExtension](../resources/schemaextension.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/schemaExtensions/{schemaExtensionsId}
+DELETE https://graph.microsoft.com/localtest/schemaExtensions/{schemaExtensionsId}
 ```
 
 ### Response

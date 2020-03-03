@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileThreatDefenseConnector
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnec
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobileThreatDefenseConnector.md) object.
+In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
 
 The following table shows the properties that are required when you create the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md).
 
@@ -66,13 +68,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
 Content-type: application/json
-Content-length: 410
+Content-length: 411
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:14.690929+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,
@@ -93,12 +95,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 459
+Content-Length: 460
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "id": "0c0fb415-b415-0c0f-15b4-0f0c15b40f0c",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:14.690929+03:00",
+  "id": "76c9ef9a-ef9a-76c9-9aef-c9769aefc976",
+  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,

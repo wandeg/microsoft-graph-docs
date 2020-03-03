@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookFunctions
 
+Namespace: microsoft.graph
+
 Deletes a [workbookFunctions](../resources/workbookfunctions.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/functions
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/functions
 ```
 
 ### Response

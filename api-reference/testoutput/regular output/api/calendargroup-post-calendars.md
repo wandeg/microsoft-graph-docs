@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add calendars
 
+Namespace: microsoft.graph
+
 Add calendars by posting to the calendars collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/calendarGroups/{calendarGroupId}/calendars/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the calendar object.
+In the request body, supply a JSON representation for the [calendar](../resources/calendar.md) object.
 
-The following table shows the properties that are required when you create the calendar.
+The following table shows the properties that are required when you create the [calendar](../resources/calendar.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -49,7 +51,7 @@ The following table shows the properties that are required when you create the c
 |canShare|Boolean||
 |canViewPrivateItems|Boolean||
 |canEdit|Boolean||
-|owner|[emailAddress](../resources/emailAddress.md)||
+|owner|[emailAddress](../resources/emailaddress.md)||
 
 
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/calendarGroups/{calendarGroupId}/calendars
+POST https://graph.microsoft.com/localtest/me/calendarGroups/{calendarGroupId}/calendars
 Content-type: application/json
 Content-length: 310
 
@@ -100,7 +102,7 @@ Content-Length: 359
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "cc606c88-6c88-cc60-886c-60cc886c60cc",
+  "id": "1c274a49-4a49-1c27-494a-271c494a271c",
   "name": "Name value",
   "color": "String",
   "changeKey": "Change Key value",

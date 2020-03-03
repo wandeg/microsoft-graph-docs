@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete driveItem
 
+Namespace: microsoft.graph
+
 Deletes a [driveItem](../resources/driveitem.md).
 
 ## Permissions
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/root
+DELETE https://graph.microsoft.com/localtest/me/drive/root
 ```
 
 ### Response

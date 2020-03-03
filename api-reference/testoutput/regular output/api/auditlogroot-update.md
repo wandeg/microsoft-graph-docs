@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update auditLogRoot
 
+Namespace: microsoft.graph
+
 Update the properties of a [auditLogRoot](../resources/auditlogroot.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /auditLogs
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [auditLogRoot](../resources/auditLogRoot.md) object.
+In the request body, supply a JSON representation for the [auditLogRoot](../resources/auditlogroot.md) object.
 
 The following table shows the properties that are required when you create the [auditLogRoot](../resources/auditlogroot.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/auditLogs
+PATCH https://graph.microsoft.com/localtest/auditLogs
 Content-type: application/json
 Content-length: 54
 
@@ -81,7 +83,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.auditLogRoot",
-  "id": "e561e749-e749-e561-49e7-61e549e761e5"
+  "id": "64982d7e-2d7e-6498-7e2d-98647e2d9864"
 }
 ```
 

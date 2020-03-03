@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartDataLabelses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartDataLabels not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartDataLabels not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 413
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-      "id": "c9b90d74-0d74-c9b9-740d-b9c9740db9c9",
+      "id": "f69c0bff-0bff-f69c-ff0b-9cf6ff0b9cf6",
       "position": "Position value",
       "separator": "Separator value",
       "showBubbleSize": true,

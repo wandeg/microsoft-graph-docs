@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update itemAttachment
 
+Namespace: microsoft.graph
+
 Update the properties of a [itemAttachment](../resources/itemattachment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.itemAttachment not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [itemAttachment](../resources/itemAttachment.md) object.
+In the request body, supply a JSON representation for the [itemAttachment](../resources/itemattachment.md) object.
 
 The following table shows the properties that are required when you create the [itemAttachment](../resources/itemattachment.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.itemAttachment not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.itemAttachment not found
 Content-type: application/json
 Content-length: 156
 
@@ -90,8 +92,8 @@ Content-Length: 269
 
 {
   "@odata.type": "#microsoft.graph.itemAttachment",
-  "id": "609851b2-51b2-6098-b251-9860b2519860",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "26467e66-7e66-2646-667e-4626667e4626",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

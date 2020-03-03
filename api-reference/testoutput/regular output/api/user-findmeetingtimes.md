@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # findMeetingTimes
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -43,9 +45,9 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|attendees|[attendeeBase](../resources/attendeeBase.md) collection||
-|locationConstraint|[locationConstraint](../resources/locationConstraint.md)||
-|timeConstraint|[timeConstraint](../resources/timeConstraint.md)||
+|attendees|[attendeeBase](../resources/attendeebase.md) collection||
+|locationConstraint|[locationConstraint](../resources/locationconstraint.md)||
+|timeConstraint|[timeConstraint](../resources/timeconstraint.md)||
 |meetingDuration|Duration||
 |maxCandidates|Int32||
 |isOrganizerOptional|Boolean||
@@ -55,7 +57,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [meetingTimeSuggestionsResult](../resources/meetingTimeSuggestionsResult.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md) in the response body.
 
 ## Example
 
@@ -67,10 +69,10 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/findMeetingTimes
+POST https://graph.microsoft.com/localtest/me/findMeetingTimes
 
 Content-type: application/json
-Content-length: 776
+Content-length: 774
 
 {
   "attendees": [
@@ -98,7 +100,7 @@ Content-length: 776
       }
     ]
   },
-  "meetingDuration": "-PT1M37.9362553S",
+  "meetingDuration": "PT3M1.0666938S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,

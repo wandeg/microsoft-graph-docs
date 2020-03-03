@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # syncLicenses
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /deviceAppManagement/vppTokens/{vppTokenId}/syncLicenses
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [vppToken](../resources/vppToken.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [vppToken](../resources/vpptoken.md) in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/vppTokens/{vppTokenId}/syncLicenses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/vppTokens/{vppTokenId}/syncLicenses
 ```
 
 ### Response
@@ -65,19 +67,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 613
+Content-Length: 612
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.vppToken",
-    "id": "276433d2-33d2-2764-d233-6427d2336427",
+    "id": "3b31d40b-d40b-3b31-0bd4-313b0bd4313b",
     "organizationName": "Organization Name value",
     "vppTokenAccountType": "String",
     "appleId": "Apple Id value",
-    "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
-    "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+    "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+    "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
     "token": "Token value",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "state": "String",
     "lastSyncStatus": "String",
     "automaticallyUpdateApps": true,

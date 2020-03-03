@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create playPromptOperation
 
+Namespace: microsoft.graph
+
 Create a new [playPromptOperation](../resources/playpromptoperation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.playPromptOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the playPromptOperation object.
+In the request body, supply a JSON representation for the [playPromptOperation](../resources/playpromptoperation.md) object.
 
-The following table shows the properties that are required when you create the playPromptOperation.
+The following table shows the properties that are required when you create the [playPromptOperation](../resources/playpromptoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[resultInfo](../resources/resultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[resultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.playPromptOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.playPromptOperation not found
 Content-type: application/json
 Content-length: 270
 
@@ -94,7 +96,7 @@ Content-Length: 319
 
 {
   "@odata.type": "#microsoft.graph.playPromptOperation",
-  "id": "18abcf17-cf17-18ab-17cf-ab1817cfab18",
+  "id": "759506b5-06b5-7595-b506-9575b5069575",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

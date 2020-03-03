@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windowsPhone81GeneralConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [windowsPhone81GeneralConfiguration](../resources/windowsphone81generalconfiguration.md) object.
 
 ## Permissions
@@ -35,24 +37,24 @@ PATCH ** Entity URI for microsoft.graph.windowsPhone81GeneralConfiguration not f
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windowsPhone81GeneralConfiguration](../resources/windowsPhone81GeneralConfiguration.md) object.
+In the request body, supply a JSON representation for the [windowsPhone81GeneralConfiguration](../resources/windowsphone81generalconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [windowsPhone81GeneralConfiguration](../resources/windowsphone81generalconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |applyOnlyToWindowsPhone81|Boolean|Value indicating whether this policy only applies to Windows Phone 8.1. This property is read-only.|
 |appsBlockCopyPaste|Boolean|Indicates whether or not to block copy paste.|
 |bluetoothBlocked|Boolean|Indicates whether or not to block bluetooth.|
 |cameraBlocked|Boolean|Indicates whether or not to block camera.|
 |cellularBlockWifiTethering|Boolean|Indicates whether or not to block Wi-Fi tethering. Has no impact if Wi-Fi is blocked.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |compliantAppListType|Enumeration|List that is in the AppComplianceList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |diagnosticDataBlockSubmission|Boolean|Indicates whether or not to block diagnostic data submission.|
 |emailBlockAddingAccounts|Boolean|Indicates whether or not to block custom email accounts.|
@@ -92,7 +94,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsPhone81GeneralConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsPhone81GeneralConfiguration not found
 Content-type: application/json
 Content-length: 1442
 
@@ -151,13 +153,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1614
+Content-Length: 1613
 
 {
   "@odata.type": "#microsoft.graph.windowsPhone81GeneralConfiguration",
-  "id": "7e0be490-e490-7e0b-90e4-0b7e90e40b7e",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "b35fddfb-ddfb-b35f-fbdd-5fb3fbdd5fb3",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

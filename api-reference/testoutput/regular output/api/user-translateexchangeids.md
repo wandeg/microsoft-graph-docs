@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # translateExchangeIds
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [convertIdResult](../resources/convertIdResult.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [convertIdResult](../resources/convertidresult.md) collection in the response body.
 
 ## Example
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/translateExchangeIds
+POST https://graph.microsoft.com/localtest/me/translateExchangeIds
 
 Content-type: application/json
 Content-length: 107

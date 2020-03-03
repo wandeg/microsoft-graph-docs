@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete list
 
+Namespace: microsoft.graph
+
 Deletes a [list](../resources/list.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/list
+DELETE https://graph.microsoft.com/localtest/me/drive/list
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete person
 
+Namespace: microsoft.graph
+
 Deletes a [person](../resources/person.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/people/{personId}
+DELETE https://graph.microsoft.com/localtest/me/people/{personId}
 ```
 
 ### Response

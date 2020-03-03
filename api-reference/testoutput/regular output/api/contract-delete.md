@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete contract
 
+Namespace: microsoft.graph
+
 Deletes a [contract](../resources/contract.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/contracts/{contractsId}
+DELETE https://graph.microsoft.com/localtest/contracts/{contractsId}
 ```
 
 ### Response

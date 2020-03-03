@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List operations
 
+Namespace: microsoft.graph
+
 Get the managedAppOperations from the operations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedAppRegistrations/{managedAppRegistrationId}/operations
+GET https://graph.microsoft.com/localtest/me/managedAppRegistrations/{managedAppRegistrationId}/operations
 ```
 
 ### Response
@@ -70,9 +72,9 @@ Content-Length: 329
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppOperation",
-      "id": "63913f88-3f88-6391-883f-9163883f9163",
+      "id": "d217313a-313a-d217-3a31-17d23a3117d2",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "state": "State value",
       "version": "Version value"
     }

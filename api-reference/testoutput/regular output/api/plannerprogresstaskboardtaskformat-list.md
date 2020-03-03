@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerProgressTaskBoardTaskFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerProgressTaskBoardTaskFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerProgressTaskBoardTaskFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 206
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-      "id": "36260b10-0b10-3626-100b-2636100b2636",
+      "id": "85d60fe7-0fe7-85d6-e70f-d685e70fd685",
       "orderHint": "Order Hint value"
     }
   ]

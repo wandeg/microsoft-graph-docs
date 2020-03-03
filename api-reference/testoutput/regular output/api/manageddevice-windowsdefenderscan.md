@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # windowsDefenderScan
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/windowsDefenderScan
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/windowsDefenderScan
 
 Content-type: application/json
 Content-length: 25

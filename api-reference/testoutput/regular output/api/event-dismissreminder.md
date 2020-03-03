@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # dismissReminder
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events/{eventId}/dismissReminder
+POST https://graph.microsoft.com/localtest/me/events/{eventId}/dismissReminder
 ```
 
 ### Response

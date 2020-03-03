@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List onlineMeetings
 
+Namespace: microsoft.graph
+
 Get the onlineMeetings from the onlineMeetings navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/onlineMeetings
+GET https://graph.microsoft.com/localtest/communications/onlineMeetings
 ```
 
 ### Response
@@ -70,10 +72,10 @@ Content-Length: 1849
   "value": [
     {
       "@odata.type": "#microsoft.graph.onlineMeeting",
-      "id": "2cc351ac-51ac-2cc3-ac51-c32cac51c32c",
-      "creationDateTime": "2016-12-31T23:57:49.9048852+03:00",
-      "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-      "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+      "id": "78200008-0008-7820-0800-207808002078",
+      "creationDateTime": "2016-12-31T23:59:03.7411042+03:00",
+      "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+      "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
       "joinUrl": "https://example.com/joinUrl/",
       "subject": "Subject value",
       "participants": {

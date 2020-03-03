@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|enrollmentConfigurationAssignments|[enrollmentConfigurationAssignment](../resources/enrollmentConfigurationAssignment.md) collection||
+|enrollmentConfigurationAssignments|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration not found/assign
 
 Content-type: application/json
 Content-length: 304
@@ -68,7 +70,7 @@ Content-length: 304
   "enrollmentConfigurationAssignments": [
     {
       "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-      "id": "db409e5f-9e5f-db40-5f9e-40db5f9e40db",
+      "id": "1084fe56-fe56-1084-56fe-841056fe8410",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

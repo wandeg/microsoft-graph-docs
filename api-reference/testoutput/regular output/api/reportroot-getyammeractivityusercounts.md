@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getYammerActivityUserCounts
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getYammerActivityUserCounts(period='parameterValue')
+GET https://graph.microsoft.com/localtest/reports/getYammerActivityUserCounts(period='parameterValue')
 ```
 
 ### Response

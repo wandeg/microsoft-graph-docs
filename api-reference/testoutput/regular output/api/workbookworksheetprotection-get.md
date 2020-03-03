@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookWorksheetProtection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/protection
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/protection
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 629
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-    "id": "a3db073b-073b-a3db-3b07-dba33b07dba3",
+    "id": "a3a10595-0595-a3a1-9505-a1a39505a1a3",
     "options": {
       "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
       "allowAutoFilter": true,

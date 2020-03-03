@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # openTypeExtension resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [extension](../resources/extension.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List openTypeExtensions](../api/opentypeextension-list.md)|[openTypeExtension](../resources/openTypeExtension.md) collection|List properties and relationships of the [openTypeExtension](../resources/opentypeextension.md) objects.|
-|[Get openTypeExtension](../api/opentypeextension-get.md)|[openTypeExtension](../resources/openTypeExtension.md)|Read properties and relationships of the [openTypeExtension](../resources/opentypeextension.md) object.|
-|[Create openTypeExtension](../api/opentypeextension-create.md)|[openTypeExtension](../resources/openTypeExtension.md)|Create a new [openTypeExtension](../resources/opentypeextension.md) object.|
+|[List openTypeExtensions](../api/opentypeextension-list.md)|[openTypeExtension](../resources/opentypeextension.md) collection|List properties and relationships of the [openTypeExtension](../resources/opentypeextension.md) objects.|
+|[Get openTypeExtension](../api/opentypeextension-get.md)|[openTypeExtension](../resources/opentypeextension.md)|Read properties and relationships of the [openTypeExtension](../resources/opentypeextension.md) object.|
+|[Create openTypeExtension](../api/opentypeextension-create.md)|[openTypeExtension](../resources/opentypeextension.md)|Create a new [openTypeExtension](../resources/opentypeextension.md) object.|
 |[Delete openTypeExtension](../api/opentypeextension-delete.md)|None|Deletes a [openTypeExtension](../resources/opentypeextension.md).|
-|[Update openTypeExtension](../api/opentypeextension-update.md)|[openTypeExtension](../resources/openTypeExtension.md)|Update the properties of a [openTypeExtension](../resources/opentypeextension.md) object.|
+|[Update openTypeExtension](../api/opentypeextension-update.md)|[openTypeExtension](../resources/opentypeextension.md)|Update the properties of a [openTypeExtension](../resources/opentypeextension.md) object.|
 
 ## Properties
 |Property|Type|Description|

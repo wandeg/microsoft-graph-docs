@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create onPremisesConditionalAccessSettings
 
+Namespace: microsoft.graph
+
 Create a new [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.onPremisesConditionalAccessSettings n
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onPremisesConditionalAccessSettings object.
+In the request body, supply a JSON representation for the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.
 
-The following table shows the properties that are required when you create the onPremisesConditionalAccessSettings.
+The following table shows the properties that are required when you create the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.onPremisesConditionalAccessSettings not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.onPremisesConditionalAccessSettings not found
 Content-type: application/json
 Content-length: 275
 
@@ -71,10 +73,10 @@ Content-length: 275
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
   "enabled": true,
   "includedGroups": [
-    "6bcdf59d-f59d-6bcd-9df5-cd6b9df5cd6b"
+    "021db9ef-b9ef-021d-efb9-1d02efb91d02"
   ],
   "excludedGroups": [
-    "1e4a86f2-86f2-1e4a-f286-4a1ef2864a1e"
+    "56d659df-59df-56d6-df59-d656df59d656"
   ],
   "overrideDefaultRule": true
 }
@@ -95,13 +97,13 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-  "id": "3cae2888-2888-3cae-8828-ae3c8828ae3c",
+  "id": "15e2a7c7-a7c7-15e2-c7a7-e215c7a7e215",
   "enabled": true,
   "includedGroups": [
-    "6bcdf59d-f59d-6bcd-9df5-cd6b9df5cd6b"
+    "021db9ef-b9ef-021d-efb9-1d02efb91d02"
   ],
   "excludedGroups": [
-    "1e4a86f2-86f2-1e4a-f286-4a1ef2864a1e"
+    "56d659df-59df-56d6-df59-d656df59d656"
   ],
   "overrideDefaultRule": true
 }

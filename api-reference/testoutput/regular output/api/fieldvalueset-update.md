@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update fieldValueSet
 
+Namespace: microsoft.graph
+
 Update the properties of a [fieldValueSet](../resources/fieldvalueset.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/drive/items/{driveItemId}/listItem/versions/{listItemVersionId}/fields
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [fieldValueSet](../resources/fieldValueSet.md) object.
+In the request body, supply a JSON representation for the [fieldValueSet](../resources/fieldvalueset.md) object.
 
 The following table shows the properties that are required when you create the [fieldValueSet](../resources/fieldvalueset.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/listItem/fields
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/listItem/fields
 Content-type: application/json
 Content-length: 55
 
@@ -82,7 +84,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.fieldValueSet",
-  "id": "92aa11b7-11b7-92aa-b711-aa92b711aa92"
+  "id": "b64247bd-47bd-b642-bd47-42b6bd4742b6"
 }
 ```
 

@@ -5,32 +5,33 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # iosVppEBookAssignment resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties used to assign an iOS VPP EBook to a group.
 
 
-Inherits from [managedEBookAssignment](../resources/managedEBookAssignment.md)
+Inherits from [managedEBookAssignment](../resources/managedebookassignment.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List iosVppEBookAssignments](../api/iosvppebookassignment-list.md)|[iosVppEBookAssignment](../resources/iosVppEBookAssignment.md) collection|List properties and relationships of the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) objects.|
-|[Get iosVppEBookAssignment](../api/iosvppebookassignment-get.md)|[iosVppEBookAssignment](../resources/iosVppEBookAssignment.md)|Read properties and relationships of the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
-|[Create iosVppEBookAssignment](../api/iosvppebookassignment-create.md)|[iosVppEBookAssignment](../resources/iosVppEBookAssignment.md)|Create a new [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
+|[List iosVppEBookAssignments](../api/iosvppebookassignment-list.md)|[iosVppEBookAssignment](../resources/iosvppebookassignment.md) collection|List properties and relationships of the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) objects.|
+|[Get iosVppEBookAssignment](../api/iosvppebookassignment-get.md)|[iosVppEBookAssignment](../resources/iosvppebookassignment.md)|Read properties and relationships of the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
+|[Create iosVppEBookAssignment](../api/iosvppebookassignment-create.md)|[iosVppEBookAssignment](../resources/iosvppebookassignment.md)|Create a new [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
 |[Delete iosVppEBookAssignment](../api/iosvppebookassignment-delete.md)|None|Deletes a [iosVppEBookAssignment](../resources/iosvppebookassignment.md).|
-|[Update iosVppEBookAssignment](../api/iosvppebookassignment-update.md)|[iosVppEBookAssignment](../resources/iosVppEBookAssignment.md)|Update the properties of a [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
+|[Update iosVppEBookAssignment](../api/iosvppebookassignment-update.md)|[iosVppEBookAssignment](../resources/iosvppebookassignment.md)|Update the properties of a [iosVppEBookAssignment](../resources/iosvppebookassignment.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|installIntent|Enumeration|The install intent for eBook. Inherited from [managedEBookAssignment](../resources/managedEBookAssignment.md). Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|The assignment target for eBook. Inherited from [managedEBookAssignment](../resources/managedEBookAssignment.md)|
+|installIntent|Enumeration|The install intent for eBook. Inherited from [managedEBookAssignment](../resources/managedebookassignment.md). Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The assignment target for eBook. Inherited from [managedEBookAssignment](../resources/managedebookassignment.md)|
 
 ## Relationships
 None

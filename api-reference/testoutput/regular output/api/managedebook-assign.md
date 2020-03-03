@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|managedEBookAssignments|[managedEBookAssignment](../resources/managedEBookAssignment.md) collection||
+|managedEBookAssignments|[managedEBookAssignment](../resources/managedebookassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assign
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assign
 
 Content-type: application/json
 Content-length: 316
@@ -68,7 +70,7 @@ Content-length: 316
   "managedEBookAssignments": [
     {
       "@odata.type": "#microsoft.graph.managedEBookAssignment",
-      "id": "f2565fcc-5fcc-f256-cc5f-56f2cc5f56f2",
+      "id": "5eae703f-703f-5eae-3f70-ae5e3f70ae5e",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

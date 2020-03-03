@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsInformationProtectionAppLearningSummary
 
+Namespace: microsoft.graph
+
 Deletes a [windowsInformationProtectionAppLearningSummary](../resources/windowsinformationprotectionapplearningsummary.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/windowsInformationProtectionAppLearningSummaries/{windowsInformationProtectionAppLearningSummaryId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/windowsInformationProtectionAppLearningSummaries/{windowsInformationProtectionAppLearningSummaryId}
 ```
 
 ### Response

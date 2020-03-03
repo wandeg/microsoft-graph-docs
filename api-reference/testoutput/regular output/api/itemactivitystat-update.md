@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update itemActivityStat
 
+Namespace: microsoft.graph
+
 Update the properties of a [itemActivityStat](../resources/itemactivitystat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivitySta
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [itemActivityStat](../resources/itemActivityStat.md) object.
+In the request body, supply a JSON representation for the [itemActivityStat](../resources/itemactivitystat.md) object.
 
 The following table shows the properties that are required when you create the [itemActivityStat](../resources/itemactivitystat.md).
 
@@ -44,13 +46,13 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |startDateTime|DateTimeOffset||
 |endDateTime|DateTimeOffset||
-|access|[itemActionStat](../resources/itemActionStat.md)||
-|create|[itemActionStat](../resources/itemActionStat.md)||
-|delete|[itemActionStat](../resources/itemActionStat.md)||
-|edit|[itemActionStat](../resources/itemActionStat.md)||
-|move|[itemActionStat](../resources/itemActionStat.md)||
+|access|[itemActionStat](../resources/itemactionstat.md)||
+|create|[itemActionStat](../resources/itemactionstat.md)||
+|delete|[itemActionStat](../resources/itemactionstat.md)||
+|edit|[itemActionStat](../resources/itemactionstat.md)||
+|move|[itemActionStat](../resources/itemactionstat.md)||
 |isTrending|Boolean||
-|incompleteData|[incompleteData](../resources/incompleteData.md)||
+|incompleteData|[incompleteData](../resources/incompletedata.md)||
 
 
 
@@ -67,14 +69,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}
 Content-type: application/json
 Content-length: 786
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -95,7 +97,7 @@ Content-length: 786
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2016-12-31T23:58:26.7841266+03:00",
+    "missingDataBeforeDateTime": "2016-12-31T23:57:44.3115031+03:00",
     "wasThrottled": true
   }
 }
@@ -115,9 +117,9 @@ Content-Length: 835
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "id": "c4dfb8eb-b8eb-c4df-ebb8-dfc4ebb8dfc4",
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+  "id": "1e7e9048-9048-1e7e-4890-7e1e48907e1e",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -138,7 +140,7 @@ Content-Length: 835
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2016-12-31T23:58:26.7841266+03:00",
+    "missingDataBeforeDateTime": "2016-12-31T23:57:44.3115031+03:00",
     "wasThrottled": true
   }
 }

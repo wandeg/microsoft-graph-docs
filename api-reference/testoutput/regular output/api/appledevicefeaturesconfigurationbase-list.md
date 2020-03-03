@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List appleDeviceFeaturesConfigurationBases
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [appleDeviceFeaturesConfigurationBase](../resources/appledevicefeaturesconfigurationbase.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.appleDeviceFeaturesConfigurationBase not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.appleDeviceFeaturesConfigurationBase not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 407
+Content-Length: 406
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.appleDeviceFeaturesConfigurationBase",
-      "id": "dadf0ac2-0ac2-dadf-c20a-dfdac20adfda",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "25b0bb98-bb98-25b0-98bb-b02598bbb025",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookChartFont
 
+Namespace: microsoft.graph
+
 Deletes a [workbookChartFont](../resources/workbookchartfont.md).
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
 ```
 
 ### Response

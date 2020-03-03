@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create iosDeviceFeaturesConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [iosDeviceFeaturesConfiguration](../resources/iosdevicefeaturesconfiguration.md) object.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST ** Collection URI for microsoft.graph.iosDeviceFeaturesConfiguration not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosDeviceFeaturesConfiguration object.
+In the request body, supply a JSON representation for the [iosDeviceFeaturesConfiguration](../resources/iosdevicefeaturesconfiguration.md) object.
 
-The following table shows the properties that are required when you create the iosDeviceFeaturesConfiguration.
+The following table shows the properties that are required when you create the [iosDeviceFeaturesConfiguration](../resources/iosdevicefeaturesconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |assetTagTemplate|String|Asset tag information for the device, displayed on the login window and lock screen.|
 |lockScreenFootnote|String|A footnote displayed on the login window and lock screen. Available in iOS 9.3.1 and later.|
-|homeScreenDockIcons|[iosHomeScreenItem](../resources/iosHomeScreenItem.md) collection|A list of app and folders to appear on the Home Screen Dock. This collection can contain a maximum of 500 elements.|
-|homeScreenPages|[iosHomeScreenPage](../resources/iosHomeScreenPage.md) collection|A list of pages on the Home Screen. This collection can contain a maximum of 500 elements.|
-|notificationSettings|[iosNotificationSettings](../resources/iosNotificationSettings.md) collection|Notification settings for each bundle id. Applicable to devices in supervised mode only (iOS 9.3 and later). This collection can contain a maximum of 500 elements.|
+|homeScreenDockIcons|[iosHomeScreenItem](../resources/ioshomescreenitem.md) collection|A list of app and folders to appear on the Home Screen Dock. This collection can contain a maximum of 500 elements.|
+|homeScreenPages|[iosHomeScreenPage](../resources/ioshomescreenpage.md) collection|A list of pages on the Home Screen. This collection can contain a maximum of 500 elements.|
+|notificationSettings|[iosNotificationSettings](../resources/iosnotificationsettings.md) collection|Notification settings for each bundle id. Applicable to devices in supervised mode only (iOS 9.3 and later). This collection can contain a maximum of 500 elements.|
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosDeviceFeaturesConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosDeviceFeaturesConfiguration not found
 Content-type: application/json
 Content-length: 1268
 
@@ -133,13 +135,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1440
+Content-Length: 1439
 
 {
   "@odata.type": "#microsoft.graph.iosDeviceFeaturesConfiguration",
-  "id": "f8853933-3933-f885-3339-85f8333985f8",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "5864ae96-ae96-5864-96ae-645896ae6458",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

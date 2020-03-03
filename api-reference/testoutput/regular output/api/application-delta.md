@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/applications/delta
+GET https://graph.microsoft.com/localtest/applications/delta
 ```
 
 ### Response
@@ -64,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2059
+Content-Length: 2058
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "ec7ccdbc-cdbc-ec7c-bccd-7cecbccd7cec",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+      "id": "275f3ac0-3ac0-275f-c03a-5f27c03a5f27",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn"
@@ -91,7 +93,7 @@ Content-Length: 2059
       "identifierUris": [
         "Identifier Uris value"
       ],
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "publicClient": {
         "@odata.type": "microsoft.graph.publicClientApplication"
       },
@@ -129,7 +131,7 @@ Content-Length: 2059
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "bf50ce07-ce07-bf50-07ce-50bf07ce50bf",
+      "tokenEncryptionKeyId": "25b6c6cc-c6cc-25b6-ccc6-b625ccc6b625",
       "web": {
         "@odata.type": "microsoft.graph.webApplication"
       }

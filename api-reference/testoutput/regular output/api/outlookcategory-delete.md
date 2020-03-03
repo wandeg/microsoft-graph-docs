@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete outlookCategory
 
+Namespace: microsoft.graph
+
 Deletes a [outlookCategory](../resources/outlookcategory.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/outlook/masterCategories/{outlookCategoryId}
+DELETE https://graph.microsoft.com/localtest/me/outlook/masterCategories/{outlookCategoryId}
 ```
 
 ### Response

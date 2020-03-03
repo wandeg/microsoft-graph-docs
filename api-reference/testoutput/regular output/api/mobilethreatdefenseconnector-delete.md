@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mobileThreatDefenseConnector
 
+Namespace: microsoft.graph
+
 Deletes a [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnectorId}
 ```
 
 ### Response

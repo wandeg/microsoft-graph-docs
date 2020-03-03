@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create directory
 
+Namespace: microsoft.graph
+
 Create a new [directory](../resources/directory.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.directory not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the directory object.
+In the request body, supply a JSON representation for the [directory](../resources/directory.md) object.
 
-The following table shows the properties that are required when you create the directory.
+The following table shows the properties that are required when you create the [directory](../resources/directory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.directory not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.directory not found
 Content-type: application/json
 Content-length: 51
 
@@ -83,7 +85,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.directory",
-  "id": "d69f002f-002f-d69f-2f00-9fd62f009fd6"
+  "id": "ea0ac294-c294-ea0a-94c2-0aea94c20aea"
 }
 ```
 

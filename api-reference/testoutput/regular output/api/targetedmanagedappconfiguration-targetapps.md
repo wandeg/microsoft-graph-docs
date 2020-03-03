@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # targetApps
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|apps|[managedMobileApp](../resources/managedMobileApp.md) collection||
+|apps|[managedMobileApp](../resources/managedmobileapp.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}/targetApps
+POST https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}/targetApps
 
 Content-type: application/json
 Content-length: 286
@@ -68,7 +70,7 @@ Content-length: 286
   "apps": [
     {
       "@odata.type": "#microsoft.graph.managedMobileApp",
-      "id": "a20d7abb-7abb-a20d-bb7a-0da2bb7a0da2",
+      "id": "d5aeaacf-aacf-d5ae-cfaa-aed5cfaaaed5",
       "mobileAppIdentifier": {
         "@odata.type": "microsoft.graph.mobileAppIdentifier"
       },

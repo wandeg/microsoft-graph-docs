@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete iosVppEBookAssignment
 
+Namespace: microsoft.graph
+
 Deletes a [iosVppEBookAssignment](../resources/iosvppebookassignment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosVppEBookAssignment not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosVppEBookAssignment not found
 ```
 
 ### Response

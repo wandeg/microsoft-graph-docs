@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add appDefinitions
 
+Namespace: microsoft.graph
+
 Add appDefinitions by posting to the appDefinitions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teams
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsAppDefinition object.
+In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
-The following table shows the properties that are required when you create the teamsAppDefinition.
+The following table shows the properties that are required when you create the [teamsAppDefinition](../resources/teamsappdefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions
+POST https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions
 Content-type: application/json
 Content-length: 170
 
@@ -89,7 +91,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "aa52d203-d203-aa52-03d2-52aa03d252aa",
+  "id": "5f9a21d2-21d2-5f9a-d221-9a5fd2219a5f",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookWorksheetProtections
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookWorksheetProtection not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookWorksheetProtection not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 677
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-      "id": "a3db073b-073b-a3db-3b07-dba33b07dba3",
+      "id": "a3a10595-0595-a3a1-9505-a1a39505a1a3",
       "options": {
         "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
         "allowAutoFilter": true,

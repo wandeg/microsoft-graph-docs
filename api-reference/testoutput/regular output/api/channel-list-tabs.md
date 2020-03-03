@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List tabs
 
+Namespace: microsoft.graph
+
 Get the teamsTabs from the tabs navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs
+GET https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 544
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsTab",
-      "id": "0ddfec4a-ec4a-0ddf-4aec-df0d4aecdf0d",
+      "id": "48d608d2-08d2-48d6-d208-d648d208d648",
       "displayName": "Display Name value",
       "webUrl": "https://example.com/webUrl/",
       "configuration": {

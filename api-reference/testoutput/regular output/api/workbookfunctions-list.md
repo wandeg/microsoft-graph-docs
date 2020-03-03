@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookFunctionses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookFunctions](../resources/workbookfunctions.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFunctions not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFunctions not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 149
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookFunctions",
-      "id": "861fb55a-b55a-861f-5ab5-1f865ab51f86"
+      "id": "bf6e77a1-77a1-bf6e-a177-6ebfa1776ebf"
     }
   ]
 }

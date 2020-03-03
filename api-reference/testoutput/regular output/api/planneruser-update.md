@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerUser
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerUser](../resources/planneruser.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/planner
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerUser](../resources/plannerUser.md) object.
+In the request body, supply a JSON representation for the [plannerUser](../resources/planneruser.md) object.
 
 The following table shows the properties that are required when you create the [plannerUser](../resources/planneruser.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/planner
+PATCH https://graph.microsoft.com/localtest/me/planner
 Content-type: application/json
 Content-length: 53
 
@@ -82,7 +84,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.plannerUser",
-  "id": "4825c2fd-c2fd-4825-fdc2-2548fdc22548"
+  "id": "78287a08-7a08-7828-087a-2878087a2878"
 }
 ```
 

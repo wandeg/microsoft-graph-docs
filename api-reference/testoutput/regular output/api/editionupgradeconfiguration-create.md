@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create editionUpgradeConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [editionUpgradeConfiguration](../resources/editionupgradeconfiguration.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.editionUpgradeConfiguration not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the editionUpgradeConfiguration object.
+In the request body, supply a JSON representation for the [editionUpgradeConfiguration](../resources/editionupgradeconfiguration.md) object.
 
-The following table shows the properties that are required when you create the editionUpgradeConfiguration.
+The following table shows the properties that are required when you create the [editionUpgradeConfiguration](../resources/editionupgradeconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |licenseType|Enumeration|Edition Upgrade License Type. Possible values are: `productKey`, `licenseFile`.|
 |targetEdition|Enumeration|Edition Upgrade Target Edition. Possible values are: `windows10Enterprise`, `windows10EnterpriseN`, `windows10Education`, `windows10EducationN`, `windows10MobileEnterprise`, `windows10HolographicEnterprise`, `windows10Professional`, `windows10ProfessionalN`, `windows10ProfessionalEducation`, `windows10ProfessionalEducationN`, `windows10ProfessionalWorkstation`, `windows10ProfessionalWorkstationN`.|
 |license|String|Edition Upgrade License File Content.|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.editionUpgradeConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.editionUpgradeConfiguration not found
 Content-type: application/json
 Content-length: 292
 
@@ -95,13 +97,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 464
+Content-Length: 463
 
 {
   "@odata.type": "#microsoft.graph.editionUpgradeConfiguration",
-  "id": "cb5cf29a-f29a-cb5c-9af2-5ccb9af25ccb",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "7e5cf78f-f78f-7e5c-8ff7-5c7e8ff75c7e",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

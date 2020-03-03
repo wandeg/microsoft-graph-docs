@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartLegend
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/legend
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 212
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartLegend",
-    "id": "d9bf4444-4444-d9bf-4444-bfd94444bfd9",
+    "id": "473ba2a0-a2a0-473b-a0a2-3b47a0a23b47",
     "overlay": true,
     "position": "Position value",
     "visible": true

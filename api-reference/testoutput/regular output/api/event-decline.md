@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # decline
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/events/{eventId}/decline
+POST https://graph.microsoft.com/localtest/me/events/{eventId}/decline
 
 Content-type: application/json
 Content-length: 59

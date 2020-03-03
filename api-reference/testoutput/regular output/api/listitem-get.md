@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get listItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [listItem](../resources/listitem.md) object.
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/shares/{sharesId}/listItem
+GET https://graph.microsoft.com/localtest/shares/{sharesId}/listItem
 ```
 
 ### Response
@@ -71,12 +73,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1625
+Content-Length: 1624
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.listItem",
-    "id": "10f9b224-b224-10f9-24b2-f91024b2f910",
+    "id": "8b657fb4-7fb4-8b65-b47f-658bb47f658b",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -91,13 +93,13 @@ Content-Length: 1625
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

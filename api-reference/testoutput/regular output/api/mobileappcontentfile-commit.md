@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # commit
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|fileEncryptionInfo|[fileEncryptionInfo](../resources/fileEncryptionInfo.md)||
+|fileEncryptionInfo|[fileEncryptionInfo](../resources/fileencryptioninfo.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}/commit
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}/commit
 
 Content-type: application/json
 Content-length: 399

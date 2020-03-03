@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerUser
 
+Namespace: microsoft.graph
+
 Create a new [plannerUser](../resources/planneruser.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.plannerUser not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerUser object.
+In the request body, supply a JSON representation for the [plannerUser](../resources/planneruser.md) object.
 
-The following table shows the properties that are required when you create the plannerUser.
+The following table shows the properties that are required when you create the [plannerUser](../resources/planneruser.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerUser not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerUser not found
 Content-type: application/json
 Content-length: 53
 
@@ -83,7 +85,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.plannerUser",
-  "id": "4825c2fd-c2fd-4825-fdc2-2548fdc22548"
+  "id": "78287a08-7a08-7828-087a-2878087a2878"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List worksheets
 
+Namespace: microsoft.graph
+
 Get the workbookWorksheets from the worksheets navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/worksheets
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/worksheets
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 241
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookWorksheet",
-      "id": "a98ba4aa-a4aa-a98b-aaa4-8ba9aaa48ba9",
+      "id": "1b18fb47-fb47-1b18-47fb-181b47fb181b",
       "name": "Name value",
       "position": 8,
       "visibility": "Visibility value"

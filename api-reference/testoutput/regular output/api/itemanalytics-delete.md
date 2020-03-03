@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete itemAnalytics
 
+Namespace: microsoft.graph
+
 Deletes a [itemAnalytics](../resources/itemanalytics.md).
 
 ## Permissions

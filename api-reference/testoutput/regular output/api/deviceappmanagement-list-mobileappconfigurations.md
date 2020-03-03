@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mobileAppConfigurations
 
+Namespace: microsoft.graph
+
 Get the managedDeviceMobileAppConfigurations from the mobileAppConfigurations navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 485
+Content-Length: 484
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfiguration",
-      "id": "a0c65bfa-5bfa-a0c6-fa5b-c6a0fa5bc6a0",
+      "id": "c7c76567-6567-c7c7-6765-c7c76765c7c7",
       "targetedMobileApps": [
         "Targeted Mobile Apps value"
       ],
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "displayName": "Display Name value",
       "version": 7
     }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directory
 
+Namespace: microsoft.graph
+
 Update the properties of a [directory](../resources/directory.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/directory
+PATCH https://graph.microsoft.com/localtest/directory
 Content-type: application/json
 Content-length: 51
 
@@ -81,7 +83,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.directory",
-  "id": "d69f002f-002f-d69f-2f00-9fd62f009fd6"
+  "id": "ea0ac294-c294-ea0a-94c2-0aea94c20aea"
 }
 ```
 

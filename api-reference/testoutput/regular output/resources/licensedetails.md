@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # licenseDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get licenseDetails](../api/licensedetails-get.md)|[licenseDetails](../resources/licenseDetails.md)|Read properties and relationships of the [licenseDetails](../resources/licensedetails.md) object.|
+|[List licenseDetailses](../api/licensedetails-list.md)|[licenseDetails](../resources/licensedetails.md) collection|List properties and relationships of the [licenseDetails](../resources/licensedetails.md) objects.|
+|[Get licenseDetails](../api/licensedetails-get.md)|[licenseDetails](../resources/licensedetails.md)|Read properties and relationships of the [licenseDetails](../resources/licensedetails.md) object.|
+|[Create licenseDetails](../api/licensedetails-create.md)|[licenseDetails](../resources/licensedetails.md)|Create a new [licenseDetails](../resources/licensedetails.md) object.|
 |[Delete licenseDetails](../api/licensedetails-delete.md)|None|Deletes a [licenseDetails](../resources/licensedetails.md).|
-|[Update licenseDetails](../api/licensedetails-update.md)|[licenseDetails](../resources/licenseDetails.md)|Update the properties of a [licenseDetails](../resources/licensedetails.md) object.|
+|[Update licenseDetails](../api/licensedetails-update.md)|[licenseDetails](../resources/licensedetails.md)|Update the properties of a [licenseDetails](../resources/licensedetails.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|servicePlans|[servicePlanInfo](../resources/servicePlanInfo.md) collection||
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
 |skuId|Guid||
 |skuPartNumber|String||
 

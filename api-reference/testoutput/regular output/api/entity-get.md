@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get entity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [entity](../resources/entity.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 120
 {
   "value": {
     "@odata.type": "#microsoft.graph.entity",
-    "id": "ddaf84f8-84f8-ddaf-f884-afddf884afdd"
+    "id": "4c3a0bd5-0bd5-4c3a-d50b-3a4cd50b3a4c"
   }
 }
 ```

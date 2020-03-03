@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedDeviceMobileAppConfigurationDeviceSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfig
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/managedDeviceMobileAppConfigurationDeviceSummary.md) object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object.
 
 The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md).
 
@@ -65,9 +67,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatusSummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatusSummary
 Content-type: application/json
-Content-length: 299
+Content-length: 296
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
@@ -76,7 +78,7 @@ Content-length: 299
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```
@@ -91,17 +93,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 348
+Content-Length: 345
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
-  "id": "2bd2ecb0-ecb0-2bd2-b0ec-d22bb0ecd22b",
+  "id": "2feefc6e-fc6e-2fee-6efc-ee2f6efcee2f",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```

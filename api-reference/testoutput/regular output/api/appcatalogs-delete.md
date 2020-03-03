@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete appCatalogs
 
+Namespace: microsoft.graph
+
 Deletes a [appCatalogs](../resources/appcatalogs.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/appCatalogs
+DELETE https://graph.microsoft.com/localtest/appCatalogs
 ```
 
 ### Response

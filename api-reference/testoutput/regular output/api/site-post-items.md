@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add items
 
+Namespace: microsoft.graph
+
 Add items by posting to the items collection.
 
 ## Permissions
@@ -37,21 +39,21 @@ POST /me/joinedTeams/{groupId}/sites/{siteId}/items/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the baseItem object.
+In the request body, supply a JSON representation for the [baseItem](../resources/baseitem.md) object.
 
-The following table shows the properties that are required when you create the baseItem.
+The following table shows the properties that are required when you create the [baseItem](../resources/baseitem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |description|String||
 |eTag|String||
-|lastModifiedBy|[identitySet](../resources/identitySet.md)||
+|lastModifiedBy|[identitySet](../resources/identityset.md)||
 |lastModifiedDateTime|DateTimeOffset||
 |name|String||
-|parentReference|[itemReference](../resources/itemReference.md)||
+|parentReference|[itemReference](../resources/itemreference.md)||
 |webUrl|String||
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/sites/{sitesId}/items
+POST https://graph.microsoft.com/localtest/sites/{sitesId}/items
 Content-type: application/json
 Content-length: 1101
 
@@ -123,11 +125,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1352
+Content-Length: 1351
 
 {
   "@odata.type": "#microsoft.graph.baseItem",
-  "id": "34eef455-f455-34ee-55f4-ee3455f4ee34",
+  "id": "92af0ef9-0ef9-92af-f90e-af92f90eaf92",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -142,13 +144,13 @@ Content-Length: 1352
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

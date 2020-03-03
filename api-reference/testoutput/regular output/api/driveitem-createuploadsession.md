@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createUploadSession
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -58,12 +60,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|item|[driveItemUploadableProperties](../resources/driveItemUploadableProperties.md)||
+|item|[driveItemUploadableProperties](../resources/driveitemuploadableproperties.md)||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [uploadSession](../resources/uploadSession.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [uploadSession](../resources/uploadsession.md) in the response body.
 
 ## Example
 
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/root/createUploadSession
+POST https://graph.microsoft.com/localtest/me/drive/root/createUploadSession
 
 Content-type: application/json
 Content-length: 90

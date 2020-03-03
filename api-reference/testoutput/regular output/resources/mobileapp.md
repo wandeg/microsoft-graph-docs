@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileApp resource type
+
+
+Namespace: microsoft.graph
 
 An abstract class containing the base properties for Intune mobile apps.
 
@@ -19,14 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileApp](../api/mobileapp-get.md)|[mobileApp](../resources/mobileApp.md)|Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.|
+|[List mobileApps](../api/mobileapp-list.md)|[mobileApp](../resources/mobileapp.md) collection|List properties and relationships of the [mobileApp](../resources/mobileapp.md) objects.|
+|[Get mobileApp](../api/mobileapp-get.md)|[mobileApp](../resources/mobileapp.md)|Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.|
 |[assign](../api/mobileapp-assign.md)|None||
-|[List categories](../api/mobileapp-list-categories.md)|[mobileAppCategory](../resources/mobileAppCategory.md) collection|Get the mobileAppCategories from the categories navigation property.|
-|[Create categories](../api/mobileapp-post-categories.md)|[mobileAppCategory](../resources/mobileAppCategory.md)|Create categories by posting to the categories collection.|
-|[List assignments](../api/mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/mobileAppAssignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
-|[Add assignments](../api/mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/mobileAppAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List mobileApps](../api/deviceappmanagement-list-mobileapps.md)|[mobileApp](../resources/mobileApp.md) collection|Get the mobileApps from the mobileApps navigation property.|
-|[Add mobileApps](../api/deviceappmanagement-post-mobileapps.md)|[mobileApp](../resources/mobileApp.md)|Add mobileApps by posting to the mobileApps collection.|
+|[List categories](../api/mobileapp-list-categories.md)|[mobileAppCategory](../resources/mobileappcategory.md) collection|Get the mobileAppCategories from the categories navigation property.|
+|[Create categories](../api/mobileapp-post-categories.md)|[mobileAppCategory](../resources/mobileappcategory.md)|Create categories by posting to the categories collection.|
+|[List assignments](../api/mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
+|[Add assignments](../api/mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Add assignments by posting to the assignments collection.|
+|[List mobileApps](../api/deviceappmanagement-list-mobileapps.md)|[mobileApp](../resources/mobileapp.md) collection|Get the mobileApps from the mobileApps navigation property.|
+|[Add mobileApps](../api/deviceappmanagement-post-mobileapps.md)|[mobileApp](../resources/mobileapp.md)|Add mobileApps by posting to the mobileApps collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |informationUrl|String|The more information Url.|
 |isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin.|
-|largeIcon|[mimeContent](../resources/mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
+|largeIcon|[mimeContent](../resources/mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
 |lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified.|
 |notes|String|Notes for the app.|
 |owner|String|The owner of the app.|
@@ -49,8 +51,8 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[mobileAppAssignment](../resources/mobileAppAssignment.md) collection|The list of group assignments for this mobile app.|
-|categories|[mobileAppCategory](../resources/mobileAppCategory.md) collection|The list of categories for this app.|
+|assignments|[mobileAppAssignment](../resources/mobileappassignment.md) collection|The list of group assignments for this mobile app.|
+|categories|[mobileAppCategory](../resources/mobileappcategory.md) collection|The list of categories for this app.|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

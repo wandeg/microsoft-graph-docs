@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List itemAnalyticses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.itemAnalytics not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.itemAnalytics not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 145
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemAnalytics",
-      "id": "9d2513b6-13b6-9d25-b613-259db613259d"
+      "id": "bdf155b4-55b4-bdf1-b455-f1bdb455f1bd"
     }
   ]
 }

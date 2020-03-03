@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create schemaExtension
 
+Namespace: microsoft.graph
+
 Create a new [schemaExtension](../resources/schemaextension.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /schemaExtensions
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the schemaExtension object.
+In the request body, supply a JSON representation for the [schemaExtension](../resources/schemaextension.md) object.
 
-The following table shows the properties that are required when you create the schemaExtension.
+The following table shows the properties that are required when you create the [schemaExtension](../resources/schemaextension.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |description|String||
 |targetTypes|String collection||
-|properties|[extensionSchemaProperty](../resources/extensionSchemaProperty.md) collection||
+|properties|[extensionSchemaProperty](../resources/extensionschemaproperty.md) collection||
 |status|String||
 |owner|String||
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/schemaExtensions
+POST https://graph.microsoft.com/localtest/schemaExtensions
 Content-type: application/json
 Content-length: 365
 
@@ -101,7 +103,7 @@ Content-Length: 414
 
 {
   "@odata.type": "#microsoft.graph.schemaExtension",
-  "id": "190143cb-43cb-1901-cb43-0119cb430119",
+  "id": "c0f2fac7-fac7-c0f2-c7fa-f2c0c7faf2c0",
   "description": "Description value",
   "targetTypes": [
     "Target Types value"

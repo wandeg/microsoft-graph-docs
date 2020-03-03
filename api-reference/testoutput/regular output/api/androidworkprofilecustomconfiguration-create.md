@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create androidWorkProfileCustomConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [androidWorkProfileCustomConfiguration](../resources/androidworkprofilecustomconfiguration.md) object.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST ** Collection URI for microsoft.graph.androidWorkProfileCustomConfiguration
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the androidWorkProfileCustomConfiguration object.
+In the request body, supply a JSON representation for the [androidWorkProfileCustomConfiguration](../resources/androidworkprofilecustomconfiguration.md) object.
 
-The following table shows the properties that are required when you create the androidWorkProfileCustomConfiguration.
+The following table shows the properties that are required when you create the [androidWorkProfileCustomConfiguration](../resources/androidworkprofilecustomconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|omaSettings|[omaSetting](../resources/omaSetting.md) collection|OMA settings. This collection can contain a maximum of 500 elements.|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|omaSettings|[omaSetting](../resources/omasetting.md) collection|OMA settings. This collection can contain a maximum of 500 elements.|
 
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidWorkProfileCustomConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidWorkProfileCustomConfiguration not found
 Content-type: application/json
 Content-length: 326
 
@@ -95,13 +97,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 498
+Content-Length: 497
 
 {
   "@odata.type": "#microsoft.graph.androidWorkProfileCustomConfiguration",
-  "id": "d945da8f-da8f-d945-8fda-45d98fda45d9",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "05d3a253-a253-05d3-53a2-d30553a2d305",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

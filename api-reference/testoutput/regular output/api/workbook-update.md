@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbook
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbook](../resources/workbook.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/workbook
+PATCH https://graph.microsoft.com/localtest/workbooks/{workbooksId}/workbook
 Content-type: application/json
 Content-length: 50
 
@@ -82,7 +84,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.workbook",
-  "id": "57903461-3461-5790-6134-905761349057"
+  "id": "6c626c57-6c57-6c62-576c-626c576c626c"
 }
 ```
 

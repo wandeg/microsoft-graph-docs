@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get macOSGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [macOSGeneralDeviceConfiguration](../resources/macosgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macOSGeneralDeviceConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macOSGeneralDeviceConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1136
+Content-Length: 1135
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
-    "id": "b38b2f7f-2f7f-b38b-7f2f-8bb37f2f8bb3",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "3133e7c0-e7c0-3133-c0e7-3331c0e73331",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add protectedAppLockerFiles
 
+Namespace: microsoft.graph
+
 Add protectedAppLockerFiles by posting to the protectedAppLockerFiles collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.windowsInformationProtectionAppLocker
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsInformationProtectionAppLockerFile object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
 
-The following table shows the properties that are required when you create the windowsInformationProtectionAppLockerFile.
+The following table shows the properties that are required when you create the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsInformationProtectionAppLockerFile not found
 Content-type: application/json
 Content-length: 211
 
@@ -91,7 +93,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-  "id": "57d966ae-66ae-57d9-ae66-d957ae66d957",
+  "id": "fcbd25a5-25a5-fcbd-a525-bdfca525bdfc",
   "displayName": "Display Name value",
   "fileHash": "File Hash value",
   "file": "ZmlsZQ==",

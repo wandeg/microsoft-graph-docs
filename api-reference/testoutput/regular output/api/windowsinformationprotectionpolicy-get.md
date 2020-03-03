@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsInformationProtectionPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3785
+Content-Length: 3784
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionPolicy",
-    "id": "f2ae2d79-2d79-f2ae-792d-aef2792daef2",
+    "id": "4df5f912-f912-4df5-12f9-f54d12f9f54d",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "version": "Version value",
     "enforcementLevel": "String",
     "enterpriseDomain": "Enterprise Domain value",
@@ -92,11 +94,11 @@ Content-Length: 3785
     "dataRecoveryCertificate": {
       "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
       "subjectName": "Subject Name value",
-      "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+      "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
       "certificate": "Y2VydGlmaWNhdGU="
     },
     "revokeOnUnenrollDisabled": true,
-    "rightsManagementServicesTemplateId": "bd467290-7290-bd46-9072-46bd907246bd",
+    "rightsManagementServicesTemplateId": "94ff3b3c-3b3c-94ff-3c3b-ff943c3bff94",
     "azureRightsManagementServicesAllowed": true,
     "iconsVisible": true,
     "protectedApps": [

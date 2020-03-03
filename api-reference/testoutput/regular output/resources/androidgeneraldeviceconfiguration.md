@@ -5,36 +5,37 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # androidGeneralDeviceConfiguration resource type
+
+
+Namespace: microsoft.graph
 
 This topic provides descriptions of the declared methods, properties and relationships exposed by the androidGeneralDeviceConfiguration resource.
 
 
-Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
+Inherits from [deviceConfiguration](../resources/deviceconfiguration.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidGeneralDeviceConfigurations](../api/androidgeneraldeviceconfiguration-list.md)|[androidGeneralDeviceConfiguration](../resources/androidGeneralDeviceConfiguration.md) collection|List properties and relationships of the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) objects.|
-|[Get androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-get.md)|[androidGeneralDeviceConfiguration](../resources/androidGeneralDeviceConfiguration.md)|Read properties and relationships of the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
-|[Create androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-create.md)|[androidGeneralDeviceConfiguration](../resources/androidGeneralDeviceConfiguration.md)|Create a new [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
+|[List androidGeneralDeviceConfigurations](../api/androidgeneraldeviceconfiguration-list.md)|[androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) collection|List properties and relationships of the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) objects.|
+|[Get androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-get.md)|[androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md)|Read properties and relationships of the [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
+|[Create androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-create.md)|[androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md)|Create a new [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
 |[Delete androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-delete.md)|None|Deletes a [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md).|
-|[Update androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-update.md)|[androidGeneralDeviceConfiguration](../resources/androidGeneralDeviceConfiguration.md)|Update the properties of a [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
-|[assign](../api/androidgeneraldeviceconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection||
-|[List assignments](../api/androidgeneraldeviceconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
-|[Add assignments](../api/androidgeneraldeviceconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md)|Add assignments by posting to the assignments collection.|
-|[List deviceStatuses](../api/androidgeneraldeviceconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
-|[Add deviceStatuses](../api/androidgeneraldeviceconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
-|[List userStatuses](../api/androidgeneraldeviceconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
-|[Add userStatuses](../api/androidgeneraldeviceconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md)|Add userStatuses by posting to the userStatuses collection.|
-|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
-|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[List deviceSettingStateSummaries](../api/androidgeneraldeviceconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
-|[Add deviceSettingStateSummaries](../api/androidgeneraldeviceconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
+|[Update androidGeneralDeviceConfiguration](../api/androidgeneraldeviceconfiguration-update.md)|[androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md)|Update the properties of a [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object.|
+|[assign](../api/androidgeneraldeviceconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
+|[List assignments](../api/androidgeneraldeviceconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/androidgeneraldeviceconfiguration-post-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
+|[List deviceStatuses](../api/androidgeneraldeviceconfiguration-list-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Get the deviceConfigurationDeviceStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/androidgeneraldeviceconfiguration-post-devicestatuses.md)|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
+|[List userStatuses](../api/androidgeneraldeviceconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/androidgeneraldeviceconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
+|[Get deviceConfigurationDeviceOverview](../api/deviceconfigurationdeviceoverview-get.md)|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Read properties and relationships of the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.|
+|[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
+|[List deviceSettingStateSummaries](../api/androidgeneraldeviceconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
+|[Add deviceSettingStateSummaries](../api/androidgeneraldeviceconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,9 +43,9 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |appsBlockClipboardSharing|Boolean|Indicates whether or not to block clipboard sharing to copy and paste between applications.|
 |appsBlockCopyPaste|Boolean|Indicates whether or not to block copy and paste within applications.|
 |appsBlockYouTube|Boolean|Indicates whether or not to block the YouTube app.|
-|appsHideList|[appListItem](../resources/appListItem.md) collection|List of apps to be hidden on the KNOX device. This collection can contain a maximum of 500 elements.|
-|appsInstallAllowList|[appListItem](../resources/appListItem.md) collection|List of apps which can be installed on the KNOX device. This collection can contain a maximum of 500 elements.|
-|appsLaunchBlockList|[appListItem](../resources/appListItem.md) collection|List of apps which are blocked from being launched on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsHideList|[appListItem](../resources/applistitem.md) collection|List of apps to be hidden on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsInstallAllowList|[appListItem](../resources/applistitem.md) collection|List of apps which can be installed on the KNOX device. This collection can contain a maximum of 500 elements.|
+|appsLaunchBlockList|[appListItem](../resources/applistitem.md) collection|List of apps which are blocked from being launched on the KNOX device. This collection can contain a maximum of 500 elements.|
 |bluetoothBlocked|Boolean|Indicates whether or not to block Bluetooth.|
 |cameraBlocked|Boolean|Indicates whether or not to block the use of the camera.|
 |cellularBlockDataRoaming|Boolean|Indicates whether or not to block data roaming.|
@@ -52,20 +53,20 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |cellularBlockVoiceRoaming|Boolean|Indicates whether or not to block voice roaming.|
 |cellularBlockWiFiTethering|Boolean|Indicates whether or not to block syncing Wi-Fi tethering.|
 |compliantAppListType|Enumeration|Type of list that is in the CompliantAppsList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |deviceSharingAllowed|Boolean|Indicates whether or not to allow device sharing mode.|
 |diagnosticDataBlockSubmission|Boolean|Indicates whether or not to block diagnostic data submission.|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |factoryResetBlocked|Boolean|Indicates whether or not to block user performing a factory reset.|
 |googleAccountBlockAutoSync|Boolean|Indicates whether or not to block Google account auto sync.|
 |googlePlayStoreBlocked|Boolean|Indicates whether or not to block the Google Play store.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|kioskModeApps|[appListItem](../resources/appListItem.md) collection|A list of apps that will be allowed to run when the device is in Kiosk Mode. This collection can contain a maximum of 500 elements.|
+|kioskModeApps|[appListItem](../resources/applistitem.md) collection|A list of apps that will be allowed to run when the device is in Kiosk Mode. This collection can contain a maximum of 500 elements.|
 |kioskModeBlockSleepButton|Boolean|Indicates whether or not to block the screen sleep button while in Kiosk Mode.|
 |kioskModeBlockVolumeButtons|Boolean|Indicates whether or not to block the volume buttons while in Kiosk Mode.|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |locationServicesBlocked|Boolean|Indicates whether or not to block location services.|
 |nfcBlocked|Boolean|Indicates whether or not to block Near-Field Communication.|
 |passwordBlockFingerprintUnlock|Boolean|Indicates whether or not to block fingerprint unlock.|
@@ -84,7 +85,7 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 |storageBlockRemovableStorage|Boolean|Indicates whether or not to block removable storage usage.|
 |storageRequireDeviceEncryption|Boolean|Indicates whether or not to require device encryption.|
 |storageRequireRemovableStorageEncryption|Boolean|Indicates whether or not to require removable storage encryption.|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |voiceAssistantBlocked|Boolean|Indicates whether or not to block the use of the Voice Assistant.|
 |voiceDialingBlocked|Boolean|Indicates whether or not to block voice dialing.|
 |webBrowserBlockAutofill|Boolean|Indicates whether or not to block the web browser's auto fill feature.|
@@ -97,12 +98,12 @@ Inherits from [deviceConfiguration](../resources/deviceConfiguration.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceConfigurationDeviceStatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceConfigurationDeviceOverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|userStatuses|[deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceConfigurationUserOverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|assignments|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|The list of assignments for the device configuration profile. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceSettingStateSummaries|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Device Configuration Setting State Device Summary Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatuses|[deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) collection|Device configuration installation status by device. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|deviceStatusOverview|[deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md)|Device Configuration devices status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|userStatuses|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Device configuration installation status by user. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|userStatusOverview|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Device Configuration users status overview Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 
 ## JSON Representation
 Here is a JSON representation of the resource.

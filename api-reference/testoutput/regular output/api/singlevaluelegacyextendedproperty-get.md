@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get singleValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
+GET https://graph.microsoft.com/localtest/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
 ```
 
 ### Response
@@ -78,7 +80,7 @@ Content-Length: 176
 {
   "value": {
     "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-    "id": "2d6af270-f270-2d6a-70f2-6a2d70f26a2d",
+    "id": "90f9f530-f530-90f9-30f5-f99030f5f990",
     "value": "Value value"
   }
 }

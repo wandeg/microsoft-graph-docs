@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # commsNotifications resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|value|[commsNotification](../resources/commsNotification.md) collection||
+|value|[commsNotification](../resources/commsnotification.md) collection||
 
 ## Relationships
 None

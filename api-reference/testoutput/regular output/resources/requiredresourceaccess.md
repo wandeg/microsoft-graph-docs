@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # requiredResourceAccess resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|resourceAccess|[resourceAccess](../resources/resourceAccess.md) collection||
+|resourceAccess|[resourceAccess](../resources/resourceaccess.md) collection||
 |resourceAppId|String||
 
 ## Relationships

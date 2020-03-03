@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete reportRoot
 
+Namespace: microsoft.graph
+
 Deletes a [reportRoot](../resources/reportroot.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/reports
+DELETE https://graph.microsoft.com/localtest/reports
 ```
 
 ### Response

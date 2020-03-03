@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add resources
 
+Namespace: microsoft.graph
+
 Add resources by posting to the resources collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/onenote/resources/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onenoteResource object.
+In the request body, supply a JSON representation for the [onenoteResource](../resources/onenoteresource.md) object.
 
-The following table shows the properties that are required when you create the onenoteResource.
+The following table shows the properties that are required when you create the [onenoteResource](../resources/onenoteresource.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
 |content|Stream||
 |contentUrl|String||
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/onenote/resources
+POST https://graph.microsoft.com/localtest/me/onenote/resources
 Content-type: application/json
 Content-length: 158
 
@@ -89,7 +91,7 @@ Content-Length: 207
 
 {
   "@odata.type": "#microsoft.graph.onenoteResource",
-  "id": "a541d94a-d94a-a541-4ad9-41a54ad941a5",
+  "id": "73475303-5303-7347-0353-477303534773",
   "self": "Self value",
   "content": "Stream",
   "contentUrl": "https://example.com/contentUrl/"

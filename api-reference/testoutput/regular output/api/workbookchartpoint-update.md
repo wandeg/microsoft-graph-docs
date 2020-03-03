@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartPoint
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartPoint](../resources/workbookchartpoint.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartPoint](../resources/workbookChartPoint.md) object.
+In the request body, supply a JSON representation for the [workbookChartPoint](../resources/workbookchartpoint.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartPoint](../resources/workbookchartpoint.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/points/{workbookChartPointId}
 Content-type: application/json
 Content-length: 123
 
@@ -85,7 +87,7 @@ Content-Length: 172
 
 {
   "@odata.type": "#microsoft.graph.workbookChartPoint",
-  "id": "34628f83-8f83-3462-838f-6234838f6234",
+  "id": "d2a16e7e-6e7e-d2a1-7e6e-a1d27e6ea1d2",
   "value": {
     "@odata.type": "microsoft.graph.Json"
   }

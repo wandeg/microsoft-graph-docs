@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartLineFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartLineFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartLineFormat object.
+In the request body, supply a JSON representation for the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartLineFormat.
+The following table shows the properties that are required when you create the [workbookChartLineFormat](../resources/workbookchartlineformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartLineFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartLineFormat not found
 Content-type: application/json
 Content-length: 92
 
@@ -85,7 +87,7 @@ Content-Length: 141
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-  "id": "d93aa64e-a64e-d93a-4ea6-3ad94ea63ad9",
+  "id": "45e400e9-00e9-45e4-e900-e445e900e445",
   "color": "Color value"
 }
 ```

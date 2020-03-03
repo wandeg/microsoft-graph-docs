@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List certificateBasedAuthConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/certificateBasedAuthConfiguration
+GET https://graph.microsoft.com/localtest/certificateBasedAuthConfiguration
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 662
   "value": [
     {
       "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-      "id": "0bbba739-a739-0bbb-39a7-bb0b39a7bb0b",
+      "id": "2e51daa8-daa8-2e51-a8da-512ea8da512e",
       "certificateAuthorities": [
         {
           "@odata.type": "microsoft.graph.certificateAuthority",

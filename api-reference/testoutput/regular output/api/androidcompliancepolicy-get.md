@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get androidCompliancePolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [androidCompliancePolicy](../resources/androidcompliancepolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidCompliancePolicy not found
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1401
+Content-Length: 1400
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidCompliancePolicy",
-    "id": "d72627fc-27fc-d726-fc27-26d7fc2726d7",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "1e28028c-028c-1e28-8c02-281e8c02281e",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "displayName": "Display Name value",
     "version": 7,
     "passwordRequired": true,

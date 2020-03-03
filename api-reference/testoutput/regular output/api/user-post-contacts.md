@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contacts
 
+Namespace: microsoft.graph
+
 Add contacts by posting to the contacts collection.
 
 ## Permissions
@@ -37,17 +39,17 @@ POST /users/{usersId}/contacts/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the contact object.
+In the request body, supply a JSON representation for the [contact](../resources/contact.md) object.
 
-The following table shows the properties that are required when you create the contact.
+The following table shows the properties that are required when you create the [contact](../resources/contact.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |parentFolderId|String||
 |birthday|DateTimeOffset||
 |fileAs|String||
@@ -62,7 +64,7 @@ The following table shows the properties that are required when you create the c
 |yomiSurname|String||
 |yomiCompanyName|String||
 |generation|String||
-|emailAddresses|[emailAddress](../resources/emailAddress.md) collection||
+|emailAddresses|[emailAddress](../resources/emailaddress.md) collection||
 |imAddresses|String collection||
 |jobTitle|String||
 |companyName|String||
@@ -75,9 +77,9 @@ The following table shows the properties that are required when you create the c
 |homePhones|String collection||
 |mobilePhone|String||
 |businessPhones|String collection||
-|homeAddress|[physicalAddress](../resources/physicalAddress.md)||
-|businessAddress|[physicalAddress](../resources/physicalAddress.md)||
-|otherAddress|[physicalAddress](../resources/physicalAddress.md)||
+|homeAddress|[physicalAddress](../resources/physicaladdress.md)||
+|businessAddress|[physicalAddress](../resources/physicaladdress.md)||
+|otherAddress|[physicalAddress](../resources/physicaladdress.md)||
 |spouseName|String||
 |personalNotes|String||
 |children|String collection||
@@ -97,7 +99,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/contacts
+POST https://graph.microsoft.com/localtest/me/contacts
 Content-type: application/json
 Content-length: 1903
 
@@ -108,7 +110,7 @@ Content-length: 1903
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2016-12-31T23:58:57.9003343+03:00",
+  "birthday": "2016-12-31T23:57:56.7393524+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
@@ -179,19 +181,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2075
+Content-Length: 2074
 
 {
   "@odata.type": "#microsoft.graph.contact",
-  "id": "e4b92c89-2c89-e4b9-892c-b9e4892cb9e4",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "14cd4ef8-4ef8-14cd-f84e-cd14f84ecd14",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2016-12-31T23:58:57.9003343+03:00",
+  "birthday": "2016-12-31T23:57:56.7393524+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",

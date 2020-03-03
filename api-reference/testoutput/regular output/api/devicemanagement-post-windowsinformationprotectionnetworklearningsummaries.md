@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add windowsInformationProtectionNetworkLearningSummaries
 
+Namespace: microsoft.graph
+
 Add windowsInformationProtectionNetworkLearningSummaries by posting to the windowsInformationProtectionNetworkLearningSummaries collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/windowsInformationProtectionNetworkLearningSummaries/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windowsInformationProtectionNetworkLearningSummary object.
+In the request body, supply a JSON representation for the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md) object.
 
-The following table shows the properties that are required when you create the windowsInformationProtectionNetworkLearningSummary.
+The following table shows the properties that are required when you create the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/windowsInformationProtectionNetworkLearningSummaries
+POST https://graph.microsoft.com/localtest/deviceManagement/windowsInformationProtectionNetworkLearningSummaries
 Content-type: application/json
 Content-length: 137
 
@@ -87,7 +89,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionNetworkLearningSummary",
-  "id": "34512b5b-2b5b-3451-5b2b-51345b2b5134",
+  "id": "34f8f125-f125-34f8-25f1-f83425f1f834",
   "url": "Url value",
   "deviceCount": 11
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupSettingTemplate
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupSettingTemplate](../resources/groupsettingtemplate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groupSettingTemplates/{groupSettingTemplatesId}
+GET https://graph.microsoft.com/localtest/groupSettingTemplates/{groupSettingTemplatesId}
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 494
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupSettingTemplate",
-    "id": "a6beb862-b862-a6be-62b8-bea662b8bea6",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+    "id": "80a84b77-4b77-80a8-774b-a880774ba880",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
     "displayName": "Display Name value",
     "description": "Description value",
     "values": [

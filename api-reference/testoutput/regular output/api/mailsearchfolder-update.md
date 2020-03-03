@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mailSearchFolder
 
+Namespace: microsoft.graph
+
 Update the properties of a [mailSearchFolder](../resources/mailsearchfolder.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.mailSearchFolder not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mailSearchFolder](../resources/mailSearchFolder.md) object.
+In the request body, supply a JSON representation for the [mailSearchFolder](../resources/mailsearchfolder.md) object.
 
 The following table shows the properties that are required when you create the [mailSearchFolder](../resources/mailsearchfolder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String| Inherited from [mailFolder](../resources/mailFolder.md)|
-|parentFolderId|String| Inherited from [mailFolder](../resources/mailFolder.md)|
-|childFolderCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
-|unreadItemCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
-|totalItemCount|Int32| Inherited from [mailFolder](../resources/mailFolder.md)|
+|displayName|String| Inherited from [mailFolder](../resources/mailfolder.md)|
+|parentFolderId|String| Inherited from [mailFolder](../resources/mailfolder.md)|
+|childFolderCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
+|unreadItemCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
+|totalItemCount|Int32| Inherited from [mailFolder](../resources/mailfolder.md)|
 |isSupported|Boolean||
 |includeNestedFolders|Boolean||
 |sourceFolderIds|String collection||
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailSearchFolder not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailSearchFolder not found
 Content-type: application/json
 Content-length: 380
 
@@ -101,7 +103,7 @@ Content-Length: 429
 
 {
   "@odata.type": "#microsoft.graph.mailSearchFolder",
-  "id": "cbdb126e-126e-cbdb-6e12-dbcb6e12dbcb",
+  "id": "5a30dba9-dba9-5a30-a9db-305aa9db305a",
   "displayName": "Display Name value",
   "parentFolderId": "Parent Folder Id value",
   "childFolderCount": 0,

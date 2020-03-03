@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create inviteParticipantsOperation
 
+Namespace: microsoft.graph
+
 Create a new [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST ** Collection URI for microsoft.graph.inviteParticipantsOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the inviteParticipantsOperation object.
+In the request body, supply a JSON representation for the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.
 
-The following table shows the properties that are required when you create the inviteParticipantsOperation.
+The following table shows the properties that are required when you create the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[resultInfo](../resources/resultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|participants|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[resultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|participants|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.inviteParticipantsOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.inviteParticipantsOperation not found
 Content-type: application/json
 Content-length: 934
 
@@ -117,7 +119,7 @@ Content-Length: 983
 
 {
   "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-  "id": "b4cc9683-9683-b4cc-8396-ccb48396ccb4",
+  "id": "999da5ae-a5ae-999d-aea5-9d99aea59d99",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

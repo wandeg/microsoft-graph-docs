@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookFormatProtection
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookFormatProtection](../resources/workbookformatprotection.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookFormatProtection not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookFormatProtection](../resources/workbookFormatProtection.md) object.
+In the request body, supply a JSON representation for the [workbookFormatProtection](../resources/workbookformatprotection.md) object.
 
 The following table shows the properties that are required when you create the [workbookFormatProtection](../resources/workbookformatprotection.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookFormatProtection not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookFormatProtection not found
 Content-type: application/json
 Content-length: 111
 
@@ -85,7 +87,7 @@ Content-Length: 160
 
 {
   "@odata.type": "#microsoft.graph.workbookFormatProtection",
-  "id": "eebb12c4-12c4-eebb-c412-bbeec412bbee",
+  "id": "7aae4425-4425-7aae-2544-ae7a2544ae7a",
   "formulaHidden": true,
   "locked": true
 }

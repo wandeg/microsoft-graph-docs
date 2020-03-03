@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartTitleFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 138
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartTitleFormat",
-    "id": "e0c7a821-a821-e0c7-21a8-c7e021a8c7e0"
+    "id": "ef983830-3830-ef98-3038-98ef303898ef"
   }
 }
 ```

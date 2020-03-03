@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update invitation
 
+Namespace: microsoft.graph
+
 Update the properties of a [invitation](../resources/invitation.md) object.
 
 ## Permissions
@@ -45,7 +47,7 @@ The following table shows the properties that are required when you create the [
 |invitedUserDisplayName|String||
 |invitedUserType|String||
 |invitedUserEmailAddress|String||
-|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedUserMessageInfo.md)||
+|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedusermessageinfo.md)||
 |sendInvitationMessage|Boolean||
 |inviteRedirectUrl|String||
 |inviteRedeemUrl|String||
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/invitations/{invitationsId}
+PATCH https://graph.microsoft.com/localtest/invitations/{invitationsId}
 Content-type: application/json
 Content-length: 902
 
@@ -111,7 +113,7 @@ Content-Length: 951
 
 {
   "@odata.type": "#microsoft.graph.invitation",
-  "id": "559c292a-292a-559c-2a29-9c552a299c55",
+  "id": "5bee837a-837a-5bee-7a83-ee5b7a83ee5b",
   "invitedUserDisplayName": "Invited User Display Name value",
   "invitedUserType": "Invited User Type value",
   "invitedUserEmailAddress": "Invited User Email Address value",

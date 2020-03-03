@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create recordOperation
 
+Namespace: microsoft.graph
+
 Create a new [recordOperation](../resources/recordoperation.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.recordOperation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the recordOperation object.
+In the request body, supply a JSON representation for the [recordOperation](../resources/recordoperation.md) object.
 
-The following table shows the properties that are required when you create the recordOperation.
+The following table shows the properties that are required when you create the [recordOperation](../resources/recordoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[resultInfo](../resources/resultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[resultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 |recordingLocation|String||
 |recordingAccessToken|String||
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.recordOperation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.recordOperation not found
 Content-type: application/json
 Content-length: 377
 
@@ -98,7 +100,7 @@ Content-Length: 426
 
 {
   "@odata.type": "#microsoft.graph.recordOperation",
-  "id": "fe03f4ed-f4ed-fe03-edf4-03feedf403fe",
+  "id": "3e63f5b0-f5b0-3e63-b0f5-633eb0f5633e",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppCategory resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for a single Intune app category.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileAppCategory](../api/mobileappcategory-get.md)|[mobileAppCategory](../resources/mobileAppCategory.md)|Read properties and relationships of the [mobileAppCategory](../resources/mobileappcategory.md) object.|
+|[List mobileAppCategories](../api/mobileappcategory-list.md)|[mobileAppCategory](../resources/mobileappcategory.md) collection|List properties and relationships of the [mobileAppCategory](../resources/mobileappcategory.md) objects.|
+|[Get mobileAppCategory](../api/mobileappcategory-get.md)|[mobileAppCategory](../resources/mobileappcategory.md)|Read properties and relationships of the [mobileAppCategory](../resources/mobileappcategory.md) object.|
+|[Create mobileAppCategory](../api/mobileappcategory-create.md)|[mobileAppCategory](../resources/mobileappcategory.md)|Create a new [mobileAppCategory](../resources/mobileappcategory.md) object.|
 |[Delete mobileAppCategory](../api/mobileappcategory-delete.md)|None|Deletes a [mobileAppCategory](../resources/mobileappcategory.md).|
-|[Update mobileAppCategory](../api/mobileappcategory-update.md)|[mobileAppCategory](../resources/mobileAppCategory.md)|Update the properties of a [mobileAppCategory](../resources/mobileappcategory.md) object.|
+|[Update mobileAppCategory](../api/mobileappcategory-update.md)|[mobileAppCategory](../resources/mobileappcategory.md)|Update the properties of a [mobileAppCategory](../resources/mobileappcategory.md) object.|
 
 ## Properties
 |Property|Type|Description|

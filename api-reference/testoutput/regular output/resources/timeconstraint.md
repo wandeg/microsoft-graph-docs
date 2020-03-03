@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # timeConstraint resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |activityDomain|Enumeration|. Possible values are: `unknown`, `work`, `personal`, `unrestricted`.|
-|timeSlots|[timeSlot](../resources/timeSlot.md) collection||
+|timeSlots|[timeSlot](../resources/timeslot.md) collection||
 
 ## Relationships
 None

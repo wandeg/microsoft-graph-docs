@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create officeGraphInsights
 
+Namespace: microsoft.graph
+
 Create a new [officeGraphInsights](../resources/officegraphinsights.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.officeGraphInsights not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the officeGraphInsights object.
+In the request body, supply a JSON representation for the [officeGraphInsights](../resources/officegraphinsights.md) object.
 
-The following table shows the properties that are required when you create the officeGraphInsights.
+The following table shows the properties that are required when you create the [officeGraphInsights](../resources/officegraphinsights.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.officeGraphInsights not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.officeGraphInsights not found
 Content-type: application/json
 Content-length: 61
 
@@ -83,7 +85,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.officeGraphInsights",
-  "id": "8c697c3d-7c3d-8c69-3d7c-698c3d7c698c"
+  "id": "0f56d00c-d00c-0f56-0cd0-560f0cd0560f"
 }
 ```
 

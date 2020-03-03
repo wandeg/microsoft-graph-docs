@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get list
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [list](../resources/list.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/list
+GET https://graph.microsoft.com/localtest/me/drive/list
 ```
 
 ### Response
@@ -72,12 +74,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1822
+Content-Length: 1821
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.list",
-    "id": "b4fe6d84-6d84-b4fe-846d-feb4846dfeb4",
+    "id": "8d0d7ddd-7ddd-8d0d-dd7d-0d8ddd7d0d8d",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -92,13 +94,13 @@ Content-Length: 1822
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/delta
+GET https://graph.microsoft.com/localtest/groups/delta
 ```
 
 ### Response
@@ -66,21 +68,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1874
+Content-Length: 1873
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "dbfa690a-690a-dbfa-0a69-fadb0a69fadb",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+      "id": "cd782a07-2a07-cd78-072a-78cd072a78cd",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
       "assignedLicenses": [
         {
           "@odata.type": "microsoft.graph.assignedLicense"
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "hasMembersWithLicenseErrors": true,
@@ -94,7 +96,7 @@ Content-Length: 1874
       "mailEnabled": true,
       "mailNickname": "Mail Nickname value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -108,7 +110,7 @@ Content-Length: 1874
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2017-01-01T00:02:16.2291623+03:00",
+      "renewedDateTime": "2017-01-01T00:00:46.4465399+03:00",
       "securityEnabled": true,
       "securityIdentifier": "Security Identifier value",
       "visibility": "Visibility value",

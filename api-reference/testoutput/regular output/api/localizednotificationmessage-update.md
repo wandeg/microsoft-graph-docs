@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update localizedNotificationMessage
 
+Namespace: microsoft.graph
+
 Update the properties of a [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/notificationMessageTemplates/{notificationMessageTemplat
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [localizedNotificationMessage](../resources/localizedNotificationMessage.md) object.
+In the request body, supply a JSON representation for the [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.
 
 The following table shows the properties that are required when you create the [localizedNotificationMessage](../resources/localizednotificationmessage.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages/{localizedNotificationMessageId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages/{localizedNotificationMessageId}
 Content-type: application/json
 Content-length: 200
 
@@ -90,8 +92,8 @@ Content-Length: 313
 
 {
   "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-  "id": "4677542b-542b-4677-2b54-77462b547746",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "f009df5a-df5a-f009-5adf-09f05adf09f0",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "locale": "Locale value",
   "subject": "Subject value",
   "messageTemplate": "Message Template value",

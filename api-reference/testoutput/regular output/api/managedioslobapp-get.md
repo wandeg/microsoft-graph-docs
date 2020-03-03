@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedIOSLobApp
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedIOSLobApp](../resources/managedioslobapp.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.managedIOSLobApp not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.managedIOSLobApp not found
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1570
+Content-Length: 1569
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedIOSLobApp",
-    "id": "bd6369e1-69e1-bd63-e169-63bde16963bd",
+    "id": "d0eca3f8-a3f8-d0ec-f8a3-ecd0f8a3ecd0",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -81,8 +83,8 @@ Content-Length: 1570
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",
@@ -110,7 +112,7 @@ Content-Length: 1570
       "v12_0": true,
       "v13_0": true
     },
-    "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+    "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
     "versionNumber": "Version Number value",
     "buildNumber": "Build Number value"
   }

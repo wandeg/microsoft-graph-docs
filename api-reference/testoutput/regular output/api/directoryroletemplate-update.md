@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryRoleTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryRoleTemplate](../resources/directoryroletemplate.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /directoryRoleTemplates/{directoryRoleTemplatesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryRoleTemplate](../resources/directoryRoleTemplate.md) object.
+In the request body, supply a JSON representation for the [directoryRoleTemplate](../resources/directoryroletemplate.md) object.
 
 The following table shows the properties that are required when you create the [directoryRoleTemplate](../resources/directoryroletemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/directoryRoleTemplates/{directoryRoleTemplatesId}
+PATCH https://graph.microsoft.com/localtest/directoryRoleTemplates/{directoryRoleTemplatesId}
 Content-type: application/json
 Content-length: 201
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }
@@ -87,8 +89,8 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "id": "d12f6f96-6f96-d12f-966f-2fd1966f2fd1",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "5aa52bbc-2bbc-5aa5-bc2b-a55abc2ba55a",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }

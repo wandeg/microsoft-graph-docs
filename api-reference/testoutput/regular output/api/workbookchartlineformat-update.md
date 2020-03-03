@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartLineFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartLineFormat](../resources/workbookChartLineFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartLineFormat](../resources/workbookchartlineformat.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
 Content-type: application/json
 Content-length: 92
 
@@ -85,7 +87,7 @@ Content-Length: 141
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-  "id": "d93aa64e-a64e-d93a-4ea6-3ad94ea63ad9",
+  "id": "45e400e9-00e9-45e4-e900-e445e900e445",
   "color": "Color value"
 }
 ```

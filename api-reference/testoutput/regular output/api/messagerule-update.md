@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update messageRule
 
+Namespace: microsoft.graph
+
 Update the properties of a [messageRule](../resources/messagerule.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [messageRule](../resources/messageRule.md) object.
+In the request body, supply a JSON representation for the [messageRule](../resources/messagerule.md) object.
 
 The following table shows the properties that are required when you create the [messageRule](../resources/messagerule.md).
 
@@ -44,9 +46,9 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |sequence|Int32||
-|conditions|[messageRulePredicates](../resources/messageRulePredicates.md)||
-|actions|[messageRuleActions](../resources/messageRuleActions.md)||
-|exceptions|[messageRulePredicates](../resources/messageRulePredicates.md)||
+|conditions|[messageRulePredicates](../resources/messagerulepredicates.md)||
+|actions|[messageRuleActions](../resources/messageruleactions.md)||
+|exceptions|[messageRulePredicates](../resources/messagerulepredicates.md)||
 |isEnabled|Boolean||
 |hasError|Boolean||
 |isReadOnly|Boolean||
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
+PATCH https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/messageRules/{messageRuleId}
 Content-type: application/json
 Content-length: 2586
 
@@ -189,7 +191,7 @@ Content-Length: 2635
 
 {
   "@odata.type": "#microsoft.graph.messageRule",
-  "id": "b5da223f-223f-b5da-3f22-dab53f22dab5",
+  "id": "5174294f-294f-5174-4f29-74514f297451",
   "displayName": "Display Name value",
   "sequence": 8,
   "conditions": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete domainDnsRecord
 
+Namespace: microsoft.graph
+
 Deletes a [domainDnsRecord](../resources/domaindnsrecord.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/domainDnsRecords/{domainDnsRecordsId}
+DELETE https://graph.microsoft.com/localtest/domainDnsRecords/{domainDnsRecordsId}
 ```
 
 ### Response

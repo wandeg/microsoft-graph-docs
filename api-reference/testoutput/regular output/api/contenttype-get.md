@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get contentType
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [contentType](../resources/contenttype.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/list/contentTypes/{contentTypeId}
+GET https://graph.microsoft.com/localtest/me/drive/list/contentTypes/{contentTypeId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 1084
 {
   "value": {
     "@odata.type": "#microsoft.graph.contentType",
-    "id": "848b01db-01db-848b-db01-8b84db018b84",
+    "id": "10f918e1-18e1-10f9-e118-f910e118f910",
     "description": "Description value",
     "group": "Group value",
     "hidden": true,

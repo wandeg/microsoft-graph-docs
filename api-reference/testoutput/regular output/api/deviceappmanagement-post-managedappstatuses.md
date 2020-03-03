@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedAppStatuses
 
+Namespace: microsoft.graph
+
 Add managedAppStatuses by posting to the managedAppStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedAppStatuses/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppStatus object.
+In the request body, supply a JSON representation for the [managedAppStatus](../resources/managedappstatus.md) object.
 
-The following table shows the properties that are required when you create the managedAppStatus.
+The following table shows the properties that are required when you create the [managedAppStatus](../resources/managedappstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedAppStatuses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedAppStatuses
 Content-type: application/json
 Content-length: 129
 
@@ -87,7 +89,7 @@ Content-Length: 178
 
 {
   "@odata.type": "#microsoft.graph.managedAppStatus",
-  "id": "b56a590a-590a-b56a-0a59-6ab50a596ab5",
+  "id": "d3b76c52-6c52-d3b7-526c-b7d3526cb7d3",
   "displayName": "Display Name value",
   "version": "Version value"
 }

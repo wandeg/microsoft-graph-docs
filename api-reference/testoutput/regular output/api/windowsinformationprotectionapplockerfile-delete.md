@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsInformationProtectionAppLockerFile
 
+Namespace: microsoft.graph
+
 Deletes a [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformationProtectionPolicyId}/exemptAppLockerFiles/{windowsInformationProtectionAppLockerFileId}
 ```
 
 ### Response

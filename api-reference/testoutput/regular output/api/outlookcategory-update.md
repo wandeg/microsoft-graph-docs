@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update outlookCategory
 
+Namespace: microsoft.graph
+
 Update the properties of a [outlookCategory](../resources/outlookcategory.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/outlook/masterCategories/{outlookCategoryId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [outlookCategory](../resources/outlookCategory.md) object.
+In the request body, supply a JSON representation for the [outlookCategory](../resources/outlookcategory.md) object.
 
 The following table shows the properties that are required when you create the [outlookCategory](../resources/outlookcategory.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/outlook/masterCategories/{outlookCategoryId}
+PATCH https://graph.microsoft.com/localtest/me/outlook/masterCategories/{outlookCategoryId}
 Content-type: application/json
 Content-length: 119
 
@@ -85,7 +87,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.outlookCategory",
-  "id": "1ac9baf0-baf0-1ac9-f0ba-c91af0bac91a",
+  "id": "8e5f4cce-4cce-8e5f-ce4c-5f8ece4c5f8e",
   "displayName": "Display Name value",
   "color": "String"
 }

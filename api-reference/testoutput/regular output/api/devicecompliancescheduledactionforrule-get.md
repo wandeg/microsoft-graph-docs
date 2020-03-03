@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceComplianceScheduledActionForRule
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 188
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-    "id": "bcdb56cc-56cc-bcdb-cc56-dbbccc56dbbc",
+    "id": "39ca943b-943b-39ca-3b94-ca393b94ca39",
     "ruleName": "Rule Name value"
   }
 }

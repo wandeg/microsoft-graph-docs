@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List reportRoots
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [reportRoot](../resources/reportroot.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.reportRoot not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.reportRoot not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 142
   "value": [
     {
       "@odata.type": "#microsoft.graph.reportRoot",
-      "id": "eb4ac79f-c79f-eb4a-9fc7-4aeb9fc74aeb"
+      "id": "547db234-b234-547d-34b2-7d5434b27d54"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create eBookInstallSummary
 
+Namespace: microsoft.graph
+
 Create a new [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.eBookInstallSummary not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the eBookInstallSummary object.
+In the request body, supply a JSON representation for the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
 
-The following table shows the properties that are required when you create the eBookInstallSummary.
+The following table shows the properties that are required when you create the [eBookInstallSummary](../resources/ebookinstallsummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.eBookInstallSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.eBookInstallSummary not found
 Content-type: application/json
 Content-length: 236
 
@@ -95,7 +97,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.eBookInstallSummary",
-  "id": "c51d7985-7985-c51d-8579-1dc585791dc5",
+  "id": "2976a2da-a2da-2976-daa2-7629daa27629",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notInstalledDeviceCount": 7,

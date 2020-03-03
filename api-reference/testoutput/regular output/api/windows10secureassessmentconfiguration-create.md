@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windows10SecureAssessmentConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windows10SecureAssessmentConfiguration](../resources/windows10secureassessmentconfiguration.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.windows10SecureAssessmentConfiguratio
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windows10SecureAssessmentConfiguration object.
+In the request body, supply a JSON representation for the [windows10SecureAssessmentConfiguration](../resources/windows10secureassessmentconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windows10SecureAssessmentConfiguration.
+The following table shows the properties that are required when you create the [windows10SecureAssessmentConfiguration](../resources/windows10secureassessmentconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |launchUri|String|Url link to an assessment that's automatically loaded when the secure assessment browser is launched. It has to be a valid Url (http\[s\]://msdn.microsoft.com/).|
 |configurationAccount|String|The account used to configure the Windows device for taking the test. The user can be a domain account (domain\user), an AAD account (username@tenant.com) or a local account (username).|
 |allowPrinting|Boolean|Indicates whether or not to allow the app from printing during the test.|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10SecureAssessmentConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10SecureAssessmentConfiguration not found
 Content-type: application/json
 Content-length: 359
 
@@ -97,13 +99,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 531
+Content-Length: 530
 
 {
   "@odata.type": "#microsoft.graph.windows10SecureAssessmentConfiguration",
-  "id": "03b7e120-e120-03b7-20e1-b70320e1b703",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "7730ab32-ab32-7730-32ab-307732ab3077",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

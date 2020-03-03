@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
+GET https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsAppDefinition",
-    "id": "aa52d203-d203-aa52-03d2-52aa03d252aa",
+    "id": "5f9a21d2-21d2-5f9a-d221-9a5fd2219a5f",
     "teamsAppId": "Teams App Id value",
     "displayName": "Display Name value",
     "version": "Version value"

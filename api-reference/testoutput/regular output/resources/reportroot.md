@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # reportRoot resource type
+
+
+Namespace: microsoft.graph
 
 The resource that represents an instance of History Reports.
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get reportRoot](../api/reportroot-get.md)|[reportRoot](../resources/reportRoot.md)|Read properties and relationships of the [reportRoot](../resources/reportroot.md) object.|
-|[Update reportRoot](../api/reportroot-update.md)|[reportRoot](../resources/reportRoot.md)|Update the properties of a [reportRoot](../resources/reportroot.md) object.|
+|[Get reportRoot](../api/reportroot-get.md)|[reportRoot](../resources/reportroot.md)|Read properties and relationships of the [reportRoot](../resources/reportroot.md) object.|
+|[Update reportRoot](../api/reportroot-update.md)|[reportRoot](../resources/reportroot.md)|Update the properties of a [reportRoot](../resources/reportroot.md) object.|
 |[deviceConfigurationUserActivity](../api/reportroot-deviceconfigurationuseractivity.md)|[report](../resources/report.md)||
 |[deviceConfigurationDeviceActivity](../api/reportroot-deviceconfigurationdeviceactivity.md)|[report](../resources/report.md)||
 |[managedDeviceEnrollmentFailureDetails](../api/reportroot-manageddeviceenrollmentfailuredetails.md)|[report](../resources/report.md)||

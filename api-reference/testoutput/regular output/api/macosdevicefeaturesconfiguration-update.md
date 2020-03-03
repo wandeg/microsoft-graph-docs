@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update macOSDeviceFeaturesConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [macOSDeviceFeaturesConfiguration](../resources/macosdevicefeaturesconfiguration.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.macOSDeviceFeaturesConfiguration not fou
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [macOSDeviceFeaturesConfiguration](../resources/macOSDeviceFeaturesConfiguration.md) object.
+In the request body, supply a JSON representation for the [macOSDeviceFeaturesConfiguration](../resources/macosdevicefeaturesconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [macOSDeviceFeaturesConfiguration](../resources/macosdevicefeaturesconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macOSDeviceFeaturesConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macOSDeviceFeaturesConfiguration not found
 Content-type: application/json
 Content-length: 170
 
@@ -85,13 +87,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 342
+Content-Length: 341
 
 {
   "@odata.type": "#microsoft.graph.macOSDeviceFeaturesConfiguration",
-  "id": "4976ff40-ff40-4976-40ff-764940ff7649",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "80442445-2445-8044-4524-448045244480",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7

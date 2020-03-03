@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceComplianceDeviceOverview
 
+Namespace: microsoft.graph
+
 Create a new [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceComplianceDeviceOverview object.
+In the request body, supply a JSON representation for the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.
 
-The following table shows the properties that are required when you create the deviceComplianceDeviceOverview.
+The following table shows the properties that are required when you create the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,9 +68,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not found
 Content-type: application/json
-Content-length: 281
+Content-length: 278
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
@@ -77,7 +79,7 @@ Content-length: 281
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```
@@ -93,17 +95,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 330
+Content-Length: 327
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
-  "id": "5a853255-3255-5a85-5532-855a5532855a",
+  "id": "bf4328af-28af-bf43-af28-43bfaf2843bf",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```

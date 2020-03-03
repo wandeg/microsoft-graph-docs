@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementPartner
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementPartner](../resources/devicemanagementpartner.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementPartner](../resources/deviceManagementPartner.md) object.
+In the request body, supply a JSON representation for the [deviceManagementPartner](../resources/devicemanagementpartner.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementPartner](../resources/devicemanagementpartner.md).
 
@@ -66,20 +68,20 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
 Content-type: application/json
-Content-length: 487
+Content-length: 488
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:14.690929+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:00:28.2321975+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:03:26.0229999+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:03:09.2463513+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:57.0898884+03:00"
 }
 ```
 
@@ -93,19 +95,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 536
+Content-Length: 537
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "id": "89ebfadd-fadd-89eb-ddfa-eb89ddfaeb89",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:14.690929+03:00",
+  "id": "da463021-3021-da46-2130-46da213046da",
+  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:00:28.2321975+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:03:26.0229999+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:03:09.2463513+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:57.0898884+03:00"
 }
 ```
 

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # dataPolicyOperation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List dataPolicyOperations](../api/datapolicyoperation-list.md)|[dataPolicyOperation](../resources/dataPolicyOperation.md) collection|List properties and relationships of the [dataPolicyOperation](../resources/datapolicyoperation.md) objects.|
-|[Get dataPolicyOperation](../api/datapolicyoperation-get.md)|[dataPolicyOperation](../resources/dataPolicyOperation.md)|Read properties and relationships of the [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
-|[Create dataPolicyOperation](../api/datapolicyoperation-post-datapolicyoperations.md)|[dataPolicyOperation](../resources/dataPolicyOperation.md)|Create a new [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
+|[List dataPolicyOperations](../api/datapolicyoperation-list.md)|[dataPolicyOperation](../resources/datapolicyoperation.md) collection|List properties and relationships of the [dataPolicyOperation](../resources/datapolicyoperation.md) objects.|
+|[Get dataPolicyOperation](../api/datapolicyoperation-get.md)|[dataPolicyOperation](../resources/datapolicyoperation.md)|Read properties and relationships of the [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
+|[Create dataPolicyOperation](../api/datapolicyoperation-post-datapolicyoperations.md)|[dataPolicyOperation](../resources/datapolicyoperation.md)|Create a new [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
 |[Delete dataPolicyOperation](../api/datapolicyoperation-delete.md)|None|Deletes a [dataPolicyOperation](../resources/datapolicyoperation.md).|
-|[Update dataPolicyOperation](../api/datapolicyoperation-update.md)|[dataPolicyOperation](../resources/dataPolicyOperation.md)|Update the properties of a [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
+|[Update dataPolicyOperation](../api/datapolicyoperation-update.md)|[dataPolicyOperation](../resources/datapolicyoperation.md)|Update the properties of a [dataPolicyOperation](../resources/datapolicyoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|

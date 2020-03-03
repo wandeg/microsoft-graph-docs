@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # scheduleActionsForRules
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceComplianceScheduledActionForRules|[deviceComplianceScheduledActionForRule](../resources/deviceComplianceScheduledActionForRule.md) collection||
+|deviceComplianceScheduledActionForRules|[deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.androidCompliancePolicy not found/scheduleActionsForRules
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.androidCompliancePolicy not found/scheduleActionsForRules
 
 Content-type: application/json
 Content-length: 242
@@ -68,7 +70,7 @@ Content-length: 242
   "deviceComplianceScheduledActionForRules": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-      "id": "bcdb56cc-56cc-bcdb-cc56-dbbccc56dbbc",
+      "id": "39ca943b-943b-39ca-3b94-ca393b94ca39",
       "ruleName": "Rule Name value"
     }
   ]

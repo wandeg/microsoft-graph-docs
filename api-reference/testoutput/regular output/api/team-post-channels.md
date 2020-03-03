@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add channels
 
+Namespace: microsoft.graph
+
 Add channels by posting to the channels collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedTeams/{groupId}/team/channels/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the channel object.
+In the request body, supply a JSON representation for the [channel](../resources/channel.md) object.
 
-The following table shows the properties that are required when you create the channel.
+The following table shows the properties that are required when you create the [channel](../resources/channel.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/channels
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/channels
 Content-type: application/json
 Content-length: 199
 
@@ -92,7 +94,7 @@ Content-Length: 248
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "a6ca9118-9118-a6ca-1891-caa61891caa6",
+  "id": "2a033dd8-3dd8-2a03-d83d-032ad83d032a",
   "displayName": "Display Name value",
   "description": "Description value",
   "email": "Email value",

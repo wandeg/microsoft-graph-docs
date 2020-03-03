@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileAppAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileAppAssignment](../resources/mobileappassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssign
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/mobileAppAssignment.md) object.
+In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/mobileappassignment.md) object.
 
 The following table shows the properties that are required when you create the [mobileAppAssignment](../resources/mobileappassignment.md).
 
@@ -43,8 +45,8 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |intent|Enumeration|The install intent defined by the admin. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|The target group assignment defined by the admin.|
-|settings|[mobileAppAssignmentSettings](../resources/mobileAppAssignmentSettings.md)|The settings for target assignment defined by the admin.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The target group assignment defined by the admin.|
+|settings|[mobileAppAssignmentSettings](../resources/mobileappassignmentsettings.md)|The settings for target assignment defined by the admin.|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
 Content-type: application/json
 Content-length: 271
 
@@ -91,7 +93,7 @@ Content-Length: 320
 
 {
   "@odata.type": "#microsoft.graph.mobileAppAssignment",
-  "id": "c146fa33-fa33-c146-33fa-46c133fa46c1",
+  "id": "4afbb36a-b36a-4afb-6ab3-fb4a6ab3fb4a",
   "intent": "String",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

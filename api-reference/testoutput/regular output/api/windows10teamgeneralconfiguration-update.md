@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windows10TeamGeneralConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [windows10TeamGeneralConfiguration](../resources/windows10teamgeneralconfiguration.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.windows10TeamGeneralConfiguration not fo
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windows10TeamGeneralConfiguration](../resources/windows10TeamGeneralConfiguration.md) object.
+In the request body, supply a JSON representation for the [windows10TeamGeneralConfiguration](../resources/windows10teamgeneralconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [windows10TeamGeneralConfiguration](../resources/windows10teamgeneralconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |azureOperationalInsightsBlockTelemetry|Boolean|Indicates whether or not to Block Azure Operational Insights.|
 |azureOperationalInsightsWorkspaceId|String|The Azure Operational Insights workspace id.|
 |azureOperationalInsightsWorkspaceKey|String|The Azure Operational Insights Workspace key.|
@@ -83,7 +85,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10TeamGeneralConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10TeamGeneralConfiguration not found
 Content-type: application/json
 Content-length: 1135
 
@@ -98,7 +100,7 @@ Content-length: 1135
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "12:01:18.5870000",
+  "maintenanceWindowStartTime": "12:02:21.1420000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,
@@ -125,13 +127,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1307
+Content-Length: 1306
 
 {
   "@odata.type": "#microsoft.graph.windows10TeamGeneralConfiguration",
-  "id": "de4e1dd8-1dd8-de4e-d81d-4eded81d4ede",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "a325d858-d858-a325-58d8-25a358d825a3",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -141,7 +143,7 @@ Content-Length: 1307
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "12:01:18.5870000",
+  "maintenanceWindowStartTime": "12:02:21.1420000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,

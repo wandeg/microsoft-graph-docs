@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceCompliancePolicySettingStateSummaries
 
+Namespace: microsoft.graph
+
 Add deviceCompliancePolicySettingStateSummaries by posting to the deviceCompliancePolicySettingStateSummaries collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceCompliancePolicySettingStateSummaries/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCompliancePolicySettingStateSummary object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) object.
 
-The following table shows the properties that are required when you create the deviceCompliancePolicySettingStateSummary.
+The following table shows the properties that are required when you create the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicySettingStateSummaries
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries
 Content-type: application/json
 Content-length: 394
 
@@ -103,7 +105,7 @@ Content-Length: 443
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-  "id": "e7c40200-0200-e7c4-0002-c4e70002c4e7",
+  "id": "5d3388c6-88c6-5d33-c688-335dc688335d",
   "setting": "Setting value",
   "settingName": "Setting Name value",
   "platformType": "String",

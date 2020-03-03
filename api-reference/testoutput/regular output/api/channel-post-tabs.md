@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add tabs
 
+Namespace: microsoft.graph
+
 Add tabs by posting to the tabs collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the teamsTab object.
+In the request body, supply a JSON representation for the [teamsTab](../resources/teamstab.md) object.
 
-The following table shows the properties that are required when you create the teamsTab.
+The following table shows the properties that are required when you create the [teamsTab](../resources/teamstab.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |webUrl|String||
-|configuration|[teamsTabConfiguration](../resources/teamsTabConfiguration.md)||
+|configuration|[teamsTabConfiguration](../resources/teamstabconfiguration.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs
+POST https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs
 Content-type: application/json
 Content-length: 418
 
@@ -95,7 +97,7 @@ Content-Length: 467
 
 {
   "@odata.type": "#microsoft.graph.teamsTab",
-  "id": "0ddfec4a-ec4a-0ddf-4aec-df0d4aecdf0d",
+  "id": "48d608d2-08d2-48d6-d208-d648d208d648",
   "displayName": "Display Name value",
   "webUrl": "https://example.com/webUrl/",
   "configuration": {

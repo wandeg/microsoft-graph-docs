@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get auditLogRoot
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [auditLogRoot](../resources/auditlogroot.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs
+GET https://graph.microsoft.com/localtest/auditLogs
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 126
 {
   "value": {
     "@odata.type": "#microsoft.graph.auditLogRoot",
-    "id": "e561e749-e749-e561-49e7-61e549e761e5"
+    "id": "64982d7e-2d7e-6498-7e2d-98647e2d9864"
   }
 }
 ```

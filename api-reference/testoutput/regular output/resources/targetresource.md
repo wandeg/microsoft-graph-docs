@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # targetResource resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |displayName|String||
 |groupType|Enumeration|. Possible values are: `unifiedGroups`, `azureAD`, `unknownFutureValue`.|
 |id|String||
-|modifiedProperties|[modifiedProperty](../resources/modifiedProperty.md) collection||
+|modifiedProperties|[modifiedProperty](../resources/modifiedproperty.md) collection||
 |type|String||
 |userPrincipalName|String||
 

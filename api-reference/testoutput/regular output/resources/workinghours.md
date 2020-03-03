@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workingHours resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |daysOfWeek|Enumeration collection||
 |endTime|TimeOfDay||
 |startTime|TimeOfDay||
-|timeZone|[timeZoneBase](../resources/timeZoneBase.md)||
+|timeZone|[timeZoneBase](../resources/timezonebase.md)||
 
 ## Relationships
 None

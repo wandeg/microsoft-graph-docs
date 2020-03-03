@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get usedInsight
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [usedInsight](../resources/usedinsight.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/used/{usedInsightId}
+GET https://graph.microsoft.com/localtest/me/insights/used/{usedInsightId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 997
 {
   "value": {
     "@odata.type": "#microsoft.graph.usedInsight",
-    "id": "c86dacf4-acf4-c86d-f4ac-6dc8f4ac6dc8",
+    "id": "02ecab27-ab27-02ec-27ab-ec0227abec02",
     "lastUsed": {
       "@odata.type": "microsoft.graph.usageDetails",
-      "lastAccessedDateTime": "2017-01-01T00:03:08.8222757+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+      "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
     },
     "resourceVisualization": {
       "@odata.type": "microsoft.graph.resourceVisualization",

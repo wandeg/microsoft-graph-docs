@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # search
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -59,7 +61,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [driveItem](../resources/driveItem.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [driveItem](../resources/driveitem.md) collection in the response body.
 
 ## Example
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/drive/search(q='parameterValue')
+GET https://graph.microsoft.com/localtest/drive/search(q='parameterValue')
 ```
 
 ### Response
@@ -85,23 +87,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2224
+Content-Length: 2223
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "ffa050b0-50b0-ffa0-b050-a0ffb050a0ff",
+      "id": "2151b8be-b8be-2151-beb8-5121beb85121",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRangeSort
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRangeSort](../resources/workbookrangesort.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeSort not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeSort not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 131
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeSort",
-    "id": "5643eeb3-eeb3-5643-b3ee-4356b3ee4356"
+    "id": "68cdd019-d019-68cd-19d0-cd6819d0cd68"
   }
 }
 ```

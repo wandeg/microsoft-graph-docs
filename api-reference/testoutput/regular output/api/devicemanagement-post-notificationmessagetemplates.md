@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add notificationMessageTemplates
 
+Namespace: microsoft.graph
+
 Add notificationMessageTemplates by posting to the notificationMessageTemplates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/notificationMessageTemplates/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the notificationMessageTemplate object.
+In the request body, supply a JSON representation for the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.
 
-The following table shows the properties that are required when you create the notificationMessageTemplate.
+The following table shows the properties that are required when you create the [notificationMessageTemplate](../resources/notificationmessagetemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates
+POST https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates
 Content-type: application/json
 Content-length: 185
 
@@ -90,8 +92,8 @@ Content-Length: 298
 
 {
   "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-  "id": "ff7220c8-20c8-ff72-c820-72ffc82072ff",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "4106bfab-bfab-4106-abbf-0641abbf0641",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "displayName": "Display Name value",
   "defaultLocale": "Default Locale value",
   "brandingOptions": "String"

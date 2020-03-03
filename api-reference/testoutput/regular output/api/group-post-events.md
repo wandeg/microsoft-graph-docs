@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add events
 
+Namespace: microsoft.graph
+
 Add events by posting to the events collection.
 
 ## Permissions
@@ -37,38 +39,38 @@ POST /me/joinedTeams/{groupId}/events/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the event object.
+In the request body, supply a JSON representation for the [event](../resources/event.md) object.
 
-The following table shows the properties that are required when you create the event.
+The following table shows the properties that are required when you create the [event](../resources/event.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |originalStartTimeZone|String||
 |originalEndTimeZone|String||
-|responseStatus|[responseStatus](../resources/responseStatus.md)||
+|responseStatus|[responseStatus](../resources/responsestatus.md)||
 |iCalUId|String||
 |reminderMinutesBeforeStart|Int32||
 |isReminderOn|Boolean||
 |hasAttachments|Boolean||
 |subject|String||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |sensitivity|Enumeration|. Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |originalStart|DateTimeOffset||
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |location|[location](../resources/location.md)||
 |locations|[location](../resources/location.md) collection||
 |isAllDay|Boolean||
 |isCancelled|Boolean||
 |isOrganizer|Boolean||
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
 |responseRequested|Boolean||
 |seriesMasterId|String||
 |showAs|Enumeration|. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
@@ -93,7 +95,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/events
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/events
 Content-type: application/json
 Content-length: 3315
 
@@ -108,7 +110,7 @@ Content-length: 3315
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2016-12-31T23:59:22.8558203+03:00"
+    "time": "2017-01-01T00:03:20.5544041+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -128,7 +130,7 @@ Content-length: 3315
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:01:42.1602103+03:00",
+  "originalStart": "2016-12-31T23:58:53.3506617+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
@@ -225,13 +227,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3487
+Content-Length: 3486
 
 {
   "@odata.type": "#microsoft.graph.event",
-  "id": "31f56311-6311-31f5-1163-f5311163f531",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "39ba63cf-63cf-39ba-cf63-ba39cf63ba39",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -241,7 +243,7 @@ Content-Length: 3487
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2016-12-31T23:59:22.8558203+03:00"
+    "time": "2017-01-01T00:03:20.5544041+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -261,7 +263,7 @@ Content-Length: 3487
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:01:42.1602103+03:00",
+  "originalStart": "2016-12-31T23:58:53.3506617+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenotePage
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenotePage](../resources/onenotepage.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/onenote/pages/{onenotePageId}
+GET https://graph.microsoft.com/localtest/me/onenote/pages/{onenotePageId}
 ```
 
 ### Response
@@ -68,14 +70,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 814
+Content-Length: 813
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenotePage",
-    "id": "994fb16a-b16a-994f-6ab1-4f996ab14f99",
+    "id": "0bd9b664-b664-0bd9-64b6-d90b64b6d90b",
     "self": "Self value",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "title": "Title value",
     "createdByAppId": "Created By App Id value",
     "links": {
@@ -90,7 +92,7 @@ Content-Length: 814
     },
     "contentUrl": "https://example.com/contentUrl/",
     "content": "Stream",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "level": 5,
     "order": 5,
     "userTags": [

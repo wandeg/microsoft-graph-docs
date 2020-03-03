@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationUser
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationUser](../resources/educationuser.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education/me
+GET https://graph.microsoft.com/localtest/education/me
 ```
 
 ### Response
@@ -68,12 +70,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3176
+Content-Length: 3177
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationUser",
-    "id": "c166bdfa-bdfa-c166-fabd-66c1fabd66c1",
+    "id": "9931ae8f-ae8f-9931-8fae-31998fae3199",
     "primaryRole": "String",
     "middleName": "Middle Name value",
     "externalSource": "String",
@@ -120,18 +122,18 @@ Content-Length: 3176
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "9b57b07c-b07c-9b57-7cb0-579b7cb0579b"
+          "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
         ],
-        "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b"
+        "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
       }
     ],
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+        "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+        "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
       }
     ],
     "businessPhones": [
@@ -158,7 +160,7 @@ Content-Length: 3176
         "provisioningStatus": "Provisioning Status value"
       }
     ],
-    "refreshTokensValidFromDateTime": "2017-01-01T00:03:04.220591+03:00",
+    "refreshTokensValidFromDateTime": "2017-01-01T00:01:51.2247581+03:00",
     "showInAddressList": true,
     "surname": "Surname value",
     "usageLocation": "Usage Location value",

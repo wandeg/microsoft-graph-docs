@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get subscribeToToneOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [subscribeToToneOperation](../resources/subscribetotoneoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.subscribeToToneOperation not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.subscribeToToneOperation not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 363
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribeToToneOperation",
-    "id": "bd6ab5a6-b5a6-bd6a-a6b5-6abda6b56abd",
+    "id": "bc0c6911-6911-bc0c-1169-0cbc11690cbc",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

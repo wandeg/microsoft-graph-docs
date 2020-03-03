@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update calendarGroup
 
+Namespace: microsoft.graph
+
 Update the properties of a [calendarGroup](../resources/calendargroup.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /users/{usersId}/calendarGroups/{calendarGroupId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [calendarGroup](../resources/calendarGroup.md) object.
+In the request body, supply a JSON representation for the [calendarGroup](../resources/calendargroup.md) object.
 
 The following table shows the properties that are required when you create the [calendarGroup](../resources/calendargroup.md).
 
@@ -62,14 +64,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/calendarGroups/{calendarGroupId}
+PATCH https://graph.microsoft.com/localtest/me/calendarGroups/{calendarGroupId}
 Content-type: application/json
 Content-length: 170
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
   "name": "Name value",
-  "classId": "9a82fc4f-fc4f-9a82-4ffc-829a4ffc829a",
+  "classId": "c381f382-f382-c381-82f3-81c382f381c3",
   "changeKey": "Change Key value"
 }
 ```
@@ -88,9 +90,9 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
-  "id": "318ed636-d636-318e-36d6-8e3136d68e31",
+  "id": "68686806-6806-6868-0668-686806686868",
   "name": "Name value",
-  "classId": "9a82fc4f-fc4f-9a82-4ffc-829a4ffc829a",
+  "classId": "c381f382-f382-c381-82f3-81c382f381c3",
   "changeKey": "Change Key value"
 }
 ```

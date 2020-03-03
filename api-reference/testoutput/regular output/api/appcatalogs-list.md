@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List appCatalogses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [appCatalogs](../resources/appcatalogs.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.appCatalogs not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.appCatalogs not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 143
   "value": [
     {
       "@odata.type": "#microsoft.graph.appCatalogs",
-      "id": "25667c54-7c54-2566-547c-6625547c6625"
+      "id": "4a7c32b4-32b4-4a7c-b432-7c4ab4327c4a"
     }
   ]
 }

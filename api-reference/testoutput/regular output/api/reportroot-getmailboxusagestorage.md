@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getMailboxUsageStorage
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getMailboxUsageStorage(period='parameterValue')
+GET https://graph.microsoft.com/localtest/reports/getMailboxUsageStorage(period='parameterValue')
 ```
 
 ### Response

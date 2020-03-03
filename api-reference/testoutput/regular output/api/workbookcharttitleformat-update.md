@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartTitleFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartTitleFormat](../resources/workbookChartTitleFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title/format
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/title/format
 Content-type: application/json
 Content-length: 66
 
@@ -81,7 +83,7 @@ Content-Length: 115
 
 {
   "@odata.type": "#microsoft.graph.workbookChartTitleFormat",
-  "id": "e0c7a821-a821-e0c7-21a8-c7e021a8c7e0"
+  "id": "ef983830-3830-ef98-3038-98ef303898ef"
 }
 ```
 

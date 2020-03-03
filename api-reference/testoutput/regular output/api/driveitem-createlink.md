@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # createLink
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/root/createLink
+POST https://graph.microsoft.com/localtest/me/drive/root/createLink
 
 Content-type: application/json
 Content-length: 55
@@ -103,7 +105,7 @@ Content-Length: 531
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "8bb9333d-333d-8bb9-3d33-b98b3d33b98b",
+    "id": "a7b7bff3-bff3-a7b7-f3bf-b7a7f3bfb7a7",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet"
     },

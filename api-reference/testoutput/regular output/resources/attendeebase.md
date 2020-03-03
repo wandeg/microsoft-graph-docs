@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # attendeeBase resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Inherits from [recipient](../resources/recipient.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|emailAddress|[emailAddress](../resources/emailAddress.md)| Inherited from [recipient](../resources/recipient.md)|
+|emailAddress|[emailAddress](../resources/emailaddress.md)| Inherited from [recipient](../resources/recipient.md)|
 |type|Enumeration|. Possible values are: `required`, `optional`, `resource`.|
 
 ## Relationships

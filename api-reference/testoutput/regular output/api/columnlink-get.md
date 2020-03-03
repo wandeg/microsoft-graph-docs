@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get columnLink
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [columnLink](../resources/columnlink.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/list/contentTypes/{contentTypeId}/columnLinks/{columnLinkId}
+GET https://graph.microsoft.com/localtest/me/drive/list/contentTypes/{contentTypeId}/columnLinks/{columnLinkId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 151
 {
   "value": {
     "@odata.type": "#microsoft.graph.columnLink",
-    "id": "75163e51-3e51-7516-513e-1675513e1675",
+    "id": "350dbfc0-bfc0-350d-c0bf-0d35c0bf0d35",
     "name": "Name value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagementPartner
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagementPartner](../resources/devicemanagementpartner.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceManagementPartners/{deviceManagementPartnerId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 575
+Content-Length: 576
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementPartner",
-    "id": "89ebfadd-fadd-89eb-ddfa-eb89ddfaeb89",
-    "lastHeartbeatDateTime": "2017-01-01T00:00:14.690929+03:00",
+    "id": "da463021-3021-da46-2130-46da213046da",
+    "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
     "partnerState": "String",
     "partnerAppType": "String",
     "singleTenantAppId": "Single Tenant App Id value",
     "displayName": "Display Name value",
     "isConfigured": true,
-    "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:00:28.2321975+03:00",
-    "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:03:26.0229999+03:00"
+    "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:03:09.2463513+03:00",
+    "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:57.0898884+03:00"
   }
 }
 ```

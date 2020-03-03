@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create signIn
 
+Namespace: microsoft.graph
+
 Create a new [signIn](../resources/signin.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /auditLogs/signIns
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the signIn object.
+In the request body, supply a JSON representation for the [signIn](../resources/signin.md) object.
 
-The following table shows the properties that are required when you create the signIn.
+The following table shows the properties that are required when you create the [signIn](../resources/signin.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,13 +52,13 @@ The following table shows the properties that are required when you create the s
 |appId|String||
 |appDisplayName|String||
 |ipAddress|String||
-|status|[signInStatus](../resources/signInStatus.md)||
+|status|[signInStatus](../resources/signinstatus.md)||
 |clientAppUsed|String||
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)||
-|location|[signInLocation](../resources/signInLocation.md)||
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)||
+|location|[signInLocation](../resources/signinlocation.md)||
 |correlationId|String||
 |conditionalAccessStatus|Enumeration|. Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection||
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection||
 |isInteractive|Boolean||
 |riskDetail|Enumeration|. Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
 |riskLevelAggregated|Enumeration|. Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
@@ -81,7 +83,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/auditLogs/signIns
+POST https://graph.microsoft.com/localtest/auditLogs/signIns
 Content-type: application/json
 Content-length: 1948
 
@@ -161,12 +163,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2056
+Content-Length: 2055
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "93bf7e7e-7e7e-93bf-7e7e-bf937e7ebf93",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "6bb2dc13-dc13-6bb2-13dc-b26b13dcb26b",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",

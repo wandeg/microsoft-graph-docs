@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add used
 
+Namespace: microsoft.graph
+
 Add used by posting to the used collection.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST /me/insights/used/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the usedInsight object.
+In the request body, supply a JSON representation for the [usedInsight](../resources/usedinsight.md) object.
 
-The following table shows the properties that are required when you create the usedInsight.
+The following table shows the properties that are required when you create the [usedInsight](../resources/usedinsight.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastUsed|[usageDetails](../resources/usageDetails.md)||
-|resourceVisualization|[resourceVisualization](../resources/resourceVisualization.md)||
-|resourceReference|[resourceReference](../resources/resourceReference.md)||
+|lastUsed|[usageDetails](../resources/usagedetails.md)||
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)||
+|resourceReference|[resourceReference](../resources/resourcereference.md)||
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/insights/used
+POST https://graph.microsoft.com/localtest/me/insights/used
 Content-type: application/json
 Content-length: 883
 
@@ -70,8 +72,8 @@ Content-length: 883
   "@odata.type": "#microsoft.graph.usedInsight",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:03:08.8222757+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -107,11 +109,11 @@ Content-Length: 932
 
 {
   "@odata.type": "#microsoft.graph.usedInsight",
-  "id": "c86dacf4-acf4-c86d-f4ac-6dc8f4ac6dc8",
+  "id": "02ecab27-ab27-02ec-27ab-ec0227abec02",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:03:08.8222757+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",

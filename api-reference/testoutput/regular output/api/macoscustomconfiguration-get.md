@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get macOSCustomConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [macOSCustomConfiguration](../resources/macoscustomconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.macOSCustomConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.macOSCustomConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 492
+Content-Length: 491
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.macOSCustomConfiguration",
-    "id": "9340271e-271e-9340-1e27-40931e274093",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "e3f7f67c-f67c-e3f7-7cf6-f7e37cf6f7e3",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

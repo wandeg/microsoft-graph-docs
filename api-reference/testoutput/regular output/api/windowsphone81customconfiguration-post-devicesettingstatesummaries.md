@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceSettingStateSummaries
 
+Namespace: microsoft.graph
+
 Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettin
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the settingStateDeviceSummary object.
+In the request body, supply a JSON representation for the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.
 
-The following table shows the properties that are required when you create the settingStateDeviceSummary.
+The following table shows the properties that are required when you create the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries
 Content-type: application/json
 Content-length: 360
 
@@ -101,7 +103,7 @@ Content-Length: 409
 
 {
   "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-  "id": "e269b998-b998-e269-98b9-69e298b969e2",
+  "id": "fcefb81c-b81c-fcef-1cb8-effc1cb8effc",
   "settingName": "Setting Name value",
   "instancePath": "Instance Path value",
   "unknownDeviceCount": 2,

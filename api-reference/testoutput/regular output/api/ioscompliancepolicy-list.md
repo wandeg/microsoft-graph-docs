@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosCompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosCompliancePolicy](../resources/ioscompliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosCompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosCompliancePolicy not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1027
+Content-Length: 1026
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosCompliancePolicy",
-      "id": "1f898328-8328-1f89-2883-891f2883891f",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "cf8d8fe7-8fe7-cf8d-e78f-8dcfe78f8dcf",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passcodeBlockSimple": true,

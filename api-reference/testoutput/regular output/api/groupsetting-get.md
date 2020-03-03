@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get groupSetting
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [groupSetting](../resources/groupsetting.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groupSettings/{groupSettingsId}
+GET https://graph.microsoft.com/localtest/groupSettings/{groupSettingsId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 370
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupSetting",
-    "id": "8b7e230a-230a-8b7e-0a23-7e8b0a237e8b",
+    "id": "c827e60b-e60b-c827-0be6-27c80be627c8",
     "displayName": "Display Name value",
     "templateId": "Template Id value",
     "values": [

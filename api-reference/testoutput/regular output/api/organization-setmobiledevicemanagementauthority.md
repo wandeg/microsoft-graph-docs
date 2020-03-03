@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # setMobileDeviceManagementAuthority
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/organization/{organizationId}/setMobileDeviceManagementAuthority
+POST https://graph.microsoft.com/localtest/organization/{organizationId}/setMobileDeviceManagementAuthority
 ```
 
 ### Response

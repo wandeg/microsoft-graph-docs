@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,12 +44,12 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection||
+|assignments|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [deviceConfigurationAssignment](../resources/deviceConfigurationAssignment.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection in the response body.
 
 ## Example
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsPhone81GeneralConfiguration not found/assign
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsPhone81GeneralConfiguration not found/assign
 
 Content-type: application/json
 Content-length: 277
@@ -68,7 +70,7 @@ Content-length: 277
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "7e159a72-9a72-7e15-729a-157e729a157e",
+      "id": "02559ac2-9ac2-0255-c29a-5502c29a5502",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -94,7 +96,7 @@ Content-Length: 271
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "7e159a72-9a72-7e15-729a-157e729a157e",
+      "id": "02559ac2-9ac2-0255-c29a-5502c29a5502",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

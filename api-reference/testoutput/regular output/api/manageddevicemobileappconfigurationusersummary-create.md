@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managedDeviceMobileAppConfigurationUserSummary
 
+Namespace: microsoft.graph
+
 Create a new [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationUs
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfigurationUserSummary object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfigurationUserSummary.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -66,9 +68,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationUserSummary not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationUserSummary not found
 Content-type: application/json
-Content-length: 297
+Content-length: 294
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
@@ -77,7 +79,7 @@ Content-length: 297
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```
@@ -93,17 +95,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 346
+Content-Length: 343
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
-  "id": "a81f8cc2-8cc2-a81f-c28c-1fa8c28c1fa8",
+  "id": "2a9e9218-9218-2a9e-1892-9e2a18929e2a",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
   "configurationVersion": 4
 }
 ```

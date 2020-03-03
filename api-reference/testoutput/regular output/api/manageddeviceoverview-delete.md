@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedDeviceOverview
 
+Namespace: microsoft.graph
+
 Deletes a [managedDeviceOverview](../resources/manageddeviceoverview.md).
 
 ## Permissions

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryObject
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryObject](../resources/directoryobject.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /me/joinedTeams/{groupId}/rejectedSenders/{directoryObjectId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryObject](../resources/directoryObject.md) object.
+In the request body, supply a JSON representation for the [directoryObject](../resources/directoryobject.md) object.
 
 The following table shows the properties that are required when you create the [directoryObject](../resources/directoryobject.md).
 
@@ -64,13 +66,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/directoryObjects/{directoryObjectsId}
+PATCH https://graph.microsoft.com/localtest/directoryObjects/{directoryObjectsId}
 Content-type: application/json
 Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
 }
 ```
 
@@ -88,8 +90,8 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "dcd736cb-36cb-dcd7-cb36-d7dccb36d7dc",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+  "id": "4ad1a8b9-a8b9-4ad1-b9a8-d14ab9a8d14a",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
 }
 ```
 

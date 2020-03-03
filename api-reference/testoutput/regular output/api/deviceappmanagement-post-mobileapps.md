@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileApps
 
+Namespace: microsoft.graph
+
 Add mobileApps by posting to the mobileApps collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileApp object.
+In the request body, supply a JSON representation for the [mobileApp](../resources/mobileapp.md) object.
 
-The following table shows the properties that are required when you create the mobileApp.
+The following table shows the properties that are required when you create the [mobileApp](../resources/mobileapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the m
 |displayName|String|The admin provided or imported title of the app.|
 |description|String|The description of the app.|
 |publisher|String|The publisher of the app.|
-|largeIcon|[mimeContent](../resources/mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
+|largeIcon|[mimeContent](../resources/mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon.|
 |createdDateTime|DateTimeOffset|The date and time the app was created.|
 |lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified.|
 |isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin.|
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps
 Content-type: application/json
 Content-length: 570
 
@@ -107,11 +109,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 742
+Content-Length: 741
 
 {
   "@odata.type": "#microsoft.graph.mobileApp",
-  "id": "03e33c41-3c41-03e3-413c-e303413ce303",
+  "id": "4c45f8db-f8db-4c45-dbf8-454cdbf8454c",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -120,8 +122,8 @@ Content-Length: 742
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",

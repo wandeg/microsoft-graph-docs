@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # applePushNotificationCertificate resource type
+
+
+Namespace: microsoft.graph
 
 Apple push notification certificate.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List applePushNotificationCertificates](../api/applepushnotificationcertificate-list.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md) collection|List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.|
-|[Get applePushNotificationCertificate](../api/applepushnotificationcertificate-get.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Read properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
-|[Create applePushNotificationCertificate](../api/applepushnotificationcertificate-create.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Create a new [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[List applePushNotificationCertificates](../api/applepushnotificationcertificate-list.md)|[applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) collection|List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.|
+|[Get applePushNotificationCertificate](../api/applepushnotificationcertificate-get.md)|[applePushNotificationCertificate](../resources/applepushnotificationcertificate.md)|Read properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[Create applePushNotificationCertificate](../api/applepushnotificationcertificate-create.md)|[applePushNotificationCertificate](../resources/applepushnotificationcertificate.md)|Create a new [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
 |[Delete applePushNotificationCertificate](../api/applepushnotificationcertificate-delete.md)|None|Deletes a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).|
-|[Update applePushNotificationCertificate](../api/applepushnotificationcertificate-update.md)|[applePushNotificationCertificate](../resources/applePushNotificationCertificate.md)|Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
+|[Update applePushNotificationCertificate](../api/applepushnotificationcertificate-update.md)|[applePushNotificationCertificate](../resources/applepushnotificationcertificate.md)|Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.|
 |[downloadApplePushNotificationCertificateSigningRequest](../api/applepushnotificationcertificate-downloadapplepushnotificationcertificatesigningrequest.md)|String||
 
 ## Properties

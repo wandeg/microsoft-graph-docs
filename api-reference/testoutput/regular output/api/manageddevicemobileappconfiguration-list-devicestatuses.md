@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceStatuses
 
+Namespace: microsoft.graph
+
 Get the managedDeviceMobileAppConfigurationDeviceStatuses from the deviceStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses
 ```
 
 ### Response
@@ -70,13 +72,13 @@ Content-Length: 557
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-      "id": "dfb2f292-f292-dfb2-92f2-b2df92f2b2df",
+      "id": "da01ce95-ce95-da01-95ce-01da95ce01da",
       "deviceDisplayName": "Device Display Name value",
       "userName": "User Name value",
       "deviceModel": "Device Model value",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+      "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

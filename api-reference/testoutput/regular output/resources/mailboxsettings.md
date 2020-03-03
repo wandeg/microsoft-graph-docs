@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailboxSettings resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,12 +18,12 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |archiveFolder|String||
-|automaticRepliesSetting|[automaticRepliesSetting](../resources/automaticRepliesSetting.md)||
+|automaticRepliesSetting|[automaticRepliesSetting](../resources/automaticrepliessetting.md)||
 |dateFormat|String||
-|language|[localeInfo](../resources/localeInfo.md)||
+|language|[localeInfo](../resources/localeinfo.md)||
 |timeFormat|String||
 |timeZone|String||
-|workingHours|[workingHours](../resources/workingHours.md)||
+|workingHours|[workingHours](../resources/workinghours.md)||
 
 ## Relationships
 None

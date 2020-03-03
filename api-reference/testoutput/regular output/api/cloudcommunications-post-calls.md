@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add calls
 
+Namespace: microsoft.graph
+
 Add calls by posting to the calls collection.
 
 ## Permissions
@@ -36,28 +38,28 @@ POST /communications/calls/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the call object.
+In the request body, supply a JSON representation for the [call](../resources/call.md) object.
 
-The following table shows the properties that are required when you create the call.
+The following table shows the properties that are required when you create the [call](../resources/call.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |state|Enumeration|. Possible values are: `incoming`, `establishing`, `established`, `hold`, `transferring`, `transferAccepted`, `redirecting`, `terminating`, `terminated`, `unknownFutureValue`.|
-|mediaState|[callMediaState](../resources/callMediaState.md)||
-|resultInfo|[resultInfo](../resources/resultInfo.md)||
+|mediaState|[callMediaState](../resources/callmediastate.md)||
+|resultInfo|[resultInfo](../resources/resultinfo.md)||
 |direction|Enumeration|. Possible values are: `incoming`, `outgoing`.|
 |subject|String||
 |callbackUri|String||
-|source|[participantInfo](../resources/participantInfo.md)||
-|targets|[participantInfo](../resources/participantInfo.md) collection||
+|source|[participantInfo](../resources/participantinfo.md)||
+|targets|[participantInfo](../resources/participantinfo.md) collection||
 |requestedModalities|Enumeration collection|. Possible values are: `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
-|mediaConfig|[mediaConfig](../resources/mediaConfig.md)||
-|chatInfo|[chatInfo](../resources/chatInfo.md)||
-|meetingInfo|[meetingInfo](../resources/meetingInfo.md)||
+|mediaConfig|[mediaConfig](../resources/mediaconfig.md)||
+|chatInfo|[chatInfo](../resources/chatinfo.md)||
+|meetingInfo|[meetingInfo](../resources/meetinginfo.md)||
 |tenantId|String||
 |myParticipantId|String||
-|toneInfo|[toneInfo](../resources/toneInfo.md)||
+|toneInfo|[toneInfo](../resources/toneinfo.md)||
 
 
 
@@ -74,7 +76,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls
+POST https://graph.microsoft.com/localtest/communications/calls
 Content-type: application/json
 Content-length: 1645
 
@@ -158,7 +160,7 @@ Content-Length: 1694
 
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "728b83c8-83c8-728b-c883-8b72c8838b72",
+  "id": "5b064ea4-4ea4-5b06-a44e-065ba44e065b",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

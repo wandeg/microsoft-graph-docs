@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # identityProvider resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List identityProviders](../api/identityprovider-list.md)|[identityProvider](../resources/identityProvider.md) collection|List properties and relationships of the [identityProvider](../resources/identityprovider.md) objects.|
-|[Get identityProvider](../api/identityprovider-get.md)|[identityProvider](../resources/identityProvider.md)|Read properties and relationships of the [identityProvider](../resources/identityprovider.md) object.|
-|[Create identityProvider](../api/identityprovider-post-identityproviders.md)|[identityProvider](../resources/identityProvider.md)|Create a new [identityProvider](../resources/identityprovider.md) object.|
+|[List identityProviders](../api/identityprovider-list.md)|[identityProvider](../resources/identityprovider.md) collection|List properties and relationships of the [identityProvider](../resources/identityprovider.md) objects.|
+|[Get identityProvider](../api/identityprovider-get.md)|[identityProvider](../resources/identityprovider.md)|Read properties and relationships of the [identityProvider](../resources/identityprovider.md) object.|
+|[Create identityProvider](../api/identityprovider-post-identityproviders.md)|[identityProvider](../resources/identityprovider.md)|Create a new [identityProvider](../resources/identityprovider.md) object.|
 |[Delete identityProvider](../api/identityprovider-delete.md)|None|Deletes a [identityProvider](../resources/identityprovider.md).|
-|[Update identityProvider](../api/identityprovider-update.md)|[identityProvider](../resources/identityProvider.md)|Update the properties of a [identityProvider](../resources/identityprovider.md) object.|
+|[Update identityProvider](../api/identityprovider-update.md)|[identityProvider](../resources/identityprovider.md)|Update the properties of a [identityProvider](../resources/identityprovider.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mailTips resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|automaticReplies|[automaticRepliesMailTips](../resources/automaticRepliesMailTips.md)||
+|automaticReplies|[automaticRepliesMailTips](../resources/automaticrepliesmailtips.md)||
 |customMailTip|String||
 |deliveryRestricted|Boolean||
-|emailAddress|[emailAddress](../resources/emailAddress.md)||
-|error|[mailTipsError](../resources/mailTipsError.md)||
+|emailAddress|[emailAddress](../resources/emailaddress.md)||
+|error|[mailTipsError](../resources/mailtipserror.md)||
 |externalMemberCount|Int32||
 |isModerated|Boolean||
 |mailboxFull|Boolean||

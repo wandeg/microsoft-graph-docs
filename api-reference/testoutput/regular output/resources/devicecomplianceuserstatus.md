@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceComplianceUserStatus resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceComplianceUserStatus](../api/devicecomplianceuserstatus-get.md)|[deviceComplianceUserStatus](../resources/deviceComplianceUserStatus.md)|Read properties and relationships of the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
+|[List deviceComplianceUserStatuses](../api/devicecomplianceuserstatus-list.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) collection|List properties and relationships of the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) objects.|
+|[Get deviceComplianceUserStatus](../api/devicecomplianceuserstatus-get.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Read properties and relationships of the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
+|[Create deviceComplianceUserStatus](../api/devicecomplianceuserstatus-create.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Create a new [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
 |[Delete deviceComplianceUserStatus](../api/devicecomplianceuserstatus-delete.md)|None|Deletes a [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md).|
-|[Update deviceComplianceUserStatus](../api/devicecomplianceuserstatus-update.md)|[deviceComplianceUserStatus](../resources/deviceComplianceUserStatus.md)|Update the properties of a [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
+|[Update deviceComplianceUserStatus](../api/devicecomplianceuserstatus-update.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Update the properties of a [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete commsOperation
 
+Namespace: microsoft.graph
+
 Deletes a [commsOperation](../resources/commsoperation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications/calls/{callId}/operations/{commsOperationId}
+DELETE https://graph.microsoft.com/localtest/communications/calls/{callId}/operations/{commsOperationId}
 ```
 
 ### Response

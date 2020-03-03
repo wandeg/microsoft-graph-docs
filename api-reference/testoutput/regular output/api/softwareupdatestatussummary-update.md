@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update softwareUpdateStatusSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.
 
 ## Permissions
@@ -34,7 +36,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [softwareUpdateStatusSummary](../resources/softwareUpdateStatusSummary.md) object.
+In the request body, supply a JSON representation for the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.
 
 The following table shows the properties that are required when you create the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md).
 
@@ -89,7 +91,7 @@ Content-Length: 567
 
 {
   "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-  "id": "029d2de0-2de0-029d-e02d-9d02e02d9d02",
+  "id": "8f2b8162-8162-8f2b-6281-2b8f62812b8f",
   "displayName": "Display Name value",
   "compliantDeviceCount": 4,
   "nonCompliantDeviceCount": 7,

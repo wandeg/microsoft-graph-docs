@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10GeneralConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10GeneralConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10GeneralConfiguration not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 10960
+Content-Length: 10959
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-      "id": "f35782fa-82fa-f357-fa82-57f3fa8257f3",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "10c4a27f-a27f-10c4-7fa2-c4107fa2c410",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
@@ -154,8 +156,8 @@ Content-Length: 10960
       "defenderScanScriptsLoadedInInternetExplorer": true,
       "defenderSignatureUpdateIntervalInHours": 6,
       "defenderScanType": "String",
-      "defenderScheduledScanTime": "12:03:24.3210000",
-      "defenderScheduledQuickScanTime": "11:56:50.4190000",
+      "defenderScheduledScanTime": "11:57:56.7120000",
+      "defenderScheduledQuickScanTime": "11:58:37.3560000",
       "defenderCloudBlockLevel": "String",
       "lockScreenAllowTimeoutConfiguration": true,
       "lockScreenBlockActionCenterNotifications": true,

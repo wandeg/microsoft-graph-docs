@@ -5,20 +5,21 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # optionalClaims resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|accessToken|[optionalClaim](../resources/optionalClaim.md) collection||
-|idToken|[optionalClaim](../resources/optionalClaim.md) collection||
-|saml2Token|[optionalClaim](../resources/optionalClaim.md) collection||
+|accessToken|[optionalClaim](../resources/optionalclaim.md) collection||
+|idToken|[optionalClaim](../resources/optionalclaim.md) collection||
+|saml2Token|[optionalClaim](../resources/optionalclaim.md) collection||
 
 ## Relationships
 None

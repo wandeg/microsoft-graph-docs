@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # followupFlag resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|completedDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|dueDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|completedDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|dueDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |flagStatus|Enumeration|. Possible values are: `notFlagged`, `complete`, `flagged`.|
-|startDateTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 ## Relationships
 None

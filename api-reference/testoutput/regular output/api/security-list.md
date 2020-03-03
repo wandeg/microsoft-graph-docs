@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List securities
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [security](../resources/security.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.security not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.security not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 140
   "value": [
     {
       "@odata.type": "#microsoft.graph.security",
-      "id": "3d8edfd0-dfd0-3d8e-d0df-8e3dd0df8e3d"
+      "id": "0f827499-7499-0f82-9974-820f9974820f"
     }
   ]
 }

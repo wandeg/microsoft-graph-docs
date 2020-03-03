@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update trending
 
+Namespace: microsoft.graph
+
 Update the properties of a [trending](../resources/trending.md) object.
 
 ## Permissions
@@ -43,8 +45,8 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |weight|Double||
-|resourceVisualization|[resourceVisualization](../resources/resourceVisualization.md)||
-|resourceReference|[resourceReference](../resources/resourceReference.md)||
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)||
+|resourceReference|[resourceReference](../resources/resourcereference.md)||
 |lastModifiedDateTime|DateTimeOffset||
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/insights/trending/{trendingId}
+PATCH https://graph.microsoft.com/localtest/me/insights/trending/{trendingId}
 Content-type: application/json
 Content-length: 697
 
@@ -102,7 +104,7 @@ Content-Length: 810
 
 {
   "@odata.type": "#microsoft.graph.trending",
-  "id": "3544ae89-ae89-3544-89ae-443589ae4435",
+  "id": "2950a438-a438-2950-38a4-502938a45029",
   "weight": "Double",
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -120,7 +122,7 @@ Content-Length: 810
     "webUrl": "https://example.com/webUrl/",
     "id": "Id value"
   },
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
 }
 ```
 

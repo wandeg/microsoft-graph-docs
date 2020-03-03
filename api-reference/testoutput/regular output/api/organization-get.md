@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get organization
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [organization](../resources/organization.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/organization/{organizationId}
+GET https://graph.microsoft.com/localtest/organization/{organizationId}
 ```
 
 ### Response
@@ -67,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2192
+Content-Length: 2191
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.organization",
-    "id": "37daf865-f865-37da-65f8-da3765f8da37",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+    "id": "263e8e81-8e81-263e-818e-3e26818e3e26",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+        "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+        "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
       }
     ],
     "businessPhones": [
@@ -89,13 +91,13 @@ Content-Length: 2192
     "city": "City value",
     "country": "Country value",
     "countryLetterCode": "Country Letter Code value",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "creationType": "Creation Type value",
     "displayName": "Display Name value",
     "marketingNotificationEmails": [
       "Marketing Notification Emails value"
     ],
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
     "onPremisesSyncEnabled": true,
     "postalCode": "Postal Code value",
     "preferredLanguage": "Preferred Language value",

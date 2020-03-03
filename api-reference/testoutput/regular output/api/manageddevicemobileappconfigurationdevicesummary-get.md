@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedDeviceMobileAppConfigurationDeviceSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatusSummary
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatusSummary
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 385
+Content-Length: 382
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
-    "id": "2bd2ecb0-ecb0-2bd2-b0ec-d22bb0ecd22b",
+    "id": "2feefc6e-fc6e-2fee-6efc-ee2f6efcee2f",
     "pendingCount": 12,
     "notApplicableCount": 2,
     "successCount": 12,
     "errorCount": 10,
     "failedCount": 11,
-    "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+    "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
     "configurationVersion": 4
   }
 }

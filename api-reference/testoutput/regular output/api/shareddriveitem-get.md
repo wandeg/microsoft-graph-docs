@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sharedDriveItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sharedDriveItem](../resources/shareddriveitem.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/shares/{sharesId}
+GET https://graph.microsoft.com/localtest/shares/{sharesId}
 ```
 
 ### Response
@@ -67,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1536
+Content-Length: 1535
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharedDriveItem",
-    "id": "eaa0c621-c621-eaa0-21c6-a0ea21c6a0ea",
+    "id": "9bc57d50-7d50-9bc5-507d-c59b507dc59b",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -87,13 +89,13 @@ Content-Length: 1536
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

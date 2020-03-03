@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerTaskDetailses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerTaskDetails not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerTaskDetails not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 422
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerTaskDetails",
-      "id": "4f5f4410-4410-4f5f-1044-5f4f10445f4f",
+      "id": "25a36ffd-6ffd-25a3-fd6f-a325fd6fa325",
       "description": "Description value",
       "previewType": "String",
       "references": {

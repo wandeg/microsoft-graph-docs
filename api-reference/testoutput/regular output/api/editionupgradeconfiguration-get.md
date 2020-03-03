@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get editionUpgradeConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [editionUpgradeConfiguration](../resources/editionupgradeconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.editionUpgradeConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.editionUpgradeConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 505
+Content-Length: 504
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.editionUpgradeConfiguration",
-    "id": "cb5cf29a-f29a-cb5c-9af2-5ccb9af25ccb",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "7e5cf78f-f78f-7e5c-8ff7-5c7e8ff75c7e",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileAppAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/assignments/{mobileAppAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 357
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppAssignment",
-    "id": "c146fa33-fa33-c146-33fa-46c133fa46c1",
+    "id": "4afbb36a-b36a-4afb-6ab3-fb4a6ab3fb4a",
     "intent": "String",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

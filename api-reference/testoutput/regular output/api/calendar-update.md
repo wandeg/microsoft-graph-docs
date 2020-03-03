@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update calendar
 
+Namespace: microsoft.graph
+
 Update the properties of a [calendar](../resources/calendar.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ The following table shows the properties that are required when you create the [
 |canShare|Boolean||
 |canViewPrivateItems|Boolean||
 |canEdit|Boolean||
-|owner|[emailAddress](../resources/emailAddress.md)||
+|owner|[emailAddress](../resources/emailaddress.md)||
 
 
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/calendar
+PATCH https://graph.microsoft.com/localtest/me/calendar
 Content-type: application/json
 Content-length: 310
 
@@ -105,7 +107,7 @@ Content-Length: 359
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "cc606c88-6c88-cc60-886c-60cc886c60cc",
+  "id": "1c274a49-4a49-1c27-494a-271c494a271c",
   "name": "Name value",
   "color": "String",
   "changeKey": "Change Key value",

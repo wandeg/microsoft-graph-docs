@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List targetedManagedAppConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations
+GET https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations
 ```
 
 ### Response
@@ -64,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 657
+Content-Length: 656
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.targetedManagedAppConfiguration",
-      "id": "b3ea4b38-4b38-b3ea-384b-eab3384beab3",
+      "id": "e5f604e4-04e4-e5f6-e404-f6e5e404f6e5",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "version": "Version value",
       "customSettings": [
         {

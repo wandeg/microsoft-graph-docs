@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create iosUpdateConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [iosUpdateConfiguration](../resources/iosupdateconfiguration.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.iosUpdateConfiguration not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosUpdateConfiguration object.
+In the request body, supply a JSON representation for the [iosUpdateConfiguration](../resources/iosupdateconfiguration.md) object.
 
-The following table shows the properties that are required when you create the iosUpdateConfiguration.
+The following table shows the properties that are required when you create the [iosUpdateConfiguration](../resources/iosupdateconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |activeHoursStart|TimeOfDay|Active Hours Start (active hours mean the time window when updates install should not happen)|
 |activeHoursEnd|TimeOfDay|Active Hours End (active hours mean the time window when updates install should not happen)|
 |scheduledInstallDays|Enumeration collection|Days in week for which active hours are configured. This collection can contain a maximum of 7 elements. Possible values are: `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`.|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosUpdateConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosUpdateConfiguration not found
 Content-type: application/json
 Content-length: 325
 
@@ -77,8 +79,8 @@ Content-length: 325
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
-  "activeHoursStart": "12:02:13.9050000",
-  "activeHoursEnd": "11:59:09.5630000",
+  "activeHoursStart": "11:59:37.5910000",
+  "activeHoursEnd": "12:01:43.6090000",
   "scheduledInstallDays": [
     "String"
   ],
@@ -97,18 +99,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 497
+Content-Length: 496
 
 {
   "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
-  "id": "8e7c2420-2420-8e7c-2024-7c8e20247c8e",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "d71b197f-197f-d71b-7f19-1bd77f191bd7",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
-  "activeHoursStart": "12:02:13.9050000",
-  "activeHoursEnd": "11:59:09.5630000",
+  "activeHoursStart": "11:59:37.5910000",
+  "activeHoursEnd": "12:01:43.6090000",
   "scheduledInstallDays": [
     "String"
   ],

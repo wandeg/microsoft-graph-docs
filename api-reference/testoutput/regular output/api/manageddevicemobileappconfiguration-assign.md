@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assign
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|assignments|[managedDeviceMobileAppConfigurationAssignment](../resources/managedDeviceMobileAppConfigurationAssignment.md) collection||
+|assignments|[managedDeviceMobileAppConfigurationAssignment](../resources/manageddevicemobileappconfigurationassignment.md) collection||
 
 
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/assign
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/assign
 
 Content-type: application/json
 Content-length: 293
@@ -68,7 +70,7 @@ Content-length: 293
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationAssignment",
-      "id": "5eeb990f-990f-5eeb-0f99-eb5e0f99eb5e",
+      "id": "e3c0d7a3-d7a3-e3c0-a3d7-c0e3a3d7c0e3",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

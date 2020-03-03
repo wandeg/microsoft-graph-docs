@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryAudit
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryAudit](../resources/directoryaudit.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /auditLogs/directoryAudits/{directoryAuditId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryAudit](../resources/directoryAudit.md) object.
+In the request body, supply a JSON representation for the [directoryAudit](../resources/directoryaudit.md) object.
 
 The following table shows the properties that are required when you create the [directoryAudit](../resources/directoryaudit.md).
 
@@ -50,9 +52,9 @@ The following table shows the properties that are required when you create the [
 |activityDateTime|DateTimeOffset||
 |loggedByService|String||
 |operationType|String||
-|initiatedBy|[auditActivityInitiator](../resources/auditActivityInitiator.md)||
-|targetResources|[targetResource](../resources/targetResource.md) collection||
-|additionalDetails|[keyValue](../resources/keyValue.md) collection||
+|initiatedBy|[auditActivityInitiator](../resources/auditactivityinitiator.md)||
+|targetResources|[targetResource](../resources/targetresource.md) collection||
+|additionalDetails|[keyValue](../resources/keyvalue.md) collection||
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/auditLogs/directoryAudits/{directoryAuditId}
+PATCH https://graph.microsoft.com/localtest/auditLogs/directoryAudits/{directoryAuditId}
 Content-type: application/json
 Content-length: 1484
 
@@ -80,7 +82,7 @@ Content-length: 1484
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:59:24.7559833+03:00",
+  "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {
@@ -137,13 +139,13 @@ Content-Length: 1533
 
 {
   "@odata.type": "#microsoft.graph.directoryAudit",
-  "id": "32e2c8a9-c8a9-32e2-a9c8-e232a9c8e232",
+  "id": "12fd3127-3127-12fd-2731-fd122731fd12",
   "category": "Category value",
   "correlationId": "Correlation Id value",
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:59:24.7559833+03:00",
+  "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {

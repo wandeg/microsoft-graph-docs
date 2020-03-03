@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # domainDnsRecord resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get domainDnsRecord](../api/domaindnsrecord-get.md)|[domainDnsRecord](../resources/domainDnsRecord.md)|Read properties and relationships of the [domainDnsRecord](../resources/domaindnsrecord.md) object.|
+|[List domainDnsRecords](../api/domaindnsrecord-list.md)|[domainDnsRecord](../resources/domaindnsrecord.md) collection|List properties and relationships of the [domainDnsRecord](../resources/domaindnsrecord.md) objects.|
+|[Get domainDnsRecord](../api/domaindnsrecord-get.md)|[domainDnsRecord](../resources/domaindnsrecord.md)|Read properties and relationships of the [domainDnsRecord](../resources/domaindnsrecord.md) object.|
+|[Create domainDnsRecord](../api/domaindnsrecord-post-domaindnsrecords.md)|[domainDnsRecord](../resources/domaindnsrecord.md)|Create a new [domainDnsRecord](../resources/domaindnsrecord.md) object.|
 |[Delete domainDnsRecord](../api/domaindnsrecord-delete.md)|None|Deletes a [domainDnsRecord](../resources/domaindnsrecord.md).|
-|[Update domainDnsRecord](../api/domaindnsrecord-update.md)|[domainDnsRecord](../resources/domainDnsRecord.md)|Update the properties of a [domainDnsRecord](../resources/domaindnsrecord.md) object.|
+|[Update domainDnsRecord](../api/domaindnsrecord-update.md)|[domainDnsRecord](../resources/domaindnsrecord.md)|Update the properties of a [domainDnsRecord](../resources/domaindnsrecord.md) object.|
 
 ## Properties
 |Property|Type|Description|

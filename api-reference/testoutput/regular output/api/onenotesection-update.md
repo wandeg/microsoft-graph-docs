@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenoteSection
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenoteSection](../resources/onenotesection.md) object.
 
 ## Permissions
@@ -38,21 +40,21 @@ PATCH /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/parentSecti
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenoteSection](../resources/onenoteSection.md) object.
+In the request body, supply a JSON representation for the [onenoteSection](../resources/onenotesection.md) object.
 
 The following table shows the properties that are required when you create the [onenoteSection](../resources/onenotesection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
-|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteEntityHierarchyModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
+|displayName|String| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchymodel.md)|
 |isDefault|Boolean||
-|links|[sectionLinks](../resources/sectionLinks.md)||
+|links|[sectionLinks](../resources/sectionlinks.md)||
 |pagesUrl|String||
 
 
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/onenote/sections/{onenoteSectionId}
+PATCH https://graph.microsoft.com/localtest/me/onenote/sections/{onenoteSectionId}
 Content-type: application/json
 Content-length: 788
 
@@ -116,13 +118,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1039
+Content-Length: 1038
 
 {
   "@odata.type": "#microsoft.graph.onenoteSection",
-  "id": "3349dae1-dae1-3349-e1da-4933e1da4933",
+  "id": "073df802-f802-073d-02f8-3d0702f83d07",
   "self": "Self value",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -140,7 +142,7 @@ Content-Length: 1039
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "isDefault": true,
   "links": {
     "@odata.type": "microsoft.graph.sectionLinks",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartFont
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartFont](../resources/workbookchartfont.md) object.
 
 ## Permissions
@@ -40,7 +42,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartFont](../resources/workbookChartFont.md) object.
+In the request body, supply a JSON representation for the [workbookChartFont](../resources/workbookchartfont.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartFont](../resources/workbookchartfont.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format/font
 Content-type: application/json
 Content-length: 203
 
@@ -98,7 +100,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFont",
-  "id": "6ca7893f-893f-6ca7-3f89-a76c3f89a76c",
+  "id": "d1a77639-7639-d1a7-3976-a7d13976a7d1",
   "bold": true,
   "color": "Color value",
   "italic": true,

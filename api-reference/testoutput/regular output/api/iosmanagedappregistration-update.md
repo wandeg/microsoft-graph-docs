@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update iosManagedAppRegistration
 
+Namespace: microsoft.graph
+
 Update the properties of a [iosManagedAppRegistration](../resources/iosmanagedappregistration.md) object.
 
 ## Permissions
@@ -35,25 +37,25 @@ PATCH ** Entity URI for microsoft.graph.iosManagedAppRegistration not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosManagedAppRegistration](../resources/iosManagedAppRegistration.md) object.
+In the request body, supply a JSON representation for the [iosManagedAppRegistration](../resources/iosmanagedappregistration.md) object.
 
 The following table shows the properties that are required when you create the [iosManagedAppRegistration](../resources/iosmanagedappregistration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset|Date and time of creation Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|lastSyncDateTime|DateTimeOffset|Date and time of last the app synced with management service. Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|applicationVersion|String|App version Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|managementSdkVersion|String|App management SDK version Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|platformVersion|String|Operating System version Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|deviceType|String|Host device type Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|deviceTag|String|App management SDK generated tag, which helps relate apps hosted on the same device. Not guaranteed to relate apps in all conditions. Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|deviceName|String|Host device name Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|flaggedReasons|Enumeration collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device Inherited from [managedAppRegistration](../resources/managedAppRegistration.md). Possible values are: `none`, `rootedDevice`.|
-|userId|String|The user Id to who this app registration belongs. Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|appIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The app package Identifier Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
-|version|String|Version of the entity. Inherited from [managedAppRegistration](../resources/managedAppRegistration.md)|
+|createdDateTime|DateTimeOffset|Date and time of creation Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|lastSyncDateTime|DateTimeOffset|Date and time of last the app synced with management service. Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|applicationVersion|String|App version Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|managementSdkVersion|String|App management SDK version Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|platformVersion|String|Operating System version Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|deviceType|String|Host device type Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|deviceTag|String|App management SDK generated tag, which helps relate apps hosted on the same device. Not guaranteed to relate apps in all conditions. Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|deviceName|String|Host device name Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|flaggedReasons|Enumeration collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device Inherited from [managedAppRegistration](../resources/managedappregistration.md). Possible values are: `none`, `rootedDevice`.|
+|userId|String|The user Id to who this app registration belongs. Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|appIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The app package Identifier Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
+|version|String|Version of the entity. Inherited from [managedAppRegistration](../resources/managedappregistration.md)|
 
 
 
@@ -70,13 +72,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosManagedAppRegistration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosManagedAppRegistration not found
 Content-type: application/json
-Content-length: 590
+Content-length: 589
 
 {
   "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -104,13 +106,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 698
+Content-Length: 696
 
 {
   "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-  "id": "c2f62de5-2de5-c2f6-e52d-f6c2e52df6c2",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "id": "ab1d856e-856e-ab1d-6e85-1dab6e851dab",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

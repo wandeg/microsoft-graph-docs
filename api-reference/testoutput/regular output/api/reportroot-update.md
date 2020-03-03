@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update reportRoot
 
+Namespace: microsoft.graph
+
 Update the properties of a [reportRoot](../resources/reportroot.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /reports
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [reportRoot](../resources/reportRoot.md) object.
+In the request body, supply a JSON representation for the [reportRoot](../resources/reportroot.md) object.
 
 The following table shows the properties that are required when you create the [reportRoot](../resources/reportroot.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/reports
+PATCH https://graph.microsoft.com/localtest/reports
 Content-type: application/json
 Content-length: 52
 
@@ -81,7 +83,7 @@ Content-Length: 101
 
 {
   "@odata.type": "#microsoft.graph.reportRoot",
-  "id": "eb4ac79f-c79f-eb4a-9fc7-4aeb9fc74aeb"
+  "id": "547db234-b234-547d-34b2-7d5434b27d54"
 }
 ```
 

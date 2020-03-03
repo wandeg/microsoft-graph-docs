@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getSchedule
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,14 +52,14 @@ The following table shows the parameters that can be used with this action.
 |Property|Type|Description|
 |:---|:---|:---|
 |Schedules|String collection||
-|EndTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|StartTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|EndTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|StartTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |AvailabilityViewInterval|Int32||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [scheduleInformation](../resources/scheduleInformation.md) collection in the response body.
+If successful, this action returns a `200 OK` response code and a [scheduleInformation](../resources/scheduleinformation.md) collection in the response body.
 
 ## Example
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/calendar/getSchedule
+POST https://graph.microsoft.com/localtest/me/calendar/getSchedule
 
 Content-type: application/json
 Content-length: 240

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get targetedManagedAppPolicyAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
 ```
 
 ### Response
@@ -76,7 +78,7 @@ Content-Length: 252
 {
   "value": {
     "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-    "id": "fd7d43f4-43f4-fd7d-f443-7dfdf4437dfd",
+    "id": "7ef3a1f1-a1f1-7ef3-f1a1-f37ef1a1f37e",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

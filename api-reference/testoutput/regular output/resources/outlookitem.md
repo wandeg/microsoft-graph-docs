@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # outlookItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookItems](../api/outlookitem-list.md)|[outlookItem](../resources/outlookItem.md) collection|List properties and relationships of the [outlookItem](../resources/outlookitem.md) objects.|
-|[Get outlookItem](../api/outlookitem-get.md)|[outlookItem](../resources/outlookItem.md)|Read properties and relationships of the [outlookItem](../resources/outlookitem.md) object.|
+|[List outlookItems](../api/outlookitem-list.md)|[outlookItem](../resources/outlookitem.md) collection|List properties and relationships of the [outlookItem](../resources/outlookitem.md) objects.|
+|[Get outlookItem](../api/outlookitem-get.md)|[outlookItem](../resources/outlookitem.md)|Read properties and relationships of the [outlookItem](../resources/outlookitem.md) object.|
 
 ## Properties
 |Property|Type|Description|

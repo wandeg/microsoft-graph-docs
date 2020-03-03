@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # record
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [recordOperation](../resources/recordOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [recordOperation](../resources/recordoperation.md) in the response body.
 
 ## Example
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/record
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/record
 
 Content-type: application/json
 Content-length: 346
@@ -105,7 +107,7 @@ Content-Length: 395
 {
   "value": {
     "@odata.type": "#microsoft.graph.recordOperation",
-    "id": "fe03f4ed-f4ed-fe03-edf4-03feedf403fe",
+    "id": "3e63f5b0-f5b0-3e63-b0f5-633eb0f5633e",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

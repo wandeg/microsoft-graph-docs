@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onenotePagePreviewLinks resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|previewImageUrl|[externalLink](../resources/externalLink.md)||
+|previewImageUrl|[externalLink](../resources/externallink.md)||
 
 ## Relationships
 None

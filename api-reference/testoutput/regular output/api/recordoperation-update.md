@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update recordOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [recordOperation](../resources/recordoperation.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH ** Entity URI for microsoft.graph.recordOperation not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [recordOperation](../resources/recordOperation.md) object.
+In the request body, supply a JSON representation for the [recordOperation](../resources/recordoperation.md) object.
 
 The following table shows the properties that are required when you create the [recordOperation](../resources/recordoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
-|resultInfo|[resultInfo](../resources/resultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
+|resultInfo|[resultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
 |recordingLocation|String||
 |recordingAccessToken|String||
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.recordOperation not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.recordOperation not found
 Content-type: application/json
 Content-length: 377
 
@@ -96,7 +98,7 @@ Content-Length: 426
 
 {
   "@odata.type": "#microsoft.graph.recordOperation",
-  "id": "fe03f4ed-f4ed-fe03-edf4-03feedf403fe",
+  "id": "3e63f5b0-f5b0-3e63-b0f5-633eb0f5633e",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

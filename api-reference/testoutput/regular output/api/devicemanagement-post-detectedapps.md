@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add detectedApps
 
+Namespace: microsoft.graph
+
 Add detectedApps by posting to the detectedApps collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/detectedApps/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the detectedApp object.
+In the request body, supply a JSON representation for the [detectedApp](../resources/detectedapp.md) object.
 
-The following table shows the properties that are required when you create the detectedApp.
+The following table shows the properties that are required when you create the [detectedApp](../resources/detectedapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/detectedApps
+POST https://graph.microsoft.com/localtest/deviceManagement/detectedApps
 Content-type: application/json
 Content-length: 167
 
@@ -91,7 +93,7 @@ Content-Length: 216
 
 {
   "@odata.type": "#microsoft.graph.detectedApp",
-  "id": "a58e3dbf-3dbf-a58e-bf3d-8ea5bf3d8ea5",
+  "id": "bb1db850-b850-bb1d-50b8-1dbb50b81dbb",
   "displayName": "Display Name value",
   "version": "Version value",
   "sizeInByte": 10,

@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # iosHomeScreenFolder resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [iosHomeScreenItem](../resources/iosHomeScreenItem.md)
+
+
+Inherits from [iosHomeScreenItem](../resources/ioshomescreenitem.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|displayName|String|Name of the app Inherited from [iosHomeScreenItem](../resources/iosHomeScreenItem.md)|
-|pages|[iosHomeScreenFolderPage](../resources/iosHomeScreenFolderPage.md) collection|Pages of Home Screen Layout Icons which must be Application Type. This collection can contain a maximum of 500 elements.|
+|displayName|String|Name of the app Inherited from [iosHomeScreenItem](../resources/ioshomescreenitem.md)|
+|pages|[iosHomeScreenFolderPage](../resources/ioshomescreenfolderpage.md) collection|Pages of Home Screen Layout Icons which must be Application Type. This collection can contain a maximum of 500 elements.|
 
 ## Relationships
 None

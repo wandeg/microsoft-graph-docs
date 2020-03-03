@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # signIn resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,27 +20,27 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List signIns](../api/signin-list.md)|[signIn](../resources/signIn.md) collection|List properties and relationships of the [signIn](../resources/signin.md) objects.|
-|[Get signIn](../api/signin-get.md)|[signIn](../resources/signIn.md)|Read properties and relationships of the [signIn](../resources/signin.md) object.|
-|[Create signIn](../api/signin-create.md)|[signIn](../resources/signIn.md)|Create a new [signIn](../resources/signin.md) object.|
+|[List signIns](../api/signin-list.md)|[signIn](../resources/signin.md) collection|List properties and relationships of the [signIn](../resources/signin.md) objects.|
+|[Get signIn](../api/signin-get.md)|[signIn](../resources/signin.md)|Read properties and relationships of the [signIn](../resources/signin.md) object.|
+|[Create signIn](../api/signin-create.md)|[signIn](../resources/signin.md)|Create a new [signIn](../resources/signin.md) object.|
 |[Delete signIn](../api/signin-delete.md)|None|Deletes a [signIn](../resources/signin.md).|
-|[Update signIn](../api/signin-update.md)|[signIn](../resources/signIn.md)|Update the properties of a [signIn](../resources/signin.md) object.|
+|[Update signIn](../api/signin-update.md)|[signIn](../resources/signin.md)|Update the properties of a [signIn](../resources/signin.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |appDisplayName|String||
 |appId|String||
-|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedConditionalAccessPolicy.md) collection||
+|appliedConditionalAccessPolicies|[appliedConditionalAccessPolicy](../resources/appliedconditionalaccesspolicy.md) collection||
 |clientAppUsed|String||
 |conditionalAccessStatus|Enumeration|. Possible values are: `success`, `failure`, `notApplied`, `unknownFutureValue`.|
 |correlationId|String||
 |createdDateTime|DateTimeOffset||
-|deviceDetail|[deviceDetail](../resources/deviceDetail.md)||
+|deviceDetail|[deviceDetail](../resources/devicedetail.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |ipAddress|String||
 |isInteractive|Boolean||
-|location|[signInLocation](../resources/signInLocation.md)||
+|location|[signInLocation](../resources/signinlocation.md)||
 |resourceDisplayName|String||
 |resourceId|String||
 |riskDetail|Enumeration|. Possible values are: `none`, `adminGeneratedTemporaryPassword`, `userPerformedSecuredPasswordChange`, `userPerformedSecuredPasswordReset`, `adminConfirmedSigninSafe`, `aiConfirmedSigninSafe`, `userPassedMFADrivenByRiskBasedPolicy`, `adminDismissedAllRiskForUser`, `adminConfirmedSigninCompromised`, `hidden`, `adminConfirmedUserCompromised`, `unknownFutureValue`.|
@@ -47,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 |riskLevelAggregated|Enumeration|. Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
 |riskLevelDuringSignIn|Enumeration|. Possible values are: `low`, `medium`, `high`, `hidden`, `none`, `unknownFutureValue`.|
 |riskState|Enumeration|. Possible values are: `none`, `confirmedSafe`, `remediated`, `dismissed`, `atRisk`, `confirmedCompromised`, `unknownFutureValue`.|
-|status|[signInStatus](../resources/signInStatus.md)||
+|status|[signInStatus](../resources/signinstatus.md)||
 |userDisplayName|String||
 |userId|String||
 |userPrincipalName|String||

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleAssignment](../resources/roleassignment.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{role
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleAssignment](../resources/roleAssignment.md) object.
+In the request body, supply a JSON representation for the [roleAssignment](../resources/roleassignment.md) object.
 
 The following table shows the properties that are required when you create the [roleAssignment](../resources/roleassignment.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments/{roleAssignmentId}
 Content-type: application/json
 Content-length: 193
 
@@ -89,7 +91,7 @@ Content-Length: 242
 
 {
   "@odata.type": "#microsoft.graph.roleAssignment",
-  "id": "975f5648-5648-975f-4856-5f9748565f97",
+  "id": "7f1853b4-53b4-7f18-b453-187fb453187f",
   "displayName": "Display Name value",
   "description": "Description value",
   "resourceScopes": [

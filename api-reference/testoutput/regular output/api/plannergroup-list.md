@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerGroups
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerGroup](../resources/plannergroup.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerGroup not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerGroup not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerGroup",
-      "id": "ecee4b58-4b58-ecee-584b-eeec584beeec"
+      "id": "68ac29ab-29ab-68ac-ab29-ac68ab29ac68"
     }
   ]
 }

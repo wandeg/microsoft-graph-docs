@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # mobileAppAssignment resource type
+
+
+Namespace: microsoft.graph
 
 A class containing the properties used for Group Assignment of a Mobile App.
 
@@ -19,17 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get mobileAppAssignment](../api/mobileappassignment-get.md)|[mobileAppAssignment](../resources/mobileAppAssignment.md)|Read properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) object.|
+|[List mobileAppAssignments](../api/mobileappassignment-list.md)|[mobileAppAssignment](../resources/mobileappassignment.md) collection|List properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) objects.|
+|[Get mobileAppAssignment](../api/mobileappassignment-get.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Read properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) object.|
+|[Create mobileAppAssignment](../api/mobileappassignment-create.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Create a new [mobileAppAssignment](../resources/mobileappassignment.md) object.|
 |[Delete mobileAppAssignment](../api/mobileappassignment-delete.md)|None|Deletes a [mobileAppAssignment](../resources/mobileappassignment.md).|
-|[Update mobileAppAssignment](../api/mobileappassignment-update.md)|[mobileAppAssignment](../resources/mobileAppAssignment.md)|Update the properties of a [mobileAppAssignment](../resources/mobileappassignment.md) object.|
+|[Update mobileAppAssignment](../api/mobileappassignment-update.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Update the properties of a [mobileAppAssignment](../resources/mobileappassignment.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |intent|Enumeration|The install intent defined by the admin. Possible values are: `available`, `required`, `uninstall`, `availableWithoutEnrollment`.|
-|settings|[mobileAppAssignmentSettings](../resources/mobileAppAssignmentSettings.md)|The settings for target assignment defined by the admin.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|The target group assignment defined by the admin.|
+|settings|[mobileAppAssignmentSettings](../resources/mobileappassignmentsettings.md)|The settings for target assignment defined by the admin.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The target group assignment defined by the admin.|
 
 ## Relationships
 None

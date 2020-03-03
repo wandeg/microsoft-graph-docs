@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get thumbnailSet
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/thumbnails/{thumbnailSetId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 565
 {
   "value": {
     "@odata.type": "#microsoft.graph.thumbnailSet",
-    "id": "3448d3fe-d3fe-3448-fed3-4834fed34834",
+    "id": "d474f7a1-f7a1-d474-a1f7-74d4a1f774d4",
     "large": {
       "@odata.type": "microsoft.graph.thumbnail",
       "content": "Stream",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update licenseDetails
 
+Namespace: microsoft.graph
+
 Update the properties of a [licenseDetails](../resources/licensedetails.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ PATCH /users/{usersId}/licenseDetails/{licenseDetailsId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [licenseDetails](../resources/licenseDetails.md) object.
+In the request body, supply a JSON representation for the [licenseDetails](../resources/licensedetails.md) object.
 
 The following table shows the properties that are required when you create the [licenseDetails](../resources/licensedetails.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|servicePlans|[servicePlanInfo](../resources/servicePlanInfo.md) collection||
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
 |skuId|Guid||
 |skuPartNumber|String||
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/licenseDetails/{licenseDetailsId}
+PATCH https://graph.microsoft.com/localtest/me/licenseDetails/{licenseDetailsId}
 Content-type: application/json
 Content-length: 465
 
@@ -71,13 +73,13 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c",
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b",
+  "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
@@ -96,17 +98,17 @@ Content-Length: 514
 
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "a9bc11f2-11f2-a9bc-f211-bca9f211bca9",
+  "id": "3b21276b-276b-3b21-6b27-213b6b27213b",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c",
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b",
+  "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

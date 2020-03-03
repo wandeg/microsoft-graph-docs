@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # subscription resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List subscriptions](../api/subscription-list.md)|[subscription](../resources/subscription.md) collection|List properties and relationships of the [subscription](../resources/subscription.md) objects.|
 |[Get subscription](../api/subscription-get.md)|[subscription](../resources/subscription.md)|Read properties and relationships of the [subscription](../resources/subscription.md) object.|
+|[Create subscription](../api/subscription-post-subscriptions.md)|[subscription](../resources/subscription.md)|Create a new [subscription](../resources/subscription.md) object.|
 |[Delete subscription](../api/subscription-delete.md)|None|Deletes a [subscription](../resources/subscription.md).|
 |[Update subscription](../api/subscription-update.md)|[subscription](../resources/subscription.md)|Update the properties of a [subscription](../resources/subscription.md) object.|
 |[List subscriptions](../api/driveitem-list-subscriptions.md)|[subscription](../resources/subscription.md) collection|Get the subscriptions from the subscriptions navigation property.|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete cloudCommunications
 
+Namespace: microsoft.graph
+
 Deletes a [cloudCommunications](../resources/cloudcommunications.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/communications
+DELETE https://graph.microsoft.com/localtest/communications
 ```
 
 ### Response

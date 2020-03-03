@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete certificateBasedAuthConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/certificateBasedAuthConfiguration/{certificateBasedAuthConfigurationId}
+DELETE https://graph.microsoft.com/localtest/certificateBasedAuthConfiguration/{certificateBasedAuthConfigurationId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get device
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [device](../resources/device.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/devices/{devicesId}
+GET https://graph.microsoft.com/localtest/devices/{devicesId}
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1241
+Content-Length: 1242
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.device",
-    "id": "c9be2b0a-2b0a-c9be-0a2b-bec90a2bbec9",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+    "id": "c77c320b-320b-c77c-0b32-7cc70b327cc7",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
     "accountEnabled": true,
     "alternativeSecurityIds": [
       {
@@ -83,8 +85,8 @@ Content-Length: 1241
         "key": "a2V5"
       }
     ],
-    "approximateLastSignInDateTime": "2017-01-01T00:01:32.1842272+03:00",
-    "complianceExpirationDateTime": "2017-01-01T00:01:40.957525+03:00",
+    "approximateLastSignInDateTime": "2017-01-01T00:00:31.7728214+03:00",
+    "complianceExpirationDateTime": "2017-01-01T00:01:37.9093345+03:00",
     "deviceId": "Device Id value",
     "deviceMetadata": "Device Metadata value",
     "deviceVersion": 13,
@@ -92,7 +94,7 @@ Content-Length: 1241
     "isCompliant": true,
     "isManaged": true,
     "mdmAppId": "Mdm App Id value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
     "onPremisesSyncEnabled": true,
     "operatingSystem": "Operating System value",
     "operatingSystemVersion": "Operating System Version value",

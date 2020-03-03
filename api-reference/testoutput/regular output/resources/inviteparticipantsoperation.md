@@ -5,34 +5,35 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # inviteParticipantsOperation resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [commsOperation](../resources/commsOperation.md)
+
+
+Inherits from [commsOperation](../resources/commsoperation.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List inviteParticipantsOperations](../api/inviteparticipantsoperation-list.md)|[inviteParticipantsOperation](../resources/inviteParticipantsOperation.md) collection|List properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) objects.|
-|[Get inviteParticipantsOperation](../api/inviteparticipantsoperation-get.md)|[inviteParticipantsOperation](../resources/inviteParticipantsOperation.md)|Read properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
-|[Create inviteParticipantsOperation](../api/inviteparticipantsoperation-create.md)|[inviteParticipantsOperation](../resources/inviteParticipantsOperation.md)|Create a new [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
+|[List inviteParticipantsOperations](../api/inviteparticipantsoperation-list.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) collection|List properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) objects.|
+|[Get inviteParticipantsOperation](../api/inviteparticipantsoperation-get.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md)|Read properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
+|[Create inviteParticipantsOperation](../api/inviteparticipantsoperation-create.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md)|Create a new [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
 |[Delete inviteParticipantsOperation](../api/inviteparticipantsoperation-delete.md)|None|Deletes a [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md).|
-|[Update inviteParticipantsOperation](../api/inviteparticipantsoperation-update.md)|[inviteParticipantsOperation](../resources/inviteParticipantsOperation.md)|Update the properties of a [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
+|[Update inviteParticipantsOperation](../api/inviteparticipantsoperation-update.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md)|Update the properties of a [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|clientContext|String| Inherited from [commsOperation](../resources/commsOperation.md)|
+|clientContext|String| Inherited from [commsOperation](../resources/commsoperation.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|participants|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
-|resultInfo|[resultInfo](../resources/resultInfo.md)| Inherited from [commsOperation](../resources/commsOperation.md)|
-|status|Enumeration| Inherited from [commsOperation](../resources/commsOperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
+|participants|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
+|resultInfo|[resultInfo](../resources/resultinfo.md)| Inherited from [commsOperation](../resources/commsoperation.md)|
+|status|Enumeration| Inherited from [commsOperation](../resources/commsoperation.md). Possible values are: `NotStarted`, `Running`, `Completed`, `Failed`.|
 
 ## Relationships
 None

@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # plannerAssignment resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|assignedBy|[identitySet](../resources/identitySet.md)||
+|assignedBy|[identitySet](../resources/identityset.md)||
 |assignedDateTime|DateTimeOffset||
 |orderHint|String||
 

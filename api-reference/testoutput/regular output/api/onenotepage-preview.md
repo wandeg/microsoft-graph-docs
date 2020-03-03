@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # preview
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ GET /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/pages/{onenot
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [onenotePagePreview](../resources/onenotePagePreview.md) in the response body.
+If successful, this function returns a `200 OK` response code and a [onenotePagePreview](../resources/onenotepagepreview.md) in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/onenote/pages/{onenotePageId}/preview
+GET https://graph.microsoft.com/localtest/me/onenote/pages/{onenotePageId}/preview
 ```
 
 ### Response

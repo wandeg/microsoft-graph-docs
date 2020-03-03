@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # fileAttachment resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [attachment](../resources/attachment.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List fileAttachments](../api/fileattachment-list.md)|[fileAttachment](../resources/fileAttachment.md) collection|List properties and relationships of the [fileAttachment](../resources/fileattachment.md) objects.|
-|[Get fileAttachment](../api/fileattachment-get.md)|[fileAttachment](../resources/fileAttachment.md)|Read properties and relationships of the [fileAttachment](../resources/fileattachment.md) object.|
-|[Create fileAttachment](../api/fileattachment-create.md)|[fileAttachment](../resources/fileAttachment.md)|Create a new [fileAttachment](../resources/fileattachment.md) object.|
+|[List fileAttachments](../api/fileattachment-list.md)|[fileAttachment](../resources/fileattachment.md) collection|List properties and relationships of the [fileAttachment](../resources/fileattachment.md) objects.|
+|[Get fileAttachment](../api/fileattachment-get.md)|[fileAttachment](../resources/fileattachment.md)|Read properties and relationships of the [fileAttachment](../resources/fileattachment.md) object.|
+|[Create fileAttachment](../api/fileattachment-create.md)|[fileAttachment](../resources/fileattachment.md)|Create a new [fileAttachment](../resources/fileattachment.md) object.|
 |[Delete fileAttachment](../api/fileattachment-delete.md)|None|Deletes a [fileAttachment](../resources/fileattachment.md).|
-|[Update fileAttachment](../api/fileattachment-update.md)|[fileAttachment](../resources/fileAttachment.md)|Update the properties of a [fileAttachment](../resources/fileattachment.md) object.|
+|[Update fileAttachment](../api/fileattachment-update.md)|[fileAttachment](../resources/fileattachment.md)|Update the properties of a [fileAttachment](../resources/fileattachment.md) object.|
 
 ## Properties
 |Property|Type|Description|

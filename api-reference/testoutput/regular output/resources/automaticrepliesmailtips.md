@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # automaticRepliesMailTips resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,9 +18,9 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |message|String||
-|messageLanguage|[localeInfo](../resources/localeInfo.md)||
-|scheduledEndTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
-|scheduledStartTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|messageLanguage|[localeInfo](../resources/localeinfo.md)||
+|scheduledEndTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
+|scheduledStartTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 ## Relationships
 None

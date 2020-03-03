@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # thumbnailSet resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get thumbnailSet](../api/thumbnailset-get.md)|[thumbnailSet](../resources/thumbnailSet.md)|Read properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) object.|
+|[List thumbnailSets](../api/thumbnailset-list.md)|[thumbnailSet](../resources/thumbnailset.md) collection|List properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) objects.|
+|[Get thumbnailSet](../api/thumbnailset-get.md)|[thumbnailSet](../resources/thumbnailset.md)|Read properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) object.|
+|[Create thumbnailSet](../api/thumbnailset-create.md)|[thumbnailSet](../resources/thumbnailset.md)|Create a new [thumbnailSet](../resources/thumbnailset.md) object.|
 |[Delete thumbnailSet](../api/thumbnailset-delete.md)|None|Deletes a [thumbnailSet](../resources/thumbnailset.md).|
-|[Update thumbnailSet](../api/thumbnailset-update.md)|[thumbnailSet](../resources/thumbnailSet.md)|Update the properties of a [thumbnailSet](../resources/thumbnailset.md) object.|
+|[Update thumbnailSet](../api/thumbnailset-update.md)|[thumbnailSet](../resources/thumbnailset.md)|Update the properties of a [thumbnailSet](../resources/thumbnailset.md) object.|
 
 ## Properties
 |Property|Type|Description|

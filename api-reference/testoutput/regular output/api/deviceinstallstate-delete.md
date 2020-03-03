@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceInstallState
 
+Namespace: microsoft.graph
+
 Deletes a [deviceInstallState](../resources/deviceinstallstate.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
 ```
 
 ### Response

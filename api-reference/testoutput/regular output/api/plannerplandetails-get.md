@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerPlanDetails
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/planner/plans/{plannerPlanId}/details
+GET https://graph.microsoft.com/localtest/me/planner/plans/{plannerPlanId}/details
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 557
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerPlanDetails",
-    "id": "fe2c3b16-3b16-fe2c-163b-2cfe163b2cfe",
+    "id": "e46e20fd-20fd-e46e-fd20-6ee4fd206ee4",
     "sharedWith": {
       "@odata.type": "microsoft.graph.plannerUserIds"
     },

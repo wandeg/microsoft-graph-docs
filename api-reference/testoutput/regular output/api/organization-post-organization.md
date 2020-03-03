@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create organization
 
+Namespace: microsoft.graph
+
 Create a new [organization](../resources/organization.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST /organization
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the organization object.
+In the request body, supply a JSON representation for the [organization](../resources/organization.md) object.
 
-The following table shows the properties that are required when you create the organization.
+The following table shows the properties that are required when you create the [organization](../resources/organization.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
-|assignedPlans|[assignedPlan](../resources/assignedPlan.md) collection||
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
 |businessPhones|String collection||
 |city|String||
 |country|String||
@@ -57,14 +59,14 @@ The following table shows the properties that are required when you create the o
 |onPremisesSyncEnabled|Boolean||
 |postalCode|String||
 |preferredLanguage|String||
-|privacyProfile|[privacyProfile](../resources/privacyProfile.md)||
-|provisionedPlans|[provisionedPlan](../resources/provisionedPlan.md) collection||
+|privacyProfile|[privacyProfile](../resources/privacyprofile.md)||
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
 |securityComplianceNotificationMails|String collection||
 |securityComplianceNotificationPhones|String collection||
 |state|String||
 |street|String||
 |technicalNotificationMails|String collection||
-|verifiedDomains|[verifiedDomain](../resources/verifiedDomain.md) collection||
+|verifiedDomains|[verifiedDomain](../resources/verifieddomain.md) collection||
 |mobileDeviceManagementAuthority|Enumeration|Mobile device management authority. Possible values are: `unknown`, `intune`, `sccm`, `office365`.|
 
 
@@ -82,20 +84,20 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/organization
+POST https://graph.microsoft.com/localtest/organization
 Content-type: application/json
 Content-length: 1943
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+      "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
     }
   ],
   "businessPhones": [
@@ -109,7 +111,7 @@ Content-length: 1943
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -160,19 +162,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2051
+Content-Length: 2050
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "id": "37daf865-f865-37da-65f8-da3765f8da37",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "263e8e81-8e81-263e-818e-3e26818e3e26",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:59:41.1881313+03:00",
+      "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "0c230012-0012-0c23-1200-230c1200230c"
+      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
     }
   ],
   "businessPhones": [
@@ -181,13 +183,13 @@ Content-Length: 2051
   "city": "City value",
   "country": "Country value",
   "countryLetterCode": "Country Letter Code value",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "creationType": "Creation Type value",
   "displayName": "Display Name value",
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",

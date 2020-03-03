@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete windowsPhone81CustomConfiguration
 
+Namespace: microsoft.graph
+
 Deletes a [windowsPhone81CustomConfiguration](../resources/windowsphone81customconfiguration.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windowsPhone81CustomConfiguration not found
+DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windowsPhone81CustomConfiguration not found
 ```
 
 ### Response

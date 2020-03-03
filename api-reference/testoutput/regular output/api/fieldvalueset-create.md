@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create fieldValueSet
 
+Namespace: microsoft.graph
+
 Create a new [fieldValueSet](../resources/fieldvalueset.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.fieldValueSet not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the fieldValueSet object.
+In the request body, supply a JSON representation for the [fieldValueSet](../resources/fieldvalueset.md) object.
 
-The following table shows the properties that are required when you create the fieldValueSet.
+The following table shows the properties that are required when you create the [fieldValueSet](../resources/fieldvalueset.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.fieldValueSet not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.fieldValueSet not found
 Content-type: application/json
 Content-length: 55
 
@@ -83,7 +85,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.fieldValueSet",
-  "id": "92aa11b7-11b7-92aa-b711-aa92b711aa92"
+  "id": "b64247bd-47bd-b642-bd47-42b6bd4742b6"
 }
 ```
 

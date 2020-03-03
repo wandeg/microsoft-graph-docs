@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRange
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRange](../resources/workbookrange.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRange not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRange not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 898
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRange",
-    "id": "bea01bb9-1bb9-bea0-b91b-a0beb91ba0be",
+    "id": "0c048710-8710-0c04-1087-040c1087040c",
     "address": "Address value",
     "addressLocal": "Address Local value",
     "cellCount": 9,

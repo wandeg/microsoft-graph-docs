@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupLifecyclePolicy
 
+Namespace: microsoft.graph
+
 Deletes a [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/groupLifecyclePolicies/{groupLifecyclePoliciesId}
+DELETE https://graph.microsoft.com/localtest/groupLifecyclePolicies/{groupLifecyclePoliciesId}
 ```
 
 ### Response

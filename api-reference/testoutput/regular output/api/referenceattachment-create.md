@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create referenceAttachment
 
+Namespace: microsoft.graph
+
 Create a new [referenceAttachment](../resources/referenceattachment.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.referenceAttachment not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the referenceAttachment object.
+In the request body, supply a JSON representation for the [referenceAttachment](../resources/referenceattachment.md) object.
 
-The following table shows the properties that are required when you create the referenceAttachment.
+The following table shows the properties that are required when you create the [referenceAttachment](../resources/referenceattachment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.referenceAttachment not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.referenceAttachment not found
 Content-type: application/json
 Content-length: 161
 
@@ -92,8 +94,8 @@ Content-Length: 274
 
 {
   "@odata.type": "#microsoft.graph.referenceAttachment",
-  "id": "9e1973a1-73a1-9e19-a173-199ea173199e",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "9d5bc6c0-c6c0-9d5b-c0c6-5b9dc0c65b9d",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

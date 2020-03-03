@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getOffice365ActivationsUserCounts
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getOffice365ActivationsUserCounts
+GET https://graph.microsoft.com/localtest/reports/getOffice365ActivationsUserCounts
 ```
 
 ### Response

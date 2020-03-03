@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceAndAppManagementRoleDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md) object.
 
 ## Permissions
@@ -35,17 +37,17 @@ PATCH ** Entity URI for microsoft.graph.deviceAndAppManagementRoleDefinition not
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceAndAppManagementRoleDefinition](../resources/deviceAndAppManagementRoleDefinition.md) object.
+In the request body, supply a JSON representation for the [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md) object.
 
 The following table shows the properties that are required when you create the [deviceAndAppManagementRoleDefinition](../resources/deviceandappmanagementroledefinition.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Display Name of the Role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|description|String|Description of the Role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|rolePermissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roleDefinition.md)|
-|isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roleDefinition.md)|
+|displayName|String|Display Name of the Role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|description|String|Description of the Role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|rolePermissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission. Inherited from [roleDefinition](../resources/roledefinition.md)|
+|isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition. Inherited from [roleDefinition](../resources/roledefinition.md)|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceAndAppManagementRoleDefinition not found
 Content-type: application/json
 Content-length: 602
 
@@ -104,7 +106,7 @@ Content-Length: 651
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleDefinition",
-  "id": "4851648b-648b-4851-8b64-51488b645148",
+  "id": "9d74a922-a922-9d74-22a9-749d22a9749d",
   "displayName": "Display Name value",
   "description": "Description value",
   "rolePermissions": [

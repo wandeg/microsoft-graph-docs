@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookPivotTable
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookPivotTable](../resources/workbookpivottable.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookPivotTable](../resources/workbookPivotTable.md) object.
+In the request body, supply a JSON representation for the [workbookPivotTable](../resources/workbookpivottable.md) object.
 
 The following table shows the properties that are required when you create the [workbookPivotTable](../resources/workbookpivottable.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/pivotTables/{workbookPivotTableId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/pivotTables/{workbookPivotTableId}
 Content-type: application/json
 Content-length: 85
 
@@ -83,7 +85,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.workbookPivotTable",
-  "id": "b916fe5a-fe5a-b916-5afe-16b95afe16b9",
+  "id": "50d261cf-61cf-50d2-cf61-d250cf61d250",
   "name": "Name value"
 }
 ```

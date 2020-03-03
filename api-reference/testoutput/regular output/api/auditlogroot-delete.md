@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete auditLogRoot
 
+Namespace: microsoft.graph
+
 Deletes a [auditLogRoot](../resources/auditlogroot.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/auditLogs
+DELETE https://graph.microsoft.com/localtest/auditLogs
 ```
 
 ### Response

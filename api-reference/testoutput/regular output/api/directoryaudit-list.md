@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List directoryAudits
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [directoryAudit](../resources/directoryaudit.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/directoryAudits
+GET https://graph.microsoft.com/localtest/auditLogs/directoryAudits
 ```
 
 ### Response
@@ -70,13 +72,13 @@ Content-Length: 1754
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryAudit",
-      "id": "32e2c8a9-c8a9-32e2-a9c8-e232a9c8e232",
+      "id": "12fd3127-3127-12fd-2731-fd122731fd12",
       "category": "Category value",
       "correlationId": "Correlation Id value",
       "result": "String",
       "resultReason": "Result Reason value",
       "activityDisplayName": "Activity Display Name value",
-      "activityDateTime": "2016-12-31T23:59:24.7559833+03:00",
+      "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
       "loggedByService": "Logged By Service value",
       "operationType": "Operation Type value",
       "initiatedBy": {

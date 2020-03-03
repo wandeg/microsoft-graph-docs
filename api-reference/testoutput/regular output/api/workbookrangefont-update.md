@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookRangeFont
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookRangeFont](../resources/workbookrangefont.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookRangeFont not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookRangeFont](../resources/workbookRangeFont.md) object.
+In the request body, supply a JSON representation for the [workbookRangeFont](../resources/workbookrangefont.md) object.
 
 The following table shows the properties that are required when you create the [workbookRangeFont](../resources/workbookrangefont.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFont not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFont not found
 Content-type: application/json
 Content-length: 203
 
@@ -93,7 +95,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFont",
-  "id": "5d4c5da8-5da8-5d4c-a85d-4c5da85d4c5d",
+  "id": "123b8e61-8e61-123b-618e-3b12618e3b12",
   "bold": true,
   "color": "Color value",
   "italic": true,

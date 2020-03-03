@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List officeGraphInsightses
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [officeGraphInsights](../resources/officegraphinsights.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.officeGraphInsights not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.officeGraphInsights not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 151
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeGraphInsights",
-      "id": "8c697c3d-7c3d-8c69-3d7c-698c3d7c698c"
+      "id": "0f56d00c-d00c-0f56-0cd0-560f0cd0560f"
     }
   ]
 }

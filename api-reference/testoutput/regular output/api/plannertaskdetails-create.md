@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerTaskDetails
 
+Namespace: microsoft.graph
+
 Create a new [plannerTaskDetails](../resources/plannertaskdetails.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST ** Collection URI for microsoft.graph.plannerTaskDetails not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerTaskDetails object.
+In the request body, supply a JSON representation for the [plannerTaskDetails](../resources/plannertaskdetails.md) object.
 
-The following table shows the properties that are required when you create the plannerTaskDetails.
+The following table shows the properties that are required when you create the [plannerTaskDetails](../resources/plannertaskdetails.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |description|String||
 |previewType|Enumeration|. Possible values are: `automatic`, `noPreview`, `checklist`, `description`, `reference`.|
-|references|[plannerExternalReferences](../resources/plannerExternalReferences.md)||
-|checklist|[plannerChecklistItems](../resources/plannerChecklistItems.md)||
+|references|[plannerExternalReferences](../resources/plannerexternalreferences.md)||
+|checklist|[plannerChecklistItems](../resources/plannerchecklistitems.md)||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerTaskDetails not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerTaskDetails not found
 Content-type: application/json
 Content-length: 300
 
@@ -95,7 +97,7 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.plannerTaskDetails",
-  "id": "4f5f4410-4410-4f5f-1044-5f4f10445f4f",
+  "id": "25a36ffd-6ffd-25a3-fd6f-a325fd6fa325",
   "description": "Description value",
   "previewType": "String",
   "references": {

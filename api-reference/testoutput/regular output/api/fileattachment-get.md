@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get fileAttachment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [fileAttachment](../resources/fileattachment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.fileAttachment not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.fileAttachment not found
 ```
 
 ### Response
@@ -72,8 +74,8 @@ Content-Length: 431
 {
   "value": {
     "@odata.type": "#microsoft.graph.fileAttachment",
-    "id": "b4bf742a-742a-b4bf-2a74-bfb42a74bfb4",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "id": "d3540401-0401-d354-0104-54d3010454d3",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "contentType": "Content Type value",
     "size": 4,

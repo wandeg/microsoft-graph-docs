@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List applePushNotificationCertificates
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.applePushNotificationCertificate not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.applePushNotificationCertificate not found
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 445
   "value": [
     {
       "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-      "id": "d33dcb8f-cb8f-d33d-8fcb-3dd38fcb3dd3",
+      "id": "53842634-2634-5384-3426-845334268453",
       "appleIdentifier": "Apple Identifier value",
       "topicIdentifier": "Topic Identifier value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
       "certificate": "Certificate value"
     }
   ]

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get site
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [site](../resources/site.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}
+GET https://graph.microsoft.com/localtest/sites/{sitesId}
 ```
 
 ### Response
@@ -73,12 +75,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1770
+Content-Length: 1769
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.site",
-    "id": "6e6e652c-652c-6e6e-2c65-6e6e2c656e6e",
+    "id": "679b87ac-87ac-679b-ac87-9b67ac879b67",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -93,13 +95,13 @@ Content-Length: 1770
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

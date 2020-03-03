@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceEnrollmentConfigurations
 
+Namespace: microsoft.graph
+
 Add deviceEnrollmentConfigurations by posting to the deviceEnrollmentConfigurations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceEnrollmentConfigurations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceEnrollmentConfiguration object.
+In the request body, supply a JSON representation for the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) object.
 
-The following table shows the properties that are required when you create the deviceEnrollmentConfiguration.
+The following table shows the properties that are required when you create the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceEnrollmentConfigurations
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceEnrollmentConfigurations
 Content-type: application/json
 Content-length: 185
 
@@ -89,16 +91,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 357
+Content-Length: 356
 
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-  "id": "c14ced56-ed56-c14c-56ed-4cc156ed4cc1",
+  "id": "d7c227d8-27d8-d7c2-d827-c2d7d827c2d7",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "version": 7
 }
 ```

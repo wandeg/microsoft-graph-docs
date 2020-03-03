@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create deviceManagement
 
+Namespace: microsoft.graph
+
 Create a new [deviceManagement](../resources/devicemanagement.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.deviceManagement not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagement object.
+In the request body, supply a JSON representation for the [deviceManagement](../resources/devicemanagement.md) object.
 
-The following table shows the properties that are required when you create the deviceManagement.
+The following table shows the properties that are required when you create the [deviceManagement](../resources/devicemanagement.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settings|[deviceManagementSettings](../resources/deviceManagementSettings.md)|Account level settings.|
-|intuneBrand|[intuneBrand](../resources/intuneBrand.md)|intuneBrand contains data which is used in customizing the appearance of the Company Portal applications as well as the end user web portal.|
+|settings|[deviceManagementSettings](../resources/devicemanagementsettings.md)|Account level settings.|
+|intuneBrand|[intuneBrand](../resources/intunebrand.md)|intuneBrand contains data which is used in customizing the appearance of the Company Portal applications as well as the end user web portal.|
 |subscriptionState|Enumeration|Tenant mobile device management subscription state. Possible values are: `pending`, `active`, `warning`, `disabled`, `deleted`, `blocked`, `lockedOut`.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceManagement not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceManagement not found
 Content-type: application/json
 Content-length: 1278
 
@@ -121,7 +123,7 @@ Content-Length: 1327
 
 {
   "@odata.type": "#microsoft.graph.deviceManagement",
-  "id": "99c5dbc6-dbc6-99c5-c6db-c599c6dbc599",
+  "id": "3fe87000-7000-3fe8-0070-e83f0070e83f",
   "settings": {
     "@odata.type": "microsoft.graph.deviceManagementSettings",
     "deviceComplianceCheckinThresholdDays": 4,

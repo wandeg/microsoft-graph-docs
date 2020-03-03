@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerBucketTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerBucketTaskBoardTaskFormat](../resources/plannerBucketTaskBoardTaskFormat.md) object.
+In the request body, supply a JSON representation for the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.
 
 The following table shows the properties that are required when you create the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
+PATCH https://graph.microsoft.com/localtest/me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
 Content-type: application/json
 Content-length: 110
 
@@ -83,7 +85,7 @@ Content-Length: 159
 
 {
   "@odata.type": "#microsoft.graph.plannerBucketTaskBoardTaskFormat",
-  "id": "555153cc-53cc-5551-cc53-5155cc535155",
+  "id": "be08e61f-e61f-be08-1fe6-08be1fe608be",
   "orderHint": "Order Hint value"
 }
 ```

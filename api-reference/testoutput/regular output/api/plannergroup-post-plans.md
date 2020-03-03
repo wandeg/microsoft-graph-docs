@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plans
 
+Namespace: microsoft.graph
+
 Create plans by posting to the plans collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/joinedTeams/{groupId}/planner/plans/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerPlan object.
+In the request body, supply a JSON representation for the [plannerPlan](../resources/plannerplan.md) object.
 
-The following table shows the properties that are required when you create the plannerPlan.
+The following table shows the properties that are required when you create the [plannerPlan](../resources/plannerplan.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |owner|String||
 |title|String||
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/planner/plans
+POST https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/planner/plans
 Content-type: application/json
 Content-length: 475
 
@@ -99,11 +101,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 583
+Content-Length: 582
 
 {
   "@odata.type": "#microsoft.graph.plannerPlan",
-  "id": "30c66bf1-6bf1-30c6-f16b-c630f16bc630",
+  "id": "e72c80e4-80e4-e72c-e480-2ce7e4802ce7",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -118,7 +120,7 @@ Content-Length: 583
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "owner": "Owner value",
   "title": "Title value"
 }

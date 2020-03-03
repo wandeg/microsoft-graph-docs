@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartDataLabels
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookChartDataLabels.md) object.
+In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartDataLabels](../resources/workbookchartdatalabels.md).
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
 Content-type: application/json
 Content-length: 291
 
@@ -97,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "c9b90d74-0d74-c9b9-740d-b9c9740db9c9",
+  "id": "f69c0bff-0bff-f69c-ff0b-9cf6ff0b9cf6",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update participant
 
+Namespace: microsoft.graph
+
 Update the properties of a [participant](../resources/participant.md) object.
 
 ## Permissions
@@ -42,8 +44,8 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|info|[participantInfo](../resources/participantInfo.md)||
-|mediaStreams|[mediaStream](../resources/mediaStream.md) collection||
+|info|[participantInfo](../resources/participantinfo.md)||
+|mediaStreams|[mediaStream](../resources/mediastream.md) collection||
 |isMuted|Boolean||
 |isInLobby|Boolean||
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants/{participantId}
+PATCH https://graph.microsoft.com/localtest/communications/calls/{callId}/participants/{participantId}
 Content-type: application/json
 Content-length: 884
 
@@ -116,7 +118,7 @@ Content-Length: 933
 
 {
   "@odata.type": "#microsoft.graph.participant",
-  "id": "a4783bae-3bae-a478-ae3b-78a4ae3b78a4",
+  "id": "294e2200-2200-294e-0022-4e2900224e29",
   "info": {
     "@odata.type": "microsoft.graph.participantInfo",
     "identity": {

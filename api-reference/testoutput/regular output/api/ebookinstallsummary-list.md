@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List eBookInstallSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.eBookInstallSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.eBookInstallSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 350
   "value": [
     {
       "@odata.type": "#microsoft.graph.eBookInstallSummary",
-      "id": "c51d7985-7985-c51d-8579-1dc585791dc5",
+      "id": "2976a2da-a2da-2976-daa2-7629daa27629",
       "installedDeviceCount": 4,
       "failedDeviceCount": 1,
       "notInstalledDeviceCount": 7,

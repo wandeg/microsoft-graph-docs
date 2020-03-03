@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update applePushNotificationCertificate
 
+Namespace: microsoft.graph
+
 Update the properties of a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/applePushNotificationCertificate
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [applePushNotificationCertificate](../resources/applePushNotificationCertificate.md) object.
+In the request body, supply a JSON representation for the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.
 
 The following table shows the properties that are required when you create the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/applePushNotificationCertificate
+PATCH https://graph.microsoft.com/localtest/deviceManagement/applePushNotificationCertificate
 Content-type: application/json
 Content-length: 271
 
@@ -71,7 +73,7 @@ Content-length: 271
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
   "certificate": "Certificate value"
 }
 ```
@@ -90,11 +92,11 @@ Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-  "id": "d33dcb8f-cb8f-d33d-8fcb-3dd38fcb3dd3",
+  "id": "53842634-2634-5384-3426-845334268453",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
   "certificate": "Certificate value"
 }
 ```

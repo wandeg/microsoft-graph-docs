@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update plannerPlanDetails
 
+Namespace: microsoft.graph
+
 Update the properties of a [plannerPlanDetails](../resources/plannerplandetails.md) object.
 
 ## Permissions
@@ -35,15 +37,15 @@ PATCH /me/planner/plans/{plannerPlanId}/details
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [plannerPlanDetails](../resources/plannerPlanDetails.md) object.
+In the request body, supply a JSON representation for the [plannerPlanDetails](../resources/plannerplandetails.md) object.
 
 The following table shows the properties that are required when you create the [plannerPlanDetails](../resources/plannerplandetails.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|sharedWith|[plannerUserIds](../resources/plannerUserIds.md)||
-|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannerCategoryDescriptions.md)||
+|sharedWith|[plannerUserIds](../resources/planneruserids.md)||
+|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannercategorydescriptions.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/planner/plans/{plannerPlanId}/details
+PATCH https://graph.microsoft.com/localtest/me/planner/plans/{plannerPlanId}/details
 Content-type: application/json
 Content-length: 461
 
@@ -95,7 +97,7 @@ Content-Length: 510
 
 {
   "@odata.type": "#microsoft.graph.plannerPlanDetails",
-  "id": "fe2c3b16-3b16-fe2c-163b-2cfe163b2cfe",
+  "id": "e46e20fd-20fd-e46e-fd20-6ee4fd206ee4",
   "sharedWith": {
     "@odata.type": "microsoft.graph.plannerUserIds"
   },

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getEmailAppUsageUserDetail
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getEmailAppUsageUserDetail(period='parameterValue')
+GET https://graph.microsoft.com/localtest/reports/getEmailAppUsageUserDetail(period='parameterValue')
 ```
 
 ### Response

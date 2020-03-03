@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add thumbnails
 
+Namespace: microsoft.graph
+
 Add thumbnails by posting to the thumbnails collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/drive/items/{driveItemId}/thumbnails/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the thumbnailSet object.
+In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailset.md) object.
 
-The following table shows the properties that are required when you create the thumbnailSet.
+The following table shows the properties that are required when you create the [thumbnailSet](../resources/thumbnailset.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/thumbnails
+POST https://graph.microsoft.com/localtest/workbooks/{workbooksId}/thumbnails
 Content-type: application/json
 Content-length: 459
 
@@ -105,7 +107,7 @@ Content-Length: 508
 
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "3448d3fe-d3fe-3448-fed3-4834fed34834",
+  "id": "d474f7a1-f7a1-d474-a1f7-74d4a1f774d4",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

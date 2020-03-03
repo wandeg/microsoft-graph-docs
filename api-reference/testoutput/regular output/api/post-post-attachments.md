@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add attachments
 
+Namespace: microsoft.graph
+
 Add attachments by posting to the attachments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversat
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the attachment object.
+In the request body, supply a JSON representation for the [attachment](../resources/attachment.md) object.
 
-The following table shows the properties that are required when you create the attachment.
+The following table shows the properties that are required when you create the [attachment](../resources/attachment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/attachments
+POST https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/attachments
 Content-type: application/json
 Content-length: 152
 
@@ -92,8 +94,8 @@ Content-Length: 265
 
 {
   "@odata.type": "#microsoft.graph.attachment",
-  "id": "addaeabc-eabc-adda-bcea-daadbceadaad",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "d596da57-da57-d596-57da-96d557da96d5",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

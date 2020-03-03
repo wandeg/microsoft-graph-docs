@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getYammerGroupsActivityDetail
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getYammerGroupsActivityDetail(period='parameterValue')
+GET https://graph.microsoft.com/localtest/reports/getYammerGroupsActivityDetail(period='parameterValue')
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List onenotes
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [onenote](../resources/onenote.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.onenote not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.onenote not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 139
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenote",
-      "id": "e8e20300-0300-e8e2-0003-e2e80003e2e8"
+      "id": "fce0c053-c053-fce0-53c0-e0fc53c0e0fc"
     }
   ]
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mailFolders
 
+Namespace: microsoft.graph
+
 Get the mailFolders from the mailFolders navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/mailFolders
+GET https://graph.microsoft.com/localtest/me/mailFolders
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailFolder",
-      "id": "73e88ce0-8ce0-73e8-e08c-e873e08ce873",
+      "id": "927e3741-3741-927e-4137-7e9241377e92",
       "displayName": "Display Name value",
       "parentFolderId": "Parent Folder Id value",
       "childFolderCount": 0,

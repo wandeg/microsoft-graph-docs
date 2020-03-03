@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenote
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenote](../resources/onenote.md) object.
 
 ## Permissions
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/onenote
+GET https://graph.microsoft.com/localtest/me/onenote
 ```
 
 ### Response
@@ -77,7 +79,7 @@ Content-Length: 121
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenote",
-    "id": "e8e20300-0300-e8e2-0003-e2e80003e2e8"
+    "id": "fce0c053-c053-fce0-53c0-e0fc53c0e0fc"
   }
 }
 ```

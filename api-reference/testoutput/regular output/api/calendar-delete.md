@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete calendar
 
+Namespace: microsoft.graph
+
 Deletes a [calendar](../resources/calendar.md).
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/calendar
+DELETE https://graph.microsoft.com/localtest/me/calendar
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windows10GeneralConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.windows10GeneralConfiguration not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windows10GeneralConfiguration](../resources/windows10GeneralConfiguration.md) object.
+In the request body, supply a JSON representation for the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |enterpriseCloudPrintDiscoveryEndPoint|String|Endpoint for discovering cloud printers.|
 |enterpriseCloudPrintOAuthAuthority|String|Authentication endpoint for acquiring OAuth tokens.|
 |enterpriseCloudPrintOAuthClientIdentifier|String|GUID of a client application authorized to retrieve OAuth tokens from the OAuth Authority.|
@@ -90,7 +92,7 @@ The following table shows the properties that are required when you create the [
 |cellularBlockVpnWhenRoaming|Boolean|Whether or not to Block the user from using VPN when roaming over cellular.|
 |defenderBlockEndUserAccess|Boolean|Whether or not to block end user access to Defender.|
 |defenderDaysBeforeDeletingQuarantinedMalware|Int32|Number of days before deleting quarantined malware. Valid values 0 to 90|
-|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderDetectedMalwareActions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
+|defenderDetectedMalwareActions|[defenderDetectedMalwareActions](../resources/defenderdetectedmalwareactions.md)|Gets or sets Defender’s actions to take on detected Malware per threat level.|
 |defenderSystemScanSchedule|Enumeration|Defender day of the week for the system scan. Possible values are: `userDefined`, `everyday`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`.|
 |defenderFilesAndFoldersToExclude|String collection|Files and folder to exclude from scans and real time protection.|
 |defenderFileExtensionsToExclude|String collection|File extensions to exclude from scans and real time protection.|
@@ -183,7 +185,7 @@ The following table shows the properties that are required when you create the [
 |networkProxyApplySettingsDeviceWide|Boolean|If set, proxy settings will be applied to all processes and accounts in the device. Otherwise, it will be applied to the user account that’s enrolled into MDM.|
 |networkProxyDisableAutoDetect|Boolean|Disable automatic detection of settings. If enabled, the system will try to find the path to a proxy auto-config (PAC) script.|
 |networkProxyAutomaticConfigurationUrl|String|Address to the proxy auto-config (PAC) script you want to use.|
-|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10NetworkProxyServer.md)|Specifies manual proxy server settings.|
+|networkProxyServer|[windows10NetworkProxyServer](../resources/windows10networkproxyserver.md)|Specifies manual proxy server settings.|
 |accountsBlockAddingNonMicrosoftAccountEmail|Boolean|Indicates whether or not to Block the user from adding email accounts to the device that are not associated with a Microsoft account.|
 |antiTheftModeBlocked|Boolean|Indicates whether or not to block the user from selecting an AntiTheft mode preference (Windows 10 Mobile only).|
 |bluetoothBlocked|Boolean|Whether or not to Block the user from using bluetooth.|
@@ -202,7 +204,7 @@ The following table shows the properties that are required when you create the [
 |edgeRequireSmartScreen|Boolean|Indicates whether or not to Require the user to use the smart screen filter.|
 |edgeEnterpriseModeSiteListLocation|String|Indicates the enterprise mode site list location. Could be a local file, local network or http location.|
 |edgeFirstRunUrl|String|The first run URL for when Edge browser is opened for the first time.|
-|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgeSearchEngineBase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
+|edgeSearchEngine|[edgeSearchEngineBase](../resources/edgesearchenginebase.md)|Allows IT admins to set a default search engine for MDM-Controlled devices. Users can override this and change their default search engine provided the AllowSearchEngineCustomization policy is not set.|
 |edgeHomepageUrls|String collection|The list of URLs for homepages shodwn on MDM-enrolled devices on Edge browser.|
 |edgeBlockAccessToAboutFlags|Boolean|Indicates whether or not to prevent access to about flags on Edge browser.|
 |smartScreenBlockPromptOverride|Boolean|Indicates whether or not users can override SmartScreen Filter warnings about potentially malicious websites.|
@@ -264,7 +266,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10GeneralConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10GeneralConfiguration not found
 Content-type: application/json
 Content-length: 9823
 
@@ -351,8 +353,8 @@ Content-length: 9823
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "12:03:24.3210000",
-  "defenderScheduledQuickScanTime": "11:56:50.4190000",
+  "defenderScheduledScanTime": "11:57:56.7120000",
+  "defenderScheduledQuickScanTime": "11:58:37.3560000",
   "defenderCloudBlockLevel": "String",
   "lockScreenAllowTimeoutConfiguration": true,
   "lockScreenBlockActionCenterNotifications": true,
@@ -512,13 +514,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 9995
+Content-Length: 9994
 
 {
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-  "id": "f35782fa-82fa-f357-fa82-57f3fa8257f3",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "10c4a27f-a27f-10c4-7fa2-c4107fa2c410",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -600,8 +602,8 @@ Content-Length: 9995
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "12:03:24.3210000",
-  "defenderScheduledQuickScanTime": "11:56:50.4190000",
+  "defenderScheduledScanTime": "11:57:56.7120000",
+  "defenderScheduledQuickScanTime": "11:58:37.3560000",
   "defenderCloudBlockLevel": "String",
   "lockScreenAllowTimeoutConfiguration": true,
   "lockScreenBlockActionCenterNotifications": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Deletes a [teamsAppDefinition](../resources/teamsappdefinition.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
+DELETE https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
 ```
 
 ### Response

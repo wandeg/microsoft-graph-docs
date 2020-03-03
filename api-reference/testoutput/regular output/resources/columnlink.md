@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # columnLink resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get columnLink](../api/columnlink-get.md)|[columnLink](../resources/columnLink.md)|Read properties and relationships of the [columnLink](../resources/columnlink.md) object.|
+|[List columnLinks](../api/columnlink-list.md)|[columnLink](../resources/columnlink.md) collection|List properties and relationships of the [columnLink](../resources/columnlink.md) objects.|
+|[Get columnLink](../api/columnlink-get.md)|[columnLink](../resources/columnlink.md)|Read properties and relationships of the [columnLink](../resources/columnlink.md) object.|
+|[Create columnLink](../api/columnlink-create.md)|[columnLink](../resources/columnlink.md)|Create a new [columnLink](../resources/columnlink.md) object.|
 |[Delete columnLink](../api/columnlink-delete.md)|None|Deletes a [columnLink](../resources/columnlink.md).|
-|[Update columnLink](../api/columnlink-update.md)|[columnLink](../resources/columnLink.md)|Update the properties of a [columnLink](../resources/columnlink.md) object.|
+|[Update columnLink](../api/columnlink-update.md)|[columnLink](../resources/columnlink.md)|Update the properties of a [columnLink](../resources/columnlink.md) object.|
 
 ## Properties
 |Property|Type|Description|

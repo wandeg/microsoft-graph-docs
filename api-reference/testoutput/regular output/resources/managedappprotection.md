@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppProtection resource type
+
+
+Namespace: microsoft.graph
 
 Policy used to configure detailed management settings for a specified set of apps
 
 
-Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
+Inherits from [managedAppPolicy](../resources/managedapppolicy.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppProtections](../api/managedappprotection-list.md)|[managedAppProtection](../resources/managedAppProtection.md) collection|List properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) objects.|
-|[Get managedAppProtection](../api/managedappprotection-get.md)|[managedAppProtection](../resources/managedAppProtection.md)|Read properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) object.|
+|[List managedAppProtections](../api/managedappprotection-list.md)|[managedAppProtection](../resources/managedappprotection.md) collection|List properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) objects.|
+|[Get managedAppProtection](../api/managedappprotection-get.md)|[managedAppProtection](../resources/managedappprotection.md)|Read properties and relationships of the [managedAppProtection](../resources/managedappprotection.md) object.|
 |[targetApps](../api/managedappprotection-targetapps.md)|None||
 |[targetApps](../api/managedappprotection-targetapps.md)|None||
 
@@ -32,15 +33,15 @@ Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
 |allowedOutboundClipboardSharingLevel|Enumeration|The level to which the clipboard may be shared between apps on the managed device. Possible values are: `allApps`, `managedAppsWithPasteIn`, `managedApps`, `blocked`.|
 |allowedOutboundDataTransferDestinations|Enumeration|Destinations to which data is allowed to be transferred. Possible values are: `allApps`, `managedApps`, `none`.|
 |contactSyncBlocked|Boolean|Indicates whether contacts can be synced to the user's device.|
-|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |dataBackupBlocked|Boolean|Indicates whether the backup of a managed app's data is blocked.|
-|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |deviceComplianceRequired|Boolean|Indicates whether device compliance is required.|
 |disableAppPinIfDevicePinIsSet|Boolean|Indicates whether use of the app pin is required if the device pin is set.|
-|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |fingerprintBlocked|Boolean|Indicates whether use of the fingerprint reader is allowed in place of a pin if PinRequired is set to True.|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 |managedBrowserToOpenLinksRequired|Boolean|Indicates whether internet links should be opened in the managed browser app.|
 |maximumPinRetries|Int32|Maximum number of incorrect pin retry attempts before the managed app is either blocked or wiped.|
 |minimumPinLength|Int32|Minimum pin length required for an app-level pin if PinRequired is set to True|
@@ -58,7 +59,7 @@ Inherits from [managedAppPolicy](../resources/managedAppPolicy.md)
 |printBlocked|Boolean|Indicates whether printing is allowed from managed apps.|
 |saveAsBlocked|Boolean|Indicates whether users may use the "Save As" menu item to save a copy of protected files.|
 |simplePinBlocked|Boolean|Indicates whether simplePin is blocked.|
-|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
+|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
 
 ## Relationships
 None

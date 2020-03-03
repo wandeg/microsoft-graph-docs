@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedDeviceOverview resource type
+
+
+Namespace: microsoft.graph
 
 Summary data for managed devices
 
@@ -19,17 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedDeviceOverviews](../api/manageddeviceoverview-list.md)|[managedDeviceOverview](../resources/managedDeviceOverview.md) collection|List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.|
-|[Get managedDeviceOverview](../api/manageddeviceoverview-get.md)|[managedDeviceOverview](../resources/managedDeviceOverview.md)|Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
-|[Create managedDeviceOverview](../api/manageddeviceoverview-create.md)|[managedDeviceOverview](../resources/managedDeviceOverview.md)|Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
+|[List managedDeviceOverviews](../api/manageddeviceoverview-list.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md) collection|List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.|
+|[Get managedDeviceOverview](../api/manageddeviceoverview-get.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
+|[Create managedDeviceOverview](../api/manageddeviceoverview-create.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
 |[Delete managedDeviceOverview](../api/manageddeviceoverview-delete.md)|None|Deletes a [managedDeviceOverview](../resources/manageddeviceoverview.md).|
-|[Update managedDeviceOverview](../api/manageddeviceoverview-update.md)|[managedDeviceOverview](../resources/managedDeviceOverview.md)|Update the properties of a [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
+|[Update managedDeviceOverview](../api/manageddeviceoverview-update.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Update the properties of a [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/deviceExchangeAccessStateSummary.md)|Distribution of Exchange Access State in Intune|
-|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/deviceOperatingSystemSummary.md)|Device operating system summary.|
+|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/deviceexchangeaccessstatesummary.md)|Distribution of Exchange Access State in Intune|
+|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/deviceoperatingsystemsummary.md)|Device operating system summary.|
 |dualEnrolledDeviceCount|Int32|The number of devices enrolled in both MDM and EAS|
 |enrolledDeviceCount|Int32|Total enrolled device count. Does not include PC devices managed via Intune PC Agent|
 |id|String| Inherited from [entity](../resources/entity.md)|

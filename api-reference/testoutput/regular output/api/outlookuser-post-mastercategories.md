@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add masterCategories
 
+Namespace: microsoft.graph
+
 Add masterCategories by posting to the masterCategories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/outlook/masterCategories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the outlookCategory object.
+In the request body, supply a JSON representation for the [outlookCategory](../resources/outlookcategory.md) object.
 
-The following table shows the properties that are required when you create the outlookCategory.
+The following table shows the properties that are required when you create the [outlookCategory](../resources/outlookcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/outlook/masterCategories
+POST https://graph.microsoft.com/localtest/me/outlook/masterCategories
 Content-type: application/json
 Content-length: 119
 
@@ -87,7 +89,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.outlookCategory",
-  "id": "1ac9baf0-baf0-1ac9-f0ba-c91af0bac91a",
+  "id": "8e5f4cce-4cce-8e5f-ce4c-5f8ece4c5f8e",
   "displayName": "Display Name value",
   "color": "String"
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List calendarView
 
+Namespace: microsoft.graph
+
 Get the events from the calendarView navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/calendarView
+GET https://graph.microsoft.com/localtest/me/calendarView
 ```
 
 ### Response
@@ -65,15 +67,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3984
+Content-Length: 3983
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "31f56311-6311-31f5-1163-f5311163f531",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "id": "39ba63cf-63cf-39ba-cf63-ba39cf63ba39",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -83,7 +85,7 @@ Content-Length: 3984
       "responseStatus": {
         "@odata.type": "microsoft.graph.responseStatus",
         "response": "String",
-        "time": "2016-12-31T23:59:22.8558203+03:00"
+        "time": "2017-01-01T00:03:20.5544041+03:00"
       },
       "iCalUId": "ICal UId value",
       "reminderMinutesBeforeStart": 10,
@@ -103,7 +105,7 @@ Content-Length: 3984
         "dateTime": "Date Time value",
         "timeZone": "Time Zone value"
       },
-      "originalStart": "2017-01-01T00:01:42.1602103+03:00",
+      "originalStart": "2016-12-31T23:58:53.3506617+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

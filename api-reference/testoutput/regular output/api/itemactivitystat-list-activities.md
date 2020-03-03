@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List activities
 
+Namespace: microsoft.graph
+
 Get the itemActivities from the activities navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}/activities
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}/activities
 ```
 
 ### Response
@@ -70,11 +72,11 @@ Content-Length: 712
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivity",
-      "id": "e730d3e0-d3e0-e730-e0d3-30e7e0d330e7",
+      "id": "c221ee04-ee04-c221-04ee-21c204ee21c2",
       "access": {
         "@odata.type": "microsoft.graph.accessAction"
       },
-      "activityDateTime": "2016-12-31T23:59:24.7559833+03:00",
+      "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
       "actor": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

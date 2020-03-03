@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartSeriesFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series/{workbookChartSeriesId}/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 139
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartSeriesFormat",
-    "id": "02b8dbb5-dbb5-02b8-b5db-b802b5dbb802"
+    "id": "dbe4a156-a156-dbe4-56a1-e4db56a1e4db"
   }
 }
 ```

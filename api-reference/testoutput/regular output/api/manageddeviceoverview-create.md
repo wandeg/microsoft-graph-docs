@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managedDeviceOverview
 
+Namespace: microsoft.graph
+
 Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.managedDeviceOverview not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceOverview object.
+In the request body, supply a JSON representation for the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceOverview.
+The following table shows the properties that are required when you create the [managedDeviceOverview](../resources/manageddeviceoverview.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -46,8 +48,8 @@ The following table shows the properties that are required when you create the m
 |enrolledDeviceCount|Int32|Total enrolled device count. Does not include PC devices managed via Intune PC Agent|
 |mdmEnrolledCount|Int32|The number of devices enrolled in MDM|
 |dualEnrolledDeviceCount|Int32|The number of devices enrolled in both MDM and EAS|
-|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/deviceOperatingSystemSummary.md)|Device operating system summary.|
-|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/deviceExchangeAccessStateSummary.md)|Distribution of Exchange Access State in Intune|
+|deviceOperatingSystemSummary|[deviceOperatingSystemSummary](../resources/deviceoperatingsystemsummary.md)|Device operating system summary.|
+|deviceExchangeAccessStateSummary|[deviceExchangeAccessStateSummary](../resources/deviceexchangeaccessstatesummary.md)|Distribution of Exchange Access State in Intune|
 
 
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedDeviceOverview not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceOverview not found
 Content-type: application/json
 Content-length: 685
 
@@ -108,7 +110,7 @@ Content-Length: 734
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceOverview",
-  "id": "eccc46b2-46b2-eccc-b246-ccecb246ccec",
+  "id": "afad483f-483f-afad-3f48-adaf3f48adaf",
   "enrolledDeviceCount": 3,
   "mdmEnrolledCount": 0,
   "dualEnrolledDeviceCount": 7,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get driveItemVersion
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [driveItemVersion](../resources/driveitemversion.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/versions/{driveItemVersionId}
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/versions/{driveItemVersionId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 797
 {
   "value": {
     "@odata.type": "#microsoft.graph.driveItemVersion",
-    "id": "c674ade1-ade1-c674-e1ad-74c6e1ad74c6",
+    "id": "20fc9d7f-9d7f-20fc-7f9d-fc207f9dfc20",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -88,7 +90,7 @@ Content-Length: 797
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "publication": {
       "@odata.type": "microsoft.graph.publicationFacet",
       "level": "Level value",

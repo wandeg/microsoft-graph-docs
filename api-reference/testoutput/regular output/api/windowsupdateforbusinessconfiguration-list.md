@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsUpdateForBusinessConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsUpdateForBusinessConfiguration](../resources/windowsupdateforbusinessconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsUpdateForBusinessConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsUpdateForBusinessConfiguration not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1105
+Content-Length: 1101
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
-      "id": "a24b61fc-61fc-a24b-fc61-4ba2fc614ba2",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "901a1464-1464-901a-6414-1a9064141a90",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
@@ -88,8 +90,8 @@ Content-Length: 1105
       "featureUpdatesDeferralPeriodInDays": 2,
       "qualityUpdatesPaused": true,
       "featureUpdatesPaused": true,
-      "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:00:12.1681668+03:00",
-      "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:58:50.8463964+03:00",
+      "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:01:52.66969+03:00",
+      "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:56:30.348384+03:00",
       "businessReadyUpdatesOnly": "String"
     }
   ]

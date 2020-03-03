@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # teamsAsyncOperation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get teamsAsyncOperation](../api/teamsasyncoperation-get.md)|[teamsAsyncOperation](../resources/teamsAsyncOperation.md)|Read properties and relationships of the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
+|[List teamsAsyncOperations](../api/teamsasyncoperation-list.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection|List properties and relationships of the [teamsAsyncOperation](../resources/teamsasyncoperation.md) objects.|
+|[Get teamsAsyncOperation](../api/teamsasyncoperation-get.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Read properties and relationships of the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
+|[Create teamsAsyncOperation](../api/teamsasyncoperation-create.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Create a new [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
 |[Delete teamsAsyncOperation](../api/teamsasyncoperation-delete.md)|None|Deletes a [teamsAsyncOperation](../resources/teamsasyncoperation.md).|
-|[Update teamsAsyncOperation](../api/teamsasyncoperation-update.md)|[teamsAsyncOperation](../resources/teamsAsyncOperation.md)|Update the properties of a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
+|[Update teamsAsyncOperation](../api/teamsasyncoperation-update.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Update the properties of a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |attemptsCount|Int32||
 |createdDateTime|DateTimeOffset||
-|error|[operationError](../resources/operationError.md)||
+|error|[operationError](../resources/operationerror.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastActionDateTime|DateTimeOffset||
 |operationType|Enumeration|. Possible values are: `invalid`, `cloneTeam`, `archiveTeam`, `unarchiveTeam`, `createTeam`, `unknownFutureValue`.|

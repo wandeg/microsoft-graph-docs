@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add userStatuses
 
+Namespace: microsoft.graph
+
 Add userStatuses by posting to the userStatuses collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigu
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfigurationUserStatus object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfigurationUserStatus.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatuses
 Content-type: application/json
 Content-length: 299
 
@@ -73,7 +75,7 @@ Content-length: 299
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -93,11 +95,11 @@ Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-  "id": "e1d01eaf-1eaf-e1d0-af1e-d0e1af1ed0e1",
+  "id": "1965e9cc-e9cc-1965-cce9-6519cce96519",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

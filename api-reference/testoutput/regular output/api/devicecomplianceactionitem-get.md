@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceComplianceActionItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations/{deviceComplianceActionItemId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations/{deviceComplianceActionItemId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 349
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-    "id": "f68543b0-43b0-f685-b043-85f6b04385f6",
+    "id": "07d364ab-64ab-07d3-ab64-d307ab64d307",
     "gracePeriodHours": 0,
     "actionType": "String",
     "notificationTemplateId": "Notification Template Id value",

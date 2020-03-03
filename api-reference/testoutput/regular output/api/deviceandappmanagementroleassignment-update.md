@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceAndAppManagementRoleAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceAndAppManagementRoleAssignment](../resources/deviceandappmanagementroleassignment.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH /deviceManagement/roleAssignments/{deviceAndAppManagementRoleAssignmentId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceAndAppManagementRoleAssignment](../resources/deviceAndAppManagementRoleAssignment.md) object.
+In the request body, supply a JSON representation for the [deviceAndAppManagementRoleAssignment](../resources/deviceandappmanagementroleassignment.md) object.
 
 The following table shows the properties that are required when you create the [deviceAndAppManagementRoleAssignment](../resources/deviceandappmanagementroleassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The display or friendly name of the role Assignment. Inherited from [roleAssignment](../resources/roleAssignment.md)|
-|description|String|Description of the Role Assignment. Inherited from [roleAssignment](../resources/roleAssignment.md)|
-|resourceScopes|String collection|List of ids of role scope member security groups.  These are IDs from Azure Active Directory. Inherited from [roleAssignment](../resources/roleAssignment.md)|
+|displayName|String|The display or friendly name of the role Assignment. Inherited from [roleAssignment](../resources/roleassignment.md)|
+|description|String|Description of the Role Assignment. Inherited from [roleAssignment](../resources/roleassignment.md)|
+|resourceScopes|String collection|List of ids of role scope member security groups.  These are IDs from Azure Active Directory. Inherited from [roleAssignment](../resources/roleassignment.md)|
 |members|String collection|The list of ids of role member security groups. These are IDs from Azure Active Directory.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleAssignments/{deviceAndAppManagementRoleAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleAssignments/{deviceAndAppManagementRoleAssignmentId}
 Content-type: application/json
 Content-length: 258
 
@@ -93,7 +95,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleAssignment",
-  "id": "b1dc5026-5026-b1dc-2650-dcb12650dcb1",
+  "id": "edd72d82-2d82-edd7-822d-d7ed822dd7ed",
   "displayName": "Display Name value",
   "description": "Description value",
   "resourceScopes": [

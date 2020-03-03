@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mobileAppContent
 
+Namespace: microsoft.graph
+
 Deletes a [mobileAppContent](../resources/mobileappcontent.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
 ```
 
 ### Response

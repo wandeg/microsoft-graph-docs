@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # invitation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -32,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |invitedUserDisplayName|String||
 |invitedUserEmailAddress|String||
-|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedUserMessageInfo.md)||
+|invitedUserMessageInfo|[invitedUserMessageInfo](../resources/invitedusermessageinfo.md)||
 |invitedUserType|String||
 |inviteRedeemUrl|String||
 |inviteRedirectUrl|String||

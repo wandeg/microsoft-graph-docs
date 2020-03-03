@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartFills
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartFill not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartFill not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 149
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartFill",
-      "id": "34ee79f1-79f1-34ee-f179-ee34f179ee34"
+      "id": "20f807f5-07f5-20f8-f507-f820f507f820"
     }
   ]
 }

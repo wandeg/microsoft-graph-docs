@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # locateDevice
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/locateDevice
+POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/locateDevice
 ```
 
 ### Response

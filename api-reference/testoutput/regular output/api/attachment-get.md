@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get attachment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [attachment](../resources/attachment.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/messages/{messageId}/attachments/{attachmentId}
+GET https://graph.microsoft.com/localtest/me/messages/{messageId}/attachments/{attachmentId}
 ```
 
 ### Response
@@ -74,8 +76,8 @@ Content-Length: 298
 {
   "value": {
     "@odata.type": "#microsoft.graph.attachment",
-    "id": "addaeabc-eabc-adda-bcea-daadbceadaad",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "id": "d596da57-da57-d596-57da-96d557da96d5",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "name": "Name value",
     "contentType": "Content Type value",
     "size": 4,

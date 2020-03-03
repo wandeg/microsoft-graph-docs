@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # alert resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List alerts](../api/alert-list.md)|[alert](../resources/alert.md) collection|List properties and relationships of the [alert](../resources/alert.md) objects.|
 |[Get alert](../api/alert-get.md)|[alert](../resources/alert.md)|Read properties and relationships of the [alert](../resources/alert.md) object.|
+|[Create alert](../api/alert-create.md)|[alert](../resources/alert.md)|Create a new [alert](../resources/alert.md) object.|
 |[Delete alert](../api/alert-delete.md)|None|Deletes a [alert](../resources/alert.md).|
 |[Update alert](../api/alert-update.md)|[alert](../resources/alert.md)|Update the properties of a [alert](../resources/alert.md) object.|
 |[List alerts](../api/security-list-alerts.md)|[alert](../resources/alert.md) collection|Get the alerts from the alerts navigation property.|
@@ -34,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 |azureTenantId|String||
 |category|String||
 |closedDateTime|DateTimeOffset||
-|cloudAppStates|[cloudAppSecurityState](../resources/cloudAppSecurityState.md) collection||
+|cloudAppStates|[cloudAppSecurityState](../resources/cloudappsecuritystate.md) collection||
 |comments|String collection||
 |confidence|Int32||
 |createdDateTime|DateTimeOffset||
@@ -42,25 +45,25 @@ Inherits from [entity](../resources/entity.md)
 |detectionIds|String collection||
 |eventDateTime|DateTimeOffset||
 |feedback|Enumeration|. Possible values are: `unknown`, `truePositive`, `falsePositive`, `benignPositive`, `unknownFutureValue`.|
-|fileStates|[fileSecurityState](../resources/fileSecurityState.md) collection||
-|historyStates|[alertHistoryState](../resources/alertHistoryState.md) collection||
-|hostStates|[hostSecurityState](../resources/hostSecurityState.md) collection||
+|fileStates|[fileSecurityState](../resources/filesecuritystate.md) collection||
+|historyStates|[alertHistoryState](../resources/alerthistorystate.md) collection||
+|hostStates|[hostSecurityState](../resources/hostsecuritystate.md) collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset||
-|malwareStates|[malwareState](../resources/malwareState.md) collection||
-|networkConnections|[networkConnection](../resources/networkConnection.md) collection||
+|malwareStates|[malwareState](../resources/malwarestate.md) collection||
+|networkConnections|[networkConnection](../resources/networkconnection.md) collection||
 |processes|[process](../resources/process.md) collection||
 |recommendedActions|String collection||
-|registryKeyStates|[registryKeyState](../resources/registryKeyState.md) collection||
+|registryKeyStates|[registryKeyState](../resources/registrykeystate.md) collection||
 |severity|Enumeration|. Possible values are: `unknown`, `informational`, `low`, `medium`, `high`, `unknownFutureValue`.|
 |sourceMaterials|String collection||
 |status|Enumeration|. Possible values are: `unknown`, `newAlert`, `inProgress`, `resolved`, `dismissed`, `unknownFutureValue`.|
 |tags|String collection||
 |title|String||
-|triggers|[alertTrigger](../resources/alertTrigger.md) collection||
-|userStates|[userSecurityState](../resources/userSecurityState.md) collection||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
-|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilityState.md) collection||
+|triggers|[alertTrigger](../resources/alerttrigger.md) collection||
+|userStates|[userSecurityState](../resources/usersecuritystate.md) collection||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
+|vulnerabilityStates|[vulnerabilityState](../resources/vulnerabilitystate.md) collection||
 
 ## Relationships
 None

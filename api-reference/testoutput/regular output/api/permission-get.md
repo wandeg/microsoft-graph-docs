@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get permission
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [permission](../resources/permission.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/permissions/{permissionId}
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/permissions/{permissionId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 1668
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "8bb9333d-333d-8bb9-3d33-b98b3d33b98b",
+    "id": "a7b7bff3-bff3-a7b7-f3bf-b7a7f3bfb7a7",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

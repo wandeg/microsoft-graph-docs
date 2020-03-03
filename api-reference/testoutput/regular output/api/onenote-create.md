@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create onenote
 
+Namespace: microsoft.graph
+
 Create a new [onenote](../resources/onenote.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.onenote not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the onenote object.
+In the request body, supply a JSON representation for the [onenote](../resources/onenote.md) object.
 
-The following table shows the properties that are required when you create the onenote.
+The following table shows the properties that are required when you create the [onenote](../resources/onenote.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.onenote not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.onenote not found
 Content-type: application/json
 Content-length: 49
 
@@ -83,7 +85,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.onenote",
-  "id": "e8e20300-0300-e8e2-0003-e2e80003e2e8"
+  "id": "fce0c053-c053-fce0-53c0-e0fc53c0e0fc"
 }
 ```
 

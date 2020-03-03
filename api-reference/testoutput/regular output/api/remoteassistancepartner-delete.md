@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete remoteAssistancePartner
 
+Namespace: microsoft.graph
+
 Deletes a [remoteAssistancePartner](../resources/remoteassistancepartner.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/remoteAssistancePartners/{remoteAssistancePartnerId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/remoteAssistancePartners/{remoteAssistancePartnerId}
 ```
 
 ### Response

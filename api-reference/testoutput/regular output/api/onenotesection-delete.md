@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete onenoteSection
 
+Namespace: microsoft.graph
+
 Deletes a [onenoteSection](../resources/onenotesection.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/onenote/sections/{onenoteSectionId}
+DELETE https://graph.microsoft.com/localtest/me/onenote/sections/{onenoteSectionId}
 ```
 
 ### Response

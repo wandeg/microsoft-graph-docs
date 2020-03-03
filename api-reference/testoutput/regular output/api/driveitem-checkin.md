@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # checkin
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/root/checkin
+POST https://graph.microsoft.com/localtest/me/drive/root/checkin
 
 Content-type: application/json
 Content-length: 71

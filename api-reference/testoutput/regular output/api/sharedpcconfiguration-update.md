@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update sharedPCConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [sharedPCConfiguration](../resources/sharedpcconfiguration.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH ** Entity URI for microsoft.graph.sharedPCConfiguration not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [sharedPCConfiguration](../resources/sharedPCConfiguration.md) object.
+In the request body, supply a JSON representation for the [sharedPCConfiguration](../resources/sharedpcconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [sharedPCConfiguration](../resources/sharedpcconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|accountManagerPolicy|[sharedPCAccountManagerPolicy](../resources/sharedPCAccountManagerPolicy.md)|Specifies how accounts are managed on a shared PC. Only applies when disableAccountManager is false.|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|accountManagerPolicy|[sharedPCAccountManagerPolicy](../resources/sharedpcaccountmanagerpolicy.md)|Specifies how accounts are managed on a shared PC. Only applies when disableAccountManager is false.|
 |allowedAccounts|Enumeration|Indicates which type of accounts are allowed to use on a shared PC. Possible values are: `guest`, `domain`.|
 |allowLocalStorage|Boolean|Specifies whether local storage is allowed on a shared PC.|
 |disableAccountManager|Boolean|Disables the account manager for shared PC mode.|
@@ -75,7 +77,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.sharedPCConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.sharedPCConfiguration not found
 Content-type: application/json
 Content-length: 848
 
@@ -101,7 +103,7 @@ Content-length: 848
   "idleTimeBeforeSleepInSeconds": 12,
   "kioskAppDisplayName": "Kiosk App Display Name value",
   "kioskAppUserModelId": "Kiosk App User Model Id value",
-  "maintenanceStartTime": "12:02:38.0780000"
+  "maintenanceStartTime": "11:59:39.9430000"
 }
 ```
 
@@ -115,13 +117,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1020
+Content-Length: 1019
 
 {
   "@odata.type": "#microsoft.graph.sharedPCConfiguration",
-  "id": "d22eceea-ceea-d22e-eace-2ed2eace2ed2",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "3aef3b76-3b76-3aef-763b-ef3a763bef3a",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -142,7 +144,7 @@ Content-Length: 1020
   "idleTimeBeforeSleepInSeconds": 12,
   "kioskAppDisplayName": "Kiosk App Display Name value",
   "kioskAppUserModelId": "Kiosk App User Model Id value",
-  "maintenanceStartTime": "12:02:38.0780000"
+  "maintenanceStartTime": "11:59:39.9430000"
 }
 ```
 

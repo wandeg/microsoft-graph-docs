@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceConfigurationUserStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuse
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceConfigurationUserStatus](../resources/deviceConfigurationUserStatus.md) object.
+In the request body, supply a JSON representation for the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.
 
 The following table shows the properties that are required when you create the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuses/{deviceConfigurationUserStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuses/{deviceConfigurationUserStatusId}
 Content-type: application/json
 Content-length: 283
 
@@ -72,7 +74,7 @@ Content-length: 283
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -91,11 +93,11 @@ Content-Length: 332
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserStatus",
-  "id": "a26be83b-e83b-a26b-3be8-6ba23be86ba2",
+  "id": "700ae0cb-e0cb-700a-cbe0-0a70cbe00a70",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

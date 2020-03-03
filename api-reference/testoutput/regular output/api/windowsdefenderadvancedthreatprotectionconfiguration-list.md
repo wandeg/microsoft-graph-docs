@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsDefenderAdvancedThreatProtectionConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsDefenderAdvancedThreatProtectionConfiguration](../resources/windowsdefenderadvancedthreatprotectionconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsDefenderAdvancedThreatProtectionConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsDefenderAdvancedThreatProtectionConfiguration not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 508
+Content-Length: 507
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsDefenderAdvancedThreatProtectionConfiguration",
-      "id": "4ab891e0-91e0-4ab8-e091-b84ae091b84a",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "236027b5-27b5-2360-b527-6023b5276023",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,

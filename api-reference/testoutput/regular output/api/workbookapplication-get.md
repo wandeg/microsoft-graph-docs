@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookApplication
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookApplication](../resources/workbookapplication.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/application
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/application
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 183
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookApplication",
-    "id": "e6daa3f0-a3f0-e6da-f0a3-dae6f0a3dae6",
+    "id": "1f433e32-3e32-1f43-323e-431f323e431f",
     "calculationMode": "Calculation Mode value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create eventMessage
 
+Namespace: microsoft.graph
+
 Create a new [eventMessage](../resources/eventmessage.md) object.
 
 ## Permissions
@@ -36,24 +38,24 @@ POST ** Collection URI for microsoft.graph.eventMessage not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the eventMessage object.
+In the request body, supply a JSON representation for the [eventMessage](../resources/eventmessage.md) object.
 
-The following table shows the properties that are required when you create the eventMessage.
+The following table shows the properties that are required when you create the [eventMessage](../resources/eventmessage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |receivedDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
 |sentDateTime|DateTimeOffset| Inherited from [message](../resources/message.md)|
 |hasAttachments|Boolean| Inherited from [message](../resources/message.md)|
 |internetMessageId|String| Inherited from [message](../resources/message.md)|
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection| Inherited from [message](../resources/message.md)|
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection| Inherited from [message](../resources/message.md)|
 |subject|String| Inherited from [message](../resources/message.md)|
-|body|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|body|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |bodyPreview|String| Inherited from [message](../resources/message.md)|
 |importance|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `low`, `normal`, `high`.|
 |parentFolderId|String| Inherited from [message](../resources/message.md)|
@@ -65,14 +67,14 @@ The following table shows the properties that are required when you create the e
 |replyTo|[recipient](../resources/recipient.md) collection| Inherited from [message](../resources/message.md)|
 |conversationId|String| Inherited from [message](../resources/message.md)|
 |conversationIndex|Binary| Inherited from [message](../resources/message.md)|
-|uniqueBody|[itemBody](../resources/itemBody.md)| Inherited from [message](../resources/message.md)|
+|uniqueBody|[itemBody](../resources/itembody.md)| Inherited from [message](../resources/message.md)|
 |isDeliveryReceiptRequested|Boolean| Inherited from [message](../resources/message.md)|
 |isReadReceiptRequested|Boolean| Inherited from [message](../resources/message.md)|
 |isRead|Boolean| Inherited from [message](../resources/message.md)|
 |isDraft|Boolean| Inherited from [message](../resources/message.md)|
 |webLink|String| Inherited from [message](../resources/message.md)|
 |inferenceClassification|Enumeration| Inherited from [message](../resources/message.md). Possible values are: `focused`, `other`.|
-|flag|[followupFlag](../resources/followupFlag.md)| Inherited from [message](../resources/message.md)|
+|flag|[followupFlag](../resources/followupflag.md)| Inherited from [message](../resources/message.md)|
 |meetingMessageType|Enumeration|. Possible values are: `none`, `meetingRequest`, `meetingCancelled`, `meetingAccepted`, `meetingTenativelyAccepted`, `meetingDeclined`.|
 
 
@@ -90,7 +92,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.eventMessage not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.eventMessage not found
 Content-type: application/json
 Content-length: 2231
 
@@ -100,8 +102,8 @@ Content-length: 2231
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:02:26.0260569+03:00",
-  "sentDateTime": "2016-12-31T23:57:12.0011454+03:00",
+  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
+  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -191,19 +193,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2403
+Content-Length: 2402
 
 {
   "@odata.type": "#microsoft.graph.eventMessage",
-  "id": "41a2ed56-ed56-41a2-56ed-a24156eda241",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "82696752-6752-8269-5267-698252676982",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:02:26.0260569+03:00",
-  "sentDateTime": "2016-12-31T23:57:12.0011454+03:00",
+  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
+  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

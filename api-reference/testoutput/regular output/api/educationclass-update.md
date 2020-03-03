@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update educationClass
 
+Namespace: microsoft.graph
+
 Update the properties of a [educationClass](../resources/educationclass.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /education/classes/{educationClassId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [educationClass](../resources/educationClass.md) object.
+In the request body, supply a JSON representation for the [educationClass](../resources/educationclass.md) object.
 
 The following table shows the properties that are required when you create the [educationClass](../resources/educationclass.md).
 
@@ -45,12 +47,12 @@ The following table shows the properties that are required when you create the [
 |displayName|String||
 |mailNickname|String||
 |description|String||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |classCode|String||
 |externalName|String||
 |externalId|String||
 |externalSource|Enumeration|. Possible values are: `sis`, `manual`, `unknownFutureValue`.|
-|term|[educationTerm](../resources/educationTerm.md)||
+|term|[educationTerm](../resources/educationterm.md)||
 
 
 
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/education/classes/{educationClassId}
+PATCH https://graph.microsoft.com/localtest/education/classes/{educationClassId}
 Content-type: application/json
 Content-length: 769
 
@@ -115,7 +117,7 @@ Content-Length: 818
 
 {
   "@odata.type": "#microsoft.graph.educationClass",
-  "id": "d7986064-6064-d798-6460-98d7646098d7",
+  "id": "b4f6533d-533d-b4f6-3d53-f6b43d53f6b4",
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
   "description": "Description value",

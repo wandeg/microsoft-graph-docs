@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete localizedNotificationMessage
 
+Namespace: microsoft.graph
+
 Deletes a [localizedNotificationMessage](../resources/localizednotificationmessage.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages/{localizedNotificationMessageId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}/localizedNotificationMessages/{localizedNotificationMessageId}
 ```
 
 ### Response

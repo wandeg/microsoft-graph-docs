@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceComplianceDeviceOverview
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/deviceStatusOverview
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/deviceStatusOverview
 ```
 
 ### Response
@@ -67,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 367
+Content-Length: 364
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
-    "id": "5a853255-3255-5a85-5532-855a5532855a",
+    "id": "bf4328af-28af-bf43-af28-43bfaf2843bf",
     "pendingCount": 12,
     "notApplicableCount": 2,
     "successCount": 12,
     "errorCount": 10,
     "failedCount": 11,
-    "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+    "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
     "configurationVersion": 4
   }
 }

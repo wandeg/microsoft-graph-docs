@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List plannerAssignedToTaskBoardTaskFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerAssignedToTaskBoardTaskFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerAssignedToTaskBoardTaskFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 342
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-      "id": "5cdfd451-d451-5cdf-51d4-df5c51d4df5c",
+      "id": "ef837043-7043-ef83-4370-83ef437083ef",
       "unassignedOrderHint": "Unassigned Order Hint value",
       "orderHintsByAssignee": {
         "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

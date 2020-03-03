@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get teamsAppInstallation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [teamsAppInstallation](../resources/teamsappinstallation.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/installedApps/{teamsAppInstallationId}
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/installedApps/{teamsAppInstallationId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 134
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsAppInstallation",
-    "id": "61337879-7879-6133-7978-336179783361"
+    "id": "7964a6b2-a6b2-7964-b2a6-6479b2a66479"
   }
 }
 ```

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookFilterCriteria resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -21,9 +22,9 @@ Namespace: microsoft.graph
 |criterion2|String||
 |dynamicCriteria|String||
 |filterOn|String||
-|icon|[workbookIcon](../resources/workbookIcon.md)||
+|icon|[workbookIcon](../resources/workbookicon.md)||
 |operator|String||
-|values|[Json](../resources/Json.md)||
+|values|[Json](../resources/json.md)||
 
 ## Relationships
 None

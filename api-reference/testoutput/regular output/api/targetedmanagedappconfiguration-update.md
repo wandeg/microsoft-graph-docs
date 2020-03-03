@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update targetedManagedAppConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.
 
 ## Permissions
@@ -35,19 +37,19 @@ PATCH /deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [targetedManagedAppConfiguration](../resources/targetedManagedAppConfiguration.md) object.
+In the request body, supply a JSON representation for the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedAppPolicy.md)|
-|customSettings|[keyValuePair](../resources/keyValuePair.md) collection|A set of string key and string value pairs to be sent to apps for users to whom the configuration is scoped, unalterned by this service Inherited from [managedAppConfiguration](../resources/managedAppConfiguration.md)|
+|displayName|String|Policy display name. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|description|String|The policy's description. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|createdDateTime|DateTimeOffset|The date and time the policy was created. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|Last time the policy was modified. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|version|String|Version of the entity. Inherited from [managedAppPolicy](../resources/managedapppolicy.md)|
+|customSettings|[keyValuePair](../resources/keyvaluepair.md) collection|A set of string key and string value pairs to be sent to apps for users to whom the configuration is scoped, unalterned by this service Inherited from [managedAppConfiguration](../resources/managedappconfiguration.md)|
 |deployedAppCount|Int32|Count of apps to which the current policy is deployed.|
 |isAssigned|Boolean|Indicates if the policy is deployed to any inclusion groups or not.|
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppConfigurationId}
 Content-type: application/json
 Content-length: 388
 
@@ -97,15 +99,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 560
+Content-Length: 559
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppConfiguration",
-  "id": "b3ea4b38-4b38-b3ea-384b-eab3384beab3",
+  "id": "e5f604e4-04e4-e5f6-e404-f6e5e404f6e5",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "version": "Version value",
   "customSettings": [
     {

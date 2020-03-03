@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookFormatProtection
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookFormatProtection](../resources/workbookformatprotection.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookFormatProtection not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookFormatProtection not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 187
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFormatProtection",
-    "id": "eebb12c4-12c4-eebb-c412-bbeec412bbee",
+    "id": "7aae4425-4425-7aae-2544-ae7a2544ae7a",
     "formulaHidden": true,
     "locked": true
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemAnalytics
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemAnalytics",
-    "id": "9d2513b6-13b6-9d25-b613-259db613259d"
+    "id": "bdf155b4-55b4-bdf1-b455-f1bdb455f1bd"
   }
 }
 ```

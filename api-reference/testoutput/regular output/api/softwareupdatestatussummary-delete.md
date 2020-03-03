@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete softwareUpdateStatusSummary
 
+Namespace: microsoft.graph
+
 Deletes a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md).
 
 ## Permissions

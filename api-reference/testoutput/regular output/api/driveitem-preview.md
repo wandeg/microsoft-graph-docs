@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # preview
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -64,7 +66,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [itemPreviewInfo](../resources/itemPreviewInfo.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [itemPreviewInfo](../resources/itempreviewinfo.md) in the response body.
 
 ## Example
 
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/root/preview
+POST https://graph.microsoft.com/localtest/me/drive/root/preview
 
 Content-type: application/json
 Content-length: 49

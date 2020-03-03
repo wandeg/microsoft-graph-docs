@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # managedAppPolicyDeploymentSummary resource type
+
+
+Namespace: microsoft.graph
 
 The ManagedAppEntity is the base entity type for all other entity types under app management workflow.
 
@@ -19,17 +20,17 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppPolicyDeploymentSummaries](../api/managedapppolicydeploymentsummary-list.md)|[managedAppPolicyDeploymentSummary](../resources/managedAppPolicyDeploymentSummary.md) collection|List properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) objects.|
-|[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedAppPolicyDeploymentSummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[Create managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-create.md)|[managedAppPolicyDeploymentSummary](../resources/managedAppPolicyDeploymentSummary.md)|Create a new [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
+|[List managedAppPolicyDeploymentSummaries](../api/managedapppolicydeploymentsummary-list.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) collection|List properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) objects.|
+|[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
+|[Create managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-create.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Create a new [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
 |[Delete managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-delete.md)|None|Deletes a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md).|
-|[Update managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-update.md)|[managedAppPolicyDeploymentSummary](../resources/managedAppPolicyDeploymentSummary.md)|Update the properties of a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
+|[Update managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-update.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Update the properties of a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |configurationDeployedUserCount|Int32||
-|configurationDeploymentSummaryPerApp|[managedAppPolicyDeploymentSummaryPerApp](../resources/managedAppPolicyDeploymentSummaryPerApp.md) collection||
+|configurationDeploymentSummaryPerApp|[managedAppPolicyDeploymentSummaryPerApp](../resources/managedapppolicydeploymentsummaryperapp.md) collection||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastRefreshTime|DateTimeOffset||

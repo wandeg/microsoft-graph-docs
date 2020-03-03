@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List lists
 
+Namespace: microsoft.graph
+
 Get the lists from the lists navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/sites/{sitesId}/lists
+GET https://graph.microsoft.com/localtest/sites/{sitesId}/lists
 ```
 
 ### Response
@@ -65,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1944
+Content-Length: 1943
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.list",
-      "id": "b4fe6d84-6d84-b4fe-846d-feb4846dfeb4",
+      "id": "8d0d7ddd-7ddd-8d0d-dd7d-0d8ddd7d0d8d",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -86,13 +88,13 @@ Content-Length: 1944
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

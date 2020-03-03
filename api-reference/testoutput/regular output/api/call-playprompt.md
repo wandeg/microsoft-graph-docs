@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # playPrompt
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -48,7 +50,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [playPromptOperation](../resources/playPromptOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [playPromptOperation](../resources/playpromptoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/playPrompt
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/playPrompt
 
 Content-type: application/json
 Content-length: 292
@@ -96,7 +98,7 @@ Content-Length: 284
 {
   "value": {
     "@odata.type": "#microsoft.graph.playPromptOperation",
-    "id": "18abcf17-cf17-18ab-17cf-ab1817cfab18",
+    "id": "759506b5-06b5-7595-b506-9575b5069575",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

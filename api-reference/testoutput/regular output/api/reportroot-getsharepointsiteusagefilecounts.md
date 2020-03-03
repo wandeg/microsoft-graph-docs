@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getSharePointSiteUsageFileCounts
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports/getSharePointSiteUsageFileCounts(period='parameterValue')
+GET https://graph.microsoft.com/localtest/reports/getSharePointSiteUsageFileCounts(period='parameterValue')
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List tables
 
+Namespace: microsoft.graph
+
 Get the workbookTables from the tables navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/tables
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/tables
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 469
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTable",
-      "id": "5223020f-020f-5223-0f02-23520f022352",
+      "id": "7c9a8e40-8e40-7c9a-408e-9a7c408e9a7c",
       "highlightFirstColumn": true,
       "highlightLastColumn": true,
       "legacyId": "Legacy Id value",

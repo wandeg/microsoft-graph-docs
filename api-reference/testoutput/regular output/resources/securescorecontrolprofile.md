@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # secureScoreControlProfile resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get secureScoreControlProfile](../api/securescorecontrolprofile-get.md)|[secureScoreControlProfile](../resources/secureScoreControlProfile.md)|Read properties and relationships of the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.|
+|[List secureScoreControlProfiles](../api/securescorecontrolprofile-list.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md) collection|List properties and relationships of the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) objects.|
+|[Get secureScoreControlProfile](../api/securescorecontrolprofile-get.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md)|Read properties and relationships of the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.|
+|[Create secureScoreControlProfile](../api/securescorecontrolprofile-create.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md)|Create a new [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.|
 |[Delete secureScoreControlProfile](../api/securescorecontrolprofile-delete.md)|None|Deletes a [secureScoreControlProfile](../resources/securescorecontrolprofile.md).|
-|[Update secureScoreControlProfile](../api/securescorecontrolprofile-update.md)|[secureScoreControlProfile](../resources/secureScoreControlProfile.md)|Update the properties of a [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.|
-|[List secureScoreControlProfiles](../api/security-list-securescorecontrolprofiles.md)|[secureScoreControlProfile](../resources/secureScoreControlProfile.md) collection|Get the secureScoreControlProfiles from the secureScoreControlProfiles navigation property.|
-|[Add secureScoreControlProfiles](../api/security-post-securescorecontrolprofiles.md)|[secureScoreControlProfile](../resources/secureScoreControlProfile.md)|Add secureScoreControlProfiles by posting to the secureScoreControlProfiles collection.|
+|[Update secureScoreControlProfile](../api/securescorecontrolprofile-update.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md)|Update the properties of a [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.|
+|[List secureScoreControlProfiles](../api/security-list-securescorecontrolprofiles.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md) collection|Get the secureScoreControlProfiles from the secureScoreControlProfiles navigation property.|
+|[Add secureScoreControlProfiles](../api/security-post-securescorecontrolprofiles.md)|[secureScoreControlProfile](../resources/securescorecontrolprofile.md)|Add secureScoreControlProfiles by posting to the secureScoreControlProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,9 +34,9 @@ Inherits from [entity](../resources/entity.md)
 |actionType|String||
 |actionUrl|String||
 |azureTenantId|String||
-|complianceInformation|[complianceInformation](../resources/complianceInformation.md) collection||
+|complianceInformation|[complianceInformation](../resources/complianceinformation.md) collection||
 |controlCategory|String||
-|controlStateUpdates|[secureScoreControlStateUpdate](../resources/secureScoreControlStateUpdate.md) collection||
+|controlStateUpdates|[secureScoreControlStateUpdate](../resources/securescorecontrolstateupdate.md) collection||
 |deprecated|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |implementationCost|String||
@@ -47,7 +50,7 @@ Inherits from [entity](../resources/entity.md)
 |tier|String||
 |title|String||
 |userImpact|String||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

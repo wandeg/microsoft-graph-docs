@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRangeFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRangeFormat](../resources/workbookrangeformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFormat not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFormat not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 326
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeFormat",
-    "id": "be015bc2-5bc2-be01-c25b-01bec25b01be",
+    "id": "5a1e652c-652c-5a1e-2c65-1e5a2c651e5a",
     "columnWidth": "Double",
     "horizontalAlignment": "Horizontal Alignment value",
     "rowHeight": "Double",

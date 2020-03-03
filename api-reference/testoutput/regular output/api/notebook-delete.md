@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete notebook
 
+Namespace: microsoft.graph
+
 Deletes a [notebook](../resources/notebook.md).
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/onenote/notebooks/{notebookId}
+DELETE https://graph.microsoft.com/localtest/me/onenote/notebooks/{notebookId}
 ```
 
 ### Response

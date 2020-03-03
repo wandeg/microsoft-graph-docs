@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookRangeFill
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookRangeFill](../resources/workbookrangefill.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookRangeFill not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookRangeFill](../resources/workbookRangeFill.md) object.
+In the request body, supply a JSON representation for the [workbookRangeFill](../resources/workbookrangefill.md) object.
 
 The following table shows the properties that are required when you create the [workbookRangeFill](../resources/workbookrangefill.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFill not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFill not found
 Content-type: application/json
 Content-length: 86
 
@@ -83,7 +85,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFill",
-  "id": "4359ad13-ad13-4359-13ad-594313ad5943",
+  "id": "ebccb99b-b99b-ebcc-9bb9-cceb9bb9cceb",
   "color": "Color value"
 }
 ```

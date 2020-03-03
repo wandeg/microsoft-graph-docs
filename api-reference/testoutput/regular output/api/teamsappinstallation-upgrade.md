@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # upgrade
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/installedApps/{teamsAppInstallationId}/upgrade
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/installedApps/{teamsAppInstallationId}/upgrade
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List roleDefinitions
 
+Namespace: microsoft.graph
+
 Get the roleDefinitions from the roleDefinitions navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions
+GET https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 746
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleDefinition",
-      "id": "e0501fe2-1fe2-e050-e21f-50e0e21f50e0",
+      "id": "373b31af-31af-373b-af31-3b37af313b37",
       "displayName": "Display Name value",
       "description": "Description value",
       "rolePermissions": [

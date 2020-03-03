@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get multiValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
 
 ## Permissions
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+GET https://graph.microsoft.com/localtest/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
 ```
 
 ### Response
@@ -78,7 +80,7 @@ Content-Length: 191
 {
   "value": {
     "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-    "id": "255097b7-97b7-2550-b797-5025b7975025",
+    "id": "31b18d19-8d19-31b1-198d-b131198db131",
     "value": [
       "Value value"
     ]

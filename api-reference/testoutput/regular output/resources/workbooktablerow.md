@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookTableRow resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookTableRow](../api/workbooktablerow-get.md)|[workbookTableRow](../resources/workbookTableRow.md)|Read properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) object.|
+|[List workbookTableRows](../api/workbooktablerow-list.md)|[workbookTableRow](../resources/workbooktablerow.md) collection|List properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) objects.|
+|[Get workbookTableRow](../api/workbooktablerow-get.md)|[workbookTableRow](../resources/workbooktablerow.md)|Read properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) object.|
+|[Create workbookTableRow](../api/workbooktablerow-create.md)|[workbookTableRow](../resources/workbooktablerow.md)|Create a new [workbookTableRow](../resources/workbooktablerow.md) object.|
 |[Delete workbookTableRow](../api/workbooktablerow-delete.md)|None|Deletes a [workbookTableRow](../resources/workbooktablerow.md).|
-|[Update workbookTableRow](../api/workbooktablerow-update.md)|[workbookTableRow](../resources/workbookTableRow.md)|Update the properties of a [workbookTableRow](../resources/workbooktablerow.md) object.|
+|[Update workbookTableRow](../api/workbooktablerow-update.md)|[workbookTableRow](../resources/workbooktablerow.md)|Update the properties of a [workbookTableRow](../resources/workbooktablerow.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |index|Int32||
-|values|[Json](../resources/Json.md)||
+|values|[Json](../resources/json.md)||
 
 ## Relationships
 None

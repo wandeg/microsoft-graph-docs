@@ -5,27 +5,30 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # onenotePage resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)
+
+
+Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get onenotePage](../api/onenotepage-get.md)|[onenotePage](../resources/onenotePage.md)|Read properties and relationships of the [onenotePage](../resources/onenotepage.md) object.|
+|[List onenotePages](../api/onenotepage-list.md)|[onenotePage](../resources/onenotepage.md) collection|List properties and relationships of the [onenotePage](../resources/onenotepage.md) objects.|
+|[Get onenotePage](../api/onenotepage-get.md)|[onenotePage](../resources/onenotepage.md)|Read properties and relationships of the [onenotePage](../resources/onenotepage.md) object.|
+|[Create onenotePage](../api/onenotepage-create.md)|[onenotePage](../resources/onenotepage.md)|Create a new [onenotePage](../resources/onenotepage.md) object.|
 |[Delete onenotePage](../api/onenotepage-delete.md)|None|Deletes a [onenotePage](../resources/onenotepage.md).|
-|[Update onenotePage](../api/onenotepage-update.md)|[onenotePage](../resources/onenotePage.md)|Update the properties of a [onenotePage](../resources/onenotepage.md) object.|
+|[Update onenotePage](../api/onenotepage-update.md)|[onenotePage](../resources/onenotepage.md)|Update the properties of a [onenotePage](../resources/onenotepage.md) object.|
 |[onenotePatchContent](../api/onenotepage-onenotepatchcontent.md)|None||
-|[preview](../api/onenotepage-preview.md)|[onenotePagePreview](../resources/onenotePagePreview.md)||
-|[copyToSection](../api/onenotepage-copytosection.md)|[onenoteOperation](../resources/onenoteOperation.md)||
-|[Get onenoteSection](../api/onenotesection-get.md)|[onenoteSection](../resources/onenoteSection.md)|Read properties and relationships of the [onenoteSection](../resources/onenotesection.md) object.|
+|[preview](../api/onenotepage-preview.md)|[onenotePagePreview](../resources/onenotepagepreview.md)||
+|[copyToSection](../api/onenotepage-copytosection.md)|[onenoteOperation](../resources/onenoteoperation.md)||
+|[Get onenoteSection](../api/onenotesection-get.md)|[onenoteSection](../resources/onenotesection.md)|Read properties and relationships of the [onenoteSection](../resources/onenotesection.md) object.|
 |[Get notebook](../api/notebook-get.md)|[notebook](../resources/notebook.md)|Read properties and relationships of the [notebook](../resources/notebook.md) object.|
 
 ## Properties
@@ -34,13 +37,13 @@ Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaO
 |content|Stream||
 |contentUrl|String||
 |createdByAppId|String||
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset||
 |level|Int32||
-|links|[pageLinks](../resources/pageLinks.md)||
+|links|[pageLinks](../resources/pagelinks.md)||
 |order|Int32||
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
 |title|String||
 |userTags|String collection||
 
@@ -48,7 +51,7 @@ Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaO
 |Relationship|Type|Description|
 |:---|:---|:---|
 |parentNotebook|[notebook](../resources/notebook.md)||
-|parentSection|[onenoteSection](../resources/onenoteSection.md)||
+|parentSection|[onenoteSection](../resources/onenotesection.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

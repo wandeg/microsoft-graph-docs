@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create fileAttachment
 
+Namespace: microsoft.graph
+
 Create a new [fileAttachment](../resources/fileattachment.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.fileAttachment not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the fileAttachment object.
+In the request body, supply a JSON representation for the [fileAttachment](../resources/fileattachment.md) object.
 
-The following table shows the properties that are required when you create the fileAttachment.
+The following table shows the properties that are required when you create the [fileAttachment](../resources/fileattachment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,7 +69,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.fileAttachment not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.fileAttachment not found
 Content-type: application/json
 Content-length: 279
 
@@ -98,8 +100,8 @@ Content-Length: 392
 
 {
   "@odata.type": "#microsoft.graph.fileAttachment",
-  "id": "b4bf742a-742a-b4bf-2a74-bfb42a74bfb4",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "d3540401-0401-d354-0104-54d3010454d3",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

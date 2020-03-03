@@ -5,35 +5,36 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # directoryRoleTemplate resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List directoryRoleTemplates](../api/directoryroletemplate-list.md)|[directoryRoleTemplate](../resources/directoryRoleTemplate.md) collection|List properties and relationships of the [directoryRoleTemplate](../resources/directoryroletemplate.md) objects.|
-|[Get directoryRoleTemplate](../api/directoryroletemplate-get.md)|[directoryRoleTemplate](../resources/directoryRoleTemplate.md)|Read properties and relationships of the [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
-|[Create directoryRoleTemplate](../api/directoryroletemplate-post-directoryroletemplates.md)|[directoryRoleTemplate](../resources/directoryRoleTemplate.md)|Create a new [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
+|[List directoryRoleTemplates](../api/directoryroletemplate-list.md)|[directoryRoleTemplate](../resources/directoryroletemplate.md) collection|List properties and relationships of the [directoryRoleTemplate](../resources/directoryroletemplate.md) objects.|
+|[Get directoryRoleTemplate](../api/directoryroletemplate-get.md)|[directoryRoleTemplate](../resources/directoryroletemplate.md)|Read properties and relationships of the [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
+|[Create directoryRoleTemplate](../api/directoryroletemplate-post-directoryroletemplates.md)|[directoryRoleTemplate](../resources/directoryroletemplate.md)|Create a new [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
 |[Delete directoryRoleTemplate](../api/directoryroletemplate-delete.md)|None|Deletes a [directoryRoleTemplate](../resources/directoryroletemplate.md).|
-|[Update directoryRoleTemplate](../api/directoryroletemplate-update.md)|[directoryRoleTemplate](../resources/directoryRoleTemplate.md)|Update the properties of a [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
+|[Update directoryRoleTemplate](../api/directoryroletemplate-update.md)|[directoryRoleTemplate](../resources/directoryroletemplate.md)|Update the properties of a [directoryRoleTemplate](../resources/directoryroletemplate.md) object.|
 |[checkMemberGroups](../api/directoryroletemplate-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/directoryroletemplate-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/directoryroletemplate-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/directoryroletemplate-getmemberobjects.md)|String collection||
-|[restore](../api/directoryroletemplate-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/directoryroletemplate-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update windows81CompliancePolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [windows81CompliancePolicy](../resources/windows81compliancepolicy.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.windows81CompliancePolicy not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [windows81CompliancePolicy](../resources/windows81CompliancePolicy.md) object.
+In the request body, supply a JSON representation for the [windows81CompliancePolicy](../resources/windows81compliancepolicy.md) object.
 
 The following table shows the properties that are required when you create the [windows81CompliancePolicy](../resources/windows81compliancepolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/deviceCompliancePolicy.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|
 |passwordRequired|Boolean|Require a password to unlock Windows device.|
 |passwordBlockSimple|Boolean|Indicates whether or not to block simple password.|
 |passwordExpirationDays|Int32|Password expiration in days.|
@@ -74,7 +76,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows81CompliancePolicy not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows81CompliancePolicy not found
 Content-type: application/json
 Content-length: 596
 
@@ -107,14 +109,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 768
+Content-Length: 767
 
 {
   "@odata.type": "#microsoft.graph.windows81CompliancePolicy",
-  "id": "cf808983-8983-cf80-8389-80cf838980cf",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "2e969fc6-9fc6-2e96-c69f-962ec69f962e",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passwordRequired": true,

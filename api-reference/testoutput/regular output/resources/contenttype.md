@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # contentType resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get contentType](../api/contenttype-get.md)|[contentType](../resources/contentType.md)|Read properties and relationships of the [contentType](../resources/contenttype.md) object.|
+|[List contentTypes](../api/contenttype-list.md)|[contentType](../resources/contenttype.md) collection|List properties and relationships of the [contentType](../resources/contenttype.md) objects.|
+|[Get contentType](../api/contenttype-get.md)|[contentType](../resources/contenttype.md)|Read properties and relationships of the [contentType](../resources/contenttype.md) object.|
+|[Create contentType](../api/contenttype-create.md)|[contentType](../resources/contenttype.md)|Create a new [contentType](../resources/contenttype.md) object.|
 |[Delete contentType](../api/contenttype-delete.md)|None|Deletes a [contentType](../resources/contenttype.md).|
-|[Update contentType](../api/contenttype-update.md)|[contentType](../resources/contentType.md)|Update the properties of a [contentType](../resources/contenttype.md) object.|
-|[List columnLinks](../api/contenttype-list-columnlinks.md)|[columnLink](../resources/columnLink.md) collection|Get the columnLinks from the columnLinks navigation property.|
-|[Add columnLinks](../api/contenttype-post-columnlinks.md)|[columnLink](../resources/columnLink.md)|Add columnLinks by posting to the columnLinks collection.|
+|[Update contentType](../api/contenttype-update.md)|[contentType](../resources/contenttype.md)|Update the properties of a [contentType](../resources/contenttype.md) object.|
+|[List columnLinks](../api/contenttype-list-columnlinks.md)|[columnLink](../resources/columnlink.md) collection|Get the columnLinks from the columnLinks navigation property.|
+|[Add columnLinks](../api/contenttype-post-columnlinks.md)|[columnLink](../resources/columnlink.md)|Add columnLinks by posting to the columnLinks collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -32,9 +35,9 @@ Inherits from [entity](../resources/entity.md)
 |group|String||
 |hidden|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
 |name|String||
-|order|[contentTypeOrder](../resources/contentTypeOrder.md)||
+|order|[contentTypeOrder](../resources/contenttypeorder.md)||
 |parentId|String||
 |readOnly|Boolean||
 |sealed|Boolean||
@@ -42,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|columnLinks|[columnLink](../resources/columnLink.md) collection||
+|columnLinks|[columnLink](../resources/columnlink.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

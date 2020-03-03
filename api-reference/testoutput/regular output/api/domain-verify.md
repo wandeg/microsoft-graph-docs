@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # verify
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/domains/{domainsId}/verify
+POST https://graph.microsoft.com/localtest/domains/{domainsId}/verify
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 658
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "7b74ae91-ae91-7b74-91ae-747b91ae747b",
+    "id": "47a61309-1309-47a6-0913-a6470913a647",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,

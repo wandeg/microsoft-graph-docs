@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChart
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChart](../resources/workbookchart.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChart",
-    "id": "231e4639-4639-231e-3946-1e2339461e23",
+    "id": "aebbf3d0-f3d0-aebb-d0f3-bbaed0f3bbae",
     "height": "Double",
     "left": "Double",
     "name": "Name value",

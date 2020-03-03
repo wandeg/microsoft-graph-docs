@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update singleValueLegacyExtendedProperty
 
+Namespace: microsoft.graph
+
 Update the properties of a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.
 
 ## Permissions
@@ -41,7 +43,7 @@ PATCH /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversa
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) object.
+In the request body, supply a JSON representation for the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.
 
 The following table shows the properties that are required when you create the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
+PATCH https://graph.microsoft.com/localtest/me/messages/{messageId}/singleValueExtendedProperties/{singleValueLegacyExtendedPropertyId}
 Content-type: application/json
 Content-length: 102
 
@@ -89,7 +91,7 @@ Content-Length: 151
 
 {
   "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-  "id": "2d6af270-f270-2d6a-70f2-6a2d70f26a2d",
+  "id": "90f9f530-f530-90f9-30f5-f99030f5f990",
   "value": "Value value"
 }
 ```

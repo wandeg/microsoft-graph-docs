@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get telecomExpenseManagementPartner
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
+GET https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
 ```
 
 ### Response
@@ -72,12 +74,12 @@ Content-Length: 330
 {
   "value": {
     "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-    "id": "9019cd31-cd31-9019-31cd-199031cd1990",
+    "id": "54ce43e5-43e5-54ce-e543-ce54e543ce54",
     "displayName": "Display Name value",
     "url": "Url value",
     "appAuthorized": true,
     "enabled": true,
-    "lastConnectionDateTime": "2017-01-01T00:01:46.1399312+03:00"
+    "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
   }
 }
 ```

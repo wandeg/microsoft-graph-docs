@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartGridlines
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartGridlines](../resources/workbookChartGridlines.md) object.
+In the request body, supply a JSON representation for the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartGridlines](../resources/workbookchartgridlines.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines
 Content-type: application/json
 Content-length: 84
 
@@ -84,7 +86,7 @@ Content-Length: 133
 
 {
   "@odata.type": "#microsoft.graph.workbookChartGridlines",
-  "id": "2e3f1f5e-1f5e-2e3f-5e1f-3f2e5e1f3f2e",
+  "id": "e566e565-e565-e566-65e5-66e565e566e5",
   "visible": true
 }
 ```

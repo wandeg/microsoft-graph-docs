@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChart
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChart](../resources/workbookchart.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChart](../resources/workbookChart.md) object.
+In the request body, supply a JSON representation for the [workbookChart](../resources/workbookchart.md) object.
 
 The following table shows the properties that are required when you create the [workbookChart](../resources/workbookchart.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}
 Content-type: application/json
 Content-length: 166
 
@@ -91,7 +93,7 @@ Content-Length: 215
 
 {
   "@odata.type": "#microsoft.graph.workbookChart",
-  "id": "231e4639-4639-231e-3946-1e2339461e23",
+  "id": "aebbf3d0-f3d0-aebb-d0f3-bbaed0f3bbae",
   "height": "Double",
   "left": "Double",
   "name": "Name value",

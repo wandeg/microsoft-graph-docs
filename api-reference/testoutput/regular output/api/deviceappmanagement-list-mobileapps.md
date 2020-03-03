@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List mobileApps
 
+Namespace: microsoft.graph
+
 Get the mobileApps from the mobileApps navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 851
+Content-Length: 850
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileApp",
-      "id": "03e33c41-3c41-03e3-413c-e303413ce303",
+      "id": "4c45f8db-f8db-4c45-dbf8-454cdbf8454c",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 851
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

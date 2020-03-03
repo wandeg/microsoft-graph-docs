@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookComment
 
+Namespace: microsoft.graph
+
 Deletes a [workbookComment](../resources/workbookcomment.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}
 ```
 
 ### Response

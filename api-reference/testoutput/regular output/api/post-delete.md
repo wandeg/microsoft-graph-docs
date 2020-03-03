@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete post
 
+Namespace: microsoft.graph
+
 Deletes a [post](../resources/post.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}
+DELETE https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}
 ```
 
 ### Response

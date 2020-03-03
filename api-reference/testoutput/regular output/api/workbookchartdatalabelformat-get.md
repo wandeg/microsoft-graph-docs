@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartDataLabelFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 142
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartDataLabelFormat",
-    "id": "838f4203-4203-838f-0342-8f8303428f83"
+    "id": "cbe0fe54-fe54-cbe0-54fe-e0cb54fee0cb"
   }
 }
 ```

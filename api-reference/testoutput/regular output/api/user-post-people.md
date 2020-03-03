@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add people
 
+Namespace: microsoft.graph
+
 Add people by posting to the people collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/people/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the person object.
+In the request body, supply a JSON representation for the [person](../resources/person.md) object.
 
-The following table shows the properties that are required when you create the person.
+The following table shows the properties that are required when you create the [person](../resources/person.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -50,7 +52,7 @@ The following table shows the properties that are required when you create the p
 |birthday|String||
 |personNotes|String||
 |isFavorite|Boolean||
-|scoredEmailAddresses|[scoredEmailAddress](../resources/scoredEmailAddress.md) collection||
+|scoredEmailAddresses|[scoredEmailAddress](../resources/scoredemailaddress.md) collection||
 |phones|[phone](../resources/phone.md) collection||
 |postalAddresses|[location](../resources/location.md) collection||
 |websites|[website](../resources/website.md) collection||
@@ -60,7 +62,7 @@ The following table shows the properties that are required when you create the p
 |department|String||
 |officeLocation|String||
 |profession|String||
-|personType|[personType](../resources/personType.md)||
+|personType|[personType](../resources/persontype.md)||
 |userPrincipalName|String||
 |imAddress|String||
 
@@ -79,7 +81,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/people
+POST https://graph.microsoft.com/localtest/me/people
 Content-type: application/json
 Content-length: 2135
 
@@ -172,7 +174,7 @@ Content-Length: 2184
 
 {
   "@odata.type": "#microsoft.graph.person",
-  "id": "f4300e3a-0e3a-f430-3a0e-30f43a0e30f4",
+  "id": "da9a6eeb-6eeb-da9a-eb6e-9adaeb6e9ada",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
   "surname": "Surname value",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # process resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,7 +20,7 @@ Namespace: microsoft.graph
 |accountName|String||
 |commandLine|String||
 |createdDateTime|DateTimeOffset||
-|fileHash|[fileHash](../resources/fileHash.md)||
+|fileHash|[fileHash](../resources/filehash.md)||
 |integrityLevel|Enumeration|. Possible values are: `unknown`, `untrusted`, `low`, `medium`, `high`, `system`, `unknownFutureValue`.|
 |isElevated|Boolean||
 |name|String||

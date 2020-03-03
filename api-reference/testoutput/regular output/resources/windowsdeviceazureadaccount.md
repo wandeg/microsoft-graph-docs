@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsDeviceAzureADAccount resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsDeviceAccount](../resources/windowsDeviceAccount.md)
+
+
+Inherits from [windowsDeviceAccount](../resources/windowsdeviceaccount.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|password|String| Inherited from [windowsDeviceAccount](../resources/windowsDeviceAccount.md)|
+|password|String| Inherited from [windowsDeviceAccount](../resources/windowsdeviceaccount.md)|
 |userPrincipalName|String||
 
 ## Relationships

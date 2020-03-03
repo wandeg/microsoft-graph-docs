@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete managedDevice
 
+Namespace: microsoft.graph
+
 Deletes a [managedDevice](../resources/manageddevice.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}
+DELETE https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}
 ```
 
 ### Response

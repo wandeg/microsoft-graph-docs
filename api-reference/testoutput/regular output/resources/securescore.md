@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # secureScore resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,26 +20,28 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get secureScore](../api/securescore-get.md)|[secureScore](../resources/secureScore.md)|Read properties and relationships of the [secureScore](../resources/securescore.md) object.|
+|[List secureScores](../api/securescore-list.md)|[secureScore](../resources/securescore.md) collection|List properties and relationships of the [secureScore](../resources/securescore.md) objects.|
+|[Get secureScore](../api/securescore-get.md)|[secureScore](../resources/securescore.md)|Read properties and relationships of the [secureScore](../resources/securescore.md) object.|
+|[Create secureScore](../api/securescore-create.md)|[secureScore](../resources/securescore.md)|Create a new [secureScore](../resources/securescore.md) object.|
 |[Delete secureScore](../api/securescore-delete.md)|None|Deletes a [secureScore](../resources/securescore.md).|
-|[Update secureScore](../api/securescore-update.md)|[secureScore](../resources/secureScore.md)|Update the properties of a [secureScore](../resources/securescore.md) object.|
-|[List secureScores](../api/security-list-securescores.md)|[secureScore](../resources/secureScore.md) collection|Get the secureScores from the secureScores navigation property.|
-|[Add secureScores](../api/security-post-securescores.md)|[secureScore](../resources/secureScore.md)|Add secureScores by posting to the secureScores collection.|
+|[Update secureScore](../api/securescore-update.md)|[secureScore](../resources/securescore.md)|Update the properties of a [secureScore](../resources/securescore.md) object.|
+|[List secureScores](../api/security-list-securescores.md)|[secureScore](../resources/securescore.md) collection|Get the secureScores from the secureScores navigation property.|
+|[Add secureScores](../api/security-post-securescores.md)|[secureScore](../resources/securescore.md)|Add secureScores by posting to the secureScores collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |activeUserCount|Int32||
-|averageComparativeScores|[averageComparativeScore](../resources/averageComparativeScore.md) collection||
+|averageComparativeScores|[averageComparativeScore](../resources/averagecomparativescore.md) collection||
 |azureTenantId|String||
-|controlScores|[controlScore](../resources/controlScore.md) collection||
+|controlScores|[controlScore](../resources/controlscore.md) collection||
 |createdDateTime|DateTimeOffset||
 |currentScore|Double||
 |enabledServices|String collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |licensedUserCount|Int32||
 |maxScore|Double||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 ## Relationships
 None

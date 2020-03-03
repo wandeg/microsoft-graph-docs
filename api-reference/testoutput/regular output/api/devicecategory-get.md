@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceCategory
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceCategory
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceCategory
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 211
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCategory",
-    "id": "f5ddcef4-cef4-f5dd-f4ce-ddf5f4ceddf5",
+    "id": "cc3e1000-1000-cc3e-0010-3ecc00103ecc",
     "displayName": "Display Name value",
     "description": "Description value"
   }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update userActivity
 
+Namespace: microsoft.graph
+
 Update the properties of a [userActivity](../resources/useractivity.md) object.
 
 ## Permissions
@@ -36,14 +38,14 @@ PATCH /users/{usersId}/activities/{userActivityId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [userActivity](../resources/userActivity.md) object.
+In the request body, supply a JSON representation for the [userActivity](../resources/useractivity.md) object.
 
 The following table shows the properties that are required when you create the [userActivity](../resources/useractivity.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|visualElements|[visualInfo](../resources/visualInfo.md)||
+|visualElements|[visualInfo](../resources/visualinfo.md)||
 |activitySourceHost|String||
 |activationUrl|String||
 |appActivityId|String||
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the [
 |fallbackUrl|String||
 |lastModifiedDateTime|DateTimeOffset||
 |userTimezone|String||
-|contentInfo|[Json](../resources/Json.md)||
+|contentInfo|[Json](../resources/json.md)||
 |status|Enumeration|. Possible values are: `active`, `updated`, `deleted`, `ignored`, `unknownFutureValue`.|
 
 
@@ -72,7 +74,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/activities/{userActivityId}
+PATCH https://graph.microsoft.com/localtest/me/activities/{userActivityId}
 Content-type: application/json
 Content-length: 1103
 
@@ -99,7 +101,7 @@ Content-length: 1103
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
   "userTimezone": "User Timezone value",
   "contentInfo": {
@@ -119,11 +121,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1275
+Content-Length: 1274
 
 {
   "@odata.type": "#microsoft.graph.userActivity",
-  "id": "2527f551-f551-2527-51f5-272551f52725",
+  "id": "f20568ea-68ea-f205-ea68-05f2ea6805f2",
   "visualElements": {
     "@odata.type": "microsoft.graph.visualInfo",
     "attribution": {
@@ -145,10 +147,10 @@ Content-Length: 1275
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "userTimezone": "User Timezone value",
   "contentInfo": {
     "@odata.type": "microsoft.graph.Json"

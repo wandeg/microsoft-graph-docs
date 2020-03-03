@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # usedInsight resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,18 +20,20 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get usedInsight](../api/usedinsight-get.md)|[usedInsight](../resources/usedInsight.md)|Read properties and relationships of the [usedInsight](../resources/usedinsight.md) object.|
+|[List usedInsights](../api/usedinsight-list.md)|[usedInsight](../resources/usedinsight.md) collection|List properties and relationships of the [usedInsight](../resources/usedinsight.md) objects.|
+|[Get usedInsight](../api/usedinsight-get.md)|[usedInsight](../resources/usedinsight.md)|Read properties and relationships of the [usedInsight](../resources/usedinsight.md) object.|
+|[Create usedInsight](../api/usedinsight-create.md)|[usedInsight](../resources/usedinsight.md)|Create a new [usedInsight](../resources/usedinsight.md) object.|
 |[Delete usedInsight](../api/usedinsight-delete.md)|None|Deletes a [usedInsight](../resources/usedinsight.md).|
-|[Update usedInsight](../api/usedinsight-update.md)|[usedInsight](../resources/usedInsight.md)|Update the properties of a [usedInsight](../resources/usedinsight.md) object.|
+|[Update usedInsight](../api/usedinsight-update.md)|[usedInsight](../resources/usedinsight.md)|Update the properties of a [usedInsight](../resources/usedinsight.md) object.|
 |[Get entity](../api/entity-get.md)|[entity](../resources/entity.md)|Read properties and relationships of the [entity](../resources/entity.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastUsed|[usageDetails](../resources/usageDetails.md)||
-|resourceReference|[resourceReference](../resources/resourceReference.md)||
-|resourceVisualization|[resourceVisualization](../resources/resourceVisualization.md)||
+|lastUsed|[usageDetails](../resources/usagedetails.md)||
+|resourceReference|[resourceReference](../resources/resourcereference.md)||
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)||
 
 ## Relationships
 |Relationship|Type|Description|

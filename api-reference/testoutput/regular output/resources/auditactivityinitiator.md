@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # auditActivityInitiator resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|app|[appIdentity](../resources/appIdentity.md)||
-|user|[userIdentity](../resources/userIdentity.md)||
+|app|[appIdentity](../resources/appidentity.md)||
+|user|[userIdentity](../resources/useridentity.md)||
 
 ## Relationships
 None

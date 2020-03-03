@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceCompliancePolicyState
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceC
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceCompliancePolicyState](../resources/deviceCompliancePolicyState.md) object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.
 
 The following table shows the properties that are required when you create the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|settingStates|[deviceCompliancePolicySettingState](../resources/deviceCompliancePolicySettingState.md) collection||
+|settingStates|[deviceCompliancePolicySettingState](../resources/devicecompliancepolicysettingstate.md) collection||
 |displayName|String|The name of the policy for this policyBase|
 |version|Int32|The version of the policy|
 |platformType|Enumeration|Platform type that the policy applies to. Possible values are: `android`, `iOS`, `macOS`, `windowsPhone81`, `windows81AndLater`, `windows10AndLater`, `androidWorkProfile`, `all`.|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceCompliancePolicyStateId}
+PATCH https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceCompliancePolicyStateId}
 Content-type: application/json
 Content-length: 962
 
@@ -115,7 +117,7 @@ Content-Length: 1011
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-  "id": "38a58f8e-8f8e-38a5-8e8f-a5388e8fa538",
+  "id": "17874245-4245-1787-4542-871745428717",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

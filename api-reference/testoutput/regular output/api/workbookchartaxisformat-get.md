@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartAxisFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartAxisFormat",
-    "id": "e4d7e240-e240-e4d7-40e2-d7e440e2d7e4"
+    "id": "b5f2923b-923b-b5f2-3b92-f2b53b92f2b5"
   }
 }
 ```

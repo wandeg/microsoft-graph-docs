@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete drive
 
+Namespace: microsoft.graph
+
 Deletes a [drive](../resources/drive.md).
 
 ## Permissions
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/drive
+DELETE https://graph.microsoft.com/localtest/drive
 ```
 
 ### Response

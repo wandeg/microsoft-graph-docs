@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add mobileAppConfigurations
 
+Namespace: microsoft.graph
+
 Add mobileAppConfigurations by posting to the mobileAppConfigurations collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileAppConfigurations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedDeviceMobileAppConfiguration object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfiguration](../resources/manageddevicemobileappconfiguration.md) object.
 
-The following table shows the properties that are required when you create the managedDeviceMobileAppConfiguration.
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfiguration](../resources/manageddevicemobileappconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations
 Content-type: application/json
 Content-length: 240
 
@@ -91,17 +93,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 412
+Content-Length: 411
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfiguration",
-  "id": "a0c65bfa-5bfa-a0c6-fa5b-c6a0fa5bc6a0",
+  "id": "c7c76567-6567-c7c7-6765-c7c76765c7c7",
   "targetedMobileApps": [
     "Targeted Mobile Apps value"
   ],
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "displayName": "Display Name value",
   "version": 7
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartTitleFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartTitleFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartTitleFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 156
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartTitleFormat",
-      "id": "e0c7a821-a821-e0c7-21a8-c7e021a8c7e0"
+      "id": "ef983830-3830-ef98-3038-98ef303898ef"
     }
   ]
 }

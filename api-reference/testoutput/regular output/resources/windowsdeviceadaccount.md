@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # windowsDeviceADAccount resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [windowsDeviceAccount](../resources/windowsDeviceAccount.md)
+
+
+Inherits from [windowsDeviceAccount](../resources/windowsdeviceaccount.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |domainName|String||
-|password|String| Inherited from [windowsDeviceAccount](../resources/windowsDeviceAccount.md)|
+|password|String| Inherited from [windowsDeviceAccount](../resources/windowsdeviceaccount.md)|
 |userName|String||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedEBookAssignment
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedEBookAssignment](../resources/managedebookassignment.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/assignments/{managedEBookAssignmentId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 272
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedEBookAssignment",
-    "id": "f2565fcc-5fcc-f256-cc5f-56f2cc5f56f2",
+    "id": "5eae703f-703f-5eae-3f70-ae5e3f70ae5e",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     },

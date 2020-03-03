@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List unmuteParticipantOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.unmuteParticipantOperation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.unmuteParticipantOperation not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 399
   "value": [
     {
       "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-      "id": "89394578-4578-8939-7845-398978453989",
+      "id": "ac3993bc-93bc-ac39-bc93-39acbc9339ac",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

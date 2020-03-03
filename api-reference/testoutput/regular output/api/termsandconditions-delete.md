@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete termsAndConditions
 
+Namespace: microsoft.graph
+
 Deletes a [termsAndConditions](../resources/termsandconditions.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/termsAndConditions/{termsAndConditionsId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}
 ```
 
 ### Response

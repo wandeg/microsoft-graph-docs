@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List charts
 
+Namespace: microsoft.graph
+
 Get the workbookCharts from the charts navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 276
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChart",
-      "id": "231e4639-4639-231e-3946-1e2339461e23",
+      "id": "aebbf3d0-f3d0-aebb-d0f3-bbaed0f3bbae",
       "height": "Double",
       "left": "Double",
       "name": "Name value",

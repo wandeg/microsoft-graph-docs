@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookPivotTable
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookPivotTable](../resources/workbookpivottable.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/pivotTables/{workbookPivotTableId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/pivotTables/{workbookPivotTableId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 159
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookPivotTable",
-    "id": "b916fe5a-fe5a-b916-5afe-16b95afe16b9",
+    "id": "50d261cf-61cf-50d2-cf61-d250cf61d250",
     "name": "Name value"
   }
 }

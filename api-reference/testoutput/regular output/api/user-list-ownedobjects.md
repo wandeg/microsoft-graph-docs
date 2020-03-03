@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List ownedObjects
 
+Namespace: microsoft.graph
+
 Get the directoryObjects from the ownedObjects navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/ownedObjects
+GET https://graph.microsoft.com/localtest/me/ownedObjects
 ```
 
 ### Response
@@ -71,8 +73,8 @@ Content-Length: 210
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryObject",
-      "id": "dcd736cb-36cb-dcd7-cb36-d7dccb36d7dc",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+      "id": "4ad1a8b9-a8b9-4ad1-b9a8-d14ab9a8d14a",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
     }
   ]
 }

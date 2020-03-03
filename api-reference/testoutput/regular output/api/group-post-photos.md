@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add photos
 
+Namespace: microsoft.graph
+
 Add photos by posting to the photos collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedTeams/{groupId}/photos/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the profilePhoto object.
+In the request body, supply a JSON representation for the [profilePhoto](../resources/profilephoto.md) object.
 
-The following table shows the properties that are required when you create the profilePhoto.
+The following table shows the properties that are required when you create the [profilePhoto](../resources/profilephoto.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/photos
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/photos
 Content-type: application/json
 Content-length: 85
 
@@ -88,7 +90,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.profilePhoto",
-  "id": "1fe344be-44be-1fe3-be44-e31fbe44e31f",
+  "id": "ee96df92-df92-ee96-92df-96ee92df96ee",
   "height": 6,
   "width": 5
 }

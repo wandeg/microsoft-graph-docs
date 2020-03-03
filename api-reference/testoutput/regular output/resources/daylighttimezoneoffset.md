@@ -5,26 +5,27 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # daylightTimeZoneOffset resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)
+
+
+Inherits from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |daylightBias|Int32||
-|dayOccurrence|Int32| Inherited from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)|
-|dayOfWeek|Enumeration| Inherited from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md). Possible values are: `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`.|
-|month|Int32| Inherited from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)|
-|time|TimeOfDay| Inherited from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)|
-|year|Int32| Inherited from [standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)|
+|dayOccurrence|Int32| Inherited from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md)|
+|dayOfWeek|Enumeration| Inherited from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md). Possible values are: `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`.|
+|month|Int32| Inherited from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md)|
+|time|TimeOfDay| Inherited from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md)|
+|year|Int32| Inherited from [standardTimeZoneOffset](../resources/standardtimezoneoffset.md)|
 
 ## Relationships
 None

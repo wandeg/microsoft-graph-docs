@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create itemAttachment
 
+Namespace: microsoft.graph
+
 Create a new [itemAttachment](../resources/itemattachment.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.itemAttachment not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the itemAttachment object.
+In the request body, supply a JSON representation for the [itemAttachment](../resources/itemattachment.md) object.
 
-The following table shows the properties that are required when you create the itemAttachment.
+The following table shows the properties that are required when you create the [itemAttachment](../resources/itemattachment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.itemAttachment not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.itemAttachment not found
 Content-type: application/json
 Content-length: 156
 
@@ -92,8 +94,8 @@ Content-Length: 269
 
 {
   "@odata.type": "#microsoft.graph.itemAttachment",
-  "id": "609851b2-51b2-6098-b251-9860b2519860",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "26467e66-7e66-2646-667e-4626667e4626",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

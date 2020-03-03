@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get reportRoot
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [reportRoot](../resources/reportroot.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/reports
+GET https://graph.microsoft.com/localtest/reports
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 124
 {
   "value": {
     "@odata.type": "#microsoft.graph.reportRoot",
-    "id": "eb4ac79f-c79f-eb4a-9fc7-4aeb9fc74aeb"
+    "id": "547db234-b234-547d-34b2-7d5434b27d54"
   }
 }
 ```

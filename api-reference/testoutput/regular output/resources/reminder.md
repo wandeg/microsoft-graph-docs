@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # reminder resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,13 +18,13 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |changeKey|String||
-|eventEndTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|eventEndTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |eventId|String||
 |eventLocation|[location](../resources/location.md)||
-|eventStartTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|eventStartTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |eventSubject|String||
 |eventWebLink|String||
-|reminderFireTime|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|reminderFireTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 
 ## Relationships
 None

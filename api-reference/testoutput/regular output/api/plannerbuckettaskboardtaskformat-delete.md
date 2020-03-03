@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete plannerBucketTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Deletes a [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
+DELETE https://graph.microsoft.com/localtest/me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
 ```
 
 ### Response

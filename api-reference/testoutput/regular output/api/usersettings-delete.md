@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete userSettings
 
+Namespace: microsoft.graph
+
 Deletes a [userSettings](../resources/usersettings.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/settings
+DELETE https://graph.microsoft.com/localtest/me/settings
 ```
 
 ### Response

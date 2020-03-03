@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceConfigurationUserStatus
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuses/{deviceConfigurationUserStatusId}
+GET https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuses/{deviceConfigurationUserStatusId}
 ```
 
 ### Response
@@ -72,11 +74,11 @@ Content-Length: 365
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationUserStatus",
-    "id": "a26be83b-e83b-a26b-3be8-6ba23be86ba2",
+    "id": "700ae0cb-e0cb-700a-cbe0-0a70cbe00a70",
     "userDisplayName": "User Display Name value",
     "devicesCount": 12,
     "status": "String",
-    "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+    "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

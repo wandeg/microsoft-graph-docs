@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get playPromptOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [playPromptOperation](../resources/playpromptoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.playPromptOperation not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.playPromptOperation not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 358
 {
   "value": {
     "@odata.type": "#microsoft.graph.playPromptOperation",
-    "id": "18abcf17-cf17-18ab-17cf-ab1817cfab18",
+    "id": "759506b5-06b5-7595-b506-9575b5069575",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

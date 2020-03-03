@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # delta
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -38,7 +40,7 @@ GET /directoryRoles/delta
 Do not supply a request body for this method.
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [directoryRole](../resources/directoryRole.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [directoryRole](../resources/directoryrole.md) collection in the response body.
 
 ## Example
 
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/directoryRoles/delta
+GET https://graph.microsoft.com/localtest/directoryRoles/delta
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 346
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryRole",
-      "id": "dfc43b4d-3b4d-dfc4-4d3b-c4df4d3bc4df",
-      "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+      "id": "d73ed86c-d86c-d73e-6cd8-3ed76cd83ed7",
+      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "roleTemplateId": "Role Template Id value"

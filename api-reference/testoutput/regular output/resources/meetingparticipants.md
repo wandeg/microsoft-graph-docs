@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # meetingParticipants resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attendees|[meetingParticipantInfo](../resources/meetingParticipantInfo.md) collection||
-|organizer|[meetingParticipantInfo](../resources/meetingParticipantInfo.md)||
+|attendees|[meetingParticipantInfo](../resources/meetingparticipantinfo.md) collection||
+|organizer|[meetingParticipantInfo](../resources/meetingparticipantinfo.md)||
 
 ## Relationships
 None

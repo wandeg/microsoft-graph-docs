@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # customTimeZone resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [timeZoneBase](../resources/timeZoneBase.md)
+
+
+Inherits from [timeZoneBase](../resources/timezonebase.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |bias|Int32||
-|daylightOffset|[daylightTimeZoneOffset](../resources/daylightTimeZoneOffset.md)||
-|name|String| Inherited from [timeZoneBase](../resources/timeZoneBase.md)|
-|standardOffset|[standardTimeZoneOffset](../resources/standardTimeZoneOffset.md)||
+|daylightOffset|[daylightTimeZoneOffset](../resources/daylighttimezoneoffset.md)||
+|name|String| Inherited from [timeZoneBase](../resources/timezonebase.md)|
+|standardOffset|[standardTimeZoneOffset](../resources/standardtimezoneoffset.md)||
 
 ## Relationships
 None

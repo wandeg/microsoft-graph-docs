@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceAppManagement
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceAppManagement](../resources/deviceappmanagement.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceAppManagement](../resources/deviceAppManagement.md) object.
+In the request body, supply a JSON representation for the [deviceAppManagement](../resources/deviceappmanagement.md) object.
 
 The following table shows the properties that are required when you create the [deviceAppManagement](../resources/deviceappmanagement.md).
 
@@ -62,16 +64,16 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement
 Content-type: application/json
 Content-length: 394
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:02:49.8925059+03:00",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:40.6655328+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:43.9010267+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:25.1903918+03:00"
 }
 ```
 
@@ -89,11 +91,11 @@ Content-Length: 443
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "id": "a20f4605-4605-a20f-0546-0fa205460fa2",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:02:49.8925059+03:00",
+  "id": "d0c4667a-667a-d0c4-7a66-c4d07a66c4d0",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:40.6655328+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:00:43.9010267+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:25.1903918+03:00"
 }
 ```
 

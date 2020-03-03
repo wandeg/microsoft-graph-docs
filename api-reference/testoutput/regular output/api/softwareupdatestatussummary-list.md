@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List softwareUpdateStatusSummaries
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.softwareUpdateStatusSummary not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.softwareUpdateStatusSummary not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 668
   "value": [
     {
       "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-      "id": "029d2de0-2de0-029d-e02d-9d02e02d9d02",
+      "id": "8f2b8162-8162-8f2b-6281-2b8f62812b8f",
       "displayName": "Display Name value",
       "compliantDeviceCount": 4,
       "nonCompliantDeviceCount": 7,

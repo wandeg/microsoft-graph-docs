@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartLineFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartLineFormat](../resources/workbookchartlineformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartLineFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartLineFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 186
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-      "id": "d93aa64e-a64e-d93a-4ea6-3ad94ea63ad9",
+      "id": "45e400e9-00e9-45e4-e900-e445e900e445",
       "color": "Color value"
     }
   ]

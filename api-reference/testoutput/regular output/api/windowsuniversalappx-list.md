@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsUniversalAppXs
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsUniversalAppX](../resources/windowsuniversalappx.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsUniversalAppX not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsUniversalAppX not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1532
+Content-Length: 1531
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUniversalAppX",
-      "id": "fe2f82ef-82ef-fe2f-ef82-2ffeef822ffe",
+      "id": "b566f7da-f7da-b566-daf7-66b5daf766b5",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1532
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

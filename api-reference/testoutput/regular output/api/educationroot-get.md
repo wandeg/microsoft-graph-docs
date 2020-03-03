@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationRoot
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationRoot](../resources/educationroot.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/education
+GET https://graph.microsoft.com/localtest/education
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationRoot",
-    "id": "f19f5c6b-5c6b-f19f-6b5c-9ff16b5c9ff1"
+    "id": "a852b66a-b66a-a852-6ab6-52a86ab652a8"
   }
 }
 ```

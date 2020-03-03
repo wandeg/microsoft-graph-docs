@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List singleValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/messages/{messageId}/microsoft.graph.eventMessage/event/calendar/singleValueExtendedProperties
+GET https://graph.microsoft.com/localtest/me/messages/{messageId}/microsoft.graph.eventMessage/event/calendar/singleValueExtendedProperties
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 196
   "value": [
     {
       "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-      "id": "2d6af270-f270-2d6a-70f2-6a2d70f26a2d",
+      "id": "90f9f530-f530-90f9-30f5-f99030f5f990",
       "value": "Value value"
     }
   ]

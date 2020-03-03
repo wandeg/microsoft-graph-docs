@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create enrollmentTroubleshootingEvent
 
+Namespace: microsoft.graph
+
 Create a new [enrollmentTroubleshootingEvent](../resources/enrollmenttroubleshootingevent.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.enrollmentTroubleshootingEvent not fo
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the enrollmentTroubleshootingEvent object.
+In the request body, supply a JSON representation for the [enrollmentTroubleshootingEvent](../resources/enrollmenttroubleshootingevent.md) object.
 
-The following table shows the properties that are required when you create the enrollmentTroubleshootingEvent.
+The following table shows the properties that are required when you create the [enrollmentTroubleshootingEvent](../resources/enrollmenttroubleshootingevent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|eventDateTime|DateTimeOffset|Time when the event occurred . Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
-|correlationId|String|Id used for tracing the failure in the service. Inherited from [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md)|
+|eventDateTime|DateTimeOffset|Time when the event occurred . Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
+|correlationId|String|Id used for tracing the failure in the service. Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
 |managedDeviceIdentifier|String|Device identifier created or collected by Intune.|
 |operatingSystem|String|Operating System.|
 |osVersion|String|OS Version.|
@@ -69,13 +71,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.enrollmentTroubleshootingEvent not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.enrollmentTroubleshootingEvent not found
 Content-type: application/json
 Content-length: 493
 
 {
   "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "operatingSystem": "Operating System value",
@@ -103,8 +105,8 @@ Content-Length: 542
 
 {
   "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-  "id": "d3ab2769-2769-d3ab-6927-abd36927abd3",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "id": "b7e9f5c5-f5c5-b7e9-c5f5-e9b7c5f5e9b7",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "operatingSystem": "Operating System value",

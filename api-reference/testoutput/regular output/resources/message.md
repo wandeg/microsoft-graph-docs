@@ -5,21 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # message resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [outlookItem](../resources/outlookItem.md)
+
+
+Inherits from [outlookItem](../resources/outlookitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List messages](../api/message-list.md)|[message](../resources/message.md) collection|List properties and relationships of the [message](../resources/message.md) objects.|
 |[Get message](../api/message-get.md)|[message](../resources/message.md)|Read properties and relationships of the [message](../resources/message.md) object.|
+|[Create message](../api/message-create.md)|[message](../resources/message.md)|Create a new [message](../resources/message.md) object.|
 |[Delete message](../api/message-delete.md)|None|Deletes a [message](../resources/message.md).|
 |[Update message](../api/message-update.md)|[message](../resources/message.md)|Update the properties of a [message](../resources/message.md) object.|
 |[createReply](../api/message-createreply.md)|[message](../resources/message.md)||
@@ -31,10 +34,10 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |[reply](../api/message-reply.md)|None||
 |[replyAll](../api/message-replyall.md)|None||
 |[forward](../api/message-forward.md)|None||
-|[List singleValueExtendedProperties](../api/message-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/message-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/message-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/message-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[List singleValueExtendedProperties](../api/message-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/message-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/message-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/message-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
 |[List attachments](../api/message-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
 |[Add attachments](../api/message-post-attachments.md)|[attachment](../resources/attachment.md)|Add attachments by posting to the attachments collection.|
 |[List extensions](../api/message-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
@@ -44,27 +47,27 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |bccRecipients|[recipient](../resources/recipient.md) collection||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
 |ccRecipients|[recipient](../resources/recipient.md) collection||
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
 |conversationId|String||
 |conversationIndex|Binary||
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|flag|[followupFlag](../resources/followupFlag.md)||
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|flag|[followupFlag](../resources/followupflag.md)||
 |from|[recipient](../resources/recipient.md)||
 |hasAttachments|Boolean||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |importance|Enumeration|. Possible values are: `low`, `normal`, `high`.|
 |inferenceClassification|Enumeration|. Possible values are: `focused`, `other`.|
-|internetMessageHeaders|[internetMessageHeader](../resources/internetMessageHeader.md) collection||
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection||
 |internetMessageId|String||
 |isDeliveryReceiptRequested|Boolean||
 |isDraft|Boolean||
 |isRead|Boolean||
 |isReadReceiptRequested|Boolean||
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |parentFolderId|String||
 |receivedDateTime|DateTimeOffset||
 |replyTo|[recipient](../resources/recipient.md) collection||
@@ -72,7 +75,7 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |sentDateTime|DateTimeOffset||
 |subject|String||
 |toRecipients|[recipient](../resources/recipient.md) collection||
-|uniqueBody|[itemBody](../resources/itemBody.md)||
+|uniqueBody|[itemBody](../resources/itembody.md)||
 |webLink|String||
 
 ## Relationships
@@ -80,8 +83,8 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |:---|:---|:---|
 |attachments|[attachment](../resources/attachment.md) collection||
 |extensions|[extension](../resources/extension.md) collection||
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection||
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection||
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

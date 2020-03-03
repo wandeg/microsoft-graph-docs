@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create tasks
 
+Namespace: microsoft.graph
+
 Create tasks by posting to the tasks collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /me/planner/plans/{plannerPlanId}/tasks/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerTask object.
+In the request body, supply a JSON representation for the [plannerTask](../resources/plannertask.md) object.
 
-The following table shows the properties that are required when you create the plannerTask.
+The following table shows the properties that are required when you create the [plannerTask](../resources/plannertask.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |planId|String||
 |bucketId|String||
 |title|String||
@@ -56,12 +58,12 @@ The following table shows the properties that are required when you create the p
 |hasDescription|Boolean||
 |previewType|Enumeration|. Possible values are: `automatic`, `noPreview`, `checklist`, `description`, `reference`.|
 |completedDateTime|DateTimeOffset||
-|completedBy|[identitySet](../resources/identitySet.md)||
+|completedBy|[identitySet](../resources/identityset.md)||
 |referenceCount|Int32||
 |checklistItemCount|Int32||
 |activeChecklistItemCount|Int32||
-|appliedCategories|[plannerAppliedCategories](../resources/plannerAppliedCategories.md)||
-|assignments|[plannerAssignments](../resources/plannerAssignments.md)||
+|appliedCategories|[plannerAppliedCategories](../resources/plannerappliedcategories.md)||
+|assignments|[plannerAssignments](../resources/plannerassignments.md)||
 |conversationThreadId|String||
 
 
@@ -79,7 +81,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/planner/plans/{plannerPlanId}/tasks
+POST https://graph.microsoft.com/localtest/me/planner/plans/{plannerPlanId}/tasks
 Content-type: application/json
 Content-length: 1252
 
@@ -105,11 +107,11 @@ Content-length: 1252
   "orderHint": "Order Hint value",
   "assigneePriority": "Assignee Priority value",
   "percentComplete": 15,
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "dueDateTime": "2017-01-01T00:01:40.9127606+03:00",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "dueDateTime": "2017-01-01T00:00:08.6678478+03:00",
   "hasDescription": true,
   "previewType": "String",
-  "completedDateTime": "2017-01-01T00:03:33.2969899+03:00",
+  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
   "completedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
@@ -137,11 +139,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1360
+Content-Length: 1359
 
 {
   "@odata.type": "#microsoft.graph.plannerTask",
-  "id": "8b0111d1-11d1-8b01-d111-018bd111018b",
+  "id": "eaa76e14-6e14-eaa7-146e-a7ea146ea7ea",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -162,12 +164,12 @@ Content-Length: 1360
   "orderHint": "Order Hint value",
   "assigneePriority": "Assignee Priority value",
   "percentComplete": 15,
-  "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "dueDateTime": "2017-01-01T00:01:40.9127606+03:00",
+  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "dueDateTime": "2017-01-01T00:00:08.6678478+03:00",
   "hasDescription": true,
   "previewType": "String",
-  "completedDateTime": "2017-01-01T00:03:33.2969899+03:00",
+  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
   "completedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

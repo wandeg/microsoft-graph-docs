@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChart resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,17 +20,19 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get workbookChart](../api/workbookchart-get.md)|[workbookChart](../resources/workbookChart.md)|Read properties and relationships of the [workbookChart](../resources/workbookchart.md) object.|
+|[List workbookCharts](../api/workbookchart-list.md)|[workbookChart](../resources/workbookchart.md) collection|List properties and relationships of the [workbookChart](../resources/workbookchart.md) objects.|
+|[Get workbookChart](../api/workbookchart-get.md)|[workbookChart](../resources/workbookchart.md)|Read properties and relationships of the [workbookChart](../resources/workbookchart.md) object.|
+|[Create workbookChart](../api/workbookchart-create.md)|[workbookChart](../resources/workbookchart.md)|Create a new [workbookChart](../resources/workbookchart.md) object.|
 |[Delete workbookChart](../api/workbookchart-delete.md)|None|Deletes a [workbookChart](../resources/workbookchart.md).|
-|[Update workbookChart](../api/workbookchart-update.md)|[workbookChart](../resources/workbookChart.md)|Update the properties of a [workbookChart](../resources/workbookchart.md) object.|
-|[Get workbookChartAxes](../api/workbookchartaxes-get.md)|[workbookChartAxes](../resources/workbookChartAxes.md)|Read properties and relationships of the [workbookChartAxes](../resources/workbookchartaxes.md) object.|
-|[Get workbookChartDataLabels](../api/workbookchartdatalabels-get.md)|[workbookChartDataLabels](../resources/workbookChartDataLabels.md)|Read properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
-|[Get workbookChartAreaFormat](../api/workbookchartareaformat-get.md)|[workbookChartAreaFormat](../resources/workbookChartAreaFormat.md)|Read properties and relationships of the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.|
-|[Get workbookChartLegend](../api/workbookchartlegend-get.md)|[workbookChartLegend](../resources/workbookChartLegend.md)|Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.|
-|[List series](../api/workbookchart-list-series.md)|[workbookChartSeries](../resources/workbookChartSeries.md) collection|Get the workbookChartSerieses from the series navigation property.|
-|[Add series](../api/workbookchart-post-series.md)|[workbookChartSeries](../resources/workbookChartSeries.md)|Add series by posting to the series collection.|
-|[Get workbookChartTitle](../api/workbookcharttitle-get.md)|[workbookChartTitle](../resources/workbookChartTitle.md)|Read properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) object.|
-|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookWorksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
+|[Update workbookChart](../api/workbookchart-update.md)|[workbookChart](../resources/workbookchart.md)|Update the properties of a [workbookChart](../resources/workbookchart.md) object.|
+|[Get workbookChartAxes](../api/workbookchartaxes-get.md)|[workbookChartAxes](../resources/workbookchartaxes.md)|Read properties and relationships of the [workbookChartAxes](../resources/workbookchartaxes.md) object.|
+|[Get workbookChartDataLabels](../api/workbookchartdatalabels-get.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)|Read properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
+|[Get workbookChartAreaFormat](../api/workbookchartareaformat-get.md)|[workbookChartAreaFormat](../resources/workbookchartareaformat.md)|Read properties and relationships of the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.|
+|[Get workbookChartLegend](../api/workbookchartlegend-get.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.|
+|[List series](../api/workbookchart-list-series.md)|[workbookChartSeries](../resources/workbookchartseries.md) collection|Get the workbookChartSerieses from the series navigation property.|
+|[Add series](../api/workbookchart-post-series.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Add series by posting to the series collection.|
+|[Get workbookChartTitle](../api/workbookcharttitle-get.md)|[workbookChartTitle](../resources/workbookcharttitle.md)|Read properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) object.|
+|[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,13 +47,13 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|axes|[workbookChartAxes](../resources/workbookChartAxes.md)||
-|dataLabels|[workbookChartDataLabels](../resources/workbookChartDataLabels.md)||
-|format|[workbookChartAreaFormat](../resources/workbookChartAreaFormat.md)||
-|legend|[workbookChartLegend](../resources/workbookChartLegend.md)||
-|series|[workbookChartSeries](../resources/workbookChartSeries.md) collection||
-|title|[workbookChartTitle](../resources/workbookChartTitle.md)||
-|worksheet|[workbookWorksheet](../resources/workbookWorksheet.md)||
+|axes|[workbookChartAxes](../resources/workbookchartaxes.md)||
+|dataLabels|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)||
+|format|[workbookChartAreaFormat](../resources/workbookchartareaformat.md)||
+|legend|[workbookChartLegend](../resources/workbookchartlegend.md)||
+|series|[workbookChartSeries](../resources/workbookchartseries.md) collection||
+|title|[workbookChartTitle](../resources/workbookcharttitle.md)||
+|worksheet|[workbookWorksheet](../resources/workbookworksheet.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update openTypeExtension
 
+Namespace: microsoft.graph
+
 Update the properties of a [openTypeExtension](../resources/opentypeextension.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.openTypeExtension not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [openTypeExtension](../resources/openTypeExtension.md) object.
+In the request body, supply a JSON representation for the [openTypeExtension](../resources/opentypeextension.md) object.
 
 The following table shows the properties that are required when you create the [openTypeExtension](../resources/opentypeextension.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.openTypeExtension not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.openTypeExtension not found
 Content-type: application/json
 Content-length: 103
 
@@ -83,7 +85,7 @@ Content-Length: 152
 
 {
   "@odata.type": "#microsoft.graph.openTypeExtension",
-  "id": "d756f530-f530-d756-30f5-56d730f556d7",
+  "id": "bbbee599-e599-bbbe-99e5-bebb99e5bebb",
   "extensionName": "Extension Name value"
 }
 ```

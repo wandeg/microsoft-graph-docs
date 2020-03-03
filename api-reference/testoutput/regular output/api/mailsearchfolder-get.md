@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mailSearchFolder
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mailSearchFolder](../resources/mailsearchfolder.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.mailSearchFolder not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.mailSearchFolder not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 474
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailSearchFolder",
-    "id": "cbdb126e-126e-cbdb-6e12-dbcb6e12dbcb",
+    "id": "5a30dba9-dba9-5a30-a9db-305aa9db305a",
     "displayName": "Display Name value",
     "parentFolderId": "Parent Folder Id value",
     "childFolderCount": 0,

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # addIn resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |id|Guid||
-|properties|[keyValue](../resources/keyValue.md) collection||
+|properties|[keyValue](../resources/keyvalue.md) collection||
 |type|String||
 
 ## Relationships

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # webApplication resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,7 +18,7 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |homePageUrl|String||
-|implicitGrantSettings|[implicitGrantSettings](../resources/implicitGrantSettings.md)||
+|implicitGrantSettings|[implicitGrantSettings](../resources/implicitgrantsettings.md)||
 |logoutUrl|String||
 |redirectUris|String collection||
 

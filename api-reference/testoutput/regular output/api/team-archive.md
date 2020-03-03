@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # archive
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/archive
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/archive
 
 Content-type: application/json
 Content-length: 50

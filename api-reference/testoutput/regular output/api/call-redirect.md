@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # redirect
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,7 +44,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|targets|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
+|targets|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
 |timeout|Int32||
 |callbackUri|String||
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/redirect
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/redirect
 
 Content-type: application/json
 Content-length: 213

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookRangeFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookRangeFormat](../resources/workbookrangeformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookRangeFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookRangeFormat object.
+In the request body, supply a JSON representation for the [workbookRangeFormat](../resources/workbookrangeformat.md) object.
 
-The following table shows the properties that are required when you create the workbookRangeFormat.
+The following table shows the properties that are required when you create the [workbookRangeFormat](../resources/workbookrangeformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookRangeFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookRangeFormat not found
 Content-type: application/json
 Content-length: 244
 
@@ -93,7 +95,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFormat",
-  "id": "be015bc2-5bc2-be01-c25b-01bec25b01be",
+  "id": "5a1e652c-652c-5a1e-2c65-1e5a2c651e5a",
   "columnWidth": "Double",
   "horizontalAlignment": "Horizontal Alignment value",
   "rowHeight": "Double",

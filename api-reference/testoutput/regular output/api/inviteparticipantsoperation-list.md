@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List inviteParticipantsOperations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.inviteParticipantsOperation not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.inviteParticipantsOperation not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1144
   "value": [
     {
       "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-      "id": "b4cc9683-9683-b4cc-8396-ccb48396ccb4",
+      "id": "999da5ae-a5ae-999d-aea5-9d99aea59d99",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

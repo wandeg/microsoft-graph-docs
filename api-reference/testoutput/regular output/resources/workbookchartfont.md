@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartFont resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartFonts](../api/workbookchartfont-list.md)|[workbookChartFont](../resources/workbookChartFont.md) collection|List properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) objects.|
-|[Get workbookChartFont](../api/workbookchartfont-get.md)|[workbookChartFont](../resources/workbookChartFont.md)|Read properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) object.|
-|[Create workbookChartFont](../api/workbookchartfont-create.md)|[workbookChartFont](../resources/workbookChartFont.md)|Create a new [workbookChartFont](../resources/workbookchartfont.md) object.|
+|[List workbookChartFonts](../api/workbookchartfont-list.md)|[workbookChartFont](../resources/workbookchartfont.md) collection|List properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) objects.|
+|[Get workbookChartFont](../api/workbookchartfont-get.md)|[workbookChartFont](../resources/workbookchartfont.md)|Read properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) object.|
+|[Create workbookChartFont](../api/workbookchartfont-create.md)|[workbookChartFont](../resources/workbookchartfont.md)|Create a new [workbookChartFont](../resources/workbookchartfont.md) object.|
 |[Delete workbookChartFont](../api/workbookchartfont-delete.md)|None|Deletes a [workbookChartFont](../resources/workbookchartfont.md).|
-|[Update workbookChartFont](../api/workbookchartfont-update.md)|[workbookChartFont](../resources/workbookChartFont.md)|Update the properties of a [workbookChartFont](../resources/workbookchartfont.md) object.|
+|[Update workbookChartFont](../api/workbookchartfont-update.md)|[workbookChartFont](../resources/workbookchartfont.md)|Update the properties of a [workbookChartFont](../resources/workbookchartfont.md) object.|
 
 ## Properties
 |Property|Type|Description|

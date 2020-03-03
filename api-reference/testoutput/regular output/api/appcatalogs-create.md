@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create appCatalogs
 
+Namespace: microsoft.graph
+
 Create a new [appCatalogs](../resources/appcatalogs.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.appCatalogs not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the appCatalogs object.
+In the request body, supply a JSON representation for the [appCatalogs](../resources/appcatalogs.md) object.
 
-The following table shows the properties that are required when you create the appCatalogs.
+The following table shows the properties that are required when you create the [appCatalogs](../resources/appcatalogs.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.appCatalogs not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.appCatalogs not found
 Content-type: application/json
 Content-length: 53
 
@@ -83,7 +85,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.appCatalogs",
-  "id": "25667c54-7c54-2566-547c-6625547c6625"
+  "id": "4a7c32b4-32b4-4a7c-b432-7c4ab4327c4a"
 }
 ```
 

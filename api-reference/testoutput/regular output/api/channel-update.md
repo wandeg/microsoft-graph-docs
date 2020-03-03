@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update channel
 
+Namespace: microsoft.graph
+
 Update the properties of a [channel](../resources/channel.md) object.
 
 ## Permissions
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/teams/{teamsId}/channels/{channelId}
+PATCH https://graph.microsoft.com/localtest/teams/{teamsId}/channels/{channelId}
 Content-type: application/json
 Content-length: 199
 
@@ -90,7 +92,7 @@ Content-Length: 248
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "a6ca9118-9118-a6ca-1891-caa61891caa6",
+  "id": "2a033dd8-3dd8-2a03-d83d-032ad83d032a",
   "displayName": "Display Name value",
   "description": "Description value",
   "email": "Email value",

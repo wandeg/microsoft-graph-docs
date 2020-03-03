@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windows10CompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windows10CompliancePolicy](../resources/windows10compliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10CompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10CompliancePolicy not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1257
+Content-Length: 1256
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
-      "id": "d28d081f-081f-d28d-1f08-8dd21f088dd2",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "8cf2a65b-a65b-8cf2-5ba6-f28c5ba6f28c",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

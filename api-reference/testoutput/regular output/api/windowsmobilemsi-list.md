@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsMobileMSIs
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsMobileMSI](../resources/windowsmobilemsi.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsMobileMSI not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsMobileMSI not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1160
+Content-Length: 1159
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsMobileMSI",
-      "id": "9a432cd9-2cd9-9a43-d92c-439ad92c439a",
+      "id": "4c2e7acf-7acf-4c2e-cf7a-2e4ccf7a2e4c",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1160
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

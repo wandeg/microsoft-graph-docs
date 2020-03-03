@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRangeFill
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRangeFill](../resources/workbookrangefill.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFill not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFill not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 160
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeFill",
-    "id": "4359ad13-ad13-4359-13ad-594313ad5943",
+    "id": "ebccb99b-b99b-ebcc-9bb9-cceb9bb9cceb",
     "color": "Color value"
   }
 }

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add calendarGroups
 
+Namespace: microsoft.graph
+
 Add calendarGroups by posting to the calendarGroups collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/calendarGroups/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the calendarGroup object.
+In the request body, supply a JSON representation for the [calendarGroup](../resources/calendargroup.md) object.
 
-The following table shows the properties that are required when you create the calendarGroup.
+The following table shows the properties that are required when you create the [calendarGroup](../resources/calendargroup.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -63,14 +65,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/calendarGroups
+POST https://graph.microsoft.com/localtest/me/calendarGroups
 Content-type: application/json
 Content-length: 170
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
   "name": "Name value",
-  "classId": "9a82fc4f-fc4f-9a82-4ffc-829a4ffc829a",
+  "classId": "c381f382-f382-c381-82f3-81c382f381c3",
   "changeKey": "Change Key value"
 }
 ```
@@ -90,9 +92,9 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
-  "id": "318ed636-d636-318e-36d6-8e3136d68e31",
+  "id": "68686806-6806-6868-0668-686806686868",
   "name": "Name value",
-  "classId": "9a82fc4f-fc4f-9a82-4ffc-829a4ffc829a",
+  "classId": "c381f382-f382-c381-82f3-81c382f381c3",
   "changeKey": "Change Key value"
 }
 ```

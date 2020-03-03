@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete dataPolicyOperation
 
+Namespace: microsoft.graph
+
 Deletes a [dataPolicyOperation](../resources/datapolicyoperation.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/dataPolicyOperations/{dataPolicyOperationsId}
+DELETE https://graph.microsoft.com/localtest/dataPolicyOperations/{dataPolicyOperationsId}
 ```
 
 ### Response

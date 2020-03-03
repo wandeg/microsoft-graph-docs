@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosUpdateStatuses
 
+Namespace: microsoft.graph
+
 Get the iosUpdateDeviceStatuses from the iosUpdateStatuses navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/iosUpdateStatuses
+GET https://graph.microsoft.com/localtest/deviceManagement/iosUpdateStatuses
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 677
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosUpdateDeviceStatus",
-      "id": "d71801d9-01d9-d718-d901-18d7d90118d7",
+      "id": "b3a73742-3742-b3a7-4237-a7b34237a7b3",
       "installStatus": "String",
       "osVersion": "Os Version value",
       "deviceId": "Device Id value",
@@ -78,9 +80,9 @@ Content-Length: 677
       "deviceDisplayName": "Device Display Name value",
       "userName": "User Name value",
       "deviceModel": "Device Model value",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+      "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

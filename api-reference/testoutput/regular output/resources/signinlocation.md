@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # signInLocation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -18,7 +19,7 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |city|String||
 |countryOrRegion|String||
-|geoCoordinates|[geoCoordinates](../resources/geoCoordinates.md)||
+|geoCoordinates|[geoCoordinates](../resources/geocoordinates.md)||
 |state|String||
 
 ## Relationships

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedDeviceOverview
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 797
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceOverview",
-    "id": "eccc46b2-46b2-eccc-b246-ccecb246ccec",
+    "id": "afad483f-483f-afad-3f48-adaf3f48adaf",
     "enrolledDeviceCount": 3,
     "mdmEnrolledCount": 0,
     "dualEnrolledDeviceCount": 7,

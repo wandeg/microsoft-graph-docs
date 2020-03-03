@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookNamedItem
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookNamedItem](../resources/workbooknameditem.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 338
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookNamedItem",
-    "id": "2c1a1480-1480-2c1a-8014-1a2c80141a2c",
+    "id": "3468c080-c080-3468-80c0-683480c06834",
     "comment": "Comment value",
     "name": "Name value",
     "scope": "Scope value",

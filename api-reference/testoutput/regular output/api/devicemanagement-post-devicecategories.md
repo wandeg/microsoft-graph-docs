@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceCategories
 
+Namespace: microsoft.graph
+
 Add deviceCategories by posting to the deviceCategories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/deviceCategories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceCategory object.
+In the request body, supply a JSON representation for the [deviceCategory](../resources/devicecategory.md) object.
 
-The following table shows the properties that are required when you create the deviceCategory.
+The following table shows the properties that are required when you create the [deviceCategory](../resources/devicecategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/deviceCategories
+POST https://graph.microsoft.com/localtest/deviceManagement/deviceCategories
 Content-type: application/json
 Content-length: 135
 
@@ -87,7 +89,7 @@ Content-Length: 184
 
 {
   "@odata.type": "#microsoft.graph.deviceCategory",
-  "id": "f5ddcef4-cef4-f5dd-f4ce-ddf5f4ceddf5",
+  "id": "cc3e1000-1000-cc3e-0010-3ecc00103ecc",
   "displayName": "Display Name value",
   "description": "Description value"
 }

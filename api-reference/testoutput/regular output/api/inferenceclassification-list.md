@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List inferenceClassifications
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [inferenceClassification](../resources/inferenceclassification.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.inferenceClassification not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.inferenceClassification not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 155
   "value": [
     {
       "@odata.type": "#microsoft.graph.inferenceClassification",
-      "id": "af6c211d-211d-af6c-1d21-6caf1d216caf"
+      "id": "e64a358a-358a-e64a-8a35-4ae68a354ae6"
     }
   ]
 }

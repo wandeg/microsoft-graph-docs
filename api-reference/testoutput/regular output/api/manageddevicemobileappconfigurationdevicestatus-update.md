@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update managedDeviceMobileAppConfigurationDeviceStatus
 
+Namespace: microsoft.graph
+
 Update the properties of a [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfig
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/managedDeviceMobileAppConfigurationDeviceStatus.md) object.
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object.
 
 The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md).
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/deviceStatuses/{managedDeviceMobileAppConfigurationDeviceStatusId}
 Content-type: application/json
 Content-length: 439
 
@@ -74,9 +76,9 @@ Content-length: 439
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -95,13 +97,13 @@ Content-Length: 488
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-  "id": "dfb2f292-f292-dfb2-92f2-b2df92f2b2df",
+  "id": "da01ce95-ce95-da01-95ce-01da95ce01da",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:59:04.1371041+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

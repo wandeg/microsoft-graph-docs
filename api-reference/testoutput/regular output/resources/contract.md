@@ -5,16 +5,17 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # contract resource type
+
+
+Namespace: microsoft.graph
 
 Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
 
 
-Inherits from [directoryObject](../resources/directoryObject.md)
+Inherits from [directoryObject](../resources/directoryobject.md)
 
 ## Methods
 |Method|Return Type|Description|
@@ -28,7 +29,7 @@ Inherits from [directoryObject](../resources/directoryObject.md)
 |[checkMemberObjects](../api/contract-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/contract-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/contract-getmemberobjects.md)|String collection||
-|[restore](../api/contract-restore.md)|[directoryObject](../resources/directoryObject.md)||
+|[restore](../api/contract-restore.md)|[directoryObject](../resources/directoryobject.md)||
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +37,7 @@ Inherits from [directoryObject](../resources/directoryObject.md)
 |contractType|String||
 |customerId|Guid||
 |defaultDomainName|String||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 

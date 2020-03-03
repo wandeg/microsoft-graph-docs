@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get signIn
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [signIn](../resources/signin.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/signIns/{signInId}
+GET https://graph.microsoft.com/localtest/auditLogs/signIns/{signInId}
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2201
+Content-Length: 2200
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.signIn",
-    "id": "93bf7e7e-7e7e-93bf-7e7e-bf937e7ebf93",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "6bb2dc13-dc13-6bb2-13dc-b26b13dcb26b",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
     "userId": "User Id value",

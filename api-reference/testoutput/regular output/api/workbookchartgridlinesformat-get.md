@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartGridlinesFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 142
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartGridlinesFormat",
-    "id": "53fbbdeb-bdeb-53fb-ebbd-fb53ebbdfb53"
+    "id": "4041cae3-cae3-4041-e3ca-4140e3ca4140"
   }
 }
 ```

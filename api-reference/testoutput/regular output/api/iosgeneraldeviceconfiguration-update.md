@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update iosGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Update the properties of a [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -35,18 +37,18 @@ PATCH ** Entity URI for microsoft.graph.iosGeneralDeviceConfiguration not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [iosGeneralDeviceConfiguration](../resources/iosGeneralDeviceConfiguration.md) object.
+In the request body, supply a JSON representation for the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md) object.
 
 The following table shows the properties that are required when you create the [iosGeneralDeviceConfiguration](../resources/iosgeneraldeviceconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |accountBlockModification|Boolean|Indicates whether or not to allow account modification when the device is in supervised mode.|
 |activationLockAllowWhenSupervised|Boolean|Indicates whether or not to allow activation lock when the device is in the supervised mode.|
 |airDropBlocked|Boolean|Indicates whether or not to allow AirDrop when the device is in supervised mode.|
@@ -55,8 +57,8 @@ The following table shows the properties that are required when you create the [
 |appleWatchBlockPairing|Boolean|Indicates whether or not to allow Apple Watch pairing when the device is in supervised mode (iOS 9.0 and later).|
 |appleWatchForceWristDetection|Boolean|Indicates whether or not to force a paired Apple Watch to use Wrist Detection (iOS 8.2 and later).|
 |appleNewsBlocked|Boolean|Indicates whether or not to block the user from using News when the device is in supervised mode (iOS 9.0 and later).|
-|appsSingleAppModeList|[appListItem](../resources/appListItem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
-|appsVisibilityList|[appListItem](../resources/appListItem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
+|appsSingleAppModeList|[appListItem](../resources/applistitem.md) collection|Gets or sets the list of iOS apps allowed to autonomously enter Single App Mode. Supervised only. iOS 7.0 and later. This collection can contain a maximum of 500 elements.|
+|appsVisibilityList|[appListItem](../resources/applistitem.md) collection|List of apps in the visibility list (either visible/launchable apps list or hidden/unlaunchable apps list, controlled by AppsVisibilityListType) (iOS 9.3 and later). This collection can contain a maximum of 10000 elements.|
 |appsVisibilityListType|Enumeration|Type of list that is in the AppsVisibilityList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |appStoreBlockAutomaticDownloads|Boolean|Indicates whether or not to block the automatic downloading of apps purchased on other devices when the device is in supervised mode (iOS 9.0 and later).|
 |appStoreBlocked|Boolean|Indicates whether or not to block the user from using the App Store.|
@@ -73,7 +75,7 @@ The following table shows the properties that are required when you create the [
 |certificatesBlockUntrustedTlsCertificates|Boolean|Indicates whether or not to block untrusted TLS certificates.|
 |classroomAppBlockRemoteScreenObservation|Boolean|Indicates whether or not to allow remote screen observation by Classroom app when the device is in supervised mode (iOS 9.3 and later).|
 |classroomAppForceUnpromptedScreenObservation|Boolean|Indicates whether or not to automatically give permission to the teacher of a managed course on the Classroom app to view a student's screen without prompting when the device is in supervised mode.|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |compliantAppListType|Enumeration|List that is in the AppComplianceList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |configurationProfileBlockChanges|Boolean|Indicates whether or not to block the user from installing configuration profiles and certificates interactively when the device is in supervised mode.|
 |definitionLookupBlocked|Boolean|Indicates whether or not to block definition lookup when the device is in supervised mode (iOS 8.1.3 and later ).|
@@ -134,16 +136,16 @@ The following table shows the properties that are required when you create the [
 |lockScreenBlockNotificationView|Boolean|Indicates whether or not to block the user from using the notification view on the lock screen.|
 |lockScreenBlockPassbook|Boolean|Indicates whether or not to block the user from using passbook when the device is locked.|
 |lockScreenBlockTodayView|Boolean|Indicates whether or not to block the user from using the Today View on the lock screen.|
-|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediaContentRatingAustralia.md)|Media content rating settings for Australia|
-|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediaContentRatingCanada.md)|Media content rating settings for Canada|
-|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediaContentRatingFrance.md)|Media content rating settings for France|
-|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediaContentRatingGermany.md)|Media content rating settings for Germany|
-|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediaContentRatingIreland.md)|Media content rating settings for Ireland|
-|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediaContentRatingJapan.md)|Media content rating settings for Japan|
-|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediaContentRatingNewZealand.md)|Media content rating settings for New Zealand|
-|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediaContentRatingUnitedKingdom.md)|Media content rating settings for United Kingdom|
-|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediaContentRatingUnitedStates.md)|Media content rating settings for United States|
-|networkUsageRules|[iosNetworkUsageRule](../resources/iosNetworkUsageRule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
+|mediaContentRatingAustralia|[mediaContentRatingAustralia](../resources/mediacontentratingaustralia.md)|Media content rating settings for Australia|
+|mediaContentRatingCanada|[mediaContentRatingCanada](../resources/mediacontentratingcanada.md)|Media content rating settings for Canada|
+|mediaContentRatingFrance|[mediaContentRatingFrance](../resources/mediacontentratingfrance.md)|Media content rating settings for France|
+|mediaContentRatingGermany|[mediaContentRatingGermany](../resources/mediacontentratinggermany.md)|Media content rating settings for Germany|
+|mediaContentRatingIreland|[mediaContentRatingIreland](../resources/mediacontentratingireland.md)|Media content rating settings for Ireland|
+|mediaContentRatingJapan|[mediaContentRatingJapan](../resources/mediacontentratingjapan.md)|Media content rating settings for Japan|
+|mediaContentRatingNewZealand|[mediaContentRatingNewZealand](../resources/mediacontentratingnewzealand.md)|Media content rating settings for New Zealand|
+|mediaContentRatingUnitedKingdom|[mediaContentRatingUnitedKingdom](../resources/mediacontentratingunitedkingdom.md)|Media content rating settings for United Kingdom|
+|mediaContentRatingUnitedStates|[mediaContentRatingUnitedStates](../resources/mediacontentratingunitedstates.md)|Media content rating settings for United States|
+|networkUsageRules|[iosNetworkUsageRule](../resources/iosnetworkusagerule.md) collection|List of managed apps and the network rules that applies to them. This collection can contain a maximum of 1000 elements.|
 |mediaContentRatingApps|Enumeration|Media content rating settings for Apps. Possible values are: `allAllowed`, `allBlocked`, `agesAbove4`, `agesAbove9`, `agesAbove12`, `agesAbove17`.|
 |messagesBlocked|Boolean|Indicates whether or not to block the user from using the Messages app on the supervised device.|
 |notificationsBlockSettingsModification|Boolean|Indicates whether or not to allow notifications settings modification (iOS 9.3 and later).|
@@ -194,7 +196,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosGeneralDeviceConfiguration not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosGeneralDeviceConfiguration not found
 Content-type: application/json
 Content-length: 7238
 
@@ -416,13 +418,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 7410
+Content-Length: 7409
 
 {
   "@odata.type": "#microsoft.graph.iosGeneralDeviceConfiguration",
-  "id": "76527b5b-7b5b-7652-5b7b-52765b7b5276",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "ad8eb660-b660-ad8e-60b6-8ead60b68ead",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

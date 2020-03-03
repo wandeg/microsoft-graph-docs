@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onenoteOperation resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,15 +20,17 @@ Inherits from [operation](../resources/operation.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get onenoteOperation](../api/onenoteoperation-get.md)|[onenoteOperation](../resources/onenoteOperation.md)|Read properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) object.|
+|[List onenoteOperations](../api/onenoteoperation-list.md)|[onenoteOperation](../resources/onenoteoperation.md) collection|List properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) objects.|
+|[Get onenoteOperation](../api/onenoteoperation-get.md)|[onenoteOperation](../resources/onenoteoperation.md)|Read properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) object.|
+|[Create onenoteOperation](../api/onenoteoperation-create.md)|[onenoteOperation](../resources/onenoteoperation.md)|Create a new [onenoteOperation](../resources/onenoteoperation.md) object.|
 |[Delete onenoteOperation](../api/onenoteoperation-delete.md)|None|Deletes a [onenoteOperation](../resources/onenoteoperation.md).|
-|[Update onenoteOperation](../api/onenoteoperation-update.md)|[onenoteOperation](../resources/onenoteOperation.md)|Update the properties of a [onenoteOperation](../resources/onenoteoperation.md) object.|
+|[Update onenoteOperation](../api/onenoteoperation-update.md)|[onenoteOperation](../resources/onenoteoperation.md)|Update the properties of a [onenoteOperation](../resources/onenoteoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |createdDateTime|DateTimeOffset| Inherited from [operation](../resources/operation.md)|
-|error|[onenoteOperationError](../resources/onenoteOperationError.md)||
+|error|[onenoteOperationError](../resources/onenoteoperationerror.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastActionDateTime|DateTimeOffset| Inherited from [operation](../resources/operation.md)|
 |percentComplete|String||

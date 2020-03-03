@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # itemReference resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -22,7 +23,7 @@ Namespace: microsoft.graph
 |name|String||
 |path|String||
 |shareId|String||
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
 |siteId|String||
 
 ## Relationships

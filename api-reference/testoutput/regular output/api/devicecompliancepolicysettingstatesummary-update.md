@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceCompliancePolicySettingStateSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompl
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceCompliancePolicySettingStateSummary](../resources/deviceCompliancePolicySettingStateSummary.md) object.
+In the request body, supply a JSON representation for the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) object.
 
 The following table shows the properties that are required when you create the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md).
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}
 Content-type: application/json
 Content-length: 394
 
@@ -101,7 +103,7 @@ Content-Length: 443
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-  "id": "e7c40200-0200-e7c4-0002-c4e70002c4e7",
+  "id": "5d3388c6-88c6-5d33-c688-335dc688335d",
   "setting": "Setting value",
   "settingName": "Setting Name value",
   "platformType": "String",

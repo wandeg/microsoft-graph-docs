@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete message
 
+Namespace: microsoft.graph
+
 Deletes a [message](../resources/message.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/messages/{messageId}
+DELETE https://graph.microsoft.com/localtest/me/messages/{messageId}
 ```
 
 ### Response

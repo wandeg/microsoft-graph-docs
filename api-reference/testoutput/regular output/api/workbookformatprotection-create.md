@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookFormatProtection
 
+Namespace: microsoft.graph
+
 Create a new [workbookFormatProtection](../resources/workbookformatprotection.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookFormatProtection not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookFormatProtection object.
+In the request body, supply a JSON representation for the [workbookFormatProtection](../resources/workbookformatprotection.md) object.
 
-The following table shows the properties that are required when you create the workbookFormatProtection.
+The following table shows the properties that are required when you create the [workbookFormatProtection](../resources/workbookformatprotection.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFormatProtection not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFormatProtection not found
 Content-type: application/json
 Content-length: 111
 
@@ -87,7 +89,7 @@ Content-Length: 160
 
 {
   "@odata.type": "#microsoft.graph.workbookFormatProtection",
-  "id": "eebb12c4-12c4-eebb-c412-bbeec412bbee",
+  "id": "7aae4425-4425-7aae-2544-ae7a2544ae7a",
   "formulaHidden": true,
   "locked": true
 }

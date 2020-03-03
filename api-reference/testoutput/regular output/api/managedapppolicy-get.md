@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppPolicy
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedAppPolicies/{managedAppPolicyId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedAppPolicies/{managedAppPolicyId}
 ```
 
 ### Response
@@ -67,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 373
+Content-Length: 372
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppPolicy",
-    "id": "555ee015-e015-555e-15e0-5e5515e05e55",
+    "id": "9f52a939-a939-9f52-39a9-529f39a9529f",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "version": "Version value"
   }
 }

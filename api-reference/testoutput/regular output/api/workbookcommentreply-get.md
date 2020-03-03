@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookCommentReply
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookCommentReply](../resources/workbookcommentreply.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies/{workbookCommentReplyId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies/{workbookCommentReplyId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 209
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookCommentReply",
-    "id": "2656e3d3-e3d3-2656-d3e3-5626d3e35626",
+    "id": "e04be90f-e90f-e04b-0fe9-4be00fe94be0",
     "content": "Content value",
     "contentType": "Content Type value"
   }

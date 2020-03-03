@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # invitationParticipantInfo resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [participantInfo](../resources/participantInfo.md)
+
+
+Inherits from [participantInfo](../resources/participantinfo.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|identity|[identitySet](../resources/identitySet.md)| Inherited from [participantInfo](../resources/participantInfo.md)|
-|languageId|String| Inherited from [participantInfo](../resources/participantInfo.md)|
-|region|String| Inherited from [participantInfo](../resources/participantInfo.md)|
+|identity|[identitySet](../resources/identityset.md)| Inherited from [participantInfo](../resources/participantinfo.md)|
+|languageId|String| Inherited from [participantInfo](../resources/participantinfo.md)|
+|region|String| Inherited from [participantInfo](../resources/participantinfo.md)|
 |replacesCallId|String||
 
 ## Relationships

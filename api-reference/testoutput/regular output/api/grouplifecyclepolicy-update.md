@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupLifecyclePolicy
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedTeams/{groupId}/groupLifecyclePolicies/{groupLifecyclePolicyId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupLifecyclePolicy](../resources/groupLifecyclePolicy.md) object.
+In the request body, supply a JSON representation for the [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md) object.
 
 The following table shows the properties that are required when you create the [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groupLifecyclePolicies/{groupLifecyclePoliciesId}
+PATCH https://graph.microsoft.com/localtest/groupLifecyclePolicies/{groupLifecyclePoliciesId}
 Content-type: application/json
 Content-length: 217
 
@@ -89,7 +91,7 @@ Content-Length: 266
 
 {
   "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-  "id": "9269abf8-abf8-9269-f8ab-6992f8ab6992",
+  "id": "e10781d2-81d2-e107-d281-07e1d28107e1",
   "groupLifetimeInDays": 3,
   "managedGroupTypes": "Managed Group Types value",
   "alternateNotificationEmails": "Alternate Notification Emails value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List buckets
 
+Namespace: microsoft.graph
+
 Get the plannerBuckets from the buckets navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/planner/buckets
+GET https://graph.microsoft.com/localtest/planner/buckets
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 248
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerBucket",
-      "id": "4fb152d1-52d1-4fb1-d152-b14fd152b14f",
+      "id": "4722ac43-ac43-4722-43ac-224743ac2247",
       "name": "Name value",
       "planId": "Plan Id value",
       "orderHint": "Order Hint value"

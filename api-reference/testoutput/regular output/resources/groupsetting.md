@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # groupSetting resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get groupSetting](../api/groupsetting-get.md)|[groupSetting](../resources/groupSetting.md)|Read properties and relationships of the [groupSetting](../resources/groupsetting.md) object.|
+|[List groupSettings](../api/groupsetting-list.md)|[groupSetting](../resources/groupsetting.md) collection|List properties and relationships of the [groupSetting](../resources/groupsetting.md) objects.|
+|[Get groupSetting](../api/groupsetting-get.md)|[groupSetting](../resources/groupsetting.md)|Read properties and relationships of the [groupSetting](../resources/groupsetting.md) object.|
+|[Create groupSetting](../api/groupsetting-post-groupsettings.md)|[groupSetting](../resources/groupsetting.md)|Create a new [groupSetting](../resources/groupsetting.md) object.|
 |[Delete groupSetting](../api/groupsetting-delete.md)|None|Deletes a [groupSetting](../resources/groupsetting.md).|
-|[Update groupSetting](../api/groupsetting-update.md)|[groupSetting](../resources/groupSetting.md)|Update the properties of a [groupSetting](../resources/groupsetting.md) object.|
-|[List settings](../api/group-list-settings.md)|[groupSetting](../resources/groupSetting.md) collection|Get the groupSettings from the settings navigation property.|
-|[Add settings](../api/group-post-settings.md)|[groupSetting](../resources/groupSetting.md)|Add settings by posting to the settings collection.|
+|[Update groupSetting](../api/groupsetting-update.md)|[groupSetting](../resources/groupsetting.md)|Update the properties of a [groupSetting](../resources/groupsetting.md) object.|
+|[List settings](../api/group-list-settings.md)|[groupSetting](../resources/groupsetting.md) collection|Get the groupSettings from the settings navigation property.|
+|[Add settings](../api/group-post-settings.md)|[groupSetting](../resources/groupsetting.md)|Add settings by posting to the settings collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -31,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 |displayName|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |templateId|String||
-|values|[settingValue](../resources/settingValue.md) collection||
+|values|[settingValue](../resources/settingvalue.md) collection||
 
 ## Relationships
 None

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update listItemVersion
 
+Namespace: microsoft.graph
+
 Update the properties of a [listItemVersion](../resources/listitemversion.md) object.
 
 ## Permissions
@@ -35,16 +37,16 @@ PATCH /me/drive/items/{driveItemId}/listItem/versions/{listItemVersionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [listItemVersion](../resources/listItemVersion.md) object.
+In the request body, supply a JSON representation for the [listItemVersion](../resources/listitemversion.md) object.
 
 The following table shows the properties that are required when you create the [listItemVersion](../resources/listitemversion.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
-|publication|[publicationFacet](../resources/publicationFacet.md)| Inherited from [baseItemVersion](../resources/baseItemVersion.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|publication|[publicationFacet](../resources/publicationfacet.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/listItem/versions/{listItemVersionId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/listItem/versions/{listItemVersionId}
 Content-type: application/json
 Content-length: 205
 
@@ -89,7 +91,7 @@ Content-Length: 691
 
 {
   "@odata.type": "#microsoft.graph.listItemVersion",
-  "id": "da8dd23c-d23c-da8d-3cd2-8dda3cd28dda",
+  "id": "f9c2983a-983a-f9c2-3a98-c2f93a98c2f9",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -104,7 +106,7 @@ Content-Length: 691
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
     "level": "Level value",

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # locationConstraintItem resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,8 +20,8 @@ Inherits from [location](../resources/location.md)
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)| Inherited from [location](../resources/location.md)|
-|coordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)| Inherited from [location](../resources/location.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)| Inherited from [location](../resources/location.md)|
+|coordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)| Inherited from [location](../resources/location.md)|
 |displayName|String| Inherited from [location](../resources/location.md)|
 |locationEmailAddress|String| Inherited from [location](../resources/location.md)|
 |locationType|Enumeration| Inherited from [location](../resources/location.md). Possible values are: `default`, `conferenceRoom`, `homeAddress`, `businessAddress`, `geoCoordinates`, `streetAddress`, `hotel`, `restaurant`, `localBusiness`, `postalAddress`.|

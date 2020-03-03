@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # restore
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -39,7 +41,7 @@ POST /organization/{organizationId}/restore
 Do not supply a request body for this method.
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [directoryObject](../resources/directoryObject.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [directoryObject](../resources/directoryobject.md) in the response body.
 
 ## Example
 
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/organization/{organizationId}/restore
+POST https://graph.microsoft.com/localtest/organization/{organizationId}/restore
 ```
 
 ### Response
@@ -70,8 +72,8 @@ Content-Length: 190
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryObject",
-    "id": "dcd736cb-36cb-dcd7-cb36-d7dccb36d7dc",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00"
+    "id": "4ad1a8b9-a8b9-4ad1-b9a8-d14ab9a8d14a",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
   }
 }
 ```

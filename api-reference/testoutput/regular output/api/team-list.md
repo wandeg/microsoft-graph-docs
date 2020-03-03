@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List teams
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [team](../resources/team.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams
+GET https://graph.microsoft.com/localtest/teams
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 1163
   "value": [
     {
       "@odata.type": "#microsoft.graph.team",
-      "id": "54b4ec7d-ec7d-54b4-7dec-b4547decb454",
+      "id": "847cdc25-dc25-847c-25dc-7c8425dc7c84",
       "webUrl": "https://example.com/webUrl/",
       "memberSettings": {
         "@odata.type": "microsoft.graph.teamMemberSettings",

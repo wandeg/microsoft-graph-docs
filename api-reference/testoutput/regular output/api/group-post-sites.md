@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add sites
 
+Namespace: microsoft.graph
+
 Add sites by posting to the sites collection.
 
 ## Permissions
@@ -37,26 +39,26 @@ POST /me/joinedTeams/{groupId}/sites/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the site object.
+In the request body, supply a JSON representation for the [site](../resources/site.md) object.
 
-The following table shows the properties that are required when you create the site.
+The following table shows the properties that are required when you create the [site](../resources/site.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|description|String| Inherited from [baseItem](../resources/baseItem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedBy|[identitySet](../resources/identitySet.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseItem.md)|
-|name|String| Inherited from [baseItem](../resources/baseItem.md)|
-|parentReference|[itemReference](../resources/itemReference.md)| Inherited from [baseItem](../resources/baseItem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseItem.md)|
+|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|description|String| Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
+|name|String| Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
 |displayName|String||
 |root|[root](../resources/root.md)||
-|sharepointIds|[sharepointIds](../resources/sharepointIds.md)||
-|siteCollection|[siteCollection](../resources/siteCollection.md)||
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
+|siteCollection|[siteCollection](../resources/sitecollection.md)||
 
 
 
@@ -73,7 +75,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/sites
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/sites
 Content-type: application/json
 Content-length: 1396
 
@@ -138,11 +140,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1647
+Content-Length: 1646
 
 {
   "@odata.type": "#microsoft.graph.site",
-  "id": "6e6e652c-652c-6e6e-2c65-6e6e2c656e6e",
+  "id": "679b87ac-87ac-679b-ac87-9b67ac879b67",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -157,13 +159,13 @@ Content-Length: 1647
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

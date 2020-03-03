@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create iosVppApp
 
+Namespace: microsoft.graph
+
 Create a new [iosVppApp](../resources/iosvppapp.md) object.
 
 ## Permissions
@@ -36,32 +38,32 @@ POST ** Collection URI for microsoft.graph.iosVppApp not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the iosVppApp object.
+In the request body, supply a JSON representation for the [iosVppApp](../resources/iosvppapp.md) object.
 
-The following table shows the properties that are required when you create the iosVppApp.
+The following table shows the properties that are required when you create the [iosVppApp](../resources/iosvppapp.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|description|String|The description of the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|largeIcon|[mimeContent](../resources/mimeContent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/mobileApp.md)|
-|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/mobileApp.md)|
-|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/mobileApp.md)|
-|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/mobileApp.md)|
-|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/mobileApp.md)|
-|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/mobileApp.md)|
-|owner|String|The owner of the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|developer|String|The developer of the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|notes|String|Notes for the app. Inherited from [mobileApp](../resources/mobileApp.md)|
-|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/mobileApp.md). Possible values are: `notPublished`, `processing`, `published`.|
+|displayName|String|The admin provided or imported title of the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|description|String|The description of the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|publisher|String|The publisher of the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|largeIcon|[mimeContent](../resources/mimecontent.md)|The large icon, to be displayed in the app details and used for upload of the icon. Inherited from [mobileApp](../resources/mobileapp.md)|
+|createdDateTime|DateTimeOffset|The date and time the app was created. Inherited from [mobileApp](../resources/mobileapp.md)|
+|lastModifiedDateTime|DateTimeOffset|The date and time the app was last modified. Inherited from [mobileApp](../resources/mobileapp.md)|
+|isFeatured|Boolean|The value indicating whether the app is marked as featured by the admin. Inherited from [mobileApp](../resources/mobileapp.md)|
+|privacyInformationUrl|String|The privacy statement Url. Inherited from [mobileApp](../resources/mobileapp.md)|
+|informationUrl|String|The more information Url. Inherited from [mobileApp](../resources/mobileapp.md)|
+|owner|String|The owner of the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|developer|String|The developer of the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|notes|String|Notes for the app. Inherited from [mobileApp](../resources/mobileapp.md)|
+|publishingState|Enumeration|The publishing state for the app. The app cannot be assigned unless the app is published. Inherited from [mobileApp](../resources/mobileapp.md). Possible values are: `notPublished`, `processing`, `published`.|
 |usedLicenseCount|Int32|The number of VPP licenses in use.|
 |totalLicenseCount|Int32|The total number of VPP licenses.|
 |releaseDateTime|DateTimeOffset|The VPP application release date and time.|
 |appStoreUrl|String|The store URL.|
-|licensingType|[vppLicensingType](../resources/vppLicensingType.md)|The supported License Type.|
-|applicableDeviceType|[iosDeviceType](../resources/iosDeviceType.md)|The applicable iOS Device Type.|
+|licensingType|[vppLicensingType](../resources/vpplicensingtype.md)|The supported License Type.|
+|applicableDeviceType|[iosDeviceType](../resources/iosdevicetype.md)|The applicable iOS Device Type.|
 |vppTokenOrganizationName|String|The organization associated with the Apple Volume Purchase Program Token|
 |vppTokenAccountType|Enumeration|The type of volume purchase program which the given Apple Volume Purchase Program Token is associated with. Possible values are: `business`, `education`. Possible values are: `business`, `education`.|
 |vppTokenAppleId|String|The Apple Id associated with the given Apple Volume Purchase Program Token.|
@@ -82,9 +84,9 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosVppApp not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosVppApp not found
 Content-type: application/json
-Content-length: 1215
+Content-length: 1214
 
 {
   "@odata.type": "#microsoft.graph.iosVppApp",
@@ -105,7 +107,7 @@ Content-length: 1215
   "publishingState": "String",
   "usedLicenseCount": 0,
   "totalLicenseCount": 1,
-  "releaseDateTime": "2017-01-01T00:03:11.4445023+03:00",
+  "releaseDateTime": "2016-12-31T23:58:00.140524+03:00",
   "appStoreUrl": "https://example.com/appStoreUrl/",
   "licensingType": {
     "@odata.type": "microsoft.graph.vppLicensingType",
@@ -135,11 +137,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1387
+Content-Length: 1385
 
 {
   "@odata.type": "#microsoft.graph.iosVppApp",
-  "id": "1bbeb9a9-b9a9-1bbe-a9b9-be1ba9b9be1b",
+  "id": "70feb4fe-b4fe-70fe-feb4-fe70feb4fe70",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -148,8 +150,8 @@ Content-Length: 1387
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",
@@ -159,7 +161,7 @@ Content-Length: 1387
   "publishingState": "String",
   "usedLicenseCount": 0,
   "totalLicenseCount": 1,
-  "releaseDateTime": "2017-01-01T00:03:11.4445023+03:00",
+  "releaseDateTime": "2016-12-31T23:58:00.140524+03:00",
   "appStoreUrl": "https://example.com/appStoreUrl/",
   "licensingType": {
     "@odata.type": "microsoft.graph.vppLicensingType",

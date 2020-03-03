@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # invite
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,13 +44,13 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|participants|[invitationParticipantInfo](../resources/invitationParticipantInfo.md) collection||
+|participants|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
 |clientContext|String||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [inviteParticipantsOperation](../resources/inviteParticipantsOperation.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [inviteParticipantsOperation](../resources/inviteparticipantsoperation.md) in the response body.
 
 ## Example
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/participants/invite
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/participants/invite
 
 Content-type: application/json
 Content-length: 154
@@ -91,7 +93,7 @@ Content-Length: 409
 {
   "value": {
     "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-    "id": "b4cc9683-9683-b4cc-8396-ccb48396ccb4",
+    "id": "999da5ae-a5ae-999d-aea5-9d99aea59d99",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

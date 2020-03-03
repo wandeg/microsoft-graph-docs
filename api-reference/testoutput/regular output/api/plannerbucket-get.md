@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerBucket
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerBucket](../resources/plannerbucket.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/planner/buckets/{plannerBucketId}
+GET https://graph.microsoft.com/localtest/planner/buckets/{plannerBucketId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 224
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerBucket",
-    "id": "4fb152d1-52d1-4fb1-d152-b14fd152b14f",
+    "id": "4722ac43-ac43-4722-43ac-224743ac2247",
     "name": "Name value",
     "planId": "Plan Id value",
     "orderHint": "Order Hint value"

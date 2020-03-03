@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedAppPolicies
 
+Namespace: microsoft.graph
+
 Add managedAppPolicies by posting to the managedAppPolicies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedAppPolicies/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppPolicy object.
+In the request body, supply a JSON representation for the [managedAppPolicy](../resources/managedapppolicy.md) object.
 
-The following table shows the properties that are required when you create the managedAppPolicy.
+The following table shows the properties that are required when you create the [managedAppPolicy](../resources/managedapppolicy.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedAppPolicies
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedAppPolicies
 Content-type: application/json
 Content-length: 168
 
@@ -87,15 +89,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 340
+Content-Length: 339
 
 {
   "@odata.type": "#microsoft.graph.managedAppPolicy",
-  "id": "555ee015-e015-555e-15e0-5e5515e05e55",
+  "id": "9f52a939-a939-9f52-39a9-529f39a9529f",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "version": "Version value"
 }
 ```

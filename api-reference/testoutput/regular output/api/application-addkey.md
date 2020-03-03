@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # addKey
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -42,14 +44,14 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|keyCredential|[keyCredential](../resources/keyCredential.md)||
-|passwordCredential|[passwordCredential](../resources/passwordCredential.md)||
+|keyCredential|[keyCredential](../resources/keycredential.md)||
+|passwordCredential|[passwordCredential](../resources/passwordcredential.md)||
 |proof|String||
 
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [keyCredential](../resources/keyCredential.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [keyCredential](../resources/keycredential.md) in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/applications/{applicationsId}/addKey
+POST https://graph.microsoft.com/localtest/applications/{applicationsId}/addKey
 
 Content-type: application/json
 Content-length: 200

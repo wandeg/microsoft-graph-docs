@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update teamsAppDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/team
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsAppDefinition.md) object.
+In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
 
 The following table shows the properties that are required when you create the [teamsAppDefinition](../resources/teamsappdefinition.md).
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
+PATCH https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions/{teamsAppDefinitionId}
 Content-type: application/json
 Content-length: 170
 
@@ -87,7 +89,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "aa52d203-d203-aa52-03d2-52aa03d252aa",
+  "id": "5f9a21d2-21d2-5f9a-d221-9a5fd2219a5f",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

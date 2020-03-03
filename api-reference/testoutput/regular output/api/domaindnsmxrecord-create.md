@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create domainDnsMxRecord
 
+Namespace: microsoft.graph
+
 Create a new [domainDnsMxRecord](../resources/domaindnsmxrecord.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.domainDnsMxRecord not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the domainDnsMxRecord object.
+In the request body, supply a JSON representation for the [domainDnsMxRecord](../resources/domaindnsmxrecord.md) object.
 
-The following table shows the properties that are required when you create the domainDnsMxRecord.
+The following table shows the properties that are required when you create the [domainDnsMxRecord](../resources/domaindnsmxrecord.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|label|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|recordType|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|supportedService|String| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
-|ttl|Int32| Inherited from [domainDnsRecord](../resources/domainDnsRecord.md)|
+|isOptional|Boolean| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|label|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|recordType|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|supportedService|String| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
+|ttl|Int32| Inherited from [domainDnsRecord](../resources/domaindnsrecord.md)|
 |mailExchange|String||
 |preference|Int32||
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsMxRecord not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsMxRecord not found
 Content-type: application/json
 Content-length: 273
 
@@ -97,7 +99,7 @@ Content-Length: 322
 
 {
   "@odata.type": "#microsoft.graph.domainDnsMxRecord",
-  "id": "c2ae9acc-9acc-c2ae-cc9a-aec2cc9aaec2",
+  "id": "791de516-e516-791d-16e5-1d7916e51d79",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

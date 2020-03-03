@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create categories
 
+Namespace: microsoft.graph
+
 Create categories by posting to the categories collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/categories/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppCategory object.
+In the request body, supply a JSON representation for the [mobileAppCategory](../resources/mobileappcategory.md) object.
 
-The following table shows the properties that are required when you create the mobileAppCategory.
+The following table shows the properties that are required when you create the [mobileAppCategory](../resources/mobileappcategory.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/categories
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/categories
 Content-type: application/json
 Content-length: 99
 
@@ -86,9 +88,9 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.mobileAppCategory",
-  "id": "4efe25cb-25cb-4efe-cb25-fe4ecb25fe4e",
+  "id": "210bf76b-f76b-210b-6bf7-0b216bf70b21",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00"
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
 }
 ```
 

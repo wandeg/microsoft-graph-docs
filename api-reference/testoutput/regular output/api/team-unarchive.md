@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # unarchive
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/teams/{teamsId}/unarchive
+POST https://graph.microsoft.com/localtest/teams/{teamsId}/unarchive
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List sectionGroups
 
+Namespace: microsoft.graph
+
 Get the sectionGroups from the sectionGroups navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/onenote/sectionGroups
+GET https://graph.microsoft.com/localtest/me/onenote/sectionGroups
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 941
+Content-Length: 940
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.sectionGroup",
-      "id": "089d6c1f-6c1f-089d-1f6c-9d081f6c9d08",
+      "id": "0554ee3a-ee3a-0554-3aee-54053aee5405",
       "self": "Self value",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "displayName": "Display Name value",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
@@ -90,7 +92,7 @@ Content-Length: 941
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "sectionsUrl": "https://example.com/sectionsUrl/",
       "sectionGroupsUrl": "https://example.com/sectionGroupsUrl/"
     }

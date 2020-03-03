@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add managedEBooks
 
+Namespace: microsoft.graph
+
 Add managedEBooks by posting to the managedEBooks collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedEBooks/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedEBook object.
+In the request body, supply a JSON representation for the [managedEBook](../resources/managedebook.md) object.
 
-The following table shows the properties that are required when you create the managedEBook.
+The following table shows the properties that are required when you create the [managedEBook](../resources/managedebook.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the m
 |description|String|Description.|
 |publisher|String|Publisher.|
 |publishedDateTime|DateTimeOffset|The date and time when the eBook was published.|
-|largeCover|[mimeContent](../resources/mimeContent.md)|Book cover.|
+|largeCover|[mimeContent](../resources/mimecontent.md)|Book cover.|
 |createdDateTime|DateTimeOffset|The date and time when the eBook file was created.|
 |lastModifiedDateTime|DateTimeOffset|The date and time when the eBook was last modified.|
 |informationUrl|String|The more information Url.|
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks
 Content-type: application/json
 Content-length: 491
 
@@ -77,7 +79,7 @@ Content-length: 491
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2016-12-31T23:57:57.9127035+03:00",
+  "publishedDateTime": "2017-01-01T00:02:01.8143377+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
@@ -99,22 +101,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 663
+Content-Length: 662
 
 {
   "@odata.type": "#microsoft.graph.managedEBook",
-  "id": "d64a655b-655b-d64a-5b65-4ad65b654ad6",
+  "id": "64c612d7-12d7-64c6-d712-c664d712c664",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2016-12-31T23:57:57.9127035+03:00",
+  "publishedDateTime": "2017-01-01T00:02:01.8143377+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/"
 }

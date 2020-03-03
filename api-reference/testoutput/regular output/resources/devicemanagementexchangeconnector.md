@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceManagementExchangeConnector resource type
+
+
+Namespace: microsoft.graph
 
 Entity which represents a connection to an Exchange environment.
 
@@ -19,12 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-get.md)|[deviceManagementExchangeConnector](../resources/deviceManagementExchangeConnector.md)|Read properties and relationships of the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
+|[List deviceManagementExchangeConnectors](../api/devicemanagementexchangeconnector-list.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) collection|List properties and relationships of the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) objects.|
+|[Get deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-get.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Read properties and relationships of the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
+|[Create deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-create.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Create a new [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
 |[Delete deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-delete.md)|None|Deletes a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md).|
-|[Update deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-update.md)|[deviceManagementExchangeConnector](../resources/deviceManagementExchangeConnector.md)|Update the properties of a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
+|[Update deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-update.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Update the properties of a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
 |[sync](../api/devicemanagementexchangeconnector-sync.md)|None||
-|[List exchangeConnectors](../api/devicemanagement-list-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/deviceManagementExchangeConnector.md) collection|Get the deviceManagementExchangeConnectors from the exchangeConnectors navigation property.|
-|[Add exchangeConnectors](../api/devicemanagement-post-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/deviceManagementExchangeConnector.md)|Add exchangeConnectors by posting to the exchangeConnectors collection.|
+|[List exchangeConnectors](../api/devicemanagement-list-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) collection|Get the deviceManagementExchangeConnectors from the exchangeConnectors navigation property.|
+|[Add exchangeConnectors](../api/devicemanagement-post-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Add exchangeConnectors by posting to the exchangeConnectors collection.|
 
 ## Properties
 |Property|Type|Description|

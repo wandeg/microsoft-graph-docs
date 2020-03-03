@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete orgContact
 
+Namespace: microsoft.graph
+
 Deletes a [orgContact](../resources/orgcontact.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/contacts/{contactsId}
+DELETE https://graph.microsoft.com/localtest/contacts/{contactsId}
 ```
 
 ### Response

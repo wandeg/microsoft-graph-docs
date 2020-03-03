@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update groupSetting
 
+Namespace: microsoft.graph
+
 Update the properties of a [groupSetting](../resources/groupsetting.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedTeams/{groupId}/settings/{groupSettingId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [groupSetting](../resources/groupSetting.md) object.
+In the request body, supply a JSON representation for the [groupSetting](../resources/groupsetting.md) object.
 
 The following table shows the properties that are required when you create the [groupSetting](../resources/groupsetting.md).
 
@@ -46,7 +48,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |templateId|String||
-|values|[settingValue](../resources/settingValue.md) collection||
+|values|[settingValue](../resources/settingvalue.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groupSettings/{groupSettingsId}
+PATCH https://graph.microsoft.com/localtest/groupSettings/{groupSettingsId}
 Content-type: application/json
 Content-length: 280
 
@@ -95,7 +97,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.groupSetting",
-  "id": "8b7e230a-230a-8b7e-0a23-7e8b0a237e8b",
+  "id": "c827e60b-e60b-c827-0be6-27c80be627c8",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

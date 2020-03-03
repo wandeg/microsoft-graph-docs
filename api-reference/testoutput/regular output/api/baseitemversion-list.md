@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List baseItemVersions
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [baseItemVersion](../resources/baseitemversion.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.baseItemVersion not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.baseItemVersion not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 812
   "value": [
     {
       "@odata.type": "#microsoft.graph.baseItemVersion",
-      "id": "ef1e12ff-12ff-ef1e-ff12-1eefff121eef",
+      "id": "655651bd-51bd-6556-bd51-5665bd515665",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -85,7 +87,7 @@ Content-Length: 812
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # assignLicense
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -43,7 +45,7 @@ The following table shows the parameters that can be used with this action.
 
 |Property|Type|Description|
 |:---|:---|:---|
-|addLicenses|[assignedLicense](../resources/assignedLicense.md) collection||
+|addLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
 |removeLicenses|Guid collection||
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/assignLicense
+POST https://graph.microsoft.com/localtest/me/assignLicense
 
 Content-type: application/json
 Content-length: 172
@@ -73,7 +75,7 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "f01c934c-934c-f01c-4c93-1cf04c931cf0"
+    "d305bb31-bb31-d305-31bb-05d331bb05d3"
   ]
 }
 ```
@@ -94,8 +96,8 @@ Content-Length: 3680
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "cfea26c1-26c1-cfea-c126-eacfc126eacf",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+    "id": "413d5db5-5db5-413d-b55d-3d41b55d3d41",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
     "accountEnabled": true,
     "ageGroup": "Age Group value",
     "assignedLicenses": [
@@ -125,7 +127,7 @@ Content-Length: 3680
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2016-12-31T23:57:42.1765484+03:00",
+    "lastPasswordChangeDateTime": "2016-12-31T23:57:52.8662193+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -140,7 +142,7 @@ Content-Length: 3680
       "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -170,7 +172,7 @@ Content-Length: 3680
       "Proxy Addresses value"
     ],
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2017-01-01T00:02:04.9098355+03:00",
+    "signInSessionsValidFromDateTime": "2017-01-01T00:01:21.6848283+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -182,8 +184,8 @@ Content-Length: 3680
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2016-12-31T23:58:57.9003343+03:00",
-    "hireDate": "2016-12-31T23:57:06.1211197+03:00",
+    "birthday": "2016-12-31T23:57:56.7393524+03:00",
+    "hireDate": "2017-01-01T00:01:28.7250325+03:00",
     "interests": [
       "Interests value"
     ],

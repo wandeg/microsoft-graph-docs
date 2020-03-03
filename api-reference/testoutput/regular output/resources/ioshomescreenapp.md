@@ -5,22 +5,23 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # iosHomeScreenApp resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [iosHomeScreenItem](../resources/iosHomeScreenItem.md)
+
+
+Inherits from [iosHomeScreenItem](../resources/ioshomescreenitem.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |bundleID|String|BundleID of app|
-|displayName|String|Name of the app Inherited from [iosHomeScreenItem](../resources/iosHomeScreenItem.md)|
+|displayName|String|Name of the app Inherited from [iosHomeScreenItem](../resources/ioshomescreenitem.md)|
 
 ## Relationships
 None

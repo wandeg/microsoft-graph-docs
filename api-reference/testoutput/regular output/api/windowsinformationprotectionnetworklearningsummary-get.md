@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windowsInformationProtectionNetworkLearningSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/windowsInformationProtectionNetworkLearningSummaries/{windowsInformationProtectionNetworkLearningSummaryId}
+GET https://graph.microsoft.com/localtest/deviceManagement/windowsInformationProtectionNetworkLearningSummaries/{windowsInformationProtectionNetworkLearningSummaryId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 213
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionNetworkLearningSummary",
-    "id": "34512b5b-2b5b-3451-5b2b-51345b2b5134",
+    "id": "34f8f125-f125-34f8-25f1-f83425f1f834",
     "url": "Url value",
     "deviceCount": 11
   }

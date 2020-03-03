@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookFunctionResult
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookFunctionResult](../resources/workbookfunctionresult.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookFunctionResult not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookFunctionResult](../resources/workbookFunctionResult.md) object.
+In the request body, supply a JSON representation for the [workbookFunctionResult](../resources/workbookfunctionresult.md) object.
 
 The following table shows the properties that are required when you create the [workbookFunctionResult](../resources/workbookfunctionresult.md).
 
@@ -43,7 +45,7 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |error|String||
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookFunctionResult not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookFunctionResult not found
 Content-type: application/json
 Content-length: 154
 
@@ -87,7 +89,7 @@ Content-Length: 203
 
 {
   "@odata.type": "#microsoft.graph.workbookFunctionResult",
-  "id": "704ebfb7-bfb7-704e-b7bf-4e70b7bf4e70",
+  "id": "4ad50dfa-0dfa-4ad5-fa0d-d54afa0dd54a",
   "error": "Error value",
   "value": {
     "@odata.type": "microsoft.graph.Json"

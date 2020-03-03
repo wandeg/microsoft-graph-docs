@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # CopyNotebookModel resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -17,15 +18,15 @@ Namespace: microsoft.graph
 |Property|Type|Description|
 |:---|:---|:---|
 |createdBy|String||
-|createdByIdentity|[identitySet](../resources/identitySet.md)||
+|createdByIdentity|[identitySet](../resources/identityset.md)||
 |createdTime|DateTimeOffset||
 |id|String||
 |isDefault|Boolean||
 |isShared|Boolean||
 |lastModifiedBy|String||
-|lastModifiedByIdentity|[identitySet](../resources/identitySet.md)||
+|lastModifiedByIdentity|[identitySet](../resources/identityset.md)||
 |lastModifiedTime|DateTimeOffset||
-|links|[notebookLinks](../resources/notebookLinks.md)||
+|links|[notebookLinks](../resources/notebooklinks.md)||
 |name|String||
 |sectionGroupsUrl|String||
 |sectionsUrl|String||

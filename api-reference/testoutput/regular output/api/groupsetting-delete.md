@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupSetting
 
+Namespace: microsoft.graph
+
 Deletes a [groupSetting](../resources/groupsetting.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/groupSettings/{groupSettingsId}
+DELETE https://graph.microsoft.com/localtest/groupSettings/{groupSettingsId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managedAppRegistrations
 
+Namespace: microsoft.graph
+
 Create managedAppRegistrations by posting to the managedAppRegistrations collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/managedAppRegistrations/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppRegistration object.
+In the request body, supply a JSON representation for the [managedAppRegistration](../resources/managedappregistration.md) object.
 
-The following table shows the properties that are required when you create the managedAppRegistration.
+The following table shows the properties that are required when you create the [managedAppRegistration](../resources/managedappregistration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the m
 |deviceName|String|Host device name|
 |flaggedReasons|Enumeration collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device. Possible values are: `none`, `rootedDevice`.|
 |userId|String|The user Id to who this app registration belongs.|
-|appIdentifier|[mobileAppIdentifier](../resources/mobileAppIdentifier.md)|The app package Identifier|
+|appIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The app package Identifier|
 |version|String|Version of the entity.|
 
 
@@ -72,13 +74,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/managedAppRegistrations
+POST https://graph.microsoft.com/localtest/me/managedAppRegistrations
 Content-type: application/json
-Content-length: 587
+Content-length: 586
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -107,13 +109,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 695
+Content-Length: 693
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "57e03ab6-3ab6-57e0-b63a-e057b63ae057",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "id": "a0f45a39-5a39-a0f4-395a-f4a0395af4a0",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

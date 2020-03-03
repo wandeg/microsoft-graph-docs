@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosUpdateConfigurations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosUpdateConfiguration](../resources/iosupdateconfiguration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosUpdateConfiguration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosUpdateConfiguration not found
 ```
 
 ### Response
@@ -64,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 582
+Content-Length: 581
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
-      "id": "8e7c2420-2420-8e7c-2024-7c8e20247c8e",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "d71b197f-197f-d71b-7f19-1bd77f191bd7",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
-      "activeHoursStart": "12:02:13.9050000",
-      "activeHoursEnd": "11:59:09.5630000",
+      "activeHoursStart": "11:59:37.5910000",
+      "activeHoursEnd": "12:01:43.6090000",
       "scheduledInstallDays": [
         "String"
       ],

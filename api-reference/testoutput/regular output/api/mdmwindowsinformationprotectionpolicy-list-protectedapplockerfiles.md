@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List protectedAppLockerFiles
 
+Namespace: microsoft.graph
+
 Get the windowsInformationProtectionAppLockerFiles from the protectedAppLockerFiles navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicyId}/protectedAppLockerFiles
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicyId}/protectedAppLockerFiles
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-      "id": "57d966ae-66ae-57d9-ae66-d957ae66d957",
+      "id": "fcbd25a5-25a5-fcbd-a525-bdfca525bdfc",
       "displayName": "Display Name value",
       "fileHash": "File Hash value",
       "file": "ZmlsZQ==",

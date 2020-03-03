@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenotePage
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenotePage](../resources/onenotepage.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ PATCH /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/pages/{onen
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenotePage](../resources/onenotePage.md) object.
+In the request body, supply a JSON representation for the [onenotePage](../resources/onenotepage.md) object.
 
 The following table shows the properties that are required when you create the [onenotePage](../resources/onenotepage.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteEntityBaseModel.md)|
-|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteEntitySchemaObjectModel.md)|
+|self|String| Inherited from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)|
+|createdDateTime|DateTimeOffset| Inherited from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md)|
 |title|String||
 |createdByAppId|String||
-|links|[pageLinks](../resources/pageLinks.md)||
+|links|[pageLinks](../resources/pagelinks.md)||
 |contentUrl|String||
 |content|Stream||
 |lastModifiedDateTime|DateTimeOffset||
@@ -70,7 +72,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/onenote/pages/{onenotePageId}
+PATCH https://graph.microsoft.com/localtest/me/onenote/pages/{onenotePageId}
 Content-type: application/json
 Content-length: 575
 
@@ -109,13 +111,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 747
+Content-Length: 746
 
 {
   "@odata.type": "#microsoft.graph.onenotePage",
-  "id": "994fb16a-b16a-994f-6ab1-4f996ab14f99",
+  "id": "0bd9b664-b664-0bd9-64b6-d90b64b6d90b",
   "self": "Self value",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "title": "Title value",
   "createdByAppId": "Created By App Id value",
   "links": {
@@ -130,7 +132,7 @@ Content-Length: 747
   },
   "contentUrl": "https://example.com/contentUrl/",
   "content": "Stream",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "level": 5,
   "order": 5,
   "userTags": [

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # plannerTask resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,27 +20,29 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get plannerTask](../api/plannertask-get.md)|[plannerTask](../resources/plannerTask.md)|Read properties and relationships of the [plannerTask](../resources/plannertask.md) object.|
+|[List plannerTasks](../api/plannertask-list.md)|[plannerTask](../resources/plannertask.md) collection|List properties and relationships of the [plannerTask](../resources/plannertask.md) objects.|
+|[Get plannerTask](../api/plannertask-get.md)|[plannerTask](../resources/plannertask.md)|Read properties and relationships of the [plannerTask](../resources/plannertask.md) object.|
+|[Create plannerTask](../api/plannertask-create.md)|[plannerTask](../resources/plannertask.md)|Create a new [plannerTask](../resources/plannertask.md) object.|
 |[Delete plannerTask](../api/plannertask-delete.md)|None|Deletes a [plannerTask](../resources/plannertask.md).|
-|[Update plannerTask](../api/plannertask-update.md)|[plannerTask](../resources/plannerTask.md)|Update the properties of a [plannerTask](../resources/plannertask.md) object.|
-|[Get plannerTaskDetails](../api/plannertaskdetails-get.md)|[plannerTaskDetails](../resources/plannerTaskDetails.md)|Read properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
-|[Get plannerAssignedToTaskBoardTaskFormat](../api/plannerassignedtotaskboardtaskformat-get.md)|[plannerAssignedToTaskBoardTaskFormat](../resources/plannerAssignedToTaskBoardTaskFormat.md)|Read properties and relationships of the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.|
-|[Get plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-get.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md)|Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
-|[Get plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-get.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerBucketTaskBoardTaskFormat.md)|Read properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.|
+|[Update plannerTask](../api/plannertask-update.md)|[plannerTask](../resources/plannertask.md)|Update the properties of a [plannerTask](../resources/plannertask.md) object.|
+|[Get plannerTaskDetails](../api/plannertaskdetails-get.md)|[plannerTaskDetails](../resources/plannertaskdetails.md)|Read properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
+|[Get plannerAssignedToTaskBoardTaskFormat](../api/plannerassignedtotaskboardtaskformat-get.md)|[plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md)|Read properties and relationships of the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.|
+|[Get plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-get.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
+|[Get plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-get.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md)|Read properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |activeChecklistItemCount|Int32||
-|appliedCategories|[plannerAppliedCategories](../resources/plannerAppliedCategories.md)||
+|appliedCategories|[plannerAppliedCategories](../resources/plannerappliedcategories.md)||
 |assigneePriority|String||
-|assignments|[plannerAssignments](../resources/plannerAssignments.md)||
+|assignments|[plannerAssignments](../resources/plannerassignments.md)||
 |bucketId|String||
 |checklistItemCount|Int32||
-|completedBy|[identitySet](../resources/identitySet.md)||
+|completedBy|[identitySet](../resources/identityset.md)||
 |completedDateTime|DateTimeOffset||
 |conversationThreadId|String||
-|createdBy|[identitySet](../resources/identitySet.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
 |createdDateTime|DateTimeOffset||
 |dueDateTime|DateTimeOffset||
 |hasDescription|Boolean||
@@ -55,10 +58,10 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|assignedToTaskBoardFormat|[plannerAssignedToTaskBoardTaskFormat](../resources/plannerAssignedToTaskBoardTaskFormat.md)||
-|bucketTaskBoardFormat|[plannerBucketTaskBoardTaskFormat](../resources/plannerBucketTaskBoardTaskFormat.md)||
-|details|[plannerTaskDetails](../resources/plannerTaskDetails.md)||
-|progressTaskBoardFormat|[plannerProgressTaskBoardTaskFormat](../resources/plannerProgressTaskBoardTaskFormat.md)||
+|assignedToTaskBoardFormat|[plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md)||
+|bucketTaskBoardFormat|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md)||
+|details|[plannerTaskDetails](../resources/plannertaskdetails.md)||
+|progressTaskBoardFormat|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

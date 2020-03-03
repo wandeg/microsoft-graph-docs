@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookTableColumn
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookTableColumn](../resources/workbooktablecolumn.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 247
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableColumn",
-    "id": "491a5fbc-5fbc-491a-bc5f-1a49bc5f1a49",
+    "id": "f2af648e-648e-f2af-8e64-aff28e64aff2",
     "index": 5,
     "name": "Name value",
     "values": {

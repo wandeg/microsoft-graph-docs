@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update eBookInstallSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [eBookInstallSummary](../resources/eBookInstallSummary.md) object.
+In the request body, supply a JSON representation for the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
 
 The following table shows the properties that are required when you create the [eBookInstallSummary](../resources/ebookinstallsummary.md).
 
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
 Content-type: application/json
 Content-length: 236
 
@@ -93,7 +95,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.eBookInstallSummary",
-  "id": "c51d7985-7985-c51d-8579-1dc585791dc5",
+  "id": "2976a2da-a2da-2976-daa2-7629daa27629",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notInstalledDeviceCount": 7,

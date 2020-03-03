@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete deviceComplianceScheduledActionForRule
 
+Namespace: microsoft.graph
+
 Deletes a [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add multiValueExtendedProperties
 
+Namespace: microsoft.graph
+
 Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversat
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the multiValueLegacyExtendedProperty object.
+In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
 
-The following table shows the properties that are required when you create the multiValueLegacyExtendedProperty.
+The following table shows the properties that are required when you create the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/multiValueExtendedProperties
+POST https://graph.microsoft.com/localtest/me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/multiValueExtendedProperties
 Content-type: application/json
 Content-length: 113
 
@@ -87,7 +89,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "255097b7-97b7-2550-b797-5025b7975025",
+  "id": "31b18d19-8d19-31b1-198d-b131198db131",
   "value": [
     "Value value"
   ]

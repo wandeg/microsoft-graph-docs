@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookChartDataLabels
 
+Namespace: microsoft.graph
+
 Deletes a [workbookChartDataLabels](../resources/workbookchartdatalabels.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/dataLabels
 ```
 
 ### Response

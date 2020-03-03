@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete plannerTask
 
+Namespace: microsoft.graph
+
 Deletes a [plannerTask](../resources/plannertask.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/planner/tasks/{plannerTaskId}
+DELETE https://graph.microsoft.com/localtest/planner/tasks/{plannerTaskId}
 ```
 
 ### Response

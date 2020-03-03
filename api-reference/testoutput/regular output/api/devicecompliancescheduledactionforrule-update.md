@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceComplianceScheduledActionForRule
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/sche
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceComplianceScheduledActionForRule](../resources/deviceComplianceScheduledActionForRule.md) object.
+In the request body, supply a JSON representation for the [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md) object.
 
 The following table shows the properties that are required when you create the [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md).
 
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}
 Content-type: application/json
 Content-length: 114
 
@@ -83,7 +85,7 @@ Content-Length: 163
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-  "id": "bcdb56cc-56cc-bcdb-cc56-dbbccc56dbbc",
+  "id": "39ca943b-943b-39ca-3b94-ca393b94ca39",
   "ruleName": "Rule Name value"
 }
 ```

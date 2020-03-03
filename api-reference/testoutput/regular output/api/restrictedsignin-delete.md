@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete restrictedSignIn
 
+Namespace: microsoft.graph
+
 Deletes a [restrictedSignIn](../resources/restrictedsignin.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/auditLogs/restrictedSignIns/{restrictedSignInId}
+DELETE https://graph.microsoft.com/localtest/auditLogs/restrictedSignIns/{restrictedSignInId}
 ```
 
 ### Response

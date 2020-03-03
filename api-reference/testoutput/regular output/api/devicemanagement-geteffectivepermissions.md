@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # getEffectivePermissions
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -45,7 +47,7 @@ The following table shows the parameters that can be used with this function.
 
 
 ## Response
-If successful, this function returns a `200 OK` response code and a [rolePermission](../resources/rolePermission.md) collection in the response body.
+If successful, this function returns a `200 OK` response code and a [rolePermission](../resources/rolepermission.md) collection in the response body.
 
 ## Example
 
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement/getEffectivePermissions(scope='parameterValue')
+GET https://graph.microsoft.com/localtest/deviceManagement/getEffectivePermissions(scope='parameterValue')
 ```
 
 ### Response

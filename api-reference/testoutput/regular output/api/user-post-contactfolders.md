@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contactFolders
 
+Namespace: microsoft.graph
+
 Add contactFolders by posting to the contactFolders collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /users/{usersId}/contactFolders/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the contactFolder object.
+In the request body, supply a JSON representation for the [contactFolder](../resources/contactfolder.md) object.
 
-The following table shows the properties that are required when you create the contactFolder.
+The following table shows the properties that are required when you create the [contactFolder](../resources/contactfolder.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/contactFolders
+POST https://graph.microsoft.com/localtest/me/contactFolders
 Content-type: application/json
 Content-length: 142
 
@@ -88,7 +90,7 @@ Content-Length: 191
 
 {
   "@odata.type": "#microsoft.graph.contactFolder",
-  "id": "fe680520-0520-fe68-2005-68fe200568fe",
+  "id": "ff3d85aa-85aa-ff3d-aa85-3dffaa853dff",
   "parentFolderId": "Parent Folder Id value",
   "displayName": "Display Name value"
 }

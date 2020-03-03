@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # meetingTimeSuggestion resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|attendeeAvailability|[attendeeAvailability](../resources/attendeeAvailability.md) collection||
+|attendeeAvailability|[attendeeAvailability](../resources/attendeeavailability.md) collection||
 |confidence|Double||
 |locations|[location](../resources/location.md) collection||
-|meetingTimeSlot|[timeSlot](../resources/timeSlot.md)||
+|meetingTimeSlot|[timeSlot](../resources/timeslot.md)||
 |order|Int32||
 |organizerAvailability|Enumeration|. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
 |suggestionReason|String||

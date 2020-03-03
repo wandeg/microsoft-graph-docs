@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update directoryRole
 
+Namespace: microsoft.graph
+
 Update the properties of a [directoryRole](../resources/directoryrole.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /directoryRoles/{directoryRolesId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [directoryRole](../resources/directoryRole.md) object.
+In the request body, supply a JSON representation for the [directoryRole](../resources/directoryrole.md) object.
 
 The following table shows the properties that are required when you create the [directoryRole](../resources/directoryrole.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |description|String||
 |displayName|String||
 |roleTemplateId|String||
@@ -62,13 +64,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/directoryRoles/{directoryRolesId}
+PATCH https://graph.microsoft.com/localtest/directoryRoles/{directoryRolesId}
 Content-type: application/json
 Content-length: 240
 
 {
   "@odata.type": "#microsoft.graph.directoryRole",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "roleTemplateId": "Role Template Id value"
@@ -89,8 +91,8 @@ Content-Length: 289
 
 {
   "@odata.type": "#microsoft.graph.directoryRole",
-  "id": "dfc43b4d-3b4d-dfc4-4d3b-c4df4d3bc4df",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "d73ed86c-d86c-d73e-6cd8-3ed76cd83ed7",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "roleTemplateId": "Role Template Id value"

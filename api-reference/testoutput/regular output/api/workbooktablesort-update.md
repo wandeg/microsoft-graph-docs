@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookTableSort
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookTableSort](../resources/workbooktablesort.md) object.
 
 ## Permissions
@@ -35,14 +37,14 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookTableSort](../resources/workbookTableSort.md) object.
+In the request body, supply a JSON representation for the [workbookTableSort](../resources/workbooktablesort.md) object.
 
 The following table shows the properties that are required when you create the [workbookTableSort](../resources/workbooktablesort.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|fields|[workbookSortField](../resources/workbookSortField.md) collection||
+|fields|[workbookSortField](../resources/workbooksortfield.md) collection||
 |matchCase|Boolean||
 |method|String||
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/sort
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/sort
 Content-type: application/json
 Content-length: 485
 
@@ -101,7 +103,7 @@ Content-Length: 534
 
 {
   "@odata.type": "#microsoft.graph.workbookTableSort",
-  "id": "04cea339-a339-04ce-39a3-ce0439a3ce04",
+  "id": "0b0d7694-7694-0b0d-9476-0d0b94760d0b",
   "fields": [
     {
       "@odata.type": "microsoft.graph.workbookSortField",

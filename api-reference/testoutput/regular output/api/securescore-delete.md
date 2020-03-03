@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete secureScore
 
+Namespace: microsoft.graph
+
 Deletes a [secureScore](../resources/securescore.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/Security/secureScores/{secureScoreId}
+DELETE https://graph.microsoft.com/localtest/Security/secureScores/{secureScoreId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceManagementTroubleshootingEvents
 
+Namespace: microsoft.graph
+
 Get the deviceManagementTroubleshootingEvents from the deviceManagementTroubleshootingEvents navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/deviceManagementTroubleshootingEvents
+GET https://graph.microsoft.com/localtest/me/deviceManagementTroubleshootingEvents
 ```
 
 ### Response
@@ -71,8 +73,8 @@ Content-Length: 277
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-      "id": "b0b54b76-4b76-b0b5-764b-b5b0764bb5b0",
-      "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+      "id": "9a0757eb-57eb-9a07-eb57-079aeb57079a",
+      "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
       "correlationId": "Correlation Id value"
     }
   ]

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosStoreApps
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosStoreApp](../resources/iosstoreapp.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosStoreApp not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosStoreApp not found
 ```
 
 ### Response
@@ -64,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1367
+Content-Length: 1366
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosStoreApp",
-      "id": "de495495-5495-de49-9554-49de955449de",
+      "id": "ed48a912-a912-ed48-12a9-48ed12a948ed",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -79,8 +81,8 @@ Content-Length: 1367
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

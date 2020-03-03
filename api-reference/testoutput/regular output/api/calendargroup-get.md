@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get calendarGroup
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [calendarGroup](../resources/calendargroup.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/calendarGroups/{calendarGroupId}
+GET https://graph.microsoft.com/localtest/me/calendarGroups/{calendarGroupId}
 ```
 
 ### Response
@@ -73,9 +75,9 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendarGroup",
-    "id": "318ed636-d636-318e-36d6-8e3136d68e31",
+    "id": "68686806-6806-6868-0668-686806686868",
     "name": "Name value",
-    "classId": "9a82fc4f-fc4f-9a82-4ffc-829a4ffc829a",
+    "classId": "c381f382-f382-c381-82f3-81c382f381c3",
     "changeKey": "Change Key value"
   }
 }

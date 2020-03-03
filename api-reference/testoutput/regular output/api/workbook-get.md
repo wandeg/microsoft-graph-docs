@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbook
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbook](../resources/workbook.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/workbook
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/workbook
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbook",
-    "id": "57903461-3461-5790-6134-905761349057"
+    "id": "6c626c57-6c57-6c62-576c-626c576c626c"
   }
 }
 ```

@@ -5,28 +5,31 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # contact resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [outlookItem](../resources/outlookItem.md)
+
+
+Inherits from [outlookItem](../resources/outlookitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List contacts](../api/contact-list.md)|[contact](../resources/contact.md) collection|List properties and relationships of the [contact](../resources/contact.md) objects.|
 |[Get contact](../api/contact-get.md)|[contact](../resources/contact.md)|Read properties and relationships of the [contact](../resources/contact.md) object.|
+|[Create contact](../api/contact-create.md)|[contact](../resources/contact.md)|Create a new [contact](../resources/contact.md) object.|
 |[Delete contact](../api/contact-delete.md)|None|Deletes a [contact](../resources/contact.md).|
 |[Update contact](../api/contact-update.md)|[contact](../resources/contact.md)|Update the properties of a [contact](../resources/contact.md) object.|
-|[List singleValueExtendedProperties](../api/contact-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/contact-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/contact-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/contact-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
-|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilePhoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
+|[List singleValueExtendedProperties](../api/contact-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/contact-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/contact-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/contact-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
 |[List extensions](../api/contact-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
 |[Add extensions](../api/contact-post-extensions.md)|[extension](../resources/extension.md)|Add extensions by posting to the extensions collection.|
 
@@ -35,33 +38,33 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |:---|:---|:---|
 |assistantName|String||
 |birthday|DateTimeOffset||
-|businessAddress|[physicalAddress](../resources/physicalAddress.md)||
+|businessAddress|[physicalAddress](../resources/physicaladdress.md)||
 |businessHomePage|String||
 |businessPhones|String collection||
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
 |children|String collection||
 |companyName|String||
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |department|String||
 |displayName|String||
-|emailAddresses|[emailAddress](../resources/emailAddress.md) collection||
+|emailAddresses|[emailAddress](../resources/emailaddress.md) collection||
 |fileAs|String||
 |generation|String||
 |givenName|String||
-|homeAddress|[physicalAddress](../resources/physicalAddress.md)||
+|homeAddress|[physicalAddress](../resources/physicaladdress.md)||
 |homePhones|String collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |imAddresses|String collection||
 |initials|String||
 |jobTitle|String||
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |manager|String||
 |middleName|String||
 |mobilePhone|String||
 |nickName|String||
 |officeLocation|String||
-|otherAddress|[physicalAddress](../resources/physicalAddress.md)||
+|otherAddress|[physicalAddress](../resources/physicaladdress.md)||
 |parentFolderId|String||
 |personalNotes|String||
 |profession|String||
@@ -76,9 +79,9 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |Relationship|Type|Description|
 |:---|:---|:---|
 |extensions|[extension](../resources/extension.md) collection||
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection||
-|photo|[profilePhoto](../resources/profilePhoto.md)||
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection||
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
+|photo|[profilePhoto](../resources/profilephoto.md)||
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

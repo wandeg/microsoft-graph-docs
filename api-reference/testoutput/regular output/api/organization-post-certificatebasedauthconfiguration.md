@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create certificateBasedAuthConfiguration
 
+Namespace: microsoft.graph
+
 Create certificateBasedAuthConfiguration by posting to the certificateBasedAuthConfiguration collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST /organization/{organizationId}/certificateBasedAuthConfiguration/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the certificateBasedAuthConfiguration object.
+In the request body, supply a JSON representation for the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.
 
-The following table shows the properties that are required when you create the certificateBasedAuthConfiguration.
+The following table shows the properties that are required when you create the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|certificateAuthorities|[certificateAuthority](../resources/certificateAuthority.md) collection||
+|certificateAuthorities|[certificateAuthority](../resources/certificateauthority.md) collection||
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/organization/{organizationId}/certificateBasedAuthConfiguration
+POST https://graph.microsoft.com/localtest/organization/{organizationId}/certificateBasedAuthConfiguration
 Content-type: application/json
 Content-length: 528
 
@@ -95,7 +97,7 @@ Content-Length: 577
 
 {
   "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-  "id": "0bbba739-a739-0bbb-39a7-bb0b39a7bb0b",
+  "id": "2e51daa8-daa8-2e51-a8da-512ea8da512e",
   "certificateAuthorities": [
     {
       "@odata.type": "microsoft.graph.certificateAuthority",

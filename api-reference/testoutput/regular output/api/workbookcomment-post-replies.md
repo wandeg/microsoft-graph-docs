@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add replies
 
+Namespace: microsoft.graph
+
 Add replies by posting to the replies collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookCommentReply object.
+In the request body, supply a JSON representation for the [workbookCommentReply](../resources/workbookcommentreply.md) object.
 
-The following table shows the properties that are required when you create the workbookCommentReply.
+The following table shows the properties that are required when you create the [workbookCommentReply](../resources/workbookcommentreply.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies
+POST https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies
 Content-type: application/json
 Content-length: 133
 
@@ -87,7 +89,7 @@ Content-Length: 182
 
 {
   "@odata.type": "#microsoft.graph.workbookCommentReply",
-  "id": "2656e3d3-e3d3-2656-d3e3-5626d3e35626",
+  "id": "e04be90f-e90f-e04b-0fe9-4be00fe94be0",
   "content": "Content value",
   "contentType": "Content Type value"
 }

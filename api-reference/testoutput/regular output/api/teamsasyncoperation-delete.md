@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete teamsAsyncOperation
 
+Namespace: microsoft.graph
+
 Deletes a [teamsAsyncOperation](../resources/teamsasyncoperation.md).
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/teams/{teamsId}/operations/{teamsAsyncOperationId}
+DELETE https://graph.microsoft.com/localtest/teams/{teamsId}/operations/{teamsAsyncOperationId}
 ```
 
 ### Response

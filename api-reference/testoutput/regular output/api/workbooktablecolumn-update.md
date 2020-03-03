@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookTableColumn
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookTableColumn](../resources/workbooktablecolumn.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookTableColumn](../resources/workbookTableColumn.md) object.
+In the request body, supply a JSON representation for the [workbookTableColumn](../resources/workbooktablecolumn.md) object.
 
 The following table shows the properties that are required when you create the [workbookTableColumn](../resources/workbooktablecolumn.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |index|Int32||
 |name|String||
-|values|[Json](../resources/Json.md)||
+|values|[Json](../resources/json.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/{workbookTableColumnId}
 Content-type: application/json
 Content-length: 165
 
@@ -89,7 +91,7 @@ Content-Length: 214
 
 {
   "@odata.type": "#microsoft.graph.workbookTableColumn",
-  "id": "491a5fbc-5fbc-491a-bc5f-1a49bc5f1a49",
+  "id": "f2af648e-648e-f2af-8e64-aff28e64aff2",
   "index": 5,
   "name": "Name value",
   "values": {

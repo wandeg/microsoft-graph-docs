@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get softwareUpdateStatusSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.
 
 ## Permissions
@@ -71,7 +73,7 @@ Content-Length: 620
 {
   "value": {
     "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-    "id": "029d2de0-2de0-029d-e02d-9d02e02d9d02",
+    "id": "8f2b8162-8162-8f2b-6281-2b8f62812b8f",
     "displayName": "Display Name value",
     "compliantDeviceCount": 4,
     "nonCompliantDeviceCount": 7,

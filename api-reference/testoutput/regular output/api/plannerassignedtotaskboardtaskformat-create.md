@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create plannerAssignedToTaskBoardTaskFormat
 
+Namespace: microsoft.graph
+
 Create a new [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
 
 ## Permissions
@@ -36,15 +38,15 @@ POST ** Collection URI for microsoft.graph.plannerAssignedToTaskBoardTaskFormat 
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerAssignedToTaskBoardTaskFormat object.
+In the request body, supply a JSON representation for the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
 
-The following table shows the properties that are required when you create the plannerAssignedToTaskBoardTaskFormat.
+The following table shows the properties that are required when you create the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |unassignedOrderHint|String||
-|orderHintsByAssignee|[plannerOrderHintsByAssignee](../resources/plannerOrderHintsByAssignee.md)||
+|orderHintsByAssignee|[plannerOrderHintsByAssignee](../resources/plannerorderhintsbyassignee.md)||
 
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.plannerAssignedToTaskBoardTaskFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.plannerAssignedToTaskBoardTaskFormat not found
 Content-type: application/json
 Content-length: 236
 
@@ -89,7 +91,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-  "id": "5cdfd451-d451-5cdf-51d4-df5c51d4df5c",
+  "id": "ef837043-7043-ef83-4370-83ef437083ef",
   "unassignedOrderHint": "Unassigned Order Hint value",
   "orderHintsByAssignee": {
     "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

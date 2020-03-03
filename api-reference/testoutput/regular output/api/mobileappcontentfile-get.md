@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileAppContentFile
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileAppContentFile](../resources/mobileappcontentfile.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
 ```
 
 ### Response
@@ -72,14 +74,14 @@ Content-Length: 482
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppContentFile",
-    "id": "d6874a77-4a77-d687-774a-87d6774a87d6",
+    "id": "16b942cb-42cb-16b9-cb42-b916cb42b916",
     "azureStorageUri": "Azure Storage Uri value",
     "isCommitted": true,
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "name": "Name value",
     "size": 4,
     "sizeEncrypted": 13,
-    "azureStorageUriExpirationDateTime": "2017-01-01T00:01:45.071169+03:00",
+    "azureStorageUriExpirationDateTime": "2017-01-01T00:00:04.7403156+03:00",
     "manifest": "bWFuaWZlc3Q=",
     "uploadState": "String"
   }

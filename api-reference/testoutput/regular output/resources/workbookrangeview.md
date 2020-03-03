@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookRangeView resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,36 +20,36 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookRangeViews](../api/workbookrangeview-list.md)|[workbookRangeView](../resources/workbookRangeView.md) collection|List properties and relationships of the [workbookRangeView](../resources/workbookrangeview.md) objects.|
-|[Get workbookRangeView](../api/workbookrangeview-get.md)|[workbookRangeView](../resources/workbookRangeView.md)|Read properties and relationships of the [workbookRangeView](../resources/workbookrangeview.md) object.|
-|[Create workbookRangeView](../api/workbookrangeview-create.md)|[workbookRangeView](../resources/workbookRangeView.md)|Create a new [workbookRangeView](../resources/workbookrangeview.md) object.|
+|[List workbookRangeViews](../api/workbookrangeview-list.md)|[workbookRangeView](../resources/workbookrangeview.md) collection|List properties and relationships of the [workbookRangeView](../resources/workbookrangeview.md) objects.|
+|[Get workbookRangeView](../api/workbookrangeview-get.md)|[workbookRangeView](../resources/workbookrangeview.md)|Read properties and relationships of the [workbookRangeView](../resources/workbookrangeview.md) object.|
+|[Create workbookRangeView](../api/workbookrangeview-create.md)|[workbookRangeView](../resources/workbookrangeview.md)|Create a new [workbookRangeView](../resources/workbookrangeview.md) object.|
 |[Delete workbookRangeView](../api/workbookrangeview-delete.md)|None|Deletes a [workbookRangeView](../resources/workbookrangeview.md).|
-|[Update workbookRangeView](../api/workbookrangeview-update.md)|[workbookRangeView](../resources/workbookRangeView.md)|Update the properties of a [workbookRangeView](../resources/workbookrangeview.md) object.|
-|[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookRangeView.md) collection|Get the workbookRangeViews from the rows navigation property.|
-|[Add rows](../api/workbookrangeview-post-rows.md)|[workbookRangeView](../resources/workbookRangeView.md)|Add rows by posting to the rows collection.|
-|[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookRangeView.md) collection|Get the workbookRangeViews from the rows navigation property.|
-|[Add rows](../api/workbookrangeview-post-rows.md)|[workbookRangeView](../resources/workbookRangeView.md)|Add rows by posting to the rows collection.|
+|[Update workbookRangeView](../api/workbookrangeview-update.md)|[workbookRangeView](../resources/workbookrangeview.md)|Update the properties of a [workbookRangeView](../resources/workbookrangeview.md) object.|
+|[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookrangeview.md) collection|Get the workbookRangeViews from the rows navigation property.|
+|[Add rows](../api/workbookrangeview-post-rows.md)|[workbookRangeView](../resources/workbookrangeview.md)|Add rows by posting to the rows collection.|
+|[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookrangeview.md) collection|Get the workbookRangeViews from the rows navigation property.|
+|[Add rows](../api/workbookrangeview-post-rows.md)|[workbookRangeView](../resources/workbookrangeview.md)|Add rows by posting to the rows collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|cellAddresses|[Json](../resources/Json.md)||
+|cellAddresses|[Json](../resources/json.md)||
 |columnCount|Int32||
-|formulas|[Json](../resources/Json.md)||
-|formulasLocal|[Json](../resources/Json.md)||
-|formulasR1C1|[Json](../resources/Json.md)||
+|formulas|[Json](../resources/json.md)||
+|formulasLocal|[Json](../resources/json.md)||
+|formulasR1C1|[Json](../resources/json.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |index|Int32||
-|numberFormat|[Json](../resources/Json.md)||
+|numberFormat|[Json](../resources/json.md)||
 |rowCount|Int32||
-|text|[Json](../resources/Json.md)||
-|values|[Json](../resources/Json.md)||
-|valueTypes|[Json](../resources/Json.md)||
+|text|[Json](../resources/json.md)||
+|values|[Json](../resources/json.md)||
+|valueTypes|[Json](../resources/json.md)||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|rows|[workbookRangeView](../resources/workbookRangeView.md) collection||
+|rows|[workbookRangeView](../resources/workbookrangeview.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create groupSettingTemplate
 
+Namespace: microsoft.graph
+
 Create a new [groupSettingTemplate](../resources/groupsettingtemplate.md) object.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /groupSettingTemplates
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupSettingTemplate object.
+In the request body, supply a JSON representation for the [groupSettingTemplate](../resources/groupsettingtemplate.md) object.
 
-The following table shows the properties that are required when you create the groupSettingTemplate.
+The following table shows the properties that are required when you create the [groupSettingTemplate](../resources/groupsettingtemplate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
 |displayName|String||
 |description|String||
-|values|[settingTemplateValue](../resources/settingTemplateValue.md) collection||
+|values|[settingTemplateValue](../resources/settingtemplatevalue.md) collection||
 
 
 
@@ -63,13 +65,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groupSettingTemplates
+POST https://graph.microsoft.com/localtest/groupSettingTemplates
 Content-type: application/json
 Content-length: 400
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [
@@ -98,8 +100,8 @@ Content-Length: 449
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "id": "a6beb862-b862-a6be-62b8-bea662b8bea6",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "80a84b77-4b77-80a8-774b-a880774ba880",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contentVersions
 
+Namespace: microsoft.graph
+
 Add contentVersions by posting to the contentVersions collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.mobileLobApp/
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the mobileAppContent object.
+In the request body, supply a JSON representation for the [mobileAppContent](../resources/mobileappcontent.md) object.
 
-The following table shows the properties that are required when you create the mobileAppContent.
+The following table shows the properties that are required when you create the [mobileAppContent](../resources/mobileappcontent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.mobileLobApp/contentVersions
+POST https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.mobileLobApp/contentVersions
 Content-type: application/json
 Content-length: 58
 
@@ -83,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContent",
-  "id": "49fac93a-c93a-49fa-3ac9-fa493ac9fa49"
+  "id": "3800af2f-af2f-3800-2faf-00382faf0038"
 }
 ```
 

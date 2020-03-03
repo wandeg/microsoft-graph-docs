@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create managedAppStatusRaw
 
+Namespace: microsoft.graph
+
 Create a new [managedAppStatusRaw](../resources/managedappstatusraw.md) object.
 
 ## Permissions
@@ -36,16 +38,16 @@ POST ** Collection URI for microsoft.graph.managedAppStatusRaw not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the managedAppStatusRaw object.
+In the request body, supply a JSON representation for the [managedAppStatusRaw](../resources/managedappstatusraw.md) object.
 
-The following table shows the properties that are required when you create the managedAppStatusRaw.
+The following table shows the properties that are required when you create the [managedAppStatusRaw](../resources/managedappstatusraw.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String|Friendly name of the status report. Inherited from [managedAppStatus](../resources/managedAppStatus.md)|
-|version|String|Version of the entity. Inherited from [managedAppStatus](../resources/managedAppStatus.md)|
-|content|[Json](../resources/Json.md)|Status report content.|
+|displayName|String|Friendly name of the status report. Inherited from [managedAppStatus](../resources/managedappstatus.md)|
+|version|String|Version of the entity. Inherited from [managedAppStatus](../resources/managedappstatus.md)|
+|content|[Json](../resources/json.md)|Status report content.|
 
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.managedAppStatusRaw not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedAppStatusRaw not found
 Content-type: application/json
 Content-length: 197
 
@@ -91,7 +93,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.managedAppStatusRaw",
-  "id": "689e34c0-34c0-689e-c034-9e68c0349e68",
+  "id": "85733d9d-3d9d-8573-9d3d-73859d3d7385",
   "displayName": "Display Name value",
   "version": "Version value",
   "content": {

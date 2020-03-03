@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get recordOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [recordOperation](../resources/recordoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.recordOperation not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.recordOperation not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 469
 {
   "value": {
     "@odata.type": "#microsoft.graph.recordOperation",
-    "id": "fe03f4ed-f4ed-fe03-edf4-03feedf403fe",
+    "id": "3e63f5b0-f5b0-3e63-b0f5-633eb0f5633e",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

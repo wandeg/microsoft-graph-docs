@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update identityProvider
 
+Namespace: microsoft.graph
+
 Update the properties of a [identityProvider](../resources/identityprovider.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /identityProviders/{identityProvidersId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [identityProvider](../resources/identityProvider.md) object.
+In the request body, supply a JSON representation for the [identityProvider](../resources/identityprovider.md) object.
 
 The following table shows the properties that are required when you create the [identityProvider](../resources/identityprovider.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/identityProviders/{identityProvidersId}
+PATCH https://graph.microsoft.com/localtest/identityProviders/{identityProvidersId}
 Content-type: application/json
 Content-length: 184
 
@@ -89,7 +91,7 @@ Content-Length: 233
 
 {
   "@odata.type": "#microsoft.graph.identityProvider",
-  "id": "b0578508-8508-b057-0885-57b0088557b0",
+  "id": "b74f77f2-77f2-b74f-f277-4fb7f2774fb7",
   "type": "Type value",
   "name": "Name value",
   "clientId": "Client Id value",

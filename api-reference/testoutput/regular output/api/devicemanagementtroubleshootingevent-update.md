@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update deviceManagementTroubleshootingEvent
 
+Namespace: microsoft.graph
+
 Update the properties of a [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEv
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/deviceManagementTroubleshootingEvent.md) object.
+In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
 
 The following table shows the properties that are required when you create the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md).
 
@@ -60,13 +62,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/troubleshootingEvents/{deviceManagementTroubleshootingEventId}
 Content-type: application/json
 Content-length: 179
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value"
 }
 ```
@@ -85,8 +87,8 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "b0b54b76-4b76-b0b5-764b-b5b0764bb5b0",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "id": "9a0757eb-57eb-9a07-eb57-079aeb57079a",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value"
 }
 ```

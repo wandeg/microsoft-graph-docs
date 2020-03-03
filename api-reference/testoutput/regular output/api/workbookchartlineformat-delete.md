@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete workbookChartLineFormat
 
+Namespace: microsoft.graph
+
 Deletes a [workbookChartLineFormat](../resources/workbookchartlineformat.md).
 
 ## Permissions
@@ -52,7 +54,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
+DELETE https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format/line
 ```
 
 ### Response

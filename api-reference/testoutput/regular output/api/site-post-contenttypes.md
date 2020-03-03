@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add contentTypes
 
+Namespace: microsoft.graph
+
 Add contentTypes by posting to the contentTypes collection.
 
 ## Permissions
@@ -37,9 +39,9 @@ POST /me/joinedTeams/{groupId}/sites/{siteId}/contentTypes/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the contentType object.
+In the request body, supply a JSON representation for the [contentType](../resources/contenttype.md) object.
 
-The following table shows the properties that are required when you create the contentType.
+The following table shows the properties that are required when you create the [contentType](../resources/contenttype.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,9 +49,9 @@ The following table shows the properties that are required when you create the c
 |description|String||
 |group|String||
 |hidden|Boolean||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
 |name|String||
-|order|[contentTypeOrder](../resources/contentTypeOrder.md)||
+|order|[contentTypeOrder](../resources/contenttypeorder.md)||
 |parentId|String||
 |readOnly|Boolean||
 |sealed|Boolean||
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/sites/{sitesId}/contentTypes
+POST https://graph.microsoft.com/localtest/sites/{sitesId}/contentTypes
 Content-type: application/json
 Content-length: 952
 
@@ -123,7 +125,7 @@ Content-Length: 1001
 
 {
   "@odata.type": "#microsoft.graph.contentType",
-  "id": "848b01db-01db-848b-db01-8b84db018b84",
+  "id": "10f918e1-18e1-10f9-e118-f910e118f910",
   "description": "Description value",
   "group": "Group value",
   "hidden": true,

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # answer
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -43,7 +45,7 @@ The following table shows the parameters that can be used with this action.
 |Property|Type|Description|
 |:---|:---|:---|
 |callbackUri|String||
-|mediaConfig|[mediaConfig](../resources/mediaConfig.md)||
+|mediaConfig|[mediaConfig](../resources/mediaconfig.md)||
 |acceptedModalities|Enumeration collection||
 
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/communications/calls/{callId}/answer
+POST https://graph.microsoft.com/localtest/communications/calls/{callId}/answer
 
 Content-type: application/json
 Content-length: 202

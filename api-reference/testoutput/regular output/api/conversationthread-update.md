@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update conversationThread
 
+Namespace: microsoft.graph
+
 Update the properties of a [conversationThread](../resources/conversationthread.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversa
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [conversationThread](../resources/conversationThread.md) object.
+In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
 
 The following table shows the properties that are required when you create the [conversationThread](../resources/conversationthread.md).
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/groups/{groupsId}/threads/{conversationThreadId}
+PATCH https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}
 Content-type: application/json
 Content-length: 627
 
@@ -86,7 +88,7 @@ Content-length: 627
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:32.1744944+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -114,7 +116,7 @@ Content-Length: 676
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "375dcfaa-cfaa-375d-aacf-5d37aacf5d37",
+  "id": "b434caf4-caf4-b434-f4ca-34b4f4ca34b4",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -127,7 +129,7 @@ Content-Length: 676
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:32.1744944+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

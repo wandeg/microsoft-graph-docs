@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update domain
 
+Namespace: microsoft.graph
+
 Update the properties of a [domain](../resources/domain.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ The following table shows the properties that are required when you create the [
 |passwordNotificationWindowInDays|Int32||
 |passwordValidityPeriodInDays|Int32||
 |supportedServices|String collection||
-|state|[domainState](../resources/domainState.md)||
+|state|[domainState](../resources/domainstate.md)||
 
 
 
@@ -71,7 +73,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/domains/{domainsId}
+PATCH https://graph.microsoft.com/localtest/domains/{domainsId}
 Content-type: application/json
 Content-length: 684
 
@@ -95,7 +97,7 @@ Content-length: 684
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00"
+    "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00"
   }
 }
 ```
@@ -114,7 +116,7 @@ Content-Length: 733
 
 {
   "@odata.type": "#microsoft.graph.domain",
-  "id": "7b74ae91-ae91-7b74-91ae-747b91ae747b",
+  "id": "47a61309-1309-47a6-0913-a6470913a647",
   "authenticationType": "Authentication Type value",
   "availabilityStatus": "Availability Status value",
   "isAdminManaged": true,
@@ -133,7 +135,7 @@ Content-Length: 733
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00"
+    "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00"
   }
 }
 ```

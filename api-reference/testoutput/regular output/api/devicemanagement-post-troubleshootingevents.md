@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add troubleshootingEvents
 
+Namespace: microsoft.graph
+
 Add troubleshootingEvents by posting to the troubleshootingEvents collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/troubleshootingEvents/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementTroubleshootingEvent object.
+In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementTroubleshootingEvent.
+The following table shows the properties that are required when you create the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,13 +63,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/troubleshootingEvents
+POST https://graph.microsoft.com/localtest/deviceManagement/troubleshootingEvents
 Content-type: application/json
 Content-length: 179
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value"
 }
 ```
@@ -87,8 +89,8 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "b0b54b76-4b76-b0b5-764b-b5b0764bb5b0",
-  "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+  "id": "9a0757eb-57eb-9a07-eb57-079aeb57079a",
+  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
   "correlationId": "Correlation Id value"
 }
 ```

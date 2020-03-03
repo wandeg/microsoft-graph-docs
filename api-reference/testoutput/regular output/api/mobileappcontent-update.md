@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update mobileAppContent
 
+Namespace: microsoft.graph
+
 Update the properties of a [mobileAppContent](../resources/mobileappcontent.md) object.
 
 ## Permissions
@@ -37,7 +39,7 @@ PATCH /deviceAppManagement/mobileApps/{mobileAppId}/microsoft.graph.managedMobil
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [mobileAppContent](../resources/mobileAppContent.md) object.
+In the request body, supply a JSON representation for the [mobileAppContent](../resources/mobileappcontent.md) object.
 
 The following table shows the properties that are required when you create the [mobileAppContent](../resources/mobileappcontent.md).
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
 Content-type: application/json
 Content-length: 58
 
@@ -83,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContent",
-  "id": "49fac93a-c93a-49fa-3ac9-fa493ac9fa49"
+  "id": "3800af2f-af2f-3800-2faf-00382faf0038"
 }
 ```
 

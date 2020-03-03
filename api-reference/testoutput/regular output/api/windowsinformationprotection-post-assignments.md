@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add assignments
 
+Namespace: microsoft.graph
+
 Add assignments by posting to the assignments collection.
 
 ## Permissions
@@ -36,14 +38,14 @@ POST ** Collection URI for microsoft.graph.targetedManagedAppPolicyAssignment no
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the targetedManagedAppPolicyAssignment object.
+In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
-The following table shows the properties that are required when you create the targetedManagedAppPolicyAssignment.
+The following table shows the properties that are required when you create the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|Identifier for deployment of a group or app|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|Identifier for deployment of a group or app|
 
 
 
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.targetedManagedAppPolicyAssignment not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.targetedManagedAppPolicyAssignment not found
 Content-type: application/json
 Content-length: 174
 
@@ -87,7 +89,7 @@ Content-Length: 223
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-  "id": "fd7d43f4-43f4-fd7d-f443-7dfdf4437dfd",
+  "id": "7ef3a1f1-a1f1-7ef3-f1a1-f37ef1a1f37e",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

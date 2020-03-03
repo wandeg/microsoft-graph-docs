@@ -5,19 +5,20 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # location resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)||
-|coordinates|[outlookGeoCoordinates](../resources/outlookGeoCoordinates.md)||
+|address|[physicalAddress](../resources/physicaladdress.md)||
+|coordinates|[outlookGeoCoordinates](../resources/outlookgeocoordinates.md)||
 |displayName|String||
 |locationEmailAddress|String||
 |locationType|Enumeration|. Possible values are: `default`, `conferenceRoom`, `homeAddress`, `businessAddress`, `geoCoordinates`, `streetAddress`, `hotel`, `restaurant`, `localBusiness`, `postalAddress`.|

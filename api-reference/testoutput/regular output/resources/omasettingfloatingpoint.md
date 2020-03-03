@@ -5,23 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # omaSettingFloatingPoint resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [omaSetting](../resources/omaSetting.md)
+
+
+Inherits from [omaSetting](../resources/omasetting.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|String|Description. Inherited from [omaSetting](../resources/omaSetting.md)|
-|displayName|String|Display Name. Inherited from [omaSetting](../resources/omaSetting.md)|
-|omaUri|String|OMA. Inherited from [omaSetting](../resources/omaSetting.md)|
+|description|String|Description. Inherited from [omaSetting](../resources/omasetting.md)|
+|displayName|String|Display Name. Inherited from [omaSetting](../resources/omasetting.md)|
+|omaUri|String|OMA. Inherited from [omaSetting](../resources/omasetting.md)|
 |value|Single|Value.|
 
 ## Relationships

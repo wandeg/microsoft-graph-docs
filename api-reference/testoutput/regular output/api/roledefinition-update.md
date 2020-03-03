@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update roleDefinition
 
+Namespace: microsoft.graph
+
 Update the properties of a [roleDefinition](../resources/roledefinition.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/roleDefinitions/{roleDefinitionId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [roleDefinition](../resources/roleDefinition.md) object.
+In the request body, supply a JSON representation for the [roleDefinition](../resources/roledefinition.md) object.
 
 The following table shows the properties that are required when you create the [roleDefinition](../resources/roledefinition.md).
 
@@ -44,7 +46,7 @@ The following table shows the properties that are required when you create the [
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String|Display Name of the Role definition.|
 |description|String|Description of the Role definition.|
-|rolePermissions|[rolePermission](../resources/rolePermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
+|rolePermissions|[rolePermission](../resources/rolepermission.md) collection|List of Role Permissions this role is allowed to perform. These must match the actionName that is defined as part of the rolePermission.|
 |isBuiltIn|Boolean|Type of Role. Set to True if it is built-in, or set to False if it is a custom role definition.|
 
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/roleDefinitions/{roleDefinitionId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/roleDefinitions/{roleDefinitionId}
 Content-type: application/json
 Content-length: 580
 
@@ -104,7 +106,7 @@ Content-Length: 629
 
 {
   "@odata.type": "#microsoft.graph.roleDefinition",
-  "id": "e0501fe2-1fe2-e050-e21f-50e0e21f50e0",
+  "id": "373b31af-31af-373b-af31-3b37af313b37",
   "displayName": "Display Name value",
   "description": "Description value",
   "rolePermissions": [

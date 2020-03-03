@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartTitleFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartTitleFormat not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartTitleFormat object.
+In the request body, supply a JSON representation for the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartTitleFormat.
+The following table shows the properties that are required when you create the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartTitleFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartTitleFormat not found
 Content-type: application/json
 Content-length: 66
 
@@ -83,7 +85,7 @@ Content-Length: 115
 
 {
   "@odata.type": "#microsoft.graph.workbookChartTitleFormat",
-  "id": "e0c7a821-a821-e0c7-21a8-c7e021a8c7e0"
+  "id": "ef983830-3830-ef98-3038-98ef303898ef"
 }
 ```
 

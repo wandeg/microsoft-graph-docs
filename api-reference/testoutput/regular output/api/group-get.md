@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get group
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [group](../resources/group.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}
+GET https://graph.microsoft.com/localtest/groups/{groupsId}
 ```
 
 ### Response
@@ -69,24 +71,24 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2150
+Content-Length: 2149
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.group",
-    "id": "dbfa690a-690a-dbfa-0a69-fadb0a69fadb",
-    "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+    "id": "cd782a07-2a07-cd78-072a-78cd072a78cd",
+    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
     "assignedLicenses": [
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "9b57b07c-b07c-9b57-7cb0-579b7cb0579b"
+          "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
         ],
-        "skuId": "1bb45266-5266-1bb4-6652-b41b6652b41b"
+        "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
       }
     ],
     "classification": "Classification value",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "hasMembersWithLicenseErrors": true,
@@ -101,7 +103,7 @@ Content-Length: 2150
     "mailEnabled": true,
     "mailNickname": "Mail Nickname value",
     "onPremisesDomainName": "On Premises Domain Name value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:59:54.9910839+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
     "onPremisesNetBiosName": "On Premises Net Bios Name value",
     "onPremisesProvisioningErrors": [
       {
@@ -109,7 +111,7 @@ Content-Length: 2150
         "value": "Value value",
         "category": "Category value",
         "propertyCausingError": "Property Causing Error value",
-        "occurredDateTime": "2017-01-01T00:02:39.4081471+03:00"
+        "occurredDateTime": "2016-12-31T23:58:37.7821236+03:00"
       }
     ],
     "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -119,7 +121,7 @@ Content-Length: 2150
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "renewedDateTime": "2017-01-01T00:02:16.2291623+03:00",
+    "renewedDateTime": "2017-01-01T00:00:46.4465399+03:00",
     "securityEnabled": true,
     "securityIdentifier": "Security Identifier value",
     "visibility": "Visibility value",

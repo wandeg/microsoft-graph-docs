@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookChartAreaFormat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/format
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-    "id": "e5251c56-1c56-e525-561c-25e5561c25e5"
+    "id": "1d570c2b-0c2b-1d57-2b0c-571d2b0c571d"
   }
 }
 ```

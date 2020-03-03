@@ -5,21 +5,22 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # exclusionGroupAssignmentTarget resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [groupAssignmentTarget](../resources/groupAssignmentTarget.md)
+
+
+Inherits from [groupAssignmentTarget](../resources/groupassignmenttarget.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|groupId|String|The group Id that is the target of the assignment. Inherited from [groupAssignmentTarget](../resources/groupAssignmentTarget.md)|
+|groupId|String|The group Id that is the target of the assignment. Inherited from [groupAssignmentTarget](../resources/groupassignmenttarget.md)|
 
 ## Relationships
 None

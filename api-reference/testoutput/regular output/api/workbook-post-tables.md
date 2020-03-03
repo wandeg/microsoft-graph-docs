@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add tables
 
+Namespace: microsoft.graph
+
 Add tables by posting to the tables collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/drive/items/{driveItemId}/workbook/tables/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookTable object.
+In the request body, supply a JSON representation for the [workbookTable](../resources/workbooktable.md) object.
 
-The following table shows the properties that are required when you create the workbookTable.
+The following table shows the properties that are required when you create the [workbookTable](../resources/workbooktable.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/tables
+POST https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/tables
 Content-type: application/json
 Content-length: 339
 
@@ -103,7 +105,7 @@ Content-Length: 388
 
 {
   "@odata.type": "#microsoft.graph.workbookTable",
-  "id": "5223020f-020f-5223-0f02-23520f022352",
+  "id": "7c9a8e40-8e40-7c9a-408e-9a7c408e9a7c",
   "highlightFirstColumn": true,
   "highlightLastColumn": true,
   "legacyId": "Legacy Id value",

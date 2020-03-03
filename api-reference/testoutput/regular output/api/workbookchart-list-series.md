@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List series
 
+Namespace: microsoft.graph
+
 Get the workbookChartSerieses from the series navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/series
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 180
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartSeries",
-      "id": "38c2d661-d661-38c2-61d6-c23861d6c238",
+      "id": "5bc07110-7110-5bc0-1071-c05b1071c05b",
       "name": "Name value"
     }
   ]

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # domain resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -26,12 +27,12 @@ Inherits from [entity](../resources/entity.md)
 |[Update domain](../api/domain-update.md)|[domain](../resources/domain.md)|Update the properties of a [domain](../resources/domain.md) object.|
 |[forceDelete](../api/domain-forcedelete.md)|None||
 |[verify](../api/domain-verify.md)|[domain](../resources/domain.md)||
-|[List serviceConfigurationRecords](../api/domain-list-serviceconfigurationrecords.md)|[domainDnsRecord](../resources/domainDnsRecord.md) collection|Get the domainDnsRecords from the serviceConfigurationRecords navigation property.|
-|[Add serviceConfigurationRecords](../api/domain-post-serviceconfigurationrecords.md)|[domainDnsRecord](../resources/domainDnsRecord.md)|Add serviceConfigurationRecords by posting to the serviceConfigurationRecords collection.|
-|[List verificationDnsRecords](../api/domain-list-verificationdnsrecords.md)|[domainDnsRecord](../resources/domainDnsRecord.md) collection|Get the domainDnsRecords from the verificationDnsRecords navigation property.|
-|[Add verificationDnsRecords](../api/domain-post-verificationdnsrecords.md)|[domainDnsRecord](../resources/domainDnsRecord.md)|Add verificationDnsRecords by posting to the verificationDnsRecords collection.|
-|[List domainNameReferences](../api/domain-list-domainnamereferences.md)|[directoryObject](../resources/directoryObject.md) collection|Get the directoryObjects from the domainNameReferences navigation property.|
-|[Create domainNameReferences](../api/domain-post-domainnamereferences.md)|[directoryObject](../resources/directoryObject.md)|Create domainNameReferences by posting to the domainNameReferences collection.|
+|[List serviceConfigurationRecords](../api/domain-list-serviceconfigurationrecords.md)|[domainDnsRecord](../resources/domaindnsrecord.md) collection|Get the domainDnsRecords from the serviceConfigurationRecords navigation property.|
+|[Add serviceConfigurationRecords](../api/domain-post-serviceconfigurationrecords.md)|[domainDnsRecord](../resources/domaindnsrecord.md)|Add serviceConfigurationRecords by posting to the serviceConfigurationRecords collection.|
+|[List verificationDnsRecords](../api/domain-list-verificationdnsrecords.md)|[domainDnsRecord](../resources/domaindnsrecord.md) collection|Get the domainDnsRecords from the verificationDnsRecords navigation property.|
+|[Add verificationDnsRecords](../api/domain-post-verificationdnsrecords.md)|[domainDnsRecord](../resources/domaindnsrecord.md)|Add verificationDnsRecords by posting to the verificationDnsRecords collection.|
+|[List domainNameReferences](../api/domain-list-domainnamereferences.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the domainNameReferences navigation property.|
+|[Create domainNameReferences](../api/domain-post-domainnamereferences.md)|[directoryObject](../resources/directoryobject.md)|Create domainNameReferences by posting to the domainNameReferences collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,15 +49,15 @@ Inherits from [entity](../resources/entity.md)
 |model|String||
 |passwordNotificationWindowInDays|Int32||
 |passwordValidityPeriodInDays|Int32||
-|state|[domainState](../resources/domainState.md)||
+|state|[domainState](../resources/domainstate.md)||
 |supportedServices|String collection||
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|domainNameReferences|[directoryObject](../resources/directoryObject.md) collection||
-|serviceConfigurationRecords|[domainDnsRecord](../resources/domainDnsRecord.md) collection||
-|verificationDnsRecords|[domainDnsRecord](../resources/domainDnsRecord.md) collection||
+|domainNameReferences|[directoryObject](../resources/directoryobject.md) collection||
+|serviceConfigurationRecords|[domainDnsRecord](../resources/domaindnsrecord.md) collection||
+|verificationDnsRecords|[domainDnsRecord](../resources/domaindnsrecord.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

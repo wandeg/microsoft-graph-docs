@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartAxisFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartAxisFormat](../resources/workbookChartAxisFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/format
 Content-type: application/json
 Content-length: 65
 
@@ -81,7 +83,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxisFormat",
-  "id": "e4d7e240-e240-e4d7-40e2-d7e440e2d7e4"
+  "id": "b5f2923b-923b-b5f2-3b92-f2b53b92f2b5"
 }
 ```
 

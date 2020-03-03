@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get onenoteOperation
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/onenote/operations/{onenoteOperationId}
+GET https://graph.microsoft.com/localtest/me/onenote/operations/{onenoteOperationId}
 ```
 
 ### Response
@@ -67,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 572
+Content-Length: 571
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteOperation",
-    "id": "f43e650f-650f-f43e-0f65-3ef40f653ef4",
+    "id": "6f0cef26-ef26-6f0c-26ef-0c6f26ef0c6f",
     "status": "String",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00",
     "resourceLocation": "Resource Location value",
     "resourceId": "Resource Id value",
     "error": {

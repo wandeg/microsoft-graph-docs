@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # participantInfo resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|identity|[identitySet](../resources/identitySet.md)||
+|identity|[identitySet](../resources/identityset.md)||
 |languageId|String||
 |region|String||
 

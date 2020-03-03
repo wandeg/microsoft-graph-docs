@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete telecomExpenseManagementPartner
 
+Namespace: microsoft.graph
+
 Deletes a [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
+DELETE https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManagementPartnerId}
 ```
 
 ### Response

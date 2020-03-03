@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookFunctions
 
+Namespace: microsoft.graph
+
 Create a new [workbookFunctions](../resources/workbookfunctions.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookFunctions not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookFunctions object.
+In the request body, supply a JSON representation for the [workbookFunctions](../resources/workbookfunctions.md) object.
 
-The following table shows the properties that are required when you create the workbookFunctions.
+The following table shows the properties that are required when you create the [workbookFunctions](../resources/workbookfunctions.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFunctions not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFunctions not found
 Content-type: application/json
 Content-length: 59
 
@@ -83,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookFunctions",
-  "id": "861fb55a-b55a-861f-5ab5-1f865ab51f86"
+  "id": "bf6e77a1-77a1-bf6e-a177-6ebfa1776ebf"
 }
 ```
 

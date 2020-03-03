@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # onPremisesConditionalAccessSettings resource type
+
+
+Namespace: microsoft.graph
 
 Singleton entity which represents the Exchange OnPremises Conditional Access Settings for a tenant.
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onPremisesConditionalAccessSettingses](../api/onpremisesconditionalaccesssettings-list.md)|[onPremisesConditionalAccessSettings](../resources/onPremisesConditionalAccessSettings.md) collection|List properties and relationships of the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) objects.|
-|[Get onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-get.md)|[onPremisesConditionalAccessSettings](../resources/onPremisesConditionalAccessSettings.md)|Read properties and relationships of the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
-|[Create onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-create.md)|[onPremisesConditionalAccessSettings](../resources/onPremisesConditionalAccessSettings.md)|Create a new [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
+|[List onPremisesConditionalAccessSettingses](../api/onpremisesconditionalaccesssettings-list.md)|[onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) collection|List properties and relationships of the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) objects.|
+|[Get onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-get.md)|[onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md)|Read properties and relationships of the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
+|[Create onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-create.md)|[onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md)|Create a new [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
 |[Delete onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-delete.md)|None|Deletes a [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md).|
-|[Update onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-update.md)|[onPremisesConditionalAccessSettings](../resources/onPremisesConditionalAccessSettings.md)|Update the properties of a [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
+|[Update onPremisesConditionalAccessSettings](../api/onpremisesconditionalaccesssettings-update.md)|[onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md)|Update the properties of a [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.|
 
 ## Properties
 |Property|Type|Description|

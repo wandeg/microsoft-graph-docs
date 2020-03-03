@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List androidManagedAppRegistrations
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [androidManagedAppRegistration](../resources/androidmanagedappregistration.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.androidManagedAppRegistration not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.androidManagedAppRegistration not found
 ```
 
 ### Response
@@ -64,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 807
+Content-Length: 805
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidManagedAppRegistration",
-      "id": "617c2b06-2b06-617c-062b-7c61062b7c61",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+      "id": "fd63c914-c914-fd63-14c9-63fd14c963fd",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

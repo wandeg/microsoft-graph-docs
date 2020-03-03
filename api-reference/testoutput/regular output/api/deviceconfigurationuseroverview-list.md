@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List deviceConfigurationUserOverviews
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.deviceConfigurationUserOverview not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceConfigurationUserOverview not found
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 400
+Content-Length: 397
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
-      "id": "722bfea8-fea8-722b-a8fe-2b72a8fe2b72",
+      "id": "553fd7cd-d7cd-553f-cdd7-3f55cdd73f55",
       "pendingCount": 12,
       "notApplicableCount": 2,
       "successCount": 12,
       "errorCount": 10,
       "failedCount": 11,
-      "lastUpdateDateTime": "2017-01-01T00:01:06.2971437+03:00",
+      "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
       "configurationVersion": 4
     }
   ]

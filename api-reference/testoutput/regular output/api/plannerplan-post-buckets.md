@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create buckets
 
+Namespace: microsoft.graph
+
 Create buckets by posting to the buckets collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/planner/plans/{plannerPlanId}/buckets/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the plannerBucket object.
+In the request body, supply a JSON representation for the [plannerBucket](../resources/plannerbucket.md) object.
 
-The following table shows the properties that are required when you create the plannerBucket.
+The following table shows the properties that are required when you create the [plannerBucket](../resources/plannerbucket.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/planner/plans/{plannerPlanId}/buckets
+POST https://graph.microsoft.com/localtest/me/planner/plans/{plannerPlanId}/buckets
 Content-type: application/json
 Content-length: 146
 
@@ -89,7 +91,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.plannerBucket",
-  "id": "4fb152d1-52d1-4fb1-d152-b14fd152b14f",
+  "id": "4722ac43-ac43-4722-43ac-224743ac2247",
   "name": "Name value",
   "planId": "Plan Id value",
   "orderHint": "Order Hint value"

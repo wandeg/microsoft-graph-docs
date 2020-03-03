@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add telecomExpenseManagementPartners
 
+Namespace: microsoft.graph
+
 Add telecomExpenseManagementPartners by posting to the telecomExpenseManagementPartners collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/telecomExpenseManagementPartners/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the telecomExpenseManagementPartner object.
+In the request body, supply a JSON representation for the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
 
-The following table shows the properties that are required when you create the telecomExpenseManagementPartner.
+The following table shows the properties that are required when you create the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -64,7 +66,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/telecomExpenseManagementPartners
+POST https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners
 Content-type: application/json
 Content-length: 248
 
@@ -74,7 +76,7 @@ Content-length: 248
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2017-01-01T00:01:46.1399312+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
 }
 ```
 
@@ -93,12 +95,12 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-  "id": "9019cd31-cd31-9019-31cd-199031cd1990",
+  "id": "54ce43e5-43e5-54ce-e543-ce54e543ce54",
   "displayName": "Display Name value",
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2017-01-01T00:01:46.1399312+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
 }
 ```
 

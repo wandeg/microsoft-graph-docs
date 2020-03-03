@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get inferenceClassificationOverride
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
+GET https://graph.microsoft.com/localtest/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 328
 {
   "value": {
     "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-    "id": "ada50a6b-0a6b-ada5-6b0a-a5ad6b0aa5ad",
+    "id": "98028c08-8c08-9802-088c-0298088c0298",
     "classifyAs": "String",
     "senderEmailAddress": {
       "@odata.type": "microsoft.graph.emailAddress",

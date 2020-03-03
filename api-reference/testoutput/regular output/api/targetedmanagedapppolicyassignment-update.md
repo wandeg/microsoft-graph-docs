@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update targetedManagedAppPolicyAssignment
 
+Namespace: microsoft.graph
+
 Update the properties of a [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
 ## Permissions
@@ -39,14 +41,14 @@ PATCH /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsIn
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedManagedAppPolicyAssignment.md) object.
+In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
 
 The following table shows the properties that are required when you create the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceAndAppManagementAssignmentTarget.md)|Identifier for deployment of a group or app|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|Identifier for deployment of a group or app|
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
+PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/assignments/{targetedManagedAppPolicyAssignmentId}
 Content-type: application/json
 Content-length: 174
 
@@ -89,7 +91,7 @@ Content-Length: 223
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-  "id": "fd7d43f4-43f4-fd7d-f443-7dfdf4437dfd",
+  "id": "7ef3a1f1-a1f1-7ef3-f1a1-f37ef1a1f37e",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

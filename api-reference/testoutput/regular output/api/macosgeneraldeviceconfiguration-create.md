@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create macOSGeneralDeviceConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [macOSGeneralDeviceConfiguration](../resources/macosgeneraldeviceconfiguration.md) object.
 
 ## Permissions
@@ -36,19 +38,19 @@ POST ** Collection URI for microsoft.graph.macOSGeneralDeviceConfiguration not f
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the macOSGeneralDeviceConfiguration object.
+In the request body, supply a JSON representation for the [macOSGeneralDeviceConfiguration](../resources/macosgeneraldeviceconfiguration.md) object.
 
-The following table shows the properties that are required when you create the macOSGeneralDeviceConfiguration.
+The following table shows the properties that are required when you create the [macOSGeneralDeviceConfiguration](../resources/macosgeneraldeviceconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|compliantAppsList|[appListItem](../resources/appListItem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|compliantAppsList|[appListItem](../resources/applistitem.md) collection|List of apps in the compliance (either allow list or block list, controlled by CompliantAppListType). This collection can contain a maximum of 10000 elements.|
 |compliantAppListType|Enumeration|List that is in the CompliantAppsList. Possible values are: `none`, `appsInListCompliant`, `appsNotInListCompliant`.|
 |emailInDomainSuffixes|String collection|An email address lacking a suffix that matches any of these strings will be considered out-of-domain.|
 |passwordBlockSimple|Boolean|Block simple passwords.|
@@ -76,7 +78,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.macOSGeneralDeviceConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.macOSGeneralDeviceConfiguration not found
 Content-type: application/json
 Content-length: 887
 
@@ -121,13 +123,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1059
+Content-Length: 1058
 
 {
   "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
-  "id": "b38b2f7f-2f7f-b38b-7f2f-8bb37f2f8bb3",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "3133e7c0-e7c0-3133-c0e7-3331c0e73331",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

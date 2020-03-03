@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create windows10EndpointProtectionConfiguration
 
+Namespace: microsoft.graph
+
 Create a new [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md) object.
 
 ## Permissions
@@ -36,18 +38,18 @@ POST ** Collection URI for microsoft.graph.windows10EndpointProtectionConfigurat
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the windows10EndpointProtectionConfiguration object.
+In the request body, supply a JSON representation for the [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md) object.
 
-The following table shows the properties that are required when you create the windows10EndpointProtectionConfiguration.
+The following table shows the properties that are required when you create the [windows10EndpointProtectionConfiguration](../resources/windows10endpointprotectionconfiguration.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
-|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceConfiguration.md)|
+|lastModifiedDateTime|DateTimeOffset|DateTime the object was last modified. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|createdDateTime|DateTimeOffset|DateTime the object was created. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|description|String|Admin provided description of the Device Configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|displayName|String|Admin provided name of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
+|version|Int32|Version of the device configuration. Inherited from [deviceConfiguration](../resources/deviceconfiguration.md)|
 |firewallBlockStatefulFTP|Boolean|Blocks stateful FTP connections to the device|
 |firewallIdleTimeoutForSecurityAssociationInSeconds|Int32|Configures the idle timeout for security associations, in seconds, from 300 to 3600 inclusive. This is the period after which security associations will expire and be deleted. Valid values 300 to 3600|
 |firewallPreSharedKeyEncodingMethod|Enumeration|Select the preshared key encoding to be used. Possible values are: `deviceDefault`, `none`, `utF8`.|
@@ -58,9 +60,9 @@ The following table shows the properties that are required when you create the w
 |firewallCertificateRevocationListCheckMethod|Enumeration|Specify how the certificate revocation list is to be enforced. Possible values are: `deviceDefault`, `none`, `attempt`, `require`.|
 |firewallMergeKeyingModuleSettings|Boolean|If an authentication set is not fully supported by a keying module, direct the module to ignore only unsupported authentication suites rather than the entire set|
 |firewallPacketQueueingMethod|Enumeration|Configures how packet queueing should be applied in the tunnel gateway scenario. Possible values are: `deviceDefault`, `disabled`, `queueInbound`, `queueOutbound`, `queueBoth`.|
-|firewallProfileDomain|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for domain networks|
-|firewallProfilePublic|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for public networks|
-|firewallProfilePrivate|[windowsFirewallNetworkProfile](../resources/windowsFirewallNetworkProfile.md)|Configures the firewall profile settings for private networks|
+|firewallProfileDomain|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for domain networks|
+|firewallProfilePublic|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for public networks|
+|firewallProfilePrivate|[windowsFirewallNetworkProfile](../resources/windowsfirewallnetworkprofile.md)|Configures the firewall profile settings for private networks|
 |defenderAttackSurfaceReductionExcludedPaths|String collection|List of exe files and folders to be excluded from attack surface reduction rules|
 |defenderGuardedFoldersAllowedAppPaths|String collection|List of paths to exe that are allowed to access protected folders|
 |defenderAdditionalGuardedFolders|String collection|List of folder paths to be added to the list of protected folders|
@@ -83,7 +85,7 @@ The following table shows the properties that are required when you create the w
 |bitLockerDisableWarningForOtherDiskEncryption|Boolean|Allows the Admin to disable the warning prompt for other disk encryption on the user machines.|
 |bitLockerEnableStorageCardEncryptionOnMobile|Boolean|Allows the admin to require encryption to be turned on using BitLocker. This policy is valid only for a mobile SKU.|
 |bitLockerEncryptDevice|Boolean|Allows the admin to require encryption to be turned on using BitLocker.|
-|bitLockerRemovableDrivePolicy|[bitLockerRemovableDrivePolicy](../resources/bitLockerRemovableDrivePolicy.md)|BitLocker Removable Drive Policy.|
+|bitLockerRemovableDrivePolicy|[bitLockerRemovableDrivePolicy](../resources/bitlockerremovabledrivepolicy.md)|BitLocker Removable Drive Policy.|
 
 
 
@@ -100,7 +102,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windows10EndpointProtectionConfiguration not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windows10EndpointProtectionConfiguration not found
 Content-type: application/json
 Content-length: 3102
 
@@ -188,13 +190,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3274
+Content-Length: 3273
 
 {
   "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
-  "id": "625bcc40-cc40-625b-40cc-5b6240cc5b62",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "id": "f7097dcf-7dcf-f709-cf7d-09f7cf7d09f7",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

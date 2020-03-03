@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookTable
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookTable](../resources/workbooktable.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookTable](../resources/workbookTable.md) object.
+In the request body, supply a JSON representation for the [workbookTable](../resources/workbooktable.md) object.
 
 The following table shows the properties that are required when you create the [workbookTable](../resources/workbooktable.md).
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/tables/{workbookTableId}
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/tables/{workbookTableId}
 Content-type: application/json
 Content-length: 339
 
@@ -102,7 +104,7 @@ Content-Length: 388
 
 {
   "@odata.type": "#microsoft.graph.workbookTable",
-  "id": "5223020f-020f-5223-0f02-23520f022352",
+  "id": "7c9a8e40-8e40-7c9a-408e-9a7c408e9a7c",
   "highlightFirstColumn": true,
   "highlightLastColumn": true,
   "legacyId": "Legacy Id value",

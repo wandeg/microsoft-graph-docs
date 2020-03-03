@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List subscriptions
 
+Namespace: microsoft.graph
+
 Get the subscriptions from the subscriptions navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/subscriptions
+GET https://graph.microsoft.com/localtest/workbooks/{workbooksId}/subscriptions
 ```
 
 ### Response
@@ -71,12 +73,12 @@ Content-Length: 487
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscription",
-      "id": "9b641d3c-1d3c-9b64-3c1d-649b3c1d649b",
+      "id": "cb52cf82-cf82-cb52-82cf-52cb82cf52cb",
       "resource": "Resource value",
       "changeType": "Change Type value",
       "clientState": "Client State value",
       "notificationUrl": "https://example.com/notificationUrl/",
-      "expirationDateTime": "2017-01-01T00:02:19.5114528+03:00",
+      "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
       "applicationId": "Application Id value",
       "creatorId": "Creator Id value"
     }

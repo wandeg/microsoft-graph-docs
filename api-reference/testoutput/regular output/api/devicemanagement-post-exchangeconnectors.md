@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add exchangeConnectors
 
+Namespace: microsoft.graph
+
 Add exchangeConnectors by posting to the exchangeConnectors collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceManagement/exchangeConnectors/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceManagementExchangeConnector object.
+In the request body, supply a JSON representation for the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.
 
-The following table shows the properties that are required when you create the deviceManagementExchangeConnector.
+The following table shows the properties that are required when you create the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -68,13 +70,13 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceManagement/exchangeConnectors
+POST https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors
 Content-type: application/json
-Content-length: 479
+Content-length: 478
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",
@@ -97,12 +99,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 528
+Content-Length: 527
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "id": "18babca0-bca0-18ba-a0bc-ba18a0bcba18",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "id": "98cdc9e4-c9e4-98cd-e4c9-cd98e4c9cd98",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",

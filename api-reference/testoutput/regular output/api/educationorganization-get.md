@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get educationOrganization
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [educationOrganization](../resources/educationorganization.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.educationOrganization not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.educationOrganization not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 251
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationOrganization",
-    "id": "9519643e-643e-9519-3e64-19953e641995",
+    "id": "4d2055cc-55cc-4d20-cc55-204dcc55204d",
     "displayName": "Display Name value",
     "description": "Description value",
     "externalSource": "String"

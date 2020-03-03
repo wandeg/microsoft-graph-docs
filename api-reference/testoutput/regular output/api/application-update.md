@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update application
 
+Namespace: microsoft.graph
+
 Update the properties of a [application](../resources/application.md) object.
 
 ## Permissions
@@ -42,32 +44,32 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryObject.md)|
-|addIns|[addIn](../resources/addIn.md) collection||
-|api|[apiApplication](../resources/apiApplication.md)||
+|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
+|addIns|[addIn](../resources/addin.md) collection||
+|api|[apiApplication](../resources/apiapplication.md)||
 |appId|String||
 |applicationTemplateId|String||
-|appRoles|[appRole](../resources/appRole.md) collection||
+|appRoles|[appRole](../resources/approle.md) collection||
 |isFallbackPublicClient|Boolean||
 |identifierUris|String collection||
 |createdDateTime|DateTimeOffset||
-|publicClient|[publicClientApplication](../resources/publicClientApplication.md)||
+|publicClient|[publicClientApplication](../resources/publicclientapplication.md)||
 |displayName|String||
 |groupMembershipClaims|String||
-|info|[informationalUrl](../resources/informationalUrl.md)||
+|info|[informationalUrl](../resources/informationalurl.md)||
 |isDeviceOnlyAuthSupported|Boolean||
-|keyCredentials|[keyCredential](../resources/keyCredential.md) collection||
+|keyCredentials|[keyCredential](../resources/keycredential.md) collection||
 |logo|Stream||
 |oauth2RequirePostResponse|Boolean||
-|optionalClaims|[optionalClaims](../resources/optionalClaims.md)||
-|parentalControlSettings|[parentalControlSettings](../resources/parentalControlSettings.md)||
-|passwordCredentials|[passwordCredential](../resources/passwordCredential.md) collection||
+|optionalClaims|[optionalClaims](../resources/optionalclaims.md)||
+|parentalControlSettings|[parentalControlSettings](../resources/parentalcontrolsettings.md)||
+|passwordCredentials|[passwordCredential](../resources/passwordcredential.md) collection||
 |publisherDomain|String||
-|requiredResourceAccess|[requiredResourceAccess](../resources/requiredResourceAccess.md) collection||
+|requiredResourceAccess|[requiredResourceAccess](../resources/requiredresourceaccess.md) collection||
 |signInAudience|String||
 |tags|String collection||
 |tokenEncryptionKeyId|Guid||
-|web|[webApplication](../resources/webApplication.md)||
+|web|[webApplication](../resources/webapplication.md)||
 
 
 
@@ -84,17 +86,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/applications/{applicationsId}
+PATCH https://graph.microsoft.com/localtest/applications/{applicationsId}
 Content-type: application/json
 Content-length: 4775
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "03525a46-5a46-0352-465a-5203465a5203",
+      "id": "438e8956-8956-438e-5689-8e4356898e43",
       "type": "Type value",
       "properties": [
         {
@@ -109,7 +111,7 @@ Content-length: 4775
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "57aa0777-0777-57aa-7707-aa577707aa57"
+      "d8c48f40-8f40-d8c4-408f-c4d8408fc4d8"
     ],
     "preAuthorizedApplications": [
       {
@@ -170,9 +172,9 @@ Content-length: 4775
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
-      "keyId": "a2b1c23f-c23f-a2b1-3fc2-b1a23fc2b1a2",
-      "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
+      "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
+      "keyId": "b37b5c66-5c66-b37b-665c-7bb3665c7bb3",
+      "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -233,7 +235,7 @@ Content-length: 4775
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "bf50ce07-ce07-bf50-07ce-50bf07ce50bf",
+  "tokenEncryptionKeyId": "25b6c6cc-c6cc-25b6-ccc6-b625ccc6b625",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",
@@ -257,16 +259,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4883
+Content-Length: 4882
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "id": "ec7ccdbc-cdbc-ec7c-bccd-7cecbccd7cec",
-  "deletedDateTime": "2017-01-01T00:02:13.7092325+03:00",
+  "id": "275f3ac0-3ac0-275f-c03a-5f27c03a5f27",
+  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "03525a46-5a46-0352-465a-5203465a5203",
+      "id": "438e8956-8956-438e-5689-8e4356898e43",
       "type": "Type value",
       "properties": [
         {
@@ -281,7 +283,7 @@ Content-Length: 4883
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "57aa0777-0777-57aa-7707-aa577707aa57"
+      "d8c48f40-8f40-d8c4-408f-c4d8408fc4d8"
     ],
     "preAuthorizedApplications": [
       {
@@ -321,7 +323,7 @@ Content-Length: 4883
   "identifierUris": [
     "Identifier Uris value"
   ],
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "publicClient": {
     "@odata.type": "microsoft.graph.publicClientApplication",
     "redirectUris": [
@@ -343,9 +345,9 @@ Content-Length: 4883
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
-      "keyId": "a2b1c23f-c23f-a2b1-3fc2-b1a23fc2b1a2",
-      "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
+      "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
+      "keyId": "b37b5c66-5c66-b37b-665c-7bb3665c7bb3",
+      "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -406,7 +408,7 @@ Content-Length: 4883
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "bf50ce07-ce07-bf50-07ce-50bf07ce50bf",
+  "tokenEncryptionKeyId": "25b6c6cc-c6cc-25b6-ccc6-b625ccc6b625",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",

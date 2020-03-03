@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceComplianceActionItem resource type
+
+
+Namespace: microsoft.graph
 
 Scheduled Action Configuration
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceComplianceActionItem](../api/devicecomplianceactionitem-get.md)|[deviceComplianceActionItem](../resources/deviceComplianceActionItem.md)|Read properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
+|[List deviceComplianceActionItems](../api/devicecomplianceactionitem-list.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) collection|List properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) objects.|
+|[Get deviceComplianceActionItem](../api/devicecomplianceactionitem-get.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Read properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
+|[Create deviceComplianceActionItem](../api/devicecomplianceactionitem-create.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Create a new [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
 |[Delete deviceComplianceActionItem](../api/devicecomplianceactionitem-delete.md)|None|Deletes a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md).|
-|[Update deviceComplianceActionItem](../api/devicecomplianceactionitem-update.md)|[deviceComplianceActionItem](../resources/deviceComplianceActionItem.md)|Update the properties of a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
+|[Update deviceComplianceActionItem](../api/devicecomplianceactionitem-update.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Update the properties of a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
 
 ## Properties
 |Property|Type|Description|

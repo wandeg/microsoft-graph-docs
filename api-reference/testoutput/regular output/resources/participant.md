@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # participant resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,20 +20,22 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List participants](../api/participant-list.md)|[participant](../resources/participant.md) collection|List properties and relationships of the [participant](../resources/participant.md) objects.|
 |[Get participant](../api/participant-get.md)|[participant](../resources/participant.md)|Read properties and relationships of the [participant](../resources/participant.md) object.|
+|[Create participant](../api/participant-create.md)|[participant](../resources/participant.md)|Create a new [participant](../resources/participant.md) object.|
 |[Delete participant](../api/participant-delete.md)|None|Deletes a [participant](../resources/participant.md).|
 |[Update participant](../api/participant-update.md)|[participant](../resources/participant.md)|Update the properties of a [participant](../resources/participant.md) object.|
-|[invite](../api/participant-invite.md)|[inviteParticipantsOperation](../resources/inviteParticipantsOperation.md)||
-|[mute](../api/participant-mute.md)|[muteParticipantOperation](../resources/muteParticipantOperation.md)||
+|[invite](../api/participant-invite.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md)||
+|[mute](../api/participant-mute.md)|[muteParticipantOperation](../resources/muteparticipantoperation.md)||
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|info|[participantInfo](../resources/participantInfo.md)||
+|info|[participantInfo](../resources/participantinfo.md)||
 |isInLobby|Boolean||
 |isMuted|Boolean||
-|mediaStreams|[mediaStream](../resources/mediaStream.md) collection||
+|mediaStreams|[mediaStream](../resources/mediastream.md) collection||
 
 ## Relationships
 None

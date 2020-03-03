@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get plannerTaskDetails
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/planner/tasks/{plannerTaskId}/details
+GET https://graph.microsoft.com/localtest/me/planner/tasks/{plannerTaskId}/details
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 388
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerTaskDetails",
-    "id": "4f5f4410-4410-4f5f-1044-5f4f10445f4f",
+    "id": "25a36ffd-6ffd-25a3-fd6f-a325fd6fa325",
     "description": "Description value",
     "previewType": "String",
     "references": {

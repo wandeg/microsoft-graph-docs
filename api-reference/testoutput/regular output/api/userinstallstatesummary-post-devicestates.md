@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add deviceStates
 
+Namespace: microsoft.graph
+
 Add deviceStates by posting to the deviceStates collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userI
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the deviceInstallState object.
+In the request body, supply a JSON representation for the [deviceInstallState](../resources/deviceinstallstate.md) object.
 
-The following table shows the properties that are required when you create the deviceInstallState.
+The following table shows the properties that are required when you create the [deviceInstallState](../resources/deviceinstallstate.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -67,15 +69,15 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}/deviceStates
+POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{userInstallStateSummaryId}/deviceStates
 Content-type: application/json
-Content-length: 371
+Content-length: 370
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",
@@ -95,14 +97,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 420
+Content-Length: 419
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
-  "id": "700b3346-3346-700b-4633-0b7046330b70",
+  "id": "9acbc68e-c68e-9acb-8ec6-cb9a8ec6cb9a",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",

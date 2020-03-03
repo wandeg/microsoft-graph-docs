@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookWorksheet
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.
 
 ## Permissions
@@ -57,7 +59,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/worksheets/{workbookWorksheetId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/worksheets/{workbookWorksheetId}
 ```
 
 ### Response
@@ -76,7 +78,7 @@ Content-Length: 217
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheet",
-    "id": "a98ba4aa-a4aa-a98b-aaa4-8ba9aaa48ba9",
+    "id": "1b18fb47-fb47-1b18-47fb-181b47fb181b",
     "name": "Name value",
     "position": 8,
     "visibility": "Visibility value"

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add permissions
 
+Namespace: microsoft.graph
+
 Add permissions by posting to the permissions collection.
 
 ## Permissions
@@ -37,17 +39,17 @@ POST /me/drive/items/{driveItemId}/permissions/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the permission object.
+In the request body, supply a JSON representation for the [permission](../resources/permission.md) object.
 
-The following table shows the properties that are required when you create the permission.
+The following table shows the properties that are required when you create the [permission](../resources/permission.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|grantedTo|[identitySet](../resources/identitySet.md)||
-|inheritedFrom|[itemReference](../resources/itemReference.md)||
-|invitation|[sharingInvitation](../resources/sharingInvitation.md)||
-|link|[sharingLink](../resources/sharingLink.md)||
+|grantedTo|[identitySet](../resources/identityset.md)||
+|inheritedFrom|[itemReference](../resources/itemreference.md)||
+|invitation|[sharingInvitation](../resources/sharinginvitation.md)||
+|link|[sharingLink](../resources/sharinglink.md)||
 |roles|String collection||
 |shareId|String||
 
@@ -66,7 +68,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/workbooks/{workbooksId}/permissions
+POST https://graph.microsoft.com/localtest/workbooks/{workbooksId}/permissions
 Content-type: application/json
 Content-length: 1496
 
@@ -140,7 +142,7 @@ Content-Length: 1545
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "8bb9333d-333d-8bb9-3d33-b98b3d33b98b",
+  "id": "a7b7bff3-bff3-a7b7-f3bf-b7a7f3bfb7a7",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

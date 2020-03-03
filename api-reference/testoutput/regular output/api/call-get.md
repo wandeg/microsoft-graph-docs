@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get call
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [call](../resources/call.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications/calls/{callId}
+GET https://graph.microsoft.com/localtest/communications/calls/{callId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1837
 {
   "value": {
     "@odata.type": "#microsoft.graph.call",
-    "id": "728b83c8-83c8-728b-c883-8b72c8838b72",
+    "id": "5b064ea4-4ea4-5b06-a44e-065ba44e065b",
     "state": "String",
     "mediaState": {
       "@odata.type": "microsoft.graph.callMediaState",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add secureScores
 
+Namespace: microsoft.graph
+
 Add secureScores by posting to the secureScores collection.
 
 ## Permissions
@@ -36,23 +38,23 @@ POST /Security/secureScores/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the secureScore object.
+In the request body, supply a JSON representation for the [secureScore](../resources/securescore.md) object.
 
-The following table shows the properties that are required when you create the secureScore.
+The following table shows the properties that are required when you create the [secureScore](../resources/securescore.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |activeUserCount|Int32||
-|averageComparativeScores|[averageComparativeScore](../resources/averageComparativeScore.md) collection||
+|averageComparativeScores|[averageComparativeScore](../resources/averagecomparativescore.md) collection||
 |azureTenantId|String||
-|controlScores|[controlScore](../resources/controlScore.md) collection||
+|controlScores|[controlScore](../resources/controlscore.md) collection||
 |createdDateTime|DateTimeOffset||
 |currentScore|Double||
 |enabledServices|String collection||
 |licensedUserCount|Int32||
 |maxScore|Double||
-|vendorInformation|[securityVendorInformation](../resources/securityVendorInformation.md)||
+|vendorInformation|[securityVendorInformation](../resources/securityvendorinformation.md)||
 
 
 
@@ -69,7 +71,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/Security/secureScores
+POST https://graph.microsoft.com/localtest/Security/secureScores
 Content-type: application/json
 Content-length: 960
 
@@ -120,11 +122,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1068
+Content-Length: 1067
 
 {
   "@odata.type": "#microsoft.graph.secureScore",
-  "id": "885fd4c4-d4c4-885f-c4d4-5f88c4d45f88",
+  "id": "2b854afd-4afd-2b85-fd4a-852bfd4a852b",
   "activeUserCount": 15,
   "averageComparativeScores": [
     {
@@ -143,7 +145,7 @@ Content-Length: 1068
       "score": "Double"
     }
   ],
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
   "currentScore": "Double",
   "enabledServices": [
     "Enabled Services value"

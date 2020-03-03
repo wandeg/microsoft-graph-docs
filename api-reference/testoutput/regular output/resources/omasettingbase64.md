@@ -5,24 +5,25 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # omaSettingBase64 resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [omaSetting](../resources/omaSetting.md)
+
+
+Inherits from [omaSetting](../resources/omasetting.md)
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|description|String|Description. Inherited from [omaSetting](../resources/omaSetting.md)|
-|displayName|String|Display Name. Inherited from [omaSetting](../resources/omaSetting.md)|
+|description|String|Description. Inherited from [omaSetting](../resources/omasetting.md)|
+|displayName|String|Display Name. Inherited from [omaSetting](../resources/omasetting.md)|
 |fileName|String|File name associated with the Value property (*.cer | *.crt | *.p7b | *.bin).|
-|omaUri|String|OMA. Inherited from [omaSetting](../resources/omaSetting.md)|
+|omaUri|String|OMA. Inherited from [omaSetting](../resources/omasetting.md)|
 |value|String|Value. (Base64 encoded string)|
 
 ## Relationships

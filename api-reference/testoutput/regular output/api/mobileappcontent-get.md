@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get mobileAppContent
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [mobileAppContent](../resources/mobileappcontent.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
+GET https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}
 ```
 
 ### Response
@@ -74,7 +76,7 @@ Content-Length: 130
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppContent",
-    "id": "49fac93a-c93a-49fa-3ac9-fa493ac9fa49"
+    "id": "3800af2f-af2f-3800-2faf-00382faf0038"
   }
 }
 ```

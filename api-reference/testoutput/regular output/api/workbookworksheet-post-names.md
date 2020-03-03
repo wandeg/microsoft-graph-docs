@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add names
 
+Namespace: microsoft.graph
+
 Add names by posting to the names collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshee
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookNamedItem object.
+In the request body, supply a JSON representation for the [workbookNamedItem](../resources/workbooknameditem.md) object.
 
-The following table shows the properties that are required when you create the workbookNamedItem.
+The following table shows the properties that are required when you create the [workbookNamedItem](../resources/workbooknameditem.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the w
 |name|String||
 |scope|String||
 |type|String||
-|value|[Json](../resources/Json.md)||
+|value|[Json](../resources/json.md)||
 |visible|Boolean||
 
 
@@ -65,7 +67,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/names
+POST https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/names
 Content-type: application/json
 Content-length: 250
 
@@ -97,7 +99,7 @@ Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.workbookNamedItem",
-  "id": "2c1a1480-1480-2c1a-8014-1a2c80141a2c",
+  "id": "3468c080-c080-3468-80c0-683480c06834",
   "comment": "Comment value",
   "name": "Name value",
   "scope": "Scope value",

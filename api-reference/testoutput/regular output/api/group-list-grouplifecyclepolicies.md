@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List groupLifecyclePolicies
 
+Namespace: microsoft.graph
+
 Get the groupLifecyclePolicies from the groupLifecyclePolicies navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/groupLifecyclePolicies
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/groupLifecyclePolicies
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 319
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-      "id": "9269abf8-abf8-9269-f8ab-6992f8ab6992",
+      "id": "e10781d2-81d2-e107-d281-07e1d28107e1",
       "groupLifetimeInDays": 3,
       "managedGroupTypes": "Managed Group Types value",
       "alternateNotificationEmails": "Alternate Notification Emails value"

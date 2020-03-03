@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List threads
 
+Namespace: microsoft.graph
+
 Get the conversationThreads from the threads navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/groups/{groupsId}/threads
+GET https://graph.microsoft.com/localtest/groups/{groupsId}/threads
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 809
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversationThread",
-      "id": "375dcfaa-cfaa-375d-aacf-5d37aacf5d37",
+      "id": "b434caf4-caf4-b434-f4ca-34b4f4ca34b4",
       "toRecipients": [
         {
           "@odata.type": "microsoft.graph.recipient",
@@ -84,7 +86,7 @@ Content-Length: 809
       ],
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2017-01-01T00:02:32.1744944+03:00",
+      "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

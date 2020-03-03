@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get channel
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [channel](../resources/channel.md) object.
 
 ## Permissions
@@ -54,7 +56,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/teams/{teamsId}/channels/{channelId}
+GET https://graph.microsoft.com/localtest/teams/{teamsId}/channels/{channelId}
 ```
 
 ### Response
@@ -73,7 +75,7 @@ Content-Length: 279
 {
   "value": {
     "@odata.type": "#microsoft.graph.channel",
-    "id": "a6ca9118-9118-a6ca-1891-caa61891caa6",
+    "id": "2a033dd8-3dd8-2a03-d83d-032ad83d032a",
     "displayName": "Display Name value",
     "description": "Description value",
     "email": "Email value",

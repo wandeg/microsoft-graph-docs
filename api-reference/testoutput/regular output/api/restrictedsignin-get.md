@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get restrictedSignIn
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/auditLogs/restrictedSignIns/{restrictedSignInId}
+GET https://graph.microsoft.com/localtest/auditLogs/restrictedSignIns/{restrictedSignInId}
 ```
 
 ### Response
@@ -67,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2274
+Content-Length: 2273
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.restrictedSignIn",
-    "id": "fe5be58d-e58d-fe5b-8de5-5bfe8de55bfe",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "ef8cc405-c405-ef8c-05c4-8cef05c48cef",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
     "userId": "User Id value",
@@ -134,7 +136,7 @@ Content-Length: 2274
     ],
     "resourceDisplayName": "Resource Display Name value",
     "resourceId": "Resource Id value",
-    "targetTenantId": "dd926948-6948-dd92-4869-92dd486992dd"
+    "targetTenantId": "be59e333-e333-be59-33e3-59be33e359be"
   }
 }
 ```

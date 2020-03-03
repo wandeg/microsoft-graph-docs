@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookFunctionResults
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookFunctionResult](../resources/workbookfunctionresult.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookFunctionResult not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookFunctionResult not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 260
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookFunctionResult",
-      "id": "704ebfb7-bfb7-704e-b7bf-4e70b7bf4e70",
+      "id": "4ad50dfa-0dfa-4ad5-fa0d-d54afa0dd54a",
       "error": "Error value",
       "value": {
         "@odata.type": "microsoft.graph.Json"

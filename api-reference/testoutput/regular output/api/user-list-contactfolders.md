@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List contactFolders
 
+Namespace: microsoft.graph
+
 Get the contactFolders from the contactFolders navigation property.
 
 ## Permissions
@@ -51,7 +53,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/contactFolders
+GET https://graph.microsoft.com/localtest/me/contactFolders
 ```
 
 ### Response
@@ -71,7 +73,7 @@ Content-Length: 240
   "value": [
     {
       "@odata.type": "#microsoft.graph.contactFolder",
-      "id": "fe680520-0520-fe68-2005-68fe200568fe",
+      "id": "ff3d85aa-85aa-ff3d-aa85-3dffaa853dff",
       "parentFolderId": "Parent Folder Id value",
       "displayName": "Display Name value"
     }

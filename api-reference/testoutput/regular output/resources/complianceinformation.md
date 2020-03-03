@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # complianceInformation resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|certificationControls|[certificationControl](../resources/certificationControl.md) collection||
+|certificationControls|[certificationControl](../resources/certificationcontrol.md) collection||
 |certificationName|String||
 
 ## Relationships

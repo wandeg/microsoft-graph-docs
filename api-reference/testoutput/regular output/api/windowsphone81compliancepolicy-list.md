@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List windowsPhone81CompliancePolicies
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [windowsPhone81CompliancePolicy](../resources/windowsphone81compliancepolicy.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.windowsPhone81CompliancePolicy not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.windowsPhone81CompliancePolicy not found
 ```
 
 ### Response
@@ -64,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 878
+Content-Length: 877
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsPhone81CompliancePolicy",
-      "id": "e2801764-1764-e280-6417-80e2641780e2",
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "id": "749eb5da-b5da-749e-dab5-9e74dab59e74",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordBlockSimple": true,

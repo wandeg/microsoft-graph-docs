@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemActivityStat
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemActivityStat](../resources/itemactivitystat.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}
 ```
 
 ### Response
@@ -72,9 +74,9 @@ Content-Length: 908
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemActivityStat",
-    "id": "c4dfb8eb-b8eb-c4df-ebb8-dfc4ebb8dfc4",
-    "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-    "endDateTime": "2017-01-01T00:00:48.5623528+03:00",
+    "id": "1e7e9048-9048-1e7e-4890-7e1e48907e1e",
+    "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+    "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
     "access": {
       "@odata.type": "microsoft.graph.itemActionStat",
       "actionCount": 11,
@@ -95,7 +97,7 @@ Content-Length: 908
     "isTrending": true,
     "incompleteData": {
       "@odata.type": "microsoft.graph.incompleteData",
-      "missingDataBeforeDateTime": "2016-12-31T23:58:26.7841266+03:00",
+      "missingDataBeforeDateTime": "2016-12-31T23:57:44.3115031+03:00",
       "wasThrottled": true
     }
   }

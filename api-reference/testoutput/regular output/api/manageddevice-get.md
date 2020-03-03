@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedDevice
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedDevice](../resources/manageddevice.md) object.
 
 ## Permissions
@@ -55,7 +57,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}
 ```
 
 ### Response
@@ -69,12 +71,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4903
+Content-Length: 4902
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDevice",
-    "id": "c38deab6-eab6-c38d-b6ea-8dc3b6ea8dc3",
+    "id": "27d59aff-9aff-27d5-ff9a-d527ff9ad527",
     "userId": "User Id value",
     "deviceName": "Device Name value",
     "managedDeviceOwnerType": "String",
@@ -83,12 +85,12 @@ Content-Length: 4903
         "@odata.type": "microsoft.graph.deviceActionResult",
         "actionName": "Action Name value",
         "actionState": "String",
-        "startDateTime": "2017-01-01T00:02:52.8537882+03:00",
-        "lastUpdatedDateTime": "2016-12-31T23:57:21.8062909+03:00"
+        "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+        "lastUpdatedDateTime": "2017-01-01T00:00:38.3361177+03:00"
       }
     ],
-    "enrolledDateTime": "2017-01-01T00:00:55.1924347+03:00",
-    "lastSyncDateTime": "2017-01-01T00:01:38.9161849+03:00",
+    "enrolledDateTime": "2017-01-01T00:00:59.8850768+03:00",
+    "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
     "operatingSystem": "Operating System value",
     "complianceState": "String",
     "jailBroken": "Jail Broken value",
@@ -96,7 +98,7 @@ Content-Length: 4903
     "osVersion": "Os Version value",
     "easActivated": true,
     "easDeviceId": "Eas Device Id value",
-    "easActivationDateTime": "2017-01-01T00:03:14.0744523+03:00",
+    "easActivationDateTime": "2016-12-31T23:58:52.2603176+03:00",
     "azureADRegistered": true,
     "deviceEnrollmentType": "String",
     "activationLockBypassCode": "Activation Lock Bypass Code value",
@@ -105,7 +107,7 @@ Content-Length: 4903
     "deviceRegistrationState": "String",
     "deviceCategoryDisplayName": "Device Category Display Name value",
     "isSupervised": true,
-    "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:57:35.6171547+03:00",
+    "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:00:02.3794181+03:00",
     "exchangeAccessState": "String",
     "exchangeAccessStateReason": "String",
     "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -115,7 +117,7 @@ Content-Length: 4903
     "model": "Model value",
     "manufacturer": "Manufacturer value",
     "imei": "Imei value",
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:01:30.0729466+03:00",
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
     "serialNumber": "Serial Number value",
     "phoneNumber": "Phone Number value",
     "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -136,7 +138,7 @@ Content-Length: 4903
       "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
       "deviceHealthAttestationStatus": "Device Health Attestation Status value",
       "contentVersion": "Content Version value",
-      "issuedDateTime": "2016-12-31T23:59:25.3205148+03:00",
+      "issuedDateTime": "2016-12-31T23:59:00.4214212+03:00",
       "attestationIdentityKey": "Attestation Identity Key value",
       "resetCount": 10,
       "restartCount": 12,

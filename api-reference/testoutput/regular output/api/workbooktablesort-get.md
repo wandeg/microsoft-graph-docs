@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookTableSort
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/sort
+GET https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/sort
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 591
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableSort",
-    "id": "04cea339-a339-04ce-39a3-ce0439a3ce04",
+    "id": "0b0d7694-7694-0b0d-9476-0d0b94760d0b",
     "fields": [
       {
         "@odata.type": "microsoft.graph.workbookSortField",

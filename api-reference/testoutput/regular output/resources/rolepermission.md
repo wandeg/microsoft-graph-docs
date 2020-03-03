@@ -5,18 +5,19 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # rolePermission resource type
+
+
+Namespace: microsoft.graph
 
 
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|resourceActions|[resourceAction](../resources/resourceAction.md) collection|Actions|
+|resourceActions|[resourceAction](../resources/resourceaction.md) collection|Actions|
 
 ## Relationships
 None

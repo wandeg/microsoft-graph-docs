@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete inferenceClassificationOverride
 
+Namespace: microsoft.graph
+
 Deletes a [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
+DELETE https://graph.microsoft.com/localtest/me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
 ```
 
 ### Response

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update onenoteOperation
 
+Namespace: microsoft.graph
+
 Update the properties of a [onenoteOperation](../resources/onenoteoperation.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/onenote/operations/{onenoteOperationId}
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteOperation.md) object.
+In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteoperation.md) object.
 
 The following table shows the properties that are required when you create the [onenoteOperation](../resources/onenoteoperation.md).
 
@@ -47,7 +49,7 @@ The following table shows the properties that are required when you create the [
 |lastActionDateTime|DateTimeOffset| Inherited from [operation](../resources/operation.md)|
 |resourceLocation|String||
 |resourceId|String||
-|error|[onenoteOperationError](../resources/onenoteOperationError.md)||
+|error|[onenoteOperationError](../resources/onenoteoperationerror.md)||
 |percentComplete|String||
 
 
@@ -65,14 +67,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/onenote/operations/{onenoteOperationId}
+PATCH https://graph.microsoft.com/localtest/me/onenote/operations/{onenoteOperationId}
 Content-type: application/json
 Content-length: 419
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00",
+  "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {
@@ -94,14 +96,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 526
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
-  "id": "f43e650f-650f-f43e-0f65-3ef40f653ef4",
+  "id": "6f0cef26-ef26-6f0c-26ef-0c6f26ef0c6f",
   "status": "String",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00",
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {

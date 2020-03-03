@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create workbookChartDataLabelFormat
 
+Namespace: microsoft.graph
+
 Create a new [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.workbookChartDataLabelFormat not foun
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookChartDataLabelFormat object.
+In the request body, supply a JSON representation for the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.
 
-The following table shows the properties that are required when you create the workbookChartDataLabelFormat.
+The following table shows the properties that are required when you create the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartDataLabelFormat not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartDataLabelFormat not found
 Content-type: application/json
 Content-length: 70
 
@@ -83,7 +85,7 @@ Content-Length: 119
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabelFormat",
-  "id": "838f4203-4203-838f-0342-8f8303428f83"
+  "id": "cbe0fe54-fe54-cbe0-54fe-e0cb54fee0cb"
 }
 ```
 

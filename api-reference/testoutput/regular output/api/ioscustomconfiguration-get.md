@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get iosCustomConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [iosCustomConfiguration](../resources/ioscustomconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.iosCustomConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.iosCustomConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 490
+Content-Length: 489
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosCustomConfiguration",
-    "id": "c8e9569e-569e-c8e9-9e56-e9c89e56e9c8",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "316a6093-6093-316a-9360-6a3193606a31",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

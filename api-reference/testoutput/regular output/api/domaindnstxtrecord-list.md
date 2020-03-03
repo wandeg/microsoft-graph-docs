@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List domainDnsTxtRecords
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.domainDnsTxtRecord not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.domainDnsTxtRecord not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 350
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsTxtRecord",
-      "id": "72d06cb0-6cb0-72d0-b06c-d072b06cd072",
+      "id": "9086ef6d-ef6d-9086-6def-86906def8690",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

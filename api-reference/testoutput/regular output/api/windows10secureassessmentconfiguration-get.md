@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get windows10SecureAssessmentConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [windows10SecureAssessmentConfiguration](../resources/windows10secureassessmentconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.windows10SecureAssessmentConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.windows10SecureAssessmentConfiguration not found
 ```
 
 ### Response
@@ -67,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 574
+Content-Length: 573
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windows10SecureAssessmentConfiguration",
-    "id": "03b7e120-e120-03b7-20e1-b70320e1b703",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+    "id": "7730ab32-ab32-7730-32ab-307732ab3077",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

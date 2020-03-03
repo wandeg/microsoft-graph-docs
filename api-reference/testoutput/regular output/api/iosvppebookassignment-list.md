@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosVppEBookAssignments
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosVppEBookAssignment](../resources/iosvppebookassignment.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosVppEBookAssignment not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosVppEBookAssignment not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 297
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosVppEBookAssignment",
-      "id": "bd6dfb80-fb80-bd6d-80fb-6dbd80fb6dbd",
+      "id": "528dfde6-fde6-528d-e6fd-8d52e6fd8d52",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

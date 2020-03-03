@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookChartFill resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartFills](../api/workbookchartfill-list.md)|[workbookChartFill](../resources/workbookChartFill.md) collection|List properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) objects.|
-|[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookChartFill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
-|[Create workbookChartFill](../api/workbookchartfill-create.md)|[workbookChartFill](../resources/workbookChartFill.md)|Create a new [workbookChartFill](../resources/workbookchartfill.md) object.|
+|[List workbookChartFills](../api/workbookchartfill-list.md)|[workbookChartFill](../resources/workbookchartfill.md) collection|List properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) objects.|
+|[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookchartfill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
+|[Create workbookChartFill](../api/workbookchartfill-create.md)|[workbookChartFill](../resources/workbookchartfill.md)|Create a new [workbookChartFill](../resources/workbookchartfill.md) object.|
 |[Delete workbookChartFill](../api/workbookchartfill-delete.md)|None|Deletes a [workbookChartFill](../resources/workbookchartfill.md).|
-|[Update workbookChartFill](../api/workbookchartfill-update.md)|[workbookChartFill](../resources/workbookChartFill.md)|Update the properties of a [workbookChartFill](../resources/workbookchartfill.md) object.|
+|[Update workbookChartFill](../api/workbookchartfill-update.md)|[workbookChartFill](../resources/workbookchartfill.md)|Update the properties of a [workbookChartFill](../resources/workbookchartfill.md) object.|
 
 ## Properties
 |Property|Type|Description|

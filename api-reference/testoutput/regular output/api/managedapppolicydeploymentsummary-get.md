@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get managedAppPolicyDeploymentSummary
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.
 
 ## Permissions
@@ -56,7 +58,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
+GET https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
 ```
 
 ### Response
@@ -70,15 +72,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 687
+Content-Length: 688
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-    "id": "0b4f38ef-38ef-0b4f-ef38-4f0bef384f0b",
+    "id": "e32aa195-a195-e32a-95a1-2ae395a12ae3",
     "displayName": "Display Name value",
     "configurationDeployedUserCount": 14,
-    "lastRefreshTime": "2016-12-31T23:58:10.693249+03:00",
+    "lastRefreshTime": "2017-01-01T00:03:01.3371918+03:00",
     "configurationDeploymentSummaryPerApp": [
       {
         "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

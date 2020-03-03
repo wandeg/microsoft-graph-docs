@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete groupSettingTemplate
 
+Namespace: microsoft.graph
+
 Deletes a [groupSettingTemplate](../resources/groupsettingtemplate.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/groupSettingTemplates/{groupSettingTemplatesId}
+DELETE https://graph.microsoft.com/localtest/groupSettingTemplates/{groupSettingTemplatesId}
 ```
 
 ### Response

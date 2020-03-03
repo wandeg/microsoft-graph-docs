@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create dataPolicyOperation
 
+Namespace: microsoft.graph
+
 Create a new [dataPolicyOperation](../resources/datapolicyoperation.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /dataPolicyOperations
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the dataPolicyOperation object.
+In the request body, supply a JSON representation for the [dataPolicyOperation](../resources/datapolicyoperation.md) object.
 
-The following table shows the properties that are required when you create the dataPolicyOperation.
+The following table shows the properties that are required when you create the [dataPolicyOperation](../resources/datapolicyoperation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -65,17 +67,17 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/dataPolicyOperations
+POST https://graph.microsoft.com/localtest/dataPolicyOperations
 Content-type: application/json
-Content-length: 309
+Content-length: 308
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "completedDateTime": "2017-01-01T00:03:33.2969899+03:00",
+  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:58:36.6558624+03:00",
+  "submittedDateTime": "2017-01-01T00:01:26.640689+03:00",
   "progress": "Double"
 }
 ```
@@ -91,16 +93,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 358
+Content-Length: 357
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "id": "bfb93c2c-3c2c-bfb9-2c3c-b9bf2c3cb9bf",
-  "completedDateTime": "2017-01-01T00:03:33.2969899+03:00",
+  "id": "e9c5eb0d-eb0d-e9c5-0deb-c5e90debc5e9",
+  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:58:36.6558624+03:00",
+  "submittedDateTime": "2017-01-01T00:01:26.640689+03:00",
   "progress": "Double"
 }
 ```

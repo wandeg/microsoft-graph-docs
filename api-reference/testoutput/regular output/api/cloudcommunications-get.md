@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get cloudCommunications
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [cloudCommunications](../resources/cloudcommunications.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/communications
+GET https://graph.microsoft.com/localtest/communications
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 133
 {
   "value": {
     "@odata.type": "#microsoft.graph.cloudCommunications",
-    "id": "a0b64534-4534-a0b6-3445-b6a03445b6a0"
+    "id": "18cd633f-633f-18cd-3f63-cd183f63cd18"
   }
 }
 ```

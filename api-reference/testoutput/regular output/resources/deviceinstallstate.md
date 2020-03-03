@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # deviceInstallState resource type
+
+
+Namespace: microsoft.graph
 
 Contains properties for the installation state for a device.
 
@@ -19,9 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get deviceInstallState](../api/deviceinstallstate-get.md)|[deviceInstallState](../resources/deviceInstallState.md)|Read properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) object.|
+|[List deviceInstallStates](../api/deviceinstallstate-list.md)|[deviceInstallState](../resources/deviceinstallstate.md) collection|List properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) objects.|
+|[Get deviceInstallState](../api/deviceinstallstate-get.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Read properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) object.|
+|[Create deviceInstallState](../api/deviceinstallstate-create.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Create a new [deviceInstallState](../resources/deviceinstallstate.md) object.|
 |[Delete deviceInstallState](../api/deviceinstallstate-delete.md)|None|Deletes a [deviceInstallState](../resources/deviceinstallstate.md).|
-|[Update deviceInstallState](../api/deviceinstallstate-update.md)|[deviceInstallState](../resources/deviceInstallState.md)|Update the properties of a [deviceInstallState](../resources/deviceinstallstate.md) object.|
+|[Update deviceInstallState](../api/deviceinstallstate-update.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Update the properties of a [deviceInstallState](../resources/deviceinstallstate.md) object.|
 
 ## Properties
 |Property|Type|Description|

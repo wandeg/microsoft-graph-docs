@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceManagement
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceManagement](../resources/devicemanagement.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceManagement
+GET https://graph.microsoft.com/localtest/deviceManagement
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1420
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagement",
-    "id": "99c5dbc6-dbc6-99c5-c6db-c599c6dbc599",
+    "id": "3fe87000-7000-3fe8-0070-e83f0070e83f",
     "settings": {
       "@odata.type": "microsoft.graph.deviceManagementSettings",
       "deviceComplianceCheckinThresholdDays": 4,

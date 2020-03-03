@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update settingStateDeviceSummary
 
+Namespace: microsoft.graph
+
 Update the properties of a [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.
 
 ## Permissions
@@ -36,7 +38,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/devi
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [settingStateDeviceSummary](../resources/settingStateDeviceSummary.md) object.
+In the request body, supply a JSON representation for the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.
 
 The following table shows the properties that are required when you create the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md).
 
@@ -68,7 +70,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries/{settingStateDeviceSummaryId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceSettingStateSummaries/{settingStateDeviceSummaryId}
 Content-type: application/json
 Content-length: 360
 
@@ -100,7 +102,7 @@ Content-Length: 409
 
 {
   "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-  "id": "e269b998-b998-e269-98b9-69e298b969e2",
+  "id": "fcefb81c-b81c-fcef-1cb8-effc1cb8effc",
   "settingName": "Setting Name value",
   "instancePath": "Instance Path value",
   "unknownDeviceCount": 2,

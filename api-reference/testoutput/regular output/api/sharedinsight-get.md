@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get sharedInsight
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [sharedInsight](../resources/sharedinsight.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/insights/shared/{sharedInsightId}
+GET https://graph.microsoft.com/localtest/me/insights/shared/{sharedInsightId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1406
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharedInsight",
-    "id": "9549c984-c984-9549-84c9-499584c94995",
+    "id": "b76a86d3-86d3-b76a-d386-6ab7d3866ab7",
     "lastShared": {
       "@odata.type": "microsoft.graph.sharingDetail",
       "sharedBy": {
@@ -81,7 +83,7 @@ Content-Length: 1406
         "id": "Id value",
         "address": "Address value"
       },
-      "sharedDateTime": "2016-12-31T23:58:33.5002076+03:00",
+      "sharedDateTime": "2017-01-01T00:03:12.9522911+03:00",
       "sharingSubject": "Sharing Subject value",
       "sharingType": "Sharing Type value",
       "sharingReference": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete educationRoot
 
+Namespace: microsoft.graph
+
 Deletes a [educationRoot](../resources/educationroot.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/education
+DELETE https://graph.microsoft.com/localtest/education
 ```
 
 ### Response

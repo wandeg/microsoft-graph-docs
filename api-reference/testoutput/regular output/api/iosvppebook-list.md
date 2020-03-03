@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List iosVppEBooks
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [iosVppEBook](../resources/iosvppebook.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.iosVppEBook not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosVppEBook not found
 ```
 
 ### Response
@@ -64,27 +66,27 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1097
+Content-Length: 1096
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosVppEBook",
-      "id": "518e0478-0478-518e-7804-8e5178048e51",
+      "id": "035f72be-72be-035f-be72-5f03be725f03",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
-      "publishedDateTime": "2016-12-31T23:57:57.9127035+03:00",
+      "publishedDateTime": "2017-01-01T00:02:01.8143377+03:00",
       "largeCover": {
         "@odata.type": "microsoft.graph.mimeContent",
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "informationUrl": "https://example.com/informationUrl/",
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
-      "vppTokenId": "af7f6450-6450-af7f-5064-7faf50647faf",
+      "vppTokenId": "344616fe-16fe-3446-fe16-4634fe164634",
       "appleId": "Apple Id value",
       "vppOrganizationName": "Vpp Organization Name value",
       "genres": [

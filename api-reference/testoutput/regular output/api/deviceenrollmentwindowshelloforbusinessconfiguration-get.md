@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceEnrollmentWindowsHelloForBusinessConfiguration
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceEnrollmentWindowsHelloForBusinessConfiguration](../resources/deviceenrollmentwindowshelloforbusinessconfiguration.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration not found
 ```
 
 ### Response
@@ -67,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 852
+Content-Length: 851
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
-    "id": "f50977fe-77fe-f509-fe77-09f5fe7709f5",
+    "id": "eb9626a3-26a3-eb96-a326-96eba32696eb",
     "displayName": "Display Name value",
     "description": "Description value",
     "priority": 8,
-    "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
     "version": 7,
     "pinMinimumLength": 0,
     "pinMaximumLength": 0,

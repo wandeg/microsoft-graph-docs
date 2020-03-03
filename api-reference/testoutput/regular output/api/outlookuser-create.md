@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create outlookUser
 
+Namespace: microsoft.graph
+
 Create a new [outlookUser](../resources/outlookuser.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.outlookUser not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the outlookUser object.
+In the request body, supply a JSON representation for the [outlookUser](../resources/outlookuser.md) object.
 
-The following table shows the properties that are required when you create the outlookUser.
+The following table shows the properties that are required when you create the [outlookUser](../resources/outlookuser.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -59,7 +61,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.outlookUser not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.outlookUser not found
 Content-type: application/json
 Content-length: 53
 
@@ -83,7 +85,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.outlookUser",
-  "id": "6e864813-4813-6e86-1348-866e1348866e"
+  "id": "3a781c32-1c32-3a78-321c-783a321c783a"
 }
 ```
 

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add comments
 
+Namespace: microsoft.graph
+
 Add comments by posting to the comments collection.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST /me/drive/items/{driveItemId}/workbook/comments/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the workbookComment object.
+In the request body, supply a JSON representation for the [workbookComment](../resources/workbookcomment.md) object.
 
-The following table shows the properties that are required when you create the workbookComment.
+The following table shows the properties that are required when you create the [workbookComment](../resources/workbookcomment.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/comments
+POST https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/comments
 Content-type: application/json
 Content-length: 128
 
@@ -87,7 +89,7 @@ Content-Length: 177
 
 {
   "@odata.type": "#microsoft.graph.workbookComment",
-  "id": "34e60fbc-0fbc-34e6-bc0f-e634bc0fe634",
+  "id": "d250b7df-b7df-d250-dfb7-50d2dfb750d2",
   "content": "Content value",
   "contentType": "Content Type value"
 }

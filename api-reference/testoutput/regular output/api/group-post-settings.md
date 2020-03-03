@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add settings
 
+Namespace: microsoft.graph
+
 Add settings by posting to the settings collection.
 
 ## Permissions
@@ -37,16 +39,16 @@ POST /me/joinedTeams/{groupId}/settings/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the groupSetting object.
+In the request body, supply a JSON representation for the [groupSetting](../resources/groupsetting.md) object.
 
-The following table shows the properties that are required when you create the groupSetting.
+The following table shows the properties that are required when you create the [groupSetting](../resources/groupsetting.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |displayName|String||
 |templateId|String||
-|values|[settingValue](../resources/settingValue.md) collection||
+|values|[settingValue](../resources/settingvalue.md) collection||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/groups/{groupsId}/settings
+POST https://graph.microsoft.com/localtest/groups/{groupsId}/settings
 Content-type: application/json
 Content-length: 280
 
@@ -96,7 +98,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.groupSetting",
-  "id": "8b7e230a-230a-8b7e-0a23-7e8b0a237e8b",
+  "id": "c827e60b-e60b-c827-0be6-27c80be627c8",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # plannerPlanDetails resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,18 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerPlanDetailses](../api/plannerplandetails-list.md)|[plannerPlanDetails](../resources/plannerPlanDetails.md) collection|List properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) objects.|
-|[Get plannerPlanDetails](../api/plannerplandetails-get.md)|[plannerPlanDetails](../resources/plannerPlanDetails.md)|Read properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) object.|
-|[Create plannerPlanDetails](../api/plannerplandetails-create.md)|[plannerPlanDetails](../resources/plannerPlanDetails.md)|Create a new [plannerPlanDetails](../resources/plannerplandetails.md) object.|
+|[List plannerPlanDetailses](../api/plannerplandetails-list.md)|[plannerPlanDetails](../resources/plannerplandetails.md) collection|List properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) objects.|
+|[Get plannerPlanDetails](../api/plannerplandetails-get.md)|[plannerPlanDetails](../resources/plannerplandetails.md)|Read properties and relationships of the [plannerPlanDetails](../resources/plannerplandetails.md) object.|
+|[Create plannerPlanDetails](../api/plannerplandetails-create.md)|[plannerPlanDetails](../resources/plannerplandetails.md)|Create a new [plannerPlanDetails](../resources/plannerplandetails.md) object.|
 |[Delete plannerPlanDetails](../api/plannerplandetails-delete.md)|None|Deletes a [plannerPlanDetails](../resources/plannerplandetails.md).|
-|[Update plannerPlanDetails](../api/plannerplandetails-update.md)|[plannerPlanDetails](../resources/plannerPlanDetails.md)|Update the properties of a [plannerPlanDetails](../resources/plannerplandetails.md) object.|
+|[Update plannerPlanDetails](../api/plannerplandetails-update.md)|[plannerPlanDetails](../resources/plannerplandetails.md)|Update the properties of a [plannerPlanDetails](../resources/plannerplandetails.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannerCategoryDescriptions.md)||
+|categoryDescriptions|[plannerCategoryDescriptions](../resources/plannercategorydescriptions.md)||
 |id|String| Inherited from [entity](../resources/entity.md)|
-|sharedWith|[plannerUserIds](../resources/plannerUserIds.md)||
+|sharedWith|[plannerUserIds](../resources/planneruserids.md)||
 
 ## Relationships
 None

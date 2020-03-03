@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get workbookRangeBorder
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [workbookRangeBorder](../resources/workbookrangeborder.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeBorder not found
+GET https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeBorder not found
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 260
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeBorder",
-    "id": "98c13938-3938-98c1-3839-c1983839c198",
+    "id": "98eb73a4-73a4-98eb-a473-eb98a473eb98",
     "color": "Color value",
     "sideIndex": "Side Index value",
     "style": "Style value",

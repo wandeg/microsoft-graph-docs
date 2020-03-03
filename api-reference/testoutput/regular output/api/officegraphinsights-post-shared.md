@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Add shared
 
+Namespace: microsoft.graph
+
 Add shared by posting to the shared collection.
 
 ## Permissions
@@ -36,17 +38,17 @@ POST /me/insights/shared/$ref
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the sharedInsight object.
+In the request body, supply a JSON representation for the [sharedInsight](../resources/sharedinsight.md) object.
 
-The following table shows the properties that are required when you create the sharedInsight.
+The following table shows the properties that are required when you create the [sharedInsight](../resources/sharedinsight.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|lastShared|[sharingDetail](../resources/sharingDetail.md)||
-|sharingHistory|[sharingDetail](../resources/sharingDetail.md) collection||
-|resourceVisualization|[resourceVisualization](../resources/resourceVisualization.md)||
-|resourceReference|[resourceReference](../resources/resourceReference.md)||
+|lastShared|[sharingDetail](../resources/sharingdetail.md)||
+|sharingHistory|[sharingDetail](../resources/sharingdetail.md) collection||
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)||
+|resourceReference|[resourceReference](../resources/resourcereference.md)||
 
 
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/insights/shared
+POST https://graph.microsoft.com/localtest/me/insights/shared
 Content-type: application/json
 Content-length: 1264
 
@@ -77,7 +79,7 @@ Content-length: 1264
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2016-12-31T23:58:33.5002076+03:00",
+    "sharedDateTime": "2017-01-01T00:03:12.9522911+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {
@@ -122,7 +124,7 @@ Content-Length: 1313
 
 {
   "@odata.type": "#microsoft.graph.sharedInsight",
-  "id": "9549c984-c984-9549-84c9-499584c94995",
+  "id": "b76a86d3-86d3-b76a-d386-6ab7d3866ab7",
   "lastShared": {
     "@odata.type": "microsoft.graph.sharingDetail",
     "sharedBy": {
@@ -131,7 +133,7 @@ Content-Length: 1313
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2016-12-31T23:58:33.5002076+03:00",
+    "sharedDateTime": "2017-01-01T00:03:12.9522911+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookChartGridlinesFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookChartGridlinesFormat](../resources/workbookChartGridlinesFormat.md) object.
+In the request body, supply a JSON representation for the [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md).
 
@@ -58,7 +60,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines/format
+PATCH https://graph.microsoft.com/localtest/me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts/{workbookChartId}/axes/categoryAxis/majorGridlines/format
 Content-type: application/json
 Content-length: 70
 
@@ -81,7 +83,7 @@ Content-Length: 119
 
 {
   "@odata.type": "#microsoft.graph.workbookChartGridlinesFormat",
-  "id": "53fbbdeb-bdeb-53fb-ebbd-fb53ebbdfb53"
+  "id": "4041cae3-cae3-4041-e3ca-4140e3ca4140"
 }
 ```
 

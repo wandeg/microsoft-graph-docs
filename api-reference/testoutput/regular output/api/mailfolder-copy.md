@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # copy
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -49,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 
 
 ## Response
-If successful, this action returns a `200 OK` response code and a [mailFolder](../resources/mailFolder.md) in the response body.
+If successful, this action returns a `200 OK` response code and a [mailFolder](../resources/mailfolder.md) in the response body.
 
 ## Example
 
@@ -61,7 +63,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/mailFolders/{mailFolderId}/copy
+POST https://graph.microsoft.com/localtest/me/mailFolders/{mailFolderId}/copy
 
 Content-type: application/json
 Content-length: 47
@@ -87,7 +89,7 @@ Content-Length: 298
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailFolder",
-    "id": "73e88ce0-8ce0-73e8-e08c-e873e08ce873",
+    "id": "927e3741-3741-927e-4137-7e9241377e92",
     "displayName": "Display Name value",
     "parentFolderId": "Parent Folder Id value",
     "childFolderCount": 0,

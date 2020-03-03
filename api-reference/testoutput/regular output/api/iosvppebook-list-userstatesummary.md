@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List userStateSummary
 
+Namespace: microsoft.graph
+
 Get the userInstallStateSummaries from the userStateSummary navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary
+GET https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 295
   "value": [
     {
       "@odata.type": "#microsoft.graph.userInstallStateSummary",
-      "id": "edf45494-5494-edf4-9454-f4ed9454f4ed",
+      "id": "5ec23a86-3a86-5ec2-863a-c25e863ac25e",
       "userName": "User Name value",
       "installedDeviceCount": 4,
       "failedDeviceCount": 1,

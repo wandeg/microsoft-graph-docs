@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get deviceCompliancePolicyState
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.
 
 ## Permissions
@@ -53,7 +55,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceCompliancePolicyStateId}
+GET https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceCompliancePolicyStateId}
 ```
 
 ### Response
@@ -72,7 +74,7 @@ Content-Length: 1090
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-    "id": "38a58f8e-8f8e-38a5-8e8f-a5388e8fa538",
+    "id": "17874245-4245-1787-4542-871745428717",
     "settingStates": [
       {
         "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Create operation
 
+Namespace: microsoft.graph
+
 Create a new [operation](../resources/operation.md) object.
 
 ## Permissions
@@ -36,9 +38,9 @@ POST ** Collection URI for microsoft.graph.operation not found
 |Content-Type|application/json|
 
 ## Request body
-In the request body, supply a JSON representation for the operation object.
+In the request body, supply a JSON representation for the [operation](../resources/operation.md) object.
 
-The following table shows the properties that are required when you create the operation.
+The following table shows the properties that are required when you create the [operation](../resources/operation.md).
 
 |Property|Type|Description|
 |:---|:---|:---|
@@ -62,14 +64,14 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.operation not found
+POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.operation not found
 Content-type: application/json
 Content-length: 136
 
 {
   "@odata.type": "#microsoft.graph.operation",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00"
+  "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00"
 }
 ```
 
@@ -84,14 +86,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 244
+Content-Length: 243
 
 {
   "@odata.type": "#microsoft.graph.operation",
-  "id": "b9c58abd-8abd-b9c5-bd8a-c5b9bd8ac5b9",
+  "id": "7986a22f-a22f-7986-2fa2-86792fa28679",
   "status": "String",
-  "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
-  "lastActionDateTime": "2017-01-01T00:01:23.8467386+03:00"
+  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00"
 }
 ```
 

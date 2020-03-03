@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # workbookTableSort resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,16 +20,16 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTableSorts](../api/workbooktablesort-list.md)|[workbookTableSort](../resources/workbookTableSort.md) collection|List properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) objects.|
-|[Get workbookTableSort](../api/workbooktablesort-get.md)|[workbookTableSort](../resources/workbookTableSort.md)|Read properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) object.|
-|[Create workbookTableSort](../api/workbooktablesort-create.md)|[workbookTableSort](../resources/workbookTableSort.md)|Create a new [workbookTableSort](../resources/workbooktablesort.md) object.|
+|[List workbookTableSorts](../api/workbooktablesort-list.md)|[workbookTableSort](../resources/workbooktablesort.md) collection|List properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) objects.|
+|[Get workbookTableSort](../api/workbooktablesort-get.md)|[workbookTableSort](../resources/workbooktablesort.md)|Read properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) object.|
+|[Create workbookTableSort](../api/workbooktablesort-create.md)|[workbookTableSort](../resources/workbooktablesort.md)|Create a new [workbookTableSort](../resources/workbooktablesort.md) object.|
 |[Delete workbookTableSort](../api/workbooktablesort-delete.md)|None|Deletes a [workbookTableSort](../resources/workbooktablesort.md).|
-|[Update workbookTableSort](../api/workbooktablesort-update.md)|[workbookTableSort](../resources/workbookTableSort.md)|Update the properties of a [workbookTableSort](../resources/workbooktablesort.md) object.|
+|[Update workbookTableSort](../api/workbooktablesort-update.md)|[workbookTableSort](../resources/workbooktablesort.md)|Update the properties of a [workbookTableSort](../resources/workbooktablesort.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|fields|[workbookSortField](../resources/workbookSortField.md) collection||
+|fields|[workbookSortField](../resources/workbooksortfield.md) collection||
 |id|String| Inherited from [entity](../resources/entity.md)|
 |matchCase|Boolean||
 |method|String||

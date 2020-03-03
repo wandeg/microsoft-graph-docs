@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update notificationMessageTemplate
 
+Namespace: microsoft.graph
+
 Update the properties of a [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH /deviceManagement/notificationMessageTemplates/{notificationMessageTemplat
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [notificationMessageTemplate](../resources/notificationMessageTemplate.md) object.
+In the request body, supply a JSON representation for the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.
 
 The following table shows the properties that are required when you create the [notificationMessageTemplate](../resources/notificationmessagetemplate.md).
 
@@ -62,7 +64,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}
+PATCH https://graph.microsoft.com/localtest/deviceManagement/notificationMessageTemplates/{notificationMessageTemplateId}
 Content-type: application/json
 Content-length: 185
 
@@ -88,8 +90,8 @@ Content-Length: 298
 
 {
   "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-  "id": "ff7220c8-20c8-ff72-c820-72ffc82072ff",
-  "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+  "id": "4106bfab-bfab-4106-abbf-0641abbf0641",
+  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
   "displayName": "Display Name value",
   "defaultLocale": "Default Locale value",
   "brandingOptions": "String"

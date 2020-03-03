@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # exportPersonalData
 
+Namespace: microsoft.graph
+
 
 
 ## Permissions
@@ -60,7 +62,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/docs\api/me/exportPersonalData
+POST https://graph.microsoft.com/localtest/me/exportPersonalData
 
 Content-type: application/json
 Content-length: 51

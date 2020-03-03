@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List alerts
 
+Namespace: microsoft.graph
+
 Get the alerts from the alerts navigation property.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api/Security/alerts
+GET https://graph.microsoft.com/localtest/Security/alerts
 ```
 
 ### Response
@@ -64,19 +66,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 6086
+Content-Length: 6084
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.alert",
-      "id": "0d568ad6-8ad6-0d56-d68a-560dd68a560d",
+      "id": "a7641726-1726-a764-2617-64a7261764a7",
       "activityGroupName": "Activity Group Name value",
       "assignedTo": "Assigned To value",
       "azureSubscriptionId": "Azure Subscription Id value",
       "azureTenantId": "Azure Tenant Id value",
       "category": "Category value",
-      "closedDateTime": "2017-01-01T00:02:18.6868486+03:00",
+      "closedDateTime": "2016-12-31T23:58:04.5888224+03:00",
       "cloudAppStates": [
         {
           "@odata.type": "microsoft.graph.cloudAppSecurityState",
@@ -89,12 +91,12 @@ Content-Length: 6086
         "Comments value"
       ],
       "confidence": 10,
-      "createdDateTime": "2016-12-31T23:57:22.3554145+03:00",
+      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
       "description": "Description value",
       "detectionIds": [
         "Detection Ids value"
       ],
-      "eventDateTime": "2017-01-01T00:01:33.1647467+03:00",
+      "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
       "feedback": "String",
       "fileStates": [
         {
@@ -113,7 +115,7 @@ Content-Length: 6086
           "@odata.type": "microsoft.graph.alertHistoryState",
           "appId": "App Id value",
           "status": "String",
-          "updatedDateTime": "2017-01-01T00:02:39.6439205+03:00",
+          "updatedDateTime": "2016-12-31T23:59:12.8270379+03:00",
           "user": "User value"
         }
       ],
@@ -130,7 +132,7 @@ Content-Length: 6086
           "publicIpAddress": "Public Ip Address value"
         }
       ],
-      "lastModifiedDateTime": "2016-12-31T23:59:09.8413999+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
       "malwareStates": [
         {
           "@odata.type": "microsoft.graph.malwareState",
@@ -148,7 +150,7 @@ Content-Length: 6086
           "destinationPort": "Destination Port value",
           "destinationUrl": "https://example.com/destinationUrl/",
           "direction": "String",
-          "domainRegisteredDateTime": "2016-12-31T23:57:40.0212945+03:00",
+          "domainRegisteredDateTime": "2016-12-31T23:59:36.186513+03:00",
           "localDnsName": "Local Dns Name value",
           "natDestinationAddress": "Nat Destination Address value",
           "natDestinationPort": "Nat Destination Port value",
@@ -168,7 +170,7 @@ Content-Length: 6086
           "commandLine": "Command Line value",
           "integrityLevel": "String",
           "isElevated": true,
-          "parentProcessCreatedDateTime": "2016-12-31T23:58:20.1943249+03:00",
+          "parentProcessCreatedDateTime": "2016-12-31T23:59:10.4513626+03:00",
           "parentProcessId": 15,
           "parentProcessName": "Parent Process Name value",
           "processId": 9
@@ -214,7 +216,7 @@ Content-Length: 6086
           "domainName": "Domain Name value",
           "emailRole": "String",
           "isVpn": true,
-          "logonDateTime": "2017-01-01T00:02:19.4310282+03:00",
+          "logonDateTime": "2016-12-31T23:57:32.3905082+03:00",
           "logonId": "Logon Id value",
           "logonIp": "Logon Ip value",
           "logonLocation": "Logon Location value",

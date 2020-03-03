@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # List workbookChartAreaFormats
 
+Namespace: microsoft.graph
+
 List properties and relationships of the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) objects.
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-GET https://graph.microsoft.com/docs\api** Collection URI for microsoft.graph.workbookChartAreaFormat not found
+GET https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.workbookChartAreaFormat not found
 ```
 
 ### Response
@@ -70,7 +72,7 @@ Content-Length: 155
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-      "id": "e5251c56-1c56-e525-561c-25e5561c25e5"
+      "id": "1d570c2b-0c2b-1d57-2b0c-571d2b0c571d"
     }
   ]
 }

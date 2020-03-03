@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Delete mobileAppCategory
 
+Namespace: microsoft.graph
+
 Deletes a [mobileAppCategory](../resources/mobileappcategory.md).
 
 ## Permissions
@@ -50,7 +52,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/docs\api/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
+DELETE https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
 ```
 
 ### Response

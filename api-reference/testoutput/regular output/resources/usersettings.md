@@ -5,11 +5,12 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
 
-
 # userSettings resource type
+
+
+Namespace: microsoft.graph
 
 
 
@@ -19,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userSettingses](../api/usersettings-list.md)|[userSettings](../resources/userSettings.md) collection|List properties and relationships of the [userSettings](../resources/usersettings.md) objects.|
-|[Get userSettings](../api/usersettings-get.md)|[userSettings](../resources/userSettings.md)|Read properties and relationships of the [userSettings](../resources/usersettings.md) object.|
-|[Create userSettings](../api/usersettings-create.md)|[userSettings](../resources/userSettings.md)|Create a new [userSettings](../resources/usersettings.md) object.|
+|[List userSettingses](../api/usersettings-list.md)|[userSettings](../resources/usersettings.md) collection|List properties and relationships of the [userSettings](../resources/usersettings.md) objects.|
+|[Get userSettings](../api/usersettings-get.md)|[userSettings](../resources/usersettings.md)|Read properties and relationships of the [userSettings](../resources/usersettings.md) object.|
+|[Create userSettings](../api/usersettings-create.md)|[userSettings](../resources/usersettings.md)|Create a new [userSettings](../resources/usersettings.md) object.|
 |[Delete userSettings](../api/usersettings-delete.md)|None|Deletes a [userSettings](../resources/usersettings.md).|
-|[Update userSettings](../api/usersettings-update.md)|[userSettings](../resources/userSettings.md)|Update the properties of a [userSettings](../resources/usersettings.md) object.|
+|[Update userSettings](../api/usersettings-update.md)|[userSettings](../resources/usersettings.md)|Update the properties of a [userSettings](../resources/usersettings.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Get itemActivity
 
+Namespace: microsoft.graph
+
 Read properties and relationships of the [itemActivity](../resources/itemactivity.md) object.
 
 ## Permissions
@@ -71,11 +73,11 @@ Content-Length: 658
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemActivity",
-    "id": "e730d3e0-d3e0-e730-e0d3-30e7e0d330e7",
+    "id": "c221ee04-ee04-c221-04ee-21c204ee21c2",
     "access": {
       "@odata.type": "microsoft.graph.accessAction"
     },
-    "activityDateTime": "2016-12-31T23:59:24.7559833+03:00",
+    "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
     "actor": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

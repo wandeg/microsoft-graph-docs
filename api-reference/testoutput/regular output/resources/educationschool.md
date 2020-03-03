@@ -5,38 +5,41 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # educationSchool resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [educationOrganization](../resources/educationOrganization.md)
+
+
+Inherits from [educationOrganization](../resources/educationorganization.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get educationSchool](../api/educationschool-get.md)|[educationSchool](../resources/educationSchool.md)|Read properties and relationships of the [educationSchool](../resources/educationschool.md) object.|
+|[List educationSchools](../api/educationschool-list.md)|[educationSchool](../resources/educationschool.md) collection|List properties and relationships of the [educationSchool](../resources/educationschool.md) objects.|
+|[Get educationSchool](../api/educationschool-get.md)|[educationSchool](../resources/educationschool.md)|Read properties and relationships of the [educationSchool](../resources/educationschool.md) object.|
+|[Create educationSchool](../api/educationschool-create.md)|[educationSchool](../resources/educationschool.md)|Create a new [educationSchool](../resources/educationschool.md) object.|
 |[Delete educationSchool](../api/educationschool-delete.md)|None|Deletes a [educationSchool](../resources/educationschool.md).|
-|[Update educationSchool](../api/educationschool-update.md)|[educationSchool](../resources/educationSchool.md)|Update the properties of a [educationSchool](../resources/educationschool.md) object.|
-|[List classes](../api/educationschool-list-classes.md)|[educationClass](../resources/educationClass.md) collection|Get the educationClasses from the classes navigation property.|
-|[Create classes](../api/educationschool-post-classes.md)|[educationClass](../resources/educationClass.md)|Create classes by posting to the classes collection.|
-|[List users](../api/educationschool-list-users.md)|[educationUser](../resources/educationUser.md) collection|Get the educationUsers from the users navigation property.|
-|[Create users](../api/educationschool-post-users.md)|[educationUser](../resources/educationUser.md)|Create users by posting to the users collection.|
+|[Update educationSchool](../api/educationschool-update.md)|[educationSchool](../resources/educationschool.md)|Update the properties of a [educationSchool](../resources/educationschool.md) object.|
+|[List classes](../api/educationschool-list-classes.md)|[educationClass](../resources/educationclass.md) collection|Get the educationClasses from the classes navigation property.|
+|[Create classes](../api/educationschool-post-classes.md)|[educationClass](../resources/educationclass.md)|Create classes by posting to the classes collection.|
+|[List users](../api/educationschool-list-users.md)|[educationUser](../resources/educationuser.md) collection|Get the educationUsers from the users navigation property.|
+|[Create users](../api/educationschool-post-users.md)|[educationUser](../resources/educationuser.md)|Create users by posting to the users collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|address|[physicalAddress](../resources/physicalAddress.md)||
-|createdBy|[identitySet](../resources/identitySet.md)||
-|description|String| Inherited from [educationOrganization](../resources/educationOrganization.md)|
-|displayName|String| Inherited from [educationOrganization](../resources/educationOrganization.md)|
+|address|[physicalAddress](../resources/physicaladdress.md)||
+|createdBy|[identitySet](../resources/identityset.md)||
+|description|String| Inherited from [educationOrganization](../resources/educationorganization.md)|
+|displayName|String| Inherited from [educationOrganization](../resources/educationorganization.md)|
 |externalId|String||
 |externalPrincipalId|String||
-|externalSource|Enumeration| Inherited from [educationOrganization](../resources/educationOrganization.md). Possible values are: `sis`, `manual`, `unknownFutureValue`.|
+|externalSource|Enumeration| Inherited from [educationOrganization](../resources/educationorganization.md). Possible values are: `sis`, `manual`, `unknownFutureValue`.|
 |fax|String||
 |highestGrade|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
@@ -49,8 +52,8 @@ Inherits from [educationOrganization](../resources/educationOrganization.md)
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|classes|[educationClass](../resources/educationClass.md) collection||
-|users|[educationUser](../resources/educationUser.md) collection||
+|classes|[educationClass](../resources/educationclass.md) collection||
+|users|[educationUser](../resources/educationuser.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.

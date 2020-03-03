@@ -9,6 +9,8 @@ doc_type: apiPageType
 
 # Update workbookRangeFormat
 
+Namespace: microsoft.graph
+
 Update the properties of a [workbookRangeFormat](../resources/workbookrangeformat.md) object.
 
 ## Permissions
@@ -35,7 +37,7 @@ PATCH ** Entity URI for microsoft.graph.workbookRangeFormat not found
 |Authorization|Bearer {token}|
 
 ## Request body
-In the request body, supply a JSON representation for the [workbookRangeFormat](../resources/workbookRangeFormat.md) object.
+In the request body, supply a JSON representation for the [workbookRangeFormat](../resources/workbookrangeformat.md) object.
 
 The following table shows the properties that are required when you create the [workbookRangeFormat](../resources/workbookrangeformat.md).
 
@@ -63,7 +65,7 @@ Here is an example of the request.
 }
 -->
 ``` http
-PATCH https://graph.microsoft.com/docs\api** Entity URI for microsoft.graph.workbookRangeFormat not found
+PATCH https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRangeFormat not found
 Content-type: application/json
 Content-length: 244
 
@@ -91,7 +93,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFormat",
-  "id": "be015bc2-5bc2-be01-c25b-01bec25b01be",
+  "id": "5a1e652c-652c-5a1e-2c65-1e5a2c651e5a",
   "columnWidth": "Double",
   "horizontalAlignment": "Horizontal Alignment value",
   "rowHeight": "Double",

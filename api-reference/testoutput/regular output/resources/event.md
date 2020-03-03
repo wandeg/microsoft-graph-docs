@@ -5,21 +5,24 @@ author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
-Namespace: microsoft.graph
 ---
-
 
 # event resource type
 
 
+Namespace: microsoft.graph
 
 
-Inherits from [outlookItem](../resources/outlookItem.md)
+
+
+Inherits from [outlookItem](../resources/outlookitem.md)
 
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
+|[List events](../api/event-list.md)|[event](../resources/event.md) collection|List properties and relationships of the [event](../resources/event.md) objects.|
 |[Get event](../api/event-get.md)|[event](../resources/event.md)|Read properties and relationships of the [event](../resources/event.md) object.|
+|[Create event](../api/event-create.md)|[event](../resources/event.md)|Create a new [event](../resources/event.md) object.|
 |[Delete event](../api/event-delete.md)|None|Deletes a [event](../resources/event.md).|
 |[Update event](../api/event-update.md)|[event](../resources/event.md)|Update the properties of a [event](../resources/event.md) object.|
 |[dismissReminder](../api/event-dismissreminder.md)|None||
@@ -29,10 +32,10 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |[tentativelyAccept](../api/event-tentativelyaccept.md)|None||
 |[List attachments](../api/event-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
 |[Add attachments](../api/event-post-attachments.md)|[attachment](../resources/attachment.md)|Add attachments by posting to the attachments collection.|
-|[List singleValueExtendedProperties](../api/event-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
-|[Add singleValueExtendedProperties](../api/event-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
-|[List multiValueExtendedProperties](../api/event-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
-|[Add multiValueExtendedProperties](../api/event-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[List singleValueExtendedProperties](../api/event-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Add singleValueExtendedProperties](../api/event-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
+|[List multiValueExtendedProperties](../api/event-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Add multiValueExtendedProperties](../api/event-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
 |[Get calendar](../api/calendar-get.md)|[calendar](../resources/calendar.md)|Read properties and relationships of the [calendar](../resources/calendar.md) object.|
 |[List instances](../api/event-list-instances.md)|[event](../resources/event.md) collection|Get the events from the instances navigation property.|
 |[Add instances](../api/event-post-instances.md)|[event](../resources/event.md)|Add instances by posting to the instances collection.|
@@ -43,12 +46,12 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |Property|Type|Description|
 |:---|:---|:---|
 |attendees|[attendee](../resources/attendee.md) collection||
-|body|[itemBody](../resources/itemBody.md)||
+|body|[itemBody](../resources/itembody.md)||
 |bodyPreview|String||
-|categories|String collection| Inherited from [outlookItem](../resources/outlookItem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookItem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
-|end|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
+|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |hasAttachments|Boolean||
 |iCalUId|String||
 |id|String| Inherited from [entity](../resources/entity.md)|
@@ -57,7 +60,7 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |isCancelled|Boolean||
 |isOrganizer|Boolean||
 |isReminderOn|Boolean||
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookItem.md)|
+|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
 |location|[location](../resources/location.md)||
 |locations|[location](../resources/location.md) collection||
 |onlineMeetingUrl|String||
@@ -65,14 +68,14 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |originalEndTimeZone|String||
 |originalStart|DateTimeOffset||
 |originalStartTimeZone|String||
-|recurrence|[patternedRecurrence](../resources/patternedRecurrence.md)||
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
 |reminderMinutesBeforeStart|Int32||
 |responseRequested|Boolean||
-|responseStatus|[responseStatus](../resources/responseStatus.md)||
+|responseStatus|[responseStatus](../resources/responsestatus.md)||
 |sensitivity|Enumeration|. Possible values are: `normal`, `personal`, `private`, `confidential`.|
 |seriesMasterId|String||
 |showAs|Enumeration|. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
-|start|[dateTimeTimeZone](../resources/dateTimeTimeZone.md)||
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
 |subject|String||
 |type|Enumeration|. Possible values are: `singleInstance`, `occurrence`, `exception`, `seriesMaster`.|
 |webLink|String||
@@ -84,8 +87,8 @@ Inherits from [outlookItem](../resources/outlookItem.md)
 |calendar|[calendar](../resources/calendar.md)||
 |extensions|[extension](../resources/extension.md) collection||
 |instances|[event](../resources/event.md) collection||
-|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multiValueLegacyExtendedProperty.md) collection||
-|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singleValueLegacyExtendedProperty.md) collection||
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
 ## JSON Representation
 Here is a JSON representation of the resource.
