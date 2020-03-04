@@ -74,7 +74,7 @@ Content-Length: 195
 {
   "value": {
     "@odata.type": "#microsoft.graph.outlookCategory",
-    "id": "8e5f4cce-4cce-8e5f-ce4c-5f8ece4c5f8e",
+    "id": "219804dd-04dd-2198-dd04-9821dd049821",
     "displayName": "Display Name value",
     "color": "String"
   }

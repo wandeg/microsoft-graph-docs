@@ -80,7 +80,7 @@ Content-length: 369
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }
@@ -101,12 +101,12 @@ Content-Length: 418
 
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "cb52cf82-cf82-cb52-82cf-52cb82cf52cb",
+  "id": "ed12022e-022e-ed12-2e02-12ed2e0212ed",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }

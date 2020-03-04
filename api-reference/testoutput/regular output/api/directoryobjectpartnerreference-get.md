@@ -74,11 +74,11 @@ Content-Length: 401
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-    "id": "5d6fb2ce-b2ce-5d6f-ceb2-6f5dceb26f5d",
-    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+    "id": "0850d6c0-d6c0-0850-c0d6-5008c0d65008",
+    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
-    "externalPartnerTenantId": "e7255d56-5d56-e725-565d-25e7565d25e7",
+    "externalPartnerTenantId": "2064428a-428a-2064-8a42-64208a426420",
     "objectType": "Object Type value"
   }
 }

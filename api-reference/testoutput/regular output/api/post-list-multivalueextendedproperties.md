@@ -72,7 +72,7 @@ Content-Length: 215
   "value": [
     {
       "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-      "id": "31b18d19-8d19-31b1-198d-b131198db131",
+      "id": "32b7bf37-bf37-32b7-37bf-b73237bfb732",
       "value": [
         "Value value"
       ]

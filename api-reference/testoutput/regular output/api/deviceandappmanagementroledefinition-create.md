@@ -108,7 +108,7 @@ Content-Length: 651
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleDefinition",
-  "id": "9d74a922-a922-9d74-22a9-749d22a9749d",
+  "id": "51c854f7-54f7-51c8-f754-c851f754c851",
   "displayName": "Display Name value",
   "description": "Description value",
   "rolePermissions": [

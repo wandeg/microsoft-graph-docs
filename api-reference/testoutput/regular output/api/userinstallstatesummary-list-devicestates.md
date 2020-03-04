@@ -66,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 492
+Content-Length: 493
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceInstallState",
-      "id": "9acbc68e-c68e-9acb-8ec6-cb9a8ec6cb9a",
+      "id": "73a9bd88-bd88-73a9-88bd-a97388bda973",
       "deviceName": "Device Name value",
       "deviceId": "Device Id value",
-      "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+      "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
       "installState": "String",
       "errorCode": "Error Code value",
       "osVersion": "Os Version value",

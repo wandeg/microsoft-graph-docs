@@ -69,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 851
+Content-Length: 852
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
-    "id": "eb9626a3-26a3-eb96-a326-96eba32696eb",
+    "id": "41c0297d-297d-41c0-7d29-c0417d29c041",
     "displayName": "Display Name value",
     "description": "Description value",
     "priority": 8,
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "version": 7,
     "pinMinimumLength": 0,
     "pinMaximumLength": 0,

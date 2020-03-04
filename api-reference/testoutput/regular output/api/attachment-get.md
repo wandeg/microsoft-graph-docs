@@ -76,8 +76,8 @@ Content-Length: 298
 {
   "value": {
     "@odata.type": "#microsoft.graph.attachment",
-    "id": "d596da57-da57-d596-57da-96d557da96d5",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "id": "5776d265-d265-5776-65d2-765765d27657",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "name": "Name value",
     "contentType": "Content Type value",
     "size": 4,

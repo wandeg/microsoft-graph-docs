@@ -68,7 +68,7 @@ Content-length: 179
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
+  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
   "correlationId": "Correlation Id value"
 }
 ```
@@ -87,8 +87,8 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "9a0757eb-57eb-9a07-eb57-079aeb57079a",
-  "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
+  "id": "dff73b94-3b94-dff7-943b-f7df943bf7df",
+  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
   "correlationId": "Correlation Id value"
 }
 ```

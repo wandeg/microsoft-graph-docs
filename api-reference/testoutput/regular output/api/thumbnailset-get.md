@@ -75,7 +75,7 @@ Content-Length: 565
 {
   "value": {
     "@odata.type": "#microsoft.graph.thumbnailSet",
-    "id": "d474f7a1-f7a1-d474-a1f7-74d4a1f774d4",
+    "id": "9bda1dda-1dda-9bda-da1d-da9bda1dda9b",
     "large": {
       "@odata.type": "microsoft.graph.thumbnail",
       "content": "Stream",

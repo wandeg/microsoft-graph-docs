@@ -72,7 +72,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerGroup",
-      "id": "68ac29ab-29ab-68ac-ab29-ac68ab29ac68"
+      "id": "b2cd9b5d-9b5d-b2cd-5d9b-cdb25d9bcdb2"
     }
   ]
 }

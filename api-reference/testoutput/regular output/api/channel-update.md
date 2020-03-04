@@ -92,7 +92,7 @@ Content-Length: 248
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "2a033dd8-3dd8-2a03-d83d-032ad83d032a",
+  "id": "a3df3b9a-3b9a-a3df-9a3b-dfa39a3bdfa3",
   "displayName": "Display Name value",
   "description": "Description value",
   "email": "Email value",

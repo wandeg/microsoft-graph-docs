@@ -72,10 +72,10 @@ Content-Length: 411
   "value": [
     {
       "@odata.type": "#microsoft.graph.contract",
-      "id": "6a2e498d-498d-6a2e-8d49-2e6a8d492e6a",
-      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+      "id": "3ef49e59-9e59-3ef4-599e-f43e599ef43e",
+      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
       "contractType": "Contract Type value",
-      "customerId": "d887a519-a519-d887-19a5-87d819a587d8",
+      "customerId": "b5ca4f3d-4f3d-b5ca-3d4f-cab53d4fcab5",
       "defaultDomainName": "Default Domain Name value",
       "displayName": "Display Name value"
     }

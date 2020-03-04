@@ -119,7 +119,7 @@ Content-Length: 1010
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "847cdc25-dc25-847c-25dc-7c8425dc7c84",
+  "id": "b611287a-287a-b611-7a28-11b67a2811b6",
   "webUrl": "https://example.com/webUrl/",
   "memberSettings": {
     "@odata.type": "microsoft.graph.teamMemberSettings",

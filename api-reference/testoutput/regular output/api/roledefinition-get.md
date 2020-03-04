@@ -74,7 +74,7 @@ Content-Length: 690
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleDefinition",
-    "id": "373b31af-31af-373b-af31-3b37af313b37",
+    "id": "04e454a2-54a2-04e4-a254-e404a254e404",
     "displayName": "Display Name value",
     "description": "Description value",
     "rolePermissions": [

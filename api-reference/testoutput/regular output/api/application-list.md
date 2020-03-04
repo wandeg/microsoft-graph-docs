@@ -66,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5543
+Content-Length: 5544
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "275f3ac0-3ac0-275f-c03a-5f27c03a5f27",
-      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+      "id": "e577bdcb-bdcb-e577-cbbd-77e5cbbd77e5",
+      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn",
-          "id": "438e8956-8956-438e-5689-8e4356898e43",
+          "id": "ffc1cf23-cf23-ffc1-23cf-c1ff23cfc1ff",
           "type": "Type value",
           "properties": [
             {
@@ -92,7 +92,7 @@ Content-Length: 5543
         "@odata.type": "microsoft.graph.apiApplication",
         "acceptMappedClaims": true,
         "knownClientApplications": [
-          "d8c48f40-8f40-d8c4-408f-c4d8408fc4d8"
+          "08268df2-8df2-0826-f28d-2608f28d2608"
         ],
         "preAuthorizedApplications": [
           {
@@ -132,7 +132,7 @@ Content-Length: 5543
       "identifierUris": [
         "Identifier Uris value"
       ],
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "publicClient": {
         "@odata.type": "microsoft.graph.publicClientApplication",
         "redirectUris": [
@@ -154,9 +154,9 @@ Content-Length: 5543
         {
           "@odata.type": "microsoft.graph.keyCredential",
           "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-          "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
-          "keyId": "b37b5c66-5c66-b37b-665c-7bb3665c7bb3",
-          "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
+          "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
+          "keyId": "afbffea7-fea7-afbf-a7fe-bfafa7febfaf",
+          "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
           "usage": "Usage value",
           "key": "a2V5"
         }
@@ -217,7 +217,7 @@ Content-Length: 5543
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "25b6c6cc-c6cc-25b6-ccc6-b625ccc6b625",
+      "tokenEncryptionKeyId": "4630fb04-fb04-4630-04fb-304604fb3046",
       "web": {
         "@odata.type": "microsoft.graph.webApplication",
         "homePageUrl": "https://example.com/homePageUrl/",

@@ -71,7 +71,7 @@ Content-length: 211
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:00:56.6153418+03:00"
+  "acceptedDateTime": "2016-12-31T23:56:54.4739298+03:00"
 }
 ```
 
@@ -89,10 +89,10 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-  "id": "1f5f4d2e-4d2e-1f5f-2e4d-5f1f2e4d5f1f",
+  "id": "7f892ba0-2ba0-7f89-a02b-897fa02b897f",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:00:56.6153418+03:00"
+  "acceptedDateTime": "2016-12-31T23:56:54.4739298+03:00"
 }
 ```
 

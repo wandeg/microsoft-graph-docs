@@ -25,6 +25,13 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookTableColumn](../api/workbooktablecolumn-create.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Create a new [workbookTableColumn](../resources/workbooktablecolumn.md) object.|
 |[Delete workbookTableColumn](../api/workbooktablecolumn-delete.md)|None|Deletes a [workbookTableColumn](../resources/workbooktablecolumn.md).|
 |[Update workbookTableColumn](../api/workbooktablecolumn-update.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Update the properties of a [workbookTableColumn](../resources/workbooktablecolumn.md) object.|
+|[dataBodyRange](../api/workbooktablecolumn-databodyrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[headerRowRange](../api/workbooktablecolumn-headerrowrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[range](../api/workbooktablecolumn-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[totalRowRange](../api/workbooktablecolumn-totalrowrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[add](../api/workbooktablecolumn-add.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)||
+|[itemAt](../api/workbooktablecolumn-itemat.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)||
+|[count](../api/workbooktablecolumn-count.md)|Int32||
 |[Get workbookFilter](../api/workbookfilter-get.md)|[workbookFilter](../resources/workbookfilter.md)|Read properties and relationships of the [workbookFilter](../resources/workbookfilter.md) object.|
 
 ## Properties

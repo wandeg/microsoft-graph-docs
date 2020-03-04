@@ -72,7 +72,7 @@ Content-Length: 290
   "value": [
     {
       "@odata.type": "#microsoft.graph.identityProvider",
-      "id": "b74f77f2-77f2-b74f-f277-4fb7f2774fb7",
+      "id": "dd87098d-098d-dd87-8d09-87dd8d0987dd",
       "type": "Type value",
       "name": "Name value",
       "clientId": "Client Id value",

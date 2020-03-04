@@ -70,7 +70,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary not found
 Content-type: application/json
-Content-length: 296
+Content-length: 299
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
@@ -79,7 +79,7 @@ Content-length: 296
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```
@@ -95,17 +95,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 345
+Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
-  "id": "2feefc6e-fc6e-2fee-6efc-ee2f6efcee2f",
+  "id": "5839ee3b-ee3b-5839-3bee-39583bee3958",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```

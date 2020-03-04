@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1535
+Content-Length: 1536
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharedDriveItem",
-    "id": "9bc57d50-7d50-9bc5-507d-c59b507dc59b",
+    "id": "a0a0c90f-c90f-a0a0-0fc9-a0a00fc9a0a0",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -89,13 +89,13 @@ Content-Length: 1535
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

@@ -168,7 +168,7 @@ Content-Length: 1953
 
 {
   "@odata.type": "#microsoft.graph.columnDefinition",
-  "id": "22d49bef-9bef-22d4-ef9b-d422ef9bd422",
+  "id": "f547df7a-df7a-f547-7adf-47f57adf47f5",
   "boolean": {
     "@odata.type": "microsoft.graph.booleanColumn"
   },

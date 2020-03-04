@@ -25,6 +25,16 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookChart](../api/workbookchart-create.md)|[workbookChart](../resources/workbookchart.md)|Create a new [workbookChart](../resources/workbookchart.md) object.|
 |[Delete workbookChart](../api/workbookchart-delete.md)|None|Deletes a [workbookChart](../resources/workbookchart.md).|
 |[Update workbookChart](../api/workbookchart-update.md)|[workbookChart](../resources/workbookchart.md)|Update the properties of a [workbookChart](../resources/workbookchart.md) object.|
+|[image](../api/workbookchart-image.md)|String||
+|[image](../api/workbookchart-image.md)|String||
+|[image](../api/workbookchart-image.md)|String||
+|[image](../api/workbookchart-image.md)|String||
+|[setData](../api/workbookchart-setdata.md)|None||
+|[setPosition](../api/workbookchart-setposition.md)|None||
+|[add](../api/workbookchart-add.md)|[workbookChart](../resources/workbookchart.md)||
+|[item](../api/workbookchart-item.md)|[workbookChart](../resources/workbookchart.md)||
+|[itemAt](../api/workbookchart-itemat.md)|[workbookChart](../resources/workbookchart.md)||
+|[count](../api/workbookchart-count.md)|Int32||
 |[Get workbookChartAxes](../api/workbookchartaxes-get.md)|[workbookChartAxes](../resources/workbookchartaxes.md)|Read properties and relationships of the [workbookChartAxes](../resources/workbookchartaxes.md) object.|
 |[Get workbookChartDataLabels](../api/workbookchartdatalabels-get.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)|Read properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
 |[Get workbookChartAreaFormat](../api/workbookchartareaformat-get.md)|[workbookChartAreaFormat](../resources/workbookchartareaformat.md)|Read properties and relationships of the [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object.|

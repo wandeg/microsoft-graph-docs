@@ -117,7 +117,7 @@ Content-Length: 1005
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationState",
-  "id": "c5541671-1671-c554-7116-54c5711654c5",
+  "id": "e2c9db2e-db2e-e2c9-2edb-c9e22edbc9e2",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

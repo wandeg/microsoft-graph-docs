@@ -93,7 +93,7 @@ Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeBorder",
-  "id": "98eb73a4-73a4-98eb-a473-eb98a473eb98",
+  "id": "1babe856-e856-1bab-56e8-ab1b56e8ab1b",
   "color": "Color value",
   "sideIndex": "Side Index value",
   "style": "Style value",

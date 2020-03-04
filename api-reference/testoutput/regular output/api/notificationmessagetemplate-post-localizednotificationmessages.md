@@ -94,8 +94,8 @@ Content-Length: 313
 
 {
   "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-  "id": "f009df5a-df5a-f009-5adf-09f05adf09f0",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "id": "c589d29b-d29b-c589-9bd2-89c59bd289c5",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "locale": "Locale value",
   "subject": "Subject value",
   "messageTemplate": "Message Template value",

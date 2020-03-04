@@ -69,15 +69,15 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/dataPolicyOperations
 Content-type: application/json
-Content-length: 308
+Content-length: 309
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
+  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2017-01-01T00:01:26.640689+03:00",
+  "submittedDateTime": "2016-12-31T23:57:08.0830502+03:00",
   "progress": "Double"
 }
 ```
@@ -93,16 +93,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 357
+Content-Length: 358
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "id": "e9c5eb0d-eb0d-e9c5-0deb-c5e90debc5e9",
-  "completedDateTime": "2017-01-01T00:03:28.7389204+03:00",
+  "id": "3680e807-e807-3680-07e8-803607e88036",
+  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2017-01-01T00:01:26.640689+03:00",
+  "submittedDateTime": "2016-12-31T23:57:08.0830502+03:00",
   "progress": "Double"
 }
 ```

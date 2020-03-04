@@ -70,7 +70,7 @@ Content-length: 304
   "enrollmentConfigurationAssignments": [
     {
       "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-      "id": "1084fe56-fe56-1084-56fe-841056fe8410",
+      "id": "1f6686a8-86a8-1f66-a886-661fa886661f",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

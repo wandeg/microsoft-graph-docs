@@ -104,7 +104,7 @@ Content-length: 848
   "idleTimeBeforeSleepInSeconds": 12,
   "kioskAppDisplayName": "Kiosk App Display Name value",
   "kioskAppUserModelId": "Kiosk App User Model Id value",
-  "maintenanceStartTime": "11:59:39.9430000"
+  "maintenanceStartTime": "11:59:06.4650000"
 }
 ```
 
@@ -119,13 +119,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1019
+Content-Length: 1020
 
 {
   "@odata.type": "#microsoft.graph.sharedPCConfiguration",
-  "id": "3aef3b76-3b76-3aef-763b-ef3a763bef3a",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "792ebd12-bd12-792e-12bd-2e7912bd2e79",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -146,7 +146,7 @@ Content-Length: 1019
   "idleTimeBeforeSleepInSeconds": 12,
   "kioskAppDisplayName": "Kiosk App Display Name value",
   "kioskAppUserModelId": "Kiosk App User Model Id value",
-  "maintenanceStartTime": "11:59:39.9430000"
+  "maintenanceStartTime": "11:59:06.4650000"
 }
 ```
 

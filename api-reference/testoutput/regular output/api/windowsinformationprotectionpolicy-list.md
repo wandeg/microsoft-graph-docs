@@ -66,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4010
+Content-Length: 4011
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionPolicy",
-      "id": "4df5f912-f912-4df5-12f9-f54d12f9f54d",
+      "id": "c2f6c455-c455-c2f6-55c4-f6c255c4f6c2",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "version": "Version value",
       "enforcementLevel": "String",
       "enterpriseDomain": "Enterprise Domain value",
@@ -92,11 +92,11 @@ Content-Length: 4010
       "dataRecoveryCertificate": {
         "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
         "subjectName": "Subject Name value",
-        "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+        "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
         "certificate": "Y2VydGlmaWNhdGU="
       },
       "revokeOnUnenrollDisabled": true,
-      "rightsManagementServicesTemplateId": "94ff3b3c-3b3c-94ff-3c3b-ff943c3bff94",
+      "rightsManagementServicesTemplateId": "a1163da9-3da9-a116-a93d-16a1a93d16a1",
       "azureRightsManagementServicesAllowed": true,
       "iconsVisible": true,
       "protectedApps": [

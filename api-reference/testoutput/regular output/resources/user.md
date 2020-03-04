@@ -36,6 +36,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |[revokeSignInSessions](../api/user-revokesigninsessions.md)|Boolean||
 |[findMeetingTimes](../api/user-findmeetingtimes.md)|[meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md)||
 |[sendMail](../api/user-sendmail.md)|None||
+|[reminderView](../api/user-reminderview.md)|[reminder](../resources/reminder.md) collection||
 |[getMailTips](../api/user-getmailtips.md)|[mailTips](../resources/mailtips.md) collection||
 |[translateExchangeIds](../api/user-translateexchangeids.md)|[convertIdResult](../resources/convertidresult.md) collection||
 |[removeAllDevicesFromManagement](../api/user-removealldevicesfrommanagement.md)|None||

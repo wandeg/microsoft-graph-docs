@@ -72,7 +72,7 @@ Content-length: 315
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",
@@ -97,8 +97,8 @@ Content-Length: 364
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "id": "5c0eb8c4-b8c4-5c0e-c4b8-0e5cc4b80e5c",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "id": "8ce95927-5927-8ce9-2759-e98c2759e98c",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",

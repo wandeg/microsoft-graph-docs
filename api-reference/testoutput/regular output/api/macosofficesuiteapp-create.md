@@ -109,11 +109,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 751
+Content-Length: 752
 
 {
   "@odata.type": "#microsoft.graph.macOSOfficeSuiteApp",
-  "id": "e3c0a980-a980-e3c0-80a9-c0e380a9c0e3",
+  "id": "eb10160e-160e-eb10-0e16-10eb0e1610eb",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -122,8 +122,8 @@ Content-Length: 751
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",

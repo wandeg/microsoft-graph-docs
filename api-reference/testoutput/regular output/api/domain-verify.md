@@ -72,7 +72,7 @@ Content-Length: 658
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "47a61309-1309-47a6-0913-a6470913a647",
+    "id": "78727397-7397-7872-9773-727897737278",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,

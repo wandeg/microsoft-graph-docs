@@ -85,7 +85,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.educationRoot",
-  "id": "a852b66a-b66a-a852-6ab6-52a86ab652a8"
+  "id": "54dc48ee-48ee-54dc-ee48-dc54ee48dc54"
 }
 ```
 

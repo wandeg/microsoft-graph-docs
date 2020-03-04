@@ -74,7 +74,7 @@ Content-Length: 1090
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-    "id": "17874245-4245-1787-4542-871745428717",
+    "id": "add5d766-d766-add5-66d7-d5ad66d7d5ad",
     "settingStates": [
       {
         "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

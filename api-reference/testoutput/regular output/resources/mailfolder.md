@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create mailFolder](../api/mailfolder-create.md)|[mailFolder](../resources/mailfolder.md)|Create a new [mailFolder](../resources/mailfolder.md) object.|
 |[Delete mailFolder](../api/mailfolder-delete.md)|None|Deletes a [mailFolder](../resources/mailfolder.md).|
 |[Update mailFolder](../api/mailfolder-update.md)|[mailFolder](../resources/mailfolder.md)|Update the properties of a [mailFolder](../resources/mailfolder.md) object.|
+|[delta](../api/mailfolder-delta.md)|[mailFolder](../resources/mailfolder.md) collection||
 |[copy](../api/mailfolder-copy.md)|[mailFolder](../resources/mailfolder.md)||
 |[move](../api/mailfolder-move.md)|[mailFolder](../resources/mailfolder.md)||
 |[List singleValueExtendedProperties](../api/mailfolder-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|

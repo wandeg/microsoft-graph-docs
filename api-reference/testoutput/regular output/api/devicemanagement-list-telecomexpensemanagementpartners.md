@@ -72,12 +72,12 @@ Content-Length: 358
   "value": [
     {
       "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-      "id": "54ce43e5-43e5-54ce-e543-ce54e543ce54",
+      "id": "8e5bc3b8-c3b8-8e5b-b8c3-5b8eb8c35b8e",
       "displayName": "Display Name value",
       "url": "Url value",
       "appAuthorized": true,
       "enabled": true,
-      "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
+      "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
     }
   ]
 }

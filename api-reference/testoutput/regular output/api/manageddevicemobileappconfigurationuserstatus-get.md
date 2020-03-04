@@ -74,11 +74,11 @@ Content-Length: 381
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-    "id": "1965e9cc-e9cc-1965-cce9-6519cce96519",
+    "id": "198a34e4-34e4-198a-e434-8a19e4348a19",
     "userDisplayName": "User Display Name value",
     "devicesCount": 12,
     "status": "String",
-    "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
+    "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

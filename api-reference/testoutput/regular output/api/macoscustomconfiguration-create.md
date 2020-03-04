@@ -95,13 +95,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 452
+Content-Length: 453
 
 {
   "@odata.type": "#microsoft.graph.macOSCustomConfiguration",
-  "id": "e3f7f67c-f67c-e3f7-7cf6-f7e37cf6f7e3",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "ccc6273c-273c-ccc6-3c27-c6cc3c27c6cc",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

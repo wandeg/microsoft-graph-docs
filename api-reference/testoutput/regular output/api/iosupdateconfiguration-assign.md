@@ -70,7 +70,7 @@ Content-length: 277
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "02559ac2-9ac2-0255-c29a-5502c29a5502",
+      "id": "c0651d76-1d76-c065-761d-65c0761d65c0",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -96,7 +96,7 @@ Content-Length: 271
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "02559ac2-9ac2-0255-c29a-5502c29a5502",
+      "id": "c0651d76-1d76-c065-761d-65c0761d65c0",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

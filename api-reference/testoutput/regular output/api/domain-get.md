@@ -74,7 +74,7 @@ Content-Length: 796
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "47a61309-1309-47a6-0913-a6470913a647",
+    "id": "78727397-7397-7872-9773-727897737278",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,
@@ -93,7 +93,7 @@ Content-Length: 796
       "@odata.type": "microsoft.graph.domainState",
       "status": "Status value",
       "operation": "Operation value",
-      "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00"
+      "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00"
     }
   }
 }

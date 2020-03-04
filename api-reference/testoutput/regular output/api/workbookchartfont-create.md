@@ -97,7 +97,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFont",
-  "id": "d1a77639-7639-d1a7-3976-a7d13976a7d1",
+  "id": "7ad3051b-051b-7ad3-1b05-d37a1b05d37a",
   "bold": true,
   "color": "Color value",
   "italic": true,

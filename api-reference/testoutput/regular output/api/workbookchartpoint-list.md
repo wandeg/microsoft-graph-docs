@@ -72,7 +72,7 @@ Content-Length: 225
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartPoint",
-      "id": "d2a16e7e-6e7e-d2a1-7e6e-a1d27e6ea1d2",
+      "id": "e98693a2-93a2-e986-a293-86e9a29386e9",
       "value": {
         "@odata.type": "microsoft.graph.Json"
       }

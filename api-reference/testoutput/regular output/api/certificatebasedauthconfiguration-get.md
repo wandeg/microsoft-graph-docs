@@ -74,7 +74,7 @@ Content-Length: 622
 {
   "value": {
     "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-    "id": "2e51daa8-daa8-2e51-a8da-512ea8da512e",
+    "id": "cf96b406-b406-cf96-06b4-96cf06b496cf",
     "certificateAuthorities": [
       {
         "@odata.type": "microsoft.graph.certificateAuthority",

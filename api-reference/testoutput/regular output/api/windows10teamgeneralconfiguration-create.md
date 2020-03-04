@@ -101,7 +101,7 @@ Content-length: 1135
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "12:02:21.1420000",
+  "maintenanceWindowStartTime": "11:58:22.8720000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,
@@ -129,13 +129,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1306
+Content-Length: 1307
 
 {
   "@odata.type": "#microsoft.graph.windows10TeamGeneralConfiguration",
-  "id": "a325d858-d858-a325-58d8-25a358d825a3",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "7cce4938-4938-7cce-3849-ce7c3849ce7c",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -145,7 +145,7 @@ Content-Length: 1306
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "12:02:21.1420000",
+  "maintenanceWindowStartTime": "11:58:22.8720000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,

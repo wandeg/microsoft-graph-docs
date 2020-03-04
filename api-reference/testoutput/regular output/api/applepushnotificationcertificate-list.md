@@ -72,11 +72,11 @@ Content-Length: 445
   "value": [
     {
       "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-      "id": "53842634-2634-5384-3426-845334268453",
+      "id": "d02be7c1-e7c1-d02b-c1e7-2bd0c1e72bd0",
       "appleIdentifier": "Apple Identifier value",
       "topicIdentifier": "Topic Identifier value",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-      "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
       "certificate": "Certificate value"
     }
   ]

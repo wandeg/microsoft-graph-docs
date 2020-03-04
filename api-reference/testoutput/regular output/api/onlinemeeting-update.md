@@ -77,9 +77,9 @@ Content-length: 1579
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2016-12-31T23:59:03.7411042+03:00",
-  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
-  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
+  "creationDateTime": "2017-01-01T00:01:06.9204965+03:00",
+  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
+  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {
@@ -139,10 +139,10 @@ Content-Length: 1628
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "78200008-0008-7820-0800-207808002078",
-  "creationDateTime": "2016-12-31T23:59:03.7411042+03:00",
-  "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
-  "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
+  "id": "8473229a-229a-8473-9a22-73849a227384",
+  "creationDateTime": "2017-01-01T00:01:06.9204965+03:00",
+  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
+  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {

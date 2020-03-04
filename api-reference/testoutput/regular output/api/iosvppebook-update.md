@@ -86,7 +86,7 @@ Content-length: 792
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2017-01-01T00:02:01.8143377+03:00",
+  "publishedDateTime": "2017-01-01T00:02:50.1502492+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
@@ -94,7 +94,7 @@ Content-length: 792
   },
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
-  "vppTokenId": "344616fe-16fe-3446-fe16-4634fe164634",
+  "vppTokenId": "e8acd40e-d40e-e8ac-0ed4-ace80ed4ace8",
   "appleId": "Apple Id value",
   "vppOrganizationName": "Vpp Organization Name value",
   "genres": [
@@ -117,25 +117,25 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 963
+Content-Length: 964
 
 {
   "@odata.type": "#microsoft.graph.iosVppEBook",
-  "id": "035f72be-72be-035f-be72-5f03be725f03",
+  "id": "5f698a3b-8a3b-5f69-3b8a-695f3b8a695f",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2017-01-01T00:02:01.8143377+03:00",
+  "publishedDateTime": "2017-01-01T00:02:50.1502492+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
-  "vppTokenId": "344616fe-16fe-3446-fe16-4634fe164634",
+  "vppTokenId": "e8acd40e-d40e-e8ac-0ed4-ace80ed4ace8",
   "appleId": "Apple Id value",
   "vppOrganizationName": "Vpp Organization Name value",
   "genres": [

@@ -126,7 +126,7 @@ Content-Length: 1001
 
 {
   "@odata.type": "#microsoft.graph.contentType",
-  "id": "10f918e1-18e1-10f9-e118-f910e118f910",
+  "id": "6cb3179d-179d-6cb3-9d17-b36c9d17b36c",
   "description": "Description value",
   "group": "Group value",
   "hidden": true,

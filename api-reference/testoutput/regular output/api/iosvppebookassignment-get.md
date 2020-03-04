@@ -74,7 +74,7 @@ Content-Length: 271
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosVppEBookAssignment",
-    "id": "528dfde6-fde6-528d-e6fd-8d52e6fd8d52",
+    "id": "e7a6c715-c715-e7a6-15c7-a6e715c7a6e7",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     },

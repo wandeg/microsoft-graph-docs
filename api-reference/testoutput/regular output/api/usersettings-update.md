@@ -88,7 +88,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.userSettings",
-  "id": "0f1850c7-50c7-0f18-c750-180fc750180f",
+  "id": "bfc3a5b9-a5b9-bfc3-b9a5-c3bfb9a5c3bf",
   "contributionToContentDiscoveryDisabled": true,
   "contributionToContentDiscoveryAsOrganizationDisabled": true
 }

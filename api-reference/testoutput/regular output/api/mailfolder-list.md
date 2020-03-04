@@ -74,7 +74,7 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailFolder",
-      "id": "927e3741-3741-927e-4137-7e9241377e92",
+      "id": "ebf868c5-68c5-ebf8-c568-f8ebc568f8eb",
       "displayName": "Display Name value",
       "parentFolderId": "Parent Folder Id value",
       "childFolderCount": 0,

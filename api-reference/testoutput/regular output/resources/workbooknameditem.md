@@ -25,6 +25,9 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookNamedItem](../api/workbooknameditem-create.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Create a new [workbookNamedItem](../resources/workbooknameditem.md) object.|
 |[Delete workbookNamedItem](../api/workbooknameditem-delete.md)|None|Deletes a [workbookNamedItem](../resources/workbooknameditem.md).|
 |[Update workbookNamedItem](../api/workbooknameditem-update.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Update the properties of a [workbookNamedItem](../resources/workbooknameditem.md) object.|
+|[range](../api/workbooknameditem-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[add](../api/workbooknameditem-add.md)|[workbookNamedItem](../resources/workbooknameditem.md)||
+|[addFormulaLocal](../api/workbooknameditem-addformulalocal.md)|[workbookNamedItem](../resources/workbooknameditem.md)||
 |[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
 
 ## Properties

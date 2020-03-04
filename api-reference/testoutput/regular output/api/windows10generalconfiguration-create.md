@@ -354,8 +354,8 @@ Content-length: 9823
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "11:57:56.7120000",
-  "defenderScheduledQuickScanTime": "11:58:37.3560000",
+  "defenderScheduledScanTime": "11:56:46.4860000",
+  "defenderScheduledQuickScanTime": "11:57:27.6120000",
   "defenderCloudBlockLevel": "String",
   "lockScreenAllowTimeoutConfiguration": true,
   "lockScreenBlockActionCenterNotifications": true,
@@ -516,13 +516,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 9994
+Content-Length: 9995
 
 {
   "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-  "id": "10c4a27f-a27f-10c4-7fa2-c4107fa2c410",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "a55a141d-141d-a55a-1d14-5aa51d145aa5",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -604,8 +604,8 @@ Content-Length: 9994
   "defenderScanScriptsLoadedInInternetExplorer": true,
   "defenderSignatureUpdateIntervalInHours": 6,
   "defenderScanType": "String",
-  "defenderScheduledScanTime": "11:57:56.7120000",
-  "defenderScheduledQuickScanTime": "11:58:37.3560000",
+  "defenderScheduledScanTime": "11:56:46.4860000",
+  "defenderScheduledQuickScanTime": "11:57:27.6120000",
   "defenderCloudBlockLevel": "String",
   "lockScreenAllowTimeoutConfiguration": true,
   "lockScreenBlockActionCenterNotifications": true,

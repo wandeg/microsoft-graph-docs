@@ -25,6 +25,9 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookTableSort](../api/workbooktablesort-create.md)|[workbookTableSort](../resources/workbooktablesort.md)|Create a new [workbookTableSort](../resources/workbooktablesort.md) object.|
 |[Delete workbookTableSort](../api/workbooktablesort-delete.md)|None|Deletes a [workbookTableSort](../resources/workbooktablesort.md).|
 |[Update workbookTableSort](../api/workbooktablesort-update.md)|[workbookTableSort](../resources/workbooktablesort.md)|Update the properties of a [workbookTableSort](../resources/workbooktablesort.md) object.|
+|[apply](../api/workbooktablesort-apply.md)|None||
+|[clear](../api/workbooktablesort-clear.md)|None||
+|[reapply](../api/workbooktablesort-reapply.md)|None||
 
 ## Properties
 |Property|Type|Description|

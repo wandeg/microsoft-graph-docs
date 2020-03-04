@@ -188,13 +188,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3273
+Content-Length: 3274
 
 {
   "@odata.type": "#microsoft.graph.windows10EndpointProtectionConfiguration",
-  "id": "f7097dcf-7dcf-f709-cf7d-09f7cf7d09f7",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "5dcd414d-414d-5dcd-4d41-cd5d4d41cd5d",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

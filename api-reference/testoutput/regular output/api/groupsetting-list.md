@@ -74,7 +74,7 @@ Content-Length: 406
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupSetting",
-      "id": "c827e60b-e60b-c827-0be6-27c80be627c8",
+      "id": "acde14b7-14b7-acde-b714-deacb714deac",
       "displayName": "Display Name value",
       "templateId": "Template Id value",
       "values": [

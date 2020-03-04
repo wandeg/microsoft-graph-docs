@@ -74,7 +74,7 @@ Content-Length: 754
 {
   "value": {
     "@odata.type": "#microsoft.graph.listItemVersion",
-    "id": "f9c2983a-983a-f9c2-3a98-c2f93a98c2f9",
+    "id": "34347e2a-7e2a-3434-2a7e-34342a7e3434",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -89,7 +89,7 @@ Content-Length: 754
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "publication": {
       "@odata.type": "microsoft.graph.publicationFacet",
       "level": "Level value",

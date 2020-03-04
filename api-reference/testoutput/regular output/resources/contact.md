@@ -25,6 +25,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |[Create contact](../api/contact-create.md)|[contact](../resources/contact.md)|Create a new [contact](../resources/contact.md) object.|
 |[Delete contact](../api/contact-delete.md)|None|Deletes a [contact](../resources/contact.md).|
 |[Update contact](../api/contact-update.md)|[contact](../resources/contact.md)|Update the properties of a [contact](../resources/contact.md) object.|
+|[delta](../api/contact-delta.md)|[contact](../resources/contact.md) collection||
 |[List singleValueExtendedProperties](../api/contact-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
 |[Add singleValueExtendedProperties](../api/contact-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
 |[List multiValueExtendedProperties](../api/contact-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|

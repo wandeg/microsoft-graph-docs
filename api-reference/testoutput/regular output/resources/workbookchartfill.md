@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookChartFill](../api/workbookchartfill-create.md)|[workbookChartFill](../resources/workbookchartfill.md)|Create a new [workbookChartFill](../resources/workbookchartfill.md) object.|
 |[Delete workbookChartFill](../api/workbookchartfill-delete.md)|None|Deletes a [workbookChartFill](../resources/workbookchartfill.md).|
 |[Update workbookChartFill](../api/workbookchartfill-update.md)|[workbookChartFill](../resources/workbookchartfill.md)|Update the properties of a [workbookChartFill](../resources/workbookchartfill.md) object.|
+|[clear](../api/workbookchartfill-clear.md)|None||
+|[setSolidColor](../api/workbookchartfill-setsolidcolor.md)|None||
 
 ## Properties
 |Property|Type|Description|

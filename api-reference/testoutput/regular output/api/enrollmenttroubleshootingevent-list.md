@@ -72,8 +72,8 @@ Content-Length: 623
   "value": [
     {
       "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-      "id": "b7e9f5c5-f5c5-b7e9-c5f5-e9b7c5f5e9b7",
-      "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
+      "id": "446f3087-3087-446f-8730-6f4487306f44",
+      "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
       "correlationId": "Correlation Id value",
       "managedDeviceIdentifier": "Managed Device Identifier value",
       "operatingSystem": "Operating System value",

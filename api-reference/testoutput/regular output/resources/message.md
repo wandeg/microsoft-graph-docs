@@ -34,6 +34,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |[reply](../api/message-reply.md)|None||
 |[replyAll](../api/message-replyall.md)|None||
 |[forward](../api/message-forward.md)|None||
+|[delta](../api/message-delta.md)|[message](../resources/message.md) collection||
 |[List singleValueExtendedProperties](../api/message-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
 |[Add singleValueExtendedProperties](../api/message-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
 |[List multiValueExtendedProperties](../api/message-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|

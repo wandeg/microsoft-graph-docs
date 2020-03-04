@@ -107,7 +107,7 @@ Content-length: 1214
   "publishingState": "String",
   "usedLicenseCount": 0,
   "totalLicenseCount": 1,
-  "releaseDateTime": "2016-12-31T23:58:00.140524+03:00",
+  "releaseDateTime": "2017-01-01T00:03:08.663701+03:00",
   "appStoreUrl": "https://example.com/appStoreUrl/",
   "licensingType": {
     "@odata.type": "microsoft.graph.vppLicensingType",
@@ -137,11 +137,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1385
+Content-Length: 1386
 
 {
   "@odata.type": "#microsoft.graph.iosVppApp",
-  "id": "70feb4fe-b4fe-70fe-feb4-fe70feb4fe70",
+  "id": "0ea62466-2466-0ea6-6624-a60e6624a60e",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -150,8 +150,8 @@ Content-Length: 1385
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",
@@ -161,7 +161,7 @@ Content-Length: 1385
   "publishingState": "String",
   "usedLicenseCount": 0,
   "totalLicenseCount": 1,
-  "releaseDateTime": "2016-12-31T23:58:00.140524+03:00",
+  "releaseDateTime": "2017-01-01T00:03:08.663701+03:00",
   "appStoreUrl": "https://example.com/appStoreUrl/",
   "licensingType": {
     "@odata.type": "microsoft.graph.vppLicensingType",

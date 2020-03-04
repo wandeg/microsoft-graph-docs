@@ -91,7 +91,7 @@ Content-Length: 241
 
 {
   "@odata.type": "#microsoft.graph.managedEBookAssignment",
-  "id": "5eae703f-703f-5eae-3f70-ae5e3f70ae5e",
+  "id": "e9ff2080-2080-e9ff-8020-ffe98020ffe9",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

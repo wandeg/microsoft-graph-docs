@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 755
+Content-Length: 757
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidManagedAppRegistration",
-    "id": "fd63c914-c914-fd63-14c9-63fd14c963fd",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+    "id": "f674d2c6-d2c6-f674-c6d2-74f6c6d274f6",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
     "applicationVersion": "Application Version value",
     "managementSdkVersion": "Management Sdk Version value",
     "platformVersion": "Platform Version value",

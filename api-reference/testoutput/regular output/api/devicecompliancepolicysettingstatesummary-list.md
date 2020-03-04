@@ -72,7 +72,7 @@ Content-Length: 524
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-      "id": "5d3388c6-88c6-5d33-c688-335dc688335d",
+      "id": "b2fc1f1c-1f1c-b2fc-1c1f-fcb21c1ffcb2",
       "setting": "Setting value",
       "settingName": "Setting Name value",
       "platformType": "String",

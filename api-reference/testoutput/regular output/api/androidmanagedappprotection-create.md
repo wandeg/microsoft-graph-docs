@@ -101,15 +101,15 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceAppManagement/androidManagedAppProtections
 Content-type: application/json
-Content-length: 1646
+Content-length: 1649
 
 {
   "@odata.type": "#microsoft.graph.androidManagedAppProtection",
   "displayName": "Display Name value",
   "description": "Description value",
   "version": "Version value",
-  "periodOfflineBeforeAccessCheck": "PT36.6523871S",
-  "periodOnlineBeforeAccessCheck": "-PT27.118372S",
+  "periodOfflineBeforeAccessCheck": "-PT2M56.2382521S",
+  "periodOnlineBeforeAccessCheck": "PT1M34.7002737S",
   "allowedInboundDataTransferSources": "String",
   "allowedOutboundDataTransferDestinations": "String",
   "organizationalCredentialsRequired": true,
@@ -118,13 +118,13 @@ Content-length: 1646
   "deviceComplianceRequired": true,
   "managedBrowserToOpenLinksRequired": true,
   "saveAsBlocked": true,
-  "periodOfflineBeforeWipeIsEnforced": "-PT1M20.6052259S",
+  "periodOfflineBeforeWipeIsEnforced": "-PT1M15.0155525S",
   "pinRequired": true,
   "maximumPinRetries": 1,
   "simplePinBlocked": true,
   "minimumPinLength": 0,
   "pinCharacterSet": "String",
-  "periodBeforePinReset": "PT2M20.6426175S",
+  "periodBeforePinReset": "PT58.9236063S",
   "allowedDataStorageLocations": [
     "String"
   ],
@@ -157,18 +157,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1817
+Content-Length: 1821
 
 {
   "@odata.type": "#microsoft.graph.androidManagedAppProtection",
-  "id": "b63d0fbe-0fbe-b63d-be0f-3db6be0f3db6",
+  "id": "3bb21815-1815-3bb2-1518-b23b1518b23b",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "version": "Version value",
-  "periodOfflineBeforeAccessCheck": "PT36.6523871S",
-  "periodOnlineBeforeAccessCheck": "-PT27.118372S",
+  "periodOfflineBeforeAccessCheck": "-PT2M56.2382521S",
+  "periodOnlineBeforeAccessCheck": "PT1M34.7002737S",
   "allowedInboundDataTransferSources": "String",
   "allowedOutboundDataTransferDestinations": "String",
   "organizationalCredentialsRequired": true,
@@ -177,13 +177,13 @@ Content-Length: 1817
   "deviceComplianceRequired": true,
   "managedBrowserToOpenLinksRequired": true,
   "saveAsBlocked": true,
-  "periodOfflineBeforeWipeIsEnforced": "-PT1M20.6052259S",
+  "periodOfflineBeforeWipeIsEnforced": "-PT1M15.0155525S",
   "pinRequired": true,
   "maximumPinRetries": 1,
   "simplePinBlocked": true,
   "minimumPinLength": 0,
   "pinCharacterSet": "String",
-  "periodBeforePinReset": "PT2M20.6426175S",
+  "periodBeforePinReset": "PT58.9236063S",
   "allowedDataStorageLocations": [
     "String"
   ],

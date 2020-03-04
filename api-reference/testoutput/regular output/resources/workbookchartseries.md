@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookChartSeries](../api/workbookchartseries-create.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Create a new [workbookChartSeries](../resources/workbookchartseries.md) object.|
 |[Delete workbookChartSeries](../api/workbookchartseries-delete.md)|None|Deletes a [workbookChartSeries](../resources/workbookchartseries.md).|
 |[Update workbookChartSeries](../api/workbookchartseries-update.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Update the properties of a [workbookChartSeries](../resources/workbookchartseries.md) object.|
+|[itemAt](../api/workbookchartseries-itemat.md)|[workbookChartSeries](../resources/workbookchartseries.md)||
+|[count](../api/workbookchartseries-count.md)|Int32||
 |[Get workbookChartSeriesFormat](../api/workbookchartseriesformat-get.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)|Read properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
 |[List points](../api/workbookchartseries-list-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md) collection|Get the workbookChartPoints from the points navigation property.|
 |[Add points](../api/workbookchartseries-post-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Add points by posting to the points collection.|

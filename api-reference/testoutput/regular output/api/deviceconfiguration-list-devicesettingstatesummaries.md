@@ -72,7 +72,7 @@ Content-Length: 486
   "value": [
     {
       "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-      "id": "fcefb81c-b81c-fcef-1cb8-effc1cb8effc",
+      "id": "5997ee9e-ee9e-5997-9eee-97599eee9759",
       "settingName": "Setting Name value",
       "instancePath": "Instance Path value",
       "unknownDeviceCount": 2,

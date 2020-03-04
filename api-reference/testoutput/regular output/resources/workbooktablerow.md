@@ -25,6 +25,10 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookTableRow](../api/workbooktablerow-create.md)|[workbookTableRow](../resources/workbooktablerow.md)|Create a new [workbookTableRow](../resources/workbooktablerow.md) object.|
 |[Delete workbookTableRow](../api/workbooktablerow-delete.md)|None|Deletes a [workbookTableRow](../resources/workbooktablerow.md).|
 |[Update workbookTableRow](../api/workbooktablerow-update.md)|[workbookTableRow](../resources/workbooktablerow.md)|Update the properties of a [workbookTableRow](../resources/workbooktablerow.md) object.|
+|[range](../api/workbooktablerow-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[add](../api/workbooktablerow-add.md)|[workbookTableRow](../resources/workbooktablerow.md)||
+|[itemAt](../api/workbooktablerow-itemat.md)|[workbookTableRow](../resources/workbooktablerow.md)||
+|[count](../api/workbooktablerow-count.md)|Int32||
 
 ## Properties
 |Property|Type|Description|

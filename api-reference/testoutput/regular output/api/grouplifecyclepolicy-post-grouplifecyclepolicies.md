@@ -93,7 +93,7 @@ Content-Length: 266
 
 {
   "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-  "id": "e10781d2-81d2-e107-d281-07e1d28107e1",
+  "id": "99764574-4574-9976-7445-769974457699",
   "groupLifetimeInDays": 3,
   "managedGroupTypes": "Managed Group Types value",
   "alternateNotificationEmails": "Alternate Notification Emails value"

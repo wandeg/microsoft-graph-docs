@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookRangeFill](../api/workbookrangefill-create.md)|[workbookRangeFill](../resources/workbookrangefill.md)|Create a new [workbookRangeFill](../resources/workbookrangefill.md) object.|
 |[Delete workbookRangeFill](../api/workbookrangefill-delete.md)|None|Deletes a [workbookRangeFill](../resources/workbookrangefill.md).|
 |[Update workbookRangeFill](../api/workbookrangefill-update.md)|[workbookRangeFill](../resources/workbookrangefill.md)|Update the properties of a [workbookRangeFill](../resources/workbookrangefill.md) object.|
+|[clear](../api/workbookrangefill-clear.md)|None||
 
 ## Properties
 |Property|Type|Description|

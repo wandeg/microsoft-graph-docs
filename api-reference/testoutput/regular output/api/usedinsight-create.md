@@ -72,8 +72,8 @@ Content-length: 883
   "@odata.type": "#microsoft.graph.usedInsight",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -109,11 +109,11 @@ Content-Length: 932
 
 {
   "@odata.type": "#microsoft.graph.usedInsight",
-  "id": "02ecab27-ab27-02ec-27ab-ec0227abec02",
+  "id": "0675bf76-bf76-0675-76bf-750676bf7506",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",

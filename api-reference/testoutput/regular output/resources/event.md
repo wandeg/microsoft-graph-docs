@@ -25,6 +25,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |[Create event](../api/event-create.md)|[event](../resources/event.md)|Create a new [event](../resources/event.md) object.|
 |[Delete event](../api/event-delete.md)|None|Deletes a [event](../resources/event.md).|
 |[Update event](../api/event-update.md)|[event](../resources/event.md)|Update the properties of a [event](../resources/event.md) object.|
+|[delta](../api/event-delta.md)|[event](../resources/event.md) collection||
 |[dismissReminder](../api/event-dismissreminder.md)|None||
 |[snoozeReminder](../api/event-snoozereminder.md)|None||
 |[accept](../api/event-accept.md)|None||

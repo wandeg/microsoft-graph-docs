@@ -72,7 +72,7 @@ Content-Length: 1494
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharedInsight",
-      "id": "b76a86d3-86d3-b76a-d386-6ab7d3866ab7",
+      "id": "821f09da-09da-821f-da09-1f82da091f82",
       "lastShared": {
         "@odata.type": "microsoft.graph.sharingDetail",
         "sharedBy": {
@@ -81,7 +81,7 @@ Content-Length: 1494
           "id": "Id value",
           "address": "Address value"
         },
-        "sharedDateTime": "2017-01-01T00:03:12.9522911+03:00",
+        "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00",
         "sharingSubject": "Sharing Subject value",
         "sharingType": "Sharing Type value",
         "sharingReference": {

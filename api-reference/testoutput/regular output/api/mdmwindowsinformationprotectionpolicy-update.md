@@ -110,11 +110,11 @@ Content-length: 2915
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+    "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "94ff3b3c-3b3c-94ff-3c3b-ff943c3bff94",
+  "rightsManagementServicesTemplateId": "a1163da9-3da9-a116-a93d-16a1a93d16a1",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [
@@ -196,15 +196,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3086
+Content-Length: 3087
 
 {
   "@odata.type": "#microsoft.graph.mdmWindowsInformationProtectionPolicy",
-  "id": "c50cac04-ac04-c50c-04ac-0cc504ac0cc5",
+  "id": "6ec41b13-1b13-6ec4-131b-c46e131bc46e",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "version": "Version value",
   "enforcementLevel": "String",
   "enterpriseDomain": "Enterprise Domain value",
@@ -220,11 +220,11 @@ Content-Length: 3086
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+    "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "94ff3b3c-3b3c-94ff-3c3b-ff943c3bff94",
+  "rightsManagementServicesTemplateId": "a1163da9-3da9-a116-a93d-16a1a93d16a1",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [

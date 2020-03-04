@@ -66,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1703
+Content-Length: 1707
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.targetedManagedAppProtection",
-      "id": "9f755c27-5c27-9f75-275c-759f275c759f",
+      "id": "4cc5b477-b477-4cc5-77b4-c54c77b4c54c",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "version": "Version value",
-      "periodOfflineBeforeAccessCheck": "PT36.6523871S",
-      "periodOnlineBeforeAccessCheck": "-PT27.118372S",
+      "periodOfflineBeforeAccessCheck": "-PT2M56.2382521S",
+      "periodOnlineBeforeAccessCheck": "PT1M34.7002737S",
       "allowedInboundDataTransferSources": "String",
       "allowedOutboundDataTransferDestinations": "String",
       "organizationalCredentialsRequired": true,
@@ -88,13 +88,13 @@ Content-Length: 1703
       "deviceComplianceRequired": true,
       "managedBrowserToOpenLinksRequired": true,
       "saveAsBlocked": true,
-      "periodOfflineBeforeWipeIsEnforced": "-PT1M20.6052259S",
+      "periodOfflineBeforeWipeIsEnforced": "-PT1M15.0155525S",
       "pinRequired": true,
       "maximumPinRetries": 1,
       "simplePinBlocked": true,
       "minimumPinLength": 0,
       "pinCharacterSet": "String",
-      "periodBeforePinReset": "PT2M20.6426175S",
+      "periodBeforePinReset": "PT58.9236063S",
       "allowedDataStorageLocations": [
         "String"
       ],

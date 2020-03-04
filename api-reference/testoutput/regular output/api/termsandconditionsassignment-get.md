@@ -74,7 +74,7 @@ Content-Length: 246
 {
   "value": {
     "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-    "id": "eea46376-6376-eea4-7663-a4ee7663a4ee",
+    "id": "2010d871-d871-2010-71d8-102071d81020",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

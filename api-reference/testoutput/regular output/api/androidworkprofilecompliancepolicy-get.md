@@ -69,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1411
+Content-Length: 1412
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidWorkProfileCompliancePolicy",
-    "id": "e73d6a3b-6a3b-e73d-3b6a-3de73b6a3de7",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "id": "c337486c-486c-c337-6c48-37c36c4837c3",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "displayName": "Display Name value",
     "version": 7,
     "passwordRequired": true,

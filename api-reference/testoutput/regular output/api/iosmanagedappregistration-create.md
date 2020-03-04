@@ -75,11 +75,11 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.iosManagedAppRegistration not found
 Content-type: application/json
-Content-length: 589
+Content-length: 590
 
 {
   "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -108,13 +108,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 696
+Content-Length: 698
 
 {
   "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-  "id": "ab1d856e-856e-ab1d-6e85-1dab6e851dab",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+  "id": "316d003a-003a-316d-3a00-6d313a006d31",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

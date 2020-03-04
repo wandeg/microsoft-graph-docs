@@ -66,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 656
+Content-Length: 657
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.targetedManagedAppConfiguration",
-      "id": "e5f604e4-04e4-e5f6-e404-f6e5e404f6e5",
+      "id": "1bf3681e-681e-1bf3-1e68-f31b1e68f31b",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "version": "Version value",
       "customSettings": [
         {

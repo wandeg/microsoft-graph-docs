@@ -76,9 +76,9 @@ Content-length: 439
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
   "status": "String",
-  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -97,13 +97,13 @@ Content-Length: 488
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-  "id": "da01ce95-ce95-da01-95ce-01da95ce01da",
+  "id": "00406728-6728-0040-2867-400028674000",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
   "status": "String",
-  "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

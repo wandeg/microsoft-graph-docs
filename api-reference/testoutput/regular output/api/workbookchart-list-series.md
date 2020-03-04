@@ -72,7 +72,7 @@ Content-Length: 180
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartSeries",
-      "id": "5bc07110-7110-5bc0-1071-c05b1071c05b",
+      "id": "6ee6728f-728f-6ee6-8f72-e66e8f72e66e",
       "name": "Name value"
     }
   ]

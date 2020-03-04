@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookRangeView](../api/workbookrangeview-create.md)|[workbookRangeView](../resources/workbookrangeview.md)|Create a new [workbookRangeView](../resources/workbookrangeview.md) object.|
 |[Delete workbookRangeView](../api/workbookrangeview-delete.md)|None|Deletes a [workbookRangeView](../resources/workbookrangeview.md).|
 |[Update workbookRangeView](../api/workbookrangeview-update.md)|[workbookRangeView](../resources/workbookrangeview.md)|Update the properties of a [workbookRangeView](../resources/workbookrangeview.md) object.|
+|[range](../api/workbookrangeview-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[itemAt](../api/workbookrangeview-itemat.md)|[workbookRangeView](../resources/workbookrangeview.md)||
 |[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookrangeview.md) collection|Get the workbookRangeViews from the rows navigation property.|
 |[Add rows](../api/workbookrangeview-post-rows.md)|[workbookRangeView](../resources/workbookrangeview.md)|Add rows by posting to the rows collection.|
 |[List rows](../api/workbookrangeview-list-rows.md)|[workbookRangeView](../resources/workbookrangeview.md) collection|Get the workbookRangeViews from the rows navigation property.|

@@ -71,7 +71,7 @@ Content-length: 400
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [
@@ -100,8 +100,8 @@ Content-Length: 449
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "id": "80a84b77-4b77-80a8-774b-a880774ba880",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "id": "e2439822-9822-e243-2298-43e2229843e2",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [

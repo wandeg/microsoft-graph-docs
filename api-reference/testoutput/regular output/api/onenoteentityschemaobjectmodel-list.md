@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 253
+Content-Length: 254
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteEntitySchemaObjectModel",
-      "id": "765559c3-59c3-7655-c359-5576c3595576",
+      "id": "d9b445f5-45f5-d9b4-f545-b4d9f545b4d9",
       "self": "Self value",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00"
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00"
     }
   ]
 }

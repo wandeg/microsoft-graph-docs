@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookWorksheetProtection](../api/workbookworksheetprotection-create.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Create a new [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
 |[Delete workbookWorksheetProtection](../api/workbookworksheetprotection-delete.md)|None|Deletes a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md).|
 |[Update workbookWorksheetProtection](../api/workbookworksheetprotection-update.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Update the properties of a [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
+|[protect](../api/workbookworksheetprotection-protect.md)|None||
+|[unprotect](../api/workbookworksheetprotection-unprotect.md)|None||
 
 ## Properties
 |Property|Type|Description|

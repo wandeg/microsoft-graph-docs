@@ -74,11 +74,11 @@ Content-Length: 362
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceUserStatus",
-    "id": "02ae9416-9416-02ae-1694-ae021694ae02",
+    "id": "ad92020b-020b-ad92-0b02-92ad0b0292ad",
     "userDisplayName": "User Display Name value",
     "devicesCount": 12,
     "status": "String",
-    "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
+    "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

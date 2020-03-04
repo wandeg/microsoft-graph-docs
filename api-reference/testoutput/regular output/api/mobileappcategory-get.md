@@ -74,9 +74,9 @@ Content-Length: 239
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppCategory",
-    "id": "210bf76b-f76b-210b-6bf7-0b216bf70b21",
+    "id": "462d0881-0881-462d-8108-2d4681082d46",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
   }
 }
 ```

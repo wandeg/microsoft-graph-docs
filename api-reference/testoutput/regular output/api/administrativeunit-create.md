@@ -68,7 +68,7 @@ Content-length: 119
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
 }
 ```
 
@@ -87,8 +87,8 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "id": "e3886bf7-6bf7-e388-f76b-88e3f76b88e3",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
+  "id": "55c4936f-936f-55c4-6f93-c4556f93c455",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
 }
 ```
 

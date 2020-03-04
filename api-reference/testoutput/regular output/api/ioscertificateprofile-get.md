@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 363
+Content-Length: 364
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosCertificateProfile",
-    "id": "fc97101d-101d-fc97-1d10-97fc1d1097fc",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "id": "58ed331e-331e-58ed-1e33-ed581e33ed58",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7

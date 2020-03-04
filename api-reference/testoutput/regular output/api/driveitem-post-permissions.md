@@ -142,7 +142,7 @@ Content-Length: 1545
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "a7b7bff3-bff3-a7b7-f3bf-b7a7f3bfb7a7",
+  "id": "afa9fad8-fad8-afa9-d8fa-a9afd8faa9af",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

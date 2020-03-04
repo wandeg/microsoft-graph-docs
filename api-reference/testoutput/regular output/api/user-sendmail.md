@@ -66,20 +66,20 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/me/sendMail
 
 Content-type: application/json
-Content-length: 2308
+Content-length: 2309
 
 {
   "Message": {
     "@odata.type": "#microsoft.graph.message",
-    "id": "454d8301-8301-454d-0183-4d4501834d45",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "id": "1e74e9cf-e9cf-1e74-cfe9-741ecfe9741e",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
-    "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
-    "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
+    "receivedDateTime": "2017-01-01T00:02:17.8932513+03:00",
+    "sentDateTime": "2017-01-01T00:01:02.4648747+03:00",
     "hasAttachments": true,
     "internetMessageId": "Internet Message Id value",
     "internetMessageHeaders": [

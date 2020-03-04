@@ -91,13 +91,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 438
+Content-Length: 439
 
 {
   "@odata.type": "#microsoft.graph.windowsDefenderAdvancedThreatProtectionConfiguration",
-  "id": "236027b5-27b5-2360-b527-6023b5276023",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "ffc05c51-5c51-ffc0-515c-c0ff515cc0ff",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

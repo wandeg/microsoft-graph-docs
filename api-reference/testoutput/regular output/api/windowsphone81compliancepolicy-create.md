@@ -111,14 +111,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 772
+Content-Length: 773
 
 {
   "@odata.type": "#microsoft.graph.windowsPhone81CompliancePolicy",
-  "id": "749eb5da-b5da-749e-dab5-9e74dab59e74",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "6ae15b9d-5b9d-6ae1-9d5b-e16a9d5be16a",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passwordBlockSimple": true,

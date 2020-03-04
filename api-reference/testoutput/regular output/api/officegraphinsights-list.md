@@ -72,7 +72,7 @@ Content-Length: 151
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeGraphInsights",
-      "id": "0f56d00c-d00c-0f56-0cd0-560f0cd0560f"
+      "id": "2c683a49-3a49-2c68-493a-682c493a682c"
     }
   ]
 }

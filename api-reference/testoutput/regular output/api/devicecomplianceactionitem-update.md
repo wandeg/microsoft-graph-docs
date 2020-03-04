@@ -93,7 +93,7 @@ Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-  "id": "07d364ab-64ab-07d3-ab64-d307ab64d307",
+  "id": "d9f03933-3933-d9f0-3339-f0d93339f0d9",
   "gracePeriodHours": 0,
   "actionType": "String",
   "notificationTemplateId": "Notification Template Id value",

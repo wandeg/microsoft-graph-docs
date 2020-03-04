@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookRangeFormat](../api/workbookrangeformat-create.md)|[workbookRangeFormat](../resources/workbookrangeformat.md)|Create a new [workbookRangeFormat](../resources/workbookrangeformat.md) object.|
 |[Delete workbookRangeFormat](../api/workbookrangeformat-delete.md)|None|Deletes a [workbookRangeFormat](../resources/workbookrangeformat.md).|
 |[Update workbookRangeFormat](../api/workbookrangeformat-update.md)|[workbookRangeFormat](../resources/workbookrangeformat.md)|Update the properties of a [workbookRangeFormat](../resources/workbookrangeformat.md) object.|
+|[autofitColumns](../api/workbookrangeformat-autofitcolumns.md)|None||
+|[autofitRows](../api/workbookrangeformat-autofitrows.md)|None||
 |[List borders](../api/workbookrangeformat-list-borders.md)|[workbookRangeBorder](../resources/workbookrangeborder.md) collection|Get the workbookRangeBorders from the borders navigation property.|
 |[Add borders](../api/workbookrangeformat-post-borders.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Add borders by posting to the borders collection.|
 |[Get workbookRangeFill](../api/workbookrangefill-get.md)|[workbookRangeFill](../resources/workbookrangefill.md)|Read properties and relationships of the [workbookRangeFill](../resources/workbookrangefill.md) object.|

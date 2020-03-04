@@ -89,7 +89,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-  "id": "d782e990-e990-d782-90e9-82d790e982d7",
+  "id": "a68617c8-17c8-a686-c817-86a6c81786a6",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

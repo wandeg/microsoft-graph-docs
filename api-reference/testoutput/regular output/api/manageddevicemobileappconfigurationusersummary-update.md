@@ -69,7 +69,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatusSummary
 Content-type: application/json
-Content-length: 294
+Content-length: 297
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
@@ -78,7 +78,7 @@ Content-length: 294
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```
@@ -93,17 +93,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 343
+Content-Length: 346
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
-  "id": "2a9e9218-9218-2a9e-1892-9e2a18929e2a",
+  "id": "624a3985-3985-624a-8539-4a6285394a62",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```

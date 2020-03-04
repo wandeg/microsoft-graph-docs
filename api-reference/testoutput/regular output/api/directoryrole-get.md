@@ -74,8 +74,8 @@ Content-Length: 320
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryRole",
-    "id": "d73ed86c-d86c-d73e-6cd8-3ed76cd83ed7",
-    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+    "id": "a5e26e2c-6e2c-a5e2-2c6e-e2a52c6ee2a5",
+    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "roleTemplateId": "Role Template Id value"

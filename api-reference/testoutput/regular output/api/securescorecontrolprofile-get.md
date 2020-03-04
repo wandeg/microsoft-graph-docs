@@ -74,7 +74,7 @@ Content-Length: 1797
 {
   "value": {
     "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-    "id": "cb8c9235-9235-cb8c-3592-8ccb35928ccb",
+    "id": "4a05e02b-e02b-4a05-2be0-054a2be0054a",
     "actionType": "Action Type value",
     "actionUrl": "https://example.com/actionUrl/",
     "azureTenantId": "Azure Tenant Id value",
@@ -99,12 +99,12 @@ Content-Length: 1797
         "comment": "Comment value",
         "state": "State value",
         "updatedBy": "Updated By value",
-        "updatedDateTime": "2016-12-31T23:59:12.8270379+03:00"
+        "updatedDateTime": "2016-12-31T23:56:35.6643671+03:00"
       }
     ],
     "deprecated": true,
     "implementationCost": "Implementation Cost value",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "maxScore": "Double",
     "rank": 4,
     "remediation": "Remediation value",

@@ -73,7 +73,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemAnalytics",
-    "id": "bdf155b4-55b4-bdf1-b455-f1bdb455f1bd"
+    "id": "f0ee8cc6-8cc6-f0ee-c68c-eef0c68ceef0"
   }
 }
 ```

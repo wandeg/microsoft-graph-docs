@@ -74,7 +74,7 @@ Content-Length: 268
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLearningSummary",
-    "id": "b532e39b-e39b-b532-9be3-32b59be332b5",
+    "id": "0c359011-9011-0c35-1190-350c1190350c",
     "applicationName": "Application Name value",
     "applicationType": "String",
     "deviceCount": 11

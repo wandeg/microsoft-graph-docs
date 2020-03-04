@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create contactFolder](../api/contactfolder-create.md)|[contactFolder](../resources/contactfolder.md)|Create a new [contactFolder](../resources/contactfolder.md) object.|
 |[Delete contactFolder](../api/contactfolder-delete.md)|None|Deletes a [contactFolder](../resources/contactfolder.md).|
 |[Update contactFolder](../api/contactfolder-update.md)|[contactFolder](../resources/contactfolder.md)|Update the properties of a [contactFolder](../resources/contactfolder.md) object.|
+|[delta](../api/contactfolder-delta.md)|[contactFolder](../resources/contactfolder.md) collection||
 |[List singleValueExtendedProperties](../api/contactfolder-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
 |[Add singleValueExtendedProperties](../api/contactfolder-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
 |[List multiValueExtendedProperties](../api/contactfolder-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|

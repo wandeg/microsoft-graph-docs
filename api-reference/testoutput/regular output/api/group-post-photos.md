@@ -90,7 +90,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.profilePhoto",
-  "id": "ee96df92-df92-ee96-92df-96ee92df96ee",
+  "id": "b39aff58-ff58-b39a-58ff-9ab358ff9ab3",
   "height": 6,
   "width": 5
 }

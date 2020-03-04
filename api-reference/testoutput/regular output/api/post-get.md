@@ -70,14 +70,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1086
+Content-Length: 1087
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.post",
-    "id": "9e5cddfc-ddfc-9e5c-fcdd-5c9efcdd5c9e",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "id": "d140b451-b451-d140-51b4-40d151b440d1",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
@@ -87,7 +87,7 @@ Content-Length: 1086
       "contentType": "String",
       "content": "Content value"
     },
-    "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
+    "receivedDateTime": "2017-01-01T00:02:17.8932513+03:00",
     "hasAttachments": true,
     "from": {
       "@odata.type": "microsoft.graph.recipient",

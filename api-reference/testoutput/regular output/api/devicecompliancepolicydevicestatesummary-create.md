@@ -103,7 +103,7 @@ Content-Length: 398
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyDeviceStateSummary",
-  "id": "2ed6c272-c272-2ed6-72c2-d62e72c2d62e",
+  "id": "936eac52-ac52-936e-52ac-6e9352ac6e93",
   "inGracePeriodCount": 2,
   "configManagerCount": 2,
   "unknownDeviceCount": 2,

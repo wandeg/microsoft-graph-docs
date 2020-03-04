@@ -104,17 +104,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 700
+Content-Length: 701
 
 {
   "@odata.type": "#microsoft.graph.iosMobileAppConfiguration",
-  "id": "2a2db9af-b9af-2a2d-afb9-2d2aafb92d2a",
+  "id": "0fb21a15-1a15-0fb2-151a-b20f151ab20f",
   "targetedMobileApps": [
     "Targeted Mobile Apps value"
   ],
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "encodedSettingXml": "ZW5jb2RlZFNldHRpbmdYbWw=",

@@ -74,14 +74,14 @@ Content-length: 488
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:03:09.2463513+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:57.0898884+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:30.9477336+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:02:03.7124103+03:00"
 }
 ```
 
@@ -99,15 +99,15 @@ Content-Length: 537
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "id": "da463021-3021-da46-2130-46da213046da",
-  "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
+  "id": "5a56cdd6-cdd6-5a56-d6cd-565ad6cd565a",
+  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:03:09.2463513+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:57.0898884+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:30.9477336+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:02:03.7124103+03:00"
 }
 ```
 

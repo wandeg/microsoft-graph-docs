@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1101
+Content-Length: 1105
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
-      "id": "901a1464-1464-901a-6414-1a9064141a90",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "id": "8dfe3689-3689-8dfe-8936-fe8d8936fe8d",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
@@ -90,8 +90,8 @@ Content-Length: 1101
       "featureUpdatesDeferralPeriodInDays": 2,
       "qualityUpdatesPaused": true,
       "featureUpdatesPaused": true,
-      "qualityUpdatesPauseExpiryDateTime": "2017-01-01T00:01:52.66969+03:00",
-      "featureUpdatesPauseExpiryDateTime": "2016-12-31T23:56:30.348384+03:00",
+      "qualityUpdatesPauseExpiryDateTime": "2016-12-31T23:59:51.2223319+03:00",
+      "featureUpdatesPauseExpiryDateTime": "2017-01-01T00:02:08.7232678+03:00",
       "businessReadyUpdatesOnly": "String"
     }
   ]

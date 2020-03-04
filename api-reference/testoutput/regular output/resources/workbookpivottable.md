@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookPivotTable](../api/workbookpivottable-create.md)|[workbookPivotTable](../resources/workbookpivottable.md)|Create a new [workbookPivotTable](../resources/workbookpivottable.md) object.|
 |[Delete workbookPivotTable](../api/workbookpivottable-delete.md)|None|Deletes a [workbookPivotTable](../resources/workbookpivottable.md).|
 |[Update workbookPivotTable](../api/workbookpivottable-update.md)|[workbookPivotTable](../resources/workbookpivottable.md)|Update the properties of a [workbookPivotTable](../resources/workbookpivottable.md) object.|
+|[refresh](../api/workbookpivottable-refresh.md)|None||
+|[refreshAll](../api/workbookpivottable-refreshall.md)|None||
 |[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
 
 ## Properties

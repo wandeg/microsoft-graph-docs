@@ -84,7 +84,7 @@ Content-Length: 111
 
 {
   "@odata.type": "#microsoft.graph.teamsAppInstallation",
-  "id": "7964a6b2-a6b2-7964-b2a6-6479b2a66479"
+  "id": "e6ad0a4a-0a4a-e6ad-4a0a-ade64a0aade6"
 }
 ```
 

@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 344
+Content-Length: 345
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.outlookItem",
-    "id": "1fabccb6-ccb6-1fab-b6cc-ab1fb6ccab1f",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "id": "feb3583c-583c-feb3-3c58-b3fe3c58b3fe",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"

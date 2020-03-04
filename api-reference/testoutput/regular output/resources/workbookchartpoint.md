@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookChartPoint](../api/workbookchartpoint-create.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Create a new [workbookChartPoint](../resources/workbookchartpoint.md) object.|
 |[Delete workbookChartPoint](../api/workbookchartpoint-delete.md)|None|Deletes a [workbookChartPoint](../resources/workbookchartpoint.md).|
 |[Update workbookChartPoint](../api/workbookchartpoint-update.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Update the properties of a [workbookChartPoint](../resources/workbookchartpoint.md) object.|
+|[itemAt](../api/workbookchartpoint-itemat.md)|[workbookChartPoint](../resources/workbookchartpoint.md)||
+|[count](../api/workbookchartpoint-count.md)|Int32||
 |[Get workbookChartPointFormat](../api/workbookchartpointformat-get.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Read properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
 
 ## Properties

@@ -93,7 +93,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-  "id": "98028c08-8c08-9802-088c-0298088c0298",
+  "id": "b67508b0-08b0-b675-b008-75b6b00875b6",
   "classifyAs": "String",
   "senderEmailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",

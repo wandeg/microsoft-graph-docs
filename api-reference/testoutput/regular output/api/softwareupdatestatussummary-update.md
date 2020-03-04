@@ -91,7 +91,7 @@ Content-Length: 567
 
 {
   "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-  "id": "8f2b8162-8162-8f2b-6281-2b8f62812b8f",
+  "id": "916502ba-02ba-9165-ba02-6591ba026591",
   "displayName": "Display Name value",
   "compliantDeviceCount": 4,
   "nonCompliantDeviceCount": 7,

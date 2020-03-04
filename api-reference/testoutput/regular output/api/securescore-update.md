@@ -120,11 +120,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1067
+Content-Length: 1068
 
 {
   "@odata.type": "#microsoft.graph.secureScore",
-  "id": "2b854afd-4afd-2b85-fd4a-852bfd4a852b",
+  "id": "bf564d39-4d39-bf56-394d-56bf394d56bf",
   "activeUserCount": 15,
   "averageComparativeScores": [
     {
@@ -143,7 +143,7 @@ Content-Length: 1067
       "score": "Double"
     }
   ],
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "currentScore": "Double",
   "enabledServices": [
     "Enabled Services value"

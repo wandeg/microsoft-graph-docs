@@ -74,7 +74,7 @@ Content-Length: 605
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-    "id": "f1d2025e-025e-f1d2-5e02-d2f15e02d2f1",
+    "id": "75c46256-6256-75c4-5662-c4755662c475",
     "setting": "Setting value",
     "settingName": "Setting Name value",
     "deviceId": "Device Id value",
@@ -85,7 +85,7 @@ Content-Length: 605
     "userPrincipalName": "User Principal Name value",
     "deviceModel": "Device Model value",
     "state": "String",
-    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00"
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00"
   }
 }
 ```

@@ -74,7 +74,7 @@ Content-Length: 188
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-    "id": "39ca943b-943b-39ca-3b94-ca393b94ca39",
+    "id": "6d13cff9-cff9-6d13-f9cf-136df9cf136d",
     "ruleName": "Rule Name value"
   }
 }

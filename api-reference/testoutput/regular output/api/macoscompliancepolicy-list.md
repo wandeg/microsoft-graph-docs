@@ -66,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1142
+Content-Length: 1143
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.macOSCompliancePolicy",
-      "id": "ed4cb8c3-b8c3-ed4c-c3b8-4cedc3b84ced",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "id": "76c21dfe-1dfe-76c2-fe1d-c276fe1dc276",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

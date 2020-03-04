@@ -78,7 +78,7 @@ Content-Length: 196
   "value": [
     {
       "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-      "id": "90f9f530-f530-90f9-30f5-f99030f5f990",
+      "id": "ca936f41-6f41-ca93-416f-93ca416f93ca",
       "value": "Value value"
     }
   ]

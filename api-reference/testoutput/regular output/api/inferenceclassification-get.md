@@ -75,7 +75,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.inferenceClassification",
-    "id": "e64a358a-358a-e64a-8a35-4ae68a354ae6"
+    "id": "601d8d3d-8d3d-601d-3d8d-1d603d8d1d60"
   }
 }
 ```

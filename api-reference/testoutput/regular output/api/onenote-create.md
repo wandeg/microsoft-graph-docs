@@ -85,7 +85,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.onenote",
-  "id": "fce0c053-c053-fce0-53c0-e0fc53c0e0fc"
+  "id": "6ecebc59-bc59-6ece-59bc-ce6e59bcce6e"
 }
 ```
 

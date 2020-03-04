@@ -69,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 362
+Content-Length: 365
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceUserOverview",
-    "id": "0c02a9c7-a9c7-0c02-c7a9-020cc7a9020c",
+    "id": "59d516a9-16a9-59d5-a916-d559a916d559",
     "pendingCount": 12,
     "notApplicableCount": 2,
     "successCount": 12,
     "errorCount": 10,
     "failedCount": 11,
-    "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+    "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
     "configurationVersion": 4
   }
 }

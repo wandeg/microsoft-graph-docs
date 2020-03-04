@@ -72,7 +72,7 @@ Content-Length: 227
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppStatus",
-      "id": "d3b76c52-6c52-d3b7-526c-b7d3526cb7d3",
+      "id": "1cc08c15-8c15-1cc0-158c-c01c158cc01c",
       "displayName": "Display Name value",
       "version": "Version value"
     }

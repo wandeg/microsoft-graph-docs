@@ -74,7 +74,7 @@ Content-Length: 666
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFilter",
-    "id": "c3deb3ee-b3ee-c3de-eeb3-dec3eeb3dec3",
+    "id": "2ecd12d0-12d0-2ecd-d012-cd2ed012cd2e",
     "criteria": {
       "@odata.type": "microsoft.graph.workbookFilterCriteria",
       "color": "Color value",

@@ -1,17 +1,17 @@
 ---
-title: "Delete workbookRange"
-description: "Deletes a workbookRange."
+title: "delete"
+description: ""
 author: ""
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Delete workbookRange
+# delete
 
 Namespace: microsoft.graph
 
-Deletes a [workbookRange](../resources/workbookrange.md).
+
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -28,19 +28,28 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-DELETE ** Entity URI for microsoft.graph.workbookRange not found
+POST ** Entity URI for microsoft.graph.workbookRange not found/delete
 ```
 
 ## Request headers
 |Header|Value|
 |:---|:---|
 |Authorization|Bearer {token}|
+|Content-Type|application/json|
 
 ## Request body
-Do not supply a request body for this method.
+In the request body, supply JSON representation of the parameters.
+
+The following table shows the parameters that can be used with this action.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|shift|String||
+
+
 
 ## Response
-If successful, this method returns a `204 No Content` response code.
+If successful, this action returns a `204 No Content` response code.
 
 ## Example
 
@@ -48,11 +57,18 @@ If successful, this method returns a `204 No Content` response code.
 Here is an example of the request.
 <!-- {
   "blockType": "request",
-  "name": "delete_workbookrange"
+  "name": "workbookrange_delete"
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRange not found
+POST https://graph.microsoft.com/localtest** Entity URI for microsoft.graph.workbookRange not found/delete
+
+Content-type: application/json
+Content-length: 30
+
+{
+  "shift": "Shift value"
+}
 ```
 
 ### Response

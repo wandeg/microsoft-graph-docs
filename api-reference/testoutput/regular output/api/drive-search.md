@@ -87,23 +87,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2223
+Content-Length: 2224
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "2151b8be-b8be-2151-beb8-5121beb85121",
+      "id": "902a318b-318b-902a-8b31-2a908b312a90",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"

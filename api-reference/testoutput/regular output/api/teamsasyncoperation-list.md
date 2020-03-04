@@ -67,17 +67,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 643
+Content-Length: 644
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-      "id": "bb093600-3600-bb09-0036-09bb003609bb",
+      "id": "477a99c1-99c1-477a-c199-7a47c1997a47",
       "operationType": "String",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "status": "String",
-      "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00",
+      "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
       "attemptsCount": 13,
       "targetResourceId": "Target Resource Id value",
       "targetResourceLocation": "Target Resource Location value",

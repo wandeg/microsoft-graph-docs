@@ -74,9 +74,9 @@ Content-Length: 908
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemActivityStat",
-    "id": "1e7e9048-9048-1e7e-4890-7e1e48907e1e",
-    "startDateTime": "2016-12-31T23:59:14.2230899+03:00",
-    "endDateTime": "2016-12-31T23:57:11.7522995+03:00",
+    "id": "933f84db-84db-933f-db84-3f93db843f93",
+    "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
+    "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
     "access": {
       "@odata.type": "microsoft.graph.itemActionStat",
       "actionCount": 11,
@@ -97,7 +97,7 @@ Content-Length: 908
     "isTrending": true,
     "incompleteData": {
       "@odata.type": "microsoft.graph.incompleteData",
-      "missingDataBeforeDateTime": "2016-12-31T23:57:44.3115031+03:00",
+      "missingDataBeforeDateTime": "2016-12-31T23:57:23.2357352+03:00",
       "wasThrottled": true
     }
   }

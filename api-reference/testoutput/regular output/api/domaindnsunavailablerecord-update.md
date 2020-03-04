@@ -95,7 +95,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.domainDnsUnavailableRecord",
-  "id": "f39b7365-7365-f39b-6573-9bf365739bf3",
+  "id": "9ae9cded-cded-9ae9-edcd-e99aedcde99a",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

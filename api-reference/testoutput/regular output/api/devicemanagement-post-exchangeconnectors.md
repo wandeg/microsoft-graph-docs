@@ -72,11 +72,11 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors
 Content-type: application/json
-Content-length: 478
+Content-length: 479
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",
@@ -99,12 +99,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 528
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "id": "98cdc9e4-c9e4-98cd-e4c9-cd98e4c9cd98",
-  "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+  "id": "e7f154f6-54f6-e7f1-f654-f1e7f654f1e7",
+  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",

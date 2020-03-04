@@ -72,7 +72,7 @@ Content-Length: 233
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCategory",
-      "id": "cc3e1000-1000-cc3e-0010-3ecc00103ecc",
+      "id": "3a04de35-de35-3a04-35de-043a35de043a",
       "displayName": "Display Name value",
       "description": "Description value"
     }

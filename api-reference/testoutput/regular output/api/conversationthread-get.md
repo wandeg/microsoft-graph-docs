@@ -76,7 +76,7 @@ Content-Length: 745
 {
   "value": {
     "@odata.type": "#microsoft.graph.conversationThread",
-    "id": "b434caf4-caf4-b434-f4ca-34b4f4ca34b4",
+    "id": "3a751750-1750-3a75-5017-753a5017753a",
     "toRecipients": [
       {
         "@odata.type": "microsoft.graph.recipient",
@@ -89,7 +89,7 @@ Content-Length: 745
     ],
     "topic": "Topic value",
     "hasAttachments": true,
-    "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
+    "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
     "uniqueSenders": [
       "Unique Senders value"
     ],

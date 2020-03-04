@@ -97,7 +97,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.eBookInstallSummary",
-  "id": "2976a2da-a2da-2976-daa2-7629daa27629",
+  "id": "3f28e37d-e37d-3f28-7de3-283f7de3283f",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notInstalledDeviceCount": 7,

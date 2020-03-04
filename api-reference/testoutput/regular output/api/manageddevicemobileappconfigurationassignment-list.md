@@ -72,7 +72,7 @@ Content-Length: 287
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationAssignment",
-      "id": "e3c0d7a3-d7a3-e3c0-a3d7-c0e3a3d7c0e3",
+      "id": "ba3ed3b2-d3b2-ba3e-b2d3-3ebab2d33eba",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

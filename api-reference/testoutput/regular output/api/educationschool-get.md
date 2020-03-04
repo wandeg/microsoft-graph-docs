@@ -74,7 +74,7 @@ Content-Length: 1242
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationSchool",
-    "id": "bde07a99-7a99-bde0-997a-e0bd997ae0bd",
+    "id": "4c2b94bd-94bd-4c2b-bd94-2b4cbd942b4c",
     "displayName": "Display Name value",
     "description": "Description value",
     "externalSource": "String",

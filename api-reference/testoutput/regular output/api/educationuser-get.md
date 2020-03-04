@@ -70,12 +70,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3177
+Content-Length: 3176
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationUser",
-    "id": "9931ae8f-ae8f-9931-8fae-31998fae3199",
+    "id": "05a22a1e-2a1e-05a2-1e2a-a2051e2aa205",
     "primaryRole": "String",
     "middleName": "Middle Name value",
     "externalSource": "String",
@@ -122,18 +122,18 @@ Content-Length: 3177
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
+          "ca8640ba-40ba-ca86-ba40-86caba4086ca"
         ],
-        "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
+        "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
       }
     ],
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
+        "assignedDateTime": "2016-12-31T23:58:03.2183148+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
+        "servicePlanId": "52357315-7315-5235-1573-355215733552"
       }
     ],
     "businessPhones": [
@@ -160,7 +160,7 @@ Content-Length: 3177
         "provisioningStatus": "Provisioning Status value"
       }
     ],
-    "refreshTokensValidFromDateTime": "2017-01-01T00:01:51.2247581+03:00",
+    "refreshTokensValidFromDateTime": "2016-12-31T23:57:07.077465+03:00",
     "showInAddressList": true,
     "surname": "Surname value",
     "usageLocation": "Usage Location value",

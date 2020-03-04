@@ -71,7 +71,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mobileApps/{mobileAppId}/contentVersions/{mobileAppContentId}/files/{mobileAppContentFileId}
 Content-type: application/json
-Content-length: 334
+Content-length: 333
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
@@ -80,7 +80,7 @@ Content-length: 334
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2017-01-01T00:00:04.7403156+03:00",
+  "azureStorageUriExpirationDateTime": "2016-12-31T23:58:22.239124+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String"
 }
@@ -100,14 +100,14 @@ Content-Length: 441
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContentFile",
-  "id": "16b942cb-42cb-16b9-cb42-b916cb42b916",
+  "id": "760d1c4f-1c4f-760d-4f1c-0d764f1c0d76",
   "azureStorageUri": "Azure Storage Uri value",
   "isCommitted": true,
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "name": "Name value",
   "size": 4,
   "sizeEncrypted": 13,
-  "azureStorageUriExpirationDateTime": "2017-01-01T00:00:04.7403156+03:00",
+  "azureStorageUriExpirationDateTime": "2016-12-31T23:58:22.239124+03:00",
   "manifest": "bWFuaWZlc3Q=",
   "uploadState": "String"
 }

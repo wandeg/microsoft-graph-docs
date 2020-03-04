@@ -72,10 +72,10 @@ Content-Length: 734
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-      "id": "e32aa195-a195-e32a-95a1-2ae395a12ae3",
+      "id": "5647c5fd-c5fd-5647-fdc5-4756fdc54756",
       "displayName": "Display Name value",
       "configurationDeployedUserCount": 14,
-      "lastRefreshTime": "2017-01-01T00:03:01.3371918+03:00",
+      "lastRefreshTime": "2017-01-01T00:00:32.3217667+03:00",
       "configurationDeploymentSummaryPerApp": [
         {
           "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

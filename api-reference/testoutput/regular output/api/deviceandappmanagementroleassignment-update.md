@@ -95,7 +95,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleAssignment",
-  "id": "edd72d82-2d82-edd7-822d-d7ed822dd7ed",
+  "id": "7cba024a-024a-7cba-4a02-ba7c4a02ba7c",
   "displayName": "Display Name value",
   "description": "Description value",
   "resourceScopes": [

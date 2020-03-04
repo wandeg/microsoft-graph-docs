@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 771
+Content-Length: 772
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteEntityHierarchyModel",
-    "id": "e0159896-9896-e015-9698-15e0969815e0",
+    "id": "37fcf42b-f42b-37fc-2bf4-fc372bf4fc37",
     "self": "Self value",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "displayName": "Display Name value",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
@@ -94,7 +94,7 @@ Content-Length: 771
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
   }
 }
 ```

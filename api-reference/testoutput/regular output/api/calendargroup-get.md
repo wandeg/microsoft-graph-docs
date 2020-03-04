@@ -75,9 +75,9 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendarGroup",
-    "id": "68686806-6806-6868-0668-686806686868",
+    "id": "1df5da52-da52-1df5-52da-f51d52daf51d",
     "name": "Name value",
-    "classId": "c381f382-f382-c381-82f3-81c382f381c3",
+    "classId": "d50830ef-30ef-d508-ef30-08d5ef3008d5",
     "changeKey": "Change Key value"
   }
 }

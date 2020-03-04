@@ -101,7 +101,7 @@ Content-length: 1103
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
   "userTimezone": "User Timezone value",
   "contentInfo": {
@@ -121,11 +121,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1274
+Content-Length: 1275
 
 {
   "@odata.type": "#microsoft.graph.userActivity",
-  "id": "f20568ea-68ea-f205-ea68-05f2ea6805f2",
+  "id": "90b079cd-79cd-90b0-cd79-b090cd79b090",
   "visualElements": {
     "@odata.type": "microsoft.graph.visualInfo",
     "attribution": {
@@ -147,10 +147,10 @@ Content-Length: 1274
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "userTimezone": "User Timezone value",
   "contentInfo": {
     "@odata.type": "microsoft.graph.Json"

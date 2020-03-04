@@ -72,7 +72,7 @@ Content-Length: 240
   "value": [
     {
       "@odata.type": "#microsoft.graph.contactFolder",
-      "id": "ff3d85aa-85aa-ff3d-aa85-3dffaa853dff",
+      "id": "b487437c-437c-b487-7c43-87b47c4387b4",
       "parentFolderId": "Parent Folder Id value",
       "displayName": "Display Name value"
     }

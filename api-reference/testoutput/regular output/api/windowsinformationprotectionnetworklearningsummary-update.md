@@ -87,7 +87,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionNetworkLearningSummary",
-  "id": "34f8f125-f125-34f8-25f1-f83425f1f834",
+  "id": "5bf41e97-1e97-5bf4-971e-f45b971ef45b",
   "url": "Url value",
   "deviceCount": 11
 }

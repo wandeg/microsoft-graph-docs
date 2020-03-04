@@ -103,7 +103,7 @@ Content-Length: 414
 
 {
   "@odata.type": "#microsoft.graph.schemaExtension",
-  "id": "c0f2fac7-fac7-c0f2-c7fa-f2c0c7faf2c0",
+  "id": "1d506fb1-6fb1-1d50-b16f-501db16f501d",
   "description": "Description value",
   "targetTypes": [
     "Target Types value"

@@ -66,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1470
+Content-Length: 1471
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidCompliancePolicy",
-      "id": "1e28028c-028c-1e28-8c02-281e8c02281e",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "id": "092f17ee-17ee-092f-ee17-2f09ee172f09",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "displayName": "Display Name value",
       "version": 7,
       "passwordRequired": true,

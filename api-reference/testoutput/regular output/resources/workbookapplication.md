@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookApplication](../api/workbookapplication-create.md)|[workbookApplication](../resources/workbookapplication.md)|Create a new [workbookApplication](../resources/workbookapplication.md) object.|
 |[Delete workbookApplication](../api/workbookapplication-delete.md)|None|Deletes a [workbookApplication](../resources/workbookapplication.md).|
 |[Update workbookApplication](../api/workbookapplication-update.md)|[workbookApplication](../resources/workbookapplication.md)|Update the properties of a [workbookApplication](../resources/workbookapplication.md) object.|
+|[calculate](../api/workbookapplication-calculate.md)|None||
 
 ## Properties
 |Property|Type|Description|

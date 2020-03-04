@@ -75,7 +75,7 @@ Content-Length: 158
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartGridlines",
-    "id": "e566e565-e565-e566-65e5-66e565e566e5",
+    "id": "1b3cfd2c-fd2c-1b3c-2cfd-3c1b2cfd3c1b",
     "visible": true
   }
 }

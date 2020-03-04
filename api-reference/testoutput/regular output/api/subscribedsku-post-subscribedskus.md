@@ -85,13 +85,13 @@ Content-length: 717
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0",
+      "servicePlanId": "52357315-7315-5235-1573-355215733552",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6",
+  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }
@@ -112,7 +112,7 @@ Content-Length: 766
 
 {
   "@odata.type": "#microsoft.graph.subscribedSku",
-  "id": "14aaa27b-a27b-14aa-7ba2-aa147ba2aa14",
+  "id": "beea82fe-82fe-beea-fe82-eabefe82eabe",
   "capabilityStatus": "Capability Status value",
   "consumedUnits": 13,
   "prepaidUnits": {
@@ -124,13 +124,13 @@ Content-Length: 766
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0",
+      "servicePlanId": "52357315-7315-5235-1573-355215733552",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6",
+  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }

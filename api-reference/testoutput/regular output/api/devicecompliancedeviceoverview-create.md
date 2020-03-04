@@ -70,7 +70,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceComplianceDeviceOverview not found
 Content-type: application/json
-Content-length: 278
+Content-length: 281
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
@@ -79,7 +79,7 @@ Content-length: 278
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```
@@ -95,17 +95,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 327
+Content-Length: 330
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceDeviceOverview",
-  "id": "bf4328af-28af-bf43-af28-43bfaf2843bf",
+  "id": "3dbe6a70-6a70-3dbe-706a-be3d706abe3d",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```

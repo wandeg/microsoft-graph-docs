@@ -72,7 +72,7 @@ Content-Length: 183
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteEntityBaseModel",
-      "id": "3ab54c4d-4c4d-3ab5-4d4c-b53a4d4cb53a",
+      "id": "c3d30824-0824-c3d3-2408-d3c32408d3c3",
       "self": "Self value"
     }
   ]

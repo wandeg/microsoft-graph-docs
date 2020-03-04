@@ -100,7 +100,7 @@ Content-Length: 576
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-  "id": "a3a10595-0595-a3a1-9505-a1a39505a1a3",
+  "id": "7d271100-1100-7d27-0011-277d0011277d",
   "options": {
     "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
     "allowAutoFilter": true,

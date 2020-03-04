@@ -74,7 +74,7 @@ Content-Length: 508
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsTab",
-    "id": "48d608d2-08d2-48d6-d208-d648d208d648",
+    "id": "8381b100-b100-8381-00b1-818300b18183",
     "displayName": "Display Name value",
     "webUrl": "https://example.com/webUrl/",
     "configuration": {

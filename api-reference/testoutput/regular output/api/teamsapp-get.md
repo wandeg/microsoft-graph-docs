@@ -74,7 +74,7 @@ Content-Length: 241
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsApp",
-    "id": "b49ea33c-a33c-b49e-3ca3-9eb43ca39eb4",
+    "id": "a02d7124-7124-a02d-2471-2da024712da0",
     "externalId": "External Id value",
     "displayName": "Display Name value",
     "distributionMethod": "String"

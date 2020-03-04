@@ -85,7 +85,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFill",
-  "id": "ebccb99b-b99b-ebcc-9bb9-cceb9bb9cceb",
+  "id": "2de1230a-230a-2de1-0a23-e12d0a23e12d",
   "color": "Color value"
 }
 ```

@@ -83,7 +83,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.cloudCommunications",
-  "id": "18cd633f-633f-18cd-3f63-cd183f63cd18"
+  "id": "a00c4f70-4f70-a00c-704f-0ca0704f0ca0"
 }
 ```
 

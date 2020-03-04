@@ -74,7 +74,7 @@ Content-Length: 187
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFormatProtection",
-    "id": "7aae4425-4425-7aae-2544-ae7a2544ae7a",
+    "id": "aae6ed4d-ed4d-aae6-4ded-e6aa4dede6aa",
     "formulaHidden": true,
     "locked": true
   }

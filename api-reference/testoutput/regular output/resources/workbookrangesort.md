@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookRangeSort](../api/workbookrangesort-create.md)|[workbookRangeSort](../resources/workbookrangesort.md)|Create a new [workbookRangeSort](../resources/workbookrangesort.md) object.|
 |[Delete workbookRangeSort](../api/workbookrangesort-delete.md)|None|Deletes a [workbookRangeSort](../resources/workbookrangesort.md).|
 |[Update workbookRangeSort](../api/workbookrangesort-update.md)|[workbookRangeSort](../resources/workbookrangesort.md)|Update the properties of a [workbookRangeSort](../resources/workbookrangesort.md) object.|
+|[apply](../api/workbookrangesort-apply.md)|None||
 
 ## Properties
 |Property|Type|Description|

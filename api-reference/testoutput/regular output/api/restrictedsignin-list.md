@@ -66,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2415
+Content-Length: 2416
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.restrictedSignIn",
-      "id": "ef8cc405-c405-ef8c-05c4-8cef05c48cef",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "id": "f33f9634-9634-f33f-3496-3ff334963ff3",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
       "userId": "User Id value",
@@ -134,7 +134,7 @@ Content-Length: 2415
       ],
       "resourceDisplayName": "Resource Display Name value",
       "resourceId": "Resource Id value",
-      "targetTenantId": "be59e333-e333-be59-33e3-59be33e359be"
+      "targetTenantId": "db0b800f-800f-db0b-0f80-0bdb0f800bdb"
     }
   ]
 }

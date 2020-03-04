@@ -76,9 +76,9 @@ Content-length: 340
   "@odata.type": "#microsoft.graph.activityHistoryItem",
   "status": "String",
   "activeDurationSeconds": 5,
-  "lastActiveDateTime": "2017-01-01T00:01:03.4547516+03:00",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
-  "startedDateTime": "2017-01-01T00:02:08.4353012+03:00",
+  "lastActiveDateTime": "2017-01-01T00:00:05.3250667+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "startedDateTime": "2017-01-01T00:02:41.8929059+03:00",
   "userTimezone": "User Timezone value"
 }
 ```
@@ -93,18 +93,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 511
+Content-Length: 512
 
 {
   "@odata.type": "#microsoft.graph.activityHistoryItem",
-  "id": "c87f6d68-6d68-c87f-686d-7fc8686d7fc8",
+  "id": "a782487c-487c-a782-7c48-82a77c4882a7",
   "status": "String",
   "activeDurationSeconds": 5,
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastActiveDateTime": "2017-01-01T00:01:03.4547516+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
-  "startedDateTime": "2017-01-01T00:02:08.4353012+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastActiveDateTime": "2017-01-01T00:00:05.3250667+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "startedDateTime": "2017-01-01T00:02:41.8929059+03:00",
   "userTimezone": "User Timezone value"
 }
 ```

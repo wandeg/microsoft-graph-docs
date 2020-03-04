@@ -25,6 +25,8 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookRangeBorder](../api/workbookrangeborder-create.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Create a new [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
 |[Delete workbookRangeBorder](../api/workbookrangeborder-delete.md)|None|Deletes a [workbookRangeBorder](../resources/workbookrangeborder.md).|
 |[Update workbookRangeBorder](../api/workbookrangeborder-update.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)|Update the properties of a [workbookRangeBorder](../resources/workbookrangeborder.md) object.|
+|[itemAt](../api/workbookrangeborder-itemat.md)|[workbookRangeBorder](../resources/workbookrangeborder.md)||
+|[count](../api/workbookrangeborder-count.md)|Int32||
 
 ## Properties
 |Property|Type|Description|

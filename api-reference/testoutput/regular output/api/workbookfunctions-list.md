@@ -72,7 +72,7 @@ Content-Length: 149
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookFunctions",
-      "id": "bf6e77a1-77a1-bf6e-a177-6ebfa1776ebf"
+      "id": "bc87b2f8-b2f8-bc87-f8b2-87bcf8b287bc"
     }
   ]
 }

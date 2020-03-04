@@ -74,7 +74,7 @@ Content-Length: 138
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartPointFormat",
-    "id": "2f001880-1880-2f00-8018-002f8018002f"
+    "id": "7eb2d2f0-d2f0-7eb2-f0d2-b27ef0d2b27e"
   }
 }
 ```

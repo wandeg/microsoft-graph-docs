@@ -72,10 +72,10 @@ Content-length: 275
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
   "enabled": true,
   "includedGroups": [
-    "021db9ef-b9ef-021d-efb9-1d02efb91d02"
+    "0d12d1f7-d1f7-0d12-f7d1-120df7d1120d"
   ],
   "excludedGroups": [
-    "56d659df-59df-56d6-df59-d656df59d656"
+    "967dd801-d801-967d-01d8-7d9601d87d96"
   ],
   "overrideDefaultRule": true
 }
@@ -95,13 +95,13 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-  "id": "15e2a7c7-a7c7-15e2-c7a7-e215c7a7e215",
+  "id": "f2ed9cc3-9cc3-f2ed-c39c-edf2c39cedf2",
   "enabled": true,
   "includedGroups": [
-    "021db9ef-b9ef-021d-efb9-1d02efb91d02"
+    "0d12d1f7-d1f7-0d12-f7d1-120df7d1120d"
   ],
   "excludedGroups": [
-    "56d659df-59df-56d6-df59-d656df59d656"
+    "967dd801-d801-967d-01d8-7d9601d87d96"
   ],
   "overrideDefaultRule": true
 }

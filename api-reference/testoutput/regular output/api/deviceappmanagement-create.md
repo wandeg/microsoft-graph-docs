@@ -71,10 +71,10 @@ Content-length: 394
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:40.6655328+03:00",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:56.4375609+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:25.1903918+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:59:59.6531764+03:00"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Length: 443
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "id": "d0c4667a-667a-d0c4-7a66-c4d07a66c4d0",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2017-01-01T00:01:40.6655328+03:00",
+  "id": "363e9965-9965-363e-6599-3e3665993e36",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:56.4375609+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:25.1903918+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:59:59.6531764+03:00"
 }
 ```
 

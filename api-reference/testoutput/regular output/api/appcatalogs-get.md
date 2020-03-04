@@ -74,7 +74,7 @@ Content-Length: 125
 {
   "value": {
     "@odata.type": "#microsoft.graph.appCatalogs",
-    "id": "4a7c32b4-32b4-4a7c-b432-7c4ab4327c4a"
+    "id": "9ddb8195-8195-9ddb-9581-db9d9581db9d"
   }
 }
 ```

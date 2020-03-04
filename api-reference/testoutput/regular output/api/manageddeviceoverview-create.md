@@ -110,7 +110,7 @@ Content-Length: 734
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceOverview",
-  "id": "afad483f-483f-afad-3f48-adaf3f48adaf",
+  "id": "b203031c-031c-b203-1c03-03b21c0303b2",
   "enrolledDeviceCount": 3,
   "mdmEnrolledCount": 0,
   "dualEnrolledDeviceCount": 7,

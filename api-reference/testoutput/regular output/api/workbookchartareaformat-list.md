@@ -72,7 +72,7 @@ Content-Length: 155
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-      "id": "1d570c2b-0c2b-1d57-2b0c-571d2b0c571d"
+      "id": "01a4986e-986e-01a4-6e98-a4016e98a401"
     }
   ]
 }

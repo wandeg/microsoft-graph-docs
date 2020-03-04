@@ -99,7 +99,7 @@ Content-Length: 339
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStateSummary",
-  "id": "830798c6-98c6-8307-c698-0783c6980783",
+  "id": "c7808326-8326-c780-2683-80c7268380c7",
   "unknownDeviceCount": 2,
   "notApplicableDeviceCount": 8,
   "compliantDeviceCount": 4,

@@ -75,26 +75,26 @@ Content-Length: 6702
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "413d5db5-5db5-413d-b55d-3d41b55d3d41",
-    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+    "id": "8ac848b7-48b7-8ac8-b748-c88ab748c88a",
+    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
     "accountEnabled": true,
     "ageGroup": "Age Group value",
     "assignedLicenses": [
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
+          "ca8640ba-40ba-ca86-ba40-86caba4086ca"
         ],
-        "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
+        "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
       }
     ],
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:57:55.4417569+03:00",
+        "assignedDateTime": "2016-12-31T23:58:03.2183148+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "c06ed01b-d01b-c06e-1bd0-6ec01bd06ec0"
+        "servicePlanId": "52357315-7315-5235-1573-355215733552"
       }
     ],
     "businessPhones": [
@@ -114,7 +114,7 @@ Content-Length: 6702
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2016-12-31T23:57:52.8662193+03:00",
+    "lastPasswordChangeDateTime": "2016-12-31T23:58:32.2430819+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -147,14 +147,14 @@ Content-Length: 6702
       "extensionAttribute15": "Extension Attribute15 value"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError",
         "value": "Value value",
         "category": "Category value",
         "propertyCausingError": "Property Causing Error value",
-        "occurredDateTime": "2016-12-31T23:58:37.7821236+03:00"
+        "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
       }
     ],
     "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -185,7 +185,7 @@ Content-Length: 6702
       "Proxy Addresses value"
     ],
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2017-01-01T00:01:21.6848283+03:00",
+    "signInSessionsValidFromDateTime": "2017-01-01T00:00:52.5046312+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -219,8 +219,8 @@ Content-Length: 6702
         "daysOfWeek": [
           "String"
         ],
-        "startTime": "11:59:49.6530000",
-        "endTime": "12:00:08.4880000",
+        "startTime": "11:57:43.5660000",
+        "endTime": "12:02:04.4770000",
         "timeZone": {
           "@odata.type": "microsoft.graph.timeZoneBase",
           "name": "Name value"
@@ -231,8 +231,8 @@ Content-Length: 6702
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2016-12-31T23:57:56.7393524+03:00",
-    "hireDate": "2017-01-01T00:01:28.7250325+03:00",
+    "birthday": "2016-12-31T23:58:42.1908479+03:00",
+    "hireDate": "2016-12-31T23:59:55.3544129+03:00",
     "interests": [
       "Interests value"
     ],

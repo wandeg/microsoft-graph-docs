@@ -74,7 +74,7 @@ Content-Length: 248
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChart",
-    "id": "aebbf3d0-f3d0-aebb-d0f3-bbaed0f3bbae",
+    "id": "69c6f14e-f14e-69c6-4ef1-c6694ef1c669",
     "height": "Double",
     "left": "Double",
     "name": "Name value",

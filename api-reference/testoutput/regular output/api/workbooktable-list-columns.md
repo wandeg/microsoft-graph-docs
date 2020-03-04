@@ -72,7 +72,7 @@ Content-Length: 275
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTableColumn",
-      "id": "f2af648e-648e-f2af-8e64-aff28e64aff2",
+      "id": "6f3e4715-4715-6f3e-1547-3e6f15473e6f",
       "index": 5,
       "name": "Name value",
       "values": {

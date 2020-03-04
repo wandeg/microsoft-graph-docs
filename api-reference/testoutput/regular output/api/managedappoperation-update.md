@@ -90,9 +90,9 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.managedAppOperation",
-  "id": "d217313a-313a-d217-3a31-17d23a3117d2",
+  "id": "e8be1419-1419-e8be-1914-bee81914bee8",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "state": "State value",
   "version": "Version value"
 }

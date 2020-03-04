@@ -105,7 +105,7 @@ Content-Length: 410
 
 {
   "@odata.type": "#microsoft.graph.domainDnsSrvRecord",
-  "id": "7a27ed2b-ed2b-7a27-2bed-277a2bed277a",
+  "id": "c1f54f89-4f89-c1f5-894f-f5c1894ff5c1",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

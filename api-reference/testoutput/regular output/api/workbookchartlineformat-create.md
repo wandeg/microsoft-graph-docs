@@ -87,7 +87,7 @@ Content-Length: 141
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-  "id": "45e400e9-00e9-45e4-e900-e445e900e445",
+  "id": "659ca35e-a35e-659c-5ea3-9c655ea39c65",
   "color": "Color value"
 }
 ```

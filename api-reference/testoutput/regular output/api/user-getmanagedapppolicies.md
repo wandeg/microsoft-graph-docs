@@ -67,17 +67,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 400
+Content-Length: 401
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicy",
-      "id": "9f52a939-a939-9f52-39a9-529f39a9529f",
+      "id": "fec4dc3f-dc3f-fec4-3fdc-c4fe3fdcc4fe",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "version": "Version value"
     }
   ]

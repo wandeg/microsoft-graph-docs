@@ -71,24 +71,24 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2149
+Content-Length: 2150
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.group",
-    "id": "cd782a07-2a07-cd78-072a-78cd072a78cd",
-    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+    "id": "0a7bb131-b131-0a7b-31b1-7b0a31b17b0a",
+    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
     "assignedLicenses": [
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "a275d3dd-d3dd-a275-ddd3-75a2ddd375a2"
+          "ca8640ba-40ba-ca86-ba40-86caba4086ca"
         ],
-        "skuId": "c6055fc8-5fc8-c605-c85f-05c6c85f05c6"
+        "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
       }
     ],
     "classification": "Classification value",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "hasMembersWithLicenseErrors": true,
@@ -103,7 +103,7 @@ Content-Length: 2149
     "mailEnabled": true,
     "mailNickname": "Mail Nickname value",
     "onPremisesDomainName": "On Premises Domain Name value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
     "onPremisesNetBiosName": "On Premises Net Bios Name value",
     "onPremisesProvisioningErrors": [
       {
@@ -111,7 +111,7 @@ Content-Length: 2149
         "value": "Value value",
         "category": "Category value",
         "propertyCausingError": "Property Causing Error value",
-        "occurredDateTime": "2016-12-31T23:58:37.7821236+03:00"
+        "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
       }
     ],
     "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -121,7 +121,7 @@ Content-Length: 2149
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "renewedDateTime": "2017-01-01T00:00:46.4465399+03:00",
+    "renewedDateTime": "2016-12-31T23:57:03.7606659+03:00",
     "securityEnabled": true,
     "securityIdentifier": "Security Identifier value",
     "visibility": "Visibility value",

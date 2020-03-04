@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 798
+Content-Length: 800
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppRegistration",
-      "id": "a0f45a39-5a39-a0f4-395a-f4a0395af4a0",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+      "id": "f81d72c3-72c3-f81d-c372-1df8c3721df8",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

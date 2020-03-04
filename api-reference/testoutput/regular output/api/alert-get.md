@@ -69,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5734
+Content-Length: 5736
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.alert",
-    "id": "a7641726-1726-a764-2617-64a7261764a7",
+    "id": "153767e3-67e3-1537-e367-3715e3673715",
     "activityGroupName": "Activity Group Name value",
     "assignedTo": "Assigned To value",
     "azureSubscriptionId": "Azure Subscription Id value",
     "azureTenantId": "Azure Tenant Id value",
     "category": "Category value",
-    "closedDateTime": "2016-12-31T23:58:04.5888224+03:00",
+    "closedDateTime": "2016-12-31T23:58:23.3142495+03:00",
     "cloudAppStates": [
       {
         "@odata.type": "microsoft.graph.cloudAppSecurityState",
@@ -93,12 +93,12 @@ Content-Length: 5734
       "Comments value"
     ],
     "confidence": 10,
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
     "detectionIds": [
       "Detection Ids value"
     ],
-    "eventDateTime": "2017-01-01T00:01:24.8579345+03:00",
+    "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
     "feedback": "String",
     "fileStates": [
       {
@@ -117,7 +117,7 @@ Content-Length: 5734
         "@odata.type": "microsoft.graph.alertHistoryState",
         "appId": "App Id value",
         "status": "String",
-        "updatedDateTime": "2016-12-31T23:59:12.8270379+03:00",
+        "updatedDateTime": "2016-12-31T23:56:35.6643671+03:00",
         "user": "User value"
       }
     ],
@@ -134,7 +134,7 @@ Content-Length: 5734
         "publicIpAddress": "Public Ip Address value"
       }
     ],
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "malwareStates": [
       {
         "@odata.type": "microsoft.graph.malwareState",
@@ -152,7 +152,7 @@ Content-Length: 5734
         "destinationPort": "Destination Port value",
         "destinationUrl": "https://example.com/destinationUrl/",
         "direction": "String",
-        "domainRegisteredDateTime": "2016-12-31T23:59:36.186513+03:00",
+        "domainRegisteredDateTime": "2016-12-31T23:56:31.4169393+03:00",
         "localDnsName": "Local Dns Name value",
         "natDestinationAddress": "Nat Destination Address value",
         "natDestinationPort": "Nat Destination Port value",
@@ -172,7 +172,7 @@ Content-Length: 5734
         "commandLine": "Command Line value",
         "integrityLevel": "String",
         "isElevated": true,
-        "parentProcessCreatedDateTime": "2016-12-31T23:59:10.4513626+03:00",
+        "parentProcessCreatedDateTime": "2016-12-31T23:58:30.4356128+03:00",
         "parentProcessId": 15,
         "parentProcessName": "Parent Process Name value",
         "processId": 9
@@ -218,7 +218,7 @@ Content-Length: 5734
         "domainName": "Domain Name value",
         "emailRole": "String",
         "isVpn": true,
-        "logonDateTime": "2016-12-31T23:57:32.3905082+03:00",
+        "logonDateTime": "2017-01-01T00:01:28.7159422+03:00",
         "logonId": "Logon Id value",
         "logonIp": "Logon Ip value",
         "logonLocation": "Logon Location value",

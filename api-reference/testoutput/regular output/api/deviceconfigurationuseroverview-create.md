@@ -70,7 +70,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.deviceConfigurationUserOverview not found
 Content-type: application/json
-Content-length: 279
+Content-length: 282
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
@@ -79,7 +79,7 @@ Content-length: 279
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```
@@ -95,17 +95,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 328
+Content-Length: 331
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
-  "id": "553fd7cd-d7cd-553f-cdd7-3f55cdd73f55",
+  "id": "52b101c6-01c6-52b1-c601-b152c601b152",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:59:45.6831+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
   "configurationVersion": 4
 }
 ```

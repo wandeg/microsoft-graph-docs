@@ -74,8 +74,8 @@ Content-Length: 499
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-    "id": "76c9ef9a-ef9a-76c9-9aef-c9769aefc976",
-    "lastHeartbeatDateTime": "2017-01-01T00:03:33.2924976+03:00",
+    "id": "16e44574-4574-16e4-7445-e4167445e416",
+    "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
     "partnerState": "String",
     "androidEnabled": true,
     "iosEnabled": true,

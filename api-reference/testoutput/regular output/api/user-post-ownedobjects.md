@@ -69,7 +69,7 @@ Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
 }
 ```
 
@@ -88,8 +88,8 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "4ad1a8b9-a8b9-4ad1-b9a8-d14ab9a8d14a",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00"
+  "id": "4258748f-748f-4258-8f74-58428f745842",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
 }
 ```
 

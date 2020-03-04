@@ -66,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 421
+Content-Length: 422
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-      "id": "d7c227d8-27d8-d7c2-d827-c2d7d827c2d7",
+      "id": "33ee5471-5471-33ee-7154-ee337154ee33",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "version": 7
     }
   ]

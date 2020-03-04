@@ -69,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 612
+Content-Length: 613
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.vppToken",
-    "id": "3b31d40b-d40b-3b31-0bd4-313b0bd4313b",
+    "id": "d862e34f-e34f-d862-4fe3-62d84fe362d8",
     "organizationName": "Organization Name value",
     "vppTokenAccountType": "String",
     "appleId": "Apple Id value",
-    "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
-    "lastSyncDateTime": "2017-01-01T00:02:54.239458+03:00",
+    "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+    "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
     "token": "Token value",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "state": "String",
     "lastSyncStatus": "String",
     "automaticallyUpdateApps": true,

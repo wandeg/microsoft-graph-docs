@@ -69,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1242
+Content-Length: 1241
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.device",
-    "id": "c77c320b-320b-c77c-0b32-7cc70b327cc7",
-    "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+    "id": "cbd2d7c2-d7c2-cbd2-c2d7-d2cbc2d7d2cb",
+    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
     "accountEnabled": true,
     "alternativeSecurityIds": [
       {
@@ -85,8 +85,8 @@ Content-Length: 1242
         "key": "a2V5"
       }
     ],
-    "approximateLastSignInDateTime": "2017-01-01T00:00:31.7728214+03:00",
-    "complianceExpirationDateTime": "2017-01-01T00:01:37.9093345+03:00",
+    "approximateLastSignInDateTime": "2016-12-31T23:58:50.577268+03:00",
+    "complianceExpirationDateTime": "2017-01-01T00:01:46.0720276+03:00",
     "deviceId": "Device Id value",
     "deviceMetadata": "Device Metadata value",
     "deviceVersion": 13,
@@ -94,7 +94,7 @@ Content-Length: 1242
     "isCompliant": true,
     "isManaged": true,
     "mdmAppId": "Mdm App Id value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:58:15.8013979+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
     "onPremisesSyncEnabled": true,
     "operatingSystem": "Operating System value",
     "operatingSystemVersion": "Operating System Version value",

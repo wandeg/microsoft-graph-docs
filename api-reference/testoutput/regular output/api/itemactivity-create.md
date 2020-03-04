@@ -77,15 +77,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 599
+Content-Length: 598
 
 {
   "@odata.type": "#microsoft.graph.itemActivity",
-  "id": "c221ee04-ee04-c221-04ee-21c204ee21c2",
+  "id": "aacbadc4-adc4-aacb-c4ad-cbaac4adcbaa",
   "access": {
     "@odata.type": "microsoft.graph.accessAction"
   },
-  "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
+  "activityDateTime": "2016-12-31T23:59:16.402395+03:00",
   "actor": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

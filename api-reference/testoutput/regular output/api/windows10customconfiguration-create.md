@@ -97,13 +97,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 488
+Content-Length: 489
 
 {
   "@odata.type": "#microsoft.graph.windows10CustomConfiguration",
-  "id": "478617bb-17bb-4786-bb17-8647bb178647",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "ccfda24d-a24d-ccfd-4da2-fdcc4da2fdcc",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

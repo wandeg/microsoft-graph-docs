@@ -25,6 +25,12 @@ Inherits from [entity](../resources/entity.md)
 |[Create workbookWorksheet](../api/workbookworksheet-create.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Create a new [workbookWorksheet](../resources/workbookworksheet.md) object.|
 |[Delete workbookWorksheet](../api/workbookworksheet-delete.md)|None|Deletes a [workbookWorksheet](../resources/workbookworksheet.md).|
 |[Update workbookWorksheet](../api/workbookworksheet-update.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Update the properties of a [workbookWorksheet](../resources/workbookworksheet.md) object.|
+|[cell](../api/workbookworksheet-cell.md)|[workbookRange](../resources/workbookrange.md)||
+|[range](../api/workbookworksheet-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[range](../api/workbookworksheet-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[usedRange](../api/workbookworksheet-usedrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[usedRange](../api/workbookworksheet-usedrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[add](../api/workbookworksheet-add.md)|[workbookWorksheet](../resources/workbookworksheet.md)||
 |[List charts](../api/workbookworksheet-list-charts.md)|[workbookChart](../resources/workbookchart.md) collection|Get the workbookCharts from the charts navigation property.|
 |[Add charts](../api/workbookworksheet-post-charts.md)|[workbookChart](../resources/workbookchart.md)|Add charts by posting to the charts collection.|
 |[List names](../api/workbookworksheet-list-names.md)|[workbookNamedItem](../resources/workbooknameditem.md) collection|Get the workbookNamedItems from the names navigation property.|

@@ -91,7 +91,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "5f9a21d2-21d2-5f9a-d221-9a5fd2219a5f",
+  "id": "2b2e69ba-69ba-2b2e-ba69-2e2bba692e2b",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

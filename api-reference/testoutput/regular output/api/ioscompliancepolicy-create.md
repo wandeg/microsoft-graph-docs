@@ -117,14 +117,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 909
+Content-Length: 910
 
 {
   "@odata.type": "#microsoft.graph.iosCompliancePolicy",
-  "id": "cf8d8fe7-8fe7-cf8d-e78f-8dcfe78f8dcf",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "885f249a-249a-885f-9a24-5f889a245f88",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passcodeBlockSimple": true,

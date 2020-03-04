@@ -69,7 +69,7 @@ Content-length: 201
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }
@@ -89,8 +89,8 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "id": "5aa52bbc-2bbc-5aa5-bc2b-a55abc2ba55a",
-  "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+  "id": "109336f8-36f8-1093-f836-9310f8369310",
+  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }

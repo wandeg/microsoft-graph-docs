@@ -67,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5625
+Content-Length: 5626
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "2151b8be-b8be-2151-beb8-5121beb85121",
+      "id": "902a318b-318b-902a-8b31-2a908b312a90",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,13 +88,13 @@ Content-Length: 5625
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",
@@ -151,7 +151,7 @@ Content-Length: 5625
       },
       "fileSystemInfo": {
         "@odata.type": "microsoft.graph.fileSystemInfo",
-        "lastAccessedDateTime": "2016-12-31T23:58:33.4341648+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00"
       },
       "folder": {
         "@odata.type": "microsoft.graph.folder",
@@ -187,7 +187,7 @@ Content-Length: 5625
         "fNumber": "Double",
         "focalLength": "Double",
         "iso": 3,
-        "takenDateTime": "2016-12-31T23:57:32.9411503+03:00"
+        "takenDateTime": "2017-01-01T00:02:24.7809742+03:00"
       },
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
@@ -205,7 +205,7 @@ Content-Length: 5625
           "sharedBy": {
             "@odata.type": "microsoft.graph.identitySet"
           },
-          "sharedDateTime": "2017-01-01T00:03:12.9522911+03:00"
+          "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00"
         },
         "size": 4,
         "specialFolder": {

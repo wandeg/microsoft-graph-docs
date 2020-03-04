@@ -99,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "f69c0bff-0bff-f69c-ff0b-9cf6ff0b9cf6",
+  "id": "ffe54dd0-4dd0-ffe5-d04d-e5ffd04de5ff",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

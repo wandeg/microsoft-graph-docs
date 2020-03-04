@@ -79,8 +79,8 @@ Content-length: 325
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
-  "activeHoursStart": "11:59:37.5910000",
-  "activeHoursEnd": "12:01:43.6090000",
+  "activeHoursStart": "12:03:14.8860000",
+  "activeHoursEnd": "11:56:51.6950000",
   "scheduledInstallDays": [
     "String"
   ],
@@ -99,18 +99,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 496
+Content-Length: 497
 
 {
   "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
-  "id": "d71b197f-197f-d71b-7f19-1bd77f191bd7",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "bc4ef3fb-f3fb-bc4e-fbf3-4ebcfbf34ebc",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
-  "activeHoursStart": "11:59:37.5910000",
-  "activeHoursEnd": "12:01:43.6090000",
+  "activeHoursStart": "12:03:14.8860000",
+  "activeHoursEnd": "11:56:51.6950000",
   "scheduledInstallDays": [
     "String"
   ],

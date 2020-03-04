@@ -102,8 +102,8 @@ Content-length: 2231
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
-  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
+  "receivedDateTime": "2017-01-01T00:02:17.8932513+03:00",
+  "sentDateTime": "2017-01-01T00:01:02.4648747+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -193,19 +193,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2402
+Content-Length: 2403
 
 {
   "@odata.type": "#microsoft.graph.eventMessage",
-  "id": "82696752-6752-8269-5267-698252676982",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "id": "641592e9-92e9-6415-e992-1564e9921564",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2017-01-01T00:01:55.9317761+03:00",
-  "sentDateTime": "2016-12-31T23:58:10.1199762+03:00",
+  "receivedDateTime": "2017-01-01T00:02:17.8932513+03:00",
+  "sentDateTime": "2017-01-01T00:01:02.4648747+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

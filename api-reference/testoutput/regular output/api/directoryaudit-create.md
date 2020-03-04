@@ -74,7 +74,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/auditLogs/directoryAudits
 Content-type: application/json
-Content-length: 1484
+Content-length: 1483
 
 {
   "@odata.type": "#microsoft.graph.directoryAudit",
@@ -83,7 +83,7 @@ Content-length: 1484
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
+  "activityDateTime": "2016-12-31T23:59:16.402395+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {
@@ -137,17 +137,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1533
+Content-Length: 1532
 
 {
   "@odata.type": "#microsoft.graph.directoryAudit",
-  "id": "12fd3127-3127-12fd-2731-fd122731fd12",
+  "id": "63e65bd8-5bd8-63e6-d85b-e663d85be663",
   "category": "Category value",
   "correlationId": "Correlation Id value",
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:57:37.5917492+03:00",
+  "activityDateTime": "2016-12-31T23:59:16.402395+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {

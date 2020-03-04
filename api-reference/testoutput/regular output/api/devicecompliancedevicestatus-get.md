@@ -74,13 +74,13 @@ Content-Length: 506
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceDeviceStatus",
-    "id": "e4faae78-ae78-e4fa-78ae-fae478aefae4",
+    "id": "f8aaf85e-f85e-f8aa-5ef8-aaf85ef8aaf8",
     "deviceDisplayName": "Device Display Name value",
     "userName": "User Name value",
     "deviceModel": "Device Model value",
-    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:14.8586698+03:00",
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
     "status": "String",
-    "lastReportedDateTime": "2017-01-01T00:01:14.9975606+03:00",
+    "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

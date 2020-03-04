@@ -72,7 +72,7 @@ Content-Length: 260
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteResource",
-      "id": "73475303-5303-7347-0353-477303534773",
+      "id": "745199e8-99e8-7451-e899-5174e8995174",
       "self": "Self value",
       "content": "Stream",
       "contentUrl": "https://example.com/contentUrl/"

@@ -72,7 +72,7 @@ Content-Length: 179
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookPivotTable",
-      "id": "50d261cf-61cf-50d2-cf61-d250cf61d250",
+      "id": "d6039909-9909-d603-0999-03d6099903d6",
       "name": "Name value"
     }
   ]

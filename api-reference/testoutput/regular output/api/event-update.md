@@ -119,7 +119,7 @@ Content-length: 3315
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:03:20.5544041+03:00"
+    "time": "2017-01-01T00:01:11.7055184+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -139,7 +139,7 @@ Content-length: 3315
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2016-12-31T23:58:53.3506617+03:00",
+  "originalStart": "2016-12-31T23:56:38.5000578+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
@@ -235,13 +235,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3486
+Content-Length: 3487
 
 {
   "@odata.type": "#microsoft.graph.event",
-  "id": "39ba63cf-63cf-39ba-cf63-ba39cf63ba39",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "id": "c5d42468-2468-c5d4-6824-d4c56824d4c5",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -251,7 +251,7 @@ Content-Length: 3486
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:03:20.5544041+03:00"
+    "time": "2017-01-01T00:01:11.7055184+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -271,7 +271,7 @@ Content-Length: 3486
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2016-12-31T23:58:53.3506617+03:00",
+  "originalStart": "2016-12-31T23:56:38.5000578+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },

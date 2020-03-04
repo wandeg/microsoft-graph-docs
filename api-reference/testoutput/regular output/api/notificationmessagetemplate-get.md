@@ -74,8 +74,8 @@ Content-Length: 329
 {
   "value": {
     "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-    "id": "4106bfab-bfab-4106-abbf-0641abbf0641",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+    "id": "00109fc8-9fc8-0010-c89f-1000c89f1000",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
     "displayName": "Display Name value",
     "defaultLocale": "Default Locale value",
     "brandingOptions": "String"

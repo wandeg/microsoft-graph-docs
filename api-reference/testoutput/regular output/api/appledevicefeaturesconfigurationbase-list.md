@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 406
+Content-Length: 407
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.appleDeviceFeaturesConfigurationBase",
-      "id": "25b0bb98-bb98-25b0-98bb-b02598bbb025",
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "id": "c10fa8f3-a8f3-c10f-f3a8-0fc1f3a80fc1",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7

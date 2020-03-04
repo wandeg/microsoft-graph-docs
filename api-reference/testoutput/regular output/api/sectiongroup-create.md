@@ -108,13 +108,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 811
+Content-Length: 812
 
 {
   "@odata.type": "#microsoft.graph.sectionGroup",
-  "id": "0554ee3a-ee3a-0554-3aee-54053aee5405",
+  "id": "694f7bf8-7bf8-694f-f87b-4f69f87b4f69",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -132,7 +132,7 @@ Content-Length: 811
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "sectionsUrl": "https://example.com/sectionsUrl/",
   "sectionGroupsUrl": "https://example.com/sectionGroupsUrl/"
 }

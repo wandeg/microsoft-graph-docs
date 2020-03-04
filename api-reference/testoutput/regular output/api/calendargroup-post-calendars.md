@@ -102,7 +102,7 @@ Content-Length: 359
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "1c274a49-4a49-1c27-494a-271c494a271c",
+  "id": "45b50afd-0afd-45b5-fd0a-b545fd0ab545",
   "name": "Name value",
   "color": "String",
   "changeKey": "Change Key value",

@@ -72,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookRangeFont",
-      "id": "123b8e61-8e61-123b-618e-3b12618e3b12",
+      "id": "f9835c78-5c78-f983-785c-83f9785c83f9",
       "bold": true,
       "color": "Color value",
       "italic": true,

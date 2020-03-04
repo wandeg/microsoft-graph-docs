@@ -66,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2058
+Content-Length: 2059
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "275f3ac0-3ac0-275f-c03a-5f27c03a5f27",
-      "deletedDateTime": "2017-01-01T00:02:42.9789072+03:00",
+      "id": "e577bdcb-bdcb-e577-cbbd-77e5cbbd77e5",
+      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn"
@@ -93,7 +93,7 @@ Content-Length: 2058
       "identifierUris": [
         "Identifier Uris value"
       ],
-      "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
       "publicClient": {
         "@odata.type": "microsoft.graph.publicClientApplication"
       },
@@ -131,7 +131,7 @@ Content-Length: 2058
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "25b6c6cc-c6cc-25b6-ccc6-b625ccc6b625",
+      "tokenEncryptionKeyId": "4630fb04-fb04-4630-04fb-304604fb3046",
       "web": {
         "@odata.type": "microsoft.graph.webApplication"
       }

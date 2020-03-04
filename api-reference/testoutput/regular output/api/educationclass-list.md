@@ -72,7 +72,7 @@ Content-Length: 959
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationClass",
-      "id": "b4f6533d-533d-b4f6-3d53-f6b43d53f6b4",
+      "id": "5bbc2802-2802-5bbc-0228-bc5b0228bc5b",
       "displayName": "Display Name value",
       "mailNickname": "Mail Nickname value",
       "description": "Description value",

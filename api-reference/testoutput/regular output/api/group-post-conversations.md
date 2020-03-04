@@ -75,7 +75,7 @@ Content-length: 260
   "@odata.type": "#microsoft.graph.conversation",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -98,10 +98,10 @@ Content-Length: 309
 
 {
   "@odata.type": "#microsoft.graph.conversation",
-  "id": "40a58dd9-8dd9-40a5-d98d-a540d98da540",
+  "id": "748f01ba-01ba-748f-ba01-8f74ba018f74",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:00:57.6054005+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

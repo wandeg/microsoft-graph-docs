@@ -83,7 +83,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-  "id": "357c2015-2015-357c-1520-7c3515207c35"
+  "id": "f27569e5-69e5-f275-e569-75f2e56975f2"
 }
 ```
 

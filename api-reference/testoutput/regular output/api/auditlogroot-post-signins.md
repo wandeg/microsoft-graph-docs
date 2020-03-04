@@ -163,12 +163,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2055
+Content-Length: 2056
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "6bb2dc13-dc13-6bb2-13dc-b26b13dcb26b",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "3c2c1d87-1d87-3c2c-871d-2c3c871d2c3c",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",

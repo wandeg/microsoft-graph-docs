@@ -89,15 +89,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 507
+Content-Length: 508
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteOperation",
-    "id": "6f0cef26-ef26-6f0c-26ef-0c6f26ef0c6f",
+    "id": "fd0f59cb-59cb-fd0f-cb59-0ffdcb590ffd",
     "status": "String",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-    "lastActionDateTime": "2017-01-01T00:02:27.6832592+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
     "resourceLocation": "Resource Location value",
     "resourceId": "Resource Id value",
     "error": {

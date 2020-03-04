@@ -113,7 +113,7 @@ Content-Length: 951
 
 {
   "@odata.type": "#microsoft.graph.invitation",
-  "id": "5bee837a-837a-5bee-7a83-ee5b7a83ee5b",
+  "id": "4fc57730-7730-4fc5-3077-c54f3077c54f",
   "invitedUserDisplayName": "Invited User Display Name value",
   "invitedUserType": "Invited User Type value",
   "invitedUserEmailAddress": "Invited User Email Address value",

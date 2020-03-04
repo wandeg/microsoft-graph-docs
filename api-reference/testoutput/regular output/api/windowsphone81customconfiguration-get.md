@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 540
+Content-Length: 541
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsPhone81CustomConfiguration",
-    "id": "cfe4822e-822e-cfe4-2e82-e4cf2e82e4cf",
-    "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
-    "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+    "id": "4d1caae0-aae0-4d1c-e0aa-1c4de0aa1c4d",
+    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

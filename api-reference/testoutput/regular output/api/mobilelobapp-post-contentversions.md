@@ -85,7 +85,7 @@ Content-Length: 107
 
 {
   "@odata.type": "#microsoft.graph.mobileAppContent",
-  "id": "3800af2f-af2f-3800-2faf-00382faf0038"
+  "id": "8e30ab0a-ab0a-8e30-0aab-308e0aab308e"
 }
 ```
 

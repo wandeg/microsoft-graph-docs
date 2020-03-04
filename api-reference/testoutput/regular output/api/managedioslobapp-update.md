@@ -125,7 +125,7 @@ Content-length: 1295
     "v12_0": true,
     "v13_0": true
   },
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "versionNumber": "Version Number value",
   "buildNumber": "Build Number value"
 }
@@ -141,11 +141,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1466
+Content-Length: 1467
 
 {
   "@odata.type": "#microsoft.graph.managedIOSLobApp",
-  "id": "d0eca3f8-a3f8-d0ec-f8a3-ecd0f8a3ecd0",
+  "id": "e5855402-5402-e585-0254-85e5025485e5",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -154,8 +154,8 @@ Content-Length: 1466
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",
@@ -183,7 +183,7 @@ Content-Length: 1466
     "v12_0": true,
     "v13_0": true
   },
-  "expirationDateTime": "2016-12-31T23:58:41.2128216+03:00",
+  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
   "versionNumber": "Version Number value",
   "buildNumber": "Build Number value"
 }

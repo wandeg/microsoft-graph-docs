@@ -74,7 +74,7 @@ Content-Length: 279
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppStatusRaw",
-    "id": "85733d9d-3d9d-8573-9d3d-73859d3d7385",
+    "id": "50cf2147-2147-50cf-4721-cf504721cf50",
     "displayName": "Display Name value",
     "version": "Version value",
     "content": {

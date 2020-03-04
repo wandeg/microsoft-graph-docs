@@ -73,7 +73,7 @@ Content-Length: 859
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItemVersion",
-      "id": "20fc9d7f-9d7f-20fc-7f9d-fc207f9dfc20",
+      "id": "8aa18fe9-8fe9-8aa1-e98f-a18ae98fa18a",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,7 +88,7 @@ Content-Length: 859
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

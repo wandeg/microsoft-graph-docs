@@ -125,14 +125,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1119
+Content-Length: 1120
 
 {
   "@odata.type": "#microsoft.graph.windows10CompliancePolicy",
-  "id": "8cf2a65b-a65b-8cf2-5ba6-f28c5ba6f28c",
-  "createdDateTime": "2017-01-01T00:02:24.618735+03:00",
+  "id": "f81604d6-04d6-f816-d604-16f8d60416f8",
+  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2017-01-01T00:00:08.5199759+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
   "displayName": "Display Name value",
   "version": 7,
   "passwordRequired": true,

@@ -74,7 +74,7 @@ Content-Length: 177
 {
   "value": {
     "@odata.type": "#microsoft.graph.openTypeExtension",
-    "id": "bbbee599-e599-bbbe-99e5-bebb99e5bebb",
+    "id": "02c7db78-db78-02c7-78db-c70278dbc702",
     "extensionName": "Extension Name value"
   }
 }

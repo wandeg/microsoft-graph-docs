@@ -93,7 +93,7 @@ Content-Length: 216
 
 {
   "@odata.type": "#microsoft.graph.detectedApp",
-  "id": "bb1db850-b850-bb1d-50b8-1dbb50b81dbb",
+  "id": "d28389ee-89ee-d283-ee89-83d2ee8983d2",
   "displayName": "Display Name value",
   "version": "Version value",
   "sizeInByte": 10,

@@ -89,7 +89,7 @@ Content-Length: 183
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegend",
-  "id": "473ba2a0-a2a0-473b-a0a2-3b47a0a23b47",
+  "id": "acd13583-3583-acd1-8335-d1ac8335d1ac",
   "overlay": true,
   "position": "Position value",
   "visible": true

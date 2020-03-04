@@ -74,11 +74,11 @@ Content-Length: 342
 {
   "value": {
     "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-    "id": "1ac7bd7e-bd7e-1ac7-7ebd-c71a7ebdc71a",
+    "id": "ad659927-9927-ad65-2799-65ad279965ad",
     "displayName": "Display Name value",
     "onboardingUrl": "https://example.com/onboardingUrl/",
     "onboardingStatus": "String",
-    "lastConnectionDateTime": "2016-12-31T23:58:50.6072782+03:00"
+    "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
   }
 }
 ```

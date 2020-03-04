@@ -100,7 +100,7 @@ Content-length: 774
       }
     ]
   },
-  "meetingDuration": "PT3M1.0666938S",
+  "meetingDuration": "-PT59.6541803S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,
