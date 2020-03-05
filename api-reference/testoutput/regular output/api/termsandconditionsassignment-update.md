@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 217
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-  "id": "2010d871-d871-2010-71d8-102071d81020",
+  "id": "7c345343-5343-7c34-4353-347c4353347c",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

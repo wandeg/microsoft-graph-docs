@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [mobileAppContent](../resources/mobileappcontent.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 148
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppContent",
-      "id": "8e30ab0a-ab0a-8e30-0aab-308e0aab308e"
+      "id": "7d97fcad-fcad-7d97-adfc-977dadfc977d"
     }
   ]
 }

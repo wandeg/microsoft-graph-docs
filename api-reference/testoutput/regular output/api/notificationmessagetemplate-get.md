@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 329
+Content-Length: 327
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-    "id": "00109fc8-9fc8-0010-c89f-1000c89f1000",
-    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "id": "5b781297-1297-5b78-9712-785b9712785b",
+    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
     "displayName": "Display Name value",
     "defaultLocale": "Default Locale value",
     "brandingOptions": "String"

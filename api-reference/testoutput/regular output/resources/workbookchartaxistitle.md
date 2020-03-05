@@ -39,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |format|[workbookChartAxisTitleFormat](../resources/workbookchartaxistitleformat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

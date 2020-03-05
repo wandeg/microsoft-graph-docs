@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 119
 
 {
   "@odata.type": "#microsoft.graph.workbookChartGridlinesFormat",
-  "id": "b72ceb79-eb79-b72c-79eb-2cb779eb2cb7"
+  "id": "c624d991-d991-c624-91d9-24c691d924c6"
 }
 ```
 

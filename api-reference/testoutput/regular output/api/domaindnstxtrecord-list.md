@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [domainDnsTxtRecord](../resources/domaindnstxtrecord.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 350
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsTxtRecord",
-      "id": "aa27f126-f126-aa27-26f1-27aa26f127aa",
+      "id": "4bf7a598-a598-4bf7-98a5-f74b98a5f74b",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

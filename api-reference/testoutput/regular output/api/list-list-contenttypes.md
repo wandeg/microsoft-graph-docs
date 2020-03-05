@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [contentType](../resources/contenttype.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 1162
   "value": [
     {
       "@odata.type": "#microsoft.graph.contentType",
-      "id": "6cb3179d-179d-6cb3-9d17-b36c9d17b36c",
+      "id": "4858d896-d896-4858-96d8-584896d85848",
       "description": "Description value",
       "group": "Group value",
       "hidden": true,

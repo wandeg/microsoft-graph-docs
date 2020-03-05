@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +72,11 @@ Content-Length: 393
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationUserStatus",
-      "id": "8ecceb0d-eb0d-8ecc-0deb-cc8e0debcc8e",
+      "id": "1c5037d9-37d9-1c50-d937-501cd937501c",
       "userDisplayName": "User Display Name value",
       "devicesCount": 12,
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+      "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

@@ -41,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |seriesAxis|[workbookChartAxis](../resources/workbookchartaxis.md)||
 |valueAxis|[workbookChartAxis](../resources/workbookchartaxis.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

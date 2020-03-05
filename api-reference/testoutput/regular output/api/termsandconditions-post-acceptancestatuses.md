@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-length: 211
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2016-12-31T23:56:54.4739298+03:00"
+  "acceptedDateTime": "2017-01-01T00:00:04.5421054+03:00"
 }
 ```
 
@@ -91,10 +91,10 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-  "id": "7f892ba0-2ba0-7f89-a02b-897fa02b897f",
+  "id": "5daf4c74-4c74-5daf-744c-af5d744caf5d",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2016-12-31T23:56:54.4739298+03:00"
+  "acceptedDateTime": "2017-01-01T00:00:04.5421054+03:00"
 }
 ```
 

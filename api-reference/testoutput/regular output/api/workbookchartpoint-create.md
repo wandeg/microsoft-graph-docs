@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookChartPoint](../resources/workbookchartpoint.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 172
 
 {
   "@odata.type": "#microsoft.graph.workbookChartPoint",
-  "id": "e98693a2-93a2-e986-a293-86e9a29386e9",
+  "id": "a92e5635-5635-a92e-3556-2ea935562ea9",
   "value": {
     "@odata.type": "microsoft.graph.Json"
   }

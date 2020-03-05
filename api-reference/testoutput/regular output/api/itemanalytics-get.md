@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [itemAnalytics](../resources/itemanalytics.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 127
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemAnalytics",
-    "id": "f0ee8cc6-8cc6-f0ee-c68c-eef0c68ceef0"
+    "id": "474432d9-32d9-4744-d932-4447d9324447"
   }
 }
 ```

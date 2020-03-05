@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,7 +88,7 @@ Content-length: 511
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00"
 }
 ```
 
@@ -107,7 +107,7 @@ Content-Length: 560
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-  "id": "75c46256-6256-75c4-5662-c4755662c475",
+  "id": "8557fa57-fa57-8557-57fa-578557fa5785",
   "setting": "Setting value",
   "settingName": "Setting Name value",
   "deviceId": "Device Id value",
@@ -118,7 +118,7 @@ Content-Length: 560
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00"
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00"
 }
 ```
 

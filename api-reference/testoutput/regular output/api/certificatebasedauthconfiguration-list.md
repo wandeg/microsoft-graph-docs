@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 662
   "value": [
     {
       "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-      "id": "cf96b406-b406-cf96-06b4-96cf06b496cf",
+      "id": "cf2bf8a5-f8a5-cf2b-a5f8-2bcfa5f82bcf",
       "certificateAuthorities": [
         {
           "@odata.type": "microsoft.graph.certificateAuthority",

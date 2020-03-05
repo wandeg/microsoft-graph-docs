@@ -53,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 |sectionGroups|[sectionGroup](../resources/sectiongroup.md) collection||
 |sections|[onenoteSection](../resources/onenotesection.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

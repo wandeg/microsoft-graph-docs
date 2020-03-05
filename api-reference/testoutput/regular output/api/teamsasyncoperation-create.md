@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-length: 447
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
   "operationType": "String",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
+  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",
@@ -105,11 +105,11 @@ Content-Length: 555
 
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-  "id": "477a99c1-99c1-477a-c199-7a47c1997a47",
+  "id": "c0ad7dfc-7dfc-c0ad-fc7d-adc0fc7dadc0",
   "operationType": "String",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
+  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",

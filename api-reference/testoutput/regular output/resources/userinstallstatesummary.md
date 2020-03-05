@@ -42,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |deviceStates|[deviceInstallState](../resources/deviceinstallstate.md) collection|The install state of the eBook.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

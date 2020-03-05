@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-length: 186
   "entityType": "Entity Type value",
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
-  "onBehalfOfUserId": "c2388cf9-8cf9-c238-f98c-38c2f98c38c2"
+  "onBehalfOfUserId": "be235871-5871-be23-7158-23be715823be"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -101,7 +101,7 @@ Content-Length: 398
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyDeviceStateSummary",
-  "id": "936eac52-ac52-936e-52ac-6e9352ac6e93",
+  "id": "28faa17e-a17e-28fa-7ea1-fa287ea1fa28",
   "inGracePeriodCount": 2,
   "configManagerCount": 2,
   "unknownDeviceCount": 2,

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [iosLobApp](../resources/ioslobapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1496
+Content-Length: 1493
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosLobApp",
-    "id": "52ac1fa4-1fa4-52ac-a41f-ac52a41fac52",
+    "id": "fba964b4-64b4-fba9-b464-a9fbb464a9fb",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -83,8 +83,8 @@ Content-Length: 1496
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",
@@ -110,7 +110,7 @@ Content-Length: 1496
       "v12_0": true,
       "v13_0": true
     },
-    "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
     "versionNumber": "Version Number value",
     "buildNumber": "Build Number value"
   }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,13 +72,13 @@ Content-Length: 397
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceUserOverview",
-      "id": "59d516a9-16a9-59d5-a916-d559a916d559",
+      "id": "934db9b2-b9b2-934d-b2b9-4d93b2b94d93",
       "pendingCount": 12,
       "notApplicableCount": 2,
       "successCount": 12,
       "errorCount": 10,
       "failedCount": 11,
-      "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
+      "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
       "configurationVersion": 4
     }
   ]

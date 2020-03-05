@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -72,7 +72,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [signIn](../resources/signin.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -165,8 +165,8 @@ Content-Length: 2056
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "3c2c1d87-1d87-3c2c-871d-2c3c871d2c3c",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "id": "bd846450-6450-bd84-5064-84bd506484bd",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",

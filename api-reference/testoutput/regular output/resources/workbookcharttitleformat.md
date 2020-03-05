@@ -39,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |fill|[workbookChartFill](../resources/workbookchartfill.md)||
 |font|[workbookChartFont](../resources/workbookchartfont.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

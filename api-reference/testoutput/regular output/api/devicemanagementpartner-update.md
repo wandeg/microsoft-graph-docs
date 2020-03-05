@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementPartner](../resources/devicemanagementpartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,14 +74,14 @@ Content-length: 488
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:30.9477336+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:02:03.7124103+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:09.5994235+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:01:18.0233213+03:00"
 }
 ```
 
@@ -99,15 +99,15 @@ Content-Length: 537
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementPartner",
-  "id": "5a56cdd6-cdd6-5a56-d6cd-565ad6cd565a",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
+  "id": "17caef5e-ef5e-17ca-5eef-ca175eefca17",
+  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
   "partnerState": "String",
   "partnerAppType": "String",
   "singleTenantAppId": "Single Tenant App Id value",
   "displayName": "Display Name value",
   "isConfigured": true,
-  "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:57:30.9477336+03:00",
-  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:02:03.7124103+03:00"
+  "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:09.5994235+03:00",
+  "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:01:18.0233213+03:00"
 }
 ```
 

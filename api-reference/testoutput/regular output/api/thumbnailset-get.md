@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [thumbnailSet](../resources/thumbnailset.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 565
 {
   "value": {
     "@odata.type": "#microsoft.graph.thumbnailSet",
-    "id": "9bda1dda-1dda-9bda-da1d-da9bda1dda9b",
+    "id": "9bad6114-6114-9bad-1461-ad9b1461ad9b",
     "large": {
       "@odata.type": "microsoft.graph.thumbnail",
       "content": "Stream",

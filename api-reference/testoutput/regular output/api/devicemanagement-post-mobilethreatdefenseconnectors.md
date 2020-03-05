@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 411
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,
@@ -101,8 +101,8 @@ Content-Length: 460
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "id": "16e44574-4574-16e4-7445-e4167445e416",
-  "lastHeartbeatDateTime": "2017-01-01T00:00:17.3331243+03:00",
+  "id": "ea1c3620-3620-ea1c-2036-1cea20361cea",
+  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,

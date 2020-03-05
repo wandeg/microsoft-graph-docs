@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-Length: 326
 
 {
   "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-  "id": "3483517d-517d-3483-7d51-83347d518334",
+  "id": "ddc8c2c5-c2c5-ddc8-c5c2-c8ddc5c2c8dd",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

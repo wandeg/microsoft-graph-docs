@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookRangeFont](../resources/workbookrangefont.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -97,7 +97,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFont",
-  "id": "f9835c78-5c78-f983-785c-83f9785c83f9",
+  "id": "3de50d28-0d28-3de5-280d-e53d280de53d",
   "bold": true,
   "color": "Color value",
   "italic": true,

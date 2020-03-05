@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -67,7 +67,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [macOSGeneralDeviceConfiguration](../resources/macosgeneraldeviceconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -121,13 +121,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1059
+Content-Length: 1057
 
 {
   "@odata.type": "#microsoft.graph.macOSGeneralDeviceConfiguration",
-  "id": "b0c52d32-2d32-b0c5-322d-c5b0322dc5b0",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "id": "eca7a7c8-a7c8-eca7-c8a7-a7ecc8a7a7ec",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

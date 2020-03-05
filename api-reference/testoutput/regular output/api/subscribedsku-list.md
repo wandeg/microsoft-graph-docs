@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [subscribedSku](../resources/subscribedsku.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 887
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscribedSku",
-      "id": "beea82fe-82fe-beea-fe82-eabefe82eabe",
+      "id": "5b7a896f-896f-5b7a-6f89-7a5b6f897a5b",
       "capabilityStatus": "Capability Status value",
       "consumedUnits": 13,
       "prepaidUnits": {
@@ -84,13 +84,13 @@ Content-Length: 887
       "servicePlans": [
         {
           "@odata.type": "microsoft.graph.servicePlanInfo",
-          "servicePlanId": "52357315-7315-5235-1573-355215733552",
+          "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
           "servicePlanName": "Service Plan Name value",
           "provisioningStatus": "Provisioning Status value",
           "appliesTo": "Applies To value"
         }
       ],
-      "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
+      "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
       "skuPartNumber": "Sku Part Number value",
       "appliesTo": "Applies To value"
     }

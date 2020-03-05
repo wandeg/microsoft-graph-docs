@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [roleDefinition](../resources/roledefinition.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 746
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleDefinition",
-      "id": "04e454a2-54a2-04e4-a254-e404a254e404",
+      "id": "92003327-3327-9200-2733-009227330092",
       "displayName": "Display Name value",
       "description": "Description value",
       "rolePermissions": [

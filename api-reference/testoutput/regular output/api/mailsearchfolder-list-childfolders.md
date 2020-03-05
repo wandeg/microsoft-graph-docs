@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [mailFolder](../resources/mailfolder.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 326
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailFolder",
-      "id": "ebf868c5-68c5-ebf8-c568-f8ebc568f8eb",
+      "id": "d94961bc-61bc-d949-bc61-49d9bc6149d9",
       "displayName": "Display Name value",
       "parentFolderId": "Parent Folder Id value",
       "childFolderCount": 0,

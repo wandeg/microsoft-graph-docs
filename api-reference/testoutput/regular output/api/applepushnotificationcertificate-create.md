@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,13 +68,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest** Collection URI for microsoft.graph.applePushNotificationCertificate not found
 Content-type: application/json
-Content-length: 271
+Content-length: 270
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
   "certificate": "Certificate value"
 }
 ```
@@ -90,15 +90,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 384
+Content-Length: 381
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-  "id": "d02be7c1-e7c1-d02b-c1e7-2bd0c1e72bd0",
+  "id": "76b44430-4430-76b4-3044-b4763044b476",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
   "certificate": "Certificate value"
 }
 ```

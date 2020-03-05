@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [domain](../resources/domain.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 796
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "78727397-7397-7872-9773-727897737278",
+    "id": "eb7d2cab-2cab-eb7d-ab2c-7debab2c7deb",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,
@@ -93,7 +93,7 @@ Content-Length: 796
       "@odata.type": "microsoft.graph.domainState",
       "status": "Status value",
       "operation": "Operation value",
-      "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00"
+      "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00"
     }
   }
 }

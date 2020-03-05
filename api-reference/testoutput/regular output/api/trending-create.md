@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [trending](../resources/trending.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -102,11 +102,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 810
+Content-Length: 808
 
 {
   "@odata.type": "#microsoft.graph.trending",
-  "id": "0095fcb3-fcb3-0095-b3fc-9500b3fc9500",
+  "id": "754a143c-143c-754a-3c14-4a753c144a75",
   "weight": "Double",
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -124,7 +124,7 @@ Content-Length: 810
     "webUrl": "https://example.com/webUrl/",
     "id": "Id value"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
 }
 ```
 

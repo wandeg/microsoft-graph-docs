@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-length: 248
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
 }
 ```
 
@@ -95,12 +95,12 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-  "id": "8e5bc3b8-c3b8-8e5b-b8c3-5b8eb8c35b8e",
+  "id": "b8416387-6387-b841-8763-41b8876341b8",
   "displayName": "Display Name value",
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
 }
 ```
 

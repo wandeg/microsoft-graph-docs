@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [educationClass](../resources/educationclass.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -119,7 +119,7 @@ Content-Length: 818
 
 {
   "@odata.type": "#microsoft.graph.educationClass",
-  "id": "5bbc2802-2802-5bbc-0228-bc5b0228bc5b",
+  "id": "39708ea5-8ea5-3970-a58e-7039a58e7039",
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
   "description": "Description value",

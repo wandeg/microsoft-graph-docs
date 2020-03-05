@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -79,7 +79,7 @@ Content-length: 284
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
   "configurationVersion": 4
 }
 ```
@@ -99,13 +99,13 @@ Content-Length: 333
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceOverview",
-  "id": "0611b854-b854-0611-54b8-110654b81106",
+  "id": "a6ed6042-6042-a6ed-4260-eda64260eda6",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
   "configurationVersion": 4
 }
 ```

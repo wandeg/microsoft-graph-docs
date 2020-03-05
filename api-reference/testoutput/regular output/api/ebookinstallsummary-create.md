@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [eBookInstallSummary](../resources/ebookinstallsummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -97,7 +97,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.eBookInstallSummary",
-  "id": "3f28e37d-e37d-3f28-7de3-283f7de3283f",
+  "id": "c168454f-454f-c168-4f45-68c14f4568c1",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notInstalledDeviceCount": 7,

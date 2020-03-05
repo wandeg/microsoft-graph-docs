@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 138
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartTitleFormat",
-    "id": "3edafe62-fe62-3eda-62fe-da3e62feda3e"
+    "id": "d97b0f26-0f26-d97b-260f-7bd9260f7bd9"
   }
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-length: 297
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
   "configurationVersion": 4
 }
 ```
@@ -97,13 +97,13 @@ Content-Length: 346
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
-  "id": "624a3985-3985-624a-8539-4a6285394a62",
+  "id": "9c6f9f30-9f30-9c6f-309f-6f9c309f6f9c",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2016-12-31T23:58:44.4916815+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
   "configurationVersion": 4
 }
 ```

@@ -86,7 +86,7 @@ Inherits from [entity](../resources/entity.md)
 |sort|[workbookRangeSort](../resources/workbookrangesort.md)||
 |worksheet|[workbookWorksheet](../resources/workbookworksheet.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

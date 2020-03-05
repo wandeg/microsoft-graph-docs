@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 299
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -95,11 +95,11 @@ Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-  "id": "198a34e4-34e4-198a-e434-8a19e4348a19",
+  "id": "ddba7df5-7df5-ddba-f57d-baddf57dbadd",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

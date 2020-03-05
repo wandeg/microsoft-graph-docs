@@ -47,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |posts|[post](../resources/post.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

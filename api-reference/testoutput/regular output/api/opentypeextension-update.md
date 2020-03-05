@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [openTypeExtension](../resources/opentypeextension.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 152
 
 {
   "@odata.type": "#microsoft.graph.openTypeExtension",
-  "id": "02c7db78-db78-02c7-78db-c70278dbc702",
+  "id": "4db1c125-c125-4db1-25c1-b14d25c1b14d",
   "extensionName": "Extension Name value"
 }
 ```

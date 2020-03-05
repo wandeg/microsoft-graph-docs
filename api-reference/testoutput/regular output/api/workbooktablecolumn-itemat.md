@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -49,7 +49,7 @@ The following table shows the parameters that can be used with this function.
 ## Response
 If successful, this function returns a `200 OK` response code and a [workbookTableColumn](../resources/workbooktablecolumn.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-Length: 247
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableColumn",
-    "id": "6f3e4715-4715-6f3e-1547-3e6f15473e6f",
+    "id": "23c7f0e1-f0e1-23c7-e1f0-c723e1f0c723",
     "index": 5,
     "name": "Name value",
     "values": {

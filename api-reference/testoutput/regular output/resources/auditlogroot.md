@@ -44,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |restrictedSignIns|[restrictedSignIn](../resources/restrictedsignin.md) collection||
 |signIns|[signIn](../resources/signin.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

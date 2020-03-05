@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [extensionProperty](../resources/extensionproperty.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 315
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",
@@ -99,8 +99,8 @@ Content-Length: 364
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "id": "8ce95927-5927-8ce9-2759-e98c2759e98c",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "f7914e9e-4e9e-f791-9e4e-91f79e4e91f7",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",

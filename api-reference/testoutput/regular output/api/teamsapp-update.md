@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [teamsApp](../resources/teamsapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.teamsApp",
-  "id": "a02d7124-7124-a02d-2471-2da024712da0",
+  "id": "fabc42d6-42d6-fabc-d642-bcfad642bcfa",
   "externalId": "External Id value",
   "displayName": "Display Name value",
   "distributionMethod": "String"

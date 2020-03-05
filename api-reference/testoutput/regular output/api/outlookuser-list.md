@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [outlookUser](../resources/outlookuser.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 143
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookUser",
-      "id": "6d6a6478-6478-6d6a-7864-6a6d78646a6d"
+      "id": "b1876d2f-6d2f-b187-2f6d-87b12f6d87b1"
     }
   ]
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [participant](../resources/participant.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 1098
   "value": [
     {
       "@odata.type": "#microsoft.graph.participant",
-      "id": "e619f90d-f90d-e619-0df9-19e60df919e6",
+      "id": "f85a15d1-15d1-f85a-d115-5af8d1155af8",
       "info": {
         "@odata.type": "microsoft.graph.participantInfo",
         "identity": {

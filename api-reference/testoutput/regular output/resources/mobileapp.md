@@ -54,7 +54,7 @@ Inherits from [entity](../resources/entity.md)
 |assignments|[mobileAppAssignment](../resources/mobileappassignment.md) collection|The list of group assignments for this mobile app.|
 |categories|[mobileAppCategory](../resources/mobileappcategory.md) collection|The list of categories for this app.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

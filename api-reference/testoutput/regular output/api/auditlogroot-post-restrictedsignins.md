@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -74,7 +74,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [restrictedSignIn](../resources/restrictedsignin.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -150,7 +150,7 @@ Content-length: 2019
   ],
   "resourceDisplayName": "Resource Display Name value",
   "resourceId": "Resource Id value",
-  "targetTenantId": "db0b800f-800f-db0b-0f80-0bdb0f800bdb"
+  "targetTenantId": "711ab416-b416-711a-16b4-1a7116b41a71"
 }
 ```
 
@@ -169,8 +169,8 @@ Content-Length: 2127
 
 {
   "@odata.type": "#microsoft.graph.restrictedSignIn",
-  "id": "f33f9634-9634-f33f-3496-3ff334963ff3",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "id": "0b687367-7367-0b68-6773-680b6773680b",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",
@@ -231,7 +231,7 @@ Content-Length: 2127
   ],
   "resourceDisplayName": "Resource Display Name value",
   "resourceId": "Resource Id value",
-  "targetTenantId": "db0b800f-800f-db0b-0f80-0bdb0f800bdb"
+  "targetTenantId": "711ab416-b416-711a-16b4-1a7116b41a71"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -89,7 +89,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [contact](../resources/contact.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -110,7 +110,7 @@ Content-length: 1903
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2016-12-31T23:58:42.1908479+03:00",
+  "birthday": "2017-01-01T00:02:22.3143308+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
@@ -181,19 +181,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2075
+Content-Length: 2073
 
 {
   "@odata.type": "#microsoft.graph.contact",
-  "id": "0140fa97-fa97-0140-97fa-400197fa4001",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "id": "b432c268-c268-b432-68c2-32b468c232b4",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2016-12-31T23:58:42.1908479+03:00",
+  "birthday": "2017-01-01T00:02:22.3143308+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",

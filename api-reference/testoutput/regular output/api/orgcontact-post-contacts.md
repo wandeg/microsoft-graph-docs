@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [orgContact](../resources/orgcontact.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-length: 1425
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -102,14 +102,14 @@ Content-length: 1425
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
+      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
     }
   ],
   "phones": [
@@ -143,8 +143,8 @@ Content-Length: 1474
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "id": "3900c3cd-c3cd-3900-cdc3-0039cdc30039",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "5077ab57-ab57-5077-57ab-775057ab7750",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -164,14 +164,14 @@ Content-Length: 1474
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
+      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
     }
   ],
   "phones": [

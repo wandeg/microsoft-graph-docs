@@ -66,7 +66,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |root|[driveItem](../resources/driveitem.md)||
 |special|[driveItem](../resources/driveitem.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

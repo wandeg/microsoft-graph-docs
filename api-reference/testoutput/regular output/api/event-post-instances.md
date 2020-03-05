@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -84,7 +84,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [event](../resources/event.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,7 +96,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/messages/{messageId}/microsoft.graph.eventMessage/event/instances
 Content-type: application/json
-Content-length: 3315
+Content-length: 3314
 
 {
   "@odata.type": "#microsoft.graph.event",
@@ -109,7 +109,7 @@ Content-length: 3315
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:01:11.7055184+03:00"
+    "time": "2017-01-01T00:02:31.0875458+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -129,7 +129,7 @@ Content-length: 3315
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2016-12-31T23:56:38.5000578+03:00",
+  "originalStart": "2016-12-31T23:58:27.339606+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
@@ -226,13 +226,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3487
+Content-Length: 3484
 
 {
   "@odata.type": "#microsoft.graph.event",
-  "id": "c5d42468-2468-c5d4-6824-d4c56824d4c5",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "id": "ecdb51ec-51ec-ecdb-ec51-dbecec51dbec",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -242,7 +242,7 @@ Content-Length: 3487
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2017-01-01T00:01:11.7055184+03:00"
+    "time": "2017-01-01T00:02:31.0875458+03:00"
   },
   "iCalUId": "ICal UId value",
   "reminderMinutesBeforeStart": 10,
@@ -262,7 +262,7 @@ Content-Length: 3487
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2016-12-31T23:56:38.5000578+03:00",
+  "originalStart": "2016-12-31T23:58:27.339606+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },

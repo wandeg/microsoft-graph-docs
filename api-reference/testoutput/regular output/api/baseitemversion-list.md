@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [baseItemVersion](../resources/baseitemversion.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 812
+Content-Length: 810
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.baseItemVersion",
-      "id": "886072c4-72c4-8860-c472-6088c4726088",
+      "id": "e397a058-a058-e397-58a0-97e358a097e3",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -87,7 +87,7 @@ Content-Length: 812
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

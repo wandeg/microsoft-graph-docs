@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookFunctions](../resources/workbookfunctions.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookFunctions",
-  "id": "bc87b2f8-b2f8-bc87-f8b2-87bcf8b287bc"
+  "id": "43e35525-5525-43e3-2555-e3432555e343"
 }
 ```
 

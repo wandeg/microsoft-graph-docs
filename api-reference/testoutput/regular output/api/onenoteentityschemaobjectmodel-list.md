@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemaobjectmodel.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,9 +72,9 @@ Content-Length: 254
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteEntitySchemaObjectModel",
-      "id": "d9b445f5-45f5-d9b4-f545-b4d9f545b4d9",
+      "id": "bf3a9318-9318-bf3a-1893-3abf18933abf",
       "self": "Self value",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00"
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00"
     }
   ]
 }

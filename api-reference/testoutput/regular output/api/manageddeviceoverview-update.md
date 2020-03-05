@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [managedDeviceOverview](../resources/manageddeviceoverview.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -81,7 +81,7 @@ Content-Length: 734
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceOverview",
-  "id": "b203031c-031c-b203-1c03-03b21c0303b2",
+  "id": "5d7727b3-27b3-5d77-b327-775db327775d",
   "enrolledDeviceCount": 3,
   "mdmEnrolledCount": 0,
   "dualEnrolledDeviceCount": 7,

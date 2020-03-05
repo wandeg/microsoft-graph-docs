@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [sectionGroup](../resources/sectiongroup.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -106,13 +106,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 812
+Content-Length: 810
 
 {
   "@odata.type": "#microsoft.graph.sectionGroup",
-  "id": "694f7bf8-7bf8-694f-f87b-4f69f87b4f69",
+  "id": "881570ee-70ee-8815-ee70-1588ee701588",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -130,7 +130,7 @@ Content-Length: 812
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "sectionsUrl": "https://example.com/sectionsUrl/",
   "sectionGroupsUrl": "https://example.com/sectionGroupsUrl/"
 }

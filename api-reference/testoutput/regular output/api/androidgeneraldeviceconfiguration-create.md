@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -104,7 +104,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [androidGeneralDeviceConfiguration](../resources/androidgeneraldeviceconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -209,13 +209,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2551
+Content-Length: 2549
 
 {
   "@odata.type": "#microsoft.graph.androidGeneralDeviceConfiguration",
-  "id": "60c6b7ef-b7ef-60c6-efb7-c660efb7c660",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "id": "e2f37970-7970-e2f3-7079-f3e27079f3e2",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [directory](../resources/directory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.directory",
-  "id": "234a9d5e-9d5e-234a-5e9d-4a235e9d4a23"
+  "id": "5d568a18-8a18-5d56-188a-565d188a565d"
 }
 ```
 

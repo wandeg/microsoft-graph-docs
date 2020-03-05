@@ -63,7 +63,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |items|[listItem](../resources/listitem.md) collection||
 |lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

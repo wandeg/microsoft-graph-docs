@@ -47,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |details|[plannerPlanDetails](../resources/plannerplandetails.md)||
 |tasks|[plannerTask](../resources/plannertask.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

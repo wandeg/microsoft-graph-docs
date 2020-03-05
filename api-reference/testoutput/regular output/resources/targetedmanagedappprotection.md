@@ -69,7 +69,7 @@ Inherits from [managedAppProtection](../resources/managedappprotection.md)
 |:---|:---|:---|
 |assignments|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Navigation property to list of inclusion and exclusion groups to which the policy is deployed.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

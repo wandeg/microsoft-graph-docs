@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [managedMobileApp](../resources/managedmobileapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-Length: 230
 
 {
   "@odata.type": "#microsoft.graph.managedMobileApp",
-  "id": "f7e00a46-0a46-f7e0-460a-e0f7460ae0f7",
+  "id": "b08b8684-8684-b08b-8486-8bb084868bb0",
   "mobileAppIdentifier": {
     "@odata.type": "microsoft.graph.mobileAppIdentifier"
   },

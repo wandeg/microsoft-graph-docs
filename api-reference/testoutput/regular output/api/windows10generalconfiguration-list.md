@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windows10GeneralConfiguration](../resources/windows10generalconfiguration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 10960
+Content-Length: 10958
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windows10GeneralConfiguration",
-      "id": "a55a141d-141d-a55a-1d14-5aa51d145aa5",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "id": "552dde43-de43-552d-43de-2d5543de2d55",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
@@ -156,8 +156,8 @@ Content-Length: 10960
       "defenderScanScriptsLoadedInInternetExplorer": true,
       "defenderSignatureUpdateIntervalInHours": 6,
       "defenderScanType": "String",
-      "defenderScheduledScanTime": "11:56:46.4860000",
-      "defenderScheduledQuickScanTime": "11:57:27.6120000",
+      "defenderScheduledScanTime": "11:58:54.5090000",
+      "defenderScheduledQuickScanTime": "11:59:16.5270000",
       "defenderCloudBlockLevel": "String",
       "lockScreenAllowTimeoutConfiguration": true,
       "lockScreenBlockActionCenterNotifications": true,

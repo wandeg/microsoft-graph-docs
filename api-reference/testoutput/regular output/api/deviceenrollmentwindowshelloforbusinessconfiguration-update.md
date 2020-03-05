@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -68,7 +68,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceEnrollmentWindowsHelloForBusinessConfiguration](../resources/deviceenrollmentwindowshelloforbusinessconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -113,16 +113,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 793
+Content-Length: 791
 
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentWindowsHelloForBusinessConfiguration",
-  "id": "41c0297d-297d-41c0-7d29-c0417d29c041",
+  "id": "1a5194df-94df-1a51-df94-511adf94511a",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "version": 7,
   "pinMinimumLength": 0,
   "pinMaximumLength": 0,

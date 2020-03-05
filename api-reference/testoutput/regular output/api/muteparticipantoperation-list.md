@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [muteParticipantOperation](../resources/muteparticipantoperation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 397
   "value": [
     {
       "@odata.type": "#microsoft.graph.muteParticipantOperation",
-      "id": "b4dc83be-83be-b4dc-be83-dcb4be83dcb4",
+      "id": "f450ca63-ca63-f450-63ca-50f463ca50f4",
       "status": "String",
       "clientContext": "Client Context value",
       "resultInfo": {

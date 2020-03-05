@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [workbookChartAxis](../resources/workbookchartaxis.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 461
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartAxis",
-      "id": "d9c1f300-f300-d9c1-00f3-c1d900f3c1d9",
+      "id": "fde47d29-7d29-fde4-297d-e4fd297de4fd",
       "majorUnit": {
         "@odata.type": "microsoft.graph.Json"
       },

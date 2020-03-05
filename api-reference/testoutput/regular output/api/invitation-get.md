@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [invitation](../resources/invitation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 1018
 {
   "value": {
     "@odata.type": "#microsoft.graph.invitation",
-    "id": "4fc57730-7730-4fc5-3077-c54f3077c54f",
+    "id": "8ff9bd83-bd83-8ff9-83bd-f98f83bdf98f",
     "invitedUserDisplayName": "Invited User Display Name value",
     "invitedUserType": "Invited User Type value",
     "invitedUserEmailAddress": "Invited User Email Address value",

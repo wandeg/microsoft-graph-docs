@@ -44,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |roleAssignments|[roleAssignment](../resources/roleassignment.md) collection|List of Role assignments for this role definition.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

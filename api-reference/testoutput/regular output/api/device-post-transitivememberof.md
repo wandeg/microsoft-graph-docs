@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [directoryObject](../resources/directoryobject.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,7 +68,7 @@ Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
 }
 ```
 
@@ -87,8 +87,8 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "4258748f-748f-4258-8f74-58428f745842",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
+  "id": "875d82c4-82c4-875d-c482-5d87c4825d87",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
 }
 ```
 

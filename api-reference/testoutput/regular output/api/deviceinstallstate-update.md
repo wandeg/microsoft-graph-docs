@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceInstallState](../resources/deviceinstallstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,13 +71,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
 Content-type: application/json
-Content-length: 371
+Content-length: 370
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",
@@ -96,14 +96,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 420
+Content-Length: 419
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
-  "id": "73a9bd88-bd88-73a9-88bd-a97388bda973",
+  "id": "387d819e-819e-387d-9e81-7d389e817d38",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",

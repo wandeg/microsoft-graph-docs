@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -71,7 +71,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [person](../resources/person.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -174,7 +174,7 @@ Content-Length: 2184
 
 {
   "@odata.type": "#microsoft.graph.person",
-  "id": "cce9c8cd-c8cd-cce9-cdc8-e9cccdc8e9cc",
+  "id": "a87aa2bd-a2bd-a87a-bda2-7aa8bda27aa8",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
   "surname": "Surname value",

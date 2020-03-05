@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [itemAttachment](../resources/itemattachment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -90,12 +90,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 269
+Content-Length: 267
 
 {
   "@odata.type": "#microsoft.graph.itemAttachment",
-  "id": "e890895b-895b-e890-5b89-90e85b8990e8",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "id": "06f99630-9630-06f9-3096-f9063096f906",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

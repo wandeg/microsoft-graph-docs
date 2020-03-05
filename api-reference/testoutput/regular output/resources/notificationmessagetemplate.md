@@ -45,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |localizedNotificationMessages|[localizedNotificationMessage](../resources/localizednotificationmessage.md) collection|The list of localized messages for this Notification Message Template.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

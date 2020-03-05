@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -49,7 +49,7 @@ The following table shows the parameters that can be used with this function.
 ## Response
 If successful, this function returns a `200 OK` response code and a [workbookRangeBorder](../resources/workbookrangeborder.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-Length: 260
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeBorder",
-    "id": "1babe856-e856-1bab-56e8-ab1b56e8ab1b",
+    "id": "3d9597d7-97d7-3d95-d797-953dd797953d",
     "color": "Color value",
     "sideIndex": "Side Index value",
     "style": "Style value",

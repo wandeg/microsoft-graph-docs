@@ -42,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |itemActivityStats|[itemActivityStat](../resources/itemactivitystat.md) collection||
 |lastSevenDays|[itemActivityStat](../resources/itemactivitystat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

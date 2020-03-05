@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-  "id": "b67508b0-08b0-b675-b008-75b6b00875b6",
+  "id": "55deab83-ab83-55de-83ab-de5583abde55",
   "classifyAs": "String",
   "senderEmailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [termsAndConditions](../resources/termsandconditions.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 518
+Content-Length: 516
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.termsAndConditions",
-      "id": "36e2b527-b527-36e2-27b5-e23627b5e236",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "id": "3a20da4e-da4e-3a20-4eda-203a4eda203a",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "displayName": "Display Name value",
       "description": "Description value",
       "title": "Title value",

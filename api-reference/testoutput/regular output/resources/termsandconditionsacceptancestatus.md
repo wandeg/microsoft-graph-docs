@@ -40,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |termsAndConditions|[termsAndConditions](../resources/termsandconditions.md)|Navigation link to the terms and conditions that are assigned.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

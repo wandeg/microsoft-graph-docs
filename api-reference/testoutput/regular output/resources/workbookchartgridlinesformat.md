@@ -37,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |line|[workbookChartLineFormat](../resources/workbookchartlineformat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

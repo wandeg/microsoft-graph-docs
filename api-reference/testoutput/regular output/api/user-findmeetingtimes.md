@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/me/findMeetingTimes
 
 Content-type: application/json
-Content-length: 774
+Content-length: 776
 
 {
   "attendees": [
@@ -100,7 +100,7 @@ Content-length: 774
       }
     ]
   },
-  "meetingDuration": "-PT59.6541803S",
+  "meetingDuration": "-PT3M26.0128908S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,

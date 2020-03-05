@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [teamsAppInstallation](../resources/teamsappinstallation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 152
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAppInstallation",
-      "id": "e6ad0a4a-0a4a-e6ad-4a0a-ade64a0aade6"
+      "id": "0b4b9392-9392-0b4b-9293-4b0b92934b0b"
     }
   ]
 }

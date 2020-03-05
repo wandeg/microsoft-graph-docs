@@ -40,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |format|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

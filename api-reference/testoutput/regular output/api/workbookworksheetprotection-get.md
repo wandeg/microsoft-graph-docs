@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 629
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-    "id": "7d271100-1100-7d27-0011-277d0011277d",
+    "id": "2694d3f1-d3f1-2694-f1d3-9426f1d39426",
     "options": {
       "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
       "allowAutoFilter": true,

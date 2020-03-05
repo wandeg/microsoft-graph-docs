@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,13 +74,13 @@ Content-Length: 525
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-    "id": "00406728-6728-0040-2867-400028674000",
+    "id": "084ba0cc-a0cc-084b-cca0-4b08cca04b08",
     "deviceDisplayName": "Device Display Name value",
     "userName": "User Name value",
     "deviceModel": "Device Model value",
-    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
+    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
     "status": "String",
-    "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+    "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

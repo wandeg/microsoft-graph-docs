@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -65,7 +65,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [list](../resources/list.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -142,11 +142,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1695
+Content-Length: 1693
 
 {
   "@odata.type": "#microsoft.graph.list",
-  "id": "03b21866-1866-03b2-6618-b2036618b203",
+  "id": "b28a69e8-69e8-b28a-e869-8ab2e8698ab2",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -161,13 +161,13 @@ Content-Length: 1695
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

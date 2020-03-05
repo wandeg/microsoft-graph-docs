@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [mobileAppAssignment](../resources/mobileappassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 357
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileAppAssignment",
-    "id": "c1cef1af-f1af-c1ce-aff1-cec1aff1cec1",
+    "id": "47ca0b4e-0b4e-47ca-4e0b-ca474e0bca47",
     "intent": "String",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

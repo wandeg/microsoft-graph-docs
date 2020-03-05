@@ -74,7 +74,7 @@ Inherits from [windowsInformationProtection](../resources/windowsinformationprot
 |exemptAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input exempt apps through xml files Inherited from [windowsInformationProtection](../resources/windowsinformationprotection.md)|
 |protectedAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input protected apps through xml files Inherited from [windowsInformationProtection](../resources/windowsinformationprotection.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

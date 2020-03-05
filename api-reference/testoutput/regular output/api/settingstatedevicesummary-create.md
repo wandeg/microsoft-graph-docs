@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -104,7 +104,7 @@ Content-Length: 409
 
 {
   "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-  "id": "5997ee9e-ee9e-5997-9eee-97599eee9759",
+  "id": "abcaa2bb-a2bb-abca-bba2-caabbba2caab",
   "settingName": "Setting Name value",
   "instancePath": "Instance Path value",
   "unknownDeviceCount": 2,

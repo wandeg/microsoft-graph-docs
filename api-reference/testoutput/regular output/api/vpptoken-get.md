@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [vppToken](../resources/vpptoken.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 613
+Content-Length: 609
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.vppToken",
-    "id": "d862e34f-e34f-d862-4fe3-62d84fe362d8",
+    "id": "17fa936a-936a-17fa-6a93-fa176a93fa17",
     "organizationName": "Organization Name value",
     "vppTokenAccountType": "String",
     "appleId": "Apple Id value",
-    "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
-    "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+    "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
     "token": "Token value",
-    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
     "state": "String",
     "lastSyncStatus": "String",
     "automaticallyUpdateApps": true,

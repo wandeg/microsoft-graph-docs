@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [roleAssignment](../resources/roleassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 275
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleAssignment",
-    "id": "4f7c1598-1598-4f7c-9815-7c4f98157c4f",
+    "id": "60194e24-4e24-6019-244e-1960244e1960",
     "displayName": "Display Name value",
     "description": "Description value",
     "resourceScopes": [

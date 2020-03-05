@@ -44,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |managedDevices|[managedDevice](../resources/manageddevice.md) collection|The devices that have the discovered application installed|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

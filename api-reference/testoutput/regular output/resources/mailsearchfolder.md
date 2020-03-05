@@ -61,7 +61,7 @@ Inherits from [mailFolder](../resources/mailfolder.md)
 |multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection| Inherited from [mailFolder](../resources/mailfolder.md)|
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection| Inherited from [mailFolder](../resources/mailfolder.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

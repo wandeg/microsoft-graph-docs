@@ -42,7 +42,7 @@ Inherits from [attachment](../resources/attachment.md)
 |:---|:---|:---|
 |item|[outlookItem](../resources/outlookitem.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

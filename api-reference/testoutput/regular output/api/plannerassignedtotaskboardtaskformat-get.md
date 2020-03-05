@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 316
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-    "id": "e92c0e90-0e90-e92c-900e-2ce9900e2ce9",
+    "id": "6f7d337c-337c-6f7d-7c33-7d6f7c337d6f",
     "unassignedOrderHint": "Unassigned Order Hint value",
     "orderHintsByAssignee": {
       "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

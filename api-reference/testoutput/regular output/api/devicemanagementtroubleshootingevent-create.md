@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,7 +69,7 @@ Content-length: 179
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
+  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
   "correlationId": "Correlation Id value"
 }
 ```
@@ -89,8 +89,8 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "dff73b94-3b94-dff7-943b-f7df943bf7df",
-  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
+  "id": "72d71f13-1f13-72d7-131f-d772131fd772",
+  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
   "correlationId": "Correlation Id value"
 }
 ```

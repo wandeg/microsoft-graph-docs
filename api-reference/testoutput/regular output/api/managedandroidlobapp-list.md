@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [managedAndroidLobApp](../resources/managedandroidlobapp.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1498
+Content-Length: 1496
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAndroidLobApp",
-      "id": "5d79711f-711f-5d79-1f71-795d1f71795d",
+      "id": "23a32048-2048-23a3-4820-a3234820a323",
       "displayName": "Display Name value",
       "description": "Description value",
       "publisher": "Publisher value",
@@ -81,8 +81,8 @@ Content-Length: 1498
         "type": "Type value",
         "value": "dmFsdWU="
       },
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "isFeatured": true,
       "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
       "informationUrl": "https://example.com/informationUrl/",

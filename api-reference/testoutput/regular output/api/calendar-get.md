@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [calendar](../resources/calendar.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -81,7 +81,7 @@ Content-Length: 402
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendar",
-    "id": "45b50afd-0afd-45b5-fd0a-b545fd0ab545",
+    "id": "8ff71d79-1d79-8ff7-791d-f78f791df78f",
     "name": "Name value",
     "color": "String",
     "changeKey": "Change Key value",

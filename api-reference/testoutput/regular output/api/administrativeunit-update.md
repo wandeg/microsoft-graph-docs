@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [administrativeUnit](../resources/administrativeunit.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,7 +67,7 @@ Content-length: 119
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
 }
 ```
 
@@ -85,8 +85,8 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "id": "55c4936f-936f-55c4-6f93-c4556f93c455",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00"
+  "id": "e9ca2e59-2e59-e9ca-592e-cae9592ecae9",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
 }
 ```
 

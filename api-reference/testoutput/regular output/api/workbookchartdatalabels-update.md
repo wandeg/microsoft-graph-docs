@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "ffe54dd0-4dd0-ffe5-d04d-e5ffd04de5ff",
+  "id": "b12608f6-08f6-b126-f608-26b1f60826b1",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

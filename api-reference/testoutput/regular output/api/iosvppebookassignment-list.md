@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [iosVppEBookAssignment](../resources/iosvppebookassignment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 297
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosVppEBookAssignment",
-      "id": "e7a6c715-c715-e7a6-15c7-a6e715c7a6e7",
+      "id": "f302a1ae-a1ae-f302-aea1-02f3aea102f3",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

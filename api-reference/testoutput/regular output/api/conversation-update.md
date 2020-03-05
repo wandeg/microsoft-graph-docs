@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [conversation](../resources/conversation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 260
   "@odata.type": "#microsoft.graph.conversation",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -96,10 +96,10 @@ Content-Length: 309
 
 {
   "@odata.type": "#microsoft.graph.conversation",
-  "id": "748f01ba-01ba-748f-ba01-8f74ba018f74",
+  "id": "9db8ecd0-ecd0-9db8-d0ec-b89dd0ecb89d",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

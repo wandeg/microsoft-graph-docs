@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onlineMeeting](../resources/onlinemeeting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,9 +76,9 @@ Content-length: 1579
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2017-01-01T00:01:06.9204965+03:00",
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
+  "creationDateTime": "2016-12-31T23:58:38.0185656+03:00",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {
@@ -139,10 +139,10 @@ Content-Length: 1628
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "8473229a-229a-8473-9a22-73849a227384",
-  "creationDateTime": "2017-01-01T00:01:06.9204965+03:00",
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
+  "id": "77685f3d-5f3d-7768-3d5f-68773d5f6877",
+  "creationDateTime": "2016-12-31T23:58:38.0185656+03:00",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {

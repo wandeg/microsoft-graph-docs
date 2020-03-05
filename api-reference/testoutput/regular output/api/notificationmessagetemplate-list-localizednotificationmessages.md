@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [localizedNotificationMessage](../resources/localizednotificationmessage.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 374
+Content-Length: 372
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-      "id": "c589d29b-d29b-c589-9bd2-89c59bd289c5",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "id": "0b136c6b-6c6b-0b13-6b6c-130b6b6c130b",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "locale": "Locale value",
       "subject": "Subject value",
       "messageTemplate": "Message Template value",

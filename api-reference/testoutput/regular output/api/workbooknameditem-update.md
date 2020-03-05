@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookNamedItem](../resources/workbooknameditem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,7 +98,7 @@ Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.workbookNamedItem",
-  "id": "ffba898b-898b-ffba-8b89-baff8b89baff",
+  "id": "815ef7e7-f7e7-815e-e7f7-5e81e7f75e81",
   "comment": "Comment value",
   "name": "Name value",
   "scope": "Scope value",

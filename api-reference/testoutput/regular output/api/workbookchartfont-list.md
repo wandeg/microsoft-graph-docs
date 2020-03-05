@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [workbookChartFont](../resources/workbookchartfont.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChartFont",
-      "id": "7ad3051b-051b-7ad3-1b05-d37a1b05d37a",
+      "id": "411247c2-47c2-4112-c247-1241c2471241",
       "bold": true,
       "color": "Color value",
       "italic": true,

@@ -41,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |secureScoreControlProfiles|[secureScoreControlProfile](../resources/securescorecontrolprofile.md) collection||
 |secureScores|[secureScore](../resources/securescore.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

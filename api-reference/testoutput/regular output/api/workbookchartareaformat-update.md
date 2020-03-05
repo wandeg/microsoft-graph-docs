@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookChartAreaFormat](../resources/workbookchartareaformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAreaFormat",
-  "id": "01a4986e-986e-01a4-6e98-a4016e98a401"
+  "id": "227b31f3-31f3-227b-f331-7b22f3317b22"
 }
 ```
 

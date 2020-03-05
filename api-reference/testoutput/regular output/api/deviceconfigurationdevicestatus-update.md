@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceConfigurationDeviceStatus](../resources/deviceconfigurationdevicestatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,9 +76,9 @@ Content-length: 423
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -97,13 +97,13 @@ Content-Length: 472
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStatus",
-  "id": "03784fa4-4fa4-0378-a44f-7803a44f7803",
+  "id": "d67f1cf4-1cf4-d67f-f41c-7fd6f41c7fd6",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:57:57.7265241+03:00",
+  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

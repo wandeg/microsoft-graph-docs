@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [subscribedSku](../resources/subscribedsku.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,13 +85,13 @@ Content-length: 717
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "52357315-7315-5235-1573-355215733552",
+      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
+  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }
@@ -112,7 +112,7 @@ Content-Length: 766
 
 {
   "@odata.type": "#microsoft.graph.subscribedSku",
-  "id": "beea82fe-82fe-beea-fe82-eabefe82eabe",
+  "id": "5b7a896f-896f-5b7a-6f89-7a5b6f897a5b",
   "capabilityStatus": "Capability Status value",
   "consumedUnits": 13,
   "prepaidUnits": {
@@ -124,13 +124,13 @@ Content-Length: 766
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "52357315-7315-5235-1573-355215733552",
+      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
+  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
   "skuPartNumber": "Sku Part Number value",
   "appliesTo": "Applies To value"
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [groupSettingTemplate](../resources/groupsettingtemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 400
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [
@@ -98,8 +98,8 @@ Content-Length: 449
 
 {
   "@odata.type": "#microsoft.graph.groupSettingTemplate",
-  "id": "e2439822-9822-e243-2298-43e2229843e2",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "e7de2e03-2e03-e7de-032e-dee7032edee7",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "values": [

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -69,7 +69,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -109,7 +109,7 @@ Content-length: 1565
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:35.6643671+03:00"
+      "updatedDateTime": "2016-12-31T23:56:27.5930183+03:00"
     }
   ],
   "deprecated": true,
@@ -145,11 +145,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1678
+Content-Length: 1676
 
 {
   "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-  "id": "4a05e02b-e02b-4a05-2be0-054a2be0054a",
+  "id": "0e5ab29c-b29c-0e5a-9cb2-5a0e9cb25a0e",
   "actionType": "Action Type value",
   "actionUrl": "https://example.com/actionUrl/",
   "azureTenantId": "Azure Tenant Id value",
@@ -174,12 +174,12 @@ Content-Length: 1678
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:35.6643671+03:00"
+      "updatedDateTime": "2016-12-31T23:56:27.5930183+03:00"
     }
   ],
   "deprecated": true,
   "implementationCost": "Implementation Cost value",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "maxScore": "Double",
   "rank": 4,
   "remediation": "Remediation value",

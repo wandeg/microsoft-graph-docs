@@ -66,7 +66,7 @@ Inherits from [managedMobileLobApp](../resources/managedmobilelobapp.md)
 |categories|[mobileAppCategory](../resources/mobileappcategory.md) collection|The list of categories for this app. Inherited from [mobileApp](../resources/mobileapp.md)|
 |contentVersions|[mobileAppContent](../resources/mobileappcontent.md) collection|The list of content versions for this app. Inherited from [managedMobileLobApp](../resources/managedmobilelobapp.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

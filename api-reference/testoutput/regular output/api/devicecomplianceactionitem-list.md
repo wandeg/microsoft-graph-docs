@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 379
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-      "id": "d9f03933-3933-d9f0-3339-f0d93339f0d9",
+      "id": "17d2b183-b183-17d2-83b1-d21783b1d217",
       "gracePeriodHours": 0,
       "actionType": "String",
       "notificationTemplateId": "Notification Template Id value",

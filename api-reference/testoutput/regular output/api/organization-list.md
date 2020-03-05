@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [organization](../resources/organization.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,21 +66,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2328
+Content-Length: 2327
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.organization",
-      "id": "bcc29526-9526-bcc2-2695-c2bc2695c2bc",
-      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+      "id": "0e36e1aa-e1aa-0e36-aae1-360eaae1360e",
+      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
       "assignedPlans": [
         {
           "@odata.type": "microsoft.graph.assignedPlan",
-          "assignedDateTime": "2016-12-31T23:58:03.2183148+03:00",
+          "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
           "capabilityStatus": "Capability Status value",
           "service": "Service value",
-          "servicePlanId": "52357315-7315-5235-1573-355215733552"
+          "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
         }
       ],
       "businessPhones": [
@@ -89,13 +89,13 @@ Content-Length: 2328
       "city": "City value",
       "country": "Country value",
       "countryLetterCode": "Country Letter Code value",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "creationType": "Creation Type value",
       "displayName": "Display Name value",
       "marketingNotificationEmails": [
         "Marketing Notification Emails value"
       ],
-      "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
       "onPremisesSyncEnabled": true,
       "postalCode": "Postal Code value",
       "preferredLanguage": "Preferred Language value",

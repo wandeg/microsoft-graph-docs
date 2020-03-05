@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 139
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartSeriesFormat",
-    "id": "73d104cb-04cb-73d1-cb04-d173cb04d173"
+    "id": "035afda4-fda4-035a-a4fd-5a03a4fd5a03"
   }
 }
 ```

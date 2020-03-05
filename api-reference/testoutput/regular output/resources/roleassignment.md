@@ -40,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |roleDefinition|[roleDefinition](../resources/roledefinition.md)|Role definition this assignment is part of.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

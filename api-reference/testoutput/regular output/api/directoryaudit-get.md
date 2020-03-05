@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [directoryAudit](../resources/directoryaudit.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1645
+Content-Length: 1646
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryAudit",
-    "id": "63e65bd8-5bd8-63e6-d85b-e663d85be663",
+    "id": "6434ec60-ec60-6434-60ec-346460ec3464",
     "category": "Category value",
     "correlationId": "Correlation Id value",
     "result": "String",
     "resultReason": "Result Reason value",
     "activityDisplayName": "Activity Display Name value",
-    "activityDateTime": "2016-12-31T23:59:16.402395+03:00",
+    "activityDateTime": "2016-12-31T23:58:23.4819138+03:00",
     "loggedByService": "Logged By Service value",
     "operationType": "Operation Type value",
     "initiatedBy": {

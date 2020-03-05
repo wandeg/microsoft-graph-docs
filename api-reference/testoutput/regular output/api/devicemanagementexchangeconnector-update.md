@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,11 +71,11 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
 Content-type: application/json
-Content-length: 479
+Content-length: 478
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",
@@ -97,12 +97,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 528
+Content-Length: 527
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "id": "e7f154f6-54f6-e7f1-f654-f1e7f654f1e7",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "id": "a5ccd1c4-d1c4-a5cc-c4d1-cca5c4d1cca5",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",

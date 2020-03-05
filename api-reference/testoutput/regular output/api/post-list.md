@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [post](../resources/post.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1167
+Content-Length: 1165
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.post",
-      "id": "d140b451-b451-d140-51b4-40d151b440d1",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "id": "54407219-7219-5440-1972-405419724054",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -84,7 +84,7 @@ Content-Length: 1167
         "contentType": "String",
         "content": "Content value"
       },
-      "receivedDateTime": "2017-01-01T00:02:17.8932513+03:00",
+      "receivedDateTime": "2017-01-01T00:02:50.2294959+03:00",
       "hasAttachments": true,
       "from": {
         "@odata.type": "microsoft.graph.recipient",

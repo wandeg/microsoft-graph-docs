@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [columnLink](../resources/columnlink.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 126
 
 {
   "@odata.type": "#microsoft.graph.columnLink",
-  "id": "d2f3286c-286c-d2f3-6c28-f3d26c28f3d2",
+  "id": "1fbeeddb-eddb-1fbe-dbed-be1fdbedbe1f",
   "name": "Name value"
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [domainDnsUnavailableRecord](../resources/domaindnsunavailablerecord.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 372
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsUnavailableRecord",
-      "id": "9ae9cded-cded-9ae9-edcd-e99aedcde99a",
+      "id": "a0857dd9-7dd9-a085-d97d-85a0d97d85a0",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [userActivity](../resources/useractivity.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1436
+Content-Length: 1433
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.userActivity",
-      "id": "90b079cd-79cd-90b0-cd79-b090cd79b090",
+      "id": "f0541f20-1f20-f054-201f-54f0201f54f0",
       "visualElements": {
         "@odata.type": "microsoft.graph.visualInfo",
         "attribution": {
@@ -95,10 +95,10 @@ Content-Length: 1436
       "appActivityId": "App Activity Id value",
       "appDisplayName": "App Display Name value",
       "contentUrl": "https://example.com/contentUrl/",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
       "fallbackUrl": "https://example.com/fallbackUrl/",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "userTimezone": "User Timezone value",
       "contentInfo": {
         "@odata.type": "microsoft.graph.Json"

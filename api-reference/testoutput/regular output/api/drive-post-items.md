@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -82,7 +82,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [driveItem](../resources/driveitem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -170,7 +170,7 @@ Content-length: 4666
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -206,7 +206,7 @@ Content-length: 4666
     "fNumber": "Double",
     "focalLength": "Double",
     "iso": 3,
-    "takenDateTime": "2017-01-01T00:02:24.7809742+03:00"
+    "takenDateTime": "2016-12-31T23:59:38.7576583+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -224,7 +224,7 @@ Content-length: 4666
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00"
+      "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00"
     },
     "size": 4,
     "specialFolder": {
@@ -274,11 +274,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 4917
+Content-Length: 4915
 
 {
   "@odata.type": "#microsoft.graph.driveItem",
-  "id": "902a318b-318b-902a-8b31-2a908b312a90",
+  "id": "ecadcec1-cec1-ecad-c1ce-adecc1ceadec",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -293,13 +293,13 @@ Content-Length: 4917
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",
@@ -356,7 +356,7 @@ Content-Length: 4917
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -392,7 +392,7 @@ Content-Length: 4917
     "fNumber": "Double",
     "focalLength": "Double",
     "iso": 3,
-    "takenDateTime": "2017-01-01T00:02:24.7809742+03:00"
+    "takenDateTime": "2016-12-31T23:59:38.7576583+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -410,7 +410,7 @@ Content-Length: 4917
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00"
+      "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00"
     },
     "size": 4,
     "specialFolder": {

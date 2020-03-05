@@ -79,7 +79,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |extensionProperties|[extensionProperty](../resources/extensionproperty.md) collection||
 |owners|[directoryObject](../resources/directoryobject.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

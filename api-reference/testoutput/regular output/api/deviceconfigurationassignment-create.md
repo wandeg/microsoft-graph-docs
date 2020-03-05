@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 218
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-  "id": "c0651d76-1d76-c065-761d-65c0761d65c0",
+  "id": "b6559a97-9a97-b655-979a-55b6979a55b6",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

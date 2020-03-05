@@ -58,7 +58,7 @@ Inherits from [entity](../resources/entity.md)
 |protection|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)||
 |tables|[workbookTable](../resources/workbooktable.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

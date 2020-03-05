@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onenoteOperation](../resources/onenoteoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 419
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
+  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {
@@ -102,10 +102,10 @@ Content-Length: 527
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
-  "id": "fd0f59cb-59cb-fd0f-cb59-0ffdcb590ffd",
+  "id": "ca042d37-2d37-ca04-372d-04ca372d04ca",
   "status": "String",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {

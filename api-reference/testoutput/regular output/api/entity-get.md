@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [entity](../resources/entity.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 120
 {
   "value": {
     "@odata.type": "#microsoft.graph.entity",
-    "id": "0ca741e9-41e9-0ca7-e941-a70ce941a70c"
+    "id": "5e8de4eb-e4eb-5e8d-ebe4-8d5eebe48d5e"
   }
 }
 ```

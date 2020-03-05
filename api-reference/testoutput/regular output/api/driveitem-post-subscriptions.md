@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [subscription](../resources/subscription.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/workbooks/{workbooksId}/subscriptions
 Content-type: application/json
-Content-length: 369
+Content-length: 368
 
 {
   "@odata.type": "#microsoft.graph.subscription",
@@ -79,7 +79,7 @@ Content-length: 369
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }
@@ -96,16 +96,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 418
+Content-Length: 417
 
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "ed12022e-022e-ed12-2e02-12ed2e0212ed",
+  "id": "ad4dda8e-da8e-ad4d-8eda-4dad8eda4dad",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
+  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }

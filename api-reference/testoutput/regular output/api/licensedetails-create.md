@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [licenseDetails](../resources/licensedetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,13 +74,13 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "52357315-7315-5235-1573-355215733552",
+      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
+  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
@@ -100,17 +100,17 @@ Content-Length: 514
 
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "2fc67f94-7f94-2fc6-947f-c62f947fc62f",
+  "id": "6e1cb7b0-b7b0-6e1c-b0b7-1c6eb0b71c6e",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "52357315-7315-5235-1573-355215733552",
+      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca",
+  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

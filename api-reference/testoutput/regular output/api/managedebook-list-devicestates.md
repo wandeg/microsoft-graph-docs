@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceInstallState](../resources/deviceinstallstate.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,16 +66,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 493
+Content-Length: 492
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceInstallState",
-      "id": "73a9bd88-bd88-73a9-88bd-a97388bda973",
+      "id": "387d819e-819e-387d-9e81-7d389e817d38",
       "deviceName": "Device Name value",
       "deviceId": "Device Id value",
-      "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+      "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
       "installState": "String",
       "errorCode": "Error Code value",
       "osVersion": "Os Version value",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [workbookComment](../resources/workbookcomment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 226
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookComment",
-      "id": "a4ab3538-3538-a4ab-3835-aba43835aba4",
+      "id": "a24bf394-f394-a24b-94f3-4ba294f34ba2",
       "content": "Content value",
       "contentType": "Content Type value"
     }

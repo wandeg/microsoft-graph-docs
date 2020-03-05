@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -47,7 +47,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [team](../resources/team.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-Length: 1089
 {
   "value": {
     "@odata.type": "#microsoft.graph.team",
-    "id": "b611287a-287a-b611-7a28-11b67a2811b6",
+    "id": "8151ce38-ce38-8151-38ce-518138ce5181",
     "webUrl": "https://example.com/webUrl/",
     "memberSettings": {
       "@odata.type": "microsoft.graph.teamMemberSettings",

@@ -79,7 +79,7 @@ Inherits from [entity](../resources/entity.md)
 |vppTokens|[vppToken](../resources/vpptoken.md) collection|List of Vpp tokens for this organization.|
 |windowsInformationProtectionPolicies|[windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md) collection|Windows information protection for apps running on devices which are not MDM enrolled.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

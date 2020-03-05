@@ -70,7 +70,7 @@ Inherits from [managedAppPolicy](../resources/managedapppolicy.md)
 |exemptAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input exempt apps through xml files|
 |protectedAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input protected apps through xml files|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

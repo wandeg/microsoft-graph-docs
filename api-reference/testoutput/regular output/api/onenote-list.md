@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [onenote](../resources/onenote.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 139
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenote",
-      "id": "6ecebc59-bc59-6ece-59bc-ce6e59bcce6e"
+      "id": "46c45059-5059-46c4-5950-c4465950c446"
     }
   ]
 }

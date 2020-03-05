@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,7 +80,7 @@ Content-Length: 191
 {
   "value": {
     "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-    "id": "32b7bf37-bf37-32b7-37bf-b73237bfb732",
+    "id": "ff81e7e1-e7e1-ff81-e1e7-81ffe1e781ff",
     "value": [
       "Value value"
     ]

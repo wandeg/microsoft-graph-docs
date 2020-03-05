@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 620
 {
   "value": {
     "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-    "id": "916502ba-02ba-9165-ba02-6591ba026591",
+    "id": "10dc47c0-47c0-10dc-c047-dc10c047dc10",
     "displayName": "Display Name value",
     "compliantDeviceCount": 4,
     "nonCompliantDeviceCount": 7,

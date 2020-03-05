@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [plannerTaskDetails](../resources/plannertaskdetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 388
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerTaskDetails",
-    "id": "c44086a4-86a4-c440-a486-40c4a48640c4",
+    "id": "b8ffec12-ec12-b8ff-12ec-ffb812ecffb8",
     "description": "Description value",
     "previewType": "String",
     "references": {

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -98,7 +98,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [managedDevice](../resources/manageddevice.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -122,12 +122,12 @@ Content-length: 4638
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-      "lastUpdatedDateTime": "2016-12-31T23:59:57.3101317+03:00"
+      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:58:46.4586633+03:00"
     }
   ],
-  "enrolledDateTime": "2016-12-31T23:57:22.9240686+03:00",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "enrolledDateTime": "2017-01-01T00:01:06.6557007+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "operatingSystem": "Operating System value",
   "complianceState": "String",
   "jailBroken": "Jail Broken value",
@@ -135,7 +135,7 @@ Content-length: 4638
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2016-12-31T23:57:11.3470853+03:00",
+  "easActivationDateTime": "2016-12-31T23:59:19.6803418+03:00",
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
   "activationLockBypassCode": "Activation Lock Bypass Code value",
@@ -144,7 +144,7 @@ Content-length: 4638
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:00:54.8628607+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:58.6569964+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -154,7 +154,7 @@ Content-length: 4638
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -175,7 +175,7 @@ Content-length: 4638
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2016-12-31T23:58:25.641759+03:00",
+    "issuedDateTime": "2017-01-01T00:02:52.8967703+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,
@@ -228,7 +228,7 @@ Content-Length: 4687
 
 {
   "@odata.type": "#microsoft.graph.managedDevice",
-  "id": "23ab96bd-96bd-23ab-bd96-ab23bd96ab23",
+  "id": "6f8ea484-a484-6f8e-84a4-8e6f84a48e6f",
   "userId": "User Id value",
   "deviceName": "Device Name value",
   "managedDeviceOwnerType": "String",
@@ -237,12 +237,12 @@ Content-Length: 4687
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-      "lastUpdatedDateTime": "2016-12-31T23:59:57.3101317+03:00"
+      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+      "lastUpdatedDateTime": "2016-12-31T23:58:46.4586633+03:00"
     }
   ],
-  "enrolledDateTime": "2016-12-31T23:57:22.9240686+03:00",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "enrolledDateTime": "2017-01-01T00:01:06.6557007+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "operatingSystem": "Operating System value",
   "complianceState": "String",
   "jailBroken": "Jail Broken value",
@@ -250,7 +250,7 @@ Content-Length: 4687
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2016-12-31T23:57:11.3470853+03:00",
+  "easActivationDateTime": "2016-12-31T23:59:19.6803418+03:00",
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
   "activationLockBypassCode": "Activation Lock Bypass Code value",
@@ -259,7 +259,7 @@ Content-Length: 4687
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:00:54.8628607+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:58.6569964+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -269,7 +269,7 @@ Content-Length: 4687
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:39.2169758+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -290,7 +290,7 @@ Content-Length: 4687
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2016-12-31T23:58:25.641759+03:00",
+    "issuedDateTime": "2017-01-01T00:02:52.8967703+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 524
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-      "id": "b2fc1f1c-1f1c-b2fc-1c1f-fcb21c1ffcb2",
+      "id": "0080b9a7-b9a7-0080-a7b9-8000a7b98000",
       "setting": "Setting value",
       "settingName": "Setting Name value",
       "platformType": "String",

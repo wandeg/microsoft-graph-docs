@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "a68617c8-17c8-a686-c817-86a6c81786a6",
+      "id": "c909e6f5-e6f5-c909-f5e6-09c9f5e609c9",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

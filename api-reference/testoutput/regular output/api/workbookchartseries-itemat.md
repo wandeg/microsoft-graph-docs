@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -49,7 +49,7 @@ The following table shows the parameters that can be used with this function.
 ## Response
 If successful, this function returns a `200 OK` response code and a [workbookChartSeries](../resources/workbookchartseries.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-Length: 160
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartSeries",
-    "id": "6ee6728f-728f-6ee6-8f72-e66e8f72e66e",
+    "id": "b55bc798-c798-b55b-98c7-5bb598c75bb5",
     "name": "Name value"
   }
 }

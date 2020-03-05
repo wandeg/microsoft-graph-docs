@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [directoryObjectPartnerReference](../resources/directoryobjectpartnerreference.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,10 +72,10 @@ Content-length: 319
 
 {
   "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
-  "externalPartnerTenantId": "2064428a-428a-2064-8a42-64208a426420",
+  "externalPartnerTenantId": "189e00e4-00e4-189e-e400-9e18e4009e18",
   "objectType": "Object Type value"
 }
 ```
@@ -95,11 +95,11 @@ Content-Length: 368
 
 {
   "@odata.type": "#microsoft.graph.directoryObjectPartnerReference",
-  "id": "0850d6c0-d6c0-0850-c0d6-5008c0d65008",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "42c43b87-3b87-42c4-873b-c442873bc442",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
-  "externalPartnerTenantId": "2064428a-428a-2064-8a42-64208a426420",
+  "externalPartnerTenantId": "189e00e4-00e4-189e-e400-9e18e4009e18",
   "objectType": "Object Type value"
 }
 ```

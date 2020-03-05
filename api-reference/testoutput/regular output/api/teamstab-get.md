@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [teamsTab](../resources/teamstab.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 508
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsTab",
-    "id": "8381b100-b100-8381-00b1-818300b18183",
+    "id": "2110d502-d502-2110-02d5-102102d51021",
     "displayName": "Display Name value",
     "webUrl": "https://example.com/webUrl/",
     "configuration": {

@@ -51,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 |acceptanceStatuses|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) collection|The list of acceptance statuses for this T&C policy.|
 |assignments|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|The list of assignments for this T&C policy.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

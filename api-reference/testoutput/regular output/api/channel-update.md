@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [channel](../resources/channel.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,7 +92,7 @@ Content-Length: 248
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "a3df3b9a-3b9a-a3df-9a3b-dfa39a3bdfa3",
+  "id": "aaf69d7f-9d7f-aaf6-7f9d-f6aa7f9df6aa",
   "displayName": "Display Name value",
   "description": "Description value",
   "email": "Email value",

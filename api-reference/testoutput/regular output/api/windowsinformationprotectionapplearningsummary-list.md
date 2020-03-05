@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windowsInformationProtectionAppLearningSummary](../resources/windowsinformationprotectionapplearningsummary.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 292
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLearningSummary",
-      "id": "0c359011-9011-0c35-1190-350c1190350c",
+      "id": "5621caef-caef-5621-efca-2156efca2156",
       "applicationName": "Application Name value",
       "applicationType": "String",
       "deviceCount": 11

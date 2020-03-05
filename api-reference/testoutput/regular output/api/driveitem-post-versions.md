@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [driveItemVersion](../resources/driveitemversion.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,11 +94,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 730
+Content-Length: 728
 
 {
   "@odata.type": "#microsoft.graph.driveItemVersion",
-  "id": "8aa18fe9-8fe9-8aa1-e98f-a18ae98fa18a",
+  "id": "875bb8b5-b8b5-875b-b5b8-5b87b5b85b87",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -113,7 +113,7 @@ Content-Length: 730
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
     "level": "Level value",

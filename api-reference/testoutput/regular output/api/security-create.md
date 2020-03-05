@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [security](../resources/security.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.security",
-  "id": "c4f4f496-f496-c4f4-96f4-f4c496f4f4c4"
+  "id": "4f319a07-9a07-4f31-079a-314f079a314f"
 }
 ```
 

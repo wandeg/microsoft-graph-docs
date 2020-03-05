@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [usedInsight](../resources/usedinsight.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1057
+Content-Length: 1055
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.usedInsight",
-      "id": "0675bf76-bf76-0675-76bf-750676bf7506",
+      "id": "a8c36bec-6bec-a8c3-ec6b-c3a8ec6bc3a8",
       "lastUsed": {
         "@odata.type": "microsoft.graph.usageDetails",
-        "lastAccessedDateTime": "2017-01-01T00:01:08.5511699+03:00",
-        "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00",
+        "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
       },
       "resourceVisualization": {
         "@odata.type": "microsoft.graph.resourceVisualization",

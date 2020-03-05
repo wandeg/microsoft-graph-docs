@@ -51,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |historyItems|[activityHistoryItem](../resources/activityhistoryitem.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

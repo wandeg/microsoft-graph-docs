@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookChartAxes](../resources/workbookchartaxes.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxes",
-  "id": "51919e88-9e88-5191-889e-9151889e9151"
+  "id": "ce29ad75-ad75-ce29-75ad-29ce75ad29ce"
 }
 ```
 

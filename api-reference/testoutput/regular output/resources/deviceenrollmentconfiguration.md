@@ -45,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |assignments|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) collection|The list of group assignments for the device configuration profile.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,10 +72,10 @@ Content-Length: 734
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-      "id": "5647c5fd-c5fd-5647-fdc5-4756fdc54756",
+      "id": "ca80d811-d811-ca80-11d8-80ca11d880ca",
       "displayName": "Display Name value",
       "configurationDeployedUserCount": 14,
-      "lastRefreshTime": "2017-01-01T00:00:32.3217667+03:00",
+      "lastRefreshTime": "2016-12-31T23:59:27.6543828+03:00",
       "configurationDeploymentSummaryPerApp": [
         {
           "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

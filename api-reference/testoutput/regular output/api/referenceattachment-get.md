@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [referenceAttachment](../resources/referenceattachment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 307
+Content-Length: 305
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.referenceAttachment",
-    "id": "466e302b-302b-466e-2b30-6e462b306e46",
-    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+    "id": "6432d743-d743-6432-43d7-326443d73264",
+    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
     "name": "Name value",
     "contentType": "Content Type value",
     "size": 4,

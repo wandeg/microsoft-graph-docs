@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceAndAppManagementRoleAssignment](../resources/deviceandappmanagementroleassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 346
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleAssignment",
-    "id": "7cba024a-024a-7cba-4a02-ba7c4a02ba7c",
+    "id": "553dd9fb-d9fb-553d-fbd9-3d55fbd93d55",
     "displayName": "Display Name value",
     "description": "Description value",
     "resourceScopes": [

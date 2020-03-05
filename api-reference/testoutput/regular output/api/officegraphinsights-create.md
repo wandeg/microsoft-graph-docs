@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [officeGraphInsights](../resources/officegraphinsights.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.officeGraphInsights",
-  "id": "2c683a49-3a49-2c68-493a-682c493a682c"
+  "id": "5ea118a8-18a8-5ea1-a818-a15ea818a15e"
 }
 ```
 

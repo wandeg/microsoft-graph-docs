@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [fieldValueSet](../resources/fieldvalueset.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.fieldValueSet",
-  "id": "12f2c1eb-c1eb-12f2-ebc1-f212ebc1f212"
+  "id": "72994bbc-4bbc-7299-bc4b-9972bc4b9972"
 }
 ```
 

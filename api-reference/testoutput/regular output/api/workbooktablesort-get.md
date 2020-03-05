@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookTableSort](../resources/workbooktablesort.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 591
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableSort",
-    "id": "194208b0-08b0-1942-b008-4219b0084219",
+    "id": "d7d09e99-9e99-d7d0-999e-d0d7999ed0d7",
     "fields": [
       {
         "@odata.type": "microsoft.graph.workbookSortField",

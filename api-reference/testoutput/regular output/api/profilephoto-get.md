@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [profilePhoto](../resources/profilephoto.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-Length: 161
 {
   "value": {
     "@odata.type": "#microsoft.graph.profilePhoto",
-    "id": "b39aff58-ff58-b39a-58ff-9ab358ff9ab3",
+    "id": "a24ba7a6-a7a6-a24b-a6a7-4ba2a6a74ba2",
     "height": 6,
     "width": 5
   }

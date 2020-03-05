@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 282
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-      "id": "1905cc10-cc10-1905-10cc-051910cc0519",
+      "id": "b5c0fcca-fcca-b5c0-cafc-c0b5cafcc0b5",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [event](../resources/event.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,15 +76,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1978
+Content-Length: 1975
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "c5d42468-2468-c5d4-6824-d4c56824d4c5",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "id": "ecdb51ec-51ec-ecdb-ec51-dbecec51dbec",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -108,7 +108,7 @@ Content-Length: 1978
       "start": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },
-      "originalStart": "2016-12-31T23:56:38.5000578+03:00",
+      "originalStart": "2016-12-31T23:58:27.339606+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

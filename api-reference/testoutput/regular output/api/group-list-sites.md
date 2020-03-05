@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [site](../resources/site.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,13 +67,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1888
+Content-Length: 1886
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.site",
-      "id": "e4ea7f3a-7f3a-e4ea-3a7f-eae43a7feae4",
+      "id": "4af3a43a-a43a-4af3-3aa4-f34a3aa4f34a",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,13 +88,13 @@ Content-Length: 1888
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

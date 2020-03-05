@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [plannerBucket](../resources/plannerbucket.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 224
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerBucket",
-    "id": "418b73d2-73d2-418b-d273-8b41d2738b41",
+    "id": "6094aeea-aeea-6094-eaae-9460eaae9460",
     "name": "Name value",
     "planId": "Plan Id value",
     "orderHint": "Order Hint value"

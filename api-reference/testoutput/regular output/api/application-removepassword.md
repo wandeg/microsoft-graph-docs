@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,7 +67,7 @@ Content-type: application/json
 Content-length: 55
 
 {
-  "keyId": "afbffea7-fea7-afbf-a7fe-bfafa7febfaf"
+  "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b"
 }
 ```
 

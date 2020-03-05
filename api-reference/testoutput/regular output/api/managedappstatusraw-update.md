@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [managedAppStatusRaw](../resources/managedappstatusraw.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.managedAppStatusRaw",
-  "id": "50cf2147-2147-50cf-4721-cf504721cf50",
+  "id": "f6b66eb9-6eb9-f6b6-b96e-b6f6b96eb6f6",
   "displayName": "Display Name value",
   "version": "Version value",
   "content": {

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [inferenceClassification](../resources/inferenceclassification.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassification",
-  "id": "601d8d3d-8d3d-601d-3d8d-1d603d8d1d60"
+  "id": "85cd8570-8570-85cd-7085-cd857085cd85"
 }
 ```
 

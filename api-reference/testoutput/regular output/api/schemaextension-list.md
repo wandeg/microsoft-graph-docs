@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [schemaExtension](../resources/schemaextension.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 507
   "value": [
     {
       "@odata.type": "#microsoft.graph.schemaExtension",
-      "id": "1d506fb1-6fb1-1d50-b16f-501db16f501d",
+      "id": "dead84d3-84d3-dead-d384-added384adde",
       "description": "Description value",
       "targetTypes": [
         "Target Types value"

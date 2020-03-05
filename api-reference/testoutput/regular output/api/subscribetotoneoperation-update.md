@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [subscribeToToneOperation](../resources/subscribetotoneoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.subscribeToToneOperation",
-  "id": "f3f11e04-1e04-f3f1-041e-f1f3041ef1f3",
+  "id": "db13e723-e723-db13-23e7-13db23e713db",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

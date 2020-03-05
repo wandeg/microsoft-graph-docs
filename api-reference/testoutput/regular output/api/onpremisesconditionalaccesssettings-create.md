@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,10 +73,10 @@ Content-length: 275
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
   "enabled": true,
   "includedGroups": [
-    "0d12d1f7-d1f7-0d12-f7d1-120df7d1120d"
+    "6f75ec9e-ec9e-6f75-9eec-756f9eec756f"
   ],
   "excludedGroups": [
-    "967dd801-d801-967d-01d8-7d9601d87d96"
+    "2dcf6cbc-6cbc-2dcf-bc6c-cf2dbc6ccf2d"
   ],
   "overrideDefaultRule": true
 }
@@ -97,13 +97,13 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-  "id": "f2ed9cc3-9cc3-f2ed-c39c-edf2c39cedf2",
+  "id": "9dec78cf-78cf-9dec-cf78-ec9dcf78ec9d",
   "enabled": true,
   "includedGroups": [
-    "0d12d1f7-d1f7-0d12-f7d1-120df7d1120d"
+    "6f75ec9e-ec9e-6f75-9eec-756f9eec756f"
   ],
   "excludedGroups": [
-    "967dd801-d801-967d-01d8-7d9601d87d96"
+    "2dcf6cbc-6cbc-2dcf-bc6c-cf2dbc6ccf2d"
   ],
   "overrideDefaultRule": true
 }

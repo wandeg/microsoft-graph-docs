@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-      "id": "99014ec7-4ec7-9901-c74e-0199c74e0199",
+      "id": "a6724705-4705-a672-0547-72a6054772a6",
       "displayName": "Display Name value",
       "fileHash": "File Hash value",
       "file": "ZmlsZQ==",

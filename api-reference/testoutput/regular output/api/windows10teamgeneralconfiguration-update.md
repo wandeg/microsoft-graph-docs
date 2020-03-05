@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -75,7 +75,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [windows10TeamGeneralConfiguration](../resources/windows10teamgeneralconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -100,7 +100,7 @@ Content-length: 1135
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "11:58:22.8720000",
+  "maintenanceWindowStartTime": "12:00:19.5510000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,
@@ -127,13 +127,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1307
+Content-Length: 1305
 
 {
   "@odata.type": "#microsoft.graph.windows10TeamGeneralConfiguration",
-  "id": "7cce4938-4938-7cce-3849-ce7c3849ce7c",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "id": "d78cfe0b-fe0b-d78c-0bfe-8cd70bfe8cd7",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "version": 7,
@@ -143,7 +143,7 @@ Content-Length: 1307
   "connectAppBlockAutoLaunch": true,
   "maintenanceWindowBlocked": true,
   "maintenanceWindowDurationInHours": 0,
-  "maintenanceWindowStartTime": "11:58:22.8720000",
+  "maintenanceWindowStartTime": "12:00:19.5510000",
   "miracastChannel": "String",
   "miracastBlocked": true,
   "miracastRequirePin": true,

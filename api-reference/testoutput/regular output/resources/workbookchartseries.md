@@ -43,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |format|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)||
 |points|[workbookChartPoint](../resources/workbookchartpoint.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [domainDnsCnameRecord](../resources/domaindnscnamerecord.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 371
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainDnsCnameRecord",
-      "id": "7741e4a4-e4a4-7741-a4e4-4177a4e44177",
+      "id": "317fd021-d021-317f-21d0-7f3121d07f31",
       "isOptional": true,
       "label": "Label value",
       "recordType": "Record Type value",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [recordOperation](../resources/recordoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,7 +98,7 @@ Content-Length: 426
 
 {
   "@odata.type": "#microsoft.graph.recordOperation",
-  "id": "93c05c73-5c73-93c0-735c-c093735cc093",
+  "id": "16c6a0eb-a0eb-16c6-eba0-c616eba0c616",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

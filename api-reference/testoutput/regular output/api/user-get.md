@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [user](../resources/user.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,31 +70,31 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 6702
+Content-Length: 6701
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "8ac848b7-48b7-8ac8-b748-c88ab748c88a",
-    "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+    "id": "63f9f992-f992-63f9-92f9-f96392f9f963",
+    "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
     "accountEnabled": true,
     "ageGroup": "Age Group value",
     "assignedLicenses": [
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "ca8640ba-40ba-ca86-ba40-86caba4086ca"
+          "964343ea-43ea-9643-ea43-4396ea434396"
         ],
-        "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
+        "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
       }
     ],
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:58:03.2183148+03:00",
+        "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "52357315-7315-5235-1573-355215733552"
+        "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
       }
     ],
     "businessPhones": [
@@ -114,7 +114,7 @@ Content-Length: 6702
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2016-12-31T23:58:32.2430819+03:00",
+    "lastPasswordChangeDateTime": "2016-12-31T23:58:24.1652729+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -147,14 +147,14 @@ Content-Length: 6702
       "extensionAttribute15": "Extension Attribute15 value"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError",
         "value": "Value value",
         "category": "Category value",
         "propertyCausingError": "Property Causing Error value",
-        "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
+        "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
       }
     ],
     "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -185,7 +185,7 @@ Content-Length: 6702
       "Proxy Addresses value"
     ],
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2017-01-01T00:00:52.5046312+03:00",
+    "signInSessionsValidFromDateTime": "2016-12-31T23:59:10.6459187+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -219,8 +219,8 @@ Content-Length: 6702
         "daysOfWeek": [
           "String"
         ],
-        "startTime": "11:57:43.5660000",
-        "endTime": "12:02:04.4770000",
+        "startTime": "12:01:55.6660000",
+        "endTime": "12:01:43.3040000",
         "timeZone": {
           "@odata.type": "microsoft.graph.timeZoneBase",
           "name": "Name value"
@@ -231,8 +231,8 @@ Content-Length: 6702
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2016-12-31T23:58:42.1908479+03:00",
-    "hireDate": "2016-12-31T23:59:55.3544129+03:00",
+    "birthday": "2017-01-01T00:02:22.3143308+03:00",
+    "hireDate": "2017-01-01T00:02:24.4089676+03:00",
     "interests": [
       "Interests value"
     ],

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [reportRoot](../resources/reportroot.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 142
   "value": [
     {
       "@odata.type": "#microsoft.graph.reportRoot",
-      "id": "ec51fc67-fc67-ec51-67fc-51ec67fc51ec"
+      "id": "14fb14b9-14b9-14fb-b914-fb14b914fb14"
     }
   ]
 }

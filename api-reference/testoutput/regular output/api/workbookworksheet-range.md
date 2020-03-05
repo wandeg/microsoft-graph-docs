@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this function.
 ## Response
 If successful, this function returns a `200 OK` response code and a [workbookRange](../resources/workbookrange.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-Length: 898
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRange",
-    "id": "aa4cced3-ced3-aa4c-d3ce-4caad3ce4caa",
+    "id": "a64cf4a5-f4a5-a64c-a5f4-4ca6a5f44ca6",
     "address": "Address value",
     "addressLocal": "Address Local value",
     "cellCount": 9,

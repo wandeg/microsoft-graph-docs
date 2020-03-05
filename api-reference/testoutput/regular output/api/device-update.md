@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -70,7 +70,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [device](../resources/device.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,11 +82,11 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/devices/{devicesId}
 Content-type: application/json
-Content-length: 1107
+Content-length: 1103
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -96,8 +96,8 @@ Content-length: 1107
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2016-12-31T23:58:50.577268+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:01:46.0720276+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:58:36.98+03:00",
+  "complianceExpirationDateTime": "2016-12-31T23:57:03.8837504+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
@@ -105,7 +105,7 @@ Content-length: 1107
   "isCompliant": true,
   "isManaged": true,
   "mdmAppId": "Mdm App Id value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",
@@ -130,12 +130,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1156
+Content-Length: 1152
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "id": "cbd2d7c2-d7c2-cbd2-c2d7-d2cbc2d7d2cb",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "e2238a51-8a51-e223-518a-23e2518a23e2",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -145,8 +145,8 @@ Content-Length: 1156
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2016-12-31T23:58:50.577268+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:01:46.0720276+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:58:36.98+03:00",
+  "complianceExpirationDateTime": "2016-12-31T23:57:03.8837504+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
@@ -154,7 +154,7 @@ Content-Length: 1156
   "isCompliant": true,
   "isManaged": true,
   "mdmAppId": "Mdm App Id value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",

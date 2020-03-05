@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [domainDnsRecord](../resources/domaindnsrecord.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 257
 
 {
   "@odata.type": "#microsoft.graph.domainDnsRecord",
-  "id": "56a889b3-89b3-56a8-b389-a856b389a856",
+  "id": "f0b4a3a7-a3a7-f0b4-a7a3-b4f0a7a3b4f0",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

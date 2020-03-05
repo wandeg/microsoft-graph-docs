@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 151
 
 {
   "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-  "id": "ca936f41-6f41-ca93-416f-93ca416f93ca",
+  "id": "45351890-1890-4535-9018-354590183545",
   "value": "Value value"
 }
 ```

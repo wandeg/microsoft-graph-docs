@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [appCatalogs](../resources/appcatalogs.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.appCatalogs",
-  "id": "9ddb8195-8195-9ddb-9581-db9d9581db9d"
+  "id": "5dd03c64-3c64-5dd0-643c-d05d643cd05d"
 }
 ```
 

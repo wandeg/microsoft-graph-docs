@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceAppManagement](../resources/deviceappmanagement.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 474
+Content-Length: 472
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceAppManagement",
-    "id": "363e9965-9965-363e-6599-3e3665993e36",
-    "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:56.4375609+03:00",
+    "id": "5b1223ef-23ef-5b12-ef23-125bef23125b",
+    "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:55.447624+03:00",
     "isEnabledForMicrosoftStoreForBusiness": true,
     "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-    "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:59:59.6531764+03:00"
+    "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:58:17.743368+03:00"
   }
 }
 ```

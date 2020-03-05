@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [identityProvider](../resources/identityprovider.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 264
 {
   "value": {
     "@odata.type": "#microsoft.graph.identityProvider",
-    "id": "dd87098d-098d-dd87-8d09-87dd8d0987dd",
+    "id": "b1079622-9622-b107-2296-07b1229607b1",
     "type": "Type value",
     "name": "Name value",
     "clientId": "Client Id value",

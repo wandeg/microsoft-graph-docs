@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [enrollmentTroubleshootingEvent](../resources/enrollmenttroubleshootingevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +77,7 @@ Content-length: 493
 
 {
   "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
+  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
   "correlationId": "Correlation Id value",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "operatingSystem": "Operating System value",
@@ -105,8 +105,8 @@ Content-Length: 542
 
 {
   "@odata.type": "#microsoft.graph.enrollmentTroubleshootingEvent",
-  "id": "446f3087-3087-446f-8730-6f4487306f44",
-  "eventDateTime": "2017-01-01T00:02:42.1849461+03:00",
+  "id": "70c86c1f-6c1f-70c8-1f6c-c8701f6cc870",
+  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
   "correlationId": "Correlation Id value",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "operatingSystem": "Operating System value",

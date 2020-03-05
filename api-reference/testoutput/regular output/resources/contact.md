@@ -84,7 +84,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |photo|[profilePhoto](../resources/profilephoto.md)||
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

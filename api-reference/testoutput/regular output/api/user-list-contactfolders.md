@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [contactFolder](../resources/contactfolder.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 240
   "value": [
     {
       "@odata.type": "#microsoft.graph.contactFolder",
-      "id": "b487437c-437c-b487-7c43-87b47c4387b4",
+      "id": "babbdd61-dd61-babb-61dd-bbba61ddbbba",
       "parentFolderId": "Parent Folder Id value",
       "displayName": "Display Name value"
     }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [teamsAppDefinition](../resources/teamsappdefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "2b2e69ba-69ba-2b2e-ba69-2e2bba692e2b",
+  "id": "835e2768-2768-835e-6827-5e8368275e83",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

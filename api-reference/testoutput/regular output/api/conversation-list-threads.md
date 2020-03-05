@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [conversationThread](../resources/conversationthread.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 809
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversationThread",
-      "id": "3a751750-1750-3a75-5017-753a5017753a",
+      "id": "6acc11f7-11f7-6acc-f711-cc6af711cc6a",
       "toRecipients": [
         {
           "@odata.type": "microsoft.graph.recipient",
@@ -85,7 +85,7 @@ Content-Length: 809
       ],
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2017-01-01T00:01:15.4160233+03:00",
+      "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

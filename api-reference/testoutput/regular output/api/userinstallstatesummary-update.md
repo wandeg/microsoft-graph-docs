@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [userInstallStateSummary](../resources/userinstallstatesummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 238
 
 {
   "@odata.type": "#microsoft.graph.userInstallStateSummary",
-  "id": "759039ca-39ca-7590-ca39-9075ca399075",
+  "id": "3b22c409-c409-3b22-09c4-223b09c4223b",
   "userName": "User Name value",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,

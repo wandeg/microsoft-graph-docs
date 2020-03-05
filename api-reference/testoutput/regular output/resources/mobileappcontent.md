@@ -38,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |files|[mobileAppContentFile](../resources/mobileappcontentfile.md) collection|The list of files for this app content version.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [operation](../resources/operation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,10 +72,10 @@ Content-Length: 297
   "value": [
     {
       "@odata.type": "#microsoft.graph.operation",
-      "id": "449c5f56-5f56-449c-565f-9c44565f9c44",
+      "id": "deb6e012-e012-deb6-12e0-b6de12e0b6de",
       "status": "String",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastActionDateTime": "2017-01-01T00:01:48.1123264+03:00"
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00"
     }
   ]
 }

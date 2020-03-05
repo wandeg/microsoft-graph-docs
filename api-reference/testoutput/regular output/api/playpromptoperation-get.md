@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [playPromptOperation](../resources/playpromptoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 358
 {
   "value": {
     "@odata.type": "#microsoft.graph.playPromptOperation",
-    "id": "8ff27671-7671-8ff2-7176-f28f7176f28f",
+    "id": "907dd68e-d68e-907d-8ed6-7d908ed67d90",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

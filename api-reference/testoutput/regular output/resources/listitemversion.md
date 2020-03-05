@@ -41,7 +41,7 @@ Inherits from [baseItemVersion](../resources/baseitemversion.md)
 |:---|:---|:---|
 |fields|[fieldValueSet](../resources/fieldvalueset.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

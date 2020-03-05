@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [cloudCommunications](../resources/cloudcommunications.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 151
   "value": [
     {
       "@odata.type": "#microsoft.graph.cloudCommunications",
-      "id": "a00c4f70-4f70-a00c-704f-0ca0704f0ca0"
+      "id": "59fb44e7-44e7-59fb-e744-fb59e744fb59"
     }
   ]
 }

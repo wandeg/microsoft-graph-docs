@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [educationUser](../resources/educationuser.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 3176
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationUser",
-    "id": "05a22a1e-2a1e-05a2-1e2a-a2051e2aa205",
+    "id": "d1cdd432-d432-d1cd-32d4-cdd132d4cdd1",
     "primaryRole": "String",
     "middleName": "Middle Name value",
     "externalSource": "String",
@@ -122,18 +122,18 @@ Content-Length: 3176
       {
         "@odata.type": "microsoft.graph.assignedLicense",
         "disabledPlans": [
-          "ca8640ba-40ba-ca86-ba40-86caba4086ca"
+          "964343ea-43ea-9643-ea43-4396ea434396"
         ],
-        "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
+        "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
       }
     ],
     "assignedPlans": [
       {
         "@odata.type": "microsoft.graph.assignedPlan",
-        "assignedDateTime": "2016-12-31T23:58:03.2183148+03:00",
+        "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
         "capabilityStatus": "Capability Status value",
         "service": "Service value",
-        "servicePlanId": "52357315-7315-5235-1573-355215733552"
+        "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
       }
     ],
     "businessPhones": [
@@ -160,7 +160,7 @@ Content-Length: 3176
         "provisioningStatus": "Provisioning Status value"
       }
     ],
-    "refreshTokensValidFromDateTime": "2016-12-31T23:57:07.077465+03:00",
+    "refreshTokensValidFromDateTime": "2016-12-31T23:59:31.3924396+03:00",
     "showInAddressList": true,
     "surname": "Surname value",
     "usageLocation": "Usage Location value",

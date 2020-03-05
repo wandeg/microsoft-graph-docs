@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [iosManagedAppRegistration](../resources/iosmanagedappregistration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 803
+Content-Length: 802
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosManagedAppRegistration",
-      "id": "316d003a-003a-316d-3a00-6d313a006d31",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+      "id": "96cd9296-9296-96cd-9692-cd969692cd96",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

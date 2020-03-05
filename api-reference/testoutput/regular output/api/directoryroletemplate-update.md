@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [directoryRoleTemplate](../resources/directoryroletemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,7 +69,7 @@ Content-length: 201
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }
@@ -89,8 +89,8 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "id": "109336f8-36f8-1093-f836-9310f8369310",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "200c5de8-5de8-200c-e85d-0c20e85d0c20",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }

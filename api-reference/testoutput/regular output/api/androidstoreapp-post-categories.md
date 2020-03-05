@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [mobileAppCategory](../resources/mobileappcategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,13 +84,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 212
+Content-Length: 210
 
 {
   "@odata.type": "#microsoft.graph.mobileAppCategory",
-  "id": "462d0881-0881-462d-8108-2d4681082d46",
+  "id": "ff62dc6e-dc6e-ff62-6edc-62ff6edc62ff",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00"
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
 }
 ```
 

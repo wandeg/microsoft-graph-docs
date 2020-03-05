@@ -53,7 +53,7 @@ Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemao
 |parentNotebook|[notebook](../resources/notebook.md)||
 |parentSection|[onenoteSection](../resources/onenotesection.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

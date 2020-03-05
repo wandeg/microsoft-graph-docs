@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [detectedApp](../resources/detectedapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 216
 
 {
   "@odata.type": "#microsoft.graph.detectedApp",
-  "id": "d28389ee-89ee-d283-ee89-83d2ee8983d2",
+  "id": "d5971262-1262-d597-6212-97d5621297d5",
   "displayName": "Display Name value",
   "version": "Version value",
   "sizeInByte": 10,

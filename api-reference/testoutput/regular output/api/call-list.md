@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [call](../resources/call.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 1975
   "value": [
     {
       "@odata.type": "#microsoft.graph.call",
-      "id": "4bf6dd1c-dd1c-4bf6-1cdd-f64b1cddf64b",
+      "id": "3eb2cf06-cf06-3eb2-06cf-b23e06cfb23e",
       "state": "String",
       "mediaState": {
         "@odata.type": "microsoft.graph.callMediaState",

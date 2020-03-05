@@ -43,7 +43,7 @@ Inherits from [roleAssignment](../resources/roleassignment.md)
 |:---|:---|:---|
 |roleDefinition|[roleDefinition](../resources/roledefinition.md)|Role definition this assignment is part of. Inherited from [roleAssignment](../resources/roleassignment.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

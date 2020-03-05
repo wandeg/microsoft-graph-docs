@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 316
   "managedEBookAssignments": [
     {
       "@odata.type": "#microsoft.graph.managedEBookAssignment",
-      "id": "e9ff2080-2080-e9ff-8020-ffe98020ffe9",
+      "id": "44664c14-4c14-4466-144c-6644144c6644",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

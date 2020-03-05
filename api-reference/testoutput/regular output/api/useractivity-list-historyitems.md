@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [activityHistoryItem](../resources/activityhistoryitem.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 585
+Content-Length: 582
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.activityHistoryItem",
-      "id": "a782487c-487c-a782-7c48-82a77c4882a7",
+      "id": "bd768387-8387-bd76-8783-76bd878376bd",
       "status": "String",
       "activeDurationSeconds": 5,
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastActiveDateTime": "2017-01-01T00:00:05.3250667+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-      "expirationDateTime": "2017-01-01T00:00:43.4754061+03:00",
-      "startedDateTime": "2017-01-01T00:02:41.8929059+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastActiveDateTime": "2016-12-31T23:57:55.9017756+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+      "startedDateTime": "2017-01-01T00:00:00.0290262+03:00",
       "userTimezone": "User Timezone value"
     }
   ]

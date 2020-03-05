@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [application](../resources/application.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +72,8 @@ Content-Length: 2059
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "e577bdcb-bdcb-e577-cbbd-77e5cbbd77e5",
-      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+      "id": "8d69e456-e456-8d69-56e4-698d56e4698d",
+      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn"
@@ -93,7 +93,7 @@ Content-Length: 2059
       "identifierUris": [
         "Identifier Uris value"
       ],
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "publicClient": {
         "@odata.type": "microsoft.graph.publicClientApplication"
       },
@@ -131,7 +131,7 @@ Content-Length: 2059
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "4630fb04-fb04-4630-04fb-304604fb3046",
+      "tokenEncryptionKeyId": "2a1dea41-ea41-2a1d-41ea-1d2a41ea1d2a",
       "web": {
         "@odata.type": "microsoft.graph.webApplication"
       }

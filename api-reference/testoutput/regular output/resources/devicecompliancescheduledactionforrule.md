@@ -39,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |scheduledActionConfigurations|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) collection|The list of scheduled action configurations for this compliance policy.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

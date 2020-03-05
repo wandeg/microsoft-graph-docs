@@ -58,7 +58,7 @@ Inherits from [mobileApp](../resources/mobileapp.md)
 |categories|[mobileAppCategory](../resources/mobileappcategory.md) collection|The list of categories for this app. Inherited from [mobileApp](../resources/mobileapp.md)|
 |contentVersions|[mobileAppContent](../resources/mobileappcontent.md) collection|The list of content versions for this app.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

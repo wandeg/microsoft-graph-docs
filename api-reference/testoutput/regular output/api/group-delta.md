@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [group](../resources/group.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,15 +74,15 @@ Content-Length: 1874
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "0a7bb131-b131-0a7b-31b1-7b0a31b17b0a",
-      "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+      "id": "12dc0fee-0fee-12dc-ee0f-dc12ee0fdc12",
+      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
       "assignedLicenses": [
         {
           "@odata.type": "microsoft.graph.assignedLicense"
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "hasMembersWithLicenseErrors": true,
@@ -96,7 +96,7 @@ Content-Length: 1874
       "mailEnabled": true,
       "mailNickname": "Mail Nickname value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -110,7 +110,7 @@ Content-Length: 1874
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2016-12-31T23:57:03.7606659+03:00",
+      "renewedDateTime": "2016-12-31T23:57:32.3555352+03:00",
       "securityEnabled": true,
       "securityIdentifier": "Security Identifier value",
       "visibility": "Visibility value",

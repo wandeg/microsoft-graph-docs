@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -71,7 +71,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [plannerTask](../resources/plannertask.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -107,11 +107,11 @@ Content-length: 1252
   "orderHint": "Order Hint value",
   "assigneePriority": "Assignee Priority value",
   "percentComplete": 15,
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "dueDateTime": "2016-12-31T23:58:42.3856751+03:00",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "dueDateTime": "2016-12-31T23:56:55.8946109+03:00",
   "hasDescription": true,
   "previewType": "String",
-  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
+  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
   "completedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
@@ -143,7 +143,7 @@ Content-Length: 1360
 
 {
   "@odata.type": "#microsoft.graph.plannerTask",
-  "id": "86890065-0065-8689-6500-898665008986",
+  "id": "eafcbef8-bef8-eafc-f8be-fceaf8befcea",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -164,12 +164,12 @@ Content-Length: 1360
   "orderHint": "Order Hint value",
   "assigneePriority": "Assignee Priority value",
   "percentComplete": 15,
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "dueDateTime": "2016-12-31T23:58:42.3856751+03:00",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "dueDateTime": "2016-12-31T23:56:55.8946109+03:00",
   "hasDescription": true,
   "previewType": "String",
-  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
+  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
   "completedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [remoteAssistancePartner](../resources/remoteassistancepartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 262
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
 }
 ```
 
@@ -91,11 +91,11 @@ Content-Length: 311
 
 {
   "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-  "id": "ad659927-9927-ad65-2799-65ad279965ad",
+  "id": "5092847b-847b-5092-7b84-92507b849250",
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:59:03.4791023+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [iosUpdateConfiguration](../resources/iosupdateconfiguration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,20 +66,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 582
+Content-Length: 580
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosUpdateConfiguration",
-      "id": "bc4ef3fb-f3fb-bc4e-fbf3-4ebcfbf34ebc",
-      "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+      "id": "1359b4dc-b4dc-1359-dcb4-5913dcb45913",
+      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "version": 7,
-      "activeHoursStart": "12:03:14.8860000",
-      "activeHoursEnd": "11:56:51.6950000",
+      "activeHoursStart": "12:00:35.0320000",
+      "activeHoursEnd": "11:59:54.5850000",
       "scheduledInstallDays": [
         "String"
       ],

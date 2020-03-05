@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -75,7 +75,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [windowsUniversalAppX](../resources/windowsuniversalappx.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -136,11 +136,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1359
+Content-Length: 1357
 
 {
   "@odata.type": "#microsoft.graph.windowsUniversalAppX",
-  "id": "d23e124e-124e-d23e-4e12-3ed24e123ed2",
+  "id": "08fbf51f-f51f-08fb-1ff5-fb081ff5fb08",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
@@ -149,8 +149,8 @@ Content-Length: 1359
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "isFeatured": true,
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
   "informationUrl": "https://example.com/informationUrl/",

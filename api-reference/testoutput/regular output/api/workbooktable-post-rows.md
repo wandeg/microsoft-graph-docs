@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookTableRow](../resources/workbooktablerow.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.workbookTableRow",
-  "id": "a2094ab5-4ab5-a209-b54a-09a2b54a09a2",
+  "id": "34ecd8d6-d8d6-34ec-d6d8-ec34d6d8ec34",
   "index": 5,
   "values": {
     "@odata.type": "microsoft.graph.Json"

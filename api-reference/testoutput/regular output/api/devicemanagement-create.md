@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagement](../resources/devicemanagement.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -123,7 +123,7 @@ Content-Length: 1327
 
 {
   "@odata.type": "#microsoft.graph.deviceManagement",
-  "id": "4a85ccea-ccea-4a85-eacc-854aeacc854a",
+  "id": "fdaf8eee-8eee-fdaf-ee8e-affdee8eaffd",
   "settings": {
     "@odata.type": "microsoft.graph.deviceManagementSettings",
     "deviceComplianceCheckinThresholdDays": 4,

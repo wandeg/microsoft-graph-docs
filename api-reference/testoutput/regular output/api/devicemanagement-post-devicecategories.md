@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceCategory](../resources/devicecategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 184
 
 {
   "@odata.type": "#microsoft.graph.deviceCategory",
-  "id": "3a04de35-de35-3a04-35de-043a35de043a",
+  "id": "e57a3049-3049-e57a-4930-7ae549307ae5",
   "displayName": "Display Name value",
   "description": "Description value"
 }

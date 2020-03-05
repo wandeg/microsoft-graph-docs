@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 242
   "deviceComplianceScheduledActionForRules": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-      "id": "6d13cff9-cff9-6d13-f9cf-136df9cf136d",
+      "id": "21fc3ba2-3ba2-21fc-a23b-fc21a23bfc21",
       "ruleName": "Rule Name value"
     }
   ]

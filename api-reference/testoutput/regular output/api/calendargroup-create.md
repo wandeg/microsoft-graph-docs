@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [calendarGroup](../resources/calendargroup.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-length: 170
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
   "name": "Name value",
-  "classId": "d50830ef-30ef-d508-ef30-08d5ef3008d5",
+  "classId": "6f6f6c72-6c72-6f6f-726c-6f6f726c6f6f",
   "changeKey": "Change Key value"
 }
 ```
@@ -92,9 +92,9 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
-  "id": "1df5da52-da52-1df5-52da-f51d52daf51d",
+  "id": "354dd807-d807-354d-07d8-4d3507d84d35",
   "name": "Name value",
-  "classId": "d50830ef-30ef-d508-ef30-08d5ef3008d5",
+  "classId": "6f6f6c72-6c72-6f6f-726c-6f6f726c6f6f",
   "changeKey": "Change Key value"
 }
 ```

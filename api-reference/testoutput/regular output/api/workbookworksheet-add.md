@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [workbookWorksheet](../resources/workbookworksheet.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 217
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheet",
-    "id": "aabe2748-2748-aabe-4827-beaa4827beaa",
+    "id": "df2a93d4-93d4-df2a-d493-2adfd4932adf",
     "name": "Name value",
     "position": 8,
     "visibility": "Visibility value"

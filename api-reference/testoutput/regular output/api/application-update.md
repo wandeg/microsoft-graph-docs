@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -76,7 +76,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [application](../resources/application.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,11 +92,11 @@ Content-length: 4775
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "ffc1cf23-cf23-ffc1-23cf-c1ff23cfc1ff",
+      "id": "f831b1cc-b1cc-f831-ccb1-31f8ccb131f8",
       "type": "Type value",
       "properties": [
         {
@@ -111,7 +111,7 @@ Content-length: 4775
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "08268df2-8df2-0826-f28d-2608f28d2608"
+      "bea0878d-878d-bea0-8d87-a0be8d87a0be"
     ],
     "preAuthorizedApplications": [
       {
@@ -172,9 +172,9 @@ Content-length: 4775
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
-      "keyId": "afbffea7-fea7-afbf-a7fe-bfafa7febfaf",
-      "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
+      "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+      "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b",
+      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -235,7 +235,7 @@ Content-length: 4775
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "4630fb04-fb04-4630-04fb-304604fb3046",
+  "tokenEncryptionKeyId": "2a1dea41-ea41-2a1d-41ea-1d2a41ea1d2a",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",
@@ -263,12 +263,12 @@ Content-Length: 4883
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "id": "e577bdcb-bdcb-e577-cbbd-77e5cbbd77e5",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "8d69e456-e456-8d69-56e4-698d56e4698d",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "ffc1cf23-cf23-ffc1-23cf-c1ff23cfc1ff",
+      "id": "f831b1cc-b1cc-f831-ccb1-31f8ccb131f8",
       "type": "Type value",
       "properties": [
         {
@@ -283,7 +283,7 @@ Content-Length: 4883
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "08268df2-8df2-0826-f28d-2608f28d2608"
+      "bea0878d-878d-bea0-8d87-a0be8d87a0be"
     ],
     "preAuthorizedApplications": [
       {
@@ -323,7 +323,7 @@ Content-Length: 4883
   "identifierUris": [
     "Identifier Uris value"
   ],
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "publicClient": {
     "@odata.type": "microsoft.graph.publicClientApplication",
     "redirectUris": [
@@ -345,9 +345,9 @@ Content-Length: 4883
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
-      "keyId": "afbffea7-fea7-afbf-a7fe-bfafa7febfaf",
-      "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
+      "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+      "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b",
+      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -408,7 +408,7 @@ Content-Length: 4883
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "4630fb04-fb04-4630-04fb-304604fb3046",
+  "tokenEncryptionKeyId": "2a1dea41-ea41-2a1d-41ea-1d2a41ea1d2a",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",

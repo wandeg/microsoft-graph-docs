@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [androidManagedAppRegistration](../resources/androidmanagedappregistration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +66,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 807
+Content-Length: 806
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.androidManagedAppRegistration",
-      "id": "f674d2c6-d2c6-f674-c6d2-74f6c6d274f6",
-      "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-      "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+      "id": "6ab9beeb-beeb-6ab9-ebbe-b96aebbeb96a",
+      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

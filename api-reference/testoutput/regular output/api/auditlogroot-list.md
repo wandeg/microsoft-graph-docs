@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [auditLogRoot](../resources/auditlogroot.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.auditLogRoot",
-      "id": "a26857d5-57d5-a268-d557-68a2d55768a2"
+      "id": "e65719dc-19dc-e657-dc19-57e6dc1957e6"
     }
   ]
 }

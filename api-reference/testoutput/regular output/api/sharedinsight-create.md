@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [sharedInsight](../resources/sharedinsight.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -79,7 +79,7 @@ Content-length: 1264
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00",
+    "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {
@@ -124,7 +124,7 @@ Content-Length: 1313
 
 {
   "@odata.type": "#microsoft.graph.sharedInsight",
-  "id": "821f09da-09da-821f-da09-1f82da091f82",
+  "id": "680ad850-d850-680a-50d8-0a6850d80a68",
   "lastShared": {
     "@odata.type": "microsoft.graph.sharingDetail",
     "sharedBy": {
@@ -133,7 +133,7 @@ Content-Length: 1313
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2017-01-01T00:01:35.7146265+03:00",
+    "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {

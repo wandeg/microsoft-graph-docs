@@ -42,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |tabs|[teamsTab](../resources/teamstab.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

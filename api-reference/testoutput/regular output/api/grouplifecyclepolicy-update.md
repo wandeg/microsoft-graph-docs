@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 266
 
 {
   "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-  "id": "99764574-4574-9976-7445-769974457699",
+  "id": "efd2c3af-c3af-efd2-afc3-d2efafc3d2ef",
   "groupLifetimeInDays": 3,
   "managedGroupTypes": "Managed Group Types value",
   "alternateNotificationEmails": "Alternate Notification Emails value"

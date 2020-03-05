@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [itemActivityStat](../resources/itemactivitystat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,8 +76,8 @@ Content-length: 786
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -98,7 +98,7 @@ Content-length: 786
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2016-12-31T23:57:23.2357352+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:00:17.2858665+03:00",
     "wasThrottled": true
   }
 }
@@ -119,9 +119,9 @@ Content-Length: 835
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "id": "933f84db-84db-933f-db84-3f93db843f93",
-  "startDateTime": "2017-01-01T00:02:14.0322788+03:00",
-  "endDateTime": "2017-01-01T00:03:02.4580307+03:00",
+  "id": "01b4bc2f-bc2f-01b4-2fbc-b4012fbcb401",
+  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -142,7 +142,7 @@ Content-Length: 835
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2016-12-31T23:57:23.2357352+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:00:17.2858665+03:00",
     "wasThrottled": true
   }
 }

@@ -59,7 +59,7 @@ Inherits from [entity](../resources/entity.md)
 |serviceConfigurationRecords|[domainDnsRecord](../resources/domaindnsrecord.md) collection||
 |verificationDnsRecords|[domainDnsRecord](../resources/domaindnsrecord.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

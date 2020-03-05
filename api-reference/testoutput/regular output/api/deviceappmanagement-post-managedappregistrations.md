@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -63,7 +63,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [managedAppRegistration](../resources/managedappregistration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,11 +75,11 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceAppManagement/managedAppRegistrations
 Content-type: application/json
-Content-length: 587
+Content-length: 586
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -108,13 +108,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 695
+Content-Length: 694
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "f81d72c3-72c3-f81d-c372-1df8c3721df8",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
-  "lastSyncDateTime": "2017-01-01T00:01:25.5923946+03:00",
+  "id": "7d384335-4335-7d38-3543-387d3543387d",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

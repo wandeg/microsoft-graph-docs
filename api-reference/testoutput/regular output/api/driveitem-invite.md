@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -71,7 +71,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [permission](../resources/permission.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -120,7 +120,7 @@ Content-Length: 581
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "afa9fad8-fad8-afa9-d8fa-a9afd8faa9af",
+      "id": "fda067fc-67fc-fda0-fc67-a0fdfc67a0fd",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet"
       },

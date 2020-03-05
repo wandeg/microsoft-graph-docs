@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [macOSCustomConfiguration](../resources/macoscustomconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 492
+Content-Length: 490
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.macOSCustomConfiguration",
-    "id": "ccc6273c-273c-ccc6-3c27-c6cc3c27c6cc",
-    "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
-    "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+    "id": "b7a1db98-db98-b7a1-98db-a1b798dba1b7",
+    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "version": 7,

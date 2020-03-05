@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -49,7 +49,7 @@ The following table shows the parameters that can be used with this function.
 ## Response
 If successful, this function returns a `200 OK` response code and a [workbookRangeView](../resources/workbookrangeview.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-Length: 782
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRangeView",
-    "id": "65cde973-e973-65cd-73e9-cd6573e9cd65",
+    "id": "77bd3e84-3e84-77bd-843e-bd77843ebd77",
     "cellAddresses": {
       "@odata.type": "microsoft.graph.Json"
     },

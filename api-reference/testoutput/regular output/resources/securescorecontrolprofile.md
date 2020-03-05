@@ -55,7 +55,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookPivotTable](../resources/workbookpivottable.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.workbookPivotTable",
-  "id": "d6039909-9909-d603-0999-03d6099903d6",
+  "id": "173ec9d3-c9d3-173e-d3c9-3e17d3c93e17",
   "name": "Name value"
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [workbookFunctionResult](../resources/workbookfunctionresult.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -97,7 +97,7 @@ Content-Length: 234
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFunctionResult",
-    "id": "b41bdfb7-dfb7-b41b-b7df-1bb4b7df1bb4",
+    "id": "1878e271-e271-1878-71e2-781871e27818",
     "error": "Error value",
     "value": {
       "@odata.type": "microsoft.graph.Json"

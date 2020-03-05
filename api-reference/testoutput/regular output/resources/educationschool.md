@@ -55,7 +55,7 @@ Inherits from [educationOrganization](../resources/educationorganization.md)
 |classes|[educationClass](../resources/educationclass.md) collection||
 |users|[educationUser](../resources/educationuser.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

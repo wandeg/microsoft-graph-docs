@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [planner](../resources/planner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.planner",
-  "id": "64ed2f2e-2f2e-64ed-2e2f-ed642e2fed64"
+  "id": "c56bf720-f720-c56b-20f7-6bc520f76bc5"
 }
 ```
 

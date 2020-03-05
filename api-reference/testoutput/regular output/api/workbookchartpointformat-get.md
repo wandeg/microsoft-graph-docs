@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookChartPointFormat](../resources/workbookchartpointformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 138
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartPointFormat",
-    "id": "7eb2d2f0-d2f0-7eb2-f0d2-b27ef0d2b27e"
+    "id": "c7f2de5b-de5b-c7f2-5bde-f2c75bdef2c7"
   }
 }
 ```

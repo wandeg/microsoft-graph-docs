@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -82,7 +82,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [group](../resources/group.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,14 +98,14 @@ Content-length: 1913
 
 {
   "@odata.type": "#microsoft.graph.group",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "assignedLicenses": [
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "ca8640ba-40ba-ca86-ba40-86caba4086ca"
+        "964343ea-43ea-9643-ea43-4396ea434396"
       ],
-      "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
+      "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
     }
   ],
   "classification": "Classification value",
@@ -123,7 +123,7 @@ Content-length: 1913
   "mailEnabled": true,
   "mailNickname": "Mail Nickname value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -131,7 +131,7 @@ Content-length: 1913
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
+      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -141,7 +141,7 @@ Content-length: 1913
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2016-12-31T23:57:03.7606659+03:00",
+  "renewedDateTime": "2016-12-31T23:57:32.3555352+03:00",
   "securityEnabled": true,
   "securityIdentifier": "Security Identifier value",
   "visibility": "Visibility value",
@@ -168,19 +168,19 @@ Content-Length: 2021
 
 {
   "@odata.type": "#microsoft.graph.group",
-  "id": "0a7bb131-b131-0a7b-31b1-7b0a31b17b0a",
-  "deletedDateTime": "2017-01-01T00:02:06.0464622+03:00",
+  "id": "12dc0fee-0fee-12dc-ee0f-dc12ee0fdc12",
+  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
   "assignedLicenses": [
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "ca8640ba-40ba-ca86-ba40-86caba4086ca"
+        "964343ea-43ea-9643-ea43-4396ea434396"
       ],
-      "skuId": "ca7e2026-2026-ca7e-2620-7eca26207eca"
+      "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
     }
   ],
   "classification": "Classification value",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "hasMembersWithLicenseErrors": true,
@@ -195,7 +195,7 @@ Content-Length: 2021
   "mailEnabled": true,
   "mailNickname": "Mail Nickname value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:00:16.9182164+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -203,7 +203,7 @@ Content-Length: 2021
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:14.0557006+03:00"
+      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -213,7 +213,7 @@ Content-Length: 2021
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2016-12-31T23:57:03.7606659+03:00",
+  "renewedDateTime": "2016-12-31T23:57:32.3555352+03:00",
   "securityEnabled": true,
   "securityIdentifier": "Security Identifier value",
   "visibility": "Visibility value",

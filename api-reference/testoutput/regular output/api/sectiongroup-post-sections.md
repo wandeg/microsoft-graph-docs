@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onenoteSection](../resources/onenotesection.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -117,13 +117,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1039
+Content-Length: 1037
 
 {
   "@odata.type": "#microsoft.graph.onenoteSection",
-  "id": "815a8b0e-8b0e-815a-0e8b-5a810e8b5a81",
+  "id": "0b492fae-2fae-0b49-ae2f-490bae2f490b",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:01:25.3917672+03:00",
+  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -141,7 +141,7 @@ Content-Length: 1039
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:58:55.6908839+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
   "isDefault": true,
   "links": {
     "@odata.type": "microsoft.graph.sectionLinks",

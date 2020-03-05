@@ -64,7 +64,7 @@ Inherits from [managedEBook](../resources/managedebook.md)
 |installSummary|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Mobile App Install Summary. Inherited from [managedEBook](../resources/managedebook.md)|
 |userStateSummary|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|The list of installation states for this eBook. Inherited from [managedEBook](../resources/managedebook.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

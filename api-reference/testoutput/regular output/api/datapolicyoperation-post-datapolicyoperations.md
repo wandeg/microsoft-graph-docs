@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [dataPolicyOperation](../resources/datapolicyoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,11 +73,11 @@ Content-length: 309
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
+  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:57:08.0830502+03:00",
+  "submittedDateTime": "2016-12-31T23:59:41.1736802+03:00",
   "progress": "Double"
 }
 ```
@@ -97,12 +97,12 @@ Content-Length: 358
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "id": "3680e807-e807-3680-07e8-803607e88036",
-  "completedDateTime": "2017-01-01T00:02:34.4104649+03:00",
+  "id": "a8974793-4793-a897-9347-97a8934797a8",
+  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:57:08.0830502+03:00",
+  "submittedDateTime": "2016-12-31T23:59:41.1736802+03:00",
   "progress": "Double"
 }
 ```

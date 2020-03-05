@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [fieldValueSet](../resources/fieldvalueset.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 145
   "value": [
     {
       "@odata.type": "#microsoft.graph.fieldValueSet",
-      "id": "12f2c1eb-c1eb-12f2-ebc1-f212ebc1f212"
+      "id": "72994bbc-4bbc-7299-bc4b-9972bc4b9972"
     }
   ]
 }

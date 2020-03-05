@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [resourceOperation](../resources/resourceoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 227
 
 {
   "@odata.type": "#microsoft.graph.resourceOperation",
-  "id": "57e884d3-84d3-57e8-d384-e857d384e857",
+  "id": "1b96c676-c676-1b96-76c6-961b76c6961b",
   "resourceName": "Resource Name value",
   "actionName": "Action Name value",
   "description": "Description value"

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-  "id": "a92de2cf-e2cf-a92d-cfe2-2da9cfe22da9",
+  "id": "5c216d12-6d12-5c21-126d-215c126d215c",
   "orderHint": "Order Hint value"
 }
 ```

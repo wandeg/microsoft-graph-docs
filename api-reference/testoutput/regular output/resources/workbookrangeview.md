@@ -53,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |rows|[workbookRangeView](../resources/workbookrangeview.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

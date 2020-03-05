@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [workbookRangeFormat](../resources/workbookrangeformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.workbookRangeFormat",
-  "id": "57aff004-f004-57af-04f0-af5704f0af57",
+  "id": "bdae5e07-5e07-bdae-075e-aebd075eaebd",
   "columnWidth": "Double",
   "horizontalAlignment": "Horizontal Alignment value",
   "rowHeight": "Double",

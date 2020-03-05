@@ -42,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |lastSharedMethod|[entity](../resources/entity.md)||
 |resource|[entity](../resources/entity.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

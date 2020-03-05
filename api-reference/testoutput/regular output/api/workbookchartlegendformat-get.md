@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 139
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-    "id": "f27569e5-69e5-f275-e569-75f2e56975f2"
+    "id": "ec77063f-063f-ec77-3f06-77ec3f0677ec"
   }
 }
 ```

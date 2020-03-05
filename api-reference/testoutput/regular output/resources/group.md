@@ -148,7 +148,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |transitiveMemberOf|[directoryObject](../resources/directoryobject.md) collection||
 |transitiveMembers|[directoryObject](../resources/directoryobject.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
