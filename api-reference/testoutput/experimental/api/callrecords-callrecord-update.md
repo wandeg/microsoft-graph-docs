@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /communications/callRecords/{callRecordId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [callRecord](../resources/callrecords-callrecord.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [callRecord](../resources/callrecords-callrecord.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}
 Content-type: application/json
-Content-length: 766
+Content-length: 765
 
 {
   "@odata.type": "#microsoft.graph.callRecords.callRecord",
@@ -80,8 +80,8 @@ Content-length: 766
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -115,19 +115,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 879
+Content-Length: 878
 
 {
   "@odata.type": "#microsoft.graph.callRecords.callRecord",
-  "id": "319f7649-7649-319f-4976-9f3149769f31",
+  "id": "7262929a-929a-7262-9a92-62729a926272",
   "version": 7,
   "type": "String",
   "modalities": [
     "String"
   ],
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

@@ -20,8 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List conversationMembers](../api/conversationmember-list.md)|[conversationMember](../resources/conversationmember.md) collection|List properties and relationships of the [conversationMember](../resources/conversationmember.md) objects.|
 |[Get conversationMember](../api/conversationmember-get.md)|[conversationMember](../resources/conversationmember.md)|Read properties and relationships of the [conversationMember](../resources/conversationmember.md) object.|
+|[List members](../api/chat-list-members.md)|[conversationMember](../resources/conversationmember.md) collection|Get the conversationMembers from the members navigation property.|
+|[Add members](../api/chat-post-members.md)|[conversationMember](../resources/conversationmember.md)|Add members by posting to the members collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -33,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

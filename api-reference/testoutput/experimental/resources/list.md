@@ -20,10 +20,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List lists](../api/list-list.md)|[list](../resources/list.md) collection|List properties and relationships of the [list](../resources/list.md) objects.|
 |[Get list](../api/list-get.md)|[list](../resources/list.md)|Read properties and relationships of the [list](../resources/list.md) object.|
-|[Create list](../api/list-create.md)|[list](../resources/list.md)|Create a new [list](../resources/list.md) object.|
-|[Delete list](../api/list-delete.md)|None|Deletes a [list](../resources/list.md).|
 |[Update list](../api/list-update.md)|[list](../resources/list.md)|Update the properties of a [list](../resources/list.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
@@ -38,6 +35,8 @@ Inherits from [baseItem](../resources/baseitem.md)
 |[Add items](../api/list-post-items.md)|[listItem](../resources/listitem.md)|Add items by posting to the items collection.|
 |[List subscriptions](../api/list-list-subscriptions.md)|[subscription](../resources/subscription.md) collection|Get the subscriptions from the subscriptions navigation property.|
 |[Add subscriptions](../api/list-post-subscriptions.md)|[subscription](../resources/subscription.md)|Add subscriptions by posting to the subscriptions collection.|
+|[List lists](../api/site-list-lists.md)|[list](../resources/list.md) collection|Get the lists from the lists navigation property.|
+|[Add lists](../api/site-post-lists.md)|[list](../resources/list.md)|Add lists by posting to the lists collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -69,7 +68,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 |subscriptions|[subscription](../resources/subscription.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

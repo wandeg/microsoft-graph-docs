@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/domainJoinConnectors/{deviceManagementDomainJoinConnecto
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Content-length: 236
 {
   "@odata.type": "#microsoft.graph.deviceManagementDomainJoinConnector",
   "displayName": "Display Name value",
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00",
   "state": "String",
   "version": "Version value"
 }
@@ -91,9 +91,9 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementDomainJoinConnector",
-  "id": "a924df48-df48-a924-48df-24a948df24a9",
+  "id": "8d67567a-567a-8d67-7a56-678d7a56678d",
   "displayName": "Display Name value",
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00",
   "state": "String",
   "version": "Version value"
 }

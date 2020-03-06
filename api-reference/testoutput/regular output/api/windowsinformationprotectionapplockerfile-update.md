@@ -37,7 +37,7 @@ PATCH /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsIn
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) object.
@@ -94,7 +94,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-  "id": "a6724705-4705-a672-0547-72a6054772a6",
+  "id": "17dd5661-5661-17dd-6156-dd176156dd17",
   "displayName": "Display Name value",
   "fileHash": "File Hash value",
   "file": "ZmlsZQ==",

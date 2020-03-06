@@ -34,8 +34,8 @@ POST /applications/{applicationsId}/extensionProperties/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [extensionProperty](../resources/extensionproperty.md) object.
@@ -73,7 +73,7 @@ Content-length: 315
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",
@@ -99,8 +99,8 @@ Content-Length: 364
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "id": "f7914e9e-4e9e-f791-9e4e-91f79e4e91f7",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "cb5cc6ba-c6ba-cb5c-bac6-5ccbbac65ccb",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/profile/skills/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [skillProficiency](../resources/skillproficiency.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [skillProficiency](../resources/skillproficiency.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -117,18 +117,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1018
+Content-Length: 1019
 
 {
   "@odata.type": "#microsoft.graph.skillProficiency",
-  "id": "973e4d78-4d78-973e-784d-3e97784d3e97",
+  "id": "72a97cd8-7cd8-72a9-d87c-a972d87ca972",
   "allowedAudiences": "String",
   "inference": {
     "@odata.type": "microsoft.graph.inferenceData",
     "confidenceScore": "Double",
     "userHasVerifiedAccuracy": true
   },
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -143,7 +143,7 @@ Content-Length: 1018
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },

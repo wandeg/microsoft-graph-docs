@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/mailFolders/{mailFolderId}/messageRules/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [messageRule](../resources/messagerule.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [messageRule](../resources/messagerule.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -193,7 +193,7 @@ Content-Length: 2635
 
 {
   "@odata.type": "#microsoft.graph.messageRule",
-  "id": "b250e382-e382-b250-82e3-50b282e350b2",
+  "id": "4d22d130-d130-4d22-30d1-224d30d1224d",
   "displayName": "Display Name value",
   "sequence": 8,
   "conditions": {

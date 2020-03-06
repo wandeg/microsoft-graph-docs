@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assi
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) object.
@@ -44,7 +44,7 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|Target for the compliance policy assignment.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|Target for the compliance policy assignment.|
 |source|Enumeration|The assignment source for the device compliance policy, direct or parcel/policySet. Possible values are: `direct`, `policySets`.|
 |sourceId|String|The identifier of the source of the assignment.|
 
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 278
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-  "id": "8379daad-daad-8379-adda-7983adda7983",
+  "id": "2d9ce82a-e82a-2d9c-2ae8-9c2d2ae89c2d",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

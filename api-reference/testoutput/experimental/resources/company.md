@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List companies](../api/company-list.md)|[company](../resources/company.md) collection|List properties and relationships of the [company](../resources/company.md) objects.|
 |[Get company](../api/company-get.md)|[company](../resources/company.md)|Read properties and relationships of the [company](../resources/company.md) object.|
-|[Create company](../api/company-create.md)|[company](../resources/company.md)|Create a new [company](../resources/company.md) object.|
-|[Delete company](../api/company-delete.md)|None|Deletes a [company](../resources/company.md).|
 |[Update company](../api/company-update.md)|[company](../resources/company.md)|Update the properties of a [company](../resources/company.md) object.|
 |[List items](../api/company-list-items.md)|[item](../resources/item.md) collection|Get the items from the items navigation property.|
 |[Add items](../api/company-post-items.md)|[item](../resources/item.md)|Add items by posting to the items collection.|
@@ -95,8 +92,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add purchaseInvoiceLines](../api/company-post-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Add purchaseInvoiceLines by posting to the purchaseInvoiceLines collection.|
 |[List picture](../api/company-list-picture.md)|[picture](../resources/picture.md) collection|Get the pictures from the picture navigation property.|
 |[Add picture](../api/company-post-picture.md)|[picture](../resources/picture.md)|Add picture by posting to the picture collection.|
-|[List companies](../api/financials-list-companies.md)|[company](../resources/company.md) collection|Get the companies from the companies navigation property.|
-|[Add companies](../api/financials-post-companies.md)|[company](../resources/company.md)|Add companies by posting to the companies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -146,7 +141,7 @@ Inherits from [entity](../resources/entity.md)
 |unitsOfMeasure|[unitOfMeasure](../resources/unitofmeasure.md) collection||
 |vendors|[vendor](../resources/vendor.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

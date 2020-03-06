@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -75,7 +75,7 @@ Content-Length: 565
 {
   "value": {
     "@odata.type": "#microsoft.graph.thumbnailSet",
-    "id": "9bad6114-6114-9bad-1461-ad9b1461ad9b",
+    "id": "7aef130b-130b-7aef-0b13-ef7a0b13ef7a",
     "large": {
       "@odata.type": "microsoft.graph.thumbnail",
       "content": "Stream",

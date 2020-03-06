@@ -34,7 +34,7 @@ PATCH /deviceAppManagement
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceAppManagement](../resources/deviceappmanagement.md) object.
@@ -66,14 +66,14 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement
 Content-type: application/json
-Content-length: 392
+Content-length: 393
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:55.447624+03:00",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:31.3690228+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:58:17.743368+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:24.955535+03:00"
 }
 ```
 
@@ -87,15 +87,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 441
+Content-Length: 442
 
 {
   "@odata.type": "#microsoft.graph.deviceAppManagement",
-  "id": "5b1223ef-23ef-5b12-ef23-125bef23125b",
-  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:58:55.447624+03:00",
+  "id": "33ca4c60-4c60-33ca-604c-ca33604cca33",
+  "microsoftStoreForBusinessLastSuccessfulSyncDateTime": "2016-12-31T23:56:31.3690228+03:00",
   "isEnabledForMicrosoftStoreForBusiness": true,
   "microsoftStoreForBusinessLanguage": "Microsoft Store For Business Language value",
-  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2016-12-31T23:58:17.743368+03:00"
+  "microsoftStoreForBusinessLastCompletedApplicationSyncTime": "2017-01-01T00:02:24.955535+03:00"
 }
 ```
 

@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartPoints](../api/workbookchartpoint-list.md)|[workbookChartPoint](../resources/workbookchartpoint.md) collection|List properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) objects.|
 |[Get workbookChartPoint](../api/workbookchartpoint-get.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Read properties and relationships of the [workbookChartPoint](../resources/workbookchartpoint.md) object.|
-|[Create workbookChartPoint](../api/workbookchartpoint-create.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Create a new [workbookChartPoint](../resources/workbookchartpoint.md) object.|
-|[Delete workbookChartPoint](../api/workbookchartpoint-delete.md)|None|Deletes a [workbookChartPoint](../resources/workbookchartpoint.md).|
 |[Update workbookChartPoint](../api/workbookchartpoint-update.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Update the properties of a [workbookChartPoint](../resources/workbookchartpoint.md) object.|
 |[itemAt](../api/workbookchartpoint-itemat.md)|[workbookChartPoint](../resources/workbookchartpoint.md)||
 |[count](../api/workbookchartpoint-count.md)|Int32||
 |[Get workbookChartPointFormat](../api/workbookchartpointformat-get.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Read properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
+|[List points](../api/workbookchartseries-list-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md) collection|Get the workbookChartPoints from the points navigation property.|
+|[Add points](../api/workbookchartseries-post-points.md)|[workbookChartPoint](../resources/workbookchartpoint.md)|Add points by posting to the points collection.|
 
 ## Properties
 |Property|Type|Description|

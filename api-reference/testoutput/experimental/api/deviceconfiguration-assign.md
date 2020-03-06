@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/assign
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Content-length: 613
   "deviceConfigurationGroupAssignments": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-      "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
+      "id": "4c127f80-7f80-4c12-807f-124c807f124c",
       "targetGroupId": "Target Group Id value",
       "excludeGroup": true
     }
@@ -79,7 +79,7 @@ Content-length: 613
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "cecb4cfb-4cfb-cecb-fb4c-cbcefb4ccbce",
+      "id": "0e339333-9333-0e33-3393-330e3393330e",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },
@@ -107,7 +107,7 @@ Content-Length: 336
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-      "id": "cecb4cfb-4cfb-cecb-fb4c-cbcefb4ccbce",
+      "id": "0e339333-9333-0e33-3393-330e3393330e",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       },

@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 605
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-    "id": "8557fa57-fa57-8557-57fa-578557fa5785",
+    "id": "c0d121e5-21e5-c0d1-e521-d1c0e521d1c0",
     "setting": "Setting value",
     "settingName": "Setting Name value",
     "deviceId": "Device Id value",
@@ -85,7 +85,7 @@ Content-Length: 605
     "userPrincipalName": "User Principal Name value",
     "deviceModel": "Device Model value",
     "state": "String",
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00"
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00"
   }
 }
 ```

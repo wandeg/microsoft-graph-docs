@@ -35,8 +35,8 @@ POST /me/joinedTeams/{groupId}/team/installedApps/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsAppInstallation](../resources/teamsappinstallation.md) object.
@@ -86,7 +86,7 @@ Content-Length: 111
 
 {
   "@odata.type": "#microsoft.graph.teamsAppInstallation",
-  "id": "0b4b9392-9392-0b4b-9293-4b0b92934b0b"
+  "id": "65704e86-4e86-6570-864e-7065864e7065"
 }
 ```
 

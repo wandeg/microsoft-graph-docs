@@ -36,8 +36,8 @@ POST /me/joinedTeams/{groupId}/groupLifecyclePolicies
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [groupLifecyclePolicy](../resources/grouplifecyclepolicy.md) object.
@@ -93,7 +93,7 @@ Content-Length: 266
 
 {
   "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-  "id": "efd2c3af-c3af-efd2-afc3-d2efafc3d2ef",
+  "id": "0569cfb6-cfb6-0569-b6cf-6905b6cf6905",
   "groupLifetimeInDays": 3,
   "managedGroupTypes": "Managed Group Types value",
   "alternateNotificationEmails": "Alternate Notification Emails value"

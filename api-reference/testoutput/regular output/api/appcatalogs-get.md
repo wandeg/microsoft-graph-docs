@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 125
 {
   "value": {
     "@odata.type": "#microsoft.graph.appCatalogs",
-    "id": "5dd03c64-3c64-5dd0-643c-d05d643cd05d"
+    "id": "dceaccea-ccea-dcea-eacc-eadceacceadc"
   }
 }
 ```

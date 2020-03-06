@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [organizationalBranding](../resources/organizationalbranding.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 412
 {
   "value": {
     "@odata.type": "#microsoft.graph.organizationalBranding",
-    "id": "78efe820-e820-78ef-20e8-ef7820e8ef78",
+    "id": "20859b59-9b59-2085-599b-8520599b8520",
     "backgroundColor": "Background Color value",
     "backgroundImage": "Stream",
     "bannerLogo": "Stream",

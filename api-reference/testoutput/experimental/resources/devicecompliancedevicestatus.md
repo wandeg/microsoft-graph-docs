@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceDeviceStatuses](../api/devicecompliancedevicestatus-list.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) collection|List properties and relationships of the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) objects.|
 |[Get deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-get.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Read properties and relationships of the [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
-|[Create deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-create.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Create a new [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
-|[Delete deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-delete.md)|None|Deletes a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md).|
 |[Update deviceComplianceDeviceStatus](../api/devicecompliancedevicestatus-update.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Update the properties of a [deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) object.|
+|[List deviceStatuses](../api/devicecompliancepolicy-list-devicestatuses.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md) collection|Get the deviceComplianceDeviceStatuses from the deviceStatuses navigation property.|
+|[Add deviceStatuses](../api/devicecompliancepolicy-post-devicestatuses.md)|[deviceComplianceDeviceStatus](../resources/devicecompliancedevicestatus.md)|Add deviceStatuses by posting to the deviceStatuses collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

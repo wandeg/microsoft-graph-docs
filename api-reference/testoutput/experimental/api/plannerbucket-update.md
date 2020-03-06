@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /planner/buckets/{plannerBucketId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerBucket](../resources/plannerbucket.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [plannerBucket](../resources/plannerbucket.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.plannerBucket",
-  "id": "ff70dbb1-dbb1-ff70-b1db-70ffb1db70ff",
+  "id": "7ce0c5af-c5af-7ce0-afc5-e07cafc5e07c",
   "name": "Name value",
   "planId": "Plan Id value",
   "orderHint": "Order Hint value"

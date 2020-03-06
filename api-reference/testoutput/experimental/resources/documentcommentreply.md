@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List documentCommentReplies](../api/documentcommentreply-list.md)|[documentCommentReply](../resources/documentcommentreply.md) collection|List properties and relationships of the [documentCommentReply](../resources/documentcommentreply.md) objects.|
 |[Get documentCommentReply](../api/documentcommentreply-get.md)|[documentCommentReply](../resources/documentcommentreply.md)|Read properties and relationships of the [documentCommentReply](../resources/documentcommentreply.md) object.|
-|[Create documentCommentReply](../api/documentcommentreply-create.md)|[documentCommentReply](../resources/documentcommentreply.md)|Create a new [documentCommentReply](../resources/documentcommentreply.md) object.|
-|[Delete documentCommentReply](../api/documentcommentreply-delete.md)|None|Deletes a [documentCommentReply](../resources/documentcommentreply.md).|
 |[Update documentCommentReply](../api/documentcommentreply-update.md)|[documentCommentReply](../resources/documentcommentreply.md)|Update the properties of a [documentCommentReply](../resources/documentcommentreply.md) object.|
+|[List replies](../api/documentcomment-list-replies.md)|[documentCommentReply](../resources/documentcommentreply.md) collection|Get the documentCommentReplies from the replies navigation property.|
+|[Add replies](../api/documentcomment-post-replies.md)|[documentCommentReply](../resources/documentcommentreply.md)|Add replies by posting to the replies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

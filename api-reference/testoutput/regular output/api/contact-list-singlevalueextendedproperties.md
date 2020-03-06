@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/contacts/{contactId}/singleValueExtendedProperties
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 196
   "value": [
     {
       "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-      "id": "45351890-1890-4535-9018-354590183545",
+      "id": "44d483c9-83c9-44d4-c983-d444c983d444",
       "value": "Value value"
     }
   ]

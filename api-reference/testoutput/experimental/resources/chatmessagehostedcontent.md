@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List chatMessageHostedContents](../api/chatmessagehostedcontent-list.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection|List properties and relationships of the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) objects.|
 |[Get chatMessageHostedContent](../api/chatmessagehostedcontent-get.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Read properties and relationships of the [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
-|[Create chatMessageHostedContent](../api/chatmessagehostedcontent-create.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Create a new [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
-|[Delete chatMessageHostedContent](../api/chatmessagehostedcontent-delete.md)|None|Deletes a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md).|
 |[Update chatMessageHostedContent](../api/chatmessagehostedcontent-update.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Update the properties of a [chatMessageHostedContent](../resources/chatmessagehostedcontent.md) object.|
+|[List hostedContents](../api/chatmessage-list-hostedcontents.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection|Get the chatMessageHostedContents from the hostedContents navigation property.|
+|[Add hostedContents](../api/chatmessage-post-hostedcontents.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md)|Add hostedContents by posting to the hostedContents collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -34,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

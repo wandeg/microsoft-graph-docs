@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [userSettings](../resources/usersettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 246
 {
   "value": {
     "@odata.type": "#microsoft.graph.userSettings",
-    "id": "37b6956f-956f-37b6-6f95-b6376f95b637",
+    "id": "44761f94-1f94-4476-941f-7644941f7644",
     "contributionToContentDiscoveryDisabled": true,
     "contributionToContentDiscoveryAsOrganizationDisabled": true
   }

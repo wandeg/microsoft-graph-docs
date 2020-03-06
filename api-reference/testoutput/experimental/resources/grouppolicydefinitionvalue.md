@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicyDefinitionValues](../api/grouppolicydefinitionvalue-list.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) collection|List properties and relationships of the [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) objects.|
 |[Get groupPolicyDefinitionValue](../api/grouppolicydefinitionvalue-get.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md)|Read properties and relationships of the [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) object.|
-|[Create groupPolicyDefinitionValue](../api/grouppolicydefinitionvalue-create.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md)|Create a new [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) object.|
-|[Delete groupPolicyDefinitionValue](../api/grouppolicydefinitionvalue-delete.md)|None|Deletes a [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md).|
 |[Update groupPolicyDefinitionValue](../api/grouppolicydefinitionvalue-update.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md)|Update the properties of a [groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) object.|
 |[List presentationValues](../api/grouppolicydefinitionvalue-list-presentationvalues.md)|[groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md) collection|Get the groupPolicyPresentationValues from the presentationValues navigation property.|
 |[Add presentationValues](../api/grouppolicydefinitionvalue-post-presentationvalues.md)|[groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md)|Add presentationValues by posting to the presentationValues collection.|
 |[Get groupPolicyDefinition](../api/grouppolicydefinition-get.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|Read properties and relationships of the [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.|
+|[List definitionValues](../api/grouppolicyconfiguration-list-definitionvalues.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) collection|Get the groupPolicyDefinitionValues from the definitionValues navigation property.|
+|[Add definitionValues](../api/grouppolicyconfiguration-post-definitionvalues.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md)|Add definitionValues by posting to the definitionValues collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |definition|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|The associated group policy definition with the value.|
 |presentationValues|[groupPolicyPresentationValue](../resources/grouppolicypresentationvalue.md) collection|The associated group policy presentation values with the definition value.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

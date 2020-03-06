@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,15 +72,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 688
+Content-Length: 687
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-    "id": "3696ccf0-ccf0-3696-f0cc-9636f0cc9636",
+    "id": "a19a4b9b-4b9b-a19a-9b4b-9aa19b4b9aa1",
     "displayName": "Display Name value",
     "configurationDeployedUserCount": 14,
-    "lastRefreshTime": "2017-01-01T00:02:25.6403768+03:00",
+    "lastRefreshTime": "2017-01-01T00:02:06.345182+03:00",
     "configurationDeploymentSummaryPerApp": [
       {
         "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

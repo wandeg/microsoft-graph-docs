@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/planner/plans/{plannerPlanId}/tasks/{plannerTas
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerTaskDetails](../resources/plannertaskdetails.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [plannerTaskDetails](../resources/plannertaskdetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.plannerTaskDetails",
-  "id": "b27fecb6-ecb6-b27f-b6ec-7fb2b6ec7fb2",
+  "id": "36c837d8-37d8-36c8-d837-c836d837c836",
   "description": "Description value",
   "previewType": "String",
   "references": {

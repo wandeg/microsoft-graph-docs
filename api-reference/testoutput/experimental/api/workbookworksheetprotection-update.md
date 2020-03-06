@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -100,7 +100,7 @@ Content-Length: 576
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-  "id": "49199be1-9be1-4919-e19b-1949e19b1949",
+  "id": "65ed7bb9-7bb9-65ed-b97b-ed65b97bed65",
   "options": {
     "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
     "allowAutoFilter": true,

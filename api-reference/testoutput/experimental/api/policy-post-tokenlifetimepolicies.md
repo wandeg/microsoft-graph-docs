@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /policies/tokenLifetimePolicies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.tokenLifetimePolicy",
-  "id": "1b0eb783-b783-1b0e-83b7-0e1b83b70e1b",
+  "id": "f014c773-c773-f014-73c7-14f073c714f0",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

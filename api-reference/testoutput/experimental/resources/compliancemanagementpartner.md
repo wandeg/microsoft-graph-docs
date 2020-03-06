@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List complianceManagementPartners](../api/compliancemanagementpartner-list.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md) collection|List properties and relationships of the [complianceManagementPartner](../resources/compliancemanagementpartner.md) objects.|
 |[Get complianceManagementPartner](../api/compliancemanagementpartner-get.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md)|Read properties and relationships of the [complianceManagementPartner](../resources/compliancemanagementpartner.md) object.|
-|[Create complianceManagementPartner](../api/compliancemanagementpartner-create.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md)|Create a new [complianceManagementPartner](../resources/compliancemanagementpartner.md) object.|
-|[Delete complianceManagementPartner](../api/compliancemanagementpartner-delete.md)|None|Deletes a [complianceManagementPartner](../resources/compliancemanagementpartner.md).|
 |[Update complianceManagementPartner](../api/compliancemanagementpartner-update.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md)|Update the properties of a [complianceManagementPartner](../resources/compliancemanagementpartner.md) object.|
-|[List complianceManagementPartners](../api/intune-devices-devicemanagement-list-compliancemanagementpartners.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md) collection|Get the complianceManagementPartners from the complianceManagementPartners navigation property.|
-|[Add complianceManagementPartners](../api/intune-devices-devicemanagement-post-compliancemanagementpartners.md)|[complianceManagementPartner](../resources/compliancemanagementpartner.md)|Add complianceManagementPartners by posting to the complianceManagementPartners collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -47,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

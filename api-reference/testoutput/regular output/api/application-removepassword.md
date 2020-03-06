@@ -34,8 +34,8 @@ POST /applications/{applicationsId}/removePassword
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -67,7 +67,7 @@ Content-type: application/json
 Content-length: 55
 
 {
-  "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b"
+  "keyId": "995554ed-54ed-9955-ed54-5599ed545599"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 435
+Content-Length: 434
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
-    "id": "4dea3746-3746-4dea-4637-ea4d4637ea4d",
+    "id": "c92b3b6a-3b6a-c92b-6a3b-2bc96a3b2bc9",
     "clientId": "Client Id value",
     "consentType": "Consent Type value",
-    "expiryTime": "2016-12-31T23:58:12.6684613+03:00",
+    "expiryTime": "2016-12-31T23:57:53.1961406+03:00",
     "principalId": "Principal Id value",
     "resourceId": "Resource Id value",
     "scope": "Scope value",
-    "startTime": "2017-01-01T00:02:49.6370207+03:00"
+    "startTime": "2017-01-01T00:00:02.049548+03:00"
   }
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/tiIndicators/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [tiIndicator](../resources/tiindicator.md) object.
@@ -109,7 +109,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [tiIndicator](../resources/tiindicator.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -144,10 +144,10 @@ Content-length: 2540
   "emailSourceIpAddress": "Email Source Ip Address value",
   "emailSubject": "Email Subject value",
   "emailXMailer": "Email XMailer value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "externalId": "External Id value",
-  "fileCompileDateTime": "2017-01-01T00:02:30.4914742+03:00",
-  "fileCreatedDateTime": "2016-12-31T23:56:41.8083525+03:00",
+  "fileCompileDateTime": "2016-12-31T23:57:36.0174406+03:00",
+  "fileCreatedDateTime": "2017-01-01T00:02:47.1007209+03:00",
   "fileHashType": "String",
   "fileHashValue": "File Hash Value value",
   "fileMutexName": "File Mutex Name value",
@@ -156,13 +156,13 @@ Content-length: 2540
   "filePath": "File Path value",
   "fileSize": 8,
   "fileType": "File Type value",
-  "ingestedDateTime": "2017-01-01T00:02:21.7613669+03:00",
+  "ingestedDateTime": "2016-12-31T23:59:43.2264888+03:00",
   "isActive": true,
   "killChain": [
     "Kill Chain value"
   ],
   "knownFalsePositives": "Known False Positives value",
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "malwareFamilyNames": [
     "Malware Family Names value"
   ],
@@ -209,7 +209,7 @@ Content-Length: 2589
 
 {
   "@odata.type": "#microsoft.graph.tiIndicator",
-  "id": "ebcb7b71-7b71-ebcb-717b-cbeb717bcbeb",
+  "id": "3c89b251-b251-3c89-51b2-893c51b2893c",
   "action": "String",
   "activityGroupNames": [
     "Activity Group Names value"
@@ -229,10 +229,10 @@ Content-Length: 2589
   "emailSourceIpAddress": "Email Source Ip Address value",
   "emailSubject": "Email Subject value",
   "emailXMailer": "Email XMailer value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "externalId": "External Id value",
-  "fileCompileDateTime": "2017-01-01T00:02:30.4914742+03:00",
-  "fileCreatedDateTime": "2016-12-31T23:56:41.8083525+03:00",
+  "fileCompileDateTime": "2016-12-31T23:57:36.0174406+03:00",
+  "fileCreatedDateTime": "2017-01-01T00:02:47.1007209+03:00",
   "fileHashType": "String",
   "fileHashValue": "File Hash Value value",
   "fileMutexName": "File Mutex Name value",
@@ -241,13 +241,13 @@ Content-Length: 2589
   "filePath": "File Path value",
   "fileSize": 8,
   "fileType": "File Type value",
-  "ingestedDateTime": "2017-01-01T00:02:21.7613669+03:00",
+  "ingestedDateTime": "2016-12-31T23:59:43.2264888+03:00",
   "isActive": true,
   "killChain": [
     "Kill Chain value"
   ],
   "knownFalsePositives": "Known False Positives value",
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "malwareFamilyNames": [
     "Malware Family Names value"
   ],

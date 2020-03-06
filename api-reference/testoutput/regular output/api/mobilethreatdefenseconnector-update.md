@@ -34,7 +34,7 @@ PATCH /deviceManagement/mobileThreatDefenseConnectors/{mobileThreatDefenseConnec
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object.
@@ -74,7 +74,7 @@ Content-length: 411
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
+  "lastHeartbeatDateTime": "2017-01-01T00:01:24.8620192+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,
@@ -99,8 +99,8 @@ Content-Length: 460
 
 {
   "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-  "id": "ea1c3620-3620-ea1c-2036-1cea20361cea",
-  "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
+  "id": "964c2f8f-2f8f-964c-8f2f-4c968f2f4c96",
+  "lastHeartbeatDateTime": "2017-01-01T00:01:24.8620192+03:00",
   "partnerState": "String",
   "androidEnabled": true,
   "iosEnabled": true,

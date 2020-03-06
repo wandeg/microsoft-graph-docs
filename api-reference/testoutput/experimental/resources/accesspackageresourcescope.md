@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List accessPackageResourceScopes](../api/accesspackageresourcescope-list.md)|[accessPackageResourceScope](../resources/accesspackageresourcescope.md) collection|List properties and relationships of the [accessPackageResourceScope](../resources/accesspackageresourcescope.md) objects.|
 |[Get accessPackageResourceScope](../api/accesspackageresourcescope-get.md)|[accessPackageResourceScope](../resources/accesspackageresourcescope.md)|Read properties and relationships of the [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object.|
-|[Create accessPackageResourceScope](../api/accesspackageresourcescope-create.md)|[accessPackageResourceScope](../resources/accesspackageresourcescope.md)|Create a new [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object.|
-|[Delete accessPackageResourceScope](../api/accesspackageresourcescope-delete.md)|None|Deletes a [accessPackageResourceScope](../resources/accesspackageresourcescope.md).|
 |[Update accessPackageResourceScope](../api/accesspackageresourcescope-update.md)|[accessPackageResourceScope](../resources/accesspackageresourcescope.md)|Update the properties of a [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object.|
 |[Get accessPackageResource](../api/accesspackageresource-get.md)|[accessPackageResource](../resources/accesspackageresource.md)|Read properties and relationships of the [accessPackageResource](../resources/accesspackageresource.md) object.|
 
@@ -44,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |accessPackageResource|[accessPackageResource](../resources/accesspackageresource.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

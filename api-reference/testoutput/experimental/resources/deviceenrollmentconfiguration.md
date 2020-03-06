@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceEnrollmentConfigurations](../api/deviceenrollmentconfiguration-list.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|List properties and relationships of the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) objects.|
 |[Get deviceEnrollmentConfiguration](../api/deviceenrollmentconfiguration-get.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|Read properties and relationships of the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) object.|
 |[hasPayloadLinks](../api/deviceenrollmentconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[setPriority](../api/deviceenrollmentconfiguration-setpriority.md)|None||
@@ -44,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |assignments|[enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) collection|The list of group assignments for the device configuration profile|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

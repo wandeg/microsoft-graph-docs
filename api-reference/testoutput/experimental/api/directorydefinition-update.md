@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /applications/{applicationsId}/synchronization/jobs/{synchronizationJobId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directoryDefinition](../resources/directorydefinition.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [directoryDefinition](../resources/directorydefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,11 +69,11 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/directories/{directoriesId}
 Content-type: application/json
-Content-length: 1378
+Content-length: 1377
 
 {
   "@odata.type": "#microsoft.graph.directoryDefinition",
-  "discoveryDateTime": "2017-01-01T00:00:15.3514116+03:00",
+  "discoveryDateTime": "2017-01-01T00:00:23.583224+03:00",
   "discoverabilities": "String",
   "name": "Name value",
   "objects": [
@@ -130,12 +130,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1427
+Content-Length: 1426
 
 {
   "@odata.type": "#microsoft.graph.directoryDefinition",
-  "id": "d9b1804a-804a-d9b1-4a80-b1d94a80b1d9",
-  "discoveryDateTime": "2017-01-01T00:00:15.3514116+03:00",
+  "id": "d4c62b62-2b62-d4c6-622b-c6d4622bc6d4",
+  "discoveryDateTime": "2017-01-01T00:00:23.583224+03:00",
   "discoverabilities": "String",
   "name": "Name value",
   "objects": [

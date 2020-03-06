@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/secureScores/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [secureScore](../resources/securescore.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [secureScore](../resources/securescore.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -122,11 +122,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1067
+Content-Length: 1068
 
 {
   "@odata.type": "#microsoft.graph.secureScore",
-  "id": "dc585446-5446-dc58-4654-58dc465458dc",
+  "id": "6539fc1e-fc1e-6539-1efc-39651efc3965",
   "activeUserCount": 15,
   "averageComparativeScores": [
     {
@@ -145,7 +145,7 @@ Content-Length: 1067
       "score": "Double"
     }
   ],
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "currentScore": "Double",
   "enabledServices": [
     "Enabled Services value"

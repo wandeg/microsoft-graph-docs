@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /functions/{functionsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 352
 
 {
   "@odata.type": "#microsoft.graph.attributeMappingFunctionSchema",
-  "id": "0d1d87b6-87b6-0d1d-b687-1d0db6871d0d",
+  "id": "a9ea918c-918c-a9ea-8c91-eaa98c91eaa9",
   "parameters": [
     {
       "@odata.type": "microsoft.graph.attributeMappingParameterSchema",

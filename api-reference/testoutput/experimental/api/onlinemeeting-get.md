@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [onlineMeeting](../resources/onlinemeeting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,17 +72,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2277
+Content-Length: 2276
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onlineMeeting",
-    "id": "df6965b5-65b5-df69-b565-69dfb56569df",
-    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
-    "canceledDateTime": "2017-01-01T00:00:00.8251655+03:00",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "id": "c3445e09-5e09-c344-095e-44c3095e44c3",
+    "creationDateTime": "2016-12-31T23:59:35.5241957+03:00",
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "endDateTime": "2017-01-01T00:02:18.392989+03:00",
+    "canceledDateTime": "2016-12-31T23:58:55.6749262+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "entryExitAnnouncement": true,
     "joinUrl": "https://example.com/joinUrl/",
     "subject": "Subject value",

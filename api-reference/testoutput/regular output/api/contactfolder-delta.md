@@ -36,7 +36,7 @@ GET /me/contactFolders/{contactFolderId}/childFolders/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 240
   "value": [
     {
       "@odata.type": "#microsoft.graph.contactFolder",
-      "id": "babbdd61-dd61-babb-61dd-bbba61ddbbba",
+      "id": "c2d3eac3-eac3-c2d3-c3ea-d3c2c3ead3c2",
       "parentFolderId": "Parent Folder Id value",
       "displayName": "Display Name value"
     }

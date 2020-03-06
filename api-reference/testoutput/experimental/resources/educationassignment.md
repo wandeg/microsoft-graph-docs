@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationAssignments](../api/educationassignment-list.md)|[educationAssignment](../resources/educationassignment.md) collection|List properties and relationships of the [educationAssignment](../resources/educationassignment.md) objects.|
 |[Get educationAssignment](../api/educationassignment-get.md)|[educationAssignment](../resources/educationassignment.md)|Read properties and relationships of the [educationAssignment](../resources/educationassignment.md) object.|
-|[Create educationAssignment](../api/educationassignment-create.md)|[educationAssignment](../resources/educationassignment.md)|Create a new [educationAssignment](../resources/educationassignment.md) object.|
-|[Delete educationAssignment](../api/educationassignment-delete.md)|None|Deletes a [educationAssignment](../resources/educationassignment.md).|
 |[Update educationAssignment](../api/educationassignment-update.md)|[educationAssignment](../resources/educationassignment.md)|Update the properties of a [educationAssignment](../resources/educationassignment.md) object.|
 |[publish](../api/educationassignment-publish.md)|[educationAssignment](../resources/educationassignment.md)||
 |[getResourcesFolderUrl](../api/educationassignment-getresourcesfolderurl.md)|String||
@@ -34,6 +31,8 @@ Inherits from [entity](../resources/entity.md)
 |[List categories](../api/educationassignment-list-categories.md)|[educationCategory](../resources/educationcategory.md) collection|Get the educationCategories from the categories navigation property.|
 |[Add categories](../api/educationassignment-post-categories.md)|[educationCategory](../resources/educationcategory.md)|Add categories by posting to the categories collection.|
 |[Get educationRubric](../api/educationrubric-get.md)|[educationRubric](../resources/educationrubric.md)|Read properties and relationships of the [educationRubric](../resources/educationrubric.md) object.|
+|[List assignments](../api/educationclass-list-assignments.md)|[educationAssignment](../resources/educationassignment.md) collection|Get the educationAssignments from the assignments navigation property.|
+|[Add assignments](../api/educationclass-post-assignments.md)|[educationAssignment](../resources/educationassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -64,7 +63,7 @@ Inherits from [entity](../resources/entity.md)
 |rubric|[educationRubric](../resources/educationrubric.md)||
 |submissions|[educationSubmission](../resources/educationsubmission.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -81,7 +80,9 @@ Here is a JSON representation of the resource.
   "classId": "String",
   "displayName": "String",
   "instructions": {
-    "@odata.type": "microsoft.graph.educationItemBody"
+    "@odata.type": "microsoft.graph.educationItemBody",
+    "contentType": "String",
+    "content": "String"
   },
   "closeDateTime": "String (timestamp)",
   "dueDateTime": "String (timestamp)",

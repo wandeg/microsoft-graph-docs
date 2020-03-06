@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/auditEvents/{auditEventId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [auditEvent](../resources/auditevent.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [auditEvent](../resources/auditevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,11 +99,11 @@ Content-length: 1436
     ]
   },
   "activity": "Activity value",
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
   "activityType": "Activity Type value",
   "activityOperationType": "Activity Operation Type value",
   "activityResult": "Activity Result value",
-  "correlationId": "1a3c08db-08db-1a3c-db08-3c1adb083c1a",
+  "correlationId": "262353a4-53a4-2623-a453-2326a4532326",
   "resources": [
     {
       "@odata.type": "microsoft.graph.auditResource",
@@ -135,7 +135,7 @@ Content-Length: 1485
 
 {
   "@odata.type": "#microsoft.graph.auditEvent",
-  "id": "243c7b01-7b01-243c-017b-3c24017b3c24",
+  "id": "af60c106-c106-af60-06c1-60af06c160af",
   "displayName": "Display Name value",
   "componentName": "Component Name value",
   "actor": {
@@ -158,11 +158,11 @@ Content-Length: 1485
     ]
   },
   "activity": "Activity value",
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
   "activityType": "Activity Type value",
   "activityOperationType": "Activity Operation Type value",
   "activityResult": "Activity Result value",
-  "correlationId": "1a3c08db-08db-1a3c-db08-3c1adb083c1a",
+  "correlationId": "262353a4-53a4-2623-a453-2326a4532326",
   "resources": [
     {
       "@odata.type": "microsoft.graph.auditResource",

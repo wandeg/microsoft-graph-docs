@@ -20,14 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementExchangeConnectors](../api/devicemanagementexchangeconnector-list.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) collection|List properties and relationships of the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) objects.|
 |[Get deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-get.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Read properties and relationships of the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
-|[Create deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-create.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Create a new [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
-|[Delete deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-delete.md)|None|Deletes a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md).|
 |[Update deviceManagementExchangeConnector](../api/devicemanagementexchangeconnector-update.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Update the properties of a [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.|
 |[sync](../api/devicemanagementexchangeconnector-sync.md)|None||
-|[List exchangeConnectors](../api/intune-devices-devicemanagement-list-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) collection|Get the deviceManagementExchangeConnectors from the exchangeConnectors navigation property.|
-|[Add exchangeConnectors](../api/intune-devices-devicemanagement-post-exchangeconnectors.md)|[deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md)|Add exchangeConnectors by posting to the exchangeConnectors collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

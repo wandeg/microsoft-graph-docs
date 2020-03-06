@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/parentSectionGroup/sectionGroups
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 939
+Content-Length: 941
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.sectionGroup",
-      "id": "881570ee-70ee-8815-ee70-1588ee701588",
+      "id": "0d17782d-782d-0d17-2d78-170d2d78170d",
       "self": "Self value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "displayName": "Display Name value",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
@@ -92,7 +95,7 @@ Content-Length: 939
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "sectionsUrl": "https://example.com/sectionsUrl/",
       "sectionGroupsUrl": "https://example.com/sectionGroupsUrl/"
     }

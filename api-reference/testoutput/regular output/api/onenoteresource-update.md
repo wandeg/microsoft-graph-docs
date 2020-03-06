@@ -34,7 +34,7 @@ PATCH /me/onenote/resources/{onenoteResourceId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenoteResource](../resources/onenoteresource.md) object.
@@ -89,7 +89,7 @@ Content-Length: 207
 
 {
   "@odata.type": "#microsoft.graph.onenoteResource",
-  "id": "be6cb2cd-b2cd-be6c-cdb2-6cbecdb26cbe",
+  "id": "47fe047b-047b-47fe-7b04-fe477b04fe47",
   "self": "Self value",
   "content": "Stream",
   "contentUrl": "https://example.com/contentUrl/"

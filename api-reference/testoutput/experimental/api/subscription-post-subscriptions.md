@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,8 +37,8 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/s
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [subscription](../resources/subscription.md) object.
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [subscription](../resources/subscription.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -86,7 +86,7 @@ Content-length: 636
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,
@@ -112,12 +112,12 @@ Content-Length: 685
 
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "ccd590a4-90a4-ccd5-a490-d5cca490d5cc",
+  "id": "9f4529ee-29ee-9f45-ee29-459fee29459f",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,

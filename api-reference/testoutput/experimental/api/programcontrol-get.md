@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [programControl](../resources/programcontrol.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,12 +70,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 695
+Content-Length: 696
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.programControl",
-    "id": "59973866-3866-5997-6638-975966389759",
+    "id": "289c1458-1458-289c-5814-9c2858149c28",
     "controlId": "Control Id value",
     "programId": "Program Id value",
     "controlTypeId": "Control Type Id value",
@@ -91,7 +91,7 @@ Content-Length: 695
       "@odata.type": "microsoft.graph.programResource",
       "type": "Type value"
     },
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00"
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00"
   }
 }
 ```

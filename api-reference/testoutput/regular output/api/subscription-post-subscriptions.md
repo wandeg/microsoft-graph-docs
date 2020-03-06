@@ -36,8 +36,8 @@ POST /me/drive/items/{driveItemId}/subscriptions
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [subscription](../resources/subscription.md) object.
@@ -72,7 +72,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/subscriptions
 Content-type: application/json
-Content-length: 368
+Content-length: 369
 
 {
   "@odata.type": "#microsoft.graph.subscription",
@@ -80,7 +80,7 @@ Content-length: 368
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }
@@ -97,16 +97,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 417
+Content-Length: 418
 
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "ad4dda8e-da8e-ad4d-8eda-4dad8eda4dad",
+  "id": "5b079930-9930-5b07-3099-075b3099075b",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value"
 }

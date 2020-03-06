@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -46,7 +46,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -54,7 +54,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 222
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-    "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
+    "id": "4c127f80-7f80-4c12-807f-124c807f124c",
     "targetGroupId": "Target Group Id value",
     "excludeGroup": true
   }

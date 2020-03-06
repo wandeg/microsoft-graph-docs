@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List synchronizationTemplates](../api/synchronizationtemplate-list.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md) collection|List properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) objects.|
 |[Get synchronizationTemplate](../api/synchronizationtemplate-get.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Read properties and relationships of the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
-|[Create synchronizationTemplate](../api/synchronizationtemplate-create.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Create a new [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
-|[Delete synchronizationTemplate](../api/synchronizationtemplate-delete.md)|None|Deletes a [synchronizationTemplate](../resources/synchronizationtemplate.md).|
 |[Update synchronizationTemplate](../api/synchronizationtemplate-update.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Update the properties of a [synchronizationTemplate](../resources/synchronizationtemplate.md) object.|
 |[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
+|[List templates](../api/synchronization-list-templates.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md) collection|Get the synchronizationTemplates from the templates navigation property.|
+|[Add templates](../api/synchronization-post-templates.md)|[synchronizationTemplate](../resources/synchronizationtemplate.md)|Add templates by posting to the templates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |schema|[synchronizationSchema](../resources/synchronizationschema.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

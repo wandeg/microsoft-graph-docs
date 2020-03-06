@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/participants/muteAll
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [muteParticipantsOperation](../resources/muteparticipantsoperation.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 349
 {
   "value": {
     "@odata.type": "#microsoft.graph.muteParticipantsOperation",
-    "id": "b089407d-407d-b089-7d40-89b07d4089b0",
+    "id": "5b927687-7687-5b92-8776-925b8776925b",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

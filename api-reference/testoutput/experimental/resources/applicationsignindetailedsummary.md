@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List applicationSignInDetailedSummaries](../api/applicationsignindetailedsummary-list.md)|[applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) collection|List properties and relationships of the [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) objects.|
 |[Get applicationSignInDetailedSummary](../api/applicationsignindetailedsummary-get.md)|[applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md)|Read properties and relationships of the [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.|
-|[Create applicationSignInDetailedSummary](../api/applicationsignindetailedsummary-create.md)|[applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md)|Create a new [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.|
-|[Delete applicationSignInDetailedSummary](../api/applicationsignindetailedsummary-delete.md)|None|Deletes a [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md).|
 |[Update applicationSignInDetailedSummary](../api/applicationsignindetailedsummary-update.md)|[applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md)|Update the properties of a [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.|
 
 ## Properties
@@ -39,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

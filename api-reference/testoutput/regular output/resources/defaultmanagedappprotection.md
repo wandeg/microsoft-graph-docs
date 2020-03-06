@@ -20,17 +20,12 @@ Inherits from [managedAppProtection](../resources/managedappprotection.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List defaultManagedAppProtections](../api/defaultmanagedappprotection-list.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) collection|List properties and relationships of the [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) objects.|
 |[Get defaultManagedAppProtection](../api/defaultmanagedappprotection-get.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md)|Read properties and relationships of the [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) object.|
-|[Create defaultManagedAppProtection](../api/defaultmanagedappprotection-create.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md)|Create a new [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) object.|
-|[Delete defaultManagedAppProtection](../api/defaultmanagedappprotection-delete.md)|None|Deletes a [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md).|
 |[Update defaultManagedAppProtection](../api/defaultmanagedappprotection-update.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md)|Update the properties of a [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) object.|
 |[targetApps](../api/defaultmanagedappprotection-targetapps.md)|None||
 |[List apps](../api/defaultmanagedappprotection-list-apps.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|Get the managedMobileApps from the apps navigation property.|
 |[Add apps](../api/defaultmanagedappprotection-post-apps.md)|[managedMobileApp](../resources/managedmobileapp.md)|Add apps by posting to the apps collection.|
 |[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[List defaultManagedAppProtections](../api/deviceappmanagement-list-defaultmanagedappprotections.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) collection|Get the defaultManagedAppProtections from the defaultManagedAppProtections navigation property.|
-|[Add defaultManagedAppProtections](../api/deviceappmanagement-post-defaultmanagedappprotections.md)|[defaultManagedAppProtection](../resources/defaultmanagedappprotection.md)|Add defaultManagedAppProtections by posting to the defaultManagedAppProtections collection.|
 
 ## Properties
 |Property|Type|Description|

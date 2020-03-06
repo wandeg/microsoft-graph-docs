@@ -35,7 +35,7 @@ PATCH /users/{usersId}/insights
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [officeGraphInsights](../resources/officegraphinsights.md) object.
@@ -84,7 +84,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.officeGraphInsights",
-  "id": "5ea118a8-18a8-5ea1-a818-a15ea818a15e"
+  "id": "56335485-5485-5633-8554-335685543356"
 }
 ```
 

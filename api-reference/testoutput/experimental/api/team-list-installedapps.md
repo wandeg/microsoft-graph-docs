@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /teams/{teamsId}/installedApps
 GET /me/joinedGroups/{groupId}/team/installedApps
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [teamsAppInstallation](../resources/teamsappinstallation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 152
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAppInstallation",
-      "id": "c98be40a-e40a-c98b-0ae4-8bc90ae48bc9"
+      "id": "973d1bf9-1bf9-973d-f91b-3d97f91b3d97"
     }
   ]
 }

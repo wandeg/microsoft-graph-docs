@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List cartToClassAssociations](../api/carttoclassassociation-list.md)|[cartToClassAssociation](../resources/carttoclassassociation.md) collection|List properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) objects.|
 |[Get cartToClassAssociation](../api/carttoclassassociation-get.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Read properties and relationships of the [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
-|[Create cartToClassAssociation](../api/carttoclassassociation-create.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Create a new [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
-|[Delete cartToClassAssociation](../api/carttoclassassociation-delete.md)|None|Deletes a [cartToClassAssociation](../resources/carttoclassassociation.md).|
 |[Update cartToClassAssociation](../api/carttoclassassociation-update.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Update the properties of a [cartToClassAssociation](../resources/carttoclassassociation.md) object.|
-|[List cartToClassAssociations](../api/intune-devices-devicemanagement-list-carttoclassassociations.md)|[cartToClassAssociation](../resources/carttoclassassociation.md) collection|Get the cartToClassAssociations from the cartToClassAssociations navigation property.|
-|[Add cartToClassAssociations](../api/intune-devices-devicemanagement-post-carttoclassassociations.md)|[cartToClassAssociation](../resources/carttoclassassociation.md)|Add cartToClassAssociations by posting to the cartToClassAssociations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

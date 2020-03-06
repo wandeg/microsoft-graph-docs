@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /policies/homeRealmDiscoveryPolicies
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 342
   "value": [
     {
       "@odata.type": "#microsoft.graph.homeRealmDiscoveryPolicy",
-      "id": "836063e2-63e2-8360-e263-6083e2636083",
+      "id": "9f5cbb6b-bb6b-9f5c-6bbb-5c9f6bbb5c9f",
       "description": "Description value",
       "displayName": "Display Name value",
       "definition": [

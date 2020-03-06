@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/mobileAppIntentAndStates/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -109,7 +109,7 @@ Content-Length: 871
 
 {
   "@odata.type": "#microsoft.graph.mobileAppIntentAndState",
-  "id": "0e508b02-8b02-0e50-028b-500e028b500e",
+  "id": "512db05b-b05b-512d-5bb0-2d515bb02d51",
   "managedDeviceIdentifier": "Managed Device Identifier value",
   "userId": "User Id value",
   "mobileAppList": [

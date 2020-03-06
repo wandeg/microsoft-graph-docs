@@ -43,7 +43,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -80,7 +80,7 @@ Content-Length: 191
 {
   "value": {
     "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-    "id": "ff81e7e1-e7e1-ff81-e1e7-81ffe1e781ff",
+    "id": "fee9438c-438c-fee9-8c43-e9fe8c43e9fe",
     "value": [
       "Value value"
     ]

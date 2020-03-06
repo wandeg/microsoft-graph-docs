@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List shifts](../api/shift-list.md)|[shift](../resources/shift.md) collection|List properties and relationships of the [shift](../resources/shift.md) objects.|
 |[Get shift](../api/shift-get.md)|[shift](../resources/shift.md)|Read properties and relationships of the [shift](../resources/shift.md) object.|
-|[Create shift](../api/shift-create.md)|[shift](../resources/shift.md)|Create a new [shift](../resources/shift.md) object.|
-|[Delete shift](../api/shift-delete.md)|None|Deletes a [shift](../resources/shift.md).|
 |[Update shift](../api/shift-update.md)|[shift](../resources/shift.md)|Update the properties of a [shift](../resources/shift.md) object.|
 |[List shifts](../api/schedule-list-shifts.md)|[shift](../resources/shift.md) collection|Get the shifts from the shifts navigation property.|
 |[Add shifts](../api/schedule-post-shifts.md)|[shift](../resources/shift.md)|Add shifts by posting to the shifts collection.|
@@ -43,7 +40,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

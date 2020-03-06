@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /identityGovernance
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [identityGovernance](../resources/identitygovernance.md) object.
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [identityGovernance](../resources/identitygovernance.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 109
 
 {
   "@odata.type": "#microsoft.graph.identityGovernance",
-  "id": "c7e5545e-545e-c7e5-5e54-e5c75e54e5c7"
+  "id": "a3debc5d-bc5d-a3de-5dbc-dea35dbcdea3"
 }
 ```
 

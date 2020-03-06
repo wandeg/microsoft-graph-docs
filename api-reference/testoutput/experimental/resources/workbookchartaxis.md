@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartAxises](../api/workbookchartaxis-list.md)|[workbookChartAxis](../resources/workbookchartaxis.md) collection|List properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) objects.|
 |[Get workbookChartAxis](../api/workbookchartaxis-get.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Read properties and relationships of the [workbookChartAxis](../resources/workbookchartaxis.md) object.|
-|[Create workbookChartAxis](../api/workbookchartaxis-create.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Create a new [workbookChartAxis](../resources/workbookchartaxis.md) object.|
-|[Delete workbookChartAxis](../api/workbookchartaxis-delete.md)|None|Deletes a [workbookChartAxis](../resources/workbookchartaxis.md).|
 |[Update workbookChartAxis](../api/workbookchartaxis-update.md)|[workbookChartAxis](../resources/workbookchartaxis.md)|Update the properties of a [workbookChartAxis](../resources/workbookchartaxis.md) object.|
 |[Get workbookChartAxisFormat](../api/workbookchartaxisformat-get.md)|[workbookChartAxisFormat](../resources/workbookchartaxisformat.md)|Read properties and relationships of the [workbookChartAxisFormat](../resources/workbookchartaxisformat.md) object.|
 |[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
@@ -47,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |minorGridlines|[workbookChartGridlines](../resources/workbookchartgridlines.md)||
 |title|[workbookChartAxisTitle](../resources/workbookchartaxistitle.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /domains
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [domain](../resources/domain.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [domain](../resources/domain.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-length: 616
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00"
+    "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00"
   }
 }
 ```
@@ -114,7 +114,7 @@ Content-Length: 665
 
 {
   "@odata.type": "#microsoft.graph.domain",
-  "id": "91491c9e-1c9e-9149-9e1c-49919e1c4991",
+  "id": "56dd2618-2618-56dd-1826-dd561826dd56",
   "authenticationType": "Authentication Type value",
   "availabilityStatus": "Availability Status value",
   "isAdminManaged": true,
@@ -131,7 +131,7 @@ Content-Length: 665
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00"
+    "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00"
   }
 }
 ```

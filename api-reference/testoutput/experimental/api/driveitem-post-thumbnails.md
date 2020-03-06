@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/t
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailset.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [thumbnailSet](../resources/thumbnailset.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -107,7 +107,7 @@ Content-Length: 508
 
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "0f9851fe-51fe-0f98-fe51-980ffe51980f",
+  "id": "ae84d66e-d66e-ae84-6ed6-84ae6ed684ae",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

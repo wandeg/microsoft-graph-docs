@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 1420
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagement",
-    "id": "fdaf8eee-8eee-fdaf-ee8e-affdee8eaffd",
+    "id": "12d11cd9-1cd9-12d1-d91c-d112d91cd112",
     "settings": {
       "@odata.type": "microsoft.graph.deviceManagementSettings",
       "deviceComplianceCheckinThresholdDays": 4,

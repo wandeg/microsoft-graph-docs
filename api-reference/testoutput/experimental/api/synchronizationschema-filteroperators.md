@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ GET /applications/{applicationsId}/synchronization/templates/{synchronizationTem
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [filterOperatorSchema](../resources/filteroperatorschema.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-Length: 288
   "value": [
     {
       "@odata.type": "#microsoft.graph.filterOperatorSchema",
-      "id": "885b8a7a-8a7a-885b-7a8a-5b887a8a5b88",
+      "id": "fd552756-2756-fd55-5627-55fd562755fd",
       "arity": "String",
       "multivaluedComparisonType": "String",
       "supportedAttributeTypes": [

@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List posts](../api/post-list.md)|[post](../resources/post.md) collection|List properties and relationships of the [post](../resources/post.md) objects.|
 |[Get post](../api/post-get.md)|[post](../resources/post.md)|Read properties and relationships of the [post](../resources/post.md) object.|
-|[Create post](../api/post-create.md)|[post](../resources/post.md)|Create a new [post](../resources/post.md) object.|
-|[Delete post](../api/post-delete.md)|None|Deletes a [post](../resources/post.md).|
 |[Update post](../api/post-update.md)|[post](../resources/post.md)|Update the properties of a [post](../resources/post.md) object.|
 |[reply](../api/post-reply.md)|None||
 |[forward](../api/post-forward.md)|None||
@@ -69,7 +66,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

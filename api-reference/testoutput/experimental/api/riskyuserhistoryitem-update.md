@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /riskyUsers/{riskyUsersId}/history/{riskyUserHistoryItemId}/history/{risky
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.
@@ -63,7 +63,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-length: 595
   "isDeleted": true,
   "isGuest": true,
   "isProcessing": true,
-  "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
+  "riskLastUpdatedDateTime": "2016-12-31T23:59:32.3790155+03:00",
   "riskLevel": "String",
   "riskState": "String",
   "riskDetail": "String",
@@ -114,11 +114,11 @@ Content-Length: 644
 
 {
   "@odata.type": "#microsoft.graph.riskyUserHistoryItem",
-  "id": "680fff26-ff26-680f-26ff-0f6826ff0f68",
+  "id": "a0f90c63-0c63-a0f9-630c-f9a0630cf9a0",
   "isDeleted": true,
   "isGuest": true,
   "isProcessing": true,
-  "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
+  "riskLastUpdatedDateTime": "2016-12-31T23:59:32.3790155+03:00",
   "riskLevel": "String",
   "riskState": "String",
   "riskDetail": "String",

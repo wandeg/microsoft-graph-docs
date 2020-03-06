@@ -20,14 +20,13 @@ Inherits from [baseItem](../resources/baseitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sitePages](../api/sitepage-list.md)|[sitePage](../resources/sitepage.md) collection|List properties and relationships of the [sitePage](../resources/sitepage.md) objects.|
 |[Get sitePage](../api/sitepage-get.md)|[sitePage](../resources/sitepage.md)|Read properties and relationships of the [sitePage](../resources/sitepage.md) object.|
-|[Create sitePage](../api/sitepage-create.md)|[sitePage](../resources/sitepage.md)|Create a new [sitePage](../resources/sitepage.md) object.|
-|[Delete sitePage](../api/sitepage-delete.md)|None|Deletes a [sitePage](../resources/sitepage.md).|
 |[Update sitePage](../api/sitepage-update.md)|[sitePage](../resources/sitepage.md)|Update the properties of a [sitePage](../resources/sitepage.md) object.|
 |[publish](../api/sitepage-publish.md)|None||
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
+|[List pages](../api/site-list-pages.md)|[sitePage](../resources/sitepage.md) collection|Get the sitePages from the pages navigation property.|
+|[Add pages](../api/site-post-pages.md)|[sitePage](../resources/sitepage.md)|Add pages by posting to the pages collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -54,7 +53,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |createdByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 |lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

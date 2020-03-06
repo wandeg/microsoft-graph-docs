@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [openShiftChangeRequest](../resources/openshiftchangerequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1085
+Content-Length: 1086
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.openShiftChangeRequest",
-    "id": "e4d2a3c0-a3c0-e4d2-c0a3-d2e4c0a3d2e4",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "id": "12bb79d7-79d7-12bb-d779-bb12d779bb12",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,9 +94,9 @@ Content-Length: 1085
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
+    "senderDateTime": "2017-01-01T00:00:50.3002047+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
+    "managerActionDateTime": "2016-12-31T23:58:00.9521432+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value",
     "openShiftId": "Open Shift Id value"

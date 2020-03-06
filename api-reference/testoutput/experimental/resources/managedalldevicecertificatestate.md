@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAllDeviceCertificateStates](../api/managedalldevicecertificatestate-list.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) collection|List properties and relationships of the [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) objects.|
 |[Get managedAllDeviceCertificateState](../api/managedalldevicecertificatestate-get.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md)|Read properties and relationships of the [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) object.|
-|[Create managedAllDeviceCertificateState](../api/managedalldevicecertificatestate-create.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md)|Create a new [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) object.|
-|[Delete managedAllDeviceCertificateState](../api/managedalldevicecertificatestate-delete.md)|None|Deletes a [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md).|
 |[Update managedAllDeviceCertificateState](../api/managedalldevicecertificatestate-update.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md)|Update the properties of a [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) object.|
-|[List deviceConfigurationsAllManagedDeviceCertificateStates](../api/intune-devices-devicemanagement-list-deviceconfigurationsallmanageddevicecertificatestates.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) collection|Get the managedAllDeviceCertificateStates from the deviceConfigurationsAllManagedDeviceCertificateStates navigation property.|
-|[Add deviceConfigurationsAllManagedDeviceCertificateStates](../api/intune-devices-devicemanagement-post-deviceconfigurationsallmanageddevicecertificatestates.md)|[managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md)|Add deviceConfigurationsAllManagedDeviceCertificateStates by posting to the deviceConfigurationsAllManagedDeviceCertificateStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -47,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

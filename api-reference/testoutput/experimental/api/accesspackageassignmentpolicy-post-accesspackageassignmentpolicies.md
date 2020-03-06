@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,8 +37,8 @@ POST /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPack
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageAssignmentPolicy](../resources/accesspackageassignmentpolicy.md) object.
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [accessPackageAssignmentPolicy](../resources/accesspackageassignmentpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-length: 438
   "isEnabled": true,
   "canExtend": true,
   "durationInDays": 14,
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "createdBy": "Created By value",
   "modifiedBy": "Modified By value"
 }
@@ -106,11 +106,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 605
+Content-Length: 606
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentPolicy",
-  "id": "76099350-9350-7609-5093-097650930976",
+  "id": "3c72b1ab-b1ab-3c72-abb1-723cabb1723c",
   "userType": "User Type value",
   "accessPackageId": "Access Package Id value",
   "displayName": "Display Name value",
@@ -118,11 +118,11 @@ Content-Length: 605
   "isEnabled": true,
   "canExtend": true,
   "durationInDays": 14,
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "createdBy": "Created By value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "modifiedBy": "Modified By value",
-  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
+  "modifiedDateTime": "2016-12-31T23:58:13.3996216+03:00"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /riskDetections
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [riskDetection](../resources/riskdetection.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 1327
   "value": [
     {
       "@odata.type": "#microsoft.graph.riskDetection",
-      "id": "ee539b94-9b94-ee53-949b-53ee949b53ee",
+      "id": "590ecb05-cb05-590e-05cb-0e5905cb0e59",
       "requestId": "Request Id value",
       "correlationId": "Correlation Id value",
       "riskType": "String",
@@ -96,9 +99,9 @@ Content-Length: 1327
           "longitude": "Double"
         }
       },
-      "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
-      "detectedDateTime": "2016-12-31T23:58:19.8176883+03:00",
-      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+      "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
+      "detectedDateTime": "2017-01-01T00:01:29.8362549+03:00",
+      "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
       "userId": "User Id value",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",

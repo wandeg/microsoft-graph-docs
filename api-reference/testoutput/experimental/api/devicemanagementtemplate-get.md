@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceManagementTemplate](../resources/devicemanagementtemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 439
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementTemplate",
-    "id": "3139fa01-fa01-3139-01fa-393101fa3931",
+    "id": "0ce1011f-011f-0ce1-1f01-e10c1f01e10c",
     "displayName": "Display Name value",
     "description": "Description value",
     "versionInfo": "Version Info value",
@@ -83,7 +83,7 @@ Content-Length: 439
     "intentCount": 11,
     "templateType": "String",
     "platformType": "String",
-    "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00"
+    "publishedDateTime": "2017-01-01T00:02:36.8373884+03:00"
   }
 }
 ```

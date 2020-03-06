@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/roleDefinitions/{roleDefinitionId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [roleDefinition](../resources/roledefinition.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [roleDefinition](../resources/roledefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -121,7 +121,7 @@ Content-Length: 877
 
 {
   "@odata.type": "#microsoft.graph.roleDefinition",
-  "id": "dc69eaae-eaae-dc69-aeea-69dcaeea69dc",
+  "id": "af298878-8878-af29-7888-29af788829af",
   "displayName": "Display Name value",
   "description": "Description value",
   "permissions": [

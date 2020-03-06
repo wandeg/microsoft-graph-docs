@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/categories/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagementIntentSettingCategory](../resources/devicemanagementintentsettingcategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentSettingCategory",
-  "id": "846bd537-d537-846b-37d5-6b8437d56b84",
+  "id": "8be9137c-137c-8be9-7c13-e98b7c13e98b",
   "displayName": "Display Name value"
 }
 ```

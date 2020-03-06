@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List taxAreas](../api/taxarea-list.md)|[taxArea](../resources/taxarea.md) collection|List properties and relationships of the [taxArea](../resources/taxarea.md) objects.|
 |[Get taxArea](../api/taxarea-get.md)|[taxArea](../resources/taxarea.md)|Read properties and relationships of the [taxArea](../resources/taxarea.md) object.|
-|[Create taxArea](../api/taxarea-create.md)|[taxArea](../resources/taxarea.md)|Create a new [taxArea](../resources/taxarea.md) object.|
-|[Delete taxArea](../api/taxarea-delete.md)|None|Deletes a [taxArea](../resources/taxarea.md).|
 |[Update taxArea](../api/taxarea-update.md)|[taxArea](../resources/taxarea.md)|Update the properties of a [taxArea](../resources/taxarea.md) object.|
+|[List taxAreas](../api/company-list-taxareas.md)|[taxArea](../resources/taxarea.md) collection|Get the taxAreas from the taxAreas navigation property.|
+|[Add taxAreas](../api/company-post-taxareas.md)|[taxArea](../resources/taxarea.md)|Add taxAreas by posting to the taxAreas collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

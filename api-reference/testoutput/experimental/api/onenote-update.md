@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -39,7 +39,7 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/onenote
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenote](../resources/onenote.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [onenote](../resources/onenote.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,7 +88,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.onenote",
-  "id": "6dbe4fb7-4fb7-6dbe-b74f-be6db74fbe6d"
+  "id": "f89eb5c5-b5c5-f89e-c5b5-9ef8c5b59ef8"
 }
 ```
 

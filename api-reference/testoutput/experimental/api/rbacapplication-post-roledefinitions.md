@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /roleManagement/directory/roleDefinitions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -111,7 +111,7 @@ Content-Length: 594
 
 {
   "@odata.type": "#microsoft.graph.unifiedRoleDefinition",
-  "id": "817a827d-827d-817a-7d82-7a817d827a81",
+  "id": "4ea4d496-d496-4ea4-96d4-a44e96d4a44e",
   "description": "Description value",
   "displayName": "Display Name value",
   "isBuiltIn": true,

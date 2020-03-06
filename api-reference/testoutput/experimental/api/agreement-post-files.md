@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /agreements/{agreementsId}/files/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [agreementFile](../resources/agreementfile.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [agreementFile](../resources/agreementfile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,7 +96,7 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.agreementFile",
-  "id": "5471cf3f-cf3f-5471-3fcf-71543fcf7154",
+  "id": "09168b6d-8b6d-0916-6d8b-16096d8b1609",
   "language": "Language value",
   "fileName": "File Name value",
   "fileData": {

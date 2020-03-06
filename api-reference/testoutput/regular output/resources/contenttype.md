@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List contentTypes](../api/contenttype-list.md)|[contentType](../resources/contenttype.md) collection|List properties and relationships of the [contentType](../resources/contenttype.md) objects.|
 |[Get contentType](../api/contenttype-get.md)|[contentType](../resources/contenttype.md)|Read properties and relationships of the [contentType](../resources/contenttype.md) object.|
-|[Create contentType](../api/contenttype-create.md)|[contentType](../resources/contenttype.md)|Create a new [contentType](../resources/contenttype.md) object.|
-|[Delete contentType](../api/contenttype-delete.md)|None|Deletes a [contentType](../resources/contenttype.md).|
 |[Update contentType](../api/contenttype-update.md)|[contentType](../resources/contenttype.md)|Update the properties of a [contentType](../resources/contenttype.md) object.|
 |[List columnLinks](../api/contenttype-list-columnlinks.md)|[columnLink](../resources/columnlink.md) collection|Get the columnLinks from the columnLinks navigation property.|
 |[Add columnLinks](../api/contenttype-post-columnlinks.md)|[columnLink](../resources/columnlink.md)|Add columnLinks by posting to the columnLinks collection.|
+|[List contentTypes](../api/site-list-contenttypes.md)|[contentType](../resources/contenttype.md) collection|Get the contentTypes from the contentTypes navigation property.|
+|[Add contentTypes](../api/site-post-contenttypes.md)|[contentType](../resources/contenttype.md)|Add contentTypes by posting to the contentTypes collection.|
 
 ## Properties
 |Property|Type|Description|

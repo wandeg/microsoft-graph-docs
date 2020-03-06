@@ -20,10 +20,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List extensionProperties](../api/extensionproperty-list.md)|[extensionProperty](../resources/extensionproperty.md) collection|List properties and relationships of the [extensionProperty](../resources/extensionproperty.md) objects.|
 |[Get extensionProperty](../api/extensionproperty-get.md)|[extensionProperty](../resources/extensionproperty.md)|Read properties and relationships of the [extensionProperty](../resources/extensionproperty.md) object.|
-|[Create extensionProperty](../api/extensionproperty-create.md)|[extensionProperty](../resources/extensionproperty.md)|Create a new [extensionProperty](../resources/extensionproperty.md) object.|
-|[Delete extensionProperty](../api/extensionproperty-delete.md)|None|Deletes a [extensionProperty](../resources/extensionproperty.md).|
 |[Update extensionProperty](../api/extensionproperty-update.md)|[extensionProperty](../resources/extensionproperty.md)|Update the properties of a [extensionProperty](../resources/extensionproperty.md) object.|
 |[checkMemberGroups](../api/extensionproperty-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/extensionproperty-checkmemberobjects.md)|String collection||
@@ -45,7 +42,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

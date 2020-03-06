@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /anonymousIpRiskEvents/{anonymousIpRiskEventsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [anonymousIpRiskEvent](../resources/anonymousipriskevent.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [anonymousIpRiskEvent](../resources/anonymousipriskevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,17 +73,17 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/anonymousIpRiskEvents/{anonymousIpRiskEventsId}
 Content-type: application/json
-Content-length: 811
+Content-length: 810
 
 {
   "@odata.type": "#microsoft.graph.anonymousIpRiskEvent",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+  "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+  "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
   "userId": "User Id value",
   "location": {
     "@odata.type": "microsoft.graph.signInLocation",
@@ -115,15 +115,15 @@ Content-Length: 918
 
 {
   "@odata.type": "#microsoft.graph.anonymousIpRiskEvent",
-  "id": "47959adb-9adb-4795-db9a-9547db9a9547",
+  "id": "e04ab42a-b42a-e04a-2ab4-4ae02ab44ae0",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+  "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "userId": "User Id value",
   "location": {
     "@odata.type": "microsoft.graph.signInLocation",

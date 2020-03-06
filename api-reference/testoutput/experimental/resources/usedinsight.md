@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List usedInsights](../api/usedinsight-list.md)|[usedInsight](../resources/usedinsight.md) collection|List properties and relationships of the [usedInsight](../resources/usedinsight.md) objects.|
 |[Get usedInsight](../api/usedinsight-get.md)|[usedInsight](../resources/usedinsight.md)|Read properties and relationships of the [usedInsight](../resources/usedinsight.md) object.|
-|[Create usedInsight](../api/usedinsight-create.md)|[usedInsight](../resources/usedinsight.md)|Create a new [usedInsight](../resources/usedinsight.md) object.|
-|[Delete usedInsight](../api/usedinsight-delete.md)|None|Deletes a [usedInsight](../resources/usedinsight.md).|
 |[Update usedInsight](../api/usedinsight-update.md)|[usedInsight](../resources/usedinsight.md)|Update the properties of a [usedInsight](../resources/usedinsight.md) object.|
 |[Get entity](../api/entity-get.md)|[entity](../resources/entity.md)|Read properties and relationships of the [entity](../resources/entity.md) object.|
+|[List used](../api/officegraphinsights-list-used.md)|[usedInsight](../resources/usedinsight.md) collection|Get the usedInsights from the used navigation property.|
+|[Add used](../api/officegraphinsights-post-used.md)|[usedInsight](../resources/usedinsight.md)|Add used by posting to the used collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |resource|[entity](../resources/entity.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

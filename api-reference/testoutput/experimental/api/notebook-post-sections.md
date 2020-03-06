@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/sites/{siteId}/onenote/notebooks/{notebookId}/se
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenoteSection](../resources/onenotesection.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onenoteSection](../resources/onenotesection.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -117,13 +117,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1038
+Content-Length: 1039
 
 {
   "@odata.type": "#microsoft.graph.onenoteSection",
-  "id": "326fe634-e634-326f-34e6-6f3234e66f32",
+  "id": "b17dff89-ff89-b17d-89ff-7db189ff7db1",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -141,7 +141,7 @@ Content-Length: 1038
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "isDefault": true,
   "links": {
     "@odata.type": "microsoft.graph.sectionLinks",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [mobileThreatDefenseConnector](../resources/mobilethreatdefenseconnector.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,8 +74,8 @@ Content-Length: 825
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-    "id": "d9de0841-0841-d9de-4108-ded94108ded9",
-    "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
+    "id": "f6c00960-0960-f6c0-6009-c0f66009c0f6",
+    "lastHeartbeatDateTime": "2016-12-31T23:57:55.1664101+03:00",
     "partnerState": "String",
     "androidMobileApplicationManagementEnabled": true,
     "iosMobileApplicationManagementEnabled": true,

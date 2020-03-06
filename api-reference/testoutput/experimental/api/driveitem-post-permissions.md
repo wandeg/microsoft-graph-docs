@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/p
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [permission](../resources/permission.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [permission](../resources/permission.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +77,7 @@ Content-length: 1849
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -156,8 +156,8 @@ Content-Length: 1898
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "32939072-9072-3293-7290-933272909332",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "id": "5808ba52-ba52-5808-52ba-085852ba0858",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

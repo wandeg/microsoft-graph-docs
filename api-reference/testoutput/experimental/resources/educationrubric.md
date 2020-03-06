@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationRubrics](../api/educationrubric-list.md)|[educationRubric](../resources/educationrubric.md) collection|List properties and relationships of the [educationRubric](../resources/educationrubric.md) objects.|
 |[Get educationRubric](../api/educationrubric-get.md)|[educationRubric](../resources/educationrubric.md)|Read properties and relationships of the [educationRubric](../resources/educationrubric.md) object.|
-|[Create educationRubric](../api/educationrubric-create.md)|[educationRubric](../resources/educationrubric.md)|Create a new [educationRubric](../resources/educationrubric.md) object.|
-|[Delete educationRubric](../api/educationrubric-delete.md)|None|Deletes a [educationRubric](../resources/educationrubric.md).|
 |[Update educationRubric](../api/educationrubric-update.md)|[educationRubric](../resources/educationrubric.md)|Update the properties of a [educationRubric](../resources/educationrubric.md) object.|
 
 ## Properties
@@ -43,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

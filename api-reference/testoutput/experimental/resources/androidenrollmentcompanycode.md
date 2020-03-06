@@ -19,12 +19,12 @@ Namespace: microsoft.graph
 |:---|:---|:---|
 |enrollmentToken|String|Enrollment Token used by the User to enroll their device.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Generated QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/mimecontent.md)|Generated QR code for the token.|
 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

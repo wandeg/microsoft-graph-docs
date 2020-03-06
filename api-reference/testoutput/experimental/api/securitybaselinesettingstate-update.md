@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/managedDevices/{managedDeviceId}/securityBaselineStates/{securityBasel
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 234
 
 {
   "@odata.type": "#microsoft.graph.securityBaselineSettingState",
-  "id": "a84fce29-ce29-a84f-29ce-4fa829ce4fa8",
+  "id": "1ff48ae2-8ae2-1ff4-e28a-f41fe28af41f",
   "settingName": "Setting Name value",
   "state": "String",
   "settingCategoryId": "Setting Category Id value"

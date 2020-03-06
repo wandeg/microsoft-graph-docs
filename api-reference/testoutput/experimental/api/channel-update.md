@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ PATCH /me/joinedGroups/{groupId}/team/channels/{channelId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [channel](../resources/channel.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [channel](../resources/channel.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,7 +98,7 @@ Content-Length: 311
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "c6b8902d-902d-c6b8-2d90-b8c62d90b8c6",
+  "id": "2582a55d-a55d-2582-5da5-82255da58225",
   "displayName": "Display Name value",
   "description": "Description value",
   "isFavoriteByDefault": true,

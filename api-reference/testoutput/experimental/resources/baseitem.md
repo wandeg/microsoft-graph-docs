@@ -20,10 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List baseItems](../api/baseitem-list.md)|[baseItem](../resources/baseitem.md) collection|List properties and relationships of the [baseItem](../resources/baseitem.md) objects.|
 |[Get baseItem](../api/baseitem-get.md)|[baseItem](../resources/baseitem.md)|Read properties and relationships of the [baseItem](../resources/baseitem.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
+|[List items](../api/site-list-items.md)|[baseItem](../resources/baseitem.md) collection|Get the baseItems from the items navigation property.|
+|[Add items](../api/site-post-items.md)|[baseItem](../resources/baseitem.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 |createdByUser|[user](../resources/user.md)||
 |lastModifiedByUser|[user](../resources/user.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

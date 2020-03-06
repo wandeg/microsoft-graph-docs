@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /officeConfiguration/clientConfigurations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [officeClientConfiguration](../resources/officeclientconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-length: 955
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
+      "checkinDateTime": "2017-01-01T00:02:52.7620952+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"
@@ -118,7 +118,7 @@ Content-Length: 1004
 
 {
   "@odata.type": "#microsoft.graph.officeClientConfiguration",
-  "id": "78e63e7b-3e7b-78e6-7b3e-e6787b3ee678",
+  "id": "b899a016-a016-b899-16a0-99b816a099b8",
   "userPreferencePayload": "Stream",
   "policyPayload": "Stream",
   "description": "Description value",
@@ -138,7 +138,7 @@ Content-Length: 1004
       "devicePlatformVersion": "Device Platform Version value",
       "wasSuccessful": true,
       "userId": "User Id value",
-      "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
+      "checkinDateTime": "2017-01-01T00:02:52.7620952+03:00",
       "errorMessage": "Error Message value",
       "appliedPolicies": [
         "Applied Policies value"

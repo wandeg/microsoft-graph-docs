@@ -34,8 +34,8 @@ POST /deviceManagement/telecomExpenseManagementPartners/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
@@ -68,7 +68,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/telecomExpenseManagementPartners
 Content-type: application/json
-Content-length: 248
+Content-length: 247
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
@@ -76,7 +76,7 @@ Content-length: 248
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+  "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
 }
 ```
 
@@ -91,16 +91,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 297
+Content-Length: 296
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-  "id": "b8416387-6387-b841-8763-41b8876341b8",
+  "id": "33eccc98-cc98-33ec-98cc-ec3398ccec33",
   "displayName": "Display Name value",
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+  "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
 }
 ```
 

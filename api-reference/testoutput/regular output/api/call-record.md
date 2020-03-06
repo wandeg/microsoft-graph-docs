@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/record
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -107,7 +107,7 @@ Content-Length: 395
 {
   "value": {
     "@odata.type": "#microsoft.graph.recordOperation",
-    "id": "16c6a0eb-a0eb-16c6-eba0-c616eba0c616",
+    "id": "451a3d8b-3d8b-451a-8b3d-1a458b3d1a45",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

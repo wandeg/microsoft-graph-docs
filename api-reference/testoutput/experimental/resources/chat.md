@@ -25,6 +25,7 @@ Inherits from [entity](../resources/entity.md)
 |[Create chat](../api/chat-post-chats.md)|[chat](../resources/chat.md)|Create a new [chat](../resources/chat.md) object.|
 |[Delete chat](../api/chat-delete.md)|None|Deletes a [chat](../resources/chat.md).|
 |[Update chat](../api/chat-update.md)|[chat](../resources/chat.md)|Update the properties of a [chat](../resources/chat.md) object.|
+|[allMessages](../api/chat-allmessages.md)|[chatMessage](../resources/chatmessage.md) collection||
 |[List members](../api/chat-list-members.md)|[conversationMember](../resources/conversationmember.md) collection|Get the conversationMembers from the members navigation property.|
 |[Add members](../api/chat-post-members.md)|[conversationMember](../resources/conversationmember.md)|Add members by posting to the members collection.|
 |[List messages](../api/chat-list-messages.md)|[chatMessage](../resources/chatmessage.md) collection|Get the chatMessages from the messages navigation property.|
@@ -49,7 +50,7 @@ Inherits from [entity](../resources/entity.md)
 |members|[conversationMember](../resources/conversationmember.md) collection||
 |messages|[chatMessage](../resources/chatmessage.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /external/connections/{externalConnectionId}/items/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [externalItem](../resources/externalitem.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [externalItem](../resources/externalitem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -102,7 +102,7 @@ Content-Length: 421
 
 {
   "@odata.type": "#microsoft.graph.externalItem",
-  "id": "614cc62f-c62f-614c-2fc6-4c612fc64c61",
+  "id": "9ff1b63f-b63f-9ff1-3fb6-f19f3fb6f19f",
   "properties": {
     "@odata.type": "microsoft.graph.properties"
   },

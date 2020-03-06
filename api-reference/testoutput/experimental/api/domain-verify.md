@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /domains/{domainsId}/verify
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this action returns a `200 OK` response code and a [domain](../resources/domain.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 586
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "91491c9e-1c9e-9149-9e1c-49919e1c4991",
+    "id": "56dd2618-2618-56dd-1826-dd561826dd56",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,

@@ -34,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |directory|[rbacApplication](../resources/rbacapplication.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

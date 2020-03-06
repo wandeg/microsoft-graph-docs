@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 485
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessPackageResourceRequest",
-    "id": "9d1eccee-ccee-9d1e-eecc-1e9deecc1e9d",
+    "id": "be34a325-a325-be34-25a3-34be25a334be",
     "catalogId": "Catalog Id value",
     "executeImmediately": true,
     "isValidationOnly": true,
@@ -83,7 +83,7 @@ Content-Length: 485
     "requestState": "Request State value",
     "requestStatus": "Request Status value",
     "justification": "Justification value",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00"
   }
 }
 ```

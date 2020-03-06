@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/onenote/resources
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 260
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteResource",
-      "id": "be6cb2cd-b2cd-be6c-cdb2-6cbecdb26cbe",
+      "id": "47fe047b-047b-47fe-7b04-fe477b04fe47",
       "self": "Self value",
       "content": "Stream",
       "contentUrl": "https://example.com/contentUrl/"

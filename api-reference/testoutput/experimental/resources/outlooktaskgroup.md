@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookTaskGroups](../api/outlooktaskgroup-list.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md) collection|List properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) objects.|
 |[Get outlookTaskGroup](../api/outlooktaskgroup-get.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Read properties and relationships of the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
-|[Create outlookTaskGroup](../api/outlooktaskgroup-create.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Create a new [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
-|[Delete outlookTaskGroup](../api/outlooktaskgroup-delete.md)|None|Deletes a [outlookTaskGroup](../resources/outlooktaskgroup.md).|
 |[Update outlookTaskGroup](../api/outlooktaskgroup-update.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Update the properties of a [outlookTaskGroup](../resources/outlooktaskgroup.md) object.|
 |[List taskFolders](../api/outlooktaskgroup-list-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
 |[Add taskFolders](../api/outlooktaskgroup-post-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Add taskFolders by posting to the taskFolders collection.|
+|[List taskGroups](../api/outlookuser-list-taskgroups.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md) collection|Get the outlookTaskGroups from the taskGroups navigation property.|
+|[Add taskGroups](../api/outlookuser-post-taskgroups.md)|[outlookTaskGroup](../resources/outlooktaskgroup.md)|Add taskGroups by posting to the taskGroups collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |taskFolders|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

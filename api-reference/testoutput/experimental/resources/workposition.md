@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workPositions](../api/workposition-list.md)|[workPosition](../resources/workposition.md) collection|List properties and relationships of the [workPosition](../resources/workposition.md) objects.|
 |[Get workPosition](../api/workposition-get.md)|[workPosition](../resources/workposition.md)|Read properties and relationships of the [workPosition](../resources/workposition.md) object.|
-|[Create workPosition](../api/workposition-create.md)|[workPosition](../resources/workposition.md)|Create a new [workPosition](../resources/workposition.md) object.|
-|[Delete workPosition](../api/workposition-delete.md)|None|Deletes a [workPosition](../resources/workposition.md).|
 |[Update workPosition](../api/workposition-update.md)|[workPosition](../resources/workposition.md)|Update the properties of a [workPosition](../resources/workposition.md) object.|
+|[List positions](../api/profile-list-positions.md)|[workPosition](../resources/workposition.md) collection|Get the workPositions from the positions navigation property.|
+|[Add positions](../api/profile-post-positions.md)|[workPosition](../resources/workposition.md)|Add positions by posting to the positions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

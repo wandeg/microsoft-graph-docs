@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /communications/callRecords/{callRecordId}/sessions/{sessionId}/segments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [segment](../resources/segment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4987
+Content-Length: 4986
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.segment",
-      "id": "7b1b684a-684a-7b1b-4a68-1b7b4a681b7b",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+      "id": "43fd3a1b-3a1b-43fd-1b3a-fd431b3afd43",
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "endDateTime": "2017-01-01T00:02:18.392989+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {
@@ -158,14 +161,14 @@ Content-Length: 4987
               "streamId": "Stream Id value",
               "streamDirection": "String",
               "averageAudioDegradation": "Single",
-              "averageJitter": "-PT2M9.7524828S",
-              "maxJitter": "PT2M30.9678173S",
+              "averageJitter": "PT2M0.8921439S",
+              "maxJitter": "PT39.3885375S",
               "averagePacketLossRate": "Single",
               "maxPacketLossRate": "Single",
               "averageRatioOfConcealedSamples": "Single",
               "maxRatioOfConcealedSamples": "Single",
-              "averageRoundTripTime": "PT3M27.1364656S",
-              "maxRoundTripTime": "PT17.2216233S",
+              "averageRoundTripTime": "-PT1M49.1540522S",
+              "maxRoundTripTime": "-PT43.6832843S",
               "packetUtilization": 1,
               "averageBandwidthEstimate": 8,
               "wasMediaBypassed": true,
@@ -176,8 +179,8 @@ Content-Length: 4987
               "averageVideoPacketLossRate": "Single",
               "averageVideoFrameRate": "Single",
               "lowVideoProcessingCapabilityRatio": "Single",
-              "averageAudioNetworkJitter": "-PT3M18.0252892S",
-              "maxAudioNetworkJitter": "-PT28.1157412S"
+              "averageAudioNetworkJitter": "-PT1M13.422285S",
+              "maxAudioNetworkJitter": "-PT3M15.7657564S"
             }
           ]
         }

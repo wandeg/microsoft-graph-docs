@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /privilegedRoleAssignmentRequests
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,22 +74,22 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/privilegedRoleAssignmentRequests
 Content-type: application/json
-Content-length: 702
+Content-length: 700
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleAssignmentRequest",
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
     "type": "Type value",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
-    "duration": "-PT1M55.0810357S"
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "endDateTime": "2017-01-01T00:02:18.392989+03:00",
+    "duration": "-PT1M8.1281301S"
   },
   "userId": "User Id value",
   "roleId": "Role Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
+  "requestedDateTime": "2016-12-31T23:57:18.0853595+03:00",
   "status": "Status value",
   "duration": "Duration value",
   "reason": "Reason value",
@@ -109,23 +109,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 751
+Content-Length: 749
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleAssignmentRequest",
-  "id": "4eb017cd-17cd-4eb0-cd17-b04ecd17b04e",
+  "id": "bae80e21-0e21-bae8-210e-e8ba210ee8ba",
   "schedule": {
     "@odata.type": "microsoft.graph.governanceSchedule",
     "type": "Type value",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
-    "duration": "-PT1M55.0810357S"
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "endDateTime": "2017-01-01T00:02:18.392989+03:00",
+    "duration": "-PT1M8.1281301S"
   },
   "userId": "User Id value",
   "roleId": "Role Id value",
   "type": "Type value",
   "assignmentState": "Assignment State value",
-  "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
+  "requestedDateTime": "2016-12-31T23:57:18.0853595+03:00",
   "status": "Status value",
   "duration": "Duration value",
   "reason": "Reason value",

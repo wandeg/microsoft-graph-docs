@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicyDefinitionFiles](../api/grouppolicydefinitionfile-list.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) collection|List properties and relationships of the [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) objects.|
 |[Get groupPolicyDefinitionFile](../api/grouppolicydefinitionfile-get.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|Read properties and relationships of the [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) object.|
-|[Create groupPolicyDefinitionFile](../api/grouppolicydefinitionfile-create.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|Create a new [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) object.|
-|[Delete groupPolicyDefinitionFile](../api/grouppolicydefinitionfile-delete.md)|None|Deletes a [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md).|
 |[Update groupPolicyDefinitionFile](../api/grouppolicydefinitionfile-update.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|Update the properties of a [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) object.|
 |[List definitions](../api/grouppolicydefinitionfile-list-definitions.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md) collection|Get the groupPolicyDefinitions from the definitions navigation property.|
 |[Create definitions](../api/grouppolicydefinitionfile-post-definitions.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|Create definitions by posting to the definitions collection.|
-|[List groupPolicyDefinitionFiles](../api/intune-devices-devicemanagement-list-grouppolicydefinitionfiles.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) collection|Get the groupPolicyDefinitionFiles from the groupPolicyDefinitionFiles navigation property.|
-|[Add groupPolicyDefinitionFiles](../api/intune-devices-devicemanagement-post-grouppolicydefinitionfiles.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|Add groupPolicyDefinitionFiles by posting to the groupPolicyDefinitionFiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |definitions|[groupPolicyDefinition](../resources/grouppolicydefinition.md) collection|The group policy definitions associated with the file.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [itemActivityStat](../resources/itemactivitystat.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [itemActivityStat](../resources/itemactivitystat.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,12 +71,12 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}
 Content-type: application/json
-Content-length: 786
+Content-length: 785
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -97,7 +97,7 @@ Content-length: 786
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:01:23.4815949+03:00",
+    "missingDataBeforeDateTime": "2016-12-31T23:58:21.5511909+03:00",
     "wasThrottled": true
   }
 }
@@ -113,13 +113,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 835
+Content-Length: 834
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "id": "9661ef0f-ef0f-9661-0fef-61960fef6196",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "id": "e71d1d91-1d91-e71d-911d-1de7911d1de7",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -140,7 +140,7 @@ Content-Length: 835
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:01:23.4815949+03:00",
+    "missingDataBeforeDateTime": "2016-12-31T23:58:21.5511909+03:00",
     "wasThrottled": true
   }
 }

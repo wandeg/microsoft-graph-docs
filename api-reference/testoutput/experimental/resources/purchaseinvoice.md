@@ -20,16 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List purchaseInvoices](../api/purchaseinvoice-list.md)|[purchaseInvoice](../resources/purchaseinvoice.md) collection|List properties and relationships of the [purchaseInvoice](../resources/purchaseinvoice.md) objects.|
 |[Get purchaseInvoice](../api/purchaseinvoice-get.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Read properties and relationships of the [purchaseInvoice](../resources/purchaseinvoice.md) object.|
-|[Create purchaseInvoice](../api/purchaseinvoice-create.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Create a new [purchaseInvoice](../resources/purchaseinvoice.md) object.|
-|[Delete purchaseInvoice](../api/purchaseinvoice-delete.md)|None|Deletes a [purchaseInvoice](../resources/purchaseinvoice.md).|
 |[Update purchaseInvoice](../api/purchaseinvoice-update.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Update the properties of a [purchaseInvoice](../resources/purchaseinvoice.md) object.|
 |[post](../api/purchaseinvoice-post.md)|None||
 |[List purchaseInvoiceLines](../api/purchaseinvoice-list-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md) collection|Get the purchaseInvoiceLines from the purchaseInvoiceLines navigation property.|
 |[Add purchaseInvoiceLines](../api/purchaseinvoice-post-purchaseinvoicelines.md)|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md)|Add purchaseInvoiceLines by posting to the purchaseInvoiceLines collection.|
 |[Get vendor](../api/vendor-get.md)|[vendor](../resources/vendor.md)|Read properties and relationships of the [vendor](../resources/vendor.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
+|[List purchaseInvoices](../api/company-list-purchaseinvoices.md)|[purchaseInvoice](../resources/purchaseinvoice.md) collection|Get the purchaseInvoices from the purchaseInvoices navigation property.|
+|[Add purchaseInvoices](../api/company-post-purchaseinvoices.md)|[purchaseInvoice](../resources/purchaseinvoice.md)|Add purchaseInvoices by posting to the purchaseInvoices collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -69,7 +68,7 @@ Inherits from [entity](../resources/entity.md)
 |purchaseInvoiceLines|[purchaseInvoiceLine](../resources/purchaseinvoiceline.md) collection||
 |vendor|[vendor](../resources/vendor.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -97,12 +96,7 @@ Here is a JSON representation of the resource.
   "shipToName": "String",
   "shipToContact": "String",
   "buyFromAddress": {
-    "@odata.type": "microsoft.graph.postalAddressType",
-    "street": "String",
-    "city": "String",
-    "state": "String",
-    "countryLetterCode": "String",
-    "postalCode": "String"
+    "@odata.type": "microsoft.graph.postalAddressType"
   },
   "payToAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"

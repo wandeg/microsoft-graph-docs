@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/team/schedule/share
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -54,7 +54,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,12 +67,12 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/teams/{teamsId}/schedule/share
 
 Content-type: application/json
-Content-length: 138
+Content-length: 137
 
 {
   "notifyTeam": true,
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00"
 }
 ```
 

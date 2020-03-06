@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/policySets/{policySetId}/assignments/{policySetAssign
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [policySetAssignment](../resources/policysetassignment.md) object.
@@ -45,14 +45,14 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetAssignment.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
 
 
 
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [policySetAssignment](../resources/policysetassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,8 +88,8 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.policySetAssignment",
-  "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "3606fe22-fe22-3606-22fe-063622fe0636",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

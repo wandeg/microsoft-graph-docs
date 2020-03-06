@@ -35,8 +35,8 @@ POST /users/{usersId}/licenseDetails/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [licenseDetails](../resources/licensedetails.md) object.
@@ -74,13 +74,13 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
+  "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
@@ -100,17 +100,17 @@ Content-Length: 514
 
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "6e1cb7b0-b7b0-6e1c-b0b7-1c6eb0b71c6e",
+  "id": "6c0ae864-e864-6c0a-64e8-0a6c64e80a6c",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
+  "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

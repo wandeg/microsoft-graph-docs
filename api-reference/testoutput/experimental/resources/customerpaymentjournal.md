@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List customerPaymentJournals](../api/customerpaymentjournal-list.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md) collection|List properties and relationships of the [customerPaymentJournal](../resources/customerpaymentjournal.md) objects.|
 |[Get customerPaymentJournal](../api/customerpaymentjournal-get.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md)|Read properties and relationships of the [customerPaymentJournal](../resources/customerpaymentjournal.md) object.|
-|[Create customerPaymentJournal](../api/customerpaymentjournal-create.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md)|Create a new [customerPaymentJournal](../resources/customerpaymentjournal.md) object.|
-|[Delete customerPaymentJournal](../api/customerpaymentjournal-delete.md)|None|Deletes a [customerPaymentJournal](../resources/customerpaymentjournal.md).|
 |[Update customerPaymentJournal](../api/customerpaymentjournal-update.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md)|Update the properties of a [customerPaymentJournal](../resources/customerpaymentjournal.md) object.|
 |[List customerPayments](../api/customerpaymentjournal-list-customerpayments.md)|[customerPayment](../resources/customerpayment.md) collection|Get the customerPayments from the customerPayments navigation property.|
 |[Add customerPayments](../api/customerpaymentjournal-post-customerpayments.md)|[customerPayment](../resources/customerpayment.md)|Add customerPayments by posting to the customerPayments collection.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List customerPaymentJournals](../api/company-list-customerpaymentjournals.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md) collection|Get the customerPaymentJournals from the customerPaymentJournals navigation property.|
+|[Add customerPaymentJournals](../api/company-post-customerpaymentjournals.md)|[customerPaymentJournal](../resources/customerpaymentjournal.md)|Add customerPaymentJournals by posting to the customerPaymentJournals collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |account|[account](../resources/account.md)||
 |customerPayments|[customerPayment](../resources/customerpayment.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

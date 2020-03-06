@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/joinedGroups/{groupId}/drive/list/columns
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [columnDefinition](../resources/columndefinition.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 2344
   "value": [
     {
       "@odata.type": "#microsoft.graph.columnDefinition",
-      "id": "93f728eb-28eb-93f7-eb28-f793eb28f793",
+      "id": "fb5a5bd7-5bd7-fb5a-d75b-5afbd75b5afb",
       "boolean": {
         "@odata.type": "microsoft.graph.booleanColumn"
       },

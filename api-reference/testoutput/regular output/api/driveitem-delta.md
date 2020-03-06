@@ -50,7 +50,7 @@ GET /me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatI
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -82,23 +82,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2222
+Content-Length: 2224
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "ecadcec1-cec1-ecad-c1ce-adecc1ceadec",
+      "id": "41a65e9f-5e9f-41a6-9f5e-a6419f5ea641",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"

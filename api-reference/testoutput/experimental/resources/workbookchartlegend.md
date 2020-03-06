@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartLegends](../api/workbookchartlegend-list.md)|[workbookChartLegend](../resources/workbookchartlegend.md) collection|List properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) objects.|
 |[Get workbookChartLegend](../api/workbookchartlegend-get.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Read properties and relationships of the [workbookChartLegend](../resources/workbookchartlegend.md) object.|
-|[Create workbookChartLegend](../api/workbookchartlegend-create.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Create a new [workbookChartLegend](../resources/workbookchartlegend.md) object.|
-|[Delete workbookChartLegend](../api/workbookchartlegend-delete.md)|None|Deletes a [workbookChartLegend](../resources/workbookchartlegend.md).|
 |[Update workbookChartLegend](../api/workbookchartlegend-update.md)|[workbookChartLegend](../resources/workbookchartlegend.md)|Update the properties of a [workbookChartLegend](../resources/workbookchartlegend.md) object.|
 |[Get workbookChartLegendFormat](../api/workbookchartlegendformat-get.md)|[workbookChartLegendFormat](../resources/workbookchartlegendformat.md)|Read properties and relationships of the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.|
 
@@ -40,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |format|[workbookChartLegendFormat](../resources/workbookchartlegendformat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

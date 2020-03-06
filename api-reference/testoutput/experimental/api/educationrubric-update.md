@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /education/classes/{educationClassId}/members/{educationUserId}/rubrics/{e
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationRubric](../resources/educationrubric.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [educationRubric](../resources/educationrubric.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -133,11 +133,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1439
+Content-Length: 1440
 
 {
   "@odata.type": "#microsoft.graph.educationRubric",
-  "id": "f0c2bb23-bb23-f0c2-23bb-c2f023bbc2f0",
+  "id": "b7b82738-2738-b7b8-3827-b8b73827b8b7",
   "displayName": "Display Name value",
   "description": {
     "@odata.type": "microsoft.graph.educationItemBody",
@@ -169,7 +169,7 @@ Content-Length: 1439
   "grading": {
     "@odata.type": "microsoft.graph.educationAssignmentGradeType"
   },
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -183,7 +183,7 @@ Content-Length: 1439
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   }

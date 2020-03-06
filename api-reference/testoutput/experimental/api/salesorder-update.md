@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /financials/companies/{companyId}/salesOrders/{salesOrderId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [salesOrder](../resources/salesorder.md) object.
@@ -81,7 +81,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [salesOrder](../resources/salesorder.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -100,11 +100,11 @@ Content-length: 1595
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "orderDate": "Date",
-  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+  "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
+  "billToCustomerId": "1bdd7746-7746-1bdd-4677-dd1b4677dd1b",
   "billToCustomerNumber": "Bill To Customer Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -122,10 +122,10 @@ Content-length: 1595
   "shippingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
   "salesperson": "Salesperson value",
   "partialShipping": true,
   "requestedDeliveryDate": "Date",
@@ -155,15 +155,15 @@ Content-Length: 1708
 
 {
   "@odata.type": "#microsoft.graph.salesOrder",
-  "id": "7ee4f560-f560-7ee4-60f5-e47e60f5e47e",
+  "id": "fe3a8b75-8b75-fe3a-758b-3afe758b3afe",
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "orderDate": "Date",
-  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+  "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
+  "billToCustomerId": "1bdd7746-7746-1bdd-4677-dd1b4677dd1b",
   "billToCustomerNumber": "Bill To Customer Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -181,10 +181,10 @@ Content-Length: 1708
   "shippingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
   "salesperson": "Salesperson value",
   "partialShipping": true,
   "requestedDeliveryDate": "Date",
@@ -195,7 +195,7 @@ Content-Length: 1708
   "totalAmountIncludingTax": "4.2",
   "fullyShipped": true,
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "phoneNumber": "Phone Number value",
   "email": "Email value"
 }

@@ -20,16 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesCreditMemos](../api/salescreditmemo-list.md)|[salesCreditMemo](../resources/salescreditmemo.md) collection|List properties and relationships of the [salesCreditMemo](../resources/salescreditmemo.md) objects.|
 |[Get salesCreditMemo](../api/salescreditmemo-get.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Read properties and relationships of the [salesCreditMemo](../resources/salescreditmemo.md) object.|
-|[Create salesCreditMemo](../api/salescreditmemo-create.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Create a new [salesCreditMemo](../resources/salescreditmemo.md) object.|
-|[Delete salesCreditMemo](../api/salescreditmemo-delete.md)|None|Deletes a [salesCreditMemo](../resources/salescreditmemo.md).|
 |[Update salesCreditMemo](../api/salescreditmemo-update.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Update the properties of a [salesCreditMemo](../resources/salescreditmemo.md) object.|
 |[List salesCreditMemoLines](../api/salescreditmemo-list-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection|Get the salesCreditMemoLines from the salesCreditMemoLines navigation property.|
 |[Add salesCreditMemoLines](../api/salescreditmemo-post-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Add salesCreditMemoLines by posting to the salesCreditMemoLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[List salesCreditMemos](../api/company-list-salescreditmemos.md)|[salesCreditMemo](../resources/salescreditmemo.md) collection|Get the salesCreditMemos from the salesCreditMemos navigation property.|
+|[Add salesCreditMemos](../api/company-post-salescreditmemos.md)|[salesCreditMemo](../resources/salescreditmemo.md)|Add salesCreditMemos by posting to the salesCreditMemos collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -72,7 +71,7 @@ Inherits from [entity](../resources/entity.md)
 |paymentTerm|[paymentTerm](../resources/paymentterm.md)||
 |salesCreditMemoLines|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

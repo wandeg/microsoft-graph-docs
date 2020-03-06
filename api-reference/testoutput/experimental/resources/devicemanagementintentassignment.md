@@ -20,22 +20,21 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementIntentAssignments](../api/devicemanagementintentassignment-list.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) collection|List properties and relationships of the [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) objects.|
 |[Get deviceManagementIntentAssignment](../api/devicemanagementintentassignment-get.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md)|Read properties and relationships of the [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object.|
-|[Create deviceManagementIntentAssignment](../api/devicemanagementintentassignment-create.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md)|Create a new [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object.|
-|[Delete deviceManagementIntentAssignment](../api/devicemanagementintentassignment-delete.md)|None|Deletes a [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md).|
 |[Update deviceManagementIntentAssignment](../api/devicemanagementintentassignment-update.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md)|Update the properties of a [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object.|
+|[List assignments](../api/devicemanagementintent-list-assignments.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) collection|Get the deviceManagementIntentAssignments from the assignments navigation property.|
+|[Add assignments](../api/devicemanagementintent-post-assignments.md)|[deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The assignment target|
 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

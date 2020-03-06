@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemPhones](../api/itemphone-list.md)|[itemPhone](../resources/itemphone.md) collection|List properties and relationships of the [itemPhone](../resources/itemphone.md) objects.|
 |[Get itemPhone](../api/itemphone-get.md)|[itemPhone](../resources/itemphone.md)|Read properties and relationships of the [itemPhone](../resources/itemphone.md) object.|
-|[Create itemPhone](../api/itemphone-create.md)|[itemPhone](../resources/itemphone.md)|Create a new [itemPhone](../resources/itemphone.md) object.|
-|[Delete itemPhone](../api/itemphone-delete.md)|None|Deletes a [itemPhone](../resources/itemphone.md).|
 |[Update itemPhone](../api/itemphone-update.md)|[itemPhone](../resources/itemphone.md)|Update the properties of a [itemPhone](../resources/itemphone.md) object.|
+|[List phones](../api/profile-list-phones.md)|[itemPhone](../resources/itemphone.md) collection|Get the itemPhones from the phones navigation property.|
+|[Add phones](../api/profile-post-phones.md)|[itemPhone](../resources/itemphone.md)|Add phones by posting to the phones collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

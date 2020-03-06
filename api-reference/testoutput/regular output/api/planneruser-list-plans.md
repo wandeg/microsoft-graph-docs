@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/planner/plans
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 692
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerPlan",
-      "id": "51c94de7-4de7-51c9-e74d-c951e74dc951",
+      "id": "3123145e-145e-3123-5e14-23315e142331",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -87,7 +90,7 @@ Content-Length: 692
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "owner": "Owner value",
       "title": "Title value"
     }

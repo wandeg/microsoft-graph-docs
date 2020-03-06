@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [privilegedOperationEvent](../resources/privilegedoperationevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,14 +74,14 @@ Content-Length: 758
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedOperationEvent",
-    "id": "1176076e-076e-1176-6e07-76116e077611",
+    "id": "73676b3b-6b3b-7367-3b6b-67733b6b6773",
     "userId": "User Id value",
     "userName": "User Name value",
     "userMail": "User Mail value",
     "roleId": "Role Id value",
     "roleName": "Role Name value",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
-    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
+    "creationDateTime": "2016-12-31T23:59:35.5241957+03:00",
     "requestorId": "Requestor Id value",
     "requestorName": "Requestor Name value",
     "tenantId": "Tenant Id value",

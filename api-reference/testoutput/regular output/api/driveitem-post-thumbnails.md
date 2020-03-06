@@ -35,8 +35,8 @@ POST /me/drive/items/{driveItemId}/thumbnails/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailset.md) object.
@@ -107,7 +107,7 @@ Content-Length: 508
 
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "9bad6114-6114-9bad-1461-ad9b1461ad9b",
+  "id": "7aef130b-130b-7aef-0b13-ef7a0b13ef7a",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

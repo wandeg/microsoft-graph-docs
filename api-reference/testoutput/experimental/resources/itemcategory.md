@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemCategories](../api/itemcategory-list.md)|[itemCategory](../resources/itemcategory.md) collection|List properties and relationships of the [itemCategory](../resources/itemcategory.md) objects.|
 |[Get itemCategory](../api/itemcategory-get.md)|[itemCategory](../resources/itemcategory.md)|Read properties and relationships of the [itemCategory](../resources/itemcategory.md) object.|
-|[Create itemCategory](../api/itemcategory-create.md)|[itemCategory](../resources/itemcategory.md)|Create a new [itemCategory](../resources/itemcategory.md) object.|
-|[Delete itemCategory](../api/itemcategory-delete.md)|None|Deletes a [itemCategory](../resources/itemcategory.md).|
 |[Update itemCategory](../api/itemcategory-update.md)|[itemCategory](../resources/itemcategory.md)|Update the properties of a [itemCategory](../resources/itemcategory.md) object.|
+|[List itemCategories](../api/company-list-itemcategories.md)|[itemCategory](../resources/itemcategory.md) collection|Get the itemCategories from the itemCategories navigation property.|
+|[Add itemCategories](../api/company-post-itemcategories.md)|[itemCategory](../resources/itemcategory.md)|Add itemCategories by posting to the itemCategories collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

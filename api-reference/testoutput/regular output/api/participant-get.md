@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 1018
 {
   "value": {
     "@odata.type": "#microsoft.graph.participant",
-    "id": "f85a15d1-15d1-f85a-d115-5af8d1155af8",
+    "id": "7110e5f2-e5f2-7110-f2e5-1071f2e51071",
     "info": {
       "@odata.type": "microsoft.graph.participantInfo",
       "identity": {

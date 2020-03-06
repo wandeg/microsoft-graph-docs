@@ -34,7 +34,7 @@ PATCH /communications
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [cloudCommunications](../resources/cloudcommunications.md) object.
@@ -83,7 +83,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.cloudCommunications",
-  "id": "59fb44e7-44e7-59fb-e744-fb59e744fb59"
+  "id": "86a50157-0157-86a5-5701-a5865701a586"
 }
 ```
 

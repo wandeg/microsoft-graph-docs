@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/contactFolders/{contactFolderId}/contacts
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,21 +69,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2370
+Content-Length: 2372
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.contact",
-      "id": "b432c268-c268-b432-68c2-32b468c232b4",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "id": "339a5a65-5a65-339a-655a-9a33655a9a33",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
       ],
       "parentFolderId": "Parent Folder Id value",
-      "birthday": "2017-01-01T00:02:22.3143308+03:00",
+      "birthday": "2017-01-01T00:03:19.9184906+03:00",
       "fileAs": "File As value",
       "displayName": "Display Name value",
       "givenName": "Given Name value",

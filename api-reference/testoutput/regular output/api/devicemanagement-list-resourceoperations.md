@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/resourceOperations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 280
   "value": [
     {
       "@odata.type": "#microsoft.graph.resourceOperation",
-      "id": "1b96c676-c676-1b96-76c6-961b76c6961b",
+      "id": "119acbd4-cbd4-119a-d4cb-9a11d4cb9a11",
       "resourceName": "Resource Name value",
       "actionName": "Action Name value",
       "description": "Description value"

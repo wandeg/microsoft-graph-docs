@@ -83,7 +83,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |pages|[sitePage](../resources/sitepage.md) collection||
 |sites|[site](../resources/site.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

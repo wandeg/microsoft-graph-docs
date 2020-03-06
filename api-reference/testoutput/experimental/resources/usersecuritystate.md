@@ -35,7 +35,7 @@ Namespace: microsoft.graph
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

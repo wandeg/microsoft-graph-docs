@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/secureScoreControlProfiles/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.
@@ -70,7 +70,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -110,7 +110,7 @@ Content-length: 1565
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00"
+      "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00"
     }
   ],
   "deprecated": true,
@@ -151,7 +151,7 @@ Content-Length: 1678
 
 {
   "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-  "id": "19888c5a-8c5a-1988-5a8c-88195a8c8819",
+  "id": "9b492735-2735-9b49-3527-499b3527499b",
   "actionType": "Action Type value",
   "actionUrl": "https://example.com/actionUrl/",
   "azureTenantId": "Azure Tenant Id value",
@@ -176,12 +176,12 @@ Content-Length: 1678
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00"
+      "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00"
     }
   ],
   "deprecated": true,
   "implementationCost": "Implementation Cost value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "maxScore": "Double",
   "rank": 4,
   "remediation": "Remediation value",

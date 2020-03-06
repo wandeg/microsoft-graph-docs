@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerBucketTaskBoardTaskFormats](../api/plannerbuckettaskboardtaskformat-list.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) collection|List properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) objects.|
 |[Get plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-get.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md)|Read properties and relationships of the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.|
-|[Create plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-create.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md)|Create a new [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.|
-|[Delete plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-delete.md)|None|Deletes a [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md).|
 |[Update plannerBucketTaskBoardTaskFormat](../api/plannerbuckettaskboardtaskformat-update.md)|[plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md)|Update the properties of a [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.|
 
 ## Properties

@@ -20,13 +20,12 @@ Inherits from [deviceManagementTroubleshootingEvent](../resources/devicemanageme
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileAppTroubleshootingEvents](../api/mobileapptroubleshootingevent-list.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) collection|List properties and relationships of the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) objects.|
 |[Get mobileAppTroubleshootingEvent](../api/mobileapptroubleshootingevent-get.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Read properties and relationships of the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.|
-|[Create mobileAppTroubleshootingEvent](../api/mobileapptroubleshootingevent-create.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Create a new [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.|
-|[Delete mobileAppTroubleshootingEvent](../api/mobileapptroubleshootingevent-delete.md)|None|Deletes a [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md).|
 |[Update mobileAppTroubleshootingEvent](../api/mobileapptroubleshootingevent-update.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Update the properties of a [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.|
-|[List appLogCollectionRequests](../api/mobileapptroubleshootingevent-list-applogcollectionrequests.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) collection|Get the appLogCollectionRequests from the appLogCollectionRequests navigation property.|
-|[Add appLogCollectionRequests](../api/mobileapptroubleshootingevent-post-applogcollectionrequests.md)|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md)|Add appLogCollectionRequests by posting to the appLogCollectionRequests collection.|
+|[List appLogCollectionRequests](../api/mobileapptroubleshootingevent-list-applogcollectionrequests.md)|[appLogCollectionRequest](../resources/applogcollectionrequest.md) collection|Get the appLogCollectionRequests from the appLogCollectionRequests navigation property.|
+|[Add appLogCollectionRequests](../api/mobileapptroubleshootingevent-post-applogcollectionrequests.md)|[appLogCollectionRequest](../resources/applogcollectionrequest.md)|Add appLogCollectionRequests by posting to the appLogCollectionRequests collection.|
+|[List mobileAppTroubleshootingEvents](../api/user-list-mobileapptroubleshootingevents.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) collection|Get the mobileAppTroubleshootingEvents from the mobileAppTroubleshootingEvents navigation property.|
+|[Add mobileAppTroubleshootingEvents](../api/user-post-mobileapptroubleshootingevents.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Add mobileAppTroubleshootingEvents by posting to the mobileAppTroubleshootingEvents collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,9 +44,9 @@ Inherits from [deviceManagementTroubleshootingEvent](../resources/devicemanageme
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|appLogCollectionRequests|[appLogCollectionRequest](../resources/intune-devices-applogcollectionrequest.md) collection|The collection property of AppLogUploadRequest.|
+|appLogCollectionRequests|[appLogCollectionRequest](../resources/applogcollectionrequest.md) collection|The collection property of AppLogUploadRequest.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementIntentUserStates](../api/devicemanagementintentuserstate-list.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) collection|List properties and relationships of the [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) objects.|
 |[Get deviceManagementIntentUserState](../api/devicemanagementintentuserstate-get.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md)|Read properties and relationships of the [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.|
-|[Create deviceManagementIntentUserState](../api/devicemanagementintentuserstate-create.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md)|Create a new [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.|
-|[Delete deviceManagementIntentUserState](../api/devicemanagementintentuserstate-delete.md)|None|Deletes a [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md).|
 |[Update deviceManagementIntentUserState](../api/devicemanagementintentuserstate-update.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md)|Update the properties of a [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.|
+|[List userStates](../api/devicemanagementintent-list-userstates.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) collection|Get the deviceManagementIntentUserStates from the userStates navigation property.|
+|[Add userStates](../api/devicemanagementintent-post-userstates.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md)|Add userStates by posting to the userStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

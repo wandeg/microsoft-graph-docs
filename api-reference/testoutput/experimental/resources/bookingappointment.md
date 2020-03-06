@@ -20,11 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List bookingAppointments](../api/bookingappointment-list.md)|[bookingAppointment](../resources/bookingappointment.md) collection|List properties and relationships of the [bookingAppointment](../resources/bookingappointment.md) objects.|
 |[Get bookingAppointment](../api/bookingappointment-get.md)|[bookingAppointment](../resources/bookingappointment.md)|Read properties and relationships of the [bookingAppointment](../resources/bookingappointment.md) object.|
-|[Create bookingAppointment](../api/bookingappointment-create.md)|[bookingAppointment](../resources/bookingappointment.md)|Create a new [bookingAppointment](../resources/bookingappointment.md) object.|
-|[Delete bookingAppointment](../api/bookingappointment-delete.md)|None|Deletes a [bookingAppointment](../resources/bookingappointment.md).|
 |[Update bookingAppointment](../api/bookingappointment-update.md)|[bookingAppointment](../resources/bookingappointment.md)|Update the properties of a [bookingAppointment](../resources/bookingappointment.md) object.|
+|[cancel](../api/bookingappointment-cancel.md)|None||
 
 ## Properties
 |Property|Type|Description|
@@ -63,7 +61,7 @@ This property is optional when creating a new appointment. If not specified, it 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

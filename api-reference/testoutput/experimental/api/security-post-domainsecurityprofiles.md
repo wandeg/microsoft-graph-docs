@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/domainSecurityProfiles/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.
@@ -65,7 +65,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [domainSecurityProfile](../resources/domainsecurityprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +77,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/Security/domainSecurityProfiles
 Content-type: application/json
-Content-length: 1198
+Content-length: 1199
 
 {
   "@odata.type": "#microsoft.graph.domainSecurityProfile",
@@ -96,9 +96,9 @@ Content-length: 1198
       "vendor": "Vendor value"
     }
   ],
-  "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "domainRegisteredDateTime": "2017-01-01T00:02:35.3323212+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "name": "Name value",
   "registrant": {
     "@odata.type": "microsoft.graph.domainRegistrant",
@@ -130,11 +130,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1247
+Content-Length: 1248
 
 {
   "@odata.type": "#microsoft.graph.domainSecurityProfile",
-  "id": "2db8f0b7-f0b7-2db8-b7f0-b82db7f0b82d",
+  "id": "85e482dd-82dd-85e4-dd82-e485dd82e485",
   "activityGroupNames": [
     "Activity Group Names value"
   ],
@@ -150,9 +150,9 @@ Content-Length: 1247
       "vendor": "Vendor value"
     }
   ],
-  "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "domainRegisteredDateTime": "2017-01-01T00:02:35.3323212+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "name": "Name value",
   "registrant": {
     "@odata.type": "microsoft.graph.domainRegistrant",

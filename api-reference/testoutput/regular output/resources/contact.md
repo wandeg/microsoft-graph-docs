@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List contacts](../api/contact-list.md)|[contact](../resources/contact.md) collection|List properties and relationships of the [contact](../resources/contact.md) objects.|
 |[Get contact](../api/contact-get.md)|[contact](../resources/contact.md)|Read properties and relationships of the [contact](../resources/contact.md) object.|
-|[Create contact](../api/contact-create.md)|[contact](../resources/contact.md)|Create a new [contact](../resources/contact.md) object.|
-|[Delete contact](../api/contact-delete.md)|None|Deletes a [contact](../resources/contact.md).|
 |[Update contact](../api/contact-update.md)|[contact](../resources/contact.md)|Update the properties of a [contact](../resources/contact.md) object.|
 |[delta](../api/contact-delta.md)|[contact](../resources/contact.md) collection||
 |[List singleValueExtendedProperties](../api/contact-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
@@ -33,6 +30,8 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
 |[List extensions](../api/contact-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
 |[Add extensions](../api/contact-post-extensions.md)|[extension](../resources/extension.md)|Add extensions by posting to the extensions collection.|
+|[List contacts](../api/contactfolder-list-contacts.md)|[contact](../resources/contact.md) collection|Get the contacts from the contacts navigation property.|
+|[Add contacts](../api/contactfolder-post-contacts.md)|[contact](../resources/contact.md)|Add contacts by posting to the contacts collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -38,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |deletedItems|[directoryObject](../resources/directoryobject.md) collection||
 |featureRolloutPolicies|[featureRolloutPolicy](../resources/featurerolloutpolicy.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

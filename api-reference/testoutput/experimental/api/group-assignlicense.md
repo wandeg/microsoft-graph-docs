@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,8 +36,8 @@ POST /users/{usersId}/joinedGroups/{groupId}/assignLicense
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -54,7 +54,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [group](../resources/group.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "53c01d8b-1d8b-53c0-8b1d-c0538b1dc053"
+    "61460160-0160-6146-6001-466160014661"
   ]
 }
 ```
@@ -92,13 +92,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2522
+Content-Length: 2523
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.group",
-    "id": "2c3bc02c-c02c-2c3b-2cc0-3b2c2cc03b2c",
-    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+    "id": "ad1a3cae-3cae-ad1a-ae3c-1aadae3c1aad",
+    "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
     "assignedLabels": [
       {
         "@odata.type": "microsoft.graph.assignedLabel"
@@ -110,7 +110,7 @@ Content-Length: 2522
       }
     ],
     "classification": "Classification value",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "groupTypes": [
@@ -128,7 +128,7 @@ Content-Length: 2522
     "membershipRule": "Membership Rule value",
     "membershipRuleProcessingState": "Membership Rule Processing State value",
     "onPremisesDomainName": "On Premises Domain Name value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
     "onPremisesNetBiosName": "On Premises Net Bios Name value",
     "onPremisesProvisioningErrors": [
       {
@@ -143,7 +143,7 @@ Content-Length: 2522
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "renewedDateTime": "2017-01-01T00:02:09.3684079+03:00",
+    "renewedDateTime": "2016-12-31T23:59:03.2446324+03:00",
     "resourceBehaviorOptions": [
       "Resource Behavior Options value"
     ],

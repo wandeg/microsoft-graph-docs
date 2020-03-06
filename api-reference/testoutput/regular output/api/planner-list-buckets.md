@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /planner/buckets
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 248
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerBucket",
-      "id": "6094aeea-aeea-6094-eaae-9460eaae9460",
+      "id": "26f8ddce-ddce-26f8-cedd-f826ceddf826",
       "name": "Name value",
       "planId": "Plan Id value",
       "orderHint": "Order Hint value"

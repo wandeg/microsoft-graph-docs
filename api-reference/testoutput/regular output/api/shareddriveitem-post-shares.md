@@ -34,8 +34,8 @@ POST /shares
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sharedDriveItem](../resources/shareddriveitem.md) object.
@@ -128,11 +128,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1427
+Content-Length: 1429
 
 {
   "@odata.type": "#microsoft.graph.sharedDriveItem",
-  "id": "0d2d20ac-20ac-0d2d-ac20-2d0dac202d0d",
+  "id": "f28e5cbd-5cbd-f28e-bd5c-8ef2bd5c8ef2",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -147,13 +147,13 @@ Content-Length: 1427
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

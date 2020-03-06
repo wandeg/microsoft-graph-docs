@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/managementConditions/{managementConditionId}/managementConditionStatements
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [managementConditionStatement](../resources/managementconditionstatement.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 567
+Content-Length: 568
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managementConditionStatement",
-      "id": "443eae60-ae60-443e-60ae-3e4460ae3e44",
+      "id": "c008f38b-f38b-c008-8bf3-08c08bf308c0",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "modifiedDateTime": "2016-12-31T23:58:13.3996216+03:00",
       "expression": {
         "@odata.type": "microsoft.graph.managementConditionExpression"
       },

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookTaskFolders](../api/outlooktaskfolder-list.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection|List properties and relationships of the [outlookTaskFolder](../resources/outlooktaskfolder.md) objects.|
 |[Get outlookTaskFolder](../api/outlooktaskfolder-get.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Read properties and relationships of the [outlookTaskFolder](../resources/outlooktaskfolder.md) object.|
-|[Create outlookTaskFolder](../api/outlooktaskfolder-create.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Create a new [outlookTaskFolder](../resources/outlooktaskfolder.md) object.|
-|[Delete outlookTaskFolder](../api/outlooktaskfolder-delete.md)|None|Deletes a [outlookTaskFolder](../resources/outlooktaskfolder.md).|
 |[Update outlookTaskFolder](../api/outlooktaskfolder-update.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Update the properties of a [outlookTaskFolder](../resources/outlooktaskfolder.md) object.|
 |[List tasks](../api/outlooktaskfolder-list-tasks.md)|[outlookTask](../resources/outlooktask.md) collection|Get the outlookTasks from the tasks navigation property.|
 |[Add tasks](../api/outlooktaskfolder-post-tasks.md)|[outlookTask](../resources/outlooktask.md)|Add tasks by posting to the tasks collection.|
@@ -31,6 +28,8 @@ Inherits from [entity](../resources/entity.md)
 |[Add singleValueExtendedProperties](../api/outlooktaskfolder-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
 |[List multiValueExtendedProperties](../api/outlooktaskfolder-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
 |[Add multiValueExtendedProperties](../api/outlooktaskfolder-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.|
+|[List taskFolders](../api/outlookuser-list-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md) collection|Get the outlookTaskFolders from the taskFolders navigation property.|
+|[Add taskFolders](../api/outlookuser-post-taskfolders.md)|[outlookTaskFolder](../resources/outlooktaskfolder.md)|Add taskFolders by posting to the taskFolders collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 |tasks|[outlookTask](../resources/outlooktask.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

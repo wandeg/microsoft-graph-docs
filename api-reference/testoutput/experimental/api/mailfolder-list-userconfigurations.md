@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/mailFolders/{mailFolderId}/userConfigurations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [userConfiguration](../resources/userconfiguration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 190
   "value": [
     {
       "@odata.type": "#microsoft.graph.userConfiguration",
-      "id": "0e1870cb-70cb-0e18-cb70-180ecb70180e",
+      "id": "075f9020-9020-075f-2090-5f0720905f07",
       "binaryData": "YmluYXJ5RGF0YQ=="
     }
   ]

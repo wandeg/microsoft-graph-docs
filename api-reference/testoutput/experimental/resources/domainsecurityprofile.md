@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List domainSecurityProfiles](../api/domainsecurityprofile-list.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md) collection|List properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) objects.|
 |[Get domainSecurityProfile](../api/domainsecurityprofile-get.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Read properties and relationships of the [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
-|[Create domainSecurityProfile](../api/domainsecurityprofile-create.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Create a new [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
-|[Delete domainSecurityProfile](../api/domainsecurityprofile-delete.md)|None|Deletes a [domainSecurityProfile](../resources/domainsecurityprofile.md).|
 |[Update domainSecurityProfile](../api/domainsecurityprofile-update.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Update the properties of a [domainSecurityProfile](../resources/domainsecurityprofile.md) object.|
-|[List domainSecurityProfiles](../api/security-list-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md) collection|Get the domainSecurityProfiles from the domainSecurityProfiles navigation property.|
-|[Add domainSecurityProfiles](../api/security-post-domainsecurityprofiles.md)|[domainSecurityProfile](../resources/domainsecurityprofile.md)|Add domainSecurityProfiles by posting to the domainSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -50,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/managedAppRegistrations/{managedAppRegistrationId}/operations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 327
+Content-Length: 329
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppOperation",
-      "id": "ee2d67da-67da-ee2d-da67-2deeda672dee",
+      "id": "af35fa86-fa86-af35-86fa-35af86fa35af",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "state": "State value",
       "version": "Version value"
     }

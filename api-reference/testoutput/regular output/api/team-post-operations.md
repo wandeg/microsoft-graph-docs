@@ -35,8 +35,8 @@ POST /me/joinedTeams/{groupId}/team/operations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.
@@ -72,13 +72,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/teams/{teamsId}/operations
 Content-type: application/json
-Content-length: 447
+Content-length: 446
 
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
   "operationType": "String",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
+  "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",
@@ -101,15 +101,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 555
+Content-Length: 554
 
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-  "id": "c0ad7dfc-7dfc-c0ad-fc7d-adc0fc7dadc0",
+  "id": "22b5d32d-d32d-22b5-2dd3-b5222dd3b522",
   "operationType": "String",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
+  "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",

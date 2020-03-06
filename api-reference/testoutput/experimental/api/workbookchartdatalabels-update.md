@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "edb1801b-801b-edb1-1b80-b1ed1b80b1ed",
+  "id": "fc4cd0b1-d0b1-fc4c-b1d0-4cfcb1d04cfc",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

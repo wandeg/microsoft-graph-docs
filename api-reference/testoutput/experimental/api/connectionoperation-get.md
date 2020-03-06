@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [connectionOperation](../resources/connectionoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 459
 {
   "value": {
     "@odata.type": "#microsoft.graph.connectionOperation",
-    "id": "21156cef-6cef-2115-ef6c-1521ef6c1521",
+    "id": "c2915c4b-5c4b-c291-4b5c-91c24b5c91c2",
     "status": "String",
     "error": {
       "@odata.type": "microsoft.graph.errorDetail",

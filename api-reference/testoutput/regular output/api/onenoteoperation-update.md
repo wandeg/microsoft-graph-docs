@@ -34,7 +34,7 @@ PATCH /me/onenote/operations/{onenoteOperationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteoperation.md) object.
@@ -69,12 +69,12 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/me/onenote/operations/{onenoteOperationId}
 Content-type: application/json
-Content-length: 419
+Content-length: 418
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
   "status": "String",
-  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
+  "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {
@@ -96,14 +96,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 526
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
-  "id": "ca042d37-2d37-ca04-372d-04ca372d04ca",
+  "id": "6e3e20ba-20ba-6e3e-ba20-3e6eba203e6e",
   "status": "String",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {

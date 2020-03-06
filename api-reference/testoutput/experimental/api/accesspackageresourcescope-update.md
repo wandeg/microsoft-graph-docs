@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -41,7 +41,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object.
@@ -64,7 +64,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -104,7 +104,7 @@ Content-Length: 362
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceScope",
-  "id": "c1401591-1591-c140-9115-40c1911540c1",
+  "id": "ca51c1bc-c1bc-ca51-bcc1-51cabcc151ca",
   "displayName": "Display Name value",
   "description": "Description value",
   "originId": "Origin Id value",

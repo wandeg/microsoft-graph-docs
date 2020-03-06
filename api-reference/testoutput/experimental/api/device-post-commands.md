@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/devices/{deviceId}/commands/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [command](../resources/command.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [command](../resources/command.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -104,7 +104,7 @@ Content-Length: 445
 
 {
   "@odata.type": "#microsoft.graph.command",
-  "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
+  "id": "8f51c073-c073-8f51-73c0-518f73c0518f",
   "Status": "Status value",
   "Type": "Type value",
   "AppServiceName": "App Service Name value",

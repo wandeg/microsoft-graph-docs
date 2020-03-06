@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List hostSecurityProfiles](../api/hostsecurityprofile-list.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md) collection|List properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) objects.|
 |[Get hostSecurityProfile](../api/hostsecurityprofile-get.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Read properties and relationships of the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
-|[Create hostSecurityProfile](../api/hostsecurityprofile-create.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Create a new [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
-|[Delete hostSecurityProfile](../api/hostsecurityprofile-delete.md)|None|Deletes a [hostSecurityProfile](../resources/hostsecurityprofile.md).|
 |[Update hostSecurityProfile](../api/hostsecurityprofile-update.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Update the properties of a [hostSecurityProfile](../resources/hostsecurityprofile.md) object.|
-|[List hostSecurityProfiles](../api/security-list-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md) collection|Get the hostSecurityProfiles from the hostSecurityProfiles navigation property.|
-|[Add hostSecurityProfiles](../api/security-post-hostsecurityprofiles.md)|[hostSecurityProfile](../resources/hostsecurityprofile.md)|Add hostSecurityProfiles by posting to the hostSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -54,7 +49,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

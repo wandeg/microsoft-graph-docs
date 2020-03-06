@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/activities/{userActivityId}/historyItems
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [activityHistoryItem](../resources/activityhistoryitem.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,14 +75,14 @@ Content-Length: 584
   "value": [
     {
       "@odata.type": "#microsoft.graph.activityHistoryItem",
-      "id": "8f247e5d-7e5d-8f24-5d7e-248f5d7e248f",
+      "id": "8f34a918-a918-8f34-18a9-348f18a9348f",
       "status": "String",
       "activeDurationSeconds": 5,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastActiveDateTime": "2016-12-31T23:58:54.0663658+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
-      "startedDateTime": "2016-12-31T23:57:57.4958527+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastActiveDateTime": "2016-12-31T23:59:16.112431+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+      "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
+      "startedDateTime": "2016-12-31T23:58:59.9335792+03:00",
       "userTimezone": "User Timezone value"
     }
   ]

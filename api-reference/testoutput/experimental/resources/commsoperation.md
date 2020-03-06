@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List commsOperations](../api/commsoperation-list.md)|[commsOperation](../resources/commsoperation.md) collection|List properties and relationships of the [commsOperation](../resources/commsoperation.md) objects.|
 |[Get commsOperation](../api/commsoperation-get.md)|[commsOperation](../resources/commsoperation.md)|Read properties and relationships of the [commsOperation](../resources/commsoperation.md) object.|
-|[Create commsOperation](../api/commsoperation-create.md)|[commsOperation](../resources/commsoperation.md)|Create a new [commsOperation](../resources/commsoperation.md) object.|
-|[Delete commsOperation](../api/commsoperation-delete.md)|None|Deletes a [commsOperation](../resources/commsoperation.md).|
 |[Update commsOperation](../api/commsoperation-update.md)|[commsOperation](../resources/commsoperation.md)|Update the properties of a [commsOperation](../resources/commsoperation.md) object.|
+|[List operations](../api/call-list-operations.md)|[commsOperation](../resources/commsoperation.md) collection|Get the commsOperations from the operations navigation property.|
+|[Add operations](../api/call-post-operations.md)|[commsOperation](../resources/commsoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

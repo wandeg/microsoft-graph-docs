@@ -34,8 +34,8 @@ POST /deviceAppManagement/managedAppStatuses/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedAppStatus](../resources/managedappstatus.md) object.
@@ -89,7 +89,7 @@ Content-Length: 178
 
 {
   "@odata.type": "#microsoft.graph.managedAppStatus",
-  "id": "d34b309d-309d-d34b-9d30-4bd39d304bd3",
+  "id": "6374a44a-a44a-6374-4aa4-74634aa47463",
   "displayName": "Display Name value",
   "version": "Version value"
 }

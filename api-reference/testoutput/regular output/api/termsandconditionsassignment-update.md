@@ -34,7 +34,7 @@ PATCH /deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments/{t
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.
@@ -87,7 +87,7 @@ Content-Length: 217
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-  "id": "7c345343-5343-7c34-4353-347c4353347c",
+  "id": "de56c285-c285-de56-85c2-56de85c256de",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

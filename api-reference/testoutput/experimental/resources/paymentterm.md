@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List paymentTerms](../api/paymentterm-list.md)|[paymentTerm](../resources/paymentterm.md) collection|List properties and relationships of the [paymentTerm](../resources/paymentterm.md) objects.|
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
-|[Create paymentTerm](../api/paymentterm-create.md)|[paymentTerm](../resources/paymentterm.md)|Create a new [paymentTerm](../resources/paymentterm.md) object.|
-|[Delete paymentTerm](../api/paymentterm-delete.md)|None|Deletes a [paymentTerm](../resources/paymentterm.md).|
 |[Update paymentTerm](../api/paymentterm-update.md)|[paymentTerm](../resources/paymentterm.md)|Update the properties of a [paymentTerm](../resources/paymentterm.md) object.|
+|[List paymentTerms](../api/company-list-paymentterms.md)|[paymentTerm](../resources/paymentterm.md) collection|Get the paymentTerms from the paymentTerms navigation property.|
+|[Add paymentTerms](../api/company-post-paymentterms.md)|[paymentTerm](../resources/paymentterm.md)|Add paymentTerms by posting to the paymentTerms collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

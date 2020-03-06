@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationalActivities](../api/educationalactivity-list.md)|[educationalActivity](../resources/educationalactivity.md) collection|List properties and relationships of the [educationalActivity](../resources/educationalactivity.md) objects.|
 |[Get educationalActivity](../api/educationalactivity-get.md)|[educationalActivity](../resources/educationalactivity.md)|Read properties and relationships of the [educationalActivity](../resources/educationalactivity.md) object.|
-|[Create educationalActivity](../api/educationalactivity-create.md)|[educationalActivity](../resources/educationalactivity.md)|Create a new [educationalActivity](../resources/educationalactivity.md) object.|
-|[Delete educationalActivity](../api/educationalactivity-delete.md)|None|Deletes a [educationalActivity](../resources/educationalactivity.md).|
 |[Update educationalActivity](../api/educationalactivity-update.md)|[educationalActivity](../resources/educationalactivity.md)|Update the properties of a [educationalActivity](../resources/educationalactivity.md) object.|
+|[List educationalActivities](../api/profile-list-educationalactivities.md)|[educationalActivity](../resources/educationalactivity.md) collection|Get the educationalActivities from the educationalActivities navigation property.|
+|[Add educationalActivities](../api/profile-post-educationalactivities.md)|[educationalActivity](../resources/educationalactivity.md)|Add educationalActivities by posting to the educationalActivities collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +44,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

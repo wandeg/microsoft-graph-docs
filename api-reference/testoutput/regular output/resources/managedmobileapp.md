@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedMobileApps](../api/managedmobileapp-list.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|List properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) objects.|
 |[Get managedMobileApp](../api/managedmobileapp-get.md)|[managedMobileApp](../resources/managedmobileapp.md)|Read properties and relationships of the [managedMobileApp](../resources/managedmobileapp.md) object.|
-|[Create managedMobileApp](../api/managedmobileapp-create.md)|[managedMobileApp](../resources/managedmobileapp.md)|Create a new [managedMobileApp](../resources/managedmobileapp.md) object.|
-|[Delete managedMobileApp](../api/managedmobileapp-delete.md)|None|Deletes a [managedMobileApp](../resources/managedmobileapp.md).|
 |[Update managedMobileApp](../api/managedmobileapp-update.md)|[managedMobileApp](../resources/managedmobileapp.md)|Update the properties of a [managedMobileApp](../resources/managedmobileapp.md) object.|
+|[List apps](../api/androidmanagedappprotection-list-apps.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|Get the managedMobileApps from the apps navigation property.|
+|[Add apps](../api/androidmanagedappprotection-post-apps.md)|[managedMobileApp](../resources/managedmobileapp.md)|Add apps by posting to the apps collection.|
 
 ## Properties
 |Property|Type|Description|

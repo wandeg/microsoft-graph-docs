@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicyDeviceStateSummary
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCompliancePolicyDeviceStateSummary](../resources/devicecompliancepolicydevicestatesummary.md) object.
@@ -101,7 +101,7 @@ Content-Length: 398
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyDeviceStateSummary",
-  "id": "28faa17e-a17e-28fa-7ea1-fa287ea1fa28",
+  "id": "519cc669-c669-519c-69c6-9c5169c69c51",
   "inGracePeriodCount": 2,
   "configManagerCount": 2,
   "unknownDeviceCount": 2,

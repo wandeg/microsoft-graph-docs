@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookCharts](../api/workbookchart-list.md)|[workbookChart](../resources/workbookchart.md) collection|List properties and relationships of the [workbookChart](../resources/workbookchart.md) objects.|
 |[Get workbookChart](../api/workbookchart-get.md)|[workbookChart](../resources/workbookchart.md)|Read properties and relationships of the [workbookChart](../resources/workbookchart.md) object.|
-|[Create workbookChart](../api/workbookchart-create.md)|[workbookChart](../resources/workbookchart.md)|Create a new [workbookChart](../resources/workbookchart.md) object.|
-|[Delete workbookChart](../api/workbookchart-delete.md)|None|Deletes a [workbookChart](../resources/workbookchart.md).|
 |[Update workbookChart](../api/workbookchart-update.md)|[workbookChart](../resources/workbookchart.md)|Update the properties of a [workbookChart](../resources/workbookchart.md) object.|
 |[image](../api/workbookchart-image.md)|String||
 |[image](../api/workbookchart-image.md)|String||
@@ -43,6 +40,8 @@ Inherits from [entity](../resources/entity.md)
 |[Add series](../api/workbookchart-post-series.md)|[workbookChartSeries](../resources/workbookchartseries.md)|Add series by posting to the series collection.|
 |[Get workbookChartTitle](../api/workbookcharttitle-get.md)|[workbookChartTitle](../resources/workbookcharttitle.md)|Read properties and relationships of the [workbookChartTitle](../resources/workbookcharttitle.md) object.|
 |[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
+|[List charts](../api/workbookworksheet-list-charts.md)|[workbookChart](../resources/workbookchart.md) collection|Get the workbookCharts from the charts navigation property.|
+|[Add charts](../api/workbookworksheet-post-charts.md)|[workbookChart](../resources/workbookchart.md)|Add charts by posting to the charts collection.|
 
 ## Properties
 |Property|Type|Description|

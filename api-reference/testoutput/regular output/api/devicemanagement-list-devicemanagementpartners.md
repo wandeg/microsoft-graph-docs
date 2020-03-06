@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/deviceManagementPartners
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,15 +75,15 @@ Content-Length: 610
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementPartner",
-      "id": "17caef5e-ef5e-17ca-5eef-ca175eefca17",
-      "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
+      "id": "773dbb7f-bb7f-773d-7fbb-3d777fbb3d77",
+      "lastHeartbeatDateTime": "2017-01-01T00:01:24.8620192+03:00",
       "partnerState": "String",
       "partnerAppType": "String",
       "singleTenantAppId": "Single Tenant App Id value",
       "displayName": "Display Name value",
       "isConfigured": true,
-      "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:09.5994235+03:00",
-      "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:01:18.0233213+03:00"
+      "whenPartnerDevicesWillBeRemovedDateTime": "2016-12-31T23:58:13.5036837+03:00",
+      "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2017-01-01T00:02:23.7109368+03:00"
     }
   ]
 }

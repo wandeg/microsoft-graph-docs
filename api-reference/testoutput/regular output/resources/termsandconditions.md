@@ -20,17 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List termsAndConditionses](../api/termsandconditions-list.md)|[termsAndConditions](../resources/termsandconditions.md) collection|List properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) objects.|
 |[Get termsAndConditions](../api/termsandconditions-get.md)|[termsAndConditions](../resources/termsandconditions.md)|Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.|
-|[Create termsAndConditions](../api/termsandconditions-create.md)|[termsAndConditions](../resources/termsandconditions.md)|Create a new [termsAndConditions](../resources/termsandconditions.md) object.|
-|[Delete termsAndConditions](../api/termsandconditions-delete.md)|None|Deletes a [termsAndConditions](../resources/termsandconditions.md).|
 |[Update termsAndConditions](../api/termsandconditions-update.md)|[termsAndConditions](../resources/termsandconditions.md)|Update the properties of a [termsAndConditions](../resources/termsandconditions.md) object.|
 |[List assignments](../api/termsandconditions-list-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|Get the termsAndConditionsAssignments from the assignments navigation property.|
 |[Add assignments](../api/termsandconditions-post-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Add assignments by posting to the assignments collection.|
 |[List acceptanceStatuses](../api/termsandconditions-list-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) collection|Get the termsAndConditionsAcceptanceStatuses from the acceptanceStatuses navigation property.|
 |[Add acceptanceStatuses](../api/termsandconditions-post-acceptancestatuses.md)|[termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md)|Add acceptanceStatuses by posting to the acceptanceStatuses collection.|
-|[List termsAndConditions](../api/devicemanagement-list-termsandconditions.md)|[termsAndConditions](../resources/termsandconditions.md) collection|Get the termsAndConditionses from the termsAndConditions navigation property.|
-|[Add termsAndConditions](../api/devicemanagement-post-termsandconditions.md)|[termsAndConditions](../resources/termsandconditions.md)|Add termsAndConditions by posting to the termsAndConditions collection.|
 
 ## Properties
 |Property|Type|Description|

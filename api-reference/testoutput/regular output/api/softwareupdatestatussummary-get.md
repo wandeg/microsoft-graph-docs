@@ -36,7 +36,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +73,7 @@ Content-Length: 620
 {
   "value": {
     "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-    "id": "10dc47c0-47c0-10dc-c047-dc10c047dc10",
+    "id": "b6c4d979-d979-b6c4-79d9-c4b679d9c4b6",
     "displayName": "Display Name value",
     "compliantDeviceCount": 4,
     "nonCompliantDeviceCount": 7,

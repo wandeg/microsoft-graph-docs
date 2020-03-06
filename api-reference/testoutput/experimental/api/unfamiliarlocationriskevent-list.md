@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /unfamiliarLocationRiskEvents
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [unfamiliarLocationRiskEvent](../resources/unfamiliarlocationriskevent.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,15 +75,15 @@ Content-Length: 1054
   "value": [
     {
       "@odata.type": "#microsoft.graph.unfamiliarLocationRiskEvent",
-      "id": "b1ced88d-d88d-b1ce-8dd8-ceb18dd8ceb1",
+      "id": "50b70c1e-0c1e-50b7-1e0c-b7501e0cb750",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
-      "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+      "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
       "riskEventType": "Risk Event Type value",
       "riskLevel": "String",
       "riskEventStatus": "String",
-      "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "userId": "User Id value",
       "location": {
         "@odata.type": "microsoft.graph.signInLocation",

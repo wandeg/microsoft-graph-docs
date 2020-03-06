@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 1155
 {
   "value": {
     "@odata.type": "#microsoft.graph.secureScore",
-    "id": "532bd5c5-d5c5-532b-c5d5-2b53c5d52b53",
+    "id": "d793610a-610a-d793-0a61-93d70a6193d7",
     "activeUserCount": 15,
     "averageComparativeScores": [
       {
@@ -93,7 +93,7 @@ Content-Length: 1155
         "score": "Double"
       }
     ],
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
     "currentScore": "Double",
     "enabledServices": [
       "Enabled Services value"

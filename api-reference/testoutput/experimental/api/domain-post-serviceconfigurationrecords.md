@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /domains/{domainsId}/serviceConfigurationRecords/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [domainDnsRecord](../resources/domaindnsrecord.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [domainDnsRecord](../resources/domaindnsrecord.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 257
 
 {
   "@odata.type": "#microsoft.graph.domainDnsRecord",
-  "id": "9bc3fc52-fc52-9bc3-52fc-c39b52fcc39b",
+  "id": "4a9b3ca4-3ca4-4a9b-a43c-9b4aa43c9b4a",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

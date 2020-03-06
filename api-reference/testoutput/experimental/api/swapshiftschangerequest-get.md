@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1328
+Content-Length: 1329
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.swapShiftsChangeRequest",
-    "id": "4e13d3d1-d3d1-4e13-d1d3-134ed1d3134e",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "id": "39c296cb-96cb-39c2-cb96-c239cb96c239",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,13 +94,13 @@ Content-Length: 1328
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
+    "senderDateTime": "2017-01-01T00:00:50.3002047+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
+    "managerActionDateTime": "2016-12-31T23:58:00.9521432+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value",
     "recipientActionMessage": "Recipient Action Message value",
-    "recipientActionDateTime": "2016-12-31T23:58:22.0066573+03:00",
+    "recipientActionDateTime": "2017-01-01T00:01:59.9496671+03:00",
     "senderShiftId": "Sender Shift Id value",
     "recipientUserId": "Recipient User Id value",
     "recipientShiftId": "Recipient Shift Id value"

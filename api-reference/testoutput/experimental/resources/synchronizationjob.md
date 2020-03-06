@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List synchronizationJobs](../api/synchronizationjob-list.md)|[synchronizationJob](../resources/synchronizationjob.md) collection|List properties and relationships of the [synchronizationJob](../resources/synchronizationjob.md) objects.|
 |[Get synchronizationJob](../api/synchronizationjob-get.md)|[synchronizationJob](../resources/synchronizationjob.md)|Read properties and relationships of the [synchronizationJob](../resources/synchronizationjob.md) object.|
-|[Create synchronizationJob](../api/synchronizationjob-create.md)|[synchronizationJob](../resources/synchronizationjob.md)|Create a new [synchronizationJob](../resources/synchronizationjob.md) object.|
-|[Delete synchronizationJob](../api/synchronizationjob-delete.md)|None|Deletes a [synchronizationJob](../resources/synchronizationjob.md).|
 |[Update synchronizationJob](../api/synchronizationjob-update.md)|[synchronizationJob](../resources/synchronizationjob.md)|Update the properties of a [synchronizationJob](../resources/synchronizationjob.md) object.|
 |[pause](../api/synchronizationjob-pause.md)|None||
 |[start](../api/synchronizationjob-start.md)|None||
@@ -33,6 +30,8 @@ Inherits from [entity](../resources/entity.md)
 |[validateCredentials](../api/synchronizationjob-validatecredentials.md)|None||
 |[validateCredentials](../api/synchronizationjob-validatecredentials.md)|None||
 |[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
+|[List jobs](../api/synchronization-list-jobs.md)|[synchronizationJob](../resources/synchronizationjob.md) collection|Get the synchronizationJobs from the jobs navigation property.|
+|[Add jobs](../api/synchronization-post-jobs.md)|[synchronizationJob](../resources/synchronizationjob.md)|Add jobs by posting to the jobs collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |schema|[synchronizationSchema](../resources/synchronizationschema.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

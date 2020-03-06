@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookFilter](../resources/workbookfilter.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookFilter](../resources/workbookfilter.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -101,7 +101,7 @@ Content-Length: 609
 
 {
   "@odata.type": "#microsoft.graph.workbookFilter",
-  "id": "931ce82a-e82a-931c-2ae8-1c932ae81c93",
+  "id": "b357c9d8-c9d8-b357-d8c9-57b3d8c957b3",
   "criteria": {
     "@odata.type": "microsoft.graph.workbookFilterCriteria",
     "color": "Color value",

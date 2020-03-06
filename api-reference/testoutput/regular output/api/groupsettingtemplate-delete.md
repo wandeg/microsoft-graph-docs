@@ -34,7 +34,7 @@ DELETE /groupSettingTemplates/{groupSettingTemplatesId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.

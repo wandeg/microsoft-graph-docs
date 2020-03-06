@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /contacts/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [orgContact](../resources/orgcontact.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +72,8 @@ Content-Length: 1070
   "value": [
     {
       "@odata.type": "#microsoft.graph.orgContact",
-      "id": "e8b04e82-4e82-e8b0-824e-b0e8824eb0e8",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "29e71c73-1c73-29e7-731c-e729731ce729",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "addresses": [
         {
           "@odata.type": "microsoft.graph.physicalOfficeAddress"
@@ -87,7 +87,7 @@ Content-Length: 1070
       "mail": "Mail value",
       "mailNickname": "Mail Nickname value",
       "onPremisesSyncEnabled": true,
-      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError"

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /bookingBusinesses/{bookingBusinessesId}/customers/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [bookingCustomer](../resources/bookingcustomer.md) object.
@@ -54,7 +54,7 @@ The display name is suitable for human-readable interfaces. Inherited from [book
 ## Response
 If successful, this method returns a `201 Created` response code and a [bookingCustomer](../resources/bookingcustomer.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -90,7 +90,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.bookingCustomer",
-  "id": "626ab662-b662-626a-62b6-6a6262b66a62",
+  "id": "5f594d23-4d23-5f59-234d-595f234d595f",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value"
 }

@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List openShifts](../api/openshift-list.md)|[openShift](../resources/openshift.md) collection|List properties and relationships of the [openShift](../resources/openshift.md) objects.|
 |[Get openShift](../api/openshift-get.md)|[openShift](../resources/openshift.md)|Read properties and relationships of the [openShift](../resources/openshift.md) object.|
-|[Create openShift](../api/openshift-create.md)|[openShift](../resources/openshift.md)|Create a new [openShift](../resources/openshift.md) object.|
-|[Delete openShift](../api/openshift-delete.md)|None|Deletes a [openShift](../resources/openshift.md).|
 |[Update openShift](../api/openshift-update.md)|[openShift](../resources/openshift.md)|Update the properties of a [openShift](../resources/openshift.md) object.|
 |[List openShifts](../api/schedule-list-openshifts.md)|[openShift](../resources/openshift.md) collection|Get the openShifts from the openShifts navigation property.|
 |[Add openShifts](../api/schedule-post-openshifts.md)|[openShift](../resources/openshift.md)|Add openShifts by posting to the openShifts collection.|
@@ -42,7 +39,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

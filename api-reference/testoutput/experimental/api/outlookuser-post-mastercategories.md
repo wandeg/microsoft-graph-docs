@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/outlook/masterCategories/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookCategory](../resources/outlookcategory.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [outlookCategory](../resources/outlookcategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.outlookCategory",
-  "id": "a1e7cb3b-cb3b-a1e7-3bcb-e7a13bcbe7a1",
+  "id": "2e3f5388-5388-2e3f-8853-3f2e88533f2e",
   "displayName": "Display Name value",
   "color": "String"
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getEffectiveDeviceEnroll
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,18 +66,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 421
+Content-Length: 422
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-      "id": "27567019-7019-2756-1970-562719705627",
+      "id": "30eb6a21-6a21-30eb-216a-eb30216aeb30",
       "displayName": "Display Name value",
       "description": "Description value",
       "priority": 8,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "version": 7
     }
   ]

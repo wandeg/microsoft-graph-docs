@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.
@@ -91,7 +91,7 @@ Content-Length: 567
 
 {
   "@odata.type": "#microsoft.graph.softwareUpdateStatusSummary",
-  "id": "10dc47c0-47c0-10dc-c047-dc10c047dc10",
+  "id": "b6c4d979-d979-b6c4-79d9-c4b679d9c4b6",
   "displayName": "Display Name value",
   "compliantDeviceCount": 4,
   "nonCompliantDeviceCount": 7,

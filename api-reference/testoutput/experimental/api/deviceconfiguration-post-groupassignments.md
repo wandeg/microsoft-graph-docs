@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignm
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
-  "id": "faadae9a-ae9a-faad-9aae-adfa9aaeadfa",
+  "id": "4c127f80-7f80-4c12-807f-124c807f124c",
   "targetGroupId": "Target Group Id value",
   "excludeGroup": true
 }

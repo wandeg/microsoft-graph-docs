@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /informationProtection/policy/labels/evaluateClassificationResults
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationprotectionaction.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 305
   "classificationResults": [
     {
       "@odata.type": "microsoft.graph.classificationResult",
-      "sensitiveTypeId": "a43eff64-ff64-a43e-64ff-3ea464ff3ea4",
+      "sensitiveTypeId": "2ae8f67c-f67c-2ae8-7cf6-e82a7cf6e82a",
       "count": 5,
       "confidenceLevel": 15
     }

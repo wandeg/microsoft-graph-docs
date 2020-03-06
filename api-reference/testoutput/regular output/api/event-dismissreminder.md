@@ -45,8 +45,8 @@ POST /me/messages/{messageId}/microsoft.graph.eventMessage/event/calendar/calend
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.

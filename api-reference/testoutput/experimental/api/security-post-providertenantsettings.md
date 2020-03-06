@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/providerTenantSettings/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [providerTenantSetting](../resources/providertenantsetting.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [providerTenantSetting](../resources/providertenantsetting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,10 +94,10 @@ Content-Length: 303
 
 {
   "@odata.type": "#microsoft.graph.providerTenantSetting",
-  "id": "74e785a2-85a2-74e7-a285-e774a285e774",
+  "id": "5187bf5c-bf5c-5187-5cbf-87515cbf8751",
   "azureTenantId": "Azure Tenant Id value",
   "enabled": true,
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "provider": "Provider value",
   "vendor": "Vendor value"
 }

@@ -34,7 +34,7 @@ PATCH /education/schools/{educationSchoolId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationSchool](../resources/educationschool.md) object.
@@ -130,7 +130,7 @@ Content-Length: 1153
 
 {
   "@odata.type": "#microsoft.graph.educationSchool",
-  "id": "14d345f5-45f5-14d3-f545-d314f545d314",
+  "id": "0dd042b0-42b0-0dd0-b042-d00db042d00d",
   "displayName": "Display Name value",
   "description": "Description value",
   "externalSource": "String",

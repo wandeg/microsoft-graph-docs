@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{convers
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [post](../resources/post.md) object.
@@ -64,7 +64,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [post](../resources/post.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-length: 857
     "contentType": "String",
     "content": "Content value"
   },
-  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
   "hasAttachments": true,
   "from": {
     "@odata.type": "microsoft.graph.recipient",
@@ -123,13 +123,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1028
+Content-Length: 1029
 
 {
   "@odata.type": "#microsoft.graph.post",
-  "id": "a60d9d57-9d57-a60d-579d-0da6579d0da6",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "f2546f32-6f32-f254-326f-54f2326f54f2",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -139,7 +139,7 @@ Content-Length: 1028
     "contentType": "String",
     "content": "Content value"
   },
-  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+  "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
   "hasAttachments": true,
   "from": {
     "@odata.type": "microsoft.graph.recipient",

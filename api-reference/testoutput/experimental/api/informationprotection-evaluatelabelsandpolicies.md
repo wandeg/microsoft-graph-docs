@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,8 +36,8 @@ POST /users/{usersId}/informationProtection/evaluateLabelsAndPolicies
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -55,7 +55,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,7 +96,7 @@ Content-length: 978
   },
   "classifyText": {
     "@odata.type": "#microsoft.graph.textClassificationRequest",
-    "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
+    "id": "b28c8213-8213-b28c-1382-8cb213828cb2",
     "text": "Text value",
     "sensitiveTypeIds": [
       "Sensitive Type Ids value"
@@ -117,18 +117,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 603
+Content-Length: 602
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.evaluateLabelsAndPoliciesJobResponse",
-    "id": "b61f2273-2273-b61f-7322-1fb673221fb6",
+    "id": "aa770a77-0a77-aa77-770a-77aa770a77aa",
     "type": "Type value",
     "status": "Status value",
     "tenantId": "Tenant Id value",
-    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "creationDateTime": "2016-12-31T23:59:35.5241957+03:00",
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "endDateTime": "2017-01-01T00:02:18.392989+03:00",
     "error": {
       "@odata.type": "microsoft.graph.classificationError"
     },

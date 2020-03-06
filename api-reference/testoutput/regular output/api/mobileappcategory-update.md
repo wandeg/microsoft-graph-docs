@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/mobileAppCategories/{mobileAppCategoryId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileAppCategory](../resources/mobileappcategory.md) object.
@@ -82,13 +82,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 210
+Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.mobileAppCategory",
-  "id": "ff62dc6e-dc6e-ff62-6edc-62ff6edc62ff",
+  "id": "359259de-59de-3592-de59-9235de599235",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /officeConfiguration/clientConfigurations/{officeClientConfigurationId}/ass
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 299
   "officeConfigurationAssignments": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
+      "id": "e320922e-922e-e320-2e92-20e32e9220e3",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }
@@ -96,7 +96,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
+      "id": "e320922e-922e-e320-2e92-20e32e9220e3",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }

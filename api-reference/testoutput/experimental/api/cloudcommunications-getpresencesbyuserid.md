@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /communications/getPresencesByUserId
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [presence](../resources/presence.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -90,7 +90,7 @@ Content-Length: 222
   "value": [
     {
       "@odata.type": "#microsoft.graph.presence",
-      "id": "c99f802f-802f-c99f-2f80-9fc92f809fc9",
+      "id": "c3d75f2a-5f2a-c3d7-2a5f-d7c32a5fd7c3",
       "availability": "Availability value",
       "activity": "Activity value"
     }

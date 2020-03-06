@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/team/apps/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsCatalogApp](../resources/teamscatalogapp.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [teamsCatalogApp](../resources/teamscatalogapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,7 +92,7 @@ Content-Length: 204
 
 {
   "@odata.type": "#microsoft.graph.teamsCatalogApp",
-  "id": "11dd4ded-4ded-11dd-ed4d-dd11ed4ddd11",
+  "id": "28bc1775-1775-28bc-7517-bc287517bc28",
   "externalId": "External Id value",
   "name": "Name value",
   "distributionMethod": "String"

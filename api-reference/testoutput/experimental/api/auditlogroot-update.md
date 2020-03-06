@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /auditLogs
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [auditLogRoot](../resources/auditlogroot.md) object.
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [auditLogRoot](../resources/auditlogroot.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.auditLogRoot",
-  "id": "0e6fe61e-e61e-0e6f-1ee6-6f0e1ee66f0e"
+  "id": "bb4229a6-29a6-bb42-a629-42bba62942bb"
 }
 ```
 

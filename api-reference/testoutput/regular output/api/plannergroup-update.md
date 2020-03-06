@@ -35,7 +35,7 @@ PATCH /me/joinedTeams/{groupId}/planner
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerGroup](../resources/plannergroup.md) object.
@@ -84,7 +84,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.plannerGroup",
-  "id": "551c0bd7-0bd7-551c-d70b-1c55d70b1c55"
+  "id": "79990b63-0b63-7999-630b-9979630b9979"
 }
 ```
 

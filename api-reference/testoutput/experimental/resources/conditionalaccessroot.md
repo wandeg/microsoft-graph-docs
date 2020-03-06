@@ -38,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |namedLocations|[namedLocation](../resources/namedlocation.md) collection||
 |policies|[conditionalAccessPolicy](../resources/conditionalaccesspolicy.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

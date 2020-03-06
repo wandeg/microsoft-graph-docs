@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List agedAccountsReceivables](../api/agedaccountsreceivable-list.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md) collection|List properties and relationships of the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) objects.|
 |[Get agedAccountsReceivable](../api/agedaccountsreceivable-get.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Read properties and relationships of the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
-|[Create agedAccountsReceivable](../api/agedaccountsreceivable-create.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Create a new [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
-|[Delete agedAccountsReceivable](../api/agedaccountsreceivable-delete.md)|None|Deletes a [agedAccountsReceivable](../resources/agedaccountsreceivable.md).|
 |[Update agedAccountsReceivable](../api/agedaccountsreceivable-update.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Update the properties of a [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.|
+|[List agedAccountsReceivable](../api/company-list-agedaccountsreceivable.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md) collection|Get the agedAccountsReceivables from the agedAccountsReceivable navigation property.|
+|[Add agedAccountsReceivable](../api/company-post-agedaccountsreceivable.md)|[agedAccountsReceivable](../resources/agedaccountsreceivable.md)|Add agedAccountsReceivable by posting to the agedAccountsReceivable collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

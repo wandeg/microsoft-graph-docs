@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List trendings](../api/trending-list.md)|[trending](../resources/trending.md) collection|List properties and relationships of the [trending](../resources/trending.md) objects.|
 |[Get trending](../api/trending-get.md)|[trending](../resources/trending.md)|Read properties and relationships of the [trending](../resources/trending.md) object.|
-|[Create trending](../api/trending-create.md)|[trending](../resources/trending.md)|Create a new [trending](../resources/trending.md) object.|
-|[Delete trending](../api/trending-delete.md)|None|Deletes a [trending](../resources/trending.md).|
 |[Update trending](../api/trending-update.md)|[trending](../resources/trending.md)|Update the properties of a [trending](../resources/trending.md) object.|
 |[Get entity](../api/entity-get.md)|[entity](../resources/entity.md)|Read properties and relationships of the [entity](../resources/entity.md) object.|
+|[List trending](../api/officegraphinsights-list-trending.md)|[trending](../resources/trending.md) collection|Get the trendings from the trending navigation property.|
+|[Add trending](../api/officegraphinsights-post-trending.md)|[trending](../resources/trending.md)|Add trending by posting to the trending collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |resource|[entity](../resources/entity.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

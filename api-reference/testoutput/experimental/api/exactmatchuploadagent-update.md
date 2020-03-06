@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 162
 {
   "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
   "description": "Description value",
-  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
+  "creationDateTime": "2016-12-31T23:59:35.5241957+03:00"
 }
 ```
 
@@ -88,9 +88,9 @@ Content-Length: 211
 
 {
   "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
-  "id": "1721cbcf-cbcf-1721-cfcb-2117cfcb2117",
+  "id": "897a5536-5536-897a-3655-7a8936557a89",
   "description": "Description value",
-  "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
+  "creationDateTime": "2016-12-31T23:59:35.5241957+03:00"
 }
 ```
 

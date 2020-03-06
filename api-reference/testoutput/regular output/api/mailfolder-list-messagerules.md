@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/mailFolders/{mailFolderId}/messageRules
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 3076
   "value": [
     {
       "@odata.type": "#microsoft.graph.messageRule",
-      "id": "5bbffef5-fef5-5bbf-f5fe-bf5bf5febf5b",
+      "id": "1f8ce65b-e65b-1f8c-5be6-8c1f5be68c1f",
       "displayName": "Display Name value",
       "sequence": 8,
       "conditions": {

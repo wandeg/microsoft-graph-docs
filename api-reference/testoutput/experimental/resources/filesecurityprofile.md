@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List fileSecurityProfiles](../api/filesecurityprofile-list.md)|[fileSecurityProfile](../resources/filesecurityprofile.md) collection|List properties and relationships of the [fileSecurityProfile](../resources/filesecurityprofile.md) objects.|
 |[Get fileSecurityProfile](../api/filesecurityprofile-get.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Read properties and relationships of the [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
-|[Create fileSecurityProfile](../api/filesecurityprofile-create.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Create a new [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
-|[Delete fileSecurityProfile](../api/filesecurityprofile-delete.md)|None|Deletes a [fileSecurityProfile](../resources/filesecurityprofile.md).|
 |[Update fileSecurityProfile](../api/filesecurityprofile-update.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Update the properties of a [fileSecurityProfile](../resources/filesecurityprofile.md) object.|
-|[List fileSecurityProfiles](../api/security-list-filesecurityprofiles.md)|[fileSecurityProfile](../resources/filesecurityprofile.md) collection|Get the fileSecurityProfiles from the fileSecurityProfiles navigation property.|
-|[Add fileSecurityProfiles](../api/security-post-filesecurityprofiles.md)|[fileSecurityProfile](../resources/filesecurityprofile.md)|Add fileSecurityProfiles by posting to the fileSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -52,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /users/{usersId}/inferenceClassification
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [inferenceClassification](../resources/inferenceclassification.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [inferenceClassification](../resources/inferenceclassification.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,7 +84,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassification",
-  "id": "46925249-5249-4692-4952-924649529246"
+  "id": "309e1274-1274-309e-7412-9e3074129e30"
 }
 ```
 

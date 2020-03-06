@@ -34,8 +34,8 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/assignments/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) object.
@@ -89,7 +89,7 @@ Content-Length: 218
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationAssignment",
-  "id": "b6559a97-9a97-b655-979a-55b6979a55b6",
+  "id": "43cd6f97-6f97-43cd-976f-cd43976fcd43",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

@@ -36,7 +36,7 @@ PATCH /me/joinedTeams/{groupId}/team
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [team](../resources/team.md) object.
@@ -119,7 +119,7 @@ Content-Length: 1010
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "8151ce38-ce38-8151-38ce-518138ce5181",
+  "id": "5d9225eb-25eb-5d92-eb25-925deb25925d",
   "webUrl": "https://example.com/webUrl/",
   "memberSettings": {
     "@odata.type": "microsoft.graph.teamMemberSettings",

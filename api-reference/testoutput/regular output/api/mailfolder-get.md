@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,7 +76,7 @@ Content-Length: 298
 {
   "value": {
     "@odata.type": "#microsoft.graph.mailFolder",
-    "id": "d94961bc-61bc-d949-bc61-49d9bc6149d9",
+    "id": "283e9ce5-9ce5-283e-e59c-3e28e59c3e28",
     "displayName": "Display Name value",
     "parentFolderId": "Parent Folder Id value",
     "childFolderCount": 0,

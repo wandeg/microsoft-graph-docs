@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List synchronizations](../api/synchronization-list.md)|[synchronization](../resources/synchronization.md) collection|List properties and relationships of the [synchronization](../resources/synchronization.md) objects.|
 |[Get synchronization](../api/synchronization-get.md)|[synchronization](../resources/synchronization.md)|Read properties and relationships of the [synchronization](../resources/synchronization.md) object.|
-|[Create synchronization](../api/synchronization-create.md)|[synchronization](../resources/synchronization.md)|Create a new [synchronization](../resources/synchronization.md) object.|
-|[Delete synchronization](../api/synchronization-delete.md)|None|Deletes a [synchronization](../resources/synchronization.md).|
 |[Update synchronization](../api/synchronization-update.md)|[synchronization](../resources/synchronization.md)|Update the properties of a [synchronization](../resources/synchronization.md) object.|
 |[Ping](../api/synchronization-ping.md)|String||
 |[List jobs](../api/synchronization-list-jobs.md)|[synchronizationJob](../resources/synchronizationjob.md) collection|Get the synchronizationJobs from the jobs navigation property.|
@@ -43,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |jobs|[synchronizationJob](../resources/synchronizationjob.md) collection||
 |templates|[synchronizationTemplate](../resources/synchronizationtemplate.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

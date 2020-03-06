@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/agreementAcceptances/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [agreementAcceptance](../resources/agreementacceptance.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [agreementAcceptance](../resources/agreementacceptance.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -79,7 +79,7 @@ Content-length: 400
   "agreementId": "Agreement Id value",
   "userId": "User Id value",
   "agreementFileId": "Agreement File Id value",
-  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
+  "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userEmail": "User Email value",
@@ -102,11 +102,11 @@ Content-Length: 449
 
 {
   "@odata.type": "#microsoft.graph.agreementAcceptance",
-  "id": "2b6dc9c2-c9c2-2b6d-c2c9-6d2bc2c96d2b",
+  "id": "6b1a007a-007a-6b1a-7a00-1a6b7a001a6b",
   "agreementId": "Agreement Id value",
   "userId": "User Id value",
   "agreementFileId": "Agreement File Id value",
-  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
+  "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userEmail": "User Email value",

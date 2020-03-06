@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/roleScopeTags/{roleScopeTagId}/assign
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [roleScopeTagAutoAssignment](../resources/rolescopetagautoassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 274
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-      "id": "64e23992-3992-64e2-9239-e2649239e264",
+      "id": "73836ddd-6ddd-7383-dd6d-8373dd6d8373",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -96,7 +96,7 @@ Content-Length: 268
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTagAutoAssignment",
-      "id": "64e23992-3992-64e2-9239-e2649239e264",
+      "id": "73836ddd-6ddd-7383-dd6d-8373dd6d8373",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

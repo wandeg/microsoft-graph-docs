@@ -53,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 |accessPackageAssignment|[accessPackageAssignment](../resources/accesspackageassignment.md)||
 |requestor|[accessPackageSubject](../resources/accesspackagesubject.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

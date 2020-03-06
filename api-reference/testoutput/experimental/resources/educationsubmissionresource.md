@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSubmissionResources](../api/educationsubmissionresource-list.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md) collection|List properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) objects.|
 |[Get educationSubmissionResource](../api/educationsubmissionresource-get.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Read properties and relationships of the [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
-|[Create educationSubmissionResource](../api/educationsubmissionresource-create.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Create a new [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
-|[Delete educationSubmissionResource](../api/educationsubmissionresource-delete.md)|None|Deletes a [educationSubmissionResource](../resources/educationsubmissionresource.md).|
 |[Update educationSubmissionResource](../api/educationsubmissionresource-update.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Update the properties of a [educationSubmissionResource](../resources/educationsubmissionresource.md) object.|
 
 ## Properties
@@ -36,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

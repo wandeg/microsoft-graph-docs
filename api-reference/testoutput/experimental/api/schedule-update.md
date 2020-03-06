@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /me/joinedGroups/{groupId}/team/schedule
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [schedule](../resources/schedule.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [schedule](../resources/schedule.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -106,7 +106,7 @@ Content-Length: 489
 
 {
   "@odata.type": "#microsoft.graph.schedule",
-  "id": "9206b179-b179-9206-79b1-069279b10692",
+  "id": "9327b7c9-b7c9-9327-c9b7-2793c9b72793",
   "enabled": true,
   "timeZone": "Time Zone value",
   "provisionStatus": "String",

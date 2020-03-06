@@ -27,7 +27,7 @@ The input must match the following regular expression: '^(\[a-zA-Z0-9\]+(-\[a-zA
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

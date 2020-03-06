@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/operations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [commsOperation](../resources/commsoperation.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [commsOperation](../resources/commsoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,7 +96,7 @@ Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.commsOperation",
-  "id": "bbc9d89b-d89b-bbc9-9bd8-c9bb9bd8c9bb",
+  "id": "90d4d3b8-d3b8-90d4-b8d3-d490b8d3d490",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

@@ -34,7 +34,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/details
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerTaskDetails](../resources/plannertaskdetails.md) object.
@@ -95,7 +95,7 @@ Content-Length: 349
 
 {
   "@odata.type": "#microsoft.graph.plannerTaskDetails",
-  "id": "b8ffec12-ec12-b8ff-12ec-ffb812ecffb8",
+  "id": "432c38a6-38a6-432c-a638-2c43a6382c43",
   "description": "Description value",
   "previewType": "String",
   "references": {

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/mailFolders/{mailFolderId}/messages/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [message](../resources/message.md) object.
@@ -84,7 +84,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [message](../resources/message.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -104,8 +104,8 @@ Content-length: 2392
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
-  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
+  "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
+  "sentDateTime": "2016-12-31T23:58:04.0840241+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -202,19 +202,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2563
+Content-Length: 2564
 
 {
   "@odata.type": "#microsoft.graph.message",
-  "id": "1bf013e5-13e5-1bf0-e513-f01be513f01b",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "c3033aca-3aca-c303-ca3a-03c3ca3a03c3",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
-  "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
+  "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
+  "sentDateTime": "2016-12-31T23:58:04.0840241+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List securityBaselineSettingStates](../api/securitybaselinesettingstate-list.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md) collection|List properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) objects.|
 |[Get securityBaselineSettingState](../api/securitybaselinesettingstate-get.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Read properties and relationships of the [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
-|[Create securityBaselineSettingState](../api/securitybaselinesettingstate-create.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Create a new [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
-|[Delete securityBaselineSettingState](../api/securitybaselinesettingstate-delete.md)|None|Deletes a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md).|
 |[Update securityBaselineSettingState](../api/securitybaselinesettingstate-update.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Update the properties of a [securityBaselineSettingState](../resources/securitybaselinesettingstate.md) object.|
+|[List settingStates](../api/securitybaselinestate-list-settingstates.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md) collection|Get the securityBaselineSettingStates from the settingStates navigation property.|
+|[Add settingStates](../api/securitybaselinestate-post-settingstates.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Add settingStates by posting to the settingStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

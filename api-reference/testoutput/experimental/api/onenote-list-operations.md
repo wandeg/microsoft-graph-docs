@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/joinedGroups/{groupId}/sites/{siteId}/onenote/operations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [onenoteOperation](../resources/onenoteoperation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 611
+Content-Length: 612
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteOperation",
-      "id": "3ef37e7a-7e7a-3ef3-7a7e-f33e7a7ef33e",
+      "id": "2850adf0-adf0-2850-f0ad-5028f0ad5028",
       "status": "String",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
       "resourceLocation": "Resource Location value",
       "resourceId": "Resource Id value",
       "error": {

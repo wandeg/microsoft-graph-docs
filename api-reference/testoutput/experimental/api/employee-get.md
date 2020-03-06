@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [employee](../resources/employee.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 1022
 {
   "value": {
     "@odata.type": "#microsoft.graph.employee",
-    "id": "4afa59a1-59a1-4afa-a159-fa4aa159fa4a",
+    "id": "822b4a36-4a36-822b-364a-2b82364a2b82",
     "number": "Number value",
     "displayName": "Display Name value",
     "givenName": "Given Name value",
@@ -98,7 +98,7 @@ Content-Length: 1022
     "status": "Status value",
     "birthDate": "Date",
     "statisticsGroupCode": "Statistics Group Code value",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
   }
 }
 ```

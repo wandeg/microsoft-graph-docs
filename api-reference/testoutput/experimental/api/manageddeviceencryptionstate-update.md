@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/managedDeviceEncryptionStates/{managedDeviceEncryptionSt
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedDeviceEncryptionState](../resources/manageddeviceencryptionstate.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [managedDeviceEncryptionState](../resources/manageddeviceencryptionstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -111,7 +111,7 @@ Content-Length: 720
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceEncryptionState",
-  "id": "632426d4-26d4-6324-d426-2463d4262463",
+  "id": "a4503d85-3d85-a450-853d-50a4853d50a4",
   "userPrincipalName": "User Principal Name value",
   "deviceType": "String",
   "osVersion": "Os Version value",

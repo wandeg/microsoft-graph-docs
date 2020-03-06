@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [onPremisesPublishingProfile](../resources/onpremisespublishingprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 574
+Content-Length: 575
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.onPremisesPublishingProfile",
-    "id": "6e2a39a7-39a7-6e2a-a739-2a6ea7392a6e",
+    "id": "4db3bbc5-bbc5-4db3-c5bb-b34dc5bbb34d",
     "hybridAgentUpdaterConfiguration": {
       "@odata.type": "microsoft.graph.hybridAgentUpdaterConfiguration",
-      "deferUpdateDateTime": "2017-01-01T00:01:51.697502+03:00",
+      "deferUpdateDateTime": "2017-01-01T00:01:27.3428352+03:00",
       "updateWindow": {
         "@odata.type": "microsoft.graph.updateWindow",
-        "updateWindowStartTime": "11:56:40.8130000",
-        "updateWindowEndTime": "11:59:11.8990000"
+        "updateWindowStartTime": "11:57:30.3320000",
+        "updateWindowEndTime": "11:57:46.0550000"
       },
       "allowUpdateConfigurationOverride": true
     }

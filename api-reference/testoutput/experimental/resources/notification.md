@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List notifications](../api/notification-list.md)|[notification](../resources/notification.md) collection|List properties and relationships of the [notification](../resources/notification.md) objects.|
 |[Get notification](../api/notification-get.md)|[notification](../resources/notification.md)|Read properties and relationships of the [notification](../resources/notification.md) object.|
-|[Create notification](../api/notification-create.md)|[notification](../resources/notification.md)|Create a new [notification](../resources/notification.md) object.|
-|[Delete notification](../api/notification-delete.md)|None|Deletes a [notification](../resources/notification.md).|
 |[Update notification](../api/notification-update.md)|[notification](../resources/notification.md)|Update the properties of a [notification](../resources/notification.md) object.|
+|[List notifications](../api/user-list-notifications.md)|[notification](../resources/notification.md) collection|Get the notifications from the notifications navigation property.|
+|[Add notifications](../api/user-post-notifications.md)|[notification](../resources/notification.md)|Add notifications by posting to the notifications collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

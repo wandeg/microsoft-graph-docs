@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List events](../api/event-list.md)|[event](../resources/event.md) collection|List properties and relationships of the [event](../resources/event.md) objects.|
 |[Get event](../api/event-get.md)|[event](../resources/event.md)|Read properties and relationships of the [event](../resources/event.md) object.|
-|[Create event](../api/event-create.md)|[event](../resources/event.md)|Create a new [event](../resources/event.md) object.|
-|[Delete event](../api/event-delete.md)|None|Deletes a [event](../resources/event.md).|
 |[Update event](../api/event-update.md)|[event](../resources/event.md)|Update the properties of a [event](../resources/event.md) object.|
 |[delta](../api/event-delta.md)|[event](../resources/event.md) collection||
 |[dismissReminder](../api/event-dismissreminder.md)|None||

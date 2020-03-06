@@ -35,8 +35,8 @@ POST /users/{usersId}/managedAppRegistrations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedAppRegistration](../resources/managedappregistration.md) object.
@@ -76,11 +76,11 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/managedAppRegistrations
 Content-type: application/json
-Content-length: 586
+Content-length: 587
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -109,13 +109,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 694
+Content-Length: 695
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "7d384335-4335-7d38-3543-387d3543387d",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "id": "8d7c5f97-5f97-8d7c-975f-7c8d975f7c8d",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

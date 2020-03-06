@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [privilegedRoleSettings](../resources/privilegedrolesettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 556
+Content-Length: 550
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedRoleSettings",
-    "id": "d3a3282d-282d-d3a3-2d28-a3d32d28a3d3",
+    "id": "604c132f-132f-604c-2f13-4c602f134c60",
     "approverIds": [
       "Approver Ids value"
     ],
-    "minElevationDuration": "-PT2M51.2414314S",
-    "maxElavationDuration": "-PT1M27.9407158S",
-    "elevationDuration": "PT1M41.1840893S",
+    "minElevationDuration": "PT18.4564873S",
+    "maxElavationDuration": "PT33.2921506S",
+    "elevationDuration": "PT2M34.0794445S",
     "notificationToUserOnElevation": true,
     "ticketingInfoOnElevation": true,
     "mfaOnElevation": true,

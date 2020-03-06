@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/de
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [groupPolicyPresentation](../resources/grouppolicypresentation.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [groupPolicyPresentation](../resources/grouppolicypresentation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,9 +88,9 @@ Content-Length: 205
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyPresentation",
-  "id": "3d562b56-2b56-3d56-562b-563d562b563d",
+  "id": "766a99d2-99d2-766a-d299-6a76d2996a76",
   "label": "Label value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

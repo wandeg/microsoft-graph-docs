@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/userStateSummary
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 247
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentUserStateSummary",
-  "id": "f36992ec-92ec-f369-ec92-69f3ec9269f3",
+  "id": "1e4c7e6c-7e6c-1e4c-6c7e-4c1e6c7e4c1e",
   "conflictCount": 13,
   "errorCount": 10,
   "failedCount": 11,

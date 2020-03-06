@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/resourceOperations/{resourceOperationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [resourceOperation](../resources/resourceoperation.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [resourceOperation](../resources/resourceoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 298
 
 {
   "@odata.type": "#microsoft.graph.resourceOperation",
-  "id": "bc898d45-8d45-bc89-458d-89bc458d89bc",
+  "id": "ed59b69e-b69e-ed59-9eb6-59ed9eb659ed",
   "resource": "Resource value",
   "resourceName": "Resource Name value",
   "actionName": "Action Name value",

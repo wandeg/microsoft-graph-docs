@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /identityGovernance/entitlementManagement
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [entitlementManagement](../resources/entitlementmanagement.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [entitlementManagement](../resources/entitlementmanagement.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,7 +84,7 @@ Content-Length: 112
 
 {
   "@odata.type": "#microsoft.graph.entitlementManagement",
-  "id": "b9651e9f-1e9f-b965-9f1e-65b99f1e65b9"
+  "id": "7f37cd6c-cd6c-7f37-6ccd-377f6ccd377f"
 }
 ```
 

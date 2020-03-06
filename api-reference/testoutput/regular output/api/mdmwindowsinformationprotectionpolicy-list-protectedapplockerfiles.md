@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicyId}/protectedAppLockerFiles
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 317
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLockerFile",
-      "id": "a6724705-4705-a672-0547-72a6054772a6",
+      "id": "17dd5661-5661-17dd-6156-dd176156dd17",
       "displayName": "Display Name value",
       "fileHash": "File Hash value",
       "file": "ZmlsZQ==",

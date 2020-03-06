@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesInvoices](../api/salesinvoice-list.md)|[salesInvoice](../resources/salesinvoice.md) collection|List properties and relationships of the [salesInvoice](../resources/salesinvoice.md) objects.|
 |[Get salesInvoice](../api/salesinvoice-get.md)|[salesInvoice](../resources/salesinvoice.md)|Read properties and relationships of the [salesInvoice](../resources/salesinvoice.md) object.|
-|[Create salesInvoice](../api/salesinvoice-create.md)|[salesInvoice](../resources/salesinvoice.md)|Create a new [salesInvoice](../resources/salesinvoice.md) object.|
-|[Delete salesInvoice](../api/salesinvoice-delete.md)|None|Deletes a [salesInvoice](../resources/salesinvoice.md).|
 |[Update salesInvoice](../api/salesinvoice-update.md)|[salesInvoice](../resources/salesinvoice.md)|Update the properties of a [salesInvoice](../resources/salesinvoice.md) object.|
 |[cancelAndSend](../api/salesinvoice-cancelandsend.md)|None||
 |[cancel](../api/salesinvoice-cancel.md)|None||
@@ -36,6 +33,8 @@ Inherits from [entity](../resources/entity.md)
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
 |[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[List salesInvoices](../api/company-list-salesinvoices.md)|[salesInvoice](../resources/salesinvoice.md) collection|Get the salesInvoices from the salesInvoices navigation property.|
+|[Add salesInvoices](../api/company-post-salesinvoices.md)|[salesInvoice](../resources/salesinvoice.md)|Add salesInvoices by posting to the salesInvoices collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -84,7 +83,7 @@ Inherits from [entity](../resources/entity.md)
 |salesInvoiceLines|[salesInvoiceLine](../resources/salesinvoiceline.md) collection||
 |shipmentMethod|[shipmentMethod](../resources/shipmentmethod.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

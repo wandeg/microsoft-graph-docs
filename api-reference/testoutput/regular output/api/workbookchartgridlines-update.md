@@ -35,7 +35,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.
@@ -86,7 +86,7 @@ Content-Length: 133
 
 {
   "@odata.type": "#microsoft.graph.workbookChartGridlines",
-  "id": "a8ca2705-2705-a8ca-0527-caa80527caa8",
+  "id": "1fbd5101-5101-1fbd-0151-bd1f0151bd1f",
   "visible": true
 }
 ```

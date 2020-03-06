@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/iosManagedAppProtections
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1876
+Content-Length: 1877
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.iosManagedAppProtection",
-      "id": "990edc71-dc71-990e-71dc-0e9971dc0e99",
+      "id": "b888a784-a784-b888-84a7-88b884a788b8",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "version": "Version value",
-      "periodOfflineBeforeAccessCheck": "PT47.716914S",
-      "periodOnlineBeforeAccessCheck": "-PT2M21.0044319S",
+      "periodOfflineBeforeAccessCheck": "-PT3M25.566685S",
+      "periodOnlineBeforeAccessCheck": "-PT26.9502015S",
       "allowedInboundDataTransferSources": "String",
       "allowedOutboundDataTransferDestinations": "String",
       "organizationalCredentialsRequired": true,
@@ -88,13 +91,13 @@ Content-Length: 1876
       "deviceComplianceRequired": true,
       "managedBrowserToOpenLinksRequired": true,
       "saveAsBlocked": true,
-      "periodOfflineBeforeWipeIsEnforced": "-PT3M26.4218591S",
+      "periodOfflineBeforeWipeIsEnforced": "PT2M8.2339541S",
       "pinRequired": true,
       "maximumPinRetries": 1,
       "simplePinBlocked": true,
       "minimumPinLength": 0,
       "pinCharacterSet": "String",
-      "periodBeforePinReset": "-PT2M56.6212998S",
+      "periodBeforePinReset": "-PT3M22.0606614S",
       "allowedDataStorageLocations": [
         "String"
       ],

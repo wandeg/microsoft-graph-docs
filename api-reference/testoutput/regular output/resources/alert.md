@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List alerts](../api/alert-list.md)|[alert](../resources/alert.md) collection|List properties and relationships of the [alert](../resources/alert.md) objects.|
 |[Get alert](../api/alert-get.md)|[alert](../resources/alert.md)|Read properties and relationships of the [alert](../resources/alert.md) object.|
-|[Create alert](../api/alert-create.md)|[alert](../resources/alert.md)|Create a new [alert](../resources/alert.md) object.|
-|[Delete alert](../api/alert-delete.md)|None|Deletes a [alert](../resources/alert.md).|
 |[Update alert](../api/alert-update.md)|[alert](../resources/alert.md)|Update the properties of a [alert](../resources/alert.md) object.|
-|[List alerts](../api/security-list-alerts.md)|[alert](../resources/alert.md) collection|Get the alerts from the alerts navigation property.|
-|[Add alerts](../api/security-post-alerts.md)|[alert](../resources/alert.md)|Add alerts by posting to the alerts collection.|
 
 ## Properties
 |Property|Type|Description|

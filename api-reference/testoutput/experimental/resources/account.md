@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List accounts](../api/account-list.md)|[account](../resources/account.md) collection|List properties and relationships of the [account](../resources/account.md) objects.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
-|[Create account](../api/account-create.md)|[account](../resources/account.md)|Create a new [account](../resources/account.md) object.|
-|[Delete account](../api/account-delete.md)|None|Deletes a [account](../resources/account.md).|
 |[Update account](../api/account-update.md)|[account](../resources/account.md)|Update the properties of a [account](../resources/account.md) object.|
+|[List accounts](../api/company-list-accounts.md)|[account](../resources/account.md) collection|Get the accounts from the accounts navigation property.|
+|[Add accounts](../api/company-post-accounts.md)|[account](../resources/account.md)|Add accounts by posting to the accounts collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

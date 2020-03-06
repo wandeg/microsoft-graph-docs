@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/mobileApps/{mobileAppId}/categories
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 259
+Content-Length: 261
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppCategory",
-      "id": "ff62dc6e-dc6e-ff62-6edc-62ff6edc62ff",
+      "id": "359259de-59de-3592-de59-9235de599235",
       "displayName": "Display Name value",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
     }
   ]
 }

@@ -20,13 +20,8 @@ Inherits from [bookingNamedEntity](../resources/bookingnamedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List bookingServices](../api/bookingservice-list.md)|[bookingService](../resources/bookingservice.md) collection|List properties and relationships of the [bookingService](../resources/bookingservice.md) objects.|
 |[Get bookingService](../api/bookingservice-get.md)|[bookingService](../resources/bookingservice.md)|Read properties and relationships of the [bookingService](../resources/bookingservice.md) object.|
-|[Create bookingService](../api/bookingservice-create.md)|[bookingService](../resources/bookingservice.md)|Create a new [bookingService](../resources/bookingservice.md) object.|
-|[Delete bookingService](../api/bookingservice-delete.md)|None|Deletes a [bookingService](../resources/bookingservice.md).|
 |[Update bookingService](../api/bookingservice-update.md)|[bookingService](../resources/bookingservice.md)|Update the properties of a [bookingService](../resources/bookingservice.md) object.|
-|[List services](../api/bookingbusiness-list-services.md)|[bookingService](../resources/bookingservice.md) collection|Get the bookingServices from the services navigation property.|
-|[Add services](../api/bookingbusiness-post-services.md)|[bookingService](../resources/bookingservice.md)|Add services by posting to the services collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -51,7 +46,7 @@ The display name is suitable for human-readable interfaces. Inherited from [book
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

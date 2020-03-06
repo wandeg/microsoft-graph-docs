@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 316
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-    "id": "6f7d337c-337c-6f7d-7c33-7d6f7c337d6f",
+    "id": "c0a504ed-04ed-c0a5-ed04-a5c0ed04a5c0",
     "unassignedOrderHint": "Unassigned Order Hint value",
     "orderHintsByAssignee": {
       "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

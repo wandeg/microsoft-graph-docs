@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/androidForWorkEnrollmentProfiles/{androidForWorkEnrollme
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.
@@ -53,14 +53,14 @@ The following table shows the properties that are required when you create the [
 |tokenExpirationDateTime|DateTimeOffset|Date time the most recently created token will expire.|
 |enrolledDeviceCount|Int32|Total number of Android devices that have enrolled using this enrollment profile.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|String used to generate a QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/mimecontent.md)|String used to generate a QR code for the token.|
 
 
 
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,7 +80,7 @@ Content-length: 496
   "displayName": "Display Name value",
   "description": "Description value",
   "tokenValue": "Token Value value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {
@@ -101,18 +101,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 667
+Content-Length: 668
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkEnrollmentProfile",
-  "id": "d37b6d7e-6d7e-d37b-7e6d-7bd37e6d7bd3",
+  "id": "8af336f1-36f1-8af3-f136-f38af136f38a",
   "accountId": "Account Id value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "tokenValue": "Token Value value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {

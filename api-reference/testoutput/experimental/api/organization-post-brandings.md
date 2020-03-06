@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /organization/{organizationId}/brandings/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [organizationalBranding](../resources/organizationalbranding.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [organizationalBranding](../resources/organizationalbranding.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 375
 
 {
   "@odata.type": "#microsoft.graph.organizationalBranding",
-  "id": "78efe820-e820-78ef-20e8-ef7820e8ef78",
+  "id": "20859b59-9b59-2085-599b-8520599b8520",
   "backgroundColor": "Background Color value",
   "backgroundImage": "Stream",
   "bannerLogo": "Stream",

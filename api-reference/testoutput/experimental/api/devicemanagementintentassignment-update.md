@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/assignments/{deviceMa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object.
@@ -44,14 +44,14 @@ The following table shows the properties that are required when you create the [
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The assignment target|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The assignment target|
 
 
 
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementIntentAssignment](../resources/devicemanagementintentassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentAssignment",
-  "id": "4c63bff1-bff1-4c63-f1bf-634cf1bf634c",
+  "id": "ef0b04f9-04f9-ef0b-f904-0beff9040bef",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

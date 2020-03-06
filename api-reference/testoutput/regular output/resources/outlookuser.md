@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookUsers](../api/outlookuser-list.md)|[outlookUser](../resources/outlookuser.md) collection|List properties and relationships of the [outlookUser](../resources/outlookuser.md) objects.|
 |[Get outlookUser](../api/outlookuser-get.md)|[outlookUser](../resources/outlookuser.md)|Read properties and relationships of the [outlookUser](../resources/outlookuser.md) object.|
-|[Create outlookUser](../api/outlookuser-create.md)|[outlookUser](../resources/outlookuser.md)|Create a new [outlookUser](../resources/outlookuser.md) object.|
-|[Delete outlookUser](../api/outlookuser-delete.md)|None|Deletes a [outlookUser](../resources/outlookuser.md).|
 |[Update outlookUser](../api/outlookuser-update.md)|[outlookUser](../resources/outlookuser.md)|Update the properties of a [outlookUser](../resources/outlookuser.md) object.|
 |[supportedLanguages](../api/outlookuser-supportedlanguages.md)|[localeInfo](../resources/localeinfo.md) collection||
 |[supportedTimeZones](../api/outlookuser-supportedtimezones.md)|[timeZoneInformation](../resources/timezoneinformation.md) collection||

@@ -20,13 +20,8 @@ Inherits from [bookingPerson](../resources/bookingperson.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List bookingStaffMembers](../api/bookingstaffmember-list.md)|[bookingStaffMember](../resources/bookingstaffmember.md) collection|List properties and relationships of the [bookingStaffMember](../resources/bookingstaffmember.md) objects.|
 |[Get bookingStaffMember](../api/bookingstaffmember-get.md)|[bookingStaffMember](../resources/bookingstaffmember.md)|Read properties and relationships of the [bookingStaffMember](../resources/bookingstaffmember.md) object.|
-|[Create bookingStaffMember](../api/bookingstaffmember-create.md)|[bookingStaffMember](../resources/bookingstaffmember.md)|Create a new [bookingStaffMember](../resources/bookingstaffmember.md) object.|
-|[Delete bookingStaffMember](../api/bookingstaffmember-delete.md)|None|Deletes a [bookingStaffMember](../resources/bookingstaffmember.md).|
 |[Update bookingStaffMember](../api/bookingstaffmember-update.md)|[bookingStaffMember](../resources/bookingstaffmember.md)|Update the properties of a [bookingStaffMember](../resources/bookingstaffmember.md) object.|
-|[List staffMembers](../api/bookingbusiness-list-staffmembers.md)|[bookingStaffMember](../resources/bookingstaffmember.md) collection|Get the bookingStaffMembers from the staffMembers navigation property.|
-|[Add staffMembers](../api/bookingbusiness-post-staffmembers.md)|[bookingStaffMember](../resources/bookingstaffmember.md)|Add staffMembers by posting to the staffMembers collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +39,7 @@ The display name is suitable for human-readable interfaces. Inherited from [book
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

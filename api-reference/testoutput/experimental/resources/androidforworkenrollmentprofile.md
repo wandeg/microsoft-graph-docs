@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidForWorkEnrollmentProfiles](../api/androidforworkenrollmentprofile-list.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) collection|List properties and relationships of the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) objects.|
 |[Get androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-get.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Read properties and relationships of the [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
-|[Create androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-create.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Create a new [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
-|[Delete androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-delete.md)|None|Deletes a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md).|
 |[Update androidForWorkEnrollmentProfile](../api/androidforworkenrollmentprofile-update.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Update the properties of a [androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) object.|
 |[revokeToken](../api/androidforworkenrollmentprofile-revoketoken.md)|None||
 |[createToken](../api/androidforworkenrollmentprofile-createtoken.md)|None||
-|[List androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-list-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md) collection|Get the androidForWorkEnrollmentProfiles from the androidForWorkEnrollmentProfiles navigation property.|
-|[Add androidForWorkEnrollmentProfiles](../api/intune-devices-devicemanagement-post-androidforworkenrollmentprofiles.md)|[androidForWorkEnrollmentProfile](../resources/androidforworkenrollmentprofile.md)|Add androidForWorkEnrollmentProfiles by posting to the androidForWorkEnrollmentProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,14 +36,14 @@ Inherits from [entity](../resources/entity.md)
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Date time the enrollment profile was last modified.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|String used to generate a QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/mimecontent.md)|String used to generate a QR code for the token.|
 |tokenExpirationDateTime|DateTimeOffset|Date time the most recently created token will expire.|
 |tokenValue|String|Value of the most recently created token for this enrollment profile.|
 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

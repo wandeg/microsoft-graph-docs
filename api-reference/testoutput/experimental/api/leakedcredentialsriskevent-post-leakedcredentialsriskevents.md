@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /leakedCredentialsRiskEvents
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [leakedCredentialsRiskEvent](../resources/leakedcredentialsriskevent.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [leakedCredentialsRiskEvent](../resources/leakedcredentialsriskevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,17 +72,17 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/leakedCredentialsRiskEvents
 Content-type: application/json
-Content-length: 422
+Content-length: 421
 
 {
   "@odata.type": "#microsoft.graph.leakedCredentialsRiskEvent",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+  "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+  "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
   "userId": "User Id value"
 }
 ```
@@ -102,15 +102,15 @@ Content-Length: 529
 
 {
   "@odata.type": "#microsoft.graph.leakedCredentialsRiskEvent",
-  "id": "74ea02e9-02e9-74ea-e902-ea74e902ea74",
+  "id": "5388f422-f422-5388-22f4-885322f48853",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
-  "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+  "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
   "riskEventType": "Risk Event Type value",
   "riskLevel": "String",
   "riskEventStatus": "String",
-  "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "userId": "User Id value"
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [notification](../resources/notification.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,9 +75,9 @@ Content-Length: 774
 {
   "value": {
     "@odata.type": "#microsoft.graph.notification",
-    "id": "d3e59931-9931-d3e5-3199-e5d33199e5d3",
+    "id": "e4db5b17-5b17-e4db-175b-dbe4175bdbe4",
     "targetHostName": "Target Host Name value",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "payload": {
       "@odata.type": "microsoft.graph.payloadTypes",
       "rawContent": "Raw Content value",

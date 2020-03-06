@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List messageRules](../api/messagerule-list.md)|[messageRule](../resources/messagerule.md) collection|List properties and relationships of the [messageRule](../resources/messagerule.md) objects.|
 |[Get messageRule](../api/messagerule-get.md)|[messageRule](../resources/messagerule.md)|Read properties and relationships of the [messageRule](../resources/messagerule.md) object.|
-|[Create messageRule](../api/messagerule-create.md)|[messageRule](../resources/messagerule.md)|Create a new [messageRule](../resources/messagerule.md) object.|
-|[Delete messageRule](../api/messagerule-delete.md)|None|Deletes a [messageRule](../resources/messagerule.md).|
 |[Update messageRule](../api/messagerule-update.md)|[messageRule](../resources/messagerule.md)|Update the properties of a [messageRule](../resources/messagerule.md) object.|
+|[List messageRules](../api/mailfolder-list-messagerules.md)|[messageRule](../resources/messagerule.md) collection|Get the messageRules from the messageRules navigation property.|
+|[Add messageRules](../api/mailfolder-post-messagerules.md)|[messageRule](../resources/messagerule.md)|Add messageRules by posting to the messageRules collection.|
 
 ## Properties
 |Property|Type|Description|

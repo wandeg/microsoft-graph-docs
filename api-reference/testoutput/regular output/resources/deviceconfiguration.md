@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurations](../api/deviceconfiguration-list.md)|[deviceConfiguration](../resources/deviceconfiguration.md) collection|List properties and relationships of the [deviceConfiguration](../resources/deviceconfiguration.md) objects.|
 |[Get deviceConfiguration](../api/deviceconfiguration-get.md)|[deviceConfiguration](../resources/deviceconfiguration.md)|Read properties and relationships of the [deviceConfiguration](../resources/deviceconfiguration.md) object.|
 |[assign](../api/deviceconfiguration-assign.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection||
 |[List assignments](../api/deviceconfiguration-list-assignments.md)|[deviceConfigurationAssignment](../resources/deviceconfigurationassignment.md) collection|Get the deviceConfigurationAssignments from the assignments navigation property.|
@@ -33,8 +32,6 @@ Inherits from [entity](../resources/entity.md)
 |[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
 |[List deviceSettingStateSummaries](../api/deviceconfiguration-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
 |[Add deviceSettingStateSummaries](../api/deviceconfiguration-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
-|[List deviceConfigurations](../api/devicemanagement-list-deviceconfigurations.md)|[deviceConfiguration](../resources/deviceconfiguration.md) collection|Get the deviceConfigurations from the deviceConfigurations navigation property.|
-|[Add deviceConfigurations](../api/devicemanagement-post-deviceconfigurations.md)|[deviceConfiguration](../resources/deviceconfiguration.md)|Add deviceConfigurations by posting to the deviceConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|

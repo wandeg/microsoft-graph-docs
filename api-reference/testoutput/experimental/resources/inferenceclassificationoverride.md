@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List inferenceClassificationOverrides](../api/inferenceclassificationoverride-list.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) collection|List properties and relationships of the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) objects.|
 |[Get inferenceClassificationOverride](../api/inferenceclassificationoverride-get.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md)|Read properties and relationships of the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.|
-|[Create inferenceClassificationOverride](../api/inferenceclassificationoverride-create.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md)|Create a new [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.|
-|[Delete inferenceClassificationOverride](../api/inferenceclassificationoverride-delete.md)|None|Deletes a [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md).|
 |[Update inferenceClassificationOverride](../api/inferenceclassificationoverride-update.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md)|Update the properties of a [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.|
+|[List overrides](../api/inferenceclassification-list-overrides.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) collection|Get the inferenceClassificationOverrides from the overrides navigation property.|
+|[Add overrides](../api/inferenceclassification-post-overrides.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md)|Add overrides by posting to the overrides collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

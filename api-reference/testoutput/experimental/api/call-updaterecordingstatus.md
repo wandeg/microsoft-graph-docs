@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /communications/calls/{callId}/updateRecordingStatus
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [updateRecordingStatusOperation](../resources/updaterecordingstatusoperation.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -90,7 +90,7 @@ Content-Length: 295
 {
   "value": {
     "@odata.type": "#microsoft.graph.updateRecordingStatusOperation",
-    "id": "19ce9077-9077-19ce-7790-ce197790ce19",
+    "id": "04eac258-c258-04ea-58c2-ea0458c2ea04",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

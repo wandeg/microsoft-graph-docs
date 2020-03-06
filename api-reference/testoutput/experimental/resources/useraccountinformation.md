@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userAccountInformations](../api/useraccountinformation-list.md)|[userAccountInformation](../resources/useraccountinformation.md) collection|List properties and relationships of the [userAccountInformation](../resources/useraccountinformation.md) objects.|
 |[Get userAccountInformation](../api/useraccountinformation-get.md)|[userAccountInformation](../resources/useraccountinformation.md)|Read properties and relationships of the [userAccountInformation](../resources/useraccountinformation.md) object.|
-|[Create userAccountInformation](../api/useraccountinformation-create.md)|[userAccountInformation](../resources/useraccountinformation.md)|Create a new [userAccountInformation](../resources/useraccountinformation.md) object.|
-|[Delete userAccountInformation](../api/useraccountinformation-delete.md)|None|Deletes a [userAccountInformation](../resources/useraccountinformation.md).|
 |[Update userAccountInformation](../api/useraccountinformation-update.md)|[userAccountInformation](../resources/useraccountinformation.md)|Update the properties of a [userAccountInformation](../resources/useraccountinformation.md) object.|
+|[List account](../api/profile-list-account.md)|[userAccountInformation](../resources/useraccountinformation.md) collection|Get the userAccountInformations from the account navigation property.|
+|[Add account](../api/profile-post-account.md)|[userAccountInformation](../resources/useraccountinformation.md)|Add account by posting to the account collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

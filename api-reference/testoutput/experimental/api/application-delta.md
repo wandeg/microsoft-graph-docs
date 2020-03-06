@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /applications/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [application](../resources/application.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1850
+Content-Length: 1851
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "7a3399d6-99d6-7a33-d699-337ad699337a",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "0d82a622-a622-0d82-22a6-820d22a6820d",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "api": {
         "@odata.type": "microsoft.graph.apiApplication"
       },
@@ -83,7 +83,7 @@ Content-Length: 1850
           "@odata.type": "microsoft.graph.appRole"
         }
       ],
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "isFallbackPublicClient": true,
       "identifierUris": [
         "Identifier Uris value"
@@ -124,7 +124,7 @@ Content-Length: 1850
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "b0d21fb8-1fb8-b0d2-b81f-d2b0b81fd2b0",
+      "tokenEncryptionKeyId": "e6d6a64b-a64b-e6d6-4ba6-d6e64ba6d6e6",
       "web": {
         "@odata.type": "microsoft.graph.webApplication"
       }

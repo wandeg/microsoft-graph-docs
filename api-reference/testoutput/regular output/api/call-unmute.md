@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/unmute
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -87,7 +87,7 @@ Content-Length: 291
 {
   "value": {
     "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-    "id": "ddc8c2c5-c2c5-ddc8-c5c2-c8ddc5c2c8dd",
+    "id": "91d779f2-79f2-91d7-f279-d791f279d791",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

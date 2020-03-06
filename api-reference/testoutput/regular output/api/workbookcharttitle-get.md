@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 203
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartTitle",
-    "id": "a493ed52-ed52-a493-52ed-93a452ed93a4",
+    "id": "c016c1c1-c1c1-c016-c1c1-16c0c1c116c0",
     "overlay": true,
     "text": "Text value",
     "visible": true

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teamsApp/appDefinitions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 272
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAppDefinition",
-      "id": "835e2768-2768-835e-6827-5e8368275e83",
+      "id": "5e9f834e-834e-5e9f-4e83-9f5e4e839f5e",
       "teamsAppId": "Teams App Id value",
       "displayName": "Display Name value",
       "version": "Version value"

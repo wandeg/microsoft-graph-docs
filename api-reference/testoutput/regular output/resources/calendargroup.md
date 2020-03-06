@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List calendarGroups](../api/calendargroup-list.md)|[calendarGroup](../resources/calendargroup.md) collection|List properties and relationships of the [calendarGroup](../resources/calendargroup.md) objects.|
 |[Get calendarGroup](../api/calendargroup-get.md)|[calendarGroup](../resources/calendargroup.md)|Read properties and relationships of the [calendarGroup](../resources/calendargroup.md) object.|
-|[Create calendarGroup](../api/calendargroup-create.md)|[calendarGroup](../resources/calendargroup.md)|Create a new [calendarGroup](../resources/calendargroup.md) object.|
-|[Delete calendarGroup](../api/calendargroup-delete.md)|None|Deletes a [calendarGroup](../resources/calendargroup.md).|
 |[Update calendarGroup](../api/calendargroup-update.md)|[calendarGroup](../resources/calendargroup.md)|Update the properties of a [calendarGroup](../resources/calendargroup.md) object.|
 |[List calendars](../api/calendargroup-list-calendars.md)|[calendar](../resources/calendar.md) collection|Get the calendars from the calendars navigation property.|
 |[Add calendars](../api/calendargroup-post-calendars.md)|[calendar](../resources/calendar.md)|Add calendars by posting to the calendars collection.|

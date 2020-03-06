@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /groups/{groupsId}/settings
 GET /me/joinedGroups/{groupId}/settings
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [directorySetting](../resources/directorysetting.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 410
   "value": [
     {
       "@odata.type": "#microsoft.graph.directorySetting",
-      "id": "95cf0a68-0a68-95cf-680a-cf95680acf95",
+      "id": "f206ddd8-ddd8-f206-d8dd-06f2d8dd06f2",
       "displayName": "Display Name value",
       "templateId": "Template Id value",
       "values": [

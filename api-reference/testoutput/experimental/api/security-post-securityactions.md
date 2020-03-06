@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/securityActions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [securityAction](../resources/securityaction.md) object.
@@ -65,7 +65,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [securityAction](../resources/securityaction.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,14 +85,14 @@ Content-length: 1143
   "appId": "App Id value",
   "azureTenantId": "Azure Tenant Id value",
   "clientContext": "Client Context value",
-  "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
+  "completedDateTime": "2017-01-01T00:01:24.5536383+03:00",
   "errorInfo": {
     "@odata.type": "microsoft.graph.ResultInfo",
     "code": 4,
     "subcode": 7,
     "message": "Message value"
   },
-  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+  "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
   "name": "Name value",
   "parameters": [
     {
@@ -104,7 +104,7 @@ Content-length: 1143
     {
       "@odata.type": "microsoft.graph.securityActionState",
       "status": "String",
-      "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00",
+      "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00",
       "user": "User value"
     }
   ],
@@ -131,24 +131,24 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1250
+Content-Length: 1251
 
 {
   "@odata.type": "#microsoft.graph.securityAction",
-  "id": "88effc58-fc58-88ef-58fc-ef8858fcef88",
+  "id": "2901c425-c425-2901-25c4-012925c40129",
   "actionReason": "Action Reason value",
   "appId": "App Id value",
   "azureTenantId": "Azure Tenant Id value",
   "clientContext": "Client Context value",
-  "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "completedDateTime": "2017-01-01T00:01:24.5536383+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "errorInfo": {
     "@odata.type": "microsoft.graph.ResultInfo",
     "code": 4,
     "subcode": 7,
     "message": "Message value"
   },
-  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+  "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
   "name": "Name value",
   "parameters": [
     {
@@ -160,7 +160,7 @@ Content-Length: 1250
     {
       "@odata.type": "microsoft.graph.securityActionState",
       "status": "String",
-      "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00",
+      "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00",
       "user": "User value"
     }
   ],

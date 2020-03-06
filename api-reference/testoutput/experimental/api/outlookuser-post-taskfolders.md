@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/outlook/taskFolders/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookTaskFolder](../resources/outlooktaskfolder.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [outlookTaskFolder](../resources/outlooktaskfolder.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 209
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
+  "parentGroupKey": "fd4c385c-385c-fd4c-5c38-4cfd5c384cfd"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Length: 258
 
 {
   "@odata.type": "#microsoft.graph.outlookTaskFolder",
-  "id": "e4c83b09-3b09-e4c8-093b-c8e4093bc8e4",
+  "id": "4e07791c-791c-4e07-1c79-074e1c79074e",
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
+  "parentGroupKey": "fd4c385c-385c-fd4c-5c38-4cfd5c384cfd"
 }
 ```
 

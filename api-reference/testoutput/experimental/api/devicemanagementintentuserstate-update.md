@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/intents/{deviceManagementIntentId}/userStates/{deviceMan
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 268
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceCount": 11,
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "state": "String"
 }
 ```
@@ -93,11 +93,11 @@ Content-Length: 317
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementIntentUserState",
-  "id": "499dd460-d460-499d-60d4-9d4960d49d49",
+  "id": "99b98d53-8d53-99b9-538d-b999538db999",
   "userPrincipalName": "User Principal Name value",
   "userName": "User Name value",
   "deviceCount": 11,
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "state": "String"
 }
 ```

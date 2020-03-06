@@ -51,7 +51,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |members|[directoryObject](../resources/directoryobject.md) collection||
 |scopedMembers|[scopedRoleMembership](../resources/scopedrolemembership.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

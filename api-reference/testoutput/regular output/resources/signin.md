@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List signIns](../api/signin-list.md)|[signIn](../resources/signin.md) collection|List properties and relationships of the [signIn](../resources/signin.md) objects.|
 |[Get signIn](../api/signin-get.md)|[signIn](../resources/signin.md)|Read properties and relationships of the [signIn](../resources/signin.md) object.|
-|[Create signIn](../api/signin-create.md)|[signIn](../resources/signin.md)|Create a new [signIn](../resources/signin.md) object.|
-|[Delete signIn](../api/signin-delete.md)|None|Deletes a [signIn](../resources/signin.md).|
 |[Update signIn](../api/signin-update.md)|[signIn](../resources/signin.md)|Update the properties of a [signIn](../resources/signin.md) object.|
 
 ## Properties

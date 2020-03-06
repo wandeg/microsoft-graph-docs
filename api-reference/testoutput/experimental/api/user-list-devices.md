@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/devices
 GET /users/{usersId}/devices
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [device](../resources/device.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,8 +76,8 @@ Content-Length: 1487
   "value": [
     {
       "@odata.type": "#microsoft.graph.device",
-      "id": "398d4484-4484-398d-8444-8d3984448d39",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "d71b2423-2423-d71b-2324-1bd723241bd7",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "accountEnabled": true,
       "alternativeSecurityIds": [
         {
@@ -84,15 +87,15 @@ Content-Length: 1487
           "key": "a2V5"
         }
       ],
-      "approximateLastSignInDateTime": "2016-12-31T23:59:02.5499427+03:00",
-      "complianceExpirationDateTime": "2017-01-01T00:03:17.1122794+03:00",
+      "approximateLastSignInDateTime": "2017-01-01T00:00:24.6939837+03:00",
+      "complianceExpirationDateTime": "2016-12-31T23:57:22.6737279+03:00",
       "deviceId": "Device Id value",
       "deviceMetadata": "Device Metadata value",
       "deviceVersion": 13,
       "displayName": "Display Name value",
       "isCompliant": true,
       "isManaged": true,
-      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
       "onPremisesSyncEnabled": true,
       "operatingSystem": "Operating System value",
       "operatingSystemVersion": "Operating System Version value",

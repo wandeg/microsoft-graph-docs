@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedTh
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedthreatprotectiononboardingdevicesettingstate.md) object.
@@ -63,7 +63,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [advancedThreatProtectionOnboardingDeviceSettingState](../resources/advancedthreatprotectiononboardingdevicesettingstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/advancedThreatProtectionOnboardingStateSummary/advancedThreatProtectionOnboardingDeviceSettingStates
 Content-type: application/json
-Content-length: 563
+Content-length: 564
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingDeviceSettingState",
@@ -90,7 +90,7 @@ Content-length: 563
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:50.0675075+03:00"
 }
 ```
 
@@ -105,11 +105,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 612
+Content-Length: 613
 
 {
   "@odata.type": "#microsoft.graph.advancedThreatProtectionOnboardingDeviceSettingState",
-  "id": "0e26c1f1-c1f1-0e26-f1c1-260ef1c1260e",
+  "id": "79694fd8-4fd8-7969-d84f-6979d84f6979",
   "platformType": "String",
   "setting": "Setting value",
   "settingName": "Setting Name value",
@@ -121,7 +121,7 @@ Content-Length: 612
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:50.0675075+03:00"
 }
 ```
 

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/insights/used
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1055
+Content-Length: 1057
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.usedInsight",
-      "id": "a8c36bec-6bec-a8c3-ec6b-c3a8ec6bc3a8",
+      "id": "22073143-3143-2207-4331-072243310722",
       "lastUsed": {
         "@odata.type": "microsoft.graph.usageDetails",
-        "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00",
-        "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:02:36.6852441+03:00",
+        "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
       },
       "resourceVisualization": {
         "@odata.type": "microsoft.graph.resourceVisualization",

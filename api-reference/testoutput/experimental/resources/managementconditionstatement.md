@@ -20,15 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managementConditionStatements](../api/managementconditionstatement-list.md)|[managementConditionStatement](../resources/managementconditionstatement.md) collection|List properties and relationships of the [managementConditionStatement](../resources/managementconditionstatement.md) objects.|
 |[Get managementConditionStatement](../api/managementconditionstatement-get.md)|[managementConditionStatement](../resources/managementconditionstatement.md)|Read properties and relationships of the [managementConditionStatement](../resources/managementconditionstatement.md) object.|
-|[Create managementConditionStatement](../api/managementconditionstatement-create.md)|[managementConditionStatement](../resources/managementconditionstatement.md)|Create a new [managementConditionStatement](../resources/managementconditionstatement.md) object.|
-|[Delete managementConditionStatement](../api/managementconditionstatement-delete.md)|None|Deletes a [managementConditionStatement](../resources/managementconditionstatement.md).|
 |[Update managementConditionStatement](../api/managementconditionstatement-update.md)|[managementConditionStatement](../resources/managementconditionstatement.md)|Update the properties of a [managementConditionStatement](../resources/managementconditionstatement.md) object.|
 |[getManagementConditionStatementExpressionString](../api/managementconditionstatement-getmanagementconditionstatementexpressionstring.md)|[managementConditionExpressionString](../resources/managementconditionexpressionstring.md)||
 |[getManagementConditionStatementsForPlatform](../api/managementconditionstatement-getmanagementconditionstatementsforplatform.md)|[managementConditionStatement](../resources/managementconditionstatement.md) collection||
 |[List managementConditions](../api/managementconditionstatement-list-managementconditions.md)|[managementCondition](../resources/managementcondition.md) collection|Get the managementConditions from the managementConditions navigation property.|
 |[Create managementConditions](../api/managementconditionstatement-post-managementconditions.md)|[managementCondition](../resources/managementcondition.md)|Create managementConditions by posting to the managementConditions collection.|
+|[List managementConditionStatements](../api/managementcondition-list-managementconditionstatements.md)|[managementConditionStatement](../resources/managementconditionstatement.md) collection|Get the managementConditionStatements from the managementConditionStatements navigation property.|
+|[Create managementConditionStatements](../api/managementcondition-post-managementconditionstatements.md)|[managementConditionStatement](../resources/managementconditionstatement.md)|Create managementConditionStatements by posting to the managementConditionStatements collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +47,7 @@ This is calculated from looking the management conditions associated to the mana
 |:---|:---|:---|
 |managementConditions|[managementCondition](../resources/managementcondition.md) collection|The management conditions associated to the management condition statement.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

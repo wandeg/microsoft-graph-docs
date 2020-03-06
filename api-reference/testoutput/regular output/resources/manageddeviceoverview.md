@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedDeviceOverviews](../api/manageddeviceoverview-list.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md) collection|List properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) objects.|
 |[Get managedDeviceOverview](../api/manageddeviceoverview-get.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Read properties and relationships of the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
-|[Create managedDeviceOverview](../api/manageddeviceoverview-create.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Create a new [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
-|[Delete managedDeviceOverview](../api/manageddeviceoverview-delete.md)|None|Deletes a [managedDeviceOverview](../resources/manageddeviceoverview.md).|
 |[Update managedDeviceOverview](../api/manageddeviceoverview-update.md)|[managedDeviceOverview](../resources/manageddeviceoverview.md)|Update the properties of a [managedDeviceOverview](../resources/manageddeviceoverview.md) object.|
 
 ## Properties

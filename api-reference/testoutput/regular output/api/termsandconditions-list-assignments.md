@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/termsAndConditions/{termsAndConditionsId}/assignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 270
   "value": [
     {
       "@odata.type": "#microsoft.graph.termsAndConditionsAssignment",
-      "id": "7c345343-5343-7c34-4353-347c4353347c",
+      "id": "de56c285-c285-de56-85c2-56de85c256de",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

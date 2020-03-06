@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,10 +34,13 @@ GET /accessPackageCatalogs/{accessPackageCatalogsId}/accessPackages
 GET /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPackageCatalogId}/accessPackages
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +48,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [accessPackage](../resources/accesspackage.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,22 +72,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 541
+Content-Length: 542
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackage",
-      "id": "614bf432-f432-614b-32f4-4b6132f44b61",
+      "id": "931941b8-41b8-9319-b841-1993b8411993",
       "catalogId": "Catalog Id value",
       "displayName": "Display Name value",
       "description": "Description value",
       "isHidden": true,
       "isRoleScopesVisible": true,
       "createdBy": "Created By value",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "modifiedBy": "Modified By value",
-      "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
+      "modifiedDateTime": "2016-12-31T23:58:13.3996216+03:00"
     }
   ]
 }

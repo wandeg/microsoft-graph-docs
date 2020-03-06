@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/activities
 GET /users/{usersId}/activities
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [userActivity](../resources/useractivity.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,13 +70,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1435
+Content-Length: 1436
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.userActivity",
-      "id": "1eb5aa09-aa09-1eb5-09aa-b51e09aab51e",
+      "id": "9fb7ec0a-ec0a-9fb7-0aec-b79f0aecb79f",
       "visualElements": {
         "@odata.type": "microsoft.graph.visualInfo",
         "attribution": {
@@ -95,10 +98,10 @@ Content-Length: 1435
       "appActivityId": "App Activity Id value",
       "appDisplayName": "App Display Name value",
       "contentUrl": "https://example.com/contentUrl/",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
       "fallbackUrl": "https://example.com/fallbackUrl/",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "userTimezone": "User Timezone value",
       "contentInfo": {
         "@odata.type": "microsoft.graph.Json"

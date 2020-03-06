@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userAnalyticses](../api/useranalytics-list.md)|[userAnalytics](../resources/useranalytics.md) collection|List properties and relationships of the [userAnalytics](../resources/useranalytics.md) objects.|
 |[Get userAnalytics](../api/useranalytics-get.md)|[userAnalytics](../resources/useranalytics.md)|Read properties and relationships of the [userAnalytics](../resources/useranalytics.md) object.|
-|[Create userAnalytics](../api/useranalytics-create.md)|[userAnalytics](../resources/useranalytics.md)|Create a new [userAnalytics](../resources/useranalytics.md) object.|
-|[Delete userAnalytics](../api/useranalytics-delete.md)|None|Deletes a [userAnalytics](../resources/useranalytics.md).|
 |[Update userAnalytics](../api/useranalytics-update.md)|[userAnalytics](../resources/useranalytics.md)|Update the properties of a [userAnalytics](../resources/useranalytics.md) object.|
 |[List activityStatistics](../api/useranalytics-list-activitystatistics.md)|[activityStatistics](../resources/activitystatistics.md) collection|Get the activityStatisticses from the activityStatistics navigation property.|
 |[Add activityStatistics](../api/useranalytics-post-activitystatistics.md)|[activityStatistics](../resources/activitystatistics.md)|Add activityStatistics by posting to the activityStatistics collection.|
@@ -39,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |activityStatistics|[activityStatistics](../resources/activitystatistics.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

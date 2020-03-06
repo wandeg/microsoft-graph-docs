@@ -34,8 +34,8 @@ POST /deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppCo
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -70,7 +70,7 @@ Content-length: 286
   "apps": [
     {
       "@odata.type": "#microsoft.graph.managedMobileApp",
-      "id": "b08b8684-8684-b08b-8486-8bb084868bb0",
+      "id": "cc3f11c7-11c7-cc3f-c711-3fccc7113fcc",
       "mobileAppIdentifier": {
         "@odata.type": "microsoft.graph.mobileAppIdentifier"
       },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ PATCH /users/{usersId}/joinedTeams/{teamId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [team](../resources/team.md) object.
@@ -67,7 +67,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [team](../resources/team.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -139,7 +139,7 @@ Content-Length: 1409
 
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
+  "id": "ddebd9e2-d9e2-ddeb-e2d9-ebdde2d9ebdd",
   "displayName": "Display Name value",
   "description": "Description value",
   "internalId": "Internal Id value",

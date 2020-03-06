@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List personInterests](../api/personinterest-list.md)|[personInterest](../resources/personinterest.md) collection|List properties and relationships of the [personInterest](../resources/personinterest.md) objects.|
 |[Get personInterest](../api/personinterest-get.md)|[personInterest](../resources/personinterest.md)|Read properties and relationships of the [personInterest](../resources/personinterest.md) object.|
-|[Create personInterest](../api/personinterest-create.md)|[personInterest](../resources/personinterest.md)|Create a new [personInterest](../resources/personinterest.md) object.|
-|[Delete personInterest](../api/personinterest-delete.md)|None|Deletes a [personInterest](../resources/personinterest.md).|
 |[Update personInterest](../api/personinterest-update.md)|[personInterest](../resources/personinterest.md)|Update the properties of a [personInterest](../resources/personinterest.md) object.|
+|[List interests](../api/profile-list-interests.md)|[personInterest](../resources/personinterest.md) collection|Get the personInterests from the interests navigation property.|
+|[Add interests](../api/profile-post-interests.md)|[personInterest](../resources/personinterest.md)|Add interests by posting to the interests collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPr
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onPremisesAgent](../resources/onpremisesagent.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onPremisesAgent](../resources/onpremisesagent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 260
 
 {
   "@odata.type": "#microsoft.graph.onPremisesAgent",
-  "id": "97e9ae49-ae49-97e9-49ae-e99749aee997",
+  "id": "3b1d2e84-2e84-3b1d-842e-1d3b842e1d3b",
   "machineName": "Machine Name value",
   "externalIp": "External Ip value",
   "status": "String",

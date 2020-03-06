@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/remoteAssistancePartners
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 368
+Content-Length: 367
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-      "id": "5092847b-847b-5092-7b84-92507b849250",
+      "id": "4ea84d76-4d76-4ea8-764d-a84e764da84e",
       "displayName": "Display Name value",
       "onboardingUrl": "https://example.com/onboardingUrl/",
       "onboardingStatus": "String",
-      "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+      "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
     }
   ]
 }

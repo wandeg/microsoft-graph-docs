@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List publishedResources](../api/publishedresource-list.md)|[publishedResource](../resources/publishedresource.md) collection|List properties and relationships of the [publishedResource](../resources/publishedresource.md) objects.|
 |[Get publishedResource](../api/publishedresource-get.md)|[publishedResource](../resources/publishedresource.md)|Read properties and relationships of the [publishedResource](../resources/publishedresource.md) object.|
-|[Create publishedResource](../api/publishedresource-create.md)|[publishedResource](../resources/publishedresource.md)|Create a new [publishedResource](../resources/publishedresource.md) object.|
-|[Delete publishedResource](../api/publishedresource-delete.md)|None|Deletes a [publishedResource](../resources/publishedresource.md).|
 |[Update publishedResource](../api/publishedresource-update.md)|[publishedResource](../resources/publishedresource.md)|Update the properties of a [publishedResource](../resources/publishedresource.md) object.|
 |[List agentGroups](../api/publishedresource-list-agentgroups.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md) collection|Get the onPremisesAgentGroups from the agentGroups navigation property.|
 |[Create agentGroups](../api/publishedresource-post-agentgroups.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md)|Create agentGroups by posting to the agentGroups collection.|
+|[List publishedResources](../api/onpremisesagentgroup-list-publishedresources.md)|[publishedResource](../resources/publishedresource.md) collection|Get the publishedResources from the publishedResources navigation property.|
+|[Create publishedResources](../api/onpremisesagentgroup-post-publishedresources.md)|[publishedResource](../resources/publishedresource.md)|Create publishedResources by posting to the publishedResources collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |agentGroups|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

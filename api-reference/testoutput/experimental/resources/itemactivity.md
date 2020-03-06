@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemActivities](../api/itemactivity-list.md)|[itemActivity](../resources/itemactivity.md) collection|List properties and relationships of the [itemActivity](../resources/itemactivity.md) objects.|
 |[Get itemActivity](../api/itemactivity-get.md)|[itemActivity](../resources/itemactivity.md)|Read properties and relationships of the [itemActivity](../resources/itemactivity.md) object.|
-|[Create itemActivity](../api/itemactivity-create.md)|[itemActivity](../resources/itemactivity.md)|Create a new [itemActivity](../resources/itemactivity.md) object.|
-|[Delete itemActivity](../api/itemactivity-delete.md)|None|Deletes a [itemActivity](../resources/itemactivity.md).|
 |[Update itemActivity](../api/itemactivity-update.md)|[itemActivity](../resources/itemactivity.md)|Update the properties of a [itemActivity](../resources/itemactivity.md) object.|
 |[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
 |[List activities](../api/itemactivitystat-list-activities.md)|[itemActivity](../resources/itemactivity.md) collection|Get the itemActivities from the activities navigation property.|
@@ -42,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |driveItem|[driveItem](../resources/driveitem.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

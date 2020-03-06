@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List termsAndConditionsAssignments](../api/termsandconditionsassignment-list.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|List properties and relationships of the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) objects.|
 |[Get termsAndConditionsAssignment](../api/termsandconditionsassignment-get.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Read properties and relationships of the [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.|
-|[Create termsAndConditionsAssignment](../api/termsandconditionsassignment-create.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Create a new [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.|
-|[Delete termsAndConditionsAssignment](../api/termsandconditionsassignment-delete.md)|None|Deletes a [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md).|
 |[Update termsAndConditionsAssignment](../api/termsandconditionsassignment-update.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Update the properties of a [termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) object.|
+|[List assignments](../api/termsandconditions-list-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md) collection|Get the termsAndConditionsAssignments from the assignments navigation property.|
+|[Add assignments](../api/termsandconditions-post-assignments.md)|[termsAndConditionsAssignment](../resources/termsandconditionsassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|

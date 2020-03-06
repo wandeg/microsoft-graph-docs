@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemActivityStats](../api/itemactivitystat-list.md)|[itemActivityStat](../resources/itemactivitystat.md) collection|List properties and relationships of the [itemActivityStat](../resources/itemactivitystat.md) objects.|
 |[Get itemActivityStat](../api/itemactivitystat-get.md)|[itemActivityStat](../resources/itemactivitystat.md)|Read properties and relationships of the [itemActivityStat](../resources/itemactivitystat.md) object.|
-|[Create itemActivityStat](../api/itemactivitystat-create.md)|[itemActivityStat](../resources/itemactivitystat.md)|Create a new [itemActivityStat](../resources/itemactivitystat.md) object.|
-|[Delete itemActivityStat](../api/itemactivitystat-delete.md)|None|Deletes a [itemActivityStat](../resources/itemactivitystat.md).|
 |[Update itemActivityStat](../api/itemactivitystat-update.md)|[itemActivityStat](../resources/itemactivitystat.md)|Update the properties of a [itemActivityStat](../resources/itemactivitystat.md) object.|
 |[List activities](../api/itemactivitystat-list-activities.md)|[itemActivity](../resources/itemactivity.md) collection|Get the itemActivities from the activities navigation property.|
 |[Create activities](../api/itemactivitystat-post-activities.md)|[itemActivity](../resources/itemactivity.md)|Create activities by posting to the activities collection.|
+|[List itemActivityStats](../api/itemanalytics-list-itemactivitystats.md)|[itemActivityStat](../resources/itemactivitystat.md) collection|Get the itemActivityStats from the itemActivityStats navigation property.|
+|[Add itemActivityStats](../api/itemanalytics-post-itemactivitystats.md)|[itemActivityStat](../resources/itemactivitystat.md)|Add itemActivityStats by posting to the itemActivityStats collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -47,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |activities|[itemActivity](../resources/itemactivity.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

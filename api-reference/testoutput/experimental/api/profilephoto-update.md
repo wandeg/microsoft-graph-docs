@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ PATCH /me/joinedGroups/{groupId}/photos/{profilePhotoId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [profilePhoto](../resources/profilephoto.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [profilePhoto](../resources/profilephoto.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -97,7 +97,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.profilePhoto",
-  "id": "38921062-1062-3892-6210-923862109238",
+  "id": "8654d0cc-d0cc-8654-ccd0-5486ccd05486",
   "height": 6,
   "width": 5
 }

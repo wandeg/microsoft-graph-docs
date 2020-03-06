@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/insights/used/{usedInsightId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [usedInsight](../resources/usedinsight.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [usedInsight](../resources/usedinsight.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,8 +71,8 @@ Content-length: 883
   "@odata.type": "#microsoft.graph.usedInsight",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:50.8669622+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -107,11 +107,11 @@ Content-Length: 932
 
 {
   "@odata.type": "#microsoft.graph.usedInsight",
-  "id": "44b98756-8756-44b9-5687-b9445687b944",
+  "id": "6b4978a5-78a5-6b49-a578-496ba578496b",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:50.8669622+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",

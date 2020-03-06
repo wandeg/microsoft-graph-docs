@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceConfigurationRestrictedAppsViolations/{restrictedA
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [restrictedAppsViolation](../resources/restrictedappsviolation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -106,7 +106,7 @@ Content-Length: 596
 
 {
   "@odata.type": "#microsoft.graph.restrictedAppsViolation",
-  "id": "ba4be45e-e45e-ba4b-5ee4-4bba5ee44bba",
+  "id": "ddeb1f1e-1f1e-ddeb-1e1f-ebdd1e1febdd",
   "userId": "User Id value",
   "userName": "User Name value",
   "managedDeviceId": "Managed Device Id value",

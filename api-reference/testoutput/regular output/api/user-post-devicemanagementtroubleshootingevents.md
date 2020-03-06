@@ -35,8 +35,8 @@ POST /users/{usersId}/deviceManagementTroubleshootingEvents/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
@@ -70,7 +70,7 @@ Content-length: 179
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
+  "eventDateTime": "2017-01-01T00:01:31.6259689+03:00",
   "correlationId": "Correlation Id value"
 }
 ```
@@ -90,8 +90,8 @@ Content-Length: 228
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "72d71f13-1f13-72d7-131f-d772131fd772",
-  "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
+  "id": "3a171e3c-1e3c-3a17-3c1e-173a3c1e173a",
+  "eventDateTime": "2017-01-01T00:01:31.6259689+03:00",
   "correlationId": "Correlation Id value"
 }
 ```

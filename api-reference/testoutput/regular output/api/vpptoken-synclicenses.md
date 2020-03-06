@@ -34,8 +34,8 @@ POST /deviceAppManagement/vppTokens/{vppTokenId}/syncLicenses
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -67,19 +67,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 609
+Content-Length: 613
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.vppToken",
-    "id": "17fa936a-936a-17fa-6a93-fa176a93fa17",
+    "id": "b1b7913c-913c-b1b7-3c91-b7b13c91b7b1",
     "organizationName": "Organization Name value",
     "vppTokenAccountType": "String",
     "appleId": "Apple Id value",
-    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
-    "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+    "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
+    "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
     "token": "Token value",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
     "state": "String",
     "lastSyncStatus": "String",
     "automaticallyUpdateApps": true,

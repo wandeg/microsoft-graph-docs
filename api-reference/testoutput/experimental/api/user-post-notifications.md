@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/notifications/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [notification](../resources/notification.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [notification](../resources/notification.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-length: 662
 {
   "@odata.type": "#microsoft.graph.notification",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",
@@ -113,9 +113,9 @@ Content-Length: 711
 
 {
   "@odata.type": "#microsoft.graph.notification",
-  "id": "d3e59931-9931-d3e5-3199-e5d33199e5d3",
+  "id": "e4db5b17-5b17-e4db-175b-dbe4175bdbe4",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",

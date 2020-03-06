@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceEnrollmentConfigurations/{deviceEnrollmentConfigur
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [enrollmentConfigurationAssignment](../resources/enrollmentconfigurationassignment.md) object.
@@ -87,7 +87,7 @@ Content-Length: 222
 
 {
   "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-  "id": "13af2f65-2f65-13af-652f-af13652faf13",
+  "id": "24e58b25-8b25-24e5-258b-e524258be524",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

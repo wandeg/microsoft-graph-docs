@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,10 +74,10 @@ Content-Length: 289
 {
   "value": {
     "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-    "id": "538b66b3-66b3-538b-b366-8b53b3668b53",
+    "id": "7cbccdf8-cdf8-7cbc-f8cd-bc7cf8cdbc7c",
     "userDisplayName": "User Display Name value",
     "acceptedVersion": 15,
-    "acceptedDateTime": "2016-12-31T23:56:51.8170211+03:00"
+    "acceptedDateTime": "2017-01-01T00:01:51.9072885+03:00"
   }
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /communications/calls/{callId}/cancelMediaProcessing
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,7 +88,7 @@ Content-Length: 295
 {
   "value": {
     "@odata.type": "#microsoft.graph.cancelMediaProcessingOperation",
-    "id": "72b1b39a-b39a-72b1-9ab3-b1729ab3b172",
+    "id": "17468c41-8c41-1746-418c-4617418c4617",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

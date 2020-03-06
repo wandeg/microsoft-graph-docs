@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookCategories](../api/outlookcategory-list.md)|[outlookCategory](../resources/outlookcategory.md) collection|List properties and relationships of the [outlookCategory](../resources/outlookcategory.md) objects.|
 |[Get outlookCategory](../api/outlookcategory-get.md)|[outlookCategory](../resources/outlookcategory.md)|Read properties and relationships of the [outlookCategory](../resources/outlookcategory.md) object.|
-|[Create outlookCategory](../api/outlookcategory-create.md)|[outlookCategory](../resources/outlookcategory.md)|Create a new [outlookCategory](../resources/outlookcategory.md) object.|
-|[Delete outlookCategory](../api/outlookcategory-delete.md)|None|Deletes a [outlookCategory](../resources/outlookcategory.md).|
 |[Update outlookCategory](../api/outlookcategory-update.md)|[outlookCategory](../resources/outlookcategory.md)|Update the properties of a [outlookCategory](../resources/outlookcategory.md) object.|
+|[List masterCategories](../api/outlookuser-list-mastercategories.md)|[outlookCategory](../resources/outlookcategory.md) collection|Get the outlookCategories from the masterCategories navigation property.|
+|[Add masterCategories](../api/outlookuser-post-mastercategories.md)|[outlookCategory](../resources/outlookcategory.md)|Add masterCategories by posting to the masterCategories collection.|
 
 ## Properties
 |Property|Type|Description|

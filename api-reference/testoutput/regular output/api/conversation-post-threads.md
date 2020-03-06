@@ -34,8 +34,8 @@ POST /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
@@ -87,7 +87,7 @@ Content-length: 627
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:10.6155614+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -116,7 +116,7 @@ Content-Length: 676
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "6acc11f7-11f7-6acc-f711-cc6af711cc6a",
+  "id": "a03f7a8a-7a8a-a03f-8a7a-3fa08a7a3fa0",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -129,7 +129,7 @@ Content-Length: 676
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:10.6155614+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

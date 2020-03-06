@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -77,10 +77,10 @@ Content-Length: 688
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-    "id": "ca80d811-d811-ca80-11d8-80ca11d880ca",
+    "id": "51d841bd-41bd-51d8-bd41-d851bd41d851",
     "displayName": "Display Name value",
     "configurationDeployedUserCount": 14,
-    "lastRefreshTime": "2016-12-31T23:59:27.6543828+03:00",
+    "lastRefreshTime": "2017-01-01T00:01:35.8399602+03:00",
     "configurationDeploymentSummaryPerApp": [
       {
         "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

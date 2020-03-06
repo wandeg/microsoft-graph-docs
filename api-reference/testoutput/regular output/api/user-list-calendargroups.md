@@ -32,10 +32,13 @@ GET /me/calendarGroups
 GET /users/{usersId}/calendarGroups
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,9 +76,9 @@ Content-Length: 272
   "value": [
     {
       "@odata.type": "#microsoft.graph.calendarGroup",
-      "id": "354dd807-d807-354d-07d8-4d3507d84d35",
+      "id": "12b27511-7511-12b2-1175-b2121175b212",
       "name": "Name value",
-      "classId": "6f6f6c72-6c72-6f6f-726c-6f6f726c6f6f",
+      "classId": "16f0cedf-cedf-16f0-dfce-f016dfcef016",
       "changeKey": "Change Key value"
     }
   ]

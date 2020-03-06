@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /privilegedAccess/{privilegedAccessId}/roleDefinitions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [governanceRoleDefinition](../resources/governanceroledefinition.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [governanceRoleDefinition](../resources/governanceroledefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 269
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleDefinition",
-  "id": "844a2f55-2f55-844a-552f-4a84552f4a84",
+  "id": "88a029d0-29d0-88a0-d029-a088d029a088",
   "resourceId": "Resource Id value",
   "externalId": "External Id value",
   "templateId": "Template Id value",

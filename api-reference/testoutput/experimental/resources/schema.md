@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List schemas](../api/schema-list.md)|[schema](../resources/schema.md) collection|List properties and relationships of the [schema](../resources/schema.md) objects.|
 |[Get schema](../api/schema-get.md)|[schema](../resources/schema.md)|Read properties and relationships of the [schema](../resources/schema.md) object.|
-|[Create schema](../api/schema-create.md)|[schema](../resources/schema.md)|Create a new [schema](../resources/schema.md) object.|
-|[Delete schema](../api/schema-delete.md)|None|Deletes a [schema](../resources/schema.md).|
 |[Update schema](../api/schema-update.md)|[schema](../resources/schema.md)|Update the properties of a [schema](../resources/schema.md) object.|
 
 ## Properties
@@ -36,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List outlookTasks](../api/outlooktask-list.md)|[outlookTask](../resources/outlooktask.md) collection|List properties and relationships of the [outlookTask](../resources/outlooktask.md) objects.|
 |[Get outlookTask](../api/outlooktask-get.md)|[outlookTask](../resources/outlooktask.md)|Read properties and relationships of the [outlookTask](../resources/outlooktask.md) object.|
-|[Create outlookTask](../api/outlooktask-create.md)|[outlookTask](../resources/outlooktask.md)|Create a new [outlookTask](../resources/outlooktask.md) object.|
-|[Delete outlookTask](../api/outlooktask-delete.md)|None|Deletes a [outlookTask](../resources/outlooktask.md).|
 |[Update outlookTask](../api/outlooktask-update.md)|[outlookTask](../resources/outlooktask.md)|Update the properties of a [outlookTask](../resources/outlooktask.md) object.|
 |[complete](../api/outlooktask-complete.md)|[outlookTask](../resources/outlooktask.md) collection||
 |[List singleValueExtendedProperties](../api/outlooktask-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
@@ -64,7 +61,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

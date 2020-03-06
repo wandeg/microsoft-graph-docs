@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTableColumns](../api/workbooktablecolumn-list.md)|[workbookTableColumn](../resources/workbooktablecolumn.md) collection|List properties and relationships of the [workbookTableColumn](../resources/workbooktablecolumn.md) objects.|
 |[Get workbookTableColumn](../api/workbooktablecolumn-get.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Read properties and relationships of the [workbookTableColumn](../resources/workbooktablecolumn.md) object.|
-|[Create workbookTableColumn](../api/workbooktablecolumn-create.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Create a new [workbookTableColumn](../resources/workbooktablecolumn.md) object.|
-|[Delete workbookTableColumn](../api/workbooktablecolumn-delete.md)|None|Deletes a [workbookTableColumn](../resources/workbooktablecolumn.md).|
 |[Update workbookTableColumn](../api/workbooktablecolumn-update.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Update the properties of a [workbookTableColumn](../resources/workbooktablecolumn.md) object.|
 |[dataBodyRange](../api/workbooktablecolumn-databodyrange.md)|[workbookRange](../resources/workbookrange.md)||
 |[headerRowRange](../api/workbooktablecolumn-headerrowrange.md)|[workbookRange](../resources/workbookrange.md)||
@@ -33,6 +30,8 @@ Inherits from [entity](../resources/entity.md)
 |[itemAt](../api/workbooktablecolumn-itemat.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)||
 |[count](../api/workbooktablecolumn-count.md)|Int32||
 |[Get workbookFilter](../api/workbookfilter-get.md)|[workbookFilter](../resources/workbookfilter.md)|Read properties and relationships of the [workbookFilter](../resources/workbookfilter.md) object.|
+|[List columns](../api/workbooktable-list-columns.md)|[workbookTableColumn](../resources/workbooktablecolumn.md) collection|Get the workbookTableColumns from the columns navigation property.|
+|[Add columns](../api/workbooktable-post-columns.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Add columns by posting to the columns collection.|
 
 ## Properties
 |Property|Type|Description|

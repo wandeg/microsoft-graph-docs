@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 637
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosUpdateDeviceStatus",
-    "id": "a7169530-9530-a716-3095-16a7309516a7",
+    "id": "11d43b65-3b65-11d4-653b-d411653bd411",
     "installStatus": "String",
     "osVersion": "Os Version value",
     "deviceId": "Device Id value",
@@ -82,9 +82,9 @@ Content-Length: 637
     "deviceDisplayName": "Device Display Name value",
     "userName": "User Name value",
     "deviceModel": "Device Model value",
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00",
     "status": "String",
-    "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+    "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

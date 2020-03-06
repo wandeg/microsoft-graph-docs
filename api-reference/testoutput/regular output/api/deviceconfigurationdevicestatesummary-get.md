@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 376
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStateSummary",
-    "id": "3050c2c8-c2c8-3050-c8c2-5030c8c25030",
+    "id": "9d44245f-245f-9d44-5f24-449d5f24449d",
     "unknownDeviceCount": 2,
     "notApplicableDeviceCount": 8,
     "compliantDeviceCount": 4,

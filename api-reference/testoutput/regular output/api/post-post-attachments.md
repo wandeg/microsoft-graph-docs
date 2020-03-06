@@ -34,8 +34,8 @@ POST /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [attachment](../resources/attachment.md) object.
@@ -90,12 +90,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 263
+Content-Length: 265
 
 {
   "@odata.type": "#microsoft.graph.attachment",
-  "id": "fc54439f-439f-fc54-9f43-54fc9f4354fc",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "id": "4404a593-a593-4404-93a5-044493a50444",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "name": "Name value",
   "contentType": "Content Type value",
   "size": 4,

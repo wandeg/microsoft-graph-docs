@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,14 +74,14 @@ Content-Length: 761
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyMigrationReport",
-    "id": "f08ed319-d319-f08e-19d3-8ef019d38ef0",
-    "groupPolicyObjectId": "1713d55d-d55d-1713-5dd5-13175dd51317",
+    "id": "4139db36-db36-4139-36db-394136db3941",
+    "groupPolicyObjectId": "78214cb1-4cb1-7821-b14c-2178b14c2178",
     "displayName": "Display Name value",
     "ouDistinguishedName": "Ou Distinguished Name value",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-    "groupPolicyCreatedDateTime": "2017-01-01T00:01:08.1552648+03:00",
-    "groupPolicyLastModifiedDateTime": "2017-01-01T00:03:02.9368554+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+    "groupPolicyCreatedDateTime": "2017-01-01T00:01:36.750057+03:00",
+    "groupPolicyLastModifiedDateTime": "2017-01-01T00:03:24.7936609+03:00",
     "migrationReadiness": "String",
     "targetedInActiveDirectory": true,
     "totalSettingsCount": 2,

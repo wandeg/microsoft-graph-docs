@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [onPremisesAgent](../resources/onpremisesagent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 295
 {
   "value": {
     "@odata.type": "#microsoft.graph.onPremisesAgent",
-    "id": "97e9ae49-ae49-97e9-49ae-e99749aee997",
+    "id": "3b1d2e84-2e84-3b1d-842e-1d3b842e1d3b",
     "machineName": "Machine Name value",
     "externalIp": "External Ip value",
     "status": "String",

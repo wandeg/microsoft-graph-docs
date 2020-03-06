@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/mobileAppTroubleshootingEvents/{mobileAppTroubleshootingEventId}/appLogCollectionRequests
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [appLogCollectionRequest](../resources/applogcollectionrequest.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,13 +75,13 @@ Content-Length: 368
   "value": [
     {
       "@odata.type": "#microsoft.graph.appLogCollectionRequest",
-      "id": "1de4ac7e-ac7e-1de4-7eac-e41d7eace41d",
+      "id": "e666a024-a024-e666-24a0-66e624a066e6",
       "status": "String",
       "errorMessage": "Error Message value",
       "customLogFolders": [
         "Custom Log Folders value"
       ],
-      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00"
+      "completedDateTime": "2017-01-01T00:01:24.5536383+03:00"
     }
   ]
 }

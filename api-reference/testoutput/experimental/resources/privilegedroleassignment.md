@@ -47,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |roleInfo|[privilegedRole](../resources/privilegedrole.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

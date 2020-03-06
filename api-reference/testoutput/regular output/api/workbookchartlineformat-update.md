@@ -36,7 +36,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.
@@ -87,7 +87,7 @@ Content-Length: 141
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLineFormat",
-  "id": "c2b88c2c-8c2c-c2b8-2c8c-b8c22c8cb8c2",
+  "id": "b19a55ae-55ae-b19a-ae55-9ab1ae559ab1",
   "color": "Color value"
 }
 ```

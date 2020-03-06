@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List unitOfMeasures](../api/unitofmeasure-list.md)|[unitOfMeasure](../resources/unitofmeasure.md) collection|List properties and relationships of the [unitOfMeasure](../resources/unitofmeasure.md) objects.|
 |[Get unitOfMeasure](../api/unitofmeasure-get.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Read properties and relationships of the [unitOfMeasure](../resources/unitofmeasure.md) object.|
-|[Create unitOfMeasure](../api/unitofmeasure-create.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Create a new [unitOfMeasure](../resources/unitofmeasure.md) object.|
-|[Delete unitOfMeasure](../api/unitofmeasure-delete.md)|None|Deletes a [unitOfMeasure](../resources/unitofmeasure.md).|
 |[Update unitOfMeasure](../api/unitofmeasure-update.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Update the properties of a [unitOfMeasure](../resources/unitofmeasure.md) object.|
+|[List unitsOfMeasure](../api/company-list-unitsofmeasure.md)|[unitOfMeasure](../resources/unitofmeasure.md) collection|Get the unitOfMeasures from the unitsOfMeasure navigation property.|
+|[Add unitsOfMeasure](../api/company-post-unitsofmeasure.md)|[unitOfMeasure](../resources/unitofmeasure.md)|Add unitsOfMeasure by posting to the unitsOfMeasure collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

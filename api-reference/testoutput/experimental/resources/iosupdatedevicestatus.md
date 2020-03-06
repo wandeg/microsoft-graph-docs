@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List iosUpdateDeviceStatuses](../api/iosupdatedevicestatus-list.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) collection|List properties and relationships of the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) objects.|
 |[Get iosUpdateDeviceStatus](../api/iosupdatedevicestatus-get.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Read properties and relationships of the [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
-|[Create iosUpdateDeviceStatus](../api/iosupdatedevicestatus-create.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Create a new [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
-|[Delete iosUpdateDeviceStatus](../api/iosupdatedevicestatus-delete.md)|None|Deletes a [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md).|
 |[Update iosUpdateDeviceStatus](../api/iosupdatedevicestatus-update.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Update the properties of a [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object.|
-|[List iosUpdateStatuses](../api/intune-devices-devicemanagement-list-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) collection|Get the iosUpdateDeviceStatuses from the iosUpdateStatuses navigation property.|
-|[Add iosUpdateStatuses](../api/intune-devices-devicemanagement-post-iosupdatestatuses.md)|[iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md)|Add iosUpdateStatuses by posting to the iosUpdateStatuses collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

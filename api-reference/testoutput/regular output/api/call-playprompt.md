@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/playPrompt
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -98,7 +98,7 @@ Content-Length: 284
 {
   "value": {
     "@odata.type": "#microsoft.graph.playPromptOperation",
-    "id": "907dd68e-d68e-907d-8ed6-7d908ed67d90",
+    "id": "72c1bb02-bb02-72c1-02bb-c17202bbc172",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

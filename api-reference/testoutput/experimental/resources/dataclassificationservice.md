@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List dataClassificationServices](../api/dataclassificationservice-list.md)|[dataClassificationService](../resources/dataclassificationservice.md) collection|List properties and relationships of the [dataClassificationService](../resources/dataclassificationservice.md) objects.|
 |[Get dataClassificationService](../api/dataclassificationservice-get.md)|[dataClassificationService](../resources/dataclassificationservice.md)|Read properties and relationships of the [dataClassificationService](../resources/dataclassificationservice.md) object.|
-|[Create dataClassificationService](../api/dataclassificationservice-create.md)|[dataClassificationService](../resources/dataclassificationservice.md)|Create a new [dataClassificationService](../resources/dataclassificationservice.md) object.|
-|[Delete dataClassificationService](../api/dataclassificationservice-delete.md)|None|Deletes a [dataClassificationService](../resources/dataclassificationservice.md).|
 |[Update dataClassificationService](../api/dataclassificationservice-update.md)|[dataClassificationService](../resources/dataclassificationservice.md)|Update the properties of a [dataClassificationService](../resources/dataclassificationservice.md) object.|
 |[List exactMatchDataStores](../api/dataclassificationservice-list-exactmatchdatastores.md)|[exactMatchDataStore](../resources/exactmatchdatastore.md) collection|Get the exactMatchDataStores from the exactMatchDataStores navigation property.|
 |[Add exactMatchDataStores](../api/dataclassificationservice-post-exactmatchdatastores.md)|[exactMatchDataStore](../resources/exactmatchdatastore.md)|Add exactMatchDataStores by posting to the exactMatchDataStores collection.|
@@ -71,7 +68,7 @@ Inherits from [entity](../resources/entity.md)
 |sensitiveTypes|[sensitiveType](../resources/sensitivetype.md) collection||
 |sensitivityLabels|[sensitivityLabel](../resources/sensitivitylabel.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

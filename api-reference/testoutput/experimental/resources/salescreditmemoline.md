@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesCreditMemoLines](../api/salescreditmemoline-list.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection|List properties and relationships of the [salesCreditMemoLine](../resources/salescreditmemoline.md) objects.|
 |[Get salesCreditMemoLine](../api/salescreditmemoline-get.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Read properties and relationships of the [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
-|[Create salesCreditMemoLine](../api/salescreditmemoline-create.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Create a new [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
-|[Delete salesCreditMemoLine](../api/salescreditmemoline-delete.md)|None|Deletes a [salesCreditMemoLine](../resources/salescreditmemoline.md).|
 |[Update salesCreditMemoLine](../api/salescreditmemoline-update.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Update the properties of a [salesCreditMemoLine](../resources/salescreditmemoline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List salesCreditMemoLines](../api/company-list-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md) collection|Get the salesCreditMemoLines from the salesCreditMemoLines navigation property.|
+|[Add salesCreditMemoLines](../api/company-post-salescreditmemolines.md)|[salesCreditMemoLine](../resources/salescreditmemoline.md)|Add salesCreditMemoLines by posting to the salesCreditMemoLines collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -61,7 +60,7 @@ Inherits from [entity](../resources/entity.md)
 |account|[account](../resources/account.md)||
 |item|[item](../resources/item.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

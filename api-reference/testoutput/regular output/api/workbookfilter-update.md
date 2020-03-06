@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookFilter](../resources/workbookfilter.md) object.
@@ -101,7 +101,7 @@ Content-Length: 609
 
 {
   "@odata.type": "#microsoft.graph.workbookFilter",
-  "id": "b113c2ce-c2ce-b113-cec2-13b1cec213b1",
+  "id": "01ea203e-203e-01ea-3e20-ea013e20ea01",
   "criteria": {
     "@odata.type": "microsoft.graph.workbookFilterCriteria",
     "color": "Color value",

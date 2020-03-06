@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemActivityOLDs](../api/itemactivityold-list.md)|[itemActivityOLD](../resources/itemactivityold.md) collection|List properties and relationships of the [itemActivityOLD](../resources/itemactivityold.md) objects.|
 |[Get itemActivityOLD](../api/itemactivityold-get.md)|[itemActivityOLD](../resources/itemactivityold.md)|Read properties and relationships of the [itemActivityOLD](../resources/itemactivityold.md) object.|
-|[Create itemActivityOLD](../api/itemactivityold-create.md)|[itemActivityOLD](../resources/itemactivityold.md)|Create a new [itemActivityOLD](../resources/itemactivityold.md) object.|
-|[Delete itemActivityOLD](../api/itemactivityold-delete.md)|None|Deletes a [itemActivityOLD](../resources/itemactivityold.md).|
 |[Update itemActivityOLD](../api/itemactivityold-update.md)|[itemActivityOLD](../resources/itemactivityold.md)|Update the properties of a [itemActivityOLD](../resources/itemactivityold.md) object.|
 |[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
 |[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
+|[List activities](../api/drive-list-activities.md)|[itemActivityOLD](../resources/itemactivityold.md) collection|Get the itemActivityOLDs from the activities navigation property.|
+|[Add activities](../api/drive-post-activities.md)|[itemActivityOLD](../resources/itemactivityold.md)|Add activities by posting to the activities collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |driveItem|[driveItem](../resources/driveitem.md)||
 |listItem|[listItem](../resources/listitem.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

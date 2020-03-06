@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/worksheets
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 241
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookWorksheet",
-      "id": "df2a93d4-93d4-df2a-d493-2adfd4932adf",
+      "id": "696c9471-9471-696c-7194-6c6971946c69",
       "name": "Name value",
       "position": 8,
       "visibility": "Visibility value"

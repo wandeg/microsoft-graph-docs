@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List thumbnailSets](../api/thumbnailset-list.md)|[thumbnailSet](../resources/thumbnailset.md) collection|List properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) objects.|
 |[Get thumbnailSet](../api/thumbnailset-get.md)|[thumbnailSet](../resources/thumbnailset.md)|Read properties and relationships of the [thumbnailSet](../resources/thumbnailset.md) object.|
-|[Create thumbnailSet](../api/thumbnailset-create.md)|[thumbnailSet](../resources/thumbnailset.md)|Create a new [thumbnailSet](../resources/thumbnailset.md) object.|
-|[Delete thumbnailSet](../api/thumbnailset-delete.md)|None|Deletes a [thumbnailSet](../resources/thumbnailset.md).|
 |[Update thumbnailSet](../api/thumbnailset-update.md)|[thumbnailSet](../resources/thumbnailset.md)|Update the properties of a [thumbnailSet](../resources/thumbnailset.md) object.|
+|[List thumbnails](../api/driveitem-list-thumbnails.md)|[thumbnailSet](../resources/thumbnailset.md) collection|Get the thumbnailSets from the thumbnails navigation property.|
+|[Add thumbnails](../api/driveitem-post-thumbnails.md)|[thumbnailSet](../resources/thumbnailset.md)|Add thumbnails by posting to the thumbnails collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

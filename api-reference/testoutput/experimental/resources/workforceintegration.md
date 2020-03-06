@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workforceIntegrations](../api/workforceintegration-list.md)|[workforceIntegration](../resources/workforceintegration.md) collection|List properties and relationships of the [workforceIntegration](../resources/workforceintegration.md) objects.|
 |[Get workforceIntegration](../api/workforceintegration-get.md)|[workforceIntegration](../resources/workforceintegration.md)|Read properties and relationships of the [workforceIntegration](../resources/workforceintegration.md) object.|
-|[Create workforceIntegration](../api/workforceintegration-create.md)|[workforceIntegration](../resources/workforceintegration.md)|Create a new [workforceIntegration](../resources/workforceintegration.md) object.|
-|[Delete workforceIntegration](../api/workforceintegration-delete.md)|None|Deletes a [workforceIntegration](../resources/workforceintegration.md).|
 |[Update workforceIntegration](../api/workforceintegration-update.md)|[workforceIntegration](../resources/workforceintegration.md)|Update the properties of a [workforceIntegration](../resources/workforceintegration.md) object.|
 
 ## Properties
@@ -43,7 +40,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

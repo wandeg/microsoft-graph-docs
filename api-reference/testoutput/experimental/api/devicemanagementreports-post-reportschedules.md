@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/reports/reportSchedules/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.
@@ -63,7 +63,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/reports/reportSchedules
 Content-type: application/json
-Content-length: 543
+Content-length: 542
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementReportSchedule",
@@ -85,8 +85,8 @@ Content-length: 543
     "Emails value"
   ],
   "recurrence": "String",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "userId": "User Id value",
   "reportName": "Report Name value",
   "filter": "Filter value",
@@ -111,19 +111,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 592
+Content-Length: 591
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementReportSchedule",
-  "id": "29fb27d0-27d0-29fb-d027-fb29d027fb29",
+  "id": "b0c44614-4614-b0c4-1446-c4b01446c4b0",
   "reportScheduleName": "Report Schedule Name value",
   "subject": "Subject value",
   "emails": [
     "Emails value"
   ],
   "recurrence": "String",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "userId": "User Id value",
   "reportName": "Report Name value",
   "filter": "Filter value",

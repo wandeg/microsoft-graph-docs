@@ -103,6 +103,14 @@ Inherits from [entity](../resources/entity.md)
 |[getYammerGroupsActivityDetail](../api/reportroot-getyammergroupsactivitydetail.md)|[report](../resources/report.md)||
 |[getYammerGroupsActivityGroupCounts](../api/reportroot-getyammergroupsactivitygroupcounts.md)|[report](../resources/report.md)||
 |[getYammerGroupsActivityCounts](../api/reportroot-getyammergroupsactivitycounts.md)|[report](../resources/report.md)||
+|[getTeamsUserActivityUserDetail](../api/reportroot-getteamsuseractivityuserdetail.md)|[report](../resources/report.md)||
+|[getTeamsUserActivityUserDetail](../api/reportroot-getteamsuseractivityuserdetail.md)|[report](../resources/report.md)||
+|[getTeamsUserActivityCounts](../api/reportroot-getteamsuseractivitycounts.md)|[report](../resources/report.md)||
+|[getTeamsUserActivityUserCounts](../api/reportroot-getteamsuseractivityusercounts.md)|[report](../resources/report.md)||
+|[getTeamsDeviceUsageUserDetail](../api/reportroot-getteamsdeviceusageuserdetail.md)|[report](../resources/report.md)||
+|[getTeamsDeviceUsageUserDetail](../api/reportroot-getteamsdeviceusageuserdetail.md)|[report](../resources/report.md)||
+|[getTeamsDeviceUsageUserCounts](../api/reportroot-getteamsdeviceusageusercounts.md)|[report](../resources/report.md)||
+|[getTeamsDeviceUsageDistributionUserCounts](../api/reportroot-getteamsdeviceusagedistributionusercounts.md)|[report](../resources/report.md)||
 
 ## Properties
 |Property|Type|Description|

@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,7 +76,7 @@ Content-Length: 419
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookChartAxis",
-    "id": "fde47d29-7d29-fde4-297d-e4fd297de4fd",
+    "id": "497597dd-97dd-4975-dd97-7549dd977549",
     "majorUnit": {
       "@odata.type": "microsoft.graph.Json"
     },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /financials/companies/{companyId}/companyInformation/{companyInformationId
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [companyInformation](../resources/companyinformation.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [companyInformation](../resources/companyinformation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -113,7 +113,7 @@ Content-Length: 808
 
 {
   "@odata.type": "#microsoft.graph.companyInformation",
-  "id": "d65a8cc1-8cc1-d65a-c18c-5ad6c18c5ad6",
+  "id": "466c1b3c-1b3c-466c-3c1b-6c463c1b6c46",
   "displayName": "Display Name value",
   "address": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -132,7 +132,7 @@ Content-Length: 808
   "currentFiscalYearStartDate": "Date",
   "industry": "Industry value",
   "picture": "Stream",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

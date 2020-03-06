@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /Security/securityActions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [securityAction](../resources/securityaction.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,26 +69,26 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1439
+Content-Length: 1440
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.securityAction",
-      "id": "88effc58-fc58-88ef-58fc-ef8858fcef88",
+      "id": "2901c425-c425-2901-25c4-012925c40129",
       "actionReason": "Action Reason value",
       "appId": "App Id value",
       "azureTenantId": "Azure Tenant Id value",
       "clientContext": "Client Context value",
-      "completedDateTime": "2017-01-01T00:01:22.3370207+03:00",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "completedDateTime": "2017-01-01T00:01:24.5536383+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "errorInfo": {
         "@odata.type": "microsoft.graph.ResultInfo",
         "code": 4,
         "subcode": 7,
         "message": "Message value"
       },
-      "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+      "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
       "name": "Name value",
       "parameters": [
         {
@@ -97,7 +100,7 @@ Content-Length: 1439
         {
           "@odata.type": "microsoft.graph.securityActionState",
           "status": "String",
-          "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00",
+          "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00",
           "user": "User value"
         }
       ],

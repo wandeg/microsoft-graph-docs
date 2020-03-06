@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /education/classes/{educationClassId}/schools/{educationSchoolId}/users/{educationUserId}/schools
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 1326
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSchool",
-      "id": "14d345f5-45f5-14d3-f545-d314f545d314",
+      "id": "0dd042b0-42b0-0dd0-b042-d00db042d00d",
       "displayName": "Display Name value",
       "description": "Description value",
       "externalSource": "String",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/assignedAcce
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 528
   "assignedAccessMultiModeProfiles": [
     {
       "@odata.type": "#microsoft.graph.windowsAssignedAccessProfile",
-      "id": "d03bfd97-fd97-d03b-97fd-3bd097fd3bd0",
+      "id": "4e73acca-acca-4e73-caac-734ecaac734e",
       "profileName": "Profile Name value",
       "showTaskBar": true,
       "appUserModelIds": [

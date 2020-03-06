@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/policySets/{policySetId}/assignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [policySetAssignment](../resources/policysetassignment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +75,8 @@ Content-Length: 329
   "value": [
     {
       "@odata.type": "#microsoft.graph.policySetAssignment",
-      "id": "9cb42035-2035-9cb4-3520-b49c3520b49c",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "id": "3606fe22-fe22-3606-22fe-063622fe0636",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

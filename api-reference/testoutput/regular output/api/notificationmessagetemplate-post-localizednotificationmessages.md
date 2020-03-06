@@ -34,8 +34,8 @@ POST /deviceManagement/notificationMessageTemplates/{notificationMessageTemplate
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [localizedNotificationMessage](../resources/localizednotificationmessage.md) object.
@@ -90,12 +90,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 311
+Content-Length: 313
 
 {
   "@odata.type": "#microsoft.graph.localizedNotificationMessage",
-  "id": "0b136c6b-6c6b-0b13-6b6c-130b6b6c130b",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "id": "07e04cdd-4cdd-07e0-dd4c-e007dd4ce007",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "locale": "Locale value",
   "subject": "Subject value",
   "messageTemplate": "Message Template value",

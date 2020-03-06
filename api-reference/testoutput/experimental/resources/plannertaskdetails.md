@@ -20,10 +20,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerTaskDetailses](../api/plannertaskdetails-list.md)|[plannerTaskDetails](../resources/plannertaskdetails.md) collection|List properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) objects.|
 |[Get plannerTaskDetails](../api/plannertaskdetails-get.md)|[plannerTaskDetails](../resources/plannertaskdetails.md)|Read properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
-|[Create plannerTaskDetails](../api/plannertaskdetails-create.md)|[plannerTaskDetails](../resources/plannertaskdetails.md)|Create a new [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
-|[Delete plannerTaskDetails](../api/plannertaskdetails-delete.md)|None|Deletes a [plannerTaskDetails](../resources/plannertaskdetails.md).|
 |[Update plannerTaskDetails](../api/plannertaskdetails-update.md)|[plannerTaskDetails](../resources/plannertaskdetails.md)|Update the properties of a [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
 
 ## Properties
@@ -38,7 +35,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

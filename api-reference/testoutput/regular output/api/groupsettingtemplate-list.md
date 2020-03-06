@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /groupSettingTemplates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 534
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupSettingTemplate",
-      "id": "e7de2e03-2e03-e7de-032e-dee7032edee7",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "4ce9cd6a-cd6a-4ce9-6acd-e94c6acde94c",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "displayName": "Display Name value",
       "description": "Description value",
       "values": [

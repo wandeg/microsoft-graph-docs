@@ -34,8 +34,8 @@ POST /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/pages/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenotePage](../resources/onenotepage.md) object.
@@ -112,13 +112,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 745
+Content-Length: 747
 
 {
   "@odata.type": "#microsoft.graph.onenotePage",
-  "id": "70c2781a-781a-70c2-1a78-c2701a78c270",
+  "id": "987074ed-74ed-9870-ed74-7098ed747098",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "title": "Title value",
   "createdByAppId": "Created By App Id value",
   "links": {
@@ -133,7 +133,7 @@ Content-Length: 745
   },
   "contentUrl": "https://example.com/contentUrl/",
   "content": "Stream",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "level": 5,
   "order": 5,
   "userTags": [

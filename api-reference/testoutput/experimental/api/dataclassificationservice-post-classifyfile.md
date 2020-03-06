@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /dataClassification/classifyFile/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [fileClassificationRequest](../resources/fileclassificationrequest.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [fileClassificationRequest](../resources/fileclassificationrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 200
 
 {
   "@odata.type": "#microsoft.graph.fileClassificationRequest",
-  "id": "25fefee6-fee6-25fe-e6fe-fe25e6fefe25",
+  "id": "456093db-93db-4560-db93-6045db936045",
   "file": "Stream",
   "sensitiveTypeIds": [
     "Sensitive Type Ids value"

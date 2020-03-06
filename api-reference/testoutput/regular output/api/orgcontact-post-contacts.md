@@ -34,8 +34,8 @@ POST /contacts
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [orgContact](../resources/orgcontact.md) object.
@@ -82,7 +82,7 @@ Content-length: 1425
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -102,14 +102,14 @@ Content-length: 1425
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
+      "occurredDateTime": "2016-12-31T23:56:48.3524319+03:00"
     }
   ],
   "phones": [
@@ -143,8 +143,8 @@ Content-Length: 1474
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "id": "5077ab57-ab57-5077-57ab-775057ab7750",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "c26df8c2-f8c2-c26d-c2f8-6dc2c2f86dc2",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -164,14 +164,14 @@ Content-Length: 1474
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
+      "occurredDateTime": "2016-12-31T23:56:48.3524319+03:00"
     }
   ],
   "phones": [

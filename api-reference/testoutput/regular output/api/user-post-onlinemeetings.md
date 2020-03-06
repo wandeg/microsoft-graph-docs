@@ -35,8 +35,8 @@ POST /users/{usersId}/onlineMeetings/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onlineMeeting](../resources/onlinemeeting.md) object.
@@ -77,9 +77,9 @@ Content-length: 1579
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2016-12-31T23:58:38.0185656+03:00",
-  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+  "creationDateTime": "2017-01-01T00:02:57.7240525+03:00",
+  "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+  "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {
@@ -140,10 +140,10 @@ Content-Length: 1628
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "77685f3d-5f3d-7768-3d5f-68773d5f6877",
-  "creationDateTime": "2016-12-31T23:58:38.0185656+03:00",
-  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+  "id": "16d06700-6700-16d0-0067-d0160067d016",
+  "creationDateTime": "2017-01-01T00:02:57.7240525+03:00",
+  "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+  "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
   "participants": {

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [listItemVersion](../resources/listitemversion.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 754
 {
   "value": {
     "@odata.type": "#microsoft.graph.listItemVersion",
-    "id": "f96239a8-39a8-f962-a839-62f9a83962f9",
+    "id": "3ab5e18f-e18f-3ab5-8fe1-b53a8fe1b53a",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -89,7 +89,7 @@ Content-Length: 754
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "publication": {
       "@odata.type": "microsoft.graph.publicationFacet",
       "level": "Level value",

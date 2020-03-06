@@ -34,8 +34,8 @@ POST /deviceManagement/windowsInformationProtectionAppLearningSummaries/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionAppLearningSummary](../resources/windowsinformationprotectionapplearningsummary.md) object.
@@ -91,7 +91,7 @@ Content-Length: 239
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLearningSummary",
-  "id": "5621caef-caef-5621-efca-2156efca2156",
+  "id": "b5551e0d-1e0d-b555-0d1e-55b50d1e55b5",
   "applicationName": "Application Name value",
   "applicationType": "String",
   "deviceCount": 11

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /communications/callRecords/{callRecordId}/sessions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [session](../resources/session.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 881
+Content-Length: 880
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.session",
-      "id": "26004e0a-4e0a-2600-0a4e-00260a4e0026",
+      "id": "34101743-1743-3410-4317-103443171034",
       "modalities": [
         "String"
       ],
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "endDateTime": "2017-01-01T00:02:18.392989+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {

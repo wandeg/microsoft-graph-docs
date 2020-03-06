@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /privilegedApproval/myRequests
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [privilegedApproval](../resources/privilegedapproval.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,22 +66,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 565
+Content-Length: 562
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.privilegedApproval",
-      "id": "1f8359bc-59bc-1f83-bc59-831fbc59831f",
+      "id": "c21475c4-75c4-c214-c475-14c2c47514c2",
       "userId": "User Id value",
       "roleId": "Role Id value",
       "approvalType": "Approval Type value",
       "approvalState": "String",
-      "approvalDuration": "-PT43.0884826S",
+      "approvalDuration": "PT0.6969147S",
       "requestorReason": "Requestor Reason value",
       "approverReason": "Approver Reason value",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "endDateTime": "2016-12-31T23:58:29.0720449+03:00"
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "endDateTime": "2017-01-01T00:02:18.392989+03:00"
     }
   ]
 }

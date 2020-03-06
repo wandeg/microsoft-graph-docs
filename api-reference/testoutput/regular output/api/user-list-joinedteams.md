@@ -32,10 +32,13 @@ GET /me/joinedTeams
 GET /users/{usersId}/joinedTeams
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,19 +76,19 @@ Content-Length: 2274
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "12dc0fee-0fee-12dc-ee0f-dc12ee0fdc12",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "2c35f5de-f5de-2c35-def5-352cdef5352c",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "assignedLicenses": [
         {
           "@odata.type": "microsoft.graph.assignedLicense",
           "disabledPlans": [
-            "964343ea-43ea-9643-ea43-4396ea434396"
+            "88ebbaad-baad-88eb-adba-eb88adbaeb88"
           ],
-          "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
+          "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f"
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "hasMembersWithLicenseErrors": true,
@@ -100,7 +103,7 @@ Content-Length: 2274
       "mailEnabled": true,
       "mailNickname": "Mail Nickname value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -108,7 +111,7 @@ Content-Length: 2274
           "value": "Value value",
           "category": "Category value",
           "propertyCausingError": "Property Causing Error value",
-          "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
+          "occurredDateTime": "2016-12-31T23:56:48.3524319+03:00"
         }
       ],
       "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -118,7 +121,7 @@ Content-Length: 2274
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2016-12-31T23:57:32.3555352+03:00",
+      "renewedDateTime": "2017-01-01T00:01:51.8540078+03:00",
       "securityEnabled": true,
       "securityIdentifier": "Security Identifier value",
       "visibility": "Visibility value",

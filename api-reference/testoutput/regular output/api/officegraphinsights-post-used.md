@@ -34,8 +34,8 @@ POST /me/insights/used/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [usedInsight](../resources/usedinsight.md) object.
@@ -66,14 +66,14 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/insights/used
 Content-type: application/json
-Content-length: 881
+Content-length: 883
 
 {
   "@odata.type": "#microsoft.graph.usedInsight",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:02:36.6852441+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",
@@ -105,15 +105,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 930
+Content-Length: 932
 
 {
   "@odata.type": "#microsoft.graph.usedInsight",
-  "id": "a8c36bec-6bec-a8c3-ec6b-c3a8ec6bc3a8",
+  "id": "22073143-3143-2207-4331-072243310722",
   "lastUsed": {
     "@odata.type": "microsoft.graph.usageDetails",
-    "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:02:36.6852441+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
   },
   "resourceVisualization": {
     "@odata.type": "microsoft.graph.resourceVisualization",

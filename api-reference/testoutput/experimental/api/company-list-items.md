@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/items
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [item](../resources/item.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,22 +75,22 @@ Content-Length: 774
   "value": [
     {
       "@odata.type": "#microsoft.graph.item",
-      "id": "18a35fd7-5fd7-18a3-d75f-a318d75fa318",
+      "id": "5e2b48a8-48a8-5e2b-a848-2b5ea8482b5e",
       "number": "Number value",
       "displayName": "Display Name value",
       "type": "Type value",
-      "itemCategoryId": "f6c1027d-027d-f6c1-7d02-c1f67d02c1f6",
+      "itemCategoryId": "35a8b44c-b44c-35a8-4cb4-a8354cb4a835",
       "itemCategoryCode": "Item Category Code value",
       "blocked": true,
-      "baseUnitOfMeasureId": "33eceb10-eb10-33ec-10eb-ec3310ebec33",
+      "baseUnitOfMeasureId": "ec01bd51-bd51-ec01-51bd-01ec51bd01ec",
       "gtin": "Gtin value",
       "inventory": "4.2",
       "unitPrice": "4.2",
       "priceIncludesTax": true,
       "unitCost": "4.2",
-      "taxGroupId": "d4a99fdf-9fdf-d4a9-df9f-a9d4df9fa9d4",
+      "taxGroupId": "46cf8feb-8feb-46cf-eb8f-cf46eb8fcf46",
       "taxGroupCode": "Tax Group Code value",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

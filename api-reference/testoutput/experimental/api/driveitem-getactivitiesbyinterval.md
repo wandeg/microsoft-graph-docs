@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/an
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -64,7 +64,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [itemActivityStat](../resources/itemactivitystat.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,15 +88,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 815
+Content-Length: 814
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivityStat",
-      "id": "9661ef0f-ef0f-9661-0fef-61960fef6196",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+      "id": "e71d1d91-1d91-e71d-911d-1de7911d1de7",
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "endDateTime": "2017-01-01T00:02:18.392989+03:00",
       "access": {
         "@odata.type": "microsoft.graph.itemActionStat"
       },

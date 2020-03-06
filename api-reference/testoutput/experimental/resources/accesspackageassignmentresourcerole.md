@@ -50,7 +50,7 @@ Inherits from [entity](../resources/entity.md)
 |accessPackageResourceScope|[accessPackageResourceScope](../resources/accesspackageresourcescope.md)||
 |accessPackageSubject|[accessPackageSubject](../resources/accesspackagesubject.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

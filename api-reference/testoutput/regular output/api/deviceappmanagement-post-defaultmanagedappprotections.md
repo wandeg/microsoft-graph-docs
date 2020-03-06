@@ -34,8 +34,8 @@ POST /deviceAppManagement/defaultManagedAppProtections/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [defaultManagedAppProtection](../resources/defaultmanagedappprotection.md) object.
@@ -104,15 +104,15 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceAppManagement/defaultManagedAppProtections
 Content-type: application/json
-Content-length: 1916
+Content-length: 1915
 
 {
   "@odata.type": "#microsoft.graph.defaultManagedAppProtection",
   "displayName": "Display Name value",
   "description": "Description value",
   "version": "Version value",
-  "periodOfflineBeforeAccessCheck": "PT47.716914S",
-  "periodOnlineBeforeAccessCheck": "-PT2M21.0044319S",
+  "periodOfflineBeforeAccessCheck": "-PT3M25.566685S",
+  "periodOnlineBeforeAccessCheck": "-PT26.9502015S",
   "allowedInboundDataTransferSources": "String",
   "allowedOutboundDataTransferDestinations": "String",
   "organizationalCredentialsRequired": true,
@@ -121,13 +121,13 @@ Content-length: 1916
   "deviceComplianceRequired": true,
   "managedBrowserToOpenLinksRequired": true,
   "saveAsBlocked": true,
-  "periodOfflineBeforeWipeIsEnforced": "-PT3M26.4218591S",
+  "periodOfflineBeforeWipeIsEnforced": "PT2M8.2339541S",
   "pinRequired": true,
   "maximumPinRetries": 1,
   "simplePinBlocked": true,
   "minimumPinLength": 0,
   "pinCharacterSet": "String",
-  "periodBeforePinReset": "-PT2M56.6212998S",
+  "periodBeforePinReset": "-PT3M22.0606614S",
   "allowedDataStorageLocations": [
     "String"
   ],
@@ -169,18 +169,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2086
+Content-Length: 2087
 
 {
   "@odata.type": "#microsoft.graph.defaultManagedAppProtection",
-  "id": "ded31b70-1b70-ded3-701b-d3de701bd3de",
+  "id": "d9d28935-8935-d9d2-3589-d2d93589d2d9",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "version": "Version value",
-  "periodOfflineBeforeAccessCheck": "PT47.716914S",
-  "periodOnlineBeforeAccessCheck": "-PT2M21.0044319S",
+  "periodOfflineBeforeAccessCheck": "-PT3M25.566685S",
+  "periodOnlineBeforeAccessCheck": "-PT26.9502015S",
   "allowedInboundDataTransferSources": "String",
   "allowedOutboundDataTransferDestinations": "String",
   "organizationalCredentialsRequired": true,
@@ -189,13 +189,13 @@ Content-Length: 2086
   "deviceComplianceRequired": true,
   "managedBrowserToOpenLinksRequired": true,
   "saveAsBlocked": true,
-  "periodOfflineBeforeWipeIsEnforced": "-PT3M26.4218591S",
+  "periodOfflineBeforeWipeIsEnforced": "PT2M8.2339541S",
   "pinRequired": true,
   "maximumPinRetries": 1,
   "simplePinBlocked": true,
   "minimumPinLength": 0,
   "pinCharacterSet": "String",
-  "periodBeforePinReset": "-PT2M56.6212998S",
+  "periodBeforePinReset": "-PT3M22.0606614S",
   "allowedDataStorageLocations": [
     "String"
   ],

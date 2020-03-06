@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/notificationMessageTemplates/{notificationMessageTemplat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,8 +94,8 @@ Content-Length: 360
 
 {
   "@odata.type": "#microsoft.graph.notificationMessageTemplate",
-  "id": "ad16cea9-cea9-ad16-a9ce-16ada9ce16ad",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "10d03fe5-3fe5-10d0-e53f-d010e53fd010",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "displayName": "Display Name value",
   "defaultLocale": "Default Locale value",
   "brandingOptions": "String",

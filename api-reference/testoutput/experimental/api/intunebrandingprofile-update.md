@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/intuneBrandingProfiles/{intuneBrandingProfileId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [intuneBrandingProfile](../resources/intunebrandingprofile.md) object.
@@ -53,9 +53,9 @@ The following table shows the properties that are required when you create the [
 |themeColor|[rgbColor](../resources/rgbcolor.md)|Primary theme color used in the Company Portal applications and web portal|
 |showLogo|Boolean|Boolean that represents whether the administrator-supplied logo images are shown or not|
 |showDisplayNameNextToLogo|Boolean|Boolean that represents whether the administrator-supplied display name will be shown next to the logo image or not|
-|themeColorLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a theme color background behind the logo|
-|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo|
-|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Customized image displayed in Company Portal apps landing page|
+|themeColorLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a theme color background behind the logo|
+|lightBackgroundLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo|
+|landingPageCustomizedImage|[mimeContent](../resources/mimecontent.md)|Customized image displayed in Company Portal apps landing page|
 |contactITName|String|Name of the person/organization responsible for IT support|
 |contactITPhoneNumber|String|Phone number of the person/organization responsible for IT support|
 |contactITEmailAddress|String|E-mail address of the person/organization responsible for IT support|
@@ -75,7 +75,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [intuneBrandingProfile](../resources/intunebrandingprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -147,16 +147,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1676
+Content-Length: 1677
 
 {
   "@odata.type": "#microsoft.graph.intuneBrandingProfile",
-  "id": "c872cd53-cd53-c872-53cd-72c853cd72c8",
+  "id": "bb0219c2-19c2-bb02-c219-02bbc21902bb",
   "profileName": "Profile Name value",
   "profileDescription": "Profile Description value",
   "isDefaultProfile": true,
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "displayName": "Display Name value",
   "themeColor": {
     "@odata.type": "microsoft.graph.rgbColor",

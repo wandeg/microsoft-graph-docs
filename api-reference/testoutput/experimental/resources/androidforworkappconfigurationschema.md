@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidForWorkAppConfigurationSchemas](../api/androidforworkappconfigurationschema-list.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) collection|List properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) objects.|
 |[Get androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-get.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Read properties and relationships of the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
-|[Create androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-create.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Create a new [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
-|[Delete androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-delete.md)|None|Deletes a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md).|
 |[Update androidForWorkAppConfigurationSchema](../api/androidforworkappconfigurationschema-update.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Update the properties of a [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.|
-|[List androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-list-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) collection|Get the androidForWorkAppConfigurationSchemas from the androidForWorkAppConfigurationSchemas navigation property.|
-|[Add androidForWorkAppConfigurationSchemas](../api/intune-devices-devicemanagement-post-androidforworkappconfigurationschemas.md)|[androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md)|Add androidForWorkAppConfigurationSchemas by posting to the androidForWorkAppConfigurationSchemas collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

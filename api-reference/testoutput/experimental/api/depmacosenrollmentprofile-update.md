@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.
@@ -81,7 +81,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -108,7 +108,7 @@ Content-Length: 1309
 
 {
   "@odata.type": "#microsoft.graph.depMacOSEnrollmentProfile",
-  "id": "5fb77ee5-7ee5-5fb7-e57e-b75fe57eb75f",
+  "id": "a24ca8cc-a8cc-a24c-cca8-4ca2cca84ca2",
   "displayName": "Display Name value",
   "description": "Description value",
   "requiresUserAuthentication": true,

@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List activityHistoryItems](../api/activityhistoryitem-list.md)|[activityHistoryItem](../resources/activityhistoryitem.md) collection|List properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) objects.|
 |[Get activityHistoryItem](../api/activityhistoryitem-get.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Read properties and relationships of the [activityHistoryItem](../resources/activityhistoryitem.md) object.|
-|[Create activityHistoryItem](../api/activityhistoryitem-create.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Create a new [activityHistoryItem](../resources/activityhistoryitem.md) object.|
-|[Delete activityHistoryItem](../api/activityhistoryitem-delete.md)|None|Deletes a [activityHistoryItem](../resources/activityhistoryitem.md).|
 |[Update activityHistoryItem](../api/activityhistoryitem-update.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Update the properties of a [activityHistoryItem](../resources/activityhistoryitem.md) object.|
 |[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/useractivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
+|[List historyItems](../api/useractivity-list-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md) collection|Get the activityHistoryItems from the historyItems navigation property.|
+|[Add historyItems](../api/useractivity-post-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Add historyItems by posting to the historyItems collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |activity|[userActivity](../resources/useractivity.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

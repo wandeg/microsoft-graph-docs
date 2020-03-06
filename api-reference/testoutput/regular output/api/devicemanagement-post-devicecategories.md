@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCategories/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCategory](../resources/devicecategory.md) object.
@@ -89,7 +89,7 @@ Content-Length: 184
 
 {
   "@odata.type": "#microsoft.graph.deviceCategory",
-  "id": "e57a3049-3049-e57a-4930-7ae549307ae5",
+  "id": "78b6b081-b081-78b6-81b0-b67881b0b678",
   "displayName": "Display Name value",
   "description": "Description value"
 }

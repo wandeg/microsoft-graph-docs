@@ -40,7 +40,7 @@ PATCH /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
@@ -93,7 +93,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "ff81e7e1-e7e1-ff81-e1e7-81ffe1e781ff",
+  "id": "fee9438c-438c-fee9-8c43-e9fe8c43e9fe",
   "value": [
     "Value value"
   ]

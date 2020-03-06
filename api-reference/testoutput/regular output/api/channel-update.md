@@ -35,7 +35,7 @@ PATCH /me/joinedTeams/{groupId}/team/channels/{channelId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [channel](../resources/channel.md) object.
@@ -92,7 +92,7 @@ Content-Length: 248
 
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "aaf69d7f-9d7f-aaf6-7f9d-f6aa7f9df6aa",
+  "id": "b23c8f3b-8f3b-b23c-3b8f-3cb23b8f3cb2",
   "displayName": "Display Name value",
   "description": "Description value",
   "email": "Email value",

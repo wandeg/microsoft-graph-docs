@@ -34,7 +34,7 @@ PATCH /directory
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directory](../resources/directory.md) object.
@@ -83,7 +83,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.directory",
-  "id": "5d568a18-8a18-5d56-188a-565d188a565d"
+  "id": "6da0af02-af02-6da0-02af-a06d02afa06d"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /bookingBusinesses/{bookingBusinessesId}/staffMembers/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [bookingStaffMember](../resources/bookingstaffmember.md) object.
@@ -59,7 +59,7 @@ The display name is suitable for human-readable interfaces. Inherited from [book
 ## Response
 If successful, this method returns a `201 Created` response code and a [bookingStaffMember](../resources/bookingstaffmember.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,8 +88,8 @@ Content-length: 584
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "12:02:01.9800000",
-          "end": "12:02:50.7750000"
+          "start": "12:00:41.0700000",
+          "end": "12:01:04.4660000"
         }
       ]
     }
@@ -112,7 +112,7 @@ Content-Length: 633
 
 {
   "@odata.type": "#microsoft.graph.bookingStaffMember",
-  "id": "ff3e1fa8-1fa8-ff3e-a81f-3effa81f3eff",
+  "id": "4069136f-136f-4069-6f13-69406f136940",
   "displayName": "Display Name value",
   "emailAddress": "Email Address value",
   "availabilityIsAffectedByPersonalCalendar": true,
@@ -126,8 +126,8 @@ Content-Length: 633
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "12:02:01.9800000",
-          "end": "12:02:50.7750000"
+          "start": "12:00:41.0700000",
+          "end": "12:01:04.4660000"
         }
       ]
     }

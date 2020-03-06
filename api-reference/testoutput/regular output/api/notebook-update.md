@@ -37,7 +37,7 @@ PATCH /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/pages/{onen
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [notebook](../resources/notebook.md) object.
@@ -124,13 +124,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1148
+Content-Length: 1150
 
 {
   "@odata.type": "#microsoft.graph.notebook",
-  "id": "96971c6a-1c6a-9697-6a1c-97966a1c9796",
+  "id": "b9e9516f-516f-b9e9-6f51-e9b96f51e9b9",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -148,7 +148,7 @@ Content-Length: 1148
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "isDefault": true,
   "userRole": "String",
   "isShared": true,

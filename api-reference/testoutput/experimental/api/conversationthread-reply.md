@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,8 +36,8 @@ POST /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,14 +66,14 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}/reply
 
 Content-type: application/json
-Content-length: 956
+Content-length: 957
 
 {
   "Post": {
     "@odata.type": "#microsoft.graph.post",
-    "id": "a60d9d57-9d57-a60d-579d-0da6579d0da6",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "id": "f2546f32-6f32-f254-326f-54f2326f54f2",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
@@ -83,7 +83,7 @@ Content-length: 956
       "contentType": "String",
       "content": "Content value"
     },
-    "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
+    "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
     "hasAttachments": true,
     "from": {
       "@odata.type": "microsoft.graph.recipient"

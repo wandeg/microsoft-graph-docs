@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /policies/homeRealmDiscoveryPolicies/{homeRealmDiscoveryPolicyId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [homeRealmDiscoveryPolicy](../resources/homerealmdiscoverypolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 277
 
 {
   "@odata.type": "#microsoft.graph.homeRealmDiscoveryPolicy",
-  "id": "836063e2-63e2-8360-e263-6083e2636083",
+  "id": "9f5cbb6b-bb6b-9f5c-6bbb-5c9f6bbb5c9f",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

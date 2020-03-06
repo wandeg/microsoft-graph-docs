@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesQuotes](../api/salesquote-list.md)|[salesQuote](../resources/salesquote.md) collection|List properties and relationships of the [salesQuote](../resources/salesquote.md) objects.|
 |[Get salesQuote](../api/salesquote-get.md)|[salesQuote](../resources/salesquote.md)|Read properties and relationships of the [salesQuote](../resources/salesquote.md) object.|
-|[Create salesQuote](../api/salesquote-create.md)|[salesQuote](../resources/salesquote.md)|Create a new [salesQuote](../resources/salesquote.md) object.|
-|[Delete salesQuote](../api/salesquote-delete.md)|None|Deletes a [salesQuote](../resources/salesquote.md).|
 |[Update salesQuote](../api/salesquote-update.md)|[salesQuote](../resources/salesquote.md)|Update the properties of a [salesQuote](../resources/salesquote.md) object.|
 |[makeInvoice](../api/salesquote-makeinvoice.md)|None||
 |[send](../api/salesquote-send.md)|None||
@@ -33,6 +30,8 @@ Inherits from [entity](../resources/entity.md)
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
 |[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[List salesQuotes](../api/company-list-salesquotes.md)|[salesQuote](../resources/salesquote.md) collection|Get the salesQuotes from the salesQuotes navigation property.|
+|[Add salesQuotes](../api/company-post-salesquotes.md)|[salesQuote](../resources/salesquote.md)|Add salesQuotes by posting to the salesQuotes collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -79,7 +78,7 @@ Inherits from [entity](../resources/entity.md)
 |salesQuoteLines|[salesQuoteLine](../resources/salesquoteline.md) collection||
 |shipmentMethod|[shipmentMethod](../resources/shipmentmethod.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

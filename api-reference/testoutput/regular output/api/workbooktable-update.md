@@ -35,7 +35,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookTable](../resources/workbooktable.md) object.
@@ -104,7 +104,7 @@ Content-Length: 388
 
 {
   "@odata.type": "#microsoft.graph.workbookTable",
-  "id": "5a44f869-f869-5a44-69f8-445a69f8445a",
+  "id": "a882481f-481f-a882-1f48-82a81f4882a8",
   "highlightFirstColumn": true,
   "highlightLastColumn": true,
   "legacyId": "Legacy Id value",

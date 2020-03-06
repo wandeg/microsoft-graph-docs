@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/mdmWindowsInformationProtectionPolicies
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3493
+Content-Length: 3496
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.mdmWindowsInformationProtectionPolicy",
-      "id": "49e9f057-f057-49e9-57f0-e94957f0e949",
+      "id": "23670f47-0f47-2367-470f-6723470f6723",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "version": "Version value",
       "enforcementLevel": "String",
       "enterpriseDomain": "Enterprise Domain value",
@@ -92,11 +95,11 @@ Content-Length: 3493
       "dataRecoveryCertificate": {
         "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
         "subjectName": "Subject Name value",
-        "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+        "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
         "certificate": "Y2VydGlmaWNhdGU="
       },
       "revokeOnUnenrollDisabled": true,
-      "rightsManagementServicesTemplateId": "8b9cd973-d973-8b9c-73d9-9c8b73d99c8b",
+      "rightsManagementServicesTemplateId": "ce9ea573-a573-ce9e-73a5-9ece73a59ece",
       "azureRightsManagementServicesAllowed": true,
       "iconsVisible": true,
       "protectedApps": [

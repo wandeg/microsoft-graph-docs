@@ -20,10 +20,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerProgressTaskBoardTaskFormats](../api/plannerprogresstaskboardtaskformat-list.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) collection|List properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) objects.|
 |[Get plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-get.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Read properties and relationships of the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
-|[Create plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-create.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Create a new [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
-|[Delete plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-delete.md)|None|Deletes a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md).|
 |[Update plannerProgressTaskBoardTaskFormat](../api/plannerprogresstaskboardtaskformat-update.md)|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)|Update the properties of a [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.|
 
 ## Properties
@@ -35,7 +32,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -32,10 +32,13 @@ GET /groups/{groupsId}/threads
 GET /me/joinedTeams/{groupId}/threads
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +76,7 @@ Content-Length: 809
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversationThread",
-      "id": "6acc11f7-11f7-6acc-f711-cc6af711cc6a",
+      "id": "a03f7a8a-7a8a-a03f-8a7a-3fa08a7a3fa0",
       "toRecipients": [
         {
           "@odata.type": "microsoft.graph.recipient",
@@ -86,7 +89,7 @@ Content-Length: 809
       ],
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
+      "lastDeliveredDateTime": "2017-01-01T00:02:10.6155614+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

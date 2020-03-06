@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /financials/companies/{companyId}/purchaseInvoices/{purchaseInvoiceId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [purchaseInvoice](../resources/purchaseinvoice.md) object.
@@ -76,7 +76,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [purchaseInvoice](../resources/purchaseinvoice.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,12 +96,12 @@ Content-length: 1362
   "invoiceDate": "Date",
   "dueDate": "Date",
   "vendorInvoiceNumber": "Vendor Invoice Number value",
-  "vendorId": "23c34f9a-4f9a-23c3-9a4f-c3239a4fc323",
+  "vendorId": "518a2703-2703-518a-0327-8a5103278a51",
   "vendorNumber": "Vendor Number value",
   "vendorName": "Vendor Name value",
   "payToName": "Pay To Name value",
   "payToContact": "Pay To Contact value",
-  "payToVendorId": "efa80502-0502-efa8-0205-a8ef0205a8ef",
+  "payToVendorId": "fa69a03d-a03d-fa69-3da0-69fa3da069fa",
   "payToVendorNumber": "Pay To Vendor Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -119,7 +119,7 @@ Content-length: 1362
   "shipToAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -145,17 +145,17 @@ Content-Length: 1475
 
 {
   "@odata.type": "#microsoft.graph.purchaseInvoice",
-  "id": "ef36db6e-db6e-ef36-6edb-36ef6edb36ef",
+  "id": "cb0c180a-180a-cb0c-0a18-0ccb0a180ccb",
   "number": "Number value",
   "invoiceDate": "Date",
   "dueDate": "Date",
   "vendorInvoiceNumber": "Vendor Invoice Number value",
-  "vendorId": "23c34f9a-4f9a-23c3-9a4f-c3239a4fc323",
+  "vendorId": "518a2703-2703-518a-0327-8a5103278a51",
   "vendorNumber": "Vendor Number value",
   "vendorName": "Vendor Name value",
   "payToName": "Pay To Name value",
   "payToContact": "Pay To Contact value",
-  "payToVendorId": "efa80502-0502-efa8-0205-a8ef0205a8ef",
+  "payToVendorId": "fa69a03d-a03d-fa69-3da0-69fa3da069fa",
   "payToVendorNumber": "Pay To Vendor Number value",
   "shipToName": "Ship To Name value",
   "shipToContact": "Ship To Contact value",
@@ -173,7 +173,7 @@ Content-Length: 1475
   "shipToAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -182,7 +182,7 @@ Content-Length: 1475
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

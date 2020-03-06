@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List informationProtections](../api/informationprotection-list.md)|[informationProtection](../resources/informationprotection.md) collection|List properties and relationships of the [informationProtection](../resources/informationprotection.md) objects.|
 |[Get informationProtection](../api/informationprotection-get.md)|[informationProtection](../resources/informationprotection.md)|Read properties and relationships of the [informationProtection](../resources/informationprotection.md) object.|
-|[Create informationProtection](../api/informationprotection-create.md)|[informationProtection](../resources/informationprotection.md)|Create a new [informationProtection](../resources/informationprotection.md) object.|
-|[Delete informationProtection](../api/informationprotection-delete.md)|None|Deletes a [informationProtection](../resources/informationprotection.md).|
 |[Update informationProtection](../api/informationprotection-update.md)|[informationProtection](../resources/informationprotection.md)|Update the properties of a [informationProtection](../resources/informationprotection.md) object.|
 |[evaluateLabelsAndPolicies](../api/informationprotection-evaluatelabelsandpolicies.md)|[evaluateLabelsAndPoliciesJobResponse](../resources/evaluatelabelsandpoliciesjobresponse.md)||
 |[Get informationProtectionPolicy](../api/informationprotectionpolicy-get.md)|[informationProtectionPolicy](../resources/informationprotectionpolicy.md)|Read properties and relationships of the [informationProtectionPolicy](../resources/informationprotectionpolicy.md) object.|
@@ -49,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 |sensitivityPolicySettings|[sensitivityPolicySettings](../resources/sensitivitypolicysettings.md)||
 |threatAssessmentRequests|[threatAssessmentRequest](../resources/threatassessmentrequest.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

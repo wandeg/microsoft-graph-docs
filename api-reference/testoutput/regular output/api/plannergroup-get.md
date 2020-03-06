@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -75,7 +75,7 @@ Content-Length: 126
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerGroup",
-    "id": "551c0bd7-0bd7-551c-d70b-1c55d70b1c55"
+    "id": "79990b63-0b63-7999-630b-9979630b9979"
   }
 }
 ```

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTables](../api/workbooktable-list.md)|[workbookTable](../resources/workbooktable.md) collection|List properties and relationships of the [workbookTable](../resources/workbooktable.md) objects.|
 |[Get workbookTable](../api/workbooktable-get.md)|[workbookTable](../resources/workbooktable.md)|Read properties and relationships of the [workbookTable](../resources/workbooktable.md) object.|
-|[Create workbookTable](../api/workbooktable-create.md)|[workbookTable](../resources/workbooktable.md)|Create a new [workbookTable](../resources/workbooktable.md) object.|
-|[Delete workbookTable](../api/workbooktable-delete.md)|None|Deletes a [workbookTable](../resources/workbooktable.md).|
 |[Update workbookTable](../api/workbooktable-update.md)|[workbookTable](../resources/workbooktable.md)|Update the properties of a [workbookTable](../resources/workbooktable.md) object.|
 |[clearFilters](../api/workbooktable-clearfilters.md)|None||
 |[convertToRange](../api/workbooktable-converttorange.md)|[workbookRange](../resources/workbookrange.md)||

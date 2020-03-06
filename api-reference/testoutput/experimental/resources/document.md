@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List documents](../api/document-list.md)|[document](../resources/document.md) collection|List properties and relationships of the [document](../resources/document.md) objects.|
 |[Get document](../api/document-get.md)|[document](../resources/document.md)|Read properties and relationships of the [document](../resources/document.md) object.|
-|[Create document](../api/document-create.md)|[document](../resources/document.md)|Create a new [document](../resources/document.md) object.|
-|[Delete document](../api/document-delete.md)|None|Deletes a [document](../resources/document.md).|
 |[Update document](../api/document-update.md)|[document](../resources/document.md)|Update the properties of a [document](../resources/document.md) object.|
 |[List comments](../api/document-list-comments.md)|[documentComment](../resources/documentcomment.md) collection|Get the documentComments from the comments navigation property.|
 |[Add comments](../api/document-post-comments.md)|[documentComment](../resources/documentcomment.md)|Add comments by posting to the comments collection.|
@@ -38,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |comments|[documentComment](../resources/documentcomment.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceUserStatuses](../api/devicecomplianceuserstatus-list.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) collection|List properties and relationships of the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) objects.|
 |[Get deviceComplianceUserStatus](../api/devicecomplianceuserstatus-get.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Read properties and relationships of the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
-|[Create deviceComplianceUserStatus](../api/devicecomplianceuserstatus-create.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Create a new [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
-|[Delete deviceComplianceUserStatus](../api/devicecomplianceuserstatus-delete.md)|None|Deletes a [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md).|
 |[Update deviceComplianceUserStatus](../api/devicecomplianceuserstatus-update.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Update the properties of a [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.|
+|[List userStatuses](../api/devicecompliancepolicy-list-userstatuses.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) collection|Get the deviceComplianceUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/devicecompliancepolicy-post-userstatuses.md)|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
 
 ## Properties
 |Property|Type|Description|

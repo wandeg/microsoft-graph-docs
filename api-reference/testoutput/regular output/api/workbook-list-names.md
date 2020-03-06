@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/names
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 372
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookNamedItem",
-      "id": "815ef7e7-f7e7-815e-e7f7-5e81e7f75e81",
+      "id": "e630c0c4-c0c4-e630-c4c0-30e6c4c030e6",
       "comment": "Comment value",
       "name": "Name value",
       "scope": "Scope value",

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/mobileThreatDefenseConnectors
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 533
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileThreatDefenseConnector",
-      "id": "ea1c3620-3620-ea1c-2036-1cea20361cea",
-      "lastHeartbeatDateTime": "2017-01-01T00:02:19.7069667+03:00",
+      "id": "964c2f8f-2f8f-964c-8f2f-4c968f2f4c96",
+      "lastHeartbeatDateTime": "2017-01-01T00:01:24.8620192+03:00",
       "partnerState": "String",
       "androidEnabled": true,
       "iosEnabled": true,

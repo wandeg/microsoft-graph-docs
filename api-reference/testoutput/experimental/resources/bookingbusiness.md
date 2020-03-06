@@ -27,6 +27,8 @@ Inherits from [bookingNamedEntity](../resources/bookingnamedentity.md)
 |[Create bookingBusiness](../api/bookingbusiness-post-bookingbusinesses.md)|[bookingBusiness](../resources/bookingbusiness.md)|Create a new [bookingBusiness](../resources/bookingbusiness.md) object.|
 |[Delete bookingBusiness](../api/bookingbusiness-delete.md)|None|Deletes a [bookingBusiness](../resources/bookingbusiness.md).|
 |[Update bookingBusiness](../api/bookingbusiness-update.md)|[bookingBusiness](../resources/bookingbusiness.md)|Update the properties of a [bookingBusiness](../resources/bookingbusiness.md) object.|
+|[publish](../api/bookingbusiness-publish.md)|None||
+|[unpublish](../api/bookingbusiness-unpublish.md)|None||
 |[List appointments](../api/bookingbusiness-list-appointments.md)|[bookingAppointment](../resources/bookingappointment.md) collection|Get the bookingAppointments from the appointments navigation property.|
 |[Add appointments](../api/bookingbusiness-post-appointments.md)|[bookingAppointment](../resources/bookingappointment.md)|Add appointments by posting to the appointments collection.|
 |[List calendarView](../api/bookingbusiness-list-calendarview.md)|[bookingAppointment](../resources/bookingappointment.md) collection|Get the bookingAppointments from the calendarView navigation property.|
@@ -65,7 +67,7 @@ Example: https://www.contoso.com|
 |services|[bookingService](../resources/bookingservice.md) collection|All services offered by this business.|
 |staffMembers|[bookingStaffMember](../resources/bookingstaffmember.md) collection|All staff members that provides services in this business.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

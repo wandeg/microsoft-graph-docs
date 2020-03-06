@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [salesQuoteLine](../resources/salesquoteline.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,14 +75,14 @@ Content-Length: 858
 {
   "value": {
     "@odata.type": "#microsoft.graph.salesQuoteLine",
-    "id": "79aec911-c911-79ae-11c9-ae7911c9ae79",
-    "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
+    "id": "cd74ed39-ed39-cd74-39ed-74cd39ed74cd",
+    "documentId": "f25796de-96de-f257-de96-57f2de9657f2",
     "sequence": 8,
-    "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
-    "accountId": "95554513-4513-9555-1345-559513455595",
+    "itemId": "39a5aaf7-aaf7-39a5-f7aa-a539f7aaa539",
+    "accountId": "16975858-5858-1697-5858-971658589716",
     "lineType": "Line Type value",
     "description": "Description value",
-    "unitOfMeasureId": "c915dcf5-dcf5-c915-f5dc-15c9f5dc15c9",
+    "unitOfMeasureId": "8736d1fa-d1fa-8736-fad1-3687fad13687",
     "unitPrice": "4.2",
     "quantity": "4.2",
     "discountAmount": "4.2",

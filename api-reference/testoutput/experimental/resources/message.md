@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List messages](../api/message-list.md)|[message](../resources/message.md) collection|List properties and relationships of the [message](../resources/message.md) objects.|
 |[Get message](../api/message-get.md)|[message](../resources/message.md)|Read properties and relationships of the [message](../resources/message.md) object.|
-|[Create message](../api/message-create.md)|[message](../resources/message.md)|Create a new [message](../resources/message.md) object.|
-|[Delete message](../api/message-delete.md)|None|Deletes a [message](../resources/message.md).|
 |[Update message](../api/message-update.md)|[message](../resources/message.md)|Update the properties of a [message](../resources/message.md) object.|
 |[createReply](../api/message-createreply.md)|[message](../resources/message.md)||
 |[createReplyAll](../api/message-createreplyall.md)|[message](../resources/message.md)||
@@ -35,6 +32,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |[replyAll](../api/message-replyall.md)|None||
 |[forward](../api/message-forward.md)|None||
 |[unsubscribe](../api/message-unsubscribe.md)|None||
+|[delta](../api/message-delta.md)|[message](../resources/message.md) collection||
 |[List singleValueExtendedProperties](../api/message-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
 |[Add singleValueExtendedProperties](../api/message-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.|
 |[List multiValueExtendedProperties](../api/message-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
@@ -93,7 +91,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 |multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection||
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

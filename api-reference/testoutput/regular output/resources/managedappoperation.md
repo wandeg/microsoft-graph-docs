@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppOperations](../api/managedappoperation-list.md)|[managedAppOperation](../resources/managedappoperation.md) collection|List properties and relationships of the [managedAppOperation](../resources/managedappoperation.md) objects.|
 |[Get managedAppOperation](../api/managedappoperation-get.md)|[managedAppOperation](../resources/managedappoperation.md)|Read properties and relationships of the [managedAppOperation](../resources/managedappoperation.md) object.|
-|[Create managedAppOperation](../api/managedappoperation-create.md)|[managedAppOperation](../resources/managedappoperation.md)|Create a new [managedAppOperation](../resources/managedappoperation.md) object.|
-|[Delete managedAppOperation](../api/managedappoperation-delete.md)|None|Deletes a [managedAppOperation](../resources/managedappoperation.md).|
 |[Update managedAppOperation](../api/managedappoperation-update.md)|[managedAppOperation](../resources/managedappoperation.md)|Update the properties of a [managedAppOperation](../resources/managedappoperation.md) object.|
+|[List operations](../api/managedappregistration-list-operations.md)|[managedAppOperation](../resources/managedappoperation.md) collection|Get the managedAppOperations from the operations navigation property.|
+|[Add operations](../api/managedappregistration-post-operations.md)|[managedAppOperation](../resources/managedappoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|

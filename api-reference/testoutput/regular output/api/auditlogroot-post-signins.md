@@ -34,8 +34,8 @@ POST /auditLogs/signIns/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [signIn](../resources/signin.md) object.
@@ -167,8 +167,8 @@ Content-Length: 2056
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "bd846450-6450-bd84-5064-84bd506484bd",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "id": "1edd6cae-6cae-1edd-ae6c-dd1eae6cdd1e",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",

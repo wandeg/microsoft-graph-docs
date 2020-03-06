@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List softwareUpdateStatusSummaries](../api/softwareupdatestatussummary-list.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) collection|List properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) objects.|
 |[Get softwareUpdateStatusSummary](../api/softwareupdatestatussummary-get.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Read properties and relationships of the [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
-|[Create softwareUpdateStatusSummary](../api/softwareupdatestatussummary-create.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Create a new [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
-|[Delete softwareUpdateStatusSummary](../api/softwareupdatestatussummary-delete.md)|None|Deletes a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md).|
 |[Update softwareUpdateStatusSummary](../api/softwareupdatestatussummary-update.md)|[softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md)|Update the properties of a [softwareUpdateStatusSummary](../resources/softwareupdatestatussummary.md) object.|
 
 ## Properties
@@ -49,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

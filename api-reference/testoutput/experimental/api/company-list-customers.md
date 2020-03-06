@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/customers
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [customer](../resources/customer.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 1267
   "value": [
     {
       "@odata.type": "#microsoft.graph.customer",
-      "id": "52a499d6-99d6-52a4-d699-a452d699a452",
+      "id": "c5bc16d9-16d9-c5bc-d916-bcc5d916bcc5",
       "number": "Number value",
       "displayName": "Display Name value",
       "type": "Type value",
@@ -88,16 +91,16 @@ Content-Length: 1267
       "email": "Email value",
       "website": "Website value",
       "taxLiable": true,
-      "taxAreaId": "592ce91b-e91b-592c-1be9-2c591be92c59",
+      "taxAreaId": "fec5ed79-ed79-fec5-79ed-c5fe79edc5fe",
       "taxAreaDisplayName": "Tax Area Display Name value",
       "taxRegistrationNumber": "Tax Registration Number value",
-      "currencyId": "5323df69-df69-5323-69df-235369df2353",
+      "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
       "currencyCode": "Currency Code value",
-      "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
-      "shipmentMethodId": "29227862-7862-2922-6278-222962782229",
-      "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
+      "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
+      "shipmentMethodId": "b9539e5d-9e5d-b953-5d9e-53b95d9e53b9",
+      "paymentMethodId": "9fe5b104-b104-9fe5-04b1-e59f04b1e59f",
       "blocked": "Blocked value",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

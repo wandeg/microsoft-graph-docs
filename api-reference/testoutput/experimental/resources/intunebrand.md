@@ -23,12 +23,12 @@ Namespace: microsoft.graph
 |contactITNotes|String|Text comments regarding the person/organization responsible for IT support.|
 |contactITPhoneNumber|String|Phone number of the person/organization responsible for IT support.|
 |customPrivacyMessage|String|Custom privacy message.|
-|darkBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
+|darkBackgroundLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a dark background behind the logo.|
 |displayName|String|Company/organization name that is displayed to end users.|
 |isFactoryResetDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Factory Reset' action on corporate owned devices.|
 |isRemoveDeviceDisabled|Boolean|Boolean that represents whether the adminsistrator has disabled the 'Remove Device' action on corporate owned devices.|
-|landingPageCustomizedImage|[mimeContent](../resources/intune-apps-mimecontent.md)|Customized image displayed in Company Portal app landing page|
-|lightBackgroundLogo|[mimeContent](../resources/intune-apps-mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
+|landingPageCustomizedImage|[mimeContent](../resources/mimecontent.md)|Customized image displayed in Company Portal app landing page|
+|lightBackgroundLogo|[mimeContent](../resources/mimecontent.md)|Logo image displayed in Company Portal apps which have a light background behind the logo.|
 |onlineSupportSiteName|String|Display name of the company/organization’s IT helpdesk site.|
 |onlineSupportSiteUrl|String|URL to the company/organization’s IT helpdesk site.|
 |privacyUrl|String|URL to the company/organization’s privacy policy.|
@@ -42,7 +42,7 @@ Namespace: microsoft.graph
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

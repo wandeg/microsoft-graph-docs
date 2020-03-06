@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /applications/{applicationsId}/extensionProperties
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [extensionProperty](../resources/extensionproperty.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +75,8 @@ Content-Length: 437
   "value": [
     {
       "@odata.type": "#microsoft.graph.extensionProperty",
-      "id": "58691e7f-1e7f-5869-7f1e-69587f1e6958",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "53a4d9d8-d9d8-53a4-d8d9-a453d8d9a453",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "appDisplayName": "App Display Name value",
       "name": "Name value",
       "dataType": "Data Type value",

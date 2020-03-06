@@ -20,10 +20,7 @@ Inherits from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchym
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List notebooks](../api/notebook-list.md)|[notebook](../resources/notebook.md) collection|List properties and relationships of the [notebook](../resources/notebook.md) objects.|
 |[Get notebook](../api/notebook-get.md)|[notebook](../resources/notebook.md)|Read properties and relationships of the [notebook](../resources/notebook.md) object.|
-|[Create notebook](../api/notebook-create.md)|[notebook](../resources/notebook.md)|Create a new [notebook](../resources/notebook.md) object.|
-|[Delete notebook](../api/notebook-delete.md)|None|Deletes a [notebook](../resources/notebook.md).|
 |[Update notebook](../api/notebook-update.md)|[notebook](../resources/notebook.md)|Update the properties of a [notebook](../resources/notebook.md) object.|
 |[copyNotebook](../api/notebook-copynotebook.md)|[onenoteOperation](../resources/onenoteoperation.md)||
 |[getRecentNotebooks](../api/notebook-getrecentnotebooks.md)|[recentNotebook](../resources/recentnotebook.md) collection||
@@ -32,6 +29,8 @@ Inherits from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchym
 |[Add sections](../api/notebook-post-sections.md)|[onenoteSection](../resources/onenotesection.md)|Add sections by posting to the sections collection.|
 |[List sectionGroups](../api/notebook-list-sectiongroups.md)|[sectionGroup](../resources/sectiongroup.md) collection|Get the sectionGroups from the sectionGroups navigation property.|
 |[Add sectionGroups](../api/notebook-post-sectiongroups.md)|[sectionGroup](../resources/sectiongroup.md)|Add sectionGroups by posting to the sectionGroups collection.|
+|[List notebooks](../api/onenote-list-notebooks.md)|[notebook](../resources/notebook.md) collection|Get the notebooks from the notebooks navigation property.|
+|[Add notebooks](../api/onenote-post-notebooks.md)|[notebook](../resources/notebook.md)|Add notebooks by posting to the notebooks collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -86,14 +85,7 @@ Here is a JSON representation of the resource.
   "sectionsUrl": "String",
   "sectionGroupsUrl": "String",
   "links": {
-    "@odata.type": "microsoft.graph.notebookLinks",
-    "oneNoteClientUrl": {
-      "@odata.type": "microsoft.graph.externalLink",
-      "href": "String"
-    },
-    "oneNoteWebUrl": {
-      "@odata.type": "microsoft.graph.externalLink"
-    }
+    "@odata.type": "microsoft.graph.notebookLinks"
   }
 }
 ```

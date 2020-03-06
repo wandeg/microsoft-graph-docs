@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -43,7 +43,7 @@ PATCH /deviceManagement/deviceConfigurations/{deviceConfigurationId}/microsoft.g
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object.
@@ -68,7 +68,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-length: 345
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:04.1594077+03:00",
   "configurationVersion": 4
 }
 ```
@@ -110,7 +110,7 @@ Content-Length: 394
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationDeviceOverview",
-  "id": "26ae207a-207a-26ae-7a20-ae267a20ae26",
+  "id": "d05459f6-59f6-d054-f659-54d0f65954d0",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "notApplicablePlatformCount": 10,
@@ -118,7 +118,7 @@ Content-Length: 394
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:04.1594077+03:00",
   "configurationVersion": 4
 }
 ```

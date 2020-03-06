@@ -34,8 +34,8 @@ POST /me/drive/list/contentTypes/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [contentType](../resources/contenttype.md) object.
@@ -124,7 +124,7 @@ Content-Length: 1001
 
 {
   "@odata.type": "#microsoft.graph.contentType",
-  "id": "4858d896-d896-4858-96d8-584896d85848",
+  "id": "b1763c5c-3c5c-b176-5c3c-76b15c3c76b1",
   "description": "Description value",
   "group": "Group value",
   "hidden": true,

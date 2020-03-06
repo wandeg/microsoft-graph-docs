@@ -34,8 +34,8 @@ POST /education/classes/{educationClassId}/members/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationUser](../resources/educationuser.md) object.
@@ -92,7 +92,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/education/classes/{educationClassId}/members
 Content-type: application/json
-Content-length: 2924
+Content-length: 2925
 
 {
   "@odata.type": "#microsoft.graph.educationUser",
@@ -142,18 +142,18 @@ Content-length: 2924
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "964343ea-43ea-9643-ea43-4396ea434396"
+        "88ebbaad-baad-88eb-adba-eb88adbaeb88"
       ],
-      "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
+      "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
+      "assignedDateTime": "2017-01-01T00:00:28.2981378+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552"
     }
   ],
   "businessPhones": [
@@ -180,7 +180,7 @@ Content-length: 2924
       "provisioningStatus": "Provisioning Status value"
     }
   ],
-  "refreshTokensValidFromDateTime": "2016-12-31T23:59:31.3924396+03:00",
+  "refreshTokensValidFromDateTime": "2017-01-01T00:00:30.5855094+03:00",
   "showInAddressList": true,
   "surname": "Surname value",
   "usageLocation": "Usage Location value",
@@ -200,11 +200,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2973
+Content-Length: 2974
 
 {
   "@odata.type": "#microsoft.graph.educationUser",
-  "id": "d1cdd432-d432-d1cd-32d4-cdd132d4cdd1",
+  "id": "ced6bea5-bea5-ced6-a5be-d6cea5bed6ce",
   "primaryRole": "String",
   "middleName": "Middle Name value",
   "externalSource": "String",
@@ -251,18 +251,18 @@ Content-Length: 2973
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "964343ea-43ea-9643-ea43-4396ea434396"
+        "88ebbaad-baad-88eb-adba-eb88adbaeb88"
       ],
-      "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79"
+      "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
+      "assignedDateTime": "2017-01-01T00:00:28.2981378+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552"
     }
   ],
   "businessPhones": [
@@ -289,7 +289,7 @@ Content-Length: 2973
       "provisioningStatus": "Provisioning Status value"
     }
   ],
-  "refreshTokensValidFromDateTime": "2016-12-31T23:59:31.3924396+03:00",
+  "refreshTokensValidFromDateTime": "2017-01-01T00:00:30.5855094+03:00",
   "showInAddressList": true,
   "surname": "Surname value",
   "usageLocation": "Usage Location value",

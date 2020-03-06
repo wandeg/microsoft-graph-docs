@@ -20,11 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userActivities](../api/useractivity-list.md)|[userActivity](../resources/useractivity.md) collection|List properties and relationships of the [userActivity](../resources/useractivity.md) objects.|
 |[Get userActivity](../api/useractivity-get.md)|[userActivity](../resources/useractivity.md)|Read properties and relationships of the [userActivity](../resources/useractivity.md) object.|
-|[Create userActivity](../api/useractivity-create.md)|[userActivity](../resources/useractivity.md)|Create a new [userActivity](../resources/useractivity.md) object.|
-|[Delete userActivity](../api/useractivity-delete.md)|None|Deletes a [userActivity](../resources/useractivity.md).|
 |[Update userActivity](../api/useractivity-update.md)|[userActivity](../resources/useractivity.md)|Update the properties of a [userActivity](../resources/useractivity.md) object.|
+|[recent](../api/useractivity-recent.md)|[userActivity](../resources/useractivity.md) collection||
 |[List historyItems](../api/useractivity-list-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md) collection|Get the activityHistoryItems from the historyItems navigation property.|
 |[Add historyItems](../api/useractivity-post-historyitems.md)|[activityHistoryItem](../resources/activityhistoryitem.md)|Add historyItems by posting to the historyItems collection.|
 
@@ -51,7 +49,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |historyItems|[activityHistoryItem](../resources/activityhistoryitem.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -66,20 +64,7 @@ Here is a JSON representation of the resource.
   "@odata.type": "#microsoft.graph.userActivity",
   "id": "String (identifier)",
   "visualElements": {
-    "@odata.type": "microsoft.graph.visualInfo",
-    "attribution": {
-      "@odata.type": "microsoft.graph.imageInfo",
-      "iconUrl": "String",
-      "alternativeText": "String",
-      "alternateText": "String",
-      "addImageQuery": true
-    },
-    "backgroundColor": "String",
-    "description": "String",
-    "displayText": "String",
-    "content": {
-      "@odata.type": "microsoft.graph.Json"
-    }
+    "@odata.type": "microsoft.graph.visualInfo"
   },
   "activitySourceHost": "String",
   "activationUrl": "String",

@@ -34,8 +34,8 @@ POST /Security/secureScores/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [secureScore](../resources/securescore.md) object.
@@ -126,7 +126,7 @@ Content-Length: 1068
 
 {
   "@odata.type": "#microsoft.graph.secureScore",
-  "id": "532bd5c5-d5c5-532b-c5d5-2b53c5d52b53",
+  "id": "d793610a-610a-d793-0a61-93d70a6193d7",
   "activeUserCount": 15,
   "averageComparativeScores": [
     {
@@ -145,7 +145,7 @@ Content-Length: 1068
       "score": "Double"
     }
   ],
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "currentScore": "Double",
   "enabledServices": [
     "Enabled Services value"

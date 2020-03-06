@@ -20,10 +20,7 @@ Inherits from [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.m
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List depMacOSEnrollmentProfiles](../api/depmacosenrollmentprofile-list.md)|[depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) collection|List properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) objects.|
 |[Get depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-get.md)|[depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md)|Read properties and relationships of the [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
-|[Create depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-create.md)|[depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md)|Create a new [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
-|[Delete depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-delete.md)|None|Deletes a [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md).|
 |[Update depMacOSEnrollmentProfile](../api/depmacosenrollmentprofile-update.md)|[depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md)|Update the properties of a [depMacOSEnrollmentProfile](../resources/depmacosenrollmentprofile.md) object.|
 
 ## Properties
@@ -66,7 +63,7 @@ Inherits from [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.m
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

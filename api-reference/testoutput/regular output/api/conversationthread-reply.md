@@ -36,8 +36,8 @@ POST /me/joinedTeams/{groupId}/conversations/{conversationId}/threads/{conversat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -66,14 +66,14 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/groups/{groupsId}/threads/{conversationThreadId}/reply
 
 Content-type: application/json
-Content-length: 926
+Content-length: 928
 
 {
   "Post": {
     "@odata.type": "#microsoft.graph.post",
-    "id": "54407219-7219-5440-1972-405419724054",
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "id": "b25d77e9-77e9-b25d-e977-5db2e9775db2",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
@@ -83,7 +83,7 @@ Content-length: 926
       "contentType": "String",
       "content": "Content value"
     },
-    "receivedDateTime": "2017-01-01T00:02:50.2294959+03:00",
+    "receivedDateTime": "2016-12-31T23:58:46.1953867+03:00",
     "hasAttachments": true,
     "from": {
       "@odata.type": "microsoft.graph.recipient"

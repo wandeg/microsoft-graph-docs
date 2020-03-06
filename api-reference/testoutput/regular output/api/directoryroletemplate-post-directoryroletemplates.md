@@ -34,8 +34,8 @@ POST /directoryRoleTemplates
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directoryRoleTemplate](../resources/directoryroletemplate.md) object.
@@ -70,7 +70,7 @@ Content-length: 201
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }
@@ -91,8 +91,8 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-  "id": "200c5de8-5de8-200c-e85d-0c20e85d0c20",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "a4e4fdff-fdff-a4e4-fffd-e4a4fffde4a4",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "description": "Description value",
   "displayName": "Display Name value"
 }

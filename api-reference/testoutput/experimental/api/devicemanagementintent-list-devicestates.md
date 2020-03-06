@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/intents/{deviceManagementIntentId}/deviceStates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 449
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementIntentDeviceState",
-      "id": "3bbb7e8f-7e8f-3bbb-8f7e-bb3b8f7ebb3b",
+      "id": "86e1c4d4-c4d4-86e1-d4c4-e186d4c4e186",
       "userPrincipalName": "User Principal Name value",
       "userName": "User Name value",
       "deviceDisplayName": "Device Display Name value",
-      "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+      "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
       "state": "String",
       "deviceId": "Device Id value"
     }

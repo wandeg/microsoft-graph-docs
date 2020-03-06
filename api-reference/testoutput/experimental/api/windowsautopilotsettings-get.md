@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 303
+Content-Length: 304
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsAutopilotSettings",
-    "id": "5150e45f-e45f-5150-5fe4-50515fe45051",
-    "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
-    "lastManualSyncTriggerDateTime": "2017-01-01T00:00:23.731973+03:00",
+    "id": "ae112b40-2b40-ae11-402b-11ae402b11ae",
+    "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
+    "lastManualSyncTriggerDateTime": "2017-01-01T00:01:23.5386669+03:00",
     "syncStatus": "String"
   }
 }

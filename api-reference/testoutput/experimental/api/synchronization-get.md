@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [synchronization](../resources/synchronization.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 314
 {
   "value": {
     "@odata.type": "#microsoft.graph.synchronization",
-    "id": "a6beb882-b882-a6be-82b8-bea682b8bea6",
+    "id": "15a2d4b6-d4b6-15a2-b6d4-a215b6d4a215",
     "secrets": [
       {
         "@odata.type": "microsoft.graph.synchronizationSecretKeyStringValuePair",

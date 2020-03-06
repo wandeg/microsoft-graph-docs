@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/sideLoadingKeys/{sideLoadingKeyId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sideLoadingKey](../resources/sideloadingkey.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [sideLoadingKey](../resources/sideloadingkey.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 295
 
 {
   "@odata.type": "#microsoft.graph.sideLoadingKey",
-  "id": "fa969573-9573-fa96-7395-96fa739596fa",
+  "id": "c78fb212-b212-c78f-12b2-8fc712b28fc7",
   "value": "Value value",
   "displayName": "Display Name value",
   "description": "Description value",

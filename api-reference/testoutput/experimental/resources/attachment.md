@@ -20,9 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List attachments](../api/attachment-list.md)|[attachment](../resources/attachment.md) collection|List properties and relationships of the [attachment](../resources/attachment.md) objects.|
 |[Get attachment](../api/attachment-get.md)|[attachment](../resources/attachment.md)|Read properties and relationships of the [attachment](../resources/attachment.md) object.|
 |[createUploadSession](../api/attachment-createuploadsession.md)|[uploadSession](../resources/uploadsession.md)||
+|[List attachments](../api/event-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
+|[Add attachments](../api/event-post-attachments.md)|[attachment](../resources/attachment.md)|Add attachments by posting to the attachments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

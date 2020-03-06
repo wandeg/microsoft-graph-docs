@@ -20,18 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsFeatureUpdateProfiles](../api/windowsfeatureupdateprofile-list.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) collection|List properties and relationships of the [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) objects.|
 |[Get windowsFeatureUpdateProfile](../api/windowsfeatureupdateprofile-get.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md)|Read properties and relationships of the [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) object.|
-|[Create windowsFeatureUpdateProfile](../api/windowsfeatureupdateprofile-create.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md)|Create a new [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) object.|
-|[Delete windowsFeatureUpdateProfile](../api/windowsfeatureupdateprofile-delete.md)|None|Deletes a [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md).|
 |[Update windowsFeatureUpdateProfile](../api/windowsfeatureupdateprofile-update.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md)|Update the properties of a [windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) object.|
 |[assign](../api/windowsfeatureupdateprofile-assign.md)|None||
 |[List assignments](../api/windowsfeatureupdateprofile-list-assignments.md)|[windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) collection|Get the windowsFeatureUpdateProfileAssignments from the assignments navigation property.|
 |[Add assignments](../api/windowsfeatureupdateprofile-post-assignments.md)|[windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md)|Add assignments by posting to the assignments collection.|
 |[List deviceUpdateStates](../api/windowsfeatureupdateprofile-list-deviceupdatestates.md)|[windowsUpdateState](../resources/windowsupdatestate.md) collection|Get the windowsUpdateStates from the deviceUpdateStates navigation property.|
 |[Add deviceUpdateStates](../api/windowsfeatureupdateprofile-post-deviceupdatestates.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Add deviceUpdateStates by posting to the deviceUpdateStates collection.|
-|[List windowsFeatureUpdateProfiles](../api/intune-devices-devicemanagement-list-windowsfeatureupdateprofiles.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md) collection|Get the windowsFeatureUpdateProfiles from the windowsFeatureUpdateProfiles navigation property.|
-|[Add windowsFeatureUpdateProfiles](../api/intune-devices-devicemanagement-post-windowsfeatureupdateprofiles.md)|[windowsFeatureUpdateProfile](../resources/windowsfeatureupdateprofile.md)|Add windowsFeatureUpdateProfiles by posting to the windowsFeatureUpdateProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |assignments|[windowsFeatureUpdateProfileAssignment](../resources/windowsfeatureupdateprofileassignment.md) collection|The list of group assignments of the profile.|
 |deviceUpdateStates|[windowsUpdateState](../resources/windowsupdatestate.md) collection|The list of device states this profile targeted to|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

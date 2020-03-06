@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicyDefinitions](../api/grouppolicydefinition-list.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md) collection|List properties and relationships of the [groupPolicyDefinition](../resources/grouppolicydefinition.md) objects.|
 |[Get groupPolicyDefinition](../api/grouppolicydefinition-get.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|Read properties and relationships of the [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.|
-|[Create groupPolicyDefinition](../api/grouppolicydefinition-create.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|Create a new [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.|
-|[Delete groupPolicyDefinition](../api/grouppolicydefinition-delete.md)|None|Deletes a [groupPolicyDefinition](../resources/grouppolicydefinition.md).|
 |[Update groupPolicyDefinition](../api/grouppolicydefinition-update.md)|[groupPolicyDefinition](../resources/grouppolicydefinition.md)|Update the properties of a [groupPolicyDefinition](../resources/grouppolicydefinition.md) object.|
 |[Get groupPolicyDefinitionFile](../api/grouppolicydefinitionfile-get.md)|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|Read properties and relationships of the [groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md) object.|
 |[List presentations](../api/grouppolicydefinition-list-presentations.md)|[groupPolicyPresentation](../resources/grouppolicypresentation.md) collection|Get the groupPolicyPresentations from the presentations navigation property.|
@@ -47,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |definitionFile|[groupPolicyDefinitionFile](../resources/grouppolicydefinitionfile.md)|The group policy file associated with the definition.|
 |presentations|[groupPolicyPresentation](../resources/grouppolicypresentation.md) collection|The group policy presentations associated with the definition.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

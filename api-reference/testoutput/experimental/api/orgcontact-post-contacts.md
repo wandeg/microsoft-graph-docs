@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /contacts
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [orgContact](../resources/orgcontact.md) object.
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [orgContact](../resources/orgcontact.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,11 +78,11 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/contacts
 Content-type: application/json
-Content-length: 1355
+Content-length: 1354
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -102,14 +102,14 @@ Content-length: 1355
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
+      "occurredDateTime": "2016-12-31T23:56:49.154911+03:00"
     }
   ],
   "phones": [
@@ -137,12 +137,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1404
+Content-Length: 1403
 
 {
   "@odata.type": "#microsoft.graph.orgContact",
-  "id": "e8b04e82-4e82-e8b0-824e-b0e8824eb0e8",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "id": "29e71c73-1c73-29e7-731c-e729731ce729",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "addresses": [
     {
       "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -162,14 +162,14 @@ Content-Length: 1404
   "mail": "Mail value",
   "mailNickname": "Mail Nickname value",
   "onPremisesSyncEnabled": true,
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:02.4393137+03:00"
+      "occurredDateTime": "2016-12-31T23:56:49.154911+03:00"
     }
   ],
   "phones": [

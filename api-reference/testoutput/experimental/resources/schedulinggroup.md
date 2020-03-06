@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List schedulingGroups](../api/schedulinggroup-list.md)|[schedulingGroup](../resources/schedulinggroup.md) collection|List properties and relationships of the [schedulingGroup](../resources/schedulinggroup.md) objects.|
 |[Get schedulingGroup](../api/schedulinggroup-get.md)|[schedulingGroup](../resources/schedulinggroup.md)|Read properties and relationships of the [schedulingGroup](../resources/schedulinggroup.md) object.|
-|[Create schedulingGroup](../api/schedulinggroup-create.md)|[schedulingGroup](../resources/schedulinggroup.md)|Create a new [schedulingGroup](../resources/schedulinggroup.md) object.|
-|[Delete schedulingGroup](../api/schedulinggroup-delete.md)|None|Deletes a [schedulingGroup](../resources/schedulinggroup.md).|
 |[Update schedulingGroup](../api/schedulinggroup-update.md)|[schedulingGroup](../resources/schedulinggroup.md)|Update the properties of a [schedulingGroup](../resources/schedulinggroup.md) object.|
 |[List schedulingGroups](../api/schedule-list-schedulinggroups.md)|[schedulingGroup](../resources/schedulinggroup.md) collection|Get the schedulingGroups from the schedulingGroups navigation property.|
 |[Add schedulingGroups](../api/schedule-post-schedulinggroups.md)|[schedulingGroup](../resources/schedulinggroup.md)|Add schedulingGroups by posting to the schedulingGroups collection.|
@@ -42,7 +39,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/activities/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userActivity](../resources/useractivity.md) object.
@@ -65,7 +65,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [userActivity](../resources/useractivity.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -102,7 +102,7 @@ Content-length: 1103
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
   "userTimezone": "User Timezone value",
   "contentInfo": {
@@ -123,11 +123,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1274
+Content-Length: 1275
 
 {
   "@odata.type": "#microsoft.graph.userActivity",
-  "id": "1eb5aa09-aa09-1eb5-09aa-b51e09aab51e",
+  "id": "9fb7ec0a-ec0a-9fb7-0aec-b79f0aecb79f",
   "visualElements": {
     "@odata.type": "microsoft.graph.visualInfo",
     "attribution": {
@@ -149,10 +149,10 @@ Content-Length: 1274
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "userTimezone": "User Timezone value",
   "contentInfo": {
     "@odata.type": "microsoft.graph.Json"

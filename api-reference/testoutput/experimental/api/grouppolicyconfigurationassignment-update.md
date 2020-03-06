@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/a
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) object.
@@ -45,14 +45,14 @@ The following table shows the properties that are required when you create the [
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|The date and time the entity was last modified.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The type of groups targeted the group policy configuration.|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The type of groups targeted the group policy configuration.|
 
 
 
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,8 +88,8 @@ Content-Length: 287
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-  "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "bc911464-1464-bc91-6414-91bc641491bc",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

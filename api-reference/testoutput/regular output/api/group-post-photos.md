@@ -35,8 +35,8 @@ POST /me/joinedTeams/{groupId}/photos/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [profilePhoto](../resources/profilephoto.md) object.
@@ -90,7 +90,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.profilePhoto",
-  "id": "a24ba7a6-a7a6-a24b-a6a7-4ba2a6a74ba2",
+  "id": "82928bca-8bca-8292-ca8b-9282ca8b9282",
   "height": 6,
   "width": 5
 }

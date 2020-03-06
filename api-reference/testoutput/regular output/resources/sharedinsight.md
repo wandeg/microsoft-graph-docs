@@ -60,6 +60,7 @@ Here is a JSON representation of the resource.
     "@odata.type": "microsoft.graph.sharingDetail",
     "sharedBy": {
       "@odata.type": "microsoft.graph.insightIdentity",
+      "displayName": "String",
       "id": "String",
       "address": "String"
     },
@@ -68,6 +69,7 @@ Here is a JSON representation of the resource.
     "sharingType": "String",
     "sharingReference": {
       "@odata.type": "microsoft.graph.resourceReference",
+      "webUrl": "String",
       "type": "String"
     }
   },

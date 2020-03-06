@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 829
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribedSku",
-    "id": "5b7a896f-896f-5b7a-6f89-7a5b6f897a5b",
+    "id": "a14c4e0c-4e0c-a14c-0c4e-4ca10c4e4ca1",
     "capabilityStatus": "Capability Status value",
     "consumedUnits": 13,
     "prepaidUnits": {
@@ -86,13 +86,13 @@ Content-Length: 829
     "servicePlans": [
       {
         "@odata.type": "microsoft.graph.servicePlanInfo",
-        "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275",
+        "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552",
         "servicePlanName": "Service Plan Name value",
         "provisioningStatus": "Provisioning Status value",
         "appliesTo": "Applies To value"
       }
     ],
-    "skuId": "79ca07bb-07bb-79ca-bb07-ca79bb07ca79",
+    "skuId": "8ffb26a5-26a5-8ffb-a526-fb8fa526fb8f",
     "skuPartNumber": "Sku Part Number value",
     "appliesTo": "Applies To value"
   }

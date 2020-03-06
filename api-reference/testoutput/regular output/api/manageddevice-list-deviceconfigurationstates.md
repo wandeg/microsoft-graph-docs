@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/managedDevices/{managedDeviceId}/deviceConfigurationStates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 1158
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationState",
-      "id": "098037f3-37f3-0980-f337-8009f3378009",
+      "id": "4f20dc5a-dc5a-4f20-5adc-204f5adc204f",
       "settingStates": [
         {
           "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

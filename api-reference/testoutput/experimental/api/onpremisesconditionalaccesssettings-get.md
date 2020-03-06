@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,13 +75,13 @@ Content-Length: 363
 {
   "value": {
     "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-    "id": "ce6b7a76-7a76-ce6b-767a-6bce767a6bce",
+    "id": "9b3f5e64-5e64-9b3f-645e-3f9b645e3f9b",
     "enabled": true,
     "includedGroups": [
-      "812dbfa7-bfa7-812d-a7bf-2d81a7bf2d81"
+      "1f29916e-916e-1f29-6e91-291f6e91291f"
     ],
     "excludedGroups": [
-      "c03641ed-41ed-c036-ed41-36c0ed4136c0"
+      "3dc3ebc1-ebc1-3dc3-c1eb-c33dc1ebc33d"
     ],
     "overrideDefaultRule": true
   }

@@ -20,16 +20,15 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List endpoints](../api/endpoint-list.md)|[endpoint](../resources/endpoint.md) collection|List properties and relationships of the [endpoint](../resources/endpoint.md) objects.|
 |[Get endpoint](../api/endpoint-get.md)|[endpoint](../resources/endpoint.md)|Read properties and relationships of the [endpoint](../resources/endpoint.md) object.|
-|[Create endpoint](../api/endpoint-create.md)|[endpoint](../resources/endpoint.md)|Create a new [endpoint](../resources/endpoint.md) object.|
-|[Delete endpoint](../api/endpoint-delete.md)|None|Deletes a [endpoint](../resources/endpoint.md).|
 |[Update endpoint](../api/endpoint-update.md)|[endpoint](../resources/endpoint.md)|Update the properties of a [endpoint](../resources/endpoint.md) object.|
 |[checkMemberGroups](../api/endpoint-checkmembergroups.md)|String collection||
 |[checkMemberObjects](../api/endpoint-checkmemberobjects.md)|String collection||
 |[getMemberGroups](../api/endpoint-getmembergroups.md)|String collection||
 |[getMemberObjects](../api/endpoint-getmemberobjects.md)|String collection||
 |[restore](../api/endpoint-restore.md)|[directoryObject](../resources/directoryobject.md)||
+|[List endpoints](../api/group-list-endpoints.md)|[endpoint](../resources/endpoint.md) collection|Get the endpoints from the endpoints navigation property.|
+|[Add endpoints](../api/group-post-endpoints.md)|[endpoint](../resources/endpoint.md)|Add endpoints by posting to the endpoints collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +44,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

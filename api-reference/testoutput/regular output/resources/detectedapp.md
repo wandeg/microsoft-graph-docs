@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List detectedApps](../api/detectedapp-list.md)|[detectedApp](../resources/detectedapp.md) collection|List properties and relationships of the [detectedApp](../resources/detectedapp.md) objects.|
 |[Get detectedApp](../api/detectedapp-get.md)|[detectedApp](../resources/detectedapp.md)|Read properties and relationships of the [detectedApp](../resources/detectedapp.md) object.|
-|[Create detectedApp](../api/detectedapp-create.md)|[detectedApp](../resources/detectedapp.md)|Create a new [detectedApp](../resources/detectedapp.md) object.|
-|[Delete detectedApp](../api/detectedapp-delete.md)|None|Deletes a [detectedApp](../resources/detectedapp.md).|
 |[Update detectedApp](../api/detectedapp-update.md)|[detectedApp](../resources/detectedapp.md)|Update the properties of a [detectedApp](../resources/detectedapp.md) object.|
 |[List managedDevices](../api/detectedapp-list-manageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
 |[Create managedDevices](../api/detectedapp-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Create managedDevices by posting to the managedDevices collection.|
-|[List detectedApps](../api/devicemanagement-list-detectedapps.md)|[detectedApp](../resources/detectedapp.md) collection|Get the detectedApps from the detectedApps navigation property.|
-|[Add detectedApps](../api/devicemanagement-post-detectedapps.md)|[detectedApp](../resources/detectedapp.md)|Add detectedApps by posting to the detectedApps collection.|
 
 ## Properties
 |Property|Type|Description|

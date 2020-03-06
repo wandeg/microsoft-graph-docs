@@ -34,7 +34,7 @@ GET /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request URL, provide the following query parameters with values.
@@ -78,7 +78,7 @@ Content-Length: 247
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableColumn",
-    "id": "23c7f0e1-f0e1-23c7-e1f0-c723e1f0c723",
+    "id": "217f233e-233e-217f-3e23-7f213e237f21",
     "index": 5,
     "name": "Name value",
     "values": {

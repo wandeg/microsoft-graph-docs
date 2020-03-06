@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /Security
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [security](../resources/security.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [security](../resources/security.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-Length: 369
 
 {
   "@odata.type": "#microsoft.graph.security",
-  "id": "2026c75e-c75e-2026-5ec7-26205ec72620",
+  "id": "8a66293b-293b-8a66-3b29-668a3b29668a",
   "providerStatus": [
     {
       "@odata.type": "microsoft.graph.securityProviderStatus",

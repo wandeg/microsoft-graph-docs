@@ -34,7 +34,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
@@ -89,7 +89,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
-  "id": "6f7d337c-337c-6f7d-7c33-7d6f7c337d6f",
+  "id": "c0a504ed-04ed-c0a5-ed04-a5c0ed04a5c0",
   "unassignedOrderHint": "Unassigned Order Hint value",
   "orderHintsByAssignee": {
     "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"

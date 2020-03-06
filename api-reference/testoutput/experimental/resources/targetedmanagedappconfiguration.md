@@ -20,10 +20,7 @@ Inherits from [managedAppConfiguration](../resources/managedappconfiguration.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List targetedManagedAppConfigurations](../api/targetedmanagedappconfiguration-list.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) collection|List properties and relationships of the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) objects.|
 |[Get targetedManagedAppConfiguration](../api/targetedmanagedappconfiguration-get.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md)|Read properties and relationships of the [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.|
-|[Create targetedManagedAppConfiguration](../api/targetedmanagedappconfiguration-create.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md)|Create a new [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.|
-|[Delete targetedManagedAppConfiguration](../api/targetedmanagedappconfiguration-delete.md)|None|Deletes a [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md).|
 |[Update targetedManagedAppConfiguration](../api/targetedmanagedappconfiguration-update.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md)|Update the properties of a [targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) object.|
 |[hasPayloadLinks](../api/targetedmanagedappconfiguration-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[assign](../api/targetedmanagedappconfiguration-assign.md)|None||
@@ -33,8 +30,6 @@ Inherits from [managedAppConfiguration](../resources/managedappconfiguration.md)
 |[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
 |[List assignments](../api/targetedmanagedappconfiguration-list-assignments.md)|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Get the targetedManagedAppPolicyAssignments from the assignments navigation property.|
 |[Add assignments](../api/targetedmanagedappconfiguration-post-assignments.md)|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md)|Add assignments by posting to the assignments collection.|
-|[List targetedManagedAppConfigurations](../api/intune-apps-deviceappmanagement-list-targetedmanagedappconfigurations.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md) collection|Get the targetedManagedAppConfigurations from the targetedManagedAppConfigurations navigation property.|
-|[Add targetedManagedAppConfigurations](../api/intune-apps-deviceappmanagement-post-targetedmanagedappconfigurations.md)|[targetedManagedAppConfiguration](../resources/targetedmanagedappconfiguration.md)|Add targetedManagedAppConfigurations by posting to the targetedManagedAppConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -57,7 +52,7 @@ Inherits from [managedAppConfiguration](../resources/managedappconfiguration.md)
 |assignments|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Navigation property to list of inclusion and exclusion groups to which the policy is deployed.|
 |deploymentSummary|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Navigation property to deployment summary of the configuration.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

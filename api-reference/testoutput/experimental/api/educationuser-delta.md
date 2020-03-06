@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /education/users/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [educationUser](../resources/educationuser.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +66,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2179
+Content-Length: 2180
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationUser",
-      "id": "c668dcfd-dcfd-c668-fddc-68c6fddc68c6",
+      "id": "b1002e7a-2e7a-b100-7a2e-00b17a2e00b1",
       "relatedContacts": [
         {
           "@odata.type": "microsoft.graph.relatedContact"
@@ -127,7 +127,7 @@ Content-Length: 2179
           "@odata.type": "microsoft.graph.provisionedPlan"
         }
       ],
-      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:59:47.8427372+03:00",
       "showInAddressList": true,
       "surname": "Surname value",
       "usageLocation": "Usage Location value",

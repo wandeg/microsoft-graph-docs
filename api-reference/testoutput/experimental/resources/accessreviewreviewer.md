@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List accessReviewReviewers](../api/accessreviewreviewer-list.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md) collection|List properties and relationships of the [accessReviewReviewer](../resources/accessreviewreviewer.md) objects.|
 |[Get accessReviewReviewer](../api/accessreviewreviewer-get.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md)|Read properties and relationships of the [accessReviewReviewer](../resources/accessreviewreviewer.md) object.|
-|[Create accessReviewReviewer](../api/accessreviewreviewer-create.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md)|Create a new [accessReviewReviewer](../resources/accessreviewreviewer.md) object.|
-|[Delete accessReviewReviewer](../api/accessreviewreviewer-delete.md)|None|Deletes a [accessReviewReviewer](../resources/accessreviewreviewer.md).|
 |[Update accessReviewReviewer](../api/accessreviewreviewer-update.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md)|Update the properties of a [accessReviewReviewer](../resources/accessreviewreviewer.md) object.|
 |[List reviewers](../api/accessreview-list-reviewers.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md) collection|Get the accessReviewReviewers from the reviewers navigation property.|
 |[Add reviewers](../api/accessreview-post-reviewers.md)|[accessReviewReviewer](../resources/accessreviewreviewer.md)|Add reviewers by posting to the reviewers collection.|
@@ -38,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

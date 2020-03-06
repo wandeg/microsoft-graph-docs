@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppStatuses](../api/managedappstatus-list.md)|[managedAppStatus](../resources/managedappstatus.md) collection|List properties and relationships of the [managedAppStatus](../resources/managedappstatus.md) objects.|
 |[Get managedAppStatus](../api/managedappstatus-get.md)|[managedAppStatus](../resources/managedappstatus.md)|Read properties and relationships of the [managedAppStatus](../resources/managedappstatus.md) object.|
-|[List managedAppStatuses](../api/deviceappmanagement-list-managedappstatuses.md)|[managedAppStatus](../resources/managedappstatus.md) collection|Get the managedAppStatuses from the managedAppStatuses navigation property.|
-|[Add managedAppStatuses](../api/deviceappmanagement-post-managedappstatuses.md)|[managedAppStatus](../resources/managedappstatus.md)|Add managedAppStatuses by posting to the managedAppStatuses collection.|
 
 ## Properties
 |Property|Type|Description|

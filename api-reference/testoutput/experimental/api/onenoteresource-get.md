@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [onenoteResource](../resources/onenoteresource.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 236
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenoteResource",
-    "id": "07bc711f-711f-07bc-1f71-bc071f71bc07",
+    "id": "0c1fa654-a654-0c1f-54a6-1f0c54a61f0c",
     "self": "Self value",
     "content": "Stream",
     "contentUrl": "https://example.com/contentUrl/"

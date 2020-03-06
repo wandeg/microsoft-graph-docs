@@ -20,15 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTableRows](../api/workbooktablerow-list.md)|[workbookTableRow](../resources/workbooktablerow.md) collection|List properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) objects.|
 |[Get workbookTableRow](../api/workbooktablerow-get.md)|[workbookTableRow](../resources/workbooktablerow.md)|Read properties and relationships of the [workbookTableRow](../resources/workbooktablerow.md) object.|
-|[Create workbookTableRow](../api/workbooktablerow-create.md)|[workbookTableRow](../resources/workbooktablerow.md)|Create a new [workbookTableRow](../resources/workbooktablerow.md) object.|
-|[Delete workbookTableRow](../api/workbooktablerow-delete.md)|None|Deletes a [workbookTableRow](../resources/workbooktablerow.md).|
 |[Update workbookTableRow](../api/workbooktablerow-update.md)|[workbookTableRow](../resources/workbooktablerow.md)|Update the properties of a [workbookTableRow](../resources/workbooktablerow.md) object.|
 |[range](../api/workbooktablerow-range.md)|[workbookRange](../resources/workbookrange.md)||
 |[add](../api/workbooktablerow-add.md)|[workbookTableRow](../resources/workbooktablerow.md)||
 |[itemAt](../api/workbooktablerow-itemat.md)|[workbookTableRow](../resources/workbooktablerow.md)||
 |[count](../api/workbooktablerow-count.md)|Int32||
+|[List rows](../api/workbooktable-list-rows.md)|[workbookTableRow](../resources/workbooktablerow.md) collection|Get the workbookTableRows from the rows navigation property.|
+|[Add rows](../api/workbooktable-post-rows.md)|[workbookTableRow](../resources/workbooktablerow.md)|Add rows by posting to the rows collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [subscription](../resources/subscription.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,12 +77,12 @@ Content-Length: 732
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscription",
-    "id": "ccd590a4-90a4-ccd5-a490-d5cca490d5cc",
+    "id": "9f4529ee-29ee-9f45-ee29-459fee29459f",
     "resource": "Resource value",
     "changeType": "Change Type value",
     "clientState": "Client State value",
     "notificationUrl": "https://example.com/notificationUrl/",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "applicationId": "Application Id value",
     "creatorId": "Creator Id value",
     "includeProperties": true,

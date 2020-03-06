@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,7 +76,7 @@ Content-Length: 290
 {
   "value": {
     "@odata.type": "#microsoft.graph.domainDnsRecord",
-    "id": "f0b4a3a7-a3a7-f0b4-a7a3-b4f0a7a3b4f0",
+    "id": "e2ed6828-6828-e2ed-2868-ede22868ede2",
     "isOptional": true,
     "label": "Label value",
     "recordType": "Record Type value",

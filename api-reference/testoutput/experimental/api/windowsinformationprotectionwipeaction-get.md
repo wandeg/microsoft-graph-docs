@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,18 +69,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 496
+Content-Length: 495
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionWipeAction",
-    "id": "925020d3-20d3-9250-d320-5092d3205092",
+    "id": "2989f4e5-f4e5-2989-e5f4-8929e5f48929",
     "status": "String",
     "targetedUserId": "Targeted User Id value",
     "targetedDeviceRegistrationId": "Targeted Device Registration Id value",
     "targetedDeviceName": "Targeted Device Name value",
     "targetedDeviceMacAddress": "Targeted Device Mac Address value",
-    "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
+    "lastCheckInDateTime": "2017-01-01T00:00:34.709818+03:00"
   }
 }
 ```

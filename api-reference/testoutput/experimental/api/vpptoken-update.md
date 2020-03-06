@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/vppTokens/{vppTokenId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [vppToken](../resources/vpptoken.md) object.
@@ -67,7 +67,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [vppToken](../resources/vpptoken.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -86,8 +86,8 @@ Content-length: 995
   "organizationName": "Organization Name value",
   "vppTokenAccountType": "String",
   "appleId": "Apple Id value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
   "token": "Token value",
   "state": "String",
   "tokenActionResults": [
@@ -95,8 +95,8 @@ Content-length: 995
       "@odata.type": "microsoft.graph.vppTokenActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00"
     }
   ],
   "lastSyncStatus": "String",
@@ -126,22 +126,22 @@ Content-Length: 1108
 
 {
   "@odata.type": "#microsoft.graph.vppToken",
-  "id": "be7b7b55-7b55-be7b-557b-7bbe557b7bbe",
+  "id": "e4ee2821-2821-e4ee-2128-eee42128eee4",
   "organizationName": "Organization Name value",
   "vppTokenAccountType": "String",
   "appleId": "Apple Id value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
   "token": "Token value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "state": "String",
   "tokenActionResults": [
     {
       "@odata.type": "microsoft.graph.vppTokenActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00"
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00"
     }
   ],
   "lastSyncStatus": "String",

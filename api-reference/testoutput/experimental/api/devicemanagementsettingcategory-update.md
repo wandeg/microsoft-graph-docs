@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/categories/{deviceManagementSettingCategoryId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementSettingCategory](../resources/devicemanagementsettingcategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 162
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingCategory",
-  "id": "fcc4bc02-bc02-fcc4-02bc-c4fc02bcc4fc",
+  "id": "0c0fccdf-ccdf-0c0f-dfcc-0f0cdfcc0f0c",
   "displayName": "Display Name value"
 }
 ```

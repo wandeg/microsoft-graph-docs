@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/settings/shiftPreferences
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [shiftPreferences](../resources/shiftpreferences.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [shiftPreferences](../resources/shiftpreferences.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -100,8 +100,8 @@ Content-length: 1102
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.timeRange",
-          "startTime": "12:02:50.6370000",
-          "endTime": "12:02:54.9570000"
+          "startTime": "12:00:03.0490000",
+          "endTime": "11:57:54.2000000"
         }
       ]
     }
@@ -119,13 +119,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1646
+Content-Length: 1647
 
 {
   "@odata.type": "#microsoft.graph.shiftPreferences",
-  "id": "4aa2d663-d663-4aa2-63d6-a24a63d6a24a",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "id": "b7355a65-5a65-b735-655a-35b7655a35b7",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -170,8 +170,8 @@ Content-Length: 1646
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.timeRange",
-          "startTime": "12:02:50.6370000",
-          "endTime": "12:02:54.9570000"
+          "startTime": "12:00:03.0490000",
+          "endTime": "11:57:54.2000000"
         }
       ]
     }

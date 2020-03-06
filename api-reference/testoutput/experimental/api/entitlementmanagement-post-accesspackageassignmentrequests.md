@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /identityGovernance/entitlementManagement/accessPackageAssignmentRequests/$
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -79,8 +79,8 @@ Content-length: 389
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "isValidationOnly": true,
-  "completedDate": "2016-12-31T23:57:08.7151202+03:00",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "completedDate": "2016-12-31T23:58:45.2006324+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "justification": "Justification value"
 }
 ```
@@ -96,18 +96,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 496
+Content-Length: 497
 
 {
   "@odata.type": "#microsoft.graph.accessPackageAssignmentRequest",
-  "id": "bf55d753-d753-bf55-53d7-55bf53d755bf",
+  "id": "732f916a-916a-732f-6a91-2f736a912f73",
   "requestType": "Request Type value",
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "isValidationOnly": true,
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "completedDate": "2016-12-31T23:57:08.7151202+03:00",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "completedDate": "2016-12-31T23:58:45.2006324+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
   "justification": "Justification value"
 }
 ```

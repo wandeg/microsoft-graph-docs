@@ -20,10 +20,7 @@ Inherits from [stsPolicy](../resources/stspolicy.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List tokenLifetimePolicies](../api/tokenlifetimepolicy-list.md)|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) collection|List properties and relationships of the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) objects.|
 |[Get tokenLifetimePolicy](../api/tokenlifetimepolicy-get.md)|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md)|Read properties and relationships of the [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.|
-|[Create tokenLifetimePolicy](../api/tokenlifetimepolicy-create.md)|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md)|Create a new [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.|
-|[Delete tokenLifetimePolicy](../api/tokenlifetimepolicy-delete.md)|None|Deletes a [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md).|
 |[Update tokenLifetimePolicy](../api/tokenlifetimepolicy-update.md)|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md)|Update the properties of a [tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) object.|
 |[List appliesTo](../api/tokenlifetimepolicy-list-appliesto.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the appliesTo navigation property.|
 |[Create appliesTo](../api/tokenlifetimepolicy-post-appliesto.md)|[directoryObject](../resources/directoryobject.md)|Create appliesTo by posting to the appliesTo collection.|
@@ -42,7 +39,7 @@ Inherits from [stsPolicy](../resources/stspolicy.md)
 |:---|:---|:---|
 |appliesTo|[directoryObject](../resources/directoryobject.md) collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

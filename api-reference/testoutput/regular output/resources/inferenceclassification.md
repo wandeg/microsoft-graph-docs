@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List inferenceClassifications](../api/inferenceclassification-list.md)|[inferenceClassification](../resources/inferenceclassification.md) collection|List properties and relationships of the [inferenceClassification](../resources/inferenceclassification.md) objects.|
 |[Get inferenceClassification](../api/inferenceclassification-get.md)|[inferenceClassification](../resources/inferenceclassification.md)|Read properties and relationships of the [inferenceClassification](../resources/inferenceclassification.md) object.|
-|[Create inferenceClassification](../api/inferenceclassification-create.md)|[inferenceClassification](../resources/inferenceclassification.md)|Create a new [inferenceClassification](../resources/inferenceclassification.md) object.|
-|[Delete inferenceClassification](../api/inferenceclassification-delete.md)|None|Deletes a [inferenceClassification](../resources/inferenceclassification.md).|
 |[Update inferenceClassification](../api/inferenceclassification-update.md)|[inferenceClassification](../resources/inferenceclassification.md)|Update the properties of a [inferenceClassification](../resources/inferenceclassification.md) object.|
 |[List overrides](../api/inferenceclassification-list-overrides.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) collection|Get the inferenceClassificationOverrides from the overrides navigation property.|
 |[Add overrides](../api/inferenceclassification-post-overrides.md)|[inferenceClassificationOverride](../resources/inferenceclassificationoverride.md)|Add overrides by posting to the overrides collection.|

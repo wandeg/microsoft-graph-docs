@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,11 +74,11 @@ Content-Length: 362
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceUserStatus",
-    "id": "5bd9c0b8-c0b8-5bd9-b8c0-d95bb8c0d95b",
+    "id": "b0839417-9417-b083-1794-83b0179483b0",
     "userDisplayName": "User Display Name value",
     "devicesCount": 12,
     "status": "String",
-    "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+    "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

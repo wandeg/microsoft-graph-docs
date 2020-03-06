@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileAppAssignments](../api/mobileappassignment-list.md)|[mobileAppAssignment](../resources/mobileappassignment.md) collection|List properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) objects.|
 |[Get mobileAppAssignment](../api/mobileappassignment-get.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Read properties and relationships of the [mobileAppAssignment](../resources/mobileappassignment.md) object.|
-|[Create mobileAppAssignment](../api/mobileappassignment-create.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Create a new [mobileAppAssignment](../resources/mobileappassignment.md) object.|
-|[Delete mobileAppAssignment](../api/mobileappassignment-delete.md)|None|Deletes a [mobileAppAssignment](../resources/mobileappassignment.md).|
 |[Update mobileAppAssignment](../api/mobileappassignment-update.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Update the properties of a [mobileAppAssignment](../resources/mobileappassignment.md) object.|
+|[List assignments](../api/mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
+|[Add assignments](../api/mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|

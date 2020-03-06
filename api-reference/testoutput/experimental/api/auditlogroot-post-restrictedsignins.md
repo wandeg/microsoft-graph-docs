@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /auditLogs/restrictedSignIns/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [restrictedSignIn](../resources/restrictedsignin.md) object.
@@ -88,7 +88,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [restrictedSignIn](../resources/restrictedsignin.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -126,7 +126,7 @@ Content-length: 3854
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
+      "authenticationStepDateTime": "2016-12-31T23:57:38.2707349+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -217,7 +217,7 @@ Content-length: 3854
   "userDisplayName": "User Display Name value",
   "userId": "User Id value",
   "userPrincipalName": "User Principal Name value",
-  "targetTenantId": "3cfa4394-4394-3cfa-9443-fa3c9443fa3c"
+  "targetTenantId": "17e4510a-510a-17e4-0a51-e4170a51e417"
 }
 ```
 
@@ -232,11 +232,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3961
+Content-Length: 3962
 
 {
   "@odata.type": "#microsoft.graph.restrictedSignIn",
-  "id": "5262e234-e234-5262-34e2-625234e26252",
+  "id": "8cccc326-c326-8ccc-26c3-cc8c26c3cc8c",
   "alternateSignInName": "Alternate Sign In Name value",
   "appDisplayName": "App Display Name value",
   "appId": "App Id value",
@@ -259,7 +259,7 @@ Content-Length: 3961
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
+      "authenticationStepDateTime": "2016-12-31T23:57:38.2707349+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -287,7 +287,7 @@ Content-Length: 3961
   "clientAppUsed": "Client App Used value",
   "conditionalAccessStatus": "String",
   "correlationId": "Correlation Id value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "deviceDetail": {
     "@odata.type": "microsoft.graph.deviceDetail",
     "deviceId": "Device Id value",
@@ -351,7 +351,7 @@ Content-Length: 3961
   "userDisplayName": "User Display Name value",
   "userId": "User Id value",
   "userPrincipalName": "User Principal Name value",
-  "targetTenantId": "3cfa4394-4394-3cfa-9443-fa3c9443fa3c"
+  "targetTenantId": "17e4510a-510a-17e4-0a51-e4170a51e417"
 }
 ```
 

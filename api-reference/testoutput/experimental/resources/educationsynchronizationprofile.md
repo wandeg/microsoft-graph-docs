@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSynchronizationProfiles](../api/educationsynchronizationprofile-list.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) collection|List properties and relationships of the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) objects.|
 |[Get educationSynchronizationProfile](../api/educationsynchronizationprofile-get.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md)|Read properties and relationships of the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.|
-|[Create educationSynchronizationProfile](../api/educationsynchronizationprofile-create.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md)|Create a new [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.|
-|[Delete educationSynchronizationProfile](../api/educationsynchronizationprofile-delete.md)|None|Deletes a [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md).|
 |[Update educationSynchronizationProfile](../api/educationsynchronizationprofile-update.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md)|Update the properties of a [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.|
 |[resume](../api/educationsynchronizationprofile-resume.md)|None||
 |[pause](../api/educationsynchronizationprofile-pause.md)|None||
@@ -33,8 +30,6 @@ Inherits from [entity](../resources/entity.md)
 |[List errors](../api/educationsynchronizationprofile-list-errors.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md) collection|Get the educationSynchronizationErrors from the errors navigation property.|
 |[Add errors](../api/educationsynchronizationprofile-post-errors.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Add errors by posting to the errors collection.|
 |[Get educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-get.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Read properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
-|[List synchronizationProfiles](../api/educationroot-list-synchronizationprofiles.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) collection|Get the educationSynchronizationProfiles from the synchronizationProfiles navigation property.|
-|[Add synchronizationProfiles](../api/educationroot-post-synchronizationprofiles.md)|[educationSynchronizationProfile](../resources/educationsynchronizationprofile.md)|Add synchronizationProfiles by posting to the synchronizationProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -53,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 |errors|[educationSynchronizationError](../resources/educationsynchronizationerror.md) collection||
 |profileStatus|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

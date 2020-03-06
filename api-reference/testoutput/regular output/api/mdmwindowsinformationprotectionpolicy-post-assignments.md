@@ -34,8 +34,8 @@ POST /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInf
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) object.
@@ -89,7 +89,7 @@ Content-Length: 223
 
 {
   "@odata.type": "#microsoft.graph.targetedManagedAppPolicyAssignment",
-  "id": "b5c0fcca-fcca-b5c0-cafc-c0b5cafcc0b5",
+  "id": "dcc407c4-07c4-dcc4-c407-c4dcc407c4dc",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   }

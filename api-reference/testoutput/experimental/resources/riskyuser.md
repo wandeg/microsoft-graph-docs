@@ -49,7 +49,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |history|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

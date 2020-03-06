@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceInstallStates](../api/deviceinstallstate-list.md)|[deviceInstallState](../resources/deviceinstallstate.md) collection|List properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) objects.|
 |[Get deviceInstallState](../api/deviceinstallstate-get.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Read properties and relationships of the [deviceInstallState](../resources/deviceinstallstate.md) object.|
-|[Create deviceInstallState](../api/deviceinstallstate-create.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Create a new [deviceInstallState](../resources/deviceinstallstate.md) object.|
-|[Delete deviceInstallState](../api/deviceinstallstate-delete.md)|None|Deletes a [deviceInstallState](../resources/deviceinstallstate.md).|
 |[Update deviceInstallState](../api/deviceinstallstate-update.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Update the properties of a [deviceInstallState](../resources/deviceinstallstate.md) object.|
+|[List deviceStates](../api/managedebook-list-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md) collection|Get the deviceInstallStates from the deviceStates navigation property.|
+|[Add deviceStates](../api/managedebook-post-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Add deviceStates by posting to the deviceStates collection.|
 
 ## Properties
 |Property|Type|Description|

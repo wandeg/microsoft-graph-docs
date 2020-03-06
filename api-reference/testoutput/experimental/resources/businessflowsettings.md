@@ -34,7 +34,7 @@ Inherits from [accessReviewSettings](../resources/accessreviewsettings.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

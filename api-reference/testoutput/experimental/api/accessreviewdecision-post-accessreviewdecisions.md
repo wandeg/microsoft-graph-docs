@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,8 +38,8 @@ POST /approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestI
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessReviewDecision](../resources/accessreviewdecision.md) object.
@@ -64,7 +64,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [accessReviewDecision](../resources/accessreviewdecision.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,13 +88,13 @@ Content-length: 720
     "ipAddress": "Ip Address value",
     "userPrincipalName": "User Principal Name value"
   },
-  "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
+  "reviewedDateTime": "2016-12-31T23:59:33.2071135+03:00",
   "reviewResult": "Review Result value",
   "justification": "Justification value",
   "appliedBy": {
     "@odata.type": "microsoft.graph.userIdentity"
   },
-  "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
+  "appliedDateTime": "2016-12-31T23:57:42.3349552+03:00",
   "applyResult": "Apply Result value",
   "accessRecommendation": "Access Recommendation value"
 }
@@ -115,7 +115,7 @@ Content-Length: 769
 
 {
   "@odata.type": "#microsoft.graph.accessReviewDecision",
-  "id": "903da73c-a73c-903d-3ca7-3d903ca73d90",
+  "id": "1cb23cf6-3cf6-1cb2-f63c-b21cf63cb21c",
   "accessReviewId": "Access Review Id value",
   "reviewedBy": {
     "@odata.type": "microsoft.graph.userIdentity",
@@ -124,13 +124,13 @@ Content-Length: 769
     "ipAddress": "Ip Address value",
     "userPrincipalName": "User Principal Name value"
   },
-  "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
+  "reviewedDateTime": "2016-12-31T23:59:33.2071135+03:00",
   "reviewResult": "Review Result value",
   "justification": "Justification value",
   "appliedBy": {
     "@odata.type": "microsoft.graph.userIdentity"
   },
-  "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
+  "appliedDateTime": "2016-12-31T23:57:42.3349552+03:00",
   "applyResult": "Apply Result value",
   "accessRecommendation": "Access Recommendation value"
 }

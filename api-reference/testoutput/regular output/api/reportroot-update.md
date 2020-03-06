@@ -34,7 +34,7 @@ PATCH /reports
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [reportRoot](../resources/reportroot.md) object.
@@ -83,7 +83,7 @@ Content-Length: 101
 
 {
   "@odata.type": "#microsoft.graph.reportRoot",
-  "id": "14fb14b9-14b9-14fb-b914-fb14b914fb14"
+  "id": "7668d263-d263-7668-63d2-687663d26876"
 }
 ```
 

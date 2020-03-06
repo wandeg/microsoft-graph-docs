@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /connections
 GET /external/connections
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [externalConnection](../resources/externalconnection.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 390
   "value": [
     {
       "@odata.type": "#microsoft.graph.externalConnection",
-      "id": "1e85e39c-e39c-1e85-9ce3-851e9ce3851e",
+      "id": "6ee5c023-c023-6ee5-23c0-e56e23c0e56e",
       "name": "Name value",
       "description": "Description value",
       "configuration": {

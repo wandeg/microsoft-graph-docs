@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/deviceCompliancePolicies
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 391
+Content-Length: 393
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicy",
-      "id": "ad358e6a-8e6a-ad35-6a8e-35ad6a8e35ad",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "id": "f20ef73e-f73e-f20e-3ef7-0ef23ef70ef2",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "displayName": "Display Name value",
       "version": 7
     }

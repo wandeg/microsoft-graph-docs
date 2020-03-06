@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /Security/ipSecurityProfiles/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [ipSecurityProfile](../resources/ipsecurityprofile.md) object.
@@ -64,7 +64,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [ipSecurityProfile](../resources/ipsecurityprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/Security/ipSecurityProfiles
 Content-type: application/json
-Content-length: 1196
+Content-length: 1197
 
 {
   "@odata.type": "#microsoft.graph.ipSecurityProfile",
@@ -88,7 +88,7 @@ Content-length: 1196
   "azureTenantId": "Azure Tenant Id value",
   "countHits": 9,
   "countHosts": 10,
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
   "ipCategories": [
     {
       "@odata.type": "microsoft.graph.ipCategory",
@@ -107,7 +107,7 @@ Content-length: 1196
       "state": "State value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"
@@ -132,11 +132,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1245
+Content-Length: 1246
 
 {
   "@odata.type": "#microsoft.graph.ipSecurityProfile",
-  "id": "0bfa692b-692b-0bfa-2b69-fa0b2b69fa0b",
+  "id": "2faf0a91-0a91-2faf-910a-af2f910aaf2f",
   "activityGroupNames": [
     "Activity Group Names value"
   ],
@@ -145,7 +145,7 @@ Content-Length: 1245
   "azureTenantId": "Azure Tenant Id value",
   "countHits": 9,
   "countHosts": 10,
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
   "ipCategories": [
     {
       "@odata.type": "microsoft.graph.ipCategory",
@@ -164,7 +164,7 @@ Content-Length: 1245
       "state": "State value"
     }
   ],
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"

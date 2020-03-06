@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationUserOverviews](../api/deviceconfigurationuseroverview-list.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) collection|List properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) objects.|
 |[Get deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-get.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Read properties and relationships of the [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[Create deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-create.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Create a new [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
-|[Delete deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-delete.md)|None|Deletes a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md).|
 |[Update deviceConfigurationUserOverview](../api/deviceconfigurationuseroverview-update.md)|[deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md)|Update the properties of a [deviceConfigurationUserOverview](../resources/deviceconfigurationuseroverview.md) object.|
 
 ## Properties
@@ -42,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

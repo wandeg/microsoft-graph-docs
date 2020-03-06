@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List journalLines](../api/journalline-list.md)|[journalLine](../resources/journalline.md) collection|List properties and relationships of the [journalLine](../resources/journalline.md) objects.|
 |[Get journalLine](../api/journalline-get.md)|[journalLine](../resources/journalline.md)|Read properties and relationships of the [journalLine](../resources/journalline.md) object.|
-|[Create journalLine](../api/journalline-create.md)|[journalLine](../resources/journalline.md)|Create a new [journalLine](../resources/journalline.md) object.|
-|[Delete journalLine](../api/journalline-delete.md)|None|Deletes a [journalLine](../resources/journalline.md).|
 |[Update journalLine](../api/journalline-update.md)|[journalLine](../resources/journalline.md)|Update the properties of a [journalLine](../resources/journalline.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List journalLines](../api/company-list-journallines.md)|[journalLine](../resources/journalline.md) collection|Get the journalLines from the journalLines navigation property.|
+|[Add journalLines](../api/company-post-journallines.md)|[journalLine](../resources/journalline.md)|Add journalLines by posting to the journalLines collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |account|[account](../resources/account.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -34,8 +34,8 @@ POST /organization
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [organization](../resources/organization.md) object.
@@ -86,18 +86,18 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/organization
 Content-type: application/json
-Content-length: 1942
+Content-length: 1943
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
+      "assignedDateTime": "2017-01-01T00:00:28.2981378+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552"
     }
   ],
   "businessPhones": [
@@ -111,7 +111,7 @@ Content-length: 1942
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -162,19 +162,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2050
+Content-Length: 2051
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "id": "0e36e1aa-e1aa-0e36-aae1-360eaae1360e",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "8286d377-d377-8286-77d3-868277d38682",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:03:00.500255+03:00",
+      "assignedDateTime": "2017-01-01T00:00:28.2981378+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "75f20026-0026-75f2-2600-f2752600f275"
+      "servicePlanId": "529561e8-61e8-5295-e861-9552e8619552"
     }
   ],
   "businessPhones": [
@@ -183,13 +183,13 @@ Content-Length: 2050
   "city": "City value",
   "country": "Country value",
   "countryLetterCode": "Country Letter Code value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "creationType": "Creation Type value",
   "displayName": "Display Name value",
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",

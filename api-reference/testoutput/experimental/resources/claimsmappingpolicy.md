@@ -20,10 +20,7 @@ Inherits from [stsPolicy](../resources/stspolicy.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List claimsMappingPolicies](../api/claimsmappingpolicy-list.md)|[claimsMappingPolicy](../resources/claimsmappingpolicy.md) collection|List properties and relationships of the [claimsMappingPolicy](../resources/claimsmappingpolicy.md) objects.|
 |[Get claimsMappingPolicy](../api/claimsmappingpolicy-get.md)|[claimsMappingPolicy](../resources/claimsmappingpolicy.md)|Read properties and relationships of the [claimsMappingPolicy](../resources/claimsmappingpolicy.md) object.|
-|[Create claimsMappingPolicy](../api/claimsmappingpolicy-create.md)|[claimsMappingPolicy](../resources/claimsmappingpolicy.md)|Create a new [claimsMappingPolicy](../resources/claimsmappingpolicy.md) object.|
-|[Delete claimsMappingPolicy](../api/claimsmappingpolicy-delete.md)|None|Deletes a [claimsMappingPolicy](../resources/claimsmappingpolicy.md).|
 |[Update claimsMappingPolicy](../api/claimsmappingpolicy-update.md)|[claimsMappingPolicy](../resources/claimsmappingpolicy.md)|Update the properties of a [claimsMappingPolicy](../resources/claimsmappingpolicy.md) object.|
 |[List appliesTo](../api/claimsmappingpolicy-list-appliesto.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the appliesTo navigation property.|
 |[Create appliesTo](../api/claimsmappingpolicy-post-appliesto.md)|[directoryObject](../resources/directoryobject.md)|Create appliesTo by posting to the appliesTo collection.|
@@ -42,7 +39,7 @@ Inherits from [stsPolicy](../resources/stspolicy.md)
 |:---|:---|:---|
 |appliesTo|[directoryObject](../resources/directoryobject.md) collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

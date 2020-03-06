@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationUserStatuses](../api/deviceconfigurationuserstatus-list.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|List properties and relationships of the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) objects.|
 |[Get deviceConfigurationUserStatus](../api/deviceconfigurationuserstatus-get.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Read properties and relationships of the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.|
-|[Create deviceConfigurationUserStatus](../api/deviceconfigurationuserstatus-create.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Create a new [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.|
-|[Delete deviceConfigurationUserStatus](../api/deviceconfigurationuserstatus-delete.md)|None|Deletes a [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md).|
 |[Update deviceConfigurationUserStatus](../api/deviceconfigurationuserstatus-update.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Update the properties of a [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.|
+|[List userStatuses](../api/deviceconfiguration-list-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) collection|Get the deviceConfigurationUserStatuses from the userStatuses navigation property.|
+|[Add userStatuses](../api/deviceconfiguration-post-userstatuses.md)|[deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md)|Add userStatuses by posting to the userStatuses collection.|
 
 ## Properties
 |Property|Type|Description|

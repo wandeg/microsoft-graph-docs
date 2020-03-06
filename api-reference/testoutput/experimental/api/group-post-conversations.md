@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/conversations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversation](../resources/conversation.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [conversation](../resources/conversation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,13 +69,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/groups/{groupsId}/conversations
 Content-type: application/json
-Content-length: 257
+Content-length: 260
 
 {
   "@odata.type": "#microsoft.graph.conversation",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:37.0008399+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -94,14 +94,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 306
+Content-Length: 309
 
 {
   "@odata.type": "#microsoft.graph.conversation",
-  "id": "aa124df4-4df4-aa12-f44d-12aaf44d12aa",
+  "id": "5537493e-493e-5537-3e49-37553e493755",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:37.0008399+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

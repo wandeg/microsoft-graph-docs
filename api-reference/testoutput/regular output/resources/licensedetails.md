@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List licenseDetailses](../api/licensedetails-list.md)|[licenseDetails](../resources/licensedetails.md) collection|List properties and relationships of the [licenseDetails](../resources/licensedetails.md) objects.|
 |[Get licenseDetails](../api/licensedetails-get.md)|[licenseDetails](../resources/licensedetails.md)|Read properties and relationships of the [licenseDetails](../resources/licensedetails.md) object.|
-|[Create licenseDetails](../api/licensedetails-create.md)|[licenseDetails](../resources/licensedetails.md)|Create a new [licenseDetails](../resources/licensedetails.md) object.|
-|[Delete licenseDetails](../api/licensedetails-delete.md)|None|Deletes a [licenseDetails](../resources/licensedetails.md).|
 |[Update licenseDetails](../api/licensedetails-update.md)|[licenseDetails](../resources/licensedetails.md)|Update the properties of a [licenseDetails](../resources/licensedetails.md) object.|
+|[List licenseDetails](../api/user-list-licensedetails.md)|[licenseDetails](../resources/licensedetails.md) collection|Get the licenseDetailses from the licenseDetails navigation property.|
+|[Add licenseDetails](../api/user-post-licensedetails.md)|[licenseDetails](../resources/licensedetails.md)|Add licenseDetails by posting to the licenseDetails collection.|
 
 ## Properties
 |Property|Type|Description|

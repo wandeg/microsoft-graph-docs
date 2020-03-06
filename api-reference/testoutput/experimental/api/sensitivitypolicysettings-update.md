@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /informationProtection/sensitivityPolicySettings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [sensitivityPolicySettings](../resources/sensitivitypolicysettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.sensitivityPolicySettings",
-  "id": "359acee7-cee7-359a-e7ce-9a35e7ce9a35",
+  "id": "36d861a1-61a1-36d8-a161-d836a161d836",
   "isMandatory": true,
   "helpWebUrl": "https://example.com/helpWebUrl/",
   "downgradeSensitivityRequiresJustification": true

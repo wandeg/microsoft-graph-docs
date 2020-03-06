@@ -63,7 +63,7 @@ Inherits from [entity](../resources/entity.md)
 |myDecisions|[accessReviewDecision](../resources/accessreviewdecision.md) collection||
 |reviewers|[accessReviewReviewer](../resources/accessreviewreviewer.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

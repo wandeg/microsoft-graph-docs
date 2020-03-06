@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/outlook/masterCategories
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 217
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookCategory",
-      "id": "e650452c-452c-e650-2c45-50e62c4550e6",
+      "id": "f513cc1c-cc1c-f513-1ccc-13f51ccc13f5",
       "displayName": "Display Name value",
       "color": "String"
     }

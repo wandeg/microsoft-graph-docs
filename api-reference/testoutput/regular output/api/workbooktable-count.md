@@ -35,7 +35,7 @@ GET /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.

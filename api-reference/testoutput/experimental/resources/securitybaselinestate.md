@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List securityBaselineStates](../api/securitybaselinestate-list.md)|[securityBaselineState](../resources/securitybaselinestate.md) collection|List properties and relationships of the [securityBaselineState](../resources/securitybaselinestate.md) objects.|
 |[Get securityBaselineState](../api/securitybaselinestate-get.md)|[securityBaselineState](../resources/securitybaselinestate.md)|Read properties and relationships of the [securityBaselineState](../resources/securitybaselinestate.md) object.|
-|[Create securityBaselineState](../api/securitybaselinestate-create.md)|[securityBaselineState](../resources/securitybaselinestate.md)|Create a new [securityBaselineState](../resources/securitybaselinestate.md) object.|
-|[Delete securityBaselineState](../api/securitybaselinestate-delete.md)|None|Deletes a [securityBaselineState](../resources/securitybaselinestate.md).|
 |[Update securityBaselineState](../api/securitybaselinestate-update.md)|[securityBaselineState](../resources/securitybaselinestate.md)|Update the properties of a [securityBaselineState](../resources/securitybaselinestate.md) object.|
 |[List settingStates](../api/securitybaselinestate-list-settingstates.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md) collection|Get the securityBaselineSettingStates from the settingStates navigation property.|
 |[Add settingStates](../api/securitybaselinestate-post-settingstates.md)|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md)|Add settingStates by posting to the settingStates collection.|
+|[List securityBaselineStates](../api/manageddevice-list-securitybaselinestates.md)|[securityBaselineState](../resources/securitybaselinestate.md) collection|Get the securityBaselineStates from the securityBaselineStates navigation property.|
+|[Add securityBaselineStates](../api/manageddevice-post-securitybaselinestates.md)|[securityBaselineState](../resources/securitybaselinestate.md)|Add securityBaselineStates by posting to the securityBaselineStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |settingStates|[securityBaselineSettingState](../resources/securitybaselinesettingstate.md) collection|The security baseline state for different settings for a device|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -46,7 +46,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -54,7 +54,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceConfigurationDeviceOverview](../resources/deviceconfigurationdeviceoverview.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 435
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationDeviceOverview",
-    "id": "26ae207a-207a-26ae-7a20-ae267a20ae26",
+    "id": "d05459f6-59f6-d054-f659-54d0f65954d0",
     "pendingCount": 12,
     "notApplicableCount": 2,
     "notApplicablePlatformCount": 10,
@@ -91,7 +91,7 @@ Content-Length: 435
     "errorCount": 10,
     "failedCount": 11,
     "conflictCount": 13,
-    "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
+    "lastUpdateDateTime": "2017-01-01T00:03:04.1594077+03:00",
     "configurationVersion": 4
   }
 }

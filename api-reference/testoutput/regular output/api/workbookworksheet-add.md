@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/worksheets/add
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -87,7 +87,7 @@ Content-Length: 217
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheet",
-    "id": "df2a93d4-93d4-df2a-d493-2adfd4932adf",
+    "id": "696c9471-9471-696c-7194-6c6971946c69",
     "name": "Name value",
     "position": 8,
     "visibility": "Visibility value"

@@ -36,8 +36,8 @@ POST /users/{usersId}/joinedTeams/{groupId}/validateProperties
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -73,7 +73,7 @@ Content-length: 148
 {
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
-  "onBehalfOfUserId": "be235871-5871-be23-7158-23be715823be"
+  "onBehalfOfUserId": "1a16c2dc-c2dc-1a16-dcc2-161adcc2161a"
 }
 ```
 

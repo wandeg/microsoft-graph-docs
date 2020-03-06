@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/participants/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [participant](../resources/participant.md) object.
@@ -120,7 +120,7 @@ Content-Length: 933
 
 {
   "@odata.type": "#microsoft.graph.participant",
-  "id": "f85a15d1-15d1-f85a-d115-5af8d1155af8",
+  "id": "7110e5f2-e5f2-7110-f2e5-1071f2e51071",
   "info": {
     "@odata.type": "microsoft.graph.participantInfo",
     "identity": {

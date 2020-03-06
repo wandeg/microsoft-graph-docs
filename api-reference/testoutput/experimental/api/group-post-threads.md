@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/threads/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [conversationThread](../resources/conversationthread.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/groups/{groupsId}/threads
 Content-type: application/json
-Content-length: 624
+Content-length: 627
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
@@ -88,7 +88,7 @@ Content-length: 624
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:37.0008399+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -113,11 +113,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 673
+Content-Length: 676
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "3083ed6b-ed6b-3083-6bed-83306bed8330",
+  "id": "82340879-0879-8234-7908-348279083482",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -130,7 +130,7 @@ Content-Length: 673
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:01:37.0008399+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

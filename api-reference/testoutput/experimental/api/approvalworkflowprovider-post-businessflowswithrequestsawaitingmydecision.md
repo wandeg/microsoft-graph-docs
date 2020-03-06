@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /approvalWorkflowProviders/{approvalWorkflowProvidersId}/businessFlowsWithR
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [businessFlow](../resources/businessflow.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [businessFlow](../resources/businessflow.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -147,7 +147,7 @@ Content-Length: 1931
 
 {
   "@odata.type": "#microsoft.graph.businessFlow",
-  "id": "790ced02-ed02-790c-02ed-0c7902ed0c79",
+  "id": "ceb5aa54-aa54-ceb5-54aa-b5ce54aab5ce",
   "displayName": "Display Name value",
   "description": "Description value",
   "deDuplicationId": "De Duplication Id value",

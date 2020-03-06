@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTableSorts](../api/workbooktablesort-list.md)|[workbookTableSort](../resources/workbooktablesort.md) collection|List properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) objects.|
 |[Get workbookTableSort](../api/workbooktablesort-get.md)|[workbookTableSort](../resources/workbooktablesort.md)|Read properties and relationships of the [workbookTableSort](../resources/workbooktablesort.md) object.|
-|[Create workbookTableSort](../api/workbooktablesort-create.md)|[workbookTableSort](../resources/workbooktablesort.md)|Create a new [workbookTableSort](../resources/workbooktablesort.md) object.|
-|[Delete workbookTableSort](../api/workbooktablesort-delete.md)|None|Deletes a [workbookTableSort](../resources/workbooktablesort.md).|
 |[Update workbookTableSort](../api/workbooktablesort-update.md)|[workbookTableSort](../resources/workbooktablesort.md)|Update the properties of a [workbookTableSort](../resources/workbooktablesort.md) object.|
 |[apply](../api/workbooktablesort-apply.md)|None||
 |[clear](../api/workbooktablesort-clear.md)|None||

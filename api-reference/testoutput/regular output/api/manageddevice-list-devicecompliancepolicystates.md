@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 1164
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-      "id": "af87b971-b971-af87-71b9-87af71b987af",
+      "id": "9846958a-958a-9846-8a95-46988a954698",
       "settingStates": [
         {
           "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

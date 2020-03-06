@@ -20,13 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List securityActions](../api/securityaction-list.md)|[securityAction](../resources/securityaction.md) collection|List properties and relationships of the [securityAction](../resources/securityaction.md) objects.|
 |[Get securityAction](../api/securityaction-get.md)|[securityAction](../resources/securityaction.md)|Read properties and relationships of the [securityAction](../resources/securityaction.md) object.|
-|[Create securityAction](../api/securityaction-create.md)|[securityAction](../resources/securityaction.md)|Create a new [securityAction](../resources/securityaction.md) object.|
-|[Delete securityAction](../api/securityaction-delete.md)|None|Deletes a [securityAction](../resources/securityaction.md).|
 |[Update securityAction](../api/securityaction-update.md)|[securityAction](../resources/securityaction.md)|Update the properties of a [securityAction](../resources/securityaction.md) object.|
-|[List securityActions](../api/security-list-securityactions.md)|[securityAction](../resources/securityaction.md) collection|Get the securityActions from the securityActions navigation property.|
-|[Add securityActions](../api/security-post-securityactions.md)|[securityAction](../resources/securityaction.md)|Add securityActions by posting to the securityActions collection.|
+|[cancelSecurityAction](../api/securityaction-cancelsecurityaction.md)|None||
 
 ## Properties
 |Property|Type|Description|
@@ -50,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

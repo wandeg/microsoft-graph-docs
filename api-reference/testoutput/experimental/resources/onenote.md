@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenotes](../api/onenote-list.md)|[onenote](../resources/onenote.md) collection|List properties and relationships of the [onenote](../resources/onenote.md) objects.|
 |[Get onenote](../api/onenote-get.md)|[onenote](../resources/onenote.md)|Read properties and relationships of the [onenote](../resources/onenote.md) object.|
-|[Create onenote](../api/onenote-create.md)|[onenote](../resources/onenote.md)|Create a new [onenote](../resources/onenote.md) object.|
-|[Delete onenote](../api/onenote-delete.md)|None|Deletes a [onenote](../resources/onenote.md).|
 |[Update onenote](../api/onenote-update.md)|[onenote](../resources/onenote.md)|Update the properties of a [onenote](../resources/onenote.md) object.|
 |[List notebooks](../api/onenote-list-notebooks.md)|[notebook](../resources/notebook.md) collection|Get the notebooks from the notebooks navigation property.|
 |[Add notebooks](../api/onenote-post-notebooks.md)|[notebook](../resources/notebook.md)|Add notebooks by posting to the notebooks collection.|
@@ -53,7 +50,7 @@ Inherits from [entity](../resources/entity.md)
 |sectionGroups|[sectionGroup](../resources/sectiongroup.md) collection||
 |sections|[onenoteSection](../resources/onenotesection.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

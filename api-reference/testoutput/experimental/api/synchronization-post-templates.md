@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /applications/{applicationsId}/synchronization/templates/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [synchronizationTemplate](../resources/synchronizationtemplate.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [synchronizationTemplate](../resources/synchronizationtemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 396
 
 {
   "@odata.type": "#microsoft.graph.synchronizationTemplate",
-  "applicationId": "c409845e-845e-c409-5e84-09c45e8409c4",
+  "applicationId": "9d2c210d-210d-9d2c-0d21-2c9d0d212c9d",
   "default": true,
   "description": "Description value",
   "discoverable": true,
@@ -103,8 +103,8 @@ Content-Length: 445
 
 {
   "@odata.type": "#microsoft.graph.synchronizationTemplate",
-  "id": "ef935b80-5b80-ef93-805b-93ef805b93ef",
-  "applicationId": "c409845e-845e-c409-5e84-09c45e8409c4",
+  "id": "9f4eb57d-b57d-9f4e-7db5-4e9f7db54e9f",
+  "applicationId": "9d2c210d-210d-9d2c-0d21-2c9d0d212c9d",
   "default": true,
   "description": "Description value",
   "discoverable": true,

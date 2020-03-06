@@ -35,8 +35,8 @@ POST /users/{usersId}/people/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [person](../resources/person.md) object.
@@ -174,7 +174,7 @@ Content-Length: 2184
 
 {
   "@odata.type": "#microsoft.graph.person",
-  "id": "a87aa2bd-a2bd-a87a-bda2-7aa8bda27aa8",
+  "id": "b1d776a7-76a7-b1d7-a776-d7b1a776d7b1",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
   "surname": "Surname value",

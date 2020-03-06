@@ -48,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 |resource|[governanceResource](../resources/governanceresource.md)||
 |roleDefinition|[governanceRoleDefinition](../resources/governanceroledefinition.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

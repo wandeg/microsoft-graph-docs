@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /privilegedAccess/{privilegedAccessId}/resources
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [governanceResource](../resources/governanceresource.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,12 +75,12 @@ Content-Length: 414
   "value": [
     {
       "@odata.type": "#microsoft.graph.governanceResource",
-      "id": "07783df7-3df7-0778-f73d-7807f73d7807",
+      "id": "bfbf2df6-2df6-bfbf-f62d-bfbff62dbfbf",
       "externalId": "External Id value",
       "type": "Type value",
       "displayName": "Display Name value",
       "status": "Status value",
-      "registeredDateTime": "2017-01-01T00:03:00.6668093+03:00",
+      "registeredDateTime": "2016-12-31T23:58:28.4802985+03:00",
       "registeredRoot": "Registered Root value"
     }
   ]

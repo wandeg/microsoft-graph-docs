@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartPointFormats](../api/workbookchartpointformat-list.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md) collection|List properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) objects.|
 |[Get workbookChartPointFormat](../api/workbookchartpointformat-get.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Read properties and relationships of the [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
-|[Create workbookChartPointFormat](../api/workbookchartpointformat-create.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Create a new [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
-|[Delete workbookChartPointFormat](../api/workbookchartpointformat-delete.md)|None|Deletes a [workbookChartPointFormat](../resources/workbookchartpointformat.md).|
 |[Update workbookChartPointFormat](../api/workbookchartpointformat-update.md)|[workbookChartPointFormat](../resources/workbookchartpointformat.md)|Update the properties of a [workbookChartPointFormat](../resources/workbookchartpointformat.md) object.|
 |[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookchartfill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
 
@@ -37,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |fill|[workbookChartFill](../resources/workbookchartfill.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

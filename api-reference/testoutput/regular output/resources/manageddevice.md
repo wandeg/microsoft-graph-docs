@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedDevices](../api/manageddevice-list.md)|[managedDevice](../resources/manageddevice.md) collection|List properties and relationships of the [managedDevice](../resources/manageddevice.md) objects.|
 |[Get managedDevice](../api/manageddevice-get.md)|[managedDevice](../resources/manageddevice.md)|Read properties and relationships of the [managedDevice](../resources/manageddevice.md) object.|
-|[Create managedDevice](../api/manageddevice-create.md)|[managedDevice](../resources/manageddevice.md)|Create a new [managedDevice](../resources/manageddevice.md) object.|
-|[Delete managedDevice](../api/manageddevice-delete.md)|None|Deletes a [managedDevice](../resources/manageddevice.md).|
 |[Update managedDevice](../api/manageddevice-update.md)|[managedDevice](../resources/manageddevice.md)|Update the properties of a [managedDevice](../resources/manageddevice.md) object.|
 |[retire](../api/manageddevice-retire.md)|None||
 |[wipe](../api/manageddevice-wipe.md)|None||
@@ -48,6 +45,8 @@ Inherits from [entity](../resources/entity.md)
 |[List deviceCompliancePolicyStates](../api/manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
 |[Add deviceCompliancePolicyStates](../api/manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
 |[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/devicecategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
+|[List managedDevices](../api/user-list-manageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
+|[Add managedDevices](../api/user-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Add managedDevices by posting to the managedDevices collection.|
 
 ## Properties
 |Property|Type|Description|

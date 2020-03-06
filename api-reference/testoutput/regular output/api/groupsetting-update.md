@@ -36,7 +36,7 @@ PATCH /me/joinedTeams/{groupId}/settings/{groupSettingId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [groupSetting](../resources/groupsetting.md) object.
@@ -97,7 +97,7 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.groupSetting",
-  "id": "5bb8c5e5-c5e5-5bb8-e5c5-b85be5c5b85b",
+  "id": "c9e5ea87-ea87-c9e5-87ea-e5c987eae5c9",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

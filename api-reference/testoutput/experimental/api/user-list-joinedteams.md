@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/joinedTeams
 GET /users/{usersId}/joinedTeams
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [team](../resources/team.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 1606
   "value": [
     {
       "@odata.type": "#microsoft.graph.team",
-      "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
+      "id": "ddebd9e2-d9e2-ddeb-e2d9-ebdde2d9ebdd",
       "displayName": "Display Name value",
       "description": "Description value",
       "internalId": "Internal Id value",

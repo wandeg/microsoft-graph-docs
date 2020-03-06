@@ -20,11 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mailFolders](../api/mailfolder-list.md)|[mailFolder](../resources/mailfolder.md) collection|List properties and relationships of the [mailFolder](../resources/mailfolder.md) objects.|
 |[Get mailFolder](../api/mailfolder-get.md)|[mailFolder](../resources/mailfolder.md)|Read properties and relationships of the [mailFolder](../resources/mailfolder.md) object.|
-|[Create mailFolder](../api/mailfolder-create.md)|[mailFolder](../resources/mailfolder.md)|Create a new [mailFolder](../resources/mailfolder.md) object.|
-|[Delete mailFolder](../api/mailfolder-delete.md)|None|Deletes a [mailFolder](../resources/mailfolder.md).|
 |[Update mailFolder](../api/mailfolder-update.md)|[mailFolder](../resources/mailfolder.md)|Update the properties of a [mailFolder](../resources/mailfolder.md) object.|
+|[delta](../api/mailfolder-delta.md)|[mailFolder](../resources/mailfolder.md) collection||
 |[copy](../api/mailfolder-copy.md)|[mailFolder](../resources/mailfolder.md)||
 |[move](../api/mailfolder-move.md)|[mailFolder](../resources/mailfolder.md)||
 |[List singleValueExtendedProperties](../api/mailfolder-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
@@ -61,7 +59,7 @@ Inherits from [entity](../resources/entity.md)
 |singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection||
 |userConfigurations|[userConfiguration](../resources/userconfiguration.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

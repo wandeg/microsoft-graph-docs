@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/agedAccountsPayable/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [agedAccountsPayable](../resources/agedaccountspayable.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [agedAccountsPayable](../resources/agedaccountspayable.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -105,7 +105,7 @@ Content-Length: 433
 
 {
   "@odata.type": "#microsoft.graph.agedAccountsPayable",
-  "id": "ed338a54-8a54-ed33-548a-33ed548a33ed",
+  "id": "e05620ff-20ff-e056-ff20-56e0ff2056e0",
   "vendorNumber": "Vendor Number value",
   "name": "Name value",
   "currencyCode": "Currency Code value",

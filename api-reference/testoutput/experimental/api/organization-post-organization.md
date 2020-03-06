@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /organization
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [organization](../resources/organization.md) object.
@@ -75,7 +75,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [organization](../resources/organization.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,18 +87,18 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/organization
 Content-type: application/json
-Content-length: 2344
+Content-length: 2345
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
+      "assignedDateTime": "2016-12-31T23:56:36.9997901+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
+      "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043"
     }
   ],
   "businessPhones": [
@@ -112,7 +112,7 @@ Content-length: 2344
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -152,9 +152,9 @@ Content-length: 2344
   "certificateConnectorSetting": {
     "@odata.type": "microsoft.graph.certificateConnectorSetting",
     "status": 6,
-    "certExpiryTime": "2017-01-01T00:00:31.0487871+03:00",
+    "certExpiryTime": "2016-12-31T23:59:52.0413798+03:00",
     "enrollmentError": "Enrollment Error value",
-    "lastConnectorConnectionTime": "2016-12-31T23:57:26.3349319+03:00",
+    "lastConnectorConnectionTime": "2016-12-31T23:59:18.4255146+03:00",
     "connectorVersion": "Connector Version value",
     "lastUploadVersion": 1
   }
@@ -172,19 +172,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2451
+Content-Length: 2453
 
 {
   "@odata.type": "#microsoft.graph.organization",
-  "id": "59cf2fa2-2fa2-59cf-a22f-cf59a22fcf59",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "id": "7e6ae08b-e08b-7e6a-8be0-6a7e8be06a7e",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
+      "assignedDateTime": "2016-12-31T23:56:36.9997901+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
+      "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043"
     }
   ],
   "businessPhones": [
@@ -193,13 +193,13 @@ Content-Length: 2451
   "city": "City value",
   "country": "Country value",
   "countryLetterCode": "Country Letter Code value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "displayName": "Display Name value",
   "isMultipleDataLocationsForServicesEnabled": true,
   "marketingNotificationEmails": [
     "Marketing Notification Emails value"
   ],
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
   "onPremisesSyncEnabled": true,
   "postalCode": "Postal Code value",
   "preferredLanguage": "Preferred Language value",
@@ -239,9 +239,9 @@ Content-Length: 2451
   "certificateConnectorSetting": {
     "@odata.type": "microsoft.graph.certificateConnectorSetting",
     "status": 6,
-    "certExpiryTime": "2017-01-01T00:00:31.0487871+03:00",
+    "certExpiryTime": "2016-12-31T23:59:52.0413798+03:00",
     "enrollmentError": "Enrollment Error value",
-    "lastConnectorConnectionTime": "2016-12-31T23:57:26.3349319+03:00",
+    "lastConnectorConnectionTime": "2016-12-31T23:59:18.4255146+03:00",
     "connectorVersion": "Connector Version value",
     "lastUploadVersion": 1
   }

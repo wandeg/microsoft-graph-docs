@@ -20,10 +20,7 @@ Inherits from [educationOrganization](../resources/educationorganization.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSchools](../api/educationschool-list.md)|[educationSchool](../resources/educationschool.md) collection|List properties and relationships of the [educationSchool](../resources/educationschool.md) objects.|
 |[Get educationSchool](../api/educationschool-get.md)|[educationSchool](../resources/educationschool.md)|Read properties and relationships of the [educationSchool](../resources/educationschool.md) object.|
-|[Create educationSchool](../api/educationschool-create.md)|[educationSchool](../resources/educationschool.md)|Create a new [educationSchool](../resources/educationschool.md) object.|
-|[Delete educationSchool](../api/educationschool-delete.md)|None|Deletes a [educationSchool](../resources/educationschool.md).|
 |[Update educationSchool](../api/educationschool-update.md)|[educationSchool](../resources/educationschool.md)|Update the properties of a [educationSchool](../resources/educationschool.md) object.|
 |[List classes](../api/educationschool-list-classes.md)|[educationClass](../resources/educationclass.md) collection|Get the educationClasses from the classes navigation property.|
 |[Create classes](../api/educationschool-post-classes.md)|[educationClass](../resources/educationclass.md)|Create classes by posting to the classes collection.|

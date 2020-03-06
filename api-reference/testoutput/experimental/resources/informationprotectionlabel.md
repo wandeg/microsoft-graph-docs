@@ -20,15 +20,14 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List informationProtectionLabels](../api/informationprotectionlabel-list.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md) collection|List properties and relationships of the [informationProtectionLabel](../resources/informationprotectionlabel.md) objects.|
 |[Get informationProtectionLabel](../api/informationprotectionlabel-get.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Read properties and relationships of the [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
-|[Create informationProtectionLabel](../api/informationprotectionlabel-create.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Create a new [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
-|[Delete informationProtectionLabel](../api/informationprotectionlabel-delete.md)|None|Deletes a [informationProtectionLabel](../resources/informationprotectionlabel.md).|
 |[Update informationProtectionLabel](../api/informationprotectionlabel-update.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Update the properties of a [informationProtectionLabel](../resources/informationprotectionlabel.md) object.|
 |[extractLabel](../api/informationprotectionlabel-extractlabel.md)|[informationProtectionContentLabel](../resources/informationprotectioncontentlabel.md)||
 |[evaluateApplication](../api/informationprotectionlabel-evaluateapplication.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
 |[evaluateRemoval](../api/informationprotectionlabel-evaluateremoval.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
 |[evaluateClassificationResults](../api/informationprotectionlabel-evaluateclassificationresults.md)|[informationProtectionAction](../resources/informationprotectionaction.md) collection||
+|[List labels](../api/informationprotectionpolicy-list-labels.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md) collection|Get the informationProtectionLabels from the labels navigation property.|
+|[Add labels](../api/informationprotectionpolicy-post-labels.md)|[informationProtectionLabel](../resources/informationprotectionlabel.md)|Add labels by posting to the labels collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

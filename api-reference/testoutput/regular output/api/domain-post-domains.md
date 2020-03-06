@@ -34,8 +34,8 @@ POST /domains
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [domain](../resources/domain.md) object.
@@ -76,7 +76,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/domains
 Content-type: application/json
-Content-length: 684
+Content-length: 683
 
 {
   "@odata.type": "#microsoft.graph.domain",
@@ -98,7 +98,7 @@ Content-length: 684
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00"
+    "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00"
   }
 }
 ```
@@ -114,11 +114,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 733
+Content-Length: 732
 
 {
   "@odata.type": "#microsoft.graph.domain",
-  "id": "eb7d2cab-2cab-eb7d-ab2c-7debab2c7deb",
+  "id": "5809501f-501f-5809-1f50-09581f500958",
   "authenticationType": "Authentication Type value",
   "availabilityStatus": "Availability Status value",
   "isAdminManaged": true,
@@ -137,7 +137,7 @@ Content-Length: 733
     "@odata.type": "microsoft.graph.domainState",
     "status": "Status value",
     "operation": "Operation value",
-    "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00"
+    "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00"
   }
 }
 ```

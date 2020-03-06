@@ -20,11 +20,10 @@ Inherits from [operation](../resources/operation.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenoteOperations](../api/onenoteoperation-list.md)|[onenoteOperation](../resources/onenoteoperation.md) collection|List properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) objects.|
 |[Get onenoteOperation](../api/onenoteoperation-get.md)|[onenoteOperation](../resources/onenoteoperation.md)|Read properties and relationships of the [onenoteOperation](../resources/onenoteoperation.md) object.|
-|[Create onenoteOperation](../api/onenoteoperation-create.md)|[onenoteOperation](../resources/onenoteoperation.md)|Create a new [onenoteOperation](../resources/onenoteoperation.md) object.|
-|[Delete onenoteOperation](../api/onenoteoperation-delete.md)|None|Deletes a [onenoteOperation](../resources/onenoteoperation.md).|
 |[Update onenoteOperation](../api/onenoteoperation-update.md)|[onenoteOperation](../resources/onenoteoperation.md)|Update the properties of a [onenoteOperation](../resources/onenoteoperation.md) object.|
+|[List operations](../api/onenote-list-operations.md)|[onenoteOperation](../resources/onenoteoperation.md) collection|Get the onenoteOperations from the operations navigation property.|
+|[Add operations](../api/onenote-post-operations.md)|[onenoteOperation](../resources/onenoteoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|

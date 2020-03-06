@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /servicePrincipals/{servicePrincipalsId}/activityBasedTimeoutPolicies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 279
 
 {
   "@odata.type": "#microsoft.graph.activityBasedTimeoutPolicy",
-  "id": "e1930949-0949-e193-4909-93e1490993e1",
+  "id": "5826fc51-fc51-5826-51fc-265851fc2658",
   "description": "Description value",
   "displayName": "Display Name value",
   "definition": [

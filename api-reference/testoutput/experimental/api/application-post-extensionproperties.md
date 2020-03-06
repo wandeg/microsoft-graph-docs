@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /applications/{applicationsId}/extensionProperties/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [extensionProperty](../resources/extensionproperty.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [extensionProperty](../resources/extensionproperty.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 315
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",
@@ -99,8 +99,8 @@ Content-Length: 364
 
 {
   "@odata.type": "#microsoft.graph.extensionProperty",
-  "id": "58691e7f-1e7f-5869-7f1e-69587f1e6958",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "id": "53a4d9d8-d9d8-53a4-d8d9-a453d8d9a453",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "appDisplayName": "App Display Name value",
   "name": "Name value",
   "dataType": "Data Type value",

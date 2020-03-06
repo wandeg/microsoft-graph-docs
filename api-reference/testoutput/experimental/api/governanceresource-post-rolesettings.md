@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/rol
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [governanceRoleSetting](../resources/governancerolesetting.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [governanceRoleSetting](../resources/governancerolesetting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,7 +80,7 @@ Content-length: 809
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "isDefault": true,
-  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
   "lastUpdatedBy": "Last Updated By value",
   "adminEligibleSettings": [
     {
@@ -122,11 +122,11 @@ Content-Length: 858
 
 {
   "@odata.type": "#microsoft.graph.governanceRoleSetting",
-  "id": "7446ab92-ab92-7446-92ab-467492ab4674",
+  "id": "89f7c9af-c9af-89f7-afc9-f789afc9f789",
   "resourceId": "Resource Id value",
   "roleDefinitionId": "Role Definition Id value",
   "isDefault": true,
-  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
   "lastUpdatedBy": "Last Updated By value",
   "adminEligibleSettings": [
     {

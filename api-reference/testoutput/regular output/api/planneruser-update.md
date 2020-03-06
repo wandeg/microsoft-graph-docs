@@ -35,7 +35,7 @@ PATCH /users/{usersId}/planner
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerUser](../resources/planneruser.md) object.
@@ -84,7 +84,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.plannerUser",
-  "id": "fcd40b86-0b86-fcd4-860b-d4fc860bd4fc"
+  "id": "74f1a4ca-a4ca-74f1-caa4-f174caa4f174"
 }
 ```
 

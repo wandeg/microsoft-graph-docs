@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/outlook/taskGroups/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [outlookTaskGroup](../resources/outlooktaskgroup.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 201
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "27262869-2869-2726-6928-262769282627"
+  "groupKey": "a93d44a5-44a5-a93d-a544-3da9a5443da9"
 }
 ```
 
@@ -93,11 +93,11 @@ Content-Length: 250
 
 {
   "@odata.type": "#microsoft.graph.outlookTaskGroup",
-  "id": "40c340e6-40e6-40c3-e640-c340e640c340",
+  "id": "40636808-6808-4063-0868-634008686340",
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "27262869-2869-2726-6928-262769282627"
+  "groupKey": "a93d44a5-44a5-a93d-a544-3da9a5443da9"
 }
 ```
 

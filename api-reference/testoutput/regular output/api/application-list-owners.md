@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /applications/{applicationsId}/owners
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 210
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryObject",
-      "id": "875d82c4-82c4-875d-c482-5d87c4825d87",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
+      "id": "2f81da90-da90-2f81-90da-812f90da812f",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00"
     }
   ]
 }

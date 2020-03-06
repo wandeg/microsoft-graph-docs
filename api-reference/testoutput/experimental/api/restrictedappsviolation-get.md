@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [restrictedAppsViolation](../resources/restrictedappsviolation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 647
 {
   "value": {
     "@odata.type": "#microsoft.graph.restrictedAppsViolation",
-    "id": "ba4be45e-e45e-ba4b-5ee4-4bba5ee44bba",
+    "id": "ddeb1f1e-1f1e-ddeb-1e1f-ebdd1e1febdd",
     "userId": "User Id value",
     "userName": "User Name value",
     "managedDeviceId": "Managed Device Id value",

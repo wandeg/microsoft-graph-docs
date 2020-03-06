@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -46,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [teamsCatalogApp](../resources/teamscatalogapp.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 233
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsCatalogApp",
-    "id": "11dd4ded-4ded-11dd-ed4d-dd11ed4ddd11",
+    "id": "28bc1775-1775-28bc-7517-bc287517bc28",
     "externalId": "External Id value",
     "name": "Name value",
     "distributionMethod": "String"

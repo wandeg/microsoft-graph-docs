@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List languageProficiencies](../api/languageproficiency-list.md)|[languageProficiency](../resources/languageproficiency.md) collection|List properties and relationships of the [languageProficiency](../resources/languageproficiency.md) objects.|
 |[Get languageProficiency](../api/languageproficiency-get.md)|[languageProficiency](../resources/languageproficiency.md)|Read properties and relationships of the [languageProficiency](../resources/languageproficiency.md) object.|
-|[Create languageProficiency](../api/languageproficiency-create.md)|[languageProficiency](../resources/languageproficiency.md)|Create a new [languageProficiency](../resources/languageproficiency.md) object.|
-|[Delete languageProficiency](../api/languageproficiency-delete.md)|None|Deletes a [languageProficiency](../resources/languageproficiency.md).|
 |[Update languageProficiency](../api/languageproficiency-update.md)|[languageProficiency](../resources/languageproficiency.md)|Update the properties of a [languageProficiency](../resources/languageproficiency.md) object.|
+|[List languages](../api/profile-list-languages.md)|[languageProficiency](../resources/languageproficiency.md) collection|Get the languageProficiencies from the languages navigation property.|
+|[Add languages](../api/profile-post-languages.md)|[languageProficiency](../resources/languageproficiency.md)|Add languages by posting to the languages collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

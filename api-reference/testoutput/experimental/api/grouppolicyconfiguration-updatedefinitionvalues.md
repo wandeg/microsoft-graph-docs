@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/up
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `204 No Content` response code.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,27 +66,27 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/updateDefinitionValues
 
 Content-type: application/json
-Content-length: 749
+Content-length: 751
 
 {
   "added": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyDefinitionValue",
-      "id": "8dd3b016-b016-8dd3-16b0-d38d16b0d38d",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "id": "45953330-3330-4595-3033-954530339545",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "enabled": true,
       "configurationType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ],
   "updated": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyDefinitionValue",
-      "id": "8dd3b016-b016-8dd3-16b0-d38d16b0d38d",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "id": "45953330-3330-4595-3033-954530339545",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "enabled": true,
       "configurationType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ],
   "deletedIds": [

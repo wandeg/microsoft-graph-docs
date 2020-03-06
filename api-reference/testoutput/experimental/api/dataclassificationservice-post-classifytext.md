@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /dataClassification/classifyText/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [textClassificationRequest](../resources/textclassificationrequest.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [textClassificationRequest](../resources/textclassificationrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.textClassificationRequest",
-  "id": "e29d35fd-35fd-e29d-fd35-9de2fd359de2",
+  "id": "b28c8213-8213-b28c-1382-8cb213828cb2",
   "text": "Text value",
   "sensitiveTypeIds": [
     "Sensitive Type Ids value"

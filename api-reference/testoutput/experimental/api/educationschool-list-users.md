@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /education/classes/{educationClassId}/members/{educationUserId}/schools/{educationSchoolId}/users
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [educationUser](../resources/educationuser.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3888
+Content-Length: 3890
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationUser",
-      "id": "c668dcfd-dcfd-c668-fddc-68c6fddc68c6",
+      "id": "b1002e7a-2e7a-b100-7a2e-00b17a2e00b1",
       "relatedContacts": [
         {
           "@odata.type": "microsoft.graph.relatedContact",
@@ -130,18 +133,18 @@ Content-Length: 3888
         {
           "@odata.type": "microsoft.graph.assignedLicense",
           "disabledPlans": [
-            "d28f3feb-3feb-d28f-eb3f-8fd2eb3f8fd2"
+            "3c38c39b-c39b-3c38-9bc3-383c9bc3383c"
           ],
-          "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76"
+          "skuId": "25470e04-0e04-2547-040e-4725040e4725"
         }
       ],
       "assignedPlans": [
         {
           "@odata.type": "microsoft.graph.assignedPlan",
-          "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
+          "assignedDateTime": "2016-12-31T23:56:36.9997901+03:00",
           "capabilityStatus": "Capability Status value",
           "service": "Service value",
-          "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f"
+          "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043"
         }
       ],
       "businessPhones": [
@@ -168,7 +171,7 @@ Content-Length: 3888
           "provisioningStatus": "Provisioning Status value"
         }
       ],
-      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:59:47.8427372+03:00",
       "showInAddressList": true,
       "surname": "Surname value",
       "usageLocation": "Usage Location value",

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSynchronizationErrors](../api/educationsynchronizationerror-list.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md) collection|List properties and relationships of the [educationSynchronizationError](../resources/educationsynchronizationerror.md) objects.|
 |[Get educationSynchronizationError](../api/educationsynchronizationerror-get.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Read properties and relationships of the [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
-|[Create educationSynchronizationError](../api/educationsynchronizationerror-create.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Create a new [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
-|[Delete educationSynchronizationError](../api/educationsynchronizationerror-delete.md)|None|Deletes a [educationSynchronizationError](../resources/educationsynchronizationerror.md).|
 |[Update educationSynchronizationError](../api/educationsynchronizationerror-update.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Update the properties of a [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.|
+|[List errors](../api/educationsynchronizationprofile-list-errors.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md) collection|Get the educationSynchronizationErrors from the errors navigation property.|
+|[Add errors](../api/educationsynchronizationprofile-post-errors.md)|[educationSynchronizationError](../resources/educationsynchronizationerror.md)|Add errors by posting to the errors collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

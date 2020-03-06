@@ -39,7 +39,7 @@ PATCH /me/joinedTeams/{groupId}/rejectedSenders/{directoryObjectId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directoryObject](../resources/directoryobject.md) object.
@@ -72,7 +72,7 @@ Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00"
 }
 ```
 
@@ -90,8 +90,8 @@ Content-Length: 165
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "875d82c4-82c4-875d-c482-5d87c4825d87",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00"
+  "id": "2f81da90-da90-2f81-90da-812f90da812f",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00"
 }
 ```
 

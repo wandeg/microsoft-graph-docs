@@ -44,7 +44,7 @@ GET /me/messages/{messageId}/microsoft.graph.eventMessage/event/calendar/calenda
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,15 +76,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1975
+Content-Length: 1978
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "ecdb51ec-51ec-ecdb-ec51-dbecec51dbec",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "id": "7e29bcc4-bcc4-7e29-c4bc-297ec4bc297e",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -108,7 +108,7 @@ Content-Length: 1975
       "start": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },
-      "originalStart": "2016-12-31T23:58:27.339606+03:00",
+      "originalStart": "2016-12-31T23:59:30.1373695+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

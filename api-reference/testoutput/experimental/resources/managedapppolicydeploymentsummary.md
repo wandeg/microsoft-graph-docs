@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppPolicyDeploymentSummaries](../api/managedapppolicydeploymentsummary-list.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) collection|List properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) objects.|
 |[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[Create managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-create.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Create a new [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[Delete managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-delete.md)|None|Deletes a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md).|
 |[Update managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-update.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Update the properties of a [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
 
 ## Properties
@@ -39,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

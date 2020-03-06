@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /riskyUsers/{riskyUsersId}/history
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 757
   "value": [
     {
       "@odata.type": "#microsoft.graph.riskyUserHistoryItem",
-      "id": "680fff26-ff26-680f-26ff-0f6826ff0f68",
+      "id": "a0f90c63-0c63-a0f9-630c-f9a0630cf9a0",
       "isDeleted": true,
       "isGuest": true,
       "isProcessing": true,
-      "riskLastUpdatedDateTime": "2017-01-01T00:00:07.7265805+03:00",
+      "riskLastUpdatedDateTime": "2016-12-31T23:59:32.3790155+03:00",
       "riskLevel": "String",
       "riskState": "String",
       "riskDetail": "String",

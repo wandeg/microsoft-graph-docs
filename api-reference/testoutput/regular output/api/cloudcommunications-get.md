@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 133
 {
   "value": {
     "@odata.type": "#microsoft.graph.cloudCommunications",
-    "id": "59fb44e7-44e7-59fb-e744-fb59e744fb59"
+    "id": "86a50157-0157-86a5-5701-a5865701a586"
   }
 }
 ```

@@ -34,7 +34,7 @@ PATCH /auditLogs/restrictedSignIns/{restrictedSignInId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [restrictedSignIn](../resources/restrictedsignin.md) object.
@@ -149,7 +149,7 @@ Content-length: 2019
   ],
   "resourceDisplayName": "Resource Display Name value",
   "resourceId": "Resource Id value",
-  "targetTenantId": "711ab416-b416-711a-16b4-1a7116b41a71"
+  "targetTenantId": "c1995f70-5f70-c199-705f-99c1705f99c1"
 }
 ```
 
@@ -167,8 +167,8 @@ Content-Length: 2127
 
 {
   "@odata.type": "#microsoft.graph.restrictedSignIn",
-  "id": "0b687367-7367-0b68-6773-680b6773680b",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "id": "f7eb02a9-02a9-f7eb-a902-ebf7a902ebf7",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
   "userId": "User Id value",
@@ -229,7 +229,7 @@ Content-Length: 2127
   ],
   "resourceDisplayName": "Resource Display Name value",
   "resourceId": "Resource Id value",
-  "targetTenantId": "711ab416-b416-711a-16b4-1a7116b41a71"
+  "targetTenantId": "c1995f70-5f70-c199-705f-99c1705f99c1"
 }
 ```
 

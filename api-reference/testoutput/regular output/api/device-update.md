@@ -34,7 +34,7 @@ PATCH /devices/{devicesId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [device](../resources/device.md) object.
@@ -82,11 +82,11 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/devices/{devicesId}
 Content-type: application/json
-Content-length: 1103
+Content-length: 1108
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -96,8 +96,8 @@ Content-length: 1103
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2016-12-31T23:58:36.98+03:00",
-  "complianceExpirationDateTime": "2016-12-31T23:57:03.8837504+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:57:07.2016041+03:00",
+  "complianceExpirationDateTime": "2016-12-31T23:59:06.4917692+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
@@ -105,7 +105,7 @@ Content-length: 1103
   "isCompliant": true,
   "isManaged": true,
   "mdmAppId": "Mdm App Id value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",
@@ -130,12 +130,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1152
+Content-Length: 1157
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "id": "e2238a51-8a51-e223-518a-23e2518a23e2",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "b87728ff-28ff-b877-ff28-77b8ff2877b8",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -145,8 +145,8 @@ Content-Length: 1152
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2016-12-31T23:58:36.98+03:00",
-  "complianceExpirationDateTime": "2016-12-31T23:57:03.8837504+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:57:07.2016041+03:00",
+  "complianceExpirationDateTime": "2016-12-31T23:59:06.4917692+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
@@ -154,7 +154,7 @@ Content-Length: 1152
   "isCompliant": true,
   "isManaged": true,
   "mdmAppId": "Mdm App Id value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",

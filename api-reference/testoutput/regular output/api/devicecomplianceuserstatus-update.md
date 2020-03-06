@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/user
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) object.
@@ -74,7 +74,7 @@ Content-length: 280
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -93,11 +93,11 @@ Content-Length: 329
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceUserStatus",
-  "id": "4aff3aef-3aef-4aff-ef3a-ff4aef3aff4a",
+  "id": "67aace8e-ce8e-67aa-8ece-aa678eceaa67",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

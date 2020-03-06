@@ -114,7 +114,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |versions|[driveItemVersion](../resources/driveitemversion.md) collection||
 |workbook|[workbook](../resources/workbook.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

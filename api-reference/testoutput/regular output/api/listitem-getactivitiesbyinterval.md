@@ -38,7 +38,7 @@ GET /me/joinedTeams/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,9 +76,9 @@ Content-Length: 815
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivityStat",
-      "id": "01b4bc2f-bc2f-01b4-2fbc-b4012fbcb401",
-      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-      "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+      "id": "55a057d4-57d4-55a0-d457-a055d457a055",
+      "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+      "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
       "access": {
         "@odata.type": "microsoft.graph.itemActionStat"
       },

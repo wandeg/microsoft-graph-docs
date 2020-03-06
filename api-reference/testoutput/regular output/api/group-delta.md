@@ -36,7 +36,7 @@ GET /users/{usersId}/joinedTeams/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,15 +74,15 @@ Content-Length: 1874
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "12dc0fee-0fee-12dc-ee0f-dc12ee0fdc12",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "2c35f5de-f5de-2c35-def5-352cdef5352c",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "assignedLicenses": [
         {
           "@odata.type": "microsoft.graph.assignedLicense"
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "hasMembersWithLicenseErrors": true,
@@ -96,7 +96,7 @@ Content-Length: 1874
       "mailEnabled": true,
       "mailNickname": "Mail Nickname value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -110,7 +110,7 @@ Content-Length: 1874
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2016-12-31T23:57:32.3555352+03:00",
+      "renewedDateTime": "2017-01-01T00:01:51.8540078+03:00",
       "securityEnabled": true,
       "securityIdentifier": "Security Identifier value",
       "visibility": "Visibility value",

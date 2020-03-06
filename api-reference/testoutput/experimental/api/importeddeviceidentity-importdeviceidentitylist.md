@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/importedDeviceIdentities/importDeviceIdentityList
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [importedDeviceIdentityResult](../resources/importeddeviceidentityresult.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,12 +71,12 @@ Content-length: 644
   "importedDeviceIdentities": [
     {
       "@odata.type": "#microsoft.graph.importedDeviceIdentity",
-      "id": "381a5bef-5bef-381a-ef5b-1a38ef5b1a38",
+      "id": "c4910543-0543-c491-4305-91c4430591c4",
       "importedDeviceIdentifier": "Imported Device Identifier value",
       "importedDeviceIdentityType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String"
@@ -103,12 +103,12 @@ Content-Length: 608
   "value": [
     {
       "@odata.type": "#microsoft.graph.importedDeviceIdentityResult",
-      "id": "5a6ef58f-f58f-5a6e-8ff5-6e5a8ff56e5a",
+      "id": "d3a35447-5447-d3a3-4754-a3d34754a3d3",
       "importedDeviceIdentifier": "Imported Device Identifier value",
       "importedDeviceIdentityType": "String",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String",

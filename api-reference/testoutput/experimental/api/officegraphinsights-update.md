@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /users/{usersId}/insights
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [officeGraphInsights](../resources/officegraphinsights.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [officeGraphInsights](../resources/officegraphinsights.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,7 +84,7 @@ Content-Length: 110
 
 {
   "@odata.type": "#microsoft.graph.officeGraphInsights",
-  "id": "1c7b5d24-5d24-1c7b-245d-7b1c245d7b1c"
+  "id": "fbd118ee-18ee-fbd1-ee18-d1fbee18d1fb"
 }
 ```
 

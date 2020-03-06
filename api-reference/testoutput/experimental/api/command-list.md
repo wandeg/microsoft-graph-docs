@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -33,10 +33,13 @@ GET /devices/{devicesId}/commands
 GET /me/devices/{deviceId}/commands
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -44,7 +47,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [command](../resources/command.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +77,7 @@ Content-Length: 526
   "value": [
     {
       "@odata.type": "#microsoft.graph.command",
-      "id": "b0b6c364-c364-b0b6-64c3-b6b064c3b6b0",
+      "id": "8f51c073-c073-8f51-73c0-518f73c0518f",
       "Status": "Status value",
       "Type": "Type value",
       "AppServiceName": "App Service Name value",

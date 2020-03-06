@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/roleDefinitions/{roleDefinitionId}/roleAssignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 303
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleAssignment",
-      "id": "60194e24-4e24-6019-244e-1960244e1960",
+      "id": "2f002e57-2e57-2f00-572e-002f572e002f",
       "displayName": "Display Name value",
       "description": "Description value",
       "resourceScopes": [

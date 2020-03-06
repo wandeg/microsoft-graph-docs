@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfile
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsUpdateState](../resources/windowsupdatestate.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [windowsUpdateState](../resources/windowsupdatestate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,8 +83,8 @@ Content-length: 491
   "status": "String",
   "qualityUpdateVersion": "Quality Update Version value",
   "featureUpdateVersion": "Feature Update Version value",
-  "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
+  "lastScanDateTime": "2017-01-01T00:00:16.4088189+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00"
 }
 ```
 
@@ -103,7 +103,7 @@ Content-Length: 540
 
 {
   "@odata.type": "#microsoft.graph.windowsUpdateState",
-  "id": "98c6922f-922f-98c6-2f92-c6982f92c698",
+  "id": "1a3eada6-ada6-1a3e-a6ad-3e1aa6ad3e1a",
   "deviceId": "Device Id value",
   "userId": "User Id value",
   "deviceDisplayName": "Device Display Name value",
@@ -111,8 +111,8 @@ Content-Length: 540
   "status": "String",
   "qualityUpdateVersion": "Quality Update Version value",
   "featureUpdateVersion": "Feature Update Version value",
-  "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
+  "lastScanDateTime": "2017-01-01T00:00:16.4088189+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00"
 }
 ```
 

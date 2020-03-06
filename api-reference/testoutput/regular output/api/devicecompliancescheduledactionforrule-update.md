@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/sche
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceComplianceScheduledActionForRule](../resources/devicecompliancescheduledactionforrule.md) object.
@@ -85,7 +85,7 @@ Content-Length: 163
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-  "id": "21fc3ba2-3ba2-21fc-a23b-fc21a23bfc21",
+  "id": "50ed6941-6941-50ed-4169-ed504169ed50",
   "ruleName": "Rule Name value"
 }
 ```

@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,8 +74,8 @@ Content-Length: 320
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryRole",
-    "id": "2f74a429-a429-2f74-29a4-742f29a4742f",
-    "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+    "id": "c5011a30-1a30-c501-301a-01c5301a01c5",
+    "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
     "description": "Description value",
     "displayName": "Display Name value",
     "roleTemplateId": "Role Template Id value"

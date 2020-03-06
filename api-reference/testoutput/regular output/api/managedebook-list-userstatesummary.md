@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 295
   "value": [
     {
       "@odata.type": "#microsoft.graph.userInstallStateSummary",
-      "id": "3b22c409-c409-3b22-09c4-223b09c4223b",
+      "id": "0ed85dff-5dff-0ed8-ff5d-d80eff5dd80e",
       "userName": "User Name value",
       "installedDeviceCount": 4,
       "failedDeviceCount": 1,

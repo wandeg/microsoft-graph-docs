@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /privilegedRoles/{privilegedRolesId}/settings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [privilegedRoleSettings](../resources/privilegedrolesettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,16 +72,16 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/privilegedRoles/{privilegedRolesId}/settings
 Content-type: application/json
-Content-length: 460
+Content-length: 454
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "-PT2M51.2414314S",
-  "maxElavationDuration": "-PT1M27.9407158S",
-  "elevationDuration": "PT1M41.1840893S",
+  "minElevationDuration": "PT18.4564873S",
+  "maxElavationDuration": "PT33.2921506S",
+  "elevationDuration": "PT2M34.0794445S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,
@@ -101,17 +101,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 509
+Content-Length: 503
 
 {
   "@odata.type": "#microsoft.graph.privilegedRoleSettings",
-  "id": "d3a3282d-282d-d3a3-2d28-a3d32d28a3d3",
+  "id": "604c132f-132f-604c-2f13-4c602f134c60",
   "approverIds": [
     "Approver Ids value"
   ],
-  "minElevationDuration": "-PT2M51.2414314S",
-  "maxElavationDuration": "-PT1M27.9407158S",
-  "elevationDuration": "PT1M41.1840893S",
+  "minElevationDuration": "PT18.4564873S",
+  "maxElavationDuration": "PT33.2921506S",
+  "elevationDuration": "PT2M34.0794445S",
   "notificationToUserOnElevation": true,
   "ticketingInfoOnElevation": true,
   "mfaOnElevation": true,

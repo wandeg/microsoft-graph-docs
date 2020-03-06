@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/unitsOfMeasure
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [unitOfMeasure](../resources/unitofmeasure.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 359
   "value": [
     {
       "@odata.type": "#microsoft.graph.unitOfMeasure",
-      "id": "cdeed330-d330-cdee-30d3-eecd30d3eecd",
+      "id": "8eecf566-f566-8eec-66f5-ec8e66f5ec8e",
       "code": "Code value",
       "displayName": "Display Name value",
       "internationalStandardCode": "International Standard Code value",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

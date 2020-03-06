@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -38,8 +38,8 @@ POST /me/joinedGroups/{groupId}/sites/{siteId}/sites/remove
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -55,7 +55,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [site](../resources/site.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,23 +68,23 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/sites/remove
 
 Content-type: application/json
-Content-length: 990
+Content-length: 991
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.site",
-      "id": "492603bc-03bc-4926-bc03-2649bc032649",
+      "id": "3a51acb3-acb3-3a51-b3ac-513ab3ac513a",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"
@@ -116,23 +116,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 990
+Content-Length: 991
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.site",
-      "id": "492603bc-03bc-4926-bc03-2649bc032649",
+      "id": "3a51acb3-acb3-3a51-b3ac-513ab3ac513a",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"

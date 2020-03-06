@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List requests](../api/request-list.md)|[request](../resources/request.md) collection|List properties and relationships of the [request](../resources/request.md) objects.|
 |[Get request](../api/request-get.md)|[request](../resources/request.md)|Read properties and relationships of the [request](../resources/request.md) object.|
-|[Create request](../api/request-create.md)|[request](../resources/request.md)|Create a new [request](../resources/request.md) object.|
-|[Delete request](../api/request-delete.md)|None|Deletes a [request](../resources/request.md).|
 |[Update request](../api/request-update.md)|[request](../resources/request.md)|Update the properties of a [request](../resources/request.md) object.|
 |[stop](../api/request-stop.md)|None||
 |[recordDecisions](../api/request-recorddecisions.md)|None||
@@ -57,7 +54,7 @@ Inherits from [entity](../resources/entity.md)
 |decisions|[accessReviewDecision](../resources/accessreviewdecision.md) collection||
 |myDecisions|[accessReviewDecision](../resources/accessreviewdecision.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

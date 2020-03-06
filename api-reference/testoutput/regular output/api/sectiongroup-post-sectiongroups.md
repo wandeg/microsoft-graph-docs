@@ -34,8 +34,8 @@ POST /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/parentSectio
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sectionGroup](../resources/sectiongroup.md) object.
@@ -106,13 +106,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 810
+Content-Length: 812
 
 {
   "@odata.type": "#microsoft.graph.sectionGroup",
-  "id": "881570ee-70ee-8815-ee70-1588ee701588",
+  "id": "0d17782d-782d-0d17-2d78-170d2d78170d",
   "self": "Self value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "displayName": "Display Name value",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -130,7 +130,7 @@ Content-Length: 810
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "sectionsUrl": "https://example.com/sectionsUrl/",
   "sectionGroupsUrl": "https://example.com/sectionGroupsUrl/"
 }

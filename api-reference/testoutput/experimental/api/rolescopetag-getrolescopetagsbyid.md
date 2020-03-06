@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/roleScopeTags/getRoleScopeTagsById
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [roleScopeTag](../resources/rolescopetag.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -90,7 +90,7 @@ Content-Length: 257
   "value": [
     {
       "@odata.type": "#microsoft.graph.roleScopeTag",
-      "id": "a8a91832-1832-a8a9-3218-a9a83218a9a8",
+      "id": "ba0d5d70-5d70-ba0d-705d-0dba705d0dba",
       "displayName": "Display Name value",
       "description": "Description value",
       "isBuiltIn": true

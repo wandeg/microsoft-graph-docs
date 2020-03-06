@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List directoryAudits](../api/directoryaudit-list.md)|[directoryAudit](../resources/directoryaudit.md) collection|List properties and relationships of the [directoryAudit](../resources/directoryaudit.md) objects.|
 |[Get directoryAudit](../api/directoryaudit-get.md)|[directoryAudit](../resources/directoryaudit.md)|Read properties and relationships of the [directoryAudit](../resources/directoryaudit.md) object.|
-|[Create directoryAudit](../api/directoryaudit-create.md)|[directoryAudit](../resources/directoryaudit.md)|Create a new [directoryAudit](../resources/directoryaudit.md) object.|
-|[Delete directoryAudit](../api/directoryaudit-delete.md)|None|Deletes a [directoryAudit](../resources/directoryaudit.md).|
 |[Update directoryAudit](../api/directoryaudit-update.md)|[directoryAudit](../resources/directoryaudit.md)|Update the properties of a [directoryAudit](../resources/directoryaudit.md) object.|
 
 ## Properties

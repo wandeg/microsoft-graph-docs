@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /agreements/{agreementsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [agreement](../resources/agreement.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [agreement](../resources/agreement.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.agreement",
-  "id": "e945b4f8-b4f8-e945-f8b4-45e9f8b445e9",
+  "id": "72aaf569-f569-72aa-69f5-aa7269f5aa72",
   "displayName": "Display Name value",
   "isViewingBeforeAcceptanceRequired": true
 }

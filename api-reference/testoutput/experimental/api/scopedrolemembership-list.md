@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,10 +36,13 @@ GET /administrativeUnits/{administrativeUnitsId}/scopedRoleMembers
 GET /education/classes/{educationClassId}/members/{educationUserId}/schools/{educationSchoolId}/administrativeUnit/scopedRoleMembers
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -47,7 +50,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [scopedRoleMembership](../resources/scopedrolemembership.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +80,7 @@ Content-Length: 410
   "value": [
     {
       "@odata.type": "#microsoft.graph.scopedRoleMembership",
-      "id": "d79510a2-10a2-d795-a210-95d7a21095d7",
+      "id": "0c4f9251-9251-0c4f-5192-4f0c51924f0c",
       "roleId": "Role Id value",
       "administrativeUnitId": "Administrative Unit Id value",
       "roleMemberInfo": {

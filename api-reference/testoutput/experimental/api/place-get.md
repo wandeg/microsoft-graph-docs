@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [place](../resources/place.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 783
 {
   "value": {
     "@odata.type": "#microsoft.graph.place",
-    "id": "e803582e-582e-e803-2e58-03e82e5803e8",
+    "id": "1fa9d708-d708-1fa9-08d7-a91f08d7a91f",
     "displayName": "Display Name value",
     "geoCoordinates": {
       "@odata.type": "microsoft.graph.outlookGeoCoordinates",

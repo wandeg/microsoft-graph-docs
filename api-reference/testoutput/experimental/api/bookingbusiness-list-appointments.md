@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /bookingBusinesses/{bookingBusinessesId}/appointments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [bookingAppointment](../resources/bookingappointment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2725
+Content-Length: 2726
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingAppointment",
-      "id": "494bb340-b340-494b-40b3-4b4940b34b49",
+      "id": "00017e46-7e46-0001-467e-0100467e0100",
       "selfServiceAppointmentId": "Self Service Appointment Id value",
       "customerId": "Customer Id value",
       "customerName": "Customer Name value",
@@ -116,9 +119,9 @@ Content-Length: 2725
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },
-      "duration": "-PT1M55.0810357S",
-      "preBuffer": "-PT27.6468082S",
-      "postBuffer": "-PT49.745402S",
+      "duration": "-PT1M8.1281301S",
+      "preBuffer": "-PT2M36.5986877S",
+      "postBuffer": "PT1M50.7470612S",
       "serviceLocation": {
         "@odata.type": "microsoft.graph.location"
       },
@@ -128,7 +131,7 @@ Content-Length: 2725
       "reminders": [
         {
           "@odata.type": "microsoft.graph.bookingReminder",
-          "offset": "-PT2M15.3589096S",
+          "offset": "-PT48.1154137S",
           "recipients": "String",
           "message": "Message value"
         }

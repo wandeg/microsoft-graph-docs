@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceI
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object.
@@ -71,7 +71,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,13 +83,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/assignedDevices
 Content-type: application/json
-Content-length: 1045
+Content-length: 1044
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
   "deploymentProfileAssignmentStatus": "String",
   "deploymentProfileAssignmentDetailedStatus": "String",
-  "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
+  "deploymentProfileAssignedDateTime": "2017-01-01T00:00:35.9816118+03:00",
   "orderIdentifier": "Order Identifier value",
   "groupTag": "Group Tag value",
   "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -98,7 +98,7 @@ Content-length: 1045
   "manufacturer": "Manufacturer value",
   "model": "Model value",
   "enrollmentState": "String",
-  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+  "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
   "addressableUserName": "Addressable User Name value",
   "userPrincipalName": "User Principal Name value",
   "resourceName": "Resource Name value",
@@ -121,14 +121,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1094
+Content-Length: 1093
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
-  "id": "8e4a7471-7471-8e4a-7174-4a8e71744a8e",
+  "id": "9f94edf9-edf9-9f94-f9ed-949ff9ed949f",
   "deploymentProfileAssignmentStatus": "String",
   "deploymentProfileAssignmentDetailedStatus": "String",
-  "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
+  "deploymentProfileAssignedDateTime": "2017-01-01T00:00:35.9816118+03:00",
   "orderIdentifier": "Order Identifier value",
   "groupTag": "Group Tag value",
   "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -137,7 +137,7 @@ Content-Length: 1094
   "manufacturer": "Manufacturer value",
   "model": "Model value",
   "enrollmentState": "String",
-  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+  "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
   "addressableUserName": "Addressable User Name value",
   "userPrincipalName": "User Principal Name value",
   "resourceName": "Resource Name value",

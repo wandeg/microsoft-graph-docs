@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceManagementPartner](../resources/devicemanagementpartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,22 +69,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 995
+Content-Length: 998
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementPartner",
-    "id": "37f9f4d6-f4d6-37f9-d6f4-f937d6f4f937",
-    "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
+    "id": "0dd99392-9392-0dd9-9293-d90d9293d90d",
+    "lastHeartbeatDateTime": "2016-12-31T23:57:55.1664101+03:00",
     "partnerState": "String",
     "partnerAppType": "String",
     "singleTenantAppId": "Single Tenant App Id value",
     "displayName": "Display Name value",
     "isConfigured": true,
-    "whenPartnerDevicesWillBeRemoved": "2016-12-31T23:57:49.145587+03:00",
-    "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2016-12-31T23:58:15.2374955+03:00",
-    "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:21.026263+03:00",
-    "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:58:05.507808+03:00",
+    "whenPartnerDevicesWillBeRemoved": "2017-01-01T00:02:33.3013065+03:00",
+    "whenPartnerDevicesWillBeMarkedAsNonCompliant": "2017-01-01T00:01:55.6245208+03:00",
+    "whenPartnerDevicesWillBeRemovedDateTime": "2017-01-01T00:02:48.4388282+03:00",
+    "whenPartnerDevicesWillBeMarkedAsNonCompliantDateTime": "2016-12-31T23:56:30.0833634+03:00",
     "groupsRequiringPartnerEnrollment": [
       {
         "@odata.type": "microsoft.graph.deviceManagementPartnerAssignment",

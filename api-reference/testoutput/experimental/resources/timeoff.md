@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List timeOffs](../api/timeoff-list.md)|[timeOff](../resources/timeoff.md) collection|List properties and relationships of the [timeOff](../resources/timeoff.md) objects.|
 |[Get timeOff](../api/timeoff-get.md)|[timeOff](../resources/timeoff.md)|Read properties and relationships of the [timeOff](../resources/timeoff.md) object.|
-|[Create timeOff](../api/timeoff-create.md)|[timeOff](../resources/timeoff.md)|Create a new [timeOff](../resources/timeoff.md) object.|
-|[Delete timeOff](../api/timeoff-delete.md)|None|Deletes a [timeOff](../resources/timeoff.md).|
 |[Update timeOff](../api/timeoff-update.md)|[timeOff](../resources/timeoff.md)|Update the properties of a [timeOff](../resources/timeoff.md) object.|
 |[List timesOff](../api/schedule-list-timesoff.md)|[timeOff](../resources/timeoff.md) collection|Get the timeOffs from the timesOff navigation property.|
 |[Add timesOff](../api/schedule-post-timesoff.md)|[timeOff](../resources/timeoff.md)|Add timesOff by posting to the timesOff collection.|
@@ -42,7 +39,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

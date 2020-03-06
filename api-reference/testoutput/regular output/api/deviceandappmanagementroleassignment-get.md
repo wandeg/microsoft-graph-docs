@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 346
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleAssignment",
-    "id": "553dd9fb-d9fb-553d-fbd9-3d55fbd93d55",
+    "id": "b5febd72-bd72-b5fe-72bd-feb572bdfeb5",
     "displayName": "Display Name value",
     "description": "Description value",
     "resourceScopes": [

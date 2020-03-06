@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/autopilotEvents/{deviceManagementAutopilotEventId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) object.
@@ -72,7 +72,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,13 +84,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/autopilotEvents/{deviceManagementAutopilotEventId}
 Content-type: application/json
-Content-length: 1288
+Content-length: 1286
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementAutopilotEvent",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
-  "deviceRegisteredDateTime": "2016-12-31T23:57:58.8773333+03:00",
-  "enrollmentStartDateTime": "2017-01-01T00:00:10.1686596+03:00",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
+  "deviceRegisteredDateTime": "2017-01-01T00:00:05.810584+03:00",
+  "enrollmentStartDateTime": "2017-01-01T00:00:19.2729934+03:00",
   "enrollmentType": "String",
   "deviceSerialNumber": "Device Serial Number value",
   "managedDeviceName": "Managed Device Name value",
@@ -100,13 +100,13 @@ Content-length: 1288
   "windows10EnrollmentCompletionPageConfigurationDisplayName": "Windows10Enrollment Completion Page Configuration Display Name value",
   "deploymentState": "String",
   "osVersion": "Os Version value",
-  "deploymentDuration": "PT29.5064364S",
-  "deploymentTotalDuration": "PT1M12.7835476S",
-  "devicePreparationDuration": "PT3M6.0815359S",
-  "deviceSetupDuration": "-PT1M48.0144406S",
-  "accountSetupDuration": "-PT2M58.717337S",
-  "deploymentStartDateTime": "2017-01-01T00:02:30.5949761+03:00",
-  "deploymentEndDateTime": "2017-01-01T00:02:33.572833+03:00",
+  "deploymentDuration": "PT3M0.3227266S",
+  "deploymentTotalDuration": "PT3M29.4901414S",
+  "devicePreparationDuration": "PT54.2271471S",
+  "deviceSetupDuration": "PT1M41.4257714S",
+  "accountSetupDuration": "PT1M1.5584017S",
+  "deploymentStartDateTime": "2017-01-01T00:03:11.6371007+03:00",
+  "deploymentEndDateTime": "2017-01-01T00:00:43.0562247+03:00",
   "targetedAppCount": 0,
   "targetedPolicyCount": 3,
   "enrollmentFailureDetails": "Enrollment Failure Details value"
@@ -123,14 +123,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1337
+Content-Length: 1335
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementAutopilotEvent",
-  "id": "4dbdd31d-d31d-4dbd-1dd3-bd4d1dd3bd4d",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
-  "deviceRegisteredDateTime": "2016-12-31T23:57:58.8773333+03:00",
-  "enrollmentStartDateTime": "2017-01-01T00:00:10.1686596+03:00",
+  "id": "13cd3b64-3b64-13cd-643b-cd13643bcd13",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
+  "deviceRegisteredDateTime": "2017-01-01T00:00:05.810584+03:00",
+  "enrollmentStartDateTime": "2017-01-01T00:00:19.2729934+03:00",
   "enrollmentType": "String",
   "deviceSerialNumber": "Device Serial Number value",
   "managedDeviceName": "Managed Device Name value",
@@ -140,13 +140,13 @@ Content-Length: 1337
   "windows10EnrollmentCompletionPageConfigurationDisplayName": "Windows10Enrollment Completion Page Configuration Display Name value",
   "deploymentState": "String",
   "osVersion": "Os Version value",
-  "deploymentDuration": "PT29.5064364S",
-  "deploymentTotalDuration": "PT1M12.7835476S",
-  "devicePreparationDuration": "PT3M6.0815359S",
-  "deviceSetupDuration": "-PT1M48.0144406S",
-  "accountSetupDuration": "-PT2M58.717337S",
-  "deploymentStartDateTime": "2017-01-01T00:02:30.5949761+03:00",
-  "deploymentEndDateTime": "2017-01-01T00:02:33.572833+03:00",
+  "deploymentDuration": "PT3M0.3227266S",
+  "deploymentTotalDuration": "PT3M29.4901414S",
+  "devicePreparationDuration": "PT54.2271471S",
+  "deviceSetupDuration": "PT1M41.4257714S",
+  "accountSetupDuration": "PT1M1.5584017S",
+  "deploymentStartDateTime": "2017-01-01T00:03:11.6371007+03:00",
+  "deploymentEndDateTime": "2017-01-01T00:00:43.0562247+03:00",
   "targetedAppCount": 0,
   "targetedPolicyCount": 3,
   "enrollmentFailureDetails": "Enrollment Failure Details value"

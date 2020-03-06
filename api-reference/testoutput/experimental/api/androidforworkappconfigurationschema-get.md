@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 912
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidForWorkAppConfigurationSchema",
-    "id": "6ceef0b9-f0b9-6cee-b9f0-ee6cb9f0ee6c",
+    "id": "6f44e8c3-e8c3-6f44-c3e8-446fc3e8446f",
     "exampleJson": "ZXhhbXBsZUpzb24=",
     "schemaItems": [
       {

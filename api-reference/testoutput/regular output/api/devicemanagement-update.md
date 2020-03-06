@@ -34,7 +34,7 @@ PATCH /deviceManagement
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagement](../resources/devicemanagement.md) object.
@@ -121,7 +121,7 @@ Content-Length: 1327
 
 {
   "@odata.type": "#microsoft.graph.deviceManagement",
-  "id": "fdaf8eee-8eee-fdaf-ee8e-affdee8eaffd",
+  "id": "12d11cd9-1cd9-12d1-d91c-d112d91cd112",
   "settings": {
     "@odata.type": "microsoft.graph.deviceManagementSettings",
     "deviceComplianceCheckinThresholdDays": 4,

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [fileSecurityProfile](../resources/filesecurityprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1590
+Content-Length: 1591
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.fileSecurityProfile",
-    "id": "55b90364-0364-55b9-6403-b9556403b955",
+    "id": "4c56cd27-cd27-4c56-27cd-564c27cd564c",
     "activityGroupNames": [
       "Activity Group Names value"
     ],
@@ -85,7 +85,7 @@ Content-Length: 1590
       "Extensions value"
     ],
     "fileType": "File Type value",
-    "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+    "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
     "hashes": [
       {
         "@odata.type": "microsoft.graph.fileHash",
@@ -93,7 +93,7 @@ Content-Length: 1590
         "hashValue": "Hash Value value"
       }
     ],
-    "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+    "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
     "malwareStates": [
       {
         "@odata.type": "microsoft.graph.malwareState",

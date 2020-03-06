@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/windowsInformationProtectionPolicies/{windowsInformat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md) object.
@@ -90,7 +90,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -126,11 +126,11 @@ Content-length: 3396
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "d1668e9a-8e9a-d166-9a8e-66d19a8e66d1",
+  "rightsManagementServicesTemplateId": "4e0f5bf4-5bf4-4e0f-f45b-0f4ef45b0f4e",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [
@@ -223,15 +223,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3567
+Content-Length: 3568
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionPolicy",
-  "id": "1230e232-e232-1230-32e2-301232e23012",
+  "id": "6345eaaa-eaaa-6345-aaea-4563aaea4563",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
@@ -250,11 +250,11 @@ Content-Length: 3567
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "d1668e9a-8e9a-d166-9a8e-66d19a8e66d1",
+  "rightsManagementServicesTemplateId": "4e0f5bf4-5bf4-4e0f-f45b-0f4ef45b0f4e",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [

@@ -34,8 +34,8 @@ POST /deviceAppManagement/mobileApps/{mobileAppId}/assignments/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileAppAssignment](../resources/mobileappassignment.md) object.
@@ -95,7 +95,7 @@ Content-Length: 320
 
 {
   "@odata.type": "#microsoft.graph.mobileAppAssignment",
-  "id": "47ca0b4e-0b4e-47ca-4e0b-ca474e0bca47",
+  "id": "c124a8e4-a8e4-c124-e4a8-24c1e4a824c1",
   "intent": "String",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"

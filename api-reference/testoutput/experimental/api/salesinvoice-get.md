@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [salesInvoice](../resources/salesinvoice.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,17 +74,17 @@ Content-Length: 1993
 {
   "value": {
     "@odata.type": "#microsoft.graph.salesInvoice",
-    "id": "d96040c5-40c5-d960-c540-60d9c54060d9",
+    "id": "54aaee08-ee08-54aa-08ee-aa5408eeaa54",
     "number": "Number value",
     "externalDocumentNumber": "External Document Number value",
     "invoiceDate": "Date",
     "dueDate": "Date",
     "customerPurchaseOrderReference": "Customer Purchase Order Reference value",
-    "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+    "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
     "customerNumber": "Customer Number value",
     "customerName": "Customer Name value",
     "billToName": "Bill To Name value",
-    "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
+    "billToCustomerId": "1bdd7746-7746-1bdd-4677-dd1b4677dd1b",
     "billToCustomerNumber": "Bill To Customer Number value",
     "shipToName": "Ship To Name value",
     "shipToContact": "Ship To Contact value",
@@ -102,12 +102,12 @@ Content-Length: 1993
     "shippingPostalAddress": {
       "@odata.type": "microsoft.graph.postalAddressType"
     },
-    "currencyId": "5323df69-df69-5323-69df-235369df2353",
+    "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
     "currencyCode": "Currency Code value",
-    "orderId": "ebd7b55b-b55b-ebd7-5bb5-d7eb5bb5d7eb",
+    "orderId": "f7f9d0b6-d0b6-f7f9-b6d0-f9f7b6d0f9f7",
     "orderNumber": "Order Number value",
-    "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
-    "shipmentMethodId": "29227862-7862-2922-6278-222962782229",
+    "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
+    "shipmentMethodId": "b9539e5d-9e5d-b953-5d9e-53b95d9e53b9",
     "salesperson": "Salesperson value",
     "pricesIncludeTax": true,
     "discountAmount": "4.2",
@@ -116,7 +116,7 @@ Content-Length: 1993
     "totalTaxAmount": "4.2",
     "totalAmountIncludingTax": "4.2",
     "status": "Status value",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "phoneNumber": "Phone Number value",
     "email": "Email value"
   }

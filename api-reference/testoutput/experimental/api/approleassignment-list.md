@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,10 +37,13 @@ GET /servicePrincipals/{servicePrincipalsId}/appRoleAssignedTo
 GET /servicePrincipals/{servicePrincipalsId}/appRoleAssignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +51,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [appRoleAssignment](../resources/approleassignment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,14 +81,14 @@ Content-Length: 569
   "value": [
     {
       "@odata.type": "#microsoft.graph.appRoleAssignment",
-      "id": "1f1a57b9-57b9-1f1a-b957-1a1fb9571a1f",
-      "appRoleId": "69b07452-7452-69b0-5274-b0695274b069",
-      "creationTimestamp": "2016-12-31T23:58:26.7160995+03:00",
+      "id": "5e69c8b6-c8b6-5e69-b6c8-695eb6c8695e",
+      "appRoleId": "0f79134c-134c-0f79-4c13-790f4c13790f",
+      "creationTimestamp": "2016-12-31T23:59:15.5456155+03:00",
       "principalDisplayName": "Principal Display Name value",
-      "principalId": "b505019e-019e-b505-9e01-05b59e0105b5",
+      "principalId": "3a51c0a8-c0a8-3a51-a8c0-513aa8c0513a",
       "principalType": "Principal Type value",
       "resourceDisplayName": "Resource Display Name value",
-      "resourceId": "2fe2697f-697f-2fe2-7f69-e22f7f69e22f"
+      "resourceId": "91ea9899-9899-91ea-9998-ea919998ea91"
     }
   ]
 }

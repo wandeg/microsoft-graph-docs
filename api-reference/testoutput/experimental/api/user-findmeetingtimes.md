@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/managedDevices/{managedDeviceId}/users/{userId}/findMeetingTimes
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -58,7 +58,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/me/managedDevices/{managedDeviceId}/users/{userId}/findMeetingTimes
 
 Content-type: application/json
-Content-length: 773
+Content-length: 775
 
 {
   "attendees": [
@@ -99,7 +99,7 @@ Content-length: 773
       }
     ]
   },
-  "meetingDuration": "-PT0.3165294S",
+  "meetingDuration": "PT3M29.5672435S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,

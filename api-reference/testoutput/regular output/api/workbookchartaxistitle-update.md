@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartAxisTitle](../resources/workbookchartaxistitle.md) object.
@@ -87,7 +87,7 @@ Content-Length: 158
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxisTitle",
-  "id": "3b8ad2bc-d2bc-3b8a-bcd2-8a3bbcd28a3b",
+  "id": "9c681e98-1e98-9c68-981e-689c981e689c",
   "text": "Text value",
   "visible": true
 }

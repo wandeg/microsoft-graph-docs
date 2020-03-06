@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /financials/companies/{companyId}/dimensions/{dimensionId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [dimension](../resources/dimension.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [dimension](../resources/dimension.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,10 +88,10 @@ Content-Length: 229
 
 {
   "@odata.type": "#microsoft.graph.dimension",
-  "id": "57bfe219-e219-57bf-19e2-bf5719e2bf57",
+  "id": "09cedf82-df82-09ce-82df-ce0982dfce09",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

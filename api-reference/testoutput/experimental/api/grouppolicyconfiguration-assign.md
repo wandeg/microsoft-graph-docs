@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}/as
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,8 +70,8 @@ Content-length: 350
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-      "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "id": "bc911464-1464-bc91-6414-91bc641491bc",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -97,8 +97,8 @@ Content-Length: 344
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupPolicyConfigurationAssignment",
-      "id": "b4a4b34d-b34d-b4a4-4db3-a4b44db3a4b4",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "id": "bc911464-1464-bc91-6414-91bc641491bc",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

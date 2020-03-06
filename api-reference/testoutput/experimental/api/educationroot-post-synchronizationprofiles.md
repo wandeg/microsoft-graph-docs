@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /education/synchronizationProfiles/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -109,7 +109,7 @@ Content-Length: 677
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationProfile",
-  "id": "0926f8a0-f8a0-0926-a0f8-2609a0f82609",
+  "id": "1c5524e7-24e7-1c55-e724-551ce724551c",
   "displayName": "Display Name value",
   "dataProvider": {
     "@odata.type": "microsoft.graph.educationSynchronizationDataProvider"

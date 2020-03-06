@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List officeClientConfigurationAssignments](../api/officeclientconfigurationassignment-list.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection|List properties and relationships of the [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) objects.|
 |[Get officeClientConfigurationAssignment](../api/officeclientconfigurationassignment-get.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Read properties and relationships of the [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) object.|
-|[Create officeClientConfigurationAssignment](../api/officeclientconfigurationassignment-create.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Create a new [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) object.|
-|[Delete officeClientConfigurationAssignment](../api/officeclientconfigurationassignment-delete.md)|None|Deletes a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md).|
 |[Update officeClientConfigurationAssignment](../api/officeclientconfigurationassignment-update.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Update the properties of a [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) object.|
+|[List assignments](../api/officeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
+|[Add assignments](../api/officeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

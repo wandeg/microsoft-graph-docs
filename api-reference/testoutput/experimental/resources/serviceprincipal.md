@@ -109,7 +109,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |tokenLifetimePolicies|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) collection||
 |transitiveMemberOf|[directoryObject](../resources/directoryobject.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -133,7 +133,8 @@ Here is a JSON representation of the resource.
       "properties": [
         {
           "@odata.type": "microsoft.graph.keyValue",
-          "key": "String"
+          "key": "String",
+          "value": "String"
         }
       ]
     }

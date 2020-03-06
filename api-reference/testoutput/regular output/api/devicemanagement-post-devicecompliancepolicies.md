@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCompliancePolicies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCompliancePolicy](../resources/devicecompliancepolicy.md) object.
@@ -89,14 +89,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 330
+Content-Length: 332
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicy",
-  "id": "ad358e6a-8e6a-ad35-6a8e-35ad6a8e35ad",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "id": "f20ef73e-f73e-f20e-3ef7-0ef23ef70ef2",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "description": "Description value",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "displayName": "Display Name value",
   "version": 7
 }

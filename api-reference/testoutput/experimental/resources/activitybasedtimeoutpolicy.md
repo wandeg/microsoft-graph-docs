@@ -39,7 +39,7 @@ Inherits from [stsPolicy](../resources/stspolicy.md)
 |:---|:---|:---|
 |appliesTo|[directoryObject](../resources/directoryobject.md) collection| Inherited from [stsPolicy](../resources/stspolicy.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

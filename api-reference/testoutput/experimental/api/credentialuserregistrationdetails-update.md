@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /reports/credentialUserRegistrationDetails/{credentialUserRegistrationDeta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [credentialUserRegistrationDetails](../resources/credentialuserregistrationdetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 363
 
 {
   "@odata.type": "#microsoft.graph.credentialUserRegistrationDetails",
-  "id": "0fd663e2-63e2-0fd6-e263-d60fe263d60f",
+  "id": "c6372eef-2eef-c637-ef2e-37c6ef2e37c6",
   "userPrincipalName": "User Principal Name value",
   "userDisplayName": "User Display Name value",
   "authMethods": [

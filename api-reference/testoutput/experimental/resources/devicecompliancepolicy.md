@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceCompliancePolicies](../api/devicecompliancepolicy-list.md)|[deviceCompliancePolicy](../resources/devicecompliancepolicy.md) collection|List properties and relationships of the [deviceCompliancePolicy](../resources/devicecompliancepolicy.md) objects.|
 |[Get deviceCompliancePolicy](../api/devicecompliancepolicy-get.md)|[deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|Read properties and relationships of the [deviceCompliancePolicy](../resources/devicecompliancepolicy.md) object.|
 |[hasPayloadLinks](../api/devicecompliancepolicy-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[getDevicesScheduledToRetire](../api/devicecompliancepolicy-getdevicesscheduledtoretire.md)|[retireScheduledManagedDevice](../resources/retirescheduledmanageddevice.md) collection||
@@ -40,8 +39,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add deviceSettingStateSummaries](../api/devicecompliancepolicy-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
 |[List assignments](../api/devicecompliancepolicy-list-assignments.md)|[deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md) collection|Get the deviceCompliancePolicyAssignments from the assignments navigation property.|
 |[Add assignments](../api/devicecompliancepolicy-post-assignments.md)|[deviceCompliancePolicyAssignment](../resources/devicecompliancepolicyassignment.md)|Add assignments by posting to the assignments collection.|
-|[List deviceCompliancePolicies](../api/intune-devices-devicemanagement-list-devicecompliancepolicies.md)|[deviceCompliancePolicy](../resources/devicecompliancepolicy.md) collection|Get the deviceCompliancePolicies from the deviceCompliancePolicies navigation property.|
-|[Add deviceCompliancePolicies](../api/intune-devices-devicemanagement-post-devicecompliancepolicies.md)|[deviceCompliancePolicy](../resources/devicecompliancepolicy.md)|Add deviceCompliancePolicies by posting to the deviceCompliancePolicies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -65,7 +62,7 @@ Inherits from [entity](../resources/entity.md)
 |userStatuses|[deviceComplianceUserStatus](../resources/devicecomplianceuserstatus.md) collection|List of DeviceComplianceUserStatus.|
 |userStatusOverview|[deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md)|Device compliance users status overview|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

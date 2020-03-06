@@ -20,10 +20,7 @@ Inherits from [offerShiftRequest](../resources/offershiftrequest.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List swapShiftsChangeRequests](../api/swapshiftschangerequest-list.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) collection|List properties and relationships of the [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) objects.|
 |[Get swapShiftsChangeRequest](../api/swapshiftschangerequest-get.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md)|Read properties and relationships of the [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) object.|
-|[Create swapShiftsChangeRequest](../api/swapshiftschangerequest-create.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md)|Create a new [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) object.|
-|[Delete swapShiftsChangeRequest](../api/swapshiftschangerequest-delete.md)|None|Deletes a [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md).|
 |[Update swapShiftsChangeRequest](../api/swapshiftschangerequest-update.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md)|Update the properties of a [swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) object.|
 |[List swapShiftsChangeRequests](../api/schedule-list-swapshiftschangerequests.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md) collection|Get the swapShiftsChangeRequests from the swapShiftsChangeRequests navigation property.|
 |[Add swapShiftsChangeRequests](../api/schedule-post-swapshiftschangerequests.md)|[swapShiftsChangeRequest](../resources/swapshiftschangerequest.md)|Add swapShiftsChangeRequests by posting to the swapShiftsChangeRequests collection.|
@@ -52,7 +49,7 @@ Inherits from [offerShiftRequest](../resources/offershiftrequest.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

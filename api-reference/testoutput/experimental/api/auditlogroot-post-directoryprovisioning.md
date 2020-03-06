@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /auditLogs/directoryProvisioning/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-length: 1460
 
 {
   "@odata.type": "#microsoft.graph.provisioningObjectSummary",
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
   "tenantId": "Tenant Id value",
   "jobId": "Job Id value",
   "cycleId": "Cycle Id value",
@@ -148,8 +148,8 @@ Content-Length: 1509
 
 {
   "@odata.type": "#microsoft.graph.provisioningObjectSummary",
-  "id": "36c378ea-78ea-36c3-ea78-c336ea78c336",
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+  "id": "f1007e49-7e49-f100-497e-00f1497e00f1",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
   "tenantId": "Tenant Id value",
   "jobId": "Job Id value",
   "cycleId": "Cycle Id value",

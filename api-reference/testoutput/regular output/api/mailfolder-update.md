@@ -36,7 +36,7 @@ PATCH /me/mailFolders/{mailFolderId}/childFolders/{mailFolderId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mailFolder](../resources/mailfolder.md) object.
@@ -95,7 +95,7 @@ Content-Length: 265
 
 {
   "@odata.type": "#microsoft.graph.mailFolder",
-  "id": "d94961bc-61bc-d949-bc61-49d9bc6149d9",
+  "id": "283e9ce5-9ce5-283e-e59c-3e28e59c3e28",
   "displayName": "Display Name value",
   "parentFolderId": "Parent Folder Id value",
   "childFolderCount": 0,

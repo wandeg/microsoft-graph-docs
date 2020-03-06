@@ -34,7 +34,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/progressTaskBoardFormat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md) object.
@@ -85,7 +85,7 @@ Content-Length: 161
 
 {
   "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-  "id": "5c216d12-6d12-5c21-126d-215c126d215c",
+  "id": "34e55df9-5df9-34e5-f95d-e534f95de534",
   "orderHint": "Order Hint value"
 }
 ```

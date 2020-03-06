@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List schedules](../api/schedule-list.md)|[schedule](../resources/schedule.md) collection|List properties and relationships of the [schedule](../resources/schedule.md) objects.|
 |[Get schedule](../api/schedule-get.md)|[schedule](../resources/schedule.md)|Read properties and relationships of the [schedule](../resources/schedule.md) object.|
-|[Create schedule](../api/schedule-create.md)|[schedule](../resources/schedule.md)|Create a new [schedule](../resources/schedule.md) object.|
-|[Delete schedule](../api/schedule-delete.md)|None|Deletes a [schedule](../resources/schedule.md).|
 |[Update schedule](../api/schedule-update.md)|[schedule](../resources/schedule.md)|Update the properties of a [schedule](../resources/schedule.md) object.|
 |[share](../api/schedule-share.md)|None||
 |[List shifts](../api/schedule-list-shifts.md)|[shift](../resources/shift.md) collection|Get the shifts from the shifts navigation property.|
@@ -73,7 +70,7 @@ Inherits from [entity](../resources/entity.md)
 |timeOffRequests|[timeOffRequest](../resources/timeoffrequest.md) collection||
 |timesOff|[timeOff](../resources/timeoff.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [outlookTaskGroup](../resources/outlooktaskgroup.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,11 +74,11 @@ Content-Length: 281
 {
   "value": {
     "@odata.type": "#microsoft.graph.outlookTaskGroup",
-    "id": "40c340e6-40e6-40c3-e640-c340e640c340",
+    "id": "40636808-6808-4063-0868-634008686340",
     "changeKey": "Change Key value",
     "isDefaultGroup": true,
     "name": "Name value",
-    "groupKey": "27262869-2869-2726-6928-262769282627"
+    "groupKey": "a93d44a5-44a5-a93d-a544-3da9a5443da9"
   }
 }
 ```

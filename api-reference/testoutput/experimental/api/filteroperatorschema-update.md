@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /filterOperators/{filterOperatorsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [filterOperatorSchema](../resources/filteroperatorschema.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [filterOperatorSchema](../resources/filteroperatorschema.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 227
 
 {
   "@odata.type": "#microsoft.graph.filterOperatorSchema",
-  "id": "885b8a7a-8a7a-885b-7a8a-5b887a8a5b88",
+  "id": "fd552756-2756-fd55-5627-55fd562755fd",
   "arity": "String",
   "multivaluedComparisonType": "String",
   "supportedAttributeTypes": [

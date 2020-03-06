@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementIntents](../api/devicemanagementintent-list.md)|[deviceManagementIntent](../resources/devicemanagementintent.md) collection|List properties and relationships of the [deviceManagementIntent](../resources/devicemanagementintent.md) objects.|
 |[Get deviceManagementIntent](../api/devicemanagementintent-get.md)|[deviceManagementIntent](../resources/devicemanagementintent.md)|Read properties and relationships of the [deviceManagementIntent](../resources/devicemanagementintent.md) object.|
-|[Create deviceManagementIntent](../api/devicemanagementintent-create.md)|[deviceManagementIntent](../resources/devicemanagementintent.md)|Create a new [deviceManagementIntent](../resources/devicemanagementintent.md) object.|
-|[Delete deviceManagementIntent](../api/devicemanagementintent-delete.md)|None|Deletes a [deviceManagementIntent](../resources/devicemanagementintent.md).|
 |[Update deviceManagementIntent](../api/devicemanagementintent-update.md)|[deviceManagementIntent](../resources/devicemanagementintent.md)|Update the properties of a [deviceManagementIntent](../resources/devicemanagementintent.md) object.|
 |[updateSettings](../api/devicemanagementintent-updatesettings.md)|None||
 |[migrateToTemplate](../api/devicemanagementintent-migratetotemplate.md)|None||
@@ -43,8 +40,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add userStates](../api/devicemanagementintent-post-userstates.md)|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md)|Add userStates by posting to the userStates collection.|
 |[Get deviceManagementIntentDeviceStateSummary](../api/devicemanagementintentdevicestatesummary-get.md)|[deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md)|Read properties and relationships of the [deviceManagementIntentDeviceStateSummary](../resources/devicemanagementintentdevicestatesummary.md) object.|
 |[Get deviceManagementIntentUserStateSummary](../api/devicemanagementintentuserstatesummary-get.md)|[deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md)|Read properties and relationships of the [deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md) object.|
-|[List intents](../api/intune-devices-devicemanagement-list-intents.md)|[deviceManagementIntent](../resources/devicemanagementintent.md) collection|Get the deviceManagementIntents from the intents navigation property.|
-|[Add intents](../api/intune-devices-devicemanagement-post-intents.md)|[deviceManagementIntent](../resources/devicemanagementintent.md)|Add intents by posting to the intents collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -69,7 +64,7 @@ Inherits from [entity](../resources/entity.md)
 |userStates|[deviceManagementIntentUserState](../resources/devicemanagementintentuserstate.md) collection|Collection of states of all users that the intent is applied to|
 |userStateSummary|[deviceManagementIntentUserStateSummary](../resources/devicemanagementintentuserstatesummary.md)|A summary of user states and counts of users that belong to corresponding state for all users that the intent is applied to|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

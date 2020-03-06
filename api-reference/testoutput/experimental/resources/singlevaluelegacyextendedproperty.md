@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List singleValueLegacyExtendedProperties](../api/singlevaluelegacyextendedproperty-list.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|List properties and relationships of the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) objects.|
 |[Get singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-get.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Read properties and relationships of the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.|
-|[Create singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-create.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Create a new [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.|
-|[Delete singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-delete.md)|None|Deletes a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md).|
 |[Update singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-update.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Update the properties of a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.|
 
 ## Properties
@@ -35,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

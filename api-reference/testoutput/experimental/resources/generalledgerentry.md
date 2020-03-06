@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List generalLedgerEntries](../api/generalledgerentry-list.md)|[generalLedgerEntry](../resources/generalledgerentry.md) collection|List properties and relationships of the [generalLedgerEntry](../resources/generalledgerentry.md) objects.|
 |[Get generalLedgerEntry](../api/generalledgerentry-get.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Read properties and relationships of the [generalLedgerEntry](../resources/generalledgerentry.md) object.|
-|[Create generalLedgerEntry](../api/generalledgerentry-create.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Create a new [generalLedgerEntry](../resources/generalledgerentry.md) object.|
-|[Delete generalLedgerEntry](../api/generalledgerentry-delete.md)|None|Deletes a [generalLedgerEntry](../resources/generalledgerentry.md).|
 |[Update generalLedgerEntry](../api/generalledgerentry-update.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Update the properties of a [generalLedgerEntry](../resources/generalledgerentry.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List generalLedgerEntries](../api/company-list-generalledgerentries.md)|[generalLedgerEntry](../resources/generalledgerentry.md) collection|Get the generalLedgerEntries from the generalLedgerEntries navigation property.|
+|[Add generalLedgerEntries](../api/company-post-generalledgerentries.md)|[generalLedgerEntry](../resources/generalledgerentry.md)|Add generalLedgerEntries by posting to the generalLedgerEntries collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |account|[account](../resources/account.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

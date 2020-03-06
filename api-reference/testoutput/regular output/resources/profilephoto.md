@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List profilePhotos](../api/profilephoto-list.md)|[profilePhoto](../resources/profilephoto.md) collection|List properties and relationships of the [profilePhoto](../resources/profilephoto.md) objects.|
 |[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
-|[Create profilePhoto](../api/profilephoto-create.md)|[profilePhoto](../resources/profilephoto.md)|Create a new [profilePhoto](../resources/profilephoto.md) object.|
-|[Delete profilePhoto](../api/profilephoto-delete.md)|None|Deletes a [profilePhoto](../resources/profilephoto.md).|
 |[Update profilePhoto](../api/profilephoto-update.md)|[profilePhoto](../resources/profilephoto.md)|Update the properties of a [profilePhoto](../resources/profilephoto.md) object.|
 
 ## Properties

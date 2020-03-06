@@ -35,8 +35,8 @@ POST /users/{usersId}/findMeetingTimes
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -72,7 +72,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/me/findMeetingTimes
 
 Content-type: application/json
-Content-length: 776
+Content-length: 775
 
 {
   "attendees": [
@@ -100,7 +100,7 @@ Content-length: 776
       }
     ]
   },
-  "meetingDuration": "-PT3M26.0128908S",
+  "meetingDuration": "-PT2M0.6334363S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,

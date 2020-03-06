@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemAnalyticses](../api/itemanalytics-list.md)|[itemAnalytics](../resources/itemanalytics.md) collection|List properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) objects.|
 |[Get itemAnalytics](../api/itemanalytics-get.md)|[itemAnalytics](../resources/itemanalytics.md)|Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.|
-|[Create itemAnalytics](../api/itemanalytics-create.md)|[itemAnalytics](../resources/itemanalytics.md)|Create a new [itemAnalytics](../resources/itemanalytics.md) object.|
-|[Delete itemAnalytics](../api/itemanalytics-delete.md)|None|Deletes a [itemAnalytics](../resources/itemanalytics.md).|
 |[Update itemAnalytics](../api/itemanalytics-update.md)|[itemAnalytics](../resources/itemanalytics.md)|Update the properties of a [itemAnalytics](../resources/itemanalytics.md) object.|
 |[List itemActivityStats](../api/itemanalytics-list-itemactivitystats.md)|[itemActivityStat](../resources/itemactivitystat.md) collection|Get the itemActivityStats from the itemActivityStats navigation property.|
 |[Add itemActivityStats](../api/itemanalytics-post-itemactivitystats.md)|[itemActivityStat](../resources/itemactivitystat.md)|Add itemActivityStats by posting to the itemActivityStats collection.|
@@ -42,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 |itemActivityStats|[itemActivityStat](../resources/itemactivitystat.md) collection||
 |lastSevenDays|[itemActivityStat](../resources/itemactivitystat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

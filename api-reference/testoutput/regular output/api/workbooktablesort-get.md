@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 591
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTableSort",
-    "id": "d7d09e99-9e99-d7d0-999e-d0d7999ed0d7",
+    "id": "b26f894e-894e-b26f-4e89-6fb24e896fb2",
     "fields": [
       {
         "@odata.type": "microsoft.graph.workbookSortField",

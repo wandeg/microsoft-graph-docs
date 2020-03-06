@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List agreementFiles](../api/agreementfile-list.md)|[agreementFile](../resources/agreementfile.md) collection|List properties and relationships of the [agreementFile](../resources/agreementfile.md) objects.|
 |[Get agreementFile](../api/agreementfile-get.md)|[agreementFile](../resources/agreementfile.md)|Read properties and relationships of the [agreementFile](../resources/agreementfile.md) object.|
-|[Create agreementFile](../api/agreementfile-create.md)|[agreementFile](../resources/agreementfile.md)|Create a new [agreementFile](../resources/agreementfile.md) object.|
-|[Delete agreementFile](../api/agreementfile-delete.md)|None|Deletes a [agreementFile](../resources/agreementfile.md).|
 |[Update agreementFile](../api/agreementfile-update.md)|[agreementFile](../resources/agreementfile.md)|Update the properties of a [agreementFile](../resources/agreementfile.md) object.|
-|[List files](../api/agreement-list-files.md)|[agreementFile](../resources/agreementfile.md) collection|Get the agreementFiles from the files navigation property.|
-|[Add files](../api/agreement-post-files.md)|[agreementFile](../resources/agreementfile.md)|Add files by posting to the files collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

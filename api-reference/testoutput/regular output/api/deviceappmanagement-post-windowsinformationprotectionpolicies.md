@@ -34,8 +34,8 @@ POST /deviceAppManagement/windowsInformationProtectionPolicies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionPolicy](../resources/windowsinformationprotectionpolicy.md) object.
@@ -102,7 +102,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceAppManagement/windowsInformationProtectionPolicies
 Content-type: application/json
-Content-length: 3381
+Content-length: 3382
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionPolicy",
@@ -123,11 +123,11 @@ Content-length: 3381
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+    "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "8b9cd973-d973-8b9c-73d9-9c8b73d99c8b",
+  "rightsManagementServicesTemplateId": "ce9ea573-a573-ce9e-73a5-9ece73a59ece",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [
@@ -222,15 +222,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3551
+Content-Length: 3554
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionPolicy",
-  "id": "0de5f876-f876-0de5-76f8-e50d76f8e50d",
+  "id": "6c1e1505-1505-6c1e-0515-1e6c05151e6c",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "version": "Version value",
   "enforcementLevel": "String",
   "enterpriseDomain": "Enterprise Domain value",
@@ -246,11 +246,11 @@ Content-Length: 3551
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+    "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "8b9cd973-d973-8b9c-73d9-9c8b73d99c8b",
+  "rightsManagementServicesTemplateId": "ce9ea573-a573-ce9e-73a5-9ece73a59ece",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [

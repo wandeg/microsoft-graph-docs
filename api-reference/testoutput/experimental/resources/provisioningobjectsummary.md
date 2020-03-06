@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List provisioningObjectSummaries](../api/provisioningobjectsummary-list.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md) collection|List properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) objects.|
 |[Get provisioningObjectSummary](../api/provisioningobjectsummary-get.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Read properties and relationships of the [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
-|[Create provisioningObjectSummary](../api/provisioningobjectsummary-create.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Create a new [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
-|[Delete provisioningObjectSummary](../api/provisioningobjectsummary-delete.md)|None|Deletes a [provisioningObjectSummary](../resources/provisioningobjectsummary.md).|
 |[Update provisioningObjectSummary](../api/provisioningobjectsummary-update.md)|[provisioningObjectSummary](../resources/provisioningobjectsummary.md)|Update the properties of a [provisioningObjectSummary](../resources/provisioningobjectsummary.md) object.|
 
 ## Properties
@@ -49,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

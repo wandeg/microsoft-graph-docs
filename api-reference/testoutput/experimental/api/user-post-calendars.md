@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/calendars/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendar](../resources/calendar.md) object.
@@ -67,7 +67,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [calendar](../resources/calendar.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -121,7 +121,7 @@ Content-Length: 630
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "00585ef7-5ef7-0058-f75e-5800f75e5800",
+  "id": "ac0cc2e5-c2e5-ac0c-e5c2-0cace5c20cac",
   "name": "Name value",
   "color": "String",
   "hexColor": "Hex Color value",

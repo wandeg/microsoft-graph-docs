@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookNamedItem](../resources/workbooknameditem.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookNamedItem](../resources/workbooknameditem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,7 +98,7 @@ Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.workbookNamedItem",
-  "id": "c74a65c6-65c6-c74a-c665-4ac7c6654ac7",
+  "id": "9ad01907-1907-9ad0-0719-d09a0719d09a",
   "comment": "Comment value",
   "name": "Name value",
   "scope": "Scope value",

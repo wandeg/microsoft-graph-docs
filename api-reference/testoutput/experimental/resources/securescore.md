@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List secureScores](../api/securescore-list.md)|[secureScore](../resources/securescore.md) collection|List properties and relationships of the [secureScore](../resources/securescore.md) objects.|
 |[Get secureScore](../api/securescore-get.md)|[secureScore](../resources/securescore.md)|Read properties and relationships of the [secureScore](../resources/securescore.md) object.|
-|[Create secureScore](../api/securescore-create.md)|[secureScore](../resources/securescore.md)|Create a new [secureScore](../resources/securescore.md) object.|
-|[Delete secureScore](../api/securescore-delete.md)|None|Deletes a [secureScore](../resources/securescore.md).|
 |[Update secureScore](../api/securescore-update.md)|[secureScore](../resources/securescore.md)|Update the properties of a [secureScore](../resources/securescore.md) object.|
-|[List secureScores](../api/security-list-securescores.md)|[secureScore](../resources/securescore.md) collection|Get the secureScores from the secureScores navigation property.|
-|[Add secureScores](../api/security-post-securescores.md)|[secureScore](../resources/securescore.md)|Add secureScores by posting to the secureScores collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

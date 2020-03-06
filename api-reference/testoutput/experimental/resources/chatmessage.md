@@ -20,11 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List chatMessages](../api/chatmessage-list.md)|[chatMessage](../resources/chatmessage.md) collection|List properties and relationships of the [chatMessage](../resources/chatmessage.md) objects.|
 |[Get chatMessage](../api/chatmessage-get.md)|[chatMessage](../resources/chatmessage.md)|Read properties and relationships of the [chatMessage](../resources/chatmessage.md) object.|
-|[Create chatMessage](../api/chatmessage-create.md)|[chatMessage](../resources/chatmessage.md)|Create a new [chatMessage](../resources/chatmessage.md) object.|
-|[Delete chatMessage](../api/chatmessage-delete.md)|None|Deletes a [chatMessage](../resources/chatmessage.md).|
 |[Update chatMessage](../api/chatmessage-update.md)|[chatMessage](../resources/chatmessage.md)|Update the properties of a [chatMessage](../resources/chatmessage.md) object.|
+|[delta](../api/chatmessage-delta.md)|[chatMessage](../resources/chatmessage.md) collection||
 |[List replies](../api/chatmessage-list-replies.md)|[chatMessage](../resources/chatmessage.md) collection|Get the chatMessages from the replies navigation property.|
 |[Add replies](../api/chatmessage-post-replies.md)|[chatMessage](../resources/chatmessage.md)|Add replies by posting to the replies collection.|
 |[List hostedContents](../api/chatmessage-list-hostedcontents.md)|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection|Get the chatMessageHostedContents from the hostedContents navigation property.|
@@ -58,7 +56,7 @@ Inherits from [entity](../resources/entity.md)
 |hostedContents|[chatMessageHostedContent](../resources/chatmessagehostedcontent.md) collection||
 |replies|[chatMessage](../resources/chatmessage.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

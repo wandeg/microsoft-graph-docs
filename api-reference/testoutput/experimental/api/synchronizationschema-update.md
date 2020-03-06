@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /applications/{applicationsId}/synchronization/templates/{synchronizationT
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [synchronizationSchema](../resources/synchronizationschema.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [synchronizationSchema](../resources/synchronizationschema.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -176,7 +176,7 @@ Content-Length: 3177
 
 {
   "@odata.type": "#microsoft.graph.synchronizationSchema",
-  "id": "c89cff04-ff04-c89c-04ff-9cc804ff9cc8",
+  "id": "8c16bf59-bf59-8c16-59bf-168c59bf168c",
   "provisioningTaskIdentifier": "Provisioning Task Identifier value",
   "synchronizationRules": [
     {

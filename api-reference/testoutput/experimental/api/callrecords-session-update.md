@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /communications/callRecords/{callRecordId}/sessions/{sessionId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [session](../resources/callrecords-session.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [session](../resources/callrecords-session.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,15 +68,15 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/communications/callRecords/{callRecordId}/sessions/{sessionId}
 Content-type: application/json
-Content-length: 707
+Content-length: 706
 
 {
   "@odata.type": "#microsoft.graph.callRecords.session",
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {
@@ -106,16 +106,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 756
+Content-Length: 755
 
 {
   "@odata.type": "#microsoft.graph.callRecords.session",
-  "id": "26004e0a-4e0a-2600-0a4e-00260a4e0026",
+  "id": "34101743-1743-3410-4317-103443171034",
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {

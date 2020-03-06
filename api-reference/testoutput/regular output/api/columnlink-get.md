@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 151
 {
   "value": {
     "@odata.type": "#microsoft.graph.columnLink",
-    "id": "1fbeeddb-eddb-1fbe-dbed-be1fdbedbe1f",
+    "id": "0f9c05d1-05d1-0f9c-d105-9c0fd1059c0f",
     "name": "Name value"
   }
 }

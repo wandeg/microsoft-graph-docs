@@ -32,10 +32,13 @@ GET /teams/{teamsId}/channels
 GET /me/joinedTeams/{groupId}/team/channels
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +76,7 @@ Content-Length: 305
   "value": [
     {
       "@odata.type": "#microsoft.graph.channel",
-      "id": "aaf69d7f-9d7f-aaf6-7f9d-f6aa7f9df6aa",
+      "id": "b23c8f3b-8f3b-b23c-3b8f-3cb23b8f3cb2",
       "displayName": "Display Name value",
       "description": "Description value",
       "email": "Email value",

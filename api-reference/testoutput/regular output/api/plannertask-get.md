@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 1461
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerTask",
-    "id": "eafcbef8-bef8-eafc-f8be-fceaf8befcea",
+    "id": "f0b182f5-82f5-f0b1-f582-b1f0f582b1f0",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -95,12 +95,12 @@ Content-Length: 1461
     "orderHint": "Order Hint value",
     "assigneePriority": "Assignee Priority value",
     "percentComplete": 15,
-    "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-    "dueDateTime": "2016-12-31T23:56:55.8946109+03:00",
+    "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+    "dueDateTime": "2016-12-31T23:59:57.3119428+03:00",
     "hasDescription": true,
     "previewType": "String",
-    "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
+    "completedDateTime": "2016-12-31T23:59:40.1964721+03:00",
     "completedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

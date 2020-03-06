@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/rows
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 243
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTableRow",
-      "id": "34ecd8d6-d8d6-34ec-d6d8-ec34d6d8ec34",
+      "id": "b1d05fa5-5fa5-b1d0-a55f-d0b1a55fd0b1",
       "index": 5,
       "values": {
         "@odata.type": "microsoft.graph.Json"

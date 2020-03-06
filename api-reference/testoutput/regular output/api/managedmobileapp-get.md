@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -77,7 +77,7 @@ Content-Length: 261
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedMobileApp",
-    "id": "b08b8684-8684-b08b-8486-8bb084868bb0",
+    "id": "cc3f11c7-11c7-cc3f-c711-3fccc7113fcc",
     "mobileAppIdentifier": {
       "@odata.type": "microsoft.graph.mobileAppIdentifier"
     },

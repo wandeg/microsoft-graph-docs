@@ -20,15 +20,14 @@ Inherits from [exactMatchJobBase](../resources/exactmatchjobbase.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List exactMatchSessions](../api/exactmatchsession-list.md)|[exactMatchSession](../resources/exactmatchsession.md) collection|List properties and relationships of the [exactMatchSession](../resources/exactmatchsession.md) objects.|
 |[Get exactMatchSession](../api/exactmatchsession-get.md)|[exactMatchSession](../resources/exactmatchsession.md)|Read properties and relationships of the [exactMatchSession](../resources/exactmatchsession.md) object.|
-|[Create exactMatchSession](../api/exactmatchsession-create.md)|[exactMatchSession](../resources/exactmatchsession.md)|Create a new [exactMatchSession](../resources/exactmatchsession.md) object.|
-|[Delete exactMatchSession](../api/exactmatchsession-delete.md)|None|Deletes a [exactMatchSession](../resources/exactmatchsession.md).|
 |[Update exactMatchSession](../api/exactmatchsession-update.md)|[exactMatchSession](../resources/exactmatchsession.md)|Update the properties of a [exactMatchSession](../resources/exactmatchsession.md) object.|
 |[cancel](../api/exactmatchsession-cancel.md)|None||
 |[commit](../api/exactmatchsession-commit.md)|None||
 |[renew](../api/exactmatchsession-renew.md)|[exactMatchSession](../resources/exactmatchsession.md)||
 |[Get exactMatchUploadAgent](../api/exactmatchuploadagent-get.md)|[exactMatchUploadAgent](../resources/exactmatchuploadagent.md)|Read properties and relationships of the [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) object.|
+|[List sessions](../api/exactmatchdatastore-list-sessions.md)|[exactMatchSession](../resources/exactmatchsession.md) collection|Get the exactMatchSessions from the sessions navigation property.|
+|[Add sessions](../api/exactmatchdatastore-post-sessions.md)|[exactMatchSession](../resources/exactmatchsession.md)|Add sessions by posting to the sessions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -59,7 +58,7 @@ Inherits from [exactMatchJobBase](../resources/exactmatchjobbase.md)
 |:---|:---|:---|
 |uploadAgent|[exactMatchUploadAgent](../resources/exactmatchuploadagent.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

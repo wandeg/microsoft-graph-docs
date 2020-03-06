@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 126
 {
   "value": {
     "@odata.type": "#microsoft.graph.auditLogRoot",
-    "id": "e65719dc-19dc-e657-dc19-57e6dc1957e6"
+    "id": "d6c2e3cd-e3cd-d6c2-cde3-c2d6cde3c2d6"
   }
 }
 ```

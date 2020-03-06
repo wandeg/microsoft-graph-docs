@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions/{educationSubmissionId}/submittedResources
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [educationSubmissionResource](../resources/educationsubmissionresource.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1007
+Content-Length: 1008
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSubmissionResource",
-      "id": "300bd9b7-d9b7-300b-b7d9-0b30b7d90b30",
+      "id": "3e3d67a0-67a0-3e3d-a067-3d3ea0673d3e",
       "resource": {
         "@odata.type": "microsoft.graph.educationResource",
         "displayName": "Display Name value",
-        "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+        "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
         "createdBy": {
           "@odata.type": "microsoft.graph.identitySet",
           "application": {
@@ -90,7 +93,7 @@ Content-Length: 1007
             "@odata.type": "microsoft.graph.identity"
           }
         },
-        "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+        "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
         "lastModifiedBy": {
           "@odata.type": "microsoft.graph.identitySet"
         }

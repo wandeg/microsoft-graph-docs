@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileAppIntentAndStates](../api/mobileappintentandstate-list.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md) collection|List properties and relationships of the [mobileAppIntentAndState](../resources/mobileappintentandstate.md) objects.|
 |[Get mobileAppIntentAndState](../api/mobileappintentandstate-get.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Read properties and relationships of the [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.|
-|[Create mobileAppIntentAndState](../api/mobileappintentandstate-create.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Create a new [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.|
-|[Delete mobileAppIntentAndState](../api/mobileappintentandstate-delete.md)|None|Deletes a [mobileAppIntentAndState](../resources/mobileappintentandstate.md).|
 |[Update mobileAppIntentAndState](../api/mobileappintentandstate-update.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Update the properties of a [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.|
+|[List mobileAppIntentAndStates](../api/user-list-mobileappintentandstates.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md) collection|Get the mobileAppIntentAndStates from the mobileAppIntentAndStates navigation property.|
+|[Add mobileAppIntentAndStates](../api/user-post-mobileappintentandstates.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Add mobileAppIntentAndStates by posting to the mobileAppIntentAndStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

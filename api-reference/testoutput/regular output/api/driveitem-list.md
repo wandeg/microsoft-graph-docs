@@ -39,10 +39,13 @@ GET /me/drive/items/{driveItemId}/children
 GET /me/joinedTeams/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,13 +77,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5624
+Content-Length: 5626
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "ecadcec1-cec1-ecad-c1ce-adecc1ceadec",
+      "id": "41a65e9f-5e9f-41a6-9f5e-a6419f5ea641",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -95,13 +98,13 @@ Content-Length: 5624
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",
@@ -158,7 +161,7 @@ Content-Length: 5624
       },
       "fileSystemInfo": {
         "@odata.type": "microsoft.graph.fileSystemInfo",
-        "lastAccessedDateTime": "2017-01-01T00:01:09.5440307+03:00"
+        "lastAccessedDateTime": "2017-01-01T00:02:36.6852441+03:00"
       },
       "folder": {
         "@odata.type": "microsoft.graph.folder",
@@ -194,7 +197,7 @@ Content-Length: 5624
         "fNumber": "Double",
         "focalLength": "Double",
         "iso": 3,
-        "takenDateTime": "2016-12-31T23:59:38.7576583+03:00"
+        "takenDateTime": "2016-12-31T23:58:06.0900576+03:00"
       },
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
@@ -212,7 +215,7 @@ Content-Length: 5624
           "sharedBy": {
             "@odata.type": "microsoft.graph.identitySet"
           },
-          "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00"
+          "sharedDateTime": "2017-01-01T00:03:17.0780353+03:00"
         },
         "size": 4,
         "specialFolder": {

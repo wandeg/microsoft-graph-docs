@@ -36,7 +36,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +73,7 @@ Content-Length: 797
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDeviceOverview",
-    "id": "5d7727b3-27b3-5d77-b327-775db327775d",
+    "id": "9ff339ea-39ea-9ff3-ea39-f39fea39f39f",
     "enrolledDeviceCount": 3,
     "mdmEnrolledCount": 0,
     "dualEnrolledDeviceCount": 7,

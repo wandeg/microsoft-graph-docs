@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /me/managedDevices/{managedDeviceId}/users/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [user](../resources/user.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,14 +66,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4720
+Content-Length: 4721
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.user",
-      "id": "a6723cb8-3cb8-a672-b83c-72a6b83c72a6",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "8ab81bff-1bff-8ab8-ff1b-b88aff1bb88a",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "signInActivity": {
         "@odata.type": "microsoft.graph.signInActivity"
       },
@@ -96,7 +96,7 @@ Content-Length: 4720
       "companyName": "Company Name value",
       "consentProvidedForMinor": "Consent Provided For Minor value",
       "country": "Country value",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "creationType": "Creation Type value",
       "department": "Department value",
       "deviceKeys": [
@@ -118,7 +118,7 @@ Content-Length: 4720
       ],
       "isResourceAccount": true,
       "jobTitle": "Job Title value",
-      "lastPasswordChangeDateTime": "2016-12-31T23:57:01.5811029+03:00",
+      "lastPasswordChangeDateTime": "2016-12-31T23:56:56.7076691+03:00",
       "legalAgeGroupClassification": "Legal Age Group Classification value",
       "licenseAssignmentStates": [
         {
@@ -133,7 +133,7 @@ Content-Length: 4720
         "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
       },
       "onPremisesImmutableId": "On Premises Immutable Id value",
-      "onPremisesLastSyncDateTime": "2016-12-31T23:58:26.0302388+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:33.0576521+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -163,9 +163,9 @@ Content-Length: 4720
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "refreshTokensValidFromDateTime": "2016-12-31T23:56:54.306584+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:59:47.8427372+03:00",
       "showInAddressList": true,
-      "signInSessionsValidFromDateTime": "2017-01-01T00:01:26.7367124+03:00",
+      "signInSessionsValidFromDateTime": "2017-01-01T00:03:21.9820765+03:00",
       "state": "State value",
       "streetAddress": "Street Address value",
       "surname": "Surname value",
@@ -182,8 +182,8 @@ Content-Length: 4720
       },
       "deviceEnrollmentLimit": 5,
       "aboutMe": "About Me value",
-      "birthday": "2017-01-01T00:01:02.2766982+03:00",
-      "hireDate": "2017-01-01T00:03:11.1185624+03:00",
+      "birthday": "2017-01-01T00:00:29.9801848+03:00",
+      "hireDate": "2017-01-01T00:01:48.798175+03:00",
       "interests": [
         "Interests value"
       ],

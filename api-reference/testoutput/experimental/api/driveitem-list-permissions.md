@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /workbooks/{workbooksId}/permissions
 GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/permissions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [permission](../resources/permission.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,8 +76,8 @@ Content-Length: 2183
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "32939072-9072-3293-7290-933272909332",
-      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "id": "5808ba52-ba52-5808-52ba-085852ba0858",
+      "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

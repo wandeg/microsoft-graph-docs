@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/onenote/notebooks/{notebookId}/sections/{onenoteSectionId}/pages
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 874
+Content-Length: 876
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenotePage",
-      "id": "70c2781a-781a-70c2-1a78-c2701a78c270",
+      "id": "987074ed-74ed-9870-ed74-7098ed747098",
       "self": "Self value",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "title": "Title value",
       "createdByAppId": "Created By App Id value",
       "links": {
@@ -89,7 +92,7 @@ Content-Length: 874
       },
       "contentUrl": "https://example.com/contentUrl/",
       "content": "Stream",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "level": 5,
       "order": 5,
       "userTags": [

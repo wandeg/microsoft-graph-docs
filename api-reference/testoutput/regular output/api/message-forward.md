@@ -36,8 +36,8 @@ POST /me/mailFolders/{mailFolderId}/messages/{messageId}/forward
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -68,7 +68,7 @@ Here is an example of the request.
 POST https://graph.microsoft.com/localtest/me/messages/{messageId}/forward
 
 Content-type: application/json
-Content-length: 2016
+Content-length: 2018
 
 {
   "ToRecipients": [
@@ -78,15 +78,15 @@ Content-length: 2016
   ],
   "Message": {
     "@odata.type": "#microsoft.graph.message",
-    "id": "56cf3bee-3bee-56cf-ee3b-cf56ee3bcf56",
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "id": "61e4bb86-bb86-61e4-86bb-e46186bbe461",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
-    "receivedDateTime": "2017-01-01T00:02:50.2294959+03:00",
-    "sentDateTime": "2017-01-01T00:02:05.1031932+03:00",
+    "receivedDateTime": "2016-12-31T23:58:46.1953867+03:00",
+    "sentDateTime": "2017-01-01T00:02:21.6676525+03:00",
     "hasAttachments": true,
     "internetMessageId": "Internet Message Id value",
     "internetMessageHeaders": [

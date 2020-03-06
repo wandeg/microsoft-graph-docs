@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /organization/{organizationId}/certificateBasedAuthConfiguration
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 662
   "value": [
     {
       "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-      "id": "cf2bf8a5-f8a5-cf2b-a5f8-2bcfa5f82bcf",
+      "id": "55bc5e2e-5e2e-55bc-2e5e-bc552e5ebc55",
       "certificateAuthorities": [
         {
           "@odata.type": "microsoft.graph.certificateAuthority",

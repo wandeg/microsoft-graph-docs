@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationClasses](../api/educationclass-list.md)|[educationClass](../resources/educationclass.md) collection|List properties and relationships of the [educationClass](../resources/educationclass.md) objects.|
 |[Get educationClass](../api/educationclass-get.md)|[educationClass](../resources/educationclass.md)|Read properties and relationships of the [educationClass](../resources/educationclass.md) object.|
-|[Create educationClass](../api/educationclass-create.md)|[educationClass](../resources/educationclass.md)|Create a new [educationClass](../resources/educationclass.md) object.|
-|[Delete educationClass](../api/educationclass-delete.md)|None|Deletes a [educationClass](../resources/educationclass.md).|
 |[Update educationClass](../api/educationclass-update.md)|[educationClass](../resources/educationclass.md)|Update the properties of a [educationClass](../resources/educationclass.md) object.|
 |[List schools](../api/educationclass-list-schools.md)|[educationSchool](../resources/educationschool.md) collection|Get the educationSchools from the schools navigation property.|
 |[Create schools](../api/educationclass-post-schools.md)|[educationSchool](../resources/educationschool.md)|Create schools by posting to the schools collection.|
@@ -73,17 +70,7 @@ Here is a JSON representation of the resource.
   "mailNickname": "String",
   "description": "String",
   "createdBy": {
-    "@odata.type": "microsoft.graph.identitySet",
-    "application": {
-      "@odata.type": "microsoft.graph.identity",
-      "id": "String"
-    },
-    "device": {
-      "@odata.type": "microsoft.graph.identity"
-    },
-    "user": {
-      "@odata.type": "microsoft.graph.identity"
-    }
+    "@odata.type": "microsoft.graph.identitySet"
   },
   "classCode": "String",
   "externalName": "String",

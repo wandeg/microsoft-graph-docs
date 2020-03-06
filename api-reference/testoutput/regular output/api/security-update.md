@@ -34,7 +34,7 @@ PATCH /Security
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [security](../resources/security.md) object.
@@ -83,7 +83,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.security",
-  "id": "4f319a07-9a07-4f31-079a-314f079a314f"
+  "id": "71fcb1c8-b1c8-71fc-c8b1-fc71c8b1fc71"
 }
 ```
 

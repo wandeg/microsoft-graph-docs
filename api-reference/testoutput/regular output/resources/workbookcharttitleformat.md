@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartTitleFormats](../api/workbookcharttitleformat-list.md)|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md) collection|List properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) objects.|
 |[Get workbookChartTitleFormat](../api/workbookcharttitleformat-get.md)|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)|Read properties and relationships of the [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.|
-|[Create workbookChartTitleFormat](../api/workbookcharttitleformat-create.md)|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)|Create a new [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.|
-|[Delete workbookChartTitleFormat](../api/workbookcharttitleformat-delete.md)|None|Deletes a [workbookChartTitleFormat](../resources/workbookcharttitleformat.md).|
 |[Update workbookChartTitleFormat](../api/workbookcharttitleformat-update.md)|[workbookChartTitleFormat](../resources/workbookcharttitleformat.md)|Update the properties of a [workbookChartTitleFormat](../resources/workbookcharttitleformat.md) object.|
 |[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookchartfill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
 |[Get workbookChartFont](../api/workbookchartfont-get.md)|[workbookChartFont](../resources/workbookchartfont.md)|Read properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) object.|

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /education/synchronizationProfiles/{educationSynchronizationProfileId}/err
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationSynchronizationError](../resources/educationsynchronizationerror.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [educationSynchronizationError](../resources/educationsynchronizationerror.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-length: 345
   "errorCode": "Error Code value",
   "errorMessage": "Error Message value",
   "joiningValue": "Joining Value value",
-  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
+  "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00",
   "reportableIdentifier": "Reportable Identifier value"
 }
 ```
@@ -95,12 +95,12 @@ Content-Length: 394
 
 {
   "@odata.type": "#microsoft.graph.educationSynchronizationError",
-  "id": "00e492eb-92eb-00e4-eb92-e400eb92e400",
+  "id": "f2622352-2352-f262-5223-62f2522362f2",
   "entryType": "Entry Type value",
   "errorCode": "Error Code value",
   "errorMessage": "Error Message value",
   "joiningValue": "Joining Value value",
-  "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
+  "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00",
   "reportableIdentifier": "Reportable Identifier value"
 }
 ```

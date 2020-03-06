@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStatId}/activities
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,11 +75,11 @@ Content-Length: 712
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivity",
-      "id": "a908e534-e534-a908-34e5-08a934e508a9",
+      "id": "d538effc-effc-d538-fcef-38d5fcef38d5",
       "access": {
         "@odata.type": "microsoft.graph.accessAction"
       },
-      "activityDateTime": "2016-12-31T23:58:23.4819138+03:00",
+      "activityDateTime": "2017-01-01T00:02:26.9869366+03:00",
       "actor": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

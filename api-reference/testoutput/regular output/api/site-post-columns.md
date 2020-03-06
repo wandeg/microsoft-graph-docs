@@ -35,8 +35,8 @@ POST /me/joinedTeams/{groupId}/sites/{siteId}/columns/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [columnDefinition](../resources/columndefinition.md) object.
@@ -169,7 +169,7 @@ Content-Length: 1953
 
 {
   "@odata.type": "#microsoft.graph.columnDefinition",
-  "id": "45ae16fa-16fa-45ae-fa16-ae45fa16ae45",
+  "id": "a25dbec5-bec5-a25d-c5be-5da2c5be5da2",
   "boolean": {
     "@odata.type": "microsoft.graph.booleanColumn"
   },

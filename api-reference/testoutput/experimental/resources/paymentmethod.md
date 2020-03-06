@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List paymentMethods](../api/paymentmethod-list.md)|[paymentMethod](../resources/paymentmethod.md) collection|List properties and relationships of the [paymentMethod](../resources/paymentmethod.md) objects.|
 |[Get paymentMethod](../api/paymentmethod-get.md)|[paymentMethod](../resources/paymentmethod.md)|Read properties and relationships of the [paymentMethod](../resources/paymentmethod.md) object.|
-|[Create paymentMethod](../api/paymentmethod-create.md)|[paymentMethod](../resources/paymentmethod.md)|Create a new [paymentMethod](../resources/paymentmethod.md) object.|
-|[Delete paymentMethod](../api/paymentmethod-delete.md)|None|Deletes a [paymentMethod](../resources/paymentmethod.md).|
 |[Update paymentMethod](../api/paymentmethod-update.md)|[paymentMethod](../resources/paymentmethod.md)|Update the properties of a [paymentMethod](../resources/paymentmethod.md) object.|
+|[List paymentMethods](../api/company-list-paymentmethods.md)|[paymentMethod](../resources/paymentmethod.md) collection|Get the paymentMethods from the paymentMethods navigation property.|
+|[Add paymentMethods](../api/company-post-paymentmethods.md)|[paymentMethod](../resources/paymentmethod.md)|Add paymentMethods by posting to the paymentMethods collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

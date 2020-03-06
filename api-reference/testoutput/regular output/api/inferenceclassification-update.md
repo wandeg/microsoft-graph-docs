@@ -35,7 +35,7 @@ PATCH /users/{usersId}/inferenceClassification
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [inferenceClassification](../resources/inferenceclassification.md) object.
@@ -84,7 +84,7 @@ Content-Length: 114
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassification",
-  "id": "85cd8570-8570-85cd-7085-cd857085cd85"
+  "id": "8f8e8724-8724-8f8e-2487-8e8f24878e8f"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /trustFramework/keySets/{trustFrameworkKeySetId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [trustFrameworkKeySet](../resources/trustframeworkkeyset.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [trustFrameworkKeySet](../resources/trustframeworkkeyset.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -107,7 +107,7 @@ Content-Length: 604
 
 {
   "@odata.type": "#microsoft.graph.trustFrameworkKeySet",
-  "id": "cf54918e-918e-cf54-8e91-54cf8e9154cf",
+  "id": "c5e99ec4-9ec4-c5e9-c49e-e9c5c49ee9c5",
   "keys": [
     {
       "@odata.type": "microsoft.graph.trustFrameworkKey",

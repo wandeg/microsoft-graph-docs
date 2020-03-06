@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/team/channels/{channelId}/members/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversationMember](../resources/conversationmember.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [conversationMember](../resources/conversationmember.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.conversationMember",
-  "id": "16eeb970-b970-16ee-70b9-ee1670b9ee16",
+  "id": "f2f68eec-8eec-f2f6-ec8e-f6f2ec8ef6f2",
   "roles": [
     "Roles value"
   ],

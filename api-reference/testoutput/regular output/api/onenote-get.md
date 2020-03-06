@@ -42,7 +42,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -79,7 +79,7 @@ Content-Length: 121
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenote",
-    "id": "46c45059-5059-46c4-5950-c4465950c446"
+    "id": "f23a598f-598f-f23a-8f59-3af28f593af2"
   }
 }
 ```

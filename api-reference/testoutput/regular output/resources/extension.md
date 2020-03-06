@@ -20,8 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List extensions](../api/extension-list.md)|[extension](../resources/extension.md) collection|List properties and relationships of the [extension](../resources/extension.md) objects.|
 |[Get extension](../api/extension-get.md)|[extension](../resources/extension.md)|Read properties and relationships of the [extension](../resources/extension.md) object.|
+|[List extensions](../api/event-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
+|[Add extensions](../api/event-post-extensions.md)|[extension](../resources/extension.md)|Add extensions by posting to the extensions collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sideLoadingKeies](../api/sideloadingkey-list.md)|[sideLoadingKey](../resources/sideloadingkey.md) collection|List properties and relationships of the [sideLoadingKey](../resources/sideloadingkey.md) objects.|
 |[Get sideLoadingKey](../api/sideloadingkey-get.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Read properties and relationships of the [sideLoadingKey](../resources/sideloadingkey.md) object.|
-|[Create sideLoadingKey](../api/sideloadingkey-create.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Create a new [sideLoadingKey](../resources/sideloadingkey.md) object.|
-|[Delete sideLoadingKey](../api/sideloadingkey-delete.md)|None|Deletes a [sideLoadingKey](../resources/sideloadingkey.md).|
 |[Update sideLoadingKey](../api/sideloadingkey-update.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Update the properties of a [sideLoadingKey](../resources/sideloadingkey.md) object.|
-|[List sideLoadingKeys](../api/intune-apps-deviceappmanagement-list-sideloadingkeys.md)|[sideLoadingKey](../resources/sideloadingkey.md) collection|Get the sideLoadingKeies from the sideLoadingKeys navigation property.|
-|[Add sideLoadingKeys](../api/intune-apps-deviceappmanagement-post-sideloadingkeys.md)|[sideLoadingKey](../resources/sideloadingkey.md)|Add sideLoadingKeys by posting to the sideLoadingKeys collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

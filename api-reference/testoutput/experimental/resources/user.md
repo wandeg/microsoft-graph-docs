@@ -37,14 +37,18 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |[revokeSignInSessions](../api/user-revokesigninsessions.md)|Boolean||
 |[reprocessLicenseAssignment](../api/user-reprocesslicenseassignment.md)|[user](../resources/user.md)||
 |[sendMail](../api/user-sendmail.md)|None||
+|[reminderView](../api/user-reminderview.md)|[reminder](../resources/reminder.md) collection||
 |[getMailTips](../api/user-getmailtips.md)|[mailTips](../resources/mailtips.md) collection||
+|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection||
+|[findRoomLists](../api/user-findroomlists.md)|[emailAddress](../resources/emailaddress.md) collection||
+|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection||
 |[translateExchangeIds](../api/user-translateexchangeids.md)|[convertIdResult](../resources/convertidresult.md) collection||
 |[findMeetingTimes](../api/user-findmeetingtimes.md)|[meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md)||
 |[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)||
 |[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)||
 |[getEffectiveDeviceEnrollmentConfigurations](../api/user-geteffectivedeviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection||
 |[removeAllDevicesFromManagement](../api/user-removealldevicesfrommanagement.md)|None||
-|[getLoggedOnManagedDevices](../api/user-getloggedonmanageddevices.md)|[managedDevice](../resources/intune-devices-manageddevice.md) collection||
+|[getLoggedOnManagedDevices](../api/user-getloggedonmanageddevices.md)|[managedDevice](../resources/manageddevice.md) collection||
 |[getManagedAppDiagnosticStatuses](../api/user-getmanagedappdiagnosticstatuses.md)|[managedAppDiagnosticStatus](../resources/managedappdiagnosticstatus.md) collection||
 |[getManagedAppPolicies](../api/user-getmanagedapppolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection||
 |[wipeManagedAppRegistrationByDeviceTag](../api/user-wipemanagedappregistrationbydevicetag.md)|None||
@@ -111,8 +115,8 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |[Create agreementAcceptances](../api/user-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Create agreementAcceptances by posting to the agreementAcceptances collection.|
 |[List deviceEnrollmentConfigurations](../api/user-list-deviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|Get the deviceEnrollmentConfigurations from the deviceEnrollmentConfigurations navigation property.|
 |[Add deviceEnrollmentConfigurations](../api/user-post-deviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|Add deviceEnrollmentConfigurations by posting to the deviceEnrollmentConfigurations collection.|
-|[List managedDevices](../api/user-list-manageddevices.md)|[managedDevice](../resources/intune-devices-manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
-|[Add managedDevices](../api/user-post-manageddevices.md)|[managedDevice](../resources/intune-devices-manageddevice.md)|Add managedDevices by posting to the managedDevices collection.|
+|[List managedDevices](../api/user-list-manageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
+|[Add managedDevices](../api/user-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Add managedDevices by posting to the managedDevices collection.|
 |[List managedAppRegistrations](../api/user-list-managedappregistrations.md)|[managedAppRegistration](../resources/managedappregistration.md) collection|Get the managedAppRegistrations from the managedAppRegistrations navigation property.|
 |[Create managedAppRegistrations](../api/user-post-managedappregistrations.md)|[managedAppRegistration](../resources/managedappregistration.md)|Create managedAppRegistrations by posting to the managedAppRegistrations collection.|
 |[List windowsInformationProtectionDeviceRegistrations](../api/user-list-windowsinformationprotectiondeviceregistrations.md)|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) collection|Get the windowsInformationProtectionDeviceRegistrations from the windowsInformationProtectionDeviceRegistrations navigation property.|
@@ -252,7 +256,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |licenseDetails|[licenseDetails](../resources/licensedetails.md) collection||
 |mailFolders|[mailFolder](../resources/mailfolder.md) collection||
 |managedAppRegistrations|[managedAppRegistration](../resources/managedappregistration.md) collection|Zero or more managed app registrations that belong to the user.|
-|managedDevices|[managedDevice](../resources/intune-devices-manageddevice.md) collection|The managed devices associated with the user.|
+|managedDevices|[managedDevice](../resources/manageddevice.md) collection|The managed devices associated with the user.|
 |manager|[directoryObject](../resources/directoryobject.md)||
 |memberOf|[directoryObject](../resources/directoryobject.md) collection||
 |messages|[message](../resources/message.md) collection||
@@ -277,7 +281,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |transitiveMemberOf|[directoryObject](../resources/directoryobject.md) collection||
 |windowsInformationProtectionDeviceRegistrations|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) collection|Zero or more WIP device registrations that belong to the user.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

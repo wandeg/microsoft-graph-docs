@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -70,15 +70,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 458
+Content-Length: 459
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceInstallState",
-    "id": "387d819e-819e-387d-9e81-7d389e817d38",
+    "id": "00128f22-8f22-0012-228f-1200228f1200",
     "deviceName": "Device Name value",
     "deviceId": "Device Id value",
-    "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+    "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
     "installState": "String",
     "errorCode": "Error Code value",
     "osVersion": "Os Version value",

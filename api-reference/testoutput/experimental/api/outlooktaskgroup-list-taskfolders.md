@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [outlookTaskFolder](../resources/outlooktaskfolder.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 315
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskFolder",
-      "id": "e4c83b09-3b09-e4c8-093b-c8e4093bc8e4",
+      "id": "4e07791c-791c-4e07-1c79-074e1c79074e",
       "changeKey": "Change Key value",
       "name": "Name value",
       "isDefaultFolder": true,
-      "parentGroupKey": "3a1af634-f634-3a1a-34f6-1a3a34f61a3a"
+      "parentGroupKey": "fd4c385c-385c-fd4c-5c38-4cfd5c384cfd"
     }
   ]
 }

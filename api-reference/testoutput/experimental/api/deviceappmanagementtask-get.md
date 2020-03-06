@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceAppManagementTask](../resources/deviceappmanagementtask.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 533
+Content-Length: 532
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceAppManagementTask",
-    "id": "81fcc215-c215-81fc-15c2-fc8115c2fc81",
+    "id": "9351bccf-bccf-9351-cfbc-5193cfbc5193",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "dueDateTime": "2016-12-31T23:58:39.04111+03:00",
     "category": "String",
     "priority": "String",
     "creator": "Creator value",

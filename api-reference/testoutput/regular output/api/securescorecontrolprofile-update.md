@@ -34,7 +34,7 @@ PATCH /Security/secureScoreControlProfiles/{secureScoreControlProfileId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [secureScoreControlProfile](../resources/securescorecontrolprofile.md) object.
@@ -81,7 +81,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/Security/secureScoreControlProfiles/{secureScoreControlProfileId}
 Content-type: application/json
-Content-length: 1565
+Content-length: 1564
 
 {
   "@odata.type": "#microsoft.graph.secureScoreControlProfile",
@@ -109,7 +109,7 @@ Content-length: 1565
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:27.5930183+03:00"
+      "updatedDateTime": "2016-12-31T23:56:50.421336+03:00"
     }
   ],
   "deprecated": true,
@@ -145,11 +145,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1676
+Content-Length: 1677
 
 {
   "@odata.type": "#microsoft.graph.secureScoreControlProfile",
-  "id": "0e5ab29c-b29c-0e5a-9cb2-5a0e9cb25a0e",
+  "id": "fbccd861-d861-fbcc-61d8-ccfb61d8ccfb",
   "actionType": "Action Type value",
   "actionUrl": "https://example.com/actionUrl/",
   "azureTenantId": "Azure Tenant Id value",
@@ -174,12 +174,12 @@ Content-Length: 1676
       "comment": "Comment value",
       "state": "State value",
       "updatedBy": "Updated By value",
-      "updatedDateTime": "2016-12-31T23:56:27.5930183+03:00"
+      "updatedDateTime": "2016-12-31T23:56:50.421336+03:00"
     }
   ],
   "deprecated": true,
   "implementationCost": "Implementation Cost value",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "maxScore": "Double",
   "rank": 4,
   "remediation": "Remediation value",

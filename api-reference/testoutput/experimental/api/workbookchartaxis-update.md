@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,7 +36,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartAxis](../resources/workbookchartaxis.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookChartAxis](../resources/workbookchartaxis.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -101,7 +101,7 @@ Content-Length: 372
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxis",
-  "id": "ef5d4531-4531-ef5d-3145-5def31455def",
+  "id": "79311600-1600-7931-0016-317900163179",
   "majorUnit": {
     "@odata.type": "microsoft.graph.Json"
   },

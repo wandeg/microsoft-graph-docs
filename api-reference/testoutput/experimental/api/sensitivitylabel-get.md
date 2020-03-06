@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -47,7 +47,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [sensitivityLabel](../resources/sensitivitylabel.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,7 +76,7 @@ Content-Length: 1053
 {
   "value": {
     "@odata.type": "#microsoft.graph.sensitivityLabel",
-    "id": "746d2913-2913-746d-1329-6d7413296d74",
+    "id": "bff54c93-4c93-bff5-934c-f5bf934cf5bf",
     "name": "Name value",
     "displayName": "Display Name value",
     "description": "Description value",

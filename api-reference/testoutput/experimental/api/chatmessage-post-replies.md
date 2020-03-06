@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/team/channels/{channelId}/messages/{chatMessageI
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [chatMessage](../resources/chatmessage.md) object.
@@ -68,7 +68,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [chatMessage](../resources/chatmessage.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -101,7 +101,7 @@ Content-length: 2162
   },
   "etag": "Etag value",
   "messageType": "String",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "subject": "Subject value",
   "body": {
     "@odata.type": "microsoft.graph.itemBody",
@@ -169,11 +169,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2333
+Content-Length: 2334
 
 {
   "@odata.type": "#microsoft.graph.chatMessage",
-  "id": "d15a456d-456d-d15a-6d45-5ad16d455ad1",
+  "id": "cb084f10-4f10-cb08-104f-08cb104f08cb",
   "replyToId": "Reply To Id value",
   "from": {
     "@odata.type": "microsoft.graph.identitySet",
@@ -191,9 +191,9 @@ Content-Length: 2333
   },
   "etag": "Etag value",
   "messageType": "String",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "subject": "Subject value",
   "body": {
     "@odata.type": "microsoft.graph.itemBody",

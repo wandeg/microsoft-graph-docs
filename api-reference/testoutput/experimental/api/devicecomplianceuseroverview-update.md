@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/user
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceComplianceUserOverview](../resources/devicecomplianceuseroverview.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,7 +80,7 @@ Content-length: 303
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:04.1594077+03:00",
   "configurationVersion": 4
 }
 ```
@@ -99,14 +99,14 @@ Content-Length: 352
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceUserOverview",
-  "id": "784b98ac-98ac-784b-ac98-4b78ac984b78",
+  "id": "df404c32-4c32-df40-324c-40df324c40df",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
   "conflictCount": 13,
-  "lastUpdateDateTime": "2017-01-01T00:02:23.4680926+03:00",
+  "lastUpdateDateTime": "2017-01-01T00:03:04.1594077+03:00",
   "configurationVersion": 4
 }
 ```

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationUsers](../api/educationuser-list.md)|[educationUser](../resources/educationuser.md) collection|List properties and relationships of the [educationUser](../resources/educationuser.md) objects.|
 |[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationuser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
-|[Create educationUser](../api/educationuser-create.md)|[educationUser](../resources/educationuser.md)|Create a new [educationUser](../resources/educationuser.md) object.|
-|[Delete educationUser](../api/educationuser-delete.md)|None|Deletes a [educationUser](../resources/educationuser.md).|
 |[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationuser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
 |[List schools](../api/educationuser-list-schools.md)|[educationSchool](../resources/educationschool.md) collection|Get the educationSchools from the schools navigation property.|
 |[Create schools](../api/educationuser-post-schools.md)|[educationSchool](../resources/educationschool.md)|Create schools by posting to the schools collection.|
@@ -90,38 +87,19 @@ Here is a JSON representation of the resource.
   "middleName": "String",
   "externalSource": "String",
   "residenceAddress": {
-    "@odata.type": "microsoft.graph.physicalAddress",
-    "street": "String",
-    "countryOrRegion": "String"
+    "@odata.type": "microsoft.graph.physicalAddress"
   },
   "mailingAddress": {
     "@odata.type": "microsoft.graph.physicalAddress"
   },
   "student": {
-    "@odata.type": "microsoft.graph.educationStudent",
-    "graduationYear": "String",
-    "grade": "String",
-    "birthDate": "Date",
-    "gender": "String",
-    "studentNumber": "String",
-    "externalId": "String"
+    "@odata.type": "microsoft.graph.educationStudent"
   },
   "teacher": {
-    "@odata.type": "microsoft.graph.educationTeacher",
-    "teacherNumber": "String"
+    "@odata.type": "microsoft.graph.educationTeacher"
   },
   "createdBy": {
-    "@odata.type": "microsoft.graph.identitySet",
-    "application": {
-      "@odata.type": "microsoft.graph.identity",
-      "id": "String"
-    },
-    "device": {
-      "@odata.type": "microsoft.graph.identity"
-    },
-    "user": {
-      "@odata.type": "microsoft.graph.identity"
-    }
+    "@odata.type": "microsoft.graph.identitySet"
   },
   "accountEnabled": true,
   "assignedLicenses": [

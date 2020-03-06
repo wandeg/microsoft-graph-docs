@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sensitivityLabels](../api/sensitivitylabel-list.md)|[sensitivityLabel](../resources/sensitivitylabel.md) collection|List properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) objects.|
 |[Get sensitivityLabel](../api/sensitivitylabel-get.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Read properties and relationships of the [sensitivityLabel](../resources/sensitivitylabel.md) object.|
-|[Create sensitivityLabel](../api/sensitivitylabel-create.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Create a new [sensitivityLabel](../resources/sensitivitylabel.md) object.|
-|[Delete sensitivityLabel](../api/sensitivitylabel-delete.md)|None|Deletes a [sensitivityLabel](../resources/sensitivitylabel.md).|
 |[Update sensitivityLabel](../api/sensitivitylabel-update.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Update the properties of a [sensitivityLabel](../resources/sensitivitylabel.md) object.|
 |[evaluate](../api/sensitivitylabel-evaluate.md)|[evaluateLabelJobResponse](../resources/evaluatelabeljobresponse.md)||
+|[List sublabels](../api/sensitivitylabel-list-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md) collection|Get the sensitivityLabels from the sublabels navigation property.|
+|[Add sublabels](../api/sensitivitylabel-post-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Add sublabels by posting to the sublabels collection.|
 |[List sublabels](../api/sensitivitylabel-list-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md) collection|Get the sensitivityLabels from the sublabels navigation property.|
 |[Add sublabels](../api/sensitivitylabel-post-sublabels.md)|[sensitivityLabel](../resources/sensitivitylabel.md)|Add sublabels by posting to the sublabels collection.|
 
@@ -50,7 +49,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |sublabels|[sensitivityLabel](../resources/sensitivitylabel.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

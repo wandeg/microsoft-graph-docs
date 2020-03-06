@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/joinedGroups/{groupId}/team/channels/{channelId}/messages
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [chatMessage](../resources/chatmessage.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2666
+Content-Length: 2667
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.chatMessage",
-      "id": "d15a456d-456d-d15a-6d45-5ad16d455ad1",
+      "id": "cb084f10-4f10-cb08-104f-08cb104f08cb",
       "replyToId": "Reply To Id value",
       "from": {
         "@odata.type": "microsoft.graph.identitySet",
@@ -90,9 +93,9 @@ Content-Length: 2666
       },
       "etag": "Etag value",
       "messageType": "String",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "subject": "Subject value",
       "body": {
         "@odata.type": "microsoft.graph.itemBody",

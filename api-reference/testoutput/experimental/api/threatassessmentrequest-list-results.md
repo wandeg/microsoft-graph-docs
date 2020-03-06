@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /informationProtection/threatAssessmentRequests/{threatAssessmentRequestId}/results
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [threatAssessmentResult](../resources/threatassessmentresult.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 282
+Content-Length: 283
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.threatAssessmentResult",
-      "id": "547f34d2-34d2-547f-d234-7f54d2347f54",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "id": "6dda2e12-2e12-6dda-122e-da6d122eda6d",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "resultType": "String",
       "message": "Message value"
     }

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List profiles](../api/profile-list.md)|[profile](../resources/profile.md) collection|List properties and relationships of the [profile](../resources/profile.md) objects.|
 |[Get profile](../api/profile-get.md)|[profile](../resources/profile.md)|Read properties and relationships of the [profile](../resources/profile.md) object.|
-|[Create profile](../api/profile-create.md)|[profile](../resources/profile.md)|Create a new [profile](../resources/profile.md) object.|
-|[Delete profile](../api/profile-delete.md)|None|Deletes a [profile](../resources/profile.md).|
 |[Update profile](../api/profile-update.md)|[profile](../resources/profile.md)|Update the properties of a [profile](../resources/profile.md) object.|
 |[List account](../api/profile-list-account.md)|[userAccountInformation](../resources/useraccountinformation.md) collection|Get the userAccountInformations from the account navigation property.|
 |[Add account](../api/profile-post-account.md)|[userAccountInformation](../resources/useraccountinformation.md)|Add account by posting to the account collection.|
@@ -74,7 +71,7 @@ Inherits from [entity](../resources/entity.md)
 |webAccounts|[webAccount](../resources/webaccount.md) collection||
 |websites|[personWebsite](../resources/personwebsite.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

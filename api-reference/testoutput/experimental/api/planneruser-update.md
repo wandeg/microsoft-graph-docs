@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /users/{usersId}/planner
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerUser](../resources/planneruser.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [plannerUser](../resources/planneruser.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,7 +92,7 @@ Content-Length: 326
 
 {
   "@odata.type": "#microsoft.graph.plannerUser",
-  "id": "78f5d7d9-d7d9-78f5-d9d7-f578d9d7f578",
+  "id": "7a422106-2106-7a42-0621-427a0621427a",
   "favoritePlanReferences": {
     "@odata.type": "microsoft.graph.plannerFavoritePlanReferenceCollection"
   },

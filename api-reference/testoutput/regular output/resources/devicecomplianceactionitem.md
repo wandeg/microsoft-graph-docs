@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceActionItems](../api/devicecomplianceactionitem-list.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) collection|List properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) objects.|
 |[Get deviceComplianceActionItem](../api/devicecomplianceactionitem-get.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Read properties and relationships of the [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
-|[Create deviceComplianceActionItem](../api/devicecomplianceactionitem-create.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Create a new [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
-|[Delete deviceComplianceActionItem](../api/devicecomplianceactionitem-delete.md)|None|Deletes a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md).|
 |[Update deviceComplianceActionItem](../api/devicecomplianceactionitem-update.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Update the properties of a [deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) object.|
+|[List scheduledActionConfigurations](../api/devicecompliancescheduledactionforrule-list-scheduledactionconfigurations.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md) collection|Get the deviceComplianceActionItems from the scheduledActionConfigurations navigation property.|
+|[Add scheduledActionConfigurations](../api/devicecompliancescheduledactionforrule-post-scheduledactionconfigurations.md)|[deviceComplianceActionItem](../resources/devicecomplianceactionitem.md)|Add scheduledActionConfigurations by posting to the scheduledActionConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|

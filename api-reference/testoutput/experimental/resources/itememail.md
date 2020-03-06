@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List itemEmails](../api/itememail-list.md)|[itemEmail](../resources/itememail.md) collection|List properties and relationships of the [itemEmail](../resources/itememail.md) objects.|
 |[Get itemEmail](../api/itememail-get.md)|[itemEmail](../resources/itememail.md)|Read properties and relationships of the [itemEmail](../resources/itememail.md) object.|
-|[Create itemEmail](../api/itememail-create.md)|[itemEmail](../resources/itememail.md)|Create a new [itemEmail](../resources/itememail.md) object.|
-|[Delete itemEmail](../api/itememail-delete.md)|None|Deletes a [itemEmail](../resources/itememail.md).|
 |[Update itemEmail](../api/itememail-update.md)|[itemEmail](../resources/itememail.md)|Update the properties of a [itemEmail](../resources/itememail.md) object.|
+|[List emails](../api/profile-list-emails.md)|[itemEmail](../resources/itememail.md) collection|Get the itemEmails from the emails navigation property.|
+|[Add emails](../api/profile-post-emails.md)|[itemEmail](../resources/itememail.md)|Add emails by posting to the emails collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

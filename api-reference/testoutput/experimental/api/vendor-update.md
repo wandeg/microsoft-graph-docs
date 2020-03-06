@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /financials/companies/{companyId}/purchaseInvoices/{purchaseInvoiceId}/ven
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [vendor](../resources/vendor.md) object.
@@ -66,7 +66,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [vendor](../resources/vendor.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -96,10 +96,10 @@ Content-length: 832
   "email": "Email value",
   "website": "Website value",
   "taxRegistrationNumber": "Tax Registration Number value",
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
-  "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
+  "paymentMethodId": "9fe5b104-b104-9fe5-04b1-e59f04b1e59f",
   "taxLiable": true,
   "blocked": "Blocked value",
   "balance": "4.2"
@@ -120,7 +120,7 @@ Content-Length: 945
 
 {
   "@odata.type": "#microsoft.graph.vendor",
-  "id": "aeeb9435-9435-aeeb-3594-ebae3594ebae",
+  "id": "f8cbbdbb-bdbb-f8cb-bbbd-cbf8bbbdcbf8",
   "number": "Number value",
   "displayName": "Display Name value",
   "address": {
@@ -135,14 +135,14 @@ Content-Length: 945
   "email": "Email value",
   "website": "Website value",
   "taxRegistrationNumber": "Tax Registration Number value",
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
-  "paymentMethodId": "19caf68e-f68e-19ca-8ef6-ca198ef6ca19",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
+  "paymentMethodId": "9fe5b104-b104-9fe5-04b1-e59f04b1e59f",
   "taxLiable": true,
   "blocked": "Blocked value",
   "balance": "4.2",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

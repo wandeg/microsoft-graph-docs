@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List calls](../api/call-list.md)|[call](../resources/call.md) collection|List properties and relationships of the [call](../resources/call.md) objects.|
 |[Get call](../api/call-get.md)|[call](../resources/call.md)|Read properties and relationships of the [call](../resources/call.md) object.|
-|[Create call](../api/call-create.md)|[call](../resources/call.md)|Create a new [call](../resources/call.md) object.|
-|[Delete call](../api/call-delete.md)|None|Deletes a [call](../resources/call.md).|
 |[Update call](../api/call-update.md)|[call](../resources/call.md)|Update the properties of a [call](../resources/call.md) object.|
 |[answer](../api/call-answer.md)|None||
 |[cancelMediaProcessing](../api/call-cancelmediaprocessing.md)|[cancelMediaProcessingOperation](../resources/cancelmediaprocessingoperation.md)||
@@ -45,8 +42,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add audioRoutingGroups](../api/call-post-audioroutinggroups.md)|[audioRoutingGroup](../resources/audioroutinggroup.md)|Add audioRoutingGroups by posting to the audioRoutingGroups collection.|
 |[List operations](../api/call-list-operations.md)|[commsOperation](../resources/commsoperation.md) collection|Get the commsOperations from the operations navigation property.|
 |[Add operations](../api/call-post-operations.md)|[commsOperation](../resources/commsoperation.md)|Add operations by posting to the operations collection.|
-|[List calls](../api/cloudcommunications-list-calls.md)|[call](../resources/call.md) collection|Get the calls from the calls navigation property.|
-|[Add calls](../api/cloudcommunications-post-calls.md)|[call](../resources/call.md)|Add calls by posting to the calls collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -84,7 +79,7 @@ Inherits from [entity](../resources/entity.md)
 |operations|[commsOperation](../resources/commsoperation.md) collection||
 |participants|[participant](../resources/participant.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -116,18 +111,7 @@ Here is a JSON representation of the resource.
       "@odata.type": "microsoft.graph.callRoute",
       "routingType": "String",
       "original": {
-        "@odata.type": "microsoft.graph.identitySet",
-        "application": {
-          "@odata.type": "microsoft.graph.identity",
-          "id": "String",
-          "displayName": "String"
-        },
-        "device": {
-          "@odata.type": "microsoft.graph.identity"
-        },
-        "user": {
-          "@odata.type": "microsoft.graph.identity"
-        }
+        "@odata.type": "microsoft.graph.identitySet"
       },
       "final": {
         "@odata.type": "microsoft.graph.identitySet"
@@ -135,19 +119,11 @@ Here is a JSON representation of the resource.
     }
   ],
   "source": {
-    "@odata.type": "microsoft.graph.participantInfo",
-    "identity": {
-      "@odata.type": "microsoft.graph.identitySet"
-    },
-    "endpointType": "String",
-    "region": "String",
-    "languageId": "String",
-    "countryCode": "String"
+    "@odata.type": "microsoft.graph.participantInfo"
   },
   "targets": [
     {
-      "@odata.type": "microsoft.graph.invitationParticipantInfo",
-      "replacesCallId": "String"
+      "@odata.type": "microsoft.graph.invitationParticipantInfo"
     }
   ],
   "answeredBy": {

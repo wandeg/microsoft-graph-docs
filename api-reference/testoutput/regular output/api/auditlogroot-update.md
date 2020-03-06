@@ -34,7 +34,7 @@ PATCH /auditLogs
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [auditLogRoot](../resources/auditlogroot.md) object.
@@ -83,7 +83,7 @@ Content-Length: 103
 
 {
   "@odata.type": "#microsoft.graph.auditLogRoot",
-  "id": "e65719dc-19dc-e657-dc19-57e6dc1957e6"
+  "id": "d6c2e3cd-e3cd-d6c2-cde3-c2d6cde3c2d6"
 }
 ```
 

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /servicePrincipals
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [servicePrincipal](../resources/serviceprincipal.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,19 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3351
+Content-Length: 3350
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.servicePrincipal",
-      "id": "da5b47bc-47bc-da5b-bc47-5bdabc475bda",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "0cf3ca8d-ca8d-0cf3-8dca-f30c8dcaf30c",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "accountEnabled": true,
       "addIns": [
         {
           "@odata.type": "microsoft.graph.addIn",
-          "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
+          "id": "e9c8bcc9-bcc9-e9c8-c9bc-c8e9c9bcc8e9",
           "type": "Type value",
           "properties": [
             {
@@ -92,7 +95,7 @@ Content-Length: 3351
       "appDisplayName": "App Display Name value",
       "appId": "App Id value",
       "applicationTemplateId": "Application Template Id value",
-      "appOwnerOrganizationId": "9f15957f-957f-9f15-7f95-159f7f95159f",
+      "appOwnerOrganizationId": "6c64b8b7-b8b7-6c64-b7b8-646cb7b8646c",
       "appRoleAssignmentRequired": true,
       "appRoles": [
         {
@@ -112,9 +115,9 @@ Content-Length: 3351
         {
           "@odata.type": "microsoft.graph.keyCredential",
           "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-          "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
-          "keyId": "6b92b784-b784-6b92-84b7-926b84b7926b",
-          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+          "endDateTime": "2017-01-01T00:02:18.392989+03:00",
+          "keyId": "5c0881d6-81d6-5c08-d681-085cd681085c",
+          "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
           "usage": "Usage value",
           "key": "a2V5"
         }

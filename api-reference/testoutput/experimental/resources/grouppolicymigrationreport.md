@@ -20,16 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicyMigrationReports](../api/grouppolicymigrationreport-list.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) collection|List properties and relationships of the [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) objects.|
 |[Get groupPolicyMigrationReport](../api/grouppolicymigrationreport-get.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md)|Read properties and relationships of the [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) object.|
-|[Create groupPolicyMigrationReport](../api/grouppolicymigrationreport-create.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md)|Create a new [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) object.|
-|[Delete groupPolicyMigrationReport](../api/grouppolicymigrationreport-delete.md)|None|Deletes a [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md).|
 |[Update groupPolicyMigrationReport](../api/grouppolicymigrationreport-update.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md)|Update the properties of a [groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) object.|
 |[createMigrationReport](../api/grouppolicymigrationreport-createmigrationreport.md)|String||
 |[List groupPolicySettingMappings](../api/grouppolicymigrationreport-list-grouppolicysettingmappings.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) collection|Get the groupPolicySettingMappings from the groupPolicySettingMappings navigation property.|
 |[Add groupPolicySettingMappings](../api/grouppolicymigrationreport-post-grouppolicysettingmappings.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Add groupPolicySettingMappings by posting to the groupPolicySettingMappings collection.|
-|[List groupPolicyMigrationReports](../api/intune-devices-devicemanagement-list-grouppolicymigrationreports.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md) collection|Get the groupPolicyMigrationReports from the groupPolicyMigrationReports navigation property.|
-|[Add groupPolicyMigrationReports](../api/intune-devices-devicemanagement-post-grouppolicymigrationreports.md)|[groupPolicyMigrationReport](../resources/grouppolicymigrationreport.md)|Add groupPolicyMigrationReports by posting to the groupPolicyMigrationReports collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -53,7 +48,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |groupPolicySettingMappings|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) collection|A list of group policy settings to MDM/Intune mappings.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

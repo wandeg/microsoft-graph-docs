@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/onenote/operations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 612
+Content-Length: 611
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onenoteOperation",
-      "id": "ca042d37-2d37-ca04-372d-04ca372d04ca",
+      "id": "6e3e20ba-20ba-6e3e-ba20-3e6eba203e6e",
       "status": "String",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00",
       "resourceLocation": "Resource Location value",
       "resourceId": "Resource Id value",
       "error": {

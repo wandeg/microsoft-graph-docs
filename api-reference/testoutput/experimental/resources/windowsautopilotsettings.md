@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsAutopilotSettingses](../api/windowsautopilotsettings-list.md)|[windowsAutopilotSettings](../resources/windowsautopilotsettings.md) collection|List properties and relationships of the [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) objects.|
 |[Get windowsAutopilotSettings](../api/windowsautopilotsettings-get.md)|[windowsAutopilotSettings](../resources/windowsautopilotsettings.md)|Read properties and relationships of the [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object.|
-|[Create windowsAutopilotSettings](../api/windowsautopilotsettings-create.md)|[windowsAutopilotSettings](../resources/windowsautopilotsettings.md)|Create a new [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object.|
-|[Delete windowsAutopilotSettings](../api/windowsautopilotsettings-delete.md)|None|Deletes a [windowsAutopilotSettings](../resources/windowsautopilotsettings.md).|
 |[Update windowsAutopilotSettings](../api/windowsautopilotsettings-update.md)|[windowsAutopilotSettings](../resources/windowsautopilotsettings.md)|Update the properties of a [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object.|
 |[sync](../api/windowsautopilotsettings-sync.md)|None||
 
@@ -38,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

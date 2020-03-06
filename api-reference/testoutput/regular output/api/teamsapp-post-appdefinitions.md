@@ -34,8 +34,8 @@ POST /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}/teams
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsAppDefinition](../resources/teamsappdefinition.md) object.
@@ -91,7 +91,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.teamsAppDefinition",
-  "id": "835e2768-2768-835e-6827-5e8368275e83",
+  "id": "5e9f834e-834e-5e9f-4e83-9f5e4e839f5e",
   "teamsAppId": "Teams App Id value",
   "displayName": "Display Name value",
   "version": "Version value"

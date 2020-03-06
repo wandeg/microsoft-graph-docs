@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ PATCH /deviceAppManagement/targetedManagedAppConfigurations/{targetedManagedAppC
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,13 +70,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/iosManagedAppProtections/{iosManagedAppProtectionId}/deploymentSummary
 Content-type: application/json
-Content-length: 588
+Content-length: 587
 
 {
   "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
   "displayName": "Display Name value",
   "configurationDeployedUserCount": 14,
-  "lastRefreshTime": "2017-01-01T00:02:25.6403768+03:00",
+  "lastRefreshTime": "2017-01-01T00:02:06.345182+03:00",
   "configurationDeploymentSummaryPerApp": [
     {
       "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",
@@ -101,14 +101,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 637
+Content-Length: 636
 
 {
   "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummary",
-  "id": "3696ccf0-ccf0-3696-f0cc-9636f0cc9636",
+  "id": "a19a4b9b-4b9b-a19a-9b4b-9aa19b4b9aa1",
   "displayName": "Display Name value",
   "configurationDeployedUserCount": 14,
-  "lastRefreshTime": "2017-01-01T00:02:25.6403768+03:00",
+  "lastRefreshTime": "2017-01-01T00:02:06.345182+03:00",
   "configurationDeploymentSummaryPerApp": [
     {
       "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",

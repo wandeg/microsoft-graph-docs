@@ -20,10 +20,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List timeOffReasons](../api/timeoffreason-list.md)|[timeOffReason](../resources/timeoffreason.md) collection|List properties and relationships of the [timeOffReason](../resources/timeoffreason.md) objects.|
 |[Get timeOffReason](../api/timeoffreason-get.md)|[timeOffReason](../resources/timeoffreason.md)|Read properties and relationships of the [timeOffReason](../resources/timeoffreason.md) object.|
-|[Create timeOffReason](../api/timeoffreason-create.md)|[timeOffReason](../resources/timeoffreason.md)|Create a new [timeOffReason](../resources/timeoffreason.md) object.|
-|[Delete timeOffReason](../api/timeoffreason-delete.md)|None|Deletes a [timeOffReason](../resources/timeoffreason.md).|
 |[Update timeOffReason](../api/timeoffreason-update.md)|[timeOffReason](../resources/timeoffreason.md)|Update the properties of a [timeOffReason](../resources/timeoffreason.md) object.|
 |[List timeOffReasons](../api/schedule-list-timeoffreasons.md)|[timeOffReason](../resources/timeoffreason.md) collection|Get the timeOffReasons from the timeOffReasons navigation property.|
 |[Add timeOffReasons](../api/schedule-post-timeoffreasons.md)|[timeOffReason](../resources/timeoffreason.md)|Add timeOffReasons by posting to the timeOffReasons collection.|
@@ -42,7 +39,7 @@ Inherits from [changeTrackedEntity](../resources/changetrackedentity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

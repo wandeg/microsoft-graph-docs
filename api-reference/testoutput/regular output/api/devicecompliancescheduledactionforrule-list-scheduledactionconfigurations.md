@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/scheduledActionsForRule/{deviceComplianceScheduledActionForRuleId}/scheduledActionConfigurations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 379
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceComplianceActionItem",
-      "id": "17d2b183-b183-17d2-83b1-d21783b1d217",
+      "id": "10352a80-2a80-1035-802a-3510802a3510",
       "gracePeriodHours": 0,
       "actionType": "String",
       "notificationTemplateId": "Notification Template Id value",

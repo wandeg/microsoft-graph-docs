@@ -34,7 +34,7 @@ PATCH /invitations/{invitationsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [invitation](../resources/invitation.md) object.
@@ -113,7 +113,7 @@ Content-Length: 951
 
 {
   "@odata.type": "#microsoft.graph.invitation",
-  "id": "8ff9bd83-bd83-8ff9-83bd-f98f83bdf98f",
+  "id": "1e2f53f9-53f9-1e2f-f953-2f1ef9532f1e",
   "invitedUserDisplayName": "Invited User Display Name value",
   "invitedUserType": "Invited User Type value",
   "invitedUserEmailAddress": "Invited User Email Address value",

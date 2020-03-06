@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/windowsInformationProtectionDeviceRegistrations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/windowsInformationProtectionDeviceRegistrations
 Content-type: application/json
-Content-length: 367
+Content-length: 366
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
@@ -79,7 +79,7 @@ Content-length: 367
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:00:34.709818+03:00"
 }
 ```
 
@@ -94,17 +94,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 416
+Content-Length: 415
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-  "id": "12f95eb0-5eb0-12f9-b05e-f912b05ef912",
+  "id": "744e32a8-32a8-744e-a832-4e74a8324e74",
   "userId": "User Id value",
   "deviceRegistrationId": "Device Registration Id value",
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:00:34.709818+03:00"
 }
 ```
 

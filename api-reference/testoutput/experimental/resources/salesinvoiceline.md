@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesInvoiceLines](../api/salesinvoiceline-list.md)|[salesInvoiceLine](../resources/salesinvoiceline.md) collection|List properties and relationships of the [salesInvoiceLine](../resources/salesinvoiceline.md) objects.|
 |[Get salesInvoiceLine](../api/salesinvoiceline-get.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Read properties and relationships of the [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
-|[Create salesInvoiceLine](../api/salesinvoiceline-create.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Create a new [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
-|[Delete salesInvoiceLine](../api/salesinvoiceline-delete.md)|None|Deletes a [salesInvoiceLine](../resources/salesinvoiceline.md).|
 |[Update salesInvoiceLine](../api/salesinvoiceline-update.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Update the properties of a [salesInvoiceLine](../resources/salesinvoiceline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List salesInvoiceLines](../api/company-list-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesinvoiceline.md) collection|Get the salesInvoiceLines from the salesInvoiceLines navigation property.|
+|[Add salesInvoiceLines](../api/company-post-salesinvoicelines.md)|[salesInvoiceLine](../resources/salesinvoiceline.md)|Add salesInvoiceLines by posting to the salesInvoiceLines collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -61,7 +60,7 @@ Inherits from [entity](../resources/entity.md)
 |account|[account](../resources/account.md)||
 |item|[item](../resources/item.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

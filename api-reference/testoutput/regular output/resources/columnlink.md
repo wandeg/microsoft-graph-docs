@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List columnLinks](../api/columnlink-list.md)|[columnLink](../resources/columnlink.md) collection|List properties and relationships of the [columnLink](../resources/columnlink.md) objects.|
 |[Get columnLink](../api/columnlink-get.md)|[columnLink](../resources/columnlink.md)|Read properties and relationships of the [columnLink](../resources/columnlink.md) object.|
-|[Create columnLink](../api/columnlink-create.md)|[columnLink](../resources/columnlink.md)|Create a new [columnLink](../resources/columnlink.md) object.|
-|[Delete columnLink](../api/columnlink-delete.md)|None|Deletes a [columnLink](../resources/columnlink.md).|
 |[Update columnLink](../api/columnlink-update.md)|[columnLink](../resources/columnlink.md)|Update the properties of a [columnLink](../resources/columnlink.md) object.|
+|[List columnLinks](../api/contenttype-list-columnlinks.md)|[columnLink](../resources/columnlink.md) collection|Get the columnLinks from the columnLinks navigation property.|
+|[Add columnLinks](../api/contenttype-post-columnlinks.md)|[columnLink](../resources/columnlink.md)|Add columnLinks by posting to the columnLinks collection.|
 
 ## Properties
 |Property|Type|Description|

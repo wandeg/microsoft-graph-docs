@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppPolicies
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [managedAppPolicy](../resources/managedapppolicy.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,17 +66,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 474
+Content-Length: 475
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicy",
-      "id": "1267795e-795e-1267-5e79-67125e796712",
+      "id": "808d6db3-6db3-808d-b36d-8d80b36d8d80",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],

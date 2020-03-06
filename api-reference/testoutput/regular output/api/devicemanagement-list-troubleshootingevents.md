@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/troubleshootingEvents
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 277
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-      "id": "72d71f13-1f13-72d7-131f-d772131fd772",
-      "eventDateTime": "2016-12-31T23:57:35.6099262+03:00",
+      "id": "3a171e3c-1e3c-3a17-3c1e-173a3c1e173a",
+      "eventDateTime": "2017-01-01T00:01:31.6259689+03:00",
       "correlationId": "Correlation Id value"
     }
   ]

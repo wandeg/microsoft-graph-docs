@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userPFXCertificates](../api/userpfxcertificate-list.md)|[userPFXCertificate](../resources/userpfxcertificate.md) collection|List properties and relationships of the [userPFXCertificate](../resources/userpfxcertificate.md) objects.|
 |[Get userPFXCertificate](../api/userpfxcertificate-get.md)|[userPFXCertificate](../resources/userpfxcertificate.md)|Read properties and relationships of the [userPFXCertificate](../resources/userpfxcertificate.md) object.|
-|[Create userPFXCertificate](../api/userpfxcertificate-create.md)|[userPFXCertificate](../resources/userpfxcertificate.md)|Create a new [userPFXCertificate](../resources/userpfxcertificate.md) object.|
-|[Delete userPFXCertificate](../api/userpfxcertificate-delete.md)|None|Deletes a [userPFXCertificate](../resources/userpfxcertificate.md).|
 |[Update userPFXCertificate](../api/userpfxcertificate-update.md)|[userPFXCertificate](../resources/userpfxcertificate.md)|Update the properties of a [userPFXCertificate](../resources/userpfxcertificate.md) object.|
-|[List userPfxCertificates](../api/intune-devices-devicemanagement-list-userpfxcertificates.md)|[userPFXCertificate](../resources/userpfxcertificate.md) collection|Get the userPFXCertificates from the userPfxCertificates navigation property.|
-|[Add userPfxCertificates](../api/intune-devices-devicemanagement-post-userpfxcertificates.md)|[userPFXCertificate](../resources/userpfxcertificate.md)|Add userPfxCertificates by posting to the userPfxCertificates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -48,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

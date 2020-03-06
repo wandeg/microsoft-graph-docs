@@ -188,7 +188,6 @@ Here is a JSON representation of the resource.
     "idToken": [
       {
         "@odata.type": "microsoft.graph.optionalClaim",
-        "name": "String",
         "source": "String",
         "essential": true,
         "additionalProperties": [

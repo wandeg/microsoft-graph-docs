@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedRoleSummaries](../api/privilegedrolesummary-list.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md) collection|List properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) objects.|
 |[Get privilegedRoleSummary](../api/privilegedrolesummary-get.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Read properties and relationships of the [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
-|[Create privilegedRoleSummary](../api/privilegedrolesummary-create.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Create a new [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
-|[Delete privilegedRoleSummary](../api/privilegedrolesummary-delete.md)|None|Deletes a [privilegedRoleSummary](../resources/privilegedrolesummary.md).|
 |[Update privilegedRoleSummary](../api/privilegedrolesummary-update.md)|[privilegedRoleSummary](../resources/privilegedrolesummary.md)|Update the properties of a [privilegedRoleSummary](../resources/privilegedrolesummary.md) object.|
 
 ## Properties
@@ -39,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

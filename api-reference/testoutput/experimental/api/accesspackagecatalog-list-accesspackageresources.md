@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /accessPackageCatalogs/{accessPackageCatalogsId}/accessPackageResources
 GET /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPackageCatalogId}/accessPackageResources
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [accessPackageResource](../resources/accesspackageresource.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 524
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageResource",
-      "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
+      "id": "7af13504-3504-7af1-0435-f17a0435f17a",
       "displayName": "Display Name value",
       "description": "Description value",
       "url": "Url value",
@@ -82,7 +85,7 @@ Content-Length: 524
       "originSystem": "Origin System value",
       "isPendingOnboarding": true,
       "addedBy": "Added By value",
-      "addedOn": "2017-01-01T00:02:28.6984236+03:00"
+      "addedOn": "2016-12-31T23:56:38.2422021+03:00"
     }
   ]
 }

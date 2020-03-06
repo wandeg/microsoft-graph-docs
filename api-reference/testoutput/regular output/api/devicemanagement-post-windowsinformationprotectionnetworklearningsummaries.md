@@ -34,8 +34,8 @@ POST /deviceManagement/windowsInformationProtectionNetworkLearningSummaries/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionNetworkLearningSummary](../resources/windowsinformationprotectionnetworklearningsummary.md) object.
@@ -89,7 +89,7 @@ Content-Length: 186
 
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionNetworkLearningSummary",
-  "id": "c17df11b-f11b-c17d-1bf1-7dc11bf17dc1",
+  "id": "e9f95dd2-5dd2-e9f9-d25d-f9e9d25df9e9",
   "url": "Url value",
   "deviceCount": 11
 }

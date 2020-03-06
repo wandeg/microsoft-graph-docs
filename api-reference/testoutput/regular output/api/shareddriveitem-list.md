@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /shares
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1636
+Content-Length: 1638
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.sharedDriveItem",
-      "id": "0d2d20ac-20ac-0d2d-ac20-2d0dac202d0d",
+      "id": "f28e5cbd-5cbd-f28e-bd5c-8ef2bd5c8ef2",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -87,13 +90,13 @@ Content-Length: 1636
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

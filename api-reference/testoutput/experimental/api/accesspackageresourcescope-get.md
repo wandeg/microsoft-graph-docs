@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -44,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -52,7 +52,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [accessPackageResourceScope](../resources/accesspackageresourcescope.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -81,7 +81,7 @@ Content-Length: 399
 {
   "value": {
     "@odata.type": "#microsoft.graph.accessPackageResourceScope",
-    "id": "c1401591-1591-c140-9115-40c1911540c1",
+    "id": "ca51c1bc-c1bc-ca51-bcc1-51cabcc151ca",
     "displayName": "Display Name value",
     "description": "Description value",
     "originId": "Origin Id value",

@@ -26,7 +26,7 @@ The value 0 (zero) means "unlimited" cache. Delivery Optimization will clear the
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

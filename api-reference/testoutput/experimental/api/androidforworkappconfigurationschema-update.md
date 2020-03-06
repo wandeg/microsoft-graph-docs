@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/androidForWorkAppConfigurationSchemas/{androidForWorkApp
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [androidForWorkAppConfigurationSchema](../resources/androidforworkappconfigurationschema.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -108,7 +108,7 @@ Content-Length: 843
 
 {
   "@odata.type": "#microsoft.graph.androidForWorkAppConfigurationSchema",
-  "id": "6ceef0b9-f0b9-6cee-b9f0-ee6cb9f0ee6c",
+  "id": "6f44e8c3-e8c3-6f44-c3e8-446fc3e8446f",
   "exampleJson": "ZXhhbXBsZUpzb24=",
   "schemaItems": [
     {

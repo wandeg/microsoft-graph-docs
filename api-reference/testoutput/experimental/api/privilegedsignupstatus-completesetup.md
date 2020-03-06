@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /privilegedSignupStatus/completeSetup
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [roleSuccessStatistics](../resources/rolesuccessstatistics.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,7 +69,7 @@ Content-length: 354
 {
   "tenantSetupInfo": {
     "@odata.type": "#microsoft.graph.tenantSetupInfo",
-    "id": "eb5fba04-ba04-eb5f-04ba-5feb04ba5feb",
+    "id": "eb9bf9fb-f9fb-eb9b-fbf9-9bebfbf99beb",
     "userRolesActions": "User Roles Actions value",
     "firstTimeSetup": true,
     "relevantRolesSettings": [

@@ -20,10 +20,7 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List iosManagedAppProtections](../api/iosmanagedappprotection-list.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md) collection|List properties and relationships of the [iosManagedAppProtection](../resources/iosmanagedappprotection.md) objects.|
 |[Get iosManagedAppProtection](../api/iosmanagedappprotection-get.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md)|Read properties and relationships of the [iosManagedAppProtection](../resources/iosmanagedappprotection.md) object.|
-|[Create iosManagedAppProtection](../api/iosmanagedappprotection-create.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md)|Create a new [iosManagedAppProtection](../resources/iosmanagedappprotection.md) object.|
-|[Delete iosManagedAppProtection](../api/iosmanagedappprotection-delete.md)|None|Deletes a [iosManagedAppProtection](../resources/iosmanagedappprotection.md).|
 |[Update iosManagedAppProtection](../api/iosmanagedappprotection-update.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md)|Update the properties of a [iosManagedAppProtection](../resources/iosmanagedappprotection.md) object.|
 |[hasPayloadLinks](../api/iosmanagedappprotection-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[assign](../api/iosmanagedappprotection-assign.md)|None||
@@ -32,8 +29,6 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 |[List apps](../api/iosmanagedappprotection-list-apps.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|Get the managedMobileApps from the apps navigation property.|
 |[Add apps](../api/iosmanagedappprotection-post-apps.md)|[managedMobileApp](../resources/managedmobileapp.md)|Add apps by posting to the apps collection.|
 |[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[List iosManagedAppProtections](../api/intune-apps-deviceappmanagement-list-iosmanagedappprotections.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md) collection|Get the iosManagedAppProtections from the iosManagedAppProtections navigation property.|
-|[Add iosManagedAppProtections](../api/intune-apps-deviceappmanagement-post-iosmanagedappprotections.md)|[iosManagedAppProtection](../resources/iosmanagedappprotection.md)|Add iosManagedAppProtections by posting to the iosManagedAppProtections collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -107,7 +102,7 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 |assignments|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Navigation property to list of inclusion and exclusion groups to which the policy is deployed. Inherited from [targetedManagedAppProtection](../resources/targetedmanagedappprotection.md)|
 |deploymentSummary|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Navigation property to deployment summary of the configuration.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

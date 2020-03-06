@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List projectParticipations](../api/projectparticipation-list.md)|[projectParticipation](../resources/projectparticipation.md) collection|List properties and relationships of the [projectParticipation](../resources/projectparticipation.md) objects.|
 |[Get projectParticipation](../api/projectparticipation-get.md)|[projectParticipation](../resources/projectparticipation.md)|Read properties and relationships of the [projectParticipation](../resources/projectparticipation.md) object.|
-|[Create projectParticipation](../api/projectparticipation-create.md)|[projectParticipation](../resources/projectparticipation.md)|Create a new [projectParticipation](../resources/projectparticipation.md) object.|
-|[Delete projectParticipation](../api/projectparticipation-delete.md)|None|Deletes a [projectParticipation](../resources/projectparticipation.md).|
 |[Update projectParticipation](../api/projectparticipation-update.md)|[projectParticipation](../resources/projectparticipation.md)|Update the properties of a [projectParticipation](../resources/projectparticipation.md) object.|
+|[List projects](../api/profile-list-projects.md)|[projectParticipation](../resources/projectparticipation.md) collection|Get the projectParticipations from the projects navigation property.|
+|[Add projects](../api/profile-post-projects.md)|[projectParticipation](../resources/projectparticipation.md)|Add projects by posting to the projects collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +45,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

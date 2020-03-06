@@ -34,8 +34,8 @@ POST /domains/{domainsId}/serviceConfigurationRecords/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [domainDnsRecord](../resources/domaindnsrecord.md) object.
@@ -95,7 +95,7 @@ Content-Length: 257
 
 {
   "@odata.type": "#microsoft.graph.domainDnsRecord",
-  "id": "f0b4a3a7-a3a7-f0b4-a7a3-b4f0a7a3b4f0",
+  "id": "e2ed6828-6828-e2ed-2868-ede22868ede2",
   "isOptional": true,
   "label": "Label value",
   "recordType": "Record Type value",

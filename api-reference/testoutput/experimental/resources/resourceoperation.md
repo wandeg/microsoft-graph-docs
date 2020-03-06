@@ -20,14 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List resourceOperations](../api/resourceoperation-list.md)|[resourceOperation](../resources/resourceoperation.md) collection|List properties and relationships of the [resourceOperation](../resources/resourceoperation.md) objects.|
 |[Get resourceOperation](../api/resourceoperation-get.md)|[resourceOperation](../resources/resourceoperation.md)|Read properties and relationships of the [resourceOperation](../resources/resourceoperation.md) object.|
-|[Create resourceOperation](../api/resourceoperation-create.md)|[resourceOperation](../resources/resourceoperation.md)|Create a new [resourceOperation](../resources/resourceoperation.md) object.|
-|[Delete resourceOperation](../api/resourceoperation-delete.md)|None|Deletes a [resourceOperation](../resources/resourceoperation.md).|
 |[Update resourceOperation](../api/resourceoperation-update.md)|[resourceOperation](../resources/resourceoperation.md)|Update the properties of a [resourceOperation](../resources/resourceoperation.md) object.|
 |[getScopesForUser](../api/resourceoperation-getscopesforuser.md)|String collection||
-|[List resourceOperations](../api/intune-devices-devicemanagement-list-resourceoperations.md)|[resourceOperation](../resources/resourceoperation.md) collection|Get the resourceOperations from the resourceOperations navigation property.|
-|[Add resourceOperations](../api/intune-devices-devicemanagement-post-resourceoperations.md)|[resourceOperation](../resources/resourceoperation.md)|Add resourceOperations by posting to the resourceOperations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

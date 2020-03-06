@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmentProfiles
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [enrollmentProfile](../resources/enrollmentprofile.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 484
   "value": [
     {
       "@odata.type": "#microsoft.graph.enrollmentProfile",
-      "id": "7d84c92c-c92c-7d84-2cc9-847d2cc9847d",
+      "id": "777ade9a-de9a-777a-9ade-7a779ade7a77",
       "displayName": "Display Name value",
       "description": "Description value",
       "requiresUserAuthentication": true,

@@ -32,10 +32,13 @@ GET /workbooks/{workbooksId}/subscriptions
 GET /me/drive/items/{driveItemId}/subscriptions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -67,18 +70,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 486
+Content-Length: 487
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscription",
-      "id": "ad4dda8e-da8e-ad4d-8eda-4dad8eda4dad",
+      "id": "5b079930-9930-5b07-3099-075b3099075b",
       "resource": "Resource value",
       "changeType": "Change Type value",
       "clientState": "Client State value",
       "notificationUrl": "https://example.com/notificationUrl/",
-      "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+      "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
       "applicationId": "Application Id value",
       "creatorId": "Creator Id value"
     }

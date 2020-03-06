@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /communications/calls
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 1975
   "value": [
     {
       "@odata.type": "#microsoft.graph.call",
-      "id": "3eb2cf06-cf06-3eb2-06cf-b23e06cfb23e",
+      "id": "6b5e95c7-95c7-6b5e-c795-5e6bc7955e6b",
       "state": "String",
       "mediaState": {
         "@odata.type": "microsoft.graph.callMediaState",

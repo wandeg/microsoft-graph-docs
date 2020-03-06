@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List calendarPermissions](../api/calendarpermission-list.md)|[calendarPermission](../resources/calendarpermission.md) collection|List properties and relationships of the [calendarPermission](../resources/calendarpermission.md) objects.|
 |[Get calendarPermission](../api/calendarpermission-get.md)|[calendarPermission](../resources/calendarpermission.md)|Read properties and relationships of the [calendarPermission](../resources/calendarpermission.md) object.|
-|[Create calendarPermission](../api/calendarpermission-create.md)|[calendarPermission](../resources/calendarpermission.md)|Create a new [calendarPermission](../resources/calendarpermission.md) object.|
-|[Delete calendarPermission](../api/calendarpermission-delete.md)|None|Deletes a [calendarPermission](../resources/calendarpermission.md).|
 |[Update calendarPermission](../api/calendarpermission-update.md)|[calendarPermission](../resources/calendarpermission.md)|Update the properties of a [calendarPermission](../resources/calendarpermission.md) object.|
+|[List calendarPermissions](../api/calendar-list-calendarpermissions.md)|[calendarPermission](../resources/calendarpermission.md) collection|Get the calendarPermissions from the calendarPermissions navigation property.|
+|[Add calendarPermissions](../api/calendar-post-calendarpermissions.md)|[calendarPermission](../resources/calendarpermission.md)|Add calendarPermissions by posting to the calendarPermissions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

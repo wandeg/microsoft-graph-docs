@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/importedAp
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,15 +71,15 @@ Content-length: 777
   "importedAppleDeviceIdentities": [
     {
       "@odata.type": "#microsoft.graph.importedAppleDeviceIdentity",
-      "id": "84ec82a3-82a3-84ec-a382-ec84a382ec84",
+      "id": "ccdf1449-1449-ccdf-4914-dfcc4914dfcc",
       "serialNumber": "Serial Number value",
       "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-      "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
+      "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:22.4441713+03:00",
       "isSupervised": true,
       "discoverySource": "String",
       "isDeleted": true,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String"
@@ -106,15 +106,15 @@ Content-Length: 736
   "value": [
     {
       "@odata.type": "#microsoft.graph.importedAppleDeviceIdentityResult",
-      "id": "87ce4481-4481-87ce-8144-ce878144ce87",
+      "id": "9f9b9d78-9d78-9f9b-789d-9b9f789d9b9f",
       "serialNumber": "Serial Number value",
       "requestedEnrollmentProfileId": "Requested Enrollment Profile Id value",
-      "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:02:19.9727635+03:00",
+      "requestedEnrollmentProfileAssignmentDateTime": "2017-01-01T00:00:22.4441713+03:00",
       "isSupervised": true,
       "discoverySource": "String",
       "isDeleted": true,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
       "description": "Description value",
       "enrollmentState": "String",
       "platform": "String",

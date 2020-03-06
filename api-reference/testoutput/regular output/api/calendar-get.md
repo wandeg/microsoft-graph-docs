@@ -44,7 +44,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -81,7 +81,7 @@ Content-Length: 402
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendar",
-    "id": "8ff71d79-1d79-8ff7-791d-f78f791df78f",
+    "id": "71f25589-5589-71f2-8955-f2718955f271",
     "name": "Name value",
     "color": "String",
     "changeKey": "Change Key value",

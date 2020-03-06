@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List restrictedAppsViolations](../api/restrictedappsviolation-list.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md) collection|List properties and relationships of the [restrictedAppsViolation](../resources/restrictedappsviolation.md) objects.|
 |[Get restrictedAppsViolation](../api/restrictedappsviolation-get.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md)|Read properties and relationships of the [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.|
-|[Create restrictedAppsViolation](../api/restrictedappsviolation-create.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md)|Create a new [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.|
-|[Delete restrictedAppsViolation](../api/restrictedappsviolation-delete.md)|None|Deletes a [restrictedAppsViolation](../resources/restrictedappsviolation.md).|
 |[Update restrictedAppsViolation](../api/restrictedappsviolation-update.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md)|Update the properties of a [restrictedAppsViolation](../resources/restrictedappsviolation.md) object.|
-|[List deviceConfigurationRestrictedAppsViolations](../api/intune-devices-devicemanagement-list-deviceconfigurationrestrictedappsviolations.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md) collection|Get the restrictedAppsViolations from the deviceConfigurationRestrictedAppsViolations navigation property.|
-|[Add deviceConfigurationRestrictedAppsViolations](../api/intune-devices-devicemanagement-post-deviceconfigurationrestrictedappsviolations.md)|[restrictedAppsViolation](../resources/restrictedappsviolation.md)|Add deviceConfigurationRestrictedAppsViolations by posting to the deviceConfigurationRestrictedAppsViolations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 159
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookPivotTable",
-    "id": "173ec9d3-c9d3-173e-d3c9-3e17d3c93e17",
+    "id": "9bac30d4-30d4-9bac-d430-ac9bd430ac9b",
     "name": "Name value"
   }
 }

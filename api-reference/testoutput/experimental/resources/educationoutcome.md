@@ -20,8 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationOutcomes](../api/educationoutcome-list.md)|[educationOutcome](../resources/educationoutcome.md) collection|List properties and relationships of the [educationOutcome](../resources/educationoutcome.md) objects.|
 |[Get educationOutcome](../api/educationoutcome-get.md)|[educationOutcome](../resources/educationoutcome.md)|Read properties and relationships of the [educationOutcome](../resources/educationoutcome.md) object.|
+|[List outcomes](../api/educationsubmission-list-outcomes.md)|[educationOutcome](../resources/educationoutcome.md) collection|Get the educationOutcomes from the outcomes navigation property.|
+|[Add outcomes](../api/educationsubmission-post-outcomes.md)|[educationOutcome](../resources/educationoutcome.md)|Add outcomes by posting to the outcomes collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -33,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

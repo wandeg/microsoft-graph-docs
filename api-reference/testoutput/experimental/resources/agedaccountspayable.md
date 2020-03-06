@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List agedAccountsPayables](../api/agedaccountspayable-list.md)|[agedAccountsPayable](../resources/agedaccountspayable.md) collection|List properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) objects.|
 |[Get agedAccountsPayable](../api/agedaccountspayable-get.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Read properties and relationships of the [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
-|[Create agedAccountsPayable](../api/agedaccountspayable-create.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Create a new [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
-|[Delete agedAccountsPayable](../api/agedaccountspayable-delete.md)|None|Deletes a [agedAccountsPayable](../resources/agedaccountspayable.md).|
 |[Update agedAccountsPayable](../api/agedaccountspayable-update.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Update the properties of a [agedAccountsPayable](../resources/agedaccountspayable.md) object.|
+|[List agedAccountsPayable](../api/company-list-agedaccountspayable.md)|[agedAccountsPayable](../resources/agedaccountspayable.md) collection|Get the agedAccountsPayables from the agedAccountsPayable navigation property.|
+|[Add agedAccountsPayable](../api/company-post-agedaccountspayable.md)|[agedAccountsPayable](../resources/agedaccountspayable.md)|Add agedAccountsPayable by posting to the agedAccountsPayable collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

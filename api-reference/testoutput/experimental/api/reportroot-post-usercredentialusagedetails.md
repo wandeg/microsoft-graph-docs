@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /reports/userCredentialUsageDetails/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,7 +80,7 @@ Content-length: 344
   "isSuccess": true,
   "authMethod": "String",
   "failureReason": "Failure Reason value",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00"
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Length: 393
 
 {
   "@odata.type": "#microsoft.graph.userCredentialUsageDetails",
-  "id": "149bdb35-db35-149b-35db-9b1435db9b14",
+  "id": "99defa8a-fa8a-99de-8afa-de998afade99",
   "feature": "String",
   "userPrincipalName": "User Principal Name value",
   "userDisplayName": "User Display Name value",
   "isSuccess": true,
   "authMethod": "String",
   "failureReason": "Failure Reason value",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00"
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00"
 }
 ```
 

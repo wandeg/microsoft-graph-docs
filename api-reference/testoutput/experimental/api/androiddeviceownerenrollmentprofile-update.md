@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwner
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [androidDeviceOwnerEnrollmentProfile](../resources/androiddeviceownerenrollmentprofile.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 |tokenExpirationDateTime|DateTimeOffset|Date time the most recently created token will expire.|
 |enrolledDeviceCount|Int32|Total number of Android devices that have enrolled using this enrollment profile.|
 |qrCodeContent|String|String used to generate a QR code for the token.|
-|qrCodeImage|[mimeContent](../resources/intune-apps-mimecontent.md)|String used to generate a QR code for the token.|
+|qrCodeImage|[mimeContent](../resources/mimecontent.md)|String used to generate a QR code for the token.|
 |roleScopeTagIds|String collection|List of Scope Tags for this Entity instance.|
 
 
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [androidDeviceOwnerEnrollmentProfile](../resources/androiddeviceownerenrollmentprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/androidDeviceOwnerEnrollmentProfiles/{androidDeviceOwnerEnrollmentProfileId}
 Content-type: application/json
-Content-length: 626
+Content-length: 627
 
 {
   "@odata.type": "#microsoft.graph.androidDeviceOwnerEnrollmentProfile",
@@ -82,8 +82,8 @@ Content-length: 626
   "displayName": "Display Name value",
   "description": "Description value",
   "tokenValue": "Token Value value",
-  "tokenCreationDateTime": "2017-01-01T00:00:30.448772+03:00",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+  "tokenCreationDateTime": "2016-12-31T23:56:45.6267809+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {
@@ -107,19 +107,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 797
+Content-Length: 799
 
 {
   "@odata.type": "#microsoft.graph.androidDeviceOwnerEnrollmentProfile",
-  "id": "fb98f0ce-f0ce-fb98-cef0-98fbcef098fb",
+  "id": "b0894f01-4f01-b089-014f-89b0014f89b0",
   "accountId": "Account Id value",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "tokenValue": "Token Value value",
-  "tokenCreationDateTime": "2017-01-01T00:00:30.448772+03:00",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+  "tokenCreationDateTime": "2016-12-31T23:56:45.6267809+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
   "enrolledDeviceCount": 3,
   "qrCodeContent": "Qr Code Content value",
   "qrCodeImage": {

@@ -35,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |teamsApps|[teamsApp](../resources/teamsapp.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

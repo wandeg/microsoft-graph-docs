@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 122
 {
   "value": {
     "@odata.type": "#microsoft.graph.security",
-    "id": "4f319a07-9a07-4f31-079a-314f079a314f"
+    "id": "71fcb1c8-b1c8-71fc-c8b1-fc71c8b1fc71"
   }
 }
 ```

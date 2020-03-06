@@ -34,7 +34,7 @@ PATCH /certificateBasedAuthConfiguration/{certificateBasedAuthConfigurationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [certificateBasedAuthConfiguration](../resources/certificatebasedauthconfiguration.md) object.
@@ -95,7 +95,7 @@ Content-Length: 577
 
 {
   "@odata.type": "#microsoft.graph.certificateBasedAuthConfiguration",
-  "id": "cf2bf8a5-f8a5-cf2b-a5f8-2bcfa5f82bcf",
+  "id": "55bc5e2e-5e2e-55bc-2e5e-bc552e5ebc55",
   "certificateAuthorities": [
     {
       "@odata.type": "microsoft.graph.certificateAuthority",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/mailFolders/{mailFolderId}/userConfigurations/{userConfigurationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userConfiguration](../resources/userconfiguration.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [userConfiguration](../resources/userconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 145
 
 {
   "@odata.type": "#microsoft.graph.userConfiguration",
-  "id": "0e1870cb-70cb-0e18-cb70-180ecb70180e",
+  "id": "075f9020-9020-075f-2090-5f0720905f07",
   "binaryData": "YmluYXJ5RGF0YQ=="
 }
 ```

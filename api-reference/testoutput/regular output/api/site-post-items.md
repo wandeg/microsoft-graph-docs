@@ -35,8 +35,8 @@ POST /me/joinedTeams/{groupId}/sites/{siteId}/items/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [baseItem](../resources/baseitem.md) object.
@@ -125,11 +125,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1350
+Content-Length: 1352
 
 {
   "@odata.type": "#microsoft.graph.baseItem",
-  "id": "c20ae8dd-e8dd-c20a-dde8-0ac2dde80ac2",
+  "id": "bc91cc01-cc01-bc91-01cc-91bc01cc91bc",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -144,13 +144,13 @@ Content-Length: 1350
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

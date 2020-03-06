@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/names/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookNamedItem](../resources/workbooknameditem.md) object.
@@ -99,7 +99,7 @@ Content-Length: 299
 
 {
   "@odata.type": "#microsoft.graph.workbookNamedItem",
-  "id": "815ef7e7-f7e7-815e-e7f7-5e81e7f75e81",
+  "id": "e630c0c4-c0c4-e630-c4c0-30e6c4c030e6",
   "comment": "Comment value",
   "name": "Name value",
   "scope": "Scope value",

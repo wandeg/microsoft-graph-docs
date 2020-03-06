@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List ipSecurityProfiles](../api/ipsecurityprofile-list.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md) collection|List properties and relationships of the [ipSecurityProfile](../resources/ipsecurityprofile.md) objects.|
 |[Get ipSecurityProfile](../api/ipsecurityprofile-get.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md)|Read properties and relationships of the [ipSecurityProfile](../resources/ipsecurityprofile.md) object.|
-|[Create ipSecurityProfile](../api/ipsecurityprofile-create.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md)|Create a new [ipSecurityProfile](../resources/ipsecurityprofile.md) object.|
-|[Delete ipSecurityProfile](../api/ipsecurityprofile-delete.md)|None|Deletes a [ipSecurityProfile](../resources/ipsecurityprofile.md).|
 |[Update ipSecurityProfile](../api/ipsecurityprofile-update.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md)|Update the properties of a [ipSecurityProfile](../resources/ipsecurityprofile.md) object.|
-|[List ipSecurityProfiles](../api/security-list-ipsecurityprofiles.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md) collection|Get the ipSecurityProfiles from the ipSecurityProfiles navigation property.|
-|[Add ipSecurityProfiles](../api/security-post-ipsecurityprofiles.md)|[ipSecurityProfile](../resources/ipsecurityprofile.md)|Add ipSecurityProfiles by posting to the ipSecurityProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

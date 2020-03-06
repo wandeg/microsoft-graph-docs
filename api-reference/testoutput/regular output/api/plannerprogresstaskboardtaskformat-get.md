@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 186
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerProgressTaskBoardTaskFormat",
-    "id": "5c216d12-6d12-5c21-126d-215c126d215c",
+    "id": "34e55df9-5df9-34e5-f95d-e534f95de534",
     "orderHint": "Order Hint value"
   }
 }

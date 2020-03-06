@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /directory/featureRolloutPolicies/{featureRolloutPolicyId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 272
 
 {
   "@odata.type": "#microsoft.graph.featureRolloutPolicy",
-  "id": "69e61aee-1aee-69e6-ee1a-e669ee1ae669",
+  "id": "e51902b8-02b8-e519-b802-19e5b80219e5",
   "displayName": "Display Name value",
   "description": "Description value",
   "feature": "String",

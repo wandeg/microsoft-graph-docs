@@ -38,7 +38,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookWorksheet](../resources/workbookworksheet.md) object.
@@ -93,7 +93,7 @@ Content-Length: 188
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheet",
-  "id": "df2a93d4-93d4-df2a-d493-2adfd4932adf",
+  "id": "696c9471-9471-696c-7194-6c6971946c69",
   "name": "Name value",
   "position": 8,
   "visibility": "Visibility value"

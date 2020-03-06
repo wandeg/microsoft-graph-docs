@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List importedDeviceIdentities](../api/importeddeviceidentity-list.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md) collection|List properties and relationships of the [importedDeviceIdentity](../resources/importeddeviceidentity.md) objects.|
 |[Get importedDeviceIdentity](../api/importeddeviceidentity-get.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md)|Read properties and relationships of the [importedDeviceIdentity](../resources/importeddeviceidentity.md) object.|
-|[Create importedDeviceIdentity](../api/importeddeviceidentity-create.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md)|Create a new [importedDeviceIdentity](../resources/importeddeviceidentity.md) object.|
-|[Delete importedDeviceIdentity](../api/importeddeviceidentity-delete.md)|None|Deletes a [importedDeviceIdentity](../resources/importeddeviceidentity.md).|
 |[Update importedDeviceIdentity](../api/importeddeviceidentity-update.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md)|Update the properties of a [importedDeviceIdentity](../resources/importeddeviceidentity.md) object.|
 |[importDeviceIdentityList](../api/importeddeviceidentity-importdeviceidentitylist.md)|[importedDeviceIdentityResult](../resources/importeddeviceidentityresult.md) collection||
 |[searchExistingIdentities](../api/importeddeviceidentity-searchexistingidentities.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md) collection||
-|[List importedDeviceIdentities](../api/intune-devices-devicemanagement-list-importeddeviceidentities.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md) collection|Get the importedDeviceIdentities from the importedDeviceIdentities navigation property.|
-|[Add importedDeviceIdentities](../api/intune-devices-devicemanagement-post-importeddeviceidentities.md)|[importedDeviceIdentity](../resources/importeddeviceidentity.md)|Add importedDeviceIdentities by posting to the importedDeviceIdentities collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

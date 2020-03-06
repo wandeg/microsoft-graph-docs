@@ -20,10 +20,7 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List timeOffRequests](../api/timeoffrequest-list.md)|[timeOffRequest](../resources/timeoffrequest.md) collection|List properties and relationships of the [timeOffRequest](../resources/timeoffrequest.md) objects.|
 |[Get timeOffRequest](../api/timeoffrequest-get.md)|[timeOffRequest](../resources/timeoffrequest.md)|Read properties and relationships of the [timeOffRequest](../resources/timeoffrequest.md) object.|
-|[Create timeOffRequest](../api/timeoffrequest-create.md)|[timeOffRequest](../resources/timeoffrequest.md)|Create a new [timeOffRequest](../resources/timeoffrequest.md) object.|
-|[Delete timeOffRequest](../api/timeoffrequest-delete.md)|None|Deletes a [timeOffRequest](../resources/timeoffrequest.md).|
 |[Update timeOffRequest](../api/timeoffrequest-update.md)|[timeOffRequest](../resources/timeoffrequest.md)|Update the properties of a [timeOffRequest](../resources/timeoffrequest.md) object.|
 |[approve](../api/timeoffrequest-approve.md)|None||
 |[decline](../api/timeoffrequest-decline.md)|None||
@@ -52,7 +49,7 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

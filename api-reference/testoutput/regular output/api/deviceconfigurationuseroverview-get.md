@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,13 +74,13 @@ Content-Length: 368
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceConfigurationUserOverview",
-    "id": "559b930c-930c-559b-0c93-9b550c939b55",
+    "id": "7c9b60b8-60b8-7c9b-b860-9b7cb8609b7c",
     "pendingCount": 12,
     "notApplicableCount": 2,
     "successCount": 12,
     "errorCount": 10,
     "failedCount": 11,
-    "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
+    "lastUpdateDateTime": "2016-12-31T23:58:00.0420361+03:00",
     "configurationVersion": 4
   }
 }

@@ -32,10 +32,13 @@ GET /groups/{groupsId}/settings
 GET /me/joinedTeams/{groupId}/settings
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +76,7 @@ Content-Length: 406
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupSetting",
-      "id": "5bb8c5e5-c5e5-5bb8-e5c5-b85be5c5b85b",
+      "id": "c9e5ea87-ea87-c9e5-87ea-e5c987eae5c9",
       "displayName": "Display Name value",
       "templateId": "Template Id value",
       "values": [

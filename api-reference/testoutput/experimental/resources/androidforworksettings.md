@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidForWorkSettingses](../api/androidforworksettings-list.md)|[androidForWorkSettings](../resources/androidforworksettings.md) collection|List properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) objects.|
 |[Get androidForWorkSettings](../api/androidforworksettings-get.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Read properties and relationships of the [androidForWorkSettings](../resources/androidforworksettings.md) object.|
-|[Create androidForWorkSettings](../api/androidforworksettings-create.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Create a new [androidForWorkSettings](../resources/androidforworksettings.md) object.|
-|[Delete androidForWorkSettings](../api/androidforworksettings-delete.md)|None|Deletes a [androidForWorkSettings](../resources/androidforworksettings.md).|
 |[Update androidForWorkSettings](../api/androidforworksettings-update.md)|[androidForWorkSettings](../resources/androidforworksettings.md)|Update the properties of a [androidForWorkSettings](../resources/androidforworksettings.md) object.|
 |[requestSignupUrl](../api/androidforworksettings-requestsignupurl.md)|String||
 |[completeSignup](../api/androidforworksettings-completesignup.md)|None||
@@ -47,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

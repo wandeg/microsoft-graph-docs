@@ -34,8 +34,8 @@ POST /deviceAppManagement/managedEBooks/{managedEBookId}/assignments/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedEBookAssignment](../resources/managedebookassignment.md) object.
@@ -91,7 +91,7 @@ Content-Length: 241
 
 {
   "@odata.type": "#microsoft.graph.managedEBookAssignment",
-  "id": "44664c14-4c14-4466-144c-6644144c6644",
+  "id": "0c209892-9892-0c20-9298-200c9298200c",
   "target": {
     "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
   },

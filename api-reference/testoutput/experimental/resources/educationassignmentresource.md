@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationAssignmentResources](../api/educationassignmentresource-list.md)|[educationAssignmentResource](../resources/educationassignmentresource.md) collection|List properties and relationships of the [educationAssignmentResource](../resources/educationassignmentresource.md) objects.|
 |[Get educationAssignmentResource](../api/educationassignmentresource-get.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Read properties and relationships of the [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
-|[Create educationAssignmentResource](../api/educationassignmentresource-create.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Create a new [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
-|[Delete educationAssignmentResource](../api/educationassignmentresource-delete.md)|None|Deletes a [educationAssignmentResource](../resources/educationassignmentresource.md).|
 |[Update educationAssignmentResource](../api/educationassignmentresource-update.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Update the properties of a [educationAssignmentResource](../resources/educationassignmentresource.md) object.|
+|[List resources](../api/educationassignment-list-resources.md)|[educationAssignmentResource](../resources/educationassignmentresource.md) collection|Get the educationAssignmentResources from the resources navigation property.|
+|[Add resources](../api/educationassignment-post-resources.md)|[educationAssignmentResource](../resources/educationassignmentresource.md)|Add resources by posting to the resources collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

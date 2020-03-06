@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /education/classes/{educationClassId}/members/{educationUserId}/assignments
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -44,7 +44,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this action returns a `200 OK` response code and a [educationAssignment](../resources/educationassignment.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,21 +68,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1131
+Content-Length: 1130
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationAssignment",
-    "id": "f3f25053-5053-f3f2-5350-f2f35350f2f3",
+    "id": "515b3fad-3fad-515b-ad3f-5b51ad3f5b51",
     "classId": "Class Id value",
     "displayName": "Display Name value",
     "instructions": {
       "@odata.type": "microsoft.graph.educationItemBody"
     },
-    "closeDateTime": "2017-01-01T00:01:20.1298622+03:00",
-    "dueDateTime": "2017-01-01T00:01:36.4685818+03:00",
-    "assignDateTime": "2016-12-31T23:59:28.9197423+03:00",
-    "assignedDateTime": "2016-12-31T23:58:09.350506+03:00",
+    "closeDateTime": "2016-12-31T23:59:06.0271108+03:00",
+    "dueDateTime": "2016-12-31T23:58:39.04111+03:00",
+    "assignDateTime": "2016-12-31T23:56:51.235892+03:00",
+    "assignedDateTime": "2016-12-31T23:56:36.9997901+03:00",
     "grading": {
       "@odata.type": "microsoft.graph.educationAssignmentGradeType"
     },
@@ -90,11 +90,11 @@ Content-Length: 1131
       "@odata.type": "microsoft.graph.educationAssignmentRecipient"
     },
     "allowLateSubmissions": true,
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },

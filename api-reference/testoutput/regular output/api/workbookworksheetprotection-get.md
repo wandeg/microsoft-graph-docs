@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 629
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-    "id": "2694d3f1-d3f1-2694-f1d3-9426f1d39426",
+    "id": "9366f008-f008-9366-08f0-669308f06693",
     "options": {
       "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
       "allowAutoFilter": true,

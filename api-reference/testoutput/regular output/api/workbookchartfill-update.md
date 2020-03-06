@@ -39,7 +39,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartFill](../resources/workbookchartfill.md) object.
@@ -88,7 +88,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFill",
-  "id": "82241d68-1d68-8224-681d-2482681d2482"
+  "id": "b07a5708-5708-b07a-0857-7ab008577ab0"
 }
 ```
 

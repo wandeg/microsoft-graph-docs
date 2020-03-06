@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mention](../resources/mention.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [mention](../resources/mention.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-length: 485
   "createdBy": {
     "@odata.type": "microsoft.graph.emailAddress"
   },
-  "serverCreatedDateTime": "2016-12-31T23:57:52.2165536+03:00",
+  "serverCreatedDateTime": "2017-01-01T00:00:17.4581323+03:00",
   "deepLink": "Deep Link value",
   "application": "Application value"
 }
@@ -102,11 +102,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 592
+Content-Length: 593
 
 {
   "@odata.type": "#microsoft.graph.mention",
-  "id": "97080269-0269-9708-6902-089769020897",
+  "id": "c8e6a53d-a53d-c8e6-3da5-e6c83da5e6c8",
   "mentioned": {
     "@odata.type": "microsoft.graph.emailAddress",
     "name": "Name value",
@@ -117,8 +117,8 @@ Content-Length: 592
   "createdBy": {
     "@odata.type": "microsoft.graph.emailAddress"
   },
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "serverCreatedDateTime": "2016-12-31T23:57:52.2165536+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "serverCreatedDateTime": "2017-01-01T00:00:17.4581323+03:00",
   "deepLink": "Deep Link value",
   "application": "Application value"
 }

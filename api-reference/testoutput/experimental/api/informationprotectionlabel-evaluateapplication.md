@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /informationProtection/policy/labels/evaluateApplication
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [informationProtectionAction](../resources/informationprotectionaction.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 532
   },
   "labelingOptions": {
     "@odata.type": "microsoft.graph.labelingOptions",
-    "labelId": "c89e4301-4301-c89e-0143-9ec801439ec8",
+    "labelId": "dddacf2b-cf2b-ddda-2bcf-dadd2bcfdadd",
     "downgradeJustification": {
       "@odata.type": "microsoft.graph.downgradeJustification",
       "justificationMessage": "Justification Message value",

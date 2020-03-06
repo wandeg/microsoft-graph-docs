@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,10 +74,10 @@ Content-Length: 383
 {
   "value": {
     "@odata.type": "#microsoft.graph.contract",
-    "id": "0a8b661a-661a-0a8b-1a66-8b0a1a668b0a",
-    "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+    "id": "55408f20-8f20-5540-208f-4055208f4055",
+    "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
     "contractType": "Contract Type value",
-    "customerId": "c0ee7d7f-7d7f-c0ee-7f7d-eec07f7deec0",
+    "customerId": "870ec555-c555-870e-55c5-0e8755c50e87",
     "defaultDomainName": "Default Domain Name value",
     "displayName": "Display Name value"
   }

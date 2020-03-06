@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /officeConfiguration/clientConfigurations/{officeClientConfigurationId}/assignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.officeClientConfigurationAssignment",
-      "id": "08f87e97-7e97-08f8-977e-f808977ef808",
+      "id": "e320922e-922e-e320-2e92-20e32e9220e3",
       "target": {
         "@odata.type": "microsoft.graph.officeConfigurationAssignmentTarget"
       }

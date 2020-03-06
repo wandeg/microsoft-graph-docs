@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /bookingBusinesses/{bookingBusinessesId}/services
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [bookingService](../resources/bookingservice.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,15 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2094
+Content-Length: 2100
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.bookingService",
-      "id": "dcfd9872-9872-dcfd-7298-fddc7298fddc",
+      "id": "73924ea1-4ea1-7392-a14e-9273a14e9273",
       "displayName": "Display Name value",
-      "defaultDuration": "PT2M30.8894523S",
+      "defaultDuration": "PT3M29.2405346S",
       "defaultLocation": {
         "@odata.type": "microsoft.graph.location",
         "locationEmailAddress": "Location Email Address value",
@@ -106,7 +109,7 @@ Content-Length: 2094
       "defaultReminders": [
         {
           "@odata.type": "microsoft.graph.bookingReminder",
-          "offset": "-PT2M15.3589096S",
+          "offset": "-PT48.1154137S",
           "recipients": "String",
           "message": "Message value"
         }
@@ -114,13 +117,13 @@ Content-Length: 2094
       "description": "Description value",
       "isHiddenFromCustomers": true,
       "notes": "Notes value",
-      "preBuffer": "-PT27.6468082S",
-      "postBuffer": "-PT49.745402S",
+      "preBuffer": "-PT2M36.5986877S",
+      "postBuffer": "PT1M50.7470612S",
       "schedulingPolicy": {
         "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-        "timeSlotInterval": "PT24.7084489S",
-        "minimumLeadTime": "PT46.1171008S",
-        "maximumAdvance": "-PT29.5884928S",
+        "timeSlotInterval": "-PT2M6.5040939S",
+        "minimumLeadTime": "PT1M46.8466139S",
+        "maximumAdvance": "-PT34.7669238S",
         "sendConfirmationsToOwner": true,
         "allowStaffSelection": true
       },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/countriesRegions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [countryRegion](../resources/countryregion.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 334
   "value": [
     {
       "@odata.type": "#microsoft.graph.countryRegion",
-      "id": "0c101412-1412-0c10-1214-100c1214100c",
+      "id": "4b134283-4283-4b13-8342-134b8342134b",
       "code": "Code value",
       "displayName": "Display Name value",
       "addressFormat": "Address Format value",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

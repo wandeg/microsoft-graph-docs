@@ -20,10 +20,7 @@ Inherits from [signIn](../resources/signin.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List restrictedSignIns](../api/restrictedsignin-list.md)|[restrictedSignIn](../resources/restrictedsignin.md) collection|List properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) objects.|
 |[Get restrictedSignIn](../api/restrictedsignin-get.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Read properties and relationships of the [restrictedSignIn](../resources/restrictedsignin.md) object.|
-|[Create restrictedSignIn](../api/restrictedsignin-create.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Create a new [restrictedSignIn](../resources/restrictedsignin.md) object.|
-|[Delete restrictedSignIn](../api/restrictedsignin-delete.md)|None|Deletes a [restrictedSignIn](../resources/restrictedsignin.md).|
 |[Update restrictedSignIn](../api/restrictedsignin-update.md)|[restrictedSignIn](../resources/restrictedsignin.md)|Update the properties of a [restrictedSignIn](../resources/restrictedsignin.md) object.|
 
 ## Properties
@@ -71,7 +68,7 @@ Inherits from [signIn](../resources/signin.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

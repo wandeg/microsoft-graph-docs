@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /applications
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [application](../resources/application.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,13 +75,13 @@ Content-Length: 5197
   "value": [
     {
       "@odata.type": "#microsoft.graph.application",
-      "id": "7a3399d6-99d6-7a33-d699-337ad699337a",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "0d82a622-a622-0d82-22a6-820d22a6820d",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "api": {
         "@odata.type": "microsoft.graph.apiApplication",
         "acceptMappedClaims": true,
         "knownClientApplications": [
-          "93d8b5ef-b5ef-93d8-efb5-d893efb5d893"
+          "ca48fa40-fa40-ca48-40fa-48ca40fa48ca"
         ],
         "preAuthorizedApplications": [
           {
@@ -95,7 +98,7 @@ Content-Length: 5197
             "@odata.type": "microsoft.graph.permissionScope",
             "adminConsentDescription": "Admin Consent Description value",
             "adminConsentDisplayName": "Admin Consent Display Name value",
-            "id": "cdc6f9dc-f9dc-cdc6-dcf9-c6cddcf9c6cd",
+            "id": "e9c8bcc9-bcc9-e9c8-c9bc-c8e9c9bcc8e9",
             "isEnabled": true,
             "origin": "Origin value",
             "type": "Type value",
@@ -116,7 +119,7 @@ Content-Length: 5197
           "displayName": "Display Name value"
         }
       ],
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "isFallbackPublicClient": true,
       "identifierUris": [
         "Identifier Uris value"
@@ -136,9 +139,9 @@ Content-Length: 5197
         {
           "@odata.type": "microsoft.graph.keyCredential",
           "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-          "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
-          "keyId": "6b92b784-b784-6b92-84b7-926b84b7926b",
-          "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
+          "endDateTime": "2017-01-01T00:02:18.392989+03:00",
+          "keyId": "5c0881d6-81d6-5c08-d681-085cd681085c",
+          "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
           "usage": "Usage value",
           "key": "a2V5"
         }
@@ -204,7 +207,7 @@ Content-Length: 5197
       "tags": [
         "Tags value"
       ],
-      "tokenEncryptionKeyId": "b0d21fb8-1fb8-b0d2-b81f-d2b0b81fd2b0",
+      "tokenEncryptionKeyId": "e6d6a64b-a64b-e6d6-4ba6-d6e64ba6d6e6",
       "web": {
         "@odata.type": "microsoft.graph.webApplication",
         "homePageUrl": "https://example.com/homePageUrl/",

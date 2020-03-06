@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [officeConfiguration](../resources/officeconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 910
 {
   "value": {
     "@odata.type": "#microsoft.graph.officeConfiguration",
-    "id": "c87a85cd-85cd-c87a-cd85-7ac8cd857ac8",
+    "id": "ba3abad8-bad8-ba3a-d8ba-3abad8ba3aba",
     "tenantCheckinStatuses": [
       {
         "@odata.type": "microsoft.graph.officeClientCheckinStatus",
@@ -84,7 +84,7 @@ Content-Length: 910
         "devicePlatformVersion": "Device Platform Version value",
         "wasSuccessful": true,
         "userId": "User Id value",
-        "checkinDateTime": "2017-01-01T00:03:31.0887348+03:00",
+        "checkinDateTime": "2017-01-01T00:02:52.7620952+03:00",
         "errorMessage": "Error Message value",
         "appliedPolicies": [
           "Applied Policies value"

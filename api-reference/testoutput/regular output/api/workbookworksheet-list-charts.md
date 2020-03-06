@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/worksheet/charts
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 276
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookChart",
-      "id": "8d56d798-d798-8d56-98d7-568d98d7568d",
+      "id": "0378716d-716d-0378-6d71-78036d717803",
       "height": "Double",
       "left": "Double",
       "name": "Name value",

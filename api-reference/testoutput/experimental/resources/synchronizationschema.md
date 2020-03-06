@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List synchronizationSchemas](../api/synchronizationschema-list.md)|[synchronizationSchema](../resources/synchronizationschema.md) collection|List properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) objects.|
 |[Get synchronizationSchema](../api/synchronizationschema-get.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Read properties and relationships of the [synchronizationSchema](../resources/synchronizationschema.md) object.|
-|[Create synchronizationSchema](../api/synchronizationschema-create.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Create a new [synchronizationSchema](../resources/synchronizationschema.md) object.|
-|[Delete synchronizationSchema](../api/synchronizationschema-delete.md)|None|Deletes a [synchronizationSchema](../resources/synchronizationschema.md).|
 |[Update synchronizationSchema](../api/synchronizationschema-update.md)|[synchronizationSchema](../resources/synchronizationschema.md)|Update the properties of a [synchronizationSchema](../resources/synchronizationschema.md) object.|
 |[functions](../api/synchronizationschema-functions.md)|[attributeMappingFunctionSchema](../resources/attributemappingfunctionschema.md) collection||
 |[filterOperators](../api/synchronizationschema-filteroperators.md)|[filterOperatorSchema](../resources/filteroperatorschema.md) collection||
@@ -44,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |directories|[directoryDefinition](../resources/directorydefinition.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceAppManagement/managedAppStatuses
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 227
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppStatus",
-      "id": "d34b309d-309d-d34b-9d30-4bd39d304bd3",
+      "id": "6374a44a-a44a-6374-4aa4-74634aa47463",
       "displayName": "Display Name value",
       "version": "Version value"
     }

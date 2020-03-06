@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/importedDeviceIdentities/{importedDeviceIdentityId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [importedDeviceIdentity](../resources/importeddeviceidentity.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [importedDeviceIdentity](../resources/importeddeviceidentity.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,13 +70,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/importedDeviceIdentities/{importedDeviceIdentityId}
 Content-type: application/json
-Content-length: 335
+Content-length: 334
 
 {
   "@odata.type": "#microsoft.graph.importedDeviceIdentity",
   "importedDeviceIdentifier": "Imported Device Identifier value",
   "importedDeviceIdentityType": "String",
-  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+  "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String"
@@ -97,12 +97,12 @@ Content-Length: 506
 
 {
   "@odata.type": "#microsoft.graph.importedDeviceIdentity",
-  "id": "381a5bef-5bef-381a-ef5b-1a38ef5b1a38",
+  "id": "c4910543-0543-c491-4305-91c4430591c4",
   "importedDeviceIdentifier": "Imported Device Identifier value",
   "importedDeviceIdentityType": "String",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
   "description": "Description value",
   "enrollmentState": "String",
   "platform": "String"

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /privilegedRoleAssignments/{privilegedRoleAssignmentsId}/makePermanent
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -53,7 +53,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [privilegedRoleAssignment](../resources/privilegedroleassignment.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,11 +91,11 @@ Content-Length: 337
 {
   "value": {
     "@odata.type": "#microsoft.graph.privilegedRoleAssignment",
-    "id": "59a88cae-8cae-59a8-ae8c-a859ae8ca859",
+    "id": "ed912cd5-2cd5-ed91-d52c-91edd52c91ed",
     "userId": "User Id value",
     "roleId": "Role Id value",
     "isElevated": true,
-    "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+    "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
     "resultMessage": "Result Message value"
   }
 }

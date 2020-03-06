@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [identityRiskEvent](../resources/identityriskevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,15 +74,15 @@ Content-Length: 561
 {
   "value": {
     "@odata.type": "#microsoft.graph.identityRiskEvent",
-    "id": "4fefdef1-def1-4fef-f1de-ef4ff1deef4f",
+    "id": "ec7f5d3d-5d3d-ec7f-3d5d-7fec3d5d7fec",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
-    "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+    "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
     "riskEventType": "Risk Event Type value",
     "riskLevel": "String",
     "riskEventStatus": "String",
-    "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
     "userId": "User Id value"
   }
 }

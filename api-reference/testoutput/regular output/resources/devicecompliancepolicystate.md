@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceCompliancePolicyStates](../api/devicecompliancepolicystate-list.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|List properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) objects.|
 |[Get deviceCompliancePolicyState](../api/devicecompliancepolicystate-get.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Read properties and relationships of the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
-|[Create deviceCompliancePolicyState](../api/devicecompliancepolicystate-create.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Create a new [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
-|[Delete deviceCompliancePolicyState](../api/devicecompliancepolicystate-delete.md)|None|Deletes a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md).|
 |[Update deviceCompliancePolicyState](../api/devicecompliancepolicystate-update.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Update the properties of a [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.|
+|[List deviceCompliancePolicyStates](../api/manageddevice-list-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) collection|Get the deviceCompliancePolicyStates from the deviceCompliancePolicyStates navigation property.|
+|[Add deviceCompliancePolicyStates](../api/manageddevice-post-devicecompliancepolicystates.md)|[deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md)|Add deviceCompliancePolicyStates by posting to the deviceCompliancePolicyStates collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -46,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |invitedUser|[user](../resources/user.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/{requestId}/myDecisions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [accessReviewDecision](../resources/accessreviewdecision.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 878
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessReviewDecision",
-      "id": "903da73c-a73c-903d-3ca7-3d903ca73d90",
+      "id": "1cb23cf6-3cf6-1cb2-f63c-b21cf63cb21c",
       "accessReviewId": "Access Review Id value",
       "reviewedBy": {
         "@odata.type": "microsoft.graph.userIdentity",
@@ -81,13 +84,13 @@ Content-Length: 878
         "ipAddress": "Ip Address value",
         "userPrincipalName": "User Principal Name value"
       },
-      "reviewedDateTime": "2017-01-01T00:02:24.4487531+03:00",
+      "reviewedDateTime": "2016-12-31T23:59:33.2071135+03:00",
       "reviewResult": "Review Result value",
       "justification": "Justification value",
       "appliedBy": {
         "@odata.type": "microsoft.graph.userIdentity"
       },
-      "appliedDateTime": "2017-01-01T00:01:12.8088916+03:00",
+      "appliedDateTime": "2016-12-31T23:57:42.3349552+03:00",
       "applyResult": "Apply Result value",
       "accessRecommendation": "Access Recommendation value"
     }

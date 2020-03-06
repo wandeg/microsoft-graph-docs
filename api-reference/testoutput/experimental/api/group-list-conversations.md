@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /groups/{groupsId}/conversations
 GET /me/joinedGroups/{groupId}/conversations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [conversation](../resources/conversation.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,16 +70,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 375
+Content-Length: 378
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversation",
-      "id": "aa124df4-4df4-aa12-f44d-12aaf44d12aa",
+      "id": "5537493e-493e-5537-3e49-37553e493755",
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2016-12-31T23:58:15.3049+03:00",
+      "lastDeliveredDateTime": "2017-01-01T00:01:37.0008399+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

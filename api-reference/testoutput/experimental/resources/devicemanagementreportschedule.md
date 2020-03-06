@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementReportSchedules](../api/devicemanagementreportschedule-list.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) collection|List properties and relationships of the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) objects.|
 |[Get deviceManagementReportSchedule](../api/devicemanagementreportschedule-get.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Read properties and relationships of the [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
-|[Create deviceManagementReportSchedule](../api/devicemanagementreportschedule-create.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Create a new [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
-|[Delete deviceManagementReportSchedule](../api/devicemanagementreportschedule-delete.md)|None|Deletes a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md).|
 |[Update deviceManagementReportSchedule](../api/devicemanagementreportschedule-update.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Update the properties of a [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) object.|
+|[List reportSchedules](../api/devicemanagementreports-list-reportschedules.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) collection|Get the deviceManagementReportSchedules from the reportSchedules navigation property.|
+|[Add reportSchedules](../api/devicemanagementreports-post-reportschedules.md)|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md)|Add reportSchedules by posting to the reportSchedules collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

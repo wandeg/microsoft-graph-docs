@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List importedAppleDeviceIdentities](../api/importedappledeviceidentity-list.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) collection|List properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) objects.|
 |[Get importedAppleDeviceIdentity](../api/importedappledeviceidentity-get.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Read properties and relationships of the [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
-|[Create importedAppleDeviceIdentity](../api/importedappledeviceidentity-create.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Create a new [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
-|[Delete importedAppleDeviceIdentity](../api/importedappledeviceidentity-delete.md)|None|Deletes a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md).|
 |[Update importedAppleDeviceIdentity](../api/importedappledeviceidentity-update.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Update the properties of a [importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) object.|
 |[importAppleDeviceIdentityList](../api/importedappledeviceidentity-importappledeviceidentitylist.md)|[importedAppleDeviceIdentityResult](../resources/importedappledeviceidentityresult.md) collection||
+|[List importedAppleDeviceIdentities](../api/deponboardingsetting-list-importedappledeviceidentities.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) collection|Get the importedAppleDeviceIdentities from the importedAppleDeviceIdentities navigation property.|
+|[Add importedAppleDeviceIdentities](../api/deponboardingsetting-post-importedappledeviceidentities.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Add importedAppleDeviceIdentities by posting to the importedAppleDeviceIdentities collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

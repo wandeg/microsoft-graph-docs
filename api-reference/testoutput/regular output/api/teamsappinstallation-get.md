@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -75,7 +75,7 @@ Content-Length: 134
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsAppInstallation",
-    "id": "0b4b9392-9392-0b4b-9293-4b0b92934b0b"
+    "id": "65704e86-4e86-6570-864e-7065864e7065"
   }
 }
 ```

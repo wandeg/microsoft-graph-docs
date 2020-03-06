@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List persons](../api/person-list.md)|[person](../resources/person.md) collection|List properties and relationships of the [person](../resources/person.md) objects.|
 |[Get person](../api/person-get.md)|[person](../resources/person.md)|Read properties and relationships of the [person](../resources/person.md) object.|
-|[Create person](../api/person-create.md)|[person](../resources/person.md)|Create a new [person](../resources/person.md) object.|
-|[Delete person](../api/person-delete.md)|None|Deletes a [person](../resources/person.md).|
 |[Update person](../api/person-update.md)|[person](../resources/person.md)|Update the properties of a [person](../resources/person.md) object.|
+|[List people](../api/user-list-people.md)|[person](../resources/person.md) collection|Get the persons from the people navigation property.|
+|[Add people](../api/user-post-people.md)|[person](../resources/person.md)|Add people by posting to the people collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -54,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

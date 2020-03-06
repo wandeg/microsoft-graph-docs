@@ -34,8 +34,8 @@ POST /deviceManagement/roleDefinitions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [roleDefinition](../resources/roledefinition.md) object.
@@ -108,7 +108,7 @@ Content-Length: 629
 
 {
   "@odata.type": "#microsoft.graph.roleDefinition",
-  "id": "92003327-3327-9200-2733-009227330092",
+  "id": "b851052b-052b-b851-2b05-51b82b0551b8",
   "displayName": "Display Name value",
   "description": "Description value",
   "rolePermissions": [

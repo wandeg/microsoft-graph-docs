@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartDataLabelses](../api/workbookchartdatalabels-list.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md) collection|List properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) objects.|
 |[Get workbookChartDataLabels](../api/workbookchartdatalabels-get.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)|Read properties and relationships of the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
-|[Create workbookChartDataLabels](../api/workbookchartdatalabels-create.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)|Create a new [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
-|[Delete workbookChartDataLabels](../api/workbookchartdatalabels-delete.md)|None|Deletes a [workbookChartDataLabels](../resources/workbookchartdatalabels.md).|
 |[Update workbookChartDataLabels](../api/workbookchartdatalabels-update.md)|[workbookChartDataLabels](../resources/workbookchartdatalabels.md)|Update the properties of a [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.|
 |[Get workbookChartDataLabelFormat](../api/workbookchartdatalabelformat-get.md)|[workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md)|Read properties and relationships of the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.|
 

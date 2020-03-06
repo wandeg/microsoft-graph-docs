@@ -20,11 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbooks](../api/workbook-list.md)|[workbook](../resources/workbook.md) collection|List properties and relationships of the [workbook](../resources/workbook.md) objects.|
 |[Get workbook](../api/workbook-get.md)|[workbook](../resources/workbook.md)|Read properties and relationships of the [workbook](../resources/workbook.md) object.|
-|[Create workbook](../api/workbook-create.md)|[workbook](../resources/workbook.md)|Create a new [workbook](../resources/workbook.md) object.|
-|[Delete workbook](../api/workbook-delete.md)|None|Deletes a [workbook](../resources/workbook.md).|
 |[Update workbook](../api/workbook-update.md)|[workbook](../resources/workbook.md)|Update the properties of a [workbook](../resources/workbook.md) object.|
+|[createSession](../api/workbook-createsession.md)|[workbookSessionInfo](../resources/workbooksessioninfo.md)||
+|[closeSession](../api/workbook-closesession.md)|None||
+|[refreshSession](../api/workbook-refreshsession.md)|None||
 |[Get workbookApplication](../api/workbookapplication-get.md)|[workbookApplication](../resources/workbookapplication.md)|Read properties and relationships of the [workbookApplication](../resources/workbookapplication.md) object.|
 |[List names](../api/workbook-list-names.md)|[workbookNamedItem](../resources/workbooknameditem.md) collection|Get the workbookNamedItems from the names navigation property.|
 |[Add names](../api/workbook-post-names.md)|[workbookNamedItem](../resources/workbooknameditem.md)|Add names by posting to the names collection.|
@@ -51,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 |tables|[workbookTable](../resources/workbooktable.md) collection||
 |worksheets|[workbookWorksheet](../resources/workbookworksheet.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

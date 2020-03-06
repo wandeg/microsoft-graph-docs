@@ -34,8 +34,8 @@ POST /domains/{domainsId}/verify
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +72,7 @@ Content-Length: 658
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "eb7d2cab-2cab-eb7d-ab2c-7debab2c7deb",
+    "id": "5809501f-501f-5809-1f50-09581f500958",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,

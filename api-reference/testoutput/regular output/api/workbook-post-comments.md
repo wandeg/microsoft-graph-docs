@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/comments/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookComment](../resources/workbookcomment.md) object.
@@ -89,7 +89,7 @@ Content-Length: 177
 
 {
   "@odata.type": "#microsoft.graph.workbookComment",
-  "id": "a24bf394-f394-a24b-94f3-4ba294f34ba2",
+  "id": "d830e58d-e58d-d830-8de5-30d88de530d8",
   "content": "Content value",
   "contentType": "Content Type value"
 }

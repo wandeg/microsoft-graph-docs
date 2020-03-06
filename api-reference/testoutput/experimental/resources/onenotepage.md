@@ -20,10 +20,7 @@ Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemao
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenotePages](../api/onenotepage-list.md)|[onenotePage](../resources/onenotepage.md) collection|List properties and relationships of the [onenotePage](../resources/onenotepage.md) objects.|
 |[Get onenotePage](../api/onenotepage-get.md)|[onenotePage](../resources/onenotepage.md)|Read properties and relationships of the [onenotePage](../resources/onenotepage.md) object.|
-|[Create onenotePage](../api/onenotepage-create.md)|[onenotePage](../resources/onenotepage.md)|Create a new [onenotePage](../resources/onenotepage.md) object.|
-|[Delete onenotePage](../api/onenotepage-delete.md)|None|Deletes a [onenotePage](../resources/onenotepage.md).|
 |[Update onenotePage](../api/onenotepage-update.md)|[onenotePage](../resources/onenotepage.md)|Update the properties of a [onenotePage](../resources/onenotepage.md) object.|
 |[onenotePatchContent](../api/onenotepage-onenotepatchcontent.md)|None||
 |[preview](../api/onenotepage-preview.md)|[onenotePagePreview](../resources/onenotepagepreview.md)||
@@ -53,7 +50,7 @@ Inherits from [onenoteEntitySchemaObjectModel](../resources/onenoteentityschemao
 |parentNotebook|[notebook](../resources/notebook.md)||
 |parentSection|[onenoteSection](../resources/onenotesection.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -34,7 +34,7 @@ PATCH /schemaExtensions/{schemaExtensionsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [schemaExtension](../resources/schemaextension.md) object.
@@ -101,7 +101,7 @@ Content-Length: 414
 
 {
   "@odata.type": "#microsoft.graph.schemaExtension",
-  "id": "dead84d3-84d3-dead-d384-added384adde",
+  "id": "29d162f9-62f9-29d1-f962-d129f962d129",
   "description": "Description value",
   "targetTypes": [
     "Target Types value"

@@ -28,6 +28,7 @@ Inherits from [entity](../resources/entity.md)
 |[clone](../api/team-clone.md)|None||
 |[archive](../api/team-archive.md)|None||
 |[unarchive](../api/team-unarchive.md)|None||
+|[allMessages](../api/team-allmessages.md)|[chatMessage](../resources/chatmessage.md) collection||
 |[Get schedule](../api/schedule-get.md)|[schedule](../resources/schedule.md)|Read properties and relationships of the [schedule](../resources/schedule.md) object.|
 |[Get group](../api/group-get.md)|[group](../resources/group.md)|Read properties and relationships of the [group](../resources/group.md) object.|
 |[Get teamsTemplate](../api/teamstemplate-get.md)|[teamsTemplate](../resources/teamstemplate.md)|Read properties and relationships of the [teamsTemplate](../resources/teamstemplate.md) object.|
@@ -78,7 +79,7 @@ Inherits from [entity](../resources/entity.md)
 |schedule|[schedule](../resources/schedule.md)||
 |template|[teamsTemplate](../resources/teamstemplate.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

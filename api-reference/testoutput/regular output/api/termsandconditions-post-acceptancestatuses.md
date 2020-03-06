@@ -34,8 +34,8 @@ POST /deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatu
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [termsAndConditionsAcceptanceStatus](../resources/termsandconditionsacceptancestatus.md) object.
@@ -66,13 +66,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/termsAndConditions/{termsAndConditionsId}/acceptanceStatuses
 Content-type: application/json
-Content-length: 211
+Content-length: 210
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:00:04.5421054+03:00"
+  "acceptedDateTime": "2017-01-01T00:01:21.675925+03:00"
 }
 ```
 
@@ -87,14 +87,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 260
+Content-Length: 259
 
 {
   "@odata.type": "#microsoft.graph.termsAndConditionsAcceptanceStatus",
-  "id": "5daf4c74-4c74-5daf-744c-af5d744caf5d",
+  "id": "13790c5d-0c5d-1379-5d0c-79135d0c7913",
   "userDisplayName": "User Display Name value",
   "acceptedVersion": 15,
-  "acceptedDateTime": "2017-01-01T00:00:04.5421054+03:00"
+  "acceptedDateTime": "2017-01-01T00:01:21.675925+03:00"
 }
 ```
 

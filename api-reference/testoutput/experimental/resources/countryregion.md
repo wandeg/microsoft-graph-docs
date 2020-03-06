@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List countryRegions](../api/countryregion-list.md)|[countryRegion](../resources/countryregion.md) collection|List properties and relationships of the [countryRegion](../resources/countryregion.md) objects.|
 |[Get countryRegion](../api/countryregion-get.md)|[countryRegion](../resources/countryregion.md)|Read properties and relationships of the [countryRegion](../resources/countryregion.md) object.|
-|[Create countryRegion](../api/countryregion-create.md)|[countryRegion](../resources/countryregion.md)|Create a new [countryRegion](../resources/countryregion.md) object.|
-|[Delete countryRegion](../api/countryregion-delete.md)|None|Deletes a [countryRegion](../resources/countryregion.md).|
 |[Update countryRegion](../api/countryregion-update.md)|[countryRegion](../resources/countryregion.md)|Update the properties of a [countryRegion](../resources/countryregion.md) object.|
+|[List countriesRegions](../api/company-list-countriesregions.md)|[countryRegion](../resources/countryregion.md) collection|Get the countryRegions from the countriesRegions navigation property.|
+|[Add countriesRegions](../api/company-post-countriesregions.md)|[countryRegion](../resources/countryregion.md)|Add countriesRegions by posting to the countriesRegions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

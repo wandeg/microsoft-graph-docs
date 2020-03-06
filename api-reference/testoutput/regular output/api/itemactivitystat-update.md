@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivitySta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [itemActivityStat](../resources/itemactivitystat.md) object.
@@ -75,8 +75,8 @@ Content-length: 786
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+  "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+  "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -97,7 +97,7 @@ Content-length: 786
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:00:17.2858665+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:00:37.5104997+03:00",
     "wasThrottled": true
   }
 }
@@ -117,9 +117,9 @@ Content-Length: 835
 
 {
   "@odata.type": "#microsoft.graph.itemActivityStat",
-  "id": "01b4bc2f-bc2f-01b4-2fbc-b4012fbcb401",
-  "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-  "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
+  "id": "55a057d4-57d4-55a0-d457-a055d457a055",
+  "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+  "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
   "access": {
     "@odata.type": "microsoft.graph.itemActionStat",
     "actionCount": 11,
@@ -140,7 +140,7 @@ Content-Length: 835
   "isTrending": true,
   "incompleteData": {
     "@odata.type": "microsoft.graph.incompleteData",
-    "missingDataBeforeDateTime": "2017-01-01T00:00:17.2858665+03:00",
+    "missingDataBeforeDateTime": "2017-01-01T00:00:37.5104997+03:00",
     "wasThrottled": true
   }
 }

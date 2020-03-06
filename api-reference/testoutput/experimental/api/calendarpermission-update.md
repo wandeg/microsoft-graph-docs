@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/messages/{messageId}/event/calendar/calendarPermissions/{calendarPermi
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendarPermission](../resources/calendarpermission.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [calendarPermission](../resources/calendarpermission.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 366
 
 {
   "@odata.type": "#microsoft.graph.calendarPermission",
-  "id": "0445712f-712f-0445-2f71-45042f714504",
+  "id": "bd0d22f1-22f1-bd0d-f122-0dbdf1220dbd",
   "emailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",
     "name": "Name value",

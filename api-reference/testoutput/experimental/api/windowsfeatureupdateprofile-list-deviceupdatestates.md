@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/windowsFeatureUpdateProfiles/{windowsFeatureUpdateProfileId}/deviceUpdateStates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windowsUpdateState](../resources/windowsupdatestate.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 617
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsUpdateState",
-      "id": "98c6922f-922f-98c6-2f92-c6982f92c698",
+      "id": "1a3eada6-ada6-1a3e-a6ad-3e1aa6ad3e1a",
       "deviceId": "Device Id value",
       "userId": "User Id value",
       "deviceDisplayName": "Device Display Name value",
@@ -80,8 +83,8 @@ Content-Length: 617
       "status": "String",
       "qualityUpdateVersion": "Quality Update Version value",
       "featureUpdateVersion": "Feature Update Version value",
-      "lastScanDateTime": "2016-12-31T23:56:31.6960562+03:00",
-      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00"
+      "lastScanDateTime": "2017-01-01T00:00:16.4088189+03:00",
+      "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00"
     }
   ]
 }

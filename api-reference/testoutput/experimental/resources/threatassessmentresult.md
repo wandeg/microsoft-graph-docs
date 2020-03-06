@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List threatAssessmentResults](../api/threatassessmentresult-list.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|List properties and relationships of the [threatAssessmentResult](../resources/threatassessmentresult.md) objects.|
 |[Get threatAssessmentResult](../api/threatassessmentresult-get.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Read properties and relationships of the [threatAssessmentResult](../resources/threatassessmentresult.md) object.|
-|[Create threatAssessmentResult](../api/threatassessmentresult-create.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Create a new [threatAssessmentResult](../resources/threatassessmentresult.md) object.|
-|[Delete threatAssessmentResult](../api/threatassessmentresult-delete.md)|None|Deletes a [threatAssessmentResult](../resources/threatassessmentresult.md).|
 |[Update threatAssessmentResult](../api/threatassessmentresult-update.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Update the properties of a [threatAssessmentResult](../resources/threatassessmentresult.md) object.|
+|[List results](../api/threatassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|Get the threatAssessmentResults from the results navigation property.|
+|[Add results](../api/threatassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Add results by posting to the results collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

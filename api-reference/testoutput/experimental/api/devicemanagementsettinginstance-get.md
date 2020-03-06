@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -40,7 +40,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +77,7 @@ Content-Length: 227
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-    "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
+    "id": "32700484-0484-3270-8404-703284047032",
     "definitionId": "Definition Id value",
     "valueJson": "Value Json value"
   }

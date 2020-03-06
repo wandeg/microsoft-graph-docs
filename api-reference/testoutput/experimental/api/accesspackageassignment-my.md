@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ GET /identityGovernance/entitlementManagement/accessPackageAssignments/{accessPa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [accessPackageAssignment](../resources/accesspackageassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-Length: 541
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageAssignment",
-      "id": "89902c03-2c03-8990-032c-9089032c9089",
+      "id": "e4383339-3339-e438-3933-38e4393338e4",
       "catalogId": "Catalog Id value",
       "accessPackageId": "Access Package Id value",
       "assignmentPolicyId": "Assignment Policy Id value",
@@ -83,7 +83,7 @@ Content-Length: 541
       "assignmentStatus": "Assignment Status value",
       "assignmentState": "Assignment State value",
       "isExtended": true,
-      "expiredDateTime": "2016-12-31T23:58:42.0287162+03:00"
+      "expiredDateTime": "2017-01-01T00:03:03.9221806+03:00"
     }
   ]
 }

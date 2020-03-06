@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,7 +36,7 @@ PATCH /me/joinedGroups/{groupId}/sites/{siteId}/columns/{columnDefinitionId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [columnDefinition](../resources/columndefinition.md) object.
@@ -72,7 +72,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [columnDefinition](../resources/columndefinition.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -172,7 +172,7 @@ Content-Length: 2035
 
 {
   "@odata.type": "#microsoft.graph.columnDefinition",
-  "id": "93f728eb-28eb-93f7-eb28-f793eb28f793",
+  "id": "fb5a5bd7-5bd7-fb5a-d75b-5afbd75b5afb",
   "boolean": {
     "@odata.type": "microsoft.graph.booleanColumn"
   },

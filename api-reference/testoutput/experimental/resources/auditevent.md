@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List auditEvents](../api/auditevent-list.md)|[auditEvent](../resources/auditevent.md) collection|List properties and relationships of the [auditEvent](../resources/auditevent.md) objects.|
 |[Get auditEvent](../api/auditevent-get.md)|[auditEvent](../resources/auditevent.md)|Read properties and relationships of the [auditEvent](../resources/auditevent.md) object.|
-|[Create auditEvent](../api/auditevent-create.md)|[auditEvent](../resources/auditevent.md)|Create a new [auditEvent](../resources/auditevent.md) object.|
-|[Delete auditEvent](../api/auditevent-delete.md)|None|Deletes a [auditEvent](../resources/auditevent.md).|
 |[Update auditEvent](../api/auditevent-update.md)|[auditEvent](../resources/auditevent.md)|Update the properties of a [auditEvent](../resources/auditevent.md) object.|
 |[getAuditCategories](../api/auditevent-getauditcategories.md)|String collection||
 |[getAuditActivityTypes](../api/auditevent-getauditactivitytypes.md)|String collection||
-|[List auditEvents](../api/intune-devices-devicemanagement-list-auditevents.md)|[auditEvent](../resources/auditevent.md) collection|Get the auditEvents from the auditEvents navigation property.|
-|[Add auditEvents](../api/intune-devices-devicemanagement-post-auditevents.md)|[auditEvent](../resources/auditevent.md)|Add auditEvents by posting to the auditEvents collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /accessReviews/{accessReviewsId}/reviewers
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [accessReviewReviewer](../resources/accessreviewreviewer.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 253
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessReviewReviewer",
-      "id": "e93278e8-78e8-e932-e878-32e9e87832e9",
+      "id": "1d2eb48f-b48f-1d2e-8fb4-2e1d8fb42e1d",
       "displayName": "Display Name value",
       "userPrincipalName": "User Principal Name value"
     }

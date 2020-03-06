@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -69,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 330
+Content-Length: 329
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-    "id": "b8416387-6387-b841-8763-41b8876341b8",
+    "id": "33eccc98-cc98-33ec-98cc-ec3398ccec33",
     "displayName": "Display Name value",
     "url": "Url value",
     "appAuthorized": true,
     "enabled": true,
-    "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+    "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
   }
 }
 ```

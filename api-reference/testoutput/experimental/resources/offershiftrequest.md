@@ -20,10 +20,7 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List offerShiftRequests](../api/offershiftrequest-list.md)|[offerShiftRequest](../resources/offershiftrequest.md) collection|List properties and relationships of the [offerShiftRequest](../resources/offershiftrequest.md) objects.|
 |[Get offerShiftRequest](../api/offershiftrequest-get.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Read properties and relationships of the [offerShiftRequest](../resources/offershiftrequest.md) object.|
-|[Create offerShiftRequest](../api/offershiftrequest-create.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Create a new [offerShiftRequest](../resources/offershiftrequest.md) object.|
-|[Delete offerShiftRequest](../api/offershiftrequest-delete.md)|None|Deletes a [offerShiftRequest](../resources/offershiftrequest.md).|
 |[Update offerShiftRequest](../api/offershiftrequest-update.md)|[offerShiftRequest](../resources/offershiftrequest.md)|Update the properties of a [offerShiftRequest](../resources/offershiftrequest.md) object.|
 |[approve](../api/offershiftrequest-approve.md)|None||
 |[decline](../api/offershiftrequest-decline.md)|None||
@@ -53,7 +50,7 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

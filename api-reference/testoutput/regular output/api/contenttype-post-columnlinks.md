@@ -34,8 +34,8 @@ POST /me/drive/list/contentTypes/{contentTypeId}/columnLinks/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [columnLink](../resources/columnlink.md) object.
@@ -87,7 +87,7 @@ Content-Length: 126
 
 {
   "@odata.type": "#microsoft.graph.columnLink",
-  "id": "1fbeeddb-eddb-1fbe-dbed-be1fdbedbe1f",
+  "id": "0f9c05d1-05d1-0f9c-d105-9c0fd1059c0f",
   "name": "Name value"
 }
 ```

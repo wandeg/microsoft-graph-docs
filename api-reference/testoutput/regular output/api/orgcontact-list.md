@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /contacts
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 1687
   "value": [
     {
       "@odata.type": "#microsoft.graph.orgContact",
-      "id": "5077ab57-ab57-5077-57ab-775057ab7750",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "c26df8c2-f8c2-c26d-c2f8-6dc2c2f86dc2",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "addresses": [
         {
           "@odata.type": "microsoft.graph.physicalOfficeAddress",
@@ -93,14 +96,14 @@ Content-Length: 1687
       "mail": "Mail value",
       "mailNickname": "Mail Nickname value",
       "onPremisesSyncEnabled": true,
-      "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError",
           "value": "Value value",
           "category": "Category value",
           "propertyCausingError": "Property Causing Error value",
-          "occurredDateTime": "2016-12-31T23:59:30.1342335+03:00"
+          "occurredDateTime": "2016-12-31T23:56:48.3524319+03:00"
         }
       ],
       "phones": [

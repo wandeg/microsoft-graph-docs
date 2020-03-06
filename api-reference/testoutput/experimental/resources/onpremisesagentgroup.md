@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onPremisesAgentGroups](../api/onpremisesagentgroup-list.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md) collection|List properties and relationships of the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) objects.|
 |[Get onPremisesAgentGroup](../api/onpremisesagentgroup-get.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md)|Read properties and relationships of the [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.|
-|[Create onPremisesAgentGroup](../api/onpremisesagentgroup-create.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md)|Create a new [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.|
-|[Delete onPremisesAgentGroup](../api/onpremisesagentgroup-delete.md)|None|Deletes a [onPremisesAgentGroup](../resources/onpremisesagentgroup.md).|
 |[Update onPremisesAgentGroup](../api/onpremisesagentgroup-update.md)|[onPremisesAgentGroup](../resources/onpremisesagentgroup.md)|Update the properties of a [onPremisesAgentGroup](../resources/onpremisesagentgroup.md) object.|
 |[List agents](../api/onpremisesagentgroup-list-agents.md)|[onPremisesAgent](../resources/onpremisesagent.md) collection|Get the onPremisesAgents from the agents navigation property.|
 |[Create agents](../api/onpremisesagentgroup-post-agents.md)|[onPremisesAgent](../resources/onpremisesagent.md)|Create agents by posting to the agents collection.|
@@ -44,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |agents|[onPremisesAgent](../resources/onpremisesagent.md) collection||
 |publishedResources|[publishedResource](../resources/publishedresource.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

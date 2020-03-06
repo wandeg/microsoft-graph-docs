@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.
@@ -100,7 +100,7 @@ Content-Length: 576
 
 {
   "@odata.type": "#microsoft.graph.workbookWorksheetProtection",
-  "id": "2694d3f1-d3f1-2694-f1d3-9426f1d39426",
+  "id": "9366f008-f008-9366-08f0-669308f06693",
   "options": {
     "@odata.type": "microsoft.graph.workbookWorksheetProtectionOptions",
     "allowAutoFilter": true,

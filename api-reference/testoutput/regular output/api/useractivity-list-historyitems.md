@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/activities/{userActivityId}/historyItems
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -66,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 582
+Content-Length: 585
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.activityHistoryItem",
-      "id": "bd768387-8387-bd76-8783-76bd878376bd",
+      "id": "35540d78-0d78-3554-780d-5435780d5435",
       "status": "String",
       "activeDurationSeconds": 5,
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "lastActiveDateTime": "2016-12-31T23:57:55.9017756+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
-      "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
-      "startedDateTime": "2017-01-01T00:00:00.0290262+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "lastActiveDateTime": "2017-01-01T00:01:11.5235542+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
+      "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
+      "startedDateTime": "2017-01-01T00:01:18.8291066+03:00",
       "userTimezone": "User Timezone value"
     }
   ]

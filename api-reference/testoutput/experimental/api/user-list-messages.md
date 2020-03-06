@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/messages
 GET /users/{usersId}/messages
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [message](../resources/message.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,21 +70,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2964
+Content-Length: 2965
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.message",
-      "id": "1bf013e5-13e5-1bf0-e513-f01be513f01b",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "id": "c3033aca-3aca-c303-ca3a-03c3ca3a03c3",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
       ],
-      "receivedDateTime": "2016-12-31T23:59:19.9005871+03:00",
-      "sentDateTime": "2016-12-31T23:58:01.3361491+03:00",
+      "receivedDateTime": "2016-12-31T23:59:18.1123015+03:00",
+      "sentDateTime": "2016-12-31T23:58:04.0840241+03:00",
       "hasAttachments": true,
       "internetMessageId": "Internet Message Id value",
       "internetMessageHeaders": [

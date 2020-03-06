@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /trustFramework/policies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [trustFrameworkPolicy](../resources/trustframeworkpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 111
 
 {
   "@odata.type": "#microsoft.graph.trustFrameworkPolicy",
-  "id": "8a174fa8-4fa8-8a17-a84f-178aa84f178a"
+  "id": "2d9c4c0c-4c0c-2d9c-0c4c-9c2d0c4c9c2d"
 }
 ```
 

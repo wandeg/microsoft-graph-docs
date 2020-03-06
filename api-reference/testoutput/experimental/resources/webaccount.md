@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List webAccounts](../api/webaccount-list.md)|[webAccount](../resources/webaccount.md) collection|List properties and relationships of the [webAccount](../resources/webaccount.md) objects.|
 |[Get webAccount](../api/webaccount-get.md)|[webAccount](../resources/webaccount.md)|Read properties and relationships of the [webAccount](../resources/webaccount.md) object.|
-|[Create webAccount](../api/webaccount-create.md)|[webAccount](../resources/webaccount.md)|Create a new [webAccount](../resources/webaccount.md) object.|
-|[Delete webAccount](../api/webaccount-delete.md)|None|Deletes a [webAccount](../resources/webaccount.md).|
 |[Update webAccount](../api/webaccount-update.md)|[webAccount](../resources/webaccount.md)|Update the properties of a [webAccount](../resources/webaccount.md) object.|
+|[List webAccounts](../api/profile-list-webaccounts.md)|[webAccount](../resources/webaccount.md) collection|Get the webAccounts from the webAccounts navigation property.|
+|[Add webAccounts](../api/profile-post-webaccounts.md)|[webAccount](../resources/webaccount.md)|Add webAccounts by posting to the webAccounts collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +44,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

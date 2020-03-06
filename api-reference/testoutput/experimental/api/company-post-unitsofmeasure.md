@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/unitsOfMeasure/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [unitOfMeasure](../resources/unitofmeasure.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [unitOfMeasure](../resources/unitofmeasure.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,11 +92,11 @@ Content-Length: 302
 
 {
   "@odata.type": "#microsoft.graph.unitOfMeasure",
-  "id": "cdeed330-d330-cdee-30d3-eecd30d3eecd",
+  "id": "8eecf566-f566-8eec-66f5-ec8e66f5ec8e",
   "code": "Code value",
   "displayName": "Display Name value",
   "internationalStandardCode": "International Standard Code value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

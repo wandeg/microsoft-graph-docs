@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookFunctionses](../api/workbookfunctions-list.md)|[workbookFunctions](../resources/workbookfunctions.md) collection|List properties and relationships of the [workbookFunctions](../resources/workbookfunctions.md) objects.|
 |[Get workbookFunctions](../api/workbookfunctions-get.md)|[workbookFunctions](../resources/workbookfunctions.md)|Read properties and relationships of the [workbookFunctions](../resources/workbookfunctions.md) object.|
-|[Create workbookFunctions](../api/workbookfunctions-create.md)|[workbookFunctions](../resources/workbookfunctions.md)|Create a new [workbookFunctions](../resources/workbookfunctions.md) object.|
-|[Delete workbookFunctions](../api/workbookfunctions-delete.md)|None|Deletes a [workbookFunctions](../resources/workbookfunctions.md).|
 |[Update workbookFunctions](../api/workbookfunctions-update.md)|[workbookFunctions](../resources/workbookfunctions.md)|Update the properties of a [workbookFunctions](../resources/workbookfunctions.md) object.|
 |[abs](../api/workbookfunctions-abs.md)|[workbookFunctionResult](../resources/workbookfunctionresult.md)||
 |[accrInt](../api/workbookfunctions-accrint.md)|[workbookFunctionResult](../resources/workbookfunctionresult.md)||

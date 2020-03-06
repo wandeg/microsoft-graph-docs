@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationUserStateSummaries](../api/deviceconfigurationuserstatesummary-list.md)|[deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) collection|List properties and relationships of the [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) objects.|
 |[Get deviceConfigurationUserStateSummary](../api/deviceconfigurationuserstatesummary-get.md)|[deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md)|Read properties and relationships of the [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) object.|
-|[Create deviceConfigurationUserStateSummary](../api/deviceconfigurationuserstatesummary-create.md)|[deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md)|Create a new [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) object.|
-|[Delete deviceConfigurationUserStateSummary](../api/deviceconfigurationuserstatesummary-delete.md)|None|Deletes a [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md).|
 |[Update deviceConfigurationUserStateSummary](../api/deviceconfigurationuserstatesummary-update.md)|[deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md)|Update the properties of a [deviceConfigurationUserStateSummary](../resources/deviceconfigurationuserstatesummary.md) object.|
 
 ## Properties
@@ -41,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

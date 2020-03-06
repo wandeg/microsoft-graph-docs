@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPack
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [accessPackageResourceRole](../resources/accesspackageresourcerole.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -94,7 +94,7 @@ Content-Length: 271
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRole",
-  "id": "d54e2aed-2aed-d54e-ed2a-4ed5ed2a4ed5",
+  "id": "68679e6b-9e6b-6867-6b9e-67686b9e6768",
   "displayName": "Display Name value",
   "description": "Description value",
   "originId": "Origin Id value",

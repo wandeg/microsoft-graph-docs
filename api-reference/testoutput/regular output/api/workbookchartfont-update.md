@@ -39,7 +39,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartFont](../resources/workbookchartfont.md) object.
@@ -100,7 +100,7 @@ Content-Length: 252
 
 {
   "@odata.type": "#microsoft.graph.workbookChartFont",
-  "id": "411247c2-47c2-4112-c247-1241c2471241",
+  "id": "27120a07-0a07-2712-070a-1227070a1227",
   "bold": true,
   "color": "Color value",
   "italic": true,

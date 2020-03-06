@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/agedAccountsReceivable/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [agedAccountsReceivable](../resources/agedaccountsreceivable.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -105,7 +105,7 @@ Content-Length: 440
 
 {
   "@odata.type": "#microsoft.graph.agedAccountsReceivable",
-  "id": "adc998ec-98ec-adc9-ec98-c9adec98c9ad",
+  "id": "72e12032-2032-72e1-3220-e1723220e172",
   "customerNumber": "Customer Number value",
   "name": "Name value",
   "currencyCode": "Currency Code value",

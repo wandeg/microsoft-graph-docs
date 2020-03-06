@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List channels](../api/channel-list.md)|[channel](../resources/channel.md) collection|List properties and relationships of the [channel](../resources/channel.md) objects.|
 |[Get channel](../api/channel-get.md)|[channel](../resources/channel.md)|Read properties and relationships of the [channel](../resources/channel.md) object.|
-|[Create channel](../api/channel-create.md)|[channel](../resources/channel.md)|Create a new [channel](../resources/channel.md) object.|
-|[Delete channel](../api/channel-delete.md)|None|Deletes a [channel](../resources/channel.md).|
 |[Update channel](../api/channel-update.md)|[channel](../resources/channel.md)|Update the properties of a [channel](../resources/channel.md) object.|
 |[List messages](../api/channel-list-messages.md)|[chatMessage](../resources/chatmessage.md) collection|Get the chatMessages from the messages navigation property.|
 |[Add messages](../api/channel-post-messages.md)|[chatMessage](../resources/chatmessage.md)|Add messages by posting to the messages collection.|
@@ -32,6 +29,8 @@ Inherits from [entity](../resources/entity.md)
 |[List members](../api/channel-list-members.md)|[conversationMember](../resources/conversationmember.md) collection|Get the conversationMembers from the members navigation property.|
 |[Add members](../api/channel-post-members.md)|[conversationMember](../resources/conversationmember.md)|Add members by posting to the members collection.|
 |[Get driveItem](../api/driveitem-get.md)|[driveItem](../resources/driveitem.md)|Read properties and relationships of the [driveItem](../resources/driveitem.md) object.|
+|[List channels](../api/team-list-channels.md)|[channel](../resources/channel.md) collection|Get the channels from the channels navigation property.|
+|[Add channels](../api/team-post-channels.md)|[channel](../resources/channel.md)|Add channels by posting to the channels collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -52,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 |messages|[chatMessage](../resources/chatmessage.md) collection||
 |tabs|[teamsTab](../resources/teamstab.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

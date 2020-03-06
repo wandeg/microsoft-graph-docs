@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List shipmentMethods](../api/shipmentmethod-list.md)|[shipmentMethod](../resources/shipmentmethod.md) collection|List properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) objects.|
 |[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
-|[Create shipmentMethod](../api/shipmentmethod-create.md)|[shipmentMethod](../resources/shipmentmethod.md)|Create a new [shipmentMethod](../resources/shipmentmethod.md) object.|
-|[Delete shipmentMethod](../api/shipmentmethod-delete.md)|None|Deletes a [shipmentMethod](../resources/shipmentmethod.md).|
 |[Update shipmentMethod](../api/shipmentmethod-update.md)|[shipmentMethod](../resources/shipmentmethod.md)|Update the properties of a [shipmentMethod](../resources/shipmentmethod.md) object.|
+|[List shipmentMethods](../api/company-list-shipmentmethods.md)|[shipmentMethod](../resources/shipmentmethod.md) collection|Get the shipmentMethods from the shipmentMethods navigation property.|
+|[Add shipmentMethods](../api/company-post-shipmentmethods.md)|[shipmentMethod](../resources/shipmentmethod.md)|Add shipmentMethods by posting to the shipmentMethods collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

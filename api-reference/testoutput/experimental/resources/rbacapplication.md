@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List rbacApplications](../api/rbacapplication-list.md)|[rbacApplication](../resources/rbacapplication.md) collection|List properties and relationships of the [rbacApplication](../resources/rbacapplication.md) objects.|
 |[Get rbacApplication](../api/rbacapplication-get.md)|[rbacApplication](../resources/rbacapplication.md)|Read properties and relationships of the [rbacApplication](../resources/rbacapplication.md) object.|
-|[Create rbacApplication](../api/rbacapplication-create.md)|[rbacApplication](../resources/rbacapplication.md)|Create a new [rbacApplication](../resources/rbacapplication.md) object.|
-|[Delete rbacApplication](../api/rbacapplication-delete.md)|None|Deletes a [rbacApplication](../resources/rbacapplication.md).|
 |[Update rbacApplication](../api/rbacapplication-update.md)|[rbacApplication](../resources/rbacapplication.md)|Update the properties of a [rbacApplication](../resources/rbacapplication.md) object.|
 |[List roleDefinitions](../api/rbacapplication-list-roledefinitions.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md) collection|Get the unifiedRoleDefinitions from the roleDefinitions navigation property.|
 |[Add roleDefinitions](../api/rbacapplication-post-roledefinitions.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Add roleDefinitions by posting to the roleDefinitions collection.|
@@ -41,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |roleAssignments|[unifiedRoleAssignment](../resources/unifiedroleassignment.md) collection||
 |roleDefinitions|[unifiedRoleDefinition](../resources/unifiedroledefinition.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

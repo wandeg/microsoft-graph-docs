@@ -32,10 +32,13 @@ GET /workbooks/{workbooksId}/permissions
 GET /me/drive/items/{driveItemId}/permissions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +76,7 @@ Content-Length: 1786
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "fda067fc-67fc-fda0-fc67-a0fdfc67a0fd",
+      "id": "a2c1ce2b-ce2b-a2c1-2bce-c1a22bcec1a2",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

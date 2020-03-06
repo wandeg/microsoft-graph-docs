@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/mobileAppTroubleshootingEvents/{mobileAppTroubleshooting
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 1162
 
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -105,7 +105,7 @@ Content-length: 1162
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:00:25.0683756+03:00"
+      "occurrenceDateTime": "2017-01-01T00:00:43.2362673+03:00"
     }
   ]
 }
@@ -125,8 +125,8 @@ Content-Length: 1211
 
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "id": "4b1b7b68-7b68-4b1b-687b-1b4b687b1b4b",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
+  "id": "902fce31-ce31-902f-31ce-2f9031ce2f90",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -156,7 +156,7 @@ Content-Length: 1211
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:00:25.0683756+03:00"
+      "occurrenceDateTime": "2017-01-01T00:00:43.2362673+03:00"
     }
   ]
 }

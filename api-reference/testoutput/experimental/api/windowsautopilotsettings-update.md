@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/windowsAutopilotSettings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [windowsAutopilotSettings](../resources/windowsautopilotsettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -65,12 +65,12 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/windowsAutopilotSettings
 Content-type: application/json
-Content-length: 225
+Content-length: 226
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotSettings",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
-  "lastManualSyncTriggerDateTime": "2017-01-01T00:00:23.731973+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
+  "lastManualSyncTriggerDateTime": "2017-01-01T00:01:23.5386669+03:00",
   "syncStatus": "String"
 }
 ```
@@ -85,13 +85,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 274
+Content-Length: 275
 
 {
   "@odata.type": "#microsoft.graph.windowsAutopilotSettings",
-  "id": "5150e45f-e45f-5150-5fe4-50515fe45051",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
-  "lastManualSyncTriggerDateTime": "2017-01-01T00:00:23.731973+03:00",
+  "id": "ae112b40-2b40-ae11-402b-11ae402b11ae",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
+  "lastManualSyncTriggerDateTime": "2017-01-01T00:01:23.5386669+03:00",
   "syncStatus": "String"
 }
 ```

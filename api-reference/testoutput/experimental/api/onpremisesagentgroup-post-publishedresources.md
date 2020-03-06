@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /onPremisesPublishingProfiles/{onPremisesPublishingProfilesId}/agents/{onPr
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [publishedResource](../resources/publishedresource.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [publishedResource](../resources/publishedresource.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -91,7 +91,7 @@ Content-Length: 221
 
 {
   "@odata.type": "#microsoft.graph.publishedResource",
-  "id": "7fa4a67d-a67d-7fa4-7da6-a47f7da6a47f",
+  "id": "445ca74d-a74d-445c-4da7-5c444da75c44",
   "displayName": "Display Name value",
   "resourceName": "Resource Name value",
   "publishingType": "String"

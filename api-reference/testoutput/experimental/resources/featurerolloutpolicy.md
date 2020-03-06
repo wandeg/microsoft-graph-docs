@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List featureRolloutPolicies](../api/featurerolloutpolicy-list.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md) collection|List properties and relationships of the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) objects.|
 |[Get featureRolloutPolicy](../api/featurerolloutpolicy-get.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Read properties and relationships of the [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
-|[Create featureRolloutPolicy](../api/featurerolloutpolicy-create.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Create a new [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
-|[Delete featureRolloutPolicy](../api/featurerolloutpolicy-delete.md)|None|Deletes a [featureRolloutPolicy](../resources/featurerolloutpolicy.md).|
 |[Update featureRolloutPolicy](../api/featurerolloutpolicy-update.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Update the properties of a [featureRolloutPolicy](../resources/featurerolloutpolicy.md) object.|
 |[List appliesTo](../api/featurerolloutpolicy-list-appliesto.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the appliesTo navigation property.|
 |[Add appliesTo](../api/featurerolloutpolicy-post-appliesto.md)|[directoryObject](../resources/directoryobject.md)|Add appliesTo by posting to the appliesTo collection.|
-|[List featureRolloutPolicies](../api/directory-list-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md) collection|Get the featureRolloutPolicies from the featureRolloutPolicies navigation property.|
-|[Add featureRolloutPolicies](../api/directory-post-featurerolloutpolicies.md)|[featureRolloutPolicy](../resources/featurerolloutpolicy.md)|Add featureRolloutPolicies by posting to the featureRolloutPolicies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -45,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |appliesTo|[directoryObject](../resources/directoryobject.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

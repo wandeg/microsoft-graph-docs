@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List segments](../api/callrecords-segment-list.md)|[segment](../resources/callrecords-segment.md) collection|List properties and relationships of the [segment](../resources/segment.md) objects.|
 |[Get segment](../api/callrecords-segment-get.md)|[segment](../resources/callrecords-segment.md)|Read properties and relationships of the [segment](../resources/callrecords-segment.md) object.|
-|[Create segment](../api/callrecords-segment-create.md)|[segment](../resources/callrecords-segment.md)|Create a new [segment](../resources/callrecords-segment.md) object.|
-|[Delete segment](../api/callrecords-segment-delete.md)|None|Deletes a [segment](../resources/callrecords-segment.md).|
 |[Update segment](../api/callrecords-segment-update.md)|[segment](../resources/callrecords-segment.md)|Update the properties of a [segment](../resources/callrecords-segment.md) object.|
+|[List segments](../api/callrecords-session-list-segments.md)|[segment](../resources/callrecords-segment.md) collection|Get the segments from the segments navigation property.|
+|[Add segments](../api/callrecords-session-post-segments.md)|[segment](../resources/callrecords-segment.md)|Add segments by posting to the segments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /administrativeUnits/{administrativeUnitsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [administrativeUnit](../resources/administrativeunit.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [administrativeUnit](../resources/administrativeunit.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 235
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "visibility": "Visibility value"
@@ -91,8 +91,8 @@ Content-Length: 284
 
 {
   "@odata.type": "#microsoft.graph.administrativeUnit",
-  "id": "27ed627f-627f-27ed-7f62-ed277f62ed27",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "id": "ff7af9d7-f9d7-ff7a-d7f9-7affd7f97aff",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "visibility": "Visibility value"

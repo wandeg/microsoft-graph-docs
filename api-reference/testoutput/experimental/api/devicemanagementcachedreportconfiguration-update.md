@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/reports/cachedReportConfigurations/{deviceManagementCach
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceManagementCachedReportConfiguration](../resources/devicemanagementcachedreportconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,8 +82,8 @@ Content-length: 383
     "Order By value"
   ],
   "status": "String",
-  "lastRefreshDateTime": "2016-12-31T23:56:55.5139448+03:00",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
+  "lastRefreshDateTime": "2017-01-01T00:02:06.2859776+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00"
 }
 ```
 
@@ -101,7 +101,7 @@ Content-Length: 432
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementCachedReportConfiguration",
-  "id": "02b34ddf-4ddf-02b3-df4d-b302df4db302",
+  "id": "14e13bf7-3bf7-14e1-f73b-e114f73be114",
   "reportName": "Report Name value",
   "filter": "Filter value",
   "select": [
@@ -111,8 +111,8 @@ Content-Length: 432
     "Order By value"
   ],
   "status": "String",
-  "lastRefreshDateTime": "2016-12-31T23:56:55.5139448+03:00",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
+  "lastRefreshDateTime": "2017-01-01T00:02:06.2859776+03:00",
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00"
 }
 ```
 

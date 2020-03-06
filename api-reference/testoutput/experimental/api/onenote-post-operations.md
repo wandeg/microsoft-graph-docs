@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/sites/{siteId}/onenote/operations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenoteOperation](../resources/onenoteoperation.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [onenoteOperation](../resources/onenoteoperation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 419
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+  "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {
@@ -98,14 +98,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 526
+Content-Length: 527
 
 {
   "@odata.type": "#microsoft.graph.onenoteOperation",
-  "id": "3ef37e7a-7e7a-3ef3-7a7e-f33e7a7ef33e",
+  "id": "2850adf0-adf0-2850-f0ad-5028f0ad5028",
   "status": "String",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00",
   "resourceLocation": "Resource Location value",
   "resourceId": "Resource Id value",
   "error": {

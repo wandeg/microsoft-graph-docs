@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 690
 {
   "value": {
     "@odata.type": "#microsoft.graph.roleDefinition",
-    "id": "92003327-3327-9200-2733-009227330092",
+    "id": "b851052b-052b-b851-2b05-51b82b0551b8",
     "displayName": "Display Name value",
     "description": "Description value",
     "rolePermissions": [

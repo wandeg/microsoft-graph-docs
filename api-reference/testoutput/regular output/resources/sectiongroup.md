@@ -20,10 +20,7 @@ Inherits from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchym
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List sectionGroups](../api/sectiongroup-list.md)|[sectionGroup](../resources/sectiongroup.md) collection|List properties and relationships of the [sectionGroup](../resources/sectiongroup.md) objects.|
 |[Get sectionGroup](../api/sectiongroup-get.md)|[sectionGroup](../resources/sectiongroup.md)|Read properties and relationships of the [sectionGroup](../resources/sectiongroup.md) object.|
-|[Create sectionGroup](../api/sectiongroup-create.md)|[sectionGroup](../resources/sectiongroup.md)|Create a new [sectionGroup](../resources/sectiongroup.md) object.|
-|[Delete sectionGroup](../api/sectiongroup-delete.md)|None|Deletes a [sectionGroup](../resources/sectiongroup.md).|
 |[Update sectionGroup](../api/sectiongroup-update.md)|[sectionGroup](../resources/sectiongroup.md)|Update the properties of a [sectionGroup](../resources/sectiongroup.md) object.|
 |[Get notebook](../api/notebook-get.md)|[notebook](../resources/notebook.md)|Read properties and relationships of the [notebook](../resources/notebook.md) object.|
 |[Get sectionGroup](../api/sectiongroup-get.md)|[sectionGroup](../resources/sectiongroup.md)|Read properties and relationships of the [sectionGroup](../resources/sectiongroup.md) object.|

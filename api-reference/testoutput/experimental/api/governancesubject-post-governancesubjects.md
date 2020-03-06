@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /governanceSubjects
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [governanceSubject](../resources/governancesubject.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [governanceSubject](../resources/governancesubject.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,7 +93,7 @@ Content-Length: 244
 
 {
   "@odata.type": "#microsoft.graph.governanceSubject",
-  "id": "7fe7d72d-d72d-7fe7-2dd7-e77f2dd7e77f",
+  "id": "7a5826f3-26f3-7a58-f326-587af326587a",
   "type": "Type value",
   "displayName": "Display Name value",
   "principalName": "Principal Name value",

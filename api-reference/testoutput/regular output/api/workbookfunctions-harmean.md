@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/functions/harMean
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -89,7 +89,7 @@ Content-Length: 234
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookFunctionResult",
-    "id": "1878e271-e271-1878-71e2-781871e27818",
+    "id": "bd28d828-d828-bd28-28d8-28bd28d828bd",
     "error": "Error value",
     "value": {
       "@odata.type": "microsoft.graph.Json"

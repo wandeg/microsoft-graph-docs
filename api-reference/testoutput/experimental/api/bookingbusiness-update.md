@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [bookingBusiness](../resources/bookingbusiness.md) object.
@@ -63,7 +63,7 @@ Example: https://www.contoso.com|
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [bookingBusiness](../resources/bookingbusiness.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}
 Content-type: application/json
-Content-length: 1307
+Content-length: 1311
 
 {
   "@odata.type": "#microsoft.graph.bookingBusiness",
@@ -102,17 +102,17 @@ Content-length: 1307
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "12:02:01.9800000",
-          "end": "12:02:50.7750000"
+          "start": "12:00:41.0700000",
+          "end": "12:01:04.4660000"
         }
       ]
     }
   ],
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT24.7084489S",
-    "minimumLeadTime": "PT46.1171008S",
-    "maximumAdvance": "-PT29.5884928S",
+    "timeSlotInterval": "-PT2M6.5040939S",
+    "minimumLeadTime": "PT1M46.8466139S",
+    "maximumAdvance": "-PT34.7669238S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },
@@ -131,11 +131,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1356
+Content-Length: 1360
 
 {
   "@odata.type": "#microsoft.graph.bookingBusiness",
-  "id": "a4acbc94-bc94-a4ac-94bc-aca494bcaca4",
+  "id": "b17039cb-39cb-b170-cb39-70b1cb3970b1",
   "displayName": "Display Name value",
   "businessType": "Business Type value",
   "address": {
@@ -159,17 +159,17 @@ Content-Length: 1356
       "timeSlots": [
         {
           "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
-          "start": "12:02:01.9800000",
-          "end": "12:02:50.7750000"
+          "start": "12:00:41.0700000",
+          "end": "12:01:04.4660000"
         }
       ]
     }
   ],
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT24.7084489S",
-    "minimumLeadTime": "PT46.1171008S",
-    "maximumAdvance": "-PT29.5884928S",
+    "timeSlotInterval": "-PT2M6.5040939S",
+    "minimumLeadTime": "PT1M46.8466139S",
+    "maximumAdvance": "-PT34.7669238S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },

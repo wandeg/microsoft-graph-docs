@@ -20,10 +20,7 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List androidManagedAppProtections](../api/androidmanagedappprotection-list.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md) collection|List properties and relationships of the [androidManagedAppProtection](../resources/androidmanagedappprotection.md) objects.|
 |[Get androidManagedAppProtection](../api/androidmanagedappprotection-get.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md)|Read properties and relationships of the [androidManagedAppProtection](../resources/androidmanagedappprotection.md) object.|
-|[Create androidManagedAppProtection](../api/androidmanagedappprotection-create.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md)|Create a new [androidManagedAppProtection](../resources/androidmanagedappprotection.md) object.|
-|[Delete androidManagedAppProtection](../api/androidmanagedappprotection-delete.md)|None|Deletes a [androidManagedAppProtection](../resources/androidmanagedappprotection.md).|
 |[Update androidManagedAppProtection](../api/androidmanagedappprotection-update.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md)|Update the properties of a [androidManagedAppProtection](../resources/androidmanagedappprotection.md) object.|
 |[hasPayloadLinks](../api/androidmanagedappprotection-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[assign](../api/androidmanagedappprotection-assign.md)|None||
@@ -32,8 +29,6 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 |[List apps](../api/androidmanagedappprotection-list-apps.md)|[managedMobileApp](../resources/managedmobileapp.md) collection|Get the managedMobileApps from the apps navigation property.|
 |[Add apps](../api/androidmanagedappprotection-post-apps.md)|[managedMobileApp](../resources/managedmobileapp.md)|Add apps by posting to the apps collection.|
 |[Get managedAppPolicyDeploymentSummary](../api/managedapppolicydeploymentsummary-get.md)|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Read properties and relationships of the [managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md) object.|
-|[List androidManagedAppProtections](../api/intune-apps-deviceappmanagement-list-androidmanagedappprotections.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md) collection|Get the androidManagedAppProtections from the androidManagedAppProtections navigation property.|
-|[Add androidManagedAppProtections](../api/intune-apps-deviceappmanagement-post-androidmanagedappprotections.md)|[androidManagedAppProtection](../resources/androidmanagedappprotection.md)|Add androidManagedAppProtections by posting to the androidManagedAppProtections collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -117,7 +112,7 @@ Inherits from [targetedManagedAppProtection](../resources/targetedmanagedappprot
 |assignments|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Navigation property to list of inclusion and exclusion groups to which the policy is deployed. Inherited from [targetedManagedAppProtection](../resources/targetedmanagedappprotection.md)|
 |deploymentSummary|[managedAppPolicyDeploymentSummary](../resources/managedapppolicydeploymentsummary.md)|Navigation property to deployment summary of the configuration.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

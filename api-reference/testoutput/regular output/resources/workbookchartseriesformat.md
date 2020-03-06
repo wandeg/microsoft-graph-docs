@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartSeriesFormats](../api/workbookchartseriesformat-list.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) collection|List properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) objects.|
 |[Get workbookChartSeriesFormat](../api/workbookchartseriesformat-get.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)|Read properties and relationships of the [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
-|[Create workbookChartSeriesFormat](../api/workbookchartseriesformat-create.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)|Create a new [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
-|[Delete workbookChartSeriesFormat](../api/workbookchartseriesformat-delete.md)|None|Deletes a [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md).|
 |[Update workbookChartSeriesFormat](../api/workbookchartseriesformat-update.md)|[workbookChartSeriesFormat](../resources/workbookchartseriesformat.md)|Update the properties of a [workbookChartSeriesFormat](../resources/workbookchartseriesformat.md) object.|
 |[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookchartfill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
 |[Get workbookChartLineFormat](../api/workbookchartlineformat-get.md)|[workbookChartLineFormat](../resources/workbookchartlineformat.md)|Read properties and relationships of the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.|

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assignments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "c909e6f5-e6f5-c909-f5e6-09c9f5e609c9",
+      "id": "8def27e0-27e0-8def-e027-ef8de027ef8d",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

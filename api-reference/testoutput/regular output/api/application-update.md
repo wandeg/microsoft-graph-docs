@@ -34,7 +34,7 @@ PATCH /applications/{applicationsId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [application](../resources/application.md) object.
@@ -92,11 +92,11 @@ Content-length: 4775
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "f831b1cc-b1cc-f831-ccb1-31f8ccb131f8",
+      "id": "7fda8be5-8be5-7fda-e58b-da7fe58bda7f",
       "type": "Type value",
       "properties": [
         {
@@ -111,7 +111,7 @@ Content-length: 4775
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "bea0878d-878d-bea0-8d87-a0be8d87a0be"
+      "4b26af53-af53-4b26-53af-264b53af264b"
     ],
     "preAuthorizedApplications": [
       {
@@ -172,9 +172,9 @@ Content-length: 4775
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
-      "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b",
-      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+      "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
+      "keyId": "995554ed-54ed-9955-ed54-5599ed545599",
+      "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -235,7 +235,7 @@ Content-length: 4775
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "2a1dea41-ea41-2a1d-41ea-1d2a41ea1d2a",
+  "tokenEncryptionKeyId": "51699f46-9f46-5169-469f-6951469f6951",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",
@@ -263,12 +263,12 @@ Content-Length: 4883
 
 {
   "@odata.type": "#microsoft.graph.application",
-  "id": "8d69e456-e456-8d69-56e4-698d56e4698d",
-  "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+  "id": "2cfed2c5-d2c5-2cfe-c5d2-fe2cc5d2fe2c",
+  "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
   "addIns": [
     {
       "@odata.type": "microsoft.graph.addIn",
-      "id": "f831b1cc-b1cc-f831-ccb1-31f8ccb131f8",
+      "id": "7fda8be5-8be5-7fda-e58b-da7fe58bda7f",
       "type": "Type value",
       "properties": [
         {
@@ -283,7 +283,7 @@ Content-Length: 4883
     "@odata.type": "microsoft.graph.apiApplication",
     "acceptMappedClaims": true,
     "knownClientApplications": [
-      "bea0878d-878d-bea0-8d87-a0be8d87a0be"
+      "4b26af53-af53-4b26-53af-264b53af264b"
     ],
     "preAuthorizedApplications": [
       {
@@ -323,7 +323,7 @@ Content-Length: 4883
   "identifierUris": [
     "Identifier Uris value"
   ],
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "publicClient": {
     "@odata.type": "microsoft.graph.publicClientApplication",
     "redirectUris": [
@@ -345,9 +345,9 @@ Content-Length: 4883
     {
       "@odata.type": "microsoft.graph.keyCredential",
       "customKeyIdentifier": "Y3VzdG9tS2V5SWRlbnRpZmllcg==",
-      "endDateTime": "2016-12-31T23:57:36.1520435+03:00",
-      "keyId": "8bd39e93-9e93-8bd3-939e-d38b939ed38b",
-      "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
+      "endDateTime": "2016-12-31T23:58:32.4599097+03:00",
+      "keyId": "995554ed-54ed-9955-ed54-5599ed545599",
+      "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
       "usage": "Usage value",
       "key": "a2V5"
     }
@@ -408,7 +408,7 @@ Content-Length: 4883
   "tags": [
     "Tags value"
   ],
-  "tokenEncryptionKeyId": "2a1dea41-ea41-2a1d-41ea-1d2a41ea1d2a",
+  "tokenEncryptionKeyId": "51699f46-9f46-5169-469f-6951469f6951",
   "web": {
     "@odata.type": "microsoft.graph.webApplication",
     "homePageUrl": "https://example.com/homePageUrl/",

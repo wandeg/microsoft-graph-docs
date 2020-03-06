@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /agreementAcceptances
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [agreementAcceptance](../resources/agreementacceptance.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +75,11 @@ Content-Length: 522
   "value": [
     {
       "@odata.type": "#microsoft.graph.agreementAcceptance",
-      "id": "2b6dc9c2-c9c2-2b6d-c2c9-6d2bc2c96d2b",
+      "id": "6b1a007a-007a-6b1a-7a00-1a6b7a001a6b",
       "agreementId": "Agreement Id value",
       "userId": "User Id value",
       "agreementFileId": "Agreement File Id value",
-      "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00",
+      "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
       "userEmail": "User Email value",

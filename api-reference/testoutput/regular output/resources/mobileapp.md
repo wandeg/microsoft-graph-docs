@@ -20,15 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mobileApps](../api/mobileapp-list.md)|[mobileApp](../resources/mobileapp.md) collection|List properties and relationships of the [mobileApp](../resources/mobileapp.md) objects.|
 |[Get mobileApp](../api/mobileapp-get.md)|[mobileApp](../resources/mobileapp.md)|Read properties and relationships of the [mobileApp](../resources/mobileapp.md) object.|
 |[assign](../api/mobileapp-assign.md)|None||
 |[List categories](../api/mobileapp-list-categories.md)|[mobileAppCategory](../resources/mobileappcategory.md) collection|Get the mobileAppCategories from the categories navigation property.|
 |[Create categories](../api/mobileapp-post-categories.md)|[mobileAppCategory](../resources/mobileappcategory.md)|Create categories by posting to the categories collection.|
 |[List assignments](../api/mobileapp-list-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md) collection|Get the mobileAppAssignments from the assignments navigation property.|
 |[Add assignments](../api/mobileapp-post-assignments.md)|[mobileAppAssignment](../resources/mobileappassignment.md)|Add assignments by posting to the assignments collection.|
-|[List mobileApps](../api/deviceappmanagement-list-mobileapps.md)|[mobileApp](../resources/mobileapp.md) collection|Get the mobileApps from the mobileApps navigation property.|
-|[Add mobileApps](../api/deviceappmanagement-post-mobileapps.md)|[mobileApp](../resources/mobileapp.md)|Add mobileApps by posting to the mobileApps collection.|
 
 ## Properties
 |Property|Type|Description|

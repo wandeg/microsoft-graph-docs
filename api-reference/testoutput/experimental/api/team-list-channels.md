@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /teams/{teamsId}/channels
 GET /me/joinedGroups/{groupId}/team/channels
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [channel](../resources/channel.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +76,7 @@ Content-Length: 376
   "value": [
     {
       "@odata.type": "#microsoft.graph.channel",
-      "id": "c6b8902d-902d-c6b8-2d90-b8c62d90b8c6",
+      "id": "2582a55d-a55d-2582-5da5-82255da58225",
       "displayName": "Display Name value",
       "description": "Description value",
       "isFavoriteByDefault": true,

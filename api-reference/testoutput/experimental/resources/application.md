@@ -87,7 +87,7 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 |synchronization|[synchronization](../resources/synchronization.md)||
 |tokenLifetimePolicies|[tokenLifetimePolicy](../resources/tokenlifetimepolicy.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -139,7 +139,6 @@ Here is a JSON representation of the resource.
       "allowedMemberTypes": [
         "String"
       ],
-      "description": "String",
       "displayName": "String"
     }
   ],
@@ -176,7 +175,6 @@ Here is a JSON representation of the resource.
     "idToken": [
       {
         "@odata.type": "microsoft.graph.optionalClaim",
-        "name": "String",
         "source": "String",
         "essential": true,
         "additionalProperties": [

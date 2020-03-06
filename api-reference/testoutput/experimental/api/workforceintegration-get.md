@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [workforceIntegration](../resources/workforceintegration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,14 +69,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 963
+Content-Length: 964
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.workforceIntegration",
-    "id": "2a6dc170-c170-2a6d-70c1-6d2a70c16d2a",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "id": "e59f3515-3515-e59f-1535-9fe515359fe5",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {

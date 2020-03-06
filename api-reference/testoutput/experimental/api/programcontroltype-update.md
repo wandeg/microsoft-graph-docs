@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /programControlTypes/{programControlTypesId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [programControlType](../resources/programcontroltype.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [programControlType](../resources/programcontroltype.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 205
 
 {
   "@odata.type": "#microsoft.graph.programControlType",
-  "id": "7a38ef3d-ef3d-7a38-3def-387a3def387a",
+  "id": "b9925441-5441-b992-4154-92b9415492b9",
   "controlTypeGroupId": "Control Type Group Id value",
   "displayName": "Display Name value"
 }

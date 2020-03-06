@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List personAnniversaries](../api/personanniversary-list.md)|[personAnniversary](../resources/personanniversary.md) collection|List properties and relationships of the [personAnniversary](../resources/personanniversary.md) objects.|
 |[Get personAnniversary](../api/personanniversary-get.md)|[personAnniversary](../resources/personanniversary.md)|Read properties and relationships of the [personAnniversary](../resources/personanniversary.md) object.|
-|[Create personAnniversary](../api/personanniversary-create.md)|[personAnniversary](../resources/personanniversary.md)|Create a new [personAnniversary](../resources/personanniversary.md) object.|
-|[Delete personAnniversary](../api/personanniversary-delete.md)|None|Deletes a [personAnniversary](../resources/personanniversary.md).|
 |[Update personAnniversary](../api/personanniversary-update.md)|[personAnniversary](../resources/personanniversary.md)|Update the properties of a [personAnniversary](../resources/personanniversary.md) object.|
+|[List anniversaries](../api/profile-list-anniversaries.md)|[personAnniversary](../resources/personanniversary.md) collection|Get the personAnniversaries from the anniversaries navigation property.|
+|[Add anniversaries](../api/profile-post-anniversaries.md)|[personAnniversary](../resources/personanniversary.md)|Add anniversaries by posting to the anniversaries collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

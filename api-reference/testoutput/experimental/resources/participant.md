@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List participants](../api/participant-list.md)|[participant](../resources/participant.md) collection|List properties and relationships of the [participant](../resources/participant.md) objects.|
 |[Get participant](../api/participant-get.md)|[participant](../resources/participant.md)|Read properties and relationships of the [participant](../resources/participant.md) object.|
-|[Create participant](../api/participant-create.md)|[participant](../resources/participant.md)|Create a new [participant](../resources/participant.md) object.|
-|[Delete participant](../api/participant-delete.md)|None|Deletes a [participant](../resources/participant.md).|
 |[Update participant](../api/participant-update.md)|[participant](../resources/participant.md)|Update the properties of a [participant](../resources/participant.md) object.|
 |[invite](../api/participant-invite.md)|[inviteParticipantsOperation](../resources/inviteparticipantsoperation.md)||
 |[muteAll](../api/participant-muteall.md)|[muteParticipantsOperation](../resources/muteparticipantsoperation.md)||
 |[mute](../api/participant-mute.md)|[muteParticipantOperation](../resources/muteparticipantoperation.md)||
+|[List participants](../api/call-list-participants.md)|[participant](../resources/participant.md) collection|Get the participants from the participants navigation property.|
+|[Add participants](../api/call-post-participants.md)|[participant](../resources/participant.md)|Add participants by posting to the participants collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

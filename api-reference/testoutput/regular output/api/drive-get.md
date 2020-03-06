@@ -51,7 +51,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -83,12 +83,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1907
+Content-Length: 1909
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.drive",
-    "id": "7b441192-1192-7b44-9211-447b9211447b",
+    "id": "567efe34-fe34-567e-34fe-7e5634fe7e56",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -103,13 +103,13 @@ Content-Length: 1907
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

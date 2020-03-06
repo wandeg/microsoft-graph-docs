@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementSettingInstances](../api/devicemanagementsettinginstance-list.md)|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) collection|List properties and relationships of the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) objects.|
 |[Get deviceManagementSettingInstance](../api/devicemanagementsettinginstance-get.md)|[deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md)|Read properties and relationships of the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object.|
 
 ## Properties
@@ -33,7 +32,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

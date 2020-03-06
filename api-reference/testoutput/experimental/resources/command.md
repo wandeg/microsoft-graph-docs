@@ -47,7 +47,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |responsepayload|[payloadResponse](../resources/payloadresponse.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

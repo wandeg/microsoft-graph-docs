@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /reports/applicationSignInDetailedSummary/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [applicationSignInDetailedSummary](../resources/applicationsignindetailedsummary.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -81,7 +81,7 @@ Content-length: 431
     "additionalDetails": "Additional Details value"
   },
   "signInCount": 11,
-  "aggregatedEventDateTime": "2017-01-01T00:01:04.3937333+03:00"
+  "aggregatedEventDateTime": "2016-12-31T23:56:42.6380139+03:00"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Length: 480
 
 {
   "@odata.type": "#microsoft.graph.applicationSignInDetailedSummary",
-  "id": "2d7be85e-e85e-2d7b-5ee8-7b2d5ee87b2d",
+  "id": "d714651c-651c-d714-1c65-14d71c6514d7",
   "appId": "App Id value",
   "appDisplayName": "App Display Name value",
   "status": {
@@ -110,7 +110,7 @@ Content-Length: 480
     "additionalDetails": "Additional Details value"
   },
   "signInCount": 11,
-  "aggregatedEventDateTime": "2017-01-01T00:01:04.3937333+03:00"
+  "aggregatedEventDateTime": "2016-12-31T23:56:42.6380139+03:00"
 }
 ```
 

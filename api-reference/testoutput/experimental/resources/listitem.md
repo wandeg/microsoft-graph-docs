@@ -20,10 +20,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List listItems](../api/listitem-list.md)|[listItem](../resources/listitem.md) collection|List properties and relationships of the [listItem](../resources/listitem.md) objects.|
 |[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
-|[Create listItem](../api/listitem-create.md)|[listItem](../resources/listitem.md)|Create a new [listItem](../resources/listitem.md) object.|
-|[Delete listItem](../api/listitem-delete.md)|None|Deletes a [listItem](../resources/listitem.md).|
 |[Update listItem](../api/listitem-update.md)|[listItem](../resources/listitem.md)|Update the properties of a [listItem](../resources/listitem.md) object.|
 |[getActivitiesByInterval](../api/listitem-getactivitiesbyinterval.md)|[itemActivityStat](../resources/itemactivitystat.md) collection||
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
@@ -35,6 +32,8 @@ Inherits from [baseItem](../resources/baseitem.md)
 |[Get fieldValueSet](../api/fieldvalueset-get.md)|[fieldValueSet](../resources/fieldvalueset.md)|Read properties and relationships of the [fieldValueSet](../resources/fieldvalueset.md) object.|
 |[List versions](../api/listitem-list-versions.md)|[listItemVersion](../resources/listitemversion.md) collection|Get the listItemVersions from the versions navigation property.|
 |[Add versions](../api/listitem-post-versions.md)|[listItemVersion](../resources/listitemversion.md)|Add versions by posting to the versions collection.|
+|[List items](../api/list-list-items.md)|[listItem](../resources/listitem.md) collection|Get the listItems from the items navigation property.|
+|[Add items](../api/list-post-items.md)|[listItem](../resources/listitem.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -63,7 +62,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 |lastModifiedByUser|[user](../resources/user.md)| Inherited from [baseItem](../resources/baseitem.md)|
 |versions|[listItemVersion](../resources/listitemversion.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

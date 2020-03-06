@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List skillProficiencies](../api/skillproficiency-list.md)|[skillProficiency](../resources/skillproficiency.md) collection|List properties and relationships of the [skillProficiency](../resources/skillproficiency.md) objects.|
 |[Get skillProficiency](../api/skillproficiency-get.md)|[skillProficiency](../resources/skillproficiency.md)|Read properties and relationships of the [skillProficiency](../resources/skillproficiency.md) object.|
-|[Create skillProficiency](../api/skillproficiency-create.md)|[skillProficiency](../resources/skillproficiency.md)|Create a new [skillProficiency](../resources/skillproficiency.md) object.|
-|[Delete skillProficiency](../api/skillproficiency-delete.md)|None|Deletes a [skillProficiency](../resources/skillproficiency.md).|
 |[Update skillProficiency](../api/skillproficiency-update.md)|[skillProficiency](../resources/skillproficiency.md)|Update the properties of a [skillProficiency](../resources/skillproficiency.md) object.|
+|[List skills](../api/profile-list-skills.md)|[skillProficiency](../resources/skillproficiency.md) collection|Get the skillProficiencies from the skills navigation property.|
+|[Add skills](../api/profile-post-skills.md)|[skillProficiency](../resources/skillproficiency.md)|Add skills by posting to the skills collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

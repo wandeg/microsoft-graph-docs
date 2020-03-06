@@ -34,8 +34,8 @@ POST /auditLogs/directoryAudits/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directoryAudit](../resources/directoryaudit.md) object.
@@ -83,7 +83,7 @@ Content-length: 1484
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:58:23.4819138+03:00",
+  "activityDateTime": "2017-01-01T00:02:26.9869366+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {
@@ -141,13 +141,13 @@ Content-Length: 1533
 
 {
   "@odata.type": "#microsoft.graph.directoryAudit",
-  "id": "6434ec60-ec60-6434-60ec-346460ec3464",
+  "id": "405afcf7-fcf7-405a-f7fc-5a40f7fc5a40",
   "category": "Category value",
   "correlationId": "Correlation Id value",
   "result": "String",
   "resultReason": "Result Reason value",
   "activityDisplayName": "Activity Display Name value",
-  "activityDateTime": "2016-12-31T23:58:23.4819138+03:00",
+  "activityDateTime": "2017-01-01T00:02:26.9869366+03:00",
   "loggedByService": "Logged By Service value",
   "operationType": "Operation Type value",
   "initiatedBy": {

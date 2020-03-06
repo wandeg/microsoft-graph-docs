@@ -34,8 +34,8 @@ POST /dataPolicyOperations
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [dataPolicyOperation](../resources/datapolicyoperation.md) object.
@@ -73,11 +73,11 @@ Content-length: 309
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
+  "completedDateTime": "2016-12-31T23:59:40.1964721+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:59:41.1736802+03:00",
+  "submittedDateTime": "2017-01-01T00:00:13.2830522+03:00",
   "progress": "Double"
 }
 ```
@@ -97,12 +97,12 @@ Content-Length: 358
 
 {
   "@odata.type": "#microsoft.graph.dataPolicyOperation",
-  "id": "a8974793-4793-a897-9347-97a8934797a8",
-  "completedDateTime": "2016-12-31T23:59:14.0975466+03:00",
+  "id": "0c5f06ed-06ed-0c5f-ed06-5f0ced065f0c",
+  "completedDateTime": "2016-12-31T23:59:40.1964721+03:00",
   "status": "String",
   "storageLocation": "Storage Location value",
   "userId": "User Id value",
-  "submittedDateTime": "2016-12-31T23:59:41.1736802+03:00",
+  "submittedDateTime": "2017-01-01T00:00:13.2830522+03:00",
   "progress": "Double"
 }
 ```

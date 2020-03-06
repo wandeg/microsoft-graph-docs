@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}/enrollmen
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [enrollmentProfile](../resources/enrollmentprofile.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [enrollmentProfile](../resources/enrollmentprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -95,7 +95,7 @@ Content-Length: 419
 
 {
   "@odata.type": "#microsoft.graph.enrollmentProfile",
-  "id": "7d84c92c-c92c-7d84-2cc9-847d2cc9847d",
+  "id": "777ade9a-de9a-777a-9ade-7a779ade7a77",
   "displayName": "Display Name value",
   "description": "Description value",
   "requiresUserAuthentication": true,

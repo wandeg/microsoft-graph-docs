@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/userStatuses
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceConfigurationUserStatus](../resources/deviceconfigurationuserstatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 283
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -95,11 +95,11 @@ Content-Length: 332
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationUserStatus",
-  "id": "37497306-7306-3749-0673-493706734937",
+  "id": "bb6aca89-ca89-bb6a-89ca-6abb89ca6abb",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+  "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,8 +56,8 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/a
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -65,7 +65,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this action returns a `200 OK` response code and a [driveItem](../resources/driveitem.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,22 +89,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2231
+Content-Length: 2232
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.driveItem",
-    "id": "8464c8ba-c8ba-8464-bac8-6484bac86484",
+    "id": "d0a2bcfd-bcfd-d0a2-fdbc-a2d0fdbca2d0",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference"

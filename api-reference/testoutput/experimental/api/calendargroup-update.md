@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /users/{usersId}/calendarGroups/{calendarGroupId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendarGroup](../resources/calendargroup.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [calendarGroup](../resources/calendargroup.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Content-length: 170
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
   "name": "Name value",
-  "classId": "9b8c7005-7005-9b8c-0570-8c9b05708c9b",
+  "classId": "c6e26298-6298-c6e2-9862-e2c69862e2c6",
   "changeKey": "Change Key value"
 }
 ```
@@ -90,9 +90,9 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
-  "id": "a2822ec6-2ec6-a282-c62e-82a2c62e82a2",
+  "id": "413dd240-d240-413d-40d2-3d4140d23d41",
   "name": "Name value",
-  "classId": "9b8c7005-7005-9b8c-0570-8c9b05708c9b",
+  "classId": "c6e26298-6298-c6e2-9862-e2c69862e2c6",
   "changeKey": "Change Key value"
 }
 ```

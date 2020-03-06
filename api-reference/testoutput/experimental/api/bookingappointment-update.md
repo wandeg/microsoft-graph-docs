@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /bookingBusinesses/{bookingBusinessesId}/calendarView/{bookingAppointmentI
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [bookingAppointment](../resources/bookingappointment.md) object.
@@ -80,7 +80,7 @@ This property is optional when creating a new appointment. If not specified, it 
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [bookingAppointment](../resources/bookingappointment.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,7 +92,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/appointments/{bookingAppointmentId}
 Content-type: application/json
-Content-length: 2351
+Content-length: 2352
 
 {
   "@odata.type": "#microsoft.graph.bookingAppointment",
@@ -139,9 +139,9 @@ Content-length: 2351
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
-  "duration": "-PT1M55.0810357S",
-  "preBuffer": "-PT27.6468082S",
-  "postBuffer": "-PT49.745402S",
+  "duration": "-PT1M8.1281301S",
+  "preBuffer": "-PT2M36.5986877S",
+  "postBuffer": "PT1M50.7470612S",
   "serviceLocation": {
     "@odata.type": "microsoft.graph.location"
   },
@@ -151,7 +151,7 @@ Content-length: 2351
   "reminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "-PT2M15.3589096S",
+      "offset": "-PT48.1154137S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -180,11 +180,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2400
+Content-Length: 2401
 
 {
   "@odata.type": "#microsoft.graph.bookingAppointment",
-  "id": "494bb340-b340-494b-40b3-4b4940b34b49",
+  "id": "00017e46-7e46-0001-467e-0100467e0100",
   "selfServiceAppointmentId": "Self Service Appointment Id value",
   "customerId": "Customer Id value",
   "customerName": "Customer Name value",
@@ -228,9 +228,9 @@ Content-Length: 2400
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
-  "duration": "-PT1M55.0810357S",
-  "preBuffer": "-PT27.6468082S",
-  "postBuffer": "-PT49.745402S",
+  "duration": "-PT1M8.1281301S",
+  "preBuffer": "-PT2M36.5986877S",
+  "postBuffer": "PT1M50.7470612S",
   "serviceLocation": {
     "@odata.type": "microsoft.graph.location"
   },
@@ -240,7 +240,7 @@ Content-Length: 2400
   "reminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "-PT2M15.3589096S",
+      "offset": "-PT48.1154137S",
       "recipients": "String",
       "message": "Message value"
     }

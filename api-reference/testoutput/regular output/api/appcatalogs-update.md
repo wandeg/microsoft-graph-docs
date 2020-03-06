@@ -34,7 +34,7 @@ PATCH /appCatalogs
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [appCatalogs](../resources/appcatalogs.md) object.
@@ -83,7 +83,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.appCatalogs",
-  "id": "5dd03c64-3c64-5dd0-643c-d05d643cd05d"
+  "id": "dceaccea-ccea-dcea-eacc-eadceacceadc"
 }
 ```
 

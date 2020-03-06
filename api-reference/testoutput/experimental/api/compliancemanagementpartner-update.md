@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/complianceManagementPartners/{complianceManagementPartne
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [complianceManagementPartner](../resources/compliancemanagementpartner.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [complianceManagementPartner](../resources/compliancemanagementpartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,7 +77,7 @@ Content-length: 951
 
 {
   "@odata.type": "#microsoft.graph.complianceManagementPartner",
-  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:55.1664101+03:00",
   "partnerState": "String",
   "displayName": "Display Name value",
   "macOsOnboarded": true,
@@ -124,8 +124,8 @@ Content-Length: 1000
 
 {
   "@odata.type": "#microsoft.graph.complianceManagementPartner",
-  "id": "5c7bae0f-ae0f-5c7b-0fae-7b5c0fae7b5c",
-  "lastHeartbeatDateTime": "2016-12-31T23:57:32.1210231+03:00",
+  "id": "78c9aeb1-aeb1-78c9-b1ae-c978b1aec978",
+  "lastHeartbeatDateTime": "2016-12-31T23:57:55.1664101+03:00",
   "partnerState": "String",
   "displayName": "Display Name value",
   "macOsOnboarded": true,

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List businessFlows](../api/businessflow-list.md)|[businessFlow](../resources/businessflow.md) collection|List properties and relationships of the [businessFlow](../resources/businessflow.md) objects.|
 |[Get businessFlow](../api/businessflow-get.md)|[businessFlow](../resources/businessflow.md)|Read properties and relationships of the [businessFlow](../resources/businessflow.md) object.|
-|[Create businessFlow](../api/businessflow-create.md)|[businessFlow](../resources/businessflow.md)|Create a new [businessFlow](../resources/businessflow.md) object.|
-|[Delete businessFlow](../api/businessflow-delete.md)|None|Deletes a [businessFlow](../resources/businessflow.md).|
 |[Update businessFlow](../api/businessflow-update.md)|[businessFlow](../resources/businessflow.md)|Update the properties of a [businessFlow](../resources/businessflow.md) object.|
 |[recordDecisions](../api/businessflow-recorddecisions.md)|None||
 
@@ -44,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

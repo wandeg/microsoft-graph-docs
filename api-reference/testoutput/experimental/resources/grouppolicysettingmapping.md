@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicySettingMappings](../api/grouppolicysettingmapping-list.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) collection|List properties and relationships of the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) objects.|
 |[Get groupPolicySettingMapping](../api/grouppolicysettingmapping-get.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Read properties and relationships of the [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
-|[Create groupPolicySettingMapping](../api/grouppolicysettingmapping-create.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Create a new [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
-|[Delete groupPolicySettingMapping](../api/grouppolicysettingmapping-delete.md)|None|Deletes a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md).|
 |[Update groupPolicySettingMapping](../api/grouppolicysettingmapping-update.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Update the properties of a [groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) object.|
+|[List groupPolicySettingMappings](../api/grouppolicymigrationreport-list-grouppolicysettingmappings.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md) collection|Get the groupPolicySettingMappings from the groupPolicySettingMappings navigation property.|
+|[Add groupPolicySettingMappings](../api/grouppolicymigrationreport-post-grouppolicysettingmappings.md)|[groupPolicySettingMapping](../resources/grouppolicysettingmapping.md)|Add groupPolicySettingMappings by posting to the groupPolicySettingMappings collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -52,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

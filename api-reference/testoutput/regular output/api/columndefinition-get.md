@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,7 +76,7 @@ Content-Length: 2104
 {
   "value": {
     "@odata.type": "#microsoft.graph.columnDefinition",
-    "id": "45ae16fa-16fa-45ae-fa16-ae45fa16ae45",
+    "id": "a25dbec5-bec5-a25d-c5be-5da2c5be5da2",
     "boolean": {
       "@odata.type": "microsoft.graph.booleanColumn"
     },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/deviceManagementTroubleshootingEvents/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,7 +73,7 @@ Content-length: 852
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -115,8 +115,8 @@ Content-Length: 901
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "3707cc7c-cc7c-3707-7ccc-07377ccc0737",
-  "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
+  "id": "f5963f89-3f89-f596-893f-96f5893f96f5",
+  "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

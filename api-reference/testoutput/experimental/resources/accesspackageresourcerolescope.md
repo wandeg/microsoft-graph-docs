@@ -43,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |accessPackageResourceRole|[accessPackageResourceRole](../resources/accesspackageresourcerole.md)||
 |accessPackageResourceScope|[accessPackageResourceScope](../resources/accesspackageresourcescope.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

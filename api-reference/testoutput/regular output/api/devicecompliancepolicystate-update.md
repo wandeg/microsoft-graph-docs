@@ -34,7 +34,7 @@ PATCH /me/managedDevices/{managedDeviceId}/deviceCompliancePolicyStates/{deviceC
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCompliancePolicyState](../resources/devicecompliancepolicystate.md) object.
@@ -117,7 +117,7 @@ Content-Length: 1011
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicyState",
-  "id": "af87b971-b971-af87-71b9-87af71b987af",
+  "id": "9846958a-958a-9846-8a95-46988a954698",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceCompliancePolicySettingState",

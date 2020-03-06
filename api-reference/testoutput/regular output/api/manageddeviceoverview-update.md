@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedDeviceOverview](../resources/manageddeviceoverview.md) object.
@@ -81,7 +81,7 @@ Content-Length: 734
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceOverview",
-  "id": "5d7727b3-27b3-5d77-b327-775db327775d",
+  "id": "9ff339ea-39ea-9ff3-ea39-f39fea39f39f",
   "enrolledDeviceCount": 3,
   "mdmEnrolledCount": 0,
   "dualEnrolledDeviceCount": 7,

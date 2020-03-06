@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/paymentTerms
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [paymentTerm](../resources/paymentterm.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,14 +75,14 @@ Content-Length: 492
   "value": [
     {
       "@odata.type": "#microsoft.graph.paymentTerm",
-      "id": "2c9c3f95-3f95-2c9c-953f-9c2c953f9c2c",
+      "id": "49f76b87-6b87-49f7-876b-f749876bf749",
       "code": "Code value",
       "displayName": "Display Name value",
       "dueDateCalculation": "Due Date Calculation value",
       "discountDateCalculation": "Discount Date Calculation value",
       "discountPercent": "4.2",
       "calculateDiscountOnCreditMemos": true,
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /directoryRoleTemplates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [directoryRoleTemplate](../resources/directoryroletemplate.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +75,8 @@ Content-Length: 303
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-      "id": "76faf175-f175-76fa-75f1-fa7675f1fa76",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "c70d3103-3103-c70d-0331-0dc703310dc7",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "description": "Description value",
       "displayName": "Display Name value"
     }

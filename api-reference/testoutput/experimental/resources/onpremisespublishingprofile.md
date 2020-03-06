@@ -45,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 |agents|[onPremisesAgent](../resources/onpremisesagent.md) collection||
 |publishedResources|[publishedResource](../resources/publishedresource.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

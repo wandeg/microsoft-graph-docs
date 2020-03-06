@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List userCredentialUsageDetailses](../api/usercredentialusagedetails-list.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md) collection|List properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) objects.|
 |[Get userCredentialUsageDetails](../api/usercredentialusagedetails-get.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Read properties and relationships of the [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
-|[Create userCredentialUsageDetails](../api/usercredentialusagedetails-create.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Create a new [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
-|[Delete userCredentialUsageDetails](../api/usercredentialusagedetails-delete.md)|None|Deletes a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md).|
 |[Update userCredentialUsageDetails](../api/usercredentialusagedetails-update.md)|[userCredentialUsageDetails](../resources/usercredentialusagedetails.md)|Update the properties of a [userCredentialUsageDetails](../resources/usercredentialusagedetails.md) object.|
 
 ## Properties
@@ -41,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

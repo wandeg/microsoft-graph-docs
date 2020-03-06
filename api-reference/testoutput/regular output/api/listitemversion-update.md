@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/listItem/versions/{listItemVersionId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [listItemVersion](../resources/listitemversion.md) object.
@@ -87,11 +87,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 689
+Content-Length: 691
 
 {
   "@odata.type": "#microsoft.graph.listItemVersion",
-  "id": "e76ff79c-f79c-e76f-9cf7-6fe79cf76fe7",
+  "id": "0516fd86-fd86-0516-86fd-160586fd1605",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -106,7 +106,7 @@ Content-Length: 689
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
     "level": "Level value",

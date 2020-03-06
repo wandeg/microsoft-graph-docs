@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationCategories](../api/educationcategory-list.md)|[educationCategory](../resources/educationcategory.md) collection|List properties and relationships of the [educationCategory](../resources/educationcategory.md) objects.|
 |[Get educationCategory](../api/educationcategory-get.md)|[educationCategory](../resources/educationcategory.md)|Read properties and relationships of the [educationCategory](../resources/educationcategory.md) object.|
-|[Create educationCategory](../api/educationcategory-create.md)|[educationCategory](../resources/educationcategory.md)|Create a new [educationCategory](../resources/educationcategory.md) object.|
-|[Delete educationCategory](../api/educationcategory-delete.md)|None|Deletes a [educationCategory](../resources/educationcategory.md).|
 |[Update educationCategory](../api/educationcategory-update.md)|[educationCategory](../resources/educationcategory.md)|Update the properties of a [educationCategory](../resources/educationcategory.md) object.|
+|[List assignmentCategories](../api/educationclass-list-assignmentcategories.md)|[educationCategory](../resources/educationcategory.md) collection|Get the educationCategories from the assignmentCategories navigation property.|
+|[Add assignmentCategories](../api/educationclass-post-assignmentcategories.md)|[educationCategory](../resources/educationcategory.md)|Add assignmentCategories by posting to the assignmentCategories collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

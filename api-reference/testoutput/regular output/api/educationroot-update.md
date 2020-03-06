@@ -34,7 +34,7 @@ PATCH /education
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationRoot](../resources/educationroot.md) object.
@@ -83,7 +83,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.educationRoot",
-  "id": "2d79eac0-eac0-2d79-c0ea-792dc0ea792d"
+  "id": "29c51e13-1e13-29c5-131e-c529131ec529"
 }
 ```
 

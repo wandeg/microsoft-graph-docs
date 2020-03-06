@@ -20,10 +20,7 @@ Inherits from [onenoteEntityHierarchyModel](../resources/onenoteentityhierarchym
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenoteSections](../api/onenotesection-list.md)|[onenoteSection](../resources/onenotesection.md) collection|List properties and relationships of the [onenoteSection](../resources/onenotesection.md) objects.|
 |[Get onenoteSection](../api/onenotesection-get.md)|[onenoteSection](../resources/onenotesection.md)|Read properties and relationships of the [onenoteSection](../resources/onenotesection.md) object.|
-|[Create onenoteSection](../api/onenotesection-create.md)|[onenoteSection](../resources/onenotesection.md)|Create a new [onenoteSection](../resources/onenotesection.md) object.|
-|[Delete onenoteSection](../api/onenotesection-delete.md)|None|Deletes a [onenoteSection](../resources/onenotesection.md).|
 |[Update onenoteSection](../api/onenotesection-update.md)|[onenoteSection](../resources/onenotesection.md)|Update the properties of a [onenoteSection](../resources/onenotesection.md) object.|
 |[copyToNotebook](../api/onenotesection-copytonotebook.md)|[onenoteOperation](../resources/onenoteoperation.md)||
 |[copyToSectionGroup](../api/onenotesection-copytosectiongroup.md)|[onenoteOperation](../resources/onenoteoperation.md)||
@@ -71,17 +68,7 @@ Here is a JSON representation of the resource.
   "createdDateTime": "String (timestamp)",
   "displayName": "String",
   "createdBy": {
-    "@odata.type": "microsoft.graph.identitySet",
-    "application": {
-      "@odata.type": "microsoft.graph.identity",
-      "id": "String"
-    },
-    "device": {
-      "@odata.type": "microsoft.graph.identity"
-    },
-    "user": {
-      "@odata.type": "microsoft.graph.identity"
-    }
+    "@odata.type": "microsoft.graph.identitySet"
   },
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"

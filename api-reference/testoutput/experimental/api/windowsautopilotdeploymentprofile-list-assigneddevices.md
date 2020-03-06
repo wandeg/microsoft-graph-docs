@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/windowsAutopilotDeviceIdentities/{windowsAutopilotDeviceIdentityId}/deploymentProfile/assignedDevices
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windowsAutopilotDeviceIdentity](../resources/windowsautopilotdeviceidentity.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,16 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1215
+Content-Length: 1214
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsAutopilotDeviceIdentity",
-      "id": "8e4a7471-7471-8e4a-7174-4a8e71744a8e",
+      "id": "9f94edf9-edf9-9f94-f9ed-949ff9ed949f",
       "deploymentProfileAssignmentStatus": "String",
       "deploymentProfileAssignmentDetailedStatus": "String",
-      "deploymentProfileAssignedDateTime": "2017-01-01T00:02:28.5362769+03:00",
+      "deploymentProfileAssignedDateTime": "2017-01-01T00:00:35.9816118+03:00",
       "orderIdentifier": "Order Identifier value",
       "groupTag": "Group Tag value",
       "purchaseOrderIdentifier": "Purchase Order Identifier value",
@@ -84,7 +87,7 @@ Content-Length: 1215
       "manufacturer": "Manufacturer value",
       "model": "Model value",
       "enrollmentState": "String",
-      "lastContactedDateTime": "2016-12-31T23:59:02.6652919+03:00",
+      "lastContactedDateTime": "2017-01-01T00:03:00.599191+03:00",
       "addressableUserName": "Addressable User Name value",
       "userPrincipalName": "User Principal Name value",
       "resourceName": "Resource Name value",

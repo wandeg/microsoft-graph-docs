@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assig
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -70,7 +70,7 @@ Content-length: 280
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "c909e6f5-e6f5-c909-f5e6-09c9f5e609c9",
+      "id": "8def27e0-27e0-8def-e027-ef8de027ef8d",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -96,7 +96,7 @@ Content-Length: 274
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceCompliancePolicyAssignment",
-      "id": "c909e6f5-e6f5-c909-f5e6-09c9f5e609c9",
+      "id": "8def27e0-27e0-8def-e027-ef8de027ef8d",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

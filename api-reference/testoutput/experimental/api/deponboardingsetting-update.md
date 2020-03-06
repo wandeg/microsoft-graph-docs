@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [depOnboardingSetting](../resources/deponboardingsetting.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [depOnboardingSetting](../resources/deponboardingsetting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,14 +74,14 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/depOnboardingSettings/{depOnboardingSettingId}
 Content-type: application/json
-Content-length: 580
+Content-length: 578
 
 {
   "@odata.type": "#microsoft.graph.depOnboardingSetting",
   "appleIdentifier": "Apple Identifier value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
-  "lastSuccessfulSyncDateTime": "2017-01-01T00:01:19.2375777+03:00",
-  "lastSyncTriggeredDateTime": "2016-12-31T23:57:44.9769189+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
+  "lastSuccessfulSyncDateTime": "2017-01-01T00:03:28.21606+03:00",
+  "lastSyncTriggeredDateTime": "2017-01-01T00:00:59.0178086+03:00",
   "shareTokenWithSchoolDataSyncService": true,
   "lastSyncErrorCode": 1,
   "tokenType": "String",
@@ -104,16 +104,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 693
+Content-Length: 691
 
 {
   "@odata.type": "#microsoft.graph.depOnboardingSetting",
-  "id": "770c8d5e-8d5e-770c-5e8d-0c775e8d0c77",
+  "id": "d722ed14-ed14-d722-14ed-22d714ed22d7",
   "appleIdentifier": "Apple Identifier value",
-  "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "lastSuccessfulSyncDateTime": "2017-01-01T00:01:19.2375777+03:00",
-  "lastSyncTriggeredDateTime": "2016-12-31T23:57:44.9769189+03:00",
+  "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "lastSuccessfulSyncDateTime": "2017-01-01T00:03:28.21606+03:00",
+  "lastSyncTriggeredDateTime": "2017-01-01T00:00:59.0178086+03:00",
   "shareTokenWithSchoolDataSyncService": true,
   "lastSyncErrorCode": 1,
   "tokenType": "String",

@@ -35,7 +35,7 @@ PATCH /me/drive/items/{driveItemId}/workbook
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbook](../resources/workbook.md) object.
@@ -84,7 +84,7 @@ Content-Length: 99
 
 {
   "@odata.type": "#microsoft.graph.workbook",
-  "id": "8541037f-037f-8541-7f03-41857f034185"
+  "id": "cac36331-6331-cac3-3163-c3ca3163c3ca"
 }
 ```
 

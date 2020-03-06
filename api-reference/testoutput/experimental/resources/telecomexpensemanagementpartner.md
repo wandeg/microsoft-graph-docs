@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List telecomExpenseManagementPartners](../api/telecomexpensemanagementpartner-list.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) collection|List properties and relationships of the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) objects.|
 |[Get telecomExpenseManagementPartner](../api/telecomexpensemanagementpartner-get.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md)|Read properties and relationships of the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.|
-|[Create telecomExpenseManagementPartner](../api/telecomexpensemanagementpartner-create.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md)|Create a new [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.|
-|[Delete telecomExpenseManagementPartner](../api/telecomexpensemanagementpartner-delete.md)|None|Deletes a [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md).|
 |[Update telecomExpenseManagementPartner](../api/telecomexpensemanagementpartner-update.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md)|Update the properties of a [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.|
-|[List telecomExpenseManagementPartners](../api/intune-devices-devicemanagement-list-telecomexpensemanagementpartners.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) collection|Get the telecomExpenseManagementPartners from the telecomExpenseManagementPartners navigation property.|
-|[Add telecomExpenseManagementPartners](../api/intune-devices-devicemanagement-post-telecomexpensemanagementpartners.md)|[telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md)|Add telecomExpenseManagementPartners by posting to the telecomExpenseManagementPartners collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -41,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

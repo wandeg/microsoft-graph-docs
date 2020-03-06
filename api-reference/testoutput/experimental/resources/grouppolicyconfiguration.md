@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List groupPolicyConfigurations](../api/grouppolicyconfiguration-list.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) collection|List properties and relationships of the [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) objects.|
 |[Get groupPolicyConfiguration](../api/grouppolicyconfiguration-get.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md)|Read properties and relationships of the [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object.|
-|[Create groupPolicyConfiguration](../api/grouppolicyconfiguration-create.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md)|Create a new [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object.|
-|[Delete groupPolicyConfiguration](../api/grouppolicyconfiguration-delete.md)|None|Deletes a [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md).|
 |[Update groupPolicyConfiguration](../api/grouppolicyconfiguration-update.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md)|Update the properties of a [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object.|
 |[assign](../api/grouppolicyconfiguration-assign.md)|[groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection||
 |[updateDefinitionValues](../api/grouppolicyconfiguration-updatedefinitionvalues.md)|None||
@@ -31,8 +28,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add definitionValues](../api/grouppolicyconfiguration-post-definitionvalues.md)|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md)|Add definitionValues by posting to the definitionValues collection.|
 |[List assignments](../api/grouppolicyconfiguration-list-assignments.md)|[groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection|Get the groupPolicyConfigurationAssignments from the assignments navigation property.|
 |[Add assignments](../api/grouppolicyconfiguration-post-assignments.md)|[groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
-|[List groupPolicyConfigurations](../api/intune-devices-devicemanagement-list-grouppolicyconfigurations.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) collection|Get the groupPolicyConfigurations from the groupPolicyConfigurations navigation property.|
-|[Add groupPolicyConfigurations](../api/intune-devices-devicemanagement-post-grouppolicyconfigurations.md)|[groupPolicyConfiguration](../resources/grouppolicyconfiguration.md)|Add groupPolicyConfigurations by posting to the groupPolicyConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -50,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 |assignments|[groupPolicyConfigurationAssignment](../resources/grouppolicyconfigurationassignment.md) collection|The list of group assignments for the configuration.|
 |definitionValues|[groupPolicyDefinitionValue](../resources/grouppolicydefinitionvalue.md) collection|The list of enabled or disabled group policy definition values for the configuration.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

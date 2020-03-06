@@ -20,14 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List officeClientConfigurations](../api/officeclientconfiguration-list.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md) collection|List properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) objects.|
 |[Get officeClientConfiguration](../api/officeclientconfiguration-get.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md)|Read properties and relationships of the [officeClientConfiguration](../resources/officeclientconfiguration.md) object.|
 |[assign](../api/officeclientconfiguration-assign.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
 |[updatePriorities](../api/officeclientconfiguration-updatepriorities.md)|None||
 |[List assignments](../api/officeclientconfiguration-list-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection|Get the officeClientConfigurationAssignments from the assignments navigation property.|
 |[Add assignments](../api/officeclientconfiguration-post-assignments.md)|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md)|Add assignments by posting to the assignments collection.|
-|[List clientConfigurations](../api/officeconfiguration-list-clientconfigurations.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md) collection|Get the officeClientConfigurations from the clientConfigurations navigation property.|
-|[Add clientConfigurations](../api/officeconfiguration-post-clientconfigurations.md)|[officeClientConfiguration](../resources/officeclientconfiguration.md)|Add clientConfigurations by posting to the clientConfigurations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +43,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |assignments|[officeClientConfigurationAssignment](../resources/officeclientconfigurationassignment.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -34,7 +34,7 @@ PATCH /me/managedDevices/{managedDeviceId}/deviceConfigurationStates/{deviceConf
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.
@@ -117,7 +117,7 @@ Content-Length: 1005
 
 {
   "@odata.type": "#microsoft.graph.deviceConfigurationState",
-  "id": "098037f3-37f3-0980-f337-8009f3378009",
+  "id": "4f20dc5a-dc5a-4f20-5adc-204f5adc204f",
   "settingStates": [
     {
       "@odata.type": "microsoft.graph.deviceConfigurationSettingState",

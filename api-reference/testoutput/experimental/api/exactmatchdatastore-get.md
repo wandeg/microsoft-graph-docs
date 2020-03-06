@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [exactMatchDataStore](../resources/exactmatchdatastore.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,10 +74,10 @@ Content-Length: 285
 {
   "value": {
     "@odata.type": "#microsoft.graph.exactMatchDataStore",
-    "id": "0ecaed55-ed55-0eca-55ed-ca0e55edca0e",
+    "id": "7f02eef2-eef2-7f02-f2ee-027ff2ee027f",
     "displayName": "Display Name value",
     "description": "Description value",
-    "dataLastUpdatedDateTime": "2016-12-31T23:57:12.7722306+03:00"
+    "dataLastUpdatedDateTime": "2016-12-31T23:57:43.7020122+03:00"
   }
 }
 ```

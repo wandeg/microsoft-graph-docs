@@ -46,7 +46,7 @@ Inherits from [identityRiskEvent](../resources/identityriskevent.md)
 |:---|:---|:---|
 |impactedUser|[user](../resources/user.md)| Inherited from [identityRiskEvent](../resources/identityriskevent.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

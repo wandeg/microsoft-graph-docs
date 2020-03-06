@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /Security/alerts
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [alert](../resources/alert.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,13 +75,13 @@ Content-Length: 6085
   "value": [
     {
       "@odata.type": "#microsoft.graph.alert",
-      "id": "0ef01edc-1edc-0ef0-dc1e-f00edc1ef00e",
+      "id": "04a474af-74af-04a4-af74-a404af74a404",
       "activityGroupName": "Activity Group Name value",
       "assignedTo": "Assigned To value",
       "azureSubscriptionId": "Azure Subscription Id value",
       "azureTenantId": "Azure Tenant Id value",
       "category": "Category value",
-      "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
+      "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
       "cloudAppStates": [
         {
           "@odata.type": "microsoft.graph.cloudAppSecurityState",
@@ -91,12 +94,12 @@ Content-Length: 6085
         "Comments value"
       ],
       "confidence": 10,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
       "description": "Description value",
       "detectionIds": [
         "Detection Ids value"
       ],
-      "eventDateTime": "2017-01-01T00:01:42.7768776+03:00",
+      "eventDateTime": "2016-12-31T23:56:50.5526409+03:00",
       "feedback": "String",
       "fileStates": [
         {
@@ -115,7 +118,7 @@ Content-Length: 6085
           "@odata.type": "microsoft.graph.alertHistoryState",
           "appId": "App Id value",
           "status": "String",
-          "updatedDateTime": "2016-12-31T23:56:50.0206912+03:00",
+          "updatedDateTime": "2017-01-01T00:02:12.6604084+03:00",
           "user": "User value"
         }
       ],
@@ -132,7 +135,7 @@ Content-Length: 6085
           "publicIpAddress": "Public Ip Address value"
         }
       ],
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
       "malwareStates": [
         {
           "@odata.type": "microsoft.graph.malwareState",
@@ -150,7 +153,7 @@ Content-Length: 6085
           "destinationPort": "Destination Port value",
           "destinationUrl": "https://example.com/destinationUrl/",
           "direction": "String",
-          "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
+          "domainRegisteredDateTime": "2017-01-01T00:02:35.3323212+03:00",
           "localDnsName": "Local Dns Name value",
           "natDestinationAddress": "Nat Destination Address value",
           "natDestinationPort": "Nat Destination Port value",
@@ -170,7 +173,7 @@ Content-Length: 6085
           "commandLine": "Command Line value",
           "integrityLevel": "String",
           "isElevated": true,
-          "parentProcessCreatedDateTime": "2017-01-01T00:00:14.1485407+03:00",
+          "parentProcessCreatedDateTime": "2016-12-31T23:58:10.0971431+03:00",
           "parentProcessId": 15,
           "parentProcessName": "Parent Process Name value",
           "processId": 9
@@ -216,7 +219,7 @@ Content-Length: 6085
           "domainName": "Domain Name value",
           "emailRole": "String",
           "isVpn": true,
-          "logonDateTime": "2017-01-01T00:01:22.4360357+03:00",
+          "logonDateTime": "2016-12-31T23:58:06.179736+03:00",
           "logonId": "Logon Id value",
           "logonIp": "Logon Ip value",
           "logonLocation": "Logon Location value",

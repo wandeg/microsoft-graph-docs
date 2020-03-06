@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /servicePrincipals/{servicePrincipalsId}/licenseDetails/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [licenseDetails](../resources/licensedetails.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [licenseDetails](../resources/licensedetails.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -73,13 +73,13 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
+      "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
+  "skuId": "25470e04-0e04-2547-040e-4725040e4725",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
@@ -99,17 +99,17 @@ Content-Length: 514
 
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "5dfe710e-710e-5dfe-0e71-fe5d0e71fe5d",
+  "id": "c98f110d-110d-c98f-0d11-8fc90d118fc9",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
+      "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
+  "skuId": "25470e04-0e04-2547-040e-4725040e4725",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

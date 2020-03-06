@@ -34,7 +34,7 @@ PATCH /deviceManagement/applePushNotificationCertificate
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [applePushNotificationCertificate](../resources/applepushnotificationcertificate.md) object.
@@ -67,13 +67,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/applePushNotificationCertificate
 Content-type: application/json
-Content-length: 270
+Content-length: 271
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "certificate": "Certificate value"
 }
 ```
@@ -88,15 +88,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 381
+Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.applePushNotificationCertificate",
-  "id": "76b44430-4430-76b4-3044-b4763044b476",
+  "id": "653969ea-69ea-6539-ea69-3965ea693965",
   "appleIdentifier": "Apple Identifier value",
   "topicIdentifier": "Topic Identifier value",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "certificate": "Certificate value"
 }
 ```

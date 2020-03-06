@@ -20,10 +20,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List listItems](../api/listitem-list.md)|[listItem](../resources/listitem.md) collection|List properties and relationships of the [listItem](../resources/listitem.md) objects.|
 |[Get listItem](../api/listitem-get.md)|[listItem](../resources/listitem.md)|Read properties and relationships of the [listItem](../resources/listitem.md) object.|
-|[Create listItem](../api/listitem-create.md)|[listItem](../resources/listitem.md)|Create a new [listItem](../resources/listitem.md) object.|
-|[Delete listItem](../api/listitem-delete.md)|None|Deletes a [listItem](../resources/listitem.md).|
 |[Update listItem](../api/listitem-update.md)|[listItem](../resources/listitem.md)|Update the properties of a [listItem](../resources/listitem.md) object.|
 |[getActivitiesByInterval](../api/listitem-getactivitiesbyinterval.md)|[itemActivityStat](../resources/itemactivitystat.md) collection||
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|

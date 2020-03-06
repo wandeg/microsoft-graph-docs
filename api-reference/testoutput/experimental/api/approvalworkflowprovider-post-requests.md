@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [request](../resources/request.md) object.
@@ -65,7 +65,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [request](../resources/request.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -77,14 +77,14 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/approvalWorkflowProviders/{approvalWorkflowProvidersId}/requests
 Content-type: application/json
-Content-length: 2227
+Content-length: 2226
 
 {
   "@odata.type": "#microsoft.graph.request",
   "displayName": "Display Name value",
   "description": "Description value",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "status": "Status value",
   "businessFlowId": "Business Flow Id value",
   "createdBy": {
@@ -157,15 +157,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2276
+Content-Length: 2275
 
 {
   "@odata.type": "#microsoft.graph.request",
-  "id": "3d5e0420-0420-3d5e-2004-5e3d20045e3d",
+  "id": "72f52659-2659-72f5-5926-f5725926f572",
   "displayName": "Display Name value",
   "description": "Description value",
-  "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-  "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+  "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+  "endDateTime": "2017-01-01T00:02:18.392989+03:00",
   "status": "Status value",
   "businessFlowId": "Business Flow Id value",
   "createdBy": {

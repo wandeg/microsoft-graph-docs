@@ -33,7 +33,7 @@ Inherits from [location](../resources/location.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

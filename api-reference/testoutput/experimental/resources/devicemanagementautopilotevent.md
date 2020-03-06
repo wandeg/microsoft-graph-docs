@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementAutopilotEvents](../api/devicemanagementautopilotevent-list.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) collection|List properties and relationships of the [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) objects.|
 |[Get deviceManagementAutopilotEvent](../api/devicemanagementautopilotevent-get.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md)|Read properties and relationships of the [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) object.|
-|[Create deviceManagementAutopilotEvent](../api/devicemanagementautopilotevent-create.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md)|Create a new [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) object.|
-|[Delete deviceManagementAutopilotEvent](../api/devicemanagementautopilotevent-delete.md)|None|Deletes a [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md).|
 |[Update deviceManagementAutopilotEvent](../api/devicemanagementautopilotevent-update.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md)|Update the properties of a [deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) object.|
-|[List autopilotEvents](../api/intune-devices-devicemanagement-list-autopilotevents.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md) collection|Get the deviceManagementAutopilotEvents from the autopilotEvents navigation property.|
-|[Add autopilotEvents](../api/intune-devices-devicemanagement-post-autopilotevents.md)|[deviceManagementAutopilotEvent](../resources/devicemanagementautopilotevent.md)|Add autopilotEvents by posting to the autopilotEvents collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -58,7 +53,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

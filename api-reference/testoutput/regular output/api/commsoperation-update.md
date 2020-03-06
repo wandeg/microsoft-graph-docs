@@ -34,7 +34,7 @@ PATCH /communications/calls/{callId}/operations/{commsOperationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [commsOperation](../resources/commsoperation.md) object.
@@ -94,7 +94,7 @@ Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.commsOperation",
-  "id": "39ca8e0b-8e0b-39ca-0b8e-ca390b8eca39",
+  "id": "b55eea8c-ea8c-b55e-8cea-5eb58cea5eb5",
   "status": "String",
   "clientContext": "Client Context value",
   "resultInfo": {

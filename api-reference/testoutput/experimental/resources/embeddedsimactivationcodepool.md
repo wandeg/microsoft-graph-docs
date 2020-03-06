@@ -20,18 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List embeddedSIMActivationCodePools](../api/embeddedsimactivationcodepool-list.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) collection|List properties and relationships of the [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) objects.|
 |[Get embeddedSIMActivationCodePool](../api/embeddedsimactivationcodepool-get.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md)|Read properties and relationships of the [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) object.|
-|[Create embeddedSIMActivationCodePool](../api/embeddedsimactivationcodepool-create.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md)|Create a new [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) object.|
-|[Delete embeddedSIMActivationCodePool](../api/embeddedsimactivationcodepool-delete.md)|None|Deletes a [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md).|
 |[Update embeddedSIMActivationCodePool](../api/embeddedsimactivationcodepool-update.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md)|Update the properties of a [embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) object.|
 |[assign](../api/embeddedsimactivationcodepool-assign.md)|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection||
 |[List assignments](../api/embeddedsimactivationcodepool-list-assignments.md)|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection|Get the embeddedSIMActivationCodePoolAssignments from the assignments navigation property.|
 |[Add assignments](../api/embeddedsimactivationcodepool-post-assignments.md)|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md)|Add assignments by posting to the assignments collection.|
 |[List deviceStates](../api/embeddedsimactivationcodepool-list-devicestates.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) collection|Get the embeddedSIMDeviceStates from the deviceStates navigation property.|
 |[Add deviceStates](../api/embeddedsimactivationcodepool-post-devicestates.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Add deviceStates by posting to the deviceStates collection.|
-|[List embeddedSIMActivationCodePools](../api/intune-devices-devicemanagement-list-embeddedsimactivationcodepools.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md) collection|Get the embeddedSIMActivationCodePools from the embeddedSIMActivationCodePools navigation property.|
-|[Add embeddedSIMActivationCodePools](../api/intune-devices-devicemanagement-post-embeddedsimactivationcodepools.md)|[embeddedSIMActivationCodePool](../resources/embeddedsimactivationcodepool.md)|Add embeddedSIMActivationCodePools by posting to the embeddedSIMActivationCodePools collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |assignments|[embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection|Navigational property to a list of targets to which this pool is assigned.|
 |deviceStates|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) collection|Navigational property to a list of device states for this pool.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

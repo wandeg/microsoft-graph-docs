@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementExportJobs](../api/devicemanagementexportjob-list.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md) collection|List properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) objects.|
 |[Get deviceManagementExportJob](../api/devicemanagementexportjob-get.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Read properties and relationships of the [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
-|[Create deviceManagementExportJob](../api/devicemanagementexportjob-create.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Create a new [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
-|[Delete deviceManagementExportJob](../api/devicemanagementexportjob-delete.md)|None|Deletes a [deviceManagementExportJob](../resources/devicemanagementexportjob.md).|
 |[Update deviceManagementExportJob](../api/devicemanagementexportjob-update.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Update the properties of a [deviceManagementExportJob](../resources/devicemanagementexportjob.md) object.|
+|[List exportJobs](../api/devicemanagementreports-list-exportjobs.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md) collection|Get the deviceManagementExportJobs from the exportJobs navigation property.|
+|[Add exportJobs](../api/devicemanagementreports-post-exportjobs.md)|[deviceManagementExportJob](../resources/devicemanagementexportjob.md)|Add exportJobs by posting to the exportJobs collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

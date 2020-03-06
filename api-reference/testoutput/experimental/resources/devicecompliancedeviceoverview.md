@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceDeviceOverviews](../api/devicecompliancedeviceoverview-list.md)|[deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) collection|List properties and relationships of the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) objects.|
 |[Get deviceComplianceDeviceOverview](../api/devicecompliancedeviceoverview-get.md)|[deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md)|Read properties and relationships of the [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.|
-|[Create deviceComplianceDeviceOverview](../api/devicecompliancedeviceoverview-create.md)|[deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md)|Create a new [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.|
-|[Delete deviceComplianceDeviceOverview](../api/devicecompliancedeviceoverview-delete.md)|None|Deletes a [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md).|
 |[Update deviceComplianceDeviceOverview](../api/devicecompliancedeviceoverview-update.md)|[deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md)|Update the properties of a [deviceComplianceDeviceOverview](../resources/devicecompliancedeviceoverview.md) object.|
 
 ## Properties
@@ -43,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List embeddedSIMDeviceStates](../api/embeddedsimdevicestate-list.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) collection|List properties and relationships of the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) objects.|
 |[Get embeddedSIMDeviceState](../api/embeddedsimdevicestate-get.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Read properties and relationships of the [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
-|[Create embeddedSIMDeviceState](../api/embeddedsimdevicestate-create.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Create a new [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
-|[Delete embeddedSIMDeviceState](../api/embeddedsimdevicestate-delete.md)|None|Deletes a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md).|
 |[Update embeddedSIMDeviceState](../api/embeddedsimdevicestate-update.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Update the properties of a [embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) object.|
+|[List deviceStates](../api/embeddedsimactivationcodepool-list-devicestates.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md) collection|Get the embeddedSIMDeviceStates from the deviceStates navigation property.|
+|[Add deviceStates](../api/embeddedsimactivationcodepool-post-devicestates.md)|[embeddedSIMDeviceState](../resources/embeddedsimdevicestate.md)|Add deviceStates by posting to the deviceStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

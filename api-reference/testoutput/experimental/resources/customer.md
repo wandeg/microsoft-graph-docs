@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List customers](../api/customer-list.md)|[customer](../resources/customer.md) collection|List properties and relationships of the [customer](../resources/customer.md) objects.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
-|[Create customer](../api/customer-create.md)|[customer](../resources/customer.md)|Create a new [customer](../resources/customer.md) object.|
-|[Delete customer](../api/customer-delete.md)|None|Deletes a [customer](../resources/customer.md).|
 |[Update customer](../api/customer-update.md)|[customer](../resources/customer.md)|Update the properties of a [customer](../resources/customer.md) object.|
 |[List picture](../api/customer-list-picture.md)|[picture](../resources/picture.md) collection|Get the pictures from the picture navigation property.|
 |[Add picture](../api/customer-post-picture.md)|[picture](../resources/picture.md)|Add picture by posting to the picture collection.|
@@ -31,6 +28,8 @@ Inherits from [entity](../resources/entity.md)
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
 |[Get shipmentMethod](../api/shipmentmethod-get.md)|[shipmentMethod](../resources/shipmentmethod.md)|Read properties and relationships of the [shipmentMethod](../resources/shipmentmethod.md) object.|
 |[Get paymentMethod](../api/paymentmethod-get.md)|[paymentMethod](../resources/paymentmethod.md)|Read properties and relationships of the [paymentMethod](../resources/paymentmethod.md) object.|
+|[List customers](../api/company-list-customers.md)|[customer](../resources/customer.md) collection|Get the customers from the customers navigation property.|
+|[Add customers](../api/company-post-customers.md)|[customer](../resources/customer.md)|Add customers by posting to the customers collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -64,7 +63,7 @@ Inherits from [entity](../resources/entity.md)
 |picture|[picture](../resources/picture.md) collection||
 |shipmentMethod|[shipmentMethod](../resources/shipmentmethod.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

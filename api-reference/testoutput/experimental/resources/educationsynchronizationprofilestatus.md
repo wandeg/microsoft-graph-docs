@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSynchronizationProfileStatuses](../api/educationsynchronizationprofilestatus-list.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) collection|List properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) objects.|
 |[Get educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-get.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Read properties and relationships of the [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
-|[Create educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-create.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Create a new [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
-|[Delete educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-delete.md)|None|Deletes a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md).|
 |[Update educationSynchronizationProfileStatus](../api/educationsynchronizationprofilestatus-update.md)|[educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md)|Update the properties of a [educationSynchronizationProfileStatus](../resources/educationsynchronizationprofilestatus.md) object.|
 
 ## Properties
@@ -36,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

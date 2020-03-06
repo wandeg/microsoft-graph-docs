@@ -34,7 +34,7 @@ PATCH /me/planner/tasks/{plannerTaskId}/bucketTaskBoardFormat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerBucketTaskBoardTaskFormat](../resources/plannerbuckettaskboardtaskformat.md) object.
@@ -85,7 +85,7 @@ Content-Length: 159
 
 {
   "@odata.type": "#microsoft.graph.plannerBucketTaskBoardTaskFormat",
-  "id": "11fb236b-236b-11fb-6b23-fb116b23fb11",
+  "id": "54f93147-3147-54f9-4731-f9544731f954",
   "orderHint": "Order Hint value"
 }
 ```

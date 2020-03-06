@@ -35,8 +35,8 @@ POST /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshee
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +73,7 @@ Content-Length: 898
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookRange",
-    "id": "a64cf4a5-f4a5-a64c-a5f4-4ca6a5f44ca6",
+    "id": "9fc1dbb2-dbb2-9fc1-b2db-c19fb2dbc19f",
     "address": "Address value",
     "addressLocal": "Address Local value",
     "cellCount": 9,

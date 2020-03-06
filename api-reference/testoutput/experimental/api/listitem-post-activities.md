@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/l
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [itemActivityOLD](../resources/itemactivityold.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [itemActivityOLD](../resources/itemactivityold.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -145,9 +145,9 @@ Content-length: 2271
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2016-12-31T23:56:40.0587575+03:00",
-    "observedDateTime": "2016-12-31T23:59:03.3671559+03:00",
-    "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00"
+    "lastRecordedDateTime": "2017-01-01T00:01:44.3920755+03:00",
+    "observedDateTime": "2017-01-01T00:03:32.7075363+03:00",
+    "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00"
   }
 }
 ```
@@ -167,7 +167,7 @@ Content-Length: 2320
 
 {
   "@odata.type": "#microsoft.graph.itemActivityOLD",
-  "id": "8ee0269c-269c-8ee0-9c26-e08e9c26e08e",
+  "id": "f94d6a49-6a49-f94d-496a-4df9496a4df9",
   "action": {
     "@odata.type": "microsoft.graph.itemActionSet",
     "comment": {
@@ -243,9 +243,9 @@ Content-Length: 2320
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2016-12-31T23:56:40.0587575+03:00",
-    "observedDateTime": "2016-12-31T23:59:03.3671559+03:00",
-    "recordedDateTime": "2016-12-31T23:56:27.4887157+03:00"
+    "lastRecordedDateTime": "2017-01-01T00:01:44.3920755+03:00",
+    "observedDateTime": "2017-01-01T00:03:32.7075363+03:00",
+    "recordedDateTime": "2017-01-01T00:02:46.1967034+03:00"
   }
 }
 ```

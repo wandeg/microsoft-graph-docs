@@ -34,7 +34,7 @@ PATCH /me/outlook/masterCategories/{outlookCategoryId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookCategory](../resources/outlookcategory.md) object.
@@ -87,7 +87,7 @@ Content-Length: 168
 
 {
   "@odata.type": "#microsoft.graph.outlookCategory",
-  "id": "e650452c-452c-e650-2c45-50e62c4550e6",
+  "id": "f513cc1c-cc1c-f513-1ccc-13f51ccc13f5",
   "displayName": "Display Name value",
   "color": "String"
 }

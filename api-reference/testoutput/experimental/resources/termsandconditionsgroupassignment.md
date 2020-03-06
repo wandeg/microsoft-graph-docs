@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List termsAndConditionsGroupAssignments](../api/termsandconditionsgroupassignment-list.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) collection|List properties and relationships of the [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) objects.|
 |[Get termsAndConditionsGroupAssignment](../api/termsandconditionsgroupassignment-get.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md)|Read properties and relationships of the [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.|
-|[Create termsAndConditionsGroupAssignment](../api/termsandconditionsgroupassignment-create.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md)|Create a new [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.|
-|[Delete termsAndConditionsGroupAssignment](../api/termsandconditionsgroupassignment-delete.md)|None|Deletes a [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md).|
 |[Update termsAndConditionsGroupAssignment](../api/termsandconditionsgroupassignment-update.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md)|Update the properties of a [termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) object.|
 |[Get termsAndConditions](../api/termsandconditions-get.md)|[termsAndConditions](../resources/termsandconditions.md)|Read properties and relationships of the [termsAndConditions](../resources/termsandconditions.md) object.|
+|[List groupAssignments](../api/termsandconditions-list-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md) collection|Get the termsAndConditionsGroupAssignments from the groupAssignments navigation property.|
+|[Add groupAssignments](../api/termsandconditions-post-groupassignments.md)|[termsAndConditionsGroupAssignment](../resources/termsandconditionsgroupassignment.md)|Add groupAssignments by posting to the groupAssignments collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |termsAndConditions|[termsAndConditions](../resources/termsandconditions.md)|Navigation link to the terms and conditions that are assigned.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

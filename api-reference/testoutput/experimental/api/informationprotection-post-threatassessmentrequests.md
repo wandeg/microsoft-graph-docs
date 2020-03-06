@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /informationProtection/threatAssessmentRequests/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [threatAssessmentRequest](../resources/threatassessmentrequest.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [threatAssessmentRequest](../resources/threatassessmentrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -107,12 +107,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 681
+Content-Length: 682
 
 {
   "@odata.type": "#microsoft.graph.threatAssessmentRequest",
-  "id": "9f184502-4502-9f18-0245-189f0245189f",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "id": "7b6830e7-30e7-7b68-e730-687be730687b",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "contentType": "String",
   "expectedAssessment": "String",
   "category": "String",

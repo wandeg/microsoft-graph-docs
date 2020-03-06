@@ -35,8 +35,8 @@ POST /users/{usersId}/assignLicense
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -75,7 +75,7 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "6e088c29-8c29-6e08-298c-086e298c086e"
+    "634832e5-32e5-6348-e532-4863e5324863"
   ]
 }
 ```
@@ -96,8 +96,8 @@ Content-Length: 3680
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "63f9f992-f992-63f9-92f9-f96392f9f963",
-    "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+    "id": "1ed31fc5-1fc5-1ed3-c51f-d31ec51fd31e",
+    "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
     "accountEnabled": true,
     "ageGroup": "Age Group value",
     "assignedLicenses": [
@@ -127,7 +127,7 @@ Content-Length: 3680
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2016-12-31T23:58:24.1652729+03:00",
+    "lastPasswordChangeDateTime": "2016-12-31T23:57:33.7887321+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -142,7 +142,7 @@ Content-Length: 3680
       "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2017-01-01T00:03:02.9589742+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:00:46.3915955+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -172,7 +172,7 @@ Content-Length: 3680
       "Proxy Addresses value"
     ],
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2016-12-31T23:59:10.6459187+03:00",
+    "signInSessionsValidFromDateTime": "2016-12-31T23:59:06.9129094+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -184,8 +184,8 @@ Content-Length: 3680
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2017-01-01T00:02:22.3143308+03:00",
-    "hireDate": "2017-01-01T00:02:24.4089676+03:00",
+    "birthday": "2017-01-01T00:03:19.9184906+03:00",
+    "hireDate": "2016-12-31T23:56:35.8105445+03:00",
     "interests": [
       "Interests value"
     ],

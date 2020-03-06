@@ -34,7 +34,7 @@ PATCH /deviceManagement/resourceOperations/{resourceOperationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [resourceOperation](../resources/resourceoperation.md) object.
@@ -89,7 +89,7 @@ Content-Length: 227
 
 {
   "@odata.type": "#microsoft.graph.resourceOperation",
-  "id": "1b96c676-c676-1b96-76c6-961b76c6961b",
+  "id": "119acbd4-cbd4-119a-d4cb-9a11d4cb9a11",
   "resourceName": "Resource Name value",
   "actionName": "Action Name value",
   "description": "Description value"

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -36,7 +36,7 @@ PATCH /me/joinedGroups/{groupId}/permissionGrants/{resourceSpecificPermissionGra
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 335
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",
@@ -97,8 +97,8 @@ Content-Length: 384
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "id": "35c79838-9838-35c7-3898-c7353898c735",
-  "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+  "id": "87f4d19e-d19e-87f4-9ed1-f4879ed1f487",
+  "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",

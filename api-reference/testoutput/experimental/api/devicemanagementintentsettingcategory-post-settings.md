@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/intents/{deviceManagementIntentId}/categories/{deviceMana
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [deviceManagementSettingInstance](../resources/devicemanagementsettinginstance.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,7 +89,7 @@ Content-Length: 200
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementSettingInstance",
-  "id": "0d6aa03a-a03a-0d6a-3aa0-6a0d3aa06a0d",
+  "id": "32700484-0484-3270-8404-703284047032",
   "definitionId": "Definition Id value",
   "valueJson": "Value Json value"
 }

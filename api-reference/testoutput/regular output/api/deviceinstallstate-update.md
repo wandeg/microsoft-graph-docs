@@ -35,7 +35,7 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{user
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceInstallState](../resources/deviceinstallstate.md) object.
@@ -71,13 +71,13 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks/{managedEBookId}/deviceStates/{deviceInstallStateId}
 Content-type: application/json
-Content-length: 370
+Content-length: 371
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",
@@ -96,14 +96,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 419
+Content-Length: 420
 
 {
   "@odata.type": "#microsoft.graph.deviceInstallState",
-  "id": "387d819e-819e-387d-9e81-7d389e817d38",
+  "id": "00128f22-8f22-0012-228f-1200228f1200",
   "deviceName": "Device Name value",
   "deviceId": "Device Id value",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "installState": "String",
   "errorCode": "Error Code value",
   "osVersion": "Os Version value",

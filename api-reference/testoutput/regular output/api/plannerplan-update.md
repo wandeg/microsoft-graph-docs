@@ -34,7 +34,7 @@ PATCH /planner/plans/{plannerPlanId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerPlan](../resources/plannerplan.md) object.
@@ -103,7 +103,7 @@ Content-Length: 583
 
 {
   "@odata.type": "#microsoft.graph.plannerPlan",
-  "id": "51c94de7-4de7-51c9-e74d-c951e74dc951",
+  "id": "3123145e-145e-3123-5e14-23315e142331",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -118,7 +118,7 @@ Content-Length: 583
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
   "owner": "Owner value",
   "title": "Title value"
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [subscribedSku](../resources/subscribedsku.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 829
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribedSku",
-    "id": "d7eb8ca3-8ca3-d7eb-a38c-ebd7a38cebd7",
+    "id": "6914adcc-adcc-6914-ccad-1469ccad1469",
     "capabilityStatus": "Capability Status value",
     "consumedUnits": 13,
     "prepaidUnits": {
@@ -86,13 +86,13 @@ Content-Length: 829
     "servicePlans": [
       {
         "@odata.type": "microsoft.graph.servicePlanInfo",
-        "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
+        "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043",
         "servicePlanName": "Service Plan Name value",
         "provisioningStatus": "Provisioning Status value",
         "appliesTo": "Applies To value"
       }
     ],
-    "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
+    "skuId": "25470e04-0e04-2547-040e-4725040e4725",
     "skuPartNumber": "Sku Part Number value",
     "appliesTo": "Applies To value"
   }

@@ -20,8 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List policySetItems](../api/policysetitem-list.md)|[policySetItem](../resources/policysetitem.md) collection|List properties and relationships of the [policySetItem](../resources/policysetitem.md) objects.|
 |[Get policySetItem](../api/policysetitem-get.md)|[policySetItem](../resources/policysetitem.md)|Read properties and relationships of the [policySetItem](../resources/policysetitem.md) object.|
+|[List items](../api/policyset-list-items.md)|[policySetItem](../resources/policysetitem.md) collection|Get the policySetItems from the items navigation property.|
+|[Add items](../api/policyset-post-items.md)|[policySetItem](../resources/policysetitem.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

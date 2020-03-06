@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /informationProtection/dataLossPreventionPolicies/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md) object.
@@ -52,7 +52,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [dataLossPreventionPolicy](../resources/datalosspreventionpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -87,7 +87,7 @@ Content-Length: 140
 
 {
   "@odata.type": "#microsoft.graph.dataLossPreventionPolicy",
-  "id": "aba94021-4021-aba9-2140-a9ab2140a9ab",
+  "id": "d91ddec6-dec6-d91d-c6de-1dd9c6de1dd9",
   "name": "Name value"
 }
 ```

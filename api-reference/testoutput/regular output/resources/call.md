@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List calls](../api/call-list.md)|[call](../resources/call.md) collection|List properties and relationships of the [call](../resources/call.md) objects.|
 |[Get call](../api/call-get.md)|[call](../resources/call.md)|Read properties and relationships of the [call](../resources/call.md) object.|
-|[Create call](../api/call-create.md)|[call](../resources/call.md)|Create a new [call](../resources/call.md) object.|
-|[Delete call](../api/call-delete.md)|None|Deletes a [call](../resources/call.md).|
 |[Update call](../api/call-update.md)|[call](../resources/call.md)|Update the properties of a [call](../resources/call.md) object.|
 |[answer](../api/call-answer.md)|None||
 |[changeScreenSharingRole](../api/call-changescreensharingrole.md)|None||
@@ -39,8 +36,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add participants](../api/call-post-participants.md)|[participant](../resources/participant.md)|Add participants by posting to the participants collection.|
 |[List operations](../api/call-list-operations.md)|[commsOperation](../resources/commsoperation.md) collection|Get the commsOperations from the operations navigation property.|
 |[Add operations](../api/call-post-operations.md)|[commsOperation](../resources/commsoperation.md)|Add operations by posting to the operations collection.|
-|[List calls](../api/cloudcommunications-list-calls.md)|[call](../resources/call.md) collection|Get the calls from the calls navigation property.|
-|[Add calls](../api/cloudcommunications-post-calls.md)|[call](../resources/call.md)|Add calls by posting to the calls collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -94,23 +89,7 @@ Here is a JSON representation of the resource.
   "subject": "String",
   "callbackUri": "String",
   "source": {
-    "@odata.type": "microsoft.graph.participantInfo",
-    "identity": {
-      "@odata.type": "microsoft.graph.identitySet",
-      "application": {
-        "@odata.type": "microsoft.graph.identity",
-        "displayName": "String",
-        "id": "String"
-      },
-      "device": {
-        "@odata.type": "microsoft.graph.identity"
-      },
-      "user": {
-        "@odata.type": "microsoft.graph.identity"
-      }
-    },
-    "region": "String",
-    "languageId": "String"
+    "@odata.type": "microsoft.graph.participantInfo"
   },
   "targets": [
     {

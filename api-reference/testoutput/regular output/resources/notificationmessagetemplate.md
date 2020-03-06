@@ -20,16 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List notificationMessageTemplates](../api/notificationmessagetemplate-list.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md) collection|List properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) objects.|
 |[Get notificationMessageTemplate](../api/notificationmessagetemplate-get.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Read properties and relationships of the [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
-|[Create notificationMessageTemplate](../api/notificationmessagetemplate-create.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Create a new [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
-|[Delete notificationMessageTemplate](../api/notificationmessagetemplate-delete.md)|None|Deletes a [notificationMessageTemplate](../resources/notificationmessagetemplate.md).|
 |[Update notificationMessageTemplate](../api/notificationmessagetemplate-update.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Update the properties of a [notificationMessageTemplate](../resources/notificationmessagetemplate.md) object.|
 |[sendTestMessage](../api/notificationmessagetemplate-sendtestmessage.md)|None||
 |[List localizedNotificationMessages](../api/notificationmessagetemplate-list-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md) collection|Get the localizedNotificationMessages from the localizedNotificationMessages navigation property.|
 |[Add localizedNotificationMessages](../api/notificationmessagetemplate-post-localizednotificationmessages.md)|[localizedNotificationMessage](../resources/localizednotificationmessage.md)|Add localizedNotificationMessages by posting to the localizedNotificationMessages collection.|
-|[List notificationMessageTemplates](../api/devicemanagement-list-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md) collection|Get the notificationMessageTemplates from the notificationMessageTemplates navigation property.|
-|[Add notificationMessageTemplates](../api/devicemanagement-post-notificationmessagetemplates.md)|[notificationMessageTemplate](../resources/notificationmessagetemplate.md)|Add notificationMessageTemplates by posting to the notificationMessageTemplates collection.|
 
 ## Properties
 |Property|Type|Description|

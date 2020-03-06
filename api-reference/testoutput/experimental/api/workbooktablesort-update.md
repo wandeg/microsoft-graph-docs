@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookTableSort](../resources/workbooktablesort.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [workbookTableSort](../resources/workbooktablesort.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -103,7 +103,7 @@ Content-Length: 534
 
 {
   "@odata.type": "#microsoft.graph.workbookTableSort",
-  "id": "320c8dc2-8dc2-320c-c28d-0c32c28d0c32",
+  "id": "2d8cc740-c740-2d8c-40c7-8c2d40c78c2d",
   "fields": [
     {
       "@odata.type": "microsoft.graph.workbookSortField",

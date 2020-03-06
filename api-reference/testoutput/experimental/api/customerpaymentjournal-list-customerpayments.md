@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /financials/companies/{companyId}/customerPaymentJournals/{customerPaymentJournalId}/customerPayments
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [customerPayment](../resources/customerpayment.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,21 +75,21 @@ Content-Length: 836
   "value": [
     {
       "@odata.type": "#microsoft.graph.customerPayment",
-      "id": "898865e5-65e5-8988-e565-8889e5658889",
+      "id": "b69af925-f925-b69a-25f9-9ab625f99ab6",
       "journalDisplayName": "Journal Display Name value",
       "lineNumber": 10,
-      "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+      "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
       "customerNumber": "Customer Number value",
       "contactId": "Contact Id value",
       "postingDate": "Date",
       "documentNumber": "Document Number value",
       "externalDocumentNumber": "External Document Number value",
       "amount": "4.2",
-      "appliesToInvoiceId": "ca957a91-7a91-ca95-917a-95ca917a95ca",
+      "appliesToInvoiceId": "2ddd2d72-2d72-2ddd-722d-dd2d722ddd2d",
       "appliesToInvoiceNumber": "Applies To Invoice Number value",
       "description": "Description value",
       "comment": "Comment value",
-      "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+      "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
     }
   ]
 }

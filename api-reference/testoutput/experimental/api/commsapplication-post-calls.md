@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /app/calls/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [call](../resources/call.md) object.
@@ -75,7 +75,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [call](../resources/call.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -217,7 +217,7 @@ Content-Length: 3135
 
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "c4fdf733-f733-c4fd-33f7-fdc433f7fdc4",
+  "id": "32485808-5808-3248-0858-483208584832",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

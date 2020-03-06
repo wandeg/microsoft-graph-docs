@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /auditLogs/signIns/{signInId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [signIn](../resources/signin.md) object.
@@ -86,7 +86,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [signIn](../resources/signin.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -124,7 +124,7 @@ Content-length: 3783
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
+      "authenticationStepDateTime": "2016-12-31T23:57:38.2707349+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -228,11 +228,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3890
+Content-Length: 3891
 
 {
   "@odata.type": "#microsoft.graph.signIn",
-  "id": "f53a2b7b-2b7b-f53a-7b2b-3af57b2b3af5",
+  "id": "15f5fb5d-fb5d-15f5-5dfb-f5155dfbf515",
   "alternateSignInName": "Alternate Sign In Name value",
   "appDisplayName": "App Display Name value",
   "appId": "App Id value",
@@ -255,7 +255,7 @@ Content-Length: 3890
   "authenticationDetails": [
     {
       "@odata.type": "microsoft.graph.authenticationDetail",
-      "authenticationStepDateTime": "2017-01-01T00:00:12.9672742+03:00",
+      "authenticationStepDateTime": "2016-12-31T23:57:38.2707349+03:00",
       "authenticationMethod": "Authentication Method value",
       "authenticationMethodDetail": "Authentication Method Detail value",
       "succeeded": true,
@@ -283,7 +283,7 @@ Content-Length: 3890
   "clientAppUsed": "Client App Used value",
   "conditionalAccessStatus": "String",
   "correlationId": "Correlation Id value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "deviceDetail": {
     "@odata.type": "microsoft.graph.deviceDetail",
     "deviceId": "Device Id value",

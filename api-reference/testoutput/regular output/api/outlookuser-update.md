@@ -35,7 +35,7 @@ PATCH /users/{usersId}/outlook
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookUser](../resources/outlookuser.md) object.
@@ -84,7 +84,7 @@ Content-Length: 102
 
 {
   "@odata.type": "#microsoft.graph.outlookUser",
-  "id": "b1876d2f-6d2f-b187-2f6d-87b12f6d87b1"
+  "id": "9d7c059d-059d-9d7c-9d05-7c9d9d057c9d"
 }
 ```
 

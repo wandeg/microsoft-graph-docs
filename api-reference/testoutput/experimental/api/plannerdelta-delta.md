@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +41,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [plannerDelta](../resources/plannerdelta.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -71,7 +71,7 @@ Content-Length: 144
   "value": [
     {
       "@odata.type": "#microsoft.graph.plannerDelta",
-      "id": "913ca24e-a24e-913c-4ea2-3c914ea23c91"
+      "id": "f4e5b52f-b52f-f4e5-2fb5-e5f42fb5e5f4"
     }
   ]
 }

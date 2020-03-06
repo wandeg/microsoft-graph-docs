@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshee
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartSeries](../resources/workbookchartseries.md) object.
@@ -87,7 +87,7 @@ Content-Length: 135
 
 {
   "@odata.type": "#microsoft.graph.workbookChartSeries",
-  "id": "b55bc798-c798-b55b-98c7-5bb598c75bb5",
+  "id": "6e9d873b-873b-6e9d-3b87-9d6e3b879d6e",
   "name": "Name value"
 }
 ```

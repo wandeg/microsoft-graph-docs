@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 797
+Content-Length: 799
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.mobileApp",
-    "id": "6454fad8-fad8-6454-d8fa-5464d8fa5464",
+    "id": "ea16d555-d555-ea16-55d5-16ea55d516ea",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
@@ -83,8 +83,8 @@ Content-Length: 797
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+    "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
     "isFeatured": true,
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/",
     "informationUrl": "https://example.com/informationUrl/",

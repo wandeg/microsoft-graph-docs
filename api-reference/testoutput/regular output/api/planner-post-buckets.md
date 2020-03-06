@@ -34,8 +34,8 @@ POST /planner/buckets/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [plannerBucket](../resources/plannerbucket.md) object.
@@ -91,7 +91,7 @@ Content-Length: 195
 
 {
   "@odata.type": "#microsoft.graph.plannerBucket",
-  "id": "6094aeea-aeea-6094-eaae-9460eaae9460",
+  "id": "26f8ddce-ddce-26f8-cedd-f826ceddf826",
   "name": "Name value",
   "planId": "Plan Id value",
   "orderHint": "Order Hint value"

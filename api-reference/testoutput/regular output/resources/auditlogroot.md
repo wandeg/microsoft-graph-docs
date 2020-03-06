@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List auditLogRoots](../api/auditlogroot-list.md)|[auditLogRoot](../resources/auditlogroot.md) collection|List properties and relationships of the [auditLogRoot](../resources/auditlogroot.md) objects.|
 |[Get auditLogRoot](../api/auditlogroot-get.md)|[auditLogRoot](../resources/auditlogroot.md)|Read properties and relationships of the [auditLogRoot](../resources/auditlogroot.md) object.|
-|[Create auditLogRoot](../api/auditlogroot-create.md)|[auditLogRoot](../resources/auditlogroot.md)|Create a new [auditLogRoot](../resources/auditlogroot.md) object.|
-|[Delete auditLogRoot](../api/auditlogroot-delete.md)|None|Deletes a [auditLogRoot](../resources/auditlogroot.md).|
 |[Update auditLogRoot](../api/auditlogroot-update.md)|[auditLogRoot](../resources/auditlogroot.md)|Update the properties of a [auditLogRoot](../resources/auditlogroot.md) object.|
 |[List signIns](../api/auditlogroot-list-signins.md)|[signIn](../resources/signin.md) collection|Get the signIns from the signIns navigation property.|
 |[Add signIns](../api/auditlogroot-post-signins.md)|[signIn](../resources/signin.md)|Add signIns by posting to the signIns collection.|

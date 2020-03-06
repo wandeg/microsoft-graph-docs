@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [androidDeviceOwnerEnrollmentProfile](../resources/androiddeviceownerenrollmentprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 856
+Content-Length: 858
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.androidDeviceOwnerEnrollmentProfile",
-    "id": "fb98f0ce-f0ce-fb98-cef0-98fbcef098fb",
+    "id": "b0894f01-4f01-b089-014f-89b0014f89b0",
     "accountId": "Account Id value",
     "displayName": "Display Name value",
     "description": "Description value",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "tokenValue": "Token Value value",
-    "tokenCreationDateTime": "2017-01-01T00:00:30.448772+03:00",
-    "tokenExpirationDateTime": "2016-12-31T23:56:36.5597304+03:00",
+    "tokenCreationDateTime": "2016-12-31T23:56:45.6267809+03:00",
+    "tokenExpirationDateTime": "2016-12-31T23:57:54.8820744+03:00",
     "enrolledDeviceCount": 3,
     "qrCodeContent": "Qr Code Content value",
     "qrCodeImage": {

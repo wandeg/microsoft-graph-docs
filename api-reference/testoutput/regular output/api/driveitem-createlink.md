@@ -50,8 +50,8 @@ POST /me/drive/items/{driveItemId}/analytics/itemActivityStats/{itemActivityStat
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -105,7 +105,7 @@ Content-Length: 531
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "fda067fc-67fc-fda0-fc67-a0fdfc67a0fd",
+    "id": "a2c1ce2b-ce2b-a2c1-2bce-c1a22bcec1a2",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet"
     },

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -41,7 +41,7 @@ PATCH /financials/companies/{companyId}/purchaseInvoices/{purchaseInvoiceId}/cur
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [currency](../resources/currency.md) object.
@@ -63,7 +63,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [currency](../resources/currency.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -101,13 +101,13 @@ Content-Length: 351
 
 {
   "@odata.type": "#microsoft.graph.currency",
-  "id": "eb1de9a6-e9a6-eb1d-a6e9-1deba6e91deb",
+  "id": "021f0c04-0c04-021f-040c-1f02040c1f02",
   "code": "Code value",
   "displayName": "Display Name value",
   "symbol": "Symbol value",
   "amountDecimalPlaces": "Amount Decimal Places value",
   "amountRoundingPrecision": "4.2",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

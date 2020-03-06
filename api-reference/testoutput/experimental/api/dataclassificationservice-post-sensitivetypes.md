@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /dataClassification/sensitiveTypes/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sensitiveType](../resources/sensitivetype.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [sensitiveType](../resources/sensitivetype.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -99,7 +99,7 @@ Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.sensitiveType",
-  "id": "c2d268be-68be-c2d2-be68-d2c2be68d2c2",
+  "id": "c32dd41d-d41d-c32d-1dd4-2dc31dd42dc3",
   "name": "Name value",
   "description": "Description value",
   "rulePackageId": "Rule Package Id value",

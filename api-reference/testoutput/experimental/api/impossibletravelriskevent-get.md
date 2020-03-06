@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [impossibleTravelRiskEvent](../resources/impossibletravelriskevent.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,15 +74,15 @@ Content-Length: 1328
 {
   "value": {
     "@odata.type": "#microsoft.graph.impossibleTravelRiskEvent",
-    "id": "ff37d336-d336-ff37-36d3-37ff36d337ff",
+    "id": "c6533a34-3a34-c653-343a-53c6343a53c6",
     "userDisplayName": "User Display Name value",
     "userPrincipalName": "User Principal Name value",
-    "riskEventDateTime": "2017-01-01T00:03:07.0502541+03:00",
+    "riskEventDateTime": "2017-01-01T00:01:40.533892+03:00",
     "riskEventType": "Risk Event Type value",
     "riskLevel": "String",
     "riskEventStatus": "String",
-    "closedDateTime": "2016-12-31T23:59:27.3956276+03:00",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+    "closedDateTime": "2016-12-31T23:57:05.8673305+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
     "userId": "User Id value",
     "location": {
       "@odata.type": "microsoft.graph.signInLocation",
@@ -100,7 +100,7 @@ Content-Length: 1328
     "userAgent": "User Agent value",
     "deviceInformation": "Device Information value",
     "isAtypicalLocation": true,
-    "previousSigninDateTime": "2016-12-31T23:59:31.8597589+03:00",
+    "previousSigninDateTime": "2016-12-31T23:57:51.4921897+03:00",
     "previousLocation": {
       "@odata.type": "microsoft.graph.signInLocation"
     },

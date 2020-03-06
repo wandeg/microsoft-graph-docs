@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /users/{usersId}/settings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userSettings](../resources/usersettings.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [userSettings](../resources/usersettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,7 +88,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.userSettings",
-  "id": "37b6956f-956f-37b6-6f95-b6376f95b637",
+  "id": "44761f94-1f94-4476-941f-7644941f7644",
   "contributionToContentDiscoveryDisabled": true,
   "contributionToContentDiscoveryAsOrganizationDisabled": true
 }

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List conversationThreads](../api/conversationthread-list.md)|[conversationThread](../resources/conversationthread.md) collection|List properties and relationships of the [conversationThread](../resources/conversationthread.md) objects.|
 |[Get conversationThread](../api/conversationthread-get.md)|[conversationThread](../resources/conversationthread.md)|Read properties and relationships of the [conversationThread](../resources/conversationthread.md) object.|
-|[Create conversationThread](../api/conversationthread-create.md)|[conversationThread](../resources/conversationthread.md)|Create a new [conversationThread](../resources/conversationthread.md) object.|
-|[Delete conversationThread](../api/conversationthread-delete.md)|None|Deletes a [conversationThread](../resources/conversationthread.md).|
 |[Update conversationThread](../api/conversationthread-update.md)|[conversationThread](../resources/conversationthread.md)|Update the properties of a [conversationThread](../resources/conversationthread.md) object.|
 |[reply](../api/conversationthread-reply.md)|None||
 |[List posts](../api/conversationthread-list-posts.md)|[post](../resources/post.md) collection|Get the posts from the posts navigation property.|
@@ -47,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |posts|[post](../resources/post.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

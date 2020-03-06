@@ -34,8 +34,8 @@ POST /me/contactFolders/{contactFolderId}/childFolders/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [contactFolder](../resources/contactfolder.md) object.
@@ -89,7 +89,7 @@ Content-Length: 191
 
 {
   "@odata.type": "#microsoft.graph.contactFolder",
-  "id": "babbdd61-dd61-babb-61dd-bbba61ddbbba",
+  "id": "c2d3eac3-eac3-c2d3-c3ea-d3c2c3ead3c2",
   "parentFolderId": "Parent Folder Id value",
   "displayName": "Display Name value"
 }

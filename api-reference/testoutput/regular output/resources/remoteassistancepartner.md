@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List remoteAssistancePartners](../api/remoteassistancepartner-list.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md) collection|List properties and relationships of the [remoteAssistancePartner](../resources/remoteassistancepartner.md) objects.|
 |[Get remoteAssistancePartner](../api/remoteassistancepartner-get.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md)|Read properties and relationships of the [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.|
-|[Create remoteAssistancePartner](../api/remoteassistancepartner-create.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md)|Create a new [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.|
-|[Delete remoteAssistancePartner](../api/remoteassistancepartner-delete.md)|None|Deletes a [remoteAssistancePartner](../resources/remoteassistancepartner.md).|
 |[Update remoteAssistancePartner](../api/remoteassistancepartner-update.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md)|Update the properties of a [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.|
 |[beginOnboarding](../api/remoteassistancepartner-beginonboarding.md)|None||
 |[disconnect](../api/remoteassistancepartner-disconnect.md)|None||
-|[List remoteAssistancePartners](../api/devicemanagement-list-remoteassistancepartners.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md) collection|Get the remoteAssistancePartners from the remoteAssistancePartners navigation property.|
-|[Add remoteAssistancePartners](../api/devicemanagement-post-remoteassistancepartners.md)|[remoteAssistancePartner](../resources/remoteassistancepartner.md)|Add remoteAssistancePartners by posting to the remoteAssistancePartners collection.|
 
 ## Properties
 |Property|Type|Description|

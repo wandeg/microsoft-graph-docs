@@ -34,8 +34,8 @@ POST /me/calendarGroups/{calendarGroupId}/calendars/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendar](../resources/calendar.md) object.
@@ -102,7 +102,7 @@ Content-Length: 359
 
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "8ff71d79-1d79-8ff7-791d-f78f791df78f",
+  "id": "71f25589-5589-71f2-8955-f2718955f271",
   "name": "Name value",
   "color": "String",
   "changeKey": "Change Key value",

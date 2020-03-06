@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [contract](../resources/contract.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,10 +74,10 @@ Content-Length: 383
 {
   "value": {
     "@odata.type": "#microsoft.graph.contract",
-    "id": "da2ac735-c735-da2a-35c7-2ada35c72ada",
-    "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+    "id": "ca2b9942-9942-ca2b-4299-2bca42992bca",
+    "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
     "contractType": "Contract Type value",
-    "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+    "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
     "defaultDomainName": "Default Domain Name value",
     "displayName": "Display Name value"
   }

@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managementConditions](../api/managementcondition-list.md)|[managementCondition](../resources/managementcondition.md) collection|List properties and relationships of the [managementCondition](../resources/managementcondition.md) objects.|
 |[Get managementCondition](../api/managementcondition-get.md)|[managementCondition](../resources/managementcondition.md)|Read properties and relationships of the [managementCondition](../resources/managementcondition.md) object.|
 |[getManagementConditionsForPlatform](../api/managementcondition-getmanagementconditionsforplatform.md)|[managementCondition](../resources/managementcondition.md) collection||
 |[List managementConditionStatements](../api/managementcondition-list-managementconditionstatements.md)|[managementConditionStatement](../resources/managementconditionstatement.md) collection|Get the managementConditionStatements from the managementConditionStatements navigation property.|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |managementConditionStatements|[managementConditionStatement](../resources/managementconditionstatement.md) collection|The management condition statements associated to the management condition.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

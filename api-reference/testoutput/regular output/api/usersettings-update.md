@@ -35,7 +35,7 @@ PATCH /users/{usersId}/settings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userSettings](../resources/usersettings.md) object.
@@ -88,7 +88,7 @@ Content-Length: 219
 
 {
   "@odata.type": "#microsoft.graph.userSettings",
-  "id": "dd01d35c-d35c-dd01-5cd3-01dd5cd301dd",
+  "id": "0e2bc72d-c72d-0e2b-2dc7-2b0e2dc72b0e",
   "contributionToContentDiscoveryDisabled": true,
   "contributionToContentDiscoveryAsOrganizationDisabled": true
 }

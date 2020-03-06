@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /businessFlowTemplates/{businessFlowTemplatesId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [businessFlowTemplate](../resources/businessflowtemplate.md) object.
@@ -51,7 +51,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [businessFlowTemplate](../resources/businessflowtemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -85,7 +85,7 @@ Content-Length: 151
 
 {
   "@odata.type": "#microsoft.graph.businessFlowTemplate",
-  "id": "22703e6d-3e6d-2270-6d3e-70226d3e7022",
+  "id": "f13aeed1-eed1-f13a-d1ee-3af1d1ee3af1",
   "displayName": "Display Name value"
 }
 ```

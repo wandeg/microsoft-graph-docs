@@ -20,10 +20,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerUsers](../api/planneruser-list.md)|[plannerUser](../resources/planneruser.md) collection|List properties and relationships of the [plannerUser](../resources/planneruser.md) objects.|
 |[Get plannerUser](../api/planneruser-get.md)|[plannerUser](../resources/planneruser.md)|Read properties and relationships of the [plannerUser](../resources/planneruser.md) object.|
-|[Create plannerUser](../api/planneruser-create.md)|[plannerUser](../resources/planneruser.md)|Create a new [plannerUser](../resources/planneruser.md) object.|
-|[Delete plannerUser](../api/planneruser-delete.md)|None|Deletes a [plannerUser](../resources/planneruser.md).|
 |[Update plannerUser](../api/planneruser-update.md)|[plannerUser](../resources/planneruser.md)|Update the properties of a [plannerUser](../resources/planneruser.md) object.|
 |[List tasks](../api/planneruser-list-tasks.md)|[plannerTask](../resources/plannertask.md) collection|Get the plannerTasks from the tasks navigation property.|
 |[Create tasks](../api/planneruser-post-tasks.md)|[plannerTask](../resources/plannertask.md)|Create tasks by posting to the tasks collection.|
@@ -52,7 +49,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 |recentPlans|[plannerPlan](../resources/plannerplan.md) collection||
 |tasks|[plannerTask](../resources/plannertask.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

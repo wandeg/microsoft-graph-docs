@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 268
 {
   "value": {
     "@odata.type": "#microsoft.graph.windowsInformationProtectionAppLearningSummary",
-    "id": "5621caef-caef-5621-efca-2156efca2156",
+    "id": "b5551e0d-1e0d-b555-0d1e-55b50d1e55b5",
     "applicationName": "Application Name value",
     "applicationType": "String",
     "deviceCount": 11

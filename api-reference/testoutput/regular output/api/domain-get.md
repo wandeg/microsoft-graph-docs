@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 796
+Content-Length: 795
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.domain",
-    "id": "eb7d2cab-2cab-eb7d-ab2c-7debab2c7deb",
+    "id": "5809501f-501f-5809-1f50-09581f500958",
     "authenticationType": "Authentication Type value",
     "availabilityStatus": "Availability Status value",
     "isAdminManaged": true,
@@ -93,7 +93,7 @@ Content-Length: 796
       "@odata.type": "microsoft.graph.domainState",
       "status": "Status value",
       "operation": "Operation value",
-      "lastActionDateTime": "2017-01-01T00:03:19.3737597+03:00"
+      "lastActionDateTime": "2017-01-01T00:01:34.678586+03:00"
     }
   }
 }

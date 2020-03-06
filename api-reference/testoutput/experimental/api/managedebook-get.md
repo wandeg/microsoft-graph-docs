@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [managedEBook](../resources/managedebook.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,23 +69,23 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 711
+Content-Length: 712
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedEBook",
-    "id": "ea086ffd-6ffd-ea08-fd6f-08eafd6f08ea",
+    "id": "a1d4ec66-ec66-a1d4-66ec-d4a166ecd4a1",
     "displayName": "Display Name value",
     "description": "Description value",
     "publisher": "Publisher value",
-    "publishedDateTime": "2016-12-31T23:58:08.6084682+03:00",
+    "publishedDateTime": "2017-01-01T00:02:36.8373884+03:00",
     "largeCover": {
       "@odata.type": "microsoft.graph.mimeContent",
       "type": "Type value",
       "value": "dmFsdWU="
     },
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "informationUrl": "https://example.com/informationUrl/",
     "privacyInformationUrl": "https://example.com/privacyInformationUrl/"
   }

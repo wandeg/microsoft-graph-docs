@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -42,7 +42,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -50,7 +50,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [governanceRoleSetting](../resources/governancerolesetting.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -79,11 +79,11 @@ Content-Length: 935
 {
   "value": {
     "@odata.type": "#microsoft.graph.governanceRoleSetting",
-    "id": "7446ab92-ab92-7446-92ab-467492ab4674",
+    "id": "89f7c9af-c9af-89f7-afc9-f789afc9f789",
     "resourceId": "Resource Id value",
     "roleDefinitionId": "Role Definition Id value",
     "isDefault": true,
-    "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+    "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
     "lastUpdatedBy": "Last Updated By value",
     "adminEligibleSettings": [
       {

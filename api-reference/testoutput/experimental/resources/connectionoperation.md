@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List connectionOperations](../api/connectionoperation-list.md)|[connectionOperation](../resources/connectionoperation.md) collection|List properties and relationships of the [connectionOperation](../resources/connectionoperation.md) objects.|
 |[Get connectionOperation](../api/connectionoperation-get.md)|[connectionOperation](../resources/connectionoperation.md)|Read properties and relationships of the [connectionOperation](../resources/connectionoperation.md) object.|
-|[Create connectionOperation](../api/connectionoperation-create.md)|[connectionOperation](../resources/connectionoperation.md)|Create a new [connectionOperation](../resources/connectionoperation.md) object.|
-|[Delete connectionOperation](../api/connectionoperation-delete.md)|None|Deletes a [connectionOperation](../resources/connectionoperation.md).|
 |[Update connectionOperation](../api/connectionoperation-update.md)|[connectionOperation](../resources/connectionoperation.md)|Update the properties of a [connectionOperation](../resources/connectionoperation.md) object.|
+|[List operations](../api/externalconnection-list-operations.md)|[connectionOperation](../resources/connectionoperation.md) collection|Get the connectionOperations from the operations navigation property.|
+|[Add operations](../api/externalconnection-post-operations.md)|[connectionOperation](../resources/connectionoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -36,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

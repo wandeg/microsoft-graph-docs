@@ -34,8 +34,8 @@ POST /deviceManagement/roleAssignments/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceAndAppManagementRoleAssignment](../resources/deviceandappmanagementroleassignment.md) object.
@@ -97,7 +97,7 @@ Content-Length: 307
 
 {
   "@odata.type": "#microsoft.graph.deviceAndAppManagementRoleAssignment",
-  "id": "553dd9fb-d9fb-553d-fbd9-3d55fbd93d55",
+  "id": "b5febd72-bd72-b5fe-72bd-feb572bdfeb5",
   "displayName": "Display Name value",
   "description": "Description value",
   "resourceScopes": [

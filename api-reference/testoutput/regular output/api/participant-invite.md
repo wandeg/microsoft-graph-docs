@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/participants/invite
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -93,7 +93,7 @@ Content-Length: 409
 {
   "value": {
     "@odata.type": "#microsoft.graph.inviteParticipantsOperation",
-    "id": "cf6aee6c-ee6c-cf6a-6cee-6acf6cee6acf",
+    "id": "66b5f9da-f9da-66b5-daf9-b566daf9b566",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List columnDefinitions](../api/columndefinition-list.md)|[columnDefinition](../resources/columndefinition.md) collection|List properties and relationships of the [columnDefinition](../resources/columndefinition.md) objects.|
 |[Get columnDefinition](../api/columndefinition-get.md)|[columnDefinition](../resources/columndefinition.md)|Read properties and relationships of the [columnDefinition](../resources/columndefinition.md) object.|
-|[Create columnDefinition](../api/columndefinition-create.md)|[columnDefinition](../resources/columndefinition.md)|Create a new [columnDefinition](../resources/columndefinition.md) object.|
-|[Delete columnDefinition](../api/columndefinition-delete.md)|None|Deletes a [columnDefinition](../resources/columndefinition.md).|
 |[Update columnDefinition](../api/columndefinition-update.md)|[columnDefinition](../resources/columndefinition.md)|Update the properties of a [columnDefinition](../resources/columndefinition.md) object.|
+|[List columns](../api/site-list-columns.md)|[columnDefinition](../resources/columndefinition.md) collection|Get the columnDefinitions from the columns navigation property.|
+|[Add columns](../api/site-post-columns.md)|[columnDefinition](../resources/columndefinition.md)|Add columns by posting to the columns collection.|
 
 ## Properties
 |Property|Type|Description|

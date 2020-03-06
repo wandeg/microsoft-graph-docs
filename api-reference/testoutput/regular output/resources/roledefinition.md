@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List roleDefinitions](../api/roledefinition-list.md)|[roleDefinition](../resources/roledefinition.md) collection|List properties and relationships of the [roleDefinition](../resources/roledefinition.md) objects.|
 |[Get roleDefinition](../api/roledefinition-get.md)|[roleDefinition](../resources/roledefinition.md)|Read properties and relationships of the [roleDefinition](../resources/roledefinition.md) object.|
-|[Create roleDefinition](../api/roledefinition-create.md)|[roleDefinition](../resources/roledefinition.md)|Create a new [roleDefinition](../resources/roledefinition.md) object.|
-|[Delete roleDefinition](../api/roledefinition-delete.md)|None|Deletes a [roleDefinition](../resources/roledefinition.md).|
 |[Update roleDefinition](../api/roledefinition-update.md)|[roleDefinition](../resources/roledefinition.md)|Update the properties of a [roleDefinition](../resources/roledefinition.md) object.|
 |[List roleAssignments](../api/roledefinition-list-roleassignments.md)|[roleAssignment](../resources/roleassignment.md) collection|Get the roleAssignments from the roleAssignments navigation property.|
 |[Add roleAssignments](../api/roledefinition-post-roleassignments.md)|[roleAssignment](../resources/roleassignment.md)|Add roleAssignments by posting to the roleAssignments collection.|
-|[List roleDefinitions](../api/devicemanagement-list-roledefinitions.md)|[roleDefinition](../resources/roledefinition.md) collection|Get the roleDefinitions from the roleDefinitions navigation property.|
-|[Add roleDefinitions](../api/devicemanagement-post-roledefinitions.md)|[roleDefinition](../resources/roledefinition.md)|Add roleDefinitions by posting to the roleDefinitions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -62,18 +57,7 @@ Here is a JSON representation of the resource.
   "description": "String",
   "rolePermissions": [
     {
-      "@odata.type": "microsoft.graph.rolePermission",
-      "resourceActions": [
-        {
-          "@odata.type": "microsoft.graph.resourceAction",
-          "allowedResourceActions": [
-            "String"
-          ],
-          "notAllowedResourceActions": [
-            "String"
-          ]
-        }
-      ]
+      "@odata.type": "microsoft.graph.rolePermission"
     }
   ],
   "isBuiltIn": true

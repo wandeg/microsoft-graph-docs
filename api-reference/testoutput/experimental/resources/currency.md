@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List currencies](../api/currency-list.md)|[currency](../resources/currency.md) collection|List properties and relationships of the [currency](../resources/currency.md) objects.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
-|[Create currency](../api/currency-create.md)|[currency](../resources/currency.md)|Create a new [currency](../resources/currency.md) object.|
-|[Delete currency](../api/currency-delete.md)|None|Deletes a [currency](../resources/currency.md).|
 |[Update currency](../api/currency-update.md)|[currency](../resources/currency.md)|Update the properties of a [currency](../resources/currency.md) object.|
+|[List currencies](../api/company-list-currencies.md)|[currency](../resources/currency.md) collection|Get the currencies from the currencies navigation property.|
+|[Add currencies](../api/company-post-currencies.md)|[currency](../resources/currency.md)|Add currencies by posting to the currencies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

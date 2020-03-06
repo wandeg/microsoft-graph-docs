@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /education/schools/{educationSchoolId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationSchool](../resources/educationschool.md) object.
@@ -64,7 +64,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [educationSchool](../resources/educationschool.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -132,7 +132,7 @@ Content-Length: 1223
 
 {
   "@odata.type": "#microsoft.graph.educationSchool",
-  "id": "f53bb4d9-b4d9-f53b-d9b4-3bf5d9b43bf5",
+  "id": "093f8a3a-8a3a-093f-3a8a-3f093a8a3f09",
   "displayName": "Display Name value",
   "description": "Description value",
   "externalSource": "String",

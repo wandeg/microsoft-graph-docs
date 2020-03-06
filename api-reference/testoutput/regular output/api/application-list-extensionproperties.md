@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /applications/{applicationsId}/extensionProperties
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 437
   "value": [
     {
       "@odata.type": "#microsoft.graph.extensionProperty",
-      "id": "f7914e9e-4e9e-f791-9e4e-91f79e4e91f7",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "cb5cc6ba-c6ba-cb5c-bac6-5ccbbac65ccb",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "appDisplayName": "App Display Name value",
       "name": "Name value",
       "dataType": "Data Type value",

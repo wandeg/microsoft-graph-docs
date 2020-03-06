@@ -34,7 +34,7 @@ PATCH /appCatalogs/teamsApps/{teamsAppId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsApp](../resources/teamsapp.md) object.
@@ -89,7 +89,7 @@ Content-Length: 212
 
 {
   "@odata.type": "#microsoft.graph.teamsApp",
-  "id": "fabc42d6-42d6-fabc-d642-bcfad642bcfa",
+  "id": "50331a5a-1a5a-5033-5a1a-33505a1a3350",
   "externalId": "External Id value",
   "displayName": "Display Name value",
   "distributionMethod": "String"

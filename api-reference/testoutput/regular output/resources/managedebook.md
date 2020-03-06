@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedEBooks](../api/managedebook-list.md)|[managedEBook](../resources/managedebook.md) collection|List properties and relationships of the [managedEBook](../resources/managedebook.md) objects.|
 |[Get managedEBook](../api/managedebook-get.md)|[managedEBook](../resources/managedebook.md)|Read properties and relationships of the [managedEBook](../resources/managedebook.md) object.|
 |[assign](../api/managedebook-assign.md)|None||
 |[List assignments](../api/managedebook-list-assignments.md)|[managedEBookAssignment](../resources/managedebookassignment.md) collection|Get the managedEBookAssignments from the assignments navigation property.|
@@ -30,8 +29,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add deviceStates](../api/managedebook-post-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Add deviceStates by posting to the deviceStates collection.|
 |[List userStateSummary](../api/managedebook-list-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|Get the userInstallStateSummaries from the userStateSummary navigation property.|
 |[Add userStateSummary](../api/managedebook-post-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Add userStateSummary by posting to the userStateSummary collection.|
-|[List managedEBooks](../api/deviceappmanagement-list-managedebooks.md)|[managedEBook](../resources/managedebook.md) collection|Get the managedEBooks from the managedEBooks navigation property.|
-|[Add managedEBooks](../api/deviceappmanagement-post-managedebooks.md)|[managedEBook](../resources/managedebook.md)|Add managedEBooks by posting to the managedEBooks collection.|
 
 ## Properties
 |Property|Type|Description|

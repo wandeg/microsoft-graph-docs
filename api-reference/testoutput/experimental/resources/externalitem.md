@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List externalItems](../api/externalitem-list.md)|[externalItem](../resources/externalitem.md) collection|List properties and relationships of the [externalItem](../resources/externalitem.md) objects.|
 |[Get externalItem](../api/externalitem-get.md)|[externalItem](../resources/externalitem.md)|Read properties and relationships of the [externalItem](../resources/externalitem.md) object.|
-|[Create externalItem](../api/externalitem-create.md)|[externalItem](../resources/externalitem.md)|Create a new [externalItem](../resources/externalitem.md) object.|
-|[Delete externalItem](../api/externalitem-delete.md)|None|Deletes a [externalItem](../resources/externalitem.md).|
 |[Update externalItem](../api/externalitem-update.md)|[externalItem](../resources/externalitem.md)|Update the properties of a [externalItem](../resources/externalitem.md) object.|
+|[List items](../api/externalconnection-list-items.md)|[externalItem](../resources/externalitem.md) collection|Get the externalItems from the items navigation property.|
+|[Add items](../api/externalconnection-post-items.md)|[externalItem](../resources/externalitem.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

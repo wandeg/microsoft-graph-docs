@@ -20,15 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List callRecords](../api/callrecords-callrecord-list.md)|[callRecord](../resources/callrecords-callrecord.md) collection|List properties and relationships of the [callRecord](../resources/callrecord.md) objects.|
 |[Get callRecord](../api/callrecords-callrecord-get.md)|[callRecord](../resources/callrecords-callrecord.md)|Read properties and relationships of the [callRecord](../resources/callrecords-callrecord.md) object.|
-|[Create callRecord](../api/callrecords-callrecord-create.md)|[callRecord](../resources/callrecords-callrecord.md)|Create a new [callRecord](../resources/callrecords-callrecord.md) object.|
-|[Delete callRecord](../api/callrecords-callrecord-delete.md)|None|Deletes a [callRecord](../resources/callrecords-callrecord.md).|
 |[Update callRecord](../api/callrecords-callrecord-update.md)|[callRecord](../resources/callrecords-callrecord.md)|Update the properties of a [callRecord](../resources/callrecords-callrecord.md) object.|
 |[List sessions](../api/callrecords-callrecord-list-sessions.md)|[session](../resources/callrecords-session.md) collection|Get the sessions from the sessions navigation property.|
 |[Add sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callrecords-session.md)|Add sessions by posting to the sessions collection.|
-|[List callRecords](../api/cloudcommunications-list-callrecords.md)|[callRecord](../resources/callrecords-callrecord.md) collection|Get the callRecords from the callRecords navigation property.|
-|[Add callRecords](../api/cloudcommunications-post-callrecords.md)|[callRecord](../resources/callrecords-callrecord.md)|Add callRecords by posting to the callRecords collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -49,7 +44,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |sessions|[session](../resources/callrecords-session.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

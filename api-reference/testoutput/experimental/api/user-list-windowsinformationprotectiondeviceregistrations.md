@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/windowsInformationProtectionDeviceRegistrations
 GET /users/{usersId}/windowsInformationProtectionDeviceRegistrations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,19 +70,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 481
+Content-Length: 480
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-      "id": "12f95eb0-5eb0-12f9-b05e-f912b05ef912",
+      "id": "744e32a8-32a8-744e-a832-4e74a8324e74",
       "userId": "User Id value",
       "deviceRegistrationId": "Device Registration Id value",
       "deviceName": "Device Name value",
       "deviceType": "Device Type value",
       "deviceMacAddress": "Device Mac Address value",
-      "lastCheckInDateTime": "2016-12-31T23:58:23.4652469+03:00"
+      "lastCheckInDateTime": "2017-01-01T00:00:34.709818+03:00"
     }
   ]
 }

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationSubmissions](../api/educationsubmission-list.md)|[educationSubmission](../resources/educationsubmission.md) collection|List properties and relationships of the [educationSubmission](../resources/educationsubmission.md) objects.|
 |[Get educationSubmission](../api/educationsubmission-get.md)|[educationSubmission](../resources/educationsubmission.md)|Read properties and relationships of the [educationSubmission](../resources/educationsubmission.md) object.|
-|[Create educationSubmission](../api/educationsubmission-create.md)|[educationSubmission](../resources/educationsubmission.md)|Create a new [educationSubmission](../resources/educationsubmission.md) object.|
-|[Delete educationSubmission](../api/educationsubmission-delete.md)|None|Deletes a [educationSubmission](../resources/educationsubmission.md).|
 |[Update educationSubmission](../api/educationsubmission-update.md)|[educationSubmission](../resources/educationsubmission.md)|Update the properties of a [educationSubmission](../resources/educationsubmission.md) object.|
 |[return](../api/educationsubmission-return.md)|[educationSubmission](../resources/educationsubmission.md)||
 |[submit](../api/educationsubmission-submit.md)|[educationSubmission](../resources/educationsubmission.md)||
@@ -34,6 +31,8 @@ Inherits from [entity](../resources/entity.md)
 |[Add submittedResources](../api/educationsubmission-post-submittedresources.md)|[educationSubmissionResource](../resources/educationsubmissionresource.md)|Add submittedResources by posting to the submittedResources collection.|
 |[List outcomes](../api/educationsubmission-list-outcomes.md)|[educationOutcome](../resources/educationoutcome.md) collection|Get the educationOutcomes from the outcomes navigation property.|
 |[Add outcomes](../api/educationsubmission-post-outcomes.md)|[educationOutcome](../resources/educationoutcome.md)|Add outcomes by posting to the outcomes collection.|
+|[List submissions](../api/educationassignment-list-submissions.md)|[educationSubmission](../resources/educationsubmission.md) collection|Get the educationSubmissions from the submissions navigation property.|
+|[Add submissions](../api/educationassignment-post-submissions.md)|[educationSubmission](../resources/educationsubmission.md)|Add submissions by posting to the submissions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -58,7 +57,7 @@ Inherits from [entity](../resources/entity.md)
 |resources|[educationSubmissionResource](../resources/educationsubmissionresource.md) collection||
 |submittedResources|[educationSubmissionResource](../resources/educationsubmissionresource.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

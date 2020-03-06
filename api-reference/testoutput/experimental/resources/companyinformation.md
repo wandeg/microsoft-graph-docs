@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List companyInformations](../api/companyinformation-list.md)|[companyInformation](../resources/companyinformation.md) collection|List properties and relationships of the [companyInformation](../resources/companyinformation.md) objects.|
 |[Get companyInformation](../api/companyinformation-get.md)|[companyInformation](../resources/companyinformation.md)|Read properties and relationships of the [companyInformation](../resources/companyinformation.md) object.|
-|[Create companyInformation](../api/companyinformation-create.md)|[companyInformation](../resources/companyinformation.md)|Create a new [companyInformation](../resources/companyinformation.md) object.|
-|[Delete companyInformation](../api/companyinformation-delete.md)|None|Deletes a [companyInformation](../resources/companyinformation.md).|
 |[Update companyInformation](../api/companyinformation-update.md)|[companyInformation](../resources/companyinformation.md)|Update the properties of a [companyInformation](../resources/companyinformation.md) object.|
+|[List companyInformation](../api/company-list-companyinformation.md)|[companyInformation](../resources/companyinformation.md) collection|Get the companyInformations from the companyInformation navigation property.|
+|[Add companyInformation](../api/company-post-companyinformation.md)|[companyInformation](../resources/companyinformation.md)|Add companyInformation by posting to the companyInformation collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -46,7 +45,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

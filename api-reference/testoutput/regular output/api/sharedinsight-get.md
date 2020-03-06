@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 1406
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharedInsight",
-    "id": "680ad850-d850-680a-50d8-0a6850d80a68",
+    "id": "3f873d31-3d31-3f87-313d-873f313d873f",
     "lastShared": {
       "@odata.type": "microsoft.graph.sharingDetail",
       "sharedBy": {
@@ -83,7 +83,7 @@ Content-Length: 1406
         "id": "Id value",
         "address": "Address value"
       },
-      "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00",
+      "sharedDateTime": "2017-01-01T00:03:17.0780353+03:00",
       "sharingSubject": "Sharing Subject value",
       "sharingType": "Sharing Type value",
       "sharingReference": {

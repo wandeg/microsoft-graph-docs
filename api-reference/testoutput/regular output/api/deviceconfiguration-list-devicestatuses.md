@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/deviceConfigurations/{deviceConfigurationId}/deviceStatuses
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,13 +75,13 @@ Content-Length: 541
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceConfigurationDeviceStatus",
-      "id": "d67f1cf4-1cf4-d67f-f41c-7fd6f41c7fd6",
+      "id": "50d7942b-942b-50d7-2b94-d7502b94d750",
       "deviceDisplayName": "Device Display Name value",
       "userName": "User Name value",
       "deviceModel": "Device Model value",
-      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
+      "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00",
       "status": "String",
-      "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+      "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
       "userPrincipalName": "User Principal Name value"
     }
   ]

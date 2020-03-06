@@ -35,7 +35,7 @@ PATCH /me/joinedTeams/{groupId}/conversations/{conversationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversation](../resources/conversation.md) object.
@@ -74,7 +74,7 @@ Content-length: 260
   "@odata.type": "#microsoft.graph.conversation",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:10.6155614+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -96,10 +96,10 @@ Content-Length: 309
 
 {
   "@odata.type": "#microsoft.graph.conversation",
-  "id": "9db8ecd0-ecd0-9db8-d0ec-b89dd0ecb89d",
+  "id": "0d26b363-b363-0d26-63b3-260d63b3260d",
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2017-01-01T00:02:45.7138413+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:02:10.6155614+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /privilegedRoleAssignmentRequests/my
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [privilegedRoleAssignmentRequest](../resources/privilegedroleassignmentrequest.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Content-Length: 664
   "value": [
     {
       "@odata.type": "#microsoft.graph.privilegedRoleAssignmentRequest",
-      "id": "4eb017cd-17cd-4eb0-cd17-b04ecd17b04e",
+      "id": "bae80e21-0e21-bae8-210e-e8ba210ee8ba",
       "schedule": {
         "@odata.type": "microsoft.graph.governanceSchedule"
       },
@@ -80,7 +80,7 @@ Content-Length: 664
       "roleId": "Role Id value",
       "type": "Type value",
       "assignmentState": "Assignment State value",
-      "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
+      "requestedDateTime": "2016-12-31T23:57:18.0853595+03:00",
       "status": "Status value",
       "duration": "Duration value",
       "reason": "Reason value",

@@ -34,8 +34,8 @@ POST /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigu
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserStatus](../resources/manageddevicemobileappconfigurationuserstatus.md) object.
@@ -75,7 +75,7 @@ Content-length: 299
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -95,11 +95,11 @@ Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserStatus",
-  "id": "ddba7df5-7df5-ddba-f57d-baddf57dbadd",
+  "id": "f7143662-3662-f714-6236-14f7623614f7",
   "userDisplayName": "User Display Name value",
   "devicesCount": 12,
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

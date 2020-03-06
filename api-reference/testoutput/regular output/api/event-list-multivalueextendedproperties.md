@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/messages/{messageId}/microsoft.graph.eventMessage/event/multiValueExtendedProperties
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 215
   "value": [
     {
       "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-      "id": "ff81e7e1-e7e1-ff81-e1e7-81ffe1e781ff",
+      "id": "fee9438c-438c-fee9-8c43-e9fe8c43e9fe",
       "value": [
         "Value value"
       ]

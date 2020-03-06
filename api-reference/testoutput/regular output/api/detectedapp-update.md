@@ -34,7 +34,7 @@ PATCH /deviceManagement/detectedApps/{detectedAppId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [detectedApp](../resources/detectedapp.md) object.
@@ -91,7 +91,7 @@ Content-Length: 216
 
 {
   "@odata.type": "#microsoft.graph.detectedApp",
-  "id": "d5971262-1262-d597-6212-97d5621297d5",
+  "id": "3d04fd36-fd36-3d04-36fd-043d36fd043d",
   "displayName": "Display Name value",
   "version": "Version value",
   "sizeInByte": 10,

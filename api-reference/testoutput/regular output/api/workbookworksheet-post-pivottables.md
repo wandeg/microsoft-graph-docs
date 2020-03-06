@@ -34,8 +34,8 @@ POST /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshee
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookPivotTable](../resources/workbookpivottable.md) object.
@@ -87,7 +87,7 @@ Content-Length: 134
 
 {
   "@odata.type": "#microsoft.graph.workbookPivotTable",
-  "id": "173ec9d3-c9d3-173e-d3c9-3e17d3c93e17",
+  "id": "9bac30d4-30d4-9bac-d430-ac9bd430ac9b",
   "name": "Name value"
 }
 ```

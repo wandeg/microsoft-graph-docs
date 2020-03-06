@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesQuoteLines](../api/salesquoteline-list.md)|[salesQuoteLine](../resources/salesquoteline.md) collection|List properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) objects.|
 |[Get salesQuoteLine](../api/salesquoteline-get.md)|[salesQuoteLine](../resources/salesquoteline.md)|Read properties and relationships of the [salesQuoteLine](../resources/salesquoteline.md) object.|
-|[Create salesQuoteLine](../api/salesquoteline-create.md)|[salesQuoteLine](../resources/salesquoteline.md)|Create a new [salesQuoteLine](../resources/salesquoteline.md) object.|
-|[Delete salesQuoteLine](../api/salesquoteline-delete.md)|None|Deletes a [salesQuoteLine](../resources/salesquoteline.md).|
 |[Update salesQuoteLine](../api/salesquoteline-update.md)|[salesQuoteLine](../resources/salesquoteline.md)|Update the properties of a [salesQuoteLine](../resources/salesquoteline.md) object.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
 |[Get account](../api/account-get.md)|[account](../resources/account.md)|Read properties and relationships of the [account](../resources/account.md) object.|
+|[List salesQuoteLines](../api/company-list-salesquotelines.md)|[salesQuoteLine](../resources/salesquoteline.md) collection|Get the salesQuoteLines from the salesQuoteLines navigation property.|
+|[Add salesQuoteLines](../api/company-post-salesquotelines.md)|[salesQuoteLine](../resources/salesquoteline.md)|Add salesQuoteLines by posting to the salesQuoteLines collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -59,7 +58,7 @@ Inherits from [entity](../resources/entity.md)
 |account|[account](../resources/account.md)||
 |item|[item](../resources/item.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

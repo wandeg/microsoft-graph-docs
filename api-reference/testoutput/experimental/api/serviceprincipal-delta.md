@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ GET /servicePrincipals/delta
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +42,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [servicePrincipal](../resources/serviceprincipal.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,8 +72,8 @@ Content-Length: 1802
   "value": [
     {
       "@odata.type": "#microsoft.graph.servicePrincipal",
-      "id": "da5b47bc-47bc-da5b-bc47-5bdabc475bda",
-      "deletedDateTime": "2017-01-01T00:00:12.2826741+03:00",
+      "id": "0cf3ca8d-ca8d-0cf3-8dca-f30c8dcaf30c",
+      "deletedDateTime": "2016-12-31T23:57:45.8652256+03:00",
       "accountEnabled": true,
       "addIns": [
         {
@@ -83,7 +83,7 @@ Content-Length: 1802
       "appDisplayName": "App Display Name value",
       "appId": "App Id value",
       "applicationTemplateId": "Application Template Id value",
-      "appOwnerOrganizationId": "9f15957f-957f-9f15-7f95-159f7f95159f",
+      "appOwnerOrganizationId": "6c64b8b7-b8b7-6c64-b7b8-646cb7b8646c",
       "appRoleAssignmentRequired": true,
       "appRoles": [
         {

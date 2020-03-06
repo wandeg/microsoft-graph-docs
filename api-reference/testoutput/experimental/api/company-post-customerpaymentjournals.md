@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/customerPaymentJournals/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [customerPaymentJournal](../resources/customerpaymentjournal.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [customerPaymentJournal](../resources/customerpaymentjournal.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 257
   "@odata.type": "#microsoft.graph.customerPaymentJournal",
   "code": "Code value",
   "displayName": "Display Name value",
-  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
+  "balancingAccountId": "078141a4-41a4-0781-a441-8107a4418107",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```
@@ -94,11 +94,11 @@ Content-Length: 370
 
 {
   "@odata.type": "#microsoft.graph.customerPaymentJournal",
-  "id": "eb324685-4685-eb32-8546-32eb854632eb",
+  "id": "9fa0fb79-fb79-9fa0-79fb-a09f79fba09f",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "balancingAccountId": "078141a4-41a4-0781-a441-8107a4418107",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```

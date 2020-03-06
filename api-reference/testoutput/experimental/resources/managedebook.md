@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedEBooks](../api/managedebook-list.md)|[managedEBook](../resources/managedebook.md) collection|List properties and relationships of the [managedEBook](../resources/managedebook.md) objects.|
 |[Get managedEBook](../api/managedebook-get.md)|[managedEBook](../resources/managedebook.md)|Read properties and relationships of the [managedEBook](../resources/managedebook.md) object.|
 |[assign](../api/managedebook-assign.md)|None||
 |[List categories](../api/managedebook-list-categories.md)|[managedEBookCategory](../resources/managedebookcategory.md) collection|Get the managedEBookCategories from the categories navigation property.|
@@ -32,8 +31,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add deviceStates](../api/managedebook-post-devicestates.md)|[deviceInstallState](../resources/deviceinstallstate.md)|Add deviceStates by posting to the deviceStates collection.|
 |[List userStateSummary](../api/managedebook-list-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|Get the userInstallStateSummaries from the userStateSummary navigation property.|
 |[Add userStateSummary](../api/managedebook-post-userstatesummary.md)|[userInstallStateSummary](../resources/userinstallstatesummary.md)|Add userStateSummary by posting to the userStateSummary collection.|
-|[List managedEBooks](../api/intune-apps-deviceappmanagement-list-managedebooks.md)|[managedEBook](../resources/managedebook.md) collection|Get the managedEBooks from the managedEBooks navigation property.|
-|[Add managedEBooks](../api/intune-apps-deviceappmanagement-post-managedebooks.md)|[managedEBook](../resources/managedebook.md)|Add managedEBooks by posting to the managedEBooks collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +40,7 @@ Inherits from [entity](../resources/entity.md)
 |displayName|String|Name of the eBook.|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |informationUrl|String|The more information Url.|
-|largeCover|[mimeContent](../resources/intune-apps-mimecontent.md)|Book cover.|
+|largeCover|[mimeContent](../resources/mimecontent.md)|Book cover.|
 |lastModifiedDateTime|DateTimeOffset|The date and time when the eBook was last modified.|
 |privacyInformationUrl|String|The privacy statement Url.|
 |publishedDateTime|DateTimeOffset|The date and time when the eBook was published.|
@@ -58,7 +55,7 @@ Inherits from [entity](../resources/entity.md)
 |installSummary|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Mobile App Install Summary.|
 |userStateSummary|[userInstallStateSummary](../resources/userinstallstatesummary.md) collection|The list of installation states for this eBook.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

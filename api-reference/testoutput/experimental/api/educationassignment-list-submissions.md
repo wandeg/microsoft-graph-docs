@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /education/classes/{educationClassId}/assignments/{educationAssignmentId}/submissions
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [educationSubmission](../resources/educationsubmission.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 1303
   "value": [
     {
       "@odata.type": "#microsoft.graph.educationSubmission",
-      "id": "00b163fd-63fd-00b1-fd63-b100fd63b100",
+      "id": "0e834e62-4e62-0e83-624e-830e624e830e",
       "recipient": {
         "@odata.type": "microsoft.graph.educationSubmissionRecipient"
       },
@@ -91,19 +94,19 @@ Content-Length: 1303
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "submittedDateTime": "2016-12-31T23:57:10.5476387+03:00",
+      "submittedDateTime": "2016-12-31T23:56:39.8413838+03:00",
       "unsubmittedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "unsubmittedDateTime": "2017-01-01T00:02:16.2566523+03:00",
+      "unsubmittedDateTime": "2017-01-01T00:01:37.8870443+03:00",
       "releasedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "releasedDateTime": "2016-12-31T23:59:18.4243169+03:00",
+      "releasedDateTime": "2017-01-01T00:00:01.1001695+03:00",
       "returnedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "returnedDateTime": "2017-01-01T00:00:10.2935801+03:00",
+      "returnedDateTime": "2016-12-31T23:57:07.5874584+03:00",
       "resourcesFolderUrl": "https://example.com/resourcesFolderUrl/"
     }
   ]

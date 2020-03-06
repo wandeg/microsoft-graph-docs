@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -56,7 +56,7 @@ PATCH /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [driveItem](../resources/driveitem.md) object.
@@ -104,7 +104,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [driveItem](../resources/driveitem.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -202,7 +202,7 @@ Content-length: 5211
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:50.8669622+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -232,7 +232,7 @@ Content-length: 5211
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2016-12-31T23:59:45.8885405+03:00"
+      "queuedDateTime": "2017-01-01T00:00:03.9892844+03:00"
     }
   },
   "photo": {
@@ -245,7 +245,7 @@ Content-length: 5211
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2016-12-31T23:59:08.8860013+03:00"
+    "takenDateTime": "2016-12-31T23:56:36.8443106+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -263,7 +263,7 @@ Content-length: 5211
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00"
+      "sharedDateTime": "2016-12-31T23:58:44.3724153+03:00"
     },
     "size": 4,
     "specialFolder": {
@@ -312,11 +312,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 5461
+Content-Length: 5462
 
 {
   "@odata.type": "#microsoft.graph.driveItem",
-  "id": "8464c8ba-c8ba-8464-bac8-6484bac86484",
+  "id": "d0a2bcfd-bcfd-d0a2-fdbc-a2d0fdbca2d0",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -331,13 +331,13 @@ Content-Length: 5461
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",
@@ -404,7 +404,7 @@ Content-Length: 5461
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:00:00.2315436+03:00"
+    "lastAccessedDateTime": "2016-12-31T23:58:50.8669622+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -434,7 +434,7 @@ Content-Length: 5461
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2016-12-31T23:59:45.8885405+03:00"
+      "queuedDateTime": "2017-01-01T00:00:03.9892844+03:00"
     }
   },
   "photo": {
@@ -447,7 +447,7 @@ Content-Length: 5461
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2016-12-31T23:59:08.8860013+03:00"
+    "takenDateTime": "2016-12-31T23:56:36.8443106+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -465,7 +465,7 @@ Content-Length: 5461
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00"
+      "sharedDateTime": "2016-12-31T23:58:44.3724153+03:00"
     },
     "size": 4,
     "specialFolder": {

@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/comments/{workbookCommentId}/replies
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 231
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookCommentReply",
-      "id": "77356af1-6af1-7735-f16a-3577f16a3577",
+      "id": "246ee213-e213-246e-13e2-6e2413e26e24",
       "content": "Content value",
       "contentType": "Content Type value"
     }

@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 184
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerBucketTaskBoardTaskFormat",
-    "id": "11fb236b-236b-11fb-6b23-fb116b23fb11",
+    "id": "54f93147-3147-54f9-4731-f9544731f954",
     "orderHint": "Order Hint value"
   }
 }

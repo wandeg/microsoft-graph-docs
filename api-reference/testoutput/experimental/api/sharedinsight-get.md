@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [sharedInsight](../resources/sharedinsight.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 1406
 {
   "value": {
     "@odata.type": "#microsoft.graph.sharedInsight",
-    "id": "6508b4d2-b4d2-6508-d2b4-0865d2b40865",
+    "id": "7c2a698a-698a-7c2a-8a69-2a7c8a692a7c",
     "lastShared": {
       "@odata.type": "microsoft.graph.sharingDetail",
       "sharedBy": {
@@ -83,7 +83,7 @@ Content-Length: 1406
         "id": "Id value",
         "address": "Address value"
       },
-      "sharedDateTime": "2016-12-31T23:59:03.7692771+03:00",
+      "sharedDateTime": "2016-12-31T23:58:44.3724153+03:00",
       "sharingSubject": "Sharing Subject value",
       "sharingType": "Sharing Type value",
       "sharingReference": {

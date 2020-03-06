@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/androidManagedStoreAccountEnterpriseSettings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-length: 888
 {
   "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:56:53.6528788+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
@@ -117,13 +117,13 @@ Content-Length: 1001
 
 {
   "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
-  "id": "d80b6672-6672-d80b-7266-0bd872660bd8",
+  "id": "71bebd7d-bd7d-71be-7dbd-be717dbdbe71",
   "bindStatus": "String",
-  "lastAppSyncDateTime": "2016-12-31T23:57:23.1980217+03:00",
+  "lastAppSyncDateTime": "2016-12-31T23:56:53.6528788+03:00",
   "lastAppSyncStatus": "String",
   "ownerUserPrincipalName": "Owner User Principal Name value",
   "ownerOrganizationName": "Owner Organization Name value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "enrollmentTarget": "String",
   "targetGroupIds": [
     "Target Group Ids value"

@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List depOnboardingSettings](../api/deponboardingsetting-list.md)|[depOnboardingSetting](../resources/deponboardingsetting.md) collection|List properties and relationships of the [depOnboardingSetting](../resources/deponboardingsetting.md) objects.|
 |[Get depOnboardingSetting](../api/deponboardingsetting-get.md)|[depOnboardingSetting](../resources/deponboardingsetting.md)|Read properties and relationships of the [depOnboardingSetting](../resources/deponboardingsetting.md) object.|
-|[Create depOnboardingSetting](../api/deponboardingsetting-create.md)|[depOnboardingSetting](../resources/deponboardingsetting.md)|Create a new [depOnboardingSetting](../resources/deponboardingsetting.md) object.|
-|[Delete depOnboardingSetting](../api/deponboardingsetting-delete.md)|None|Deletes a [depOnboardingSetting](../resources/deponboardingsetting.md).|
 |[Update depOnboardingSetting](../api/deponboardingsetting-update.md)|[depOnboardingSetting](../resources/deponboardingsetting.md)|Update the properties of a [depOnboardingSetting](../resources/deponboardingsetting.md) object.|
 |[getEncryptionPublicKey](../api/deponboardingsetting-getencryptionpublickey.md)|String||
 |[uploadDepToken](../api/deponboardingsetting-uploaddeptoken.md)|None||
@@ -37,8 +34,6 @@ Inherits from [entity](../resources/entity.md)
 |[Add enrollmentProfiles](../api/deponboardingsetting-post-enrollmentprofiles.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Add enrollmentProfiles by posting to the enrollmentProfiles collection.|
 |[List importedAppleDeviceIdentities](../api/deponboardingsetting-list-importedappledeviceidentities.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) collection|Get the importedAppleDeviceIdentities from the importedAppleDeviceIdentities navigation property.|
 |[Add importedAppleDeviceIdentities](../api/deponboardingsetting-post-importedappledeviceidentities.md)|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md)|Add importedAppleDeviceIdentities by posting to the importedAppleDeviceIdentities collection.|
-|[List depOnboardingSettings](../api/intune-devices-devicemanagement-list-deponboardingsettings.md)|[depOnboardingSetting](../resources/deponboardingsetting.md) collection|Get the depOnboardingSettings from the depOnboardingSettings navigation property.|
-|[Add depOnboardingSettings](../api/intune-devices-devicemanagement-post-deponboardingsettings.md)|[depOnboardingSetting](../resources/deponboardingsetting.md)|Add depOnboardingSettings by posting to the depOnboardingSettings collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -65,7 +60,7 @@ Inherits from [entity](../resources/entity.md)
 |enrollmentProfiles|[enrollmentProfile](../resources/enrollmentprofile.md) collection|The enrollment profiles.|
 |importedAppleDeviceIdentities|[importedAppleDeviceIdentity](../resources/importedappledeviceidentity.md) collection|The imported Apple device identities.|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

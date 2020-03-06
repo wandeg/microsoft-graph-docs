@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /deviceManagement/deviceCategories/{deviceCategoryId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCategory](../resources/devicecategory.md) object.
@@ -54,7 +54,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceCategory](../resources/devicecategory.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -92,7 +92,7 @@ Content-Length: 246
 
 {
   "@odata.type": "#microsoft.graph.deviceCategory",
-  "id": "280e0325-0325-280e-2503-0e2825030e28",
+  "id": "ef7acb3c-cb3c-ef7a-3ccb-7aef3ccb7aef",
   "displayName": "Display Name value",
   "description": "Description value",
   "roleScopeTagIds": [

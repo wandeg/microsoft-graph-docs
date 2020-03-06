@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /deviceManagement/reports/reportSchedules
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,21 +69,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 705
+Content-Length: 704
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.deviceManagementReportSchedule",
-      "id": "29fb27d0-27d0-29fb-d027-fb29d027fb29",
+      "id": "b0c44614-4614-b0c4-1446-c4b01446c4b0",
       "reportScheduleName": "Report Schedule Name value",
       "subject": "Subject value",
       "emails": [
         "Emails value"
       ],
       "recurrence": "String",
-      "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-      "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+      "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+      "endDateTime": "2017-01-01T00:02:18.392989+03:00",
       "userId": "User Id value",
       "reportName": "Report Name value",
       "filter": "Filter value",

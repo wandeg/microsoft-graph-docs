@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompli
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.
@@ -88,7 +88,7 @@ Content-length: 511
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00"
 }
 ```
 
@@ -107,7 +107,7 @@ Content-Length: 560
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-  "id": "8557fa57-fa57-8557-57fa-578557fa5785",
+  "id": "c0d121e5-21e5-c0d1-e521-d1c0e521d1c0",
   "setting": "Setting value",
   "settingName": "Setting Name value",
   "deviceId": "Device Id value",
@@ -118,7 +118,7 @@ Content-Length: 560
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00"
 }
 ```
 

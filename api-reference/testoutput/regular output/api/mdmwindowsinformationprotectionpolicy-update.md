@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsIn
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) object.
@@ -89,7 +89,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceAppManagement/mdmWindowsInformationProtectionPolicies/{mdmWindowsInformationProtectionPolicyId}
 Content-type: application/json
-Content-length: 2914
+Content-length: 2915
 
 {
   "@odata.type": "#microsoft.graph.mdmWindowsInformationProtectionPolicy",
@@ -110,11 +110,11 @@ Content-length: 2914
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+    "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "8b9cd973-d973-8b9c-73d9-9c8b73d99c8b",
+  "rightsManagementServicesTemplateId": "ce9ea573-a573-ce9e-73a5-9ece73a59ece",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [
@@ -196,15 +196,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 3084
+Content-Length: 3087
 
 {
   "@odata.type": "#microsoft.graph.mdmWindowsInformationProtectionPolicy",
-  "id": "49e9f057-f057-49e9-57f0-e94957f0e949",
+  "id": "23670f47-0f47-2367-470f-6723470f6723",
   "displayName": "Display Name value",
   "description": "Description value",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "version": "Version value",
   "enforcementLevel": "String",
   "enterpriseDomain": "Enterprise Domain value",
@@ -220,11 +220,11 @@ Content-Length: 3084
   "dataRecoveryCertificate": {
     "@odata.type": "microsoft.graph.windowsInformationProtectionDataRecoveryCertificate",
     "subjectName": "Subject Name value",
-    "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+    "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
     "certificate": "Y2VydGlmaWNhdGU="
   },
   "revokeOnUnenrollDisabled": true,
-  "rightsManagementServicesTemplateId": "8b9cd973-d973-8b9c-73d9-9c8b73d99c8b",
+  "rightsManagementServicesTemplateId": "ce9ea573-a573-ce9e-73a5-9ece73a59ece",
   "azureRightsManagementServicesAllowed": true,
   "iconsVisible": true,
   "protectedApps": [

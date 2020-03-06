@@ -20,13 +20,8 @@ Inherits from [bookingPerson](../resources/bookingperson.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List bookingCustomers](../api/bookingcustomer-list.md)|[bookingCustomer](../resources/bookingcustomer.md) collection|List properties and relationships of the [bookingCustomer](../resources/bookingcustomer.md) objects.|
 |[Get bookingCustomer](../api/bookingcustomer-get.md)|[bookingCustomer](../resources/bookingcustomer.md)|Read properties and relationships of the [bookingCustomer](../resources/bookingcustomer.md) object.|
-|[Create bookingCustomer](../api/bookingcustomer-create.md)|[bookingCustomer](../resources/bookingcustomer.md)|Create a new [bookingCustomer](../resources/bookingcustomer.md) object.|
-|[Delete bookingCustomer](../api/bookingcustomer-delete.md)|None|Deletes a [bookingCustomer](../resources/bookingcustomer.md).|
 |[Update bookingCustomer](../api/bookingcustomer-update.md)|[bookingCustomer](../resources/bookingcustomer.md)|Update the properties of a [bookingCustomer](../resources/bookingcustomer.md) object.|
-|[List customers](../api/bookingbusiness-list-customers.md)|[bookingCustomer](../resources/bookingcustomer.md) collection|Get the bookingCustomers from the customers navigation property.|
-|[Add customers](../api/bookingbusiness-post-customers.md)|[bookingCustomer](../resources/bookingcustomer.md)|Add customers by posting to the customers collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +34,7 @@ The display name is suitable for human-readable interfaces. Inherited from [book
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

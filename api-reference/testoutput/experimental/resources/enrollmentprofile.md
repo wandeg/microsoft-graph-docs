@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List enrollmentProfiles](../api/enrollmentprofile-list.md)|[enrollmentProfile](../resources/enrollmentprofile.md) collection|List properties and relationships of the [enrollmentProfile](../resources/enrollmentprofile.md) objects.|
 |[Get enrollmentProfile](../api/enrollmentprofile-get.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Read properties and relationships of the [enrollmentProfile](../resources/enrollmentprofile.md) object.|
-|[Create enrollmentProfile](../api/enrollmentprofile-create.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Create a new [enrollmentProfile](../resources/enrollmentprofile.md) object.|
-|[Delete enrollmentProfile](../api/enrollmentprofile-delete.md)|None|Deletes a [enrollmentProfile](../resources/enrollmentprofile.md).|
 |[Update enrollmentProfile](../api/enrollmentprofile-update.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Update the properties of a [enrollmentProfile](../resources/enrollmentprofile.md) object.|
 |[setDefaultProfile](../api/enrollmentprofile-setdefaultprofile.md)|None||
 |[exportMobileConfig](../api/enrollmentprofile-exportmobileconfig.md)|String||
 |[updateDeviceProfileAssignment](../api/enrollmentprofile-updatedeviceprofileassignment.md)|None||
+|[List enrollmentProfiles](../api/deponboardingsetting-list-enrollmentprofiles.md)|[enrollmentProfile](../resources/enrollmentprofile.md) collection|Get the enrollmentProfiles from the enrollmentProfiles navigation property.|
+|[Add enrollmentProfiles](../api/deponboardingsetting-post-enrollmentprofiles.md)|[enrollmentProfile](../resources/enrollmentprofile.md)|Add enrollmentProfiles by posting to the enrollmentProfiles collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

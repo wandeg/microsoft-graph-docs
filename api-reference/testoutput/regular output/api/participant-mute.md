@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/participants/{participantId}/mute
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -87,7 +87,7 @@ Content-Length: 289
 {
   "value": {
     "@odata.type": "#microsoft.graph.muteParticipantOperation",
-    "id": "f450ca63-ca63-f450-63ca-50f463ca50f4",
+    "id": "f70a2a18-2a18-f70a-182a-0af7182a0af7",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

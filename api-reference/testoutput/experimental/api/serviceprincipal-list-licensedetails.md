@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /servicePrincipals/{servicePrincipalsId}/licenseDetails
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [licenseDetails](../resources/licensedetails.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,17 +75,17 @@ Content-Length: 599
   "value": [
     {
       "@odata.type": "#microsoft.graph.licenseDetails",
-      "id": "5dfe710e-710e-5dfe-0e71-fe5d0e71fe5d",
+      "id": "c98f110d-110d-c98f-0d11-8fc90d118fc9",
       "servicePlans": [
         {
           "@odata.type": "microsoft.graph.servicePlanInfo",
-          "servicePlanId": "2f12abad-abad-2f12-adab-122fadab122f",
+          "servicePlanId": "430099a8-99a8-4300-a899-0043a8990043",
           "servicePlanName": "Service Plan Name value",
           "provisioningStatus": "Provisioning Status value",
           "appliesTo": "Applies To value"
         }
       ],
-      "skuId": "766f47e4-47e4-766f-e447-6f76e4476f76",
+      "skuId": "25470e04-0e04-2547-040e-4725040e4725",
       "skuPartNumber": "Sku Part Number value"
     }
   ]

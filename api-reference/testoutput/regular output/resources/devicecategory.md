@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceCategories](../api/devicecategory-list.md)|[deviceCategory](../resources/devicecategory.md) collection|List properties and relationships of the [deviceCategory](../resources/devicecategory.md) objects.|
 |[Get deviceCategory](../api/devicecategory-get.md)|[deviceCategory](../resources/devicecategory.md)|Read properties and relationships of the [deviceCategory](../resources/devicecategory.md) object.|
-|[Create deviceCategory](../api/devicecategory-create.md)|[deviceCategory](../resources/devicecategory.md)|Create a new [deviceCategory](../resources/devicecategory.md) object.|
-|[Delete deviceCategory](../api/devicecategory-delete.md)|None|Deletes a [deviceCategory](../resources/devicecategory.md).|
 |[Update deviceCategory](../api/devicecategory-update.md)|[deviceCategory](../resources/devicecategory.md)|Update the properties of a [deviceCategory](../resources/devicecategory.md) object.|
-|[List deviceCategories](../api/devicemanagement-list-devicecategories.md)|[deviceCategory](../resources/devicecategory.md) collection|Get the deviceCategories from the deviceCategories navigation property.|
-|[Add deviceCategories](../api/devicemanagement-post-devicecategories.md)|[deviceCategory](../resources/devicecategory.md)|Add deviceCategories by posting to the deviceCategories collection.|
 
 ## Properties
 |Property|Type|Description|

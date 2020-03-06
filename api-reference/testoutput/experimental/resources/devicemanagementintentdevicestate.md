@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementIntentDeviceStates](../api/devicemanagementintentdevicestate-list.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) collection|List properties and relationships of the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) objects.|
 |[Get deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-get.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Read properties and relationships of the [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
-|[Create deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-create.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Create a new [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
-|[Delete deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-delete.md)|None|Deletes a [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md).|
 |[Update deviceManagementIntentDeviceState](../api/devicemanagementintentdevicestate-update.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Update the properties of a [deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) object.|
+|[List deviceStates](../api/devicemanagementintent-list-devicestates.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md) collection|Get the deviceManagementIntentDeviceStates from the deviceStates navigation property.|
+|[Add deviceStates](../api/devicemanagementintent-post-devicestates.md)|[deviceManagementIntentDeviceState](../resources/devicemanagementintentdevicestate.md)|Add deviceStates by posting to the deviceStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +39,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

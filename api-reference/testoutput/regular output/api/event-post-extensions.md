@@ -34,8 +34,8 @@ POST /me/messages/{messageId}/microsoft.graph.eventMessage/event/extensions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [extension](../resources/extension.md) object.
@@ -85,7 +85,7 @@ Content-Length: 100
 
 {
   "@odata.type": "#microsoft.graph.extension",
-  "id": "b971efb0-efb0-b971-b0ef-71b9b0ef71b9"
+  "id": "0e33e9a0-e9a0-0e33-a0e9-330ea0e9330e"
 }
 ```
 

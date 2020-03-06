@@ -32,10 +32,13 @@ GET /sites/{sitesId}/lists
 GET /me/joinedTeams/{groupId}/sites/{siteId}/lists
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -67,13 +70,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1942
+Content-Length: 1944
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.list",
-      "id": "b28a69e8-69e8-b28a-e869-8ab2e8698ab2",
+      "id": "af293837-3837-af29-3738-29af373829af",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,13 +91,13 @@ Content-Length: 1942
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

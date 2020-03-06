@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/drive/items/{driveItemId}/workbook/tables
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 469
   "value": [
     {
       "@odata.type": "#microsoft.graph.workbookTable",
-      "id": "5a44f869-f869-5a44-69f8-445a69f8445a",
+      "id": "a882481f-481f-a882-1f48-82a81f4882a8",
       "highlightFirstColumn": true,
       "highlightLastColumn": true,
       "legacyId": "Legacy Id value",

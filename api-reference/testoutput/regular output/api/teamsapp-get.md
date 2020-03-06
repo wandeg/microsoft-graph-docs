@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 241
 {
   "value": {
     "@odata.type": "#microsoft.graph.teamsApp",
-    "id": "fabc42d6-42d6-fabc-d642-bcfad642bcfa",
+    "id": "50331a5a-1a5a-5033-5a1a-33505a1a3350",
     "externalId": "External Id value",
     "displayName": "Display Name value",
     "distributionMethod": "String"

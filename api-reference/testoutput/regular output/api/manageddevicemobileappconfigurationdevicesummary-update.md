@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfig
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceSummary](../resources/manageddevicemobileappconfigurationdevicesummary.md) object.
@@ -78,7 +78,7 @@ Content-length: 299
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:00.0420361+03:00",
   "configurationVersion": 4
 }
 ```
@@ -97,13 +97,13 @@ Content-Length: 348
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceSummary",
-  "id": "f8085e66-5e66-f808-665e-08f8665e08f8",
+  "id": "f222e0b8-e0b8-f222-b8e0-22f2b8e022f2",
   "pendingCount": 12,
   "notApplicableCount": 2,
   "successCount": 12,
   "errorCount": 10,
   "failedCount": 11,
-  "lastUpdateDateTime": "2017-01-01T00:03:07.1140227+03:00",
+  "lastUpdateDateTime": "2016-12-31T23:58:00.0420361+03:00",
   "configurationVersion": 4
 }
 ```

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /domains
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [domain](../resources/domain.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +75,7 @@ Content-Length: 778
   "value": [
     {
       "@odata.type": "#microsoft.graph.domain",
-      "id": "91491c9e-1c9e-9149-9e1c-49919e1c4991",
+      "id": "56dd2618-2618-56dd-1826-dd561826dd56",
       "authenticationType": "Authentication Type value",
       "availabilityStatus": "Availability Status value",
       "isAdminManaged": true,
@@ -89,7 +92,7 @@ Content-Length: 778
         "@odata.type": "microsoft.graph.domainState",
         "status": "Status value",
         "operation": "Operation value",
-        "lastActionDateTime": "2016-12-31T23:56:52.9868016+03:00"
+        "lastActionDateTime": "2017-01-01T00:00:59.8991039+03:00"
       }
     }
   ]

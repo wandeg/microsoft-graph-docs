@@ -34,8 +34,8 @@ POST /communications/calls/{callId}/subscribeToTone
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -87,7 +87,7 @@ Content-Length: 289
 {
   "value": {
     "@odata.type": "#microsoft.graph.subscribeToToneOperation",
-    "id": "db13e723-e723-db13-23e7-13db23e713db",
+    "id": "3413138d-138d-3413-8d13-13348d131334",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

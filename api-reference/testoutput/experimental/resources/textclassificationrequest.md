@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List textClassificationRequests](../api/textclassificationrequest-list.md)|[textClassificationRequest](../resources/textclassificationrequest.md) collection|List properties and relationships of the [textClassificationRequest](../resources/textclassificationrequest.md) objects.|
 |[Get textClassificationRequest](../api/textclassificationrequest-get.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Read properties and relationships of the [textClassificationRequest](../resources/textclassificationrequest.md) object.|
-|[Create textClassificationRequest](../api/textclassificationrequest-create.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Create a new [textClassificationRequest](../resources/textclassificationrequest.md) object.|
-|[Delete textClassificationRequest](../api/textclassificationrequest-delete.md)|None|Deletes a [textClassificationRequest](../resources/textclassificationrequest.md).|
 |[Update textClassificationRequest](../api/textclassificationrequest-update.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Update the properties of a [textClassificationRequest](../resources/textclassificationrequest.md) object.|
-|[List classifyText](../api/dataclassificationservice-list-classifytext.md)|[textClassificationRequest](../resources/textclassificationrequest.md) collection|Get the textClassificationRequests from the classifyText navigation property.|
-|[Add classifyText](../api/dataclassificationservice-post-classifytext.md)|[textClassificationRequest](../resources/textclassificationrequest.md)|Add classifyText by posting to the classifyText collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -39,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

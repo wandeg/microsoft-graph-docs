@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 205
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAppStatus",
-    "id": "d34b309d-309d-d34b-9d30-4bd39d304bd3",
+    "id": "6374a44a-a44a-6374-4aa4-74634aa47463",
     "displayName": "Display Name value",
     "version": "Version value"
   }

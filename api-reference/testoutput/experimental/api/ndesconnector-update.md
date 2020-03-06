@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/ndesConnectors/{ndesConnectorId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [ndesConnector](../resources/ndesconnector.md) object.
@@ -53,7 +53,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [ndesConnector](../resources/ndesconnector.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,7 +69,7 @@ Content-length: 183
 
 {
   "@odata.type": "#microsoft.graph.ndesConnector",
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00",
   "state": "String",
   "displayName": "Display Name value"
 }
@@ -89,8 +89,8 @@ Content-Length: 232
 
 {
   "@odata.type": "#microsoft.graph.ndesConnector",
-  "id": "963deb66-eb66-963d-66eb-3d9666eb3d96",
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00",
+  "id": "cdec4f22-4f22-cdec-224f-eccd224feccd",
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00",
   "state": "String",
   "displayName": "Display Name value"
 }

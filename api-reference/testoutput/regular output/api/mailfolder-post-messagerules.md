@@ -34,8 +34,8 @@ POST /me/mailFolders/{mailFolderId}/messageRules/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [messageRule](../resources/messagerule.md) object.
@@ -193,7 +193,7 @@ Content-Length: 2635
 
 {
   "@odata.type": "#microsoft.graph.messageRule",
-  "id": "5bbffef5-fef5-5bbf-f5fe-bf5bf5febf5b",
+  "id": "1f8ce65b-e65b-1f8c-5be6-8c1f5be68c1f",
   "displayName": "Display Name value",
   "sequence": 8,
   "conditions": {

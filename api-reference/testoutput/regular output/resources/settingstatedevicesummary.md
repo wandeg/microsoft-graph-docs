@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List settingStateDeviceSummaries](../api/settingstatedevicesummary-list.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|List properties and relationships of the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) objects.|
 |[Get settingStateDeviceSummary](../api/settingstatedevicesummary-get.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Read properties and relationships of the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.|
-|[Create settingStateDeviceSummary](../api/settingstatedevicesummary-create.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Create a new [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.|
-|[Delete settingStateDeviceSummary](../api/settingstatedevicesummary-delete.md)|None|Deletes a [settingStateDeviceSummary](../resources/settingstatedevicesummary.md).|
 |[Update settingStateDeviceSummary](../api/settingstatedevicesummary-update.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Update the properties of a [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.|
+|[List deviceSettingStateSummaries](../api/devicecompliancepolicy-list-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md) collection|Get the settingStateDeviceSummaries from the deviceSettingStateSummaries navigation property.|
+|[Add deviceSettingStateSummaries](../api/devicecompliancepolicy-post-devicesettingstatesummaries.md)|[settingStateDeviceSummary](../resources/settingstatedevicesummary.md)|Add deviceSettingStateSummaries by posting to the deviceSettingStateSummaries collection.|
 
 ## Properties
 |Property|Type|Description|

@@ -20,10 +20,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerTasks](../api/plannertask-list.md)|[plannerTask](../resources/plannertask.md) collection|List properties and relationships of the [plannerTask](../resources/plannertask.md) objects.|
 |[Get plannerTask](../api/plannertask-get.md)|[plannerTask](../resources/plannertask.md)|Read properties and relationships of the [plannerTask](../resources/plannertask.md) object.|
-|[Create plannerTask](../api/plannertask-create.md)|[plannerTask](../resources/plannertask.md)|Create a new [plannerTask](../resources/plannertask.md) object.|
-|[Delete plannerTask](../api/plannertask-delete.md)|None|Deletes a [plannerTask](../resources/plannertask.md).|
 |[Update plannerTask](../api/plannertask-update.md)|[plannerTask](../resources/plannertask.md)|Update the properties of a [plannerTask](../resources/plannertask.md) object.|
 |[Get plannerTaskDetails](../api/plannertaskdetails-get.md)|[plannerTaskDetails](../resources/plannertaskdetails.md)|Read properties and relationships of the [plannerTaskDetails](../resources/plannertaskdetails.md) object.|
 |[Get plannerAssignedToTaskBoardTaskFormat](../api/plannerassignedtotaskboardtaskformat-get.md)|[plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md)|Read properties and relationships of the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.|
@@ -64,7 +61,7 @@ Inherits from [plannerDelta](../resources/plannerdelta.md)
 |details|[plannerTaskDetails](../resources/plannertaskdetails.md)||
 |progressTaskBoardFormat|[plannerProgressTaskBoardTaskFormat](../resources/plannerprogresstaskboardtaskformat.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

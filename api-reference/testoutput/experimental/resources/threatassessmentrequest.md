@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List threatAssessmentRequests](../api/threatassessmentrequest-list.md)|[threatAssessmentRequest](../resources/threatassessmentrequest.md) collection|List properties and relationships of the [threatAssessmentRequest](../resources/threatassessmentrequest.md) objects.|
 |[Get threatAssessmentRequest](../api/threatassessmentrequest-get.md)|[threatAssessmentRequest](../resources/threatassessmentrequest.md)|Read properties and relationships of the [threatAssessmentRequest](../resources/threatassessmentrequest.md) object.|
 |[List results](../api/threatassessmentrequest-list-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md) collection|Get the threatAssessmentResults from the results navigation property.|
 |[Add results](../api/threatassessmentrequest-post-results.md)|[threatAssessmentResult](../resources/threatassessmentresult.md)|Add results by posting to the results collection.|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 |:---|:---|:---|
 |results|[threatAssessmentResult](../resources/threatassessmentresult.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

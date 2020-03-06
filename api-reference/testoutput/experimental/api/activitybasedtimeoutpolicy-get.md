@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [activityBasedTimeoutPolicy](../resources/activitybasedtimeoutpolicy.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 314
 {
   "value": {
     "@odata.type": "#microsoft.graph.activityBasedTimeoutPolicy",
-    "id": "e1930949-0949-e193-4909-93e1490993e1",
+    "id": "5826fc51-fc51-5826-51fc-265851fc2658",
     "description": "Description value",
     "displayName": "Display Name value",
     "definition": [

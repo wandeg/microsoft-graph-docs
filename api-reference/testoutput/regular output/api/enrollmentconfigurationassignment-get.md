@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 251
 {
   "value": {
     "@odata.type": "#microsoft.graph.enrollmentConfigurationAssignment",
-    "id": "13af2f65-2f65-13af-652f-af13652faf13",
+    "id": "24e58b25-8b25-24e5-258b-e524258be524",
     "target": {
       "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
     }

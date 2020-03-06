@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/journals/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [journal](../resources/journal.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [journal](../resources/journal.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-length: 242
   "@odata.type": "#microsoft.graph.journal",
   "code": "Code value",
   "displayName": "Display Name value",
-  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
+  "balancingAccountId": "078141a4-41a4-0781-a441-8107a4418107",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```
@@ -94,11 +94,11 @@ Content-Length: 355
 
 {
   "@odata.type": "#microsoft.graph.journal",
-  "id": "81513f0e-3f0e-8151-0e3f-51810e3f5181",
+  "id": "7222262c-262c-7222-2c26-22722c262272",
   "code": "Code value",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "balancingAccountId": "4d5af2d7-f2d7-4d5a-d7f2-5a4dd7f25a4d",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "balancingAccountId": "078141a4-41a4-0781-a441-8107a4418107",
   "balancingAccountNumber": "Balancing Account Number value"
 }
 ```

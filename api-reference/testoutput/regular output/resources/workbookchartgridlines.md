@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartGridlineses](../api/workbookchartgridlines-list.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md) collection|List properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) objects.|
 |[Get workbookChartGridlines](../api/workbookchartgridlines-get.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Read properties and relationships of the [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
-|[Create workbookChartGridlines](../api/workbookchartgridlines-create.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Create a new [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
-|[Delete workbookChartGridlines](../api/workbookchartgridlines-delete.md)|None|Deletes a [workbookChartGridlines](../resources/workbookchartgridlines.md).|
 |[Update workbookChartGridlines](../api/workbookchartgridlines-update.md)|[workbookChartGridlines](../resources/workbookchartgridlines.md)|Update the properties of a [workbookChartGridlines](../resources/workbookchartgridlines.md) object.|
 |[Get workbookChartGridlinesFormat](../api/workbookchartgridlinesformat-get.md)|[workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md)|Read properties and relationships of the [workbookChartGridlinesFormat](../resources/workbookchartgridlinesformat.md) object.|
 

@@ -20,10 +20,7 @@ Inherits from [windowsInformationProtection](../resources/windowsinformationprot
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mdmWindowsInformationProtectionPolicies](../api/mdmwindowsinformationprotectionpolicy-list.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) collection|List properties and relationships of the [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) objects.|
 |[Get mdmWindowsInformationProtectionPolicy](../api/mdmwindowsinformationprotectionpolicy-get.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md)|Read properties and relationships of the [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) object.|
-|[Create mdmWindowsInformationProtectionPolicy](../api/mdmwindowsinformationprotectionpolicy-create.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md)|Create a new [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) object.|
-|[Delete mdmWindowsInformationProtectionPolicy](../api/mdmwindowsinformationprotectionpolicy-delete.md)|None|Deletes a [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md).|
 |[Update mdmWindowsInformationProtectionPolicy](../api/mdmwindowsinformationprotectionpolicy-update.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md)|Update the properties of a [mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) object.|
 |[hasPayloadLinks](../api/mdmwindowsinformationprotectionpolicy-haspayloadlinks.md)|[hasPayloadLinkResultItem](../resources/haspayloadlinkresultitem.md) collection||
 |[assign](../api/mdmwindowsinformationprotectionpolicy-assign.md)|None||
@@ -33,8 +30,6 @@ Inherits from [windowsInformationProtection](../resources/windowsinformationprot
 |[Add exemptAppLockerFiles](../api/mdmwindowsinformationprotectionpolicy-post-exemptapplockerfiles.md)|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md)|Add exemptAppLockerFiles by posting to the exemptAppLockerFiles collection.|
 |[List assignments](../api/mdmwindowsinformationprotectionpolicy-list-assignments.md)|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md) collection|Get the targetedManagedAppPolicyAssignments from the assignments navigation property.|
 |[Add assignments](../api/mdmwindowsinformationprotectionpolicy-post-assignments.md)|[targetedManagedAppPolicyAssignment](../resources/targetedmanagedapppolicyassignment.md)|Add assignments by posting to the assignments collection.|
-|[List mdmWindowsInformationProtectionPolicies](../api/intune-apps-deviceappmanagement-list-mdmwindowsinformationprotectionpolicies.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md) collection|Get the mdmWindowsInformationProtectionPolicies from the mdmWindowsInformationProtectionPolicies navigation property.|
-|[Add mdmWindowsInformationProtectionPolicies](../api/intune-apps-deviceappmanagement-post-mdmwindowsinformationprotectionpolicies.md)|[mdmWindowsInformationProtectionPolicy](../resources/mdmwindowsinformationprotectionpolicy.md)|Add mdmWindowsInformationProtectionPolicies by posting to the mdmWindowsInformationProtectionPolicies collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -76,7 +71,7 @@ Inherits from [windowsInformationProtection](../resources/windowsinformationprot
 |exemptAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input exempt apps through xml files Inherited from [windowsInformationProtection](../resources/windowsinformationprotection.md)|
 |protectedAppLockerFiles|[windowsInformationProtectionAppLockerFile](../resources/windowsinformationprotectionapplockerfile.md) collection|Another way to input protected apps through xml files Inherited from [windowsInformationProtection](../resources/windowsinformationprotection.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

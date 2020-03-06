@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List eBookInstallSummaries](../api/ebookinstallsummary-list.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md) collection|List properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) objects.|
 |[Get eBookInstallSummary](../api/ebookinstallsummary-get.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Read properties and relationships of the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
-|[Create eBookInstallSummary](../api/ebookinstallsummary-create.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Create a new [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
-|[Delete eBookInstallSummary](../api/ebookinstallsummary-delete.md)|None|Deletes a [eBookInstallSummary](../resources/ebookinstallsummary.md).|
 |[Update eBookInstallSummary](../api/ebookinstallsummary-update.md)|[eBookInstallSummary](../resources/ebookinstallsummary.md)|Update the properties of a [eBookInstallSummary](../resources/ebookinstallsummary.md) object.|
 
 ## Properties
@@ -40,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

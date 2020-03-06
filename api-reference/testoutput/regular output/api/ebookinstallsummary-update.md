@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/installSummary
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [eBookInstallSummary](../resources/ebookinstallsummary.md) object.
@@ -95,7 +95,7 @@ Content-Length: 285
 
 {
   "@odata.type": "#microsoft.graph.eBookInstallSummary",
-  "id": "c168454f-454f-c168-4f45-68c14f4568c1",
+  "id": "5fc005e5-05e5-5fc0-e505-c05fe505c05f",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,
   "notInstalledDeviceCount": 7,

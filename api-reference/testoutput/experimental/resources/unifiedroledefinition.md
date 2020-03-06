@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List unifiedRoleDefinitions](../api/unifiedroledefinition-list.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md) collection|List properties and relationships of the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) objects.|
 |[Get unifiedRoleDefinition](../api/unifiedroledefinition-get.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Read properties and relationships of the [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
-|[Create unifiedRoleDefinition](../api/unifiedroledefinition-create.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Create a new [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
-|[Delete unifiedRoleDefinition](../api/unifiedroledefinition-delete.md)|None|Deletes a [unifiedRoleDefinition](../resources/unifiedroledefinition.md).|
 |[Update unifiedRoleDefinition](../api/unifiedroledefinition-update.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Update the properties of a [unifiedRoleDefinition](../resources/unifiedroledefinition.md) object.|
+|[List roleDefinitions](../api/rbacapplication-list-roledefinitions.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md) collection|Get the unifiedRoleDefinitions from the roleDefinitions navigation property.|
+|[Add roleDefinitions](../api/rbacapplication-post-roledefinitions.md)|[unifiedRoleDefinition](../resources/unifiedroledefinition.md)|Add roleDefinitions by posting to the roleDefinitions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

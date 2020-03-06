@@ -41,8 +41,8 @@ POST /me/messages/{messageId}/microsoft.graph.eventMessage/event/calendar/getSch
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.

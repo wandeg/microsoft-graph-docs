@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceComplianceSettingStates](../api/devicecompliancesettingstate-list.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) collection|List properties and relationships of the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) objects.|
 |[Get deviceComplianceSettingState](../api/devicecompliancesettingstate-get.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md)|Read properties and relationships of the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.|
-|[Create deviceComplianceSettingState](../api/devicecompliancesettingstate-create.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md)|Create a new [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.|
-|[Delete deviceComplianceSettingState](../api/devicecompliancesettingstate-delete.md)|None|Deletes a [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md).|
 |[Update deviceComplianceSettingState](../api/devicecompliancesettingstate-update.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md)|Update the properties of a [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.|
+|[List deviceComplianceSettingStates](../api/devicecompliancepolicysettingstatesummary-list-devicecompliancesettingstates.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) collection|Get the deviceComplianceSettingStates from the deviceComplianceSettingStates navigation property.|
+|[Add deviceComplianceSettingStates](../api/devicecompliancepolicysettingstatesummary-post-devicecompliancesettingstates.md)|[deviceComplianceSettingState](../resources/devicecompliancesettingstate.md)|Add deviceComplianceSettingStates by posting to the deviceComplianceSettingStates collection.|
 
 ## Properties
 |Property|Type|Description|

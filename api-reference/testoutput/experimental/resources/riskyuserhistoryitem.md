@@ -20,11 +20,10 @@ Inherits from [riskyUser](../resources/riskyuser.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List riskyUserHistoryItems](../api/riskyuserhistoryitem-list.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection|List properties and relationships of the [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) objects.|
 |[Get riskyUserHistoryItem](../api/riskyuserhistoryitem-get.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Read properties and relationships of the [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.|
-|[Create riskyUserHistoryItem](../api/riskyuserhistoryitem-create.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Create a new [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.|
-|[Delete riskyUserHistoryItem](../api/riskyuserhistoryitem-delete.md)|None|Deletes a [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md).|
 |[Update riskyUserHistoryItem](../api/riskyuserhistoryitem-update.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Update the properties of a [riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) object.|
+|[List history](../api/riskyuserhistoryitem-list-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection|Get the riskyUserHistoryItems from the history navigation property.|
+|[Add history](../api/riskyuserhistoryitem-post-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Add history by posting to the history collection.|
 |[List history](../api/riskyuserhistoryitem-list-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection|Get the riskyUserHistoryItems from the history navigation property.|
 |[Add history](../api/riskyuserhistoryitem-post-history.md)|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md)|Add history by posting to the history collection.|
 
@@ -50,7 +49,7 @@ Inherits from [riskyUser](../resources/riskyuser.md)
 |:---|:---|:---|
 |history|[riskyUserHistoryItem](../resources/riskyuserhistoryitem.md) collection| Inherited from [riskyUser](../resources/riskyuser.md)|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

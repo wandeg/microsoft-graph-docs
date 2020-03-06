@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,7 +35,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageResourceRequests/{a
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [accessPackageResourceRequest](../resources/accesspackageresourcerequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -82,7 +82,7 @@ Content-length: 397
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "justification": "Justification value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00"
 }
 ```
 
@@ -100,7 +100,7 @@ Content-Length: 446
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRequest",
-  "id": "9d1eccee-ccee-9d1e-eecc-1e9deecc1e9d",
+  "id": "be34a325-a325-be34-25a3-34be25a334be",
   "catalogId": "Catalog Id value",
   "executeImmediately": true,
   "isValidationOnly": true,
@@ -108,7 +108,7 @@ Content-Length: 446
   "requestState": "Request State value",
   "requestStatus": "Request Status value",
   "justification": "Justification value",
-  "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00"
+  "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00"
 }
 ```
 

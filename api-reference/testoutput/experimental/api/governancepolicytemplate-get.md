@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [governancePolicyTemplate](../resources/governancepolicytemplate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Content-Length: 1805
 {
   "value": {
     "@odata.type": "#microsoft.graph.governancePolicyTemplate",
-    "id": "0a9b58f8-58f8-0a9b-f858-9b0af8589b0a",
+    "id": "f4ad54be-54be-f4ad-be54-adf4be54adf4",
     "displayName": "Display Name value",
     "policy": {
       "@odata.type": "microsoft.graph.governancePolicy",

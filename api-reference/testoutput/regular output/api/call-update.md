@@ -34,7 +34,7 @@ PATCH /communications/calls/{callId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [call](../resources/call.md) object.
@@ -158,7 +158,7 @@ Content-Length: 1694
 
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "3eb2cf06-cf06-3eb2-06cf-b23e06cfb23e",
+  "id": "6b5e95c7-95c7-6b5e-c795-5e6bc7955e6b",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

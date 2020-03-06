@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [directoryAudit](../resources/directoryaudit.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,13 +74,13 @@ Content-Length: 1646
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryAudit",
-    "id": "c8d329d5-29d5-c8d3-d529-d3c8d529d3c8",
+    "id": "321a81f5-81f5-321a-f581-1a32f5811a32",
     "category": "Category value",
     "correlationId": "Correlation Id value",
     "result": "String",
     "resultReason": "Result Reason value",
     "activityDisplayName": "Activity Display Name value",
-    "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
+    "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
     "loggedByService": "Logged By Service value",
     "operationType": "Operation Type value",
     "initiatedBy": {

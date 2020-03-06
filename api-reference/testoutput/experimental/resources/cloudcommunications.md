@@ -42,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 |calls|[call](../resources/call.md) collection||
 |onlineMeetings|[onlineMeeting](../resources/onlinemeeting.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

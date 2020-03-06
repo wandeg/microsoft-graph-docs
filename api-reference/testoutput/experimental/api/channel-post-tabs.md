@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/joinedGroups/{groupId}/team/channels/{channelId}/tabs/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsTab](../resources/teamstab.md) object.
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [teamsTab](../resources/teamstab.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -105,7 +105,7 @@ Content-Length: 614
 
 {
   "@odata.type": "#microsoft.graph.teamsTab",
-  "id": "bcab996c-996c-bcab-6c99-abbc6c99abbc",
+  "id": "bda7beed-beed-bda7-edbe-a7bdedbea7bd",
   "name": "Name value",
   "displayName": "Display Name value",
   "teamsAppId": "Teams App Id value",

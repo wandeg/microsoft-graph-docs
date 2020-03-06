@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceConfigurationStates](../api/deviceconfigurationstate-list.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|List properties and relationships of the [deviceConfigurationState](../resources/deviceconfigurationstate.md) objects.|
 |[Get deviceConfigurationState](../api/deviceconfigurationstate-get.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Read properties and relationships of the [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.|
-|[Create deviceConfigurationState](../api/deviceconfigurationstate-create.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Create a new [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.|
-|[Delete deviceConfigurationState](../api/deviceconfigurationstate-delete.md)|None|Deletes a [deviceConfigurationState](../resources/deviceconfigurationstate.md).|
 |[Update deviceConfigurationState](../api/deviceconfigurationstate-update.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Update the properties of a [deviceConfigurationState](../resources/deviceconfigurationstate.md) object.|
+|[List deviceConfigurationStates](../api/manageddevice-list-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md) collection|Get the deviceConfigurationStates from the deviceConfigurationStates navigation property.|
+|[Add deviceConfigurationStates](../api/manageddevice-post-deviceconfigurationstates.md)|[deviceConfigurationState](../resources/deviceconfigurationstate.md)|Add deviceConfigurationStates by posting to the deviceConfigurationStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /Security/hostSecurityProfiles/{hostSecurityProfileId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [hostSecurityProfile](../resources/hostsecurityprofile.md) object.
@@ -68,7 +68,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [hostSecurityProfile](../resources/hostsecurityprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -80,18 +80,18 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/Security/hostSecurityProfiles/{hostSecurityProfileId}
 Content-type: application/json
-Content-length: 1559
+Content-length: 1560
 
 {
   "@odata.type": "#microsoft.graph.hostSecurityProfile",
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
   "fqdn": "Fqdn value",
   "isAzureAdJoined": true,
   "isAzureAdRegistered": true,
   "isHybridAzureDomainJoined": true,
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "logonUsers": [
     {
       "@odata.type": "microsoft.graph.logonUser",
@@ -145,19 +145,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1608
+Content-Length: 1609
 
 {
   "@odata.type": "#microsoft.graph.hostSecurityProfile",
-  "id": "ca4bc022-c022-ca4b-22c0-4bca22c04bca",
+  "id": "bfb71943-1943-bfb7-4319-b7bf4319b7bf",
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
+  "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
   "fqdn": "Fqdn value",
   "isAzureAdJoined": true,
   "isAzureAdRegistered": true,
   "isHybridAzureDomainJoined": true,
-  "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+  "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
   "logonUsers": [
     {
       "@odata.type": "microsoft.graph.logonUser",

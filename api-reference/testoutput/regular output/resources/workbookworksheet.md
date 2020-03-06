@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookWorksheets](../api/workbookworksheet-list.md)|[workbookWorksheet](../resources/workbookworksheet.md) collection|List properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) objects.|
 |[Get workbookWorksheet](../api/workbookworksheet-get.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Read properties and relationships of the [workbookWorksheet](../resources/workbookworksheet.md) object.|
-|[Create workbookWorksheet](../api/workbookworksheet-create.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Create a new [workbookWorksheet](../resources/workbookworksheet.md) object.|
-|[Delete workbookWorksheet](../api/workbookworksheet-delete.md)|None|Deletes a [workbookWorksheet](../resources/workbookworksheet.md).|
 |[Update workbookWorksheet](../api/workbookworksheet-update.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Update the properties of a [workbookWorksheet](../resources/workbookworksheet.md) object.|
 |[cell](../api/workbookworksheet-cell.md)|[workbookRange](../resources/workbookrange.md)||
 |[range](../api/workbookworksheet-range.md)|[workbookRange](../resources/workbookrange.md)||
@@ -40,6 +37,8 @@ Inherits from [entity](../resources/entity.md)
 |[Get workbookWorksheetProtection](../api/workbookworksheetprotection-get.md)|[workbookWorksheetProtection](../resources/workbookworksheetprotection.md)|Read properties and relationships of the [workbookWorksheetProtection](../resources/workbookworksheetprotection.md) object.|
 |[List tables](../api/workbookworksheet-list-tables.md)|[workbookTable](../resources/workbooktable.md) collection|Get the workbookTables from the tables navigation property.|
 |[Add tables](../api/workbookworksheet-post-tables.md)|[workbookTable](../resources/workbooktable.md)|Add tables by posting to the tables collection.|
+|[List worksheets](../api/workbook-list-worksheets.md)|[workbookWorksheet](../resources/workbookworksheet.md) collection|Get the workbookWorksheets from the worksheets navigation property.|
+|[Add worksheets](../api/workbook-post-worksheets.md)|[workbookWorksheet](../resources/workbookworksheet.md)|Add worksheets by posting to the worksheets collection.|
 
 ## Properties
 |Property|Type|Description|

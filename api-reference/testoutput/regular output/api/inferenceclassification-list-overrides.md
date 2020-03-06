@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /me/inferenceClassification/overrides
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,7 +75,7 @@ Content-Length: 358
   "value": [
     {
       "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-      "id": "55deab83-ab83-55de-83ab-de5583abde55",
+      "id": "b7ef9f0d-9f0d-b7ef-0d9f-efb70d9fefb7",
       "classifyAs": "String",
       "senderEmailAddress": {
         "@odata.type": "microsoft.graph.emailAddress",

@@ -32,10 +32,13 @@ GET /me/activities
 GET /users/{usersId}/activities
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -67,13 +70,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1433
+Content-Length: 1436
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.userActivity",
-      "id": "f0541f20-1f20-f054-201f-54f0201f54f0",
+      "id": "ed2961fa-61fa-ed29-fa61-29edfa6129ed",
       "visualElements": {
         "@odata.type": "microsoft.graph.visualInfo",
         "attribution": {
@@ -95,10 +98,10 @@ Content-Length: 1433
       "appActivityId": "App Activity Id value",
       "appDisplayName": "App Display Name value",
       "contentUrl": "https://example.com/contentUrl/",
-      "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-      "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+      "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+      "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
       "fallbackUrl": "https://example.com/fallbackUrl/",
-      "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
       "userTimezone": "User Timezone value",
       "contentInfo": {
         "@odata.type": "microsoft.graph.Json"

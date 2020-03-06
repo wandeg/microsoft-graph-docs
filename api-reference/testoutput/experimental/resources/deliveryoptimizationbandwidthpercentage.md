@@ -28,7 +28,7 @@ The default value 0 (zero) means that Delivery Optimization dynamically adjusts 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

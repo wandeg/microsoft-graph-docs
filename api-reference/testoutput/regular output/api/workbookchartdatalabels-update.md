@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartDataLabels](../resources/workbookchartdatalabels.md) object.
@@ -99,7 +99,7 @@ Content-Length: 340
 
 {
   "@odata.type": "#microsoft.graph.workbookChartDataLabels",
-  "id": "b12608f6-08f6-b126-f608-26b1f60826b1",
+  "id": "ca7e2323-2323-ca7e-2323-7eca23237eca",
   "position": "Position value",
   "separator": "Separator value",
   "showBubbleSize": true,

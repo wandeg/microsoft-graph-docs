@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /Security/userSecurityProfiles/{userSecurityProfileId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userSecurityProfile](../resources/usersecurityprofile.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [userSecurityProfile](../resources/usersecurityprofile.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,7 +72,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/Security/userSecurityProfiles/{userSecurityProfileId}
 Content-type: application/json
-Content-length: 923
+Content-length: 924
 
 {
   "@odata.type": "#microsoft.graph.userSecurityProfile",
@@ -80,7 +80,7 @@ Content-length: 923
     {
       "@odata.type": "microsoft.graph.userAccount",
       "displayName": "Display Name value",
-      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+      "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
       "riskScore": "Risk Score value",
       "service": "Service value",
       "signinName": "Signin Name value",
@@ -115,16 +115,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1094
+Content-Length: 1096
 
 {
   "@odata.type": "#microsoft.graph.userSecurityProfile",
-  "id": "c8b65270-5270-c8b6-7052-b6c87052b6c8",
+  "id": "d9625f31-5f31-d962-315f-62d9315f62d9",
   "accounts": [
     {
       "@odata.type": "microsoft.graph.userAccount",
       "displayName": "Display Name value",
-      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+      "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
       "riskScore": "Risk Score value",
       "service": "Service value",
       "signinName": "Signin Name value",
@@ -133,9 +133,9 @@ Content-Length: 1094
   ],
   "azureSubscriptionId": "Azure Subscription Id value",
   "azureTenantId": "Azure Tenant Id value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "displayName": "Display Name value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
   "riskScore": "Risk Score value",
   "tags": [
     "Tags value"

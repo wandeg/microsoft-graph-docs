@@ -20,11 +20,9 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookApplications](../api/workbookapplication-list.md)|[workbookApplication](../resources/workbookapplication.md) collection|List properties and relationships of the [workbookApplication](../resources/workbookapplication.md) objects.|
 |[Get workbookApplication](../api/workbookapplication-get.md)|[workbookApplication](../resources/workbookapplication.md)|Read properties and relationships of the [workbookApplication](../resources/workbookapplication.md) object.|
-|[Create workbookApplication](../api/workbookapplication-create.md)|[workbookApplication](../resources/workbookapplication.md)|Create a new [workbookApplication](../resources/workbookapplication.md) object.|
-|[Delete workbookApplication](../api/workbookapplication-delete.md)|None|Deletes a [workbookApplication](../resources/workbookapplication.md).|
 |[Update workbookApplication](../api/workbookapplication-update.md)|[workbookApplication](../resources/workbookapplication.md)|Update the properties of a [workbookApplication](../resources/workbookapplication.md) object.|
+|[calculate](../api/workbookapplication-calculate.md)|None||
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/groupPolicyConfigurations/{groupPolicyConfigurationId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [groupPolicyConfiguration](../resources/grouppolicyconfiguration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -89,18 +89,18 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 378
+Content-Length: 379
 
 {
   "@odata.type": "#microsoft.graph.groupPolicyConfiguration",
-  "id": "f745e7c6-e7c6-f745-c6e7-45f7c6e745f7",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "id": "81ad559a-559a-81ad-9a55-ad819a55ad81",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "displayName": "Display Name value",
   "description": "Description value",
   "roleScopeTagIds": [
     "Role Scope Tag Ids value"
   ],
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
 }
 ```
 

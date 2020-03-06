@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /users/{usersId}/managedAppRegistrations/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedAppRegistration](../resources/managedappregistration.md) object.
@@ -68,7 +68,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [managedAppRegistration](../resources/managedappregistration.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,7 +84,7 @@ Content-length: 779
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -117,13 +117,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 886
+Content-Length: 887
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "723369fd-69fd-7233-fd69-3372fd693372",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+  "id": "0f96516a-516a-0f96-6a51-960f6a51960f",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+  "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

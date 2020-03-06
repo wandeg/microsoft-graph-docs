@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,8 +37,8 @@ POST /privilegedAccess/{privilegedAccessId}/resources/{governanceResourceId}/rol
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -57,7 +57,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [governanceRoleAssignmentRequest](../resources/governanceroleassignmentrequest.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,14 +98,14 @@ Content-Length: 719
 {
   "value": {
     "@odata.type": "#microsoft.graph.governanceRoleAssignmentRequest",
-    "id": "296851b4-51b4-2968-b451-6829b4516829",
+    "id": "ed48955f-955f-ed48-5f95-48ed5f9548ed",
     "resourceId": "Resource Id value",
     "roleDefinitionId": "Role Definition Id value",
     "subjectId": "Subject Id value",
     "linkedEligibleRoleAssignmentId": "Linked Eligible Role Assignment Id value",
     "type": "Type value",
     "assignmentState": "Assignment State value",
-    "requestedDateTime": "2017-01-01T00:02:43.4981192+03:00",
+    "requestedDateTime": "2016-12-31T23:57:18.0853595+03:00",
     "reason": "Reason value",
     "status": {
       "@odata.type": "microsoft.graph.governanceRoleAssignmentRequestStatus"

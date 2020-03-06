@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List privilegedRoleSettingses](../api/privilegedrolesettings-list.md)|[privilegedRoleSettings](../resources/privilegedrolesettings.md) collection|List properties and relationships of the [privilegedRoleSettings](../resources/privilegedrolesettings.md) objects.|
 |[Get privilegedRoleSettings](../api/privilegedrolesettings-get.md)|[privilegedRoleSettings](../resources/privilegedrolesettings.md)|Read properties and relationships of the [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.|
-|[Create privilegedRoleSettings](../api/privilegedrolesettings-create.md)|[privilegedRoleSettings](../resources/privilegedrolesettings.md)|Create a new [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.|
-|[Delete privilegedRoleSettings](../api/privilegedrolesettings-delete.md)|None|Deletes a [privilegedRoleSettings](../resources/privilegedrolesettings.md).|
 |[Update privilegedRoleSettings](../api/privilegedrolesettings-update.md)|[privilegedRoleSettings](../resources/privilegedrolesettings.md)|Update the properties of a [privilegedRoleSettings](../resources/privilegedrolesettings.md) object.|
 
 ## Properties
@@ -44,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

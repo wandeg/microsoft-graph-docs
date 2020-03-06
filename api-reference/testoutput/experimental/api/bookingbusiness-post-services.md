@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /bookingBusinesses/{bookingBusinessesId}/services/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [bookingService](../resources/bookingservice.md) object.
@@ -66,7 +66,7 @@ The value of this property is only available when reading an individual booking 
 ## Response
 If successful, this method returns a `201 Created` response code and a [bookingService](../resources/bookingservice.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,12 +78,12 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/bookingBusinesses/{bookingBusinessesId}/services
 Content-type: application/json
-Content-length: 1788
+Content-length: 1794
 
 {
   "@odata.type": "#microsoft.graph.bookingService",
   "displayName": "Display Name value",
-  "defaultDuration": "PT2M30.8894523S",
+  "defaultDuration": "PT3M29.2405346S",
   "defaultLocation": {
     "@odata.type": "microsoft.graph.location",
     "locationEmailAddress": "Location Email Address value",
@@ -115,7 +115,7 @@ Content-length: 1788
   "defaultReminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "-PT2M15.3589096S",
+      "offset": "-PT48.1154137S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -123,13 +123,13 @@ Content-length: 1788
   "description": "Description value",
   "isHiddenFromCustomers": true,
   "notes": "Notes value",
-  "preBuffer": "-PT27.6468082S",
-  "postBuffer": "-PT49.745402S",
+  "preBuffer": "-PT2M36.5986877S",
+  "postBuffer": "PT1M50.7470612S",
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT24.7084489S",
-    "minimumLeadTime": "PT46.1171008S",
-    "maximumAdvance": "-PT29.5884928S",
+    "timeSlotInterval": "-PT2M6.5040939S",
+    "minimumLeadTime": "PT1M46.8466139S",
+    "maximumAdvance": "-PT34.7669238S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },
@@ -150,13 +150,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1837
+Content-Length: 1843
 
 {
   "@odata.type": "#microsoft.graph.bookingService",
-  "id": "dcfd9872-9872-dcfd-7298-fddc7298fddc",
+  "id": "73924ea1-4ea1-7392-a14e-9273a14e9273",
   "displayName": "Display Name value",
-  "defaultDuration": "PT2M30.8894523S",
+  "defaultDuration": "PT3M29.2405346S",
   "defaultLocation": {
     "@odata.type": "microsoft.graph.location",
     "locationEmailAddress": "Location Email Address value",
@@ -188,7 +188,7 @@ Content-Length: 1837
   "defaultReminders": [
     {
       "@odata.type": "microsoft.graph.bookingReminder",
-      "offset": "-PT2M15.3589096S",
+      "offset": "-PT48.1154137S",
       "recipients": "String",
       "message": "Message value"
     }
@@ -196,13 +196,13 @@ Content-Length: 1837
   "description": "Description value",
   "isHiddenFromCustomers": true,
   "notes": "Notes value",
-  "preBuffer": "-PT27.6468082S",
-  "postBuffer": "-PT49.745402S",
+  "preBuffer": "-PT2M36.5986877S",
+  "postBuffer": "PT1M50.7470612S",
   "schedulingPolicy": {
     "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
-    "timeSlotInterval": "PT24.7084489S",
-    "minimumLeadTime": "PT46.1171008S",
-    "maximumAdvance": "-PT29.5884928S",
+    "timeSlotInterval": "-PT2M6.5040939S",
+    "minimumLeadTime": "PT1M46.8466139S",
+    "maximumAdvance": "-PT34.7669238S",
     "sendConfirmationsToOwner": true,
     "allowStaffSelection": true
   },

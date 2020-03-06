@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /financials/companies/{companyId}/salesCreditMemos/{salesCreditMemoId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [salesCreditMemo](../resources/salescreditmemo.md) object.
@@ -78,7 +78,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [salesCreditMemo](../resources/salescreditmemo.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -98,11 +98,11 @@ Content-length: 1462
   "externalDocumentNumber": "External Document Number value",
   "creditMemoDate": "Date",
   "dueDate": "Date",
-  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+  "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
+  "billToCustomerId": "1bdd7746-7746-1bdd-4677-dd1b4677dd1b",
   "billToCustomerNumber": "Bill To Customer Number value",
   "sellingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -115,9 +115,9 @@ Content-length: 1462
   "billingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
   "salesperson": "Salesperson value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -126,7 +126,7 @@ Content-length: 1462
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "invoiceId": "26c18131-8131-26c1-3181-c1263181c126",
+  "invoiceId": "734e8029-8029-734e-2980-4e7329804e73",
   "invoiceNumber": "Invoice Number value",
   "phoneNumber": "Phone Number value",
   "email": "Email value"
@@ -147,16 +147,16 @@ Content-Length: 1575
 
 {
   "@odata.type": "#microsoft.graph.salesCreditMemo",
-  "id": "699cbd1d-bd1d-699c-1dbd-9c691dbd9c69",
+  "id": "47ec5a7b-5a7b-47ec-7b5a-ec477b5aec47",
   "number": "Number value",
   "externalDocumentNumber": "External Document Number value",
   "creditMemoDate": "Date",
   "dueDate": "Date",
-  "customerId": "a61f8986-8986-a61f-8689-1fa686891fa6",
+  "customerId": "7b150b0b-0b0b-7b15-0b0b-157b0b0b157b",
   "customerNumber": "Customer Number value",
   "customerName": "Customer Name value",
   "billToName": "Bill To Name value",
-  "billToCustomerId": "7a1538dc-38dc-7a15-dc38-157adc38157a",
+  "billToCustomerId": "1bdd7746-7746-1bdd-4677-dd1b4677dd1b",
   "billToCustomerNumber": "Bill To Customer Number value",
   "sellingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType",
@@ -169,9 +169,9 @@ Content-Length: 1575
   "billingPostalAddress": {
     "@odata.type": "microsoft.graph.postalAddressType"
   },
-  "currencyId": "5323df69-df69-5323-69df-235369df2353",
+  "currencyId": "3fda09ad-09ad-3fda-ad09-da3fad09da3f",
   "currencyCode": "Currency Code value",
-  "paymentTermsId": "292944c5-44c5-2929-c544-2929c5442929",
+  "paymentTermsId": "699a59fb-59fb-699a-fb59-9a69fb599a69",
   "salesperson": "Salesperson value",
   "pricesIncludeTax": true,
   "discountAmount": "4.2",
@@ -180,8 +180,8 @@ Content-Length: 1575
   "totalTaxAmount": "4.2",
   "totalAmountIncludingTax": "4.2",
   "status": "Status value",
-  "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
-  "invoiceId": "26c18131-8131-26c1-3181-c1263181c126",
+  "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
+  "invoiceId": "734e8029-8029-734e-2980-4e7329804e73",
   "invoiceNumber": "Invoice Number value",
   "phoneNumber": "Phone Number value",
   "email": "Email value"

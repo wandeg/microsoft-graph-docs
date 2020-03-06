@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementReportses](../api/devicemanagementreports-list.md)|[deviceManagementReports](../resources/devicemanagementreports.md) collection|List properties and relationships of the [deviceManagementReports](../resources/devicemanagementreports.md) objects.|
 |[Get deviceManagementReports](../api/devicemanagementreports-get.md)|[deviceManagementReports](../resources/devicemanagementreports.md)|Read properties and relationships of the [deviceManagementReports](../resources/devicemanagementreports.md) object.|
-|[Create deviceManagementReports](../api/devicemanagementreports-create.md)|[deviceManagementReports](../resources/devicemanagementreports.md)|Create a new [deviceManagementReports](../resources/devicemanagementreports.md) object.|
-|[Delete deviceManagementReports](../api/devicemanagementreports-delete.md)|None|Deletes a [deviceManagementReports](../resources/devicemanagementreports.md).|
 |[Update deviceManagementReports](../api/devicemanagementreports-update.md)|[deviceManagementReports](../resources/devicemanagementreports.md)|Update the properties of a [deviceManagementReports](../resources/devicemanagementreports.md) object.|
 |[getDeviceNonComplianceReport](../api/devicemanagementreports-getdevicenoncompliancereport.md)|Stream||
 |[getPolicyNonComplianceReport](../api/devicemanagementreports-getpolicynoncompliancereport.md)|Stream||
@@ -49,7 +46,7 @@ Inherits from [entity](../resources/entity.md)
 |exportJobs|[deviceManagementExportJob](../resources/devicemanagementexportjob.md) collection|Entity representing a job to export a report|
 |reportSchedules|[deviceManagementReportSchedule](../resources/devicemanagementreportschedule.md) collection|Entity representing a schedule for which reports are delivered|
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

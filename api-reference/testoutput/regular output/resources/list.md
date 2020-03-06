@@ -20,10 +20,7 @@ Inherits from [baseItem](../resources/baseitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List lists](../api/list-list.md)|[list](../resources/list.md) collection|List properties and relationships of the [list](../resources/list.md) objects.|
 |[Get list](../api/list-get.md)|[list](../resources/list.md)|Read properties and relationships of the [list](../resources/list.md) object.|
-|[Create list](../api/list-create.md)|[list](../resources/list.md)|Create a new [list](../resources/list.md) object.|
-|[Delete list](../api/list-delete.md)|None|Deletes a [list](../resources/list.md).|
 |[Update list](../api/list-update.md)|[list](../resources/list.md)|Update the properties of a [list](../resources/list.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
 |[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
@@ -34,6 +31,8 @@ Inherits from [baseItem](../resources/baseitem.md)
 |[Get drive](../api/drive-get.md)|[drive](../resources/drive.md)|Read properties and relationships of the [drive](../resources/drive.md) object.|
 |[List items](../api/list-list-items.md)|[listItem](../resources/listitem.md) collection|Get the listItems from the items navigation property.|
 |[Add items](../api/list-post-items.md)|[listItem](../resources/listitem.md)|Add items by posting to the items collection.|
+|[List lists](../api/site-list-lists.md)|[list](../resources/list.md) collection|Get the lists from the lists navigation property.|
+|[Add lists](../api/site-post-lists.md)|[list](../resources/list.md)|Add lists by posting to the lists collection.|
 
 ## Properties
 |Property|Type|Description|

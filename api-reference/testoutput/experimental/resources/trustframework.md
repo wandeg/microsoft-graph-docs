@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List trustFrameworks](../api/trustframework-list.md)|[trustFramework](../resources/trustframework.md) collection|List properties and relationships of the [trustFramework](../resources/trustframework.md) objects.|
 |[Get trustFramework](../api/trustframework-get.md)|[trustFramework](../resources/trustframework.md)|Read properties and relationships of the [trustFramework](../resources/trustframework.md) object.|
-|[Create trustFramework](../api/trustframework-create.md)|[trustFramework](../resources/trustframework.md)|Create a new [trustFramework](../resources/trustframework.md) object.|
-|[Delete trustFramework](../api/trustframework-delete.md)|None|Deletes a [trustFramework](../resources/trustframework.md).|
 |[Update trustFramework](../api/trustframework-update.md)|[trustFramework](../resources/trustframework.md)|Update the properties of a [trustFramework](../resources/trustframework.md) object.|
 |[List policies](../api/trustframework-list-policies.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md) collection|Get the trustFrameworkPolicies from the policies navigation property.|
 |[Add policies](../api/trustframework-post-policies.md)|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md)|Add policies by posting to the policies collection.|
@@ -41,7 +38,7 @@ Inherits from [entity](../resources/entity.md)
 |keySets|[trustFrameworkKeySet](../resources/trustframeworkkeyset.md) collection||
 |policies|[trustFrameworkPolicy](../resources/trustframeworkpolicy.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

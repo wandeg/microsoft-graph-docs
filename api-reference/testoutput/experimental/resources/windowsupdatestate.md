@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsUpdateStates](../api/windowsupdatestate-list.md)|[windowsUpdateState](../resources/windowsupdatestate.md) collection|List properties and relationships of the [windowsUpdateState](../resources/windowsupdatestate.md) objects.|
 |[Get windowsUpdateState](../api/windowsupdatestate-get.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Read properties and relationships of the [windowsUpdateState](../resources/windowsupdatestate.md) object.|
-|[Create windowsUpdateState](../api/windowsupdatestate-create.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Create a new [windowsUpdateState](../resources/windowsupdatestate.md) object.|
-|[Delete windowsUpdateState](../api/windowsupdatestate-delete.md)|None|Deletes a [windowsUpdateState](../resources/windowsupdatestate.md).|
 |[Update windowsUpdateState](../api/windowsupdatestate-update.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Update the properties of a [windowsUpdateState](../resources/windowsupdatestate.md) object.|
+|[List deviceUpdateStates](../api/windowsfeatureupdateprofile-list-deviceupdatestates.md)|[windowsUpdateState](../resources/windowsupdatestate.md) collection|Get the windowsUpdateStates from the deviceUpdateStates navigation property.|
+|[Add deviceUpdateStates](../api/windowsfeatureupdateprofile-post-deviceupdatestates.md)|[windowsUpdateState](../resources/windowsupdatestate.md)|Add deviceUpdateStates by posting to the deviceUpdateStates collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -43,7 +42,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

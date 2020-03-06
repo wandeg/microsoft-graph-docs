@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/devic
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [settingStateDeviceSummary](../resources/settingstatedevicesummary.md) object.
@@ -103,7 +103,7 @@ Content-Length: 409
 
 {
   "@odata.type": "#microsoft.graph.settingStateDeviceSummary",
-  "id": "abcaa2bb-a2bb-abca-bba2-caabbba2caab",
+  "id": "be8b2bb5-2bb5-be8b-b52b-8bbeb52b8bbe",
   "settingName": "Setting Name value",
   "instancePath": "Instance Path value",
   "unknownDeviceCount": 2,

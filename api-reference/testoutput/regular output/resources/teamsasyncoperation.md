@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List teamsAsyncOperations](../api/teamsasyncoperation-list.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection|List properties and relationships of the [teamsAsyncOperation](../resources/teamsasyncoperation.md) objects.|
 |[Get teamsAsyncOperation](../api/teamsasyncoperation-get.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Read properties and relationships of the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
-|[Create teamsAsyncOperation](../api/teamsasyncoperation-create.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Create a new [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
-|[Delete teamsAsyncOperation](../api/teamsasyncoperation-delete.md)|None|Deletes a [teamsAsyncOperation](../resources/teamsasyncoperation.md).|
 |[Update teamsAsyncOperation](../api/teamsasyncoperation-update.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Update the properties of a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
+|[List operations](../api/team-list-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection|Get the teamsAsyncOperations from the operations navigation property.|
+|[Add operations](../api/team-post-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Add operations by posting to the operations collection.|
 
 ## Properties
 |Property|Type|Description|

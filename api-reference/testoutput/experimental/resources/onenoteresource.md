@@ -20,11 +20,10 @@ Inherits from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List onenoteResources](../api/onenoteresource-list.md)|[onenoteResource](../resources/onenoteresource.md) collection|List properties and relationships of the [onenoteResource](../resources/onenoteresource.md) objects.|
 |[Get onenoteResource](../api/onenoteresource-get.md)|[onenoteResource](../resources/onenoteresource.md)|Read properties and relationships of the [onenoteResource](../resources/onenoteresource.md) object.|
-|[Create onenoteResource](../api/onenoteresource-create.md)|[onenoteResource](../resources/onenoteresource.md)|Create a new [onenoteResource](../resources/onenoteresource.md) object.|
-|[Delete onenoteResource](../api/onenoteresource-delete.md)|None|Deletes a [onenoteResource](../resources/onenoteresource.md).|
 |[Update onenoteResource](../api/onenoteresource-update.md)|[onenoteResource](../resources/onenoteresource.md)|Update the properties of a [onenoteResource](../resources/onenoteresource.md) object.|
+|[List resources](../api/onenote-list-resources.md)|[onenoteResource](../resources/onenoteresource.md) collection|Get the onenoteResources from the resources navigation property.|
+|[Add resources](../api/onenote-post-resources.md)|[onenoteResource](../resources/onenoteresource.md)|Add resources by posting to the resources collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -37,7 +36,7 @@ Inherits from [onenoteEntityBaseModel](../resources/onenoteentitybasemodel.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

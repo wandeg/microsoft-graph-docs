@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /dataClassification/exactMatchUploadAgents
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [exactMatchUploadAgent](../resources/exactmatchuploadagent.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,9 +75,9 @@ Content-Length: 260
   "value": [
     {
       "@odata.type": "#microsoft.graph.exactMatchUploadAgent",
-      "id": "1721cbcf-cbcf-1721-cfcb-2117cfcb2117",
+      "id": "897a5536-5536-897a-3655-7a8936557a89",
       "description": "Description value",
-      "creationDateTime": "2017-01-01T00:02:11.4839005+03:00"
+      "creationDateTime": "2016-12-31T23:59:35.5241957+03:00"
     }
   ]
 }

@@ -34,7 +34,7 @@ PATCH /deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementExchangeConnector](../resources/devicemanagementexchangeconnector.md) object.
@@ -71,11 +71,11 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/exchangeConnectors/{deviceManagementExchangeConnectorId}
 Content-type: application/json
-Content-length: 478
+Content-length: 479
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",
@@ -97,12 +97,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 527
+Content-Length: 528
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementExchangeConnector",
-  "id": "a5ccd1c4-d1c4-a5cc-c4d1-cca5c4d1cca5",
-  "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+  "id": "8c1acd7f-cd7f-8c1a-7fcd-1a8c7fcd1a8c",
+  "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
   "status": "String",
   "primarySmtpAddress": "Primary Smtp Address value",
   "serverName": "Server Name value",

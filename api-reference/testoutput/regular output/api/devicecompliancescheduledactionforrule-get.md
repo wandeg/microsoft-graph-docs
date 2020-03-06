@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 188
 {
   "value": {
     "@odata.type": "#microsoft.graph.deviceComplianceScheduledActionForRule",
-    "id": "21fc3ba2-3ba2-21fc-a23b-fc21a23bfc21",
+    "id": "50ed6941-6941-50ed-4169-ed504169ed50",
     "ruleName": "Rule Name value"
   }
 }

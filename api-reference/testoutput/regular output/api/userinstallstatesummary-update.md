@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/managedEBooks/{managedEBookId}/userStateSummary/{user
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userInstallStateSummary](../resources/userinstallstatesummary.md) object.
@@ -91,7 +91,7 @@ Content-Length: 238
 
 {
   "@odata.type": "#microsoft.graph.userInstallStateSummary",
-  "id": "3b22c409-c409-3b22-09c4-223b09c4223b",
+  "id": "0ed85dff-5dff-0ed8-ff5d-d80eff5dd80e",
   "userName": "User Name value",
   "installedDeviceCount": 4,
   "failedDeviceCount": 1,

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -41,7 +41,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [team](../resources/team.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -78,7 +78,7 @@ Content-Length: 1510
 {
   "value": {
     "@odata.type": "#microsoft.graph.team",
-    "id": "44dcabb4-abb4-44dc-b4ab-dc44b4abdc44",
+    "id": "ddebd9e2-d9e2-ddeb-e2d9-ebdde2d9ebdd",
     "displayName": "Display Name value",
     "description": "Description value",
     "internalId": "Internal Id value",

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /informationProtection/policy/labels/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [informationProtectionLabel](../resources/informationprotectionlabel.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [informationProtectionLabel](../resources/informationprotectionlabel.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -97,7 +97,7 @@ Content-Length: 282
 
 {
   "@odata.type": "#microsoft.graph.informationProtectionLabel",
-  "id": "ee736e28-6e28-ee73-286e-73ee286e73ee",
+  "id": "05473e44-3e44-0547-443e-4705443e4705",
   "name": "Name value",
   "description": "Description value",
   "color": "Color value",

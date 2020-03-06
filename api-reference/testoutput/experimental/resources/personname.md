@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List personNames](../api/personname-list.md)|[personName](../resources/personname.md) collection|List properties and relationships of the [personName](../resources/personname.md) objects.|
 |[Get personName](../api/personname-get.md)|[personName](../resources/personname.md)|Read properties and relationships of the [personName](../resources/personname.md) object.|
-|[Create personName](../api/personname-create.md)|[personName](../resources/personname.md)|Create a new [personName](../resources/personname.md) object.|
-|[Delete personName](../api/personname-delete.md)|None|Deletes a [personName](../resources/personname.md).|
 |[Update personName](../api/personname-update.md)|[personName](../resources/personname.md)|Update the properties of a [personName](../resources/personname.md) object.|
+|[List names](../api/profile-list-names.md)|[personName](../resources/personname.md) collection|Get the personNames from the names navigation property.|
+|[Add names](../api/profile-post-names.md)|[personName](../resources/personname.md)|Add names by posting to the names collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -51,7 +50,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

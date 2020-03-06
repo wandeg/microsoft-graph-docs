@@ -34,7 +34,7 @@ PATCH /me/inferenceClassification/overrides/{inferenceClassificationOverrideId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [inferenceClassificationOverride](../resources/inferenceclassificationoverride.md) object.
@@ -91,7 +91,7 @@ Content-Length: 293
 
 {
   "@odata.type": "#microsoft.graph.inferenceClassificationOverride",
-  "id": "55deab83-ab83-55de-83ab-de5583abde55",
+  "id": "b7ef9f0d-9f0d-b7ef-0d9f-efb70d9fefb7",
   "classifyAs": "String",
   "senderEmailAddress": {
     "@odata.type": "microsoft.graph.emailAddress",

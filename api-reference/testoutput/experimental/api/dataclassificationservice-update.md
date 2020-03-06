@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /dataClassification
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [dataClassificationService](../resources/dataclassificationservice.md) object.
@@ -50,7 +50,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [dataClassificationService](../resources/dataclassificationservice.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -83,7 +83,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.dataClassificationService",
-  "id": "1e29e745-e745-1e29-45e7-291e45e7291e"
+  "id": "7ec78ba6-8ba6-7ec7-a68b-c77ea68bc77e"
 }
 ```
 

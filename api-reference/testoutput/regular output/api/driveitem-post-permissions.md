@@ -35,8 +35,8 @@ POST /me/drive/items/{driveItemId}/permissions/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [permission](../resources/permission.md) object.
@@ -142,7 +142,7 @@ Content-Length: 1545
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "fda067fc-67fc-fda0-fc67-a0fdfc67a0fd",
+  "id": "a2c1ce2b-ce2b-a2c1-2bce-c1a22bcec1a2",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

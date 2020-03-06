@@ -39,7 +39,7 @@ PATCH /me/joinedTeams/{groupId}/sites/{siteId}/onenote
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onenote](../resources/onenote.md) object.
@@ -88,7 +88,7 @@ Content-Length: 98
 
 {
   "@odata.type": "#microsoft.graph.onenote",
-  "id": "46c45059-5059-46c4-5950-c4465950c446"
+  "id": "f23a598f-598f-f23a-8f59-3af28f593af2"
 }
 ```
 

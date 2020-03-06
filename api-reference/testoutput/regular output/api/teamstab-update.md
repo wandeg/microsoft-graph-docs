@@ -34,7 +34,7 @@ PATCH /me/joinedTeams/{groupId}/team/channels/{channelId}/tabs/{teamsTabId}
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsTab](../resources/teamstab.md) object.
@@ -95,7 +95,7 @@ Content-Length: 467
 
 {
   "@odata.type": "#microsoft.graph.teamsTab",
-  "id": "2110d502-d502-2110-02d5-102102d51021",
+  "id": "3e0d565d-565d-3e0d-5d56-0d3e5d560d3e",
   "displayName": "Display Name value",
   "webUrl": "https://example.com/webUrl/",
   "configuration": {

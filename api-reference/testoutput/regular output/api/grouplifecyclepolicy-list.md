@@ -33,10 +33,13 @@ GET /groups/{groupsId}/groupLifecyclePolicies
 GET /me/joinedTeams/{groupId}/groupLifecyclePolicies
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +77,7 @@ Content-Length: 319
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-      "id": "efd2c3af-c3af-efd2-afc3-d2efafc3d2ef",
+      "id": "0569cfb6-cfb6-0569-b6cf-6905b6cf6905",
       "groupLifetimeInDays": 3,
       "managedGroupTypes": "Managed Group Types value",
       "alternateNotificationEmails": "Alternate Notification Emails value"

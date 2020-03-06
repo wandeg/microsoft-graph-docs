@@ -20,11 +20,10 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List personWebsites](../api/personwebsite-list.md)|[personWebsite](../resources/personwebsite.md) collection|List properties and relationships of the [personWebsite](../resources/personwebsite.md) objects.|
 |[Get personWebsite](../api/personwebsite-get.md)|[personWebsite](../resources/personwebsite.md)|Read properties and relationships of the [personWebsite](../resources/personwebsite.md) object.|
-|[Create personWebsite](../api/personwebsite-create.md)|[personWebsite](../resources/personwebsite.md)|Create a new [personWebsite](../resources/personwebsite.md) object.|
-|[Delete personWebsite](../api/personwebsite-delete.md)|None|Deletes a [personWebsite](../resources/personwebsite.md).|
 |[Update personWebsite](../api/personwebsite-update.md)|[personWebsite](../resources/personwebsite.md)|Update the properties of a [personWebsite](../resources/personwebsite.md) object.|
+|[List websites](../api/profile-list-websites.md)|[personWebsite](../resources/personwebsite.md) collection|Get the personWebsites from the websites navigation property.|
+|[Add websites](../api/profile-post-websites.md)|[personWebsite](../resources/personwebsite.md)|Add websites by posting to the websites collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -44,7 +43,7 @@ Inherits from [itemFacet](../resources/itemfacet.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

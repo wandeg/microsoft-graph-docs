@@ -20,13 +20,12 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookComments](../api/workbookcomment-list.md)|[workbookComment](../resources/workbookcomment.md) collection|List properties and relationships of the [workbookComment](../resources/workbookcomment.md) objects.|
 |[Get workbookComment](../api/workbookcomment-get.md)|[workbookComment](../resources/workbookcomment.md)|Read properties and relationships of the [workbookComment](../resources/workbookcomment.md) object.|
-|[Create workbookComment](../api/workbookcomment-create.md)|[workbookComment](../resources/workbookcomment.md)|Create a new [workbookComment](../resources/workbookcomment.md) object.|
-|[Delete workbookComment](../api/workbookcomment-delete.md)|None|Deletes a [workbookComment](../resources/workbookcomment.md).|
 |[Update workbookComment](../api/workbookcomment-update.md)|[workbookComment](../resources/workbookcomment.md)|Update the properties of a [workbookComment](../resources/workbookcomment.md) object.|
 |[List replies](../api/workbookcomment-list-replies.md)|[workbookCommentReply](../resources/workbookcommentreply.md) collection|Get the workbookCommentReplies from the replies navigation property.|
 |[Add replies](../api/workbookcomment-post-replies.md)|[workbookCommentReply](../resources/workbookcommentreply.md)|Add replies by posting to the replies collection.|
+|[List comments](../api/workbook-list-comments.md)|[workbookComment](../resources/workbookcomment.md) collection|Get the workbookComments from the comments navigation property.|
+|[Add comments](../api/workbook-post-comments.md)|[workbookComment](../resources/workbookcomment.md)|Add comments by posting to the comments collection.|
 
 ## Properties
 |Property|Type|Description|

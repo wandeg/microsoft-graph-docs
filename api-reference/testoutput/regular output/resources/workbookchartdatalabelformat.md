@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartDataLabelFormats](../api/workbookchartdatalabelformat-list.md)|[workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) collection|List properties and relationships of the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) objects.|
 |[Get workbookChartDataLabelFormat](../api/workbookchartdatalabelformat-get.md)|[workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md)|Read properties and relationships of the [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.|
-|[Create workbookChartDataLabelFormat](../api/workbookchartdatalabelformat-create.md)|[workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md)|Create a new [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.|
-|[Delete workbookChartDataLabelFormat](../api/workbookchartdatalabelformat-delete.md)|None|Deletes a [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md).|
 |[Update workbookChartDataLabelFormat](../api/workbookchartdatalabelformat-update.md)|[workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md)|Update the properties of a [workbookChartDataLabelFormat](../resources/workbookchartdatalabelformat.md) object.|
 |[Get workbookChartFill](../api/workbookchartfill-get.md)|[workbookChartFill](../resources/workbookchartfill.md)|Read properties and relationships of the [workbookChartFill](../resources/workbookchartfill.md) object.|
 |[Get workbookChartFont](../api/workbookchartfont-get.md)|[workbookChartFont](../resources/workbookchartfont.md)|Read properties and relationships of the [workbookChartFont](../resources/workbookchartfont.md) object.|

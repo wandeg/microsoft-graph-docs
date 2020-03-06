@@ -20,7 +20,6 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedAppPolicies](../api/managedapppolicy-list.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection|List properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) objects.|
 |[Get managedAppPolicy](../api/managedapppolicy-get.md)|[managedAppPolicy](../resources/managedapppolicy.md)|Read properties and relationships of the [managedAppPolicy](../resources/managedapppolicy.md) object.|
 |[targetApps](../api/managedapppolicy-targetapps.md)|None||
 

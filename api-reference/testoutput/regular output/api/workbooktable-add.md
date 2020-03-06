@@ -35,8 +35,8 @@ POST /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshee
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -90,7 +90,7 @@ Content-Length: 431
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbookTable",
-    "id": "5a44f869-f869-5a44-69f8-445a69f8445a",
+    "id": "a882481f-481f-a882-1f48-82a81f4882a8",
     "highlightFirstColumn": true,
     "highlightLastColumn": true,
     "legacyId": "Legacy Id value",

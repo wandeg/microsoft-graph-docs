@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ GET /identityGovernance/entitlementManagement/accessPackageAssignments/{accessPa
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this function returns a `200 OK` response code and a [accessPackageAssignmentRequest](../resources/accesspackageassignmentrequest.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,20 +69,20 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 569
+Content-Length: 570
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.accessPackageAssignmentRequest",
-      "id": "bf55d753-d753-bf55-53d7-55bf53d755bf",
+      "id": "732f916a-916a-732f-6a91-2f736a912f73",
       "requestType": "Request Type value",
       "requestState": "Request State value",
       "requestStatus": "Request Status value",
       "isValidationOnly": true,
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "completedDate": "2016-12-31T23:57:08.7151202+03:00",
-      "expirationDateTime": "2016-12-31T23:59:56.1430588+03:00",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "completedDate": "2016-12-31T23:58:45.2006324+03:00",
+      "expirationDateTime": "2017-01-01T00:01:27.2282595+03:00",
       "justification": "Justification value"
     }
   ]

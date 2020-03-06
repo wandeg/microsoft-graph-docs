@@ -20,16 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List vppTokens](../api/vpptoken-list.md)|[vppToken](../resources/vpptoken.md) collection|List properties and relationships of the [vppToken](../resources/vpptoken.md) objects.|
 |[Get vppToken](../api/vpptoken-get.md)|[vppToken](../resources/vpptoken.md)|Read properties and relationships of the [vppToken](../resources/vpptoken.md) object.|
-|[Create vppToken](../api/vpptoken-create.md)|[vppToken](../resources/vpptoken.md)|Create a new [vppToken](../resources/vpptoken.md) object.|
-|[Delete vppToken](../api/vpptoken-delete.md)|None|Deletes a [vppToken](../resources/vpptoken.md).|
 |[Update vppToken](../api/vpptoken-update.md)|[vppToken](../resources/vpptoken.md)|Update the properties of a [vppToken](../resources/vpptoken.md) object.|
 |[syncLicenses](../api/vpptoken-synclicenses.md)|[vppToken](../resources/vpptoken.md)||
 |[revokeLicenses](../api/vpptoken-revokelicenses.md)|None||
 |[getLicensesForApp](../api/vpptoken-getlicensesforapp.md)|[vppTokenLicenseSummary](../resources/vpptokenlicensesummary.md) collection||
-|[List vppTokens](../api/intune-apps-deviceappmanagement-list-vpptokens.md)|[vppToken](../resources/vpptoken.md) collection|Get the vppTokens from the vppTokens navigation property.|
-|[Add vppTokens](../api/intune-apps-deviceappmanagement-post-vpptokens.md)|[vppToken](../resources/vpptoken.md)|Add vppTokens by posting to the vppTokens collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -56,7 +51,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

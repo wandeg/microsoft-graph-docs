@@ -35,8 +35,8 @@ POST /users/{usersId}/activities/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [userActivity](../resources/useractivity.md) object.
@@ -77,7 +77,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/activities
 Content-type: application/json
-Content-length: 1102
+Content-length: 1103
 
 {
   "@odata.type": "#microsoft.graph.userActivity",
@@ -102,7 +102,7 @@ Content-length: 1102
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
   "userTimezone": "User Timezone value",
   "contentInfo": {
@@ -123,11 +123,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1272
+Content-Length: 1275
 
 {
   "@odata.type": "#microsoft.graph.userActivity",
-  "id": "f0541f20-1f20-f054-201f-54f0201f54f0",
+  "id": "ed2961fa-61fa-ed29-fa61-29edfa6129ed",
   "visualElements": {
     "@odata.type": "microsoft.graph.visualInfo",
     "attribution": {
@@ -149,10 +149,10 @@ Content-Length: 1272
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "expirationDateTime": "2016-12-31T23:59:11.273206+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "expirationDateTime": "2017-01-01T00:02:09.6040958+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "userTimezone": "User Timezone value",
   "contentInfo": {
     "@odata.type": "microsoft.graph.Json"

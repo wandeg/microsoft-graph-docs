@@ -20,23 +20,22 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List policySetAssignments](../api/policysetassignment-list.md)|[policySetAssignment](../resources/policysetassignment.md) collection|List properties and relationships of the [policySetAssignment](../resources/policysetassignment.md) objects.|
 |[Get policySetAssignment](../api/policysetassignment-get.md)|[policySetAssignment](../resources/policysetassignment.md)|Read properties and relationships of the [policySetAssignment](../resources/policysetassignment.md) object.|
-|[Create policySetAssignment](../api/policysetassignment-create.md)|[policySetAssignment](../resources/policysetassignment.md)|Create a new [policySetAssignment](../resources/policysetassignment.md) object.|
-|[Delete policySetAssignment](../api/policysetassignment-delete.md)|None|Deletes a [policySetAssignment](../resources/policysetassignment.md).|
 |[Update policySetAssignment](../api/policysetassignment-update.md)|[policySetAssignment](../resources/policysetassignment.md)|Update the properties of a [policySetAssignment](../resources/policysetassignment.md) object.|
+|[List assignments](../api/policyset-list-assignments.md)|[policySetAssignment](../resources/policysetassignment.md) collection|Get the policySetAssignments from the assignments navigation property.|
+|[Add assignments](../api/policyset-post-assignments.md)|[policySetAssignment](../resources/policysetassignment.md)|Add assignments by posting to the assignments collection.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
 |id|String| Inherited from [entity](../resources/entity.md)|
 |lastModifiedDateTime|DateTimeOffset|Last modified time of the PolicySetAssignment.|
-|target|[deviceAndAppManagementAssignmentTarget](../resources/intune-apps-deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
+|target|[deviceAndAppManagementAssignmentTarget](../resources/deviceandappmanagementassignmenttarget.md)|The target group of PolicySetAssignment|
 
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

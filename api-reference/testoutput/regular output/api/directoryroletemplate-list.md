@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /directoryRoleTemplates
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -72,8 +75,8 @@ Content-Length: 303
   "value": [
     {
       "@odata.type": "#microsoft.graph.directoryRoleTemplate",
-      "id": "200c5de8-5de8-200c-e85d-0c20e85d0c20",
-      "deletedDateTime": "2016-12-31T23:58:21.3371057+03:00",
+      "id": "a4e4fdff-fdff-a4e4-fffd-e4a4fffde4a4",
+      "deletedDateTime": "2016-12-31T23:59:54.5724597+03:00",
       "description": "Description value",
       "displayName": "Display Name value"
     }

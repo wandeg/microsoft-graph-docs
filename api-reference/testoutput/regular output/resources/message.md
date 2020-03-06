@@ -20,10 +20,7 @@ Inherits from [outlookItem](../resources/outlookitem.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List messages](../api/message-list.md)|[message](../resources/message.md) collection|List properties and relationships of the [message](../resources/message.md) objects.|
 |[Get message](../api/message-get.md)|[message](../resources/message.md)|Read properties and relationships of the [message](../resources/message.md) object.|
-|[Create message](../api/message-create.md)|[message](../resources/message.md)|Create a new [message](../resources/message.md) object.|
-|[Delete message](../api/message-delete.md)|None|Deletes a [message](../resources/message.md).|
 |[Update message](../api/message-update.md)|[message](../resources/message.md)|Update the properties of a [message](../resources/message.md) object.|
 |[createReply](../api/message-createreply.md)|[message](../resources/message.md)||
 |[createReplyAll](../api/message-createreplyall.md)|[message](../resources/message.md)||

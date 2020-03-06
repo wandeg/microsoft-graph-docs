@@ -34,8 +34,8 @@ POST /deviceAppManagement/managedEBooks/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedEBook](../resources/managedebook.md) object.
@@ -72,14 +72,14 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceAppManagement/managedEBooks
 Content-type: application/json
-Content-length: 490
+Content-length: 491
 
 {
   "@odata.type": "#microsoft.graph.managedEBook",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2016-12-31T23:56:34.837453+03:00",
+  "publishedDateTime": "2016-12-31T23:58:46.3524012+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
@@ -101,22 +101,22 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 660
+Content-Length: 663
 
 {
   "@odata.type": "#microsoft.graph.managedEBook",
-  "id": "b0a5c4e9-c4e9-b0a5-e9c4-a5b0e9c4a5b0",
+  "id": "dc2d9267-9267-dc2d-6792-2ddc67922ddc",
   "displayName": "Display Name value",
   "description": "Description value",
   "publisher": "Publisher value",
-  "publishedDateTime": "2016-12-31T23:56:34.837453+03:00",
+  "publishedDateTime": "2016-12-31T23:58:46.3524012+03:00",
   "largeCover": {
     "@odata.type": "microsoft.graph.mimeContent",
     "type": "Type value",
     "value": "dmFsdWU="
   },
-  "createdDateTime": "2017-01-01T00:00:31.7073518+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00",
+  "createdDateTime": "2016-12-31T23:57:43.7581228+03:00",
+  "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00",
   "informationUrl": "https://example.com/informationUrl/",
   "privacyInformationUrl": "https://example.com/privacyInformationUrl/"
 }

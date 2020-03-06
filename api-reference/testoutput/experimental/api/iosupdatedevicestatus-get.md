@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [iosUpdateDeviceStatus](../resources/iosupdatedevicestatus.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 656
+Content-Length: 657
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.iosUpdateDeviceStatus",
-    "id": "5c4ba2ec-a2ec-5c4b-eca2-4b5ceca24b5c",
+    "id": "707910b1-10b1-7079-b110-7970b1107970",
     "installStatus": "String",
     "osVersion": "Os Version value",
     "deviceId": "Device Id value",
@@ -83,9 +83,9 @@ Content-Length: 656
     "userName": "User Name value",
     "deviceModel": "Device Model value",
     "platform": 8,
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00",
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:50.0675075+03:00",
     "status": "String",
-    "lastReportedDateTime": "2017-01-01T00:01:11.3421719+03:00",
+    "lastReportedDateTime": "2016-12-31T23:57:18.9477453+03:00",
     "userPrincipalName": "User Principal Name value"
   }
 }

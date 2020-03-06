@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -74,7 +74,7 @@ Content-Length: 891
 {
   "value": {
     "@odata.type": "#microsoft.graph.educationClass",
-    "id": "39708ea5-8ea5-3970-a58e-7039a58e7039",
+    "id": "f0905a9d-5a9d-f090-9d5a-90f09d5a90f0",
     "displayName": "Display Name value",
     "mailNickname": "Mail Nickname value",
     "description": "Description value",

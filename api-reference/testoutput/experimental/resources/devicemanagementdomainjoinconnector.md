@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List deviceManagementDomainJoinConnectors](../api/devicemanagementdomainjoinconnector-list.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) collection|List properties and relationships of the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) objects.|
 |[Get deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-get.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Read properties and relationships of the [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
-|[Create deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-create.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Create a new [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
-|[Delete deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-delete.md)|None|Deletes a [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md).|
 |[Update deviceManagementDomainJoinConnector](../api/devicemanagementdomainjoinconnector-update.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Update the properties of a [deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) object.|
-|[List domainJoinConnectors](../api/intune-devices-devicemanagement-list-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md) collection|Get the deviceManagementDomainJoinConnectors from the domainJoinConnectors navigation property.|
-|[Add domainJoinConnectors](../api/intune-devices-devicemanagement-post-domainjoinconnectors.md)|[deviceManagementDomainJoinConnector](../resources/devicemanagementdomainjoinconnector.md)|Add domainJoinConnectors by posting to the domainJoinConnectors collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -40,7 +35,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

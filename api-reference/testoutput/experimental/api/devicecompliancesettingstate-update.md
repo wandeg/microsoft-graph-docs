@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompl
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [deviceComplianceSettingState](../resources/devicecompliancesettingstate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,7 +74,7 @@ Here is an example of the request.
 ``` http
 PATCH https://graph.microsoft.com/localtest/deviceManagement/deviceCompliancePolicySettingStateSummaries/{deviceCompliancePolicySettingStateSummaryId}/deviceComplianceSettingStates/{deviceComplianceSettingStateId}
 Content-type: application/json
-Content-length: 539
+Content-length: 540
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
@@ -89,7 +89,7 @@ Content-length: 539
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:50.0675075+03:00"
 }
 ```
 
@@ -103,11 +103,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 588
+Content-Length: 589
 
 {
   "@odata.type": "#microsoft.graph.deviceComplianceSettingState",
-  "id": "d2cad14b-d14b-d2ca-4bd1-cad24bd1cad2",
+  "id": "305f4b58-4b58-305f-584b-5f30584b5f30",
   "platformType": "String",
   "setting": "Setting value",
   "settingName": "Setting Name value",
@@ -119,7 +119,7 @@ Content-Length: 588
   "userPrincipalName": "User Principal Name value",
   "deviceModel": "Device Model value",
   "state": "String",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:25.414643+03:00"
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:50.0675075+03:00"
 }
 ```
 

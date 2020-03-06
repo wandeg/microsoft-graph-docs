@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List managedEBookCategories](../api/managedebookcategory-list.md)|[managedEBookCategory](../resources/managedebookcategory.md) collection|List properties and relationships of the [managedEBookCategory](../resources/managedebookcategory.md) objects.|
 |[Get managedEBookCategory](../api/managedebookcategory-get.md)|[managedEBookCategory](../resources/managedebookcategory.md)|Read properties and relationships of the [managedEBookCategory](../resources/managedebookcategory.md) object.|
-|[Create managedEBookCategory](../api/managedebookcategory-create.md)|[managedEBookCategory](../resources/managedebookcategory.md)|Create a new [managedEBookCategory](../resources/managedebookcategory.md) object.|
-|[Delete managedEBookCategory](../api/managedebookcategory-delete.md)|None|Deletes a [managedEBookCategory](../resources/managedebookcategory.md).|
 |[Update managedEBookCategory](../api/managedebookcategory-update.md)|[managedEBookCategory](../resources/managedebookcategory.md)|Update the properties of a [managedEBookCategory](../resources/managedebookcategory.md) object.|
 
 ## Properties
@@ -36,7 +33,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

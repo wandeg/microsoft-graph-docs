@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/functions
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookFunctions](../resources/workbookfunctions.md) object.
@@ -83,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookFunctions",
-  "id": "43e35525-5525-43e3-2555-e3432555e343"
+  "id": "2412e7b6-e7b6-2412-b6e7-1224b6e71224"
 }
 ```
 

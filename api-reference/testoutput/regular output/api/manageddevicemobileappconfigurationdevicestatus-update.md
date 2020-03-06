@@ -34,7 +34,7 @@ PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfig
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationDeviceStatus](../resources/manageddevicemobileappconfigurationdevicestatus.md) object.
@@ -76,9 +76,9 @@ Content-length: 439
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```
@@ -97,13 +97,13 @@ Content-Length: 488
 
 {
   "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationDeviceStatus",
-  "id": "084ba0cc-a0cc-084b-cca0-4b08cca04b08",
+  "id": "830a0959-0959-830a-5909-0a8359090a83",
   "deviceDisplayName": "Device Display Name value",
   "userName": "User Name value",
   "deviceModel": "Device Model value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
+  "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00",
   "status": "String",
-  "lastReportedDateTime": "2016-12-31T23:58:11.9926581+03:00",
+  "lastReportedDateTime": "2017-01-01T00:01:57.2065179+03:00",
   "userPrincipalName": "User Principal Name value"
 }
 ```

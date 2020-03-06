@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /riskDetections
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [riskDetection](../resources/riskdetection.md) object.
@@ -70,7 +70,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [riskDetection](../resources/riskdetection.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -109,9 +109,9 @@ Content-length: 1117
       "longitude": "Double"
     }
   },
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
-  "detectedDateTime": "2016-12-31T23:58:19.8176883+03:00",
-  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
+  "detectedDateTime": "2017-01-01T00:01:29.8362549+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",
@@ -134,7 +134,7 @@ Content-Length: 1166
 
 {
   "@odata.type": "#microsoft.graph.riskDetection",
-  "id": "ee539b94-9b94-ee53-949b-53ee949b53ee",
+  "id": "590ecb05-cb05-590e-05cb-0e5905cb0e59",
   "requestId": "Request Id value",
   "correlationId": "Correlation Id value",
   "riskType": "String",
@@ -158,9 +158,9 @@ Content-Length: 1166
       "longitude": "Double"
     }
   },
-  "activityDateTime": "2016-12-31T23:57:38.3073089+03:00",
-  "detectedDateTime": "2016-12-31T23:58:19.8176883+03:00",
-  "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
+  "activityDateTime": "2016-12-31T23:56:58.7486077+03:00",
+  "detectedDateTime": "2017-01-01T00:01:29.8362549+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
   "userId": "User Id value",
   "userDisplayName": "User Display Name value",
   "userPrincipalName": "User Principal Name value",

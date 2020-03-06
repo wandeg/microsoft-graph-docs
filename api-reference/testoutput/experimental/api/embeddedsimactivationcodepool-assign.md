@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /deviceManagement/embeddedSIMActivationCodePools/{embeddedSIMActivationCode
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -51,7 +51,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [embeddedSIMActivationCodePoolAssignment](../resources/embeddedsimactivationcodepoolassignment.md) collection in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -70,7 +70,7 @@ Content-length: 287
   "assignments": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-      "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
+      "id": "005ca08f-a08f-005c-8fa0-5c008fa05c00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }
@@ -96,7 +96,7 @@ Content-Length: 281
   "value": [
     {
       "@odata.type": "#microsoft.graph.embeddedSIMActivationCodePoolAssignment",
-      "id": "d9ed3582-3582-d9ed-8235-edd98235edd9",
+      "id": "005ca08f-a08f-005c-8fa0-5c008fa05c00",
       "target": {
         "@odata.type": "microsoft.graph.deviceAndAppManagementAssignmentTarget"
       }

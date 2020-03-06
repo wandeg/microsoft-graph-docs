@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -39,8 +39,8 @@ POST /education/classes/{educationClassId}/members/{educationUserId}/schools/{ed
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [scopedRoleMembership](../resources/scopedrolemembership.md) object.
@@ -59,7 +59,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [scopedRoleMembership](../resources/scopedrolemembership.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -100,7 +100,7 @@ Content-Length: 341
 
 {
   "@odata.type": "#microsoft.graph.scopedRoleMembership",
-  "id": "d79510a2-10a2-d795-a210-95d7a21095d7",
+  "id": "0c4f9251-9251-0c4f-5192-4f0c51924f0c",
   "roleId": "Role Id value",
   "administrativeUnitId": "Administrative Unit Id value",
   "roleMemberInfo": {

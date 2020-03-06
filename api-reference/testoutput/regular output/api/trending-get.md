@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -69,12 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 867
+Content-Length: 869
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.trending",
-    "id": "754a143c-143c-754a-3c14-4a753c144a75",
+    "id": "89ed7fb6-7fb6-89ed-b67f-ed89b67fed89",
     "weight": "Double",
     "resourceVisualization": {
       "@odata.type": "microsoft.graph.resourceVisualization",
@@ -92,7 +92,7 @@ Content-Length: 867
       "webUrl": "https://example.com/webUrl/",
       "id": "Id value"
     },
-    "lastModifiedDateTime": "2017-01-01T00:02:21.89044+03:00"
+    "lastModifiedDateTime": "2017-01-01T00:00:06.8007887+03:00"
   }
 }
 ```

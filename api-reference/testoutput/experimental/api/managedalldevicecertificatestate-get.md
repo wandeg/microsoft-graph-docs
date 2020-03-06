@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [managedAllDeviceCertificateState](../resources/managedalldevicecertificatestate.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,18 +74,18 @@ Content-Length: 828
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedAllDeviceCertificateState",
-    "id": "02708b78-8b78-0270-788b-7002788b7002",
+    "id": "8f43e9b0-e9b0-8f43-b0e9-438fb0e9438f",
     "certificateRevokeStatus": "String",
     "managedDeviceDisplayName": "Managed Device Display Name value",
     "userPrincipalName": "User Principal Name value",
-    "certificateExpirationDateTime": "2016-12-31T23:57:57.5583647+03:00",
+    "certificateExpirationDateTime": "2016-12-31T23:57:42.8509303+03:00",
     "certificateIssuerName": "Certificate Issuer Name value",
     "certificateThumbprint": "Certificate Thumbprint value",
     "certificateSerialNumber": "Certificate Serial Number value",
     "certificateSubjectName": "Certificate Subject Name value",
     "certificateKeyUsages": 4,
     "certificateExtendedKeyUsages": "Certificate Extended Key Usages value",
-    "certificateIssuanceDateTime": "2016-12-31T23:58:16.9914339+03:00"
+    "certificateIssuanceDateTime": "2017-01-01T00:00:33.1553084+03:00"
   }
 }
 ```

@@ -34,8 +34,8 @@ POST /deviceManagement/remoteAssistancePartners/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [remoteAssistancePartner](../resources/remoteassistancepartner.md) object.
@@ -67,14 +67,14 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/deviceManagement/remoteAssistancePartners
 Content-type: application/json
-Content-length: 262
+Content-length: 261
 
 {
   "@odata.type": "#microsoft.graph.remoteAssistancePartner",
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+  "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
 }
 ```
 
@@ -89,15 +89,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 311
+Content-Length: 310
 
 {
   "@odata.type": "#microsoft.graph.remoteAssistancePartner",
-  "id": "5092847b-847b-5092-7b84-92507b849250",
+  "id": "4ea84d76-4d76-4ea8-764d-a84e764da84e",
   "displayName": "Display Name value",
   "onboardingUrl": "https://example.com/onboardingUrl/",
   "onboardingStatus": "String",
-  "lastConnectionDateTime": "2016-12-31T23:58:26.8037661+03:00"
+  "lastConnectionDateTime": "2017-01-01T00:00:23.971855+03:00"
 }
 ```
 

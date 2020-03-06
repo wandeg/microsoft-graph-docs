@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartAxes](../resources/workbookchartaxes.md) object.
@@ -83,7 +83,7 @@ Content-Length: 108
 
 {
   "@odata.type": "#microsoft.graph.workbookChartAxes",
-  "id": "ce29ad75-ad75-ce29-75ad-29ce75ad29ce"
+  "id": "3e28f1b7-f1b7-3e28-b7f1-283eb7f1283e"
 }
 ```
 

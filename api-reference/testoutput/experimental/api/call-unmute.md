@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /communications/calls/{callId}/unmute
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
@@ -52,7 +52,7 @@ The following table shows the parameters that can be used with this action.
 ## Response
 If successful, this action returns a `200 OK` response code and a [unmuteParticipantOperation](../resources/unmuteparticipantoperation.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,7 +88,7 @@ Content-Length: 291
 {
   "value": {
     "@odata.type": "#microsoft.graph.unmuteParticipantOperation",
-    "id": "4a0cb051-b051-4a0c-51b0-0c4a51b00c4a",
+    "id": "fa63bd1e-bd1e-fa63-1ebd-63fa1ebd63fa",
     "status": "String",
     "clientContext": "Client Context value",
     "resultInfo": {

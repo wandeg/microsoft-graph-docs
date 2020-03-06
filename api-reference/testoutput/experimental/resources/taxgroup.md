@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List taxGroups](../api/taxgroup-list.md)|[taxGroup](../resources/taxgroup.md) collection|List properties and relationships of the [taxGroup](../resources/taxgroup.md) objects.|
 |[Get taxGroup](../api/taxgroup-get.md)|[taxGroup](../resources/taxgroup.md)|Read properties and relationships of the [taxGroup](../resources/taxgroup.md) object.|
-|[Create taxGroup](../api/taxgroup-create.md)|[taxGroup](../resources/taxgroup.md)|Create a new [taxGroup](../resources/taxgroup.md) object.|
-|[Delete taxGroup](../api/taxgroup-delete.md)|None|Deletes a [taxGroup](../resources/taxgroup.md).|
 |[Update taxGroup](../api/taxgroup-update.md)|[taxGroup](../resources/taxgroup.md)|Update the properties of a [taxGroup](../resources/taxgroup.md) object.|
+|[List taxGroups](../api/company-list-taxgroups.md)|[taxGroup](../resources/taxgroup.md) collection|Get the taxGroups from the taxGroups navigation property.|
+|[Add taxGroups](../api/company-post-taxgroups.md)|[taxGroup](../resources/taxgroup.md)|Add taxGroups by posting to the taxGroups collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -38,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

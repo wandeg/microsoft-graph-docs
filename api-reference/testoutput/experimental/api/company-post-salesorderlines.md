@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /financials/companies/{companyId}/salesOrderLines/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [salesOrderLine](../resources/salesorderline.md) object.
@@ -77,7 +77,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [salesOrderLine](../resources/salesorderline.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -93,13 +93,13 @@ Content-length: 926
 
 {
   "@odata.type": "#microsoft.graph.salesOrderLine",
-  "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
+  "documentId": "f25796de-96de-f257-de96-57f2de9657f2",
   "sequence": 8,
-  "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
-  "accountId": "95554513-4513-9555-1345-559513455595",
+  "itemId": "39a5aaf7-aaf7-39a5-f7aa-a539f7aaa539",
+  "accountId": "16975858-5858-1697-5858-971658589716",
   "lineType": "Line Type value",
   "description": "Description value",
-  "unitOfMeasureId": "c915dcf5-dcf5-c915-f5dc-15c9f5dc15c9",
+  "unitOfMeasureId": "8736d1fa-d1fa-8736-fad1-3687fad13687",
   "quantity": "4.2",
   "unitPrice": "4.2",
   "discountAmount": "4.2",
@@ -137,14 +137,14 @@ Content-Length: 975
 
 {
   "@odata.type": "#microsoft.graph.salesOrderLine",
-  "id": "54b45e60-5e60-54b4-605e-b454605eb454",
-  "documentId": "a4d6f8da-f8da-a4d6-daf8-d6a4daf8d6a4",
+  "id": "e23e38eb-38eb-e23e-eb38-3ee2eb383ee2",
+  "documentId": "f25796de-96de-f257-de96-57f2de9657f2",
   "sequence": 8,
-  "itemId": "d76ea287-a287-d76e-87a2-6ed787a26ed7",
-  "accountId": "95554513-4513-9555-1345-559513455595",
+  "itemId": "39a5aaf7-aaf7-39a5-f7aa-a539f7aaa539",
+  "accountId": "16975858-5858-1697-5858-971658589716",
   "lineType": "Line Type value",
   "description": "Description value",
-  "unitOfMeasureId": "c915dcf5-dcf5-c915-f5dc-15c9f5dc15c9",
+  "unitOfMeasureId": "8736d1fa-d1fa-8736-fad1-3687fad13687",
   "quantity": "4.2",
   "unitPrice": "4.2",
   "discountAmount": "4.2",

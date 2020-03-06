@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -35,8 +35,8 @@ POST /me/joinedGroups/{groupId}/sites/{siteId}/contentTypes/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [contentType](../resources/contenttype.md) object.
@@ -61,7 +61,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [contentType](../resources/contenttype.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -126,7 +126,7 @@ Content-Length: 1039
 
 {
   "@odata.type": "#microsoft.graph.contentType",
-  "id": "55d286d9-86d9-55d2-d986-d255d986d255",
+  "id": "15c0d1fb-d1fb-15c0-fbd1-c015fbd1c015",
   "description": "Description value",
   "group": "Group value",
   "hidden": true,

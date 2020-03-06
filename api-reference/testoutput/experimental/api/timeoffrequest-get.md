@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [timeOffRequest](../resources/timeoffrequest.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,9 +74,9 @@ Content-Length: 1202
 {
   "value": {
     "@odata.type": "#microsoft.graph.timeOffRequest",
-    "id": "cfb17b22-7b22-cfb1-227b-b1cf227bb1cf",
-    "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00",
+    "id": "f2761b2e-1b2e-f276-2e1b-76f22e1b76f2",
+    "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,13 +94,13 @@ Content-Length: 1202
     "assignedTo": "String",
     "state": "String",
     "senderMessage": "Sender Message value",
-    "senderDateTime": "2016-12-31T23:59:47.8447466+03:00",
+    "senderDateTime": "2017-01-01T00:00:50.3002047+03:00",
     "managerActionMessage": "Manager Action Message value",
-    "managerActionDateTime": "2017-01-01T00:03:26.1696907+03:00",
+    "managerActionDateTime": "2016-12-31T23:58:00.9521432+03:00",
     "senderUserId": "Sender User Id value",
     "managerUserId": "Manager User Id value",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "endDateTime": "2016-12-31T23:58:29.0720449+03:00",
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "endDateTime": "2017-01-01T00:02:18.392989+03:00",
     "timeOffReasonId": "Time Off Reason Id value"
   }
 }

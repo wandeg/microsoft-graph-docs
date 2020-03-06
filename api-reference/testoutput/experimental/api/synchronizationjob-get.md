@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [synchronizationJob](../resources/synchronizationjob.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -69,17 +69,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2878
+Content-Length: 2882
 
 {
   "value": {
     "@odata.type": "#microsoft.graph.synchronizationJob",
-    "id": "b8997069-7069-b899-6970-99b8697099b8",
+    "id": "3465e340-e340-3465-40e3-653440e36534",
     "templateId": "Template Id value",
     "schedule": {
       "@odata.type": "microsoft.graph.synchronizationSchedule",
-      "expiration": "2016-12-31T23:57:48.0321632+03:00",
-      "interval": "-PT2M35.6823926S",
+      "expiration": "2017-01-01T00:02:26.9604882+03:00",
+      "interval": "-PT1M16.2400327S",
       "state": "String"
     },
     "status": {
@@ -106,8 +106,8 @@ Content-Length: 2878
           "message": "Message value",
           "tenantActionable": true
         },
-        "timeBegan": "2016-12-31T23:56:38.758188+03:00",
-        "timeEnded": "2017-01-01T00:00:59.4792075+03:00"
+        "timeBegan": "2017-01-01T00:00:09.5500448+03:00",
+        "timeEnded": "2016-12-31T23:57:24.1317774+03:00"
       },
       "lastSuccessfulExecution": {
         "@odata.type": "microsoft.graph.synchronizationTaskExecution"
@@ -119,21 +119,21 @@ Content-Length: 2878
         {
           "@odata.type": "microsoft.graph.synchronizationProgress",
           "completedUnits": 14,
-          "progressObservationDateTime": "2016-12-31T23:58:06.548007+03:00",
+          "progressObservationDateTime": "2016-12-31T23:58:36.5528361+03:00",
           "totalUnits": 10,
           "units": "Units value"
         }
       ],
       "quarantine": {
         "@odata.type": "microsoft.graph.synchronizationQuarantine",
-        "currentBegan": "2016-12-31T23:57:24.2893083+03:00",
-        "nextAttempt": "2016-12-31T23:59:51.872306+03:00",
+        "currentBegan": "2017-01-01T00:00:45.6800617+03:00",
+        "nextAttempt": "2016-12-31T23:58:23.1465458+03:00",
         "reason": "String",
-        "seriesBegan": "2017-01-01T00:00:37.242502+03:00",
+        "seriesBegan": "2016-12-31T23:56:52.4272684+03:00",
         "seriesCount": 11
       },
-      "steadyStateFirstAchievedTime": "2016-12-31T23:57:16.2528743+03:00",
-      "steadyStateLastAchievedTime": "2016-12-31T23:59:10.0513884+03:00",
+      "steadyStateFirstAchievedTime": "2016-12-31T23:57:18.0833874+03:00",
+      "steadyStateLastAchievedTime": "2017-01-01T00:03:31.1545584+03:00",
       "synchronizedEntryCountByType": [
         {
           "@odata.type": "microsoft.graph.stringKeyLongValuePair",

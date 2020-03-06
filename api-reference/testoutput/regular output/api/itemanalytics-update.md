@@ -33,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [itemAnalytics](../resources/itemanalytics.md) object.
@@ -76,7 +76,7 @@ Content-Length: 104
 
 {
   "@odata.type": "#microsoft.graph.itemAnalytics",
-  "id": "474432d9-32d9-4744-d932-4447d9324447"
+  "id": "5be669d0-69d0-5be6-d069-e65bd069e65b"
 }
 ```
 

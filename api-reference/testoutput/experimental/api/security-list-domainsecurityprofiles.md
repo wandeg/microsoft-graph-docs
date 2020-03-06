@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -31,10 +31,13 @@ One of the following permissions is required to call this API. To learn more, in
 GET /Security/domainSecurityProfiles
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -42,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [domainSecurityProfile](../resources/domainsecurityprofile.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -66,13 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1428
+Content-Length: 1429
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.domainSecurityProfile",
-      "id": "2db8f0b7-f0b7-2db8-b7f0-b82db7f0b82d",
+      "id": "85e482dd-82dd-85e4-dd82-e485dd82e485",
       "activityGroupNames": [
         "Activity Group Names value"
       ],
@@ -88,9 +91,9 @@ Content-Length: 1428
           "vendor": "Vendor value"
         }
       ],
-      "domainRegisteredDateTime": "2017-01-01T00:00:56.6394557+03:00",
-      "firstSeenDateTime": "2016-12-31T23:57:18.6460025+03:00",
-      "lastSeenDateTime": "2016-12-31T23:59:38.861959+03:00",
+      "domainRegisteredDateTime": "2017-01-01T00:02:35.3323212+03:00",
+      "firstSeenDateTime": "2017-01-01T00:00:13.4017585+03:00",
+      "lastSeenDateTime": "2017-01-01T00:01:10.5556787+03:00",
       "name": "Name value",
       "registrant": {
         "@odata.type": "microsoft.graph.domainRegistrant",

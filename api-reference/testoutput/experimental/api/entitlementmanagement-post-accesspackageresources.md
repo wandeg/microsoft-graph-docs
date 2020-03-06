@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /identityGovernance/entitlementManagement/accessPackageResources/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageResource](../resources/accesspackageresource.md) object.
@@ -60,7 +60,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [accessPackageResource](../resources/accesspackageresource.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -84,7 +84,7 @@ Content-length: 398
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
+  "addedOn": "2016-12-31T23:56:38.2422021+03:00"
 }
 ```
 
@@ -103,7 +103,7 @@ Content-Length: 447
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResource",
-  "id": "e51afb5e-fb5e-e51a-5efb-1ae55efb1ae5",
+  "id": "7af13504-3504-7af1-0435-f17a0435f17a",
   "displayName": "Display Name value",
   "description": "Description value",
   "url": "Url value",
@@ -112,7 +112,7 @@ Content-Length: 447
   "originSystem": "Origin System value",
   "isPendingOnboarding": true,
   "addedBy": "Added By value",
-  "addedOn": "2017-01-01T00:02:28.6984236+03:00"
+  "addedOn": "2016-12-31T23:56:38.2422021+03:00"
 }
 ```
 

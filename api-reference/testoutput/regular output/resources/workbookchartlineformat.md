@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookChartLineFormats](../api/workbookchartlineformat-list.md)|[workbookChartLineFormat](../resources/workbookchartlineformat.md) collection|List properties and relationships of the [workbookChartLineFormat](../resources/workbookchartlineformat.md) objects.|
 |[Get workbookChartLineFormat](../api/workbookchartlineformat-get.md)|[workbookChartLineFormat](../resources/workbookchartlineformat.md)|Read properties and relationships of the [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.|
-|[Create workbookChartLineFormat](../api/workbookchartlineformat-create.md)|[workbookChartLineFormat](../resources/workbookchartlineformat.md)|Create a new [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.|
-|[Delete workbookChartLineFormat](../api/workbookchartlineformat-delete.md)|None|Deletes a [workbookChartLineFormat](../resources/workbookchartlineformat.md).|
 |[Update workbookChartLineFormat](../api/workbookchartlineformat-update.md)|[workbookChartLineFormat](../resources/workbookchartlineformat.md)|Update the properties of a [workbookChartLineFormat](../resources/workbookchartlineformat.md) object.|
 |[clear](../api/workbookchartlineformat-clear.md)|None||
 

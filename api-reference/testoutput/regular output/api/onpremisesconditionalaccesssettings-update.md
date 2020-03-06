@@ -34,7 +34,7 @@ PATCH /deviceManagement/conditionalAccessSettings
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [onPremisesConditionalAccessSettings](../resources/onpremisesconditionalaccesssettings.md) object.
@@ -72,10 +72,10 @@ Content-length: 275
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
   "enabled": true,
   "includedGroups": [
-    "6f75ec9e-ec9e-6f75-9eec-756f9eec756f"
+    "a407eccf-eccf-a407-cfec-07a4cfec07a4"
   ],
   "excludedGroups": [
-    "2dcf6cbc-6cbc-2dcf-bc6c-cf2dbc6ccf2d"
+    "cd0e10b6-10b6-cd0e-b610-0ecdb6100ecd"
   ],
   "overrideDefaultRule": true
 }
@@ -95,13 +95,13 @@ Content-Length: 324
 
 {
   "@odata.type": "#microsoft.graph.onPremisesConditionalAccessSettings",
-  "id": "9dec78cf-78cf-9dec-cf78-ec9dcf78ec9d",
+  "id": "d813108f-108f-d813-8f10-13d88f1013d8",
   "enabled": true,
   "includedGroups": [
-    "6f75ec9e-ec9e-6f75-9eec-756f9eec756f"
+    "a407eccf-eccf-a407-cfec-07a4cfec07a4"
   ],
   "excludedGroups": [
-    "2dcf6cbc-6cbc-2dcf-bc6c-cf2dbc6ccf2d"
+    "cd0e10b6-10b6-cd0e-b610-0ecdb6100ecd"
   ],
   "overrideDefaultRule": true
 }

@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /education/classes/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [educationClass](../resources/educationclass.md) object.
@@ -62,7 +62,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [educationClass](../resources/educationclass.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -127,7 +127,7 @@ Content-Length: 997
 
 {
   "@odata.type": "#microsoft.graph.educationClass",
-  "id": "00653963-3963-0065-6339-650063396500",
+  "id": "f7299250-9250-f729-5092-29f7509229f7",
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
   "description": "Description value",

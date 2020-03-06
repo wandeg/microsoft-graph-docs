@@ -20,11 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List workbookTables](../api/workbooktable-list.md)|[workbookTable](../resources/workbooktable.md) collection|List properties and relationships of the [workbookTable](../resources/workbooktable.md) objects.|
 |[Get workbookTable](../api/workbooktable-get.md)|[workbookTable](../resources/workbooktable.md)|Read properties and relationships of the [workbookTable](../resources/workbooktable.md) object.|
-|[Create workbookTable](../api/workbooktable-create.md)|[workbookTable](../resources/workbooktable.md)|Create a new [workbookTable](../resources/workbooktable.md) object.|
-|[Delete workbookTable](../api/workbooktable-delete.md)|None|Deletes a [workbookTable](../resources/workbooktable.md).|
 |[Update workbookTable](../api/workbooktable-update.md)|[workbookTable](../resources/workbooktable.md)|Update the properties of a [workbookTable](../resources/workbooktable.md) object.|
+|[clearFilters](../api/workbooktable-clearfilters.md)|None||
+|[convertToRange](../api/workbooktable-converttorange.md)|[workbookRange](../resources/workbookrange.md)||
+|[dataBodyRange](../api/workbooktable-databodyrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[headerRowRange](../api/workbooktable-headerrowrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[range](../api/workbooktable-range.md)|[workbookRange](../resources/workbookrange.md)||
+|[totalRowRange](../api/workbooktable-totalrowrange.md)|[workbookRange](../resources/workbookrange.md)||
+|[reapplyFilters](../api/workbooktable-reapplyfilters.md)|None||
+|[add](../api/workbooktable-add.md)|[workbookTable](../resources/workbooktable.md)||
+|[itemAt](../api/workbooktable-itemat.md)|[workbookTable](../resources/workbooktable.md)||
+|[count](../api/workbooktable-count.md)|Int32||
 |[List columns](../api/workbooktable-list-columns.md)|[workbookTableColumn](../resources/workbooktablecolumn.md) collection|Get the workbookTableColumns from the columns navigation property.|
 |[Add columns](../api/workbooktable-post-columns.md)|[workbookTableColumn](../resources/workbooktablecolumn.md)|Add columns by posting to the columns collection.|
 |[List rows](../api/workbooktable-list-rows.md)|[workbookTableRow](../resources/workbooktablerow.md) collection|Get the workbookTableRows from the rows navigation property.|
@@ -55,7 +62,7 @@ Inherits from [entity](../resources/entity.md)
 |sort|[workbookTableSort](../resources/workbooktablesort.md)||
 |worksheet|[workbookWorksheet](../resources/workbookworksheet.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

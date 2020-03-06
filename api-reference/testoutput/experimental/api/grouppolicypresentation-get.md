@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -45,7 +45,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [groupPolicyPresentation](../resources/grouppolicypresentation.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -74,9 +74,9 @@ Content-Length: 232
 {
   "value": {
     "@odata.type": "#microsoft.graph.groupPolicyPresentation",
-    "id": "3d562b56-2b56-3d56-562b-563d562b563d",
+    "id": "766a99d2-99d2-766a-d299-6a76d2996a76",
     "label": "Label value",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
   }
 }
 ```

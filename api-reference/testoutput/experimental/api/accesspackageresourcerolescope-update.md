@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -37,7 +37,7 @@ PATCH /identityGovernance/entitlementManagement/accessPackageCatalogs/{accessPac
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md) object.
@@ -57,7 +57,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [accessPackageResourceRoleScope](../resources/accesspackageresourcerolescope.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -88,15 +88,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 313
+Content-Length: 314
 
 {
   "@odata.type": "#microsoft.graph.accessPackageResourceRoleScope",
-  "id": "a5e43181-3181-a5e4-8131-e4a58131e4a5",
+  "id": "6b42e0fc-e0fc-6b42-fce0-426bfce0426b",
   "createdBy": "Created By value",
-  "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
+  "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
   "modifiedBy": "Modified By value",
-  "modifiedDateTime": "2016-12-31T23:56:57.1102355+03:00"
+  "modifiedDateTime": "2016-12-31T23:58:13.3996216+03:00"
 }
 ```
 

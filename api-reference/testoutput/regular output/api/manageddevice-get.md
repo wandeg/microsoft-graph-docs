@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -76,7 +76,7 @@ Content-Length: 4902
 {
   "value": {
     "@odata.type": "#microsoft.graph.managedDevice",
-    "id": "6f8ea484-a484-6f8e-84a4-8e6f84a48e6f",
+    "id": "09ce5055-5055-09ce-5550-ce095550ce09",
     "userId": "User Id value",
     "deviceName": "Device Name value",
     "managedDeviceOwnerType": "String",
@@ -85,12 +85,12 @@ Content-Length: 4902
         "@odata.type": "microsoft.graph.deviceActionResult",
         "actionName": "Action Name value",
         "actionState": "String",
-        "startDateTime": "2017-01-01T00:00:26.7994828+03:00",
-        "lastUpdatedDateTime": "2016-12-31T23:58:46.4586633+03:00"
+        "startDateTime": "2017-01-01T00:01:05.5047409+03:00",
+        "lastUpdatedDateTime": "2016-12-31T23:59:25.6279141+03:00"
       }
     ],
-    "enrolledDateTime": "2017-01-01T00:01:06.6557007+03:00",
-    "lastSyncDateTime": "2016-12-31T23:59:45.269987+03:00",
+    "enrolledDateTime": "2016-12-31T23:58:08.0244447+03:00",
+    "lastSyncDateTime": "2016-12-31T23:59:56.0370046+03:00",
     "operatingSystem": "Operating System value",
     "complianceState": "String",
     "jailBroken": "Jail Broken value",
@@ -98,7 +98,7 @@ Content-Length: 4902
     "osVersion": "Os Version value",
     "easActivated": true,
     "easDeviceId": "Eas Device Id value",
-    "easActivationDateTime": "2016-12-31T23:59:19.6803418+03:00",
+    "easActivationDateTime": "2016-12-31T23:56:44.877585+03:00",
     "azureADRegistered": true,
     "deviceEnrollmentType": "String",
     "activationLockBypassCode": "Activation Lock Bypass Code value",
@@ -107,7 +107,7 @@ Content-Length: 4902
     "deviceRegistrationState": "String",
     "deviceCategoryDisplayName": "Device Category Display Name value",
     "isSupervised": true,
-    "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:58:58.6569964+03:00",
+    "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:59:24.2948484+03:00",
     "exchangeAccessState": "String",
     "exchangeAccessStateReason": "String",
     "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -117,7 +117,7 @@ Content-Length: 4902
     "model": "Model value",
     "manufacturer": "Manufacturer value",
     "imei": "Imei value",
-    "complianceGracePeriodExpirationDateTime": "2017-01-01T00:03:21.4377662+03:00",
+    "complianceGracePeriodExpirationDateTime": "2016-12-31T23:56:34.1389963+03:00",
     "serialNumber": "Serial Number value",
     "phoneNumber": "Phone Number value",
     "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -138,7 +138,7 @@ Content-Length: 4902
       "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
       "deviceHealthAttestationStatus": "Device Health Attestation Status value",
       "contentVersion": "Content Version value",
-      "issuedDateTime": "2017-01-01T00:02:52.8967703+03:00",
+      "issuedDateTime": "2017-01-01T00:01:16.1848518+03:00",
       "attestationIdentityKey": "Attestation Identity Key value",
       "resetCount": 10,
       "restartCount": 12,

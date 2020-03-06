@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -39,7 +39,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -47,7 +47,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and [paymentMethod](../resources/paymentmethod.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -76,10 +76,10 @@ Content-Length: 262
 {
   "value": {
     "@odata.type": "#microsoft.graph.paymentMethod",
-    "id": "620d69bd-69bd-620d-bd69-0d62bd690d62",
+    "id": "98123cd8-3cd8-9812-d83c-1298d83c1298",
     "code": "Code value",
     "displayName": "Display Name value",
-    "lastModifiedDateTime": "2016-12-31T23:56:51.5562076+03:00"
+    "lastModifiedDateTime": "2016-12-31T23:58:21.1327021+03:00"
   }
 }
 ```

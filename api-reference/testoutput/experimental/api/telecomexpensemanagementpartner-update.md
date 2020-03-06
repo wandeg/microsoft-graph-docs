@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,7 +34,7 @@ PATCH /deviceManagement/telecomExpenseManagementPartners/{telecomExpenseManageme
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object.
@@ -55,7 +55,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `200 OK` response code and an updated [telecomExpenseManagementPartner](../resources/telecomexpensemanagementpartner.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -75,7 +75,7 @@ Content-length: 248
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00"
 }
 ```
 
@@ -93,12 +93,12 @@ Content-Length: 297
 
 {
   "@odata.type": "#microsoft.graph.telecomExpenseManagementPartner",
-  "id": "6d019acb-9acb-6d01-cb9a-016dcb9a016d",
+  "id": "ecfe7117-7117-ecfe-1771-feec1771feec",
   "displayName": "Display Name value",
   "url": "Url value",
   "appAuthorized": true,
   "enabled": true,
-  "lastConnectionDateTime": "2016-12-31T23:56:25.4273633+03:00"
+  "lastConnectionDateTime": "2016-12-31T23:59:54.3430304+03:00"
 }
 ```
 

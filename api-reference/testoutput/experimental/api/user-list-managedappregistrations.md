@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -32,10 +32,13 @@ GET /me/managedAppRegistrations
 GET /users/{usersId}/managedAppRegistrations
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +46,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this method returns a `200 OK` response code and a collection of [managedAppRegistration](../resources/managedappregistration.md) objects in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -67,15 +70,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1007
+Content-Length: 1008
 
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppRegistration",
-      "id": "723369fd-69fd-7233-fd69-3372fd693372",
-      "createdDateTime": "2017-01-01T00:02:37.446308+03:00",
-      "lastSyncDateTime": "2017-01-01T00:00:28.8363536+03:00",
+      "id": "0f96516a-516a-0f96-6a51-960f6a51960f",
+      "createdDateTime": "2017-01-01T00:02:14.7219499+03:00",
+      "lastSyncDateTime": "2016-12-31T23:56:56.1979703+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

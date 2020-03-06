@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /dataClassification/exactMatchDataStores/{exactMatchDataStoreId}/sessions/{
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -43,7 +43,7 @@ Do not supply a request body for this method.
 ## Response
 If successful, this action returns a `200 OK` response code and a [exactMatchSession](../resources/exactmatchsession.md) in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -72,11 +72,11 @@ Content-Length: 1031
 {
   "value": {
     "@odata.type": "#microsoft.graph.exactMatchSession",
-    "id": "8a727218-7218-8a72-1872-728a1872728a",
-    "creationDateTime": "2017-01-01T00:02:11.4839005+03:00",
-    "startDateTime": "2016-12-31T23:59:24.7548426+03:00",
-    "lastUpdatedDateTime": "2016-12-31T23:57:46.2985547+03:00",
-    "completionDateTime": "2016-12-31T23:56:58.8026209+03:00",
+    "id": "ac1a4b04-4b04-ac1a-044b-1aac044b1aac",
+    "creationDateTime": "2016-12-31T23:59:35.5241957+03:00",
+    "startDateTime": "2017-01-01T00:00:14.2767228+03:00",
+    "lastUpdatedDateTime": "2017-01-01T00:02:06.1258154+03:00",
+    "completionDateTime": "2017-01-01T00:01:01.0078009+03:00",
     "error": {
       "@odata.type": "microsoft.graph.classificationError"
     },
@@ -91,8 +91,8 @@ Content-Length: 1031
     "remainingBlockCount": 3,
     "totalBlockCount": 15,
     "state": "State value",
-    "uploadCompletionDateTime": "2016-12-31T23:59:20.8844305+03:00",
-    "processingCompletionDateTime": "2017-01-01T00:02:46.9156622+03:00",
+    "uploadCompletionDateTime": "2017-01-01T00:01:09.7896026+03:00",
+    "processingCompletionDateTime": "2016-12-31T23:59:35.7061414+03:00",
     "rowsPerBlock": 12,
     "totalJobCount": 13,
     "remainingJobCount": 1

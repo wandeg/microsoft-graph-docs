@@ -20,14 +20,13 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List items](../api/item-list.md)|[item](../resources/item.md) collection|List properties and relationships of the [item](../resources/item.md) objects.|
 |[Get item](../api/item-get.md)|[item](../resources/item.md)|Read properties and relationships of the [item](../resources/item.md) object.|
-|[Create item](../api/item-create.md)|[item](../resources/item.md)|Create a new [item](../resources/item.md) object.|
-|[Delete item](../api/item-delete.md)|None|Deletes a [item](../resources/item.md).|
 |[Update item](../api/item-update.md)|[item](../resources/item.md)|Update the properties of a [item](../resources/item.md) object.|
 |[List picture](../api/item-list-picture.md)|[picture](../resources/picture.md) collection|Get the pictures from the picture navigation property.|
 |[Add picture](../api/item-post-picture.md)|[picture](../resources/picture.md)|Add picture by posting to the picture collection.|
 |[Get itemCategory](../api/itemcategory-get.md)|[itemCategory](../resources/itemcategory.md)|Read properties and relationships of the [itemCategory](../resources/itemcategory.md) object.|
+|[List items](../api/company-list-items.md)|[item](../resources/item.md) collection|Get the items from the items navigation property.|
+|[Add items](../api/company-post-items.md)|[item](../resources/item.md)|Add items by posting to the items collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -55,7 +54,7 @@ Inherits from [entity](../resources/entity.md)
 |itemCategory|[itemCategory](../resources/itemcategory.md)||
 |picture|[picture](../resources/picture.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

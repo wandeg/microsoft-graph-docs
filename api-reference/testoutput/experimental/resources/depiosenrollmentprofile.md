@@ -20,10 +20,7 @@ Inherits from [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.m
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List depIOSEnrollmentProfiles](../api/depiosenrollmentprofile-list.md)|[depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md) collection|List properties and relationships of the [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md) objects.|
 |[Get depIOSEnrollmentProfile](../api/depiosenrollmentprofile-get.md)|[depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md)|Read properties and relationships of the [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md) object.|
-|[Create depIOSEnrollmentProfile](../api/depiosenrollmentprofile-create.md)|[depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md)|Create a new [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md) object.|
-|[Delete depIOSEnrollmentProfile](../api/depiosenrollmentprofile-delete.md)|None|Deletes a [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md).|
 |[Update depIOSEnrollmentProfile](../api/depiosenrollmentprofile-update.md)|[depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md)|Update the properties of a [depIOSEnrollmentProfile](../resources/depiosenrollmentprofile.md) object.|
 
 ## Properties
@@ -80,7 +77,7 @@ Inherits from [depEnrollmentBaseProfile](../resources/depenrollmentbaseprofile.m
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

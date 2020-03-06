@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List roleAssignments](../api/roleassignment-list.md)|[roleAssignment](../resources/roleassignment.md) collection|List properties and relationships of the [roleAssignment](../resources/roleassignment.md) objects.|
 |[Get roleAssignment](../api/roleassignment-get.md)|[roleAssignment](../resources/roleassignment.md)|Read properties and relationships of the [roleAssignment](../resources/roleassignment.md) object.|
-|[Create roleAssignment](../api/roleassignment-create.md)|[roleAssignment](../resources/roleassignment.md)|Create a new [roleAssignment](../resources/roleassignment.md) object.|
-|[Delete roleAssignment](../api/roleassignment-delete.md)|None|Deletes a [roleAssignment](../resources/roleassignment.md).|
 |[Update roleAssignment](../api/roleassignment-update.md)|[roleAssignment](../resources/roleassignment.md)|Update the properties of a [roleAssignment](../resources/roleassignment.md) object.|
 |[Get roleDefinition](../api/roledefinition-get.md)|[roleDefinition](../resources/roledefinition.md)|Read properties and relationships of the [roleDefinition](../resources/roledefinition.md) object.|
+|[List roleAssignments](../api/roledefinition-list-roleassignments.md)|[roleAssignment](../resources/roleassignment.md) collection|Get the roleAssignments from the roleAssignments navigation property.|
+|[Add roleAssignments](../api/roledefinition-post-roleassignments.md)|[roleAssignment](../resources/roleassignment.md)|Add roleAssignments by posting to the roleAssignments collection.|
 
 ## Properties
 |Property|Type|Description|

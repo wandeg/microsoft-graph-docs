@@ -20,12 +20,11 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerDeltas](../api/plannerdelta-list.md)|[plannerDelta](../resources/plannerdelta.md) collection|List properties and relationships of the [plannerDelta](../resources/plannerdelta.md) objects.|
 |[Get plannerDelta](../api/plannerdelta-get.md)|[plannerDelta](../resources/plannerdelta.md)|Read properties and relationships of the [plannerDelta](../resources/plannerdelta.md) object.|
-|[Create plannerDelta](../api/plannerdelta-create.md)|[plannerDelta](../resources/plannerdelta.md)|Create a new [plannerDelta](../resources/plannerdelta.md) object.|
-|[Delete plannerDelta](../api/plannerdelta-delete.md)|None|Deletes a [plannerDelta](../resources/plannerdelta.md).|
 |[Update plannerDelta](../api/plannerdelta-update.md)|[plannerDelta](../resources/plannerdelta.md)|Update the properties of a [plannerDelta](../resources/plannerdelta.md) object.|
 |[delta](../api/plannerdelta-delta.md)|[plannerDelta](../resources/plannerdelta.md) collection||
+|[List all](../api/planneruser-list-all.md)|[plannerDelta](../resources/plannerdelta.md) collection|Get the plannerDeltas from the all navigation property.|
+|[Create all](../api/planneruser-post-all.md)|[plannerDelta](../resources/plannerdelta.md)|Create all by posting to the all collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -35,7 +34,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

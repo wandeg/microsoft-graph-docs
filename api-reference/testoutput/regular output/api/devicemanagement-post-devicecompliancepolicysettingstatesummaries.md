@@ -34,8 +34,8 @@ POST /deviceManagement/deviceCompliancePolicySettingStateSummaries/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceCompliancePolicySettingStateSummary](../resources/devicecompliancepolicysettingstatesummary.md) object.
@@ -105,7 +105,7 @@ Content-Length: 443
 
 {
   "@odata.type": "#microsoft.graph.deviceCompliancePolicySettingStateSummary",
-  "id": "0080b9a7-b9a7-0080-a7b9-8000a7b98000",
+  "id": "fa44d246-d246-fa44-46d2-44fa46d244fa",
   "setting": "Setting value",
   "settingName": "Setting Name value",
   "platformType": "String",

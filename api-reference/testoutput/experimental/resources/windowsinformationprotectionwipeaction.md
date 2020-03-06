@@ -20,13 +20,8 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List windowsInformationProtectionWipeActions](../api/windowsinformationprotectionwipeaction-list.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) collection|List properties and relationships of the [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) objects.|
 |[Get windowsInformationProtectionWipeAction](../api/windowsinformationprotectionwipeaction-get.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md)|Read properties and relationships of the [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) object.|
-|[Create windowsInformationProtectionWipeAction](../api/windowsinformationprotectionwipeaction-create.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md)|Create a new [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) object.|
-|[Delete windowsInformationProtectionWipeAction](../api/windowsinformationprotectionwipeaction-delete.md)|None|Deletes a [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md).|
 |[Update windowsInformationProtectionWipeAction](../api/windowsinformationprotectionwipeaction-update.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md)|Update the properties of a [windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) object.|
-|[List windowsInformationProtectionWipeActions](../api/intune-apps-deviceappmanagement-list-windowsinformationprotectionwipeactions.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md) collection|Get the windowsInformationProtectionWipeActions from the windowsInformationProtectionWipeActions navigation property.|
-|[Add windowsInformationProtectionWipeActions](../api/intune-apps-deviceappmanagement-post-windowsinformationprotectionwipeactions.md)|[windowsInformationProtectionWipeAction](../resources/windowsinformationprotectionwipeaction.md)|Add windowsInformationProtectionWipeActions by posting to the windowsInformationProtectionWipeActions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +37,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

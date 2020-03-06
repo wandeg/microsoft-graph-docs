@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List plannerGroups](../api/plannergroup-list.md)|[plannerGroup](../resources/plannergroup.md) collection|List properties and relationships of the [plannerGroup](../resources/plannergroup.md) objects.|
 |[Get plannerGroup](../api/plannergroup-get.md)|[plannerGroup](../resources/plannergroup.md)|Read properties and relationships of the [plannerGroup](../resources/plannergroup.md) object.|
-|[Create plannerGroup](../api/plannergroup-create.md)|[plannerGroup](../resources/plannergroup.md)|Create a new [plannerGroup](../resources/plannergroup.md) object.|
-|[Delete plannerGroup](../api/plannergroup-delete.md)|None|Deletes a [plannerGroup](../resources/plannergroup.md).|
 |[Update plannerGroup](../api/plannergroup-update.md)|[plannerGroup](../resources/plannergroup.md)|Update the properties of a [plannerGroup](../resources/plannergroup.md) object.|
 |[List plans](../api/plannergroup-list-plans.md)|[plannerPlan](../resources/plannerplan.md) collection|Get the plannerPlans from the plans navigation property.|
 |[Create plans](../api/plannergroup-post-plans.md)|[plannerPlan](../resources/plannerplan.md)|Create plans by posting to the plans collection.|

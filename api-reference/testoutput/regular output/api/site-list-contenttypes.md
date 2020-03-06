@@ -32,10 +32,13 @@ GET /sites/{sitesId}/contentTypes
 GET /me/joinedTeams/{groupId}/sites/{siteId}/contentTypes
 ```
 
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -73,7 +76,7 @@ Content-Length: 1162
   "value": [
     {
       "@odata.type": "#microsoft.graph.contentType",
-      "id": "4858d896-d896-4858-96d8-584896d85848",
+      "id": "b1763c5c-3c5c-b176-5c3c-76b15c3c76b1",
       "description": "Description value",
       "group": "Group value",
       "hidden": true,

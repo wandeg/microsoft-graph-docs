@@ -34,8 +34,8 @@ POST /me/insights/shared/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [sharedInsight](../resources/sharedinsight.md) object.
@@ -79,7 +79,7 @@ Content-length: 1264
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00",
+    "sharedDateTime": "2017-01-01T00:03:17.0780353+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {
@@ -124,7 +124,7 @@ Content-Length: 1313
 
 {
   "@odata.type": "#microsoft.graph.sharedInsight",
-  "id": "680ad850-d850-680a-50d8-0a6850d80a68",
+  "id": "3f873d31-3d31-3f87-313d-873f313d873f",
   "lastShared": {
     "@odata.type": "microsoft.graph.sharingDetail",
     "sharedBy": {
@@ -133,7 +133,7 @@ Content-Length: 1313
       "id": "Id value",
       "address": "Address value"
     },
-    "sharedDateTime": "2017-01-01T00:00:45.3490645+03:00",
+    "sharedDateTime": "2017-01-01T00:03:17.0780353+03:00",
     "sharingSubject": "Sharing Subject value",
     "sharingType": "Sharing Type value",
     "sharingReference": {

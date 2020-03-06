@@ -20,11 +20,10 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List mentions](../api/mention-list.md)|[mention](../resources/mention.md) collection|List properties and relationships of the [mention](../resources/mention.md) objects.|
 |[Get mention](../api/mention-get.md)|[mention](../resources/mention.md)|Read properties and relationships of the [mention](../resources/mention.md) object.|
-|[Create mention](../api/mention-create.md)|[mention](../resources/mention.md)|Create a new [mention](../resources/mention.md) object.|
-|[Delete mention](../api/mention-delete.md)|None|Deletes a [mention](../resources/mention.md).|
 |[Update mention](../api/mention-update.md)|[mention](../resources/mention.md)|Update the properties of a [mention](../resources/mention.md) object.|
+|[List mentions](../api/post-list-mentions.md)|[mention](../resources/mention.md) collection|Get the mentions from the mentions navigation property.|
+|[Add mentions](../api/post-post-mentions.md)|[mention](../resources/mention.md)|Add mentions by posting to the mentions collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -42,7 +41,7 @@ Inherits from [entity](../resources/entity.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

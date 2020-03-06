@@ -34,7 +34,7 @@ PATCH /me/drive/items/{driveItemId}/workbook/names/{workbookNamedItemId}/workshe
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [workbookChartLegendFormat](../resources/workbookchartlegendformat.md) object.
@@ -83,7 +83,7 @@ Content-Length: 116
 
 {
   "@odata.type": "#microsoft.graph.workbookChartLegendFormat",
-  "id": "ec77063f-063f-ec77-3f06-77ec3f0677ec"
+  "id": "93bef96d-f96d-93be-6df9-be936df9be93"
 }
 ```
 

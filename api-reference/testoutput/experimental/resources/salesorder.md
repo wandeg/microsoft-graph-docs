@@ -20,16 +20,15 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List salesOrders](../api/salesorder-list.md)|[salesOrder](../resources/salesorder.md) collection|List properties and relationships of the [salesOrder](../resources/salesorder.md) objects.|
 |[Get salesOrder](../api/salesorder-get.md)|[salesOrder](../resources/salesorder.md)|Read properties and relationships of the [salesOrder](../resources/salesorder.md) object.|
-|[Create salesOrder](../api/salesorder-create.md)|[salesOrder](../resources/salesorder.md)|Create a new [salesOrder](../resources/salesorder.md) object.|
-|[Delete salesOrder](../api/salesorder-delete.md)|None|Deletes a [salesOrder](../resources/salesorder.md).|
 |[Update salesOrder](../api/salesorder-update.md)|[salesOrder](../resources/salesorder.md)|Update the properties of a [salesOrder](../resources/salesorder.md) object.|
 |[List salesOrderLines](../api/salesorder-list-salesorderlines.md)|[salesOrderLine](../resources/salesorderline.md) collection|Get the salesOrderLines from the salesOrderLines navigation property.|
 |[Add salesOrderLines](../api/salesorder-post-salesorderlines.md)|[salesOrderLine](../resources/salesorderline.md)|Add salesOrderLines by posting to the salesOrderLines collection.|
 |[Get customer](../api/customer-get.md)|[customer](../resources/customer.md)|Read properties and relationships of the [customer](../resources/customer.md) object.|
 |[Get currency](../api/currency-get.md)|[currency](../resources/currency.md)|Read properties and relationships of the [currency](../resources/currency.md) object.|
 |[Get paymentTerm](../api/paymentterm-get.md)|[paymentTerm](../resources/paymentterm.md)|Read properties and relationships of the [paymentTerm](../resources/paymentterm.md) object.|
+|[List salesOrders](../api/company-list-salesorders.md)|[salesOrder](../resources/salesorder.md) collection|Get the salesOrders from the salesOrders navigation property.|
+|[Add salesOrders](../api/company-post-salesorders.md)|[salesOrder](../resources/salesorder.md)|Add salesOrders by posting to the salesOrders collection.|
 
 ## Properties
 |Property|Type|Description|
@@ -75,7 +74,7 @@ Inherits from [entity](../resources/entity.md)
 |paymentTerm|[paymentTerm](../resources/paymentterm.md)||
 |salesOrderLines|[salesOrderLine](../resources/salesorderline.md) collection||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

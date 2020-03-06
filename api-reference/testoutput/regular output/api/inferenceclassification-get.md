@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
+|Authorization|Bearer {token}.Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -75,7 +75,7 @@ Content-Length: 137
 {
   "value": {
     "@odata.type": "#microsoft.graph.inferenceClassification",
-    "id": "85cd8570-8570-85cd-7085-cd857085cd85"
+    "id": "8f8e8724-8724-8f8e-2487-8e8f24878e8f"
   }
 }
 ```

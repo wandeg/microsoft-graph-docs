@@ -22,7 +22,7 @@ One of the following permissions is required to call this API. To learn more, in
 |Delegated (personal Microsoft account)|Not supported.|
 |Application|**TODO: Determine AppOnly scopes **|
 
-## HTTP Request
+## HTTP request
 <!-- {
   "blockType": "ignored"
 }
@@ -34,8 +34,8 @@ POST /me/analytics/activityStatistics/$ref
 ## Request headers
 |Header|Value|
 |:---|:---|
-|Authorization|Bearer {token}|
-|Content-Type|application/json|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [activityStatistics](../resources/activitystatistics.md) object.
@@ -56,7 +56,7 @@ The following table shows the properties that are required when you create the [
 ## Response
 If successful, this method returns a `201 Created` response code and a [activityStatistics](../resources/activitystatistics.md) object in the response body.
 
-## Example
+## Examples
 
 ### Request
 Here is an example of the request.
@@ -68,7 +68,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/localtest/me/analytics/activityStatistics
 Content-type: application/json
-Content-length: 209
+Content-length: 208
 
 {
   "@odata.type": "#microsoft.graph.activityStatistics",
@@ -76,7 +76,7 @@ Content-length: 209
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "-PT1M55.0810357S"
+  "duration": "-PT1M8.1281301S"
 }
 ```
 
@@ -91,16 +91,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 258
+Content-Length: 257
 
 {
   "@odata.type": "#microsoft.graph.activityStatistics",
-  "id": "53e767f4-67f4-53e7-f467-e753f467e753",
+  "id": "ae94736b-736b-ae94-6b73-94ae6b7394ae",
   "activity": "String",
   "startDate": "Date",
   "endDate": "Date",
   "timeZoneUsed": "Time Zone Used value",
-  "duration": "-PT1M55.0810357S"
+  "duration": "-PT1M8.1281301S"
 }
 ```
 

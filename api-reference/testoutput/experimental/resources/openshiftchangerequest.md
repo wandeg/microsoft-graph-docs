@@ -20,7 +20,6 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List openShiftChangeRequests](../api/openshiftchangerequest-list.md)|[openShiftChangeRequest](../resources/openshiftchangerequest.md) collection|List properties and relationships of the [openShiftChangeRequest](../resources/openshiftchangerequest.md) objects.|
 |[Get openShiftChangeRequest](../api/openshiftchangerequest-get.md)|[openShiftChangeRequest](../resources/openshiftchangerequest.md)|Read properties and relationships of the [openShiftChangeRequest](../resources/openshiftchangerequest.md) object.|
 |[approve](../api/openshiftchangerequest-approve.md)|None||
 |[decline](../api/openshiftchangerequest-decline.md)|None||
@@ -47,7 +46,7 @@ Inherits from [scheduleChangeRequest](../resources/schedulechangerequest.md)
 ## Relationships
 None
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",

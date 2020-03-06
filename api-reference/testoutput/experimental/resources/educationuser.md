@@ -20,10 +20,7 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List educationUsers](../api/educationuser-list.md)|[educationUser](../resources/educationuser.md) collection|List properties and relationships of the [educationUser](../resources/educationuser.md) objects.|
 |[Get educationUser](../api/educationuser-get.md)|[educationUser](../resources/educationuser.md)|Read properties and relationships of the [educationUser](../resources/educationuser.md) object.|
-|[Create educationUser](../api/educationuser-create.md)|[educationUser](../resources/educationuser.md)|Create a new [educationUser](../resources/educationuser.md) object.|
-|[Delete educationUser](../api/educationuser-delete.md)|None|Deletes a [educationUser](../resources/educationuser.md).|
 |[Update educationUser](../api/educationuser-update.md)|[educationUser](../resources/educationuser.md)|Update the properties of a [educationUser](../resources/educationuser.md) object.|
 |[delta](../api/educationuser-delta.md)|[educationUser](../resources/educationuser.md) collection||
 |[List assignments](../api/educationuser-list-assignments.md)|[educationAssignment](../resources/educationassignment.md) collection|Get the educationAssignments from the assignments navigation property.|
@@ -84,7 +81,7 @@ Inherits from [entity](../resources/entity.md)
 |taughtClasses|[educationClass](../resources/educationclass.md) collection||
 |user|[user](../resources/user.md)||
 
-## JSON Representation
+## JSON representation
 Here is a JSON representation of the resource.
 <!-- {
   "blockType": "resource",
@@ -101,8 +98,8 @@ Here is a JSON representation of the resource.
   "relatedContacts": [
     {
       "@odata.type": "microsoft.graph.relatedContact",
-      "id": "String",
       "emailAddress": "String",
+      "mobilePhone": "String",
       "relationship": "String",
       "accessConsent": true
     }
@@ -111,11 +108,7 @@ Here is a JSON representation of the resource.
   "middleName": "String",
   "externalSource": "String",
   "residenceAddress": {
-    "@odata.type": "microsoft.graph.physicalAddress",
-    "type": "String",
-    "postOfficeBox": "String",
-    "street": "String",
-    "countryOrRegion": "String"
+    "@odata.type": "microsoft.graph.physicalAddress"
   },
   "mailingAddress": {
     "@odata.type": "microsoft.graph.physicalAddress"
@@ -126,34 +119,32 @@ Here is a JSON representation of the resource.
     "grade": "String",
     "birthDate": "Date",
     "gender": "String",
-    "studentNumber": "String",
-    "externalId": "String"
+    "studentNumber": "String"
   },
   "teacher": {
     "@odata.type": "microsoft.graph.educationTeacher",
     "teacherNumber": "String"
   },
   "createdBy": {
-    "@odata.type": "microsoft.graph.identitySet",
-    "application": {
-      "@odata.type": "microsoft.graph.identity"
-    },
-    "device": {
-      "@odata.type": "microsoft.graph.identity"
-    },
-    "user": {
-      "@odata.type": "microsoft.graph.identity"
-    }
+    "@odata.type": "microsoft.graph.identitySet"
   },
   "accountEnabled": true,
   "assignedLicenses": [
     {
-      "@odata.type": "microsoft.graph.assignedLicense"
+      "@odata.type": "microsoft.graph.assignedLicense",
+      "disabledPlans": [
+        "Guid"
+      ],
+      "skuId": "Guid"
     }
   ],
   "assignedPlans": [
     {
-      "@odata.type": "microsoft.graph.assignedPlan"
+      "@odata.type": "microsoft.graph.assignedPlan",
+      "assignedDateTime": "String (timestamp)",
+      "capabilityStatus": "String",
+      "service": "String",
+      "servicePlanId": "Guid"
     }
   ],
   "businessPhones": [
@@ -167,13 +158,17 @@ Here is a JSON representation of the resource.
   "mobilePhone": "String",
   "passwordPolicies": "String",
   "passwordProfile": {
-    "@odata.type": "microsoft.graph.passwordProfile"
+    "@odata.type": "microsoft.graph.passwordProfile",
+    "password": "String",
+    "forceChangePasswordNextSignIn": true,
+    "forceChangePasswordNextSignInWithMfa": true
   },
   "officeLocation": "String",
   "preferredLanguage": "String",
   "provisionedPlans": [
     {
-      "@odata.type": "microsoft.graph.provisionedPlan"
+      "@odata.type": "microsoft.graph.provisionedPlan",
+      "provisioningStatus": "String"
     }
   ],
   "refreshTokensValidFromDateTime": "String (timestamp)",
