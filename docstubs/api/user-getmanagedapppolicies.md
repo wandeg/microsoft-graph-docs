@@ -1,0 +1,86 @@
+---
+title: "getManagedAppPolicies"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# getManagedAppPolicies
+
+Namespace: microsoft.graph
+
+
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /me/getManagedAppPolicies
+GET /users/{usersId}/getManagedAppPolicies
+```
+
+## Request headers
+|Header|Value|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this function returns a `200 OK` response code and a [managedAppPolicy](../resources/managedapppolicy.md) collection in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "user_getmanagedapppolicies"
+}
+-->
+``` http
+GET https://graph.microsoft.com/localtest/me/getManagedAppPolicies
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.managedapppolicy)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 401
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.managedAppPolicy",
+      "id": "389d762d-762d-389d-2d76-9d382d769d38",
+      "displayName": "Display Name value",
+      "description": "Description value",
+      "createdDateTime": "2016-12-31T23:57:12.4657794+03:00",
+      "lastModifiedDateTime": "2017-01-01T00:02:19.4869777+03:00",
+      "version": "Version value"
+    }
+  ]
+}
+```
+
