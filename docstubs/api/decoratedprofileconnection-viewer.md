@@ -1,0 +1,88 @@
+---
+title: "viewer"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# viewer
+
+Namespace: microsoft.graph
+
+
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /decoratedProfileConnections/viewer
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request URL, provide the following query parameters with values.
+The following table shows the parameters that can be used with this function.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|name|String||
+
+
+
+## Response
+If successful, this function returns a `200 OK` response code and a [DecoratedProfileConnection](../resources/decoratedprofileconnection.md) collection in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "decoratedprofileconnection_viewer"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/decoratedProfileConnections/viewer(name='parameterValue')
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.decoratedprofileconnection)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 193
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.DecoratedProfileConnection",
+      "id": "237bc4c1-c4c1-237b-c1c4-7b23c1c47b23",
+      "relevanceScore": "Double"
+    }
+  ]
+}
+```
+
