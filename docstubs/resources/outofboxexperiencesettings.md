@@ -1,0 +1,48 @@
+---
+title: "outOfBoxExperienceSettings resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+---
+
+# outOfBoxExperienceSettings resource type
+
+
+Namespace: microsoft.graph
+
+
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|deviceUsageType|Enumeration| Possible values are: `singleUser`, `shared`.|
+|hideEscapeLink|Boolean||
+|hideEULA|Boolean||
+|hidePrivacySettings|Boolean||
+|skipKeyboardSelectionPage|Boolean||
+|userType|Enumeration| Possible values are: `administrator`, `standard`.|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.outOfBoxExperienceSettings"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.outOfBoxExperienceSettings",
+  "hidePrivacySettings": true,
+  "hideEULA": true,
+  "userType": "String",
+  "deviceUsageType": "String",
+  "skipKeyboardSelectionPage": true,
+  "hideEscapeLink": true
+}
+```
+
