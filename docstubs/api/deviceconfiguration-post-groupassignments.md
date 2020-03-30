@@ -1,0 +1,97 @@
+---
+title: "Add groupAssignments"
+description: "Add groupAssignments by posting to the groupAssignments collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Add groupAssignments
+
+Namespace: microsoft.graph
+
+Add groupAssignments by posting to the groupAssignments collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments/$ref
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object.
+
+The following table shows the properties that are required when you create the [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|targetGroupId|String||
+|excludeGroup|Boolean||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [deviceConfigurationGroupAssignment](../resources/deviceconfigurationgroupassignment.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_deviceconfigurationgroupassignment_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations/{deviceConfigurationId}/groupAssignments
+Content-type: application/json
+Content-length: 146
+
+{
+  "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
+  "targetGroupId": "Target Group Id value",
+  "excludeGroup": true
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.deviceconfigurationgroupassignment"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 195
+
+{
+  "@odata.type": "#microsoft.graph.deviceConfigurationGroupAssignment",
+  "id": "2926343d-343d-2926-3d34-26293d342629",
+  "targetGroupId": "Target Group Id value",
+  "excludeGroup": true
+}
+```
+

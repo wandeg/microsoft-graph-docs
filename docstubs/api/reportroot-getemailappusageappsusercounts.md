@@ -1,0 +1,99 @@
+---
+title: "getEmailAppUsageAppsUserCounts"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# getEmailAppUsageAppsUserCounts
+
+Namespace: microsoft.graph
+
+
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /reports/getEmailAppUsageAppsUserCounts
+GET /print/reports/{reportRootId}/getEmailAppUsageAppsUserCounts
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request URL, provide the following query parameters with values.
+The following table shows the parameters that can be used with this function.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|period|String||
+
+
+
+## Response
+If successful, this function returns a `200 OK` response code and a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) collection in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "reportroot_getemailappusageappsusercounts"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/reports/getEmailAppUsageAppsUserCounts(period='parameterValue')
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.emailappusageappsusercounts)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 476
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.emailAppUsageAppsUserCounts",
+      "id": "dd608091-8091-dd60-9180-60dd918060dd",
+      "reportRefreshDate": "Date",
+      "mailForMac": 10,
+      "outlookForMac": 13,
+      "outlookForWindows": 1,
+      "outlookForMobile": 0,
+      "otherForMobile": 14,
+      "outlookForWeb": 13,
+      "pop3App": 7,
+      "imap4App": 8,
+      "smtpApp": 7,
+      "reportPeriod": "Report Period value"
+    }
+  ]
+}
+```
+
