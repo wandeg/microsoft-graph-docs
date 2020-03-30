@@ -1,0 +1,81 @@
+---
+title: "Get rbacApplicationMultiple"
+description: "Read properties and relationships of the rbacApplicationMultiple object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Get rbacApplicationMultiple
+
+Namespace: microsoft.graph
+
+Read properties and relationships of the [rbacApplicationMultiple](../resources/rbacapplicationmultiple.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /roleManagement/deviceManagement
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and [rbacApplicationMultiple](../resources/rbacapplicationmultiple.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_rbacapplicationmultiple"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/roleManagement/deviceManagement
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.rbacApplicationMultiple"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 137
+
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.rbacApplicationMultiple",
+    "id": "f9fc0cda-0cda-f9fc-da0c-fcf9da0cfcf9"
+  }
+}
+```
+
