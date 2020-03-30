@@ -1,0 +1,111 @@
+---
+title: "List offerShiftRequests"
+description: "Get the offerShiftRequests from the offerShiftRequests navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List offerShiftRequests
+
+Namespace: microsoft.graph
+
+Get the offerShiftRequests from the offerShiftRequests navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /me/joinedGroups/{groupId}/team/schedule/offerShiftRequests
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [offerShiftRequest](../resources/offershiftrequest.md) objects in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_offershiftrequest"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/me/joinedGroups/{groupId}/team/schedule/offerShiftRequests
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.offershiftrequest)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1344
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.offerShiftRequest",
+      "id": "aaf31c61-1c61-aaf3-611c-f3aa611cf3aa",
+      "createdDateTime": "2017-01-01T00:01:44.2536508+00:00",
+      "lastModifiedDateTime": "2017-01-01T00:03:05.9649885+00:00",
+      "lastModifiedBy": {
+        "@odata.type": "microsoft.graph.identitySet",
+        "application": {
+          "@odata.type": "microsoft.graph.identity",
+          "id": "Id value",
+          "displayName": "Display Name value"
+        },
+        "device": {
+          "@odata.type": "microsoft.graph.identity"
+        },
+        "user": {
+          "@odata.type": "microsoft.graph.identity"
+        }
+      },
+      "assignedTo": "String",
+      "state": "String",
+      "senderMessage": "Sender Message value",
+      "senderDateTime": "2016-12-31T23:56:47.1140844+00:00",
+      "managerActionMessage": "Manager Action Message value",
+      "managerActionDateTime": "2017-01-01T00:01:28.2211043+00:00",
+      "senderUserId": "Sender User Id value",
+      "managerUserId": "Manager User Id value",
+      "recipientActionMessage": "Recipient Action Message value",
+      "recipientActionDateTime": "2016-12-31T23:59:30.8022062+00:00",
+      "senderShiftId": "Sender Shift Id value",
+      "recipientUserId": "Recipient User Id value"
+    }
+  ]
+}
+```
+

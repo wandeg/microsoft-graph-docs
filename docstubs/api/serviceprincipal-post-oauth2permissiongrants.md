@@ -1,0 +1,112 @@
+---
+title: "Create oauth2PermissionGrants"
+description: "Create oauth2PermissionGrants by posting to the oauth2PermissionGrants collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Create oauth2PermissionGrants
+
+Namespace: microsoft.graph
+
+Create oauth2PermissionGrants by posting to the oauth2PermissionGrants collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /servicePrincipals/{servicePrincipalsId}/oauth2PermissionGrants/$ref
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object.
+
+The following table shows the properties that are required when you create the [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|clientId|String||
+|consentType|String||
+|expiryTime|DateTimeOffset||
+|principalId|String||
+|resourceId|String||
+|scope|String||
+|startTime|DateTimeOffset||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [oAuth2PermissionGrant](../resources/oauth2permissiongrant.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_oauth2permissiongrant_from_oauth2permissiongrants"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/servicePrincipals/{servicePrincipalsId}/oauth2PermissionGrants
+Content-type: application/json
+Content-length: 349
+
+{
+  "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
+  "clientId": "Client Id value",
+  "consentType": "Consent Type value",
+  "expiryTime": "2017-01-01T00:02:09.3366832+00:00",
+  "principalId": "Principal Id value",
+  "resourceId": "Resource Id value",
+  "scope": "Scope value",
+  "startTime": "2017-01-01T00:02:01.2841456+00:00"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.oauth2permissiongrant"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 398
+
+{
+  "@odata.type": "#microsoft.graph.oAuth2PermissionGrant",
+  "id": "4371a284-a284-4371-84a2-714384a27143",
+  "clientId": "Client Id value",
+  "consentType": "Consent Type value",
+  "expiryTime": "2017-01-01T00:02:09.3366832+00:00",
+  "principalId": "Principal Id value",
+  "resourceId": "Resource Id value",
+  "scope": "Scope value",
+  "startTime": "2017-01-01T00:02:01.2841456+00:00"
+}
+```
+
