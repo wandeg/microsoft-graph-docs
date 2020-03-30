@@ -1,0 +1,188 @@
+---
+title: "List users"
+description: "Get the educationUsers from the users navigation property."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# List users
+
+Namespace: microsoft.graph
+
+Get the educationUsers from the users navigation property.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /education/users
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [educationUser](../resources/educationuser.md) objects in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_educationuser"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/education/users
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.educationuser)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 3890
+
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.educationUser",
+      "id": "77b1395e-395e-77b1-5e39-b1775e39b177",
+      "relatedContacts": [
+        {
+          "@odata.type": "microsoft.graph.relatedContact",
+          "id": "Id value",
+          "displayName": "Display Name value",
+          "emailAddress": "Email Address value",
+          "mobilePhone": "Mobile Phone value",
+          "relationship": "String",
+          "accessConsent": true
+        }
+      ],
+      "primaryRole": "String",
+      "middleName": "Middle Name value",
+      "externalSource": "String",
+      "residenceAddress": {
+        "@odata.type": "microsoft.graph.physicalAddress",
+        "type": "String",
+        "postOfficeBox": "Post Office Box value",
+        "street": "Street value",
+        "city": "City value",
+        "state": "State value",
+        "countryOrRegion": "Country Or Region value",
+        "postalCode": "Postal Code value"
+      },
+      "mailingAddress": {
+        "@odata.type": "microsoft.graph.physicalAddress"
+      },
+      "student": {
+        "@odata.type": "microsoft.graph.educationStudent",
+        "graduationYear": "Graduation Year value",
+        "grade": "Grade value",
+        "birthDate": "Date",
+        "gender": "String",
+        "studentNumber": "Student Number value",
+        "externalId": "External Id value"
+      },
+      "teacher": {
+        "@odata.type": "microsoft.graph.educationTeacher",
+        "teacherNumber": "Teacher Number value"
+      },
+      "createdBy": {
+        "@odata.type": "microsoft.graph.identitySet",
+        "application": {
+          "@odata.type": "microsoft.graph.identity"
+        },
+        "device": {
+          "@odata.type": "microsoft.graph.identity"
+        },
+        "user": {
+          "@odata.type": "microsoft.graph.identity"
+        }
+      },
+      "accountEnabled": true,
+      "assignedLicenses": [
+        {
+          "@odata.type": "microsoft.graph.assignedLicense",
+          "disabledPlans": [
+            "a7670532-0532-a767-3205-67a7320567a7"
+          ],
+          "skuId": "5e903406-3406-5e90-0634-905e0634905e"
+        }
+      ],
+      "assignedPlans": [
+        {
+          "@odata.type": "microsoft.graph.assignedPlan",
+          "assignedDateTime": "2017-01-01T00:03:00.2256577+03:00",
+          "capabilityStatus": "Capability Status value",
+          "service": "Service value",
+          "servicePlanId": "c7e63634-3634-c7e6-3436-e6c73436e6c7"
+        }
+      ],
+      "businessPhones": [
+        "Business Phones value"
+      ],
+      "department": "Department value",
+      "displayName": "Display Name value",
+      "givenName": "Given Name value",
+      "mail": "Mail value",
+      "mailNickname": "Mail Nickname value",
+      "mobilePhone": "Mobile Phone value",
+      "passwordPolicies": "Password Policies value",
+      "passwordProfile": {
+        "@odata.type": "microsoft.graph.passwordProfile",
+        "password": "Password value",
+        "forceChangePasswordNextSignIn": true,
+        "forceChangePasswordNextSignInWithMfa": true
+      },
+      "officeLocation": "Office Location value",
+      "preferredLanguage": "Preferred Language value",
+      "provisionedPlans": [
+        {
+          "@odata.type": "microsoft.graph.provisionedPlan",
+          "provisioningStatus": "Provisioning Status value"
+        }
+      ],
+      "refreshTokensValidFromDateTime": "2016-12-31T23:57:26.2095535+03:00",
+      "showInAddressList": true,
+      "surname": "Surname value",
+      "usageLocation": "Usage Location value",
+      "userPrincipalName": "User Principal Name value",
+      "userType": "User Type value",
+      "onPremisesInfo": {
+        "@odata.type": "microsoft.graph.educationOnPremisesInfo",
+        "immutableId": "Immutable Id value"
+      }
+    }
+  ]
+}
+```
+

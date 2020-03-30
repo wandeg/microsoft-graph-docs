@@ -1,0 +1,130 @@
+---
+title: "Update deviceManagementExchangeOnPremisesPolicy"
+description: "Update the properties of a deviceManagementExchangeOnPremisesPolicy object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update deviceManagementExchangeOnPremisesPolicy
+
+Namespace: microsoft.graph
+
+Update the properties of a [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /deviceManagement/exchangeOnPremisesPolicy
+PATCH /deviceManagement/exchangeOnPremisesPolicies/{deviceManagementExchangeOnPremisesPolicyId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md) object.
+
+The following table shows the properties that are required when you create the [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|notificationContent|Binary||
+|defaultAccessLevel|Enumeration| Possible values are: `none`, `allow`, `block`, `quarantine`.|
+|accessRules|[deviceManagementExchangeAccessRule](../resources/devicemanagementexchangeaccessrule.md) collection||
+|knownDeviceClasses|[deviceManagementExchangeDeviceClass](../resources/devicemanagementexchangedeviceclass.md) collection||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [deviceManagementExchangeOnPremisesPolicy](../resources/devicemanagementexchangeonpremisespolicy.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_devicemanagementexchangeonpremisespolicy"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/deviceManagement/exchangeOnPremisesPolicy
+Content-type: application/json
+Content-length: 615
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementExchangeOnPremisesPolicy",
+  "notificationContent": "bm90aWZpY2F0aW9uQ29udGVudA==",
+  "defaultAccessLevel": "String",
+  "accessRules": [
+    {
+      "@odata.type": "microsoft.graph.deviceManagementExchangeAccessRule",
+      "deviceClass": {
+        "@odata.type": "microsoft.graph.deviceManagementExchangeDeviceClass",
+        "name": "Name value",
+        "type": "String"
+      },
+      "accessLevel": "String"
+    }
+  ],
+  "knownDeviceClasses": [
+    {
+      "@odata.type": "microsoft.graph.deviceManagementExchangeDeviceClass"
+    }
+  ]
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 664
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementExchangeOnPremisesPolicy",
+  "id": "c1178ec7-8ec7-c117-c78e-17c1c78e17c1",
+  "notificationContent": "bm90aWZpY2F0aW9uQ29udGVudA==",
+  "defaultAccessLevel": "String",
+  "accessRules": [
+    {
+      "@odata.type": "microsoft.graph.deviceManagementExchangeAccessRule",
+      "deviceClass": {
+        "@odata.type": "microsoft.graph.deviceManagementExchangeDeviceClass",
+        "name": "Name value",
+        "type": "String"
+      },
+      "accessLevel": "String"
+    }
+  ],
+  "knownDeviceClasses": [
+    {
+      "@odata.type": "microsoft.graph.deviceManagementExchangeDeviceClass"
+    }
+  ]
+}
+```
+
