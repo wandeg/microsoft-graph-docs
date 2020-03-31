@@ -1,0 +1,166 @@
+---
+title: "Update printConnector"
+description: "Update the properties of a printConnector object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update printConnector
+
+Namespace: microsoft.graph
+
+Update the properties of a [printConnector](../resources/printconnector.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /print/connectors/{printConnectorId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [printConnector](../resources/printconnector.md) object.
+
+The following table shows the properties that are required when you create the [printConnector](../resources/printconnector.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|name|String||
+|fullyQualifiedDomainName|String||
+|operatingSystem|String||
+|appVersion|String||
+|deviceHealth|[deviceHealth](../resources/devicehealth.md)||
+|location|[printerLocation](../resources/printerlocation.md)||
+|registeredDateTime|DateTimeOffset||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [printConnector](../resources/printconnector.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_printconnector"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/print/connectors/{printConnectorId}
+Content-type: application/json
+Content-length: 1190
+
+{
+  "@odata.type": "#microsoft.graph.printConnector",
+  "name": "Name value",
+  "fullyQualifiedDomainName": "Fully Qualified Domain Name value",
+  "operatingSystem": "Operating System value",
+  "appVersion": "App Version value",
+  "deviceHealth": {
+    "@odata.type": "microsoft.graph.deviceHealth",
+    "lastConnectionTime": "2016-12-31T23:59:32.5479094+03:00"
+  },
+  "location": {
+    "@odata.type": "microsoft.graph.printerLocation",
+    "latitude": "Single",
+    "longitude": "Single",
+    "altitudeInMeters": 0,
+    "streetAddress": "Street Address value",
+    "subunit": [
+      "Subunit value"
+    ],
+    "city": "City value",
+    "postalCode": "Postal Code value",
+    "countryOrRegion": "Country Or Region value",
+    "site": "Site value",
+    "building": "Building value",
+    "floorNumber": 11,
+    "floorDescription": "Floor Description value",
+    "roomNumber": 10,
+    "roomDescription": "Room Description value",
+    "organization": [
+      "Organization value"
+    ],
+    "subdivision": [
+      "Subdivision value"
+    ],
+    "stateOrProvince": "State Or Province value"
+  },
+  "registeredDateTime": "2017-01-01T00:01:52.6679327+03:00"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1239
+
+{
+  "@odata.type": "#microsoft.graph.printConnector",
+  "id": "7eca42a4-42a4-7eca-a442-ca7ea442ca7e",
+  "name": "Name value",
+  "fullyQualifiedDomainName": "Fully Qualified Domain Name value",
+  "operatingSystem": "Operating System value",
+  "appVersion": "App Version value",
+  "deviceHealth": {
+    "@odata.type": "microsoft.graph.deviceHealth",
+    "lastConnectionTime": "2016-12-31T23:59:32.5479094+03:00"
+  },
+  "location": {
+    "@odata.type": "microsoft.graph.printerLocation",
+    "latitude": "Single",
+    "longitude": "Single",
+    "altitudeInMeters": 0,
+    "streetAddress": "Street Address value",
+    "subunit": [
+      "Subunit value"
+    ],
+    "city": "City value",
+    "postalCode": "Postal Code value",
+    "countryOrRegion": "Country Or Region value",
+    "site": "Site value",
+    "building": "Building value",
+    "floorNumber": 11,
+    "floorDescription": "Floor Description value",
+    "roomNumber": 10,
+    "roomDescription": "Room Description value",
+    "organization": [
+      "Organization value"
+    ],
+    "subdivision": [
+      "Subdivision value"
+    ],
+    "stateOrProvince": "State Or Province value"
+  },
+  "registeredDateTime": "2017-01-01T00:01:52.6679327+03:00"
+}
+```
+
