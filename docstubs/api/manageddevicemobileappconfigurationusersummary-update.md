@@ -1,0 +1,113 @@
+---
+title: "Update managedDeviceMobileAppConfigurationUserSummary"
+description: "Update the properties of a managedDeviceMobileAppConfigurationUserSummary object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update managedDeviceMobileAppConfigurationUserSummary
+
+Namespace: microsoft.graph
+
+Update the properties of a [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatusSummary
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object.
+
+The following table shows the properties that are required when you create the [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|pendingCount|Int32||
+|notApplicableCount|Int32||
+|successCount|Int32||
+|errorCount|Int32||
+|failedCount|Int32||
+|conflictCount|Int32||
+|lastUpdateDateTime|DateTimeOffset||
+|configurationVersion|Int32||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [managedDeviceMobileAppConfigurationUserSummary](../resources/manageddevicemobileappconfigurationusersummary.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "update_manageddevicemobileappconfigurationusersummary"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/deviceAppManagement/mobileAppConfigurations/{managedDeviceMobileAppConfigurationId}/userStatusSummary
+Content-type: application/json
+Content-length: 321
+
+{
+  "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
+  "pendingCount": 12,
+  "notApplicableCount": 2,
+  "successCount": 12,
+  "errorCount": 10,
+  "failedCount": 11,
+  "conflictCount": 13,
+  "lastUpdateDateTime": "2016-12-31T23:59:35.4120077+03:00",
+  "configurationVersion": 4
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 370
+
+{
+  "@odata.type": "#microsoft.graph.managedDeviceMobileAppConfigurationUserSummary",
+  "id": "c3501685-1685-c350-8516-50c3851650c3",
+  "pendingCount": 12,
+  "notApplicableCount": 2,
+  "successCount": 12,
+  "errorCount": 10,
+  "failedCount": 11,
+  "conflictCount": 13,
+  "lastUpdateDateTime": "2016-12-31T23:59:35.4120077+03:00",
+  "configurationVersion": 4
+}
+```
+
