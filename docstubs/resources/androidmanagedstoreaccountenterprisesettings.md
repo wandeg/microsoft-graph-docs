@@ -1,0 +1,85 @@
+---
+title: "androidManagedStoreAccountEnterpriseSettings resource type"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: resourcePageType
+---
+
+# androidManagedStoreAccountEnterpriseSettings resource type
+
+
+Namespace: microsoft.graph
+
+
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-get.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md)|Read properties and relationships of the [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
+|[Update androidManagedStoreAccountEnterpriseSettings](../api/androidmanagedstoreaccountenterprisesettings-update.md)|[androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md)|Update the properties of a [androidManagedStoreAccountEnterpriseSettings](../resources/androidmanagedstoreaccountenterprisesettings.md) object.|
+|[approveApps](../api/androidmanagedstoreaccountenterprisesettings-approveapps.md)|None||
+|[requestSignupUrl](../api/androidmanagedstoreaccountenterprisesettings-requestsignupurl.md)|String||
+|[completeSignup](../api/androidmanagedstoreaccountenterprisesettings-completesignup.md)|None||
+|[syncApps](../api/androidmanagedstoreaccountenterprisesettings-syncapps.md)|None||
+|[unbind](../api/androidmanagedstoreaccountenterprisesettings-unbind.md)|None||
+|[createGooglePlayWebToken](../api/androidmanagedstoreaccountenterprisesettings-creategoogleplaywebtoken.md)|String||
+|[setAndroidDeviceOwnerFullyManagedEnrollmentState](../api/androidmanagedstoreaccountenterprisesettings-setandroiddeviceownerfullymanagedenrollmentstate.md)|None||
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|androidDeviceOwnerFullyManagedEnrollmentEnabled|Boolean||
+|bindStatus|Enumeration| Possible values are: `notBound`, `bound`, `boundAndValidated`, `unbinding`.|
+|companyCodes|[androidEnrollmentCompanyCode](../resources/androidenrollmentcompanycode.md) collection||
+|deviceOwnerManagementEnabled|Boolean||
+|enrollmentTarget|Enumeration| Possible values are: `none`, `all`, `targeted`, `targetedAsEnrollmentRestrictions`.|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|lastAppSyncDateTime|DateTimeOffset||
+|lastAppSyncStatus|Enumeration| Possible values are: `success`, `credentialsNotValid`, `androidForWorkApiError`, `managementServiceError`, `unknownError`, `none`.|
+|lastModifiedDateTime|DateTimeOffset||
+|ownerOrganizationName|String||
+|ownerUserPrincipalName|String||
+|targetGroupIds|String collection||
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.androidManagedStoreAccountEnterpriseSettings",
+  "id": "String (identifier)",
+  "bindStatus": "String",
+  "lastAppSyncDateTime": "String (timestamp)",
+  "lastAppSyncStatus": "String",
+  "ownerUserPrincipalName": "String",
+  "ownerOrganizationName": "String",
+  "lastModifiedDateTime": "String (timestamp)",
+  "enrollmentTarget": "String",
+  "targetGroupIds": [
+    "String"
+  ],
+  "deviceOwnerManagementEnabled": true,
+  "companyCodes": [
+    {
+      "@odata.type": "microsoft.graph.androidEnrollmentCompanyCode"
+    }
+  ],
+  "androidDeviceOwnerFullyManagedEnrollmentEnabled": true
+}
+```
+
