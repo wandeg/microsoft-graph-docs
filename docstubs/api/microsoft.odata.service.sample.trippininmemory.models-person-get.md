@@ -1,0 +1,110 @@
+---
+title: "Get Person"
+description: "Read properties and relationships of the Person object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Get Person
+
+Namespace: Microsoft.OData.Service.Sample.TrippinInMemory.Models
+
+Read properties and relationships of the [Person](../resources/microsoft.odata.service.sample.trippininmemory.models-person.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /Me
+GET /People/{PeopleId}
+GET /NewComePeople/{NewComePeopleId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and [Person](../resources/microsoft.odata.service.sample.trippininmemory.models-person.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_person"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/Me
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "Microsoft.OData.Service.Sample.TrippinInMemory.Models.Person"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 952
+
+{
+  "value": {
+    "@odata.type": "#Microsoft.OData.Service.Sample.TrippinInMemory.Models.Person",
+    "UserName": "User Name value",
+    "FirstName": "First Name value",
+    "LastName": "Last Name value",
+    "MiddleName": "Middle Name value",
+    "Gender": "String",
+    "Age": 3,
+    "Emails": [
+      "Emails value"
+    ],
+    "AddressInfo": [
+      {
+        "@odata.type": "Microsoft.OData.Service.Sample.TrippinInMemory.Models.Location",
+        "Address": "Address value",
+        "City": {
+          "@odata.type": "Microsoft.OData.Service.Sample.TrippinInMemory.Models.City",
+          "Name": "Name value",
+          "CountryRegion": "Country Region value",
+          "Region": "Region value"
+        }
+      }
+    ],
+    "HomeAddress": {
+      "@odata.type": "Microsoft.OData.Service.Sample.TrippinInMemory.Models.Location"
+    },
+    "FavoriteFeature": "String",
+    "Features": [
+      "String"
+    ]
+  }
+}
+```
+
