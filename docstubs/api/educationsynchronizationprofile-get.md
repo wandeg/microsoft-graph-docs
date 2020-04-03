@@ -1,0 +1,99 @@
+---
+title: "Get educationSynchronizationProfile"
+description: "Read properties and relationships of the educationSynchronizationProfile object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Get educationSynchronizationProfile
+
+Namespace: microsoft.graph
+
+Read properties and relationships of the [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /education/synchronizationProfiles/{educationSynchronizationProfileId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and [educationSynchronizationProfile](../resources/educationsynchronizationprofile.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_educationsynchronizationprofile"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/education/synchronizationProfiles/{educationSynchronizationProfileId}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.educationSynchronizationProfile"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 736
+
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.educationSynchronizationProfile",
+    "id": "38548bd1-8bd1-3854-d18b-5438d18b5438",
+    "displayName": "Display Name value",
+    "dataProvider": {
+      "@odata.type": "microsoft.graph.educationSynchronizationDataProvider"
+    },
+    "identitySynchronizationConfiguration": {
+      "@odata.type": "microsoft.graph.educationIdentitySynchronizationConfiguration"
+    },
+    "licensesToAssign": [
+      {
+        "@odata.type": "microsoft.graph.educationSynchronizationLicenseAssignment",
+        "appliesTo": "String",
+        "skuIds": [
+          "Sku Ids value"
+        ]
+      }
+    ],
+    "state": "String",
+    "handleSpecialCharacterConstraint": true
+  }
+}
+```
+

@@ -1,0 +1,106 @@
+---
+title: "Add deviceRunStates"
+description: "Add deviceRunStates by posting to the deviceRunStates collection."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Add deviceRunStates
+
+Namespace: microsoft.graph
+
+Add deviceRunStates by posting to the deviceRunStates collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/deviceRunStates/$ref
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object.
+
+The following table shows the properties that are required when you create the [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|runState|Enumeration| Possible values are: `unknown`, `success`, `fail`, `scriptError`, `pending`, `notApplicable`.|
+|resultMessage|String||
+|lastStateUpdateDateTime|DateTimeOffset||
+|errorCode|Int32||
+|errorDescription|String||
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [deviceManagementScriptDeviceState](../resources/devicemanagementscriptdevicestate.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "create_devicemanagementscriptdevicestate_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/deviceManagement/deviceManagementScripts/{deviceManagementScriptId}/deviceRunStates
+Content-type: application/json
+Content-length: 280
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
+  "runState": "String",
+  "resultMessage": "Result Message value",
+  "lastStateUpdateDateTime": "2016-12-31T23:59:05.3254639+00:00",
+  "errorCode": 9,
+  "errorDescription": "Error Description value"
+}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.devicemanagementscriptdevicestate"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+Content-Length: 329
+
+{
+  "@odata.type": "#microsoft.graph.deviceManagementScriptDeviceState",
+  "id": "20eb8987-8987-20eb-8789-eb208789eb20",
+  "runState": "String",
+  "resultMessage": "Result Message value",
+  "lastStateUpdateDateTime": "2016-12-31T23:59:05.3254639+00:00",
+  "errorCode": 9,
+  "errorDescription": "Error Description value"
+}
+```
+
