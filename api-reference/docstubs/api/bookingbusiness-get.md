@@ -1,0 +1,120 @@
+---
+title: "Get bookingBusiness"
+description: "Read properties and relationships of the bookingBusiness object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Get bookingBusiness
+
+Namespace: microsoft.graph
+
+Read properties and relationships of the [bookingBusiness](../resources/bookingbusiness.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /bookingBusinesses/{bookingBusinessesId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and [bookingBusiness](../resources/bookingbusiness.md) object in the response body.
+
+## Examples
+
+### Request
+Here is an example of the request.
+<!-- {
+  "blockType": "request",
+  "name": "get_bookingbusiness"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/bookingBusinesses/{bookingBusinessesId}
+```
+
+### Response
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.bookingBusiness"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 1463
+
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.bookingBusiness",
+    "id": "ee229f72-9f72-ee22-729f-22ee729f22ee",
+    "displayName": "Display Name value",
+    "businessType": "Business Type value",
+    "address": {
+      "@odata.type": "microsoft.graph.physicalAddress",
+      "type": "String",
+      "postOfficeBox": "Post Office Box value",
+      "street": "Street value",
+      "city": "City value",
+      "state": "State value",
+      "countryOrRegion": "Country Or Region value",
+      "postalCode": "Postal Code value"
+    },
+    "phone": "Phone value",
+    "email": "Email value",
+    "webSiteUrl": "https://example.com/webSiteUrl/",
+    "defaultCurrencyIso": "Default Currency Iso value",
+    "businessHours": [
+      {
+        "@odata.type": "microsoft.graph.bookingWorkHours",
+        "day": "String",
+        "timeSlots": [
+          {
+            "@odata.type": "microsoft.graph.bookingWorkTimeSlot",
+            "start": "11:59:31.2520000",
+            "end": "11:56:43.2870000"
+          }
+        ]
+      }
+    ],
+    "schedulingPolicy": {
+      "@odata.type": "microsoft.graph.bookingSchedulingPolicy",
+      "timeSlotInterval": "PT1M14.732455S",
+      "minimumLeadTime": "-PT1M30.7249941S",
+      "maximumAdvance": "-PT2M47.6822192S",
+      "sendConfirmationsToOwner": true,
+      "allowStaffSelection": true
+    },
+    "isPublished": true,
+    "publicUrl": "https://example.com/publicUrl/"
+  }
+}
+```
+
