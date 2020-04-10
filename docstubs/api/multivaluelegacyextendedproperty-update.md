@@ -1,0 +1,103 @@
+---
+title: "Update multiValueLegacyExtendedProperty"
+description: "Update the properties of a multiValueLegacyExtendedProperty object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update multiValueLegacyExtendedProperty
+
+Namespace: microsoft.graph
+
+Update the properties of a [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/contacts/{contactId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/messages/{messageId}/event/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/mailFolders/{mailFolderId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/contactFolders/{contactFolderId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/messages/{messageId}/event/calendar/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/{outlookTaskFolderId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/outlook/taskGroups/{outlookTaskGroupId}/taskFolders/{outlookTaskFolderId}/tasks/{outlookTaskId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+PATCH /me/joinedGroups/{groupId}/conversations/{conversationId}/threads/{conversationThreadId}/posts/{postId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
+
+The following table shows the properties that are required when you create the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|value|String collection||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_multivaluelegacyextendedproperty"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/me/messages/{messageId}/multiValueExtendedProperties/{multiValueLegacyExtendedPropertyId}
+Content-type: application/json
+Content-length: 113
+
+{
+  "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
+  "value": [
+    "Value value"
+  ]
+}
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 162
+
+{
+  "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
+  "id": "b7f7f877-f877-b7f7-77f8-f7b777f8f7b7",
+  "value": [
+    "Value value"
+  ]
+}
+```
+

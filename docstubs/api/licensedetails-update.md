@@ -1,0 +1,115 @@
+---
+title: "Update licenseDetails"
+description: "Update the properties of a licenseDetails object."
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update licenseDetails
+
+Namespace: microsoft.graph
+
+Update the properties of a [licenseDetails](../resources/licensedetails.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /me/licenseDetails/{licenseDetailsId}
+PATCH /users/{usersId}/licenseDetails/{licenseDetailsId}
+PATCH /servicePrincipals/{servicePrincipalsId}/licenseDetails/{licenseDetailsId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request body, supply a JSON representation for the [licenseDetails](../resources/licensedetails.md) object.
+
+The following table shows the properties that are required when you create the [licenseDetails](../resources/licensedetails.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String| Inherited from [entity](../resources/entity.md)|
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
+|skuId|Guid||
+|skuPartNumber|String||
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [licenseDetails](../resources/licensedetails.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_licensedetails"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/me/licenseDetails/{licenseDetailsId}
+Content-type: application/json
+Content-length: 465
+
+{
+  "@odata.type": "#microsoft.graph.licenseDetails",
+  "servicePlans": [
+    {
+      "@odata.type": "microsoft.graph.servicePlanInfo",
+      "servicePlanId": "439cd6b6-d6b6-439c-b6d6-9c43b6d69c43",
+      "servicePlanName": "Service Plan Name value",
+      "provisioningStatus": "Provisioning Status value",
+      "appliesTo": "Applies To value"
+    }
+  ],
+  "skuId": "860ff1b8-f1b8-860f-b8f1-0f86b8f10f86",
+  "skuPartNumber": "Sku Part Number value"
+}
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 514
+
+{
+  "@odata.type": "#microsoft.graph.licenseDetails",
+  "id": "ddb8f182-f182-ddb8-82f1-b8dd82f1b8dd",
+  "servicePlans": [
+    {
+      "@odata.type": "microsoft.graph.servicePlanInfo",
+      "servicePlanId": "439cd6b6-d6b6-439c-b6d6-9c43b6d69c43",
+      "servicePlanName": "Service Plan Name value",
+      "provisioningStatus": "Provisioning Status value",
+      "appliesTo": "Applies To value"
+    }
+  ],
+  "skuId": "860ff1b8-f1b8-860f-b8f1-0f86b8f10f86",
+  "skuPartNumber": "Sku Part Number value"
+}
+```
+

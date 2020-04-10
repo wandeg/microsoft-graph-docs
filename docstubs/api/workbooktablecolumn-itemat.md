@@ -1,0 +1,89 @@
+---
+title: "workbookTableColumn: itemAt"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# itemAt
+
+Namespace: microsoft.graph
+
+
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/itemAt
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+
+## Request body
+In the request URL, provide the following query parameters with values.
+The following table shows the parameters that can be used with this function.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|index|Int32||
+
+
+
+## Response
+If successful, this function returns a `200 OK` response code and a [workbookTableColumn](../resources/workbooktablecolumn.md) in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "workbooktablecolumn_itemat"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook/names/{workbookNamedItemId}/worksheet/tables/{workbookTableId}/columns/itemAt(index=5)
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.workbooktablecolumn"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 247
+
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.workbookTableColumn",
+    "id": "5c7c3d2c-3d2c-5c7c-2c3d-7c5c2c3d7c5c",
+    "index": 5,
+    "name": "Name value",
+    "values": {
+      "@odata.type": "microsoft.graph.Json"
+    }
+  }
+}
+```
+

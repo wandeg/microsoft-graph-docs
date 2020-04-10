@@ -1,0 +1,101 @@
+---
+title: "event: forward"
+description: ""
+author: ""
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# forward
+
+Namespace: microsoft.graph
+
+
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Determine scopes **|
+|Delegated (personal Microsoft account)|Not supported.|
+|Application|**TODO: Determine AppOnly scopes **|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /me/events/{eventId}/forward
+POST /me/calendarView/{eventId}/forward
+POST /me/messages/{messageId}/event/forward
+POST /users/{usersId}/events/{eventId}/forward
+POST /groups/{groupsId}/events/{eventId}/forward
+POST /users/{usersId}/calendarView/{eventId}/forward
+POST /groups/{groupsId}/calendarView/{eventId}/forward
+POST /me/joinedGroups/{groupId}/events/{eventId}/forward
+POST /me/joinedGroups/{groupId}/calendarView/{eventId}/forward
+POST /me/messages/{messageId}/event/instances/{eventId}/forward
+POST /me/messages/{messageId}/event/calendar/events/{eventId}/forward
+POST /me/messages/{messageId}/microsoft.graph.eventMessage/event/forward
+POST /me/messages/{messageId}/event/calendar/calendarView/{eventId}/forward
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}.Required|
+|Content-Type|application/json.Required|
+
+## Request body
+In the request body, supply JSON representation of the parameters.
+
+The following table shows the parameters that can be used with this action.
+
+|Property|Type|Description|
+|:---|:---|:---|
+|ToRecipients|[recipient](../resources/recipient.md) collection||
+|Comment|String||
+
+
+
+## Response
+If successful, this action returns a `204 No Content` response code.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "event_forward"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/me/events/{eventId}/forward
+
+Content-type: application/json
+Content-length: 125
+
+{
+  "ToRecipients": [
+    {
+      "@odata.type": "microsoft.graph.recipient"
+    }
+  ],
+  "Comment": "Comment value"
+}
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 204 No Content
+```
+
