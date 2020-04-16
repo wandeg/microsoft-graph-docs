@@ -1,26 +1,26 @@
 ---
-title: "Add sessions"
-description: "Add sessions by posting to the sessions collection."
-author: ""
+title: "Create sessions"
+description: "Create a new sessions object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add sessions
+# Create sessions
 
 Namespace: microsoft.graph.callRecords
 
-Add sessions by posting to the sessions collection.
+Create a new sessions object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /communications/callRecords/{callRecordId}/sessions/$ref
+POST /communications/callRecords/{callRecordId}/sessions
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [session](../resources/callrecords-session.md) object.
@@ -44,13 +44,13 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
-|modalities|Enumeration collection| Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `screenSharing`, `unknownFutureValue`.|
-|startDateTime|DateTimeOffset||
-|endDateTime|DateTimeOffset||
-|caller|[endpoint](../resources/callrecords-endpoint.md)||
-|callee|[endpoint](../resources/callrecords-endpoint.md)||
-|failureInfo|[failureInfo](../resources/callrecords-failureinfo.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/callrecords-entity.md)|
+|modalities|modality collection|**TODO: Add Description**. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `screenSharing`, `unknownFutureValue`.|
+|startDateTime|DateTimeOffset|**TODO: Add Description**|
+|endDateTime|DateTimeOffset|**TODO: Add Description**|
+|caller|[endpoint](../resources/callrecords-endpoint.md)|**TODO: Add Description**|
+|callee|[endpoint](../resources/callrecords-endpoint.md)|**TODO: Add Description**|
+|failureInfo|[failureInfo](../resources/callrecords-failureinfo.md)|**TODO: Add Description**|
 
 
 
@@ -60,7 +60,6 @@ If successful, this method returns a `201 Created` response code and a [session]
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_session_from_"
@@ -68,7 +67,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/communications/callRecords/{callRecordId}/sessions
-Content-type: application/json
+Content-Type: application/json
 Content-length: 707
 
 {
@@ -76,8 +75,8 @@ Content-length: 707
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-  "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {
@@ -98,7 +97,7 @@ Content-length: 707
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -108,16 +107,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 756
-
 {
   "@odata.type": "#microsoft.graph.callRecords.session",
-  "id": "388bebb0-ebb0-388b-b0eb-8b38b0eb8b38",
+  "id": "d4748e05-8e05-d474-058e-74d4058e74d4",
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-  "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
   "caller": {
     "@odata.type": "microsoft.graph.callRecords.endpoint",
     "userAgent": {

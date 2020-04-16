@@ -1,7 +1,7 @@
 ---
 title: "List taskGroups"
 description: "Get the outlookTaskGroups from the taskGroups navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_outlooktaskgroup"
@@ -59,7 +58,7 @@ GET https://graph.microsoft.com/beta/me/outlook/taskGroups
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -69,17 +68,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 307
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskGroup",
-      "id": "308b7f4a-7f4a-308b-4a7f-8b304a7f8b30",
+      "id": "47446577-6577-4744-7765-444777654447",
       "changeKey": "Change Key value",
       "isDefaultGroup": true,
       "name": "Name value",
-      "groupKey": "72e388d5-88d5-72e3-d588-e372d588e372"
+      "groupKey": "7971407f-407f-7971-7f40-71797f407179"
     }
   ]
 }

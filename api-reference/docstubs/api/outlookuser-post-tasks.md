@@ -1,26 +1,26 @@
 ---
-title: "Add tasks"
-description: "Add tasks by posting to the tasks collection."
-author: ""
+title: "Create tasks"
+description: "Create a new tasks object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add tasks
+# Create tasks
 
 Namespace: microsoft.graph
 
-Add tasks by posting to the tasks collection.
+Create a new tasks object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/outlook/tasks/$ref
+POST /me/outlook/tasks
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookTask](../resources/outlooktask.md) object.
@@ -44,36 +44,35 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
-|assignedTo|String||
-|body|[itemBody](../resources/itembody.md)||
-|completedDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|dueDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|hasAttachments|Boolean||
-|importance|Enumeration| Possible values are: `low`, `normal`, `high`.|
-|isReminderOn|Boolean||
-|owner|String||
-|parentFolderId|String||
-|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
-|reminderDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|sensitivity|Enumeration| Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|status|Enumeration| Possible values are: `notStarted`, `inProgress`, `completed`, `waitingOnOthers`, `deferred`.|
-|subject|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|assignedTo|String|**TODO: Add Description**|
+|body|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|completedDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|dueDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|hasAttachments|Boolean|**TODO: Add Description**|
+|importance|importance|**TODO: Add Description**. Possible values are: `low`, `normal`, `high`.|
+|isReminderOn|Boolean|**TODO: Add Description**|
+|owner|String|**TODO: Add Description**|
+|parentFolderId|String|**TODO: Add Description**|
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)|**TODO: Add Description**|
+|reminderDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|sensitivity|sensitivity|**TODO: Add Description**. Possible values are: `normal`, `personal`, `private`, `confidential`.|
+|startDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|status|taskStatus|**TODO: Add Description**. Possible values are: `notStarted`, `inProgress`, `completed`, `waitingOnOthers`, `deferred`.|
+|subject|String|**TODO: Add Description**|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [outlookTask](../resources/outlooktask.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [outlookTask](../resources/outlooktask.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_outlooktask_from_"
@@ -81,7 +80,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/outlook/tasks
-Content-type: application/json
+Content-Type: application/json
 Content-length: 1570
 
 {
@@ -145,7 +144,7 @@ Content-length: 1570
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -155,13 +154,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1742
-
 {
   "@odata.type": "#microsoft.graph.outlookTask",
-  "id": "2ba3e3d9-e3d9-2ba3-d9e3-a32bd9e3a32b",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "id": "0555e501-e501-0555-01e5-550501e55505",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"

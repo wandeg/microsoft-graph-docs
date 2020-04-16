@@ -1,26 +1,26 @@
 ---
-title: "Add licenseDetails"
-description: "Add licenseDetails by posting to the licenseDetails collection."
-author: ""
+title: "Create licenseDetails"
+description: "Create a new licenseDetails object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add licenseDetails
+# Create licenseDetails
 
 Namespace: microsoft.graph
 
-Add licenseDetails by posting to the licenseDetails collection.
+Create a new licenseDetails object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/licenseDetails/$ref
-POST /users/{usersId}/licenseDetails/$ref
+POST /me/licenseDetails
+POST /users/{usersId}/licenseDetails
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [licenseDetails](../resources/licensedetails.md) object.
@@ -45,10 +45,10 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection||
-|skuId|Guid||
-|skuPartNumber|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection|**TODO: Add Description**|
+|skuId|Guid|**TODO: Add Description**|
+|skuPartNumber|String|**TODO: Add Description**|
 
 
 
@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [licenseD
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_licensedetails_from_"
@@ -66,7 +65,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/licenseDetails
-Content-type: application/json
+Content-Type: application/json
 Content-length: 465
 
 {
@@ -74,19 +73,19 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "164ff6de-f6de-164f-def6-4f16def64f16",
+      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "9d681946-1946-9d68-4619-689d4619689d",
+  "skuId": "220e6177-6177-220e-7761-0e2277610e22",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -96,21 +95,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 514
-
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "14abdc57-dc57-14ab-57dc-ab1457dcab14",
+  "id": "e8f5bae1-bae1-e8f5-e1ba-f5e8e1baf5e8",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "164ff6de-f6de-164f-def6-4f16def64f16",
+      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "9d681946-1946-9d68-4619-689d4619689d",
+  "skuId": "220e6177-6177-220e-7761-0e2277610e22",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

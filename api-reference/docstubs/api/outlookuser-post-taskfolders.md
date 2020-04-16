@@ -1,26 +1,26 @@
 ---
-title: "Add taskFolders"
-description: "Add taskFolders by posting to the taskFolders collection."
-author: ""
+title: "Create taskFolders"
+description: "Create a new taskFolders object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add taskFolders
+# Create taskFolders
 
 Namespace: microsoft.graph
 
-Add taskFolders by posting to the taskFolders collection.
+Create a new taskFolders object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/outlook/taskFolders/$ref
+POST /me/outlook/taskFolders
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookTaskFolder](../resources/outlooktaskfolder.md) object.
@@ -44,21 +44,20 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|changeKey|String||
-|name|String||
-|isDefaultFolder|Boolean||
-|parentGroupKey|Guid||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|changeKey|String|**TODO: Add Description**|
+|name|String|**TODO: Add Description**|
+|isDefaultFolder|Boolean|**TODO: Add Description**|
+|parentGroupKey|Guid|**TODO: Add Description**|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [outlookTaskFolder](../resources/outlooktaskfolder.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [outlookTaskFolder](../resources/outlooktaskfolder.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_outlooktaskfolder_from_"
@@ -66,7 +65,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/outlook/taskFolders
-Content-type: application/json
+Content-Type: application/json
 Content-length: 209
 
 {
@@ -74,12 +73,12 @@ Content-length: 209
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "bb6a0632-0632-bb6a-3206-6abb32066abb"
+  "parentGroupKey": "7c1f1401-1401-7c1f-0114-1f7c01141f7c"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -89,15 +88,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 258
-
 {
   "@odata.type": "#microsoft.graph.outlookTaskFolder",
-  "id": "cd330c2c-0c2c-cd33-2c0c-33cd2c0c33cd",
+  "id": "ef51946b-946b-ef51-6b94-51ef6b9451ef",
   "changeKey": "Change Key value",
   "name": "Name value",
   "isDefaultFolder": true,
-  "parentGroupKey": "bb6a0632-0632-bb6a-3206-6abb32066abb"
+  "parentGroupKey": "7c1f1401-1401-7c1f-0114-1f7c01141f7c"
 }
 ```
 

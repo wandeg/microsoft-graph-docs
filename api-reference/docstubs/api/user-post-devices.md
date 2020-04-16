@@ -1,26 +1,26 @@
 ---
-title: "Add devices"
-description: "Add devices by posting to the devices collection."
-author: ""
+title: "Create devices"
+description: "Create a new devices object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add devices
+# Create devices
 
 Namespace: microsoft.graph
 
-Add devices by posting to the devices collection.
+Create a new devices object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/devices/$ref
-POST /users/{usersId}/devices/$ref
+POST /me/devices
+POST /users/{usersId}/devices
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [device](../resources/device.md) object.
@@ -45,32 +45,32 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
-|accountEnabled|Boolean||
-|alternativeSecurityIds|[alternativeSecurityId](../resources/alternativesecurityid.md) collection||
-|approximateLastSignInDateTime|DateTimeOffset||
-|complianceExpirationDateTime|DateTimeOffset||
-|deviceId|String||
-|deviceMetadata|String||
-|deviceVersion|Int32||
-|displayName|String||
-|isCompliant|Boolean||
-|isManaged|Boolean||
-|onPremisesLastSyncDateTime|DateTimeOffset||
-|onPremisesSyncEnabled|Boolean||
-|operatingSystem|String||
-|operatingSystemVersion|String||
-|physicalIds|String collection||
-|profileType|String||
-|systemLabels|String collection||
-|trustType|String||
-|Name|String||
-|Manufacturer|String||
-|Model|String||
-|Kind|String||
-|Status|String||
-|Platform|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [directoryObject](../resources/directoryobject.md)|
+|accountEnabled|Boolean|**TODO: Add Description**|
+|alternativeSecurityIds|[alternativeSecurityId](../resources/alternativesecurityid.md) collection|**TODO: Add Description**|
+|approximateLastSignInDateTime|DateTimeOffset|**TODO: Add Description**|
+|complianceExpirationDateTime|DateTimeOffset|**TODO: Add Description**|
+|deviceId|String|**TODO: Add Description**|
+|deviceMetadata|String|**TODO: Add Description**|
+|deviceVersion|Int32|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|isCompliant|Boolean|**TODO: Add Description**|
+|isManaged|Boolean|**TODO: Add Description**|
+|onPremisesLastSyncDateTime|DateTimeOffset|**TODO: Add Description**|
+|onPremisesSyncEnabled|Boolean|**TODO: Add Description**|
+|operatingSystem|String|**TODO: Add Description**|
+|operatingSystemVersion|String|**TODO: Add Description**|
+|physicalIds|String collection|**TODO: Add Description**|
+|profileType|String|**TODO: Add Description**|
+|systemLabels|String collection|**TODO: Add Description**|
+|trustType|String|**TODO: Add Description**|
+|Name|String|**TODO: Add Description**|
+|Manufacturer|String|**TODO: Add Description**|
+|Model|String|**TODO: Add Description**|
+|Kind|String|**TODO: Add Description**|
+|Status|String|**TODO: Add Description**|
+|Platform|String|**TODO: Add Description**|
 
 
 
@@ -80,7 +80,6 @@ If successful, this method returns a `201 Created` response code and a [device](
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_device_from_devices"
@@ -88,12 +87,12 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/devices
-Content-type: application/json
-Content-length: 1252
+Content-Type: application/json
+Content-length: 1253
 
 {
   "@odata.type": "#microsoft.graph.device",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -103,15 +102,15 @@ Content-length: 1252
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2017-01-01T00:01:29.5427149+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:02:32.142331+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:59:19.2749988+03:00",
+  "complianceExpirationDateTime": "2017-01-01T00:03:14.2914635+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
   "displayName": "Display Name value",
   "isCompliant": true,
   "isManaged": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",
@@ -133,7 +132,7 @@ Content-length: 1252
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -143,12 +142,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1301
-
 {
   "@odata.type": "#microsoft.graph.device",
-  "id": "76548e54-8e54-7654-548e-5476548e5476",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "id": "bb7a2033-2033-bb7a-3320-7abb33207abb",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "accountEnabled": true,
   "alternativeSecurityIds": [
     {
@@ -158,15 +155,15 @@ Content-Length: 1301
       "key": "a2V5"
     }
   ],
-  "approximateLastSignInDateTime": "2017-01-01T00:01:29.5427149+03:00",
-  "complianceExpirationDateTime": "2017-01-01T00:02:32.142331+03:00",
+  "approximateLastSignInDateTime": "2016-12-31T23:59:19.2749988+03:00",
+  "complianceExpirationDateTime": "2017-01-01T00:03:14.2914635+03:00",
   "deviceId": "Device Id value",
   "deviceMetadata": "Device Metadata value",
   "deviceVersion": 13,
   "displayName": "Display Name value",
   "isCompliant": true,
   "isManaged": true,
-  "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
   "onPremisesSyncEnabled": true,
   "operatingSystem": "Operating System value",
   "operatingSystemVersion": "Operating System Version value",

@@ -1,26 +1,26 @@
 ---
-title: "Create managedAppRegistrations"
-description: "Create managedAppRegistrations by posting to the managedAppRegistrations collection."
-author: ""
+title: "Add managedAppRegistrations"
+description: "Add managedAppRegistrations by posting to the managedAppRegistrations collection."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Create managedAppRegistrations
+# Add managedAppRegistrations
 
 Namespace: microsoft.graph
 
-Create managedAppRegistrations by posting to the managedAppRegistrations collection.
+Add managedAppRegistrations by posting to the managedAppRegistrations collection.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -35,8 +35,8 @@ POST /users/{usersId}/managedAppRegistrations/$ref
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [managedAppRegistration](../resources/managedappregistration.md) object.
@@ -45,7 +45,7 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 |createdDateTime|DateTimeOffset|Date and time of creation|
 |lastSyncDateTime|DateTimeOffset|Date and time of last the app synced with management service.|
 |applicationVersion|String|App version|
@@ -58,7 +58,7 @@ The following table shows the properties that are required when you create the [
 |azureADDeviceId|String|The Azure Active Directory Device identifier of the host device. Value could be empty even when the host device is Azure Active Directory registered.|
 |deviceModel|String|The device model for the current app registration |
 |deviceManufacturer|String|The device manufacturer for the current app registration |
-|flaggedReasons|Enumeration collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device. Possible values are: `none`, `rootedDevice`, `androidBootloaderUnlocked`, `androidFactoryRomModified`.|
+|flaggedReasons|managedAppFlaggedReason collection|Zero or more reasons an app registration is flagged. E.g. app running on rooted device. Possible values are: `none`, `rootedDevice`, `androidBootloaderUnlocked`, `androidFactoryRomModified`.|
 |userId|String|The user Id to who this app registration belongs.|
 |appIdentifier|[mobileAppIdentifier](../resources/mobileappidentifier.md)|The app package Identifier|
 |version|String|Version of the entity.|
@@ -66,25 +66,24 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [managedAppRegistration](../resources/managedappregistration.md) object in the response body.
+If successful, this method returns a `204 No Content` response code and a [managedAppRegistration](../resources/managedappregistration.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_managedappregistration_from_"
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/managedAppRegistrations
-Content-type: application/json
+POST https://graph.microsoft.com/beta/me/managedAppRegistrations/$ref
+Content-Type: application/json
 Content-length: 779
 
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "lastSyncDateTime": "2016-12-31T23:56:59.0761845+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",
@@ -107,7 +106,7 @@ Content-length: 779
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -115,15 +114,13 @@ Here is an example of the response. Note: The response object shown here may be 
 }
 -->
 ``` http
-HTTP/1.1 201 Created
+HTTP/1.1 204 No Content
 Content-Type: application/json
-Content-Length: 887
-
 {
   "@odata.type": "#microsoft.graph.managedAppRegistration",
-  "id": "d7e01422-1422-d7e0-2214-e0d72214e0d7",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastSyncDateTime": "2016-12-31T23:56:59.0761845+03:00",
+  "id": "3440f323-f323-3440-23f3-403423f34034",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
   "applicationVersion": "Application Version value",
   "managementSdkVersion": "Management Sdk Version value",
   "platformVersion": "Platform Version value",

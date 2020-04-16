@@ -1,7 +1,7 @@
 ---
 title: "Get onenote"
-description: "Read properties and relationships of the onenote object."
-author: ""
+description: "Read properties and relationships of an onenote object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Read properties and relationships of the [onenote](../resources/onenote.md) object.
+Read properties and relationships of an [onenote](../resources/onenote.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -42,18 +42,17 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [onenote](../resources/onenote.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an [onenote](../resources/onenote.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_onenote"
@@ -64,7 +63,7 @@ GET https://graph.microsoft.com/beta/me/onenote
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -74,12 +73,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 121
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenote",
-    "id": "d7d384a8-84a8-d7d3-a884-d3d7a884d3d7"
+    "id": "b2ec96a8-96a8-b2ec-a896-ecb2a896ecb2"
   }
 }
 ```

@@ -1,7 +1,7 @@
 ---
 title: "callRecord resource type"
-description: ""
-author: ""
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
@@ -12,7 +12,7 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph.callRecords
 
-
+**TODO: Add Description**
 
 
 Inherits from [entity](../resources/entity.md)
@@ -20,29 +20,29 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[Get callRecord](../api/callrecords-callrecord-get.md)|[callRecord](../resources/callrecords-callrecord.md)|Read properties and relationships of the [callRecord](../resources/callrecords-callrecord.md) object.|
+|[Get callRecord](../api/callrecords-callrecord-get.md)|[callRecord](../resources/callrecords-callrecord.md)|Read properties and relationships of a [callRecord](../resources/callrecords-callrecord.md) object.|
 |[Update callRecord](../api/callrecords-callrecord-update.md)|[callRecord](../resources/callrecords-callrecord.md)|Update the properties of a [callRecord](../resources/callrecords-callrecord.md) object.|
 |[List sessions](../api/callrecords-callrecord-list-sessions.md)|[session](../resources/callrecords-session.md) collection|Get the sessions from the sessions navigation property.|
-|[Add sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callrecords-session.md)|Add sessions by posting to the sessions collection.|
+|[Create sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callrecords-session.md)|Create a new sessions object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|endDateTime|DateTimeOffset||
-|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
-|joinWebUrl|String||
-|lastModifiedDateTime|DateTimeOffset||
-|modalities|Enumeration collection||
-|organizer|[identitySet](../resources/callrecords-identityset.md)||
-|participants|[identitySet](../resources/callrecords-identityset.md) collection||
-|startDateTime|DateTimeOffset||
-|type|Enumeration| Possible values are: `unknown`, `groupCall`, `peerToPeer`, `unknownFutureValue`.|
-|version|Int64||
+|endDateTime|DateTimeOffset|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/callrecords-entity.md)|
+|joinWebUrl|String|**TODO: Add Description**|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description**|
+|modalities|modality collection|**TODO: Add Description**|
+|organizer|[identitySet](../resources/callrecords-identityset.md)|**TODO: Add Description**|
+|participants|[identitySet](../resources/callrecords-identityset.md) collection|**TODO: Add Description**|
+|startDateTime|DateTimeOffset|**TODO: Add Description**|
+|type|callType|**TODO: Add Description**. Possible values are: `unknown`, `groupCall`, `peerToPeer`, `unknownFutureValue`.|
+|version|Int64|**TODO: Add Description**|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|sessions|[session](../resources/callrecords-session.md) collection||
+|sessions|[session](../resources/callrecords-session.md) collection|**TODO: Add Description**|
 
 ## JSON representation
 Here is a JSON representation of the resource.

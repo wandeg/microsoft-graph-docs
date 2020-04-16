@@ -1,7 +1,7 @@
 ---
 title: "List callRecords"
 description: "Get the callRecords from the callRecords navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_callrecord"
@@ -59,7 +58,7 @@ GET https://graph.microsoft.com/beta/communications/callRecords
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -69,21 +68,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1032
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.callRecord",
-      "id": "2c8012e4-12e4-2c80-e412-802ce412802c",
+      "id": "3e424108-4108-3e42-0841-423e0841423e",
       "version": 7,
       "type": "String",
       "modalities": [
         "String"
       ],
-      "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
-      "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-      "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+      "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
       "organizer": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

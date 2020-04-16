@@ -1,7 +1,7 @@
 ---
-title: "delta"
-description: ""
-author: ""
+title: "group: delta"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,9 +36,9 @@ GET /users/{usersId}/joinedGroups/delta
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
-## Request body
+## Function parameters
 Do not supply a request body for this method.
 
 ## Response
@@ -47,7 +47,6 @@ If successful, this function returns a `200 OK` response code and a [group](../r
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "group_delta"
@@ -58,7 +57,7 @@ GET https://graph.microsoft.com/beta/groups/delta
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -68,14 +67,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2675
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "d790833c-833c-d790-3c83-90d73c8390d7",
-      "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+      "id": "91699ffb-9ffb-9169-fb9f-6991fb9f6991",
+      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
       "assignedLabels": [
         {
           "@odata.type": "microsoft.graph.assignedLabel"
@@ -87,7 +84,7 @@ Content-Length: 2675
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "groupTypes": [
@@ -105,7 +102,7 @@ Content-Length: 2675
       "membershipRule": "Membership Rule value",
       "membershipRuleProcessingState": "Membership Rule Processing State value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -120,7 +117,7 @@ Content-Length: 2675
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2016-12-31T23:57:52.8625285+03:00",
+      "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
       "resourceBehaviorOptions": [
         "Resource Behavior Options value"
       ],

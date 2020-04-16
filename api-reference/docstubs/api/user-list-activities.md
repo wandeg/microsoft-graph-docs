@@ -1,7 +1,7 @@
 ---
 title: "List activities"
 description: "Get the userActivities from the activities navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_useractivity"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/activities
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,13 +69,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1436
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.userActivity",
-      "id": "e19d07a7-07a7-e19d-a707-9de1a7079de1",
+      "id": "bc2a578b-578b-bc2a-8b57-2abc8b572abc",
       "visualElements": {
         "@odata.type": "microsoft.graph.visualInfo",
         "attribution": {
@@ -98,10 +95,10 @@ Content-Length: 1436
       "appActivityId": "App Activity Id value",
       "appDisplayName": "App Display Name value",
       "contentUrl": "https://example.com/contentUrl/",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-      "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
       "fallbackUrl": "https://example.com/fallbackUrl/",
-      "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
       "userTimezone": "User Timezone value",
       "contentInfo": {
         "@odata.type": "microsoft.graph.Json"

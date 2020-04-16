@@ -1,26 +1,26 @@
 ---
-title: "Add drives"
-description: "Add drives by posting to the drives collection."
-author: ""
+title: "Create drives"
+description: "Create a new drives object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add drives
+# Create drives
 
 Namespace: microsoft.graph
 
-Add drives by posting to the drives collection.
+Create a new drives object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/drives/$ref
-POST /users/{usersId}/drives/$ref
+POST /me/drives
+POST /users/{usersId}/drives
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [drive](../resources/drive.md) object.
@@ -45,21 +45,21 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
-|description|String| Inherited from [baseItem](../resources/baseitem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
-|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
-|name|String| Inherited from [baseItem](../resources/baseitem.md)|
-|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
-|driveType|String||
-|owner|[identitySet](../resources/identityset.md)||
-|quota|[quota](../resources/quota.md)||
-|sharePointIds|[sharepointIds](../resources/sharepointids.md)||
-|system|[systemFacet](../resources/systemfacet.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|createdBy|[identitySet](../resources/identityset.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|description|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|name|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|driveType|String|**TODO: Add Description**|
+|owner|[identitySet](../resources/identityset.md)|**TODO: Add Description**|
+|quota|[quota](../resources/quota.md)|**TODO: Add Description**|
+|sharePointIds|[sharepointIds](../resources/sharepointids.md)|**TODO: Add Description**|
+|system|[systemFacet](../resources/systemfacet.md)|**TODO: Add Description**|
 
 
 
@@ -69,7 +69,6 @@ If successful, this method returns a `201 Created` response code and a [drive](.
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_drive_from_drives"
@@ -77,7 +76,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/drives
-Content-type: application/json
+Content-Type: application/json
 Content-length: 1696
 
 {
@@ -143,7 +142,7 @@ Content-length: 1696
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -153,11 +152,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1947
-
 {
   "@odata.type": "#microsoft.graph.drive",
-  "id": "e827e84c-e84c-e827-4ce8-27e84ce827e8",
+  "id": "977d52d7-52d7-977d-d752-7d97d7527d97",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -172,13 +169,13 @@ Content-Length: 1947
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",

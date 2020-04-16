@@ -1,26 +1,26 @@
 ---
-title: "Add taskGroups"
-description: "Add taskGroups by posting to the taskGroups collection."
-author: ""
+title: "Create taskGroups"
+description: "Create a new taskGroups object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add taskGroups
+# Create taskGroups
 
 Namespace: microsoft.graph
 
-Add taskGroups by posting to the taskGroups collection.
+Create a new taskGroups object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/outlook/taskGroups/$ref
+POST /me/outlook/taskGroups
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [outlookTaskGroup](../resources/outlooktaskgroup.md) object.
@@ -44,21 +44,20 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|changeKey|String||
-|isDefaultGroup|Boolean||
-|name|String||
-|groupKey|Guid||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|changeKey|String|**TODO: Add Description**|
+|isDefaultGroup|Boolean|**TODO: Add Description**|
+|name|String|**TODO: Add Description**|
+|groupKey|Guid|**TODO: Add Description**|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [outlookTaskGroup](../resources/outlooktaskgroup.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [outlookTaskGroup](../resources/outlooktaskgroup.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_outlooktaskgroup_from_"
@@ -66,7 +65,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/outlook/taskGroups
-Content-type: application/json
+Content-Type: application/json
 Content-length: 201
 
 {
@@ -74,12 +73,12 @@ Content-length: 201
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "72e388d5-88d5-72e3-d588-e372d588e372"
+  "groupKey": "7971407f-407f-7971-7f40-71797f407179"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -89,15 +88,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 250
-
 {
   "@odata.type": "#microsoft.graph.outlookTaskGroup",
-  "id": "308b7f4a-7f4a-308b-4a7f-8b304a7f8b30",
+  "id": "47446577-6577-4744-7765-444777654447",
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "72e388d5-88d5-72e3-d588-e372d588e372"
+  "groupKey": "7971407f-407f-7971-7f40-71797f407179"
 }
 ```
 

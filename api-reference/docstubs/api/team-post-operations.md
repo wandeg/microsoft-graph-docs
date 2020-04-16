@@ -1,26 +1,26 @@
 ---
-title: "Add operations"
-description: "Add operations by posting to the operations collection."
-author: ""
+title: "Create operations"
+description: "Create a new operations object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add operations
+# Create operations
 
 Namespace: microsoft.graph
 
-Add operations by posting to the operations collection.
+Create a new operations object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /teams/{teamsId}/operations/$ref
-POST /me/joinedGroups/{groupId}/team/operations/$ref
+POST /teams/{teamsId}/operations
+POST /me/joinedGroups/{groupId}/team/operations
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.
@@ -45,15 +45,15 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|operationType|Enumeration| Possible values are: `invalid`, `cloneTeam`, `archiveTeam`, `unarchiveTeam`, `createTeam`, `unknownFutureValue`.|
-|createdDateTime|DateTimeOffset||
-|status|Enumeration| Possible values are: `invalid`, `notStarted`, `inProgress`, `succeeded`, `failed`, `unknownFutureValue`.|
-|lastActionDateTime|DateTimeOffset||
-|attemptsCount|Int32||
-|targetResourceId|String||
-|targetResourceLocation|String||
-|error|[operationError](../resources/operationerror.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|operationType|teamsAsyncOperationType|**TODO: Add Description**. Possible values are: `invalid`, `cloneTeam`, `archiveTeam`, `unarchiveTeam`, `createTeam`, `unknownFutureValue`.|
+|createdDateTime|DateTimeOffset|**TODO: Add Description**|
+|status|teamsAsyncOperationStatus|**TODO: Add Description**. Possible values are: `invalid`, `notStarted`, `inProgress`, `succeeded`, `failed`, `unknownFutureValue`.|
+|lastActionDateTime|DateTimeOffset|**TODO: Add Description**|
+|attemptsCount|Int32|**TODO: Add Description**|
+|targetResourceId|String|**TODO: Add Description**|
+|targetResourceLocation|String|**TODO: Add Description**|
+|error|[operationError](../resources/operationerror.md)|**TODO: Add Description**|
 
 
 
@@ -63,7 +63,6 @@ If successful, this method returns a `201 Created` response code and a [teamsAsy
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_teamsasyncoperation_from_"
@@ -71,14 +70,14 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/teams/{teamsId}/operations
-Content-type: application/json
+Content-Type: application/json
 Content-length: 447
 
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
   "operationType": "String",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:57:29.7018179+03:00",
+  "lastActionDateTime": "2017-01-01T00:02:31.8410313+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",
@@ -91,7 +90,7 @@ Content-length: 447
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -101,15 +100,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 555
-
 {
   "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-  "id": "7b50ab3d-ab3d-7b50-3dab-507b3dab507b",
+  "id": "f499dbba-dbba-f499-badb-99f4badb99f4",
   "operationType": "String",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
   "status": "String",
-  "lastActionDateTime": "2016-12-31T23:57:29.7018179+03:00",
+  "lastActionDateTime": "2017-01-01T00:02:31.8410313+03:00",
   "attemptsCount": 13,
   "targetResourceId": "Target Resource Id value",
   "targetResourceLocation": "Target Resource Location value",

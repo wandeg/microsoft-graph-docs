@@ -1,7 +1,7 @@
 ---
 title: "Get itemAnalytics"
-description: "Read properties and relationships of the itemAnalytics object."
-author: ""
+description: "Read properties and relationships of an itemAnalytics object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Read properties and relationships of the [itemAnalytics](../resources/itemanalytics.md) object.
+Read properties and relationships of an [itemAnalytics](../resources/itemanalytics.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,18 +36,17 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [itemAnalytics](../resources/itemanalytics.md) object in the response body.
+If successful, this method returns a `200 OK` response code and an [itemAnalytics](../resources/itemanalytics.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_itemanalytics"
@@ -58,7 +57,7 @@ Here is an example of the request.
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -68,12 +67,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 127
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.itemAnalytics",
-    "id": "bc91f708-f708-bc91-08f7-91bc08f791bc"
+    "id": "63be842c-842c-63be-2c84-be632c84be63"
   }
 }
 ```

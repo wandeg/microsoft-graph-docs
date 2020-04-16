@@ -1,7 +1,7 @@
 ---
 title: "Get channel"
-description: "Read properties and relationships of the channel object."
-author: ""
+description: "Read properties and relationships of a channel object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Read properties and relationships of the [channel](../resources/channel.md) object.
+Read properties and relationships of a [channel](../resources/channel.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -40,18 +40,17 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [channel](../resources/channel.md) object in the response body.
+If successful, this method returns a `200 OK` response code and a [channel](../resources/channel.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_channel"
@@ -62,7 +61,7 @@ GET https://graph.microsoft.com/beta/teams/{teamsId}/primaryChannel
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -72,12 +71,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 346
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.channel",
-    "id": "033d0aa7-0aa7-033d-a70a-3d03a70a3d03",
+    "id": "a9f8c7a8-c7a8-a9f8-a8c7-f8a9a8c7f8a9",
     "displayName": "Display Name value",
     "description": "Description value",
     "isFavoriteByDefault": true,

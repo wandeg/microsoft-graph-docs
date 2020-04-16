@@ -1,26 +1,26 @@
 ---
-title: "Add events"
-description: "Add events by posting to the events collection."
-author: ""
+title: "Create events"
+description: "Create a new events object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add events
+# Create events
 
 Namespace: microsoft.graph
 
-Add events by posting to the events collection.
+Create a new events object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /groups/{groupsId}/events/$ref
-POST /me/joinedGroups/{groupId}/events/$ref
+POST /groups/{groupsId}/events
+POST /me/joinedGroups/{groupId}/events
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [event](../resources/event.md) object.
@@ -45,54 +45,53 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
-|originalStartTimeZone|String||
-|originalEndTimeZone|String||
-|responseStatus|[responseStatus](../resources/responsestatus.md)||
-|uid|String||
-|reminderMinutesBeforeStart|Int32||
-|isReminderOn|Boolean||
-|hasAttachments|Boolean||
-|subject|String||
-|body|[itemBody](../resources/itembody.md)||
-|bodyPreview|String||
-|importance|Enumeration| Possible values are: `low`, `normal`, `high`.|
-|sensitivity|Enumeration| Possible values are: `normal`, `personal`, `private`, `confidential`.|
-|start|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|originalStart|DateTimeOffset||
-|end|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|location|[location](../resources/location.md)||
-|locations|[location](../resources/location.md) collection||
-|isAllDay|Boolean||
-|isCancelled|Boolean||
-|isOrganizer|Boolean||
-|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)||
-|responseRequested|Boolean||
-|seriesMasterId|String||
-|showAs|Enumeration| Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
-|type|Enumeration| Possible values are: `singleInstance`, `occurrence`, `exception`, `seriesMaster`.|
-|attendees|[attendee](../resources/attendee.md) collection||
-|organizer|[recipient](../resources/recipient.md)||
-|webLink|String||
-|onlineMeetingUrl|String||
-|isOnlineMeeting|Boolean||
-|onlineMeetingProvider|Enumeration| Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
-|onlineMeeting|[onlineMeetingInfo](../resources/onlinemeetinginfo.md)||
-|allowNewTimeProposals|Boolean||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|originalStartTimeZone|String|**TODO: Add Description**|
+|originalEndTimeZone|String|**TODO: Add Description**|
+|responseStatus|[responseStatus](../resources/responsestatus.md)|**TODO: Add Description**|
+|uid|String|**TODO: Add Description**|
+|reminderMinutesBeforeStart|Int32|**TODO: Add Description**|
+|isReminderOn|Boolean|**TODO: Add Description**|
+|hasAttachments|Boolean|**TODO: Add Description**|
+|subject|String|**TODO: Add Description**|
+|body|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|bodyPreview|String|**TODO: Add Description**|
+|importance|importance|**TODO: Add Description**. Possible values are: `low`, `normal`, `high`.|
+|sensitivity|sensitivity|**TODO: Add Description**. Possible values are: `normal`, `personal`, `private`, `confidential`.|
+|start|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|originalStart|DateTimeOffset|**TODO: Add Description**|
+|end|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|location|[location](../resources/location.md)|**TODO: Add Description**|
+|locations|[location](../resources/location.md) collection|**TODO: Add Description**|
+|isAllDay|Boolean|**TODO: Add Description**|
+|isCancelled|Boolean|**TODO: Add Description**|
+|isOrganizer|Boolean|**TODO: Add Description**|
+|recurrence|[patternedRecurrence](../resources/patternedrecurrence.md)|**TODO: Add Description**|
+|responseRequested|Boolean|**TODO: Add Description**|
+|seriesMasterId|String|**TODO: Add Description**|
+|showAs|freeBusyStatus|**TODO: Add Description**. Possible values are: `free`, `tentative`, `busy`, `oof`, `workingElsewhere`, `unknown`.|
+|type|eventType|**TODO: Add Description**. Possible values are: `singleInstance`, `occurrence`, `exception`, `seriesMaster`.|
+|attendees|[attendee](../resources/attendee.md) collection|**TODO: Add Description**|
+|organizer|[recipient](../resources/recipient.md)|**TODO: Add Description**|
+|webLink|String|**TODO: Add Description**|
+|onlineMeetingUrl|String|**TODO: Add Description**|
+|isOnlineMeeting|Boolean|**TODO: Add Description**|
+|onlineMeetingProvider|onlineMeetingProviderType|**TODO: Add Description**. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
+|onlineMeeting|[onlineMeetingInfo](../resources/onlinemeetinginfo.md)|**TODO: Add Description**|
+|allowNewTimeProposals|Boolean|**TODO: Add Description**|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [event](../resources/event.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [event](../resources/event.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_event_from_"
@@ -100,7 +99,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups/{groupsId}/events
-Content-type: application/json
+Content-Type: application/json
 Content-length: 4043
 
 {
@@ -114,7 +113,7 @@ Content-length: 4043
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2016-12-31T23:58:01.4164323+03:00"
+    "time": "2016-12-31T23:57:57.6246191+03:00"
   },
   "uid": "Uid value",
   "reminderMinutesBeforeStart": 10,
@@ -134,7 +133,7 @@ Content-length: 4043
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:00:28.9926464+03:00",
+  "originalStart": "2017-01-01T00:01:36.6938892+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },
@@ -246,7 +245,7 @@ Content-length: 4043
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -256,13 +255,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 4215
-
 {
   "@odata.type": "#microsoft.graph.event",
-  "id": "86bbe9d5-e9d5-86bb-d5e9-bb86d5e9bb86",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "id": "e2709962-9962-e270-6299-70e2629970e2",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
@@ -272,7 +269,7 @@ Content-Length: 4215
   "responseStatus": {
     "@odata.type": "microsoft.graph.responseStatus",
     "response": "String",
-    "time": "2016-12-31T23:58:01.4164323+03:00"
+    "time": "2016-12-31T23:57:57.6246191+03:00"
   },
   "uid": "Uid value",
   "reminderMinutesBeforeStart": 10,
@@ -292,7 +289,7 @@ Content-Length: 4215
     "dateTime": "Date Time value",
     "timeZone": "Time Zone value"
   },
-  "originalStart": "2017-01-01T00:00:28.9926464+03:00",
+  "originalStart": "2017-01-01T00:01:36.6938892+03:00",
   "end": {
     "@odata.type": "microsoft.graph.dateTimeTimeZone"
   },

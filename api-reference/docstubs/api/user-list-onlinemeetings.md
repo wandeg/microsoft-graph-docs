@@ -1,7 +1,7 @@
 ---
 title: "List onlineMeetings"
 description: "Get the onlineMeetings from the onlineMeetings navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_onlinemeeting"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/onlineMeetings
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,18 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2423
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.onlineMeeting",
-      "id": "788f6176-6176-788f-7661-8f7876618f78",
-      "creationDateTime": "2016-12-31T23:57:05.3091405+03:00",
-      "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-      "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
-      "canceledDateTime": "2016-12-31T23:58:29.5939744+03:00",
-      "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+      "id": "cb981278-1278-cb98-7812-98cb781298cb",
+      "creationDateTime": "2017-01-01T00:01:44.5522643+03:00",
+      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+      "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
+      "canceledDateTime": "2017-01-01T00:01:58.4621467+03:00",
+      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
       "entryExitAnnouncement": true,
       "joinUrl": "https://example.com/joinUrl/",
       "subject": "Subject value",

@@ -1,7 +1,7 @@
 ---
-title: "assignLicense"
-description: ""
-author: ""
+title: "user: assignLicense"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,18 +36,18 @@ POST /me/managedDevices/{managedDeviceId}/users/{userId}/assignLicense
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
 
 The following table shows the parameters that can be used with this action.
 
-|Property|Type|Description|
+|Parameter|Type|Description|
 |:---|:---|:---|
-|addLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
-|removeLicenses|Guid collection||
+|addLicenses|[assignedLicense](../resources/assignedlicense.md) collection|**TODO: Add Description**|
+|removeLicenses|Guid collection|**TODO: Add Description**|
 
 
 
@@ -57,7 +57,6 @@ If successful, this action returns a `200 OK` response code and a [user](../reso
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "user_assignlicense"
@@ -66,7 +65,7 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/beta/me/assignLicense
 
-Content-type: application/json
+Content-Type: application/json
 Content-length: 172
 
 {
@@ -76,13 +75,13 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "79f7c404-c404-79f7-04c4-f77904c4f779"
+    "11a8cc2e-cc2e-11a8-2ecc-a8112ecca811"
   ]
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -92,13 +91,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4448
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "cda2a8f8-a8f8-cda2-f8a8-a2cdf8a8a2cd",
-    "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+    "id": "523f5234-5234-523f-3452-3f5234523f52",
+    "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
     "signInActivity": {
       "@odata.type": "microsoft.graph.signInActivity"
     },
@@ -121,7 +118,7 @@ Content-Length: 4448
     "companyName": "Company Name value",
     "consentProvidedForMinor": "Consent Provided For Minor value",
     "country": "Country value",
-    "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
     "creationType": "Creation Type value",
     "department": "Department value",
     "deviceKeys": [
@@ -143,7 +140,7 @@ Content-Length: 4448
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2017-01-01T00:02:28.9151412+03:00",
+    "lastPasswordChangeDateTime": "2016-12-31T23:57:47.9772449+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -158,7 +155,7 @@ Content-Length: 4448
       "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+    "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -188,9 +185,9 @@ Content-Length: 4448
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "refreshTokensValidFromDateTime": "2016-12-31T23:58:40.0235578+03:00",
+    "refreshTokensValidFromDateTime": "2016-12-31T23:59:33.2790016+03:00",
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2016-12-31T23:59:20.1732324+03:00",
+    "signInSessionsValidFromDateTime": "2016-12-31T23:56:35.6565355+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -207,8 +204,8 @@ Content-Length: 4448
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2017-01-01T00:02:56.6194456+03:00",
-    "hireDate": "2016-12-31T23:58:08.8303183+03:00",
+    "birthday": "2017-01-01T00:00:04.7583191+03:00",
+    "hireDate": "2017-01-01T00:02:51.4938789+03:00",
     "interests": [
       "Interests value"
     ],

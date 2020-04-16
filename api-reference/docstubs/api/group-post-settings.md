@@ -1,26 +1,26 @@
 ---
-title: "Add settings"
-description: "Add settings by posting to the settings collection."
-author: ""
+title: "Create settings"
+description: "Create a new settings object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add settings
+# Create settings
 
 Namespace: microsoft.graph
 
-Add settings by posting to the settings collection.
+Create a new settings object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /groups/{groupsId}/settings/$ref
-POST /me/joinedGroups/{groupId}/settings/$ref
+POST /groups/{groupsId}/settings
+POST /me/joinedGroups/{groupId}/settings
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directorySetting](../resources/directorysetting.md) object.
@@ -45,10 +45,10 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String||
-|templateId|String||
-|values|[settingValue](../resources/settingvalue.md) collection||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|displayName|String|**TODO: Add Description**|
+|templateId|String|**TODO: Add Description**|
+|values|[settingValue](../resources/settingvalue.md) collection|**TODO: Add Description**|
 
 
 
@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [director
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_directorysetting_from_settings"
@@ -66,7 +65,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups/{groupsId}/settings
-Content-type: application/json
+Content-Type: application/json
 Content-length: 284
 
 {
@@ -84,7 +83,7 @@ Content-length: 284
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -94,11 +93,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 333
-
 {
   "@odata.type": "#microsoft.graph.directorySetting",
-  "id": "00e1b186-b186-00e1-86b1-e10086b1e100",
+  "id": "d1ec3f43-3f43-d1ec-433f-ecd1433fecd1",
   "displayName": "Display Name value",
   "templateId": "Template Id value",
   "values": [

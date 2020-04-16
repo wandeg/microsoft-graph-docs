@@ -1,7 +1,7 @@
 ---
-title: "getManagedAppPolicies"
-description: ""
-author: ""
+title: "user: getManagedAppPolicies"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,9 +36,9 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppPolicies
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
-## Request body
+## Function parameters
 Do not supply a request body for this method.
 
 ## Response
@@ -47,7 +47,6 @@ If successful, this function returns a `200 OK` response code and a [managedAppP
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "user_getmanagedapppolicies"
@@ -58,7 +57,7 @@ GET https://graph.microsoft.com/beta/me/getManagedAppPolicies
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -68,17 +67,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 475
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicy",
-      "id": "af56f4b9-f4b9-af56-b9f4-56afb9f456af",
+      "id": "485019c5-19c5-4850-c519-5048c5195048",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],

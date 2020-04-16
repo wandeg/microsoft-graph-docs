@@ -1,26 +1,26 @@
 ---
-title: "Add contactFolders"
-description: "Add contactFolders by posting to the contactFolders collection."
-author: ""
+title: "Create contactFolders"
+description: "Create a new contactFolders object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add contactFolders
+# Create contactFolders
 
 Namespace: microsoft.graph
 
-Add contactFolders by posting to the contactFolders collection.
+Create a new contactFolders object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/contactFolders/$ref
-POST /users/{usersId}/contactFolders/$ref
+POST /me/contactFolders
+POST /users/{usersId}/contactFolders
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [contactFolder](../resources/contactfolder.md) object.
@@ -45,10 +45,10 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|parentFolderId|String||
-|displayName|String||
-|wellKnownName|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|parentFolderId|String|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|wellKnownName|String|**TODO: Add Description**|
 
 
 
@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [contactF
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_contactfolder_from_"
@@ -66,7 +65,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/contactFolders
-Content-type: application/json
+Content-Type: application/json
 Content-length: 187
 
 {
@@ -78,7 +77,7 @@ Content-length: 187
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -88,11 +87,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 236
-
 {
   "@odata.type": "#microsoft.graph.contactFolder",
-  "id": "6e192efe-2efe-6e19-fe2e-196efe2e196e",
+  "id": "f2601bd9-1bd9-f260-d91b-60f2d91b60f2",
   "parentFolderId": "Parent Folder Id value",
   "displayName": "Display Name value",
   "wellKnownName": "Well Known Name value"

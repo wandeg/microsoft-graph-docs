@@ -1,26 +1,26 @@
 ---
-title: "Add permissionGrants"
-description: "Add permissionGrants by posting to the permissionGrants collection."
-author: ""
+title: "Create permissionGrants"
+description: "Create a new permissionGrants object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add permissionGrants
+# Create permissionGrants
 
 Namespace: microsoft.graph
 
-Add permissionGrants by posting to the permissionGrants collection.
+Create a new permissionGrants object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /groups/{groupsId}/permissionGrants/$ref
-POST /me/joinedGroups/{groupId}/permissionGrants/$ref
+POST /groups/{groupsId}/permissionGrants
+POST /me/joinedGroups/{groupId}/permissionGrants
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [resourceSpecificPermissionGrant](../resources/resourcespecificpermissiongrant.md) object.
@@ -45,13 +45,13 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
-|clientId|String||
-|clientAppId|String||
-|resourceAppId|String||
-|permissionType|String||
-|permission|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [directoryObject](../resources/directoryobject.md)|
+|clientId|String|**TODO: Add Description**|
+|clientAppId|String|**TODO: Add Description**|
+|resourceAppId|String|**TODO: Add Description**|
+|permissionType|String|**TODO: Add Description**|
+|permission|String|**TODO: Add Description**|
 
 
 
@@ -61,7 +61,6 @@ If successful, this method returns a `201 Created` response code and a [resource
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_resourcespecificpermissiongrant_from_permissiongrants"
@@ -69,12 +68,12 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups/{groupsId}/permissionGrants
-Content-type: application/json
+Content-Type: application/json
 Content-length: 335
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",
@@ -84,7 +83,7 @@ Content-length: 335
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -94,12 +93,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 384
-
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "id": "399c4595-4595-399c-9545-9c3995459c39",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "id": "aa9233b3-33b3-aa92-b333-92aab33392aa",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",

@@ -1,26 +1,26 @@
 ---
-title: "Create windowsInformationProtectionDeviceRegistrations"
-description: "Create windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection."
-author: ""
+title: "Add windowsInformationProtectionDeviceRegistrations"
+description: "Add windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Create windowsInformationProtectionDeviceRegistrations
+# Add windowsInformationProtectionDeviceRegistrations
 
 Namespace: microsoft.graph
 
-Create windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection.
+Add windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -35,8 +35,8 @@ POST /users/{usersId}/windowsInformationProtectionDeviceRegistrations/$ref
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object.
@@ -45,7 +45,7 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 |userId|String|UserId associated with this device registration record.|
 |deviceRegistrationId|String|Device identifier for this device registration record.|
 |deviceName|String|Device name.|
@@ -56,20 +56,19 @@ The following table shows the properties that are required when you create the [
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object in the response body.
+If successful, this method returns a `204 No Content` response code and a [windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_windowsinformationprotectiondeviceregistration_from_"
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/windowsInformationProtectionDeviceRegistrations
-Content-type: application/json
+POST https://graph.microsoft.com/beta/me/windowsInformationProtectionDeviceRegistrations/$ref
+Content-Type: application/json
 Content-length: 367
 
 {
@@ -79,12 +78,12 @@ Content-length: 367
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2017-01-01T00:00:16.8032471+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:00:33.4192367+03:00"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -92,19 +91,17 @@ Here is an example of the response. Note: The response object shown here may be 
 }
 -->
 ``` http
-HTTP/1.1 201 Created
+HTTP/1.1 204 No Content
 Content-Type: application/json
-Content-Length: 416
-
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-  "id": "ee9e06e3-06e3-ee9e-e306-9eeee3069eee",
+  "id": "5a6618e1-18e1-5a66-e118-665ae118665a",
   "userId": "User Id value",
   "deviceRegistrationId": "Device Registration Id value",
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2017-01-01T00:00:16.8032471+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:00:33.4192367+03:00"
 }
 ```
 

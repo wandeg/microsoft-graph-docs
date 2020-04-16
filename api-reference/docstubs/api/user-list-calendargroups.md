@@ -1,7 +1,7 @@
 ---
 title: "List calendarGroups"
 description: "Get the calendarGroups from the calendarGroups navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_calendargroup"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/calendarGroups
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,15 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 272
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.calendarGroup",
-      "id": "20ae89d9-89d9-20ae-d989-ae20d989ae20",
+      "id": "ebda4426-4426-ebda-2644-daeb2644daeb",
       "name": "Name value",
-      "classId": "803abfec-bfec-803a-ecbf-3a80ecbf3a80",
+      "classId": "f33f65ed-65ed-f33f-ed65-3ff3ed653ff3",
       "changeKey": "Change Key value"
     }
   ]

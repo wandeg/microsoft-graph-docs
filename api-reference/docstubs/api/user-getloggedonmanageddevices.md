@@ -1,7 +1,7 @@
 ---
-title: "getLoggedOnManagedDevices"
-description: ""
-author: ""
+title: "user: getLoggedOnManagedDevices"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,9 +36,9 @@ GET /me/managedDevices/{managedDeviceId}/users/{userId}/getLoggedOnManagedDevice
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
-## Request body
+## Function parameters
 Do not supply a request body for this method.
 
 ## Response
@@ -47,7 +47,6 @@ If successful, this function returns a `200 OK` response code and a [managedDevi
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "user_getloggedonmanageddevices"
@@ -58,7 +57,7 @@ GET https://graph.microsoft.com/beta/me/getLoggedOnManagedDevices
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -68,13 +67,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4164
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDevice",
-      "id": "f7cd4861-4861-f7cd-6148-cdf76148cdf7",
+      "id": "9d17489c-489c-9d17-9c48-179d9c48179d",
       "userId": "User Id value",
       "deviceName": "Device Name value",
       "hardwareInformation": {
@@ -88,8 +85,8 @@ Content-Length: 4164
         }
       ],
       "managementState": "String",
-      "enrolledDateTime": "2017-01-01T00:03:27.5655918+03:00",
-      "lastSyncDateTime": "2016-12-31T23:56:59.0761845+03:00",
+      "enrolledDateTime": "2017-01-01T00:00:08.2470788+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
       "chassisType": "String",
       "operatingSystem": "Operating System value",
       "deviceType": "String",
@@ -99,7 +96,7 @@ Content-Length: 4164
       "osVersion": "Os Version value",
       "easActivated": true,
       "easDeviceId": "Eas Device Id value",
-      "easActivationDateTime": "2016-12-31T23:59:59.8473641+03:00",
+      "easActivationDateTime": "2016-12-31T23:58:33.6351648+03:00",
       "aadRegistered": true,
       "azureADRegistered": true,
       "deviceEnrollmentType": "String",
@@ -111,7 +108,7 @@ Content-Length: 4164
       "deviceRegistrationState": "String",
       "deviceCategoryDisplayName": "Device Category Display Name value",
       "isSupervised": true,
-      "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:56.0350147+03:00",
+      "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:59:33.4914043+03:00",
       "exchangeAccessState": "String",
       "exchangeAccessStateReason": "String",
       "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -121,7 +118,7 @@ Content-Length: 4164
       "model": "Model value",
       "manufacturer": "Manufacturer value",
       "imei": "Imei value",
-      "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:50.38304+03:00",
+      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:32.1532348+03:00",
       "serialNumber": "Serial Number value",
       "phoneNumber": "Phone Number value",
       "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -139,16 +136,16 @@ Content-Length: 4164
       "freeStorageSpaceInBytes": 7,
       "managedDeviceName": "Managed Device Name value",
       "partnerReportedThreatState": "String",
-      "retireAfterDateTime": "2016-12-31T23:59:24.9072046+03:00",
+      "retireAfterDateTime": "2016-12-31T23:59:01.533749+03:00",
       "usersLoggedOn": [
         {
           "@odata.type": "microsoft.graph.loggedOnUser"
         }
       ],
-      "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:03:29.1441637+03:00",
+      "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:59:55.1364441+03:00",
       "autopilotEnrolled": true,
       "requireUserEnrollmentApproval": true,
-      "managementCertificateExpirationDate": "2017-01-01T00:01:15.4256413+03:00",
+      "managementCertificateExpirationDate": "2017-01-01T00:02:36.7215056+03:00",
       "iccid": "Iccid value",
       "udid": "Udid value",
       "roleScopeTagIds": [

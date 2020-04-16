@@ -1,26 +1,26 @@
 ---
-title: "Add deviceManagementTroubleshootingEvents"
-description: "Add deviceManagementTroubleshootingEvents by posting to the deviceManagementTroubleshootingEvents collection."
-author: ""
+title: "Create deviceManagementTroubleshootingEvents"
+description: "Create a new deviceManagementTroubleshootingEvents object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add deviceManagementTroubleshootingEvents
+# Create deviceManagementTroubleshootingEvents
 
 Namespace: microsoft.graph
 
-Add deviceManagementTroubleshootingEvents by posting to the deviceManagementTroubleshootingEvents collection.
+Create a new deviceManagementTroubleshootingEvents object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/deviceManagementTroubleshootingEvents/$ref
-POST /users/{usersId}/deviceManagementTroubleshootingEvents/$ref
+POST /me/deviceManagementTroubleshootingEvents
+POST /users/{usersId}/deviceManagementTroubleshootingEvents
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) object.
@@ -45,7 +45,7 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 |eventDateTime|DateTimeOffset|Time when the event occurred .|
 |correlationId|String|Id used for tracing the failure in the service.|
 |troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/devicemanagementtroubleshootingerrordetails.md)|Object containing detailed information about the error and its remediation.|
@@ -60,7 +60,6 @@ If successful, this method returns a `201 Created` response code and a [deviceMa
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_devicemanagementtroubleshootingevent_from_"
@@ -68,12 +67,12 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/deviceManagementTroubleshootingEvents
-Content-type: application/json
+Content-Type: application/json
 Content-length: 852
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2016-12-31T23:59:03.4228625+03:00",
+  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -101,7 +100,7 @@ Content-length: 852
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -111,12 +110,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 901
-
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "dce48f16-8f16-dce4-168f-e4dc168fe4dc",
-  "eventDateTime": "2016-12-31T23:59:03.4228625+03:00",
+  "id": "fad3509e-509e-fad3-9e50-d3fa9e50d3fa",
+  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

@@ -1,7 +1,7 @@
 ---
 title: "List mobileAppTroubleshootingEvents"
 description: "Get the mobileAppTroubleshootingEvents from the mobileAppTroubleshootingEvents navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_mobileapptroubleshootingevent"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/mobileAppTroubleshootingEvents
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,14 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1384
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-      "id": "4048f5f0-f5f0-4048-f0f5-4840f0f54840",
-      "eventDateTime": "2016-12-31T23:59:03.4228625+03:00",
+      "id": "b76ead9e-ad9e-b76e-9ead-6eb79ead6eb7",
+      "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
       "correlationId": "Correlation Id value",
       "troubleshootingErrorDetails": {
         "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -107,7 +104,7 @@ Content-Length: 1384
       "history": [
         {
           "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-          "occurrenceDateTime": "2017-01-01T00:02:24.1568379+03:00"
+          "occurrenceDateTime": "2016-12-31T23:59:18.8172124+03:00"
         }
       ]
     }

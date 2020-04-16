@@ -1,7 +1,7 @@
 ---
 title: "Create group"
 description: "Create a new group object."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -36,8 +36,8 @@ POST /users/{usersId}/joinedGroups
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [group](../resources/group.md) object.
@@ -46,52 +46,52 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
-|assignedLabels|[assignedLabel](../resources/assignedlabel.md) collection||
-|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
-|classification|String||
-|createdDateTime|DateTimeOffset||
-|description|String||
-|displayName|String||
-|groupTypes|String collection||
-|hasMembersWithLicenseErrors|Boolean||
-|isAssignableToRole|Boolean||
-|licenseProcessingState|[licenseProcessingState](../resources/licenseprocessingstate.md)||
-|mail|String||
-|mailEnabled|Boolean||
-|mailNickname|String||
-|mdmAppId|String||
-|membershipRule|String||
-|membershipRuleProcessingState|String||
-|onPremisesDomainName|String||
-|onPremisesLastSyncDateTime|DateTimeOffset||
-|onPremisesNetBiosName|String||
-|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection||
-|onPremisesSamAccountName|String||
-|onPremisesSecurityIdentifier|String||
-|onPremisesSyncEnabled|Boolean||
-|preferredDataLocation|String||
-|preferredLanguage|String||
-|proxyAddresses|String collection||
-|renewedDateTime|DateTimeOffset||
-|resourceBehaviorOptions|String collection||
-|resourceProvisioningOptions|String collection||
-|securityEnabled|Boolean||
-|securityIdentifier|String||
-|theme|String||
-|visibility|String||
-|accessType|Enumeration| Possible values are: `none`, `private`, `secret`, `public`.|
-|allowExternalSenders|Boolean||
-|autoSubscribeNewMembers|Boolean||
-|isFavorite|Boolean||
-|isSubscribedByMail|Boolean||
-|unseenCount|Int32||
-|unseenConversationsCount|Int32||
-|unseenMessagesCount|Int32||
-|hideFromOutlookClients|Boolean||
-|hideFromAddressLists|Boolean||
-|isArchived|Boolean||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [directoryObject](../resources/directoryobject.md)|
+|assignedLabels|[assignedLabel](../resources/assignedlabel.md) collection|**TODO: Add Description**|
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection|**TODO: Add Description**|
+|classification|String|**TODO: Add Description**|
+|createdDateTime|DateTimeOffset|**TODO: Add Description**|
+|description|String|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|groupTypes|String collection|**TODO: Add Description**|
+|hasMembersWithLicenseErrors|Boolean|**TODO: Add Description**|
+|isAssignableToRole|Boolean|**TODO: Add Description**|
+|licenseProcessingState|[licenseProcessingState](../resources/licenseprocessingstate.md)|**TODO: Add Description**|
+|mail|String|**TODO: Add Description**|
+|mailEnabled|Boolean|**TODO: Add Description**|
+|mailNickname|String|**TODO: Add Description**|
+|mdmAppId|String|**TODO: Add Description**|
+|membershipRule|String|**TODO: Add Description**|
+|membershipRuleProcessingState|String|**TODO: Add Description**|
+|onPremisesDomainName|String|**TODO: Add Description**|
+|onPremisesLastSyncDateTime|DateTimeOffset|**TODO: Add Description**|
+|onPremisesNetBiosName|String|**TODO: Add Description**|
+|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection|**TODO: Add Description**|
+|onPremisesSamAccountName|String|**TODO: Add Description**|
+|onPremisesSecurityIdentifier|String|**TODO: Add Description**|
+|onPremisesSyncEnabled|Boolean|**TODO: Add Description**|
+|preferredDataLocation|String|**TODO: Add Description**|
+|preferredLanguage|String|**TODO: Add Description**|
+|proxyAddresses|String collection|**TODO: Add Description**|
+|renewedDateTime|DateTimeOffset|**TODO: Add Description**|
+|resourceBehaviorOptions|String collection|**TODO: Add Description**|
+|resourceProvisioningOptions|String collection|**TODO: Add Description**|
+|securityEnabled|Boolean|**TODO: Add Description**|
+|securityIdentifier|String|**TODO: Add Description**|
+|theme|String|**TODO: Add Description**|
+|visibility|String|**TODO: Add Description**|
+|accessType|groupAccessType|**TODO: Add Description**. Possible values are: `none`, `private`, `secret`, `public`.|
+|allowExternalSenders|Boolean|**TODO: Add Description**|
+|autoSubscribeNewMembers|Boolean|**TODO: Add Description**|
+|isFavorite|Boolean|**TODO: Add Description**|
+|isSubscribedByMail|Boolean|**TODO: Add Description**|
+|unseenCount|Int32|**TODO: Add Description**|
+|unseenConversationsCount|Int32|**TODO: Add Description**|
+|unseenMessagesCount|Int32|**TODO: Add Description**|
+|hideFromOutlookClients|Boolean|**TODO: Add Description**|
+|hideFromAddressLists|Boolean|**TODO: Add Description**|
+|isArchived|Boolean|**TODO: Add Description**|
 
 
 
@@ -101,7 +101,6 @@ If successful, this method returns a `201 Created` response code and a [group](.
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_group_from_groups"
@@ -109,12 +108,12 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups
-Content-type: application/json
-Content-length: 2702
+Content-Type: application/json
+Content-length: 2701
 
 {
   "@odata.type": "#microsoft.graph.group",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "assignedLabels": [
     {
       "@odata.type": "microsoft.graph.assignedLabel",
@@ -126,9 +125,9 @@ Content-length: 2702
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "ca540223-0223-ca54-2302-54ca230254ca"
+        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
       ],
-      "skuId": "9d681946-1946-9d68-4619-689d4619689d"
+      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
     }
   ],
   "classification": "Classification value",
@@ -150,7 +149,7 @@ Content-length: 2702
   "membershipRule": "Membership Rule value",
   "membershipRuleProcessingState": "Membership Rule Processing State value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -158,7 +157,7 @@ Content-length: 2702
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2016-12-31T23:58:04.1572536+03:00"
+      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -169,7 +168,7 @@ Content-length: 2702
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2016-12-31T23:57:52.8625285+03:00",
+  "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
   "resourceBehaviorOptions": [
     "Resource Behavior Options value"
   ],
@@ -195,7 +194,7 @@ Content-length: 2702
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -205,12 +204,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2810
-
 {
   "@odata.type": "#microsoft.graph.group",
-  "id": "d790833c-833c-d790-3c83-90d73c8390d7",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+  "id": "91699ffb-9ffb-9169-fb9f-6991fb9f6991",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
   "assignedLabels": [
     {
       "@odata.type": "microsoft.graph.assignedLabel",
@@ -222,13 +219,13 @@ Content-Length: 2810
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "ca540223-0223-ca54-2302-54ca230254ca"
+        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
       ],
-      "skuId": "9d681946-1946-9d68-4619-689d4619689d"
+      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
     }
   ],
   "classification": "Classification value",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "groupTypes": [
@@ -247,7 +244,7 @@ Content-Length: 2810
   "membershipRule": "Membership Rule value",
   "membershipRuleProcessingState": "Membership Rule Processing State value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -255,7 +252,7 @@ Content-Length: 2810
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2016-12-31T23:58:04.1572536+03:00"
+      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -266,7 +263,7 @@ Content-Length: 2810
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2016-12-31T23:57:52.8625285+03:00",
+  "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
   "resourceBehaviorOptions": [
     "Resource Behavior Options value"
   ],

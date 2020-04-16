@@ -1,26 +1,26 @@
 ---
-title: "Add threads"
-description: "Add threads by posting to the threads collection."
-author: ""
+title: "Create threads"
+description: "Create a new threads object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add threads
+# Create threads
 
 Namespace: microsoft.graph
 
-Add threads by posting to the threads collection.
+Create a new threads object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /groups/{groupsId}/threads/$ref
-POST /me/joinedGroups/{groupId}/threads/$ref
+POST /groups/{groupsId}/threads
+POST /me/joinedGroups/{groupId}/threads
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [conversationThread](../resources/conversationthread.md) object.
@@ -45,15 +45,15 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|toRecipients|[recipient](../resources/recipient.md) collection||
-|topic|String||
-|hasAttachments|Boolean||
-|lastDeliveredDateTime|DateTimeOffset||
-|uniqueSenders|String collection||
-|ccRecipients|[recipient](../resources/recipient.md) collection||
-|preview|String||
-|isLocked|Boolean||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|toRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|topic|String|**TODO: Add Description**|
+|hasAttachments|Boolean|**TODO: Add Description**|
+|lastDeliveredDateTime|DateTimeOffset|**TODO: Add Description**|
+|uniqueSenders|String collection|**TODO: Add Description**|
+|ccRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|preview|String|**TODO: Add Description**|
+|isLocked|Boolean|**TODO: Add Description**|
 
 
 
@@ -63,7 +63,6 @@ If successful, this method returns a `201 Created` response code and a [conversa
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_conversationthread_from_"
@@ -71,8 +70,8 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups/{groupsId}/threads
-Content-type: application/json
-Content-length: 626
+Content-Type: application/json
+Content-length: 627
 
 {
   "@odata.type": "#microsoft.graph.conversationThread",
@@ -88,7 +87,7 @@ Content-length: 626
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:57:03.028993+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:00:50.4834523+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],
@@ -103,7 +102,7 @@ Content-length: 626
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -113,11 +112,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 675
-
 {
   "@odata.type": "#microsoft.graph.conversationThread",
-  "id": "71049c85-9c85-7104-859c-0471859c0471",
+  "id": "5d8d2521-2521-5d8d-2125-8d5d21258d5d",
   "toRecipients": [
     {
       "@odata.type": "microsoft.graph.recipient",
@@ -130,7 +127,7 @@ Content-Length: 675
   ],
   "topic": "Topic value",
   "hasAttachments": true,
-  "lastDeliveredDateTime": "2016-12-31T23:57:03.028993+03:00",
+  "lastDeliveredDateTime": "2017-01-01T00:00:50.4834523+03:00",
   "uniqueSenders": [
     "Unique Senders value"
   ],

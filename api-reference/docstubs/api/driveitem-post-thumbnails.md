@@ -1,26 +1,26 @@
 ---
-title: "Add thumbnails"
-description: "Add thumbnails by posting to the thumbnails collection."
-author: ""
+title: "Create thumbnails"
+description: "Create a new thumbnails object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add thumbnails
+# Create thumbnails
 
 Namespace: microsoft.graph
 
-Add thumbnails by posting to the thumbnails collection.
+Create a new thumbnails object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /workbooks/{workbooksId}/thumbnails/$ref
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/thumbnails/$ref
+POST /workbooks/{workbooksId}/thumbnails
+POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/thumbnails
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [thumbnailSet](../resources/thumbnailset.md) object.
@@ -45,11 +45,11 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|large|[thumbnail](../resources/thumbnail.md)||
-|medium|[thumbnail](../resources/thumbnail.md)||
-|small|[thumbnail](../resources/thumbnail.md)||
-|source|[thumbnail](../resources/thumbnail.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|large|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|medium|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|small|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|source|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
 
 
 
@@ -59,7 +59,6 @@ If successful, this method returns a `201 Created` response code and a [thumbnai
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_thumbnailset_from_"
@@ -67,7 +66,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/workbooks/{workbooksId}/thumbnails
-Content-type: application/json
+Content-Type: application/json
 Content-length: 459
 
 {
@@ -93,7 +92,7 @@ Content-length: 459
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -103,11 +102,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 508
-
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "f4e20a7f-0a7f-f4e2-7f0a-e2f47f0ae2f4",
+  "id": "a334fd6c-fd6c-a334-6cfd-34a36cfd34a3",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

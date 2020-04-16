@@ -1,7 +1,7 @@
 ---
 title: "Get listItem"
-description: "Read properties and relationships of the listItem object."
-author: ""
+description: "Read properties and relationships of a listItem object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Read properties and relationships of the [listItem](../resources/listitem.md) object.
+Read properties and relationships of a [listItem](../resources/listitem.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -42,18 +42,17 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [listItem](../resources/listitem.md) object in the response body.
+If successful, this method returns a `200 OK` response code and a [listItem](../resources/listitem.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_listitem"
@@ -64,7 +63,7 @@ GET https://graph.microsoft.com/beta/shares/{sharesId}/listItem
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -74,12 +73,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1665
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.listItem",
-    "id": "09ef2108-2108-09ef-0821-ef090821ef09",
+    "id": "9b166358-6358-9b16-5863-169b5863169b",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -94,13 +91,13 @@ Content-Length: 1665
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

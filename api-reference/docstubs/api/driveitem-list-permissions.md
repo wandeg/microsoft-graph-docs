@@ -1,7 +1,7 @@
 ---
 title: "List permissions"
 description: "Get the permissions from the permissions navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_permission"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/workbooks/{workbooksId}/permissions
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,14 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2183
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "3646b6e2-b6e2-3646-e2b6-4636e2b64636",
-      "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+      "id": "294ca067-a067-294c-67a0-4c2967a04c29",
+      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {

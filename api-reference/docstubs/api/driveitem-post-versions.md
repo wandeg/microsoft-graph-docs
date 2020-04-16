@@ -1,26 +1,26 @@
 ---
-title: "Add versions"
-description: "Add versions by posting to the versions collection."
-author: ""
+title: "Create versions"
+description: "Create a new versions object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add versions
+# Create versions
 
 Namespace: microsoft.graph
 
-Add versions by posting to the versions collection.
+Create a new versions object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /workbooks/{workbooksId}/versions/$ref
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/versions/$ref
+POST /workbooks/{workbooksId}/versions
+POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/versions
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [driveItemVersion](../resources/driveitemversion.md) object.
@@ -45,12 +45,12 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
-|publication|[publicationFacet](../resources/publicationfacet.md)| Inherited from [baseItemVersion](../resources/baseitemversion.md)|
-|content|Stream||
-|size|Int64||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)|**TODO: Add Description** Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|publication|[publicationFacet](../resources/publicationfacet.md)|**TODO: Add Description** Inherited from [baseItemVersion](../resources/baseitemversion.md)|
+|content|Stream|**TODO: Add Description**|
+|size|Int64|**TODO: Add Description**|
 
 
 
@@ -60,7 +60,6 @@ If successful, this method returns a `201 Created` response code and a [driveIte
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_driveitemversion_from_"
@@ -68,7 +67,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/workbooks/{workbooksId}/versions
-Content-type: application/json
+Content-Type: application/json
 Content-length: 244
 
 {
@@ -84,7 +83,7 @@ Content-length: 244
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -94,11 +93,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 730
-
 {
   "@odata.type": "#microsoft.graph.driveItemVersion",
-  "id": "63e45001-5001-63e4-0150-e4630150e463",
+  "id": "fb092541-2541-fb09-4125-09fb412509fb",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -113,7 +110,7 @@ Content-Length: 730
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
     "level": "Level value",

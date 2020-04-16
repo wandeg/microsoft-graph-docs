@@ -1,7 +1,7 @@
 ---
 title: "automaticRepliesSetting resource type"
-description: ""
-author: ""
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
@@ -12,17 +12,17 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|externalAudience|Enumeration| Possible values are: `none`, `contactsOnly`, `all`.|
-|externalReplyMessage|String||
-|internalReplyMessage|String||
-|scheduledEndDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|scheduledStartDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)||
-|status|Enumeration| Possible values are: `disabled`, `alwaysEnabled`, `scheduled`.|
+|externalAudience|externalAudienceScope|**TODO: Add Description**. Possible values are: `none`, `contactsOnly`, `all`.|
+|externalReplyMessage|String|**TODO: Add Description**|
+|internalReplyMessage|String|**TODO: Add Description**|
+|scheduledEndDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|scheduledStartDateTime|[dateTimeTimeZone](../resources/datetimetimezone.md)|**TODO: Add Description**|
+|status|automaticRepliesStatus|**TODO: Add Description**. Possible values are: `disabled`, `alwaysEnabled`, `scheduled`.|
 
 ## Relationships
 None

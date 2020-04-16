@@ -1,26 +1,26 @@
 ---
-title: "Add subscriptions"
-description: "Add subscriptions by posting to the subscriptions collection."
-author: ""
+title: "Create subscriptions"
+description: "Create a new subscriptions object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add subscriptions
+# Create subscriptions
 
 Namespace: microsoft.graph
 
-Add subscriptions by posting to the subscriptions collection.
+Create a new subscriptions object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /workbooks/{workbooksId}/subscriptions/$ref
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/subscriptions/$ref
+POST /workbooks/{workbooksId}/subscriptions
+POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/subscriptions
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [subscription](../resources/subscription.md) object.
@@ -45,19 +45,19 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|resource|String||
-|changeType|String||
-|clientState|String||
-|notificationUrl|String||
-|expirationDateTime|DateTimeOffset||
-|applicationId|String||
-|creatorId|String||
-|includeProperties|Boolean||
-|includeResourceData|Boolean||
-|lifecycleNotificationUrl|String||
-|encryptionCertificate|String||
-|encryptionCertificateId|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|resource|String|**TODO: Add Description**|
+|changeType|String|**TODO: Add Description**|
+|clientState|String|**TODO: Add Description**|
+|notificationUrl|String|**TODO: Add Description**|
+|expirationDateTime|DateTimeOffset|**TODO: Add Description**|
+|applicationId|String|**TODO: Add Description**|
+|creatorId|String|**TODO: Add Description**|
+|includeProperties|Boolean|**TODO: Add Description**|
+|includeResourceData|Boolean|**TODO: Add Description**|
+|lifecycleNotificationUrl|String|**TODO: Add Description**|
+|encryptionCertificate|String|**TODO: Add Description**|
+|encryptionCertificateId|String|**TODO: Add Description**|
 
 
 
@@ -67,7 +67,6 @@ If successful, this method returns a `201 Created` response code and a [subscrip
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_subscription_from_subscriptions"
@@ -75,7 +74,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/workbooks/{workbooksId}/subscriptions
-Content-type: application/json
+Content-Type: application/json
 Content-length: 636
 
 {
@@ -84,7 +83,7 @@ Content-length: 636
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,
@@ -96,7 +95,7 @@ Content-length: 636
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -106,16 +105,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 685
-
 {
   "@odata.type": "#microsoft.graph.subscription",
-  "id": "e7c98de3-8de3-e7c9-e38d-c9e7e38dc9e7",
+  "id": "b502a512-a512-b502-12a5-02b512a502b5",
   "resource": "Resource value",
   "changeType": "Change Type value",
   "clientState": "Client State value",
   "notificationUrl": "https://example.com/notificationUrl/",
-  "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
   "applicationId": "Application Id value",
   "creatorId": "Creator Id value",
   "includeProperties": true,

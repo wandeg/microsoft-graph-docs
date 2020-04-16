@@ -1,7 +1,7 @@
 ---
 title: "List managedDevices"
 description: "Get the managedDevices from the managedDevices navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_manageddevice"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/managedDevices
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,13 +69,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 8249
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedDevice",
-      "id": "f7cd4861-4861-f7cd-6148-cdf76148cdf7",
+      "id": "9d17489c-489c-9d17-9c48-179d9c48179d",
       "userId": "User Id value",
       "deviceName": "Device Name value",
       "hardwareInformation": {
@@ -120,13 +117,13 @@ Content-Length: 8249
           "@odata.type": "microsoft.graph.deviceActionResult",
           "actionName": "Action Name value",
           "actionState": "String",
-          "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-          "lastUpdatedDateTime": "2017-01-01T00:00:08.6820482+03:00"
+          "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+          "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
         }
       ],
       "managementState": "String",
-      "enrolledDateTime": "2017-01-01T00:03:27.5655918+03:00",
-      "lastSyncDateTime": "2016-12-31T23:56:59.0761845+03:00",
+      "enrolledDateTime": "2017-01-01T00:00:08.2470788+03:00",
+      "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
       "chassisType": "String",
       "operatingSystem": "Operating System value",
       "deviceType": "String",
@@ -136,7 +133,7 @@ Content-Length: 8249
       "osVersion": "Os Version value",
       "easActivated": true,
       "easDeviceId": "Eas Device Id value",
-      "easActivationDateTime": "2016-12-31T23:59:59.8473641+03:00",
+      "easActivationDateTime": "2016-12-31T23:58:33.6351648+03:00",
       "aadRegistered": true,
       "azureADRegistered": true,
       "deviceEnrollmentType": "String",
@@ -148,7 +145,7 @@ Content-Length: 8249
       "deviceRegistrationState": "String",
       "deviceCategoryDisplayName": "Device Category Display Name value",
       "isSupervised": true,
-      "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:01:56.0350147+03:00",
+      "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:59:33.4914043+03:00",
       "exchangeAccessState": "String",
       "exchangeAccessStateReason": "String",
       "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -158,7 +155,7 @@ Content-Length: 8249
       "model": "Model value",
       "manufacturer": "Manufacturer value",
       "imei": "Imei value",
-      "complianceGracePeriodExpirationDateTime": "2016-12-31T23:58:50.38304+03:00",
+      "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:32.1532348+03:00",
       "serialNumber": "Serial Number value",
       "phoneNumber": "Phone Number value",
       "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -181,7 +178,7 @@ Content-Length: 8249
         "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
         "deviceHealthAttestationStatus": "Device Health Attestation Status value",
         "contentVersion": "Content Version value",
-        "issuedDateTime": "2017-01-01T00:01:23.2363311+03:00",
+        "issuedDateTime": "2017-01-01T00:01:31.1222435+03:00",
         "attestationIdentityKey": "Attestation Identity Key value",
         "resetCount": 10,
         "restartCount": 12,
@@ -216,17 +213,17 @@ Content-Length: 8249
       "freeStorageSpaceInBytes": 7,
       "managedDeviceName": "Managed Device Name value",
       "partnerReportedThreatState": "String",
-      "retireAfterDateTime": "2016-12-31T23:59:24.9072046+03:00",
+      "retireAfterDateTime": "2016-12-31T23:59:01.533749+03:00",
       "usersLoggedOn": [
         {
           "@odata.type": "microsoft.graph.loggedOnUser",
-          "lastLogOnDateTime": "2017-01-01T00:02:25.4310681+03:00"
+          "lastLogOnDateTime": "2017-01-01T00:03:32.9872261+03:00"
         }
       ],
-      "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:03:29.1441637+03:00",
+      "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:59:55.1364441+03:00",
       "autopilotEnrolled": true,
       "requireUserEnrollmentApproval": true,
-      "managementCertificateExpirationDate": "2017-01-01T00:01:15.4256413+03:00",
+      "managementCertificateExpirationDate": "2017-01-01T00:02:36.7215056+03:00",
       "iccid": "Iccid value",
       "udid": "Udid value",
       "roleScopeTagIds": [

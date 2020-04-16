@@ -1,7 +1,7 @@
 ---
 title: "Get directoryObject"
-description: "Read properties and relationships of the directoryObject object."
-author: ""
+description: "Read properties and relationships of a directoryObject object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Read properties and relationships of the [directoryObject](../resources/directoryobject.md) object.
+Read properties and relationships of a [directoryObject](../resources/directoryobject.md) object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -43,18 +43,17 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a `200 OK` response code and [directoryObject](../resources/directoryobject.md) object in the response body.
+If successful, this method returns a `200 OK` response code and a [directoryObject](../resources/directoryobject.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_directoryobject"
@@ -65,7 +64,7 @@ GET https://graph.microsoft.com/beta/directoryObjects/{directoryObjectsId}
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -75,13 +74,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 190
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.directoryObject",
-    "id": "6c3dfea5-fea5-6c3d-a5fe-3d6ca5fe3d6c",
-    "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00"
+    "id": "2c50d09a-d09a-2c50-9ad0-502c9ad0502c",
+    "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00"
   }
 }
 ```

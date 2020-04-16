@@ -1,26 +1,26 @@
 ---
-title: "Add children"
-description: "Add children by posting to the children collection."
-author: ""
+title: "Create children"
+description: "Create a new children object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add children
+# Create children
 
 Namespace: microsoft.graph
 
-Add children by posting to the children collection.
+Create a new children object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /workbooks/{workbooksId}/children/$ref
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/$ref
+POST /workbooks/{workbooksId}/children
+POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [driveItem](../resources/driveitem.md) object.
@@ -45,39 +45,39 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|createdBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|createdDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
-|description|String| Inherited from [baseItem](../resources/baseitem.md)|
-|eTag|String| Inherited from [baseItem](../resources/baseitem.md)|
-|lastModifiedBy|[identitySet](../resources/identityset.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [baseItem](../resources/baseitem.md)|
-|name|String| Inherited from [baseItem](../resources/baseitem.md)|
-|parentReference|[itemReference](../resources/itemreference.md)| Inherited from [baseItem](../resources/baseitem.md)|
-|webUrl|String| Inherited from [baseItem](../resources/baseitem.md)|
-|audio|[audio](../resources/audio.md)||
-|bundle|[bundle](../resources/bundle.md)||
-|content|Stream||
-|cTag|String||
-|deleted|[deleted](../resources/deleted.md)||
-|file|[file](../resources/file.md)||
-|fileSystemInfo|[fileSystemInfo](../resources/filesysteminfo.md)||
-|folder|[folder](../resources/folder.md)||
-|image|[image](../resources/image.md)||
-|location|[geoCoordinates](../resources/geocoordinates.md)||
-|package|[package](../resources/package.md)||
-|pendingOperations|[pendingOperations](../resources/pendingoperations.md)||
-|photo|[photo](../resources/photo.md)||
-|publication|[publicationFacet](../resources/publicationfacet.md)||
-|remoteItem|[remoteItem](../resources/remoteitem.md)||
-|root|[root](../resources/root.md)||
-|searchResult|[searchResult](../resources/searchresult.md)||
-|shared|[shared](../resources/shared.md)||
-|sharepointIds|[sharepointIds](../resources/sharepointids.md)||
-|size|Int64||
-|specialFolder|[specialFolder](../resources/specialfolder.md)||
-|video|[video](../resources/video.md)||
-|webDavUrl|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|createdBy|[identitySet](../resources/identityset.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|description|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|eTag|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedBy|[identitySet](../resources/identityset.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|name|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|parentReference|[itemReference](../resources/itemreference.md)|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|webUrl|String|**TODO: Add Description** Inherited from [baseItem](../resources/baseitem.md)|
+|audio|[audio](../resources/audio.md)|**TODO: Add Description**|
+|bundle|[bundle](../resources/bundle.md)|**TODO: Add Description**|
+|content|Stream|**TODO: Add Description**|
+|cTag|String|**TODO: Add Description**|
+|deleted|[deleted](../resources/deleted.md)|**TODO: Add Description**|
+|file|[file](../resources/file.md)|**TODO: Add Description**|
+|fileSystemInfo|[fileSystemInfo](../resources/filesysteminfo.md)|**TODO: Add Description**|
+|folder|[folder](../resources/folder.md)|**TODO: Add Description**|
+|image|[image](../resources/image.md)|**TODO: Add Description**|
+|location|[geoCoordinates](../resources/geocoordinates.md)|**TODO: Add Description**|
+|package|[package](../resources/package.md)|**TODO: Add Description**|
+|pendingOperations|[pendingOperations](../resources/pendingoperations.md)|**TODO: Add Description**|
+|photo|[photo](../resources/photo.md)|**TODO: Add Description**|
+|publication|[publicationFacet](../resources/publicationfacet.md)|**TODO: Add Description**|
+|remoteItem|[remoteItem](../resources/remoteitem.md)|**TODO: Add Description**|
+|root|[root](../resources/root.md)|**TODO: Add Description**|
+|searchResult|[searchResult](../resources/searchresult.md)|**TODO: Add Description**|
+|shared|[shared](../resources/shared.md)|**TODO: Add Description**|
+|sharepointIds|[sharepointIds](../resources/sharepointids.md)|**TODO: Add Description**|
+|size|Int64|**TODO: Add Description**|
+|specialFolder|[specialFolder](../resources/specialfolder.md)|**TODO: Add Description**|
+|video|[video](../resources/video.md)|**TODO: Add Description**|
+|webDavUrl|String|**TODO: Add Description**|
 
 
 
@@ -87,7 +87,6 @@ If successful, this method returns a `201 Created` response code and a [driveIte
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_driveitem_from_workbooks"
@@ -95,8 +94,8 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/workbooks/{workbooksId}/children
-Content-type: application/json
-Content-length: 5210
+Content-Type: application/json
+Content-length: 5211
 
 {
   "@odata.type": "#microsoft.graph.driveItem",
@@ -182,7 +181,7 @@ Content-length: 5210
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:01:46.0597966+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:00:39.6300423+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -212,7 +211,7 @@ Content-length: 5210
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2016-12-31T23:57:34.564977+03:00"
+      "queuedDateTime": "2016-12-31T23:58:20.8041463+03:00"
     }
   },
   "photo": {
@@ -225,7 +224,7 @@ Content-length: 5210
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2017-01-01T00:02:04.4801828+03:00"
+    "takenDateTime": "2017-01-01T00:02:04.4033586+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -243,7 +242,7 @@ Content-length: 5210
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2017-01-01T00:03:18.2201352+03:00"
+      "sharedDateTime": "2016-12-31T23:59:49.7174705+03:00"
     },
     "size": 4,
     "specialFolder": {
@@ -283,7 +282,7 @@ Content-length: 5210
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -293,11 +292,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 5461
-
 {
   "@odata.type": "#microsoft.graph.driveItem",
-  "id": "ef1652b0-52b0-ef16-b052-16efb05216ef",
+  "id": "51ff9347-9347-51ff-4793-ff514793ff51",
   "createdBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -312,13 +309,13 @@ Content-Length: 5461
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
   "description": "Description value",
   "eTag": "ETag value",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet"
   },
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "name": "Name value",
   "parentReference": {
     "@odata.type": "microsoft.graph.itemReference",
@@ -385,7 +382,7 @@ Content-Length: 5461
   },
   "fileSystemInfo": {
     "@odata.type": "microsoft.graph.fileSystemInfo",
-    "lastAccessedDateTime": "2017-01-01T00:01:46.0597966+03:00"
+    "lastAccessedDateTime": "2017-01-01T00:00:39.6300423+03:00"
   },
   "folder": {
     "@odata.type": "microsoft.graph.folder",
@@ -415,7 +412,7 @@ Content-Length: 5461
     "@odata.type": "microsoft.graph.pendingOperations",
     "pendingContentUpdate": {
       "@odata.type": "microsoft.graph.pendingContentUpdate",
-      "queuedDateTime": "2016-12-31T23:57:34.564977+03:00"
+      "queuedDateTime": "2016-12-31T23:58:20.8041463+03:00"
     }
   },
   "photo": {
@@ -428,7 +425,7 @@ Content-Length: 5461
     "focalLength": "Double",
     "iso": 3,
     "orientation": 11,
-    "takenDateTime": "2017-01-01T00:02:04.4801828+03:00"
+    "takenDateTime": "2017-01-01T00:02:04.4033586+03:00"
   },
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
@@ -446,7 +443,7 @@ Content-Length: 5461
       "sharedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "sharedDateTime": "2017-01-01T00:03:18.2201352+03:00"
+      "sharedDateTime": "2016-12-31T23:59:49.7174705+03:00"
     },
     "size": 4,
     "specialFolder": {

@@ -1,7 +1,7 @@
 ---
 title: "List messages"
 description: "Get the messages from the messages navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_message"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/messages
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,21 +69,19 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 2965
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.message",
-      "id": "0ddf78c3-78c3-0ddf-c378-df0dc378df0d",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+      "id": "0cb6590c-590c-0cb6-0c59-b60c0c59b60c",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
       ],
-      "receivedDateTime": "2016-12-31T23:59:33.0224939+03:00",
-      "sentDateTime": "2016-12-31T23:59:16.8057541+03:00",
+      "receivedDateTime": "2017-01-01T00:00:47.6020289+03:00",
+      "sentDateTime": "2016-12-31T23:59:37.4629673+03:00",
       "hasAttachments": true,
       "internetMessageId": "Internet Message Id value",
       "internetMessageHeaders": [

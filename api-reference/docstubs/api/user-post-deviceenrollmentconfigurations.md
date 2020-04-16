@@ -1,26 +1,26 @@
 ---
-title: "Add deviceEnrollmentConfigurations"
-description: "Add deviceEnrollmentConfigurations by posting to the deviceEnrollmentConfigurations collection."
-author: ""
+title: "Create deviceEnrollmentConfigurations"
+description: "Create a new deviceEnrollmentConfigurations object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add deviceEnrollmentConfigurations
+# Create deviceEnrollmentConfigurations
 
 Namespace: microsoft.graph
 
-Add deviceEnrollmentConfigurations by posting to the deviceEnrollmentConfigurations collection.
+Create a new deviceEnrollmentConfigurations object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/deviceEnrollmentConfigurations/$ref
-POST /users/{usersId}/deviceEnrollmentConfigurations/$ref
+POST /me/deviceEnrollmentConfigurations
+POST /users/{usersId}/deviceEnrollmentConfigurations
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) object.
@@ -45,7 +45,7 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 |displayName|String|The display name of the device enrollment configuration|
 |description|String|The description of the device enrollment configuration|
 |priority|Int32|Priority is used when a user exists in multiple groups that are assigned enrollment configuration. Users are subject only to the configuration with the lowest priority value.|
@@ -61,7 +61,6 @@ If successful, this method returns a `201 Created` response code and a [deviceEn
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_deviceenrollmentconfiguration_from_"
@@ -69,7 +68,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/deviceEnrollmentConfigurations
-Content-type: application/json
+Content-Type: application/json
 Content-length: 185
 
 {
@@ -82,7 +81,7 @@ Content-length: 185
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -92,16 +91,14 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 357
-
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-  "id": "d8ad442d-442d-d8ad-2d44-add82d44add8",
+  "id": "a7dac5d5-c5d5-a7da-d5c5-daa7d5c5daa7",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "version": 7
 }
 ```

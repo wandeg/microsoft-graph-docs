@@ -1,26 +1,26 @@
 ---
-title: "Add acceptedSenders"
-description: "Add acceptedSenders by posting to the acceptedSenders collection."
-author: ""
+title: "Create acceptedSenders"
+description: "Create a new acceptedSenders object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add acceptedSenders
+# Create acceptedSenders
 
 Namespace: microsoft.graph
 
-Add acceptedSenders by posting to the acceptedSenders collection.
+Create a new acceptedSenders object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /groups/{groupsId}/acceptedSenders/$ref
-POST /me/joinedGroups/{groupId}/acceptedSenders/$ref
+POST /groups/{groupsId}/acceptedSenders
+POST /me/joinedGroups/{groupId}/acceptedSenders
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [directoryObject](../resources/directoryobject.md) object.
@@ -45,8 +45,8 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|deletedDateTime|DateTimeOffset||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description**|
 
 
 
@@ -56,7 +56,6 @@ If successful, this method returns a `201 Created` response code and a [director
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_directoryobject_from_directoryobjects"
@@ -64,17 +63,17 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/groups/{groupsId}/acceptedSenders
-Content-type: application/json
+Content-Type: application/json
 Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00"
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -84,12 +83,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 165
-
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "6c3dfea5-fea5-6c3d-a5fe-3d6ca5fe3d6c",
-  "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00"
+  "id": "2c50d09a-d09a-2c50-9ad0-502c9ad0502c",
+  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00"
 }
 ```
 

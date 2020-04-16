@@ -10,7 +10,7 @@ doc_type: enumTypes
 ### accessType values 
 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|
@@ -19,7 +19,7 @@ doc_type: enumTypes
 
 ### calendarColor values 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|
@@ -37,7 +37,7 @@ doc_type: enumTypes
 
 ### onlineMeetingProviderType values 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|
@@ -48,7 +48,7 @@ doc_type: enumTypes
 
 ### status values 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|
@@ -60,7 +60,7 @@ doc_type: enumTypes
 
 ### teamSpecialization values 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|
@@ -75,7 +75,7 @@ doc_type: enumTypes
 
 ### teamVisibilityType values 
 
-
+**TODO: Add Description**
 
 |Members|
 |:---|

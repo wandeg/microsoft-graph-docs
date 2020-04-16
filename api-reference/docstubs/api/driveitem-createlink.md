@@ -1,7 +1,7 @@
 ---
-title: "createLink"
-description: ""
-author: ""
+title: "driveItem: createLink"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -56,22 +56,22 @@ POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/a
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply JSON representation of the parameters.
 
 The following table shows the parameters that can be used with this action.
 
-|Property|Type|Description|
+|Parameter|Type|Description|
 |:---|:---|:---|
-|type|String||
-|scope|String||
-|expirationDateTime|DateTimeOffset||
-|password|String||
-|message|String||
-|recipients|[driveRecipient](../resources/driverecipient.md) collection||
+|type|String|**TODO: Add Description**|
+|scope|String|**TODO: Add Description**|
+|expirationDateTime|DateTimeOffset|**TODO: Add Description**|
+|password|String|**TODO: Add Description**|
+|message|String|**TODO: Add Description**|
+|recipients|[driveRecipient](../resources/driverecipient.md) collection|**TODO: Add Description**|
 
 
 
@@ -81,7 +81,6 @@ If successful, this action returns a `200 OK` response code and a [permission](.
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "driveitem_createlink"
@@ -90,13 +89,13 @@ Here is an example of the request.
 ``` http
 POST https://graph.microsoft.com/beta/drives/{drivesId}/root/createLink
 
-Content-type: application/json
+Content-Type: application/json
 Content-length: 344
 
 {
   "type": "Type value",
   "scope": "Scope value",
-  "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
   "password": "Password value",
   "message": "Message value",
   "recipients": [
@@ -110,7 +109,7 @@ Content-length: 344
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -120,13 +119,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 731
-
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "3646b6e2-b6e2-3646-e2b6-4636e2b64636",
-    "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+    "id": "294ca067-a067-294c-67a0-4c2967a04c29",
+    "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet"
     },

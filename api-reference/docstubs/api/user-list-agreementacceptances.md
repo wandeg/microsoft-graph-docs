@@ -1,7 +1,7 @@
 ---
 title: "List agreementAcceptances"
 description: "Get the agreementAcceptances from the agreementAcceptances navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_agreementacceptance"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/agreementAcceptances
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,17 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 522
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.agreementAcceptance",
-      "id": "25693e72-3e72-2569-723e-6925723e6925",
+      "id": "92519f43-9f43-9251-439f-5192439f5192",
       "agreementId": "Agreement Id value",
       "userId": "User Id value",
       "agreementFileId": "Agreement File Id value",
-      "recordedDateTime": "2017-01-01T00:00:22.6480234+03:00",
+      "recordedDateTime": "2016-12-31T23:57:10.1758438+03:00",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
       "userEmail": "User Email value",

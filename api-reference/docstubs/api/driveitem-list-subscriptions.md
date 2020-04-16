@@ -1,7 +1,7 @@
 ---
 title: "List subscriptions"
 description: "Get the subscriptions from the subscriptions navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_subscription"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/workbooks/{workbooksId}/subscriptions
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,18 +69,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 774
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscription",
-      "id": "e7c98de3-8de3-e7c9-e38d-c9e7e38dc9e7",
+      "id": "b502a512-a512-b502-12a5-02b512a502b5",
       "resource": "Resource value",
       "changeType": "Change Type value",
       "clientState": "Client State value",
       "notificationUrl": "https://example.com/notificationUrl/",
-      "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
       "applicationId": "Application Id value",
       "creatorId": "Creator Id value",
       "includeProperties": true,

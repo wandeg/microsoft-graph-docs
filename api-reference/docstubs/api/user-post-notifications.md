@@ -1,26 +1,26 @@
 ---
-title: "Add notifications"
-description: "Add notifications by posting to the notifications collection."
-author: ""
+title: "Create notifications"
+description: "Create a new notifications object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add notifications
+# Create notifications
 
 Namespace: microsoft.graph
 
-Add notifications by posting to the notifications collection.
+Create a new notifications object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/notifications/$ref
-POST /users/{usersId}/notifications/$ref
+POST /me/notifications
+POST /users/{usersId}/notifications
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [notification](../resources/notification.md) object.
@@ -45,14 +45,14 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|targetHostName|String||
-|expirationDateTime|DateTimeOffset||
-|payload|[payloadTypes](../resources/payloadtypes.md)||
-|displayTimeToLive|Int32||
-|priority|Enumeration| Possible values are: `None`, `High`, `Low`.|
-|groupName|String||
-|targetPolicy|[targetPolicyEndpoints](../resources/targetpolicyendpoints.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|targetHostName|String|**TODO: Add Description**|
+|expirationDateTime|DateTimeOffset|**TODO: Add Description**|
+|payload|[payloadTypes](../resources/payloadtypes.md)|**TODO: Add Description**|
+|displayTimeToLive|Int32|**TODO: Add Description**|
+|priority|priority|**TODO: Add Description**. Possible values are: `None`, `High`, `Low`.|
+|groupName|String|**TODO: Add Description**|
+|targetPolicy|[targetPolicyEndpoints](../resources/targetpolicyendpoints.md)|**TODO: Add Description**|
 
 
 
@@ -62,7 +62,6 @@ If successful, this method returns a `201 Created` response code and a [notifica
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_notification_from_"
@@ -70,13 +69,13 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/notifications
-Content-type: application/json
+Content-Type: application/json
 Content-length: 662
 
 {
   "@odata.type": "#microsoft.graph.notification",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",
@@ -99,7 +98,7 @@ Content-length: 662
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -109,13 +108,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 711
-
 {
   "@odata.type": "#microsoft.graph.notification",
-  "id": "e8fd35e5-35e5-e8fd-e535-fde8e535fde8",
+  "id": "1e2f1807-1807-1e2f-0718-2f1e07182f1e",
   "targetHostName": "Target Host Name value",
-  "expirationDateTime": "2017-01-01T00:03:08.7291689+03:00",
+  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
   "payload": {
     "@odata.type": "microsoft.graph.payloadTypes",
     "rawContent": "Raw Content value",

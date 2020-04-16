@@ -1,7 +1,7 @@
 ---
 title: "List devices"
 description: "Get the devices from the devices navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_device"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/devices
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,14 +69,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 1486
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.device",
-      "id": "76548e54-8e54-7654-548e-5476548e5476",
-      "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+      "id": "bb7a2033-2033-bb7a-3320-7abb33207abb",
+      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
       "accountEnabled": true,
       "alternativeSecurityIds": [
         {
@@ -87,15 +84,15 @@ Content-Length: 1486
           "key": "a2V5"
         }
       ],
-      "approximateLastSignInDateTime": "2017-01-01T00:01:29.5427149+03:00",
-      "complianceExpirationDateTime": "2017-01-01T00:02:32.142331+03:00",
+      "approximateLastSignInDateTime": "2016-12-31T23:59:19.2749988+03:00",
+      "complianceExpirationDateTime": "2017-01-01T00:03:14.2914635+03:00",
       "deviceId": "Device Id value",
       "deviceMetadata": "Device Metadata value",
       "deviceVersion": 13,
       "displayName": "Display Name value",
       "isCompliant": true,
       "isManaged": true,
-      "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
       "onPremisesSyncEnabled": true,
       "operatingSystem": "Operating System value",
       "operatingSystemVersion": "Operating System Version value",

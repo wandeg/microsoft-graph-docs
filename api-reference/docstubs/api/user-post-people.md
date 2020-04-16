@@ -1,26 +1,26 @@
 ---
-title: "Add people"
-description: "Add people by posting to the people collection."
-author: ""
+title: "Create people"
+description: "Create a new people object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add people
+# Create people
 
 Namespace: microsoft.graph
 
-Add people by posting to the people collection.
+Create a new people object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/people/$ref
-POST /users/{usersId}/people/$ref
+POST /me/people
+POST /users/{usersId}/people
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [person](../resources/person.md) object.
@@ -45,27 +45,27 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String||
-|givenName|String||
-|surname|String||
-|birthday|String||
-|personNotes|String||
-|isFavorite|Boolean||
-|emailAddresses|[rankedEmailAddress](../resources/rankedemailaddress.md) collection||
-|phones|[phone](../resources/phone.md) collection||
-|postalAddresses|[location](../resources/location.md) collection||
-|websites|[website](../resources/website.md) collection||
-|title|String||
-|companyName|String||
-|yomiCompany|String||
-|department|String||
-|officeLocation|String||
-|profession|String||
-|sources|[personDataSource](../resources/persondatasource.md) collection||
-|mailboxType|String||
-|personType|String||
-|userPrincipalName|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|displayName|String|**TODO: Add Description**|
+|givenName|String|**TODO: Add Description**|
+|surname|String|**TODO: Add Description**|
+|birthday|String|**TODO: Add Description**|
+|personNotes|String|**TODO: Add Description**|
+|isFavorite|Boolean|**TODO: Add Description**|
+|emailAddresses|[rankedEmailAddress](../resources/rankedemailaddress.md) collection|**TODO: Add Description**|
+|phones|[phone](../resources/phone.md) collection|**TODO: Add Description**|
+|postalAddresses|[location](../resources/location.md) collection|**TODO: Add Description**|
+|websites|[website](../resources/website.md) collection|**TODO: Add Description**|
+|title|String|**TODO: Add Description**|
+|companyName|String|**TODO: Add Description**|
+|yomiCompany|String|**TODO: Add Description**|
+|department|String|**TODO: Add Description**|
+|officeLocation|String|**TODO: Add Description**|
+|profession|String|**TODO: Add Description**|
+|sources|[personDataSource](../resources/persondatasource.md) collection|**TODO: Add Description**|
+|mailboxType|String|**TODO: Add Description**|
+|personType|String|**TODO: Add Description**|
+|userPrincipalName|String|**TODO: Add Description**|
 
 
 
@@ -75,7 +75,6 @@ If successful, this method returns a `201 Created` response code and a [person](
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_person_from_"
@@ -83,7 +82,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/people
-Content-type: application/json
+Content-Type: application/json
 Content-length: 2072
 
 {
@@ -161,7 +160,7 @@ Content-length: 2072
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -171,11 +170,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2121
-
 {
   "@odata.type": "#microsoft.graph.person",
-  "id": "79349334-9334-7934-3493-347934933479",
+  "id": "efe9b346-b346-efe9-46b3-e9ef46b3e9ef",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
   "surname": "Surname value",

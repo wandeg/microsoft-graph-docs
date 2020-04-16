@@ -1,7 +1,7 @@
 ---
 title: "List licenseDetails"
-description: "Get the licenseDetailses from the licenseDetails navigation property."
-author: ""
+description: "Get the licenseDetails from the licenseDetails navigation property."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -11,16 +11,16 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Get the licenseDetailses from the licenseDetails navigation property.
+Get the licenseDetails from the licenseDetails navigation property.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_licensedetails"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/me/licenseDetails
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,23 +69,21 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 599
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.licenseDetails",
-      "id": "14abdc57-dc57-14ab-57dc-ab1457dcab14",
+      "id": "e8f5bae1-bae1-e8f5-e1ba-f5e8e1baf5e8",
       "servicePlans": [
         {
           "@odata.type": "microsoft.graph.servicePlanInfo",
-          "servicePlanId": "164ff6de-f6de-164f-def6-4f16def64f16",
+          "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15",
           "servicePlanName": "Service Plan Name value",
           "provisioningStatus": "Provisioning Status value",
           "appliesTo": "Applies To value"
         }
       ],
-      "skuId": "9d681946-1946-9d68-4619-689d4619689d",
+      "skuId": "220e6177-6177-220e-7761-0e2277610e22",
       "skuPartNumber": "Sku Part Number value"
     }
   ]

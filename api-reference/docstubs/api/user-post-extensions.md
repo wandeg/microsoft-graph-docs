@@ -1,26 +1,26 @@
 ---
-title: "Add extensions"
-description: "Add extensions by posting to the extensions collection."
-author: ""
+title: "Create extensions"
+description: "Create a new extensions object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add extensions
+# Create extensions
 
 Namespace: microsoft.graph
 
-Add extensions by posting to the extensions collection.
+Create a new extensions object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/extensions/$ref
-POST /users/{usersId}/extensions/$ref
+POST /me/extensions
+POST /users/{usersId}/extensions
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [extension](../resources/extension.md) object.
@@ -45,17 +45,16 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [extension](../resources/extension.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [extension](../resources/extension.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_extension_from_"
@@ -63,7 +62,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/extensions
-Content-type: application/json
+Content-Type: application/json
 Content-length: 51
 
 {
@@ -72,7 +71,7 @@ Content-length: 51
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -82,11 +81,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 100
-
 {
   "@odata.type": "#microsoft.graph.extension",
-  "id": "e20ba033-a033-e20b-33a0-0be233a00be2"
+  "id": "bfecd0f1-d0f1-bfec-f1d0-ecbff1d0ecbf"
 }
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: "user resource type"
 description: "Represents an Azure Active Directory user object."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
@@ -20,265 +20,265 @@ Inherits from [directoryObject](../resources/directoryobject.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List users](../api/user-list.md)|[user](../resources/user.md) collection|List properties and relationships of the [user](../resources/user.md) objects.|
-|[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of the [user](../resources/user.md) object.|
+|[List users](../api/user-list.md)|[user](../resources/user.md) collection|Get a list of the [user](../resources/user.md) objects and their properties.|
+|[Get user](../api/user-get.md)|[user](../resources/user.md)|Read properties and relationships of an [user](../resources/user.md) object.|
 |[Create user](../api/user-post-users.md)|[user](../resources/user.md)|Create a new [user](../resources/user.md) object.|
 |[Delete user](../api/user-delete.md)|None|Deletes a [user](../resources/user.md).|
 |[Update user](../api/user-update.md)|[user](../resources/user.md)|Update the properties of a [user](../resources/user.md) object.|
-|[delta](../api/user-delta.md)|[user](../resources/user.md) collection||
-|[checkMemberGroups](../api/user-checkmembergroups.md)|String collection||
-|[checkMemberObjects](../api/user-checkmemberobjects.md)|String collection||
-|[getMemberGroups](../api/user-getmembergroups.md)|String collection||
-|[getMemberObjects](../api/user-getmemberobjects.md)|String collection||
-|[restore](../api/user-restore.md)|[directoryObject](../resources/directoryobject.md)||
-|[assignLicense](../api/user-assignlicense.md)|[user](../resources/user.md)||
-|[changePassword](../api/user-changepassword.md)|None||
-|[invalidateAllRefreshTokens](../api/user-invalidateallrefreshtokens.md)|Boolean||
-|[revokeSignInSessions](../api/user-revokesigninsessions.md)|Boolean||
-|[reprocessLicenseAssignment](../api/user-reprocesslicenseassignment.md)|[user](../resources/user.md)||
-|[sendMail](../api/user-sendmail.md)|None||
-|[reminderView](../api/user-reminderview.md)|[reminder](../resources/reminder.md) collection||
-|[getMailTips](../api/user-getmailtips.md)|[mailTips](../resources/mailtips.md) collection||
-|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection||
-|[findRoomLists](../api/user-findroomlists.md)|[emailAddress](../resources/emailaddress.md) collection||
-|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection||
-|[translateExchangeIds](../api/user-translateexchangeids.md)|[convertIdResult](../resources/convertidresult.md) collection||
-|[findMeetingTimes](../api/user-findmeetingtimes.md)|[meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md)||
-|[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)||
-|[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)||
-|[getEffectiveDeviceEnrollmentConfigurations](../api/user-geteffectivedeviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection||
-|[removeAllDevicesFromManagement](../api/user-removealldevicesfrommanagement.md)|None||
-|[getLoggedOnManagedDevices](../api/user-getloggedonmanageddevices.md)|[managedDevice](../resources/manageddevice.md) collection||
-|[getManagedAppDiagnosticStatuses](../api/user-getmanagedappdiagnosticstatuses.md)|[managedAppDiagnosticStatus](../resources/managedappdiagnosticstatus.md) collection||
-|[getManagedAppPolicies](../api/user-getmanagedapppolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection||
-|[wipeManagedAppRegistrationByDeviceTag](../api/user-wipemanagedappregistrationbydevicetag.md)|None||
-|[wipeManagedAppRegistrationsByDeviceTag](../api/user-wipemanagedappregistrationsbydevicetag.md)|None||
-|[getManagedDevicesWithAppFailures](../api/user-getmanageddeviceswithappfailures.md)|String collection||
-|[exportPersonalData](../api/user-exportpersonaldata.md)|None||
-|[Get userAnalytics](../api/useranalytics-get.md)|[userAnalytics](../resources/useranalytics.md)|Read properties and relationships of the [userAnalytics](../resources/useranalytics.md) object.|
-|[Get informationProtection](../api/informationprotection-get.md)|[informationProtection](../resources/informationprotection.md)|Read properties and relationships of the [informationProtection](../resources/informationprotection.md) object.|
+|[delta](../api/user-delta.md)|[user](../resources/user.md) collection|**TODO: Add Description**|
+|[checkMemberGroups](../api/user-checkmembergroups.md)|String collection|**TODO: Add Description**|
+|[checkMemberObjects](../api/user-checkmemberobjects.md)|String collection|**TODO: Add Description**|
+|[getMemberGroups](../api/user-getmembergroups.md)|String collection|**TODO: Add Description**|
+|[getMemberObjects](../api/user-getmemberobjects.md)|String collection|**TODO: Add Description**|
+|[restore](../api/user-restore.md)|[directoryObject](../resources/directoryobject.md)|**TODO: Add Description**|
+|[assignLicense](../api/user-assignlicense.md)|[user](../resources/user.md)|**TODO: Add Description**|
+|[changePassword](../api/user-changepassword.md)|None|**TODO: Add Description**|
+|[invalidateAllRefreshTokens](../api/user-invalidateallrefreshtokens.md)|Boolean|**TODO: Add Description**|
+|[revokeSignInSessions](../api/user-revokesigninsessions.md)|Boolean|**TODO: Add Description**|
+|[reprocessLicenseAssignment](../api/user-reprocesslicenseassignment.md)|[user](../resources/user.md)|**TODO: Add Description**|
+|[sendMail](../api/user-sendmail.md)|None|**TODO: Add Description**|
+|[reminderView](../api/user-reminderview.md)|[reminder](../resources/reminder.md) collection|**TODO: Add Description**|
+|[getMailTips](../api/user-getmailtips.md)|[mailTips](../resources/mailtips.md) collection|**TODO: Add Description**|
+|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection|**TODO: Add Description**|
+|[findRoomLists](../api/user-findroomlists.md)|[emailAddress](../resources/emailaddress.md) collection|**TODO: Add Description**|
+|[findRooms](../api/user-findrooms.md)|[emailAddress](../resources/emailaddress.md) collection|**TODO: Add Description**|
+|[translateExchangeIds](../api/user-translateexchangeids.md)|[convertIdResult](../resources/convertidresult.md) collection|**TODO: Add Description**|
+|[findMeetingTimes](../api/user-findmeetingtimes.md)|[meetingTimeSuggestionsResult](../resources/meetingtimesuggestionsresult.md)|**TODO: Add Description**|
+|[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)|**TODO: Add Description**|
+|[exportDeviceAndAppManagementData](../api/user-exportdeviceandappmanagementdata.md)|[deviceAndAppManagementData](../resources/deviceandappmanagementdata.md)|**TODO: Add Description**|
+|[getEffectiveDeviceEnrollmentConfigurations](../api/user-geteffectivedeviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|**TODO: Add Description**|
+|[removeAllDevicesFromManagement](../api/user-removealldevicesfrommanagement.md)|None|**TODO: Add Description**|
+|[getLoggedOnManagedDevices](../api/user-getloggedonmanageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|**TODO: Add Description**|
+|[getManagedAppDiagnosticStatuses](../api/user-getmanagedappdiagnosticstatuses.md)|[managedAppDiagnosticStatus](../resources/managedappdiagnosticstatus.md) collection|**TODO: Add Description**|
+|[getManagedAppPolicies](../api/user-getmanagedapppolicies.md)|[managedAppPolicy](../resources/managedapppolicy.md) collection|**TODO: Add Description**|
+|[wipeManagedAppRegistrationByDeviceTag](../api/user-wipemanagedappregistrationbydevicetag.md)|None|**TODO: Add Description**|
+|[wipeManagedAppRegistrationsByDeviceTag](../api/user-wipemanagedappregistrationsbydevicetag.md)|None|**TODO: Add Description**|
+|[getManagedDevicesWithAppFailures](../api/user-getmanageddeviceswithappfailures.md)|String collection|**TODO: Add Description**|
+|[exportPersonalData](../api/user-exportpersonaldata.md)|None|**TODO: Add Description**|
+|[Get userAnalytics](../api/useranalytics-get.md)|[userAnalytics](../resources/useranalytics.md)|Read properties and relationships of an [userAnalytics](../resources/useranalytics.md) object.|
+|[Get informationProtection](../api/informationprotection-get.md)|[informationProtection](../resources/informationprotection.md)|Read properties and relationships of an [informationProtection](../resources/informationprotection.md) object.|
 |[List appRoleAssignments](../api/user-list-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md) collection|Get the appRoleAssignments from the appRoleAssignments navigation property.|
-|[Add appRoleAssignments](../api/user-post-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md)|Add appRoleAssignments by posting to the appRoleAssignments collection.|
+|[Create appRoleAssignments](../api/user-post-approleassignments.md)|[appRoleAssignment](../resources/approleassignment.md)|Create a new appRoleAssignments object.|
 |[List createdObjects](../api/user-list-createdobjects.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the createdObjects navigation property.|
-|[Create createdObjects](../api/user-post-createdobjects.md)|[directoryObject](../resources/directoryobject.md)|Create createdObjects by posting to the createdObjects collection.|
+|[Add createdObjects](../api/user-post-createdobjects.md)|[directoryObject](../resources/directoryobject.md)|Add createdObjects by posting to the createdObjects collection.|
 |[List directReports](../api/user-list-directreports.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the directReports navigation property.|
-|[Create directReports](../api/user-post-directreports.md)|[directoryObject](../resources/directoryobject.md)|Create directReports by posting to the directReports collection.|
-|[List licenseDetails](../api/user-list-licensedetails.md)|[licenseDetails](../resources/licensedetails.md) collection|Get the licenseDetailses from the licenseDetails navigation property.|
-|[Add licenseDetails](../api/user-post-licensedetails.md)|[licenseDetails](../resources/licensedetails.md)|Add licenseDetails by posting to the licenseDetails collection.|
-|[Get directoryObject](../api/directoryobject-get.md)|[directoryObject](../resources/directoryobject.md)|Read properties and relationships of the [directoryObject](../resources/directoryobject.md) object.|
+|[Add directReports](../api/user-post-directreports.md)|[directoryObject](../resources/directoryobject.md)|Add directReports by posting to the directReports collection.|
+|[List licenseDetails](../api/user-list-licensedetails.md)|[licenseDetails](../resources/licensedetails.md) collection|Get the licenseDetails from the licenseDetails navigation property.|
+|[Create licenseDetails](../api/user-post-licensedetails.md)|[licenseDetails](../resources/licensedetails.md)|Create a new licenseDetails object.|
+|[Get directoryObject](../api/directoryobject-get.md)|[directoryObject](../resources/directoryobject.md)|Read properties and relationships of a [directoryObject](../resources/directoryobject.md) object.|
 |[List memberOf](../api/user-list-memberof.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the memberOf navigation property.|
-|[Create memberOf](../api/user-post-memberof.md)|[directoryObject](../resources/directoryobject.md)|Create memberOf by posting to the memberOf collection.|
+|[Add memberOf](../api/user-post-memberof.md)|[directoryObject](../resources/directoryobject.md)|Add memberOf by posting to the memberOf collection.|
 |[List ownedDevices](../api/user-list-owneddevices.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the ownedDevices navigation property.|
-|[Create ownedDevices](../api/user-post-owneddevices.md)|[directoryObject](../resources/directoryobject.md)|Create ownedDevices by posting to the ownedDevices collection.|
+|[Add ownedDevices](../api/user-post-owneddevices.md)|[directoryObject](../resources/directoryobject.md)|Add ownedDevices by posting to the ownedDevices collection.|
 |[List ownedObjects](../api/user-list-ownedobjects.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the ownedObjects navigation property.|
-|[Create ownedObjects](../api/user-post-ownedobjects.md)|[directoryObject](../resources/directoryobject.md)|Create ownedObjects by posting to the ownedObjects collection.|
+|[Add ownedObjects](../api/user-post-ownedobjects.md)|[directoryObject](../resources/directoryobject.md)|Add ownedObjects by posting to the ownedObjects collection.|
 |[List registeredDevices](../api/user-list-registereddevices.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the registeredDevices navigation property.|
-|[Create registeredDevices](../api/user-post-registereddevices.md)|[directoryObject](../resources/directoryobject.md)|Create registeredDevices by posting to the registeredDevices collection.|
+|[Add registeredDevices](../api/user-post-registereddevices.md)|[directoryObject](../resources/directoryobject.md)|Add registeredDevices by posting to the registeredDevices collection.|
 |[List scopedRoleMemberOf](../api/user-list-scopedrolememberof.md)|[scopedRoleMembership](../resources/scopedrolemembership.md) collection|Get the scopedRoleMemberships from the scopedRoleMemberOf navigation property.|
-|[Add scopedRoleMemberOf](../api/user-post-scopedrolememberof.md)|[scopedRoleMembership](../resources/scopedrolemembership.md)|Add scopedRoleMemberOf by posting to the scopedRoleMemberOf collection.|
+|[Create scopedRoleMemberOf](../api/user-post-scopedrolememberof.md)|[scopedRoleMembership](../resources/scopedrolemembership.md)|Create a new scopedRoleMemberOf object.|
 |[List transitiveMemberOf](../api/user-list-transitivememberof.md)|[directoryObject](../resources/directoryobject.md) collection|Get the directoryObjects from the transitiveMemberOf navigation property.|
-|[Create transitiveMemberOf](../api/user-post-transitivememberof.md)|[directoryObject](../resources/directoryobject.md)|Create transitiveMemberOf by posting to the transitiveMemberOf collection.|
-|[Get outlookUser](../api/outlookuser-get.md)|[outlookUser](../resources/outlookuser.md)|Read properties and relationships of the [outlookUser](../resources/outlookuser.md) object.|
+|[Add transitiveMemberOf](../api/user-post-transitivememberof.md)|[directoryObject](../resources/directoryobject.md)|Add transitiveMemberOf by posting to the transitiveMemberOf collection.|
+|[Get outlookUser](../api/outlookuser-get.md)|[outlookUser](../resources/outlookuser.md)|Read properties and relationships of an [outlookUser](../resources/outlookuser.md) object.|
 |[List messages](../api/user-list-messages.md)|[message](../resources/message.md) collection|Get the messages from the messages navigation property.|
-|[Add messages](../api/user-post-messages.md)|[message](../resources/message.md)|Add messages by posting to the messages collection.|
+|[Create messages](../api/user-post-messages.md)|[message](../resources/message.md)|Create a new messages object.|
 |[List joinedGroups](../api/user-list-joinedgroups.md)|[group](../resources/group.md) collection|Get the groups from the joinedGroups navigation property.|
-|[Add joinedGroups](../api/user-post-joinedgroups.md)|[group](../resources/group.md)|Add joinedGroups by posting to the joinedGroups collection.|
+|[Create joinedGroups](../api/user-post-joinedgroups.md)|[group](../resources/group.md)|Create a new joinedGroups object.|
 |[List mailFolders](../api/user-list-mailfolders.md)|[mailFolder](../resources/mailfolder.md) collection|Get the mailFolders from the mailFolders navigation property.|
-|[Add mailFolders](../api/user-post-mailfolders.md)|[mailFolder](../resources/mailfolder.md)|Add mailFolders by posting to the mailFolders collection.|
-|[Get calendar](../api/calendar-get.md)|[calendar](../resources/calendar.md)|Read properties and relationships of the [calendar](../resources/calendar.md) object.|
+|[Create mailFolders](../api/user-post-mailfolders.md)|[mailFolder](../resources/mailfolder.md)|Create a new mailFolders object.|
+|[Get calendar](../api/calendar-get.md)|[calendar](../resources/calendar.md)|Read properties and relationships of a [calendar](../resources/calendar.md) object.|
 |[List calendars](../api/user-list-calendars.md)|[calendar](../resources/calendar.md) collection|Get the calendars from the calendars navigation property.|
-|[Add calendars](../api/user-post-calendars.md)|[calendar](../resources/calendar.md)|Add calendars by posting to the calendars collection.|
+|[Create calendars](../api/user-post-calendars.md)|[calendar](../resources/calendar.md)|Create a new calendars object.|
 |[List calendarGroups](../api/user-list-calendargroups.md)|[calendarGroup](../resources/calendargroup.md) collection|Get the calendarGroups from the calendarGroups navigation property.|
-|[Add calendarGroups](../api/user-post-calendargroups.md)|[calendarGroup](../resources/calendargroup.md)|Add calendarGroups by posting to the calendarGroups collection.|
+|[Create calendarGroups](../api/user-post-calendargroups.md)|[calendarGroup](../resources/calendargroup.md)|Create a new calendarGroups object.|
 |[List calendarView](../api/user-list-calendarview.md)|[event](../resources/event.md) collection|Get the events from the calendarView navigation property.|
-|[Add calendarView](../api/user-post-calendarview.md)|[event](../resources/event.md)|Add calendarView by posting to the calendarView collection.|
+|[Create calendarView](../api/user-post-calendarview.md)|[event](../resources/event.md)|Create a new calendarView object.|
 |[List events](../api/user-list-events.md)|[event](../resources/event.md) collection|Get the events from the events navigation property.|
-|[Add events](../api/user-post-events.md)|[event](../resources/event.md)|Add events by posting to the events collection.|
-|[List people](../api/user-list-people.md)|[person](../resources/person.md) collection|Get the persons from the people navigation property.|
-|[Add people](../api/user-post-people.md)|[person](../resources/person.md)|Add people by posting to the people collection.|
+|[Create events](../api/user-post-events.md)|[event](../resources/event.md)|Create a new events object.|
+|[List people](../api/user-list-people.md)|[person](../resources/person.md) collection|Get the people from the people navigation property.|
+|[Create people](../api/user-post-people.md)|[person](../resources/person.md)|Create a new people object.|
 |[List contacts](../api/user-list-contacts.md)|[contact](../resources/contact.md) collection|Get the contacts from the contacts navigation property.|
-|[Add contacts](../api/user-post-contacts.md)|[contact](../resources/contact.md)|Add contacts by posting to the contacts collection.|
+|[Create contacts](../api/user-post-contacts.md)|[contact](../resources/contact.md)|Create a new contacts object.|
 |[List contactFolders](../api/user-list-contactfolders.md)|[contactFolder](../resources/contactfolder.md) collection|Get the contactFolders from the contactFolders navigation property.|
-|[Add contactFolders](../api/user-post-contactfolders.md)|[contactFolder](../resources/contactfolder.md)|Add contactFolders by posting to the contactFolders collection.|
-|[Get inferenceClassification](../api/inferenceclassification-get.md)|[inferenceClassification](../resources/inferenceclassification.md)|Read properties and relationships of the [inferenceClassification](../resources/inferenceclassification.md) object.|
-|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of the [profilePhoto](../resources/profilephoto.md) object.|
-|[List photos](../api/user-list-photos.md)|[profilePhoto](../resources/profilephoto.md) collection|Get the profilePhotos from the photos navigation property.|
-|[Add photos](../api/user-post-photos.md)|[profilePhoto](../resources/profilephoto.md)|Add photos by posting to the photos collection.|
-|[Get drive](../api/drive-get.md)|[drive](../resources/drive.md)|Read properties and relationships of the [drive](../resources/drive.md) object.|
+|[Create contactFolders](../api/user-post-contactfolders.md)|[contactFolder](../resources/contactfolder.md)|Create a new contactFolders object.|
+|[Get inferenceClassification](../api/inferenceclassification-get.md)|[inferenceClassification](../resources/inferenceclassification.md)|Read properties and relationships of an [inferenceClassification](../resources/inferenceclassification.md) object.|
+|[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of a [profilePhoto](../resources/profilephoto.md) object.|
+|[List photos](../api/user-list-photos.md)|[profilePhoto](../resources/profilephoto.md) collection|Get the profilePhotoes from the photos navigation property.|
+|[Create photos](../api/user-post-photos.md)|[profilePhoto](../resources/profilephoto.md)|Create a new photos object.|
+|[Get drive](../api/drive-get.md)|[drive](../resources/drive.md)|Read properties and relationships of a [drive](../resources/drive.md) object.|
 |[List drives](../api/user-list-drives.md)|[drive](../resources/drive.md) collection|Get the drives from the drives navigation property.|
-|[Add drives](../api/user-post-drives.md)|[drive](../resources/drive.md)|Add drives by posting to the drives collection.|
+|[Create drives](../api/user-post-drives.md)|[drive](../resources/drive.md)|Create a new drives object.|
 |[List followedSites](../api/user-list-followedsites.md)|[site](../resources/site.md) collection|Get the sites from the followedSites navigation property.|
-|[Create followedSites](../api/user-post-followedsites.md)|[site](../resources/site.md)|Create followedSites by posting to the followedSites collection.|
+|[Add followedSites](../api/user-post-followedsites.md)|[site](../resources/site.md)|Add followedSites by posting to the followedSites collection.|
 |[List extensions](../api/user-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
-|[Add extensions](../api/user-post-extensions.md)|[extension](../resources/extension.md)|Add extensions by posting to the extensions collection.|
+|[Create extensions](../api/user-post-extensions.md)|[extension](../resources/extension.md)|Create a new extensions object.|
 |[List agreementAcceptances](../api/user-list-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md) collection|Get the agreementAcceptances from the agreementAcceptances navigation property.|
-|[Create agreementAcceptances](../api/user-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Create agreementAcceptances by posting to the agreementAcceptances collection.|
+|[Add agreementAcceptances](../api/user-post-agreementacceptances.md)|[agreementAcceptance](../resources/agreementacceptance.md)|Add agreementAcceptances by posting to the agreementAcceptances collection.|
 |[List deviceEnrollmentConfigurations](../api/user-list-deviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|Get the deviceEnrollmentConfigurations from the deviceEnrollmentConfigurations navigation property.|
-|[Add deviceEnrollmentConfigurations](../api/user-post-deviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|Add deviceEnrollmentConfigurations by posting to the deviceEnrollmentConfigurations collection.|
+|[Create deviceEnrollmentConfigurations](../api/user-post-deviceenrollmentconfigurations.md)|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md)|Create a new deviceEnrollmentConfigurations object.|
 |[List managedDevices](../api/user-list-manageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
-|[Add managedDevices](../api/user-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Add managedDevices by posting to the managedDevices collection.|
+|[Create managedDevices](../api/user-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Create a new managedDevices object.|
 |[List managedAppRegistrations](../api/user-list-managedappregistrations.md)|[managedAppRegistration](../resources/managedappregistration.md) collection|Get the managedAppRegistrations from the managedAppRegistrations navigation property.|
-|[Create managedAppRegistrations](../api/user-post-managedappregistrations.md)|[managedAppRegistration](../resources/managedappregistration.md)|Create managedAppRegistrations by posting to the managedAppRegistrations collection.|
+|[Add managedAppRegistrations](../api/user-post-managedappregistrations.md)|[managedAppRegistration](../resources/managedappregistration.md)|Add managedAppRegistrations by posting to the managedAppRegistrations collection.|
 |[List windowsInformationProtectionDeviceRegistrations](../api/user-list-windowsinformationprotectiondeviceregistrations.md)|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) collection|Get the windowsInformationProtectionDeviceRegistrations from the windowsInformationProtectionDeviceRegistrations navigation property.|
-|[Create windowsInformationProtectionDeviceRegistrations](../api/user-post-windowsinformationprotectiondeviceregistrations.md)|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md)|Create windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection.|
+|[Add windowsInformationProtectionDeviceRegistrations](../api/user-post-windowsinformationprotectiondeviceregistrations.md)|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md)|Add windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection.|
 |[List deviceManagementTroubleshootingEvents](../api/user-list-devicemanagementtroubleshootingevents.md)|[deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) collection|Get the deviceManagementTroubleshootingEvents from the deviceManagementTroubleshootingEvents navigation property.|
-|[Add deviceManagementTroubleshootingEvents](../api/user-post-devicemanagementtroubleshootingevents.md)|[deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|Add deviceManagementTroubleshootingEvents by posting to the deviceManagementTroubleshootingEvents collection.|
+|[Create deviceManagementTroubleshootingEvents](../api/user-post-devicemanagementtroubleshootingevents.md)|[deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|Create a new deviceManagementTroubleshootingEvents object.|
 |[List mobileAppIntentAndStates](../api/user-list-mobileappintentandstates.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md) collection|Get the mobileAppIntentAndStates from the mobileAppIntentAndStates navigation property.|
-|[Add mobileAppIntentAndStates](../api/user-post-mobileappintentandstates.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Add mobileAppIntentAndStates by posting to the mobileAppIntentAndStates collection.|
+|[Create mobileAppIntentAndStates](../api/user-post-mobileappintentandstates.md)|[mobileAppIntentAndState](../resources/mobileappintentandstate.md)|Create a new mobileAppIntentAndStates object.|
 |[List mobileAppTroubleshootingEvents](../api/user-list-mobileapptroubleshootingevents.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) collection|Get the mobileAppTroubleshootingEvents from the mobileAppTroubleshootingEvents navigation property.|
-|[Add mobileAppTroubleshootingEvents](../api/user-post-mobileapptroubleshootingevents.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Add mobileAppTroubleshootingEvents by posting to the mobileAppTroubleshootingEvents collection.|
+|[Create mobileAppTroubleshootingEvents](../api/user-post-mobileapptroubleshootingevents.md)|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md)|Create a new mobileAppTroubleshootingEvents object.|
 |[List notifications](../api/user-list-notifications.md)|[notification](../resources/notification.md) collection|Get the notifications from the notifications navigation property.|
-|[Add notifications](../api/user-post-notifications.md)|[notification](../resources/notification.md)|Add notifications by posting to the notifications collection.|
-|[Get plannerUser](../api/planneruser-get.md)|[plannerUser](../resources/planneruser.md)|Read properties and relationships of the [plannerUser](../resources/planneruser.md) object.|
-|[Get officeGraphInsights](../api/officegraphinsights-get.md)|[officeGraphInsights](../resources/officegraphinsights.md)|Read properties and relationships of the [officeGraphInsights](../resources/officegraphinsights.md) object.|
-|[Get userSettings](../api/usersettings-get.md)|[userSettings](../resources/usersettings.md)|Read properties and relationships of the [userSettings](../resources/usersettings.md) object.|
-|[Get onenote](../api/onenote-get.md)|[onenote](../resources/onenote.md)|Read properties and relationships of the [onenote](../resources/onenote.md) object.|
-|[Get profile](../api/profile-get.md)|[profile](../resources/profile.md)|Read properties and relationships of the [profile](../resources/profile.md) object.|
+|[Create notifications](../api/user-post-notifications.md)|[notification](../resources/notification.md)|Create a new notifications object.|
+|[Get plannerUser](../api/planneruser-get.md)|[plannerUser](../resources/planneruser.md)|Read properties and relationships of a [plannerUser](../resources/planneruser.md) object.|
+|[Get officeGraphInsights](../api/officegraphinsights-get.md)|[officeGraphInsights](../resources/officegraphinsights.md)|Read properties and relationships of an [officeGraphInsights](../resources/officegraphinsights.md) object.|
+|[Get userSettings](../api/usersettings-get.md)|[userSettings](../resources/usersettings.md)|Read properties and relationships of an [userSettings](../resources/usersettings.md) object.|
+|[Get onenote](../api/onenote-get.md)|[onenote](../resources/onenote.md)|Read properties and relationships of an [onenote](../resources/onenote.md) object.|
+|[Get profile](../api/profile-get.md)|[profile](../resources/profile.md)|Read properties and relationships of a [profile](../resources/profile.md) object.|
 |[List activities](../api/user-list-activities.md)|[userActivity](../resources/useractivity.md) collection|Get the userActivities from the activities navigation property.|
-|[Add activities](../api/user-post-activities.md)|[userActivity](../resources/useractivity.md)|Add activities by posting to the activities collection.|
+|[Create activities](../api/user-post-activities.md)|[userActivity](../resources/useractivity.md)|Create a new activities object.|
 |[List devices](../api/user-list-devices.md)|[device](../resources/device.md) collection|Get the devices from the devices navigation property.|
-|[Add devices](../api/user-post-devices.md)|[device](../resources/device.md)|Add devices by posting to the devices collection.|
+|[Create devices](../api/user-post-devices.md)|[device](../resources/device.md)|Create a new devices object.|
 |[List onlineMeetings](../api/user-list-onlinemeetings.md)|[onlineMeeting](../resources/onlinemeeting.md) collection|Get the onlineMeetings from the onlineMeetings navigation property.|
-|[Add onlineMeetings](../api/user-post-onlinemeetings.md)|[onlineMeeting](../resources/onlinemeeting.md)|Add onlineMeetings by posting to the onlineMeetings collection.|
-|[Get presence](../api/presence-get.md)|[presence](../resources/presence.md)|Read properties and relationships of the [presence](../resources/presence.md) object.|
+|[Create onlineMeetings](../api/user-post-onlinemeetings.md)|[onlineMeeting](../resources/onlinemeeting.md)|Create a new onlineMeetings object.|
+|[Get presence](../api/presence-get.md)|[presence](../resources/presence.md)|Read properties and relationships of a [presence](../resources/presence.md) object.|
 |[List chats](../api/user-list-chats.md)|[chat](../resources/chat.md) collection|Get the chats from the chats navigation property.|
-|[Add chats](../api/user-post-chats.md)|[chat](../resources/chat.md)|Add chats by posting to the chats collection.|
+|[Create chats](../api/user-post-chats.md)|[chat](../resources/chat.md)|Create a new chats object.|
 |[List joinedTeams](../api/user-list-joinedteams.md)|[team](../resources/team.md) collection|Get the teams from the joinedTeams navigation property.|
-|[Add joinedTeams](../api/user-post-joinedteams.md)|[team](../resources/team.md)|Add joinedTeams by posting to the joinedTeams collection.|
-|[Get userTeamwork](../api/userteamwork-get.md)|[userTeamwork](../resources/userteamwork.md)|Read properties and relationships of the [userTeamwork](../resources/userteamwork.md) object.|
+|[Create joinedTeams](../api/user-post-joinedteams.md)|[team](../resources/team.md)|Create a new joinedTeams object.|
+|[Get userTeamwork](../api/userteamwork-get.md)|[userTeamwork](../resources/userteamwork.md)|Read properties and relationships of an [userTeamwork](../resources/userteamwork.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|aboutMe|String||
-|accountEnabled|Boolean||
-|ageGroup|String||
-|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection||
-|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection||
-|birthday|DateTimeOffset||
-|businessPhones|String collection||
-|city|String||
-|companyName|String||
-|consentProvidedForMinor|String||
-|country|String||
-|createdDateTime|DateTimeOffset||
-|creationType|String||
-|deletedDateTime|DateTimeOffset| Inherited from [directoryObject](../resources/directoryobject.md)|
-|department|String||
+|aboutMe|String|**TODO: Add Description**|
+|accountEnabled|Boolean|**TODO: Add Description**|
+|ageGroup|String|**TODO: Add Description**|
+|assignedLicenses|[assignedLicense](../resources/assignedlicense.md) collection|**TODO: Add Description**|
+|assignedPlans|[assignedPlan](../resources/assignedplan.md) collection|**TODO: Add Description**|
+|birthday|DateTimeOffset|**TODO: Add Description**|
+|businessPhones|String collection|**TODO: Add Description**|
+|city|String|**TODO: Add Description**|
+|companyName|String|**TODO: Add Description**|
+|consentProvidedForMinor|String|**TODO: Add Description**|
+|country|String|**TODO: Add Description**|
+|createdDateTime|DateTimeOffset|**TODO: Add Description**|
+|creationType|String|**TODO: Add Description**|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [directoryObject](../resources/directoryobject.md)|
+|department|String|**TODO: Add Description**|
 |deviceEnrollmentLimit|Int32|The limit on the maximum number of devices that the user is permitted to enroll. Allowed values are 5 or 1000.|
-|deviceKeys|[deviceKey](../resources/devicekey.md) collection||
-|displayName|String||
-|employeeId|String||
-|externalUserState|String||
-|externalUserStateChangeDateTime|String||
-|faxNumber|String||
-|givenName|String||
-|hireDate|DateTimeOffset||
-|id|String| Inherited from [entity](../resources/entity.md)|
-|identities|[objectIdentity](../resources/objectidentity.md) collection||
-|identityUserRisk|[identityUserRisk](../resources/identityuserrisk.md)||
-|imAddresses|String collection||
-|interests|String collection||
-|isResourceAccount|Boolean||
-|jobTitle|String||
-|lastPasswordChangeDateTime|DateTimeOffset||
-|legalAgeGroupClassification|String||
-|licenseAssignmentStates|[licenseAssignmentState](../resources/licenseassignmentstate.md) collection||
-|mail|String||
-|mailboxSettings|[mailboxSettings](../resources/mailboxsettings.md)||
-|mailNickname|String||
-|mobilePhone|String||
-|mySite|String||
-|officeLocation|String||
-|onPremisesDistinguishedName|String||
-|onPremisesDomainName|String||
-|onPremisesExtensionAttributes|[onPremisesExtensionAttributes](../resources/onpremisesextensionattributes.md)||
-|onPremisesImmutableId|String||
-|onPremisesLastSyncDateTime|DateTimeOffset||
-|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection||
-|onPremisesSamAccountName|String||
-|onPremisesSecurityIdentifier|String||
-|onPremisesSyncEnabled|Boolean||
-|onPremisesUserPrincipalName|String||
-|otherMails|String collection||
-|passwordPolicies|String||
-|passwordProfile|[passwordProfile](../resources/passwordprofile.md)||
-|pastProjects|String collection||
-|postalCode|String||
-|preferredDataLocation|String||
-|preferredLanguage|String||
-|preferredName|String||
-|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection||
-|proxyAddresses|String collection||
-|refreshTokensValidFromDateTime|DateTimeOffset||
-|responsibilities|String collection||
-|schools|String collection||
-|showInAddressList|Boolean||
-|signInActivity|[signInActivity](../resources/signinactivity.md)||
-|signInSessionsValidFromDateTime|DateTimeOffset||
-|skills|String collection||
-|state|String||
-|streetAddress|String||
-|surname|String||
-|usageLocation|String||
-|userPrincipalName|String||
-|userType|String||
+|deviceKeys|[deviceKey](../resources/devicekey.md) collection|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|employeeId|String|**TODO: Add Description**|
+|externalUserState|String|**TODO: Add Description**|
+|externalUserStateChangeDateTime|String|**TODO: Add Description**|
+|faxNumber|String|**TODO: Add Description**|
+|givenName|String|**TODO: Add Description**|
+|hireDate|DateTimeOffset|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|identities|[objectIdentity](../resources/objectidentity.md) collection|**TODO: Add Description**|
+|identityUserRisk|[identityUserRisk](../resources/identityuserrisk.md)|**TODO: Add Description**|
+|imAddresses|String collection|**TODO: Add Description**|
+|interests|String collection|**TODO: Add Description**|
+|isResourceAccount|Boolean|**TODO: Add Description**|
+|jobTitle|String|**TODO: Add Description**|
+|lastPasswordChangeDateTime|DateTimeOffset|**TODO: Add Description**|
+|legalAgeGroupClassification|String|**TODO: Add Description**|
+|licenseAssignmentStates|[licenseAssignmentState](../resources/licenseassignmentstate.md) collection|**TODO: Add Description**|
+|mail|String|**TODO: Add Description**|
+|mailboxSettings|[mailboxSettings](../resources/mailboxsettings.md)|**TODO: Add Description**|
+|mailNickname|String|**TODO: Add Description**|
+|mobilePhone|String|**TODO: Add Description**|
+|mySite|String|**TODO: Add Description**|
+|officeLocation|String|**TODO: Add Description**|
+|onPremisesDistinguishedName|String|**TODO: Add Description**|
+|onPremisesDomainName|String|**TODO: Add Description**|
+|onPremisesExtensionAttributes|[onPremisesExtensionAttributes](../resources/onpremisesextensionattributes.md)|**TODO: Add Description**|
+|onPremisesImmutableId|String|**TODO: Add Description**|
+|onPremisesLastSyncDateTime|DateTimeOffset|**TODO: Add Description**|
+|onPremisesProvisioningErrors|[onPremisesProvisioningError](../resources/onpremisesprovisioningerror.md) collection|**TODO: Add Description**|
+|onPremisesSamAccountName|String|**TODO: Add Description**|
+|onPremisesSecurityIdentifier|String|**TODO: Add Description**|
+|onPremisesSyncEnabled|Boolean|**TODO: Add Description**|
+|onPremisesUserPrincipalName|String|**TODO: Add Description**|
+|otherMails|String collection|**TODO: Add Description**|
+|passwordPolicies|String|**TODO: Add Description**|
+|passwordProfile|[passwordProfile](../resources/passwordprofile.md)|**TODO: Add Description**|
+|pastProjects|String collection|**TODO: Add Description**|
+|postalCode|String|**TODO: Add Description**|
+|preferredDataLocation|String|**TODO: Add Description**|
+|preferredLanguage|String|**TODO: Add Description**|
+|preferredName|String|**TODO: Add Description**|
+|provisionedPlans|[provisionedPlan](../resources/provisionedplan.md) collection|**TODO: Add Description**|
+|proxyAddresses|String collection|**TODO: Add Description**|
+|refreshTokensValidFromDateTime|DateTimeOffset|**TODO: Add Description**|
+|responsibilities|String collection|**TODO: Add Description**|
+|schools|String collection|**TODO: Add Description**|
+|showInAddressList|Boolean|**TODO: Add Description**|
+|signInActivity|[signInActivity](../resources/signinactivity.md)|**TODO: Add Description**|
+|signInSessionsValidFromDateTime|DateTimeOffset|**TODO: Add Description**|
+|skills|String collection|**TODO: Add Description**|
+|state|String|**TODO: Add Description**|
+|streetAddress|String|**TODO: Add Description**|
+|surname|String|**TODO: Add Description**|
+|usageLocation|String|**TODO: Add Description**|
+|userPrincipalName|String|**TODO: Add Description**|
+|userType|String|**TODO: Add Description**|
 
 ## Relationships
 |Relationship|Type|Description|
 |:---|:---|:---|
-|activities|[userActivity](../resources/useractivity.md) collection||
-|agreementAcceptances|[agreementAcceptance](../resources/agreementacceptance.md) collection||
-|analytics|[userAnalytics](../resources/useranalytics.md)||
-|appRoleAssignments|[appRoleAssignment](../resources/approleassignment.md) collection||
-|calendar|[calendar](../resources/calendar.md)||
-|calendarGroups|[calendarGroup](../resources/calendargroup.md) collection||
-|calendars|[calendar](../resources/calendar.md) collection||
-|calendarView|[event](../resources/event.md) collection||
-|chats|[chat](../resources/chat.md) collection||
-|contactFolders|[contactFolder](../resources/contactfolder.md) collection||
-|contacts|[contact](../resources/contact.md) collection||
-|createdObjects|[directoryObject](../resources/directoryobject.md) collection||
+|activities|[userActivity](../resources/useractivity.md) collection|**TODO: Add Description**|
+|agreementAcceptances|[agreementAcceptance](../resources/agreementacceptance.md) collection|**TODO: Add Description**|
+|analytics|[userAnalytics](../resources/useranalytics.md)|**TODO: Add Description**|
+|appRoleAssignments|[appRoleAssignment](../resources/approleassignment.md) collection|**TODO: Add Description**|
+|calendar|[calendar](../resources/calendar.md)|**TODO: Add Description**|
+|calendarGroups|[calendarGroup](../resources/calendargroup.md) collection|**TODO: Add Description**|
+|calendars|[calendar](../resources/calendar.md) collection|**TODO: Add Description**|
+|calendarView|[event](../resources/event.md) collection|**TODO: Add Description**|
+|chats|[chat](../resources/chat.md) collection|**TODO: Add Description**|
+|contactFolders|[contactFolder](../resources/contactfolder.md) collection|**TODO: Add Description**|
+|contacts|[contact](../resources/contact.md) collection|**TODO: Add Description**|
+|createdObjects|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
 |deviceEnrollmentConfigurations|[deviceEnrollmentConfiguration](../resources/deviceenrollmentconfiguration.md) collection|Get enrollment configurations targeted to the user|
 |deviceManagementTroubleshootingEvents|[deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md) collection|The list of troubleshooting events for this user.|
-|devices|[device](../resources/device.md) collection||
-|directReports|[directoryObject](../resources/directoryobject.md) collection||
-|drive|[drive](../resources/drive.md)||
-|drives|[drive](../resources/drive.md) collection||
-|events|[event](../resources/event.md) collection||
-|extensions|[extension](../resources/extension.md) collection||
-|followedSites|[site](../resources/site.md) collection||
-|inferenceClassification|[inferenceClassification](../resources/inferenceclassification.md)||
-|informationProtection|[informationProtection](../resources/informationprotection.md)||
-|insights|[officeGraphInsights](../resources/officegraphinsights.md)||
-|joinedGroups|[group](../resources/group.md) collection||
-|joinedTeams|[team](../resources/team.md) collection||
-|licenseDetails|[licenseDetails](../resources/licensedetails.md) collection||
-|mailFolders|[mailFolder](../resources/mailfolder.md) collection||
+|devices|[device](../resources/device.md) collection|**TODO: Add Description**|
+|directReports|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
+|drive|[drive](../resources/drive.md)|**TODO: Add Description**|
+|drives|[drive](../resources/drive.md) collection|**TODO: Add Description**|
+|events|[event](../resources/event.md) collection|**TODO: Add Description**|
+|extensions|[extension](../resources/extension.md) collection|**TODO: Add Description**|
+|followedSites|[site](../resources/site.md) collection|**TODO: Add Description**|
+|inferenceClassification|[inferenceClassification](../resources/inferenceclassification.md)|**TODO: Add Description**|
+|informationProtection|[informationProtection](../resources/informationprotection.md)|**TODO: Add Description**|
+|insights|[officeGraphInsights](../resources/officegraphinsights.md)|**TODO: Add Description**|
+|joinedGroups|[group](../resources/group.md) collection|**TODO: Add Description**|
+|joinedTeams|[team](../resources/team.md) collection|**TODO: Add Description**|
+|licenseDetails|[licenseDetails](../resources/licensedetails.md) collection|**TODO: Add Description**|
+|mailFolders|[mailFolder](../resources/mailfolder.md) collection|**TODO: Add Description**|
 |managedAppRegistrations|[managedAppRegistration](../resources/managedappregistration.md) collection|Zero or more managed app registrations that belong to the user.|
 |managedDevices|[managedDevice](../resources/manageddevice.md) collection|The managed devices associated with the user.|
-|manager|[directoryObject](../resources/directoryobject.md)||
-|memberOf|[directoryObject](../resources/directoryobject.md) collection||
-|messages|[message](../resources/message.md) collection||
+|manager|[directoryObject](../resources/directoryobject.md)|**TODO: Add Description**|
+|memberOf|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
+|messages|[message](../resources/message.md) collection|**TODO: Add Description**|
 |mobileAppIntentAndStates|[mobileAppIntentAndState](../resources/mobileappintentandstate.md) collection|The list of troubleshooting events for this user.|
 |mobileAppTroubleshootingEvents|[mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) collection|The list of mobile app troubleshooting events for this user.|
-|notifications|[notification](../resources/notification.md) collection||
-|onenote|[onenote](../resources/onenote.md)||
-|onlineMeetings|[onlineMeeting](../resources/onlinemeeting.md) collection||
-|outlook|[outlookUser](../resources/outlookuser.md)||
-|ownedDevices|[directoryObject](../resources/directoryobject.md) collection||
-|ownedObjects|[directoryObject](../resources/directoryobject.md) collection||
-|people|[person](../resources/person.md) collection||
-|photo|[profilePhoto](../resources/profilephoto.md)||
-|photos|[profilePhoto](../resources/profilephoto.md) collection||
-|planner|[plannerUser](../resources/planneruser.md)||
-|presence|[presence](../resources/presence.md)||
-|profile|[profile](../resources/profile.md)||
-|registeredDevices|[directoryObject](../resources/directoryobject.md) collection||
-|scopedRoleMemberOf|[scopedRoleMembership](../resources/scopedrolemembership.md) collection||
-|settings|[userSettings](../resources/usersettings.md)||
-|teamwork|[userTeamwork](../resources/userteamwork.md)||
-|transitiveMemberOf|[directoryObject](../resources/directoryobject.md) collection||
+|notifications|[notification](../resources/notification.md) collection|**TODO: Add Description**|
+|onenote|[onenote](../resources/onenote.md)|**TODO: Add Description**|
+|onlineMeetings|[onlineMeeting](../resources/onlinemeeting.md) collection|**TODO: Add Description**|
+|outlook|[outlookUser](../resources/outlookuser.md)|**TODO: Add Description**|
+|ownedDevices|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
+|ownedObjects|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
+|people|[person](../resources/person.md) collection|**TODO: Add Description**|
+|photo|[profilePhoto](../resources/profilephoto.md)|**TODO: Add Description**|
+|photos|[profilePhoto](../resources/profilephoto.md) collection|**TODO: Add Description**|
+|planner|[plannerUser](../resources/planneruser.md)|**TODO: Add Description**|
+|presence|[presence](../resources/presence.md)|**TODO: Add Description**|
+|profile|[profile](../resources/profile.md)|**TODO: Add Description**|
+|registeredDevices|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
+|scopedRoleMemberOf|[scopedRoleMembership](../resources/scopedrolemembership.md) collection|**TODO: Add Description**|
+|settings|[userSettings](../resources/usersettings.md)|**TODO: Add Description**|
+|teamwork|[userTeamwork](../resources/userteamwork.md)|**TODO: Add Description**|
+|transitiveMemberOf|[directoryObject](../resources/directoryobject.md) collection|**TODO: Add Description**|
 |windowsInformationProtectionDeviceRegistrations|[windowsInformationProtectionDeviceRegistration](../resources/windowsinformationprotectiondeviceregistration.md) collection|Zero or more WIP device registrations that belong to the user.|
 
 ## JSON representation

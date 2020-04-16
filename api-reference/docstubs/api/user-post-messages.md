@@ -1,26 +1,26 @@
 ---
-title: "Add messages"
-description: "Add messages by posting to the messages collection."
-author: ""
+title: "Create messages"
+description: "Create a new messages object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add messages
+# Create messages
 
 Namespace: microsoft.graph
 
-Add messages by posting to the messages collection.
+Create a new messages object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/messages/$ref
-POST /users/{usersId}/messages/$ref
+POST /me/messages
+POST /users/{usersId}/messages
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [message](../resources/message.md) object.
@@ -45,40 +45,40 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|createdDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|lastModifiedDateTime|DateTimeOffset| Inherited from [outlookItem](../resources/outlookitem.md)|
-|changeKey|String| Inherited from [outlookItem](../resources/outlookitem.md)|
-|categories|String collection| Inherited from [outlookItem](../resources/outlookitem.md)|
-|receivedDateTime|DateTimeOffset||
-|sentDateTime|DateTimeOffset||
-|hasAttachments|Boolean||
-|internetMessageId|String||
-|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection||
-|subject|String||
-|body|[itemBody](../resources/itembody.md)||
-|bodyPreview|String||
-|importance|Enumeration| Possible values are: `low`, `normal`, `high`.|
-|parentFolderId|String||
-|sender|[recipient](../resources/recipient.md)||
-|from|[recipient](../resources/recipient.md)||
-|toRecipients|[recipient](../resources/recipient.md) collection||
-|ccRecipients|[recipient](../resources/recipient.md) collection||
-|bccRecipients|[recipient](../resources/recipient.md) collection||
-|replyTo|[recipient](../resources/recipient.md) collection||
-|conversationId|String||
-|conversationIndex|Binary||
-|uniqueBody|[itemBody](../resources/itembody.md)||
-|isDeliveryReceiptRequested|Boolean||
-|isReadReceiptRequested|Boolean||
-|isRead|Boolean||
-|isDraft|Boolean||
-|webLink|String||
-|mentionsPreview|[mentionsPreview](../resources/mentionspreview.md)||
-|inferenceClassification|Enumeration| Possible values are: `focused`, `other`.|
-|unsubscribeData|String collection||
-|unsubscribeEnabled|Boolean||
-|flag|[followupFlag](../resources/followupflag.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|changeKey|String|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|categories|String collection|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|receivedDateTime|DateTimeOffset|**TODO: Add Description**|
+|sentDateTime|DateTimeOffset|**TODO: Add Description**|
+|hasAttachments|Boolean|**TODO: Add Description**|
+|internetMessageId|String|**TODO: Add Description**|
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection|**TODO: Add Description**|
+|subject|String|**TODO: Add Description**|
+|body|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|bodyPreview|String|**TODO: Add Description**|
+|importance|importance|**TODO: Add Description**. Possible values are: `low`, `normal`, `high`.|
+|parentFolderId|String|**TODO: Add Description**|
+|sender|[recipient](../resources/recipient.md)|**TODO: Add Description**|
+|from|[recipient](../resources/recipient.md)|**TODO: Add Description**|
+|toRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|ccRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|bccRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|replyTo|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|conversationId|String|**TODO: Add Description**|
+|conversationIndex|Binary|**TODO: Add Description**|
+|uniqueBody|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|isDeliveryReceiptRequested|Boolean|**TODO: Add Description**|
+|isReadReceiptRequested|Boolean|**TODO: Add Description**|
+|isRead|Boolean|**TODO: Add Description**|
+|isDraft|Boolean|**TODO: Add Description**|
+|webLink|String|**TODO: Add Description**|
+|mentionsPreview|[mentionsPreview](../resources/mentionspreview.md)|**TODO: Add Description**|
+|inferenceClassification|inferenceClassificationType|**TODO: Add Description**. Possible values are: `focused`, `other`.|
+|unsubscribeData|String collection|**TODO: Add Description**|
+|unsubscribeEnabled|Boolean|**TODO: Add Description**|
+|flag|[followupFlag](../resources/followupflag.md)|**TODO: Add Description**|
 
 
 
@@ -88,7 +88,6 @@ If successful, this method returns a `201 Created` response code and a [message]
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_message_from_"
@@ -96,7 +95,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/messages
-Content-type: application/json
+Content-Type: application/json
 Content-length: 2392
 
 {
@@ -105,8 +104,8 @@ Content-length: 2392
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:33.0224939+03:00",
-  "sentDateTime": "2016-12-31T23:59:16.8057541+03:00",
+  "receivedDateTime": "2017-01-01T00:00:47.6020289+03:00",
+  "sentDateTime": "2016-12-31T23:59:37.4629673+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [
@@ -193,7 +192,7 @@ Content-length: 2392
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -203,19 +202,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2564
-
 {
   "@odata.type": "#microsoft.graph.message",
-  "id": "0ddf78c3-78c3-0ddf-c378-df0dc378df0d",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+  "id": "0cb6590c-590c-0cb6-0c59-b60c0c59b60c",
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
-  "receivedDateTime": "2016-12-31T23:59:33.0224939+03:00",
-  "sentDateTime": "2016-12-31T23:59:16.8057541+03:00",
+  "receivedDateTime": "2017-01-01T00:00:47.6020289+03:00",
+  "sentDateTime": "2016-12-31T23:59:37.4629673+03:00",
   "hasAttachments": true,
   "internetMessageId": "Internet Message Id value",
   "internetMessageHeaders": [

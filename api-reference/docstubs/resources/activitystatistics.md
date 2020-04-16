@@ -1,7 +1,7 @@
 ---
 title: "activityStatistics resource type"
-description: ""
-author: ""
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: resourcePageType
@@ -12,7 +12,7 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-
+**TODO: Add Description**
 
 
 Inherits from [entity](../resources/entity.md)
@@ -20,18 +20,18 @@ Inherits from [entity](../resources/entity.md)
 ## Methods
 |Method|Return Type|Description|
 |:---|:---|:---|
-|[List activityStatisticses](../api/activitystatistics-list.md)|[activityStatistics](../resources/activitystatistics.md) collection|List properties and relationships of the [activityStatistics](../resources/activitystatistics.md) objects.|
-|[Get activityStatistics](../api/activitystatistics-get.md)|[activityStatistics](../resources/activitystatistics.md)|Read properties and relationships of the [activityStatistics](../resources/activitystatistics.md) object.|
+|[List activityStatistics](../api/activitystatistics-list.md)|[activityStatistics](../resources/activitystatistics.md) collection|Get a list of the [activityStatistics](../resources/activitystatistics.md) objects and their properties.|
+|[Get activityStatistics](../api/activitystatistics-get.md)|[activityStatistics](../resources/activitystatistics.md)|Read properties and relationships of an [activityStatistics](../resources/activitystatistics.md) object.|
 
 ## Properties
 |Property|Type|Description|
 |:---|:---|:---|
-|activity|Enumeration| Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
-|duration|Duration||
-|endDate|Date||
-|id|String| Inherited from [entity](../resources/entity.md)|
-|startDate|Date||
-|timeZoneUsed|String||
+|activity|analyticsActivityType|**TODO: Add Description**. Possible values are: `Email`, `Meeting`, `Focus`, `Chat`, `Call`.|
+|duration|Duration|**TODO: Add Description**|
+|endDate|Date|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|startDate|Date|**TODO: Add Description**|
+|timeZoneUsed|String|**TODO: Add Description**|
 
 ## Relationships
 None

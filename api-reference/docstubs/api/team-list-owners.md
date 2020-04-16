@@ -1,7 +1,7 @@
 ---
 title: "List owners"
 description: "Get the users from the owners navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_user"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/teams/{teamsId}/owners
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,17 +69,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 8462
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.user",
-      "id": "cda2a8f8-a8f8-cda2-f8a8-a2cdf8a8a2cd",
-      "deletedDateTime": "2017-01-01T00:03:30.6853286+03:00",
+      "id": "523f5234-5234-523f-3452-3f5234523f52",
+      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
       "signInActivity": {
         "@odata.type": "microsoft.graph.signInActivity",
-        "lastSignInDateTime": "2017-01-01T00:03:25.5786013+03:00",
+        "lastSignInDateTime": "2017-01-01T00:01:11.7083461+03:00",
         "lastSignInRequestId": "Last Sign In Request Id value"
       },
       "accountEnabled": true,
@@ -89,18 +86,18 @@ Content-Length: 8462
         {
           "@odata.type": "microsoft.graph.assignedLicense",
           "disabledPlans": [
-            "ca540223-0223-ca54-2302-54ca230254ca"
+            "65406d2f-6d2f-6540-2f6d-40652f6d4065"
           ],
-          "skuId": "9d681946-1946-9d68-4619-689d4619689d"
+          "skuId": "220e6177-6177-220e-7761-0e2277610e22"
         }
       ],
       "assignedPlans": [
         {
           "@odata.type": "microsoft.graph.assignedPlan",
-          "assignedDateTime": "2017-01-01T00:01:56.4061528+03:00",
+          "assignedDateTime": "2017-01-01T00:02:27.6282195+03:00",
           "capabilityStatus": "Capability Status value",
           "service": "Service value",
-          "servicePlanId": "164ff6de-f6de-164f-def6-4f16def64f16"
+          "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15"
         }
       ],
       "businessPhones": [
@@ -110,7 +107,7 @@ Content-Length: 8462
       "companyName": "Company Name value",
       "consentProvidedForMinor": "Consent Provided For Minor value",
       "country": "Country value",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
       "creationType": "Creation Type value",
       "department": "Department value",
       "deviceKeys": [
@@ -118,7 +115,7 @@ Content-Length: 8462
           "@odata.type": "microsoft.graph.deviceKey",
           "keyType": "Key Type value",
           "keyMaterial": "a2V5TWF0ZXJpYWw=",
-          "deviceId": "f8608fa3-8fa3-f860-a38f-60f8a38f60f8"
+          "deviceId": "a3a7a16a-a16a-a3a7-6aa1-a7a36aa1a7a3"
         }
       ],
       "displayName": "Display Name value",
@@ -138,7 +135,7 @@ Content-Length: 8462
       ],
       "isResourceAccount": true,
       "jobTitle": "Job Title value",
-      "lastPasswordChangeDateTime": "2017-01-01T00:02:28.9151412+03:00",
+      "lastPasswordChangeDateTime": "2016-12-31T23:57:47.9772449+03:00",
       "legalAgeGroupClassification": "Legal Age Group Classification value",
       "licenseAssignmentStates": [
         {
@@ -171,14 +168,14 @@ Content-Length: 8462
         "extensionAttribute15": "Extension Attribute15 value"
       },
       "onPremisesImmutableId": "On Premises Immutable Id value",
-      "onPremisesLastSyncDateTime": "2017-01-01T00:01:30.6926967+03:00",
+      "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
       "onPremisesProvisioningErrors": [
         {
           "@odata.type": "microsoft.graph.onPremisesProvisioningError",
           "value": "Value value",
           "category": "Category value",
           "propertyCausingError": "Property Causing Error value",
-          "occurredDateTime": "2016-12-31T23:58:04.1572536+03:00"
+          "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
         }
       ],
       "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -209,9 +206,9 @@ Content-Length: 8462
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "refreshTokensValidFromDateTime": "2016-12-31T23:58:40.0235578+03:00",
+      "refreshTokensValidFromDateTime": "2016-12-31T23:59:33.2790016+03:00",
       "showInAddressList": true,
-      "signInSessionsValidFromDateTime": "2016-12-31T23:59:20.1732324+03:00",
+      "signInSessionsValidFromDateTime": "2016-12-31T23:56:35.6565355+03:00",
       "state": "State value",
       "streetAddress": "Street Address value",
       "surname": "Surname value",
@@ -248,8 +245,8 @@ Content-Length: 8462
           "daysOfWeek": [
             "String"
           ],
-          "startTime": "12:03:04.9410000",
-          "endTime": "12:01:25.9480000",
+          "startTime": "11:59:57.3750000",
+          "endTime": "12:02:22.7260000",
           "timeZone": {
             "@odata.type": "microsoft.graph.timeZoneBase",
             "name": "Name value"
@@ -261,12 +258,12 @@ Content-Length: 8462
       "identityUserRisk": {
         "@odata.type": "microsoft.graph.identityUserRisk",
         "level": "String",
-        "lastChangedDateTime": "2016-12-31T23:58:00.7683645+03:00"
+        "lastChangedDateTime": "2016-12-31T23:59:32.825894+03:00"
       },
       "deviceEnrollmentLimit": 5,
       "aboutMe": "About Me value",
-      "birthday": "2017-01-01T00:02:56.6194456+03:00",
-      "hireDate": "2016-12-31T23:58:08.8303183+03:00",
+      "birthday": "2017-01-01T00:00:04.7583191+03:00",
+      "hireDate": "2017-01-01T00:02:51.4938789+03:00",
       "interests": [
         "Interests value"
       ],

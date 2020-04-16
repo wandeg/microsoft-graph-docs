@@ -1,7 +1,7 @@
 ---
 title: "List taskFolders"
 description: "Get the outlookTaskFolders from the taskFolders navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_outlooktaskfolder"
@@ -59,7 +58,7 @@ GET https://graph.microsoft.com/beta/me/outlook/taskFolders
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -69,17 +68,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 315
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskFolder",
-      "id": "cd330c2c-0c2c-cd33-2c0c-33cd2c0c33cd",
+      "id": "ef51946b-946b-ef51-6b94-51ef6b9451ef",
       "changeKey": "Change Key value",
       "name": "Name value",
       "isDefaultFolder": true,
-      "parentGroupKey": "bb6a0632-0632-bb6a-3206-6abb32066abb"
+      "parentGroupKey": "7c1f1401-1401-7c1f-0114-1f7c01141f7c"
     }
   ]
 }

@@ -1,26 +1,26 @@
 ---
-title: "Add calendars"
-description: "Add calendars by posting to the calendars collection."
-author: ""
+title: "Create calendars"
+description: "Create a new calendars object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add calendars
+# Create calendars
 
 Namespace: microsoft.graph
 
-Add calendars by posting to the calendars collection.
+Create a new calendars object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/calendars/$ref
-POST /users/{usersId}/calendars/$ref
+POST /me/calendars
+POST /users/{usersId}/calendars
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendar](../resources/calendar.md) object.
@@ -45,22 +45,22 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|name|String||
-|color|Enumeration| Possible values are: `lightBlue`, `lightGreen`, `lightOrange`, `lightGray`, `lightYellow`, `lightTeal`, `lightPink`, `lightBrown`, `lightRed`, `maxColor`, `auto`.|
-|hexColor|String||
-|isDefaultCalendar|Boolean||
-|changeKey|String||
-|canShare|Boolean||
-|canViewPrivateItems|Boolean||
-|isShared|Boolean||
-|isSharedWithMe|Boolean||
-|canEdit|Boolean||
-|owner|[emailAddress](../resources/emailaddress.md)||
-|allowedOnlineMeetingProviders|Enumeration collection| Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
-|defaultOnlineMeetingProvider|Enumeration| Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
-|isTallyingResponses|Boolean||
-|isRemovable|Boolean||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|name|String|**TODO: Add Description**|
+|color|calendarColor|**TODO: Add Description**. Possible values are: `lightBlue`, `lightGreen`, `lightOrange`, `lightGray`, `lightYellow`, `lightTeal`, `lightPink`, `lightBrown`, `lightRed`, `maxColor`, `auto`.|
+|hexColor|String|**TODO: Add Description**|
+|isDefaultCalendar|Boolean|**TODO: Add Description**|
+|changeKey|String|**TODO: Add Description**|
+|canShare|Boolean|**TODO: Add Description**|
+|canViewPrivateItems|Boolean|**TODO: Add Description**|
+|isShared|Boolean|**TODO: Add Description**|
+|isSharedWithMe|Boolean|**TODO: Add Description**|
+|canEdit|Boolean|**TODO: Add Description**|
+|owner|[emailAddress](../resources/emailaddress.md)|**TODO: Add Description**|
+|allowedOnlineMeetingProviders|onlineMeetingProviderType collection|**TODO: Add Description**. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
+|defaultOnlineMeetingProvider|onlineMeetingProviderType|**TODO: Add Description**. Possible values are: `unknown`, `skypeForBusiness`, `skypeForConsumer`, `teamsForBusiness`.|
+|isTallyingResponses|Boolean|**TODO: Add Description**|
+|isRemovable|Boolean|**TODO: Add Description**|
 
 
 
@@ -70,7 +70,6 @@ If successful, this method returns a `201 Created` response code and a [calendar
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_calendar_from_"
@@ -78,7 +77,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/calendars
-Content-type: application/json
+Content-Type: application/json
 Content-length: 581
 
 {
@@ -107,7 +106,7 @@ Content-length: 581
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -117,11 +116,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 630
-
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "d064929f-929f-d064-9f92-64d09f9264d0",
+  "id": "414f6b47-6b47-414f-476b-4f41476b4f41",
   "name": "Name value",
   "color": "String",
   "hexColor": "Hex Color value",

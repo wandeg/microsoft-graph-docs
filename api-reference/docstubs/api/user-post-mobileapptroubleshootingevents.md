@@ -1,26 +1,26 @@
 ---
-title: "Add mobileAppTroubleshootingEvents"
-description: "Add mobileAppTroubleshootingEvents by posting to the mobileAppTroubleshootingEvents collection."
-author: ""
+title: "Create mobileAppTroubleshootingEvents"
+description: "Create a new mobileAppTroubleshootingEvents object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add mobileAppTroubleshootingEvents
+# Create mobileAppTroubleshootingEvents
 
 Namespace: microsoft.graph
 
-Add mobileAppTroubleshootingEvents by posting to the mobileAppTroubleshootingEvents collection.
+Create a new mobileAppTroubleshootingEvents object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/mobileAppTroubleshootingEvents/$ref
-POST /users/{usersId}/mobileAppTroubleshootingEvents/$ref
+POST /me/mobileAppTroubleshootingEvents
+POST /users/{usersId}/mobileAppTroubleshootingEvents
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [mobileAppTroubleshootingEvent](../resources/mobileapptroubleshootingevent.md) object.
@@ -45,7 +45,7 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
 |eventDateTime|DateTimeOffset|Time when the event occurred . Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
 |correlationId|String|Id used for tracing the failure in the service. Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
 |troubleshootingErrorDetails|[deviceManagementTroubleshootingErrorDetails](../resources/devicemanagementtroubleshootingerrordetails.md)|Object containing detailed information about the error and its remediation. Inherited from [deviceManagementTroubleshootingEvent](../resources/devicemanagementtroubleshootingevent.md)|
@@ -64,7 +64,6 @@ If successful, this method returns a `201 Created` response code and a [mobileAp
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_mobileapptroubleshootingevent_from_"
@@ -72,12 +71,12 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/mobileAppTroubleshootingEvents
-Content-type: application/json
+Content-Type: application/json
 Content-length: 1162
 
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "eventDateTime": "2016-12-31T23:59:03.4228625+03:00",
+  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -107,14 +106,14 @@ Content-length: 1162
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:02:24.1568379+03:00"
+      "occurrenceDateTime": "2016-12-31T23:59:18.8172124+03:00"
     }
   ]
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -124,12 +123,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 1211
-
 {
   "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-  "id": "4048f5f0-f5f0-4048-f0f5-4840f0f54840",
-  "eventDateTime": "2016-12-31T23:59:03.4228625+03:00",
+  "id": "b76ead9e-ad9e-b76e-9ead-6eb79ead6eb7",
+  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -159,7 +156,7 @@ Content-Length: 1211
   "history": [
     {
       "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-      "occurrenceDateTime": "2017-01-01T00:02:24.1568379+03:00"
+      "occurrenceDateTime": "2016-12-31T23:59:18.8172124+03:00"
     }
   ]
 }

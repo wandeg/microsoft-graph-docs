@@ -1,26 +1,26 @@
 ---
-title: "Add singleValueExtendedProperties"
-description: "Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection."
-author: ""
+title: "Create singleValueExtendedProperties"
+description: "Create a new singleValueExtendedProperties object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add singleValueExtendedProperties
+# Create singleValueExtendedProperties
 
 Namespace: microsoft.graph
 
-Add singleValueExtendedProperties by posting to the singleValueExtendedProperties collection.
+Create a new singleValueExtendedProperties object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/messages/{messageId}/event/calendar/singleValueExtendedProperties/$ref
+POST /me/messages/{messageId}/event/calendar/singleValueExtendedProperties
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.
@@ -44,8 +44,8 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|value|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|value|String|**TODO: Add Description**|
 
 
 
@@ -55,7 +55,6 @@ If successful, this method returns a `201 Created` response code and a [singleVa
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_singlevaluelegacyextendedproperty_from_"
@@ -63,7 +62,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/singleValueExtendedProperties
-Content-type: application/json
+Content-Type: application/json
 Content-length: 102
 
 {
@@ -73,7 +72,7 @@ Content-length: 102
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -83,11 +82,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 151
-
 {
   "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-  "id": "e76aea50-ea50-e76a-50ea-6ae750ea6ae7",
+  "id": "21e95764-5764-21e9-6457-e9216457e921",
   "value": "Value value"
 }
 ```

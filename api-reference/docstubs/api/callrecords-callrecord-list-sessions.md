@@ -1,7 +1,7 @@
 ---
 title: "List sessions"
 description: "Get the sessions from the sessions navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -37,7 +37,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -48,7 +48,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_session"
@@ -59,7 +58,7 @@ GET https://graph.microsoft.com/beta/communications/callRecords/{callRecordId}/s
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -69,18 +68,16 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 881
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.session",
-      "id": "388bebb0-ebb0-388b-b0eb-8b38b0eb8b38",
+      "id": "d4748e05-8e05-d474-058e-74d4058e74d4",
       "modalities": [
         "String"
       ],
-      "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-      "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+      "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {

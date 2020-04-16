@@ -1,26 +1,26 @@
 ---
-title: "Add calendarGroups"
-description: "Add calendarGroups by posting to the calendarGroups collection."
-author: ""
+title: "Create calendarGroups"
+description: "Create a new calendarGroups object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add calendarGroups
+# Create calendarGroups
 
 Namespace: microsoft.graph
 
-Add calendarGroups by posting to the calendarGroups collection.
+Create a new calendarGroups object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/calendarGroups/$ref
-POST /users/{usersId}/calendarGroups/$ref
+POST /me/calendarGroups
+POST /users/{usersId}/calendarGroups
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [calendarGroup](../resources/calendargroup.md) object.
@@ -45,10 +45,10 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|name|String||
-|classId|Guid||
-|changeKey|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|name|String|**TODO: Add Description**|
+|classId|Guid|**TODO: Add Description**|
+|changeKey|String|**TODO: Add Description**|
 
 
 
@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [calendar
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_calendargroup_from_"
@@ -66,19 +65,19 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/calendarGroups
-Content-type: application/json
+Content-Type: application/json
 Content-length: 170
 
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
   "name": "Name value",
-  "classId": "803abfec-bfec-803a-ecbf-3a80ecbf3a80",
+  "classId": "f33f65ed-65ed-f33f-ed65-3ff3ed653ff3",
   "changeKey": "Change Key value"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -88,13 +87,11 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 219
-
 {
   "@odata.type": "#microsoft.graph.calendarGroup",
-  "id": "20ae89d9-89d9-20ae-d989-ae20d989ae20",
+  "id": "ebda4426-4426-ebda-2644-daeb2644daeb",
   "name": "Name value",
-  "classId": "803abfec-bfec-803a-ecbf-3a80ecbf3a80",
+  "classId": "f33f65ed-65ed-f33f-ed65-3ff3ed653ff3",
   "changeKey": "Change Key value"
 }
 ```

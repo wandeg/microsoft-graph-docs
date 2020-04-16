@@ -1,26 +1,26 @@
 ---
-title: "Add multiValueExtendedProperties"
-description: "Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection."
-author: ""
+title: "Create multiValueExtendedProperties"
+description: "Create a new multiValueExtendedProperties object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add multiValueExtendedProperties
+# Create multiValueExtendedProperties
 
 Namespace: microsoft.graph
 
-Add multiValueExtendedProperties by posting to the multiValueExtendedProperties collection.
+Create a new multiValueExtendedProperties object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/messages/{messageId}/event/calendar/multiValueExtendedProperties/$ref
+POST /me/messages/{messageId}/event/calendar/multiValueExtendedProperties
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.
@@ -44,8 +44,8 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|value|String collection||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|value|String collection|**TODO: Add Description**|
 
 
 
@@ -55,7 +55,6 @@ If successful, this method returns a `201 Created` response code and a [multiVal
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_multivaluelegacyextendedproperty_from_"
@@ -63,7 +62,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/multiValueExtendedProperties
-Content-type: application/json
+Content-Type: application/json
 Content-length: 113
 
 {
@@ -75,7 +74,7 @@ Content-length: 113
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -85,11 +84,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 162
-
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "93dcb1d5-b1d5-93dc-d5b1-dc93d5b1dc93",
+  "id": "edcc6f5a-6f5a-edcc-5a6f-cced5a6fcced",
   "value": [
     "Value value"
   ]

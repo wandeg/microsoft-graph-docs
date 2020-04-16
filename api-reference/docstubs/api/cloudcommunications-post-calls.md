@@ -1,26 +1,26 @@
 ---
-title: "Add calls"
-description: "Add calls by posting to the calls collection."
-author: ""
+title: "Create calls"
+description: "Create a new calls object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add calls
+# Create calls
 
 Namespace: microsoft.graph
 
-Add calls by posting to the calls collection.
+Create a new calls object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,14 +28,14 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /communications/calls/$ref
+POST /communications/calls
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [call](../resources/call.md) object.
@@ -44,31 +44,31 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|state|Enumeration| Possible values are: `incoming`, `establishing`, `ringing`, `established`, `hold`, `transferring`, `transferAccepted`, `redirecting`, `terminating`, `terminated`, `unknownFutureValue`.|
-|mediaState|[callMediaState](../resources/callmediastate.md)||
-|resultInfo|[ResultInfo](../resources/resultinfo.md)||
-|terminationReason|String||
-|direction|Enumeration| Possible values are: `incoming`, `outgoing`.|
-|ringingTimeoutInSeconds|Int32||
-|subject|String||
-|callbackUri|String||
-|callRoutes|[callRoute](../resources/callroute.md) collection||
-|source|[participantInfo](../resources/participantinfo.md)||
-|targets|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection||
-|answeredBy|[participantInfo](../resources/participantinfo.md)||
-|requestedModalities|Enumeration collection| Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
-|activeModalities|Enumeration collection| Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
-|mediaConfig|[mediaConfig](../resources/mediaconfig.md)||
-|chatInfo|[chatInfo](../resources/chatinfo.md)||
-|callOptions|[callOptions](../resources/calloptions.md)||
-|meetingInfo|[meetingInfo](../resources/meetinginfo.md)||
-|meetingCapability|[meetingCapability](../resources/meetingcapability.md)||
-|routingPolicies|Enumeration collection| Possible values are: `none`, `noMissedCall`, `disableForwardingExceptPhone`, `disableForwarding`, `preferSkypeForBusiness`, `unknownFutureValue`.|
-|tenantId|String||
-|myParticipantId|String||
-|toneInfo|[toneInfo](../resources/toneinfo.md)||
-|incomingContext|[incomingContext](../resources/incomingcontext.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|state|callState|**TODO: Add Description**. Possible values are: `incoming`, `establishing`, `ringing`, `established`, `hold`, `transferring`, `transferAccepted`, `redirecting`, `terminating`, `terminated`, `unknownFutureValue`.|
+|mediaState|[callMediaState](../resources/callmediastate.md)|**TODO: Add Description**|
+|resultInfo|[ResultInfo](../resources/resultinfo.md)|**TODO: Add Description**|
+|terminationReason|String|**TODO: Add Description**|
+|direction|callDirection|**TODO: Add Description**. Possible values are: `incoming`, `outgoing`.|
+|ringingTimeoutInSeconds|Int32|**TODO: Add Description**|
+|subject|String|**TODO: Add Description**|
+|callbackUri|String|**TODO: Add Description**|
+|callRoutes|[callRoute](../resources/callroute.md) collection|**TODO: Add Description**|
+|source|[participantInfo](../resources/participantinfo.md)|**TODO: Add Description**|
+|targets|[invitationParticipantInfo](../resources/invitationparticipantinfo.md) collection|**TODO: Add Description**|
+|answeredBy|[participantInfo](../resources/participantinfo.md)|**TODO: Add Description**|
+|requestedModalities|modality collection|**TODO: Add Description**. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
+|activeModalities|modality collection|**TODO: Add Description**. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `unknownFutureValue`.|
+|mediaConfig|[mediaConfig](../resources/mediaconfig.md)|**TODO: Add Description**|
+|chatInfo|[chatInfo](../resources/chatinfo.md)|**TODO: Add Description**|
+|callOptions|[callOptions](../resources/calloptions.md)|**TODO: Add Description**|
+|meetingInfo|[meetingInfo](../resources/meetinginfo.md)|**TODO: Add Description**|
+|meetingCapability|[meetingCapability](../resources/meetingcapability.md)|**TODO: Add Description**|
+|routingPolicies|routingPolicy collection|**TODO: Add Description**. Possible values are: `none`, `noMissedCall`, `disableForwardingExceptPhone`, `disableForwarding`, `preferSkypeForBusiness`, `unknownFutureValue`.|
+|tenantId|String|**TODO: Add Description**|
+|myParticipantId|String|**TODO: Add Description**|
+|toneInfo|[toneInfo](../resources/toneinfo.md)|**TODO: Add Description**|
+|incomingContext|[incomingContext](../resources/incomingcontext.md)|**TODO: Add Description**|
 
 
 
@@ -78,7 +78,6 @@ If successful, this method returns a `201 Created` response code and a [call](..
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_call_from_"
@@ -86,7 +85,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/communications/calls
-Content-type: application/json
+Content-Type: application/json
 Content-length: 3086
 
 {
@@ -203,7 +202,7 @@ Content-length: 3086
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -213,11 +212,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 3135
-
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "4647b523-b523-4647-23b5-474623b54746",
+  "id": "e8ba7192-7192-e8ba-9271-bae89271bae8",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

@@ -1,7 +1,7 @@
 ---
 title: "Update callRecord"
 description: "Update the properties of a callRecord object."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -34,7 +34,7 @@ PATCH /communications/callRecords/{callRecordId}
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [callRecord](../resources/callrecords-callrecord.md) object.
@@ -43,16 +43,16 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/callrecords-entity.md)|
-|version|Int64||
-|type|Enumeration| Possible values are: `unknown`, `groupCall`, `peerToPeer`, `unknownFutureValue`.|
-|modalities|Enumeration collection| Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `screenSharing`, `unknownFutureValue`.|
-|lastModifiedDateTime|DateTimeOffset||
-|startDateTime|DateTimeOffset||
-|endDateTime|DateTimeOffset||
-|organizer|[identitySet](../resources/callrecords-identityset.md)||
-|participants|[identitySet](../resources/callrecords-identityset.md) collection||
-|joinWebUrl|String||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/callrecords-entity.md)|
+|version|Int64|**TODO: Add Description**|
+|type|callType|**TODO: Add Description**. Possible values are: `unknown`, `groupCall`, `peerToPeer`, `unknownFutureValue`.|
+|modalities|modality collection|**TODO: Add Description**. Possible values are: `unknown`, `audio`, `video`, `videoBasedScreenSharing`, `data`, `screenSharing`, `unknownFutureValue`.|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description**|
+|startDateTime|DateTimeOffset|**TODO: Add Description**|
+|endDateTime|DateTimeOffset|**TODO: Add Description**|
+|organizer|[identitySet](../resources/callrecords-identityset.md)|**TODO: Add Description**|
+|participants|[identitySet](../resources/callrecords-identityset.md) collection|**TODO: Add Description**|
+|joinWebUrl|String|**TODO: Add Description**|
 
 
 
@@ -62,7 +62,6 @@ If successful, this method returns a `200 OK` response code and an updated [call
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "update_callrecord"
@@ -70,7 +69,7 @@ Here is an example of the request.
 -->
 ``` http
 PATCH https://graph.microsoft.com/beta/communications/callRecords/{callRecordId}
-Content-type: application/json
+Content-Type: application/json
 Content-length: 766
 
 {
@@ -80,8 +79,8 @@ Content-length: 766
   "modalities": [
     "String"
   ],
-  "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-  "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -106,7 +105,7 @@ Content-length: 766
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true
@@ -115,19 +114,17 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 879
-
 {
   "@odata.type": "#microsoft.graph.callRecords.callRecord",
-  "id": "2c8012e4-12e4-2c80-e412-802ce412802c",
+  "id": "3e424108-4108-3e42-0841-423e0841423e",
   "version": 7,
   "type": "String",
   "modalities": [
     "String"
   ],
-  "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
-  "startDateTime": "2016-12-31T23:59:25.3764626+03:00",
-  "endDateTime": "2017-01-01T00:00:29.7782224+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
+  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

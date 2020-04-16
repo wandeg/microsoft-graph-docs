@@ -1,26 +1,26 @@
 ---
-title: "Add activities"
-description: "Add activities by posting to the activities collection."
-author: ""
+title: "Create activities"
+description: "Create a new activities object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add activities
+# Create activities
 
 Namespace: microsoft.graph
 
-Add activities by posting to the activities collection.
+Create a new activities object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /workbooks/{workbooksId}/activities/$ref
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/activities/$ref
+POST /workbooks/{workbooksId}/activities
+POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/activities
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [itemActivityOLD](../resources/itemactivityold.md) object.
@@ -45,20 +45,19 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|action|[itemActionSet](../resources/itemactionset.md)||
-|actor|[identitySet](../resources/identityset.md)||
-|times|[itemActivityTimeSet](../resources/itemactivitytimeset.md)||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|action|[itemActionSet](../resources/itemactionset.md)|**TODO: Add Description**|
+|actor|[identitySet](../resources/identityset.md)|**TODO: Add Description**|
+|times|[itemActivityTimeSet](../resources/itemactivitytimeset.md)|**TODO: Add Description**|
 
 
 
 ## Response
-If successful, this method returns a `201 Created` response code and a [itemActivityOLD](../resources/itemactivityold.md) object in the response body.
+If successful, this method returns a `201 Created` response code and an [itemActivityOLD](../resources/itemactivityold.md) object in the response body.
 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_itemactivityold_from_"
@@ -66,8 +65,8 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/workbooks/{workbooksId}/activities
-Content-type: application/json
-Content-length: 2270
+Content-Type: application/json
+Content-length: 2271
 
 {
   "@odata.type": "#microsoft.graph.itemActivityOLD",
@@ -146,15 +145,15 @@ Content-length: 2270
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2017-01-01T00:00:15.098599+03:00",
-    "observedDateTime": "2017-01-01T00:01:01.3807319+03:00",
-    "recordedDateTime": "2017-01-01T00:00:22.6480234+03:00"
+    "lastRecordedDateTime": "2016-12-31T23:57:21.9633526+03:00",
+    "observedDateTime": "2016-12-31T23:59:27.3472674+03:00",
+    "recordedDateTime": "2016-12-31T23:57:10.1758438+03:00"
   }
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -164,11 +163,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 2319
-
 {
   "@odata.type": "#microsoft.graph.itemActivityOLD",
-  "id": "e0786aef-6aef-e078-ef6a-78e0ef6a78e0",
+  "id": "ee5960d6-60d6-ee59-d660-59eed66059ee",
   "action": {
     "@odata.type": "microsoft.graph.itemActionSet",
     "comment": {
@@ -244,9 +241,9 @@ Content-Length: 2319
   },
   "times": {
     "@odata.type": "microsoft.graph.itemActivityTimeSet",
-    "lastRecordedDateTime": "2017-01-01T00:00:15.098599+03:00",
-    "observedDateTime": "2017-01-01T00:01:01.3807319+03:00",
-    "recordedDateTime": "2017-01-01T00:00:22.6480234+03:00"
+    "lastRecordedDateTime": "2016-12-31T23:57:21.9633526+03:00",
+    "observedDateTime": "2016-12-31T23:59:27.3472674+03:00",
+    "recordedDateTime": "2016-12-31T23:57:10.1758438+03:00"
   }
 }
 ```

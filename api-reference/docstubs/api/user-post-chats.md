@@ -1,26 +1,26 @@
 ---
-title: "Add chats"
-description: "Add chats by posting to the chats collection."
-author: ""
+title: "Create chats"
+description: "Create a new chats object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add chats
+# Create chats
 
 Namespace: microsoft.graph
 
-Add chats by posting to the chats collection.
+Create a new chats object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/chats/$ref
-POST /users/{usersId}/chats/$ref
+POST /me/chats
+POST /users/{usersId}/chats
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [chat](../resources/chat.md) object.
@@ -45,10 +45,10 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|topic|String||
-|createdDateTime|DateTimeOffset||
-|lastUpdatedDateTime|DateTimeOffset||
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|topic|String|**TODO: Add Description**|
+|createdDateTime|DateTimeOffset|**TODO: Add Description**|
+|lastUpdatedDateTime|DateTimeOffset|**TODO: Add Description**|
 
 
 
@@ -58,7 +58,6 @@ If successful, this method returns a `201 Created` response code and a [chat](..
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_chat_from_chats"
@@ -66,18 +65,18 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/me/chats
-Content-type: application/json
+Content-Type: application/json
 Content-length: 136
 
 {
   "@odata.type": "#microsoft.graph.chat",
   "topic": "Topic value",
-  "lastUpdatedDateTime": "2017-01-01T00:00:08.6820482+03:00"
+  "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
 }
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -87,14 +86,12 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 244
-
 {
   "@odata.type": "#microsoft.graph.chat",
-  "id": "70942e6d-2e6d-7094-6d2e-94706d2e9470",
+  "id": "7ff67c47-7c47-7ff6-477c-f67f477cf67f",
   "topic": "Topic value",
-  "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:00:08.6820482+03:00"
+  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
 }
 ```
 

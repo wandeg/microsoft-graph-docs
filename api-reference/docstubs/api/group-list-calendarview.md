@@ -1,7 +1,7 @@
 ---
 title: "List calendarView"
 description: "Get the events from the calendarView navigation property."
-author: ""
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
@@ -18,9 +18,9 @@ One of the following permissions is required to call this API. To learn more, in
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -38,7 +38,7 @@ This method supports some of the OData query parameters to help customize the re
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
+|Authorization|Bearer {token}. Required|
 
 ## Request body
 Do not supply a request body for this method.
@@ -49,7 +49,6 @@ If successful, this method returns a `200 OK` response code and a collection of 
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "get_event"
@@ -60,7 +59,7 @@ GET https://graph.microsoft.com/beta/groups/{groupsId}/calendarView
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -70,15 +69,13 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 200 OK
 Content-Type: application/json
-Content-Length: 4812
-
 {
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "86bbe9d5-e9d5-86bb-d5e9-bb86d5e9bb86",
-      "createdDateTime": "2016-12-31T23:59:14.6721719+03:00",
-      "lastModifiedDateTime": "2017-01-01T00:01:52.1159836+03:00",
+      "id": "e2709962-9962-e270-6299-70e2629970e2",
+      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -88,7 +85,7 @@ Content-Length: 4812
       "responseStatus": {
         "@odata.type": "microsoft.graph.responseStatus",
         "response": "String",
-        "time": "2016-12-31T23:58:01.4164323+03:00"
+        "time": "2016-12-31T23:57:57.6246191+03:00"
       },
       "uid": "Uid value",
       "reminderMinutesBeforeStart": 10,
@@ -108,7 +105,7 @@ Content-Length: 4812
         "dateTime": "Date Time value",
         "timeZone": "Time Zone value"
       },
-      "originalStart": "2017-01-01T00:00:28.9926464+03:00",
+      "originalStart": "2017-01-01T00:01:36.6938892+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

@@ -1,26 +1,26 @@
 ---
-title: "Add channels"
-description: "Add channels by posting to the channels collection."
-author: ""
+title: "Create channels"
+description: "Create a new channels object."
+author: "**TODO: Provide Github Name**"
 localization_priority: Normal
 ms.prod: ""
 doc_type: apiPageType
 ---
 
-# Add channels
+# Create channels
 
 Namespace: microsoft.graph
 
-Add channels by posting to the channels collection.
+Create a new channels object.
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
 
 |Permission type|Permissions (from most to least privileged)|
 |:---|:---|
-|Delegated (work or school account)|**TODO: Determine scopes **|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|**TODO: Determine AppOnly scopes **|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
 
 ## HTTP request
 <!-- {
@@ -28,15 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /teams/{teamsId}/channels/$ref
-POST /me/joinedGroups/{groupId}/team/channels/$ref
+POST /teams/{teamsId}/channels
+POST /me/joinedGroups/{groupId}/team/channels
 ```
 
 ## Request headers
 |Name|Description|
 |:---|:---|
-|Authorization|Bearer {token}.Required|
-|Content-Type|application/json.Required|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
 
 ## Request body
 In the request body, supply a JSON representation for the [channel](../resources/channel.md) object.
@@ -45,13 +45,13 @@ The following table shows the properties that are required when you create the [
 
 |Property|Type|Description|
 |:---|:---|:---|
-|id|String| Inherited from [entity](../resources/entity.md)|
-|displayName|String||
-|description|String||
-|isFavoriteByDefault|Boolean||
-|email|String||
-|webUrl|String||
-|membershipType|Enumeration| Possible values are: `standard`, `private`, `unknownFutureValue`.|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|displayName|String|**TODO: Add Description**|
+|description|String|**TODO: Add Description**|
+|isFavoriteByDefault|Boolean|**TODO: Add Description**|
+|email|String|**TODO: Add Description**|
+|webUrl|String|**TODO: Add Description**|
+|membershipType|channelMembershipType|**TODO: Add Description**. Possible values are: `standard`, `private`, `unknownFutureValue`.|
 
 
 
@@ -61,7 +61,6 @@ If successful, this method returns a `201 Created` response code and a [channel]
 ## Examples
 
 ### Request
-Here is an example of the request.
 <!-- {
   "blockType": "request",
   "name": "create_channel_from_"
@@ -69,7 +68,7 @@ Here is an example of the request.
 -->
 ``` http
 POST https://graph.microsoft.com/beta/teams/{teamsId}/channels
-Content-type: application/json
+Content-Type: application/json
 Content-length: 262
 
 {
@@ -84,7 +83,7 @@ Content-length: 262
 ```
 
 ### Response
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 <!-- {
   "blockType": "response",
   "truncated": true,
@@ -94,11 +93,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ``` http
 HTTP/1.1 201 Created
 Content-Type: application/json
-Content-Length: 311
-
 {
   "@odata.type": "#microsoft.graph.channel",
-  "id": "033d0aa7-0aa7-033d-a70a-3d03a70a3d03",
+  "id": "a9f8c7a8-c7a8-a9f8-a8c7-f8a9a8c7f8a9",
   "displayName": "Display Name value",
   "description": "Description value",
   "isFavoriteByDefault": true,
