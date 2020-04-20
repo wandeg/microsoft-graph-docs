@@ -1,0 +1,94 @@
+---
+title: "Update presence"
+description: "Update the properties of a presence object."
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: ""
+doc_type: apiPageType
+---
+
+# Update presence
+
+Namespace: microsoft.graph
+
+Update the properties of a presence object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /me/presence
+PATCH /users/{usersId}/presence
+PATCH /invitations/{invitationsId}/invitedUser/presence
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Request body
+In the request body, supply a JSON representation for the [presence](../resources/presence.md) object.
+
+The following table shows the properties that are required when you create the [presence](../resources/presence.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|availability|String|**TODO: Add Description**|
+|activity|String|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [presence](../resources/presence.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_presence"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/me/presence
+Content-Type: application/json
+Content-length: 124
+
+{
+  "@odata.type": "#microsoft.graph.presence",
+  "availability": "Availability value",
+  "activity": "Activity value"
+}
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.presence",
+  "id": "9fbeae20-ae20-9fbe-20ae-be9f20aebe9f",
+  "availability": "Availability value",
+  "activity": "Activity value"
+}
+```
+
