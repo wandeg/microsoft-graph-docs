@@ -1,0 +1,55 @@
+---
+title: "sharingDetail resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# sharingDetail resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|sharedBy|[insightIdentity](../resources/insightidentity.md)|**TODO: Add Description**|
+|sharedDateTime|DateTimeOffset|**TODO: Add Description**|
+|sharingReference|[resourceReference](../resources/resourcereference.md)|**TODO: Add Description**|
+|sharingSubject|String|**TODO: Add Description**|
+|sharingType|String|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.sharingDetail"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.sharingDetail",
+  "sharedBy": {
+    "@odata.type": "microsoft.graph.insightIdentity",
+    "displayName": "String",
+    "id": "String",
+    "address": "String"
+  },
+  "sharedDateTime": "String (timestamp)",
+  "sharingSubject": "String",
+  "sharingType": "String",
+  "sharingReference": {
+    "@odata.type": "microsoft.graph.resourceReference",
+    "webUrl": "String",
+    "type": "String"
+  }
+}
+```
+

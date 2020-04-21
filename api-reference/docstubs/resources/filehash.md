@@ -1,0 +1,40 @@
+---
+title: "fileHash resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# fileHash resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|hashType|fileHashType|**TODO: Add Description**. Possible values are: `unknown`, `sha1`, `sha256`, `md5`, `authenticodeHash256`, `lsHash`, `ctph`, `unknownFutureValue`.|
+|hashValue|String|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.fileHash"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.fileHash",
+  "hashType": "String",
+  "hashValue": "String"
+}
+```
+

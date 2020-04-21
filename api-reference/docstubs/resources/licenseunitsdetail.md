@@ -1,0 +1,42 @@
+---
+title: "licenseUnitsDetail resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# licenseUnitsDetail resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|enabled|Int32|**TODO: Add Description**|
+|suspended|Int32|**TODO: Add Description**|
+|warning|Int32|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.licenseUnitsDetail"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.licenseUnitsDetail",
+  "enabled": 1024,
+  "suspended": 1024,
+  "warning": 1024
+}
+```
+

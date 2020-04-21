@@ -1,0 +1,96 @@
+---
+title: "Update assignedToTaskBoardFormat"
+description: "Update the properties of an assignedToTaskBoardFormat object."
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: apiPageType
+---
+
+# Update assignedToTaskBoardFormat
+
+Namespace: microsoft.graph
+
+Update the properties of an assignedToTaskBoardFormat object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /invitations/{invitationsId}/invitedUser/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Request body
+In the request body, supply a JSON representation for the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object.
+
+The following table shows the properties that are required when you create the [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|unassignedOrderHint|String|**TODO: Add Description**|
+|orderHintsByAssignee|[plannerOrderHintsByAssignee](../resources/plannerorderhintsbyassignee.md)|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [plannerAssignedToTaskBoardTaskFormat](../resources/plannerassignedtotaskboardtaskformat.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_assignedtotaskboardformat"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/planner/tasks/{plannerTaskId}/assignedToTaskBoardFormat
+Content-Type: application/json
+Content-length: 236
+
+{
+  "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
+  "unassignedOrderHint": "Unassigned Order Hint value",
+  "orderHintsByAssignee": {
+    "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"
+  }
+}
+```
+
+### Response
+Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.plannerAssignedToTaskBoardTaskFormat",
+  "id": "21dd9342-9342-21dd-4293-dd214293dd21",
+  "unassignedOrderHint": "Unassigned Order Hint value",
+  "orderHintsByAssignee": {
+    "@odata.type": "microsoft.graph.plannerOrderHintsByAssignee"
+  }
+}
+```
+

@@ -1,0 +1,68 @@
+---
+title: "thumbnailSet resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# thumbnailSet resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get thumbnailSet](../api/thumbnailset-get.md)|[thumbnailSet](../resources/thumbnailset.md)|Read properties and relationships of a [thumbnailSet](../resources/thumbnailset.md) object.|
+|[Update thumbnailSet](../api/thumbnailset-update.md)|[thumbnailSet](../resources/thumbnailset.md)|Update the properties of a [thumbnailSet](../resources/thumbnailset.md) object.|
+|[List thumbnails](../api/driveitem-list-thumbnails.md)|[thumbnailSet](../resources/thumbnailset.md) collection|Get the thumbnailSets from the thumbnails navigation property.|
+|[Create thumbnails](../api/driveitem-post-thumbnails.md)|[thumbnailSet](../resources/thumbnailset.md)|Create a new thumbnails object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|large|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|medium|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|small|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+|source|[thumbnail](../resources/thumbnail.md)|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.thumbnailSet",
+  "baseType": "microsoft.graph.entity",
+  "openType": true
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.thumbnailSet",
+  "id": "String (identifier)",
+  "large": {
+    "@odata.type": "microsoft.graph.thumbnail"
+  },
+  "medium": {
+    "@odata.type": "microsoft.graph.thumbnail"
+  },
+  "small": {
+    "@odata.type": "microsoft.graph.thumbnail"
+  },
+  "source": {
+    "@odata.type": "microsoft.graph.thumbnail"
+  }
+}
+```
+

@@ -1,0 +1,46 @@
+---
+title: "secureScoreControlStateUpdate resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# secureScoreControlStateUpdate resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|assignedTo|String|**TODO: Add Description**|
+|comment|String|**TODO: Add Description**|
+|state|String|**TODO: Add Description**|
+|updatedBy|String|**TODO: Add Description**|
+|updatedDateTime|DateTimeOffset|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.secureScoreControlStateUpdate"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.secureScoreControlStateUpdate",
+  "assignedTo": "String",
+  "comment": "String",
+  "state": "String",
+  "updatedBy": "String",
+  "updatedDateTime": "String (timestamp)"
+}
+```
+

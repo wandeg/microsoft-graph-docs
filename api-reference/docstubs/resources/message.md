@@ -1,0 +1,197 @@
+---
+title: "message resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# message resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [outlookItem](../resources/outlookitem.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get message](../api/message-get.md)|[message](../resources/message.md)|Read properties and relationships of a [message](../resources/message.md) object.|
+|[Update message](../api/message-update.md)|[message](../resources/message.md)|Update the properties of a [message](../resources/message.md) object.|
+|[createReply](../api/message-createreply.md)|[message](../resources/message.md)|**TODO: Add Description**|
+|[createReplyAll](../api/message-createreplyall.md)|[message](../resources/message.md)|**TODO: Add Description**|
+|[createForward](../api/message-createforward.md)|[message](../resources/message.md)|**TODO: Add Description**|
+|[send](../api/message-send.md)|None|**TODO: Add Description**|
+|[copy](../api/message-copy.md)|[message](../resources/message.md)|**TODO: Add Description**|
+|[move](../api/message-move.md)|[message](../resources/message.md)|**TODO: Add Description**|
+|[reply](../api/message-reply.md)|None|**TODO: Add Description**|
+|[replyAll](../api/message-replyall.md)|None|**TODO: Add Description**|
+|[forward](../api/message-forward.md)|None|**TODO: Add Description**|
+|[delta](../api/message-delta.md)|[message](../resources/message.md) collection|**TODO: Add Description**|
+|[List singleValueExtendedProperties](../api/message-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
+|[Create singleValueExtendedProperties](../api/message-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Create a new singleValueExtendedProperties object.|
+|[Delete singleValueExtendedProperties](../api/message-delete-singlevalueextendedproperties.md)|None|Delete a singleValueExtendedProperties object.|
+|[Update singleValueExtendedProperties](../api/message-update-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Update the properties of a singleValueExtendedProperties object.|
+|[Get singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-get.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Read properties and relationships of a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.|
+|[List multiValueExtendedProperties](../api/message-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
+|[Create multiValueExtendedProperties](../api/message-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Create a new multiValueExtendedProperties object.|
+|[Delete multiValueExtendedProperties](../api/message-delete-multivalueextendedproperties.md)|None|Delete a multiValueExtendedProperties object.|
+|[Update multiValueExtendedProperties](../api/message-update-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Update the properties of a multiValueExtendedProperties object.|
+|[Get multiValueLegacyExtendedProperty](../api/multivaluelegacyextendedproperty-get.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Read properties and relationships of a [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.|
+|[List attachments](../api/message-list-attachments.md)|[attachment](../resources/attachment.md) collection|Get the attachments from the attachments navigation property.|
+|[Create attachments](../api/message-post-attachments.md)|[attachment](../resources/attachment.md)|Create a new attachments object.|
+|[Delete attachments](../api/message-delete-attachments.md)|None|Delete an attachments object.|
+|[Update attachments](../api/message-update-attachments.md)|[attachment](../resources/attachment.md)|Update the properties of an attachments object.|
+|[Get attachment](../api/attachment-get.md)|[attachment](../resources/attachment.md)|Read properties and relationships of an [attachment](../resources/attachment.md) object.|
+|[List extensions](../api/message-list-extensions.md)|[extension](../resources/extension.md) collection|Get the extensions from the extensions navigation property.|
+|[Create extensions](../api/message-post-extensions.md)|[extension](../resources/extension.md)|Create a new extensions object.|
+|[Delete extensions](../api/message-delete-extensions.md)|None|Delete an extensions object.|
+|[Update extensions](../api/message-update-extensions.md)|[extension](../resources/extension.md)|Update the properties of an extensions object.|
+|[Get extension](../api/extension-get.md)|[extension](../resources/extension.md)|Read properties and relationships of an [extension](../resources/extension.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|bccRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|body|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|bodyPreview|String|**TODO: Add Description**|
+|categories|String collection|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|ccRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|changeKey|String|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|conversationId|String|**TODO: Add Description**|
+|conversationIndex|Binary|**TODO: Add Description**|
+|createdDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|flag|[followupFlag](../resources/followupflag.md)|**TODO: Add Description**|
+|from|[recipient](../resources/recipient.md)|**TODO: Add Description**|
+|hasAttachments|Boolean|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|importance|importance|**TODO: Add Description**. Possible values are: `low`, `normal`, `high`.|
+|inferenceClassification|inferenceClassificationType|**TODO: Add Description**. Possible values are: `focused`, `other`.|
+|internetMessageHeaders|[internetMessageHeader](../resources/internetmessageheader.md) collection|**TODO: Add Description**|
+|internetMessageId|String|**TODO: Add Description**|
+|isDeliveryReceiptRequested|Boolean|**TODO: Add Description**|
+|isDraft|Boolean|**TODO: Add Description**|
+|isRead|Boolean|**TODO: Add Description**|
+|isReadReceiptRequested|Boolean|**TODO: Add Description**|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [outlookItem](../resources/outlookitem.md)|
+|parentFolderId|String|**TODO: Add Description**|
+|receivedDateTime|DateTimeOffset|**TODO: Add Description**|
+|replyTo|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|sender|[recipient](../resources/recipient.md)|**TODO: Add Description**|
+|sentDateTime|DateTimeOffset|**TODO: Add Description**|
+|subject|String|**TODO: Add Description**|
+|toRecipients|[recipient](../resources/recipient.md) collection|**TODO: Add Description**|
+|uniqueBody|[itemBody](../resources/itembody.md)|**TODO: Add Description**|
+|webLink|String|**TODO: Add Description**|
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|attachments|[attachment](../resources/attachment.md) collection|**TODO: Add Description**|
+|extensions|[extension](../resources/extension.md) collection|**TODO: Add Description**|
+|multiValueExtendedProperties|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|**TODO: Add Description**|
+|singleValueExtendedProperties|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|**TODO: Add Description**|
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.message",
+  "baseType": "microsoft.graph.outlookItem",
+  "openType": true
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.message",
+  "id": "String (identifier)",
+  "createdDateTime": "String (timestamp)",
+  "lastModifiedDateTime": "String (timestamp)",
+  "changeKey": "String",
+  "categories": [
+    "String"
+  ],
+  "receivedDateTime": "String (timestamp)",
+  "sentDateTime": "String (timestamp)",
+  "hasAttachments": true,
+  "internetMessageId": "String",
+  "internetMessageHeaders": [
+    {
+      "@odata.type": "microsoft.graph.internetMessageHeader",
+      "name": "String",
+      "value": "String"
+    }
+  ],
+  "subject": "String",
+  "body": {
+    "@odata.type": "microsoft.graph.itemBody",
+    "contentType": "String",
+    "content": "String"
+  },
+  "bodyPreview": "String",
+  "importance": "String",
+  "parentFolderId": "String",
+  "sender": {
+    "@odata.type": "microsoft.graph.recipient",
+    "emailAddress": {
+      "@odata.type": "microsoft.graph.emailAddress",
+      "address": "String"
+    }
+  },
+  "from": {
+    "@odata.type": "microsoft.graph.recipient"
+  },
+  "toRecipients": [
+    {
+      "@odata.type": "microsoft.graph.recipient"
+    }
+  ],
+  "ccRecipients": [
+    {
+      "@odata.type": "microsoft.graph.recipient"
+    }
+  ],
+  "bccRecipients": [
+    {
+      "@odata.type": "microsoft.graph.recipient"
+    }
+  ],
+  "replyTo": [
+    {
+      "@odata.type": "microsoft.graph.recipient"
+    }
+  ],
+  "conversationId": "String",
+  "conversationIndex": "binary",
+  "uniqueBody": {
+    "@odata.type": "microsoft.graph.itemBody"
+  },
+  "isDeliveryReceiptRequested": true,
+  "isReadReceiptRequested": true,
+  "isRead": true,
+  "isDraft": true,
+  "webLink": "String",
+  "inferenceClassification": "String",
+  "flag": {
+    "@odata.type": "microsoft.graph.followupFlag",
+    "completedDateTime": {
+      "@odata.type": "microsoft.graph.dateTimeTimeZone",
+      "dateTime": "String",
+      "timeZone": "String"
+    },
+    "dueDateTime": {
+      "@odata.type": "microsoft.graph.dateTimeTimeZone"
+    },
+    "startDateTime": {
+      "@odata.type": "microsoft.graph.dateTimeTimeZone"
+    },
+    "flagStatus": "String"
+  }
+}
+```
+

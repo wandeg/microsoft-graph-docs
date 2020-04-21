@@ -1,0 +1,40 @@
+---
+title: "mediaContentRatingJapan resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# mediaContentRatingJapan resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|movieRating|ratingJapanMoviesType|Movies rating selected for Japan. Possible values are: `allAllowed`, `allBlocked`, `general`, `parentalGuidance`, `agesAbove15`, `agesAbove18`.|
+|tvRating|ratingJapanTelevisionType|TV rating selected for Japan. Possible values are: `allAllowed`, `allBlocked`, `explicitAllowed`.|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.mediaContentRatingJapan"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.mediaContentRatingJapan",
+  "movieRating": "String",
+  "tvRating": "String"
+}
+```
+

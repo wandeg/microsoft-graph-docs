@@ -1,0 +1,69 @@
+---
+title: "extensionProperty resource type"
+description: "Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types."
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# extensionProperty resource type
+
+
+Namespace: microsoft.graph
+
+Represents an Azure Active Directory object. The directoryObject type is the base type for many other directory entity types.
+
+
+Inherits from [directoryObject](../resources/directoryobject.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get extensionProperty](../api/extensionproperty-get.md)|[extensionProperty](../resources/extensionproperty.md)|Read properties and relationships of an [extensionProperty](../resources/extensionproperty.md) object.|
+|[Update extensionProperty](../api/extensionproperty-update.md)|[extensionProperty](../resources/extensionproperty.md)|Update the properties of a [extensionProperty](../resources/extensionproperty.md) object.|
+|[checkMemberGroups](../api/extensionproperty-checkmembergroups.md)|String collection|**TODO: Add Description**|
+|[checkMemberObjects](../api/extensionproperty-checkmemberobjects.md)|String collection|**TODO: Add Description**|
+|[getMemberGroups](../api/extensionproperty-getmembergroups.md)|String collection|**TODO: Add Description**|
+|[getMemberObjects](../api/extensionproperty-getmemberobjects.md)|String collection|**TODO: Add Description**|
+|[restore](../api/extensionproperty-restore.md)|[directoryObject](../resources/directoryobject.md)|**TODO: Add Description**|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|appDisplayName|String|**TODO: Add Description**|
+|dataType|String|**TODO: Add Description**|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description** Inherited from [directoryObject](../resources/directoryobject.md)|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|isSyncedFromOnPremises|Boolean|**TODO: Add Description**|
+|name|String|**TODO: Add Description**|
+|targetObjects|String collection|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.extensionProperty",
+  "baseType": "microsoft.graph.directoryObject",
+  "openType": true
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.extensionProperty",
+  "id": "String (identifier)",
+  "deletedDateTime": "String (timestamp)",
+  "appDisplayName": "String",
+  "name": "String",
+  "dataType": "String",
+  "isSyncedFromOnPremises": true,
+  "targetObjects": [
+    "String"
+  ]
+}
+```
+
