@@ -1,0 +1,46 @@
+---
+title: "teamMemberSettings resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# teamMemberSettings resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|allowAddRemoveApps|Boolean|**TODO: Add Description**|
+|allowCreateUpdateChannels|Boolean|**TODO: Add Description**|
+|allowCreateUpdateRemoveConnectors|Boolean|**TODO: Add Description**|
+|allowCreateUpdateRemoveTabs|Boolean|**TODO: Add Description**|
+|allowDeleteChannels|Boolean|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.teamMemberSettings"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.teamMemberSettings",
+  "allowCreateUpdateChannels": true,
+  "allowDeleteChannels": true,
+  "allowAddRemoveApps": true,
+  "allowCreateUpdateRemoveTabs": true,
+  "allowCreateUpdateRemoveConnectors": true
+}
+```
+
