@@ -3,7 +3,7 @@ title: "driveItem: getActivitiesByInterval"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+GET /drive/root/getActivitiesByInterval
 GET /drives/{drivesId}/root/getActivitiesByInterval
 GET /shares/{sharesId}/root/getActivitiesByInterval
 GET /workbooks/{workbooksId}/getActivitiesByInterval
+GET /drive/items/{driveItemId}/getActivitiesByInterval
 GET /shares/{sharesId}/driveItem/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/root/getActivitiesByInterval
-GET /drives/{drivesId}/items/{driveItemId}/getActivitiesByInterval
-GET /shares/{sharesId}/items/{driveItemId}/getActivitiesByInterval
-GET /drives/{drivesId}/bundles/{driveItemId}/getActivitiesByInterval
-GET /drives/{drivesId}/special/{driveItemId}/getActivitiesByInterval
-GET /drives/{drivesId}/following/{driveItemId}/getActivitiesByInterval
-GET /workbooks/{workbooksId}/children/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/items/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/special/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/following/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/getActivitiesByInterval
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/getActivitiesByInterval
+GET /drive/bundles/{driveItemId}/getActivitiesByInterval
+GET /drive/special/{driveItemId}/getActivitiesByInterval
+GET /drive/following/{driveItemId}/getActivitiesByInterval
 ```
 
 ## Request headers
@@ -73,7 +59,7 @@ If successful, this function returns a `200 OK` response code and a [itemActivit
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/drives/{drivesId}/root/getActivitiesByInterval
+GET https://graph.microsoft.com/beta/drive/root/getActivitiesByInterval
 ```
 
 ### Response
@@ -91,9 +77,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivityStat",
-      "id": "d093caa7-caa7-d093-a7ca-93d0a7ca93d0",
-      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-      "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
+      "id": "7d9630d1-30d1-7d96-d130-967dd130967d",
+      "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+      "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
       "access": {
         "@odata.type": "microsoft.graph.itemActionStat"
       },

@@ -3,7 +3,7 @@ title: "calendar resource type"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: resourcePageType
 ---
 
@@ -26,14 +26,29 @@ Inherits from [entity](../resources/entity.md)
 |[allowedCalendarSharingRoles](../api/calendar-allowedcalendarsharingroles.md)|calendarRoleType collection|**TODO: Add Description**|
 |[List singleValueExtendedProperties](../api/calendar-list-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) collection|Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property.|
 |[Create singleValueExtendedProperties](../api/calendar-post-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Create a new singleValueExtendedProperties object.|
+|[Delete singleValueExtendedProperties](../api/calendar-delete-singlevalueextendedproperties.md)|None|Delete a singleValueExtendedProperties object.|
+|[Update singleValueExtendedProperties](../api/calendar-update-singlevalueextendedproperties.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Update the properties of a singleValueExtendedProperties object.|
+|[Get singleValueLegacyExtendedProperty](../api/singlevaluelegacyextendedproperty-get.md)|[singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md)|Read properties and relationships of a [singleValueLegacyExtendedProperty](../resources/singlevaluelegacyextendedproperty.md) object.|
 |[List multiValueExtendedProperties](../api/calendar-list-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) collection|Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property.|
 |[Create multiValueExtendedProperties](../api/calendar-post-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Create a new multiValueExtendedProperties object.|
+|[Delete multiValueExtendedProperties](../api/calendar-delete-multivalueextendedproperties.md)|None|Delete a multiValueExtendedProperties object.|
+|[Update multiValueExtendedProperties](../api/calendar-update-multivalueextendedproperties.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Update the properties of a multiValueExtendedProperties object.|
+|[Get multiValueLegacyExtendedProperty](../api/multivaluelegacyextendedproperty-get.md)|[multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md)|Read properties and relationships of a [multiValueLegacyExtendedProperty](../resources/multivaluelegacyextendedproperty.md) object.|
 |[List calendarPermissions](../api/calendar-list-calendarpermissions.md)|[calendarPermission](../resources/calendarpermission.md) collection|Get the calendarPermissions from the calendarPermissions navigation property.|
 |[Create calendarPermissions](../api/calendar-post-calendarpermissions.md)|[calendarPermission](../resources/calendarpermission.md)|Create a new calendarPermissions object.|
+|[Delete calendarPermissions](../api/calendar-delete-calendarpermissions.md)|None|Delete a calendarPermissions object.|
+|[Update calendarPermissions](../api/calendar-update-calendarpermissions.md)|[calendarPermission](../resources/calendarpermission.md)|Update the properties of a calendarPermissions object.|
+|[Get calendarPermission](../api/calendarpermission-get.md)|[calendarPermission](../resources/calendarpermission.md)|Read properties and relationships of a [calendarPermission](../resources/calendarpermission.md) object.|
 |[List events](../api/calendar-list-events.md)|[event](../resources/event.md) collection|Get the events from the events navigation property.|
 |[Create events](../api/calendar-post-events.md)|[event](../resources/event.md)|Create a new events object.|
+|[Delete events](../api/calendar-delete-events.md)|None|Delete an events object.|
+|[Update events](../api/calendar-update-events.md)|[event](../resources/event.md)|Update the properties of an events object.|
+|[Get event](../api/event-get.md)|[event](../resources/event.md)|Read properties and relationships of an [event](../resources/event.md) object.|
 |[List calendarView](../api/calendar-list-calendarview.md)|[event](../resources/event.md) collection|Get the events from the calendarView navigation property.|
 |[Create calendarView](../api/calendar-post-calendarview.md)|[event](../resources/event.md)|Create a new calendarView object.|
+|[Delete calendarView](../api/calendar-delete-calendarview.md)|None|Delete a calendarView object.|
+|[Update calendarView](../api/calendar-update-calendarview.md)|[event](../resources/event.md)|Update the properties of a calendarView object.|
+|[Get event](../api/event-get.md)|[event](../resources/event.md)|Read properties and relationships of an [event](../resources/event.md) object.|
 
 ## Properties
 |Property|Type|Description|

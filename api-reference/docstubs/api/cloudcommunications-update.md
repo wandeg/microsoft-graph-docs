@@ -3,7 +3,7 @@ title: "Update cloudCommunications"
 description: "Update the properties of a cloudCommunications object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -80,7 +80,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.cloudCommunications",
-  "id": "51b2a43d-a43d-51b2-3da4-b2513da4b251"
+  "id": "bf910461-0461-bf91-6104-91bf610491bf"
 }
 ```
 

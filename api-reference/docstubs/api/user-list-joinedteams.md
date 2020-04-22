@@ -3,7 +3,7 @@ title: "List joinedTeams"
 description: "Get the teams from the joinedTeams navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.team",
-      "id": "d6943236-3236-d694-3632-94d6363294d6",
+      "id": "019ac9d1-c9d1-019a-d1c9-9a01d1c99a01",
       "displayName": "Display Name value",
       "description": "Description value",
       "internalId": "Internal Id value",

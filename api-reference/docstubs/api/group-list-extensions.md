@@ -3,7 +3,7 @@ title: "List extensions"
 description: "Get the extensions from the extensions navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/extensions
-GET /me/joinedGroups/{groupId}/extensions
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.extension",
-      "id": "bfecd0f1-d0f1-bfec-f1d0-ecbff1d0ecbf"
+      "id": "88e36203-6203-88e3-0362-e3880362e388"
     }
   ]
 }

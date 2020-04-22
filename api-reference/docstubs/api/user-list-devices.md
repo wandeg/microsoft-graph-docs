@@ -3,7 +3,7 @@ title: "List devices"
 description: "Get the devices from the devices navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,8 +73,8 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.device",
-      "id": "bb7a2033-2033-bb7a-3320-7abb33207abb",
-      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+      "id": "c3e3b22a-b22a-c3e3-2ab2-e3c32ab2e3c3",
+      "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
       "accountEnabled": true,
       "alternativeSecurityIds": [
         {
@@ -84,15 +84,15 @@ Content-Type: application/json
           "key": "a2V5"
         }
       ],
-      "approximateLastSignInDateTime": "2016-12-31T23:59:19.2749988+03:00",
-      "complianceExpirationDateTime": "2017-01-01T00:03:14.2914635+03:00",
+      "approximateLastSignInDateTime": "2017-01-01T00:01:58.7982099+03:00",
+      "complianceExpirationDateTime": "2016-12-31T23:59:38.9464402+03:00",
       "deviceId": "Device Id value",
       "deviceMetadata": "Device Metadata value",
       "deviceVersion": 13,
       "displayName": "Display Name value",
       "isCompliant": true,
       "isManaged": true,
-      "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
       "onPremisesSyncEnabled": true,
       "operatingSystem": "Operating System value",
       "operatingSystemVersion": "Operating System Version value",

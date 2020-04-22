@@ -3,7 +3,7 @@ title: "Create singleValueExtendedProperties"
 description: "Create a new singleValueExtendedProperties object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/messages/{messageId}/event/calendar/singleValueExtendedProperties
+POST /invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/singleValueExtendedProperties
 ```
 
 ## Request headers
@@ -61,7 +61,7 @@ If successful, this method returns a `201 Created` response code and a [singleVa
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/singleValueExtendedProperties
+POST https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/singleValueExtendedProperties
 Content-Type: application/json
 Content-length: 102
 
@@ -84,7 +84,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-  "id": "21e95764-5764-21e9-6457-e9216457e921",
+  "id": "b97aa729-a729-b97a-29a7-7ab929a77ab9",
   "value": "Value value"
 }
 ```

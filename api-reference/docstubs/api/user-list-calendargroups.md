@@ -3,7 +3,7 @@ title: "List calendarGroups"
 description: "Get the calendarGroups from the calendarGroups navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,9 +73,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.calendarGroup",
-      "id": "ebda4426-4426-ebda-2644-daeb2644daeb",
+      "id": "ddfd932f-932f-ddfd-2f93-fddd2f93fddd",
       "name": "Name value",
-      "classId": "f33f65ed-65ed-f33f-ed65-3ff3ed653ff3",
+      "classId": "466b19ca-19ca-466b-ca19-6b46ca196b46",
       "changeKey": "Change Key value"
     }
   ]

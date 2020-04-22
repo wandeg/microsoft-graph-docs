@@ -3,7 +3,7 @@ title: "Get calendar"
 description: "Read properties and relationships of a calendar object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -32,10 +32,6 @@ GET /me/calendar
 GET /users/{usersId}/calendar
 GET /me/calendars/{calendarId}
 GET /groups/{groupsId}/calendar
-GET /me/joinedGroups/{groupId}/calendar
-GET /me/messages/{messageId}/event/calendar
-GET /users/{usersId}/calendars/{calendarId}
-GET /me/calendarGroups/{calendarGroupId}/calendars/{calendarId}
 ```
 
 ## Optional query parameters
@@ -78,7 +74,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.calendar",
-    "id": "414f6b47-6b47-414f-476b-4f41476b4f41",
+    "id": "f6e44b47-4b47-f6e4-474b-e4f6474be4f6",
     "name": "Name value",
     "color": "String",
     "hexColor": "Hex Color value",

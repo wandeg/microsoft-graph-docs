@@ -3,7 +3,7 @@ title: "team: unarchive"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,10 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /teams/{teamsId}/unarchive
-POST /groups/{groupsId}/team/unarchive
-POST /me/joinedTeams/{teamId}/unarchive
-POST /me/joinedGroups/{groupId}/team/unarchive
-POST /users/{usersId}/joinedTeams/{teamId}/unarchive
 ```
 
 ## Request headers

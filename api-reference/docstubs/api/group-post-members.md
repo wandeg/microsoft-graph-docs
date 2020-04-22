@@ -3,7 +3,7 @@ title: "Add members"
 description: "Add members by posting to the members collection."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/members/$ref
-POST /me/joinedGroups/{groupId}/members/$ref
 ```
 
 ## Request headers
@@ -68,7 +67,7 @@ Content-length: 116
 
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00"
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00"
 }
 ```
 
@@ -85,8 +84,8 @@ HTTP/1.1 204 No Content
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.directoryObject",
-  "id": "2c50d09a-d09a-2c50-9ad0-502c9ad0502c",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00"
+  "id": "01cd8aa3-8aa3-01cd-a38a-cd01a38acd01",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00"
 }
 ```
 

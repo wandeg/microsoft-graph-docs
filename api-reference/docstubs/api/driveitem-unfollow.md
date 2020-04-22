@@ -3,7 +3,7 @@ title: "driveItem: unfollow"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/unfollow
 POST /drives/{drivesId}/root/unfollow
 POST /shares/{sharesId}/root/unfollow
 POST /workbooks/{workbooksId}/unfollow
+POST /drive/items/{driveItemId}/unfollow
 POST /shares/{sharesId}/driveItem/unfollow
-POST /me/joinedGroups/{groupId}/drive/root/unfollow
-POST /drives/{drivesId}/items/{driveItemId}/unfollow
-POST /shares/{sharesId}/items/{driveItemId}/unfollow
-POST /drives/{drivesId}/bundles/{driveItemId}/unfollow
-POST /drives/{drivesId}/special/{driveItemId}/unfollow
-POST /drives/{drivesId}/following/{driveItemId}/unfollow
-POST /workbooks/{workbooksId}/children/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/unfollow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/unfollow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/unfollow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/unfollow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/unfollow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/unfollow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/unfollow
+POST /drive/bundles/{driveItemId}/unfollow
+POST /drive/special/{driveItemId}/unfollow
+POST /drive/following/{driveItemId}/unfollow
 ```
 
 ## Request headers
@@ -74,7 +60,7 @@ If successful, this action returns a `204 No Content` response code.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/unfollow
+POST https://graph.microsoft.com/beta/drive/root/unfollow
 ```
 
 ### Response

@@ -3,7 +3,7 @@ title: "callRecord resource type"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: resourcePageType
 ---
 
@@ -24,6 +24,9 @@ Inherits from [entity](../resources/entity.md)
 |[Update callRecord](../api/callrecords-callrecord-update.md)|[callRecord](../resources/callrecords-callrecord.md)|Update the properties of a [callRecord](../resources/callrecords-callrecord.md) object.|
 |[List sessions](../api/callrecords-callrecord-list-sessions.md)|[session](../resources/callrecords-session.md) collection|Get the sessions from the sessions navigation property.|
 |[Create sessions](../api/callrecords-callrecord-post-sessions.md)|[session](../resources/callrecords-session.md)|Create a new sessions object.|
+|[Delete sessions](../api/callrecords-callrecord-delete-sessions.md)|None|Delete a sessions object.|
+|[Update sessions](../api/callrecords-callrecord-update-sessions.md)|[session](../resources/callrecords-session.md)|Update the properties of a sessions object.|
+|[Get session](../api/callrecords-session-get.md)|[session](../resources/callrecords-session.md)|Read properties and relationships of a [session](../resources/callrecords-session.md) object.|
 
 ## Properties
 |Property|Type|Description|

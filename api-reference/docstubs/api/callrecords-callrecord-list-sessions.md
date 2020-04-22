@@ -3,7 +3,7 @@ title: "List sessions"
 description: "Get the sessions from the sessions navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,12 +72,12 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.callRecords.session",
-      "id": "d4748e05-8e05-d474-058e-74d4058e74d4",
+      "id": "f1f4f9dc-f9dc-f1f4-dcf9-f4f1dcf9f4f1",
       "modalities": [
         "String"
       ],
-      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-      "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
+      "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+      "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
       "caller": {
         "@odata.type": "microsoft.graph.callRecords.endpoint",
         "userAgent": {

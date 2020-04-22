@@ -3,7 +3,7 @@ title: "Create chats"
 description: "Create a new chats object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -71,7 +71,7 @@ Content-length: 136
 {
   "@odata.type": "#microsoft.graph.chat",
   "topic": "Topic value",
-  "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
+  "lastUpdatedDateTime": "2017-01-01T00:00:22.5723719+03:00"
 }
 ```
 
@@ -88,10 +88,10 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.chat",
-  "id": "7ff67c47-7c47-7ff6-477c-f67f477cf67f",
+  "id": "985b34ea-34ea-985b-ea34-5b98ea345b98",
   "topic": "Topic value",
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-  "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+  "lastUpdatedDateTime": "2017-01-01T00:00:22.5723719+03:00"
 }
 ```
 

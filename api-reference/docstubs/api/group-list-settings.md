@@ -3,7 +3,7 @@ title: "List settings"
 description: "Get the directorySettings from the settings navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/settings
-GET /me/joinedGroups/{groupId}/settings
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.directorySetting",
-      "id": "d1ec3f43-3f43-d1ec-433f-ecd1433fecd1",
+      "id": "aaf01c3d-1c3d-aaf0-3d1c-f0aa3d1cf0aa",
       "displayName": "Display Name value",
       "templateId": "Template Id value",
       "values": [

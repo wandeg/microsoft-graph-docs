@@ -3,7 +3,7 @@ title: "Get userAnalytics"
 description: "Read properties and relationships of an userAnalytics object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.userAnalytics",
-    "id": "43bdc0ae-c0ae-43bd-aec0-bd43aec0bd43",
+    "id": "1facee1f-ee1f-1fac-1fee-ac1f1feeac1f",
     "settings": {
       "@odata.type": "microsoft.graph.settings",
       "hasLicense": true,

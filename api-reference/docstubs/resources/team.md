@@ -3,7 +3,7 @@ title: "team resource type"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: resourcePageType
 ---
 
@@ -29,23 +29,50 @@ Inherits from [entity](../resources/entity.md)
 |[archive](../api/team-archive.md)|None|**TODO: Add Description**|
 |[unarchive](../api/team-unarchive.md)|None|**TODO: Add Description**|
 |[allMessages](../api/team-allmessages.md)|[chatMessage](../resources/chatmessage.md) collection|**TODO: Add Description**|
+|[List schedule](../api/team-list-schedule.md)|[schedule](../resources/schedule.md) collection|Get the schedules from the schedule navigation property.|
+|[Create schedule](../api/team-post-schedule.md)|[schedule](../resources/schedule.md)|Create a new schedule object.|
+|[Delete schedule](../api/team-delete-schedule.md)|None|Delete a schedule object.|
+|[Update schedule](../api/team-update-schedule.md)|[schedule](../resources/schedule.md)|Update the properties of a schedule object.|
 |[Get schedule](../api/schedule-get.md)|[schedule](../resources/schedule.md)|Read properties and relationships of a [schedule](../resources/schedule.md) object.|
-|[Get group](../api/group-get.md)|[group](../resources/group.md)|Read properties and relationships of a [group](../resources/group.md) object.|
-|[Get teamsTemplate](../api/teamstemplate-get.md)|[teamsTemplate](../resources/teamstemplate.md)|Read properties and relationships of a [teamsTemplate](../resources/teamstemplate.md) object.|
+|[List group](../api/team-list-group.md)|[group](../resources/group.md) collection|Get the groups from the group navigation property.|
+|[Add group](../api/team-post-group.md)|[group](../resources/group.md)|Add group by posting to the group collection.|
+|[Remove group](../api/team-delete-group.md)|None|Remove a group object.|
+|[List template](../api/team-list-template.md)|[teamsTemplate](../resources/teamstemplate.md) collection|Get the teamsTemplates from the template navigation property.|
+|[Add template](../api/team-post-template.md)|[teamsTemplate](../resources/teamstemplate.md)|Add template by posting to the template collection.|
+|[Remove template](../api/team-delete-template.md)|None|Remove a template object.|
+|[List photo](../api/team-list-photo.md)|[profilePhoto](../resources/profilephoto.md) collection|Get the profilePhotoes from the photo navigation property.|
+|[Create photo](../api/team-post-photo.md)|[profilePhoto](../resources/profilephoto.md)|Create a new photo object.|
+|[Delete photo](../api/team-delete-photo.md)|None|Delete a photo object.|
+|[Update photo](../api/team-update-photo.md)|[profilePhoto](../resources/profilephoto.md)|Update the properties of a photo object.|
 |[Get profilePhoto](../api/profilephoto-get.md)|[profilePhoto](../resources/profilephoto.md)|Read properties and relationships of a [profilePhoto](../resources/profilephoto.md) object.|
 |[List owners](../api/team-list-owners.md)|[user](../resources/user.md) collection|Get the users from the owners navigation property.|
 |[Add owners](../api/team-post-owners.md)|[user](../resources/user.md)|Add owners by posting to the owners collection.|
+|[Remove owners](../api/team-delete-owners.md)|None|Remove an owners object.|
 |[List channels](../api/team-list-channels.md)|[channel](../resources/channel.md) collection|Get the channels from the channels navigation property.|
 |[Create channels](../api/team-post-channels.md)|[channel](../resources/channel.md)|Create a new channels object.|
+|[Delete channels](../api/team-delete-channels.md)|None|Delete a channels object.|
+|[Update channels](../api/team-update-channels.md)|[channel](../resources/channel.md)|Update the properties of a channels object.|
+|[Get channel](../api/channel-get.md)|[channel](../resources/channel.md)|Read properties and relationships of a [channel](../resources/channel.md) object.|
+|[List primaryChannel](../api/team-list-primarychannel.md)|[channel](../resources/channel.md) collection|Get the channels from the primaryChannel navigation property.|
+|[Create primaryChannel](../api/team-post-primarychannel.md)|[channel](../resources/channel.md)|Create a new primaryChannel object.|
+|[Delete primaryChannel](../api/team-delete-primarychannel.md)|None|Delete a primaryChannel object.|
+|[Update primaryChannel](../api/team-update-primarychannel.md)|[channel](../resources/channel.md)|Update the properties of a primaryChannel object.|
 |[Get channel](../api/channel-get.md)|[channel](../resources/channel.md)|Read properties and relationships of a [channel](../resources/channel.md) object.|
 |[List apps](../api/team-list-apps.md)|[teamsCatalogApp](../resources/teamscatalogapp.md) collection|Get the teamsCatalogApps from the apps navigation property.|
 |[Create apps](../api/team-post-apps.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Create a new apps object.|
+|[Delete apps](../api/team-delete-apps.md)|None|Delete an apps object.|
+|[Update apps](../api/team-update-apps.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Update the properties of an apps object.|
+|[Get teamsCatalogApp](../api/teamscatalogapp-get.md)|[teamsCatalogApp](../resources/teamscatalogapp.md)|Read properties and relationships of a [teamsCatalogApp](../resources/teamscatalogapp.md) object.|
 |[List installedApps](../api/team-list-installedapps.md)|[teamsAppInstallation](../resources/teamsappinstallation.md) collection|Get the teamsAppInstallations from the installedApps navigation property.|
 |[Create installedApps](../api/team-post-installedapps.md)|[teamsAppInstallation](../resources/teamsappinstallation.md)|Create a new installedApps object.|
+|[Delete installedApps](../api/team-delete-installedapps.md)|None|Delete an installedApps object.|
+|[Update installedApps](../api/team-update-installedapps.md)|[teamsAppInstallation](../resources/teamsappinstallation.md)|Update the properties of an installedApps object.|
+|[Get teamsAppInstallation](../api/teamsappinstallation-get.md)|[teamsAppInstallation](../resources/teamsappinstallation.md)|Read properties and relationships of a [teamsAppInstallation](../resources/teamsappinstallation.md) object.|
 |[List operations](../api/team-list-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md) collection|Get the teamsAsyncOperations from the operations navigation property.|
 |[Create operations](../api/team-post-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Create a new operations object.|
-|[List joinedTeams](../api/user-list-joinedteams.md)|[team](../resources/team.md) collection|Get the teams from the joinedTeams navigation property.|
-|[Create joinedTeams](../api/user-post-joinedteams.md)|[team](../resources/team.md)|Create a new joinedTeams object.|
+|[Delete operations](../api/team-delete-operations.md)|None|Delete an operations object.|
+|[Update operations](../api/team-update-operations.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Update the properties of an operations object.|
+|[Get teamsAsyncOperation](../api/teamsasyncoperation-get.md)|[teamsAsyncOperation](../resources/teamsasyncoperation.md)|Read properties and relationships of a [teamsAsyncOperation](../resources/teamsasyncoperation.md) object.|
 
 ## Properties
 |Property|Type|Description|

@@ -3,7 +3,7 @@ title: "Get driveItem"
 description: "Read properties and relationships of a driveItem object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+GET /drive/root
 GET /drives/{drivesId}/root
 GET /shares/{sharesId}/root
 GET /workbooks/{workbooksId}
+GET /drive/items/{driveItemId}
 GET /shares/{sharesId}/driveItem
-GET /me/joinedGroups/{groupId}/drive/root
-GET /drives/{drivesId}/items/{driveItemId}
-GET /shares/{sharesId}/items/{driveItemId}
-GET /drives/{drivesId}/bundles/{driveItemId}
-GET /drives/{drivesId}/special/{driveItemId}
-GET /drives/{drivesId}/following/{driveItemId}
-GET /workbooks/{workbooksId}/children/{driveItemId}
-GET /me/joinedGroups/{groupId}/drive/items/{driveItemId}
-GET /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}
-GET /me/joinedGroups/{groupId}/drive/special/{driveItemId}
-GET /me/joinedGroups/{groupId}/drive/following/{driveItemId}
-GET /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem
+GET /drive/bundles/{driveItemId}
+GET /drive/special/{driveItemId}
+GET /drive/following/{driveItemId}
 ```
 
 ## Optional query parameters
@@ -76,7 +62,7 @@ If successful, this method returns a `200 OK` response code and a [driveItem](..
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/drives/{drivesId}/root
+GET https://graph.microsoft.com/beta/drive/root
 ```
 
 ### Response
@@ -93,7 +79,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.driveItem",
-    "id": "51ff9347-9347-51ff-4793-ff514793ff51",
+    "id": "6ae211ef-11ef-6ae2-ef11-e26aef11e26a",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -108,13 +94,13 @@ Content-Type: application/json
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",
@@ -181,7 +167,7 @@ Content-Type: application/json
     },
     "fileSystemInfo": {
       "@odata.type": "microsoft.graph.fileSystemInfo",
-      "lastAccessedDateTime": "2017-01-01T00:00:39.6300423+03:00"
+      "lastAccessedDateTime": "2017-01-01T00:01:56.0899806+03:00"
     },
     "folder": {
       "@odata.type": "microsoft.graph.folder",
@@ -211,7 +197,7 @@ Content-Type: application/json
       "@odata.type": "microsoft.graph.pendingOperations",
       "pendingContentUpdate": {
         "@odata.type": "microsoft.graph.pendingContentUpdate",
-        "queuedDateTime": "2016-12-31T23:58:20.8041463+03:00"
+        "queuedDateTime": "2016-12-31T23:59:00.2417573+03:00"
       }
     },
     "photo": {
@@ -224,7 +210,7 @@ Content-Type: application/json
       "focalLength": "Double",
       "iso": 3,
       "orientation": 11,
-      "takenDateTime": "2017-01-01T00:02:04.4033586+03:00"
+      "takenDateTime": "2016-12-31T23:58:34.3648434+03:00"
     },
     "publication": {
       "@odata.type": "microsoft.graph.publicationFacet",
@@ -242,7 +228,7 @@ Content-Type: application/json
         "sharedBy": {
           "@odata.type": "microsoft.graph.identitySet"
         },
-        "sharedDateTime": "2016-12-31T23:59:49.7174705+03:00"
+        "sharedDateTime": "2016-12-31T23:59:32.0800584+03:00"
       },
       "size": 4,
       "specialFolder": {

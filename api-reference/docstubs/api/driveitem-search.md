@@ -3,7 +3,7 @@ title: "driveItem: search"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+GET /drive/root/search
 GET /drives/{drivesId}/root/search
 GET /shares/{sharesId}/root/search
 GET /workbooks/{workbooksId}/search
+GET /drive/items/{driveItemId}/search
 GET /shares/{sharesId}/driveItem/search
-GET /me/joinedGroups/{groupId}/drive/root/search
-GET /drives/{drivesId}/items/{driveItemId}/search
-GET /shares/{sharesId}/items/{driveItemId}/search
-GET /drives/{drivesId}/bundles/{driveItemId}/search
-GET /drives/{drivesId}/special/{driveItemId}/search
-GET /drives/{drivesId}/following/{driveItemId}/search
-GET /workbooks/{workbooksId}/children/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/drive/items/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/drive/special/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/drive/following/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/search
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/search
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/search
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/search
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/search
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/search
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/search
+GET /drive/bundles/{driveItemId}/search
+GET /drive/special/{driveItemId}/search
+GET /drive/following/{driveItemId}/search
 ```
 
 ## Request headers
@@ -80,7 +66,7 @@ If successful, this function returns a `200 OK` response code and a [driveItem](
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/drives/{drivesId}/root/search(q='parameterValue')
+GET https://graph.microsoft.com/beta/drive/root/search(q='parameterValue')
 ```
 
 ### Response
@@ -98,17 +84,17 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItem",
-      "id": "51ff9347-9347-51ff-4793-ff514793ff51",
+      "id": "6ae211ef-11ef-6ae2-ef11-e26aef11e26a",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference"

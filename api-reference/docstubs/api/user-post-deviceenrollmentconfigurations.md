@@ -3,7 +3,7 @@ title: "Create deviceEnrollmentConfigurations"
 description: "Create a new deviceEnrollmentConfigurations object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -93,12 +93,12 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.deviceEnrollmentConfiguration",
-  "id": "a7dac5d5-c5d5-a7da-d5c5-daa7d5c5daa7",
+  "id": "7f6f5272-5272-7f6f-7252-6f7f72526f7f",
   "displayName": "Display Name value",
   "description": "Description value",
   "priority": 8,
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
   "version": 7
 }
 ```

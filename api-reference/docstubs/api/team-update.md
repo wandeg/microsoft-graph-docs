@@ -3,7 +3,7 @@ title: "Update team"
 description: "Update the properties of a team object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,10 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 PATCH /teams/{teamsId}
-PATCH /groups/{groupsId}/team
-PATCH /me/joinedTeams/{teamId}
-PATCH /me/joinedGroups/{groupId}/team
-PATCH /users/{usersId}/joinedTeams/{teamId}
 ```
 
 ## Request headers
@@ -136,7 +132,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.team",
-  "id": "d6943236-3236-d694-3632-94d6363294d6",
+  "id": "019ac9d1-c9d1-019a-d1c9-9a01d1c99a01",
   "displayName": "Display Name value",
   "description": "Description value",
   "internalId": "Internal Id value",

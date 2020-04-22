@@ -3,7 +3,7 @@ title: "Create activities"
 description: "Create a new activities object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -101,7 +101,7 @@ Content-length: 1103
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
   "userTimezone": "User Timezone value",
   "contentInfo": {
@@ -124,7 +124,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.userActivity",
-  "id": "bc2a578b-578b-bc2a-8b57-2abc8b572abc",
+  "id": "53683e19-3e19-5368-193e-6853193e6853",
   "visualElements": {
     "@odata.type": "microsoft.graph.visualInfo",
     "attribution": {
@@ -146,10 +146,10 @@ Content-Type: application/json
   "appActivityId": "App Activity Id value",
   "appDisplayName": "App Display Name value",
   "contentUrl": "https://example.com/contentUrl/",
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "fallbackUrl": "https://example.com/fallbackUrl/",
-  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
   "userTimezone": "User Timezone value",
   "contentInfo": {
     "@odata.type": "microsoft.graph.Json"

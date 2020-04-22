@@ -3,7 +3,7 @@ title: "Get profilePhoto"
 description: "Read properties and relationships of a profilePhoto object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -33,12 +33,6 @@ GET /users/{usersId}/photo
 GET /teams/{teamsId}/photo
 GET /groups/{groupsId}/photo
 GET /me/photos/{profilePhotoId}
-GET /me/contacts/{contactId}/photo
-GET /me/joinedGroups/{groupId}/photo
-GET /me/joinedGroups/{groupId}/team/photo
-GET /users/{usersId}/photos/{profilePhotoId}
-GET /groups/{groupsId}/photos/{profilePhotoId}
-GET /me/joinedGroups/{groupId}/photos/{profilePhotoId}
 ```
 
 ## Optional query parameters
@@ -81,7 +75,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.profilePhoto",
-    "id": "d6e86c0f-6c0f-d6e8-0f6c-e8d60f6ce8d6",
+    "id": "861907cf-07cf-8619-cf07-1986cf071986",
     "height": 6,
     "width": 5
   }

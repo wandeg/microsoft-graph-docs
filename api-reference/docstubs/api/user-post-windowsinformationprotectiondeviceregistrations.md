@@ -3,7 +3,7 @@ title: "Add windowsInformationProtectionDeviceRegistrations"
 description: "Add windowsInformationProtectionDeviceRegistrations by posting to the windowsInformationProtectionDeviceRegistrations collection."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -78,7 +78,7 @@ Content-length: 367
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2017-01-01T00:00:33.4192367+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:03:14.9677673+03:00"
 }
 ```
 
@@ -95,13 +95,13 @@ HTTP/1.1 204 No Content
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.windowsInformationProtectionDeviceRegistration",
-  "id": "5a6618e1-18e1-5a66-e118-665ae118665a",
+  "id": "b0770423-0423-b077-2304-77b0230477b0",
   "userId": "User Id value",
   "deviceRegistrationId": "Device Registration Id value",
   "deviceName": "Device Name value",
   "deviceType": "Device Type value",
   "deviceMacAddress": "Device Mac Address value",
-  "lastCheckInDateTime": "2017-01-01T00:00:33.4192367+03:00"
+  "lastCheckInDateTime": "2017-01-01T00:03:14.9677673+03:00"
 }
 ```
 

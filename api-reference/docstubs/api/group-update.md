@@ -3,7 +3,7 @@ title: "Update group"
 description: "Update the properties of a group object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 PATCH /groups/{groupsId}
-PATCH /me/joinedGroups/{groupId}
-PATCH /users/{usersId}/joinedGroups/{groupId}
 ```
 
 ## Request headers
@@ -108,11 +106,11 @@ If successful, this method returns a `200 OK` response code and an updated [grou
 ``` http
 PATCH https://graph.microsoft.com/beta/groups/{groupsId}
 Content-Type: application/json
-Content-length: 2701
+Content-length: 2702
 
 {
   "@odata.type": "#microsoft.graph.group",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "assignedLabels": [
     {
       "@odata.type": "microsoft.graph.assignedLabel",
@@ -124,9 +122,9 @@ Content-length: 2701
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
+        "0e01a038-a038-0e01-38a0-010e38a0010e"
       ],
-      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
+      "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a"
     }
   ],
   "classification": "Classification value",
@@ -148,7 +146,7 @@ Content-length: 2701
   "membershipRule": "Membership Rule value",
   "membershipRuleProcessingState": "Membership Rule Processing State value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -156,7 +154,7 @@ Content-length: 2701
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
+      "occurredDateTime": "2016-12-31T23:56:58.2206726+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -167,7 +165,7 @@ Content-length: 2701
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
+  "renewedDateTime": "2016-12-31T23:58:11.7696759+03:00",
   "resourceBehaviorOptions": [
     "Resource Behavior Options value"
   ],
@@ -204,8 +202,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.group",
-  "id": "91699ffb-9ffb-9169-fb9f-6991fb9f6991",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "id": "be9a83e3-83e3-be9a-e383-9abee3839abe",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "assignedLabels": [
     {
       "@odata.type": "microsoft.graph.assignedLabel",
@@ -217,13 +215,13 @@ Content-Type: application/json
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
+        "0e01a038-a038-0e01-38a0-010e38a0010e"
       ],
-      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
+      "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a"
     }
   ],
   "classification": "Classification value",
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
   "description": "Description value",
   "displayName": "Display Name value",
   "groupTypes": [
@@ -242,7 +240,7 @@ Content-Type: application/json
   "membershipRule": "Membership Rule value",
   "membershipRuleProcessingState": "Membership Rule Processing State value",
   "onPremisesDomainName": "On Premises Domain Name value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
   "onPremisesNetBiosName": "On Premises Net Bios Name value",
   "onPremisesProvisioningErrors": [
     {
@@ -250,7 +248,7 @@ Content-Type: application/json
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
+      "occurredDateTime": "2016-12-31T23:56:58.2206726+03:00"
     }
   ],
   "onPremisesSamAccountName": "On Premises Sam Account Name value",
@@ -261,7 +259,7 @@ Content-Type: application/json
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
+  "renewedDateTime": "2016-12-31T23:58:11.7696759+03:00",
   "resourceBehaviorOptions": [
     "Resource Behavior Options value"
   ],

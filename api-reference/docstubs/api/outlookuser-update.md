@@ -3,7 +3,7 @@ title: "Update outlookUser"
 description: "Update the properties of a outlookUser object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -81,7 +81,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.outlookUser",
-  "id": "e661fab8-fab8-e661-b8fa-61e6b8fa61e6"
+  "id": "8f7daf30-af30-8f7d-30af-7d8f30af7d8f"
 }
 ```
 

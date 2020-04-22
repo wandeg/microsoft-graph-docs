@@ -3,7 +3,7 @@ title: "user: getManagedAppPolicies"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 GET /me/getManagedAppPolicies
 GET /users/{usersId}/getManagedAppPolicies
-GET /me/managedDevices/{managedDeviceId}/users/{userId}/getManagedAppPolicies
 ```
 
 ## Request headers
@@ -71,11 +70,11 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppPolicy",
-      "id": "485019c5-19c5-4850-c519-5048c5195048",
+      "id": "ab7d44cd-44cd-ab7d-cd44-7dabcd447dab",
       "displayName": "Display Name value",
       "description": "Description value",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "roleScopeTagIds": [
         "Role Scope Tag Ids value"
       ],

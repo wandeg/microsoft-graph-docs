@@ -3,7 +3,7 @@ title: "Create versions"
 description: "Create a new versions object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /workbooks/{workbooksId}/versions
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/versions
 ```
 
 ## Request headers
@@ -95,7 +94,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.driveItemVersion",
-  "id": "fb092541-2541-fb09-4125-09fb412509fb",
+  "id": "b69f4771-4771-b69f-7147-9fb671479fb6",
   "lastModifiedBy": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -110,7 +109,7 @@ Content-Type: application/json
       "@odata.type": "microsoft.graph.identity"
     }
   },
-  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
   "publication": {
     "@odata.type": "microsoft.graph.publicationFacet",
     "level": "Level value",

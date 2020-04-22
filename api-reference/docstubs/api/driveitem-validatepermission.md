@@ -3,7 +3,7 @@ title: "driveItem: validatePermission"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/validatePermission
 POST /drives/{drivesId}/root/validatePermission
 POST /shares/{sharesId}/root/validatePermission
 POST /workbooks/{workbooksId}/validatePermission
+POST /drive/items/{driveItemId}/validatePermission
 POST /shares/{sharesId}/driveItem/validatePermission
-POST /me/joinedGroups/{groupId}/drive/root/validatePermission
-POST /drives/{drivesId}/items/{driveItemId}/validatePermission
-POST /shares/{sharesId}/items/{driveItemId}/validatePermission
-POST /drives/{drivesId}/bundles/{driveItemId}/validatePermission
-POST /drives/{drivesId}/special/{driveItemId}/validatePermission
-POST /drives/{drivesId}/following/{driveItemId}/validatePermission
-POST /workbooks/{workbooksId}/children/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/validatePermission
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/validatePermission
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/validatePermission
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/validatePermission
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/validatePermission
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/validatePermission
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/validatePermission
+POST /drive/bundles/{driveItemId}/validatePermission
+POST /drive/special/{driveItemId}/validatePermission
+POST /drive/following/{driveItemId}/validatePermission
 ```
 
 ## Request headers
@@ -83,7 +69,7 @@ If successful, this action returns a `204 No Content` response code.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/validatePermission
+POST https://graph.microsoft.com/beta/drive/root/validatePermission
 
 Content-Type: application/json
 Content-length: 82

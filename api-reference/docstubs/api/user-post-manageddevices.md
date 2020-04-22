@@ -3,7 +3,7 @@ title: "Create managedDevices"
 description: "Create a new managedDevices object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -181,13 +181,13 @@ Content-length: 7480
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
+      "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+      "lastUpdatedDateTime": "2017-01-01T00:00:22.5723719+03:00"
     }
   ],
   "managementState": "String",
-  "enrolledDateTime": "2017-01-01T00:00:08.2470788+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
+  "enrolledDateTime": "2016-12-31T23:59:28.0325715+03:00",
+  "lastSyncDateTime": "2016-12-31T23:57:22.1853447+03:00",
   "chassisType": "String",
   "operatingSystem": "Operating System value",
   "deviceType": "String",
@@ -197,7 +197,7 @@ Content-length: 7480
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2016-12-31T23:58:33.6351648+03:00",
+  "easActivationDateTime": "2017-01-01T00:01:34.1746541+03:00",
   "aadRegistered": true,
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
@@ -209,7 +209,7 @@ Content-length: 7480
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:59:33.4914043+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:02:46.2693731+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -219,7 +219,7 @@ Content-length: 7480
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:32.1532348+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:24.8644501+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -242,7 +242,7 @@ Content-length: 7480
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2017-01-01T00:01:31.1222435+03:00",
+    "issuedDateTime": "2016-12-31T23:58:04.3069405+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,
@@ -277,17 +277,17 @@ Content-length: 7480
   "freeStorageSpaceInBytes": 7,
   "managedDeviceName": "Managed Device Name value",
   "partnerReportedThreatState": "String",
-  "retireAfterDateTime": "2016-12-31T23:59:01.533749+03:00",
+  "retireAfterDateTime": "2017-01-01T00:01:35.2225535+03:00",
   "usersLoggedOn": [
     {
       "@odata.type": "microsoft.graph.loggedOnUser",
-      "lastLogOnDateTime": "2017-01-01T00:03:32.9872261+03:00"
+      "lastLogOnDateTime": "2016-12-31T23:57:42.6242093+03:00"
     }
   ],
-  "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:59:55.1364441+03:00",
+  "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:03:00.639768+03:00",
   "autopilotEnrolled": true,
   "requireUserEnrollmentApproval": true,
-  "managementCertificateExpirationDate": "2017-01-01T00:02:36.7215056+03:00",
+  "managementCertificateExpirationDate": "2017-01-01T00:01:25.4117431+03:00",
   "iccid": "Iccid value",
   "udid": "Udid value",
   "roleScopeTagIds": [
@@ -324,7 +324,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.managedDevice",
-  "id": "9d17489c-489c-9d17-9c48-179d9c48179d",
+  "id": "6c2f7cb5-7cb5-6c2f-b57c-2f6cb57c2f6c",
   "userId": "User Id value",
   "deviceName": "Device Name value",
   "hardwareInformation": {
@@ -368,13 +368,13 @@ Content-Type: application/json
       "@odata.type": "microsoft.graph.deviceActionResult",
       "actionName": "Action Name value",
       "actionState": "String",
-      "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-      "lastUpdatedDateTime": "2017-01-01T00:01:31.9814441+03:00"
+      "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+      "lastUpdatedDateTime": "2017-01-01T00:00:22.5723719+03:00"
     }
   ],
   "managementState": "String",
-  "enrolledDateTime": "2017-01-01T00:00:08.2470788+03:00",
-  "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
+  "enrolledDateTime": "2016-12-31T23:59:28.0325715+03:00",
+  "lastSyncDateTime": "2016-12-31T23:57:22.1853447+03:00",
   "chassisType": "String",
   "operatingSystem": "Operating System value",
   "deviceType": "String",
@@ -384,7 +384,7 @@ Content-Type: application/json
   "osVersion": "Os Version value",
   "easActivated": true,
   "easDeviceId": "Eas Device Id value",
-  "easActivationDateTime": "2016-12-31T23:58:33.6351648+03:00",
+  "easActivationDateTime": "2017-01-01T00:01:34.1746541+03:00",
   "aadRegistered": true,
   "azureADRegistered": true,
   "deviceEnrollmentType": "String",
@@ -396,7 +396,7 @@ Content-Type: application/json
   "deviceRegistrationState": "String",
   "deviceCategoryDisplayName": "Device Category Display Name value",
   "isSupervised": true,
-  "exchangeLastSuccessfulSyncDateTime": "2016-12-31T23:59:33.4914043+03:00",
+  "exchangeLastSuccessfulSyncDateTime": "2017-01-01T00:02:46.2693731+03:00",
   "exchangeAccessState": "String",
   "exchangeAccessStateReason": "String",
   "remoteAssistanceSessionUrl": "https://example.com/remoteAssistanceSessionUrl/",
@@ -406,7 +406,7 @@ Content-Type: application/json
   "model": "Model value",
   "manufacturer": "Manufacturer value",
   "imei": "Imei value",
-  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:32.1532348+03:00",
+  "complianceGracePeriodExpirationDateTime": "2017-01-01T00:02:24.8644501+03:00",
   "serialNumber": "Serial Number value",
   "phoneNumber": "Phone Number value",
   "androidSecurityPatchLevel": "Android Security Patch Level value",
@@ -429,7 +429,7 @@ Content-Type: application/json
     "contentNamespaceUrl": "https://example.com/contentNamespaceUrl/",
     "deviceHealthAttestationStatus": "Device Health Attestation Status value",
     "contentVersion": "Content Version value",
-    "issuedDateTime": "2017-01-01T00:01:31.1222435+03:00",
+    "issuedDateTime": "2016-12-31T23:58:04.3069405+03:00",
     "attestationIdentityKey": "Attestation Identity Key value",
     "resetCount": 10,
     "restartCount": 12,
@@ -464,17 +464,17 @@ Content-Type: application/json
   "freeStorageSpaceInBytes": 7,
   "managedDeviceName": "Managed Device Name value",
   "partnerReportedThreatState": "String",
-  "retireAfterDateTime": "2016-12-31T23:59:01.533749+03:00",
+  "retireAfterDateTime": "2017-01-01T00:01:35.2225535+03:00",
   "usersLoggedOn": [
     {
       "@odata.type": "microsoft.graph.loggedOnUser",
-      "lastLogOnDateTime": "2017-01-01T00:03:32.9872261+03:00"
+      "lastLogOnDateTime": "2016-12-31T23:57:42.6242093+03:00"
     }
   ],
-  "preferMdmOverGroupPolicyAppliedDateTime": "2016-12-31T23:59:55.1364441+03:00",
+  "preferMdmOverGroupPolicyAppliedDateTime": "2017-01-01T00:03:00.639768+03:00",
   "autopilotEnrolled": true,
   "requireUserEnrollmentApproval": true,
-  "managementCertificateExpirationDate": "2017-01-01T00:02:36.7215056+03:00",
+  "managementCertificateExpirationDate": "2017-01-01T00:01:25.4117431+03:00",
   "iccid": "Iccid value",
   "udid": "Udid value",
   "roleScopeTagIds": [

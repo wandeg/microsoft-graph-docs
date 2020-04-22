@@ -3,7 +3,7 @@ title: "driveItem: createUploadSession"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/createUploadSession
 POST /drives/{drivesId}/root/createUploadSession
 POST /shares/{sharesId}/root/createUploadSession
 POST /workbooks/{workbooksId}/createUploadSession
+POST /drive/items/{driveItemId}/createUploadSession
 POST /shares/{sharesId}/driveItem/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/root/createUploadSession
-POST /drives/{drivesId}/items/{driveItemId}/createUploadSession
-POST /shares/{sharesId}/items/{driveItemId}/createUploadSession
-POST /drives/{drivesId}/bundles/{driveItemId}/createUploadSession
-POST /drives/{drivesId}/special/{driveItemId}/createUploadSession
-POST /drives/{drivesId}/following/{driveItemId}/createUploadSession
-POST /workbooks/{workbooksId}/children/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/createUploadSession
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/createUploadSession
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/createUploadSession
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/createUploadSession
+POST /drive/bundles/{driveItemId}/createUploadSession
+POST /drive/special/{driveItemId}/createUploadSession
+POST /drive/following/{driveItemId}/createUploadSession
 ```
 
 ## Request headers
@@ -83,7 +69,7 @@ If successful, this action returns a `200 OK` response code and a [uploadSession
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/createUploadSession
+POST https://graph.microsoft.com/beta/drive/root/createUploadSession
 
 Content-Type: application/json
 Content-length: 134

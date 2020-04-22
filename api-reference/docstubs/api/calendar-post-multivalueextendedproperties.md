@@ -3,7 +3,7 @@ title: "Create multiValueExtendedProperties"
 description: "Create a new multiValueExtendedProperties object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/messages/{messageId}/event/calendar/multiValueExtendedProperties
+POST /invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/multiValueExtendedProperties
 ```
 
 ## Request headers
@@ -61,7 +61,7 @@ If successful, this method returns a `201 Created` response code and a [multiVal
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/multiValueExtendedProperties
+POST https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/multiValueExtendedProperties
 Content-Type: application/json
 Content-length: 113
 
@@ -86,7 +86,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-  "id": "edcc6f5a-6f5a-edcc-5a6f-cced5a6fcced",
+  "id": "c25d6eea-6eea-c25d-ea6e-5dc2ea6e5dc2",
   "value": [
     "Value value"
   ]

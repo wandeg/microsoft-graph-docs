@@ -3,7 +3,7 @@ title: "Create onlineMeetings"
 description: "Create a new onlineMeetings object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -83,11 +83,11 @@ Content-length: 2077
 
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "creationDateTime": "2017-01-01T00:01:44.5522643+03:00",
-  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
-  "canceledDateTime": "2017-01-01T00:01:58.4621467+03:00",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "creationDateTime": "2016-12-31T23:58:14.8494811+03:00",
+  "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+  "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
+  "canceledDateTime": "2017-01-01T00:02:19.2199585+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "entryExitAnnouncement": true,
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",
@@ -163,12 +163,12 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.onlineMeeting",
-  "id": "cb981278-1278-cb98-7812-98cb781298cb",
-  "creationDateTime": "2017-01-01T00:01:44.5522643+03:00",
-  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
-  "canceledDateTime": "2017-01-01T00:01:58.4621467+03:00",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "id": "78e50ef7-0ef7-78e5-f70e-e578f70ee578",
+  "creationDateTime": "2016-12-31T23:58:14.8494811+03:00",
+  "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+  "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
+  "canceledDateTime": "2017-01-01T00:02:19.2199585+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "entryExitAnnouncement": true,
   "joinUrl": "https://example.com/joinUrl/",
   "subject": "Subject value",

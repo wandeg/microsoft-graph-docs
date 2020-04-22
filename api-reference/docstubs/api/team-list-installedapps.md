@@ -3,7 +3,7 @@ title: "List installedApps"
 description: "Get the teamsAppInstallations from the installedApps navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}/installedApps
-GET /me/joinedGroups/{groupId}/team/installedApps
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAppInstallation",
-      "id": "dfe827af-27af-dfe8-af27-e8dfaf27e8df"
+      "id": "2ffc485d-485d-2ffc-5d48-fc2f5d48fc2f"
     }
   ]
 }

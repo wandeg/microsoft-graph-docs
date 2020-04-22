@@ -3,7 +3,7 @@ title: "Get team"
 description: "Read properties and relationships of a team object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,10 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}
-GET /groups/{groupsId}/team
-GET /me/joinedTeams/{teamId}
-GET /me/joinedGroups/{groupId}/team
-GET /users/{usersId}/joinedTeams/{teamId}
 ```
 
 ## Optional query parameters
@@ -75,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.team",
-    "id": "d6943236-3236-d694-3632-94d6363294d6",
+    "id": "019ac9d1-c9d1-019a-d1c9-9a01d1c99a01",
     "displayName": "Display Name value",
     "description": "Description value",
     "internalId": "Internal Id value",

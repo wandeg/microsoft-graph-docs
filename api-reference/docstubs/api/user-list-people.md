@@ -3,7 +3,7 @@ title: "List people"
 description: "Get the people from the people navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.person",
-      "id": "efe9b346-b346-efe9-46b3-e9ef46b3e9ef",
+      "id": "a101d4a1-d4a1-a101-a1d4-01a1a1d401a1",
       "displayName": "Display Name value",
       "givenName": "Given Name value",
       "surname": "Surname value",

@@ -3,7 +3,7 @@ title: "driveItem: createLink"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/createLink
 POST /drives/{drivesId}/root/createLink
 POST /shares/{sharesId}/root/createLink
 POST /workbooks/{workbooksId}/createLink
+POST /drive/items/{driveItemId}/createLink
 POST /shares/{sharesId}/driveItem/createLink
-POST /me/joinedGroups/{groupId}/drive/root/createLink
-POST /drives/{drivesId}/items/{driveItemId}/createLink
-POST /shares/{sharesId}/items/{driveItemId}/createLink
-POST /drives/{drivesId}/bundles/{driveItemId}/createLink
-POST /drives/{drivesId}/special/{driveItemId}/createLink
-POST /drives/{drivesId}/following/{driveItemId}/createLink
-POST /workbooks/{workbooksId}/children/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/createLink
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/createLink
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/createLink
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/createLink
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/createLink
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/createLink
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/createLink
+POST /drive/bundles/{driveItemId}/createLink
+POST /drive/special/{driveItemId}/createLink
+POST /drive/following/{driveItemId}/createLink
 ```
 
 ## Request headers
@@ -87,7 +73,7 @@ If successful, this action returns a `200 OK` response code and a [permission](.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/createLink
+POST https://graph.microsoft.com/beta/drive/root/createLink
 
 Content-Type: application/json
 Content-length: 344
@@ -95,7 +81,7 @@ Content-length: 344
 {
   "type": "Type value",
   "scope": "Scope value",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "password": "Password value",
   "message": "Message value",
   "recipients": [
@@ -122,8 +108,8 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.permission",
-    "id": "294ca067-a067-294c-67a0-4c2967a04c29",
-    "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+    "id": "4021ac51-ac51-4021-51ac-214051ac2140",
+    "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
     "grantedTo": {
       "@odata.type": "microsoft.graph.identitySet"
     },

@@ -3,7 +3,7 @@ title: "List taskGroups"
 description: "Get the outlookTaskGroups from the taskGroups navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/outlook/taskGroups
+GET /invitations/{invitationsId}/invitedUser/outlook/taskGroups
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/outlook/taskGroups
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/taskGroups
 ```
 
 ### Response
@@ -72,11 +72,11 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskGroup",
-      "id": "47446577-6577-4744-7765-444777654447",
+      "id": "e7ff486a-486a-e7ff-6a48-ffe76a48ffe7",
       "changeKey": "Change Key value",
       "isDefaultGroup": true,
       "name": "Name value",
-      "groupKey": "7971407f-407f-7971-7f40-71797f407179"
+      "groupKey": "4403b5f4-b5f4-4403-f4b5-0344f4b50344"
     }
   ]
 }

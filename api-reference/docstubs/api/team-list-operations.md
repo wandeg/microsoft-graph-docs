@@ -3,7 +3,7 @@ title: "List operations"
 description: "Get the teamsAsyncOperations from the operations navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}/operations
-GET /me/joinedGroups/{groupId}/team/operations
 ```
 
 ## Optional query parameters
@@ -73,11 +72,11 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsAsyncOperation",
-      "id": "f499dbba-dbba-f499-badb-99f4badb99f4",
+      "id": "85f7fd9f-fd9f-85f7-9ffd-f7859ffdf785",
       "operationType": "String",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
       "status": "String",
-      "lastActionDateTime": "2017-01-01T00:02:31.8410313+03:00",
+      "lastActionDateTime": "2017-01-01T00:02:17.2902511+03:00",
       "attemptsCount": 13,
       "targetResourceId": "Target Resource Id value",
       "targetResourceLocation": "Target Resource Location value",

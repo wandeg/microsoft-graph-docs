@@ -3,7 +3,7 @@ title: "Get drive"
 description: "Read properties and relationships of a drive object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,20 +29,8 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /drive
-GET /me/drive
 GET /drives/{drivesId}
-GET /me/drives/{driveId}
-GET /users/{usersId}/drive
 GET /sites/{sitesId}/drive
-GET /groups/{groupsId}/drive
-GET /me/joinedGroups/{groupId}/drive
-GET /users/{usersId}/drives/{driveId}
-GET /sites/{sitesId}/drives/{driveId}
-GET /groups/{groupsId}/drives/{driveId}
-GET /me/joinedGroups/{groupId}/drive/list/drive
-GET /me/joinedGroups/{groupId}/drives/{driveId}
-GET /me/joinedGroups/{groupId}/sites/{siteId}/drive
-GET /me/joinedGroups/{groupId}/sites/{siteId}/drives/{driveId}
 ```
 
 ## Optional query parameters
@@ -85,7 +73,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.drive",
-    "id": "977d52d7-52d7-977d-d752-7d97d7527d97",
+    "id": "2186ed0f-ed0f-2186-0fed-86210fed8621",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -100,13 +88,13 @@ Content-Type: application/json
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

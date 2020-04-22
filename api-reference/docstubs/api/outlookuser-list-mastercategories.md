@@ -3,7 +3,7 @@ title: "List masterCategories"
 description: "Get the outlookCategories from the masterCategories navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/outlook/masterCategories
+GET /invitations/{invitationsId}/invitedUser/outlook/masterCategories
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/outlook/masterCategories
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/masterCategories
 ```
 
 ### Response
@@ -72,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookCategory",
-      "id": "05f33c2e-3c2e-05f3-2e3c-f3052e3cf305",
+      "id": "0c0a87ac-87ac-0c0a-ac87-0a0cac870a0c",
       "displayName": "Display Name value",
       "color": "String"
     }

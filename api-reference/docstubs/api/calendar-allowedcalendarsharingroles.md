@@ -3,7 +3,7 @@ title: "calendar: allowedCalendarSharingRoles"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -32,10 +32,6 @@ GET /me/calendar/allowedCalendarSharingRoles
 GET /users/{usersId}/calendar/allowedCalendarSharingRoles
 GET /me/calendars/{calendarId}/allowedCalendarSharingRoles
 GET /groups/{groupsId}/calendar/allowedCalendarSharingRoles
-GET /me/joinedGroups/{groupId}/calendar/allowedCalendarSharingRoles
-GET /me/messages/{messageId}/event/calendar/allowedCalendarSharingRoles
-GET /users/{usersId}/calendars/{calendarId}/allowedCalendarSharingRoles
-GET /me/calendarGroups/{calendarGroupId}/calendars/{calendarId}/allowedCalendarSharingRoles
 ```
 
 ## Request headers

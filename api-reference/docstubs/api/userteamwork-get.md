@@ -3,7 +3,7 @@ title: "Get userTeamwork"
 description: "Read properties and relationships of an userTeamwork object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.userTeamwork",
-    "id": "7ccba7f8-a7f8-7ccb-f8a7-cb7cf8a7cb7c"
+    "id": "44b8b4b1-b4b1-44b8-b1b4-b844b1b4b844"
   }
 }
 ```

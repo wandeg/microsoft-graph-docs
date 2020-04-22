@@ -3,7 +3,7 @@ title: "List tasks"
 description: "Get the outlookTasks from the tasks navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/outlook/tasks
+GET /invitations/{invitationsId}/invitedUser/outlook/tasks
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/outlook/tasks
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/tasks
 ```
 
 ### Response
@@ -72,9 +72,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTask",
-      "id": "0555e501-e501-0555-01e5-550501e55505",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "id": "9b0d6b6d-6b6d-9b0d-6d6b-0d9b6d6b0d9b",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"

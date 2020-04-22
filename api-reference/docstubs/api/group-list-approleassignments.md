@@ -3,7 +3,7 @@ title: "List appRoleAssignments"
 description: "Get the appRoleAssignments from the appRoleAssignments navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/appRoleAssignments
-GET /me/joinedGroups/{groupId}/appRoleAssignments
 ```
 
 ## Optional query parameters
@@ -73,14 +72,14 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.appRoleAssignment",
-      "id": "c448aa3f-aa3f-c448-3faa-48c43faa48c4",
-      "appRoleId": "d44c275e-275e-d44c-5e27-4cd45e274cd4",
-      "creationTimestamp": "2016-12-31T23:56:32.9939744+03:00",
+      "id": "7ab7b70b-b70b-7ab7-0bb7-b77a0bb7b77a",
+      "appRoleId": "4ef079cc-79cc-4ef0-cc79-f04ecc79f04e",
+      "creationTimestamp": "2017-01-01T00:03:27.804947+03:00",
       "principalDisplayName": "Principal Display Name value",
-      "principalId": "de51d196-d196-de51-96d1-51de96d151de",
+      "principalId": "3bea14a8-14a8-3bea-a814-ea3ba814ea3b",
       "principalType": "Principal Type value",
       "resourceDisplayName": "Resource Display Name value",
-      "resourceId": "6046e9cf-e9cf-6046-cfe9-4660cfe94660"
+      "resourceId": "76c2b97a-b97a-76c2-7ab9-c2767ab9c276"
     }
   ]
 }

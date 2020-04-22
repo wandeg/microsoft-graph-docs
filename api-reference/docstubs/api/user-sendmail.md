@@ -3,7 +3,7 @@ title: "user: sendMail"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 POST /me/sendMail
 POST /users/{usersId}/sendMail
-POST /me/managedDevices/{managedDeviceId}/users/{userId}/sendMail
 ```
 
 ## Request headers
@@ -71,15 +70,15 @@ Content-length: 2653
 {
   "Message": {
     "@odata.type": "#microsoft.graph.message",
-    "id": "0cb6590c-590c-0cb6-0c59-b60c0c59b60c",
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+    "id": "4a69e511-e511-4a69-11e5-694a11e5694a",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
     "changeKey": "Change Key value",
     "categories": [
       "Categories value"
     ],
-    "receivedDateTime": "2017-01-01T00:00:47.6020289+03:00",
-    "sentDateTime": "2016-12-31T23:59:37.4629673+03:00",
+    "receivedDateTime": "2017-01-01T00:02:02.1097692+03:00",
+    "sentDateTime": "2017-01-01T00:01:36.3415001+03:00",
     "hasAttachments": true,
     "internetMessageId": "Internet Message Id value",
     "internetMessageHeaders": [

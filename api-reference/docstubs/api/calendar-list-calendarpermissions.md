@@ -3,7 +3,7 @@ title: "List calendarPermissions"
 description: "Get the calendarPermissions from the calendarPermissions navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/messages/{messageId}/event/calendar/calendarPermissions
+GET /invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/calendarPermissions
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/calendarPermissions
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/calendarPermissions
 ```
 
 ### Response
@@ -72,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.calendarPermission",
-      "id": "c72dfb59-fb59-c72d-59fb-2dc759fb2dc7",
+      "id": "af1f1d85-1d85-af1f-851d-1faf851d1faf",
       "emailAddress": {
         "@odata.type": "microsoft.graph.emailAddress",
         "name": "Name value",

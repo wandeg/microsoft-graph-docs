@@ -3,7 +3,7 @@ title: "List sites"
 description: "Get the sites from the sites navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/sites
-GET /me/joinedGroups/{groupId}/sites
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.site",
-      "id": "0e7ff9d8-f9d8-0e7f-d8f9-7f0ed8f97f0e",
+      "id": "2b4012b4-12b4-2b40-b412-402bb412402b",
       "createdBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,13 +87,13 @@ Content-Type: application/json
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
       "description": "Description value",
       "eTag": "ETag value",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet"
       },
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "name": "Name value",
       "parentReference": {
         "@odata.type": "microsoft.graph.itemReference",

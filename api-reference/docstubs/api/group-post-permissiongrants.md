@@ -3,7 +3,7 @@ title: "Create permissionGrants"
 description: "Create a new permissionGrants object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/permissionGrants
-POST /me/joinedGroups/{groupId}/permissionGrants
 ```
 
 ## Request headers
@@ -73,7 +72,7 @@ Content-length: 335
 
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",
@@ -95,8 +94,8 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.resourceSpecificPermissionGrant",
-  "id": "aa9233b3-33b3-aa92-b333-92aab33392aa",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "id": "3d83a825-a825-3d83-25a8-833d25a8833d",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "clientId": "Client Id value",
   "clientAppId": "Client App Id value",
   "resourceAppId": "Resource App Id value",

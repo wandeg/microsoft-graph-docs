@@ -3,7 +3,7 @@ title: "List notifications"
 description: "Get the notifications from the notifications navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,9 +73,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.notification",
-      "id": "1e2f1807-1807-1e2f-0718-2f1e07182f1e",
+      "id": "ddeb3cf0-3cf0-ddeb-f03c-ebddf03cebdd",
       "targetHostName": "Target Host Name value",
-      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+      "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
       "payload": {
         "@odata.type": "microsoft.graph.payloadTypes",
         "rawContent": "Raw Content value",

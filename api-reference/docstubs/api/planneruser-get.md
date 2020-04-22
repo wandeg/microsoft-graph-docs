@@ -3,7 +3,7 @@ title: "Get plannerUser"
 description: "Read properties and relationships of a plannerUser object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerUser",
-    "id": "55c937bd-37bd-55c9-bd37-c955bd37c955",
+    "id": "40746c15-6c15-4074-156c-7440156c7440",
     "favoritePlanReferences": {
       "@odata.type": "microsoft.graph.plannerFavoritePlanReferenceCollection"
     },

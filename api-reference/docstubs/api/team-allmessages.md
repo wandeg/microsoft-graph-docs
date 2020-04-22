@@ -3,7 +3,7 @@ title: "team: allMessages"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/allMessages
-GET /me/joinedTeams/allMessages
-GET /users/{usersId}/joinedTeams/allMessages
 ```
 
 ## Request headers
@@ -71,16 +69,16 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.chatMessage",
-      "id": "095772b5-72b5-0957-b572-5709b5725709",
+      "id": "a8705758-5758-a870-5857-70a8585770a8",
       "replyToId": "Reply To Id value",
       "from": {
         "@odata.type": "microsoft.graph.identitySet"
       },
       "etag": "Etag value",
       "messageType": "String",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
-      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
+      "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
       "subject": "Subject value",
       "body": {
         "@odata.type": "microsoft.graph.itemBody"

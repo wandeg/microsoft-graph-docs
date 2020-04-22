@@ -3,7 +3,7 @@ title: "Delete team"
 description: "Deletes a team."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,10 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 DELETE /teams/{teamsId}
-DELETE /groups/{groupsId}/team
-DELETE /me/joinedTeams/{teamId}
-DELETE /me/joinedGroups/{groupId}/team
-DELETE /users/{usersId}/joinedTeams/{teamId}
 ```
 
 ## Request headers

@@ -3,7 +3,7 @@ title: "List photos"
 description: "Get the profilePhotoes from the photos navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.profilePhoto",
-      "id": "d6e86c0f-6c0f-d6e8-0f6c-e8d60f6ce8d6",
+      "id": "861907cf-07cf-8619-cf07-1986cf071986",
       "height": 6,
       "width": 5
     }

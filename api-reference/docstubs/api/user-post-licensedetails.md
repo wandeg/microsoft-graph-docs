@@ -3,7 +3,7 @@ title: "Create licenseDetails"
 description: "Create a new licenseDetails object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,13 +73,13 @@ Content-length: 465
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15",
+      "servicePlanId": "96113b9d-3b9d-9611-9d3b-11969d3b1196",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "220e6177-6177-220e-7761-0e2277610e22",
+  "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a",
   "skuPartNumber": "Sku Part Number value"
 }
 ```
@@ -97,17 +97,17 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.licenseDetails",
-  "id": "e8f5bae1-bae1-e8f5-e1ba-f5e8e1baf5e8",
+  "id": "ec7289ee-89ee-ec72-ee89-72ecee8972ec",
   "servicePlans": [
     {
       "@odata.type": "microsoft.graph.servicePlanInfo",
-      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15",
+      "servicePlanId": "96113b9d-3b9d-9611-9d3b-11969d3b1196",
       "servicePlanName": "Service Plan Name value",
       "provisioningStatus": "Provisioning Status value",
       "appliesTo": "Applies To value"
     }
   ],
-  "skuId": "220e6177-6177-220e-7761-0e2277610e22",
+  "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a",
   "skuPartNumber": "Sku Part Number value"
 }
 ```

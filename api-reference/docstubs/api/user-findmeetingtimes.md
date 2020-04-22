@@ -3,7 +3,7 @@ title: "user: findMeetingTimes"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 POST /me/findMeetingTimes
 POST /users/{usersId}/findMeetingTimes
-POST /me/managedDevices/{managedDeviceId}/users/{userId}/findMeetingTimes
 ```
 
 ## Request headers
@@ -100,7 +99,7 @@ Content-length: 774
       }
     ]
   },
-  "meetingDuration": "-PT46.2022295S",
+  "meetingDuration": "-PT12.8047241S",
   "maxCandidates": 13,
   "isOrganizerOptional": true,
   "returnSuggestionReasons": true,

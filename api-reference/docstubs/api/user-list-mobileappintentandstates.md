@@ -3,7 +3,7 @@ title: "List mobileAppIntentAndStates"
 description: "Get the mobileAppIntentAndStates from the mobileAppIntentAndStates navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppIntentAndState",
-      "id": "6a0ff978-f978-6a0f-78f9-0f6a78f90f6a",
+      "id": "f1839564-9564-f183-6495-83f1649583f1",
       "managedDeviceIdentifier": "Managed Device Identifier value",
       "userId": "User Id value",
       "mobileAppList": [

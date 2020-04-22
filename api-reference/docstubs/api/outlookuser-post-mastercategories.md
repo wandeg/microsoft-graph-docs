@@ -3,7 +3,7 @@ title: "Create masterCategories"
 description: "Create a new masterCategories object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/outlook/masterCategories
+POST /invitations/{invitationsId}/invitedUser/outlook/masterCategories
 ```
 
 ## Request headers
@@ -62,7 +62,7 @@ If successful, this method returns a `201 Created` response code and an [outlook
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/outlook/masterCategories
+POST https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/masterCategories
 Content-Type: application/json
 Content-length: 119
 
@@ -86,7 +86,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.outlookCategory",
-  "id": "05f33c2e-3c2e-05f3-2e3c-f3052e3cf305",
+  "id": "0c0a87ac-87ac-0c0a-ac87-0a0cac870a0c",
   "displayName": "Display Name value",
   "color": "String"
 }

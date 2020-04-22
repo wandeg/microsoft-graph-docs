@@ -3,7 +3,7 @@ title: "Get listItem"
 description: "Read properties and relationships of a listItem object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,10 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 GET /shares/{sharesId}/listItem
 GET /workbooks/{workbooksId}/listItem
-GET /me/joinedGroups/{groupId}/drive/list/items/{listItemId}
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/listItem
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem
-GET /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/listItem
 ```
 
 ## Optional query parameters
@@ -76,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.listItem",
-    "id": "9b166358-6358-9b16-5863-169b5863169b",
+    "id": "2a7b9b5e-9b5e-2a7b-5e9b-7b2a5e9b7b2a",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet",
       "application": {
@@ -91,13 +87,13 @@ Content-Type: application/json
         "@odata.type": "microsoft.graph.identity"
       }
     },
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference",

@@ -3,7 +3,7 @@ title: "team: clone"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,10 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /teams/{teamsId}/clone
-POST /groups/{groupsId}/team/clone
-POST /me/joinedTeams/{teamId}/clone
-POST /me/joinedGroups/{groupId}/team/clone
-POST /users/{usersId}/joinedTeams/{teamId}/clone
 ```
 
 ## Request headers

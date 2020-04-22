@@ -3,7 +3,7 @@ title: "List mailFolders"
 description: "Get the mailFolders from the mailFolders navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.mailFolder",
-      "id": "4cb4349c-349c-4cb4-9c34-b44c9c34b44c",
+      "id": "cf89f8c5-f8c5-cf89-c5f8-89cfc5f889cf",
       "displayName": "Display Name value",
       "parentFolderId": "Parent Folder Id value",
       "childFolderCount": 0,

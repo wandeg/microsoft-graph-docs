@@ -3,7 +3,7 @@ title: "calendar: getSchedule"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -32,10 +32,6 @@ POST /me/calendar/getSchedule
 POST /users/{usersId}/calendar/getSchedule
 POST /me/calendars/{calendarId}/getSchedule
 POST /groups/{groupsId}/calendar/getSchedule
-POST /me/joinedGroups/{groupId}/calendar/getSchedule
-POST /me/messages/{messageId}/event/calendar/getSchedule
-POST /users/{usersId}/calendars/{calendarId}/getSchedule
-POST /me/calendarGroups/{calendarGroupId}/calendars/{calendarId}/getSchedule
 ```
 
 ## Request headers

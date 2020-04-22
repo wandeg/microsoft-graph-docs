@@ -3,7 +3,7 @@ title: "Delete driveItem"
 description: "Deletes a driveItem."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+DELETE /drive/root
 DELETE /drives/{drivesId}/root
 DELETE /shares/{sharesId}/root
 DELETE /workbooks/{workbooksId}
+DELETE /drive/items/{driveItemId}
 DELETE /shares/{sharesId}/driveItem
-DELETE /me/joinedGroups/{groupId}/drive/root
-DELETE /drives/{drivesId}/items/{driveItemId}
-DELETE /shares/{sharesId}/items/{driveItemId}
-DELETE /drives/{drivesId}/bundles/{driveItemId}
-DELETE /drives/{drivesId}/special/{driveItemId}
-DELETE /drives/{drivesId}/following/{driveItemId}
-DELETE /workbooks/{workbooksId}/children/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/drive/items/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/drive/special/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/drive/following/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder
-DELETE /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem
-DELETE /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem
-DELETE /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root
-DELETE /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem
-DELETE /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}
-DELETE /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem
+DELETE /drive/bundles/{driveItemId}
+DELETE /drive/special/{driveItemId}
+DELETE /drive/following/{driveItemId}
 ```
 
 ## Request headers
@@ -73,7 +59,7 @@ If successful, this method returns a `204 No Content` response code.
 }
 -->
 ``` http
-DELETE https://graph.microsoft.com/beta/drives/{drivesId}/root
+DELETE https://graph.microsoft.com/beta/drive/root
 ```
 
 ### Response

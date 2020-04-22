@@ -3,7 +3,7 @@ title: "Get channel"
 description: "Read properties and relationships of a channel object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,9 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}/primaryChannel
-GET /teams/{teamsId}/channels/{channelId}
-GET /me/joinedGroups/{groupId}/team/primaryChannel
-GET /me/joinedGroups/{groupId}/team/channels/{channelId}
 ```
 
 ## Optional query parameters
@@ -74,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.channel",
-    "id": "a9f8c7a8-c7a8-a9f8-a8c7-f8a9a8c7f8a9",
+    "id": "6cc29f15-9f15-6cc2-159f-c26c159fc26c",
     "displayName": "Display Name value",
     "description": "Description value",
     "isFavoriteByDefault": true,

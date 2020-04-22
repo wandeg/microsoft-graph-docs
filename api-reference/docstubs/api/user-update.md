@@ -3,7 +3,7 @@ title: "Update user"
 description: "Update the properties of a user object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 PATCH /me
 PATCH /users/{usersId}
-PATCH /me/managedDevices/{managedDeviceId}/users/{userId}
 ```
 
 ## Request headers
@@ -139,10 +138,10 @@ Content-length: 7483
 
 {
   "@odata.type": "#microsoft.graph.user",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "signInActivity": {
     "@odata.type": "microsoft.graph.signInActivity",
-    "lastSignInDateTime": "2017-01-01T00:01:11.7083461+03:00",
+    "lastSignInDateTime": "2016-12-31T23:56:42.8288013+03:00",
     "lastSignInRequestId": "Last Sign In Request Id value"
   },
   "accountEnabled": true,
@@ -151,18 +150,18 @@ Content-length: 7483
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
+        "0e01a038-a038-0e01-38a0-010e38a0010e"
       ],
-      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
+      "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:02:27.6282195+03:00",
+      "assignedDateTime": "2017-01-01T00:02:38.7080644+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15"
+      "servicePlanId": "96113b9d-3b9d-9611-9d3b-11969d3b1196"
     }
   ],
   "businessPhones": [
@@ -179,7 +178,7 @@ Content-length: 7483
       "@odata.type": "microsoft.graph.deviceKey",
       "keyType": "Key Type value",
       "keyMaterial": "a2V5TWF0ZXJpYWw=",
-      "deviceId": "a3a7a16a-a16a-a3a7-6aa1-a7a36aa1a7a3"
+      "deviceId": "a868e7f1-e7f1-a868-f1e7-68a8f1e768a8"
     }
   ],
   "displayName": "Display Name value",
@@ -199,7 +198,7 @@ Content-length: 7483
   ],
   "isResourceAccount": true,
   "jobTitle": "Job Title value",
-  "lastPasswordChangeDateTime": "2016-12-31T23:57:47.9772449+03:00",
+  "lastPasswordChangeDateTime": "2017-01-01T00:00:28.983404+03:00",
   "legalAgeGroupClassification": "Legal Age Group Classification value",
   "licenseAssignmentStates": [
     {
@@ -232,14 +231,14 @@ Content-length: 7483
     "extensionAttribute15": "Extension Attribute15 value"
   },
   "onPremisesImmutableId": "On Premises Immutable Id value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
+      "occurredDateTime": "2016-12-31T23:56:58.2206726+03:00"
     }
   ],
   "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -270,9 +269,9 @@ Content-length: 7483
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "refreshTokensValidFromDateTime": "2016-12-31T23:59:33.2790016+03:00",
+  "refreshTokensValidFromDateTime": "2016-12-31T23:58:39.2189521+03:00",
   "showInAddressList": true,
-  "signInSessionsValidFromDateTime": "2016-12-31T23:56:35.6565355+03:00",
+  "signInSessionsValidFromDateTime": "2017-01-01T00:02:12.4864055+03:00",
   "state": "State value",
   "streetAddress": "Street Address value",
   "surname": "Surname value",
@@ -309,8 +308,8 @@ Content-length: 7483
       "daysOfWeek": [
         "String"
       ],
-      "startTime": "11:59:57.3750000",
-      "endTime": "12:02:22.7260000",
+      "startTime": "12:03:27.3180000",
+      "endTime": "12:03:31.0050000",
       "timeZone": {
         "@odata.type": "microsoft.graph.timeZoneBase",
         "name": "Name value"
@@ -322,12 +321,12 @@ Content-length: 7483
   "identityUserRisk": {
     "@odata.type": "microsoft.graph.identityUserRisk",
     "level": "String",
-    "lastChangedDateTime": "2016-12-31T23:59:32.825894+03:00"
+    "lastChangedDateTime": "2016-12-31T23:59:12.339171+03:00"
   },
   "deviceEnrollmentLimit": 5,
   "aboutMe": "About Me value",
-  "birthday": "2017-01-01T00:00:04.7583191+03:00",
-  "hireDate": "2017-01-01T00:02:51.4938789+03:00",
+  "birthday": "2017-01-01T00:00:47.3962323+03:00",
+  "hireDate": "2017-01-01T00:01:52.3488882+03:00",
   "interests": [
     "Interests value"
   ],
@@ -360,11 +359,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.user",
-  "id": "523f5234-5234-523f-3452-3f5234523f52",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "id": "5c95de49-de49-5c95-49de-955c49de955c",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "signInActivity": {
     "@odata.type": "microsoft.graph.signInActivity",
-    "lastSignInDateTime": "2017-01-01T00:01:11.7083461+03:00",
+    "lastSignInDateTime": "2016-12-31T23:56:42.8288013+03:00",
     "lastSignInRequestId": "Last Sign In Request Id value"
   },
   "accountEnabled": true,
@@ -373,18 +372,18 @@ Content-Type: application/json
     {
       "@odata.type": "microsoft.graph.assignedLicense",
       "disabledPlans": [
-        "65406d2f-6d2f-6540-2f6d-40652f6d4065"
+        "0e01a038-a038-0e01-38a0-010e38a0010e"
       ],
-      "skuId": "220e6177-6177-220e-7761-0e2277610e22"
+      "skuId": "5ae52abf-2abf-5ae5-bf2a-e55abf2ae55a"
     }
   ],
   "assignedPlans": [
     {
       "@odata.type": "microsoft.graph.assignedPlan",
-      "assignedDateTime": "2017-01-01T00:02:27.6282195+03:00",
+      "assignedDateTime": "2017-01-01T00:02:38.7080644+03:00",
       "capabilityStatus": "Capability Status value",
       "service": "Service value",
-      "servicePlanId": "15efb390-b390-15ef-90b3-ef1590b3ef15"
+      "servicePlanId": "96113b9d-3b9d-9611-9d3b-11969d3b1196"
     }
   ],
   "businessPhones": [
@@ -394,7 +393,7 @@ Content-Type: application/json
   "companyName": "Company Name value",
   "consentProvidedForMinor": "Consent Provided For Minor value",
   "country": "Country value",
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
   "creationType": "Creation Type value",
   "department": "Department value",
   "deviceKeys": [
@@ -402,7 +401,7 @@ Content-Type: application/json
       "@odata.type": "microsoft.graph.deviceKey",
       "keyType": "Key Type value",
       "keyMaterial": "a2V5TWF0ZXJpYWw=",
-      "deviceId": "a3a7a16a-a16a-a3a7-6aa1-a7a36aa1a7a3"
+      "deviceId": "a868e7f1-e7f1-a868-f1e7-68a8f1e768a8"
     }
   ],
   "displayName": "Display Name value",
@@ -422,7 +421,7 @@ Content-Type: application/json
   ],
   "isResourceAccount": true,
   "jobTitle": "Job Title value",
-  "lastPasswordChangeDateTime": "2016-12-31T23:57:47.9772449+03:00",
+  "lastPasswordChangeDateTime": "2017-01-01T00:00:28.983404+03:00",
   "legalAgeGroupClassification": "Legal Age Group Classification value",
   "licenseAssignmentStates": [
     {
@@ -455,14 +454,14 @@ Content-Type: application/json
     "extensionAttribute15": "Extension Attribute15 value"
   },
   "onPremisesImmutableId": "On Premises Immutable Id value",
-  "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+  "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
   "onPremisesProvisioningErrors": [
     {
       "@odata.type": "microsoft.graph.onPremisesProvisioningError",
       "value": "Value value",
       "category": "Category value",
       "propertyCausingError": "Property Causing Error value",
-      "occurredDateTime": "2017-01-01T00:00:23.154221+03:00"
+      "occurredDateTime": "2016-12-31T23:56:58.2206726+03:00"
     }
   ],
   "onPremisesSecurityIdentifier": "On Premises Security Identifier value",
@@ -493,9 +492,9 @@ Content-Type: application/json
   "proxyAddresses": [
     "Proxy Addresses value"
   ],
-  "refreshTokensValidFromDateTime": "2016-12-31T23:59:33.2790016+03:00",
+  "refreshTokensValidFromDateTime": "2016-12-31T23:58:39.2189521+03:00",
   "showInAddressList": true,
-  "signInSessionsValidFromDateTime": "2016-12-31T23:56:35.6565355+03:00",
+  "signInSessionsValidFromDateTime": "2017-01-01T00:02:12.4864055+03:00",
   "state": "State value",
   "streetAddress": "Street Address value",
   "surname": "Surname value",
@@ -532,8 +531,8 @@ Content-Type: application/json
       "daysOfWeek": [
         "String"
       ],
-      "startTime": "11:59:57.3750000",
-      "endTime": "12:02:22.7260000",
+      "startTime": "12:03:27.3180000",
+      "endTime": "12:03:31.0050000",
       "timeZone": {
         "@odata.type": "microsoft.graph.timeZoneBase",
         "name": "Name value"
@@ -545,12 +544,12 @@ Content-Type: application/json
   "identityUserRisk": {
     "@odata.type": "microsoft.graph.identityUserRisk",
     "level": "String",
-    "lastChangedDateTime": "2016-12-31T23:59:32.825894+03:00"
+    "lastChangedDateTime": "2016-12-31T23:59:12.339171+03:00"
   },
   "deviceEnrollmentLimit": 5,
   "aboutMe": "About Me value",
-  "birthday": "2017-01-01T00:00:04.7583191+03:00",
-  "hireDate": "2017-01-01T00:02:51.4938789+03:00",
+  "birthday": "2017-01-01T00:00:47.3962323+03:00",
+  "hireDate": "2017-01-01T00:01:52.3488882+03:00",
   "interests": [
     "Interests value"
   ],

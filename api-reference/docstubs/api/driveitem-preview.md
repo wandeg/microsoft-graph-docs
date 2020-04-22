@@ -3,7 +3,7 @@ title: "driveItem: preview"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/preview
 POST /drives/{drivesId}/root/preview
 POST /shares/{sharesId}/root/preview
 POST /workbooks/{workbooksId}/preview
+POST /drive/items/{driveItemId}/preview
 POST /shares/{sharesId}/driveItem/preview
-POST /me/joinedGroups/{groupId}/drive/root/preview
-POST /drives/{drivesId}/items/{driveItemId}/preview
-POST /shares/{sharesId}/items/{driveItemId}/preview
-POST /drives/{drivesId}/bundles/{driveItemId}/preview
-POST /drives/{drivesId}/special/{driveItemId}/preview
-POST /drives/{drivesId}/following/{driveItemId}/preview
-POST /workbooks/{workbooksId}/children/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/preview
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/preview
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/preview
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/preview
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/preview
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/preview
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/preview
+POST /drive/bundles/{driveItemId}/preview
+POST /drive/special/{driveItemId}/preview
+POST /drive/following/{driveItemId}/preview
 ```
 
 ## Request headers
@@ -86,7 +72,7 @@ If successful, this action returns a `200 OK` response code and a [itemPreviewIn
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/preview
+POST https://graph.microsoft.com/beta/drive/root/preview
 
 Content-Type: application/json
 Content-length: 123

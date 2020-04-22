@@ -3,7 +3,7 @@ title: "Create taskGroups"
 description: "Create a new taskGroups object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /me/outlook/taskGroups
+POST /invitations/{invitationsId}/invitedUser/outlook/taskGroups
 ```
 
 ## Request headers
@@ -64,7 +64,7 @@ If successful, this method returns a `201 Created` response code and an [outlook
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/me/outlook/taskGroups
+POST https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/taskGroups
 Content-Type: application/json
 Content-length: 201
 
@@ -73,7 +73,7 @@ Content-length: 201
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "7971407f-407f-7971-7f40-71797f407179"
+  "groupKey": "4403b5f4-b5f4-4403-f4b5-0344f4b50344"
 }
 ```
 
@@ -90,11 +90,11 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.outlookTaskGroup",
-  "id": "47446577-6577-4744-7765-444777654447",
+  "id": "e7ff486a-486a-e7ff-6a48-ffe76a48ffe7",
   "changeKey": "Change Key value",
   "isDefaultGroup": true,
   "name": "Name value",
-  "groupKey": "7971407f-407f-7971-7f40-71797f407179"
+  "groupKey": "4403b5f4-b5f4-4403-f4b5-0344f4b50344"
 }
 ```
 

@@ -3,7 +3,7 @@ title: "Get informationProtection"
 description: "Read properties and relationships of an informationProtection object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.informationProtection",
-    "id": "f47546ea-46ea-f475-ea46-75f4ea4675f4"
+    "id": "feeed36b-d36b-feee-6bd3-eefe6bd3eefe"
   }
 }
 ```

@@ -3,7 +3,7 @@ title: "automaticRepliesSetting resource type"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: resourcePageType
 ---
 

@@ -3,7 +3,7 @@ title: "List activityStatistics"
 description: "Get a list of the activityStatistics objects and their properties."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /activitystatistics
-GET /me/analytics/activityStatistics
 ```
 
 ## Optional query parameters
@@ -73,12 +72,12 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.activityStatistics",
-      "id": "5c17d25e-d25e-5c17-5ed2-175c5ed2175c",
+      "id": "2a45f3cb-f3cb-2a45-cbf3-452acbf3452a",
       "activity": "String",
       "startDate": "Date",
       "endDate": "Date",
       "timeZoneUsed": "Time Zone Used value",
-      "duration": "-PT16.0497768S"
+      "duration": "PT1M37.4299812S"
     }
   ]
 }

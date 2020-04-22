@@ -3,7 +3,7 @@ title: "driveItem: checkout"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/checkout
 POST /drives/{drivesId}/root/checkout
 POST /shares/{sharesId}/root/checkout
 POST /workbooks/{workbooksId}/checkout
+POST /drive/items/{driveItemId}/checkout
 POST /shares/{sharesId}/driveItem/checkout
-POST /me/joinedGroups/{groupId}/drive/root/checkout
-POST /drives/{drivesId}/items/{driveItemId}/checkout
-POST /shares/{sharesId}/items/{driveItemId}/checkout
-POST /drives/{drivesId}/bundles/{driveItemId}/checkout
-POST /drives/{drivesId}/special/{driveItemId}/checkout
-POST /drives/{drivesId}/following/{driveItemId}/checkout
-POST /workbooks/{workbooksId}/children/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/checkout
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/checkout
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/checkout
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/checkout
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/checkout
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/checkout
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/checkout
+POST /drive/bundles/{driveItemId}/checkout
+POST /drive/special/{driveItemId}/checkout
+POST /drive/following/{driveItemId}/checkout
 ```
 
 ## Request headers
@@ -74,7 +60,7 @@ If successful, this action returns a `204 No Content` response code.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/checkout
+POST https://graph.microsoft.com/beta/drive/root/checkout
 ```
 
 ### Response

@@ -3,7 +3,7 @@ title: "user: assignLicense"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 POST /me/assignLicense
 POST /users/{usersId}/assignLicense
-POST /me/managedDevices/{managedDeviceId}/users/{userId}/assignLicense
 ```
 
 ## Request headers
@@ -75,7 +74,7 @@ Content-length: 172
     }
   ],
   "removeLicenses": [
-    "11a8cc2e-cc2e-11a8-2ecc-a8112ecca811"
+    "618858dc-58dc-6188-dc58-8861dc588861"
   ]
 }
 ```
@@ -94,8 +93,8 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.user",
-    "id": "523f5234-5234-523f-3452-3f5234523f52",
-    "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+    "id": "5c95de49-de49-5c95-49de-955c49de955c",
+    "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
     "signInActivity": {
       "@odata.type": "microsoft.graph.signInActivity"
     },
@@ -118,7 +117,7 @@ Content-Type: application/json
     "companyName": "Company Name value",
     "consentProvidedForMinor": "Consent Provided For Minor value",
     "country": "Country value",
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
     "creationType": "Creation Type value",
     "department": "Department value",
     "deviceKeys": [
@@ -140,7 +139,7 @@ Content-Type: application/json
     ],
     "isResourceAccount": true,
     "jobTitle": "Job Title value",
-    "lastPasswordChangeDateTime": "2016-12-31T23:57:47.9772449+03:00",
+    "lastPasswordChangeDateTime": "2017-01-01T00:00:28.983404+03:00",
     "legalAgeGroupClassification": "Legal Age Group Classification value",
     "licenseAssignmentStates": [
       {
@@ -155,7 +154,7 @@ Content-Type: application/json
       "@odata.type": "microsoft.graph.onPremisesExtensionAttributes"
     },
     "onPremisesImmutableId": "On Premises Immutable Id value",
-    "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+    "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
     "onPremisesProvisioningErrors": [
       {
         "@odata.type": "microsoft.graph.onPremisesProvisioningError"
@@ -185,9 +184,9 @@ Content-Type: application/json
     "proxyAddresses": [
       "Proxy Addresses value"
     ],
-    "refreshTokensValidFromDateTime": "2016-12-31T23:59:33.2790016+03:00",
+    "refreshTokensValidFromDateTime": "2016-12-31T23:58:39.2189521+03:00",
     "showInAddressList": true,
-    "signInSessionsValidFromDateTime": "2016-12-31T23:56:35.6565355+03:00",
+    "signInSessionsValidFromDateTime": "2017-01-01T00:02:12.4864055+03:00",
     "state": "State value",
     "streetAddress": "Street Address value",
     "surname": "Surname value",
@@ -204,8 +203,8 @@ Content-Type: application/json
     },
     "deviceEnrollmentLimit": 5,
     "aboutMe": "About Me value",
-    "birthday": "2017-01-01T00:00:04.7583191+03:00",
-    "hireDate": "2017-01-01T00:02:51.4938789+03:00",
+    "birthday": "2017-01-01T00:00:47.3962323+03:00",
+    "hireDate": "2017-01-01T00:01:52.3488882+03:00",
     "interests": [
       "Interests value"
     ],

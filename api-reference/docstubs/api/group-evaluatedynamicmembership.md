@@ -3,7 +3,7 @@ title: "group: evaluateDynamicMembership"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/evaluateDynamicMembership
-POST /me/joinedGroups/{groupId}/evaluateDynamicMembership
-POST /users/{usersId}/joinedGroups/{groupId}/evaluateDynamicMembership
 ```
 
 ## Request headers

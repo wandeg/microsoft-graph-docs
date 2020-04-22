@@ -3,7 +3,7 @@ title: "List events"
 description: "Get the events from the events navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/events
-GET /me/joinedGroups/{groupId}/events
 ```
 
 ## Optional query parameters
@@ -73,9 +72,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.event",
-      "id": "e2709962-9962-e270-6299-70e2629970e2",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "id": "6399d361-d361-6399-61d3-996361d39963",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "changeKey": "Change Key value",
       "categories": [
         "Categories value"
@@ -85,7 +84,7 @@ Content-Type: application/json
       "responseStatus": {
         "@odata.type": "microsoft.graph.responseStatus",
         "response": "String",
-        "time": "2016-12-31T23:57:57.6246191+03:00"
+        "time": "2017-01-01T00:03:24.2790594+03:00"
       },
       "uid": "Uid value",
       "reminderMinutesBeforeStart": 10,
@@ -105,7 +104,7 @@ Content-Type: application/json
         "dateTime": "Date Time value",
         "timeZone": "Time Zone value"
       },
-      "originalStart": "2017-01-01T00:01:36.6938892+03:00",
+      "originalStart": "2016-12-31T23:58:08.5344774+03:00",
       "end": {
         "@odata.type": "microsoft.graph.dateTimeTimeZone"
       },

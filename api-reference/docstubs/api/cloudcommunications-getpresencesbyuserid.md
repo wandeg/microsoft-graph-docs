@@ -3,7 +3,7 @@ title: "cloudCommunications: getPresencesByUserId"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -87,7 +87,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.presence",
-      "id": "4a432e1a-2e1a-4a43-1a2e-434a1a2e434a",
+      "id": "22b6dd59-dd59-22b6-59dd-b62259ddb622",
       "availability": "Availability value",
       "activity": "Activity value"
     }

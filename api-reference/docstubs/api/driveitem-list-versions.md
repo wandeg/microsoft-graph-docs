@@ -3,7 +3,7 @@ title: "List versions"
 description: "Get the driveItemVersions from the versions navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/versions
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/versions
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.driveItemVersion",
-      "id": "fb092541-2541-fb09-4125-09fb412509fb",
+      "id": "b69f4771-4771-b69f-7147-9fb671479fb6",
       "lastModifiedBy": {
         "@odata.type": "microsoft.graph.identitySet",
         "application": {
@@ -88,7 +87,7 @@ Content-Type: application/json
           "@odata.type": "microsoft.graph.identity"
         }
       },
-      "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+      "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
       "publication": {
         "@odata.type": "microsoft.graph.publicationFacet",
         "level": "Level value",

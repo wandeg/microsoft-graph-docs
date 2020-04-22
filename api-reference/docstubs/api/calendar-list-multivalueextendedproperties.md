@@ -3,7 +3,7 @@ title: "List multiValueExtendedProperties"
 description: "Get the multiValueLegacyExtendedProperties from the multiValueExtendedProperties navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/messages/{messageId}/event/calendar/multiValueExtendedProperties
+GET /invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/multiValueExtendedProperties
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/multiValueExtendedProperties
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/multiValueExtendedProperties
 ```
 
 ### Response
@@ -72,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.multiValueLegacyExtendedProperty",
-      "id": "edcc6f5a-6f5a-edcc-5a6f-cced5a6fcced",
+      "id": "c25d6eea-6eea-c25d-ea6e-5dc2ea6e5dc2",
       "value": [
         "Value value"
       ]

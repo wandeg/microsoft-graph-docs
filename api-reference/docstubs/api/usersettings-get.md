@@ -3,7 +3,7 @@ title: "Get userSettings"
 description: "Read properties and relationships of an userSettings object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.userSettings",
-    "id": "62ea7a08-7a08-62ea-087a-ea62087aea62",
+    "id": "e7921db0-1db0-e792-b01d-92e7b01d92e7",
     "contributionToContentDiscoveryDisabled": true,
     "contributionToContentDiscoveryAsOrganizationDisabled": true
   }

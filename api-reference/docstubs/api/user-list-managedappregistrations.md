@@ -3,7 +3,7 @@ title: "List managedAppRegistrations"
 description: "Get the managedAppRegistrations from the managedAppRegistrations navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,9 +73,9 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.managedAppRegistration",
-      "id": "3440f323-f323-3440-23f3-403423f34034",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-      "lastSyncDateTime": "2017-01-01T00:00:36.4569415+03:00",
+      "id": "0b33d51f-d51f-0b33-1fd5-330b1fd5330b",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+      "lastSyncDateTime": "2016-12-31T23:57:22.1853447+03:00",
       "applicationVersion": "Application Version value",
       "managementSdkVersion": "Management Sdk Version value",
       "platformVersion": "Platform Version value",

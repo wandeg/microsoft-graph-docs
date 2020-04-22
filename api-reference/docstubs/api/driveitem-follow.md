@@ -3,7 +3,7 @@ title: "driveItem: follow"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/follow
 POST /drives/{drivesId}/root/follow
 POST /shares/{sharesId}/root/follow
 POST /workbooks/{workbooksId}/follow
+POST /drive/items/{driveItemId}/follow
 POST /shares/{sharesId}/driveItem/follow
-POST /me/joinedGroups/{groupId}/drive/root/follow
-POST /drives/{drivesId}/items/{driveItemId}/follow
-POST /shares/{sharesId}/items/{driveItemId}/follow
-POST /drives/{drivesId}/bundles/{driveItemId}/follow
-POST /drives/{drivesId}/special/{driveItemId}/follow
-POST /drives/{drivesId}/following/{driveItemId}/follow
-POST /workbooks/{workbooksId}/children/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/follow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/follow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/follow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/follow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/follow
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/follow
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/follow
+POST /drive/bundles/{driveItemId}/follow
+POST /drive/special/{driveItemId}/follow
+POST /drive/following/{driveItemId}/follow
 ```
 
 ## Request headers
@@ -74,7 +60,7 @@ If successful, this action returns a `200 OK` response code and a [driveItem](..
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/follow
+POST https://graph.microsoft.com/beta/drive/root/follow
 ```
 
 ### Response
@@ -91,17 +77,17 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.driveItem",
-    "id": "51ff9347-9347-51ff-4793-ff514793ff51",
+    "id": "6ae211ef-11ef-6ae2-ef11-e26aef11e26a",
     "createdBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+    "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
     "description": "Description value",
     "eTag": "ETag value",
     "lastModifiedBy": {
       "@odata.type": "microsoft.graph.identitySet"
     },
-    "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+    "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
     "name": "Name value",
     "parentReference": {
       "@odata.type": "microsoft.graph.itemReference"

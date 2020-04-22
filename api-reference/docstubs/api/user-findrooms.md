@@ -3,7 +3,7 @@ title: "user: findRooms"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 GET /me/findRooms
 GET /users/{usersId}/findRooms
-GET /me/managedDevices/{managedDeviceId}/users/{userId}/findRooms
 ```
 
 ## Request headers

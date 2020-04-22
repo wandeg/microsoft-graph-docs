@@ -3,7 +3,7 @@ title: "Update calendar"
 description: "Update the properties of a calendar object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -32,10 +32,6 @@ PATCH /me/calendar
 PATCH /users/{usersId}/calendar
 PATCH /me/calendars/{calendarId}
 PATCH /groups/{groupsId}/calendar
-PATCH /me/joinedGroups/{groupId}/calendar
-PATCH /me/messages/{messageId}/event/calendar
-PATCH /users/{usersId}/calendars/{calendarId}
-PATCH /me/calendarGroups/{calendarGroupId}/calendars/{calendarId}
 ```
 
 ## Request headers
@@ -122,7 +118,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.calendar",
-  "id": "414f6b47-6b47-414f-476b-4f41476b4f41",
+  "id": "f6e44b47-4b47-f6e4-474b-e4f6474be4f6",
   "name": "Name value",
   "color": "String",
   "hexColor": "Hex Color value",

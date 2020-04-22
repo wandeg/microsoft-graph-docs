@@ -3,7 +3,7 @@ title: "Get workbook"
 description: "Read properties and relationships of a workbook object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/workbook
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/workbook
 ```
 
 ## Optional query parameters
@@ -72,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.workbook",
-    "id": "1add3a71-3a71-1add-713a-dd1a713add1a"
+    "id": "edfa20f2-20f2-edfa-f220-faedf220faed"
   }
 }
 ```

@@ -1,9 +1,9 @@
 ---
 title: "Delete user"
-description: "Deletes a user."
+description: "Deletes an user."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -11,7 +11,7 @@ doc_type: apiPageType
 
 Namespace: microsoft.graph
 
-Deletes a [user](../resources/user.md).
+Deletes an [user](../resources/user.md).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 DELETE /me
 DELETE /users/{usersId}
-DELETE /me/managedDevices/{managedDeviceId}/users/{userId}
 ```
 
 ## Request headers

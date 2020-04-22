@@ -3,7 +3,7 @@ title: "List singleValueExtendedProperties"
 description: "Get the singleValueLegacyExtendedProperties from the singleValueExtendedProperties navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/messages/{messageId}/event/calendar/singleValueExtendedProperties
+GET /invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/singleValueExtendedProperties
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/messages/{messageId}/event/calendar/singleValueExtendedProperties
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/messages/{messageId}/event/calendar/singleValueExtendedProperties
 ```
 
 ### Response
@@ -72,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.singleValueLegacyExtendedProperty",
-      "id": "21e95764-5764-21e9-6457-e9216457e921",
+      "id": "b97aa729-a729-b97a-29a7-7ab929a77ab9",
       "value": "Value value"
     }
   ]

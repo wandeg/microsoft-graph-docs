@@ -3,7 +3,7 @@ title: "Create deviceManagementTroubleshootingEvents"
 description: "Create a new deviceManagementTroubleshootingEvents object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-length: 852
 
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
+  "eventDateTime": "2017-01-01T00:02:28.2001864+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -112,8 +112,8 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.deviceManagementTroubleshootingEvent",
-  "id": "fad3509e-509e-fad3-9e50-d3fa9e50d3fa",
-  "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
+  "id": "cefdc7f1-c7f1-cefd-f1c7-fdcef1c7fdce",
+  "eventDateTime": "2017-01-01T00:02:28.2001864+03:00",
   "correlationId": "Correlation Id value",
   "troubleshootingErrorDetails": {
     "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",

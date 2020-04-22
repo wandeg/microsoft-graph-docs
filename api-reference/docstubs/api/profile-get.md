@@ -3,7 +3,7 @@ title: "Get profile"
 description: "Read properties and relationships of a profile object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.profile",
-    "id": "65c12e97-2e97-65c1-972e-c165972ec165"
+    "id": "f0d14a80-4a80-f0d1-804a-d1f0804ad1f0"
   }
 }
 ```

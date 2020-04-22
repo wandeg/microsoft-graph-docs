@@ -3,7 +3,7 @@ title: "List groupLifecyclePolicies"
 description: "Get the groupLifecyclePolicies from the groupLifecyclePolicies navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/groupLifecyclePolicies
-GET /me/joinedGroups/{groupId}/groupLifecyclePolicies
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.groupLifecyclePolicy",
-      "id": "7a2af15f-f15f-7a2a-5ff1-2a7a5ff12a7a",
+      "id": "76f53f5a-3f5a-76f5-5a3f-f5765a3ff576",
       "groupLifetimeInDays": 3,
       "managedGroupTypes": "Managed Group Types value",
       "alternateNotificationEmails": "Alternate Notification Emails value"

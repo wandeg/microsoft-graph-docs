@@ -3,7 +3,7 @@ title: "group: validateProperties"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/validateProperties
-POST /me/joinedGroups/{groupId}/validateProperties
-POST /users/{usersId}/joinedGroups/{groupId}/validateProperties
 ```
 
 ## Request headers
@@ -72,7 +70,7 @@ Content-length: 148
 {
   "displayName": "Display Name value",
   "mailNickname": "Mail Nickname value",
-  "onBehalfOfUserId": "3ed52c23-2c23-3ed5-232c-d53e232cd53e"
+  "onBehalfOfUserId": "cda1d1e6-d1e6-cda1-e6d1-a1cde6d1a1cd"
 }
 ```
 

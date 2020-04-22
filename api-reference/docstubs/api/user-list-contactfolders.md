@@ -3,7 +3,7 @@ title: "List contactFolders"
 description: "Get the contactFolders from the contactFolders navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,7 +73,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.contactFolder",
-      "id": "f2601bd9-1bd9-f260-d91b-60f2d91b60f2",
+      "id": "305fc753-c753-305f-53c7-5f3053c75f30",
       "parentFolderId": "Parent Folder Id value",
       "displayName": "Display Name value",
       "wellKnownName": "Well Known Name value"

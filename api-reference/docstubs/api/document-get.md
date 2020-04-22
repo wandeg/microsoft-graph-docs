@@ -3,7 +3,7 @@ title: "Get document"
 description: "Read properties and relationships of a document object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/document
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/document
 ```
 
 ## Optional query parameters
@@ -72,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.document",
-    "id": "909ced77-ed77-909c-77ed-9c9077ed9c90"
+    "id": "fcd88445-8445-fcd8-4584-d8fc4584d8fc"
   }
 }
 ```

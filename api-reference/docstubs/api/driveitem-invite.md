@@ -3,7 +3,7 @@ title: "driveItem: invite"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,29 +28,15 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
+POST /drive/root/invite
 POST /drives/{drivesId}/root/invite
 POST /shares/{sharesId}/root/invite
 POST /workbooks/{workbooksId}/invite
+POST /drive/items/{driveItemId}/invite
 POST /shares/{sharesId}/driveItem/invite
-POST /me/joinedGroups/{groupId}/drive/root/invite
-POST /drives/{drivesId}/items/{driveItemId}/invite
-POST /shares/{sharesId}/items/{driveItemId}/invite
-POST /drives/{drivesId}/bundles/{driveItemId}/invite
-POST /drives/{drivesId}/special/{driveItemId}/invite
-POST /drives/{drivesId}/following/{driveItemId}/invite
-POST /workbooks/{workbooksId}/children/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/drive/items/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/drive/bundles/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/drive/special/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/drive/following/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/team/channels/{channelId}/filesFolder/invite
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/invite
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/listItem/driveItem/invite
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/children/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/root/invite
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/driveItem/invite
-POST /me/joinedGroups/{groupId}/sites/{siteId}/items/{baseItemId}/microsoft.graph.sharedDriveItem/items/{driveItemId}/invite
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/analytics/itemActivityStats/{itemActivityStatId}/activities/{itemActivityId}/driveItem/invite
+POST /drive/bundles/{driveItemId}/invite
+POST /drive/special/{driveItemId}/invite
+POST /drive/following/{driveItemId}/invite
 ```
 
 ## Request headers
@@ -88,7 +74,7 @@ If successful, this action returns a `200 OK` response code and a [permission](.
 }
 -->
 ``` http
-POST https://graph.microsoft.com/beta/drives/{drivesId}/root/invite
+POST https://graph.microsoft.com/beta/drive/root/invite
 
 Content-Type: application/json
 Content-length: 308
@@ -125,8 +111,8 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.permission",
-      "id": "294ca067-a067-294c-67a0-4c2967a04c29",
-      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+      "id": "4021ac51-ac51-4021-51ac-214051ac2140",
+      "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
       "grantedTo": {
         "@odata.type": "microsoft.graph.identitySet"
       },

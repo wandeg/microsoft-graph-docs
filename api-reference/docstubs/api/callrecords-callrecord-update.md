@@ -3,7 +3,7 @@ title: "Update callRecord"
 description: "Update the properties of a callRecord object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -79,8 +79,8 @@ Content-length: 766
   "modalities": [
     "String"
   ],
-  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
+  "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+  "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -116,15 +116,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.callRecords.callRecord",
-  "id": "3e424108-4108-3e42-0841-423e0841423e",
+  "id": "11868aa9-8aa9-1186-a98a-8611a98a8611",
   "version": 7,
   "type": "String",
   "modalities": [
     "String"
   ],
-  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
-  "startDateTime": "2017-01-01T00:01:28.8507081+03:00",
-  "endDateTime": "2017-01-01T00:02:50.4198958+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
+  "startDateTime": "2017-01-01T00:02:48.9283739+03:00",
+  "endDateTime": "2016-12-31T23:59:31.7607156+03:00",
   "organizer": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

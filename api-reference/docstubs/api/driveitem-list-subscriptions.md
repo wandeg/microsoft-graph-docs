@@ -3,7 +3,7 @@ title: "List subscriptions"
 description: "Get the subscriptions from the subscriptions navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/subscriptions
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/subscriptions
 ```
 
 ## Optional query parameters
@@ -73,12 +72,12 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.subscription",
-      "id": "b502a512-a512-b502-12a5-02b512a502b5",
+      "id": "e02679e7-79e7-e026-e779-26e0e77926e0",
       "resource": "Resource value",
       "changeType": "Change Type value",
       "clientState": "Client State value",
       "notificationUrl": "https://example.com/notificationUrl/",
-      "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+      "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
       "applicationId": "Application Id value",
       "creatorId": "Creator Id value",
       "includeProperties": true,

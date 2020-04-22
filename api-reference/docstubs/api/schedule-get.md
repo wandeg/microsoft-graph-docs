@@ -3,7 +3,7 @@ title: "Get schedule"
 description: "Read properties and relationships of a schedule object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}/schedule
-GET /me/joinedGroups/{groupId}/team/schedule
 ```
 
 ## Optional query parameters
@@ -72,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.schedule",
-    "id": "bbfa0b2d-0b2d-bbfa-2d0b-fabb2d0bfabb",
+    "id": "e5ee1ce7-1ce7-e5ee-e71c-eee5e71ceee5",
     "enabled": true,
     "timeZone": "Time Zone value",
     "provisionStatus": "String",

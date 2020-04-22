@@ -3,7 +3,7 @@ title: "Get officeGraphInsights"
 description: "Read properties and relationships of an officeGraphInsights object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.officeGraphInsights",
-    "id": "769066b0-66b0-7690-b066-9076b0669076"
+    "id": "5e73abcc-abcc-5e73-ccab-735eccab735e"
   }
 }
 ```

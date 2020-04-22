@@ -3,7 +3,7 @@ title: "List agreementAcceptances"
 description: "Get the agreementAcceptances from the agreementAcceptances navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,11 +73,11 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.agreementAcceptance",
-      "id": "92519f43-9f43-9251-439f-5192439f5192",
+      "id": "c16fc2e5-c2e5-c16f-e5c2-6fc1e5c26fc1",
       "agreementId": "Agreement Id value",
       "userId": "User Id value",
       "agreementFileId": "Agreement File Id value",
-      "recordedDateTime": "2016-12-31T23:57:10.1758438+03:00",
+      "recordedDateTime": "2017-01-01T00:02:55.1504157+03:00",
       "userDisplayName": "User Display Name value",
       "userPrincipalName": "User Principal Name value",
       "userEmail": "User Email value",

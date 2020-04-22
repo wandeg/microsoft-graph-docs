@@ -3,7 +3,7 @@ title: "user: getMailTips"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -30,7 +30,6 @@ One of the following permissions is required to call this API. To learn more, in
 ``` http
 POST /me/getMailTips
 POST /users/{usersId}/getMailTips
-POST /me/managedDevices/{managedDeviceId}/users/{userId}/getMailTips
 ```
 
 ## Request headers

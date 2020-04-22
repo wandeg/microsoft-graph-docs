@@ -3,7 +3,7 @@ title: "group: checkMemberGroups"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/checkMemberGroups
-POST /me/joinedGroups/{groupId}/checkMemberGroups
-POST /users/{usersId}/joinedGroups/{groupId}/checkMemberGroups
 ```
 
 ## Request headers

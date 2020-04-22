@@ -3,7 +3,7 @@ title: "Get onenote"
 description: "Read properties and relationships of an onenote object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -32,8 +32,6 @@ GET /me/onenote
 GET /users/{usersId}/onenote
 GET /sites/{sitesId}/onenote
 GET /groups/{groupsId}/onenote
-GET /me/joinedGroups/{groupId}/onenote
-GET /me/joinedGroups/{groupId}/sites/{siteId}/onenote
 ```
 
 ## Optional query parameters
@@ -76,7 +74,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.onenote",
-    "id": "b2ec96a8-96a8-b2ec-a896-ecb2a896ecb2"
+    "id": "bd5c227f-227f-bd5c-7f22-5cbd7f225cbd"
   }
 }
 ```

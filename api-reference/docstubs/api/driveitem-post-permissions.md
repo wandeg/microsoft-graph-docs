@@ -3,7 +3,7 @@ title: "Create permissions"
 description: "Create a new permissions object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /workbooks/{workbooksId}/permissions
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/permissions
 ```
 
 ## Request headers
@@ -76,7 +75,7 @@ Content-length: 1849
 
 {
   "@odata.type": "#microsoft.graph.permission",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {
@@ -153,8 +152,8 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.permission",
-  "id": "294ca067-a067-294c-67a0-4c2967a04c29",
-  "expirationDateTime": "2017-01-01T00:00:30.9891987+03:00",
+  "id": "4021ac51-ac51-4021-51ac-214051ac2140",
+  "expirationDateTime": "2016-12-31T23:57:37.5000215+03:00",
   "grantedTo": {
     "@odata.type": "microsoft.graph.identitySet",
     "application": {

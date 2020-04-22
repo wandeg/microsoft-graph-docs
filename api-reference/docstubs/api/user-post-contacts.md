@@ -3,7 +3,7 @@ title: "Create contacts"
 description: "Create a new contacts object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -109,7 +109,7 @@ Content-length: 2493
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2017-01-01T00:00:04.7583191+03:00",
+  "birthday": "2017-01-01T00:00:47.3962323+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",
@@ -205,15 +205,15 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.contact",
-  "id": "71f33a6b-3a6b-71f3-6b3a-f3716b3af371",
-  "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
-  "lastModifiedDateTime": "2016-12-31T23:56:35.1491722+03:00",
+  "id": "379f1904-1904-379f-0419-9f3704199f37",
+  "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
+  "lastModifiedDateTime": "2016-12-31T23:58:38.9820934+03:00",
   "changeKey": "Change Key value",
   "categories": [
     "Categories value"
   ],
   "parentFolderId": "Parent Folder Id value",
-  "birthday": "2017-01-01T00:00:04.7583191+03:00",
+  "birthday": "2017-01-01T00:00:47.3962323+03:00",
   "fileAs": "File As value",
   "displayName": "Display Name value",
   "givenName": "Given Name value",

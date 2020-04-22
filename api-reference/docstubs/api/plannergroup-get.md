@@ -3,7 +3,7 @@ title: "Get plannerGroup"
 description: "Read properties and relationships of a plannerGroup object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/planner
-GET /me/joinedGroups/{groupId}/planner
 ```
 
 ## Optional query parameters
@@ -72,7 +71,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.plannerGroup",
-    "id": "af16b6f2-b6f2-af16-f2b6-16aff2b616af"
+    "id": "2bca57fa-57fa-2bca-fa57-ca2bfa57ca2b"
   }
 }
 ```

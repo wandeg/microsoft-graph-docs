@@ -3,7 +3,7 @@ title: "List activities"
 description: "Get the itemActivityOLDs from the activities navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/activities
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/activities
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.itemActivityOLD",
-      "id": "ee5960d6-60d6-ee59-d660-59eed66059ee",
+      "id": "bf868e81-8e81-bf86-818e-86bf818e86bf",
       "action": {
         "@odata.type": "microsoft.graph.itemActionSet",
         "comment": {
@@ -149,9 +148,9 @@ Content-Type: application/json
       },
       "times": {
         "@odata.type": "microsoft.graph.itemActivityTimeSet",
-        "lastRecordedDateTime": "2016-12-31T23:57:21.9633526+03:00",
-        "observedDateTime": "2016-12-31T23:59:27.3472674+03:00",
-        "recordedDateTime": "2016-12-31T23:57:10.1758438+03:00"
+        "lastRecordedDateTime": "2017-01-01T00:03:22.2443788+03:00",
+        "observedDateTime": "2016-12-31T23:56:27.4420116+03:00",
+        "recordedDateTime": "2017-01-01T00:02:55.1504157+03:00"
       }
     }
   ]

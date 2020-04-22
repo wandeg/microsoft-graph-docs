@@ -3,7 +3,7 @@ title: "List taskFolders"
 description: "Get the outlookTaskFolders from the taskFolders navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-GET /me/outlook/taskFolders
+GET /invitations/{invitationsId}/invitedUser/outlook/taskFolders
 ```
 
 ## Optional query parameters
@@ -54,7 +54,7 @@ If successful, this method returns a `200 OK` response code and a collection of 
 }
 -->
 ``` http
-GET https://graph.microsoft.com/beta/me/outlook/taskFolders
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/outlook/taskFolders
 ```
 
 ### Response
@@ -72,11 +72,11 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.outlookTaskFolder",
-      "id": "ef51946b-946b-ef51-6b94-51ef6b9451ef",
+      "id": "13e40ba7-0ba7-13e4-a70b-e413a70be413",
       "changeKey": "Change Key value",
       "name": "Name value",
       "isDefaultFolder": true,
-      "parentGroupKey": "7c1f1401-1401-7c1f-0114-1f7c01141f7c"
+      "parentGroupKey": "f0a3309f-309f-f0a3-9f30-a3f09f30a3f0"
     }
   ]
 }

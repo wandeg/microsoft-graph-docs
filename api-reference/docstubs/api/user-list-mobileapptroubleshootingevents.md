@@ -3,7 +3,7 @@ title: "List mobileAppTroubleshootingEvents"
 description: "Get the mobileAppTroubleshootingEvents from the mobileAppTroubleshootingEvents navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -73,8 +73,8 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.mobileAppTroubleshootingEvent",
-      "id": "b76ead9e-ad9e-b76e-9ead-6eb79ead6eb7",
-      "eventDateTime": "2016-12-31T23:58:45.2094808+03:00",
+      "id": "a24b350b-350b-a24b-0b35-4ba20b354ba2",
+      "eventDateTime": "2017-01-01T00:02:28.2001864+03:00",
       "correlationId": "Correlation Id value",
       "troubleshootingErrorDetails": {
         "@odata.type": "microsoft.graph.deviceManagementTroubleshootingErrorDetails",
@@ -104,7 +104,7 @@ Content-Type: application/json
       "history": [
         {
           "@odata.type": "microsoft.graph.mobileAppTroubleshootingHistoryItem",
-          "occurrenceDateTime": "2016-12-31T23:59:18.8172124+03:00"
+          "occurrenceDateTime": "2016-12-31T23:56:44.3170316+03:00"
         }
       ]
     }

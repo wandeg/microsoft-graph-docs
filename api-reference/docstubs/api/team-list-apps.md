@@ -3,7 +3,7 @@ title: "List apps"
 description: "Get the teamsCatalogApps from the apps navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /teams/{teamsId}/apps
-GET /me/joinedGroups/{groupId}/team/apps
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.teamsCatalogApp",
-      "id": "f7377e4a-7e4a-f737-4a7e-37f74a7e37f7",
+      "id": "d0a20ea2-0ea2-d0a2-a20e-a2d0a20ea2d0",
       "externalId": "External Id value",
       "name": "Name value",
       "distributionMethod": "String"

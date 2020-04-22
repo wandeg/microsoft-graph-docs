@@ -3,7 +3,7 @@ title: "Create thumbnails"
 description: "Create a new thumbnails object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /workbooks/{workbooksId}/thumbnails
-POST /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/thumbnails
 ```
 
 ## Request headers
@@ -104,7 +103,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.thumbnailSet",
-  "id": "a334fd6c-fd6c-a334-6cfd-34a36cfd34a3",
+  "id": "47dcd481-d481-47dc-81d4-dc4781d4dc47",
   "large": {
     "@odata.type": "microsoft.graph.thumbnail",
     "content": "Stream",

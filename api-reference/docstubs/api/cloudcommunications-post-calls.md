@@ -3,7 +3,7 @@ title: "Create calls"
 description: "Create a new calls object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -214,7 +214,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.call",
-  "id": "e8ba7192-7192-e8ba-9271-bae89271bae8",
+  "id": "93f47936-7936-93f4-3679-f4933679f493",
   "state": "String",
   "mediaState": {
     "@odata.type": "microsoft.graph.callMediaState",

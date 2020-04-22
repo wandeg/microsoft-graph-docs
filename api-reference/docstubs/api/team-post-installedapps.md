@@ -3,7 +3,7 @@ title: "Create installedApps"
 description: "Create a new installedApps object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /teams/{teamsId}/installedApps
-POST /me/joinedGroups/{groupId}/team/installedApps
 ```
 
 ## Request headers
@@ -83,7 +82,7 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.teamsAppInstallation",
-  "id": "dfe827af-27af-dfe8-af27-e8dfaf27e8df"
+  "id": "2ffc485d-485d-2ffc-5d48-fc2f5d48fc2f"
 }
 ```
 

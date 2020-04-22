@@ -3,7 +3,7 @@ title: "group: delta"
 description: "**TODO: Add Description**"
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,8 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/delta
-GET /me/joinedGroups/delta
-GET /users/{usersId}/joinedGroups/delta
 ```
 
 ## Request headers
@@ -71,8 +69,8 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.group",
-      "id": "91699ffb-9ffb-9169-fb9f-6991fb9f6991",
-      "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+      "id": "be9a83e3-83e3-be9a-e383-9abee3839abe",
+      "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
       "assignedLabels": [
         {
           "@odata.type": "microsoft.graph.assignedLabel"
@@ -84,7 +82,7 @@ Content-Type: application/json
         }
       ],
       "classification": "Classification value",
-      "createdDateTime": "2016-12-31T23:56:51.3342982+03:00",
+      "createdDateTime": "2016-12-31T23:57:35.7108579+03:00",
       "description": "Description value",
       "displayName": "Display Name value",
       "groupTypes": [
@@ -102,7 +100,7 @@ Content-Type: application/json
       "membershipRule": "Membership Rule value",
       "membershipRuleProcessingState": "Membership Rule Processing State value",
       "onPremisesDomainName": "On Premises Domain Name value",
-      "onPremisesLastSyncDateTime": "2016-12-31T23:58:43.0244862+03:00",
+      "onPremisesLastSyncDateTime": "2017-01-01T00:01:44.6618878+03:00",
       "onPremisesNetBiosName": "On Premises Net Bios Name value",
       "onPremisesProvisioningErrors": [
         {
@@ -117,7 +115,7 @@ Content-Type: application/json
       "proxyAddresses": [
         "Proxy Addresses value"
       ],
-      "renewedDateTime": "2017-01-01T00:01:45.6350478+03:00",
+      "renewedDateTime": "2016-12-31T23:58:11.7696759+03:00",
       "resourceBehaviorOptions": [
         "Resource Behavior Options value"
       ],

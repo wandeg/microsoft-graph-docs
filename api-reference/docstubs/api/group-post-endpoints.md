@@ -3,7 +3,7 @@ title: "Create endpoints"
 description: "Create a new endpoints object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 POST /groups/{groupsId}/endpoints
-POST /me/joinedGroups/{groupId}/endpoints
 ```
 
 ## Request headers
@@ -73,7 +72,7 @@ Content-length: 304
 
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",
@@ -95,8 +94,8 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 {
   "@odata.type": "#microsoft.graph.endpoint",
-  "id": "5bd19686-9686-5bd1-8696-d15b8696d15b",
-  "deletedDateTime": "2017-01-01T00:03:10.8575862+03:00",
+  "id": "32e62bbf-2bbf-32e6-bf2b-e632bf2be632",
+  "deletedDateTime": "2016-12-31T23:58:36.0226893+03:00",
   "capability": "Capability value",
   "providerId": "Provider Id value",
   "providerName": "Provider Name value",

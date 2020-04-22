@@ -3,7 +3,7 @@ title: "Get inferenceClassification"
 description: "Read properties and relationships of an inferenceClassification object."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -72,7 +72,7 @@ Content-Type: application/json
 {
   "value": {
     "@odata.type": "#microsoft.graph.inferenceClassification",
-    "id": "630336b9-36b9-6303-b936-0363b9360363"
+    "id": "32471903-1903-3247-0319-473203194732"
   }
 }
 ```

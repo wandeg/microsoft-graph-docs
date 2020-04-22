@@ -3,7 +3,7 @@ title: "List conversations"
 description: "Get the conversations from the conversations navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/conversations
-GET /me/joinedGroups/{groupId}/conversations
 ```
 
 ## Optional query parameters
@@ -73,10 +72,10 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversation",
-      "id": "03fa1970-1970-03fa-7019-fa037019fa03",
+      "id": "b442aad6-aad6-b442-d6aa-42b4d6aa42b4",
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2017-01-01T00:00:50.4834523+03:00",
+      "lastDeliveredDateTime": "2016-12-31T23:58:05.2691795+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

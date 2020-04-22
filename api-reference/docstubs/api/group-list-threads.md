@@ -3,7 +3,7 @@ title: "List threads"
 description: "Get the conversationThreads from the threads navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /groups/{groupsId}/threads
-GET /me/joinedGroups/{groupId}/threads
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.conversationThread",
-      "id": "5d8d2521-2521-5d8d-2125-8d5d21258d5d",
+      "id": "a6772cb4-2cb4-a677-b42c-77a6b42c77a6",
       "toRecipients": [
         {
           "@odata.type": "microsoft.graph.recipient",
@@ -86,7 +85,7 @@ Content-Type: application/json
       ],
       "topic": "Topic value",
       "hasAttachments": true,
-      "lastDeliveredDateTime": "2017-01-01T00:00:50.4834523+03:00",
+      "lastDeliveredDateTime": "2016-12-31T23:58:05.2691795+03:00",
       "uniqueSenders": [
         "Unique Senders value"
       ],

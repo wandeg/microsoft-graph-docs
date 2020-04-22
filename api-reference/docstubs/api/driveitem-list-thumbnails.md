@@ -3,7 +3,7 @@ title: "List thumbnails"
 description: "Get the thumbnailSets from the thumbnails navigation property."
 author: "**TODO: Provide Github Name**"
 localization_priority: Normal
-ms.prod: ""
+ms.prod: "**TODO: Add MS prod**"
 doc_type: apiPageType
 ---
 
@@ -29,7 +29,6 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 ``` http
 GET /workbooks/{workbooksId}/thumbnails
-GET /me/joinedGroups/{groupId}/drive/activities/{itemActivityOLDId}/driveItem/thumbnails
 ```
 
 ## Optional query parameters
@@ -73,7 +72,7 @@ Content-Type: application/json
   "value": [
     {
       "@odata.type": "#microsoft.graph.thumbnailSet",
-      "id": "a334fd6c-fd6c-a334-6cfd-34a36cfd34a3",
+      "id": "47dcd481-d481-47dc-81d4-dc4781d4dc47",
       "large": {
         "@odata.type": "microsoft.graph.thumbnail",
         "content": "Stream",
