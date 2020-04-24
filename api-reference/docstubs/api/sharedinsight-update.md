@@ -1,0 +1,161 @@
+---
+title: "Update sharedInsight"
+description: "Update the properties of a sharedInsight object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Update sharedInsight
+
+Namespace: microsoft.graph
+
+Update the properties of a [sharedInsight](../resources/sharedinsight.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /invitations/{invitationsId}/invitedUser/insights/shared/{sharedInsightId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
+
+## Request body
+In the request body, supply a JSON representation of the [sharedInsight](../resources/sharedinsight.md) object.
+
+The following table shows the properties that are required when you create the [sharedInsight](../resources/sharedinsight.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|lastShared|[sharingDetail](../resources/sharingdetail.md)|**TODO: Add Description**|
+|sharingHistory|[sharingDetail](../resources/sharingdetail.md) collection|**TODO: Add Description**|
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)|**TODO: Add Description**|
+|resourceReference|[resourceReference](../resources/resourcereference.md)|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [sharedInsight](../resources/sharedinsight.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_sharedinsight"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/insights/shared/{sharedInsightId}
+Content-Type: application/json
+Content-length: 1264
+
+{
+  "@odata.type": "#microsoft.graph.sharedInsight",
+  "lastShared": {
+    "@odata.type": "microsoft.graph.sharingDetail",
+    "sharedBy": {
+      "@odata.type": "microsoft.graph.insightIdentity",
+      "displayName": "Display Name value",
+      "id": "Id value",
+      "address": "Address value"
+    },
+    "sharedDateTime": "2016-12-31T23:57:18.6017116+03:00",
+    "sharingSubject": "Sharing Subject value",
+    "sharingType": "Sharing Type value",
+    "sharingReference": {
+      "@odata.type": "microsoft.graph.resourceReference",
+      "webUrl": "https://example.com/webUrl/",
+      "type": "Type value"
+    }
+  },
+  "sharingHistory": [
+    {
+      "@odata.type": "microsoft.graph.sharingDetail"
+    }
+  ],
+  "resourceVisualization": {
+    "@odata.type": "microsoft.graph.resourceVisualization",
+    "title": "Title value",
+    "mediaType": "Media Type value",
+    "previewImageUrl": "https://example.com/previewImageUrl/",
+    "previewText": "Preview Text value",
+    "containerWebUrl": "https://example.com/containerWebUrl/",
+    "containerDisplayName": "Container Display Name value",
+    "containerType": "Container Type value"
+  },
+  "resourceReference": {
+    "@odata.type": "microsoft.graph.resourceReference"
+  }
+}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.sharedInsight",
+  "id": "4081424e-424e-4081-4e42-81404e428140",
+  "lastShared": {
+    "@odata.type": "microsoft.graph.sharingDetail",
+    "sharedBy": {
+      "@odata.type": "microsoft.graph.insightIdentity",
+      "displayName": "Display Name value",
+      "id": "Id value",
+      "address": "Address value"
+    },
+    "sharedDateTime": "2016-12-31T23:57:18.6017116+03:00",
+    "sharingSubject": "Sharing Subject value",
+    "sharingType": "Sharing Type value",
+    "sharingReference": {
+      "@odata.type": "microsoft.graph.resourceReference",
+      "webUrl": "https://example.com/webUrl/",
+      "type": "Type value"
+    }
+  },
+  "sharingHistory": [
+    {
+      "@odata.type": "microsoft.graph.sharingDetail"
+    }
+  ],
+  "resourceVisualization": {
+    "@odata.type": "microsoft.graph.resourceVisualization",
+    "title": "Title value",
+    "mediaType": "Media Type value",
+    "previewImageUrl": "https://example.com/previewImageUrl/",
+    "previewText": "Preview Text value",
+    "containerWebUrl": "https://example.com/containerWebUrl/",
+    "containerDisplayName": "Container Display Name value",
+    "containerType": "Container Type value"
+  },
+  "resourceReference": {
+    "@odata.type": "microsoft.graph.resourceReference"
+  }
+}
+```
+

@@ -1,0 +1,99 @@
+---
+title: "Create taxAreas"
+description: "Create a new taxAreas object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Create taxAreas
+
+Namespace: microsoft.graph
+
+Create a new taxAreas object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /financials/companies/{companyId}/taxAreas
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
+
+## Request body
+In the request body, supply a JSON representation of the [taxArea](../resources/taxarea.md) object.
+
+The following table shows the properties that are required when you create the [taxArea](../resources/taxarea.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|code|String|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|taxType|String|**TODO: Add Description**|
+|lastModifiedDateTime|DateTimeOffset|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [taxArea](../resources/taxarea.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "create_taxarea_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/financials/companies/{companyId}/taxAreas
+Content-Type: application/json
+Content-length: 146
+
+{
+  "@odata.type": "#microsoft.graph.taxArea",
+  "code": "Code value",
+  "displayName": "Display Name value",
+  "taxType": "Tax Type value"
+}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.taxarea"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.taxArea",
+  "id": "460b2bd0-2bd0-460b-d02b-0b46d02b0b46",
+  "code": "Code value",
+  "displayName": "Display Name value",
+  "taxType": "Tax Type value",
+  "lastModifiedDateTime": "2016-12-31T23:59:40.8735716+03:00"
+}
+```
+

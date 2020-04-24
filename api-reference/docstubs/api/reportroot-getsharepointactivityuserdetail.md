@@ -1,0 +1,99 @@
+---
+title: "reportRoot: getSharePointActivityUserDetail"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# getSharePointActivityUserDetail
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /reports/getSharePointActivityUserDetail
+GET /print/reports/{reportRootId}/getSharePointActivityUserDetail
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Function parameters
+In the request URL, provide the following query parameters with values.
+The following table shows the parameters that can be used with this function.
+
+|Parameter|Type|Description|
+|:---|:---|:---|
+|period|String|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this function returns a `200 OK` response code and a [sharePointActivityUserDetail](../resources/sharepointactivityuserdetail.md) collection in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "reportroot_getsharepointactivityuserdetail"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/reports/getSharePointActivityUserDetail(period='parameterValue')
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.sharepointactivityuserdetail)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.sharePointActivityUserDetail",
+      "id": "e7e88e4c-8e4c-e7e8-4c8e-e8e74c8ee8e7",
+      "reportRefreshDate": "Date",
+      "userPrincipalName": "User Principal Name value",
+      "isDeleted": true,
+      "deletedDate": "Date",
+      "lastActivityDate": "Date",
+      "viewedOrEditedFileCount": 7,
+      "syncedFileCount": 15,
+      "sharedInternallyFileCount": 9,
+      "sharedExternallyFileCount": 9,
+      "visitedPageCount": 0,
+      "assignedProducts": [
+        "Assigned Products value"
+      ],
+      "reportPeriod": "Report Period value"
+    }
+  ]
+}
+```
+

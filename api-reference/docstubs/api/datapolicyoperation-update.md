@@ -1,0 +1,105 @@
+---
+title: "Update dataPolicyOperation"
+description: "Update the properties of a dataPolicyOperation object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Update dataPolicyOperation
+
+Namespace: microsoft.graph
+
+Update the properties of a [dataPolicyOperation](../resources/datapolicyoperation.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /dataPolicyOperations/{dataPolicyOperationsId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
+
+## Request body
+In the request body, supply a JSON representation of the [dataPolicyOperation](../resources/datapolicyoperation.md) object.
+
+The following table shows the properties that are required when you create the [dataPolicyOperation](../resources/datapolicyoperation.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|completedDateTime|DateTimeOffset|**TODO: Add Description**|
+|status|dataPolicyOperationStatus|**TODO: Add Description**. Possible values are: `notStarted`, `running`, `complete`, `failed`, `unknownFutureValue`.|
+|storageLocation|String|**TODO: Add Description**|
+|userId|String|**TODO: Add Description**|
+|submittedDateTime|DateTimeOffset|**TODO: Add Description**|
+|progress|Double|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [dataPolicyOperation](../resources/datapolicyoperation.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_datapolicyoperation"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/dataPolicyOperations/{dataPolicyOperationsId}
+Content-Type: application/json
+Content-length: 309
+
+{
+  "@odata.type": "#microsoft.graph.dataPolicyOperation",
+  "completedDateTime": "2017-01-01T00:02:03.9770517+03:00",
+  "status": "String",
+  "storageLocation": "Storage Location value",
+  "userId": "User Id value",
+  "submittedDateTime": "2017-01-01T00:03:16.4748996+03:00",
+  "progress": "Double"
+}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.dataPolicyOperation",
+  "id": "ba170cba-0cba-ba17-ba0c-17baba0c17ba",
+  "completedDateTime": "2017-01-01T00:02:03.9770517+03:00",
+  "status": "String",
+  "storageLocation": "Storage Location value",
+  "userId": "User Id value",
+  "submittedDateTime": "2017-01-01T00:03:16.4748996+03:00",
+  "progress": "Double"
+}
+```
+

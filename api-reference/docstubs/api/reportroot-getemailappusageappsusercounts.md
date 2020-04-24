@@ -1,0 +1,96 @@
+---
+title: "reportRoot: getEmailAppUsageAppsUserCounts"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# getEmailAppUsageAppsUserCounts
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /reports/getEmailAppUsageAppsUserCounts
+GET /print/reports/{reportRootId}/getEmailAppUsageAppsUserCounts
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Function parameters
+In the request URL, provide the following query parameters with values.
+The following table shows the parameters that can be used with this function.
+
+|Parameter|Type|Description|
+|:---|:---|:---|
+|period|String|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this function returns a `200 OK` response code and a [emailAppUsageAppsUserCounts](../resources/emailappusageappsusercounts.md) collection in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "reportroot_getemailappusageappsusercounts"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/reports/getEmailAppUsageAppsUserCounts(period='parameterValue')
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.emailappusageappsusercounts)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.emailAppUsageAppsUserCounts",
+      "id": "8101455e-455e-8101-5e45-01815e450181",
+      "reportRefreshDate": "Date",
+      "mailForMac": 10,
+      "outlookForMac": 13,
+      "outlookForWindows": 1,
+      "outlookForMobile": 0,
+      "otherForMobile": 14,
+      "outlookForWeb": 13,
+      "pop3App": 7,
+      "imap4App": 8,
+      "smtpApp": 7,
+      "reportPeriod": "Report Period value"
+    }
+  ]
+}
+```
+

@@ -1,0 +1,178 @@
+---
+title: "tiIndicator resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# tiIndicator resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [entity](../resources/entity.md)
+
+## Methods
+|Method|Return Type|Description|
+|:---|:---|:---|
+|[Get tiIndicator](../api/tiindicator-get.md)|[tiIndicator](../resources/tiindicator.md)|Read the properties and relationships of a [tiIndicator](../resources/tiindicator.md) object.|
+|[Update tiIndicator](../api/tiindicator-update.md)|[tiIndicator](../resources/tiindicator.md)|Update the properties of a [tiIndicator](../resources/tiindicator.md) object.|
+|[submitTiIndicators](../api/tiindicator-submittiindicators.md)|[tiIndicator](../resources/tiindicator.md) collection|**TODO: Add Description**|
+|[updateTiIndicators](../api/tiindicator-updatetiindicators.md)|[tiIndicator](../resources/tiindicator.md) collection|**TODO: Add Description**|
+|[deleteTiIndicators](../api/tiindicator-deletetiindicators.md)|[ResultInfo](../resources/resultinfo.md) collection|**TODO: Add Description**|
+|[deleteTiIndicatorsByExternalId](../api/tiindicator-deletetiindicatorsbyexternalid.md)|[ResultInfo](../resources/resultinfo.md) collection|**TODO: Add Description**|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|action|tiAction|**TODO: Add Description**. Possible values are: `unknown`, `allow`, `block`, `alert`, `unknownFutureValue`.|
+|activityGroupNames|String collection|**TODO: Add Description**|
+|additionalInformation|String|**TODO: Add Description**|
+|azureTenantId|String|**TODO: Add Description**|
+|confidence|Int32|**TODO: Add Description**|
+|description|String|**TODO: Add Description**|
+|diamondModel|diamondModel|**TODO: Add Description**. Possible values are: `unknown`, `adversary`, `capability`, `infrastructure`, `victim`, `unknownFutureValue`.|
+|domainName|String|**TODO: Add Description**|
+|emailEncoding|String|**TODO: Add Description**|
+|emailLanguage|String|**TODO: Add Description**|
+|emailRecipient|String|**TODO: Add Description**|
+|emailSenderAddress|String|**TODO: Add Description**|
+|emailSenderName|String|**TODO: Add Description**|
+|emailSourceDomain|String|**TODO: Add Description**|
+|emailSourceIpAddress|String|**TODO: Add Description**|
+|emailSubject|String|**TODO: Add Description**|
+|emailXMailer|String|**TODO: Add Description**|
+|expirationDateTime|DateTimeOffset|**TODO: Add Description**|
+|externalId|String|**TODO: Add Description**|
+|fileCompileDateTime|DateTimeOffset|**TODO: Add Description**|
+|fileCreatedDateTime|DateTimeOffset|**TODO: Add Description**|
+|fileHashType|fileHashType|**TODO: Add Description**. Possible values are: `unknown`, `sha1`, `sha256`, `md5`, `authenticodeHash256`, `lsHash`, `ctph`, `unknownFutureValue`.|
+|fileHashValue|String|**TODO: Add Description**|
+|fileMutexName|String|**TODO: Add Description**|
+|fileName|String|**TODO: Add Description**|
+|filePacker|String|**TODO: Add Description**|
+|filePath|String|**TODO: Add Description**|
+|fileSize|Int64|**TODO: Add Description**|
+|fileType|String|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|ingestedDateTime|DateTimeOffset|**TODO: Add Description**|
+|isActive|Boolean|**TODO: Add Description**|
+|killChain|String collection|**TODO: Add Description**|
+|knownFalsePositives|String|**TODO: Add Description**|
+|lastReportedDateTime|DateTimeOffset|**TODO: Add Description**|
+|malwareFamilyNames|String collection|**TODO: Add Description**|
+|networkCidrBlock|String|**TODO: Add Description**|
+|networkDestinationAsn|Int32|**TODO: Add Description**|
+|networkDestinationCidrBlock|String|**TODO: Add Description**|
+|networkDestinationIPv4|String|**TODO: Add Description**|
+|networkDestinationIPv6|String|**TODO: Add Description**|
+|networkDestinationPort|Int32|**TODO: Add Description**|
+|networkIPv4|String|**TODO: Add Description**|
+|networkIPv6|String|**TODO: Add Description**|
+|networkPort|Int32|**TODO: Add Description**|
+|networkProtocol|Int32|**TODO: Add Description**|
+|networkSourceAsn|Int32|**TODO: Add Description**|
+|networkSourceCidrBlock|String|**TODO: Add Description**|
+|networkSourceIPv4|String|**TODO: Add Description**|
+|networkSourceIPv6|String|**TODO: Add Description**|
+|networkSourcePort|Int32|**TODO: Add Description**|
+|passiveOnly|Boolean|**TODO: Add Description**|
+|severity|Int32|**TODO: Add Description**|
+|tags|String collection|**TODO: Add Description**|
+|targetProduct|String|**TODO: Add Description**|
+|threatType|String|**TODO: Add Description**|
+|tlpLevel|tlpLevel|**TODO: Add Description**. Possible values are: `unknown`, `white`, `green`, `amber`, `red`, `unknownFutureValue`.|
+|url|String|**TODO: Add Description**|
+|userAgent|String|**TODO: Add Description**|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.tiIndicator",
+  "baseType": "microsoft.graph.entity",
+  "openType": true
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.tiIndicator",
+  "id": "String (identifier)",
+  "action": "String",
+  "activityGroupNames": [
+    "String"
+  ],
+  "additionalInformation": "String",
+  "azureTenantId": "String",
+  "confidence": 1024,
+  "description": "String",
+  "diamondModel": "String",
+  "domainName": "String",
+  "emailEncoding": "String",
+  "emailLanguage": "String",
+  "emailRecipient": "String",
+  "emailSenderAddress": "String",
+  "emailSenderName": "String",
+  "emailSourceDomain": "String",
+  "emailSourceIpAddress": "String",
+  "emailSubject": "String",
+  "emailXMailer": "String",
+  "expirationDateTime": "String (timestamp)",
+  "externalId": "String",
+  "fileCompileDateTime": "String (timestamp)",
+  "fileCreatedDateTime": "String (timestamp)",
+  "fileHashType": "String",
+  "fileHashValue": "String",
+  "fileMutexName": "String",
+  "fileName": "String",
+  "filePacker": "String",
+  "filePath": "String",
+  "fileSize": 1024,
+  "fileType": "String",
+  "ingestedDateTime": "String (timestamp)",
+  "isActive": true,
+  "killChain": [
+    "String"
+  ],
+  "knownFalsePositives": "String",
+  "lastReportedDateTime": "String (timestamp)",
+  "malwareFamilyNames": [
+    "String"
+  ],
+  "networkCidrBlock": "String",
+  "networkDestinationAsn": 1024,
+  "networkDestinationCidrBlock": "String",
+  "networkDestinationIPv4": "String",
+  "networkDestinationIPv6": "String",
+  "networkDestinationPort": 1024,
+  "networkIPv4": "String",
+  "networkIPv6": "String",
+  "networkPort": 1024,
+  "networkProtocol": 1024,
+  "networkSourceAsn": 1024,
+  "networkSourceCidrBlock": "String",
+  "networkSourceIPv4": "String",
+  "networkSourceIPv6": "String",
+  "networkSourcePort": 1024,
+  "passiveOnly": true,
+  "severity": 1024,
+  "tags": [
+    "String"
+  ],
+  "targetProduct": "String",
+  "threatType": "String",
+  "tlpLevel": "String",
+  "url": "String",
+  "userAgent": "String"
+}
+```
+

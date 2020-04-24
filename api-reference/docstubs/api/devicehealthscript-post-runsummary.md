@@ -1,0 +1,118 @@
+---
+title: "Create runSummary"
+description: "Create a new runSummary object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Create runSummary
+
+Namespace: microsoft.graph
+
+Create a new runSummary object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
+
+## Request body
+In the request body, supply a JSON representation of the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object.
+
+The following table shows the properties that are required when you create the [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|noIssueDetectedDeviceCount|Int32|Number of devices for which the detection script did not find an issue and the device is healthy|
+|issueDetectedDeviceCount|Int32|Number of devices for which the detection script found an issue|
+|detectionScriptErrorDeviceCount|Int32|Number of devices on which the detection script execution encountered an error and did not complete|
+|detectionScriptPendingDeviceCount|Int32|Number of devices which have not yet run the latest version of the device health script|
+|issueRemediatedDeviceCount|Int32|Number of devices for which the remediation script was able to resolve the detected issue|
+|remediationSkippedDeviceCount|Int32|Number of devices for which remediation was skipped|
+|issueReoccurredDeviceCount|Int32|Number of devices for which the remediation script executed successfully but failed to resolve the detected issue|
+|remediationScriptErrorDeviceCount|Int32|Number of devices for which the remediation script execution encountered an error and did not complete|
+|lastScriptRunDateTime|DateTimeOffset|Last run time for the script across all devices|
+|issueRemediatedCumulativeDeviceCount|Int32|Number of devices that were remediated over the last 30 days|
+
+
+
+## Response
+If successful, this method returns a `201 Created` response code and a [deviceHealthScriptRunSummary](../resources/devicehealthscriptrunsummary.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "create_devicehealthscriptrunsummary_from_"
+}
+-->
+``` http
+POST https://graph.microsoft.com/beta/deviceManagement/deviceHealthScripts/{deviceHealthScriptId}/runSummary
+Content-Type: application/json
+Content-length: 494
+
+{
+  "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
+  "noIssueDetectedDeviceCount": 10,
+  "issueDetectedDeviceCount": 8,
+  "detectionScriptErrorDeviceCount": 15,
+  "detectionScriptPendingDeviceCount": 1,
+  "issueRemediatedDeviceCount": 10,
+  "remediationSkippedDeviceCount": 13,
+  "issueReoccurredDeviceCount": 10,
+  "remediationScriptErrorDeviceCount": 1,
+  "lastScriptRunDateTime": "2016-12-31T23:59:12.1995985+03:00",
+  "issueRemediatedCumulativeDeviceCount": 4
+}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.devicehealthscriptrunsummary"
+}
+-->
+``` http
+HTTP/1.1 201 Created
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.deviceHealthScriptRunSummary",
+  "id": "20ef512f-512f-20ef-2f51-ef202f51ef20",
+  "noIssueDetectedDeviceCount": 10,
+  "issueDetectedDeviceCount": 8,
+  "detectionScriptErrorDeviceCount": 15,
+  "detectionScriptPendingDeviceCount": 1,
+  "issueRemediatedDeviceCount": 10,
+  "remediationSkippedDeviceCount": 13,
+  "issueReoccurredDeviceCount": 10,
+  "remediationScriptErrorDeviceCount": 1,
+  "lastScriptRunDateTime": "2016-12-31T23:59:12.1995985+03:00",
+  "issueRemediatedCumulativeDeviceCount": 4
+}
+```
+

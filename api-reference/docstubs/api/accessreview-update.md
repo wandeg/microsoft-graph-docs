@@ -1,0 +1,171 @@
+---
+title: "Update accessReview"
+description: "Update the properties of an accessReview object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Update accessReview
+
+Namespace: microsoft.graph
+
+Update the properties of an [accessReview](../resources/accessreview.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+PATCH /accessReviews/{accessReviewsId}
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+|Content-Type|application/json. Required|
+
+## Request body
+In the request body, supply a JSON representation of the [accessReview](../resources/accessreview.md) object.
+
+The following table shows the properties that are required when you create the [accessReview](../resources/accessreview.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|displayName|String|**TODO: Add Description**|
+|startDateTime|DateTimeOffset|**TODO: Add Description**|
+|endDateTime|DateTimeOffset|**TODO: Add Description**|
+|status|String|**TODO: Add Description**|
+|createdBy|[userIdentity](../resources/useridentity.md)|**TODO: Add Description**|
+|businessFlowTemplateId|String|**TODO: Add Description**|
+|reviewerType|String|**TODO: Add Description**|
+|description|String|**TODO: Add Description**|
+|settings|[accessReviewSettings](../resources/accessreviewsettings.md)|**TODO: Add Description**|
+|reviewedEntity|[identity](../resources/identity.md)|**TODO: Add Description**|
+
+
+
+## Response
+If successful, this method returns a `200 OK` response code and an updated [accessReview](../resources/accessreview.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "update_accessreview"
+}
+-->
+``` http
+PATCH https://graph.microsoft.com/beta/accessReviews/{accessReviewsId}
+Content-Type: application/json
+Content-length: 1425
+
+{
+  "@odata.type": "#microsoft.graph.accessReview",
+  "displayName": "Display Name value",
+  "startDateTime": "2017-01-01T00:02:03.6478792+03:00",
+  "endDateTime": "2016-12-31T23:59:06.8319712+03:00",
+  "status": "Status value",
+  "createdBy": {
+    "@odata.type": "microsoft.graph.userIdentity",
+    "id": "Id value",
+    "ipAddress": "Ip Address value",
+    "userPrincipalName": "User Principal Name value"
+  },
+  "businessFlowTemplateId": "Business Flow Template Id value",
+  "reviewerType": "Reviewer Type value",
+  "description": "Description value",
+  "settings": {
+    "@odata.type": "microsoft.graph.accessReviewSettings",
+    "mailNotificationsEnabled": true,
+    "remindersEnabled": true,
+    "justificationRequiredOnApproval": true,
+    "recurrenceSettings": {
+      "@odata.type": "microsoft.graph.accessReviewRecurrenceSettings",
+      "recurrenceType": "Recurrence Type value",
+      "recurrenceEndType": "Recurrence End Type value",
+      "durationInDays": 14,
+      "recurrenceCount": 15
+    },
+    "autoReviewEnabled": true,
+    "activityDurationInDays": 6,
+    "autoReviewSettings": {
+      "@odata.type": "microsoft.graph.autoReviewSettings",
+      "notReviewedResult": "Not Reviewed Result value"
+    },
+    "autoApplyReviewResultsEnabled": true,
+    "accessRecommendationsEnabled": true
+  },
+  "reviewedEntity": {
+    "@odata.type": "microsoft.graph.identity"
+  }
+}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "@odata.type": "#microsoft.graph.accessReview",
+  "id": "9b4ddbdb-dbdb-9b4d-dbdb-4d9bdbdb4d9b",
+  "displayName": "Display Name value",
+  "startDateTime": "2017-01-01T00:02:03.6478792+03:00",
+  "endDateTime": "2016-12-31T23:59:06.8319712+03:00",
+  "status": "Status value",
+  "createdBy": {
+    "@odata.type": "microsoft.graph.userIdentity",
+    "id": "Id value",
+    "ipAddress": "Ip Address value",
+    "userPrincipalName": "User Principal Name value"
+  },
+  "businessFlowTemplateId": "Business Flow Template Id value",
+  "reviewerType": "Reviewer Type value",
+  "description": "Description value",
+  "settings": {
+    "@odata.type": "microsoft.graph.accessReviewSettings",
+    "mailNotificationsEnabled": true,
+    "remindersEnabled": true,
+    "justificationRequiredOnApproval": true,
+    "recurrenceSettings": {
+      "@odata.type": "microsoft.graph.accessReviewRecurrenceSettings",
+      "recurrenceType": "Recurrence Type value",
+      "recurrenceEndType": "Recurrence End Type value",
+      "durationInDays": 14,
+      "recurrenceCount": 15
+    },
+    "autoReviewEnabled": true,
+    "activityDurationInDays": 6,
+    "autoReviewSettings": {
+      "@odata.type": "microsoft.graph.autoReviewSettings",
+      "notReviewedResult": "Not Reviewed Result value"
+    },
+    "autoApplyReviewResultsEnabled": true,
+    "accessRecommendationsEnabled": true
+  },
+  "reviewedEntity": {
+    "@odata.type": "microsoft.graph.identity"
+  }
+}
+```
+

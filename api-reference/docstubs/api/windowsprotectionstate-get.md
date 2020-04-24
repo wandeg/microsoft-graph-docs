@@ -1,0 +1,96 @@
+---
+title: "Get windowsProtectionState"
+description: "Read the properties and relationships of a windowsProtectionState object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Get windowsProtectionState
+
+Namespace: microsoft.graph
+
+Read the properties and relationships of a [windowsProtectionState](../resources/windowsprotectionstate.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /invitations/{invitationsId}/invitedUser/managedDevices/{managedDeviceId}/windowsProtectionState
+GET /deviceManagement/windowsMalwareInformation/{windowsMalwareInformationId}/windowsDevicesProtectionState/{windowsProtectionStateId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a [windowsProtectionState](../resources/windowsprotectionstate.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "get_windowsprotectionstate"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/invitations/{invitationsId}/invitedUser/managedDevices/{managedDeviceId}/windowsProtectionState
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.windowsProtectionState"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.windowsProtectionState",
+    "id": "b7c66309-6309-b7c6-0963-c6b70963c6b7",
+    "malwareProtectionEnabled": true,
+    "deviceState": "String",
+    "realTimeProtectionEnabled": true,
+    "networkInspectionSystemEnabled": true,
+    "quickScanOverdue": true,
+    "fullScanOverdue": true,
+    "signatureUpdateOverdue": true,
+    "rebootRequired": true,
+    "fullScanRequired": true,
+    "engineVersion": "Engine Version value",
+    "signatureVersion": "Signature Version value",
+    "antiMalwareVersion": "Anti Malware Version value",
+    "lastQuickScanDateTime": "2016-12-31T23:58:34.922924+03:00",
+    "lastFullScanDateTime": "2016-12-31T23:57:37.5071669+03:00",
+    "lastQuickScanSignatureVersion": "Last Quick Scan Signature Version value",
+    "lastFullScanSignatureVersion": "Last Full Scan Signature Version value",
+    "lastReportedDateTime": "2017-01-01T00:00:59.8078557+03:00"
+  }
+}
+```
+

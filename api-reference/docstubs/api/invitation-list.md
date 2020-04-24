@@ -1,0 +1,103 @@
+---
+title: "List invitations"
+description: "Get a list of the invitation objects and their properties."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# List invitations
+
+Namespace: microsoft.graph
+
+Get a list of the [invitation](../resources/invitation.md) objects and their properties.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /invitations
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a collection of [invitation](../resources/invitation.md) objects in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "get_invitation"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/invitations
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "collection(microsoft.graph.invitation)"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": [
+    {
+      "@odata.type": "#microsoft.graph.invitation",
+      "id": "3c88db8e-db8e-3c88-8edb-883c8edb883c",
+      "invitedUserDisplayName": "Invited User Display Name value",
+      "invitedUserType": "Invited User Type value",
+      "invitedUserEmailAddress": "Invited User Email Address value",
+      "invitedUserMessageInfo": {
+        "@odata.type": "microsoft.graph.invitedUserMessageInfo",
+        "ccRecipients": [
+          {
+            "@odata.type": "microsoft.graph.recipient",
+            "emailAddress": {
+              "@odata.type": "microsoft.graph.emailAddress",
+              "name": "Name value",
+              "address": "Address value"
+            }
+          }
+        ],
+        "messageLanguage": "Message Language value",
+        "customizedMessageBody": "Customized Message Body value"
+      },
+      "sendInvitationMessage": true,
+      "inviteRedirectUrl": "https://example.com/inviteRedirectUrl/",
+      "inviteRedeemUrl": "https://example.com/inviteRedeemUrl/",
+      "status": "Status value",
+      "resetRedemption": true
+    }
+  ]
+}
+```
+
