@@ -1,0 +1,98 @@
+---
+title: "Get mobileAppIntentAndState"
+description: "Read the properties and relationships of a mobileAppIntentAndState object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Get mobileAppIntentAndState
+
+Namespace: microsoft.graph
+
+Read the properties and relationships of a [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+If successful, this method returns a `200 OK` response code and a [mobileAppIntentAndState](../resources/mobileappintentandstate.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "get_mobileappintentandstate"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/me/mobileAppIntentAndStates/{mobileAppIntentAndStateId}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.mobileAppIntentAndState"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.mobileAppIntentAndState",
+    "id": "5b8b32ca-32ca-5b8b-ca32-8b5bca328b5b",
+    "managedDeviceIdentifier": "Managed Device Identifier value",
+    "userId": "User Id value",
+    "mobileAppList": [
+      {
+        "@odata.type": "microsoft.graph.mobileAppIntentAndStateDetail",
+        "applicationId": "Application Id value",
+        "displayName": "Display Name value",
+        "mobileAppIntent": "String",
+        "displayVersion": "Display Version value",
+        "installState": "String",
+        "supportedDeviceTypes": [
+          {
+            "@odata.type": "microsoft.graph.mobileAppSupportedDeviceType",
+            "type": "String",
+            "minimumOperatingSystemVersion": "Minimum Operating System Version value",
+            "maximumOperatingSystemVersion": "Maximum Operating System Version value"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
