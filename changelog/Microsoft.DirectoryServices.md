@@ -1,0 +1,23 @@
+### Identity and access (Azure AD)
+| **Change type** | **Version** | **Description** |
+|Addition|changelog|Added the [directory](/graph/api/directory?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [directoryObject](/graph/api/directoryObject?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [extensionProperty](/graph/api/extensionProperty?view=graph-rest-beta) resource type
+|Addition|changelog|Added the **capability** property to [endpoint](/graph/api/resources/endpoint?view=graph-rest-beta) resource
+|Addition|changelog|Added the **appRoles** property to [application](/graph/api/resources/application?view=graph-rest-beta) resource
+|Addition|changelog|Added the **groupMembershipClaims** property to [application](/graph/api/resources/application?view=graph-rest-beta) resource
+|Addition|changelog|Added the **extensionProperties** relationship to [application](/graph/api/resources/application?view=graph-rest-beta) resource
+|Addition|changelog|Added the [appRole](/graph/api/appRole?view=graph-rest-beta) resource type
+|Addition|changelog|Added the **extensionAttribute1** property to [onPremisesExtensionAttributes](/graph/api/resources/onPremisesExtensionAttributes?view=graph-rest-beta) resource
+|Addition|changelog|Added the `medium` member to the **permissionClassificationType** enumeration
+|Addition|changelog|Added the **phoneType** enumeration type
+|Addition|changelog|Added the [addKey](/graph/api/application-addKey?view=graph-rest-beta) method to the [application](/graph/api/resources/application?view=graph-rest-beta) resource
+|Addition|changelog|Added the **passwordCredential** parameter to the [addPassword](/graph/api/addPassword?view=graph-rest-beta) method
+|Addition|changelog|Added the [delta](/graph/api/user-delta?view=graph-rest-beta) method to the [user](/graph/api/resources/user?view=graph-rest-beta) resource
+|Addition|changelog|Added the [delta1](/graph/api/user-delta1?view=graph-rest-beta) method to the [user](/graph/api/resources/user?view=graph-rest-beta) resource
+|Addition|changelog|Added the [delta](/graph/api/user-delta?view=graph-rest-beta) method to the [user](/graph/api/resources/user?view=graph-rest-beta) resource
+|Change|changelog|Changed the **identifierUris** property in the [application](/graph/api/resources/application?view=graph-rest-beta) resource from optional to required
+|Deletion|changelog|Removed the **claimsMappingPolicies** relationship from [application](/graph/api/resources/application?view=graph-rest-beta) resource
+|Deletion|changelog|Removed the **displayName-test** property from [identitytest](/graph/api/resources/identitytest?view=graph-rest-beta) resource
+|Deletion|changelog|Removed the `unknownFutureValue1` member from the **permissionClassificationType** enumeration
+|Deletion|changelog|Removed the **delta1** method from the [user](/graph/api/resources/user?view=graph-rest-beta) resource
