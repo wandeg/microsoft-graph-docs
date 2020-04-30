@@ -1,0 +1,51 @@
+---
+title: "statusDetails resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# statusDetails resource type
+
+
+Namespace: Microsoft.AAD.Reporting
+
+**TODO: Add Description**
+
+
+Inherits from [statusBase](../resources/statusbase.md)
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|additionalDetails|String|**TODO: Add Description**|
+|errorCategory|String|**TODO: Add Description**|
+|errorCode|String|**TODO: Add Description**|
+|reason|String|**TODO: Add Description**|
+|recommendedAction|String|**TODO: Add Description**|
+|status|provisioningResult|**TODO: Add Description** Inherited from [statusBase](../resources/microsoft.aad.reporting-statusbase.md). Possible values are: `success`, `failure`, `skipped`, `unknownFutureValue`.|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "Microsoft.AAD.Reporting.statusDetails"
+}
+-->
+``` json
+{
+  "@odata.type": "#Microsoft.AAD.Reporting.statusDetails",
+  "status": "String",
+  "errorCode": "String",
+  "reason": "String",
+  "additionalDetails": "String",
+  "errorCategory": "String",
+  "recommendedAction": "String"
+}
+```
+
