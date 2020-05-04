@@ -102,6 +102,7 @@ git config user.email "GraphDocsGen@microsoft.com"
 if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
     git rm -r '.\api-reference\docstubs'
     git commit -am "Remove docstubs directory"
+    git push
     # Remove-Item -LiteralPath ".\api-reference\docstubs\" -Force -Recurse
 }
 
@@ -109,6 +110,7 @@ if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
 if( Test-Path '.\changelog\' -PathType Container) {
     git rm -r '.\changelog\'
     git commit -am "Remove changelog directory"
+    git push
     # Remove-Item -LiteralPath ".\changelog\" -Force -Recurse
 }
 
