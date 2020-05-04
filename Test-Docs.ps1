@@ -97,14 +97,12 @@ else {
 
 # Check if the docstubs directory exists
 if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
-    Write-Host "Docstubs directory has not been deleted. Aborting..."
-    exit 1
+    Remove-Item -LiteralPath ".\api-reference\docstubs\" -Force -Recurse
 }
 
 # Check if the changelog directory exists
 if( Test-Path '.\changelog\' -PathType Container) {
-    Write-Host "Changelog directory has not been deleted. Aborting..."
-    exit 1
+    Remove-Item -LiteralPath ".\changelog\" -Force -Recurse
 }
 
 $lastResultCode = 0
