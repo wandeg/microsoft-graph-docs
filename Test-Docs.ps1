@@ -104,7 +104,7 @@ if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
     Write-Host "Removing docstubs directory"
     git rm -r '.\api-reference\docstubs'
     git commit -am "Remove docstubs directory"
-    git push HEAD:$currentBranch
+    git push origin HEAD:$currentBranch
     Remove-Item -LiteralPath ".\api-reference\docstubs\" -Force -Recurse
 }
 
@@ -113,7 +113,7 @@ if( Test-Path '.\changelog\' -PathType Container) {
     Write-Host "Removing changelog directory"
     git rm -r '.\changelog\'
     git commit -am "Remove changelog directory"
-    git push HEAD:$currentBranch
+    git push origin HEAD:$currentBranch
     Remove-Item -LiteralPath ".\changelog\" -Force -Recurse
 }
 
