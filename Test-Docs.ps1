@@ -97,13 +97,14 @@ else {
 
 git config user.name "GraphDocsGen"
 git config user.email "GraphDocsGen@microsoft.com"
+$currentBranch = git name-rev --name-only HEAD
 
 # Check if the docstubs directory exists
 if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
     Write-Host "Removing docstubs directory"
     git rm -r '.\api-reference\docstubs'
     git commit -am "Remove docstubs directory"
-    git push
+    git push HEAD:$currentBranch
     Remove-Item -LiteralPath ".\api-reference\docstubs\" -Force -Recurse
 }
 
@@ -112,7 +113,7 @@ if( Test-Path '.\changelog\' -PathType Container) {
     Write-Host "Removing changelog directory"
     git rm -r '.\changelog\'
     git commit -am "Remove changelog directory"
-    git push
+    git push HEAD:$currentBranch
     Remove-Item -LiteralPath ".\changelog\" -Force -Recurse
 }
 
