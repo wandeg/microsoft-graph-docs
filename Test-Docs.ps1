@@ -95,6 +95,18 @@ else {
 	$downloadedApiDoctor = $true
 }
 
+# Check if the docstubs directory exists
+if( Test-Path '.\api-reference\docstubs\' -PathType Container) {
+    Write-Host "Docstubs directory has not been deleted. Aborting..."
+    exit 1
+}
+
+# Check if the changelog directory exists
+if( Test-Path '.\changelog\' -PathType Container) {
+    Write-Host "Changelog directory has not been deleted. Aborting..."
+    exit 1
+}
+
 $lastResultCode = 0
 
 # Run validation at the root of the repository
