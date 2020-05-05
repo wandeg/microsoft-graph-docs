@@ -1,0 +1,43 @@
+### Social and workplace intelligence
+
+| **Change type** | **Version** | **Description** |
+|:---|:---|:---|
+|Addition|changelog|Added the [profile](/graph/api/profile?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [itemFacet](/graph/api/itemFacet?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [inferenceData](/graph/api/inferenceData?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [identitySet](/graph/api/identitySet?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [identity](/graph/api/identity?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [dotoo](/graph/api/dotoo?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [personName](/graph/api/personName?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [yomiPersonName](/graph/api/yomiPersonName?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [itemPhone](/graph/api/itemPhone?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [educationalActivity](/graph/api/educationalActivity?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [educationalActivityDetail](/graph/api/educationalActivityDetail?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [institutionData](/graph/api/institutionData?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [physicalAddress](/graph/api/physicalAddress?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [geoCoordinates](/graph/api/geoCoordinates?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [itemEmail](/graph/api/itemEmail?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [languageProficiency](/graph/api/languageProficiency?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [userAccountInformation](/graph/api/userAccountInformation?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [localeInfo](/graph/api/localeInfo?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [personAnniversary](/graph/api/personAnniversary?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [personInterest](/graph/api/personInterest?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [projectParticipation](/graph/api/projectParticipation?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [positionDetail](/graph/api/positionDetail?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [companyDetail](/graph/api/companyDetail?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [relatedPerson](/graph/api/relatedPerson?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [skillProficiency](/graph/api/skillProficiency?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [webAccount](/graph/api/webAccount?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [serviceInformation](/graph/api/serviceInformation?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [personWebsite](/graph/api/personWebsite?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [workPosition](/graph/api/workPosition?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [regionalAndLanguageSettings](/graph/api/regionalAndLanguageSettings?view=graph-rest-beta) resource type
+|Addition|changelog|Added the [regionalFormatOverrides](/graph/api/regionalFormatOverrides?view=graph-rest-beta) resource type
+|Addition|changelog|Added the **allowedAudiences** enumeration type
+|Addition|changelog|Added the **phoneType** enumeration type
+|Addition|changelog|Added the **physicalAddressType** enumeration type
+|Addition|changelog|Added the **emailType** enumeration type
+|Addition|changelog|Added the **languageProficiencyLevel** enumeration type
+|Addition|changelog|Added the **anniversaryType** enumeration type
+|Addition|changelog|Added the **personRelationship** enumeration type
+|Addition|changelog|Added the **skillProficiencyLevel** enumeration type
