@@ -1,0 +1,60 @@
+---
+title: "adminConsentRequestPolicy resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# adminConsentRequestPolicy resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [entity](../resources/entity.md).
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|isEnabled|Boolean|**TODO: Add Description**|
+|notifyReviewers|Boolean|**TODO: Add Description**|
+|remindersEnabled|Boolean|**TODO: Add Description**|
+|requestDurationInDays|Int32|**TODO: Add Description**|
+|reviewers|[accessReviewScope](../resources/accessreviewscope.md) collection|**TODO: Add Description**|
+|version|Int32|**TODO: Add Description**|
+
+## Relationships
+None.
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.adminConsentRequestPolicy",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.adminConsentRequestPolicy",
+  "id": "String (identifier)",
+  "isEnabled": "Boolean",
+  "version": "Integer",
+  "notifyReviewers": "Boolean",
+  "remindersEnabled": "Boolean",
+  "requestDurationInDays": "Integer",
+  "reviewers": [
+    {
+      "@odata.type": "microsoft.graph.accessReviewScope"
+    }
+  ]
+}
+```
+

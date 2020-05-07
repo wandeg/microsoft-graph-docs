@@ -1,0 +1,90 @@
+---
+title: "Get governanceRoleAssignment"
+description: "Read the properties and relationships of a governanceRoleAssignment object."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Get governanceRoleAssignment
+
+Namespace: microsoft.graph
+
+Read the properties and relationships of a [governanceRoleAssignment](../resources/governanceroleassignment.md) object.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+GET /governanceRoleAssignments/{governanceRoleAssignmentsId}
+```
+
+## Optional query parameters
+This method supports some of the OData query parameters to help customize the response. For general information, see [OData query parameters](/graph/query-parameters).
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required.|
+
+## Request body
+Do not supply a request body for this method.
+
+## Response
+
+If successful, this method returns a `200 OK` response code and a [governanceRoleAssignment](../resources/governanceroleassignment.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "get_governanceroleassignment"
+}
+-->
+``` http
+GET https://graph.microsoft.com/beta/governanceRoleAssignments/{governanceRoleAssignmentsId}
+```
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.graph.governanceRoleAssignment"
+}
+-->
+``` http
+HTTP/1.1 200 OK
+Content-Type: application/json
+{
+  "value": {
+    "@odata.type": "#microsoft.graph.governanceRoleAssignment",
+    "id": "bd76e5a7-e5a7-bd76-a7e5-76bda7e576bd",
+    "resourceId": "String",
+    "roleDefinitionId": "String",
+    "subjectId": "String",
+    "linkedEligibleRoleAssignmentId": "String",
+    "externalId": "String",
+    "startDateTime": "String (timestamp)",
+    "endDateTime": "String (timestamp)",
+    "memberType": "String",
+    "assignmentState": "String",
+    "status": "String"
+  }
+}
+```
+

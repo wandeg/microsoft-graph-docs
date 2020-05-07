@@ -1,0 +1,63 @@
+---
+title: "detectedApp resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# detectedApp resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [entity](../resources/entity.md).
+
+## Methods
+|Method|Return type|Description|
+|:---|:---|:---|
+|[List managedDevices](../api/detectedapp-list-manageddevices.md)|[managedDevice](../resources/manageddevice.md) collection|Get the managedDevices from the managedDevices navigation property.|
+|[Add managedDevices](../api/detectedapp-post-manageddevices.md)|[managedDevice](../resources/manageddevice.md)|Add managedDevices by posting to the managedDevices collection.|
+|[Remove managedDevices](../api/detectedapp-delete-manageddevices.md)|None|Remove a [managedDevice](../resources/manageddevice.md) object.|
+|[List detectedApps](../api/manageddevice-list-detectedapps.md)|[detectedApp](../resources/detectedapp.md) collection|Get the detectedApps from the detectedApps navigation property.|
+|[Add detectedApps](../api/manageddevice-post-detectedapps.md)|[detectedApp](../resources/detectedapp.md)|Add detectedApps by posting to the detectedApps collection.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|deviceCount|Int32|**TODO: Add Description**|
+|displayName|String|**TODO: Add Description**|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|sizeInByte|Int64|**TODO: Add Description**|
+|version|String|**TODO: Add Description**|
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|managedDevices|[managedDevice](../resources/manageddevice.md) collection|**TODO: Add Description**|
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.detectedApp",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.detectedApp",
+  "id": "String (identifier)",
+  "displayName": "String",
+  "version": "String",
+  "sizeInByte": "Integer",
+  "deviceCount": "Integer"
+}
+```
+
