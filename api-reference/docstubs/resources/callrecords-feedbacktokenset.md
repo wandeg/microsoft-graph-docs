@@ -1,0 +1,36 @@
+---
+title: "feedbackTokenSet resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod**"
+doc_type: resourcePageType
+---
+
+# feedbackTokenSet resource type
+
+
+Namespace: microsoft.graph.callRecords
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+
+## Relationships
+None
+
+## JSON representation
+Here is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.callRecords.feedbackTokenSet"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.callRecords.feedbackTokenSet"
+}
+```
+
