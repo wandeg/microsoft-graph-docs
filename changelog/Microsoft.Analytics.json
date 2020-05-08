@@ -1,0 +1,1 @@
+{"changeList":[{"Id":"2020-05-08T06:46:53.155Z","ApiChange":"Resource","ChangedApiName":"AddressUrl","ChangeType":"Deletion","Description":"Removed the **AddressUrl** structure type","Target":"AddressUrl"}],"Id":"2020-05-08T06:46:53.155Z","CreatedBy":null,"Cloud":"prd","Version":"beta","CreatedDateTime":"2020-05-08T06:46:53.155Z","DocPRUrl":null,"WorkloadArea":""}
