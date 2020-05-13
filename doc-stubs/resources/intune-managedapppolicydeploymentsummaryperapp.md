@@ -1,0 +1,42 @@
+---
+title: "managedAppPolicyDeploymentSummaryPerApp resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# managedAppPolicyDeploymentSummaryPerApp resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|configurationAppliedUserCount|Int32|**TODO: Add Description**|
+|mobileAppIdentifier|[mobileAppIdentifier](../resources/intune-mobileappidentifier.md)|**TODO: Add Description**|
+
+## Relationships
+None.
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "@odata.type": "microsoft.graph.managedAppPolicyDeploymentSummaryPerApp"
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.managedAppPolicyDeploymentSummaryPerApp",
+  "mobileAppIdentifier": {
+    "@odata.type": "microsoft.graph.mobileAppIdentifier"
+  },
+  "configurationAppliedUserCount": "Integer"
+}
+```
+
