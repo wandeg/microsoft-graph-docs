@@ -1,0 +1,94 @@
+---
+title: "Add memberOf"
+description: "Add memberOf by posting to the memberOf collection."
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: apiPageType
+---
+
+# Add memberOf
+
+Namespace: microsoft.graph
+
+Add memberOf by posting to the memberOf collection.
+
+## Permissions
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/concepts/permissions-reference.md).
+
+|Permission type|Permissions (from most to least privileged)|
+|:---|:---|
+|Delegated (work or school account)|**TODO: Provide applicable permissions.**|
+|Delegated (personal Microsoft account)|**TODO: Provide applicable permissions.**|
+|Application|**TODO: Provide applicable permissions.**|
+
+## HTTP request
+
+<!-- {
+  "blockType": "ignored"
+}
+-->
+``` http
+POST /servicePrincipals/{servicePrincipalsId}/memberOf/$ref
+```
+
+## Request headers
+|Name|Description|
+|:---|:---|
+|Authorization|Bearer {token}. Required.|
+|Content-Type|application/json. Required.|
+
+## Request body
+In the request body, supply a JSON representation of the [directoryObject](../resources/directoryobject.md) object.
+
+The following table shows the properties that are required when you create the [directoryObject](../resources/directoryobject.md).
+
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description**|
+|deletedDateTime|DateTimeOffset|**TODO: Add Description**|
+
+
+
+## Response
+
+If successful, this method returns a `204 No Content` response code and a [directoryObject](../resources/directoryobject.md) object in the response body.
+
+## Examples
+
+### Request
+<!-- {
+  "blockType": "request",
+  "name": "create_directoryobject_from_directoryobjects"
+}
+-->
+``` http
+POST https://graph.microsoft.com/v1.0/servicePrincipals/{servicePrincipalsId}/memberOf/$ref
+Content-Type: application/json
+Content-length: 113
+
+{
+  "@odata.type": "#Microsoft.DirectoryServices.directoryObject",
+  "deletedDateTime": "String (timestamp)"
+}
+```
+
+
+### Response
+**Note:** The response object shown here might be shortened for readability.
+<!-- {
+  "blockType": "response",
+  "truncated": true,
+  "@odata.type": "microsoft.directoryservices.directoryobject"
+}
+-->
+``` http
+HTTP/1.1 204 No Content
+Content-Type: application/json
+{
+  "@odata.type": "#Microsoft.DirectoryServices.directoryObject",
+  "id": "cfe3db29-db29-cfe3-29db-e3cf29dbe3cf",
+  "deletedDateTime": "String (timestamp)"
+}
+```
+
