@@ -1,0 +1,51 @@
+---
+title: "licenseDetails resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# licenseDetails resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description**|
+|servicePlans|[servicePlanInfo](../resources/serviceplaninfo.md) collection|**TODO: Add Description**|
+|skuId|Guid|**TODO: Add Description**|
+|skuPartNumber|String|**TODO: Add Description**|
+
+## Relationships
+None.
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.licenseDetails",
+  "baseType": "",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.licenseDetails",
+  "id": "String (identifier)",
+  "servicePlans": [
+    {
+      "@odata.type": "microsoft.graph.servicePlanInfo"
+    }
+  ],
+  "skuId": "Guid",
+  "skuPartNumber": "String"
+}
+```
+
