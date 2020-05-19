@@ -1,0 +1,80 @@
+---
+title: "sharedInsight resource type"
+description: "**TODO: Add Description**"
+author: "**TODO: Provide Github Name. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+localization_priority: Normal
+ms.prod: "**TODO: Add MS prod. See [topic-level metadata reference](https://msgo.azurewebsites.net/add/document/guidelines/metadata.html#topic-level-metadata)**"
+doc_type: resourcePageType
+---
+
+# sharedInsight resource type
+
+
+Namespace: microsoft.graph
+
+**TODO: Add Description**
+
+
+Inherits from [entity](../resources/entity.md).
+
+## Methods
+|Method|Return type|Description|
+|:---|:---|:---|
+|[List shared](../api/officegraphinsights-list-shared.md)|[sharedInsight](../resources/sharedinsight.md) collection|Get the sharedInsights from the shared navigation property.|
+|[Create shared](../api/officegraphinsights-post-shared.md)|[sharedInsight](../resources/sharedinsight.md)|Create a new shared object.|
+|[Delete shared](../api/officegraphinsights-delete-shared.md)|None|Delete a [sharedInsight](../resources/sharedinsight.md) object.|
+|[Update shared](../api/officegraphinsights-update-shared.md)|[sharedInsight](../resources/sharedinsight.md)|Update the properties of a shared object.|
+|[Get shared](../api/officegraphinsights-get-sharedinsight.md)|[sharedInsight](../resources/sharedinsight.md)|Read the properties and relationships of a [sharedInsight](../resources/sharedinsight.md) object.|
+|[List lastSharedMethod](../api/sharedinsight-list-lastsharedmethod.md)|[entity](../resources/entity.md) collection|Get the entities from the lastSharedMethod navigation property.|
+|[Add lastSharedMethod](../api/sharedinsight-post-lastsharedmethod.md)|[entity](../resources/entity.md)|Add lastSharedMethod by posting to the lastSharedMethod collection.|
+|[Remove lastSharedMethod](../api/sharedinsight-delete-lastsharedmethod.md)|None|Remove an [entity](../resources/entity.md) object.|
+|[List resource](../api/sharedinsight-list-resource.md)|[entity](../resources/entity.md) collection|Get the entities from the resource navigation property.|
+|[Add resource](../api/sharedinsight-post-resource.md)|[entity](../resources/entity.md)|Add resource by posting to the resource collection.|
+|[Remove resource](../api/sharedinsight-delete-resource.md)|None|Remove an [entity](../resources/entity.md) object.|
+
+## Properties
+|Property|Type|Description|
+|:---|:---|:---|
+|id|String|**TODO: Add Description** Inherited from [entity](../resources/entity.md)|
+|lastShared|[sharingDetail](../resources/sharingdetail.md)|**TODO: Add Description**|
+|resourceReference|[resourceReference](../resources/resourcereference.md)|**TODO: Add Description**|
+|resourceVisualization|[resourceVisualization](../resources/resourcevisualization.md)|**TODO: Add Description**|
+|sharingHistory|[sharingDetail](../resources/sharingdetail.md) collection|**TODO: Add Description**|
+
+## Relationships
+|Relationship|Type|Description|
+|:---|:---|:---|
+|lastSharedMethod|[entity](../resources/entity.md)|**TODO: Add Description**|
+|resource|[entity](../resources/entity.md)|**TODO: Add Description**|
+
+## JSON representation
+The following is a JSON representation of the resource.
+<!-- {
+  "blockType": "resource",
+  "keyProperty": "id",
+  "@odata.type": "microsoft.graph.sharedInsight",
+  "baseType": "microsoft.graph.entity",
+  "openType": false
+}
+-->
+``` json
+{
+  "@odata.type": "#microsoft.graph.sharedInsight",
+  "id": "String (identifier)",
+  "lastShared": {
+    "@odata.type": "microsoft.graph.sharingDetail"
+  },
+  "sharingHistory": [
+    {
+      "@odata.type": "microsoft.graph.sharingDetail"
+    }
+  ],
+  "resourceVisualization": {
+    "@odata.type": "microsoft.graph.resourceVisualization"
+  },
+  "resourceReference": {
+    "@odata.type": "microsoft.graph.resourceReference"
+  }
+}
+```
+
